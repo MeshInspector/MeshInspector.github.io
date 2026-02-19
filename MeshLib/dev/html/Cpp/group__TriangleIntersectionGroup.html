@@ -159,6 +159,9 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:ga29e15a7eedf63140f179f6730b9ce2ec" id="r_ga29e15a7eedf63140f179f6730b9ce2ec"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga29e15a7eedf63140f179f6730b9ce2ec"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga29e15a7eedf63140f179f6730b9ce2ec">MR::rotateToLongestEdge</a> (<a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;a, <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;b, <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;c)</td></tr>
+<tr class="separator:ga29e15a7eedf63140f179f6730b9ce2ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga356b1104c8bddd98afba39fcbe5ee803" id="r_ga356b1104c8bddd98afba39fcbe5ee803"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga356b1104c8bddd98afba39fcbe5ee803"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga356b1104c8bddd98afba39fcbe5ee803">MR::doTrianglesIntersect</a> (<a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; a, <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; b, <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; c, <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; d, <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; e, <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; f)</td></tr>
 <tr class="separator:ga356b1104c8bddd98afba39fcbe5ee803"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -415,6 +418,8 @@ template&lt;typename T &gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRTriangleIntersection_8h.html">MRTriangleIntersection.h</a>&gt;</code></p>
 <p>checks whether triangles ABC and DEF intersect returns false if ABC and DEF are coplanar </p>
+<p>triangle ABC is degenerate</p>
+<p>triangle DEF is degenerate</p>
 <p>segment DE is located at one side of the plane ABC</p>
 <p>segment FD is located at one side of the plane ABC</p>
 <p>triangle DEF is located at one side of the plane ABC</p>
@@ -937,6 +942,37 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRTriangleIntersection_8h.html">MRTriangleIntersection.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="ga29e15a7eedf63140f179f6730b9ce2ec" name="ga29e15a7eedf63140f179f6730b9ce2ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga29e15a7eedf63140f179f6730b9ce2ec">&#9670;&#160;</a></span>rotateToLongestEdge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::rotateToLongestEdge </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>c</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRTriangleIntersection_8h.html">MRTriangleIntersection.h</a>&gt;</code></p>
+<p>given triangle ABC, rotates its vertices to make segment AB the longest on exit </p>
 
 </div>
 </div>

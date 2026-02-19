@@ -1,5 +1,6 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1Polynomial.html":[6,0,0,20,110],
 "structMR_1_1PolynomialWrapper.html":[6,0,0,20,111],
 "structMR_1_1PositionVertsSmoothlyParams.html":[6,0,0,20,405],
 "structMR_1_1PositionedText.html":[6,0,0,20,404],
@@ -248,6 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1TouchEndListener.html":[6,0,0,20,730],
 "structMR_1_1TouchMoveListener.html":[6,0,0,20,729],
 "structMR_1_1TouchStartListener.html":[6,0,0,20,728],
-"structMR_1_1TouchpadParameters.html":[6,0,0,20,684],
-"structMR_1_1TouchpadRotateGestureBeginListener.html":[6,0,0,20,734]
+"structMR_1_1TouchpadParameters.html":[6,0,0,20,684]
 };

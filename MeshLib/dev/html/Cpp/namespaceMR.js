@@ -2916,6 +2916,7 @@ var namespaceMR =
     [ "resolveMeshDegenerations", "group__DecimateGroup.html#ga881bb2eecb81e65b51d1cb8a52340637", null ],
     [ "reverse", "group__SurfacePathGroup.html#ga5ae89c778fe01228f20aa52aa2e160d0", null ],
     [ "reverse", "group__SurfacePathGroup.html#ga0f7d06cbd7188f3681347a12699a9cba", null ],
+    [ "rotateToLongestEdge", "group__TriangleIntersectionGroup.html#ga29e15a7eedf63140f179f6730b9ce2ec", null ],
     [ "roundToPrecision", "namespaceMR.html#a55241f8b5264ed4854873f6fedc3cee3", null ],
     [ "roundToPrecision", "namespaceMR.html#a13a3902f4af22aaa5fcd0817f8d925fd", null ],
     [ "same", "group__GeneralGroup.html#ga1c0d3c449b52a98c85522a1aa06c1e88", null ],

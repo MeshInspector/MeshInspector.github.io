@@ -9,6 +9,7 @@
     <includes local="no">cmath</includes>
     <includes local="no">limits</includes>
     <includes local="no">optional</includes>
+    <includedby refid="MRTriangleIntersection_8h" local="yes">MRTriangleIntersection.h</includedby>
     <incdepgraph>
       <node id="15">
         <label>MRConstants.h</label>
@@ -127,6 +128,18 @@
         <label>utility</label>
       </node>
     </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>MRTriMath.h</label>
+        <link refid="MRTriMath_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRTriangleIntersection.h</label>
+        <link refid="MRTriangleIntersection_8h"/>
+      </node>
+    </invincdepgraph>
     <innernamespace refid="namespaceMR">MR</innernamespace>
     <briefdescription>
     </briefdescription>

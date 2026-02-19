@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1TouchpadRotateGestureBeginListener.html":[6,0,0,20,734],
 "structMR_1_1TouchpadRotateGestureEndListener.html":[6,0,0,20,736],
 "structMR_1_1TouchpadRotateGestureUpdateListener.html":[6,0,0,20,735],
 "structMR_1_1TouchpadSwipeGestureBeginListener.html":[6,0,0,20,737],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1VectorTraits_3_01ImVec4_01_4.html":[6,0,0,20,699],
 "structMR_1_1VectorTraits_3_01Vector2_3_01T_01_4_01_4.html":[6,0,0,20,472],
 "structMR_1_1VectorTraits_3_01Vector3_3_01T_01_4_01_4.html":[6,0,0,20,473],
-"structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4.html":[6,0,0,20,474],
-"structMR_1_1VertDistance.html":[6,0,0,16,2,0]
+"structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4.html":[6,0,0,20,474]
 };

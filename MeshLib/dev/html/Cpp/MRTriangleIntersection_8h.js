@@ -16,5 +16,6 @@ var MRTriangleIntersection_8h =
     [ "isPointInTriangle", "MRTriangleIntersection_8h.html#ga604a5fdfb1c7fb0f6a4c7f10868d25da", null ],
     [ "isPointInTriangle", "MRTriangleIntersection_8h.html#ga746d797c724c3644c060dec600b7a05a", null ],
     [ "rayTriangleIntersect", "MRTriangleIntersection_8h.html#ga3835ac264c4e97d644c22d7412117309", null ],
-    [ "rayTriangleIntersect", "MRTriangleIntersection_8h.html#gaf5c17228b0533759ec08bc5a2c3e45ae", null ]
+    [ "rayTriangleIntersect", "MRTriangleIntersection_8h.html#gaf5c17228b0533759ec08bc5a2c3e45ae", null ],
+    [ "rotateToLongestEdge", "MRTriangleIntersection_8h.html#ga29e15a7eedf63140f179f6730b9ce2ec", null ]
 ];

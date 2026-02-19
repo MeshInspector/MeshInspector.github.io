@@ -789,6 +789,8 @@
       <node id="166">
         <label>MRTriMath.h</label>
         <link refid="MRTriMath_8h"/>
+        <childnode refid="141" relation="include">
+        </childnode>
       </node>
       <node id="141">
         <label>MRTriangleIntersection.h</label>
