@@ -65,7 +65,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="96" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="96" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1TriangulationHelpers_1_1TriangulatedFanData_1ac92e70e1a5084a5ab9f62287e8041e95" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1ac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref> std::priority_queue&lt; <ref refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement" kindref="compound">FanOptimizerQueueElement</ref> &gt;</type>
+        <type><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref> std::priority_queue&lt; <ref refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement" kindref="compound">FanOptimizerQueueElement</ref> &gt;</type>
         <definition>MR_BIND_IGNORE std::priority_queue&lt;FanOptimizerQueueElement&gt; MR::TriangulationHelpers::TriangulatedFanData::queue</definition>
         <argsstring></argsstring>
         <name>queue</name>

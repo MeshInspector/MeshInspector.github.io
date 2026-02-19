@@ -4,64 +4,19 @@
     <compoundname>MR::ThickenParams</compoundname>
     <includes refid="MROffsetVerts_8h" local="no">MROffsetVerts.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1ThickenParams_1a733a99389aa160de68b6109611d489c6" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::ThickenParams::outsideOffset</definition>
-        <argsstring></argsstring>
-        <name>outsideOffset</name>
-        <qualifiedname>MR::ThickenParams::outsideOffset</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-<para>the amount of offset for original mesh vertices </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetVerts.h" line="18" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetVerts.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ThickenParams_1a84e1ba01802eb40a5e2142beef606294" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::ThickenParams::insideOffset</definition>
-        <argsstring></argsstring>
-        <name>insideOffset</name>
-        <qualifiedname>MR::ThickenParams::insideOffset</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-<para>the amount of offset for cloned mirrored mesh vertices in the opposite direction </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetVerts.h" line="21" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetVerts.h" bodystart="21" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ThickenParams_1ac42c225e2b59dab20e2cbbea477458b1" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::ThickenParams::normalsTrustFactor</definition>
-        <argsstring></argsstring>
-        <name>normalsTrustFactor</name>
-        <qualifiedname>MR::ThickenParams::normalsTrustFactor</qualifiedname>
-        <initializer>= 1</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>increasing this value will lead mesh vertices to shift in the directions closer to their raw pseudo-normals, but it will increase the probability of self-intersections as well; decreasing (to a positive value) will on the contrary make the field of shift directions smoother </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetVerts.h" line="26" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetVerts.h" bodystart="26" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga733a99389aa160de68b6109611d489c6" kind="variable"><name>outsideOffset</name></member>
+      <member refid="group__GeneralGroup_1ga84e1ba01802eb40a5e2142beef606294" kind="variable"><name>insideOffset</name></member>
+      <member refid="group__GeneralGroup_1gac42c225e2b59dab20e2cbbea477458b1" kind="variable"><name>normalsTrustFactor</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetVerts.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetVerts.h" bodystart="16" bodyend="27"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetVerts.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetVerts.h" bodystart="19" bodyend="30"/>
     <listofallmembers>
-      <member refid="structMR_1_1ThickenParams_1a84e1ba01802eb40a5e2142beef606294" prot="public" virt="non-virtual"><scope>MR::ThickenParams</scope><name>insideOffset</name></member>
-      <member refid="structMR_1_1ThickenParams_1ac42c225e2b59dab20e2cbbea477458b1" prot="public" virt="non-virtual"><scope>MR::ThickenParams</scope><name>normalsTrustFactor</name></member>
-      <member refid="structMR_1_1ThickenParams_1a733a99389aa160de68b6109611d489c6" prot="public" virt="non-virtual"><scope>MR::ThickenParams</scope><name>outsideOffset</name></member>
+      <member refid="group__GeneralGroup_1ga84e1ba01802eb40a5e2142beef606294" prot="public" virt="non-virtual"><scope>MR::ThickenParams</scope><name>insideOffset</name></member>
+      <member refid="group__GeneralGroup_1gac42c225e2b59dab20e2cbbea477458b1" prot="public" virt="non-virtual"><scope>MR::ThickenParams</scope><name>normalsTrustFactor</name></member>
+      <member refid="group__GeneralGroup_1ga733a99389aa160de68b6109611d489c6" prot="public" virt="non-virtual"><scope>MR::ThickenParams</scope><name>outsideOffset</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

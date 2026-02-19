@@ -83,7 +83,7 @@
     </sectiondef>
     <sectiondef kind="public-func">
       <memberdef kind="function" id="classMR_1_1MeshSave_1_1BinaryStlSaver_1a8b13be4885e5257ed1d9da8dd8f89ade" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <type>MRMESH_API</type>
         <definition>MRMESH_API MR::MeshSave::BinaryStlSaver::BinaryStlSaver</definition>
         <argsstring>(std::ostream &amp;out, const SaveSettings &amp;settings={}, std::uint32_t expectedNumTris=0)</argsstring>
         <name>BinaryStlSaver</name>
@@ -112,13 +112,13 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="52" column="25"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshSave_1_1BinaryStlSaver_1aecf57a5dbf8536ae33209046c0311c7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <type>MRMESH_API bool</type>
         <definition>MRMESH_API bool MR::MeshSave::BinaryStlSaver::writeTri</definition>
         <argsstring>(const Triangle3f &amp;tri)</argsstring>
         <name>writeTri</name>
         <qualifiedname>MR::MeshSave::BinaryStlSaver::writeTri</qualifiedname>
         <param>
-          <type>const <ref refid="namespaceMR_1ac3b4f93ff16dbb5975ce8dec6adc39cf" kindref="member">Triangle3f</ref> &amp;</type>
+          <type>const Triangle3f &amp;</type>
           <declname>tri</declname>
         </param>
         <briefdescription>
@@ -131,7 +131,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="55" column="21"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshSave_1_1BinaryStlSaver_1a43fa5d1112624a0d82e4f10c1f88d3ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <type>MRMESH_API bool</type>
         <definition>MRMESH_API bool MR::MeshSave::BinaryStlSaver::updateHeadCounter</definition>
         <argsstring>()</argsstring>
         <name>updateHeadCounter</name>
@@ -146,7 +146,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSave.h" line="59" column="21"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshSave_1_1BinaryStlSaver_1a9b84e4f2ca3d6bc68c060051d858bbb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <type>MRMESH_API</type>
         <definition>MRMESH_API MR::MeshSave::BinaryStlSaver::~BinaryStlSaver</definition>
         <argsstring>()</argsstring>
         <name>~BinaryStlSaver</name>

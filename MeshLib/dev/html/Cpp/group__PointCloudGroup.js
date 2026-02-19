@@ -33,11 +33,11 @@ var group__PointCloudGroup =
       [ "type", "structMR_1_1PointCloudApproxRelaxParams.html#a5122f4607ef8eeb82d4765383d619a3d", null ]
     ] ],
     [ "MR::RegularMapMesher", "classMR_1_1RegularMapMesher.html", [
-      [ "createMesh", "classMR_1_1RegularMapMesher.html#acdde192d67f89fe363a158f3ee13f499", null ],
-      [ "loadDistances", "classMR_1_1RegularMapMesher.html#a351acfb608cafb88929a69ba41f63bfa", null ],
-      [ "setDirectionsPC", "classMR_1_1RegularMapMesher.html#a8556a43fd905bbb2cba1cb5bb5743739", null ],
-      [ "setDistances", "classMR_1_1RegularMapMesher.html#a48f6cd19965602a3fb9f4669c22e3c14", null ],
-      [ "setSurfacePC", "classMR_1_1RegularMapMesher.html#a9ed2cde9e77dce74ecb24b16eb4db785", null ]
+      [ "createMesh", "group__GeneralGroup.html#gacdde192d67f89fe363a158f3ee13f499", null ],
+      [ "loadDistances", "group__GeneralGroup.html#ga351acfb608cafb88929a69ba41f63bfa", null ],
+      [ "setDirectionsPC", "group__GeneralGroup.html#ga8556a43fd905bbb2cba1cb5bb5743739", null ],
+      [ "setDistances", "group__GeneralGroup.html#ga48f6cd19965602a3fb9f4669c22e3c14", null ],
+      [ "setSurfacePC", "group__GeneralGroup.html#ga9ed2cde9e77dce74ecb24b16eb4db785", null ]
     ] ],
     [ "MR::findAvgPointsRadius", "group__PointCloudGroup.html#ga65f914c5f869b8b554e8394912e5a7a3", null ],
     [ "MR::improveSampling", "group__PointCloudGroup.html#gad56601e20058641f49fa277149d87e08", null ],

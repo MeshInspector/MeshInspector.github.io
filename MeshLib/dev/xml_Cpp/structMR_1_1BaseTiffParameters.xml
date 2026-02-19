@@ -5,166 +5,17 @@
     <derivedcompoundref refid="structMR_1_1TiffParameters" prot="public" virt="non-virtual">MR::TiffParameters</derivedcompoundref>
     <includes refid="MRTiffIO_8h" local="no">MRTiffIO.h</includes>
     <sectiondef kind="public-type">
-      <memberdef kind="enum" id="structMR_1_1BaseTiffParameters_1aaf63d045d0a43afd72404a7a0d4f862f" prot="public" static="no" strong="yes">
-        <type></type>
-        <name>SampleType</name>
-        <qualifiedname>MR::BaseTiffParameters::SampleType</qualifiedname>
-        <enumvalue id="structMR_1_1BaseTiffParameters_1aaf63d045d0a43afd72404a7a0d4f862fa88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
-          <name>Unknown</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="structMR_1_1BaseTiffParameters_1aaf63d045d0a43afd72404a7a0d4f862fafa28cf323a8d44edbf80f68165f4f75b" prot="public">
-          <name>Uint</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="structMR_1_1BaseTiffParameters_1aaf63d045d0a43afd72404a7a0d4f862fa1686a6c336b71b36d77354cea19a8b52" prot="public">
-          <name>Int</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="structMR_1_1BaseTiffParameters_1aaf63d045d0a43afd72404a7a0d4f862fa22ae0e2b89e5e3d477f988cc36d3272b" prot="public">
-          <name>Float</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" line="15" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" bodystart="16" bodyend="21"/>
-      </memberdef>
-      <memberdef kind="enum" id="structMR_1_1BaseTiffParameters_1a29407caa933d6665768b37358d7733e0" prot="public" static="no" strong="yes">
-        <type></type>
-        <name>ValueType</name>
-        <qualifiedname>MR::BaseTiffParameters::ValueType</qualifiedname>
-        <enumvalue id="structMR_1_1BaseTiffParameters_1a29407caa933d6665768b37358d7733e0a88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
-          <name>Unknown</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="structMR_1_1BaseTiffParameters_1a29407caa933d6665768b37358d7733e0af60357a8d17e45793298323f1b372a74" prot="public">
-          <name>Scalar</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="structMR_1_1BaseTiffParameters_1a29407caa933d6665768b37358d7733e0a889574aebacda6bfd3e534e2b49b8028" prot="public">
-          <name>RGB</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="structMR_1_1BaseTiffParameters_1a29407caa933d6665768b37358d7733e0aea3495a278957dc58165e48a8945469f" prot="public">
-          <name>RGBA</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" line="23" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" bodystart="24" bodyend="29"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaaf63d045d0a43afd72404a7a0d4f862f" kind="enum"><name>SampleType</name></member>
+      <member refid="group__GeneralGroup_1ga29407caa933d6665768b37358d7733e0" kind="enum"><name>ValueType</name></member>
     </sectiondef>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1BaseTiffParameters_1a5a3058ad1eccd44efa6030c506332e44" prot="public" static="no" mutable="no">
-        <type>enum <ref refid="structMR_1_1BaseTiffParameters_1aaf63d045d0a43afd72404a7a0d4f862f" kindref="member">MR::BaseTiffParameters::SampleType</ref></type>
-        <definition>enum MR::BaseTiffParameters::SampleType MR::BaseTiffParameters::Unknown</definition>
-        <argsstring></argsstring>
-        <name>Unknown</name>
-        <qualifiedname>MR::BaseTiffParameters::Unknown</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" line="21" column="35"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1BaseTiffParameters_1adc1dce84dde29a56c33ce9d8fd1e0d8d" prot="public" static="no" mutable="no">
-        <type>enum <ref refid="structMR_1_1BaseTiffParameters_1a29407caa933d6665768b37358d7733e0" kindref="member">MR::BaseTiffParameters::ValueType</ref></type>
-        <definition>enum MR::BaseTiffParameters::ValueType MR::BaseTiffParameters::Unknown</definition>
-        <argsstring></argsstring>
-        <name>Unknown</name>
-        <qualifiedname>MR::BaseTiffParameters::Unknown</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" line="29" column="33"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1BaseTiffParameters_1a3ff0d181f2553f8714d635e264f383c7" prot="public" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::BaseTiffParameters::bytesPerSample</definition>
-        <argsstring></argsstring>
-        <name>bytesPerSample</name>
-        <qualifiedname>MR::BaseTiffParameters::bytesPerSample</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-<para>size of internal data in file </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" line="32" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" bodystart="32" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1BaseTiffParameters_1accde4306e1b219c38e5ff1880b053701" prot="public" static="no" mutable="no">
-        <type>Vector2i</type>
-        <definition>Vector2i MR::BaseTiffParameters::imageSize</definition>
-        <argsstring></argsstring>
-        <name>imageSize</name>
-        <qualifiedname>MR::BaseTiffParameters::imageSize</qualifiedname>
-        <briefdescription>
-<para>size of image if not layered, otherwise size of layer </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" line="35" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" bodystart="35" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga5a3058ad1eccd44efa6030c506332e44" kind="variable"><name>Unknown</name></member>
+      <member refid="group__GeneralGroup_1gadc1dce84dde29a56c33ce9d8fd1e0d8d" kind="variable"><name>Unknown</name></member>
+      <member refid="group__GeneralGroup_1ga3ff0d181f2553f8714d635e264f383c7" kind="variable"><name>bytesPerSample</name></member>
+      <member refid="group__GeneralGroup_1gaccde4306e1b219c38e5ff1880b053701" kind="variable"><name>imageSize</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1BaseTiffParameters_1a5ed2f87a9ee82e003bd56c8fe6c05185" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::BaseTiffParameters::operator==</definition>
-        <argsstring>(const BaseTiffParameters &amp;) const =default</argsstring>
-        <name>operator==</name>
-        <qualifiedname>MR::BaseTiffParameters::operator==</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1BaseTiffParameters" kindref="compound">BaseTiffParameters</ref> &amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" line="37" column="10"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga5ed2f87a9ee82e003bd56c8fe6c05185" kind="function"><name>operator==</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -182,15 +33,15 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" bodystart="14" bodyend="38"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" bodystart="17" bodyend="41"/>
     <listofallmembers>
-      <member refid="structMR_1_1BaseTiffParameters_1a3ff0d181f2553f8714d635e264f383c7" prot="public" virt="non-virtual"><scope>MR::BaseTiffParameters</scope><name>bytesPerSample</name></member>
-      <member refid="structMR_1_1BaseTiffParameters_1accde4306e1b219c38e5ff1880b053701" prot="public" virt="non-virtual"><scope>MR::BaseTiffParameters</scope><name>imageSize</name></member>
-      <member refid="structMR_1_1BaseTiffParameters_1a5ed2f87a9ee82e003bd56c8fe6c05185" prot="public" virt="non-virtual"><scope>MR::BaseTiffParameters</scope><name>operator==</name></member>
-      <member refid="structMR_1_1BaseTiffParameters_1aaf63d045d0a43afd72404a7a0d4f862f" prot="public" virt="non-virtual"><scope>MR::BaseTiffParameters</scope><name>SampleType</name></member>
-      <member refid="structMR_1_1BaseTiffParameters_1a5a3058ad1eccd44efa6030c506332e44" prot="public" virt="non-virtual"><scope>MR::BaseTiffParameters</scope><name>Unknown</name></member>
-      <member refid="structMR_1_1BaseTiffParameters_1adc1dce84dde29a56c33ce9d8fd1e0d8d" prot="public" virt="non-virtual"><scope>MR::BaseTiffParameters</scope><name>Unknown</name></member>
-      <member refid="structMR_1_1BaseTiffParameters_1a29407caa933d6665768b37358d7733e0" prot="public" virt="non-virtual"><scope>MR::BaseTiffParameters</scope><name>ValueType</name></member>
+      <member refid="group__GeneralGroup_1ga3ff0d181f2553f8714d635e264f383c7" prot="public" virt="non-virtual"><scope>MR::BaseTiffParameters</scope><name>bytesPerSample</name></member>
+      <member refid="group__GeneralGroup_1gaccde4306e1b219c38e5ff1880b053701" prot="public" virt="non-virtual"><scope>MR::BaseTiffParameters</scope><name>imageSize</name></member>
+      <member refid="group__GeneralGroup_1ga5ed2f87a9ee82e003bd56c8fe6c05185" prot="public" virt="non-virtual"><scope>MR::BaseTiffParameters</scope><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1gaaf63d045d0a43afd72404a7a0d4f862f" prot="public" virt="non-virtual"><scope>MR::BaseTiffParameters</scope><name>SampleType</name></member>
+      <member refid="group__GeneralGroup_1ga5a3058ad1eccd44efa6030c506332e44" prot="public" virt="non-virtual"><scope>MR::BaseTiffParameters</scope><name>Unknown</name></member>
+      <member refid="group__GeneralGroup_1gadc1dce84dde29a56c33ce9d8fd1e0d8d" prot="public" virt="non-virtual"><scope>MR::BaseTiffParameters</scope><name>Unknown</name></member>
+      <member refid="group__GeneralGroup_1ga29407caa933d6665768b37358d7733e0" prot="public" virt="non-virtual"><scope>MR::BaseTiffParameters</scope><name>ValueType</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -4,167 +4,32 @@
     <compoundname>MR::UniteManyMeshesParams</compoundname>
     <includes refid="MRUniteManyMeshes_8h" local="no">MRUniteManyMeshes.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1UniteManyMeshesParams_1ad905aa665d2879e62cb41d03eb580eab" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::UniteManyMeshesParams::useRandomShifts</definition>
-        <argsstring></argsstring>
-        <name>useRandomShifts</name>
-        <qualifiedname>MR::UniteManyMeshesParams::useRandomShifts</qualifiedname>
-        <initializer>{ false }</initializer>
-        <briefdescription>
-<para>Apply random shift to each mesh, to prevent degenerations on coincident surfaces. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniteManyMeshes.h" line="21" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniteManyMeshes.h" bodystart="21" bodyend="21"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1UniteManyMeshesParams_1a28505f79efacbde9b70d5d98148c26e4" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::UniteManyMeshesParams::fixDegenerations</definition>
-        <argsstring></argsstring>
-        <name>fixDegenerations</name>
-        <qualifiedname>MR::UniteManyMeshesParams::fixDegenerations</qualifiedname>
-        <initializer>{ false }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Try fix degenerations after each boolean step, to prevent boolean failure due to high amount of degenerated faces useful on meshes with many coincident surfaces (useRandomShifts used for same issue) </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniteManyMeshes.h" line="26" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniteManyMeshes.h" bodystart="26" bodyend="26"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1UniteManyMeshesParams_1a87d0c6c71297df5ccba6efb599d35f57" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::UniteManyMeshesParams::maxAllowedError</definition>
-        <argsstring></argsstring>
-        <name>maxAllowedError</name>
-        <qualifiedname>MR::UniteManyMeshesParams::maxAllowedError</qualifiedname>
-        <initializer>{ 1e-5f }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Max allowed random shifts in each direction, and max allowed deviation after degeneration fixing not used if both flags (useRandomShifts,fixDegenerations) are false </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniteManyMeshes.h" line="30" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniteManyMeshes.h" bodystart="30" bodyend="30"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1UniteManyMeshesParams_1a3a9dfe0c8c99c3913373200d1cb1ddfc" prot="public" static="no" mutable="no">
-        <type>unsigned int</type>
-        <definition>unsigned int MR::UniteManyMeshesParams::randomShiftsSeed</definition>
-        <argsstring></argsstring>
-        <name>randomShiftsSeed</name>
-        <qualifiedname>MR::UniteManyMeshesParams::randomShiftsSeed</qualifiedname>
-        <initializer>{ 0 }</initializer>
-        <briefdescription>
-<para>Seed that is used for random shifts. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniteManyMeshes.h" line="33" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniteManyMeshes.h" bodystart="33" bodyend="33"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1UniteManyMeshesParams_1ae80b58ee38488a2b5e0cd954e32231b4" prot="public" static="no" mutable="no">
-        <type>FaceBitSet *</type>
-        <definition>FaceBitSet* MR::UniteManyMeshesParams::newFaces</definition>
-        <argsstring></argsstring>
-        <name>newFaces</name>
-        <qualifiedname>MR::UniteManyMeshesParams::newFaces</qualifiedname>
-        <initializer>{ nullptr }</initializer>
-        <briefdescription>
-<para>If set, the bitset will store new faces created by boolean operations. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniteManyMeshes.h" line="36" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniteManyMeshes.h" bodystart="36" bodyend="36"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1UniteManyMeshesParams_1a28a4b396128672937ced813919301558" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1a58525252a9ee9abb57d352127584531f" kindref="member">NestedComponenetsMode</ref></type>
-        <definition>NestedComponenetsMode MR::UniteManyMeshesParams::nestedComponentsMode</definition>
-        <argsstring></argsstring>
-        <name>nestedComponentsMode</name>
-        <qualifiedname>MR::UniteManyMeshesParams::nestedComponentsMode</qualifiedname>
-        <initializer>{ <ref refid="namespaceMR_1a58525252a9ee9abb57d352127584531fa1063e38cb53d94d386f21227fcd84717" kindref="member">NestedComponenetsMode::Remove</ref> }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>By default function separate nested meshes and remove them, just like union operation should do read comment of NestedComponenetsMode enum for more information </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniteManyMeshes.h" line="40" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniteManyMeshes.h" bodystart="40" bodyend="40"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1UniteManyMeshesParams_1a37fc9fd84323ac5579854222ba3453c8" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::UniteManyMeshesParams::mergeOnFail</definition>
-        <argsstring></argsstring>
-        <name>mergeOnFail</name>
-        <qualifiedname>MR::UniteManyMeshesParams::mergeOnFail</qualifiedname>
-        <initializer>{ false }</initializer>
-        <briefdescription>
-<para>If set - merges meshes instead of booleaning it if boolean operation fails. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniteManyMeshes.h" line="43" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniteManyMeshes.h" bodystart="43" bodyend="43"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1UniteManyMeshesParams_1ac647b8fce386278e1b3407f1b5f314e5" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::UniteManyMeshesParams::forceCut</definition>
-        <argsstring></argsstring>
-        <name>forceCut</name>
-        <qualifiedname>MR::UniteManyMeshesParams::forceCut</qualifiedname>
-        <initializer>= false</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>If this option is enabled boolean will try to cut meshes even if there are self-intersections in intersecting area it might work in some cases, but in general it might prevent fast error report and lead to other errors along the way <simplesect kind="warning"><para>not recommended in most cases </para>
-</simplesect>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniteManyMeshes.h" line="48" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniteManyMeshes.h" bodystart="48" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1UniteManyMeshesParams_1ab9881bd75997eb09cd8e02b82b95bfd1" prot="public" static="no" mutable="no">
-        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
-        <definition>ProgressCallback MR::UniteManyMeshesParams::progressCb</definition>
-        <argsstring></argsstring>
-        <name>progressCb</name>
-        <qualifiedname>MR::UniteManyMeshesParams::progressCb</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniteManyMeshes.h" line="50" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniteManyMeshes.h" bodystart="50" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gad905aa665d2879e62cb41d03eb580eab" kind="variable"><name>useRandomShifts</name></member>
+      <member refid="group__GeneralGroup_1ga28505f79efacbde9b70d5d98148c26e4" kind="variable"><name>fixDegenerations</name></member>
+      <member refid="group__GeneralGroup_1ga87d0c6c71297df5ccba6efb599d35f57" kind="variable"><name>maxAllowedError</name></member>
+      <member refid="group__GeneralGroup_1ga3a9dfe0c8c99c3913373200d1cb1ddfc" kind="variable"><name>randomShiftsSeed</name></member>
+      <member refid="group__GeneralGroup_1gae80b58ee38488a2b5e0cd954e32231b4" kind="variable"><name>newFaces</name></member>
+      <member refid="group__GeneralGroup_1ga28a4b396128672937ced813919301558" kind="variable"><name>nestedComponentsMode</name></member>
+      <member refid="group__GeneralGroup_1ga37fc9fd84323ac5579854222ba3453c8" kind="variable"><name>mergeOnFail</name></member>
+      <member refid="group__GeneralGroup_1gac647b8fce386278e1b3407f1b5f314e5" kind="variable"><name>forceCut</name></member>
+      <member refid="group__GeneralGroup_1gab9881bd75997eb09cd8e02b82b95bfd1" kind="variable"><name>progressCb</name></member>
     </sectiondef>
     <briefdescription>
 <para>Parameters structure for uniteManyMeshes function. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniteManyMeshes.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniteManyMeshes.h" bodystart="19" bodyend="51"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniteManyMeshes.h" line="21" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniteManyMeshes.h" bodystart="22" bodyend="54"/>
     <listofallmembers>
-      <member refid="structMR_1_1UniteManyMeshesParams_1a28505f79efacbde9b70d5d98148c26e4" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>fixDegenerations</name></member>
-      <member refid="structMR_1_1UniteManyMeshesParams_1ac647b8fce386278e1b3407f1b5f314e5" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>forceCut</name></member>
-      <member refid="structMR_1_1UniteManyMeshesParams_1a87d0c6c71297df5ccba6efb599d35f57" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>maxAllowedError</name></member>
-      <member refid="structMR_1_1UniteManyMeshesParams_1a37fc9fd84323ac5579854222ba3453c8" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>mergeOnFail</name></member>
-      <member refid="structMR_1_1UniteManyMeshesParams_1a28a4b396128672937ced813919301558" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>nestedComponentsMode</name></member>
-      <member refid="structMR_1_1UniteManyMeshesParams_1ae80b58ee38488a2b5e0cd954e32231b4" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>newFaces</name></member>
-      <member refid="structMR_1_1UniteManyMeshesParams_1ab9881bd75997eb09cd8e02b82b95bfd1" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>progressCb</name></member>
-      <member refid="structMR_1_1UniteManyMeshesParams_1a3a9dfe0c8c99c3913373200d1cb1ddfc" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>randomShiftsSeed</name></member>
-      <member refid="structMR_1_1UniteManyMeshesParams_1ad905aa665d2879e62cb41d03eb580eab" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>useRandomShifts</name></member>
+      <member refid="group__GeneralGroup_1ga28505f79efacbde9b70d5d98148c26e4" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>fixDegenerations</name></member>
+      <member refid="group__GeneralGroup_1gac647b8fce386278e1b3407f1b5f314e5" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>forceCut</name></member>
+      <member refid="group__GeneralGroup_1ga87d0c6c71297df5ccba6efb599d35f57" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>maxAllowedError</name></member>
+      <member refid="group__GeneralGroup_1ga37fc9fd84323ac5579854222ba3453c8" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>mergeOnFail</name></member>
+      <member refid="group__GeneralGroup_1ga28a4b396128672937ced813919301558" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>nestedComponentsMode</name></member>
+      <member refid="group__GeneralGroup_1gae80b58ee38488a2b5e0cd954e32231b4" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>newFaces</name></member>
+      <member refid="group__GeneralGroup_1gab9881bd75997eb09cd8e02b82b95bfd1" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>progressCb</name></member>
+      <member refid="group__GeneralGroup_1ga3a9dfe0c8c99c3913373200d1cb1ddfc" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>randomShiftsSeed</name></member>
+      <member refid="group__GeneralGroup_1gad905aa665d2879e62cb41d03eb580eab" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>useRandomShifts</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

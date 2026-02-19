@@ -2,109 +2,103 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="MRFeatureHelpers_8h" kind="file" language="C++">
     <compoundname>MRFeatureHelpers.h</compoundname>
-    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
+    <includes local="yes">MRMeshFwd.h</includes>
     <includes refid="MRFeatureObject_8h" local="yes">MRFeatureObject.h</includes>
     <includes local="no">unordered_map</includes>
     <includes local="no">unordered_set</includes>
     <incdepgraph>
-      <node id="28">
+      <node id="20">
         <label>MRAffineXf.h</label>
         <link refid="MRAffineXf_8h"/>
-        <childnode refid="5" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="26" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-      </node>
-      <node id="16">
-        <label>MRAffineXf3.h</label>
-        <link refid="MRAffineXf3_8h"/>
-        <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="28" relation="include">
-        </childnode>
-      </node>
-      <node id="29">
-        <label>MRBitSet.h</label>
-        <link refid="MRBitSet_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="30" relation="include">
-        </childnode>
-        <childnode refid="31" relation="include">
-        </childnode>
-        <childnode refid="32" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="26" relation="include">
-        </childnode>
-        <childnode refid="35" relation="include">
-        </childnode>
-      </node>
-      <node id="36">
-        <label>MRBox.h</label>
-        <link refid="MRBox_8h"/>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="37" relation="include">
-        </childnode>
-        <childnode refid="23" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="26" relation="include">
-        </childnode>
-        <childnode refid="38" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-      </node>
-      <node id="4">
-        <label>MRMesh/MRCanonicalTypedefs.h</label>
-        <link refid="MRCanonicalTypedefs_8h"/>
-        <childnode refid="5" relation="include">
-        </childnode>
-      </node>
-      <node id="53">
-        <label>MRColor.h</label>
-        <link refid="MRColor_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="18" relation="include">
         </childnode>
-        <childnode refid="54" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
       </node>
-      <node id="22">
+      <node id="6">
+        <label>MRAffineXf3.h</label>
+        <link refid="MRAffineXf3_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>MRBitSet.h</label>
+        <link refid="MRBitSet_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>MRBox.h</label>
+        <link refid="MRBox_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="51">
+        <label>MRColor.h</label>
+        <link refid="MRColor_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
-      <node id="56">
+      <node id="54">
         <label>MREnums.h</label>
         <link refid="MREnums_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
-      <node id="39">
+      <node id="34">
         <label>MRExpected.h</label>
         <link refid="MRExpected_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="40" relation="include">
+        <childnode refid="35" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="36" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -112,436 +106,413 @@
         <link refid="MRFeatureHelpers_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="64" relation="include">
-        </childnode>
-        <childnode refid="65" relation="include">
-        </childnode>
-      </node>
-      <node id="13">
-        <label>MRFeatureObject.h</label>
-        <link refid="MRFeatureObject_8h"/>
-        <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="62" relation="include">
         </childnode>
         <childnode refid="63" relation="include">
         </childnode>
       </node>
-      <node id="59">
-        <label>MRMesh/MRFlagOperators.h</label>
-        <link refid="MRFlagOperators_8h"/>
-        <childnode refid="21" relation="include">
+      <node id="3">
+        <label>MRFeatureObject.h</label>
+        <link refid="MRFeatureObject_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
         </childnode>
       </node>
       <node id="57">
+        <label>MRMesh/MRFlagOperators.h</label>
+        <link refid="MRFlagOperators_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="55">
         <label>MRHeapBytes.h</label>
         <link refid="MRHeapBytes_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
         <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="49" relation="include">
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
         </childnode>
       </node>
-      <node id="58">
+      <node id="56">
         <label>MRIRenderObject.h</label>
         <link refid="MRIRenderObject_8h"/>
-        <childnode refid="59" relation="include">
+        <childnode refid="57" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="60" relation="include">
+        <childnode refid="58" relation="include">
         </childnode>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="45" relation="include">
+        <childnode refid="41" relation="include">
         </childnode>
-        <childnode refid="55" relation="include">
+        <childnode refid="53" relation="include">
         </childnode>
-        <childnode refid="54" relation="include">
+        <childnode refid="52" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
+        <childnode refid="28" relation="include">
         </childnode>
-        <childnode refid="61" relation="include">
+        <childnode refid="59" relation="include">
         </childnode>
-        <childnode refid="49" relation="include">
+        <childnode refid="46" relation="include">
         </childnode>
       </node>
-      <node id="30">
+      <node id="22">
         <label>MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-        <childnode refid="27" relation="include">
-        </childnode>
-      </node>
-      <node id="52">
-        <label>MRImage.h</label>
-        <link refid="MRImage_8h"/>
-        <childnode refid="53" relation="include">
-        </childnode>
-        <childnode refid="55" relation="include">
-        </childnode>
-        <childnode refid="56" relation="include">
-        </childnode>
-        <childnode refid="57" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
         <childnode refid="8" relation="include">
         </childnode>
-      </node>
-      <node id="5">
-        <label>MRMesh/MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
-      </node>
-      <node id="17">
-        <label>MRMatrix3.h</label>
-        <link refid="MRMatrix3_8h"/>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
-        <childnode refid="26" relation="include">
-        </childnode>
-      </node>
-      <node id="2">
-        <label>MRMeshFwd.h</label>
-        <link refid="MRMeshFwd_8h"/>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
       </node>
-      <node id="51">
-        <label>MRMeshTexture.h</label>
-        <link refid="MRMeshTexture_8h"/>
-        <childnode refid="52" relation="include">
+      <node id="50">
+        <label>MRImage.h</label>
+        <link refid="MRImage_8h"/>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
         </childnode>
         <childnode refid="54" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
         </childnode>
       </node>
-      <node id="15">
+      <node id="8">
+        <label>MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="7">
+        <label>MRMatrix3.h</label>
+        <link refid="MRMatrix3_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>MRMeshTexture.h</label>
+        <link refid="MRMeshTexture_8h"/>
+        <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
         <label>MRObject.h</label>
         <link refid="MRObject_8h"/>
-        <childnode refid="16" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="29" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
-        <childnode refid="36" relation="include">
+        <childnode refid="30" relation="include">
         </childnode>
-        <childnode refid="39" relation="include">
+        <childnode refid="34" relation="include">
         </childnode>
-        <childnode refid="41" relation="include">
+        <childnode refid="37" relation="include">
         </childnode>
-        <childnode refid="42" relation="include">
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
         </childnode>
         <childnode refid="44" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
         </childnode>
         <childnode refid="47" relation="include">
         </childnode>
         <childnode refid="48" relation="include">
         </childnode>
-        <childnode refid="49" relation="include">
-        </childnode>
-        <childnode refid="50" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
       </node>
-      <node id="41">
+      <node id="37">
         <label>MRProgressCallback.h</label>
         <link refid="MRProgressCallback_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
-        <childnode refid="24" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
       </node>
-      <node id="60">
+      <node id="58">
         <label>MRRenderModelParameters.h</label>
         <link refid="MRRenderModelParameters_8h"/>
-        <childnode refid="59" relation="include">
+        <childnode refid="57" relation="include">
         </childnode>
       </node>
-      <node id="33">
+      <node id="26">
         <label>MRResizeNoInit.h</label>
         <link refid="MRResizeNoInit_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="34" relation="include">
+        <childnode refid="27" relation="include">
         </childnode>
       </node>
-      <node id="42">
+      <node id="38">
         <label>MRSignal.h</label>
         <link refid="MRSignal_8h"/>
-        <childnode refid="43" relation="include">
+        <childnode refid="39" relation="include">
         </childnode>
       </node>
-      <node id="62">
+      <node id="60">
         <label>MRUniquePtr.h</label>
         <link refid="MRUniquePtr_8h"/>
-        <childnode refid="49" relation="include">
+        <childnode refid="46" relation="include">
         </childnode>
       </node>
-      <node id="19">
+      <node id="10">
         <label>MRMesh/MRUnsigned.h</label>
         <link refid="MRUnsigned_8h"/>
-        <childnode refid="20" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-      </node>
-      <node id="32">
-        <label>MRVector.h</label>
-        <link refid="MRVector_8h"/>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="33" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
       </node>
-      <node id="55">
+      <node id="25">
+        <label>MRVector.h</label>
+        <link refid="MRVector_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="53">
         <label>MRVector2.h</label>
         <link refid="MRVector2_8h"/>
-        <childnode refid="5" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="23" relation="include">
-        </childnode>
-        <childnode refid="24" relation="include">
-        </childnode>
-        <childnode refid="25" relation="include">
-        </childnode>
-        <childnode refid="26" relation="include">
-        </childnode>
-        <childnode refid="27" relation="include">
-        </childnode>
-      </node>
-      <node id="18">
-        <label>MRVector3.h</label>
-        <link refid="MRVector3_8h"/>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="23" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="24" relation="include">
-        </childnode>
-        <childnode refid="25" relation="include">
-        </childnode>
-        <childnode refid="26" relation="include">
-        </childnode>
-        <childnode refid="27" relation="include">
-        </childnode>
-      </node>
-      <node id="54">
-        <label>MRVector4.h</label>
-        <link refid="MRVector4_8h"/>
-        <childnode refid="24" relation="include">
-        </childnode>
-        <childnode refid="26" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
         <childnode refid="18" relation="include">
         </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
       </node>
-      <node id="37">
-        <label>MRVectorTraits.h</label>
-        <link refid="MRMesh_2MRVectorTraits_8h"/>
+      <node id="9">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="52">
+        <label>MRVector4.h</label>
+        <link refid="MRVector4_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
       </node>
-      <node id="45">
+      <node id="31">
+        <label>MRVectorTraits.h</label>
+        <link refid="MRMesh_2MRVectorTraits_8h"/>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="41">
         <label>MRViewportId.h</label>
         <link refid="MRViewportId_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
       </node>
-      <node id="44">
+      <node id="40">
         <label>MRViewportProperty.h</label>
         <link refid="MRViewportProperty_8h"/>
-        <childnode refid="45" relation="include">
+        <childnode refid="41" relation="include">
         </childnode>
-        <childnode refid="46" relation="include">
+        <childnode refid="42" relation="include">
         </childnode>
       </node>
-      <node id="14">
+      <node id="4">
         <label>MRMesh/MRVisualObject.h</label>
         <link refid="MRVisualObject_8h"/>
-        <childnode refid="15" relation="include">
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
         </childnode>
         <childnode refid="51" relation="include">
         </childnode>
-        <childnode refid="32" relation="include">
-        </childnode>
-        <childnode refid="53" relation="include">
-        </childnode>
-        <childnode refid="58" relation="include">
-        </childnode>
-        <childnode refid="62" relation="include">
-        </childnode>
         <childnode refid="56" relation="include">
         </childnode>
+        <childnode refid="60" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
       </node>
-      <node id="3">
-        <label>config.h</label>
-        <link refid="MRMesh_2config_8h"/>
+      <node id="32">
+        <label>MRMesh/MRMeshFwd.h</label>
       </node>
-      <node id="6">
+      <node id="2">
+        <label>MRMeshFwd.h</label>
+      </node>
+      <node id="14">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="40">
+      <node id="35">
         <label>MRPch/MRExpected.h</label>
       </node>
-      <node id="31">
+      <node id="24">
         <label>MRphmap.h</label>
       </node>
-      <node id="23">
+      <node id="15">
         <label>algorithm</label>
       </node>
-      <node id="7">
+      <node id="43">
         <label>array</label>
       </node>
-      <node id="43">
+      <node id="39">
         <label>boost/signals2/signal.hpp</label>
       </node>
-      <node id="12">
+      <node id="23">
         <label>cassert</label>
       </node>
-      <node id="24">
+      <node id="16">
         <label>cmath</label>
       </node>
-      <node id="34">
+      <node id="27">
         <label>concepts</label>
       </node>
-      <node id="20">
+      <node id="11">
         <label>cstddef</label>
       </node>
-      <node id="25">
+      <node id="17">
         <label>cstring</label>
       </node>
-      <node id="47">
+      <node id="44">
         <label>filesystem</label>
       </node>
-      <node id="11">
+      <node id="28">
         <label>functional</label>
       </node>
-      <node id="48">
+      <node id="45">
         <label>future</label>
       </node>
-      <node id="26">
+      <node id="18">
         <label>iosfwd</label>
       </node>
-      <node id="35">
+      <node id="29">
         <label>iterator</label>
       </node>
-      <node id="38">
+      <node id="33">
         <label>limits</label>
       </node>
-      <node id="46">
+      <node id="42">
         <label>map</label>
       </node>
-      <node id="49">
+      <node id="46">
         <label>memory</label>
       </node>
-      <node id="10">
-        <label>parallel_hashmap/phmap_fwd_decl.h</label>
-      </node>
-      <node id="50">
+      <node id="47">
         <label>set</label>
       </node>
-      <node id="9">
+      <node id="36">
         <label>string</label>
       </node>
-      <node id="21">
+      <node id="12">
         <label>type_traits</label>
       </node>
-      <node id="61">
+      <node id="59">
         <label>typeindex</label>
       </node>
-      <node id="64">
+      <node id="62">
         <label>unordered_map</label>
       </node>
-      <node id="65">
+      <node id="63">
         <label>unordered_set</label>
       </node>
-      <node id="27">
+      <node id="19">
         <label>utility</label>
       </node>
-      <node id="63">
+      <node id="61">
         <label>variant</label>
       </node>
-      <node id="8">
+      <node id="48">
         <label>vector</label>
       </node>
     </incdepgraph>
@@ -561,7 +532,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRFeatureObject_8h" kindref="compound">MRFeatureObject.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>MR_COMPILING_C_BINDINGS</highlight><highlight class="normal"></highlight></codeline>
@@ -573,126 +544,127 @@
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="14"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="namespaceMR_1a0e2748a930a13a0cacf2a0a2da1b6e0d" refkind="member"><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a0e2748a930a13a0cacf2a0a2da1b6e0d" kindref="member">FeaturesObjectKind</ref></highlight></codeline>
-<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a0e2748a930a13a0cacf2a0a2da1b6e0da2a3cd5946cfd317eb99c3d32e35e2d4c" kindref="member">Point</ref>,</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a0e2748a930a13a0cacf2a0a2da1b6e0da4803e6b9e63dabf04de980788d6a13c4" kindref="member">Line</ref>,</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a0e2748a930a13a0cacf2a0a2da1b6e0da0d3adee051531c15b3509b4d4d75ce7b" kindref="member">Plane</ref>,</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a0e2748a930a13a0cacf2a0a2da1b6e0da30954d90085f6eaaf5817917fc5fecb3" kindref="member">Circle</ref>,</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a0e2748a930a13a0cacf2a0a2da1b6e0dab7095f057db3fefa7325ad93a04e14fd" kindref="member">Sphere</ref>,</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a0e2748a930a13a0cacf2a0a2da1b6e0da2ec2c2961c7ce5a114d969c1f562a563" kindref="member">Cylinder</ref>,</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a0e2748a930a13a0cacf2a0a2da1b6e0dacd2c8bc6e5f1ea17c918ccaf89660104" kindref="member">Cone</ref>,</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a0e2748a930a13a0cacf2a0a2da1b6e0dad69186af02738a9b3ced1bc5b652ba55" kindref="member">_count</ref>,</highlight></codeline>
-<codeline lineno="28"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31" refid="structMR_1_1ObjKindTraits" refkind="compound"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;FeaturesObjectKind<sp/>X&gt;<sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ObjKindTraits" kindref="compound">ObjKindTraits</ref></highlight></codeline>
-<codeline lineno="32"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="33"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="34" refid="structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Point_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;<sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ObjKindTraits" kindref="compound">ObjKindTraits</ref>&lt;<ref refid="namespaceMR_1a0e2748a930a13a0cacf2a0a2da1b6e0d" kindref="member">FeaturesObjectKind</ref>::<ref refid="namespaceMR_1a0e2748a930a13a0cacf2a0a2da1b6e0da2a3cd5946cfd317eb99c3d32e35e2d4c" kindref="member">Point</ref>&gt;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="group__GeneralGroup_1ga0e2748a930a13a0cacf2a0a2da1b6e0d" refkind="member"><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0e2748a930a13a0cacf2a0a2da1b6e0d" kindref="member">FeaturesObjectKind</ref></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga0e2748a930a13a0cacf2a0a2da1b6e0da2a3cd5946cfd317eb99c3d32e35e2d4c" kindref="member">Point</ref>,</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga0e2748a930a13a0cacf2a0a2da1b6e0da4803e6b9e63dabf04de980788d6a13c4" kindref="member">Line</ref>,</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga0e2748a930a13a0cacf2a0a2da1b6e0da0d3adee051531c15b3509b4d4d75ce7b" kindref="member">Plane</ref>,</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga0e2748a930a13a0cacf2a0a2da1b6e0da30954d90085f6eaaf5817917fc5fecb3" kindref="member">Circle</ref>,</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga0e2748a930a13a0cacf2a0a2da1b6e0dab7095f057db3fefa7325ad93a04e14fd" kindref="member">Sphere</ref>,</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga0e2748a930a13a0cacf2a0a2da1b6e0da2ec2c2961c7ce5a114d969c1f562a563" kindref="member">Cylinder</ref>,</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga0e2748a930a13a0cacf2a0a2da1b6e0dacd2c8bc6e5f1ea17c918ccaf89660104" kindref="member">Cone</ref>,</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga0e2748a930a13a0cacf2a0a2da1b6e0dad69186af02738a9b3ced1bc5b652ba55" kindref="member">_count</ref>,</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="structMR_1_1ObjKindTraits" refkind="compound"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;FeaturesObjectKind<sp/>X&gt;<sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ObjKindTraits" kindref="compound">ObjKindTraits</ref></highlight></codeline>
 <codeline lineno="35"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="36" refid="structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Point_01_4_1a7c6810eee2e81dd56d902c959a18d117" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1PointObject" kindref="compound">type</ref><sp/>=<sp/><ref refid="classMR_1_1PointObject" kindref="compound">PointObject</ref>;</highlight></codeline>
-<codeline lineno="37" refid="structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Point_01_4_1a4ff9367a1c91bd02dbf05904dd874612" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>std::string_view<sp/>name<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Point&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="38"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="39" refid="structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Line_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;<sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ObjKindTraits" kindref="compound">ObjKindTraits</ref>&lt;<ref refid="namespaceMR_1a0e2748a930a13a0cacf2a0a2da1b6e0d" kindref="member">FeaturesObjectKind</ref>::<ref refid="structMR_1_1Line" kindref="compound">Line</ref>&gt;</highlight></codeline>
-<codeline lineno="40"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="41" refid="structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Line_01_4_1ae118fa6ed40ec5fb3e1ce843d0591f6b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1LineObject" kindref="compound">type</ref><sp/>=<sp/><ref refid="classMR_1_1LineObject" kindref="compound">LineObject</ref>;</highlight></codeline>
-<codeline lineno="42" refid="structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Line_01_4_1a0b7a1942dcf429a9cb761a48551b59b4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>std::string_view<sp/>name<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Line&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="43"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="44" refid="structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Plane_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;<sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ObjKindTraits" kindref="compound">ObjKindTraits</ref>&lt;<ref refid="namespaceMR_1a0e2748a930a13a0cacf2a0a2da1b6e0d" kindref="member">FeaturesObjectKind</ref>::<ref refid="namespaceMR_1a0e2748a930a13a0cacf2a0a2da1b6e0da0d3adee051531c15b3509b4d4d75ce7b" kindref="member">Plane</ref>&gt;</highlight></codeline>
-<codeline lineno="45"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="46" refid="structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Plane_01_4_1a6cce32400bcbe22e29d7873410a975f9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1PlaneObject" kindref="compound">type</ref><sp/>=<sp/><ref refid="classMR_1_1PlaneObject" kindref="compound">PlaneObject</ref>;</highlight></codeline>
-<codeline lineno="47" refid="structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Plane_01_4_1ae43aec6103d11ca5ace40c97b424a96d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>std::string_view<sp/>name<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Plane&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="48"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="49" refid="structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Circle_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;<sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ObjKindTraits" kindref="compound">ObjKindTraits</ref>&lt;<ref refid="namespaceMR_1a0e2748a930a13a0cacf2a0a2da1b6e0d" kindref="member">FeaturesObjectKind</ref>::<ref refid="namespaceMR_1a0e2748a930a13a0cacf2a0a2da1b6e0da30954d90085f6eaaf5817917fc5fecb3" kindref="member">Circle</ref>&gt;</highlight></codeline>
-<codeline lineno="50"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="51" refid="structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Circle_01_4_1a8c3def19c3370adb07aa8f4dc2dac79a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1CircleObject" kindref="compound">type</ref><sp/>=<sp/><ref refid="classMR_1_1CircleObject" kindref="compound">CircleObject</ref>;</highlight></codeline>
-<codeline lineno="52" refid="structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Circle_01_4_1a0464dcaba6eaf42436bd5129dfb30b7b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>std::string_view<sp/>name<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Circle&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="53"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="54" refid="structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Sphere_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;<sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ObjKindTraits" kindref="compound">ObjKindTraits</ref>&lt;<ref refid="namespaceMR_1a0e2748a930a13a0cacf2a0a2da1b6e0d" kindref="member">FeaturesObjectKind</ref>::<ref refid="structMR_1_1Sphere" kindref="compound">Sphere</ref>&gt;</highlight></codeline>
-<codeline lineno="55"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="56" refid="structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Sphere_01_4_1af790be1acb4e05aaea55fd8ac0a82a65" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1SphereObject" kindref="compound">type</ref><sp/>=<sp/><ref refid="classMR_1_1SphereObject" kindref="compound">SphereObject</ref>;</highlight></codeline>
-<codeline lineno="57" refid="structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Sphere_01_4_1a654c8022c9c5668e3fcc035778f7aa68" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>std::string_view<sp/>name<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Sphere&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="58"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="59" refid="structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cylinder_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;<sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ObjKindTraits" kindref="compound">ObjKindTraits</ref>&lt;<ref refid="namespaceMR_1a0e2748a930a13a0cacf2a0a2da1b6e0d" kindref="member">FeaturesObjectKind</ref>::<ref refid="namespaceMR_1a0e2748a930a13a0cacf2a0a2da1b6e0da2ec2c2961c7ce5a114d969c1f562a563" kindref="member">Cylinder</ref>&gt;</highlight></codeline>
-<codeline lineno="60"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="61" refid="structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cylinder_01_4_1aae1ec7a21db6e2c624a1e93117a86ec5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1CylinderObject" kindref="compound">type</ref><sp/>=<sp/><ref refid="classMR_1_1CylinderObject" kindref="compound">CylinderObject</ref>;</highlight></codeline>
-<codeline lineno="62" refid="structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cylinder_01_4_1a5fb393cfdc8d6023ef41e801c5b62859" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>std::string_view<sp/>name<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Cylinder&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="63"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="64" refid="structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cone_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;<sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ObjKindTraits" kindref="compound">ObjKindTraits</ref>&lt;<ref refid="namespaceMR_1a0e2748a930a13a0cacf2a0a2da1b6e0d" kindref="member">FeaturesObjectKind</ref>::<ref refid="namespaceMR_1a0e2748a930a13a0cacf2a0a2da1b6e0dacd2c8bc6e5f1ea17c918ccaf89660104" kindref="member">Cone</ref>&gt;</highlight></codeline>
-<codeline lineno="65"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="66" refid="structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cone_01_4_1a763d4517cb20617afe59faf89b895749" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ConeObject" kindref="compound">type</ref><sp/>=<sp/><ref refid="classMR_1_1ConeObject" kindref="compound">ConeObject</ref>;</highlight></codeline>
-<codeline lineno="67" refid="structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cone_01_4_1aa88aa1fd9f18a40bfe07b17bfc6d0a6d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>std::string_view<sp/>name<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Cone&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="68"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="69"><highlight class="normal"></highlight></codeline>
-<codeline lineno="71"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>F&gt;</highlight></codeline>
-<codeline lineno="72" refid="namespaceMR_1a5c9fd829c3ac9510359b4250c4afa70b" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a5c9fd829c3ac9510359b4250c4afa70b" kindref="member">forEachObjectKind</ref>(<sp/>F&amp;&amp;<sp/>func<sp/>)</highlight></codeline>
-<codeline lineno="73"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">[&amp;]&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>...I&gt;(<sp/>std::integer_sequence&lt;int,<sp/><ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref>...&gt;<sp/>)</highlight></codeline>
-<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<sp/>func(<sp/>std::integral_constant&lt;<ref refid="namespaceMR_1a0e2748a930a13a0cacf2a0a2da1b6e0d" kindref="member">FeaturesObjectKind</ref>,<sp/><ref refid="namespaceMR_1a0e2748a930a13a0cacf2a0a2da1b6e0d" kindref="member">FeaturesObjectKind</ref>(<sp/><ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref><sp/>)&gt;{}<sp/>)<sp/>||<sp/>...<sp/>);</highlight></codeline>
-<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>}(<sp/>std::make_integer_sequence&lt;int,<sp/>int(<sp/><ref refid="namespaceMR_1a0e2748a930a13a0cacf2a0a2da1b6e0dad69186af02738a9b3ced1bc5b652ba55" kindref="member">FeaturesObjectKind::_count</ref><sp/>)&gt;{}<sp/>);</highlight></codeline>
-<codeline lineno="78"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="79"><highlight class="normal"></highlight></codeline>
-<codeline lineno="81"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>...P&gt;</highlight></codeline>
-<codeline lineno="82" refid="namespaceMR_1aa21f89f30d57138088912b6cf0d2215e" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>std::shared_ptr&lt;VisualObject&gt;<sp/><ref refid="namespaceMR_1aa21f89f30d57138088912b6cf0d2215e" kindref="member">makeObjectFromEnum</ref>(<sp/><ref refid="namespaceMR_1a0e2748a930a13a0cacf2a0a2da1b6e0d" kindref="member">FeaturesObjectKind</ref><sp/>kind,<sp/>P&amp;&amp;...<sp/>params<sp/>)</highlight></codeline>
-<codeline lineno="83"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;VisualObject&gt;<sp/>ret;</highlight></codeline>
-<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>[[maybe_unused]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ok<sp/>=<sp/><ref refid="namespaceMR_1a5c9fd829c3ac9510359b4250c4afa70b" kindref="member">forEachObjectKind</ref>(<sp/>[&amp;]<sp/>(<sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>thisKind<sp/>)</highlight></codeline>
-<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>thisKind.value<sp/>==<sp/>kind<sp/>)</highlight></codeline>
-<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ret<sp/>=<sp/>std::make_shared&lt;typename<sp/>ObjKindTraits&lt;thisKind.value&gt;::type&gt;(<sp/>std::forward&lt;P&gt;(<sp/>params<sp/>)...<sp/>);</highlight></codeline>
-<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>true;</highlight></codeline>
-<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/>);</highlight></codeline>
-<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>assert(<sp/>ok<sp/>&amp;&amp;<sp/></highlight><highlight class="stringliteral">&quot;This<sp/>object<sp/>type<sp/>isn&apos;t<sp/>added<sp/>to<sp/>`ObjKindTraits`.&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
-<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
-<codeline lineno="96"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="97"><highlight class="normal"></highlight></codeline>
-<codeline lineno="99"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>...P&gt;</highlight></codeline>
-<codeline lineno="100" refid="namespaceMR_1ae69d6d886eeae936d8c70e983d245cd5" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>std::shared_ptr&lt;VisualObject&gt;<sp/><ref refid="namespaceMR_1ae69d6d886eeae936d8c70e983d245cd5" kindref="member">makeObjectFromClassName</ref>(<sp/>std::string<sp/>className,<sp/>P&amp;&amp;...<sp/>params<sp/>)</highlight></codeline>
-<codeline lineno="101"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;VisualObject&gt;<sp/>ret;</highlight></codeline>
-<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>[[maybe_unused]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ok<sp/>=<sp/><ref refid="namespaceMR_1a5c9fd829c3ac9510359b4250c4afa70b" kindref="member">forEachObjectKind</ref>(<sp/>[&amp;]<sp/>(<sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>thisKind<sp/>)</highlight></codeline>
-<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/><ref refid="structMR_1_1ObjKindTraits" kindref="compound">ObjKindTraits&lt;thisKind.value&gt;::name</ref><sp/>==<sp/>className<sp/>)</highlight></codeline>
-<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ret<sp/>=<sp/>std::make_shared&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ObjKindTraits" kindref="compound">ObjKindTraits</ref>&lt;thisKind.value&gt;::type&gt;(<sp/>std::forward&lt;P&gt;(<sp/>params<sp/>)...<sp/>);</highlight></codeline>
-<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/>);</highlight></codeline>
-<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>assert(<sp/>ok<sp/>&amp;&amp;<sp/></highlight><highlight class="stringliteral">&quot;This<sp/>object<sp/>type<sp/>isn&apos;t<sp/>added<sp/>to<sp/>`ObjKindTraits`.&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
-<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
-<codeline lineno="114"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="115"><highlight class="normal"></highlight></codeline>
-<codeline lineno="116"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
-<codeline lineno="117" refid="conceptMR_1_1HasGetNormalMethod" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">concept<sp/></highlight><highlight class="normal"><ref refid="conceptMR_1_1HasGetNormalMethod" kindref="compound">HasGetNormalMethod</ref><sp/>=<sp/></highlight><highlight class="keyword">requires</highlight><highlight class="normal">(<sp/>T<sp/>t<sp/>)</highlight></codeline>
-<codeline lineno="118"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t.getNormal()</highlight></codeline>
-<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/>-&gt;<sp/>std::convertible_to&lt;Vector3f&gt;;</highlight></codeline>
-<codeline lineno="122"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="123"><highlight class="normal"></highlight></codeline>
-<codeline lineno="124"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
-<codeline lineno="125" refid="conceptMR_1_1HasGetDirectionMethod" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">concept<sp/></highlight><highlight class="normal"><ref refid="conceptMR_1_1HasGetDirectionMethod" kindref="compound">HasGetDirectionMethod</ref><sp/>=<sp/></highlight><highlight class="keyword">requires</highlight><highlight class="normal">(<sp/>T<sp/>t<sp/>)</highlight></codeline>
-<codeline lineno="126"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t.getDirection()</highlight></codeline>
-<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/>-&gt;<sp/>std::convertible_to&lt;Vector3f&gt;;</highlight></codeline>
-<codeline lineno="130"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="131"><highlight class="normal"></highlight></codeline>
-<codeline lineno="133" refid="namespaceMR_1a161bbd3a2147b79505e87110d929c90f" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;Vector3f&gt;<sp/><ref refid="namespaceMR_1a161bbd3a2147b79505e87110d929c90f" kindref="member">getFeatureNormal</ref>(<sp/><ref refid="classMR_1_1FeatureObject" kindref="compound">FeatureObject</ref>*<sp/>feature<sp/>);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="37" refid="structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Point_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;<sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ObjKindTraits" kindref="compound">ObjKindTraits</ref>&lt;<ref refid="group__GeneralGroup_1ga0e2748a930a13a0cacf2a0a2da1b6e0d" kindref="member">FeaturesObjectKind</ref>::<ref refid="group__GeneralGroup_1gga0e2748a930a13a0cacf2a0a2da1b6e0da2a3cd5946cfd317eb99c3d32e35e2d4c" kindref="member">Point</ref>&gt;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="39" refid="group__GeneralGroup_1ga7c6810eee2e81dd56d902c959a18d117" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1PointObject" kindref="compound">type</ref><sp/>=<sp/><ref refid="classMR_1_1PointObject" kindref="compound">PointObject</ref>;</highlight></codeline>
+<codeline lineno="40" refid="group__GeneralGroup_1ga4ff9367a1c91bd02dbf05904dd874612" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>std::string_view<sp/>name<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Point&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="42" refid="structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Line_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;<sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ObjKindTraits" kindref="compound">ObjKindTraits</ref>&lt;<ref refid="group__GeneralGroup_1ga0e2748a930a13a0cacf2a0a2da1b6e0d" kindref="member">FeaturesObjectKind</ref>::<ref refid="structMR_1_1Line" kindref="compound">Line</ref>&gt;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="44" refid="group__GeneralGroup_1gae118fa6ed40ec5fb3e1ce843d0591f6b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1LineObject" kindref="compound">type</ref><sp/>=<sp/><ref refid="classMR_1_1LineObject" kindref="compound">LineObject</ref>;</highlight></codeline>
+<codeline lineno="45" refid="group__GeneralGroup_1ga0b7a1942dcf429a9cb761a48551b59b4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>std::string_view<sp/>name<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Line&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="47" refid="structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Plane_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;<sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ObjKindTraits" kindref="compound">ObjKindTraits</ref>&lt;<ref refid="group__GeneralGroup_1ga0e2748a930a13a0cacf2a0a2da1b6e0d" kindref="member">FeaturesObjectKind</ref>::<ref refid="group__GeneralGroup_1gga0e2748a930a13a0cacf2a0a2da1b6e0da0d3adee051531c15b3509b4d4d75ce7b" kindref="member">Plane</ref>&gt;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="49" refid="group__GeneralGroup_1ga6cce32400bcbe22e29d7873410a975f9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1PlaneObject" kindref="compound">type</ref><sp/>=<sp/><ref refid="classMR_1_1PlaneObject" kindref="compound">PlaneObject</ref>;</highlight></codeline>
+<codeline lineno="50" refid="group__GeneralGroup_1gae43aec6103d11ca5ace40c97b424a96d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>std::string_view<sp/>name<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Plane&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="52" refid="structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Circle_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;<sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ObjKindTraits" kindref="compound">ObjKindTraits</ref>&lt;<ref refid="group__GeneralGroup_1ga0e2748a930a13a0cacf2a0a2da1b6e0d" kindref="member">FeaturesObjectKind</ref>::<ref refid="group__GeneralGroup_1gga0e2748a930a13a0cacf2a0a2da1b6e0da30954d90085f6eaaf5817917fc5fecb3" kindref="member">Circle</ref>&gt;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="54" refid="group__GeneralGroup_1ga8c3def19c3370adb07aa8f4dc2dac79a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1CircleObject" kindref="compound">type</ref><sp/>=<sp/><ref refid="classMR_1_1CircleObject" kindref="compound">CircleObject</ref>;</highlight></codeline>
+<codeline lineno="55" refid="group__GeneralGroup_1ga0464dcaba6eaf42436bd5129dfb30b7b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>std::string_view<sp/>name<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Circle&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="57" refid="structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Sphere_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;<sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ObjKindTraits" kindref="compound">ObjKindTraits</ref>&lt;<ref refid="group__GeneralGroup_1ga0e2748a930a13a0cacf2a0a2da1b6e0d" kindref="member">FeaturesObjectKind</ref>::<ref refid="structMR_1_1Sphere" kindref="compound">Sphere</ref>&gt;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="59" refid="group__GeneralGroup_1gaf790be1acb4e05aaea55fd8ac0a82a65" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1SphereObject" kindref="compound">type</ref><sp/>=<sp/><ref refid="classMR_1_1SphereObject" kindref="compound">SphereObject</ref>;</highlight></codeline>
+<codeline lineno="60" refid="group__GeneralGroup_1ga654c8022c9c5668e3fcc035778f7aa68" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>std::string_view<sp/>name<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Sphere&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="62" refid="structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cylinder_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;<sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ObjKindTraits" kindref="compound">ObjKindTraits</ref>&lt;<ref refid="group__GeneralGroup_1ga0e2748a930a13a0cacf2a0a2da1b6e0d" kindref="member">FeaturesObjectKind</ref>::<ref refid="group__GeneralGroup_1gga0e2748a930a13a0cacf2a0a2da1b6e0da2ec2c2961c7ce5a114d969c1f562a563" kindref="member">Cylinder</ref>&gt;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="64" refid="group__GeneralGroup_1gaae1ec7a21db6e2c624a1e93117a86ec5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1CylinderObject" kindref="compound">type</ref><sp/>=<sp/><ref refid="classMR_1_1CylinderObject" kindref="compound">CylinderObject</ref>;</highlight></codeline>
+<codeline lineno="65" refid="group__GeneralGroup_1ga5fb393cfdc8d6023ef41e801c5b62859" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>std::string_view<sp/>name<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Cylinder&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="67" refid="structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cone_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;<sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ObjKindTraits" kindref="compound">ObjKindTraits</ref>&lt;<ref refid="group__GeneralGroup_1ga0e2748a930a13a0cacf2a0a2da1b6e0d" kindref="member">FeaturesObjectKind</ref>::<ref refid="group__GeneralGroup_1gga0e2748a930a13a0cacf2a0a2da1b6e0dacd2c8bc6e5f1ea17c918ccaf89660104" kindref="member">Cone</ref>&gt;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="69" refid="group__GeneralGroup_1ga763d4517cb20617afe59faf89b895749" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ConeObject" kindref="compound">type</ref><sp/>=<sp/><ref refid="classMR_1_1ConeObject" kindref="compound">ConeObject</ref>;</highlight></codeline>
+<codeline lineno="70" refid="group__GeneralGroup_1gaa88aa1fd9f18a40bfe07b17bfc6d0a6d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>std::string_view<sp/>name<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Cone&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>F&gt;</highlight></codeline>
+<codeline lineno="75" refid="group__GeneralGroup_1ga5c9fd829c3ac9510359b4250c4afa70b" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5c9fd829c3ac9510359b4250c4afa70b" kindref="member">forEachObjectKind</ref>(<sp/>F&amp;&amp;<sp/>func<sp/>)</highlight></codeline>
+<codeline lineno="76"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">[&amp;]&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>...I&gt;(<sp/>std::integer_sequence&lt;int,<sp/>I...&gt;<sp/>)</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<sp/>func(<sp/>std::integral_constant&lt;<ref refid="group__GeneralGroup_1ga0e2748a930a13a0cacf2a0a2da1b6e0d" kindref="member">FeaturesObjectKind</ref>,<sp/><ref refid="group__GeneralGroup_1ga0e2748a930a13a0cacf2a0a2da1b6e0d" kindref="member">FeaturesObjectKind</ref>(<sp/>I<sp/>)&gt;{}<sp/>)<sp/>||<sp/>...<sp/>);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>}(<sp/>std::make_integer_sequence&lt;int,<sp/>int(<sp/><ref refid="group__GeneralGroup_1gga0e2748a930a13a0cacf2a0a2da1b6e0dad69186af02738a9b3ced1bc5b652ba55" kindref="member">FeaturesObjectKind::_count</ref><sp/>)&gt;{}<sp/>);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>...P&gt;</highlight></codeline>
+<codeline lineno="85" refid="group__GeneralGroup_1gaa21f89f30d57138088912b6cf0d2215e" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>std::shared_ptr&lt;VisualObject&gt;<sp/><ref refid="group__GeneralGroup_1gaa21f89f30d57138088912b6cf0d2215e" kindref="member">makeObjectFromEnum</ref>(<sp/><ref refid="group__GeneralGroup_1ga0e2748a930a13a0cacf2a0a2da1b6e0d" kindref="member">FeaturesObjectKind</ref><sp/>kind,<sp/>P&amp;&amp;...<sp/>params<sp/>)</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;VisualObject&gt;<sp/>ret;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>[[maybe_unused]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ok<sp/>=<sp/><ref refid="group__GeneralGroup_1ga5c9fd829c3ac9510359b4250c4afa70b" kindref="member">forEachObjectKind</ref>(<sp/>[&amp;]<sp/>(<sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>thisKind<sp/>)</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>thisKind.value<sp/>==<sp/>kind<sp/>)</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ret<sp/>=<sp/>std::make_shared&lt;typename<sp/>ObjKindTraits&lt;thisKind.value&gt;::type&gt;(<sp/>std::forward&lt;P&gt;(<sp/>params<sp/>)...<sp/>);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>true;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/>);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>assert(<sp/>ok<sp/>&amp;&amp;<sp/></highlight><highlight class="stringliteral">&quot;This<sp/>object<sp/>type<sp/>isn&apos;t<sp/>added<sp/>to<sp/>`ObjKindTraits`.&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>...P&gt;</highlight></codeline>
+<codeline lineno="103" refid="group__GeneralGroup_1gae69d6d886eeae936d8c70e983d245cd5" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>std::shared_ptr&lt;VisualObject&gt;<sp/><ref refid="group__GeneralGroup_1gae69d6d886eeae936d8c70e983d245cd5" kindref="member">makeObjectFromClassName</ref>(<sp/>std::string<sp/>className,<sp/>P&amp;&amp;...<sp/>params<sp/>)</highlight></codeline>
+<codeline lineno="104"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;VisualObject&gt;<sp/>ret;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>[[maybe_unused]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ok<sp/>=<sp/><ref refid="group__GeneralGroup_1ga5c9fd829c3ac9510359b4250c4afa70b" kindref="member">forEachObjectKind</ref>(<sp/>[&amp;]<sp/>(<sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>thisKind<sp/>)</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/><ref refid="structMR_1_1ObjKindTraits" kindref="compound">ObjKindTraits&lt;thisKind.value&gt;::name</ref><sp/>==<sp/>className<sp/>)</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ret<sp/>=<sp/>std::make_shared&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ObjKindTraits" kindref="compound">ObjKindTraits</ref>&lt;thisKind.value&gt;::type&gt;(<sp/>std::forward&lt;P&gt;(<sp/>params<sp/>)...<sp/>);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/>);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>assert(<sp/>ok<sp/>&amp;&amp;<sp/></highlight><highlight class="stringliteral">&quot;This<sp/>object<sp/>type<sp/>isn&apos;t<sp/>added<sp/>to<sp/>`ObjKindTraits`.&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="120" refid="conceptMR_1_1HasGetNormalMethod" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">concept<sp/></highlight><highlight class="normal"><ref refid="conceptMR_1_1HasGetNormalMethod" kindref="compound">HasGetNormalMethod</ref><sp/>=<sp/></highlight><highlight class="keyword">requires</highlight><highlight class="normal">(<sp/>T<sp/>t<sp/>)</highlight></codeline>
+<codeline lineno="121"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t.getNormal()</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/>-&gt;<sp/>std::convertible_to&lt;Vector3f&gt;;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="128" refid="conceptMR_1_1HasGetDirectionMethod" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">concept<sp/></highlight><highlight class="normal"><ref refid="conceptMR_1_1HasGetDirectionMethod" kindref="compound">HasGetDirectionMethod</ref><sp/>=<sp/></highlight><highlight class="keyword">requires</highlight><highlight class="normal">(<sp/>T<sp/>t<sp/>)</highlight></codeline>
+<codeline lineno="129"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t.getDirection()</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/>-&gt;<sp/>std::convertible_to&lt;Vector3f&gt;;</highlight></codeline>
+<codeline lineno="133"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="134"><highlight class="normal"></highlight></codeline>
-<codeline lineno="136" refid="namespaceMR_1a04713a302796cba586c7e4caa99b88a3" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;Vector3f&gt;<sp/><ref refid="namespaceMR_1a04713a302796cba586c7e4caa99b88a3" kindref="member">getFeatureDirection</ref>(<sp/><ref refid="classMR_1_1FeatureObject" kindref="compound">FeatureObject</ref>*<sp/>feature<sp/>);</highlight></codeline>
+<codeline lineno="136" refid="group__GeneralGroup_1ga161bbd3a2147b79505e87110d929c90f" refkind="member"><highlight class="normal">MRMESH_API<sp/>std::optional&lt;Vector3f&gt;<sp/><ref refid="group__GeneralGroup_1ga161bbd3a2147b79505e87110d929c90f" kindref="member">getFeatureNormal</ref>(<sp/><ref refid="classMR_1_1FeatureObject" kindref="compound">FeatureObject</ref>*<sp/>feature<sp/>);</highlight></codeline>
 <codeline lineno="137"><highlight class="normal"></highlight></codeline>
-<codeline lineno="139" refid="namespaceMR_1a9c700488babfd327228e53e26abd88e2" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::unordered_set&lt;std::string&gt;<sp/><ref refid="namespaceMR_1a9c700488babfd327228e53e26abd88e2" kindref="member">getFeaturesTypeWithNormals</ref>();</highlight></codeline>
+<codeline lineno="139" refid="group__GeneralGroup_1ga04713a302796cba586c7e4caa99b88a3" refkind="member"><highlight class="normal">MRMESH_API<sp/>std::optional&lt;Vector3f&gt;<sp/><ref refid="group__GeneralGroup_1ga04713a302796cba586c7e4caa99b88a3" kindref="member">getFeatureDirection</ref>(<sp/><ref refid="classMR_1_1FeatureObject" kindref="compound">FeatureObject</ref>*<sp/>feature<sp/>);</highlight></codeline>
 <codeline lineno="140"><highlight class="normal"></highlight></codeline>
-<codeline lineno="142" refid="namespaceMR_1a1cea967678dc1380181a3337893ebf96" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::unordered_set&lt;std::string&gt;<sp/><ref refid="namespaceMR_1a1cea967678dc1380181a3337893ebf96" kindref="member">getFeaturesTypeWithDirections</ref>();</highlight></codeline>
+<codeline lineno="142" refid="group__GeneralGroup_1ga9c700488babfd327228e53e26abd88e2" refkind="member"><highlight class="normal">MRMESH_API<sp/>std::unordered_set&lt;std::string&gt;<sp/><ref refid="group__GeneralGroup_1ga9c700488babfd327228e53e26abd88e2" kindref="member">getFeaturesTypeWithNormals</ref>();</highlight></codeline>
 <codeline lineno="143"><highlight class="normal"></highlight></codeline>
-<codeline lineno="144"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="145" refid="group__GeneralGroup_1ga1cea967678dc1380181a3337893ebf96" refkind="member"><highlight class="normal">MRMESH_API<sp/>std::unordered_set&lt;std::string&gt;<sp/><ref refid="group__GeneralGroup_1ga1cea967678dc1380181a3337893ebf96" kindref="member">getFeaturesTypeWithDirections</ref>();</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal">}<sp/></highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureHelpers.h"/>
   </compounddef>

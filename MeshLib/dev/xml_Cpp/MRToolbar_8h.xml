@@ -3,51 +3,47 @@
   <compounddef id="MRToolbar_8h" kind="file" language="C++">
     <compoundname>MRToolbar.h</compoundname>
     <includes local="yes">exports.h</includes>
-    <includes refid="MRMeshFwd_8h" local="yes">MRMesh/MRMeshFwd.h</includes>
+    <includes local="yes">MRMesh/MRMeshFwd.h</includes>
     <includes refid="MRColor_8h" local="yes">MRMesh/MRColor.h</includes>
     <includes local="no">json/forwards.h</includes>
     <includes local="no">map</includes>
     <includes local="no">vector</includes>
     <includes local="no">string</includes>
     <incdepgraph>
-      <node id="5">
-        <label>MRMesh/MRCanonicalTypedefs.h</label>
-        <link refid="MRCanonicalTypedefs_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
-      </node>
-      <node id="14">
+      <node id="4">
         <label>MRMesh/MRColor.h</label>
         <link refid="MRColor_8h"/>
-        <childnode refid="3" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="25" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
       </node>
-      <node id="19">
+      <node id="11">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
-      <node id="6">
-        <label>MRMesh/MRMacros.h</label>
+      <node id="7">
+        <label>MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
-      <node id="3">
-        <label>MRMesh/MRMeshFwd.h</label>
-        <link refid="MRMeshFwd_8h"/>
-        <childnode refid="4" relation="include">
+      <node id="8">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
+      </node>
+      <node id="6">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
         <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
@@ -55,58 +51,30 @@
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
-      </node>
-      <node id="16">
-        <label>MRMesh/MRUnsigned.h</label>
-        <link refid="MRUnsigned_8h"/>
-        <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-      </node>
-      <node id="15">
-        <label>MRVector3.h</label>
-        <link refid="MRVector3_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
-        <childnode refid="23" relation="include">
-        </childnode>
-        <childnode refid="24" relation="include">
-        </childnode>
-      </node>
-      <node id="25">
-        <label>MRVector4.h</label>
-        <link refid="MRVector4_8h"/>
-        <childnode refid="21" relation="include">
-        </childnode>
-        <childnode refid="23" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
       </node>
-      <node id="4">
-        <label>config.h</label>
-        <link refid="MRMesh_2config_8h"/>
+      <node id="18">
+        <label>MRVector4.h</label>
+        <link refid="MRVector4_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
       </node>
       <node id="1">
         <label>MRToolbar.h</label>
@@ -115,66 +83,60 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="26" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="27" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="22" relation="include">
         </childnode>
       </node>
-      <node id="7">
+      <node id="3">
+        <label>MRMesh/MRMeshFwd.h</label>
+      </node>
+      <node id="5">
+        <label>MRMeshFwd.h</label>
+      </node>
+      <node id="12">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="20">
+      <node id="13">
         <label>algorithm</label>
       </node>
-      <node id="8">
-        <label>array</label>
-      </node>
-      <node id="13">
-        <label>cassert</label>
-      </node>
-      <node id="21">
+      <node id="14">
         <label>cmath</label>
       </node>
-      <node id="17">
+      <node id="9">
         <label>cstddef</label>
       </node>
-      <node id="22">
+      <node id="15">
         <label>cstring</label>
       </node>
       <node id="2">
         <label>exports.h</label>
       </node>
-      <node id="12">
-        <label>functional</label>
-      </node>
-      <node id="23">
+      <node id="16">
         <label>iosfwd</label>
       </node>
-      <node id="26">
+      <node id="19">
         <label>json/forwards.h</label>
       </node>
-      <node id="27">
+      <node id="20">
         <label>map</label>
       </node>
-      <node id="11">
-        <label>parallel_hashmap/phmap_fwd_decl.h</label>
-      </node>
-      <node id="10">
+      <node id="22">
         <label>string</label>
       </node>
-      <node id="18">
+      <node id="10">
         <label>type_traits</label>
       </node>
-      <node id="24">
+      <node id="17">
         <label>utility</label>
       </node>
-      <node id="9">
+      <node id="21">
         <label>vector</label>
       </node>
     </incdepgraph>
@@ -188,7 +150,7 @@
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;exports.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMesh/MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMesh/MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRColor_8h" kindref="compound">MRMesh/MRColor.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;json/forwards.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;map&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -197,58 +159,59 @@
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="12"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1a8201e149aed09ff61bb82c538012fbd1" kindref="member">MenuItemsList</ref><sp/>=<sp/>std::vector&lt;std::string&gt;;</highlight></codeline>
-<codeline lineno="14" refid="namespaceMR_1a0ce9bf70afa23e6d6ac9a65c5bf19cf3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1a0ce9bf70afa23e6d6ac9a65c5bf19cf3" kindref="member">MenuItemsListMigration</ref><sp/>=<sp/>std::function&lt;void<sp/>(<sp/><ref refid="namespaceMR_1a8201e149aed09ff61bb82c538012fbd1" kindref="member">MenuItemsList</ref>&amp;<sp/>)&gt;;</highlight></codeline>
-<codeline lineno="15" refid="namespaceMR_1ab7127eaef6bbef972ecd0663dcf8d527" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1ab7127eaef6bbef972ecd0663dcf8d527" kindref="member">MenuItemsListMigrations</ref><sp/>=<sp/>std::map&lt;int,<sp/>MenuItemsListMigration&gt;;</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1RibbonMenu" kindref="compound">RibbonMenu</ref>;</highlight></codeline>
-<codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="classMR_1_1Toolbar" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1Toolbar" kindref="compound">Toolbar</ref></highlight></codeline>
-<codeline lineno="21"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="24" refid="classMR_1_1Toolbar_1a3c6f2005020ccba3494b2feba5e534b1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Toolbar_1a3c6f2005020ccba3494b2feba5e534b1" kindref="member">setRibbonMenu</ref>(<sp/><ref refid="classMR_1_1RibbonMenu" kindref="compound">RibbonMenu</ref>*<sp/>ribbonMenu<sp/>);</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28" refid="classMR_1_1Toolbar_1a113ff053c064e03de02b489c9b4a6f51" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Toolbar_1a113ff053c064e03de02b489c9b4a6f51" kindref="member">drawToolbar</ref>();</highlight></codeline>
-<codeline lineno="31" refid="classMR_1_1Toolbar_1aa2cd5db65529f0df909e6fbaed4df94d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Toolbar_1aa2cd5db65529f0df909e6fbaed4df94d" kindref="member">getCurrentToolbarWidth</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>currentWidth_;<sp/>}</highlight></codeline>
-<codeline lineno="33" refid="classMR_1_1Toolbar_1a3be49d3ddff1a47ec672a3509ded6799" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Toolbar_1a3be49d3ddff1a47ec672a3509ded6799" kindref="member">openCustomize</ref>();</highlight></codeline>
-<codeline lineno="36" refid="classMR_1_1Toolbar_1a6ab437a7e4ad4cc655283f641e12083e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Toolbar_1a6ab437a7e4ad4cc655283f641e12083e" kindref="member">drawCustomize</ref>();</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39" refid="classMR_1_1Toolbar_1a1030649854f67ba154e958d84f15e7bf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Toolbar_1a1030649854f67ba154e958d84f15e7bf" kindref="member">readItemsList</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root<sp/>);</highlight></codeline>
-<codeline lineno="42" refid="classMR_1_1Toolbar_1ae935dc9511065eddce3faff0eb3fb93a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Toolbar_1ae935dc9511065eddce3faff0eb3fb93a" kindref="member">resetItemsList</ref>();</highlight></codeline>
-<codeline lineno="44" refid="classMR_1_1Toolbar_1a5fae6ea02d2bff800289cb23d3a58ac7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a8201e149aed09ff61bb82c538012fbd1" kindref="member">MenuItemsList</ref>&amp;<sp/><ref refid="classMR_1_1Toolbar_1a5fae6ea02d2bff800289cb23d3a58ac7" kindref="member">getItemsList</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>itemsList_;<sp/>}</highlight></codeline>
-<codeline lineno="46" refid="classMR_1_1Toolbar_1a0e4e8453ab0e559d6d3e4422019110f5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Toolbar_1a0e4e8453ab0e559d6d3e4422019110f5" kindref="member">getItemsListVersion</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>itemsListVersion_;<sp/>}</highlight></codeline>
-<codeline lineno="48" refid="classMR_1_1Toolbar_1a8cd2e212765ca42ea120fff0d4cd9a31" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Toolbar_1a8cd2e212765ca42ea120fff0d4cd9a31" kindref="member">setItemsListVersion</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>version<sp/>)<sp/>{<sp/>itemsListVersion_<sp/>=<sp/>version;<sp/>}</highlight></codeline>
-<codeline lineno="50" refid="classMR_1_1Toolbar_1a24ece620051dcd552679361dbf55ceeb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Toolbar_1a24ece620051dcd552679361dbf55ceeb" kindref="member">setItemsListMigrations</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1ab7127eaef6bbef972ecd0663dcf8d527" kindref="member">MenuItemsListMigrations</ref>&amp;<sp/>migrations<sp/>)<sp/>{<sp/>itemsListMigrations_<sp/>=<sp/>migrations;<sp/>}</highlight></codeline>
-<codeline lineno="51"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52" refid="classMR_1_1Toolbar_1a914add34afdb7a807157d39de024b404" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Toolbar_1a914add34afdb7a807157d39de024b404" kindref="member">setMaxItemCount</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxItemCount<sp/>)<sp/>{<sp/>maxItemCount_<sp/>=<sp/>maxItemCount;<sp/>}</highlight></codeline>
-<codeline lineno="53" refid="classMR_1_1Toolbar_1a0ab66f347a644c7bf99dd4bd405b5489" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Toolbar_1a0ab66f347a644c7bf99dd4bd405b5489" kindref="member">getMaxItemCount</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>maxItemCount_;<sp/>}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga8201e149aed09ff61bb82c538012fbd1" kindref="member">MenuItemsList</ref><sp/>=<sp/>std::vector&lt;std::string&gt;;</highlight></codeline>
+<codeline lineno="17" refid="group__GeneralGroup_1ga0ce9bf70afa23e6d6ac9a65c5bf19cf3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga0ce9bf70afa23e6d6ac9a65c5bf19cf3" kindref="member">MenuItemsListMigration</ref><sp/>=<sp/>std::function&lt;void<sp/>(<sp/><ref refid="group__GeneralGroup_1ga8201e149aed09ff61bb82c538012fbd1" kindref="member">MenuItemsList</ref>&amp;<sp/>)&gt;;</highlight></codeline>
+<codeline lineno="18" refid="group__GeneralGroup_1gab7127eaef6bbef972ecd0663dcf8d527" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gab7127eaef6bbef972ecd0663dcf8d527" kindref="member">MenuItemsListMigrations</ref><sp/>=<sp/>std::map&lt;int,<sp/>MenuItemsListMigration&gt;;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1RibbonMenu" kindref="compound">RibbonMenu</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="classMR_1_1Toolbar" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVIEWER_CLASS<sp/><ref refid="classMR_1_1Toolbar" kindref="compound">Toolbar</ref></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="27" refid="group__GeneralGroup_1ga3c6f2005020ccba3494b2feba5e534b1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3c6f2005020ccba3494b2feba5e534b1" kindref="member">setRibbonMenu</ref>(<sp/><ref refid="classMR_1_1RibbonMenu" kindref="compound">RibbonMenu</ref>*<sp/>ribbonMenu<sp/>);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="group__GeneralGroup_1ga113ff053c064e03de02b489c9b4a6f51" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga113ff053c064e03de02b489c9b4a6f51" kindref="member">drawToolbar</ref>();</highlight></codeline>
+<codeline lineno="34" refid="group__GeneralGroup_1gaa2cd5db65529f0df909e6fbaed4df94d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa2cd5db65529f0df909e6fbaed4df94d" kindref="member">getCurrentToolbarWidth</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>currentWidth_;<sp/>}</highlight></codeline>
+<codeline lineno="36" refid="group__GeneralGroup_1ga3be49d3ddff1a47ec672a3509ded6799" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3be49d3ddff1a47ec672a3509ded6799" kindref="member">openCustomize</ref>();</highlight></codeline>
+<codeline lineno="39" refid="group__GeneralGroup_1ga6ab437a7e4ad4cc655283f641e12083e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6ab437a7e4ad4cc655283f641e12083e" kindref="member">drawCustomize</ref>();</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="group__GeneralGroup_1ga1030649854f67ba154e958d84f15e7bf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1030649854f67ba154e958d84f15e7bf" kindref="member">readItemsList</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root<sp/>);</highlight></codeline>
+<codeline lineno="45" refid="group__GeneralGroup_1gae935dc9511065eddce3faff0eb3fb93a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae935dc9511065eddce3faff0eb3fb93a" kindref="member">resetItemsList</ref>();</highlight></codeline>
+<codeline lineno="47" refid="group__GeneralGroup_1ga5fae6ea02d2bff800289cb23d3a58ac7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8201e149aed09ff61bb82c538012fbd1" kindref="member">MenuItemsList</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga5fae6ea02d2bff800289cb23d3a58ac7" kindref="member">getItemsList</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>itemsList_;<sp/>}</highlight></codeline>
+<codeline lineno="49" refid="group__GeneralGroup_1ga0e4e8453ab0e559d6d3e4422019110f5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0e4e8453ab0e559d6d3e4422019110f5" kindref="member">getItemsListVersion</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>itemsListVersion_;<sp/>}</highlight></codeline>
+<codeline lineno="51" refid="group__GeneralGroup_1ga8cd2e212765ca42ea120fff0d4cd9a31" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8cd2e212765ca42ea120fff0d4cd9a31" kindref="member">setItemsListVersion</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>version<sp/>)<sp/>{<sp/>itemsListVersion_<sp/>=<sp/>version;<sp/>}</highlight></codeline>
+<codeline lineno="53" refid="group__GeneralGroup_1ga24ece620051dcd552679361dbf55ceeb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga24ece620051dcd552679361dbf55ceeb" kindref="member">setItemsListMigrations</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab7127eaef6bbef972ecd0663dcf8d527" kindref="member">MenuItemsListMigrations</ref>&amp;<sp/>migrations<sp/>)<sp/>{<sp/>itemsListMigrations_<sp/>=<sp/>migrations;<sp/>}</highlight></codeline>
 <codeline lineno="54"><highlight class="normal"></highlight></codeline>
-<codeline lineno="55"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>drawCustomizeModal_();</highlight></codeline>
-<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>drawCustomizeTabsList_();</highlight></codeline>
-<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>drawCustomizeItemsList_();</highlight></codeline>
-<codeline lineno="62"><highlight class="normal"></highlight></codeline>
-<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>dashedLine_(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>org,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>dest,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>periodLength<sp/>=<sp/>10.f,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>fillRatio<sp/>=<sp/>0.5f,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref>&amp;<sp/>color<sp/>=<sp/>Color::gray(),<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>periodStart<sp/>=<sp/>0.f<sp/>);</highlight></codeline>
-<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>dashedRect_(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>leftTop,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>rightBottom,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>periodLength<sp/>=<sp/>10.f,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>fillRatio<sp/>=<sp/>0.5f,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref>&amp;<sp/>color<sp/>=<sp/>Color::gray()<sp/>);</highlight></codeline>
+<codeline lineno="55" refid="group__GeneralGroup_1ga914add34afdb7a807157d39de024b404" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga914add34afdb7a807157d39de024b404" kindref="member">setMaxItemCount</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxItemCount<sp/>)<sp/>{<sp/>maxItemCount_<sp/>=<sp/>maxItemCount;<sp/>}</highlight></codeline>
+<codeline lineno="56" refid="group__GeneralGroup_1ga0ab66f347a644c7bf99dd4bd405b5489" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0ab66f347a644c7bf99dd4bd405b5489" kindref="member">getMaxItemCount</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>maxItemCount_;<sp/>}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>drawCustomizeModal_();</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>drawCustomizeTabsList_();</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>drawCustomizeItemsList_();</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1RibbonMenu" kindref="compound">RibbonMenu</ref>*<sp/>ribbonMenu_;</highlight></codeline>
-<codeline lineno="67"><highlight class="normal"></highlight></codeline>
-<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a8201e149aed09ff61bb82c538012fbd1" kindref="member">MenuItemsList</ref><sp/>itemsList_;<sp/></highlight></codeline>
-<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a8201e149aed09ff61bb82c538012fbd1" kindref="member">MenuItemsList</ref><sp/>itemsListCustomize_;<sp/></highlight></codeline>
-<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>itemsListVersion_{<sp/>1<sp/>};<sp/></highlight></codeline>
-<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>MenuItemsListMigrations<sp/>itemsListMigrations_;<sp/></highlight></codeline>
-<codeline lineno="72"><highlight class="normal"></highlight></codeline>
-<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>currentWidth_{<sp/>0.0f<sp/>};</highlight></codeline>
-<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>dragDrop_<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/></highlight></codeline>
-<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>openCustomizeFlag_<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/></highlight></codeline>
-<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>customizeTabNum_<sp/>=<sp/>0;<sp/></highlight></codeline>
-<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>searchString_;</highlight></codeline>
-<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;std::vector&lt;std::string&gt;&gt;<sp/>searchResult_;</highlight></codeline>
-<codeline lineno="79"><highlight class="normal"></highlight></codeline>
-<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxItemCount_<sp/>=<sp/>14;</highlight></codeline>
-<codeline lineno="81"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>dashedLine_(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>org,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>dest,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>periodLength<sp/>=<sp/>10.f,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>fillRatio<sp/>=<sp/>0.5f,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref>&amp;<sp/>color<sp/>=<sp/>Color::gray(),<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>periodStart<sp/>=<sp/>0.f<sp/>);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>dashedRect_(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>leftTop,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>rightBottom,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>periodLength<sp/>=<sp/>10.f,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>fillRatio<sp/>=<sp/>0.5f,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref>&amp;<sp/>color<sp/>=<sp/>Color::gray()<sp/>);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1RibbonMenu" kindref="compound">RibbonMenu</ref>*<sp/>ribbonMenu_;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga8201e149aed09ff61bb82c538012fbd1" kindref="member">MenuItemsList</ref><sp/>itemsList_;<sp/></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga8201e149aed09ff61bb82c538012fbd1" kindref="member">MenuItemsList</ref><sp/>itemsListCustomize_;<sp/></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>itemsListVersion_{<sp/>1<sp/>};<sp/></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>MenuItemsListMigrations<sp/>itemsListMigrations_;<sp/></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>currentWidth_{<sp/>0.0f<sp/>};</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>dragDrop_<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>openCustomizeFlag_<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>customizeTabNum_<sp/>=<sp/>0;<sp/></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>searchString_;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;std::vector&lt;std::string&gt;&gt;<sp/>searchResult_;</highlight></codeline>
 <codeline lineno="82"><highlight class="normal"></highlight></codeline>
-<codeline lineno="83"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxItemCount_<sp/>=<sp/>14;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h"/>
   </compounddef>

@@ -107,7 +107,7 @@
     </sectiondef>
     <sectiondef kind="public-func">
       <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1af3d50b55a0c2af75bdba0d4eb7dc2e34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <type>MRMESH_API</type>
         <definition>MRMESH_API MR::SurfaceDistanceBuilder::SurfaceDistanceBuilder</definition>
         <argsstring>(const Mesh &amp;mesh, const VertBitSet *region)</argsstring>
         <name>SurfaceDistanceBuilder</name>
@@ -155,7 +155,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" line="39" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" bodystart="39" bodyend="40"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1a1e5bc477a09b77b99e2ad82ac95adc91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::SurfaceDistanceBuilder::addStartRegion</definition>
         <argsstring>(const VertBitSet &amp;region, float startDistance)</argsstring>
         <name>addStartRegion</name>
@@ -178,13 +178,13 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" line="42" column="21"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1a370f90033c096568d58a18d399102064" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::SurfaceDistanceBuilder::addStartVertices</definition>
         <argsstring>(const HashMap&lt; VertId, float &gt; &amp;startVertices)</argsstring>
         <name>addStartVertices</name>
         <qualifiedname>MR::SurfaceDistanceBuilder::addStartVertices</qualifiedname>
         <param>
-          <type>const <ref refid="namespaceMR_1af8ad9e1b05a45987a3075d43bf345d68" kindref="member">HashMap</ref>&lt; VertId, float &gt; &amp;</type>
+          <type>const HashMap&lt; VertId, float &gt; &amp;</type>
           <declname>startVertices</declname>
         </param>
         <briefdescription>
@@ -197,7 +197,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" line="44" column="21"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1a35fe09c0ed56d9b10178d9099cef9204" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::SurfaceDistanceBuilder::addStart</definition>
         <argsstring>(const MeshTriPoint &amp;start)</argsstring>
         <name>addStart</name>
@@ -216,7 +216,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" line="46" column="21"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1a9b1547c200aedacf976a12ff582e729a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::SurfaceDistanceBuilder::setMaxVertUpdates</definition>
         <argsstring>(int v)</argsstring>
         <name>setMaxVertUpdates</name>
@@ -235,7 +235,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" line="50" column="21"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1a2c536dc87c144291b79132239fe4d967" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> VertId</type>
+        <type>MRMESH_API VertId</type>
         <definition>MRMESH_API VertId MR::SurfaceDistanceBuilder::growOne</definition>
         <argsstring>()</argsstring>
         <name>growOne</name>

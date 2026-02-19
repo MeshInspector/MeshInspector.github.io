@@ -3,45 +3,17 @@
   <compounddef id="structMR_1_1RibbonSceneObjectsListDrawer_1_1LastDepthInfo" kind="struct" language="C++" prot="private">
     <compoundname>MR::RibbonSceneObjectsListDrawer::LastDepthInfo</compoundname>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1RibbonSceneObjectsListDrawer_1_1LastDepthInfo_1a0cf6b1772ccdf0e8c6cfd76182bd2182" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::RibbonSceneObjectsListDrawer::LastDepthInfo::screenPosY</definition>
-        <argsstring></argsstring>
-        <name>screenPosY</name>
-        <qualifiedname>MR::RibbonSceneObjectsListDrawer::LastDepthInfo::screenPosY</qualifiedname>
-        <initializer>{ 0.0f }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSceneObjectsListDrawer.h" line="47" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSceneObjectsListDrawer.h" bodystart="47" bodyend="47"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1RibbonSceneObjectsListDrawer_1_1LastDepthInfo_1ad780242bd07f5443e169a2dd593d1187" prot="public" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::RibbonSceneObjectsListDrawer::LastDepthInfo::id</definition>
-        <argsstring></argsstring>
-        <name>id</name>
-        <qualifiedname>MR::RibbonSceneObjectsListDrawer::LastDepthInfo::id</qualifiedname>
-        <initializer>{ 0 }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSceneObjectsListDrawer.h" line="48" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSceneObjectsListDrawer.h" bodystart="48" bodyend="48"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga0cf6b1772ccdf0e8c6cfd76182bd2182" kind="variable"><name>screenPosY</name></member>
+      <member refid="group__GeneralGroup_1gad780242bd07f5443e169a2dd593d1187" kind="variable"><name>id</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSceneObjectsListDrawer.h" line="45" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSceneObjectsListDrawer.h" bodystart="46" bodyend="49"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSceneObjectsListDrawer.h" line="48" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSceneObjectsListDrawer.h" bodystart="49" bodyend="52"/>
     <listofallmembers>
-      <member refid="structMR_1_1RibbonSceneObjectsListDrawer_1_1LastDepthInfo_1ad780242bd07f5443e169a2dd593d1187" prot="public" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer::LastDepthInfo</scope><name>id</name></member>
-      <member refid="structMR_1_1RibbonSceneObjectsListDrawer_1_1LastDepthInfo_1a0cf6b1772ccdf0e8c6cfd76182bd2182" prot="public" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer::LastDepthInfo</scope><name>screenPosY</name></member>
+      <member refid="group__GeneralGroup_1gad780242bd07f5443e169a2dd593d1187" prot="public" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer::LastDepthInfo</scope><name>id</name></member>
+      <member refid="group__GeneralGroup_1ga0cf6b1772ccdf0e8c6cfd76182bd2182" prot="public" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer::LastDepthInfo</scope><name>screenPosY</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

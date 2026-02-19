@@ -4,34 +4,8 @@
     <compoundname>MR::Matrix3::QR</compoundname>
     <includes refid="MRMatrix3_8h" local="no">MRMatrix3.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1Matrix3_1_1QR_1a24dcb157cbe93b3013842a9976525442" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1Matrix3" kindref="compound">Matrix3</ref></type>
-        <definition>Matrix3 MR::Matrix3&lt; T &gt;::QR::q</definition>
-        <argsstring></argsstring>
-        <name>q</name>
-        <qualifiedname>MR::Matrix3::QR::q</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix3.h" line="93" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix3.h" bodystart="93" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1Matrix3_1_1QR_1ab303b0d5b439ba72a0be24e1c590241b" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1Matrix3" kindref="compound">Matrix3</ref></type>
-        <definition>Matrix3 MR::Matrix3&lt; T &gt;::QR::r</definition>
-        <argsstring></argsstring>
-        <name>r</name>
-        <qualifiedname>MR::Matrix3::QR::r</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix3.h" line="93" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix3.h" bodystart="93" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga24dcb157cbe93b3013842a9976525442" kind="variable"><name>q</name></member>
+      <member refid="group__GeneralGroup_1gab303b0d5b439ba72a0be24e1c590241b" kind="variable"><name>r</name></member>
     </sectiondef>
     <briefdescription>
 <para>returns 3 Euler angles, assuming this is a rotation matrix composed as follows: R=R(z)*R(y)*R(x) </para>
@@ -55,10 +29,10 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix3.h" line="91" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix3.h" bodystart="92" bodyend="94"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix3.h" line="94" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix3.h" bodystart="95" bodyend="97"/>
     <listofallmembers>
-      <member refid="structMR_1_1Matrix3_1_1QR_1a24dcb157cbe93b3013842a9976525442" prot="public" virt="non-virtual"><scope>MR::Matrix3::QR</scope><name>q</name></member>
-      <member refid="structMR_1_1Matrix3_1_1QR_1ab303b0d5b439ba72a0be24e1c590241b" prot="public" virt="non-virtual"><scope>MR::Matrix3::QR</scope><name>r</name></member>
+      <member refid="group__GeneralGroup_1ga24dcb157cbe93b3013842a9976525442" prot="public" virt="non-virtual"><scope>MR::Matrix3::QR</scope><name>q</name></member>
+      <member refid="group__GeneralGroup_1gab303b0d5b439ba72a0be24e1c590241b" prot="public" virt="non-virtual"><scope>MR::Matrix3::QR</scope><name>r</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -4,66 +4,22 @@
     <compoundname>MR::FrameRedrawRequest</compoundname>
     <includes refid="MRFrameRedrawRequest_8h" local="no">MRFrameRedrawRequest.h</includes>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1FrameRedrawRequest_1a929991f0ee375e516ff199697e18c168" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1AsyncRequest" kindref="compound">AsyncRequest</ref></type>
-        <definition>AsyncRequest MR::FrameRedrawRequest::asyncRequest_</definition>
-        <argsstring></argsstring>
-        <name>asyncRequest_</name>
-        <qualifiedname>MR::FrameRedrawRequest::asyncRequest_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFrameRedrawRequest.h" line="18" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFrameRedrawRequest.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga929991f0ee375e516ff199697e18c168" kind="variable"><name>asyncRequest_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1FrameRedrawRequest_1a232fbb1566c535b2b9267303a1a7d25c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::FrameRedrawRequest::reset</definition>
-        <argsstring>()</argsstring>
-        <name>reset</name>
-        <qualifiedname>MR::FrameRedrawRequest::reset</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFrameRedrawRequest.h" line="12" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1FrameRedrawRequest_1a27be825efa89c1f49d55d88cee285d38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::FrameRedrawRequest::requestFrame</definition>
-        <argsstring>(size_t millisecondsInterval=100)</argsstring>
-        <name>requestFrame</name>
-        <qualifiedname>MR::FrameRedrawRequest::requestFrame</qualifiedname>
-        <param>
-          <type>size_t</type>
-          <declname>millisecondsInterval</declname>
-          <defval>100</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFrameRedrawRequest.h" line="13" column="23"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga232fbb1566c535b2b9267303a1a7d25c" kind="function"><name>reset</name></member>
+      <member refid="group__GeneralGroup_1ga27be825efa89c1f49d55d88cee285d38" kind="function"><name>requestFrame</name></member>
     </sectiondef>
     <briefdescription>
 <para>class for requesting frame redraw in some time </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFrameRedrawRequest.h" line="9" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFrameRedrawRequest.h" bodystart="10" bodyend="20"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFrameRedrawRequest.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFrameRedrawRequest.h" bodystart="13" bodyend="23"/>
     <listofallmembers>
-      <member refid="classMR_1_1FrameRedrawRequest_1a929991f0ee375e516ff199697e18c168" prot="private" virt="non-virtual"><scope>MR::FrameRedrawRequest</scope><name>asyncRequest_</name></member>
-      <member refid="classMR_1_1FrameRedrawRequest_1a27be825efa89c1f49d55d88cee285d38" prot="public" virt="non-virtual"><scope>MR::FrameRedrawRequest</scope><name>requestFrame</name></member>
-      <member refid="classMR_1_1FrameRedrawRequest_1a232fbb1566c535b2b9267303a1a7d25c" prot="public" virt="non-virtual"><scope>MR::FrameRedrawRequest</scope><name>reset</name></member>
+      <member refid="group__GeneralGroup_1ga929991f0ee375e516ff199697e18c168" prot="private" virt="non-virtual"><scope>MR::FrameRedrawRequest</scope><name>asyncRequest_</name></member>
+      <member refid="group__GeneralGroup_1ga27be825efa89c1f49d55d88cee285d38" prot="public" virt="non-virtual"><scope>MR::FrameRedrawRequest</scope><name>requestFrame</name></member>
+      <member refid="group__GeneralGroup_1ga232fbb1566c535b2b9267303a1a7d25c" prot="public" virt="non-virtual"><scope>MR::FrameRedrawRequest</scope><name>reset</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

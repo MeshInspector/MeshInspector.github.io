@@ -13,7 +13,7 @@
             <defval>VdbVolume</defval>
           </param>
         </templateparamlist>
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> Expected&lt; VertBitSet &gt;</type>
+        <type>MRVOXELS_API Expected&lt; VertBitSet &gt;</type>
         <definition>MRVOXELS_API Expected&lt; VertBitSet &gt; MR::moveMeshToVoxelMaxDeriv</definition>
         <argsstring>(Mesh &amp;mesh, const AffineXf3f &amp;meshXf, const VolumeType &amp;volume, const AffineXf3f &amp;volumeXf, const MoveMeshToVoxelMaxDerivSettings &amp;settings, ProgressCallback callback={})</argsstring>
         <name>moveMeshToVoxelMaxDeriv</name>

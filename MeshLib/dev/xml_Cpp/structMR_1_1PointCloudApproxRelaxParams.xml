@@ -6,12 +6,12 @@
     <includes refid="MRPointCloudRelax_8h" local="no">MRPointCloudRelax.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1PointCloudApproxRelaxParams_1a5122f4607ef8eeb82d4765383d619a3d" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1a6ab288ae813e1aa688312e31c258df71" kindref="member">RelaxApproxType</ref></type>
+        <type><ref refid="group__GeneralGroup_1ga6ab288ae813e1aa688312e31c258df71" kindref="member">RelaxApproxType</ref></type>
         <definition>RelaxApproxType MR::PointCloudApproxRelaxParams::type</definition>
         <argsstring></argsstring>
         <name>type</name>
         <qualifiedname>MR::PointCloudApproxRelaxParams::type</qualifiedname>
-        <initializer>{ <ref refid="namespaceMR_1a6ab288ae813e1aa688312e31c258df71a93a097009b6443e711996c50b5354adf" kindref="member">RelaxApproxType::Planar</ref> }</initializer>
+        <initializer>{ <ref refid="group__GeneralGroup_1gga6ab288ae813e1aa688312e31c258df71a93a097009b6443e711996c50b5354adf" kindref="member">RelaxApproxType::Planar</ref> }</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -63,13 +63,13 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudRelax.h" line="28" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudRelax.h" bodystart="29" bodyend="31"/>
     <listofallmembers>
-      <member refid="structMR_1_1RelaxParams_1a47663082758ba9a1d7d9942c1d2550fc" prot="public" virt="non-virtual"><scope>MR::PointCloudApproxRelaxParams</scope><name>_padding</name></member>
-      <member refid="structMR_1_1RelaxParams_1a7f58a3b0b7e5c09209f53edd90b4371a" prot="public" virt="non-virtual"><scope>MR::PointCloudApproxRelaxParams</scope><name>force</name></member>
-      <member refid="structMR_1_1RelaxParams_1af6f0f001e98c26c2b38d1d51b3f3ef1f" prot="public" virt="non-virtual"><scope>MR::PointCloudApproxRelaxParams</scope><name>iterations</name></member>
-      <member refid="structMR_1_1RelaxParams_1ae8d07089d4abc1f4c2ccd3018e66e23a" prot="public" virt="non-virtual"><scope>MR::PointCloudApproxRelaxParams</scope><name>limitNearInitial</name></member>
-      <member refid="structMR_1_1RelaxParams_1ae2779bd159120c7d84c4d2e13186af7e" prot="public" virt="non-virtual"><scope>MR::PointCloudApproxRelaxParams</scope><name>maxInitialDist</name></member>
+      <member refid="group__GeneralGroup_1ga47663082758ba9a1d7d9942c1d2550fc" prot="public" virt="non-virtual"><scope>MR::PointCloudApproxRelaxParams</scope><name>_padding</name></member>
+      <member refid="group__GeneralGroup_1ga7f58a3b0b7e5c09209f53edd90b4371a" prot="public" virt="non-virtual"><scope>MR::PointCloudApproxRelaxParams</scope><name>force</name></member>
+      <member refid="group__GeneralGroup_1gaf6f0f001e98c26c2b38d1d51b3f3ef1f" prot="public" virt="non-virtual"><scope>MR::PointCloudApproxRelaxParams</scope><name>iterations</name></member>
+      <member refid="group__GeneralGroup_1gae8d07089d4abc1f4c2ccd3018e66e23a" prot="public" virt="non-virtual"><scope>MR::PointCloudApproxRelaxParams</scope><name>limitNearInitial</name></member>
+      <member refid="group__GeneralGroup_1gae2779bd159120c7d84c4d2e13186af7e" prot="public" virt="non-virtual"><scope>MR::PointCloudApproxRelaxParams</scope><name>maxInitialDist</name></member>
       <member refid="structMR_1_1PointCloudRelaxParams_1ab8de6ecb0effc2fb5ae7f053955d6caf" prot="public" virt="non-virtual"><scope>MR::PointCloudApproxRelaxParams</scope><name>neighborhoodRadius</name></member>
-      <member refid="structMR_1_1RelaxParams_1abeb08d7e70411cf9ef2826c0f058b909" prot="public" virt="non-virtual"><scope>MR::PointCloudApproxRelaxParams</scope><name>region</name></member>
+      <member refid="group__GeneralGroup_1gabeb08d7e70411cf9ef2826c0f058b909" prot="public" virt="non-virtual"><scope>MR::PointCloudApproxRelaxParams</scope><name>region</name></member>
       <member refid="structMR_1_1PointCloudApproxRelaxParams_1a5122f4607ef8eeb82d4765383d619a3d" prot="public" virt="non-virtual"><scope>MR::PointCloudApproxRelaxParams</scope><name>type</name></member>
     </listofallmembers>
   </compounddef>

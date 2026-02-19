@@ -5,88 +5,12 @@
     <basecompoundref refid="structMR_1_1ConnectionHolder" prot="public" virt="non-virtual">MR::ConnectionHolder</basecompoundref>
     <includes refid="MRViewerEventsListener_8h" local="no">MRViewerEventsListener.h</includes>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1KeyRepeatListener_1a6be3688ad96048847339a48e9af501ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::KeyRepeatListener::MR_ADD_CTOR_DELETE_MOVE</definition>
-        <argsstring>(KeyRepeatListener)</argsstring>
-        <name>MR_ADD_CTOR_DELETE_MOVE</name>
-        <qualifiedname>MR::KeyRepeatListener::MR_ADD_CTOR_DELETE_MOVE</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1KeyRepeatListener" kindref="compound">KeyRepeatListener</ref></type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="151" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1KeyRepeatListener_1afd65fe47b0dc9436298e754ae7033eba" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type></type>
-        <definition>virtual MR::KeyRepeatListener::~KeyRepeatListener</definition>
-        <argsstring>()=default</argsstring>
-        <name>~KeyRepeatListener</name>
-        <qualifiedname>MR::KeyRepeatListener::~KeyRepeatListener</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="152" column="13"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1KeyRepeatListener_1a1bfee0fb1068a663eb38183d57bafa23" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>virtual MRVIEWER_API void MR::KeyRepeatListener::connect</definition>
-        <argsstring>(Viewer *viewer, int group, boost::signals2::connect_position pos) override</argsstring>
-        <name>connect</name>
-        <qualifiedname>MR::KeyRepeatListener::connect</qualifiedname>
-        <reimplements refid="structMR_1_1IConnectable_1a2212095d3996892cff578320ac2ce746">connect</reimplements>
-        <param>
-          <type><ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref> *</type>
-          <declname>viewer</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>group</declname>
-        </param>
-        <param>
-          <type>boost::signals2::connect_position</type>
-          <declname>pos</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="153" column="31"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga6be3688ad96048847339a48e9af501ca" kind="function"><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1gafd65fe47b0dc9436298e754ae7033eba" kind="function"><name>~KeyRepeatListener</name></member>
+      <member refid="group__GeneralGroup_1ga1bfee0fb1068a663eb38183d57bafa23" kind="function"><name>connect</name></member>
     </sectiondef>
     <sectiondef kind="protected-func">
-      <memberdef kind="function" id="structMR_1_1KeyRepeatListener_1a0f51c4b0274522776a58519e64f392d3" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::KeyRepeatListener::onKeyRepeat_</definition>
-        <argsstring>(int key, int modifier)=0</argsstring>
-        <name>onKeyRepeat_</name>
-        <qualifiedname>MR::KeyRepeatListener::onKeyRepeat_</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>key</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>modifier</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="155" column="18"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga0f51c4b0274522776a58519e64f392d3" kind="function"><name>onKeyRepeat_</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -128,16 +52,16 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="149" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="150" bodyend="156"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="152" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="153" bodyend="159"/>
     <listofallmembers>
-      <member refid="structMR_1_1KeyRepeatListener_1a1bfee0fb1068a663eb38183d57bafa23" prot="public" virt="virtual"><scope>MR::KeyRepeatListener</scope><name>connect</name></member>
-      <member refid="structMR_1_1ConnectionHolder_1a56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::KeyRepeatListener</scope><name>connection_</name></member>
-      <member refid="structMR_1_1ConnectionHolder_1afe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::KeyRepeatListener</scope><name>disconnect</name></member>
-      <member refid="structMR_1_1KeyRepeatListener_1a6be3688ad96048847339a48e9af501ca" prot="public" virt="non-virtual"><scope>MR::KeyRepeatListener</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
-      <member refid="structMR_1_1KeyRepeatListener_1a0f51c4b0274522776a58519e64f392d3" prot="protected" virt="pure-virtual"><scope>MR::KeyRepeatListener</scope><name>onKeyRepeat_</name></member>
-      <member refid="structMR_1_1ConnectionHolder_1a99ffc44dd73f73e2e907b7ab5bb38aaf" prot="public" virt="virtual"><scope>MR::KeyRepeatListener</scope><name>~ConnectionHolder</name></member>
-      <member refid="structMR_1_1IConnectable_1a28c07761e682b80befbb2d5f91bdd38c" prot="public" virt="virtual"><scope>MR::KeyRepeatListener</scope><name>~IConnectable</name></member>
-      <member refid="structMR_1_1KeyRepeatListener_1afd65fe47b0dc9436298e754ae7033eba" prot="public" virt="virtual"><scope>MR::KeyRepeatListener</scope><name>~KeyRepeatListener</name></member>
+      <member refid="group__GeneralGroup_1ga1bfee0fb1068a663eb38183d57bafa23" prot="public" virt="virtual"><scope>MR::KeyRepeatListener</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1ga56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::KeyRepeatListener</scope><name>connection_</name></member>
+      <member refid="group__GeneralGroup_1gafe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::KeyRepeatListener</scope><name>disconnect</name></member>
+      <member refid="group__GeneralGroup_1ga6be3688ad96048847339a48e9af501ca" prot="public" virt="non-virtual"><scope>MR::KeyRepeatListener</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1ga0f51c4b0274522776a58519e64f392d3" prot="protected" virt="pure-virtual"><scope>MR::KeyRepeatListener</scope><name>onKeyRepeat_</name></member>
+      <member refid="group__GeneralGroup_1ga99ffc44dd73f73e2e907b7ab5bb38aaf" prot="public" virt="virtual"><scope>MR::KeyRepeatListener</scope><name>~ConnectionHolder</name></member>
+      <member refid="group__GeneralGroup_1ga28c07761e682b80befbb2d5f91bdd38c" prot="public" virt="virtual"><scope>MR::KeyRepeatListener</scope><name>~IConnectable</name></member>
+      <member refid="group__GeneralGroup_1gafd65fe47b0dc9436298e754ae7033eba" prot="public" virt="virtual"><scope>MR::KeyRepeatListener</scope><name>~KeyRepeatListener</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

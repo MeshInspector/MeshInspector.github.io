@@ -4,64 +4,22 @@
     <compoundname>MR::VertPathInfo</compoundname>
     <includes refid="MREdgePathsBuilder_8h" local="no">MREdgePathsBuilder.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1VertPathInfo_1a7a3153da84d3b829b564f595cd7d7a7e" prot="public" static="no" mutable="no">
-        <type>EdgeId</type>
-        <definition>EdgeId MR::VertPathInfo::back</definition>
-        <argsstring></argsstring>
-        <name>back</name>
-        <qualifiedname>MR::VertPathInfo::back</qualifiedname>
-        <briefdescription>
-<para>edge from this vertex to its predecessor in the forest </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" line="21" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" bodystart="21" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1VertPathInfo_1a2530c5bd3051baea96398e09ade9e59e" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::VertPathInfo::metric</definition>
-        <argsstring></argsstring>
-        <name>metric</name>
-        <qualifiedname>MR::VertPathInfo::metric</qualifiedname>
-        <initializer>= FLT_MAX</initializer>
-        <briefdescription>
-<para>best summed metric to reach this vertex </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" line="23" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" bodystart="23" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga7a3153da84d3b829b564f595cd7d7a7e" kind="variable"><name>back</name></member>
+      <member refid="group__GeneralGroup_1ga2530c5bd3051baea96398e09ade9e59e" kind="variable"><name>metric</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1VertPathInfo_1aac45d884489c1a6b158869ce2fa4e940" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::VertPathInfo::isStart</definition>
-        <argsstring>() const</argsstring>
-        <name>isStart</name>
-        <qualifiedname>MR::VertPathInfo::isStart</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" line="25" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" bodystart="25" bodyend="25"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaac45d884489c1a6b158869ce2fa4e940" kind="function"><name>isStart</name></member>
     </sectiondef>
     <briefdescription>
 <para>information associated with each vertex by the paths builder </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" bodystart="19" bodyend="26"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" line="21" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" bodystart="22" bodyend="29"/>
     <listofallmembers>
-      <member refid="structMR_1_1VertPathInfo_1a7a3153da84d3b829b564f595cd7d7a7e" prot="public" virt="non-virtual"><scope>MR::VertPathInfo</scope><name>back</name></member>
-      <member refid="structMR_1_1VertPathInfo_1aac45d884489c1a6b158869ce2fa4e940" prot="public" virt="non-virtual"><scope>MR::VertPathInfo</scope><name>isStart</name></member>
-      <member refid="structMR_1_1VertPathInfo_1a2530c5bd3051baea96398e09ade9e59e" prot="public" virt="non-virtual"><scope>MR::VertPathInfo</scope><name>metric</name></member>
+      <member refid="group__GeneralGroup_1ga7a3153da84d3b829b564f595cd7d7a7e" prot="public" virt="non-virtual"><scope>MR::VertPathInfo</scope><name>back</name></member>
+      <member refid="group__GeneralGroup_1gaac45d884489c1a6b158869ce2fa4e940" prot="public" virt="non-virtual"><scope>MR::VertPathInfo</scope><name>isStart</name></member>
+      <member refid="group__GeneralGroup_1ga2530c5bd3051baea96398e09ade9e59e" prot="public" virt="non-virtual"><scope>MR::VertPathInfo</scope><name>metric</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

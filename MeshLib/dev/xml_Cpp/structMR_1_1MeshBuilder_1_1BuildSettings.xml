@@ -4,81 +4,21 @@
     <compoundname>MR::MeshBuilder::BuildSettings</compoundname>
     <includes refid="MRMeshBuilderTypes_8h" local="no">MRMeshBuilderTypes.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1MeshBuilder_1_1BuildSettings_1a1fdb51404a12dafa32d295e97234ce4f" prot="public" static="no" mutable="no">
-        <type>FaceBitSet *</type>
-        <definition>FaceBitSet* MR::MeshBuilder::BuildSettings::region</definition>
-        <argsstring></argsstring>
-        <name>region</name>
-        <qualifiedname>MR::MeshBuilder::BuildSettings::region</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-<para>if region is given then on input it contains the faces to be added, and on output the faces failed to be added </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilderTypes.h" line="32" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilderTypes.h" bodystart="32" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MeshBuilder_1_1BuildSettings_1ad10a4f5f3fd6df3f484d8b95ef501285" prot="public" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::MeshBuilder::BuildSettings::shiftFaceId</definition>
-        <argsstring></argsstring>
-        <name>shiftFaceId</name>
-        <qualifiedname>MR::MeshBuilder::BuildSettings::shiftFaceId</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-<para>this value to be added to every faceId before its inclusion in the topology </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilderTypes.h" line="35" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilderTypes.h" bodystart="35" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MeshBuilder_1_1BuildSettings_1ae841fb8d6bd1c0807eb8dde2d6875c26" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::MeshBuilder::BuildSettings::allowNonManifoldEdge</definition>
-        <argsstring></argsstring>
-        <name>allowNonManifoldEdge</name>
-        <qualifiedname>MR::MeshBuilder::BuildSettings::allowNonManifoldEdge</qualifiedname>
-        <initializer>= true</initializer>
-        <briefdescription>
-<para>whether to permit non-manifold edges in the resulting topology </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilderTypes.h" line="38" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilderTypes.h" bodystart="38" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MeshBuilder_1_1BuildSettings_1a20d73314208590b5844d5d8bf5b3f37f" prot="public" static="no" mutable="no">
-        <type>int *</type>
-        <definition>int* MR::MeshBuilder::BuildSettings::skippedFaceCount</definition>
-        <argsstring></argsstring>
-        <name>skippedFaceCount</name>
-        <qualifiedname>MR::MeshBuilder::BuildSettings::skippedFaceCount</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-<para>optional output: counter of skipped faces during mesh creation </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilderTypes.h" line="41" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilderTypes.h" bodystart="41" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga1fdb51404a12dafa32d295e97234ce4f" kind="variable"><name>region</name></member>
+      <member refid="group__GeneralGroup_1gad10a4f5f3fd6df3f484d8b95ef501285" kind="variable"><name>shiftFaceId</name></member>
+      <member refid="group__GeneralGroup_1gae841fb8d6bd1c0807eb8dde2d6875c26" kind="variable"><name>allowNonManifoldEdge</name></member>
+      <member refid="group__GeneralGroup_1ga20d73314208590b5844d5d8bf5b3f37f" kind="variable"><name>skippedFaceCount</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilderTypes.h" line="29" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilderTypes.h" bodystart="30" bodyend="42"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilderTypes.h" line="32" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilderTypes.h" bodystart="33" bodyend="45"/>
     <listofallmembers>
-      <member refid="structMR_1_1MeshBuilder_1_1BuildSettings_1ae841fb8d6bd1c0807eb8dde2d6875c26" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::BuildSettings</scope><name>allowNonManifoldEdge</name></member>
-      <member refid="structMR_1_1MeshBuilder_1_1BuildSettings_1a1fdb51404a12dafa32d295e97234ce4f" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::BuildSettings</scope><name>region</name></member>
-      <member refid="structMR_1_1MeshBuilder_1_1BuildSettings_1ad10a4f5f3fd6df3f484d8b95ef501285" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::BuildSettings</scope><name>shiftFaceId</name></member>
-      <member refid="structMR_1_1MeshBuilder_1_1BuildSettings_1a20d73314208590b5844d5d8bf5b3f37f" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::BuildSettings</scope><name>skippedFaceCount</name></member>
+      <member refid="group__GeneralGroup_1gae841fb8d6bd1c0807eb8dde2d6875c26" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::BuildSettings</scope><name>allowNonManifoldEdge</name></member>
+      <member refid="group__GeneralGroup_1ga1fdb51404a12dafa32d295e97234ce4f" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::BuildSettings</scope><name>region</name></member>
+      <member refid="group__GeneralGroup_1gad10a4f5f3fd6df3f484d8b95ef501285" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::BuildSettings</scope><name>shiftFaceId</name></member>
+      <member refid="group__GeneralGroup_1ga20d73314208590b5844d5d8bf5b3f37f" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::BuildSettings</scope><name>skippedFaceCount</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

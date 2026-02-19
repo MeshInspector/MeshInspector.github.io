@@ -4,54 +4,9 @@
     <compoundname>MR::DividePointCloudOptionalOutput</compoundname>
     <includes refid="MRPointCloudDivideWithPlane_8h" local="no">MRPointCloudDivideWithPlane.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1DividePointCloudOptionalOutput_1a8f57623cee5e4db20049f8d9d6dff9cf" prot="public" static="no" mutable="no">
-        <type>VertMap *</type>
-        <definition>VertMap* MR::DividePointCloudOptionalOutput::outVmap</definition>
-        <argsstring></argsstring>
-        <name>outVmap</name>
-        <qualifiedname>MR::DividePointCloudOptionalOutput::outVmap</qualifiedname>
-        <initializer>{ nullptr }</initializer>
-        <briefdescription>
-<para>optional out map from input points to output </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudDivideWithPlane.h" line="15" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudDivideWithPlane.h" bodystart="15" bodyend="15"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1DividePointCloudOptionalOutput_1abf7d2f349e450a24bc74e71d1de3d1bc" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref> *</type>
-        <definition>PointCloud* MR::DividePointCloudOptionalOutput::otherPart</definition>
-        <argsstring></argsstring>
-        <name>otherPart</name>
-        <qualifiedname>MR::DividePointCloudOptionalOutput::otherPart</qualifiedname>
-        <initializer>{ nullptr }</initializer>
-        <briefdescription>
-<para>optional out other part of the point cloud </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudDivideWithPlane.h" line="17" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudDivideWithPlane.h" bodystart="17" bodyend="17"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1DividePointCloudOptionalOutput_1a8b9684f693bcbb8c4f778a2250ab9b5a" prot="public" static="no" mutable="no">
-        <type>VertMap *</type>
-        <definition>VertMap* MR::DividePointCloudOptionalOutput::otherOutVmap</definition>
-        <argsstring></argsstring>
-        <name>otherOutVmap</name>
-        <qualifiedname>MR::DividePointCloudOptionalOutput::otherOutVmap</qualifiedname>
-        <initializer>{ nullptr }</initializer>
-        <briefdescription>
-<para>optional out map from input points to other part output </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudDivideWithPlane.h" line="19" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudDivideWithPlane.h" bodystart="19" bodyend="19"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga8f57623cee5e4db20049f8d9d6dff9cf" kind="variable"><name>outVmap</name></member>
+      <member refid="group__GeneralGroup_1gabf7d2f349e450a24bc74e71d1de3d1bc" kind="variable"><name>otherPart</name></member>
+      <member refid="group__GeneralGroup_1ga8b9684f693bcbb8c4f778a2250ab9b5a" kind="variable"><name>otherOutVmap</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -70,11 +25,11 @@
         <link refid="structMR_1_1PointCloud"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudDivideWithPlane.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudDivideWithPlane.h" bodystart="13" bodyend="20"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudDivideWithPlane.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudDivideWithPlane.h" bodystart="16" bodyend="23"/>
     <listofallmembers>
-      <member refid="structMR_1_1DividePointCloudOptionalOutput_1a8b9684f693bcbb8c4f778a2250ab9b5a" prot="public" virt="non-virtual"><scope>MR::DividePointCloudOptionalOutput</scope><name>otherOutVmap</name></member>
-      <member refid="structMR_1_1DividePointCloudOptionalOutput_1abf7d2f349e450a24bc74e71d1de3d1bc" prot="public" virt="non-virtual"><scope>MR::DividePointCloudOptionalOutput</scope><name>otherPart</name></member>
-      <member refid="structMR_1_1DividePointCloudOptionalOutput_1a8f57623cee5e4db20049f8d9d6dff9cf" prot="public" virt="non-virtual"><scope>MR::DividePointCloudOptionalOutput</scope><name>outVmap</name></member>
+      <member refid="group__GeneralGroup_1ga8b9684f693bcbb8c4f778a2250ab9b5a" prot="public" virt="non-virtual"><scope>MR::DividePointCloudOptionalOutput</scope><name>otherOutVmap</name></member>
+      <member refid="group__GeneralGroup_1gabf7d2f349e450a24bc74e71d1de3d1bc" prot="public" virt="non-virtual"><scope>MR::DividePointCloudOptionalOutput</scope><name>otherPart</name></member>
+      <member refid="group__GeneralGroup_1ga8f57623cee5e4db20049f8d9d6dff9cf" prot="public" virt="non-virtual"><scope>MR::DividePointCloudOptionalOutput</scope><name>outVmap</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

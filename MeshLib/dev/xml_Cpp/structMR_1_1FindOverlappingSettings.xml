@@ -4,97 +4,23 @@
     <compoundname>MR::FindOverlappingSettings</compoundname>
     <includes refid="MROverlappingTris_8h" local="no">MROverlappingTris.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1FindOverlappingSettings_1ad9c6b8c3584ffef1a49795f794fced8d" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::FindOverlappingSettings::maxDistSq</definition>
-        <argsstring></argsstring>
-        <name>maxDistSq</name>
-        <qualifiedname>MR::FindOverlappingSettings::maxDistSq</qualifiedname>
-        <initializer>= 1e-10f</initializer>
-        <briefdescription>
-<para>maximal distance between closest points of one triangle and another overlapping triangle </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROverlappingTris.h" line="12" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROverlappingTris.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1FindOverlappingSettings_1aabcdb20bd37c7191483848d201e24d53" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::FindOverlappingSettings::maxNormalDot</definition>
-        <argsstring></argsstring>
-        <name>maxNormalDot</name>
-        <qualifiedname>MR::FindOverlappingSettings::maxNormalDot</qualifiedname>
-        <initializer>= -0.99f</initializer>
-        <briefdescription>
-<para>suggestion: multiply it on mesh.getBoundingBox().<ref refid="namespaceMR_1a306ff1f62992b3eb33c446913b64188a" kindref="member">size()</ref>.lengthSq(); </para>
-        </briefdescription>
-        <detaileddescription>
-<para>maximal dot product of one triangle and another overlapping triangle normals </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROverlappingTris.h" line="15" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROverlappingTris.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1FindOverlappingSettings_1a2fb083294a0bd854f423edd314775ad7" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::FindOverlappingSettings::minAreaFraction</definition>
-        <argsstring></argsstring>
-        <name>minAreaFraction</name>
-        <qualifiedname>MR::FindOverlappingSettings::minAreaFraction</qualifiedname>
-        <initializer>= 1e-5f</initializer>
-        <briefdescription>
-<para>consider triangle as overlapping only if the area of the oppositely oriented triangle is at least given fraction of the triangle&apos;s area </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROverlappingTris.h" line="18" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROverlappingTris.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1FindOverlappingSettings_1acb6eb2b7cfbeacc7bb24b58262dcba34" prot="public" static="no" mutable="no">
-        <type>std::function&lt; bool(FaceId l, FaceId r)&gt;</type>
-        <definition>std::function&lt;bool( FaceId l, FaceId r )&gt; MR::FindOverlappingSettings::pred</definition>
-        <argsstring></argsstring>
-        <name>pred</name>
-        <qualifiedname>MR::FindOverlappingSettings::pred</qualifiedname>
-        <briefdescription>
-<para>if predicate is present it should return true for pair of faces that should be considered as overlap </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROverlappingTris.h" line="21" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROverlappingTris.h" bodystart="21" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1FindOverlappingSettings_1ac272f940af3bc9c5f3f0932e466a5f8e" prot="public" static="no" mutable="no">
-        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
-        <definition>ProgressCallback MR::FindOverlappingSettings::cb</definition>
-        <argsstring></argsstring>
-        <name>cb</name>
-        <qualifiedname>MR::FindOverlappingSettings::cb</qualifiedname>
-        <briefdescription>
-<para>for reporting current progress and allowing the user to cancel the algorithm </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROverlappingTris.h" line="24" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROverlappingTris.h" bodystart="24" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gad9c6b8c3584ffef1a49795f794fced8d" kind="variable"><name>maxDistSq</name></member>
+      <member refid="group__GeneralGroup_1gaabcdb20bd37c7191483848d201e24d53" kind="variable"><name>maxNormalDot</name></member>
+      <member refid="group__GeneralGroup_1ga2fb083294a0bd854f423edd314775ad7" kind="variable"><name>minAreaFraction</name></member>
+      <member refid="group__GeneralGroup_1gacb6eb2b7cfbeacc7bb24b58262dcba34" kind="variable"><name>pred</name></member>
+      <member refid="group__GeneralGroup_1gac272f940af3bc9c5f3f0932e466a5f8e" kind="variable"><name>cb</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROverlappingTris.h" line="9" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROverlappingTris.h" bodystart="10" bodyend="28"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROverlappingTris.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROverlappingTris.h" bodystart="13" bodyend="31"/>
     <listofallmembers>
-      <member refid="structMR_1_1FindOverlappingSettings_1ac272f940af3bc9c5f3f0932e466a5f8e" prot="public" virt="non-virtual"><scope>MR::FindOverlappingSettings</scope><name>cb</name></member>
-      <member refid="structMR_1_1FindOverlappingSettings_1ad9c6b8c3584ffef1a49795f794fced8d" prot="public" virt="non-virtual"><scope>MR::FindOverlappingSettings</scope><name>maxDistSq</name></member>
-      <member refid="structMR_1_1FindOverlappingSettings_1aabcdb20bd37c7191483848d201e24d53" prot="public" virt="non-virtual"><scope>MR::FindOverlappingSettings</scope><name>maxNormalDot</name></member>
-      <member refid="structMR_1_1FindOverlappingSettings_1a2fb083294a0bd854f423edd314775ad7" prot="public" virt="non-virtual"><scope>MR::FindOverlappingSettings</scope><name>minAreaFraction</name></member>
-      <member refid="structMR_1_1FindOverlappingSettings_1acb6eb2b7cfbeacc7bb24b58262dcba34" prot="public" virt="non-virtual"><scope>MR::FindOverlappingSettings</scope><name>pred</name></member>
+      <member refid="group__GeneralGroup_1gac272f940af3bc9c5f3f0932e466a5f8e" prot="public" virt="non-virtual"><scope>MR::FindOverlappingSettings</scope><name>cb</name></member>
+      <member refid="group__GeneralGroup_1gad9c6b8c3584ffef1a49795f794fced8d" prot="public" virt="non-virtual"><scope>MR::FindOverlappingSettings</scope><name>maxDistSq</name></member>
+      <member refid="group__GeneralGroup_1gaabcdb20bd37c7191483848d201e24d53" prot="public" virt="non-virtual"><scope>MR::FindOverlappingSettings</scope><name>maxNormalDot</name></member>
+      <member refid="group__GeneralGroup_1ga2fb083294a0bd854f423edd314775ad7" prot="public" virt="non-virtual"><scope>MR::FindOverlappingSettings</scope><name>minAreaFraction</name></member>
+      <member refid="group__GeneralGroup_1gacb6eb2b7cfbeacc7bb24b58262dcba34" prot="public" virt="non-virtual"><scope>MR::FindOverlappingSettings</scope><name>pred</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -4,51 +4,9 @@
     <compoundname>MR::ToolPathResult</compoundname>
     <includes refid="MRToolPath_8h" local="no">MRToolPath.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1ToolPathResult_1ae495a5fc24540b7eaf1210872ac5fb3e" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref></type>
-        <definition>Mesh MR::ToolPathResult::modifiedMesh</definition>
-        <argsstring></argsstring>
-        <name>modifiedMesh</name>
-        <qualifiedname>MR::ToolPathResult::modifiedMesh</qualifiedname>
-        <briefdescription>
-<para>mesh after fixing undercuts and offset </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="129" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="129" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ToolPathResult_1a98b818ec1b422fbe35f5efd57ff37a44" prot="public" static="no" mutable="no">
-        <type>FaceBitSet</type>
-        <definition>FaceBitSet MR::ToolPathResult::modifiedRegion</definition>
-        <argsstring></argsstring>
-        <name>modifiedRegion</name>
-        <qualifiedname>MR::ToolPathResult::modifiedRegion</qualifiedname>
-        <briefdescription>
-<para>selected region projected from the original mesh to the offset </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="131" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="131" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ToolPathResult_1a327bcaceb046cef6859ddc1293a47e35" prot="public" static="no" mutable="no">
-        <type>std::vector&lt; <ref refid="structMR_1_1GCommand" kindref="compound">GCommand</ref> &gt;</type>
-        <definition>std::vector&lt;GCommand&gt; MR::ToolPathResult::commands</definition>
-        <argsstring></argsstring>
-        <name>commands</name>
-        <qualifiedname>MR::ToolPathResult::commands</qualifiedname>
-        <briefdescription>
-<para>constains type of movement and its feed </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="133" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="133" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gae495a5fc24540b7eaf1210872ac5fb3e" kind="variable"><name>modifiedMesh</name></member>
+      <member refid="group__GeneralGroup_1ga98b818ec1b422fbe35f5efd57ff37a44" kind="variable"><name>modifiedRegion</name></member>
+      <member refid="group__GeneralGroup_1ga327bcaceb046cef6859ddc1293a47e35" kind="variable"><name>commands</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -74,11 +32,11 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="126" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="127" bodyend="134"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="129" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="130" bodyend="137"/>
     <listofallmembers>
-      <member refid="structMR_1_1ToolPathResult_1a327bcaceb046cef6859ddc1293a47e35" prot="public" virt="non-virtual"><scope>MR::ToolPathResult</scope><name>commands</name></member>
-      <member refid="structMR_1_1ToolPathResult_1ae495a5fc24540b7eaf1210872ac5fb3e" prot="public" virt="non-virtual"><scope>MR::ToolPathResult</scope><name>modifiedMesh</name></member>
-      <member refid="structMR_1_1ToolPathResult_1a98b818ec1b422fbe35f5efd57ff37a44" prot="public" virt="non-virtual"><scope>MR::ToolPathResult</scope><name>modifiedRegion</name></member>
+      <member refid="group__GeneralGroup_1ga327bcaceb046cef6859ddc1293a47e35" prot="public" virt="non-virtual"><scope>MR::ToolPathResult</scope><name>commands</name></member>
+      <member refid="group__GeneralGroup_1gae495a5fc24540b7eaf1210872ac5fb3e" prot="public" virt="non-virtual"><scope>MR::ToolPathResult</scope><name>modifiedMesh</name></member>
+      <member refid="group__GeneralGroup_1ga98b818ec1b422fbe35f5efd57ff37a44" prot="public" virt="non-virtual"><scope>MR::ToolPathResult</scope><name>modifiedRegion</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

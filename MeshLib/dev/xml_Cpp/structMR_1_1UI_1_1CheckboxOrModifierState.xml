@@ -4,99 +4,25 @@
     <compoundname>MR::UI::CheckboxOrModifierState</compoundname>
     <includes refid="MRUIStyle_8h" local="no">MRUIStyle.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1UI_1_1CheckboxOrModifierState_1adcb5d1f8f18006ba9caee1cf22f7c04a" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::UI::CheckboxOrModifierState::baseValue</definition>
-        <argsstring></argsstring>
-        <name>baseValue</name>
-        <qualifiedname>MR::UI::CheckboxOrModifierState::baseValue</qualifiedname>
-        <initializer>= false</initializer>
-        <briefdescription>
-<para>The persistent value of this setting, as set by the user by clicking the checkbox. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="254" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="254" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1UI_1_1CheckboxOrModifierState_1a1b7f056835dfa614cc9907ac8d467d87" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::UI::CheckboxOrModifierState::modifierHeld</definition>
-        <argsstring></argsstring>
-        <name>modifierHeld</name>
-        <qualifiedname>MR::UI::CheckboxOrModifierState::modifierHeld</qualifiedname>
-        <initializer>= false</initializer>
-        <briefdescription>
-<para>Whether the setting is currently inverted because the modifier is held. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="256" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="256" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gadcb5d1f8f18006ba9caee1cf22f7c04a" kind="variable"><name>baseValue</name></member>
+      <member refid="group__GeneralGroup_1ga1b7f056835dfa614cc9907ac8d467d87" kind="variable"><name>modifierHeld</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1UI_1_1CheckboxOrModifierState_1a2d50ee3bfe60ac20e4bdab21f4a626b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::UI::CheckboxOrModifierState::CheckboxOrModifierState</definition>
-        <argsstring>()</argsstring>
-        <name>CheckboxOrModifierState</name>
-        <qualifiedname>MR::UI::CheckboxOrModifierState::CheckboxOrModifierState</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="258" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="258" bodyend="258"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1UI_1_1CheckboxOrModifierState_1a64d2f07a4cb06b93c9c24f2783692d80" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::UI::CheckboxOrModifierState::CheckboxOrModifierState</definition>
-        <argsstring>(bool baseValue)</argsstring>
-        <name>CheckboxOrModifierState</name>
-        <qualifiedname>MR::UI::CheckboxOrModifierState::CheckboxOrModifierState</qualifiedname>
-        <param>
-          <type>bool</type>
-          <declname>baseValue</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="260" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="260" bodyend="260"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1UI_1_1CheckboxOrModifierState_1a17db618bc34c02a2da1a620fbc1734f4" prot="public" static="no" nodiscard="yes" const="yes" explicit="yes" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::UI::CheckboxOrModifierState::operator bool</definition>
-        <argsstring>() const</argsstring>
-        <name>operator bool</name>
-        <qualifiedname>MR::UI::CheckboxOrModifierState::operator bool</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>You usually want to read this instead of the variables above. Returns <computeroutput>baseValue</computeroutput>, but inverted if <computeroutput>modifierHeld</computeroutput> is set. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="264" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="264" bodyend="264"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga2d50ee3bfe60ac20e4bdab21f4a626b4" kind="function"><name>CheckboxOrModifierState</name></member>
+      <member refid="group__GeneralGroup_1ga64d2f07a4cb06b93c9c24f2783692d80" kind="function"><name>CheckboxOrModifierState</name></member>
+      <member refid="group__GeneralGroup_1ga17db618bc34c02a2da1a620fbc1734f4" kind="function"><name>operator bool</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="251" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="252" bodyend="265"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="254" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="255" bodyend="268"/>
     <listofallmembers>
-      <member refid="structMR_1_1UI_1_1CheckboxOrModifierState_1adcb5d1f8f18006ba9caee1cf22f7c04a" prot="public" virt="non-virtual"><scope>MR::UI::CheckboxOrModifierState</scope><name>baseValue</name></member>
-      <member refid="structMR_1_1UI_1_1CheckboxOrModifierState_1a2d50ee3bfe60ac20e4bdab21f4a626b4" prot="public" virt="non-virtual"><scope>MR::UI::CheckboxOrModifierState</scope><name>CheckboxOrModifierState</name></member>
-      <member refid="structMR_1_1UI_1_1CheckboxOrModifierState_1a64d2f07a4cb06b93c9c24f2783692d80" prot="public" virt="non-virtual"><scope>MR::UI::CheckboxOrModifierState</scope><name>CheckboxOrModifierState</name></member>
-      <member refid="structMR_1_1UI_1_1CheckboxOrModifierState_1a1b7f056835dfa614cc9907ac8d467d87" prot="public" virt="non-virtual"><scope>MR::UI::CheckboxOrModifierState</scope><name>modifierHeld</name></member>
-      <member refid="structMR_1_1UI_1_1CheckboxOrModifierState_1a17db618bc34c02a2da1a620fbc1734f4" prot="public" virt="non-virtual"><scope>MR::UI::CheckboxOrModifierState</scope><name>operator bool</name></member>
+      <member refid="group__GeneralGroup_1gadcb5d1f8f18006ba9caee1cf22f7c04a" prot="public" virt="non-virtual"><scope>MR::UI::CheckboxOrModifierState</scope><name>baseValue</name></member>
+      <member refid="group__GeneralGroup_1ga2d50ee3bfe60ac20e4bdab21f4a626b4" prot="public" virt="non-virtual"><scope>MR::UI::CheckboxOrModifierState</scope><name>CheckboxOrModifierState</name></member>
+      <member refid="group__GeneralGroup_1ga64d2f07a4cb06b93c9c24f2783692d80" prot="public" virt="non-virtual"><scope>MR::UI::CheckboxOrModifierState</scope><name>CheckboxOrModifierState</name></member>
+      <member refid="group__GeneralGroup_1ga1b7f056835dfa614cc9907ac8d467d87" prot="public" virt="non-virtual"><scope>MR::UI::CheckboxOrModifierState</scope><name>modifierHeld</name></member>
+      <member refid="group__GeneralGroup_1ga17db618bc34c02a2da1a620fbc1734f4" prot="public" virt="non-virtual"><scope>MR::UI::CheckboxOrModifierState</scope><name>operator bool</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

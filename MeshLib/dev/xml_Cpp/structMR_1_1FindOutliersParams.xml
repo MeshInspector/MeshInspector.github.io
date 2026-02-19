@@ -4,69 +4,10 @@
     <compoundname>MR::FindOutliersParams</compoundname>
     <includes refid="MROutlierPoints_8h" local="no">MROutlierPoints.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1FindOutliersParams_1a946930107905c1323ecdbcab72a87914" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1OutlierParams" kindref="compound">OutlierParams</ref></type>
-        <definition>OutlierParams MR::FindOutliersParams::finderParams</definition>
-        <argsstring></argsstring>
-        <name>finderParams</name>
-        <qualifiedname>MR::FindOutliersParams::finderParams</qualifiedname>
-        <briefdescription>
-<para>Parameters of various criteria for detecting outlier points. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROutlierPoints.h" line="88" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROutlierPoints.h" bodystart="88" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1FindOutliersParams_1a41cffc0d0bf42f1a2f3131c84385aac0" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::FindOutliersParams::radius</definition>
-        <argsstring></argsstring>
-        <name>radius</name>
-        <qualifiedname>MR::FindOutliersParams::radius</qualifiedname>
-        <initializer>= 1.f</initializer>
-        <briefdescription>
-<para>Radius of the search for neighboring points for analysis. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROutlierPoints.h" line="89" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROutlierPoints.h" bodystart="89" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1FindOutliersParams_1a7f72b590f90df23de6d1e5a77a5c1fc5" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1ab8659c12eb8fa6618f154566efce6146" kindref="member">OutlierTypeMask</ref></type>
-        <definition>OutlierTypeMask MR::FindOutliersParams::mask</definition>
-        <argsstring></argsstring>
-        <name>mask</name>
-        <qualifiedname>MR::FindOutliersParams::mask</qualifiedname>
-        <initializer>= <ref refid="namespaceMR_1ab8659c12eb8fa6618f154566efce6146ab1c94ca2fbc3e78fc30069c8d0f01680" kindref="member">OutlierTypeMask::All</ref></initializer>
-        <briefdescription>
-<para>Mask of the types of outliers that are looking for. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROutlierPoints.h" line="91" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROutlierPoints.h" bodystart="91" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1FindOutliersParams_1aa39f977c4a7b6d7b43bbe8dd59cf8b87" prot="public" static="no" mutable="no">
-        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
-        <definition>ProgressCallback MR::FindOutliersParams::progress</definition>
-        <argsstring></argsstring>
-        <name>progress</name>
-        <qualifiedname>MR::FindOutliersParams::progress</qualifiedname>
-        <initializer>= {}</initializer>
-        <briefdescription>
-<para>Progress callback. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROutlierPoints.h" line="93" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROutlierPoints.h" bodystart="93" bodyend="93"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga946930107905c1323ecdbcab72a87914" kind="variable"><name>finderParams</name></member>
+      <member refid="group__GeneralGroup_1ga41cffc0d0bf42f1a2f3131c84385aac0" kind="variable"><name>radius</name></member>
+      <member refid="group__GeneralGroup_1ga7f72b590f90df23de6d1e5a77a5c1fc5" kind="variable"><name>mask</name></member>
+      <member refid="group__GeneralGroup_1gaa39f977c4a7b6d7b43bbe8dd59cf8b87" kind="variable"><name>progress</name></member>
     </sectiondef>
     <briefdescription>
 <para>Outlier point search parameters. </para>
@@ -86,12 +27,12 @@
         <link refid="structMR_1_1OutlierParams"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROutlierPoints.h" line="86" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROutlierPoints.h" bodystart="87" bodyend="94"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROutlierPoints.h" line="89" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROutlierPoints.h" bodystart="90" bodyend="97"/>
     <listofallmembers>
-      <member refid="structMR_1_1FindOutliersParams_1a946930107905c1323ecdbcab72a87914" prot="public" virt="non-virtual"><scope>MR::FindOutliersParams</scope><name>finderParams</name></member>
-      <member refid="structMR_1_1FindOutliersParams_1a7f72b590f90df23de6d1e5a77a5c1fc5" prot="public" virt="non-virtual"><scope>MR::FindOutliersParams</scope><name>mask</name></member>
-      <member refid="structMR_1_1FindOutliersParams_1aa39f977c4a7b6d7b43bbe8dd59cf8b87" prot="public" virt="non-virtual"><scope>MR::FindOutliersParams</scope><name>progress</name></member>
-      <member refid="structMR_1_1FindOutliersParams_1a41cffc0d0bf42f1a2f3131c84385aac0" prot="public" virt="non-virtual"><scope>MR::FindOutliersParams</scope><name>radius</name></member>
+      <member refid="group__GeneralGroup_1ga946930107905c1323ecdbcab72a87914" prot="public" virt="non-virtual"><scope>MR::FindOutliersParams</scope><name>finderParams</name></member>
+      <member refid="group__GeneralGroup_1ga7f72b590f90df23de6d1e5a77a5c1fc5" prot="public" virt="non-virtual"><scope>MR::FindOutliersParams</scope><name>mask</name></member>
+      <member refid="group__GeneralGroup_1gaa39f977c4a7b6d7b43bbe8dd59cf8b87" prot="public" virt="non-virtual"><scope>MR::FindOutliersParams</scope><name>progress</name></member>
+      <member refid="group__GeneralGroup_1ga41cffc0d0bf42f1a2f3131c84385aac0" prot="public" virt="non-virtual"><scope>MR::FindOutliersParams</scope><name>radius</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

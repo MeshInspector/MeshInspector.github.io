@@ -4,46 +4,17 @@
     <compoundname>MR::ObjectComparableWithReference::ComparableProperty</compoundname>
     <includes refid="MRObjectComparableWithReference_8h" local="no">MRObjectComparableWithReference.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1ObjectComparableWithReference_1_1ComparableProperty_1ab9ac8279a8d66047dae4a3de73f94647" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::ObjectComparableWithReference::ComparableProperty::value</definition>
-        <argsstring></argsstring>
-        <name>value</name>
-        <qualifiedname>MR::ObjectComparableWithReference::ComparableProperty::value</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h" line="36" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h" bodystart="36" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ObjectComparableWithReference_1_1ComparableProperty_1a27219918674f15345809979f639c640e" prot="public" static="no" mutable="no">
-        <type>std::optional&lt; float &gt;</type>
-        <definition>std::optional&lt;float&gt; MR::ObjectComparableWithReference::ComparableProperty::referenceValue</definition>
-        <argsstring></argsstring>
-        <name>referenceValue</name>
-        <qualifiedname>MR::ObjectComparableWithReference::ComparableProperty::referenceValue</qualifiedname>
-        <initializer>= 0.f</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>This can be null if the reference value isn&apos;t set, or something else is wrong. This can match whatever is set via <computeroutput>get/setComparisonReferenceValue()</computeroutput>, but not necessarily. E.g. for point coordinates, those functions act on the reference coordinates (three optional floats), but this number is always zero, and the <computeroutput>value</computeroutput> is the distance to those coordinates. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h" line="42" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h" bodystart="42" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gab9ac8279a8d66047dae4a3de73f94647" kind="variable"><name>value</name></member>
+      <member refid="group__GeneralGroup_1ga27219918674f15345809979f639c640e" kind="variable"><name>referenceValue</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h" line="34" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h" bodystart="35" bodyend="43"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h" line="37" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h" bodystart="38" bodyend="46"/>
     <listofallmembers>
-      <member refid="structMR_1_1ObjectComparableWithReference_1_1ComparableProperty_1a27219918674f15345809979f639c640e" prot="public" virt="non-virtual"><scope>MR::ObjectComparableWithReference::ComparableProperty</scope><name>referenceValue</name></member>
-      <member refid="structMR_1_1ObjectComparableWithReference_1_1ComparableProperty_1ab9ac8279a8d66047dae4a3de73f94647" prot="public" virt="non-virtual"><scope>MR::ObjectComparableWithReference::ComparableProperty</scope><name>value</name></member>
+      <member refid="group__GeneralGroup_1ga27219918674f15345809979f639c640e" prot="public" virt="non-virtual"><scope>MR::ObjectComparableWithReference::ComparableProperty</scope><name>referenceValue</name></member>
+      <member refid="group__GeneralGroup_1gab9ac8279a8d66047dae4a3de73f94647" prot="public" virt="non-virtual"><scope>MR::ObjectComparableWithReference::ComparableProperty</scope><name>value</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

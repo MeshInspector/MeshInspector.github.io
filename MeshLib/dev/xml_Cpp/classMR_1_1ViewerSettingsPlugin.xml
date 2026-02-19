@@ -2,979 +2,86 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ViewerSettingsPlugin" kind="class" language="C++" prot="public">
     <compoundname>MR::ViewerSettingsPlugin</compoundname>
-    <basecompoundref refid="classMR_1_1StateListenerPlugin" prot="public" virt="non-virtual">MR::StateListenerPlugin&lt;&gt;</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">MR::StatePlugin</basecompoundref>
     <includes refid="MRViewerSettingsPlugin_8h" local="no">MRViewerSettingsPlugin.h</includes>
     <innerclass refid="classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings" prot="public">MR::ViewerSettingsPlugin::ExternalSettings</innerclass>
     <sectiondef kind="public-type">
-      <memberdef kind="enum" id="classMR_1_1ViewerSettingsPlugin_1afeeff27006fc4c615527cbd2c08c552b" prot="public" static="no" strong="yes">
-        <type></type>
-        <name>TabType</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::TabType</qualifiedname>
-        <enumvalue id="classMR_1_1ViewerSettingsPlugin_1afeeff27006fc4c615527cbd2c08c552ba809b7a805a28884b364837536cdc38b7" prot="public">
-          <name>Quick</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1ViewerSettingsPlugin_1afeeff27006fc4c615527cbd2c08c552bae498749f3c42246d50b15c81c101d988" prot="public">
-          <name>Application</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1ViewerSettingsPlugin_1afeeff27006fc4c615527cbd2c08c552baa1595abbb4c3a326636dd178757cd6c1" prot="public">
-          <name>Control</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1ViewerSettingsPlugin_1afeeff27006fc4c615527cbd2c08c552ba8d6f3510a5cca2c1281c9c6afe7e0da2" prot="public">
-          <name>Viewport</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1ViewerSettingsPlugin_1afeeff27006fc4c615527cbd2c08c552ba87d240c3f234e32f9143dd0446de66d8" prot="public">
-          <name>MeasurementUnits</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1ViewerSettingsPlugin_1afeeff27006fc4c615527cbd2c08c552ba98f770b0af18ca763421bac22b4b6805" prot="public">
-          <name>Features</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1ViewerSettingsPlugin_1afeeff27006fc4c615527cbd2c08c552bae93f994f01c537c4e2f7d8528c3eb5e9" prot="public">
-          <name>Count</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="19" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" bodystart="20" bodyend="28"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gafeeff27006fc4c615527cbd2c08c552b" kind="enum"><name>TabType</name></member>
     </sectiondef>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1ViewerSettingsPlugin_1a047afd56c4798c48f7121ad62c733259" prot="private" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::ViewerSettingsPlugin::storedSamples_</definition>
-        <argsstring></argsstring>
-        <name>storedSamples_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::storedSamples_</qualifiedname>
-        <initializer>{ 0 }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="101" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" bodystart="101" bodyend="101"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ViewerSettingsPlugin_1aa024a5be3baa23b2286b5098bdda431e" prot="private" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::ViewerSettingsPlugin::maxSamples_</definition>
-        <argsstring></argsstring>
-        <name>maxSamples_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::maxSamples_</qualifiedname>
-        <initializer>{ 0 }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="102" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" bodystart="102" bodyend="102"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ViewerSettingsPlugin_1a8b0d0e857bc86e82e9aafaa8c2fb3a9b" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::ViewerSettingsPlugin::gpuOverridesMSAA_</definition>
-        <argsstring></argsstring>
-        <name>gpuOverridesMSAA_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::gpuOverridesMSAA_</qualifiedname>
-        <initializer>{ false }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="103" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" bodystart="103" bodyend="103"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ViewerSettingsPlugin_1a7804450cb17708be19bec3d0981128cd" prot="private" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::ViewerSettingsPlugin::tempUserScaling_</definition>
-        <argsstring></argsstring>
-        <name>tempUserScaling_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::tempUserScaling_</qualifiedname>
-        <initializer>{ 1.0f }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="104" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" bodystart="104" bodyend="104"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ViewerSettingsPlugin_1ad8e0bf4467ab87e19a5146de2385bebf" prot="private" static="no" mutable="no">
-        <type>Vector4f</type>
-        <definition>Vector4f MR::ViewerSettingsPlugin::backgroundColor_</definition>
-        <argsstring></argsstring>
-        <name>backgroundColor_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::backgroundColor_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="106" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" bodystart="106" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ViewerSettingsPlugin_1a3144773dd6c0dfbccac2fd853c86bb33" prot="private" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::ViewerSettingsPlugin::selectedUserPreset_</definition>
-        <argsstring></argsstring>
-        <name>selectedUserPreset_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::selectedUserPreset_</qualifiedname>
-        <initializer>{ 0 }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="108" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" bodystart="108" bodyend="108"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ViewerSettingsPlugin_1ad4388798318e29736315d5a9cb21ebb0" prot="private" static="no" mutable="no">
-        <type>std::vector&lt; std::string &gt;</type>
-        <definition>std::vector&lt;std::string&gt; MR::ViewerSettingsPlugin::userThemesPresets_</definition>
-        <argsstring></argsstring>
-        <name>userThemesPresets_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::userThemesPresets_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="109" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" bodystart="109" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ViewerSettingsPlugin_1a0f3ad2977cefa7607eb755063d711774" prot="private" static="no" mutable="no">
-        <type>std::unique_ptr&lt; <ref refid="classMR_1_1ShadowsGL" kindref="compound">ShadowsGL</ref> &gt;</type>
-        <definition>std::unique_ptr&lt;ShadowsGL&gt; MR::ViewerSettingsPlugin::shadowGl_</definition>
-        <argsstring></argsstring>
-        <name>shadowGl_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::shadowGl_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="111" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" bodystart="111" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ViewerSettingsPlugin_1aa0a0d9dbeaa39b7725d50966e9652537" prot="private" static="no" mutable="no">
-        <type><ref refid="structMR_1_1SpaceMouse_1_1Parameters" kindref="compound">SpaceMouse::Parameters</ref></type>
-        <definition>SpaceMouse::Parameters MR::ViewerSettingsPlugin::spaceMouseParams_</definition>
-        <argsstring></argsstring>
-        <name>spaceMouseParams_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::spaceMouseParams_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="113" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" bodystart="113" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ViewerSettingsPlugin_1a0d02884daef68b9090f2fc24899467bd" prot="private" static="no" mutable="no">
-        <type><ref refid="structMR_1_1TouchpadParameters" kindref="compound">TouchpadParameters</ref></type>
-        <definition>TouchpadParameters MR::ViewerSettingsPlugin::touchpadParameters_</definition>
-        <argsstring></argsstring>
-        <name>touchpadParameters_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::touchpadParameters_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="118" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" bodystart="118" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ViewerSettingsPlugin_1aca69b2de3f466e977b398c0155b02cca" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1ViewerSettingsPlugin_1afeeff27006fc4c615527cbd2c08c552b" kindref="member">TabType</ref></type>
-        <definition>TabType MR::ViewerSettingsPlugin::activeTab_</definition>
-        <argsstring></argsstring>
-        <name>activeTab_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::activeTab_</qualifiedname>
-        <initializer>= <ref refid="classMR_1_1ViewerSettingsPlugin_1afeeff27006fc4c615527cbd2c08c552ba809b7a805a28884b364837536cdc38b7" kindref="member">TabType::Quick</ref></initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="120" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" bodystart="120" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ViewerSettingsPlugin_1a9b2fe6e3312bc4374c221800fe40b4c5" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1ViewerSettingsPlugin_1afeeff27006fc4c615527cbd2c08c552b" kindref="member">TabType</ref></type>
-        <definition>TabType MR::ViewerSettingsPlugin::orderedTab_</definition>
-        <argsstring></argsstring>
-        <name>orderedTab_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::orderedTab_</qualifiedname>
-        <initializer>= <ref refid="classMR_1_1ViewerSettingsPlugin_1afeeff27006fc4c615527cbd2c08c552bae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">TabType::Count</ref></initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="121" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" bodystart="121" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ViewerSettingsPlugin_1a70f10bd29105edf9ee71c6dd68ef5c9b" prot="private" static="no" mutable="no">
-        <type>std::array&lt; std::vector&lt; std::shared_ptr&lt; <ref refid="classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings" kindref="compound">ExternalSettings</ref> &gt; &gt;, size_t(<ref refid="classMR_1_1ViewerSettingsPlugin_1afeeff27006fc4c615527cbd2c08c552bae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">TabType::Count</ref>)&gt;</type>
-        <definition>std::array&lt;std::vector&lt;std::shared_ptr&lt;ExternalSettings&gt; &gt;, size_t(TabType::Count)&gt; MR::ViewerSettingsPlugin::comboSettings_</definition>
-        <argsstring></argsstring>
-        <name>comboSettings_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::comboSettings_</qualifiedname>
-        <briefdescription>
-<para>invalid </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="123" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" bodystart="123" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ViewerSettingsPlugin_1adcbd14e9b8681ce364c9edc3a665e582" prot="private" static="no" mutable="no">
-        <type><ref refid="structMR_1_1MruFormatParameters" kindref="compound">MruFormatParameters</ref></type>
-        <definition>MruFormatParameters MR::ViewerSettingsPlugin::mruFormatParameters_</definition>
-        <argsstring></argsstring>
-        <name>mruFormatParameters_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::mruFormatParameters_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="125" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" bodystart="125" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga047afd56c4798c48f7121ad62c733259" kind="variable"><name>storedSamples_</name></member>
+      <member refid="group__GeneralGroup_1gaa024a5be3baa23b2286b5098bdda431e" kind="variable"><name>maxSamples_</name></member>
+      <member refid="group__GeneralGroup_1ga8b0d0e857bc86e82e9aafaa8c2fb3a9b" kind="variable"><name>gpuOverridesMSAA_</name></member>
+      <member refid="group__GeneralGroup_1ga7804450cb17708be19bec3d0981128cd" kind="variable"><name>tempUserScaling_</name></member>
+      <member refid="group__GeneralGroup_1gad8e0bf4467ab87e19a5146de2385bebf" kind="variable"><name>backgroundColor_</name></member>
+      <member refid="group__GeneralGroup_1ga3144773dd6c0dfbccac2fd853c86bb33" kind="variable"><name>selectedUserPreset_</name></member>
+      <member refid="group__GeneralGroup_1gad4388798318e29736315d5a9cb21ebb0" kind="variable"><name>userThemesPresets_</name></member>
+      <member refid="group__GeneralGroup_1ga0f3ad2977cefa7607eb755063d711774" kind="variable"><name>shadowGl_</name></member>
+      <member refid="group__GeneralGroup_1gaa0a0d9dbeaa39b7725d50966e9652537" kind="variable"><name>spaceMouseParams_</name></member>
+      <member refid="group__GeneralGroup_1ga0d02884daef68b9090f2fc24899467bd" kind="variable"><name>touchpadParameters_</name></member>
+      <member refid="group__GeneralGroup_1gaca69b2de3f466e977b398c0155b02cca" kind="variable"><name>activeTab_</name></member>
+      <member refid="group__GeneralGroup_1ga9b2fe6e3312bc4374c221800fe40b4c5" kind="variable"><name>orderedTab_</name></member>
+      <member refid="group__GeneralGroup_1ga70f10bd29105edf9ee71c6dd68ef5c9b" kind="variable"><name>comboSettings_</name></member>
+      <member refid="group__GeneralGroup_1gadcbd14e9b8681ce364c9edc3a665e582" kind="variable"><name>mruFormatParameters_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsPlugin_1a4fda238acd33621d265e12dff2282e03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::ViewerSettingsPlugin::ViewerSettingsPlugin</definition>
-        <argsstring>()</argsstring>
-        <name>ViewerSettingsPlugin</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::ViewerSettingsPlugin</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="30" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsPlugin_1a119e03f41d8f3bdf0c9ee522b8ad623b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MR::ViewerSettingsPlugin::drawDialog</definition>
-        <argsstring>(ImGuiContext *ctx) override</argsstring>
-        <name>drawDialog</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawDialog</qualifiedname>
-        <reimplements refid="classMR_1_1StateBasePlugin_1aa3a6877967ca8f424ed261e43345bd26">drawDialog</reimplements>
-        <param>
-          <type>ImGuiContext *</type>
-          <declname>ctx</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="32" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsPlugin_1ac31f0ed7c0847408208b9cd59d7a9c40" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::ViewerSettingsPlugin::blocking</definition>
-        <argsstring>() const override</argsstring>
-        <name>blocking</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::blocking</qualifiedname>
-        <reimplements refid="classMR_1_1StateBasePlugin_1ae7a96edadae63c78192e0f1f6b1f9db9">blocking</reimplements>
-        <briefdescription>
-<para>true if this item is blocking (only one blocking item can be active at once) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="34" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" bodystart="34" bodyend="34"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsPlugin_1ae579b363d0283ded6914225b425efd99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::ViewerSettingsPlugin::updateThemes</definition>
-        <argsstring>()</argsstring>
-        <name>updateThemes</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::updateThemes</qualifiedname>
-        <briefdescription>
-<para>call this function if you save/delete color theme, or change current theme outside of this plugin </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="37" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsPlugin_1acf4f908a53429634d394195587aabb59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::ViewerSettingsPlugin::addComboSettings</definition>
-        <argsstring>(const TabType tab, std::shared_ptr&lt; ExternalSettings &gt; settings)</argsstring>
-        <name>addComboSettings</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::addComboSettings</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1ViewerSettingsPlugin_1afeeff27006fc4c615527cbd2c08c552b" kindref="member">TabType</ref></type>
-          <declname>tab</declname>
-        </param>
-        <param>
-          <type>std::shared_ptr&lt; <ref refid="classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings" kindref="compound">ExternalSettings</ref> &gt;</type>
-          <declname>settings</declname>
-        </param>
-        <briefdescription>
-<para>add external settings with <ref refid="namespaceMR_1_1UI" kindref="compound">UI</ref> combo box </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="55" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsPlugin_1a25d8a5c93929180a4b438d21afe8cb02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::ViewerSettingsPlugin::delComboSettings</definition>
-        <argsstring>(const TabType tab, const ExternalSettings *settings)</argsstring>
-        <name>delComboSettings</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::delComboSettings</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1ViewerSettingsPlugin_1afeeff27006fc4c615527cbd2c08c552b" kindref="member">TabType</ref></type>
-          <declname>tab</declname>
-        </param>
-        <param>
-          <type>const <ref refid="classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings" kindref="compound">ExternalSettings</ref> *</type>
-          <declname>settings</declname>
-        </param>
-        <briefdescription>
-<para>delete external settings with <ref refid="namespaceMR_1_1UI" kindref="compound">UI</ref> combo box </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="58" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsPlugin_1aa3fd8eed1495a80edbc79bc1dc67e298" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::ViewerSettingsPlugin::setActiveTab</definition>
-        <argsstring>(TabType tab)</argsstring>
-        <name>setActiveTab</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::setActiveTab</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1ViewerSettingsPlugin_1afeeff27006fc4c615527cbd2c08c552b" kindref="member">TabType</ref></type>
-          <declname>tab</declname>
-        </param>
-        <briefdescription>
-<para>changes active tab </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="65" column="23"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga4fda238acd33621d265e12dff2282e03" kind="function"><name>ViewerSettingsPlugin</name></member>
+      <member refid="group__GeneralGroup_1ga119e03f41d8f3bdf0c9ee522b8ad623b" kind="function"><name>drawDialog</name></member>
+      <member refid="group__GeneralGroup_1gac31f0ed7c0847408208b9cd59d7a9c40" kind="function"><name>blocking</name></member>
+      <member refid="group__GeneralGroup_1gae579b363d0283ded6914225b425efd99" kind="function"><name>updateThemes</name></member>
+      <member refid="group__GeneralGroup_1gacf4f908a53429634d394195587aabb59" kind="function"><name>addComboSettings</name></member>
+      <member refid="group__GeneralGroup_1ga25d8a5c93929180a4b438d21afe8cb02" kind="function"><name>delComboSettings</name></member>
+      <member refid="group__GeneralGroup_1gaa3fd8eed1495a80edbc79bc1dc67e298" kind="function"><name>setActiveTab</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsPlugin_1af0e9b4bd0c8a80ad3d40a02b51c16523" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API <ref refid="classMR_1_1ViewerSettingsPlugin" kindref="compound">ViewerSettingsPlugin</ref> *</type>
-        <definition>static MRVIEWER_API ViewerSettingsPlugin * MR::ViewerSettingsPlugin::instance</definition>
-        <argsstring>()</argsstring>
-        <name>instance</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::instance</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>returns instance of this plugin if it is registered nullptr otherwise </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="62" column="46"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaf0e9b4bd0c8a80ad3d40a02b51c16523" kind="function"><name>instance</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsPlugin_1ad68314882fab9a5eb41c7e70678268cd" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::ViewerSettingsPlugin::onEnable_</definition>
-        <argsstring>() override</argsstring>
-        <name>onEnable_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::onEnable_</qualifiedname>
-        <reimplements refid="classMR_1_1StateBasePlugin_1a653adb25964ffa5b7ca333c119b2e597">onEnable_</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="67" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsPlugin_1a8a96ddb6300fd5de84ba523be91b69dc" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::ViewerSettingsPlugin::onDisable_</definition>
-        <argsstring>() override</argsstring>
-        <name>onDisable_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::onDisable_</qualifiedname>
-        <reimplements refid="classMR_1_1StateBasePlugin_1a31980ff25e0e7e77cf8ace037ddd9f68">onDisable_</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="68" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsPlugin_1ad0d7089f5aed92e160f44e7a9ce9202b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::drawTab_</definition>
-        <argsstring>(float menuWidth)</argsstring>
-        <name>drawTab_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawTab_</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>menuWidth</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="70" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsPlugin_1ab3385c270312c2f8341855336aeec56a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::drawQuickTab_</definition>
-        <argsstring>(float menuWidth)</argsstring>
-        <name>drawQuickTab_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawQuickTab_</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>menuWidth</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="72" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsPlugin_1aad5ed50d043abbea26da2853f14bfda1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::drawApplicationTab_</definition>
-        <argsstring>(float menuWidth)</argsstring>
-        <name>drawApplicationTab_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawApplicationTab_</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>menuWidth</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="73" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsPlugin_1a10ae128bccb0b8e1b585c02fc6f9d85b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::drawControlTab_</definition>
-        <argsstring>(float menuWidth)</argsstring>
-        <name>drawControlTab_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawControlTab_</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>menuWidth</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="74" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsPlugin_1a16cf2c5207d54ec49bcec97a70927cab" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::drawViewportTab_</definition>
-        <argsstring>(float menuWidth)</argsstring>
-        <name>drawViewportTab_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawViewportTab_</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>menuWidth</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="75" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsPlugin_1ae73ebe4fc5fbaacc509b057b6b37f706" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::drawMeasurementUnitsTab_</definition>
-        <argsstring>()</argsstring>
-        <name>drawMeasurementUnitsTab_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawMeasurementUnitsTab_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="76" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsPlugin_1ac0b210ec574cb25b96da4341d73ca739" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::drawFeaturesTab_</definition>
-        <argsstring>()</argsstring>
-        <name>drawFeaturesTab_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawFeaturesTab_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="77" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsPlugin_1a178fbd197fcc5841a9b7f49cbb636c26" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::drawThemeSelector_</definition>
-        <argsstring>()</argsstring>
-        <name>drawThemeSelector_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawThemeSelector_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="79" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsPlugin_1aa94c7740d8768bea22b1114c584883ca" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::drawResetDialog_</definition>
-        <argsstring>(bool activated)</argsstring>
-        <name>drawResetDialog_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawResetDialog_</qualifiedname>
-        <param>
-          <type>bool</type>
-          <declname>activated</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="80" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsPlugin_1a80dda1a25e5eddabe65d33ba1bed73b6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::drawShadingModeCombo_</definition>
-        <argsstring>(bool inGroup, float toolWidth)</argsstring>
-        <name>drawShadingModeCombo_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawShadingModeCombo_</qualifiedname>
-        <param>
-          <type>bool</type>
-          <declname>inGroup</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>toolWidth</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="81" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsPlugin_1acd285192fd635b1db7826fa81a3a0838" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::drawProjectionModeSelector_</definition>
-        <argsstring>(float toolWidth)</argsstring>
-        <name>drawProjectionModeSelector_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawProjectionModeSelector_</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>toolWidth</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="82" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsPlugin_1ae12ce4a6d6a8278cbe7275f3b1a8309d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::drawUpDirectionSelector_</definition>
-        <argsstring>()</argsstring>
-        <name>drawUpDirectionSelector_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawUpDirectionSelector_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="83" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsPlugin_1a772fb6f5b307f57aa572bc60c7c03a16" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::drawBackgroundButton_</definition>
-        <argsstring>(bool allViewports)</argsstring>
-        <name>drawBackgroundButton_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawBackgroundButton_</qualifiedname>
-        <param>
-          <type>bool</type>
-          <declname>allViewports</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="84" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsPlugin_1ac41934b462a7ecf5a513279f7ad3c577" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::drawRenderOptions_</definition>
-        <argsstring>()</argsstring>
-        <name>drawRenderOptions_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawRenderOptions_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="85" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsPlugin_1af4cbb91c1e84bebd995c89284084c03d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::drawShadowsOptions_</definition>
-        <argsstring>(float menuWidth)</argsstring>
-        <name>drawShadowsOptions_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawShadowsOptions_</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>menuWidth</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="86" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsPlugin_1a0240b21d67858fb8936910ca704e1696" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::drawMouseSceneControlsSettings_</definition>
-        <argsstring>(float menuWidth)</argsstring>
-        <name>drawMouseSceneControlsSettings_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawMouseSceneControlsSettings_</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>menuWidth</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="87" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsPlugin_1a9076c9b9fe889480701ac78798e5d8df" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::drawSpaceMouseSettings_</definition>
-        <argsstring>(float menuWidth)</argsstring>
-        <name>drawSpaceMouseSettings_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawSpaceMouseSettings_</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>menuWidth</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="88" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsPlugin_1a602bbca830ae850c60ff9d98f7316a3b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::drawTouchpadSettings_</definition>
-        <argsstring>()</argsstring>
-        <name>drawTouchpadSettings_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawTouchpadSettings_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="89" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsPlugin_1afe777332677939f6435d570ff8e55576" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::drawMruInnerFormats_</definition>
-        <argsstring>(float menuWidth)</argsstring>
-        <name>drawMruInnerFormats_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawMruInnerFormats_</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>menuWidth</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="91" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsPlugin_1a7412713a4282acc0801fa920257f186b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::drawGlobalSettings_</definition>
-        <argsstring>(float buttonWidth)</argsstring>
-        <name>drawGlobalSettings_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawGlobalSettings_</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>buttonWidth</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="93" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsPlugin_1ac234fd8124156d65a822970b7bae04e4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::drawCustomSettings_</definition>
-        <argsstring>(const std::string &amp;separatorName, bool needSeparator)</argsstring>
-        <name>drawCustomSettings_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawCustomSettings_</qualifiedname>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>separatorName</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>needSeparator</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="94" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsPlugin_1a44560a17a160565e9cf3acfe603f0dc4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::drawSeparator_</definition>
-        <argsstring>(const std::string &amp;separatorName)</argsstring>
-        <name>drawSeparator_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawSeparator_</qualifiedname>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>separatorName</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="95" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsPlugin_1ad21a2705e7ef20d2834f543c459d1df2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::updateDialog_</definition>
-        <argsstring>()</argsstring>
-        <name>updateDialog_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::updateDialog_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="98" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsPlugin_1ab62082b112c1ef416c167b16137cc397" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::resetSettings_</definition>
-        <argsstring>()</argsstring>
-        <name>resetSettings_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::resetSettings_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="99" column="10"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gad68314882fab9a5eb41c7e70678268cd" kind="function"><name>onEnable_</name></member>
+      <member refid="group__GeneralGroup_1ga8a96ddb6300fd5de84ba523be91b69dc" kind="function"><name>onDisable_</name></member>
+      <member refid="group__GeneralGroup_1gad0d7089f5aed92e160f44e7a9ce9202b" kind="function"><name>drawTab_</name></member>
+      <member refid="group__GeneralGroup_1gab3385c270312c2f8341855336aeec56a" kind="function"><name>drawQuickTab_</name></member>
+      <member refid="group__GeneralGroup_1gaad5ed50d043abbea26da2853f14bfda1" kind="function"><name>drawApplicationTab_</name></member>
+      <member refid="group__GeneralGroup_1ga10ae128bccb0b8e1b585c02fc6f9d85b" kind="function"><name>drawControlTab_</name></member>
+      <member refid="group__GeneralGroup_1ga16cf2c5207d54ec49bcec97a70927cab" kind="function"><name>drawViewportTab_</name></member>
+      <member refid="group__GeneralGroup_1gae73ebe4fc5fbaacc509b057b6b37f706" kind="function"><name>drawMeasurementUnitsTab_</name></member>
+      <member refid="group__GeneralGroup_1gac0b210ec574cb25b96da4341d73ca739" kind="function"><name>drawFeaturesTab_</name></member>
+      <member refid="group__GeneralGroup_1ga178fbd197fcc5841a9b7f49cbb636c26" kind="function"><name>drawThemeSelector_</name></member>
+      <member refid="group__GeneralGroup_1gaa94c7740d8768bea22b1114c584883ca" kind="function"><name>drawResetDialog_</name></member>
+      <member refid="group__GeneralGroup_1ga80dda1a25e5eddabe65d33ba1bed73b6" kind="function"><name>drawShadingModeCombo_</name></member>
+      <member refid="group__GeneralGroup_1gacd285192fd635b1db7826fa81a3a0838" kind="function"><name>drawProjectionModeSelector_</name></member>
+      <member refid="group__GeneralGroup_1gae12ce4a6d6a8278cbe7275f3b1a8309d" kind="function"><name>drawUpDirectionSelector_</name></member>
+      <member refid="group__GeneralGroup_1ga772fb6f5b307f57aa572bc60c7c03a16" kind="function"><name>drawBackgroundButton_</name></member>
+      <member refid="group__GeneralGroup_1gac41934b462a7ecf5a513279f7ad3c577" kind="function"><name>drawRenderOptions_</name></member>
+      <member refid="group__GeneralGroup_1gaf4cbb91c1e84bebd995c89284084c03d" kind="function"><name>drawShadowsOptions_</name></member>
+      <member refid="group__GeneralGroup_1ga0240b21d67858fb8936910ca704e1696" kind="function"><name>drawMouseSceneControlsSettings_</name></member>
+      <member refid="group__GeneralGroup_1ga9076c9b9fe889480701ac78798e5d8df" kind="function"><name>drawSpaceMouseSettings_</name></member>
+      <member refid="group__GeneralGroup_1ga602bbca830ae850c60ff9d98f7316a3b" kind="function"><name>drawTouchpadSettings_</name></member>
+      <member refid="group__GeneralGroup_1gafe777332677939f6435d570ff8e55576" kind="function"><name>drawMruInnerFormats_</name></member>
+      <member refid="group__GeneralGroup_1ga7412713a4282acc0801fa920257f186b" kind="function"><name>drawGlobalSettings_</name></member>
+      <member refid="group__GeneralGroup_1gac234fd8124156d65a822970b7bae04e4" kind="function"><name>drawCustomSettings_</name></member>
+      <member refid="group__GeneralGroup_1ga44560a17a160565e9cf3acfe603f0dc4" kind="function"><name>drawSeparator_</name></member>
+      <member refid="group__GeneralGroup_1gad21a2705e7ef20d2834f543c459d1df2" kind="function"><name>updateDialog_</name></member>
+      <member refid="group__GeneralGroup_1gab62082b112c1ef416c167b16137cc397" kind="function"><name>resetSettings_</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="10">
-        <label>Connectables...</label>
-      </node>
-      <node id="7">
-        <label>MR::IPluginUpdate</label>
-        <link refid="classMR_1_1IPluginUpdate"/>
-      </node>
-      <node id="8">
-        <label>MR::ISceneSelectionChange</label>
-        <link refid="classMR_1_1ISceneSelectionChange"/>
-      </node>
-      <node id="6">
-        <label>MR::ISceneStateCheck</label>
-        <link refid="classMR_1_1ISceneStateCheck"/>
-      </node>
-      <node id="9">
-        <label>MR::MultiListener&lt; Connectables... &gt;</label>
-        <link refid="structMR_1_1MultiListener"/>
-        <childnode refid="10" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="5">
-        <label>MR::RibbonMenuItem</label>
-        <link refid="classMR_1_1RibbonMenuItem"/>
-        <childnode refid="6" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="3">
-        <label>MR::StateBasePlugin</label>
-        <link refid="classMR_1_1StateBasePlugin"/>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-        <childnode refid="5" relation="public-inheritance">
-        </childnode>
-        <childnode refid="7" relation="public-inheritance">
-        </childnode>
-        <childnode refid="8" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="4">
-        <label>MR::ViewerPlugin</label>
-        <link refid="classMR_1_1ViewerPlugin"/>
+      <node id="2">
+        <label>MR::StatePlugin</label>
       </node>
       <node id="1">
         <label>MR::ViewerSettingsPlugin</label>
         <link refid="classMR_1_1ViewerSettingsPlugin"/>
         <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="2">
-        <label>StatePlugin</label>
-        <link refid="classMR_1_1StateListenerPlugin"/>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="9" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="11">
-        <label>Connectables...</label>
-      </node>
-      <node id="8">
-        <label>MR::IPluginUpdate</label>
-        <link refid="classMR_1_1IPluginUpdate"/>
-      </node>
-      <node id="9">
-        <label>MR::ISceneSelectionChange</label>
-        <link refid="classMR_1_1ISceneSelectionChange"/>
-      </node>
-      <node id="7">
-        <label>MR::ISceneStateCheck</label>
-        <link refid="classMR_1_1ISceneStateCheck"/>
-      </node>
-      <node id="10">
-        <label>MR::MultiListener&lt; Connectables... &gt;</label>
-        <link refid="structMR_1_1MultiListener"/>
-        <childnode refid="11" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="6">
-        <label>MR::RibbonMenuItem</label>
-        <link refid="classMR_1_1RibbonMenuItem"/>
-        <childnode refid="7" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="3">
-        <label>MR::StateBasePlugin</label>
-        <link refid="classMR_1_1StateBasePlugin"/>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-        <childnode refid="6" relation="public-inheritance">
-        </childnode>
-        <childnode refid="8" relation="public-inheritance">
-        </childnode>
-        <childnode refid="9" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="5">
-        <label>MR::Viewer</label>
-        <link refid="classMR_1_1Viewer"/>
-      </node>
-      <node id="4">
-        <label>MR::ViewerPlugin</label>
-        <link refid="classMR_1_1ViewerPlugin"/>
-        <childnode refid="5" relation="usage">
-          <edgelabel>viewer</edgelabel>
-        </childnode>
+      <node id="2">
+        <label>MR::StatePlugin</label>
       </node>
       <node id="1">
         <label>MR::ViewerSettingsPlugin</label>
@@ -982,118 +89,58 @@
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="2">
-        <label>StatePlugin</label>
-        <link refid="classMR_1_1StateListenerPlugin"/>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="10" relation="public-inheritance">
-        </childnode>
-      </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" bodystart="16" bodyend="126"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" bodystart="19" bodyend="129"/>
     <listofallmembers>
-      <member refid="classMR_1_1StateBasePlugin_1a3e096e6d2e0ecf98e399691bd99c82f7" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>action</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1aca69b2de3f466e977b398c0155b02cca" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>activeTab_</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1acf4f908a53429634d394195587aabb59" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>addComboSettings</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1ad8e0bf4467ab87e19a5146de2385bebf" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>backgroundColor_</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1ac31f0ed7c0847408208b9cd59d7a9c40" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>blocking</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1a730c0edb5aead3d67519512f5545bd63" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>checkStringMask</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1a70f10bd29105edf9ee71c6dd68ef5c9b" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>comboSettings_</name></member>
-      <member refid="structMR_1_1MultiListener_1af3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>connect</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1a25d8a5c93929180a4b438d21afe8cb02" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>delComboSettings</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1a55b362aee5989fe359aadd33c9be78b4" prot="protected" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>dialogIsCollapsed_</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1ad91197be262f6b569d9234033d73bb8d" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>dialogIsOpen</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1a1d97f71a0f325fbe29b0bbec3e564204" prot="protected" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>dialogIsOpen_</name></member>
-      <member refid="structMR_1_1MultiListener_1acfa598489bfbc3b88c84b029213d042c" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>disconnect</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1aad5ed50d043abbea26da2853f14bfda1" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawApplicationTab_</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1a772fb6f5b307f57aa572bc60c7c03a16" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawBackgroundButton_</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1a10ae128bccb0b8e1b585c02fc6f9d85b" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawControlTab_</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1ac234fd8124156d65a822970b7bae04e4" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawCustomSettings_</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1a119e03f41d8f3bdf0c9ee522b8ad623b" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawDialog</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1ac0b210ec574cb25b96da4341d73ca739" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawFeaturesTab_</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1a7412713a4282acc0801fa920257f186b" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawGlobalSettings_</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1ae73ebe4fc5fbaacc509b057b6b37f706" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawMeasurementUnitsTab_</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1a0240b21d67858fb8936910ca704e1696" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawMouseSceneControlsSettings_</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1afe777332677939f6435d570ff8e55576" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawMruInnerFormats_</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1acd285192fd635b1db7826fa81a3a0838" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawProjectionModeSelector_</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1ab3385c270312c2f8341855336aeec56a" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawQuickTab_</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1ac41934b462a7ecf5a513279f7ad3c577" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawRenderOptions_</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1aa94c7740d8768bea22b1114c584883ca" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawResetDialog_</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1a44560a17a160565e9cf3acfe603f0dc4" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawSeparator_</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1a80dda1a25e5eddabe65d33ba1bed73b6" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawShadingModeCombo_</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1af4cbb91c1e84bebd995c89284084c03d" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawShadowsOptions_</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1a9076c9b9fe889480701ac78798e5d8df" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawSpaceMouseSettings_</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1ad0d7089f5aed92e160f44e7a9ce9202b" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawTab_</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1a178fbd197fcc5841a9b7f49cbb636c26" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawThemeSelector_</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1a602bbca830ae850c60ff9d98f7316a3b" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawTouchpadSettings_</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1ae12ce4a6d6a8278cbe7275f3b1a8309d" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawUpDirectionSelector_</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1a16cf2c5207d54ec49bcec97a70927cab" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawViewportTab_</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a1141be44babb4a13201487188c332668" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>dropItems</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a4799011be3410f46444164d6d00b966e" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>DropItemsList</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a2f25401d4b94a752bd63b79152673ab5" prot="protected" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>dropList_</name></member>
-      <member refid="classMR_1_1StateListenerPlugin_1a7dd63f0fe42b793001a53a4e76b94255" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>enable</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a88f1487695e2012ebb1cacbc1a59775a" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>getDynamicTooltip</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1a54181a3e2d58070b748c4d49c721a0ea" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>getTab</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1a1f81b6898ef7ea347c4639fb8d788bc8" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>getTabName</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1a2cd5d2532aaf3a9fd7283d4bb24a638d" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>getTooltip</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1a8b0d0e857bc86e82e9aafaa8c2fb3a9b" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>gpuOverridesMSAA_</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1aa1855ed7ea42bd976bee234e52655ffd" prot="protected" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>ImGuiBeginWindow_</name></member>
-      <member refid="classMR_1_1ViewerPlugin_1a67916b512e8d54ee7cdb8ef1cb4f6794" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>init</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1af0e9b4bd0c8a80ad3d40a02b51c16523" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>instance</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1a2172655c98b73059ee0bfc8cb3115097" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>isActive</name></member>
-      <member refid="classMR_1_1ISceneStateCheck_1adedf10c80ddfebcb456559fa828065c0" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>isAvailable</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1ae7da0ed13a069a29ec8fac496e7aa065" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>isEnabled</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1a239e7ea5887cf228c8ea6a7eef781a2c" prot="protected" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>isEnabled_</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1aa024a5be3baa23b2286b5098bdda431e" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>maxSamples_</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a957422a15704b2f8854bfd0b2d1ae76d" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>MR_DELETE_MOVE</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1adcbd14e9b8681ce364c9edc3a665e582" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>mruFormatParameters_</name></member>
-      <member refid="classMR_1_1StateListenerPlugin_1a700dee77fa82afbe743aa424eb782e2d" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>MultiListenerBase</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1abf4ea13c8983c44214b92a066e8b7659" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>name</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1a8a96ddb6300fd5de84ba523be91b69dc" prot="private" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>onDisable_</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1ad68314882fab9a5eb41c7e70678268cd" prot="private" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>onEnable_</name></member>
-      <member refid="classMR_1_1IPluginUpdate_1a0ac2f366f4785c61b991e9d38f1c12d1" prot="protected" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>onPluginDisable_</name></member>
-      <member refid="classMR_1_1IPluginUpdate_1ac74a796b15f4842c135a9956d270caa3" prot="protected" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>onPluginEnable_</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1a9b2fe6e3312bc4374c221800fe40b4c5" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>orderedTab_</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1a3e0c7bd65afe7b25c1f4be31e13ea0c5" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>plugin_name</name></member>
-      <member refid="classMR_1_1StateListenerPlugin_1a1f068c2aecefbd45559101aca348aca3" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>PluginParent</name></member>
-      <member refid="classMR_1_1IPluginUpdate_1a6a79d0d76063de2f4947098cc9cb07a8" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>preDrawUpdate</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1ab62082b112c1ef416c167b16137cc397" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>resetSettings_</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1ad3e0eda49eae11a9fba79187c62e07bb" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>RibbonMenuItem</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1a3144773dd6c0dfbccac2fd853c86bb33" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>selectedUserPreset_</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1aa3fd8eed1495a80edbc79bc1dc67e298" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>setActiveTab</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1af417cbe66b6559e5df0122377c5a3628" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>setDropItemsFromItemList</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1ab499c9049737793e6b1994048b99952c" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>setRibbonItemType</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1a1962cf4397a96b2ffc12d9b23ab51cb6" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>setUIName</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1a0f3ad2977cefa7607eb755063d711774" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>shadowGl_</name></member>
-      <member refid="classMR_1_1IPluginUpdate_1ab6e6e3dcf2ab382434fd967480164324" prot="protected" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>shouldClose_</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1af0d68f675e98e0a1ceb44192eaf94a13" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>shutdown</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1adede9d0773e7eff370bd78dc66a4c898" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>sortString</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1aa0a0d9dbeaa39b7725d50966e9652537" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>spaceMouseParams_</name></member>
-      <member refid="classMR_1_1StateListenerPlugin_1a36686d0a6dcae1a1bcce521d5db5e413" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>StateBasePlugin</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1a047afd56c4798c48f7121ad62c733259" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>storedSamples_</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1ac3e8d3db81bf9d8a316c46e82f369980" prot="protected" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>tab_</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1afeeff27006fc4c615527cbd2c08c552b" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>TabType</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1a7804450cb17708be19bec3d0981128cd" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>tempUserScaling_</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1a0d02884daef68b9090f2fc24899467bd" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>touchpadParameters_</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a15b6a4b9f191b8716be1199364bb74e0" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>type</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a00b402da6dbcec7d6c97b5c6a16e3924" prot="protected" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>type_</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1a56d7b27cd916a3ec2fcf0bcb4b7e3d28" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>uiName</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1a5c9e09293a48644029f129e878ececd6" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>UINameSuffix</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1ad21a2705e7ef20d2834f543c459d1df2" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>updateDialog_</name></member>
-      <member refid="classMR_1_1ISceneSelectionChange_1a0e5a18c4e15ba23a7536d1511cb823b6" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>updateSelection</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1ae579b363d0283ded6914225b425efd99" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>updateThemes</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1ad4388798318e29736315d5a9cb21ebb0" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>userThemesPresets_</name></member>
-      <member refid="classMR_1_1ViewerPlugin_1ad12538d77ebcf356c03469cbce40abae" prot="protected" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>viewer</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1a4fda238acd33621d265e12dff2282e03" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>ViewerSettingsPlugin</name></member>
-      <member refid="classMR_1_1IPluginUpdate_1a3a57e2a35ba84c0bdd2af8a0f162c5f3" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>~IPluginUpdate</name></member>
-      <member refid="classMR_1_1ISceneSelectionChange_1a46ed29a0c79bdfb7de53ea802fee042c" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>~ISceneSelectionChange</name></member>
-      <member refid="classMR_1_1ISceneStateCheck_1ad6d7bd5bc97dd4a629de5e0a33af3afe" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>~ISceneStateCheck</name></member>
-      <member refid="structMR_1_1MultiListener_1a726f5e2601b7f25e31824a0cac630fb2" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>~MultiListener</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1ac8074b75f1c764d041b11210b5b7541c" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>~RibbonMenuItem</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1a9a8917bb4527c6108a4ec176619d2990" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>~StateBasePlugin</name></member>
-      <member refid="classMR_1_1StateListenerPlugin_1a85268a85190bc88be8cc76981bff5587" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>~StateListenerPlugin</name></member>
-      <member refid="classMR_1_1ViewerPlugin_1ad7fd0e80e15b5c45837fc005c71c9eab" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>~ViewerPlugin</name></member>
+      <member refid="group__GeneralGroup_1gaca69b2de3f466e977b398c0155b02cca" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>activeTab_</name></member>
+      <member refid="group__GeneralGroup_1gacf4f908a53429634d394195587aabb59" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>addComboSettings</name></member>
+      <member refid="group__GeneralGroup_1gad8e0bf4467ab87e19a5146de2385bebf" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>backgroundColor_</name></member>
+      <member refid="group__GeneralGroup_1gac31f0ed7c0847408208b9cd59d7a9c40" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>blocking</name></member>
+      <member refid="group__GeneralGroup_1ga70f10bd29105edf9ee71c6dd68ef5c9b" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>comboSettings_</name></member>
+      <member refid="group__GeneralGroup_1ga25d8a5c93929180a4b438d21afe8cb02" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>delComboSettings</name></member>
+      <member refid="group__GeneralGroup_1gaad5ed50d043abbea26da2853f14bfda1" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawApplicationTab_</name></member>
+      <member refid="group__GeneralGroup_1ga772fb6f5b307f57aa572bc60c7c03a16" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawBackgroundButton_</name></member>
+      <member refid="group__GeneralGroup_1ga10ae128bccb0b8e1b585c02fc6f9d85b" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawControlTab_</name></member>
+      <member refid="group__GeneralGroup_1gac234fd8124156d65a822970b7bae04e4" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawCustomSettings_</name></member>
+      <member refid="group__GeneralGroup_1ga119e03f41d8f3bdf0c9ee522b8ad623b" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawDialog</name></member>
+      <member refid="group__GeneralGroup_1gac0b210ec574cb25b96da4341d73ca739" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawFeaturesTab_</name></member>
+      <member refid="group__GeneralGroup_1ga7412713a4282acc0801fa920257f186b" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawGlobalSettings_</name></member>
+      <member refid="group__GeneralGroup_1gae73ebe4fc5fbaacc509b057b6b37f706" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawMeasurementUnitsTab_</name></member>
+      <member refid="group__GeneralGroup_1ga0240b21d67858fb8936910ca704e1696" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawMouseSceneControlsSettings_</name></member>
+      <member refid="group__GeneralGroup_1gafe777332677939f6435d570ff8e55576" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawMruInnerFormats_</name></member>
+      <member refid="group__GeneralGroup_1gacd285192fd635b1db7826fa81a3a0838" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawProjectionModeSelector_</name></member>
+      <member refid="group__GeneralGroup_1gab3385c270312c2f8341855336aeec56a" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawQuickTab_</name></member>
+      <member refid="group__GeneralGroup_1gac41934b462a7ecf5a513279f7ad3c577" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawRenderOptions_</name></member>
+      <member refid="group__GeneralGroup_1gaa94c7740d8768bea22b1114c584883ca" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawResetDialog_</name></member>
+      <member refid="group__GeneralGroup_1ga44560a17a160565e9cf3acfe603f0dc4" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawSeparator_</name></member>
+      <member refid="group__GeneralGroup_1ga80dda1a25e5eddabe65d33ba1bed73b6" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawShadingModeCombo_</name></member>
+      <member refid="group__GeneralGroup_1gaf4cbb91c1e84bebd995c89284084c03d" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawShadowsOptions_</name></member>
+      <member refid="group__GeneralGroup_1ga9076c9b9fe889480701ac78798e5d8df" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawSpaceMouseSettings_</name></member>
+      <member refid="group__GeneralGroup_1gad0d7089f5aed92e160f44e7a9ce9202b" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawTab_</name></member>
+      <member refid="group__GeneralGroup_1ga178fbd197fcc5841a9b7f49cbb636c26" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawThemeSelector_</name></member>
+      <member refid="group__GeneralGroup_1ga602bbca830ae850c60ff9d98f7316a3b" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawTouchpadSettings_</name></member>
+      <member refid="group__GeneralGroup_1gae12ce4a6d6a8278cbe7275f3b1a8309d" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawUpDirectionSelector_</name></member>
+      <member refid="group__GeneralGroup_1ga16cf2c5207d54ec49bcec97a70927cab" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawViewportTab_</name></member>
+      <member refid="group__GeneralGroup_1ga8b0d0e857bc86e82e9aafaa8c2fb3a9b" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>gpuOverridesMSAA_</name></member>
+      <member refid="group__GeneralGroup_1gaf0e9b4bd0c8a80ad3d40a02b51c16523" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>instance</name></member>
+      <member refid="group__GeneralGroup_1gaa024a5be3baa23b2286b5098bdda431e" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>maxSamples_</name></member>
+      <member refid="group__GeneralGroup_1gadcbd14e9b8681ce364c9edc3a665e582" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>mruFormatParameters_</name></member>
+      <member refid="group__GeneralGroup_1ga8a96ddb6300fd5de84ba523be91b69dc" prot="private" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>onDisable_</name></member>
+      <member refid="group__GeneralGroup_1gad68314882fab9a5eb41c7e70678268cd" prot="private" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>onEnable_</name></member>
+      <member refid="group__GeneralGroup_1ga9b2fe6e3312bc4374c221800fe40b4c5" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>orderedTab_</name></member>
+      <member refid="group__GeneralGroup_1gab62082b112c1ef416c167b16137cc397" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>resetSettings_</name></member>
+      <member refid="group__GeneralGroup_1ga3144773dd6c0dfbccac2fd853c86bb33" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>selectedUserPreset_</name></member>
+      <member refid="group__GeneralGroup_1gaa3fd8eed1495a80edbc79bc1dc67e298" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>setActiveTab</name></member>
+      <member refid="group__GeneralGroup_1ga0f3ad2977cefa7607eb755063d711774" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>shadowGl_</name></member>
+      <member refid="group__GeneralGroup_1gaa0a0d9dbeaa39b7725d50966e9652537" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>spaceMouseParams_</name></member>
+      <member refid="group__GeneralGroup_1ga047afd56c4798c48f7121ad62c733259" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>storedSamples_</name></member>
+      <member refid="group__GeneralGroup_1gafeeff27006fc4c615527cbd2c08c552b" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>TabType</name></member>
+      <member refid="group__GeneralGroup_1ga7804450cb17708be19bec3d0981128cd" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>tempUserScaling_</name></member>
+      <member refid="group__GeneralGroup_1ga0d02884daef68b9090f2fc24899467bd" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>touchpadParameters_</name></member>
+      <member refid="group__GeneralGroup_1gad21a2705e7ef20d2834f543c459d1df2" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>updateDialog_</name></member>
+      <member refid="group__GeneralGroup_1gae579b363d0283ded6914225b425efd99" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>updateThemes</name></member>
+      <member refid="group__GeneralGroup_1gad4388798318e29736315d5a9cb21ebb0" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>userThemesPresets_</name></member>
+      <member refid="group__GeneralGroup_1ga4fda238acd33621d265e12dff2282e03" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>ViewerSettingsPlugin</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

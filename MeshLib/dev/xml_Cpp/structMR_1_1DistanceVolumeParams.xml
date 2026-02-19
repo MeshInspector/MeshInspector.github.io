@@ -5,68 +5,10 @@
     <derivedcompoundref refid="structMR_1_1PointsToDistanceVolumeParams" prot="public" virt="non-virtual">MR::PointsToDistanceVolumeParams</derivedcompoundref>
     <includes refid="MRDistanceVolumeParams_8h" local="no">MRDistanceVolumeParams.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1DistanceVolumeParams_1a57f0f5741fc414817c5c20a26970ec30" prot="public" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::DistanceVolumeParams::origin</definition>
-        <argsstring></argsstring>
-        <name>origin</name>
-        <qualifiedname>MR::DistanceVolumeParams::origin</qualifiedname>
-        <briefdescription>
-<para>origin point of voxels box </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDistanceVolumeParams.h" line="12" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDistanceVolumeParams.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1DistanceVolumeParams_1a920081c5dce988d2f087b470ea72803a" prot="public" static="no" mutable="no">
-        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
-        <definition>ProgressCallback MR::DistanceVolumeParams::cb</definition>
-        <argsstring></argsstring>
-        <name>cb</name>
-        <qualifiedname>MR::DistanceVolumeParams::cb</qualifiedname>
-        <briefdescription>
-<para>progress callback </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDistanceVolumeParams.h" line="15" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDistanceVolumeParams.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1DistanceVolumeParams_1a1cb9a2d437a8280082f79d22a1fd1ab4" prot="public" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::DistanceVolumeParams::voxelSize</definition>
-        <argsstring></argsstring>
-        <name>voxelSize</name>
-        <qualifiedname>MR::DistanceVolumeParams::voxelSize</qualifiedname>
-        <initializer>{ 1.0f,1.0f,1.0f }</initializer>
-        <briefdescription>
-<para>size of voxel on each axis </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDistanceVolumeParams.h" line="18" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDistanceVolumeParams.h" bodystart="18" bodyend="18"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1DistanceVolumeParams_1ade7c79fd5b25f3a928fa747f8e6d61d2" prot="public" static="no" mutable="no">
-        <type>Vector3i</type>
-        <definition>Vector3i MR::DistanceVolumeParams::dimensions</definition>
-        <argsstring></argsstring>
-        <name>dimensions</name>
-        <qualifiedname>MR::DistanceVolumeParams::dimensions</qualifiedname>
-        <initializer>{ 100,100,100 }</initializer>
-        <briefdescription>
-<para>num voxels along each axis </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDistanceVolumeParams.h" line="21" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDistanceVolumeParams.h" bodystart="21" bodyend="21"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga57f0f5741fc414817c5c20a26970ec30" kind="variable"><name>origin</name></member>
+      <member refid="group__GeneralGroup_1ga920081c5dce988d2f087b470ea72803a" kind="variable"><name>cb</name></member>
+      <member refid="group__GeneralGroup_1ga1cb9a2d437a8280082f79d22a1fd1ab4" kind="variable"><name>voxelSize</name></member>
+      <member refid="group__GeneralGroup_1gade7c79fd5b25f3a928fa747f8e6d61d2" kind="variable"><name>dimensions</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -84,12 +26,12 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDistanceVolumeParams.h" line="9" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDistanceVolumeParams.h" bodystart="10" bodyend="22"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDistanceVolumeParams.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDistanceVolumeParams.h" bodystart="13" bodyend="25"/>
     <listofallmembers>
-      <member refid="structMR_1_1DistanceVolumeParams_1a920081c5dce988d2f087b470ea72803a" prot="public" virt="non-virtual"><scope>MR::DistanceVolumeParams</scope><name>cb</name></member>
-      <member refid="structMR_1_1DistanceVolumeParams_1ade7c79fd5b25f3a928fa747f8e6d61d2" prot="public" virt="non-virtual"><scope>MR::DistanceVolumeParams</scope><name>dimensions</name></member>
-      <member refid="structMR_1_1DistanceVolumeParams_1a57f0f5741fc414817c5c20a26970ec30" prot="public" virt="non-virtual"><scope>MR::DistanceVolumeParams</scope><name>origin</name></member>
-      <member refid="structMR_1_1DistanceVolumeParams_1a1cb9a2d437a8280082f79d22a1fd1ab4" prot="public" virt="non-virtual"><scope>MR::DistanceVolumeParams</scope><name>voxelSize</name></member>
+      <member refid="group__GeneralGroup_1ga920081c5dce988d2f087b470ea72803a" prot="public" virt="non-virtual"><scope>MR::DistanceVolumeParams</scope><name>cb</name></member>
+      <member refid="group__GeneralGroup_1gade7c79fd5b25f3a928fa747f8e6d61d2" prot="public" virt="non-virtual"><scope>MR::DistanceVolumeParams</scope><name>dimensions</name></member>
+      <member refid="group__GeneralGroup_1ga57f0f5741fc414817c5c20a26970ec30" prot="public" virt="non-virtual"><scope>MR::DistanceVolumeParams</scope><name>origin</name></member>
+      <member refid="group__GeneralGroup_1ga1cb9a2d437a8280082f79d22a1fd1ab4" prot="public" virt="non-virtual"><scope>MR::DistanceVolumeParams</scope><name>voxelSize</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

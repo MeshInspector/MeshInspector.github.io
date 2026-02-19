@@ -5,320 +5,31 @@
     <derivedcompoundref refid="classMR_1_1DefaultSplashWindow" prot="public" virt="non-virtual">MR::DefaultSplashWindow</derivedcompoundref>
     <includes refid="MRSplashWindow_8h" local="no">MRSplashWindow.h</includes>
     <sectiondef kind="protected-attrib">
-      <memberdef kind="variable" id="classMR_1_1SplashWindow_1a79107d23834b7d624c70558d9acfcd38" prot="protected" static="no" mutable="no">
-        <type>std::string</type>
-        <definition>std::string MR::SplashWindow::name_</definition>
-        <argsstring></argsstring>
-        <name>name_</name>
-        <qualifiedname>MR::SplashWindow::name_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSplashWindow.h" line="37" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSplashWindow.h" bodystart="37" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1SplashWindow_1a4e6ed4ee9950dc53818813544070379e" prot="protected" static="no" mutable="no">
-        <type>GLFWwindow *</type>
-        <definition>GLFWwindow* MR::SplashWindow::window_</definition>
-        <argsstring></argsstring>
-        <name>window_</name>
-        <qualifiedname>MR::SplashWindow::window_</qualifiedname>
-        <initializer>{ nullptr }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSplashWindow.h" line="39" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSplashWindow.h" bodystart="39" bodyend="39"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1SplashWindow_1a8e1b0c94c0dec969c8476897de435fdb" prot="protected" static="no" mutable="no">
-        <type>ImGuiContext *</type>
-        <definition>ImGuiContext* MR::SplashWindow::guiContext_</definition>
-        <argsstring></argsstring>
-        <name>guiContext_</name>
-        <qualifiedname>MR::SplashWindow::guiContext_</qualifiedname>
-        <initializer>{ nullptr }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSplashWindow.h" line="40" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSplashWindow.h" bodystart="40" bodyend="40"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1SplashWindow_1a302e1b3310c1ee684e3de1d7a239e964" prot="protected" static="no" mutable="no">
-        <type>std::atomic&lt; bool &gt;</type>
-        <definition>std::atomic&lt;bool&gt; MR::SplashWindow::terminate_</definition>
-        <argsstring></argsstring>
-        <name>terminate_</name>
-        <qualifiedname>MR::SplashWindow::terminate_</qualifiedname>
-        <initializer>{ false }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSplashWindow.h" line="42" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSplashWindow.h" bodystart="42" bodyend="42"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga79107d23834b7d624c70558d9acfcd38" kind="variable"><name>name_</name></member>
+      <member refid="group__GeneralGroup_1ga4e6ed4ee9950dc53818813544070379e" kind="variable"><name>window_</name></member>
+      <member refid="group__GeneralGroup_1ga8e1b0c94c0dec969c8476897de435fdb" kind="variable"><name>guiContext_</name></member>
+      <member refid="group__GeneralGroup_1ga302e1b3310c1ee684e3de1d7a239e964" kind="variable"><name>terminate_</name></member>
     </sectiondef>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1SplashWindow_1a1f40e63a88ac062dbcd07f76bbc2efab" prot="private" static="no" mutable="no">
-        <type>std::thread</type>
-        <definition>std::thread MR::SplashWindow::thread_</definition>
-        <argsstring></argsstring>
-        <name>thread_</name>
-        <qualifiedname>MR::SplashWindow::thread_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSplashWindow.h" line="64" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSplashWindow.h" bodystart="64" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga1f40e63a88ac062dbcd07f76bbc2efab" kind="variable"><name>thread_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1SplashWindow_1a339e38c56c4709ed12f877a0b026a659" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API</type>
-        <definition>MRVIEWER_API MR::SplashWindow::SplashWindow</definition>
-        <argsstring>(std::string name)</argsstring>
-        <name>SplashWindow</name>
-        <qualifiedname>MR::SplashWindow::SplashWindow</qualifiedname>
-        <param>
-          <type>std::string</type>
-          <declname>name</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSplashWindow.h" line="21" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SplashWindow_1aa8219c57ea7f0cab0fb236ab58fbcb5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API</type>
-        <definition>virtual MRVIEWER_API MR::SplashWindow::~SplashWindow</definition>
-        <argsstring>()</argsstring>
-        <name>~SplashWindow</name>
-        <qualifiedname>MR::SplashWindow::~SplashWindow</qualifiedname>
-        <briefdescription>
-<para>Thread should be stopped before destructor. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSplashWindow.h" line="24" column="26"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SplashWindow_1af0ce424272b846ce5f6cf1f9116f1742" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::SplashWindow::start</definition>
-        <argsstring>()</argsstring>
-        <name>start</name>
-        <qualifiedname>MR::SplashWindow::start</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Starts splash window in new thread, non blocking window will be closed in destructor of this class, or if <computeroutput>frame_</computeroutput> func returns false. or manually with <computeroutput>stop</computeroutput> function </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSplashWindow.h" line="28" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SplashWindow_1a12f3e91e4d3acf7a279458baf304721a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::SplashWindow::stop</definition>
-        <argsstring>()</argsstring>
-        <name>stop</name>
-        <qualifiedname>MR::SplashWindow::stop</qualifiedname>
-        <briefdescription>
-<para>Closes splash window if it is still opened. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSplashWindow.h" line="31" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SplashWindow_1a017a42c7599e421ba51d913f9c9c0a5c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>float</type>
-        <definition>virtual float MR::SplashWindow::minimumTimeSec</definition>
-        <argsstring>() const</argsstring>
-        <name>minimumTimeSec</name>
-        <qualifiedname>MR::SplashWindow::minimumTimeSec</qualifiedname>
-        <briefdescription>
-<para>Returns minimum time in seconds, splash screen to be present. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSplashWindow.h" line="34" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSplashWindow.h" bodystart="34" bodyend="34"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga339e38c56c4709ed12f877a0b026a659" kind="function"><name>SplashWindow</name></member>
+      <member refid="group__GeneralGroup_1gaa8219c57ea7f0cab0fb236ab58fbcb5f" kind="function"><name>~SplashWindow</name></member>
+      <member refid="group__GeneralGroup_1gaf0ce424272b846ce5f6cf1f9116f1742" kind="function"><name>start</name></member>
+      <member refid="group__GeneralGroup_1ga12f3e91e4d3acf7a279458baf304721a" kind="function"><name>stop</name></member>
+      <member refid="group__GeneralGroup_1ga017a42c7599e421ba51d913f9c9c0a5c" kind="function"><name>minimumTimeSec</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMR_1_1SplashWindow_1ae935b3ff8afc52b592619047fee6fd22" prot="private" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MR::SplashWindow::afterStart_</definition>
-        <argsstring>()</argsstring>
-        <name>afterStart_</name>
-        <qualifiedname>MR::SplashWindow::afterStart_</qualifiedname>
-        <briefdescription>
-<para>This function is called in main thread right after splash thread is started. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSplashWindow.h" line="45" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSplashWindow.h" bodystart="45" bodyend="45"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SplashWindow_1af1fcc73b750221e7c74d861f9af0ce31" prot="private" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MR::SplashWindow::beforeStop_</definition>
-        <argsstring>()</argsstring>
-        <name>beforeStop_</name>
-        <qualifiedname>MR::SplashWindow::beforeStop_</qualifiedname>
-        <briefdescription>
-<para>This function is called in main thread right before splash thread is stopped. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSplashWindow.h" line="47" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSplashWindow.h" bodystart="47" bodyend="47"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SplashWindow_1a68785afa9476337fc0590f5c79157794" prot="private" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
-        <type>void</type>
-        <definition>virtual void MR::SplashWindow::setup_</definition>
-        <argsstring>() const =0</argsstring>
-        <name>setup_</name>
-        <qualifiedname>MR::SplashWindow::setup_</qualifiedname>
-        <reimplementedby refid="classMR_1_1DefaultSplashWindow_1acd99f81771c85244b10fc70b79566cc0">setup_</reimplementedby>
-        <briefdescription>
-<para>This is called first (for window decoration, etc.), splash thread. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSplashWindow.h" line="50" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SplashWindow_1ac80119ef5a52f5ea9ebb460a73e57ac1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MR::SplashWindow::postInit_</definition>
-        <argsstring>()</argsstring>
-        <name>postInit_</name>
-        <qualifiedname>MR::SplashWindow::postInit_</qualifiedname>
-        <reimplementedby refid="classMR_1_1DefaultSplashWindow_1ac2a2378a135afa449e4230a8717049ed">postInit_</reimplementedby>
-        <briefdescription>
-<para>This is called right after window is created to make some initial actions (for example load splash texture), splash thread. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSplashWindow.h" line="52" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSplashWindow.h" bodystart="52" bodyend="52"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SplashWindow_1a1718c36de3d513da8f62c0516ba4feee" prot="private" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
-        <type>void</type>
-        <definition>virtual void MR::SplashWindow::positioning_</definition>
-        <argsstring>(float hdpiScale)=0</argsstring>
-        <name>positioning_</name>
-        <qualifiedname>MR::SplashWindow::positioning_</qualifiedname>
-        <reimplementedby refid="classMR_1_1DefaultSplashWindow_1a3b7ff249a93cc3e154d20c0f98607adb">positioning_</reimplementedby>
-        <param>
-          <type>float</type>
-          <declname>hdpiScale</declname>
-        </param>
-        <briefdescription>
-<para>This is called after &apos;postInit_&apos; (and on dpi change) to resize and reposition window, splash thread. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSplashWindow.h" line="54" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SplashWindow_1a8df117e45139f3e0d3df906ddbd2fd8d" prot="private" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
-        <type>void</type>
-        <definition>virtual void MR::SplashWindow::reloadFont_</definition>
-        <argsstring>(float hdpiScale, float pixelRatio)=0</argsstring>
-        <name>reloadFont_</name>
-        <qualifiedname>MR::SplashWindow::reloadFont_</qualifiedname>
-        <reimplementedby refid="classMR_1_1DefaultSplashWindow_1a22e07408d81a301aa222bda50f95601e">reloadFont_</reimplementedby>
-        <param>
-          <type>float</type>
-          <declname>hdpiScale</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>pixelRatio</declname>
-        </param>
-        <briefdescription>
-<para>This is called after &apos;positioning_&apos; to reload font, splash thread. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSplashWindow.h" line="56" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SplashWindow_1ae73ad8eca5e14faba1926055ca6b1168" prot="private" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::SplashWindow::frame_</definition>
-        <argsstring>(float scaling)=0</argsstring>
-        <name>frame_</name>
-        <qualifiedname>MR::SplashWindow::frame_</qualifiedname>
-        <reimplementedby refid="classMR_1_1DefaultSplashWindow_1a953ff1190ff60fc2904411b3edd7c189">frame_</reimplementedby>
-        <param>
-          <type>float</type>
-          <declname>scaling</declname>
-        </param>
-        <briefdescription>
-<para>This is called each frame, return false to close splash, splash thread. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSplashWindow.h" line="58" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SplashWindow_1a8ddf57c3eb6791c039aaff160e45799b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MR::SplashWindow::preDestruct_</definition>
-        <argsstring>()</argsstring>
-        <name>preDestruct_</name>
-        <qualifiedname>MR::SplashWindow::preDestruct_</qualifiedname>
-        <reimplementedby refid="classMR_1_1DefaultSplashWindow_1adfb66ad05c281fed2a7b4e25cd6d9a0f">preDestruct_</reimplementedby>
-        <briefdescription>
-<para>This is called right before GLWF and <ref refid="namespaceImGui" kindref="compound">ImGui</ref> contexts are destructed (needed to clear some GL data), splash thread. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSplashWindow.h" line="60" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSplashWindow.h" bodystart="60" bodyend="60"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SplashWindow_1a053ccf75a72cef7448025b29a3cabb5a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MR::SplashWindow::postDestruct_</definition>
-        <argsstring>()</argsstring>
-        <name>postDestruct_</name>
-        <qualifiedname>MR::SplashWindow::postDestruct_</qualifiedname>
-        <briefdescription>
-<para>This is called right after GLWF and <ref refid="namespaceImGui" kindref="compound">ImGui</ref> contexts are destructed and right before closing splash (restore Menu <ref refid="namespaceImGui" kindref="compound">ImGui</ref> context, etc.), splash thread. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSplashWindow.h" line="62" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSplashWindow.h" bodystart="62" bodyend="62"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gae935b3ff8afc52b592619047fee6fd22" kind="function"><name>afterStart_</name></member>
+      <member refid="group__GeneralGroup_1gaf1fcc73b750221e7c74d861f9af0ce31" kind="function"><name>beforeStop_</name></member>
+      <member refid="group__GeneralGroup_1ga68785afa9476337fc0590f5c79157794" kind="function"><name>setup_</name></member>
+      <member refid="group__GeneralGroup_1gac80119ef5a52f5ea9ebb460a73e57ac1" kind="function"><name>postInit_</name></member>
+      <member refid="group__GeneralGroup_1ga1718c36de3d513da8f62c0516ba4feee" kind="function"><name>positioning_</name></member>
+      <member refid="group__GeneralGroup_1ga8df117e45139f3e0d3df906ddbd2fd8d" kind="function"><name>reloadFont_</name></member>
+      <member refid="group__GeneralGroup_1gae73ad8eca5e14faba1926055ca6b1168" kind="function"><name>frame_</name></member>
+      <member refid="group__GeneralGroup_1ga8ddf57c3eb6791c039aaff160e45799b" kind="function"><name>preDestruct_</name></member>
+      <member refid="group__GeneralGroup_1ga053ccf75a72cef7448025b29a3cabb5a" kind="function"><name>postDestruct_</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -337,27 +48,27 @@
         <link refid="classMR_1_1SplashWindow"/>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSplashWindow.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSplashWindow.h" bodystart="19" bodyend="65"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSplashWindow.h" line="21" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSplashWindow.h" bodystart="22" bodyend="68"/>
     <listofallmembers>
-      <member refid="classMR_1_1SplashWindow_1ae935b3ff8afc52b592619047fee6fd22" prot="private" virt="virtual"><scope>MR::SplashWindow</scope><name>afterStart_</name></member>
-      <member refid="classMR_1_1SplashWindow_1af1fcc73b750221e7c74d861f9af0ce31" prot="private" virt="virtual"><scope>MR::SplashWindow</scope><name>beforeStop_</name></member>
-      <member refid="classMR_1_1SplashWindow_1ae73ad8eca5e14faba1926055ca6b1168" prot="private" virt="pure-virtual"><scope>MR::SplashWindow</scope><name>frame_</name></member>
-      <member refid="classMR_1_1SplashWindow_1a8e1b0c94c0dec969c8476897de435fdb" prot="protected" virt="non-virtual"><scope>MR::SplashWindow</scope><name>guiContext_</name></member>
-      <member refid="classMR_1_1SplashWindow_1a017a42c7599e421ba51d913f9c9c0a5c" prot="public" virt="virtual"><scope>MR::SplashWindow</scope><name>minimumTimeSec</name></member>
-      <member refid="classMR_1_1SplashWindow_1a79107d23834b7d624c70558d9acfcd38" prot="protected" virt="non-virtual"><scope>MR::SplashWindow</scope><name>name_</name></member>
-      <member refid="classMR_1_1SplashWindow_1a1718c36de3d513da8f62c0516ba4feee" prot="private" virt="pure-virtual"><scope>MR::SplashWindow</scope><name>positioning_</name></member>
-      <member refid="classMR_1_1SplashWindow_1a053ccf75a72cef7448025b29a3cabb5a" prot="private" virt="virtual"><scope>MR::SplashWindow</scope><name>postDestruct_</name></member>
-      <member refid="classMR_1_1SplashWindow_1ac80119ef5a52f5ea9ebb460a73e57ac1" prot="private" virt="virtual"><scope>MR::SplashWindow</scope><name>postInit_</name></member>
-      <member refid="classMR_1_1SplashWindow_1a8ddf57c3eb6791c039aaff160e45799b" prot="private" virt="virtual"><scope>MR::SplashWindow</scope><name>preDestruct_</name></member>
-      <member refid="classMR_1_1SplashWindow_1a8df117e45139f3e0d3df906ddbd2fd8d" prot="private" virt="pure-virtual"><scope>MR::SplashWindow</scope><name>reloadFont_</name></member>
-      <member refid="classMR_1_1SplashWindow_1a68785afa9476337fc0590f5c79157794" prot="private" virt="pure-virtual"><scope>MR::SplashWindow</scope><name>setup_</name></member>
-      <member refid="classMR_1_1SplashWindow_1a339e38c56c4709ed12f877a0b026a659" prot="public" virt="non-virtual"><scope>MR::SplashWindow</scope><name>SplashWindow</name></member>
-      <member refid="classMR_1_1SplashWindow_1af0ce424272b846ce5f6cf1f9116f1742" prot="public" virt="non-virtual"><scope>MR::SplashWindow</scope><name>start</name></member>
-      <member refid="classMR_1_1SplashWindow_1a12f3e91e4d3acf7a279458baf304721a" prot="public" virt="non-virtual"><scope>MR::SplashWindow</scope><name>stop</name></member>
-      <member refid="classMR_1_1SplashWindow_1a302e1b3310c1ee684e3de1d7a239e964" prot="protected" virt="non-virtual"><scope>MR::SplashWindow</scope><name>terminate_</name></member>
-      <member refid="classMR_1_1SplashWindow_1a1f40e63a88ac062dbcd07f76bbc2efab" prot="private" virt="non-virtual"><scope>MR::SplashWindow</scope><name>thread_</name></member>
-      <member refid="classMR_1_1SplashWindow_1a4e6ed4ee9950dc53818813544070379e" prot="protected" virt="non-virtual"><scope>MR::SplashWindow</scope><name>window_</name></member>
-      <member refid="classMR_1_1SplashWindow_1aa8219c57ea7f0cab0fb236ab58fbcb5f" prot="public" virt="virtual"><scope>MR::SplashWindow</scope><name>~SplashWindow</name></member>
+      <member refid="group__GeneralGroup_1gae935b3ff8afc52b592619047fee6fd22" prot="private" virt="virtual"><scope>MR::SplashWindow</scope><name>afterStart_</name></member>
+      <member refid="group__GeneralGroup_1gaf1fcc73b750221e7c74d861f9af0ce31" prot="private" virt="virtual"><scope>MR::SplashWindow</scope><name>beforeStop_</name></member>
+      <member refid="group__GeneralGroup_1gae73ad8eca5e14faba1926055ca6b1168" prot="private" virt="pure-virtual"><scope>MR::SplashWindow</scope><name>frame_</name></member>
+      <member refid="group__GeneralGroup_1ga8e1b0c94c0dec969c8476897de435fdb" prot="protected" virt="non-virtual"><scope>MR::SplashWindow</scope><name>guiContext_</name></member>
+      <member refid="group__GeneralGroup_1ga017a42c7599e421ba51d913f9c9c0a5c" prot="public" virt="virtual"><scope>MR::SplashWindow</scope><name>minimumTimeSec</name></member>
+      <member refid="group__GeneralGroup_1ga79107d23834b7d624c70558d9acfcd38" prot="protected" virt="non-virtual"><scope>MR::SplashWindow</scope><name>name_</name></member>
+      <member refid="group__GeneralGroup_1ga1718c36de3d513da8f62c0516ba4feee" prot="private" virt="pure-virtual"><scope>MR::SplashWindow</scope><name>positioning_</name></member>
+      <member refid="group__GeneralGroup_1ga053ccf75a72cef7448025b29a3cabb5a" prot="private" virt="virtual"><scope>MR::SplashWindow</scope><name>postDestruct_</name></member>
+      <member refid="group__GeneralGroup_1gac80119ef5a52f5ea9ebb460a73e57ac1" prot="private" virt="virtual"><scope>MR::SplashWindow</scope><name>postInit_</name></member>
+      <member refid="group__GeneralGroup_1ga8ddf57c3eb6791c039aaff160e45799b" prot="private" virt="virtual"><scope>MR::SplashWindow</scope><name>preDestruct_</name></member>
+      <member refid="group__GeneralGroup_1ga8df117e45139f3e0d3df906ddbd2fd8d" prot="private" virt="pure-virtual"><scope>MR::SplashWindow</scope><name>reloadFont_</name></member>
+      <member refid="group__GeneralGroup_1ga68785afa9476337fc0590f5c79157794" prot="private" virt="pure-virtual"><scope>MR::SplashWindow</scope><name>setup_</name></member>
+      <member refid="group__GeneralGroup_1ga339e38c56c4709ed12f877a0b026a659" prot="public" virt="non-virtual"><scope>MR::SplashWindow</scope><name>SplashWindow</name></member>
+      <member refid="group__GeneralGroup_1gaf0ce424272b846ce5f6cf1f9116f1742" prot="public" virt="non-virtual"><scope>MR::SplashWindow</scope><name>start</name></member>
+      <member refid="group__GeneralGroup_1ga12f3e91e4d3acf7a279458baf304721a" prot="public" virt="non-virtual"><scope>MR::SplashWindow</scope><name>stop</name></member>
+      <member refid="group__GeneralGroup_1ga302e1b3310c1ee684e3de1d7a239e964" prot="protected" virt="non-virtual"><scope>MR::SplashWindow</scope><name>terminate_</name></member>
+      <member refid="group__GeneralGroup_1ga1f40e63a88ac062dbcd07f76bbc2efab" prot="private" virt="non-virtual"><scope>MR::SplashWindow</scope><name>thread_</name></member>
+      <member refid="group__GeneralGroup_1ga4e6ed4ee9950dc53818813544070379e" prot="protected" virt="non-virtual"><scope>MR::SplashWindow</scope><name>window_</name></member>
+      <member refid="group__GeneralGroup_1gaa8219c57ea7f0cab0fb236ab58fbcb5f" prot="public" virt="virtual"><scope>MR::SplashWindow</scope><name>~SplashWindow</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -2,373 +2,64 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="classMR_1_1CameraOrientation" kind="class" language="C++" prot="public">
     <compoundname>MR::CameraOrientation</compoundname>
-    <basecompoundref refid="classMR_1_1StateListenerPlugin" prot="public" virt="non-virtual">MR::StateListenerPlugin&lt;&gt;</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">MR::StatePlugin</basecompoundref>
     <includes refid="MRCameraOrientationPlugin_8h" local="no">MRCameraOrientationPlugin.h</includes>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1CameraOrientation_1a3f152313df98ebb7fffb03fa32928a60" prot="private" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::CameraOrientation::position_</definition>
-        <argsstring></argsstring>
-        <name>position_</name>
-        <qualifiedname>MR::CameraOrientation::position_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRCameraOrientationPlugin.h" line="20" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRCameraOrientationPlugin.h" bodystart="20" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1CameraOrientation_1a4bb143b3a4b81b06d8179e39509d78f4" prot="private" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::CameraOrientation::direction_</definition>
-        <argsstring></argsstring>
-        <name>direction_</name>
-        <qualifiedname>MR::CameraOrientation::direction_</qualifiedname>
-        <initializer>{ 1.f, 0.f, 0.f }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRCameraOrientationPlugin.h" line="21" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRCameraOrientationPlugin.h" bodystart="21" bodyend="21"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1CameraOrientation_1a7b52da913ea8a6b3924087c175438f9d" prot="private" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::CameraOrientation::upDir_</definition>
-        <argsstring></argsstring>
-        <name>upDir_</name>
-        <qualifiedname>MR::CameraOrientation::upDir_</qualifiedname>
-        <initializer>{ 0.f, 1.f, 0.f }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRCameraOrientationPlugin.h" line="22" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRCameraOrientationPlugin.h" bodystart="22" bodyend="22"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1CameraOrientation_1af3d5cf08dbe17e2505a95279c9871c31" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::CameraOrientation::isAutofit_</definition>
-        <argsstring></argsstring>
-        <name>isAutofit_</name>
-        <qualifiedname>MR::CameraOrientation::isAutofit_</qualifiedname>
-        <initializer>{ true }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRCameraOrientationPlugin.h" line="23" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRCameraOrientationPlugin.h" bodystart="23" bodyend="23"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga3f152313df98ebb7fffb03fa32928a60" kind="variable"><name>position_</name></member>
+      <member refid="group__GeneralGroup_1ga4bb143b3a4b81b06d8179e39509d78f4" kind="variable"><name>direction_</name></member>
+      <member refid="group__GeneralGroup_1ga7b52da913ea8a6b3924087c175438f9d" kind="variable"><name>upDir_</name></member>
+      <member refid="group__GeneralGroup_1gaf3d5cf08dbe17e2505a95279c9871c31" kind="variable"><name>isAutofit_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1CameraOrientation_1a7b825b1fc733e53dfbaab323acabaee3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::CameraOrientation::CameraOrientation</definition>
-        <argsstring>()</argsstring>
-        <name>CameraOrientation</name>
-        <qualifiedname>MR::CameraOrientation::CameraOrientation</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRCameraOrientationPlugin.h" line="13" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1CameraOrientation_1a84a6d26e91901eef8efc27aa3a167aef" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MR::CameraOrientation::drawDialog</definition>
-        <argsstring>(ImGuiContext *) override</argsstring>
-        <name>drawDialog</name>
-        <qualifiedname>MR::CameraOrientation::drawDialog</qualifiedname>
-        <reimplements refid="classMR_1_1StateBasePlugin_1aa3a6877967ca8f424ed261e43345bd26">drawDialog</reimplements>
-        <param>
-          <type>ImGuiContext *</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRCameraOrientationPlugin.h" line="15" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1CameraOrientation_1aded26055d65895c92ebe389028088749" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::CameraOrientation::blocking</definition>
-        <argsstring>() const override</argsstring>
-        <name>blocking</name>
-        <qualifiedname>MR::CameraOrientation::blocking</qualifiedname>
-        <reimplements refid="classMR_1_1StateBasePlugin_1ae7a96edadae63c78192e0f1f6b1f9db9">blocking</reimplements>
-        <briefdescription>
-<para>true if this item is blocking (only one blocking item can be active at once) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRCameraOrientationPlugin.h" line="17" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRCameraOrientationPlugin.h" bodystart="17" bodyend="17"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga7b825b1fc733e53dfbaab323acabaee3" kind="function"><name>CameraOrientation</name></member>
+      <member refid="group__GeneralGroup_1ga84a6d26e91901eef8efc27aa3a167aef" kind="function"><name>drawDialog</name></member>
+      <member refid="group__GeneralGroup_1gaded26055d65895c92ebe389028088749" kind="function"><name>blocking</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMR_1_1CameraOrientation_1acb7cb75211af29c82f3846598c3afee9" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::CameraOrientation::onEnable_</definition>
-        <argsstring>() override</argsstring>
-        <name>onEnable_</name>
-        <qualifiedname>MR::CameraOrientation::onEnable_</qualifiedname>
-        <reimplements refid="classMR_1_1StateBasePlugin_1a653adb25964ffa5b7ca333c119b2e597">onEnable_</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRCameraOrientationPlugin.h" line="25" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1CameraOrientation_1a74aef5f0ae8518403793054b02f1b8c1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::CameraOrientation::drawCameraPresets_</definition>
-        <argsstring>()</argsstring>
-        <name>drawCameraPresets_</name>
-        <qualifiedname>MR::CameraOrientation::drawCameraPresets_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRCameraOrientationPlugin.h" line="27" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1CameraOrientation_1a8db9dbabafdd09e59c1024801023714d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::CameraOrientation::autofit_</definition>
-        <argsstring>()</argsstring>
-        <name>autofit_</name>
-        <qualifiedname>MR::CameraOrientation::autofit_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRCameraOrientationPlugin.h" line="29" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1CameraOrientation_1ab1bda1ad0175c8eb29937d2f0fd37548" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::CameraOrientation::getCamera_</definition>
-        <argsstring>()</argsstring>
-        <name>getCamera_</name>
-        <qualifiedname>MR::CameraOrientation::getCamera_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRCameraOrientationPlugin.h" line="30" column="10"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gacb7cb75211af29c82f3846598c3afee9" kind="function"><name>onEnable_</name></member>
+      <member refid="group__GeneralGroup_1ga74aef5f0ae8518403793054b02f1b8c1" kind="function"><name>drawCameraPresets_</name></member>
+      <member refid="group__GeneralGroup_1ga8db9dbabafdd09e59c1024801023714d" kind="function"><name>autofit_</name></member>
+      <member refid="group__GeneralGroup_1gab1bda1ad0175c8eb29937d2f0fd37548" kind="function"><name>getCamera_</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="10">
-        <label>Connectables...</label>
-      </node>
       <node id="1">
         <label>MR::CameraOrientation</label>
         <link refid="classMR_1_1CameraOrientation"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="7">
-        <label>MR::IPluginUpdate</label>
-        <link refid="classMR_1_1IPluginUpdate"/>
-      </node>
-      <node id="8">
-        <label>MR::ISceneSelectionChange</label>
-        <link refid="classMR_1_1ISceneSelectionChange"/>
-      </node>
-      <node id="6">
-        <label>MR::ISceneStateCheck</label>
-        <link refid="classMR_1_1ISceneStateCheck"/>
-      </node>
-      <node id="9">
-        <label>MR::MultiListener&lt; Connectables... &gt;</label>
-        <link refid="structMR_1_1MultiListener"/>
-        <childnode refid="10" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="5">
-        <label>MR::RibbonMenuItem</label>
-        <link refid="classMR_1_1RibbonMenuItem"/>
-        <childnode refid="6" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="3">
-        <label>MR::StateBasePlugin</label>
-        <link refid="classMR_1_1StateBasePlugin"/>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-        <childnode refid="5" relation="public-inheritance">
-        </childnode>
-        <childnode refid="7" relation="public-inheritance">
-        </childnode>
-        <childnode refid="8" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="2">
         <label>MR::StatePlugin</label>
-        <link refid="classMR_1_1StateListenerPlugin"/>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="9" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="4">
-        <label>MR::ViewerPlugin</label>
-        <link refid="classMR_1_1ViewerPlugin"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="11">
-        <label>Connectables...</label>
-      </node>
       <node id="1">
         <label>MR::CameraOrientation</label>
         <link refid="classMR_1_1CameraOrientation"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="8">
-        <label>MR::IPluginUpdate</label>
-        <link refid="classMR_1_1IPluginUpdate"/>
-      </node>
-      <node id="9">
-        <label>MR::ISceneSelectionChange</label>
-        <link refid="classMR_1_1ISceneSelectionChange"/>
-      </node>
-      <node id="7">
-        <label>MR::ISceneStateCheck</label>
-        <link refid="classMR_1_1ISceneStateCheck"/>
-      </node>
-      <node id="10">
-        <label>MR::MultiListener&lt; Connectables... &gt;</label>
-        <link refid="structMR_1_1MultiListener"/>
-        <childnode refid="11" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="6">
-        <label>MR::RibbonMenuItem</label>
-        <link refid="classMR_1_1RibbonMenuItem"/>
-        <childnode refid="7" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="3">
-        <label>MR::StateBasePlugin</label>
-        <link refid="classMR_1_1StateBasePlugin"/>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
-        <childnode refid="6" relation="public-inheritance">
-        </childnode>
-        <childnode refid="8" relation="public-inheritance">
-        </childnode>
-        <childnode refid="9" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="2">
         <label>MR::StatePlugin</label>
-        <link refid="classMR_1_1StateListenerPlugin"/>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
-        <childnode refid="10" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="5">
-        <label>MR::Viewer</label>
-        <link refid="classMR_1_1Viewer"/>
-      </node>
-      <node id="4">
-        <label>MR::ViewerPlugin</label>
-        <link refid="classMR_1_1ViewerPlugin"/>
-        <childnode refid="5" relation="usage">
-          <edgelabel>viewer</edgelabel>
-        </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRCameraOrientationPlugin.h" line="10" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRCameraOrientationPlugin.h" bodystart="11" bodyend="31"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRCameraOrientationPlugin.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRCameraOrientationPlugin.h" bodystart="14" bodyend="34"/>
     <listofallmembers>
-      <member refid="classMR_1_1StateBasePlugin_1a3e096e6d2e0ecf98e399691bd99c82f7" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>action</name></member>
-      <member refid="classMR_1_1CameraOrientation_1a8db9dbabafdd09e59c1024801023714d" prot="private" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>autofit_</name></member>
-      <member refid="classMR_1_1CameraOrientation_1aded26055d65895c92ebe389028088749" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>blocking</name></member>
-      <member refid="classMR_1_1CameraOrientation_1a7b825b1fc733e53dfbaab323acabaee3" prot="public" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>CameraOrientation</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1a730c0edb5aead3d67519512f5545bd63" prot="public" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>checkStringMask</name></member>
-      <member refid="structMR_1_1MultiListener_1af3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>connect</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1a55b362aee5989fe359aadd33c9be78b4" prot="protected" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>dialogIsCollapsed_</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1ad91197be262f6b569d9234033d73bb8d" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>dialogIsOpen</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1a1d97f71a0f325fbe29b0bbec3e564204" prot="protected" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>dialogIsOpen_</name></member>
-      <member refid="classMR_1_1CameraOrientation_1a4bb143b3a4b81b06d8179e39509d78f4" prot="private" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>direction_</name></member>
-      <member refid="structMR_1_1MultiListener_1acfa598489bfbc3b88c84b029213d042c" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>disconnect</name></member>
-      <member refid="classMR_1_1CameraOrientation_1a74aef5f0ae8518403793054b02f1b8c1" prot="private" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>drawCameraPresets_</name></member>
-      <member refid="classMR_1_1CameraOrientation_1a84a6d26e91901eef8efc27aa3a167aef" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>drawDialog</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a1141be44babb4a13201487188c332668" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>dropItems</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a4799011be3410f46444164d6d00b966e" prot="public" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>DropItemsList</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a2f25401d4b94a752bd63b79152673ab5" prot="protected" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>dropList_</name></member>
-      <member refid="classMR_1_1StateListenerPlugin_1a7dd63f0fe42b793001a53a4e76b94255" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>enable</name></member>
-      <member refid="classMR_1_1CameraOrientation_1ab1bda1ad0175c8eb29937d2f0fd37548" prot="private" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>getCamera_</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a88f1487695e2012ebb1cacbc1a59775a" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>getDynamicTooltip</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1a54181a3e2d58070b748c4d49c721a0ea" prot="public" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>getTab</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1a1f81b6898ef7ea347c4639fb8d788bc8" prot="public" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>getTabName</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1a2cd5d2532aaf3a9fd7283d4bb24a638d" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>getTooltip</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1aa1855ed7ea42bd976bee234e52655ffd" prot="protected" virt="virtual"><scope>MR::CameraOrientation</scope><name>ImGuiBeginWindow_</name></member>
-      <member refid="classMR_1_1ViewerPlugin_1a67916b512e8d54ee7cdb8ef1cb4f6794" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>init</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1a2172655c98b73059ee0bfc8cb3115097" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>isActive</name></member>
-      <member refid="classMR_1_1CameraOrientation_1af3d5cf08dbe17e2505a95279c9871c31" prot="private" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>isAutofit_</name></member>
-      <member refid="classMR_1_1ISceneStateCheck_1adedf10c80ddfebcb456559fa828065c0" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>isAvailable</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1ae7da0ed13a069a29ec8fac496e7aa065" prot="public" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>isEnabled</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1a239e7ea5887cf228c8ea6a7eef781a2c" prot="protected" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>isEnabled_</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a957422a15704b2f8854bfd0b2d1ae76d" prot="public" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>MR_DELETE_MOVE</name></member>
-      <member refid="classMR_1_1StateListenerPlugin_1a700dee77fa82afbe743aa424eb782e2d" prot="public" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>MultiListenerBase</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1abf4ea13c8983c44214b92a066e8b7659" prot="public" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>name</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1a31980ff25e0e7e77cf8ace037ddd9f68" prot="protected" virt="virtual"><scope>MR::CameraOrientation</scope><name>onDisable_</name></member>
-      <member refid="classMR_1_1CameraOrientation_1acb7cb75211af29c82f3846598c3afee9" prot="private" virt="virtual"><scope>MR::CameraOrientation</scope><name>onEnable_</name></member>
-      <member refid="classMR_1_1IPluginUpdate_1a0ac2f366f4785c61b991e9d38f1c12d1" prot="protected" virt="virtual"><scope>MR::CameraOrientation</scope><name>onPluginDisable_</name></member>
-      <member refid="classMR_1_1IPluginUpdate_1ac74a796b15f4842c135a9956d270caa3" prot="protected" virt="virtual"><scope>MR::CameraOrientation</scope><name>onPluginEnable_</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1a3e0c7bd65afe7b25c1f4be31e13ea0c5" prot="public" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>plugin_name</name></member>
-      <member refid="classMR_1_1StateListenerPlugin_1a1f068c2aecefbd45559101aca348aca3" prot="public" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>PluginParent</name></member>
-      <member refid="classMR_1_1CameraOrientation_1a3f152313df98ebb7fffb03fa32928a60" prot="private" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>position_</name></member>
-      <member refid="classMR_1_1IPluginUpdate_1a6a79d0d76063de2f4947098cc9cb07a8" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>preDrawUpdate</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1ad3e0eda49eae11a9fba79187c62e07bb" prot="public" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>RibbonMenuItem</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1af417cbe66b6559e5df0122377c5a3628" prot="public" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>setDropItemsFromItemList</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1ab499c9049737793e6b1994048b99952c" prot="public" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>setRibbonItemType</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1a1962cf4397a96b2ffc12d9b23ab51cb6" prot="public" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>setUIName</name></member>
-      <member refid="classMR_1_1IPluginUpdate_1ab6e6e3dcf2ab382434fd967480164324" prot="protected" virt="virtual"><scope>MR::CameraOrientation</scope><name>shouldClose_</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1af0d68f675e98e0a1ceb44192eaf94a13" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>shutdown</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1adede9d0773e7eff370bd78dc66a4c898" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>sortString</name></member>
-      <member refid="classMR_1_1StateListenerPlugin_1a36686d0a6dcae1a1bcce521d5db5e413" prot="public" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>StateBasePlugin</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1ac3e8d3db81bf9d8a316c46e82f369980" prot="protected" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>tab_</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a15b6a4b9f191b8716be1199364bb74e0" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>type</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a00b402da6dbcec7d6c97b5c6a16e3924" prot="protected" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>type_</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1a56d7b27cd916a3ec2fcf0bcb4b7e3d28" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>uiName</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1a5c9e09293a48644029f129e878ececd6" prot="public" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>UINameSuffix</name></member>
-      <member refid="classMR_1_1ISceneSelectionChange_1a0e5a18c4e15ba23a7536d1511cb823b6" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>updateSelection</name></member>
-      <member refid="classMR_1_1CameraOrientation_1a7b52da913ea8a6b3924087c175438f9d" prot="private" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>upDir_</name></member>
-      <member refid="classMR_1_1ViewerPlugin_1ad12538d77ebcf356c03469cbce40abae" prot="protected" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>viewer</name></member>
-      <member refid="classMR_1_1IPluginUpdate_1a3a57e2a35ba84c0bdd2af8a0f162c5f3" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>~IPluginUpdate</name></member>
-      <member refid="classMR_1_1ISceneSelectionChange_1a46ed29a0c79bdfb7de53ea802fee042c" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>~ISceneSelectionChange</name></member>
-      <member refid="classMR_1_1ISceneStateCheck_1ad6d7bd5bc97dd4a629de5e0a33af3afe" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>~ISceneStateCheck</name></member>
-      <member refid="structMR_1_1MultiListener_1a726f5e2601b7f25e31824a0cac630fb2" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>~MultiListener</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1ac8074b75f1c764d041b11210b5b7541c" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>~RibbonMenuItem</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1a9a8917bb4527c6108a4ec176619d2990" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>~StateBasePlugin</name></member>
-      <member refid="classMR_1_1StateListenerPlugin_1a85268a85190bc88be8cc76981bff5587" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>~StateListenerPlugin</name></member>
-      <member refid="classMR_1_1ViewerPlugin_1ad7fd0e80e15b5c45837fc005c71c9eab" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>~ViewerPlugin</name></member>
+      <member refid="group__GeneralGroup_1ga8db9dbabafdd09e59c1024801023714d" prot="private" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>autofit_</name></member>
+      <member refid="group__GeneralGroup_1gaded26055d65895c92ebe389028088749" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>blocking</name></member>
+      <member refid="group__GeneralGroup_1ga7b825b1fc733e53dfbaab323acabaee3" prot="public" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>CameraOrientation</name></member>
+      <member refid="group__GeneralGroup_1ga4bb143b3a4b81b06d8179e39509d78f4" prot="private" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>direction_</name></member>
+      <member refid="group__GeneralGroup_1ga74aef5f0ae8518403793054b02f1b8c1" prot="private" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>drawCameraPresets_</name></member>
+      <member refid="group__GeneralGroup_1ga84a6d26e91901eef8efc27aa3a167aef" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>drawDialog</name></member>
+      <member refid="group__GeneralGroup_1gab1bda1ad0175c8eb29937d2f0fd37548" prot="private" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>getCamera_</name></member>
+      <member refid="group__GeneralGroup_1gaf3d5cf08dbe17e2505a95279c9871c31" prot="private" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>isAutofit_</name></member>
+      <member refid="group__GeneralGroup_1gacb7cb75211af29c82f3846598c3afee9" prot="private" virt="virtual"><scope>MR::CameraOrientation</scope><name>onEnable_</name></member>
+      <member refid="group__GeneralGroup_1ga3f152313df98ebb7fffb03fa32928a60" prot="private" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>position_</name></member>
+      <member refid="group__GeneralGroup_1ga7b52da913ea8a6b3924087c175438f9d" prot="private" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>upDir_</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

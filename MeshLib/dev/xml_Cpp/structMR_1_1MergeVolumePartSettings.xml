@@ -4,144 +4,26 @@
     <compoundname>MR::MergeVolumePartSettings</compoundname>
     <includes refid="MRVoxelsConversionsByParts_8h" local="no">MRVoxelsConversionsByParts.h</includes>
     <sectiondef kind="public-type">
-      <memberdef kind="typedef" id="structMR_1_1MergeVolumePartSettings_1a577e60ec177ee1ce4be553f79fc09a89" prot="public" static="no">
-        <type>std::function&lt; void(<ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &amp;mesh, float leftCutPosition, float rightCutPosition)&gt;</type>
-        <definition>using MR::MergeVolumePartSettings::PreCutCallback =  std::function&lt;void( Mesh&amp; mesh, float leftCutPosition, float rightCutPosition )&gt;</definition>
-        <argsstring></argsstring>
-        <name>PreCutCallback</name>
-        <qualifiedname>MR::MergeVolumePartSettings::PreCutCallback</qualifiedname>
-        <briefdescription>
-<para>callback to process the generated mesh before the side cutting, e.g. fixing specific generation artifacts </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsConversionsByParts.h" line="22" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsConversionsByParts.h" bodystart="22" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="structMR_1_1MergeVolumePartSettings_1a58b526091c2efa7486833edd93420975" prot="public" static="no">
-        <type>std::function&lt; void(<ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &amp;)&gt;</type>
-        <definition>using MR::MergeVolumePartSettings::PostCutCallback =  std::function&lt;void( Mesh&amp; )&gt;</definition>
-        <argsstring></argsstring>
-        <name>PostCutCallback</name>
-        <qualifiedname>MR::MergeVolumePartSettings::PostCutCallback</qualifiedname>
-        <briefdescription>
-<para>callback to process the generated mesh after the side cutting, e.g. decimating </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsConversionsByParts.h" line="25" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsConversionsByParts.h" bodystart="25" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="structMR_1_1MergeVolumePartSettings_1a49ad4e693c6a08af856dd55e575f702f" prot="public" static="no">
-        <type>std::function&lt; void(<ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &amp;, const <ref refid="structMR_1_1PartMapping" kindref="compound">PartMapping</ref> &amp;)&gt;</type>
-        <definition>using MR::MergeVolumePartSettings::PostMergeCallback =  std::function&lt;void( Mesh&amp;, const PartMapping&amp; )&gt;</definition>
-        <argsstring></argsstring>
-        <name>PostMergeCallback</name>
-        <qualifiedname>MR::MergeVolumePartSettings::PostMergeCallback</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>callback to process the destination mesh after merging, usually to map the generated mesh&apos;s faces/edges/vertices the second parameter is identical to the <computeroutput>mapping</computeroutput> field, except for one case: if the mapping is not initialized, only <computeroutput>src2tgtEdges</computeroutput> map will be provided (since it&apos;s used during processing) </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsConversionsByParts.h" line="30" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsConversionsByParts.h" bodystart="30" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga577e60ec177ee1ce4be553f79fc09a89" kind="typedef"><name>PreCutCallback</name></member>
+      <member refid="group__GeneralGroup_1ga58b526091c2efa7486833edd93420975" kind="typedef"><name>PostCutCallback</name></member>
+      <member refid="group__GeneralGroup_1ga49ad4e693c6a08af856dd55e575f702f" kind="typedef"><name>PostMergeCallback</name></member>
     </sectiondef>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1MergeVolumePartSettings_1a4a4414df6198c1615c8f9d37c3692f87" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1MergeVolumePartSettings_1a577e60ec177ee1ce4be553f79fc09a89" kindref="member">PreCutCallback</ref></type>
-        <definition>PreCutCallback MR::MergeVolumePartSettings::preCut</definition>
-        <argsstring></argsstring>
-        <name>preCut</name>
-        <qualifiedname>MR::MergeVolumePartSettings::preCut</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsConversionsByParts.h" line="23" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsConversionsByParts.h" bodystart="23" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MergeVolumePartSettings_1a31e09c078de0ae4f9b5512e3b099e29b" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1MergeVolumePartSettings_1a58b526091c2efa7486833edd93420975" kindref="member">PostCutCallback</ref></type>
-        <definition>PostCutCallback MR::MergeVolumePartSettings::postCut</definition>
-        <argsstring></argsstring>
-        <name>postCut</name>
-        <qualifiedname>MR::MergeVolumePartSettings::postCut</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsConversionsByParts.h" line="26" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsConversionsByParts.h" bodystart="26" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MergeVolumePartSettings_1afd642c0d879285bf9cfb4e609c2cd816" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1MergeVolumePartSettings_1a49ad4e693c6a08af856dd55e575f702f" kindref="member">PostMergeCallback</ref></type>
-        <definition>PostMergeCallback MR::MergeVolumePartSettings::postMerge</definition>
-        <argsstring></argsstring>
-        <name>postMerge</name>
-        <qualifiedname>MR::MergeVolumePartSettings::postMerge</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsConversionsByParts.h" line="31" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsConversionsByParts.h" bodystart="31" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MergeVolumePartSettings_1a196c2f60b539ef9d242a51bcd49833d3" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1PartMapping" kindref="compound">PartMapping</ref></type>
-        <definition>PartMapping MR::MergeVolumePartSettings::mapping</definition>
-        <argsstring></argsstring>
-        <name>mapping</name>
-        <qualifiedname>MR::MergeVolumePartSettings::mapping</qualifiedname>
-        <initializer>= {}</initializer>
-        <briefdescription>
-<para>mapping with initialized maps required for the <computeroutput>postMerge</computeroutput> callback </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsConversionsByParts.h" line="33" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsConversionsByParts.h" bodystart="33" bodyend="33"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MergeVolumePartSettings_1a46d9c425aefa56ee9d112c6cb81a1415" prot="public" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::MergeVolumePartSettings::origin</definition>
-        <argsstring></argsstring>
-        <name>origin</name>
-        <qualifiedname>MR::MergeVolumePartSettings::origin</qualifiedname>
-        <initializer>= {}</initializer>
-        <briefdescription>
-<para>origin (position of the (0;0;0) voxel) of the voxel volume part, usually specified for SimpleVolume </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsConversionsByParts.h" line="35" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsConversionsByParts.h" bodystart="35" bodyend="35"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga4a4414df6198c1615c8f9d37c3692f87" kind="variable"><name>preCut</name></member>
+      <member refid="group__GeneralGroup_1ga31e09c078de0ae4f9b5512e3b099e29b" kind="variable"><name>postCut</name></member>
+      <member refid="group__GeneralGroup_1gafd642c0d879285bf9cfb4e609c2cd816" kind="variable"><name>postMerge</name></member>
+      <member refid="group__GeneralGroup_1ga196c2f60b539ef9d242a51bcd49833d3" kind="variable"><name>mapping</name></member>
+      <member refid="group__GeneralGroup_1ga46d9c425aefa56ee9d112c6cb81a1415" kind="variable"><name>origin</name></member>
     </sectiondef>
     <briefdescription>
-<para>Parameters&apos; structure for <ref refid="namespaceMR_1a9145e1b055b88e54edf784e6f3b050fc" kindref="member">MR::mergeVolumePart</ref>. </para>
+<para>Parameters&apos; structure for <ref refid="group__GeneralGroup_1ga9145e1b055b88e54edf784e6f3b050fc" kindref="member">MR::mergeVolumePart</ref>. </para>
     </briefdescription>
     <detaileddescription>
-<para><simplesect kind="see"><para><ref refid="namespaceMR_1a9145e1b055b88e54edf784e6f3b050fc" kindref="member">mergeVolumePart</ref> </para>
+<para><simplesect kind="see"><para><ref refid="group__GeneralGroup_1ga9145e1b055b88e54edf784e6f3b050fc" kindref="member">mergeVolumePart</ref> </para>
 </simplesect>
 </para>
     </detaileddescription>
     <collaborationgraph>
-      <node id="3">
-        <label>MR::MapOrHashMap&lt; K, V &gt;</label>
-        <link refid="structMR_1_1MapOrHashMap"/>
-      </node>
       <node id="1">
         <label>MR::MergeVolumePartSettings</label>
         <link refid="structMR_1_1MergeVolumePartSettings"/>
@@ -152,26 +34,18 @@
       <node id="2">
         <label>MR::PartMapping</label>
         <link refid="structMR_1_1PartMapping"/>
-        <childnode refid="3" relation="usage">
-          <edgelabel>src2tgtEdges</edgelabel>
-          <edgelabel>src2tgtFaces</edgelabel>
-          <edgelabel>src2tgtVerts</edgelabel>
-          <edgelabel>tgt2srcEdges</edgelabel>
-          <edgelabel>tgt2srcFaces</edgelabel>
-          <edgelabel>tgt2srcVerts</edgelabel>
-        </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsConversionsByParts.h" line="19" column="1"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsConversionsByParts.h" line="22" column="1"/>
     <listofallmembers>
-      <member refid="structMR_1_1MergeVolumePartSettings_1a196c2f60b539ef9d242a51bcd49833d3" prot="public" virt="non-virtual"><scope>MR::MergeVolumePartSettings</scope><name>mapping</name></member>
-      <member refid="structMR_1_1MergeVolumePartSettings_1a46d9c425aefa56ee9d112c6cb81a1415" prot="public" virt="non-virtual"><scope>MR::MergeVolumePartSettings</scope><name>origin</name></member>
-      <member refid="structMR_1_1MergeVolumePartSettings_1a31e09c078de0ae4f9b5512e3b099e29b" prot="public" virt="non-virtual"><scope>MR::MergeVolumePartSettings</scope><name>postCut</name></member>
-      <member refid="structMR_1_1MergeVolumePartSettings_1a58b526091c2efa7486833edd93420975" prot="public" virt="non-virtual"><scope>MR::MergeVolumePartSettings</scope><name>PostCutCallback</name></member>
-      <member refid="structMR_1_1MergeVolumePartSettings_1afd642c0d879285bf9cfb4e609c2cd816" prot="public" virt="non-virtual"><scope>MR::MergeVolumePartSettings</scope><name>postMerge</name></member>
-      <member refid="structMR_1_1MergeVolumePartSettings_1a49ad4e693c6a08af856dd55e575f702f" prot="public" virt="non-virtual"><scope>MR::MergeVolumePartSettings</scope><name>PostMergeCallback</name></member>
-      <member refid="structMR_1_1MergeVolumePartSettings_1a4a4414df6198c1615c8f9d37c3692f87" prot="public" virt="non-virtual"><scope>MR::MergeVolumePartSettings</scope><name>preCut</name></member>
-      <member refid="structMR_1_1MergeVolumePartSettings_1a577e60ec177ee1ce4be553f79fc09a89" prot="public" virt="non-virtual"><scope>MR::MergeVolumePartSettings</scope><name>PreCutCallback</name></member>
+      <member refid="group__GeneralGroup_1ga196c2f60b539ef9d242a51bcd49833d3" prot="public" virt="non-virtual"><scope>MR::MergeVolumePartSettings</scope><name>mapping</name></member>
+      <member refid="group__GeneralGroup_1ga46d9c425aefa56ee9d112c6cb81a1415" prot="public" virt="non-virtual"><scope>MR::MergeVolumePartSettings</scope><name>origin</name></member>
+      <member refid="group__GeneralGroup_1ga31e09c078de0ae4f9b5512e3b099e29b" prot="public" virt="non-virtual"><scope>MR::MergeVolumePartSettings</scope><name>postCut</name></member>
+      <member refid="group__GeneralGroup_1ga58b526091c2efa7486833edd93420975" prot="public" virt="non-virtual"><scope>MR::MergeVolumePartSettings</scope><name>PostCutCallback</name></member>
+      <member refid="group__GeneralGroup_1gafd642c0d879285bf9cfb4e609c2cd816" prot="public" virt="non-virtual"><scope>MR::MergeVolumePartSettings</scope><name>postMerge</name></member>
+      <member refid="group__GeneralGroup_1ga49ad4e693c6a08af856dd55e575f702f" prot="public" virt="non-virtual"><scope>MR::MergeVolumePartSettings</scope><name>PostMergeCallback</name></member>
+      <member refid="group__GeneralGroup_1ga4a4414df6198c1615c8f9d37c3692f87" prot="public" virt="non-virtual"><scope>MR::MergeVolumePartSettings</scope><name>preCut</name></member>
+      <member refid="group__GeneralGroup_1ga577e60ec177ee1ce4be553f79fc09a89" prot="public" virt="non-virtual"><scope>MR::MergeVolumePartSettings</scope><name>PreCutCallback</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

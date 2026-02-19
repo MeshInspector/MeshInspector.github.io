@@ -4,96 +4,26 @@
     <compoundname>MR::QuadTextureVertexObject</compoundname>
     <includes refid="MRRenderGLHelpers_8h" local="no">MRRenderGLHelpers.h</includes>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1QuadTextureVertexObject_1a7c63e19c79faa8d221a44c175f0add41" prot="private" static="no" mutable="no">
-        <type>unsigned</type>
-        <definition>unsigned MR::QuadTextureVertexObject::vao_</definition>
-        <argsstring></argsstring>
-        <name>vao_</name>
-        <qualifiedname>MR::QuadTextureVertexObject::vao_</qualifiedname>
-        <initializer>{ 0 }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="208" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" bodystart="208" bodyend="208"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1QuadTextureVertexObject_1ab5e83a3c56780c46a64f9a04d4f17fe4" prot="private" static="no" mutable="no">
-        <type>unsigned</type>
-        <definition>unsigned MR::QuadTextureVertexObject::vbo_</definition>
-        <argsstring></argsstring>
-        <name>vbo_</name>
-        <qualifiedname>MR::QuadTextureVertexObject::vbo_</qualifiedname>
-        <initializer>{ 0 }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="209" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" bodystart="209" bodyend="209"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga7c63e19c79faa8d221a44c175f0add41" kind="variable"><name>vao_</name></member>
+      <member refid="group__GeneralGroup_1gab5e83a3c56780c46a64f9a04d4f17fe4" kind="variable"><name>vbo_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1QuadTextureVertexObject_1a091185a94f7c1bd1bf1bfac2f6bbcee9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::QuadTextureVertexObject::gen</definition>
-        <argsstring>()</argsstring>
-        <name>gen</name>
-        <qualifiedname>MR::QuadTextureVertexObject::gen</qualifiedname>
-        <briefdescription>
-<para>generates simple quad for rendering </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="202" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1QuadTextureVertexObject_1a671aee1dfab68b7ee88a6c8453c18eb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::QuadTextureVertexObject::bind</definition>
-        <argsstring>()</argsstring>
-        <name>bind</name>
-        <qualifiedname>MR::QuadTextureVertexObject::bind</qualifiedname>
-        <briefdescription>
-<para>binds simple quad vertex data </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="204" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1QuadTextureVertexObject_1a208dc43cfe4121fd6fbf133e08f5866d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::QuadTextureVertexObject::del</definition>
-        <argsstring>()</argsstring>
-        <name>del</name>
-        <qualifiedname>MR::QuadTextureVertexObject::del</qualifiedname>
-        <briefdescription>
-<para>removes this object </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="206" column="23"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga091185a94f7c1bd1bf1bfac2f6bbcee9" kind="function"><name>gen</name></member>
+      <member refid="group__GeneralGroup_1ga671aee1dfab68b7ee88a6c8453c18eb0" kind="function"><name>bind</name></member>
+      <member refid="group__GeneralGroup_1ga208dc43cfe4121fd6fbf133e08f5866d" kind="function"><name>del</name></member>
     </sectiondef>
     <briefdescription>
 <para>class for rendering simple texture </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="198" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" bodystart="199" bodyend="210"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="201" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" bodystart="202" bodyend="213"/>
     <listofallmembers>
-      <member refid="classMR_1_1QuadTextureVertexObject_1a671aee1dfab68b7ee88a6c8453c18eb0" prot="public" virt="non-virtual"><scope>MR::QuadTextureVertexObject</scope><name>bind</name></member>
-      <member refid="classMR_1_1QuadTextureVertexObject_1a208dc43cfe4121fd6fbf133e08f5866d" prot="public" virt="non-virtual"><scope>MR::QuadTextureVertexObject</scope><name>del</name></member>
-      <member refid="classMR_1_1QuadTextureVertexObject_1a091185a94f7c1bd1bf1bfac2f6bbcee9" prot="public" virt="non-virtual"><scope>MR::QuadTextureVertexObject</scope><name>gen</name></member>
-      <member refid="classMR_1_1QuadTextureVertexObject_1a7c63e19c79faa8d221a44c175f0add41" prot="private" virt="non-virtual"><scope>MR::QuadTextureVertexObject</scope><name>vao_</name></member>
-      <member refid="classMR_1_1QuadTextureVertexObject_1ab5e83a3c56780c46a64f9a04d4f17fe4" prot="private" virt="non-virtual"><scope>MR::QuadTextureVertexObject</scope><name>vbo_</name></member>
+      <member refid="group__GeneralGroup_1ga671aee1dfab68b7ee88a6c8453c18eb0" prot="public" virt="non-virtual"><scope>MR::QuadTextureVertexObject</scope><name>bind</name></member>
+      <member refid="group__GeneralGroup_1ga208dc43cfe4121fd6fbf133e08f5866d" prot="public" virt="non-virtual"><scope>MR::QuadTextureVertexObject</scope><name>del</name></member>
+      <member refid="group__GeneralGroup_1ga091185a94f7c1bd1bf1bfac2f6bbcee9" prot="public" virt="non-virtual"><scope>MR::QuadTextureVertexObject</scope><name>gen</name></member>
+      <member refid="group__GeneralGroup_1ga7c63e19c79faa8d221a44c175f0add41" prot="private" virt="non-virtual"><scope>MR::QuadTextureVertexObject</scope><name>vao_</name></member>
+      <member refid="group__GeneralGroup_1gab5e83a3c56780c46a64f9a04d4f17fe4" prot="private" virt="non-virtual"><scope>MR::QuadTextureVertexObject</scope><name>vbo_</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

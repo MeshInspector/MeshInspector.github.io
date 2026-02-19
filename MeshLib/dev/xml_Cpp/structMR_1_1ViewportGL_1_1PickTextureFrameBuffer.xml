@@ -3,131 +3,29 @@
   <compounddef id="structMR_1_1ViewportGL_1_1PickTextureFrameBuffer" kind="struct" language="C++" prot="private">
     <compoundname>MR::ViewportGL::PickTextureFrameBuffer</compoundname>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="structMR_1_1ViewportGL_1_1PickTextureFrameBuffer_1aa015ebe85a20de5b45fbc80a2f7070e8" prot="private" static="no" mutable="no">
-        <type>unsigned int</type>
-        <definition>unsigned int MR::ViewportGL::PickTextureFrameBuffer::framebuffer_</definition>
-        <argsstring></argsstring>
-        <name>framebuffer_</name>
-        <qualifiedname>MR::ViewportGL::PickTextureFrameBuffer::framebuffer_</qualifiedname>
-        <initializer>{ 0 }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="117" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="117" bodyend="117"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ViewportGL_1_1PickTextureFrameBuffer_1adc55d58803804b8c6216dbfdf53b3031" prot="private" static="no" mutable="no">
-        <type>unsigned int</type>
-        <definition>unsigned int MR::ViewportGL::PickTextureFrameBuffer::colorTexture_</definition>
-        <argsstring></argsstring>
-        <name>colorTexture_</name>
-        <qualifiedname>MR::ViewportGL::PickTextureFrameBuffer::colorTexture_</qualifiedname>
-        <initializer>{ 0 }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="118" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="118" bodyend="118"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ViewportGL_1_1PickTextureFrameBuffer_1aa0c4df505546ccee66c9d06cc0473bba" prot="private" static="no" mutable="no">
-        <type>unsigned int</type>
-        <definition>unsigned int MR::ViewportGL::PickTextureFrameBuffer::renderbuffer_</definition>
-        <argsstring></argsstring>
-        <name>renderbuffer_</name>
-        <qualifiedname>MR::ViewportGL::PickTextureFrameBuffer::renderbuffer_</qualifiedname>
-        <initializer>{ 0 }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="119" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="119" bodyend="119"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ViewportGL_1_1PickTextureFrameBuffer_1a60826e3dab5e862c58fe60bc2b2923a2" prot="private" static="no" mutable="no">
-        <type>Vector2i</type>
-        <definition>Vector2i MR::ViewportGL::PickTextureFrameBuffer::size_</definition>
-        <argsstring></argsstring>
-        <name>size_</name>
-        <qualifiedname>MR::ViewportGL::PickTextureFrameBuffer::size_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="120" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="120" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaa015ebe85a20de5b45fbc80a2f7070e8" kind="variable"><name>framebuffer_</name></member>
+      <member refid="group__GeneralGroup_1gadc55d58803804b8c6216dbfdf53b3031" kind="variable"><name>colorTexture_</name></member>
+      <member refid="group__GeneralGroup_1gaa0c4df505546ccee66c9d06cc0473bba" kind="variable"><name>renderbuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga60826e3dab5e862c58fe60bc2b2923a2" kind="variable"><name>size_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1ViewportGL_1_1PickTextureFrameBuffer_1aa410eb80f6dbb5feabd40e00997b629a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewportGL::PickTextureFrameBuffer::resize</definition>
-        <argsstring>(const Vector2i &amp;size)</argsstring>
-        <name>resize</name>
-        <qualifiedname>MR::ViewportGL::PickTextureFrameBuffer::resize</qualifiedname>
-        <param>
-          <type>const Vector2i &amp;</type>
-          <declname>size</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="113" column="14"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1ViewportGL_1_1PickTextureFrameBuffer_1a1d8e6d876b679746abc52c5c5354613a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewportGL::PickTextureFrameBuffer::del</definition>
-        <argsstring>()</argsstring>
-        <name>del</name>
-        <qualifiedname>MR::ViewportGL::PickTextureFrameBuffer::del</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="114" column="14"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1ViewportGL_1_1PickTextureFrameBuffer_1ab74a54a2d94d7b5a11e9fcbf8858d594" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewportGL::PickTextureFrameBuffer::bind</definition>
-        <argsstring>(bool read)</argsstring>
-        <name>bind</name>
-        <qualifiedname>MR::ViewportGL::PickTextureFrameBuffer::bind</qualifiedname>
-        <param>
-          <type>bool</type>
-          <declname>read</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="115" column="14"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaa410eb80f6dbb5feabd40e00997b629a" kind="function"><name>resize</name></member>
+      <member refid="group__GeneralGroup_1ga1d8e6d876b679746abc52c5c5354613a" kind="function"><name>del</name></member>
+      <member refid="group__GeneralGroup_1gab74a54a2d94d7b5a11e9fcbf8858d594" kind="function"><name>bind</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="111" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="112" bodyend="121"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="114" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="115" bodyend="124"/>
     <listofallmembers>
-      <member refid="structMR_1_1ViewportGL_1_1PickTextureFrameBuffer_1ab74a54a2d94d7b5a11e9fcbf8858d594" prot="public" virt="non-virtual"><scope>MR::ViewportGL::PickTextureFrameBuffer</scope><name>bind</name></member>
-      <member refid="structMR_1_1ViewportGL_1_1PickTextureFrameBuffer_1adc55d58803804b8c6216dbfdf53b3031" prot="private" virt="non-virtual"><scope>MR::ViewportGL::PickTextureFrameBuffer</scope><name>colorTexture_</name></member>
-      <member refid="structMR_1_1ViewportGL_1_1PickTextureFrameBuffer_1a1d8e6d876b679746abc52c5c5354613a" prot="public" virt="non-virtual"><scope>MR::ViewportGL::PickTextureFrameBuffer</scope><name>del</name></member>
-      <member refid="structMR_1_1ViewportGL_1_1PickTextureFrameBuffer_1aa015ebe85a20de5b45fbc80a2f7070e8" prot="private" virt="non-virtual"><scope>MR::ViewportGL::PickTextureFrameBuffer</scope><name>framebuffer_</name></member>
-      <member refid="structMR_1_1ViewportGL_1_1PickTextureFrameBuffer_1aa0c4df505546ccee66c9d06cc0473bba" prot="private" virt="non-virtual"><scope>MR::ViewportGL::PickTextureFrameBuffer</scope><name>renderbuffer_</name></member>
-      <member refid="structMR_1_1ViewportGL_1_1PickTextureFrameBuffer_1aa410eb80f6dbb5feabd40e00997b629a" prot="public" virt="non-virtual"><scope>MR::ViewportGL::PickTextureFrameBuffer</scope><name>resize</name></member>
-      <member refid="structMR_1_1ViewportGL_1_1PickTextureFrameBuffer_1a60826e3dab5e862c58fe60bc2b2923a2" prot="private" virt="non-virtual"><scope>MR::ViewportGL::PickTextureFrameBuffer</scope><name>size_</name></member>
+      <member refid="group__GeneralGroup_1gab74a54a2d94d7b5a11e9fcbf8858d594" prot="public" virt="non-virtual"><scope>MR::ViewportGL::PickTextureFrameBuffer</scope><name>bind</name></member>
+      <member refid="group__GeneralGroup_1gadc55d58803804b8c6216dbfdf53b3031" prot="private" virt="non-virtual"><scope>MR::ViewportGL::PickTextureFrameBuffer</scope><name>colorTexture_</name></member>
+      <member refid="group__GeneralGroup_1ga1d8e6d876b679746abc52c5c5354613a" prot="public" virt="non-virtual"><scope>MR::ViewportGL::PickTextureFrameBuffer</scope><name>del</name></member>
+      <member refid="group__GeneralGroup_1gaa015ebe85a20de5b45fbc80a2f7070e8" prot="private" virt="non-virtual"><scope>MR::ViewportGL::PickTextureFrameBuffer</scope><name>framebuffer_</name></member>
+      <member refid="group__GeneralGroup_1gaa0c4df505546ccee66c9d06cc0473bba" prot="private" virt="non-virtual"><scope>MR::ViewportGL::PickTextureFrameBuffer</scope><name>renderbuffer_</name></member>
+      <member refid="group__GeneralGroup_1gaa410eb80f6dbb5feabd40e00997b629a" prot="public" virt="non-virtual"><scope>MR::ViewportGL::PickTextureFrameBuffer</scope><name>resize</name></member>
+      <member refid="group__GeneralGroup_1ga60826e3dab5e862c58fe60bc2b2923a2" prot="private" virt="non-virtual"><scope>MR::ViewportGL::PickTextureFrameBuffer</scope><name>size_</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

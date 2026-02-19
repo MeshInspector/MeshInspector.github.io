@@ -148,7 +148,7 @@ $(function(){initNavTree('structMR_1_1NewEdgesMap.html',''); initResizable(true)
   <div class="summary">
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structMR_1_1NewEdgesMap-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">MR::NewEdgesMap Struct Reference<div class="ingroups"><a class="el" href="group__BooleanGroup.html">Surface Boolean overview</a></div></div></div>
+  <div class="headertitle"><div class="title">MR::NewEdgesMap Struct Reference<div class="ingroups"><a class="el" href="group__GeneralGroup.html">GeneralGroup</a> &#124; <a class="el" href="group__BooleanGroup.html">Surface Boolean overview</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -156,45 +156,14 @@ $(function(){initNavTree('structMR_1_1NewEdgesMap.html',''); initResizable(true)
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a3af4a8bfbe6579dc273d0b9f368f77aa" id="r_a3af4a8bfbe6579dc273d0b9f368f77aa"><td class="memItemLeft" align="right" valign="top">UndirectedEdgeBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3af4a8bfbe6579dc273d0b9f368f77aa">splitEdges</a></td></tr>
-<tr class="separator:a3af4a8bfbe6579dc273d0b9f368f77aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d44ed6247b64a9007baa4bbbf2903aa" id="r_a1d44ed6247b64a9007baa4bbbf2903aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#af8ad9e1b05a45987a3075d43bf345d68">HashMap</a>&lt; UndirectedEdgeId, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d44ed6247b64a9007baa4bbbf2903aa">map</a></td></tr>
-<tr class="separator:a1d44ed6247b64a9007baa4bbbf2903aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3af4a8bfbe6579dc273d0b9f368f77aa" id="r_ga3af4a8bfbe6579dc273d0b9f368f77aa"><td class="memItemLeft" align="right" valign="top">UndirectedEdgeBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga3af4a8bfbe6579dc273d0b9f368f77aa">splitEdges</a></td></tr>
+<tr class="separator:ga3af4a8bfbe6579dc273d0b9f368f77aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1d44ed6247b64a9007baa4bbbf2903aa" id="r_ga1d44ed6247b64a9007baa4bbbf2903aa"><td class="memItemLeft" align="right" valign="top">HashMap&lt; UndirectedEdgeId, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga1d44ed6247b64a9007baa4bbbf2903aa">map</a></td></tr>
+<tr class="separator:ga1d44ed6247b64a9007baa4bbbf2903aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Map structure to find primitives of old topology by edges introduced in cutMesh </p>
-</div><h2 class="groupheader">Member Data Documentation</h2>
-<a id="a1d44ed6247b64a9007baa4bbbf2903aa" name="a1d44ed6247b64a9007baa4bbbf2903aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d44ed6247b64a9007baa4bbbf2903aa">&#9670;&#160;</a></span>map</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespaceMR.html#af8ad9e1b05a45987a3075d43bf345d68">HashMap</a>&lt;UndirectedEdgeId, int&gt; MR::NewEdgesMap::map</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>maps every edge appeared during subdivision to an original edge before mesh subdivision; for splitEdges[key]=true, the value is arbitrary oriented original edge, for which key-edge is its part; for splitEdges[key]=false, the value is an original triangle </p>
-
-</div>
-</div>
-<a id="a3af4a8bfbe6579dc273d0b9f368f77aa" name="a3af4a8bfbe6579dc273d0b9f368f77aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3af4a8bfbe6579dc273d0b9f368f77aa">&#9670;&#160;</a></span>splitEdges</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">UndirectedEdgeBitSet MR::NewEdgesMap::splitEdges</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>true here means that a subdivided edge is a part of some original edge edge before mesh subdivision; false here is both for unmodified edges and for new edges introduced within original triangles </p>
-
-</div>
-</div>
-<hr/>The documentation for this struct was generated from the following file:<ul>
+</div><hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="MRContoursCut_8h_source.html">MRContoursCut.h</a></li>
 </ul>
 </div><!-- contents -->

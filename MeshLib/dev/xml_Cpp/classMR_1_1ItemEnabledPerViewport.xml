@@ -4,83 +4,26 @@
     <compoundname>MR::ItemEnabledPerViewport</compoundname>
     <includes refid="MRItemEnabledPerViewport_8h" local="no">MRItemEnabledPerViewport.h</includes>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1ItemEnabledPerViewport_1a40762ec90c11a9a4c41e2d161a68e435" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
-        <definition>ViewportMask MR::ItemEnabledPerViewport::enabledViewports_</definition>
-        <argsstring></argsstring>
-        <name>enabledViewports_</name>
-        <qualifiedname>MR::ItemEnabledPerViewport::enabledViewports_</qualifiedname>
-        <initializer>= <ref refid="classMR_1_1ViewportMask_1a46b7527f0e3a3394b41be2515c171747" kindref="member">ViewportMask::all</ref>()</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRItemEnabledPerViewport.h" line="22" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRItemEnabledPerViewport.h" bodystart="22" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga40762ec90c11a9a4c41e2d161a68e435" kind="variable"><name>enabledViewports_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1ItemEnabledPerViewport_1aa62d6677cf53b5231eecfe4c1576ff34" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API <ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
-        <definition>MRVIEWER_API ViewportMask MR::ItemEnabledPerViewport::getEnabledViewports</definition>
-        <argsstring>() const</argsstring>
-        <name>getEnabledViewports</name>
-        <qualifiedname>MR::ItemEnabledPerViewport::getEnabledViewports</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRItemEnabledPerViewport.h" line="15" column="32"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ItemEnabledPerViewport_1a07e0387f9cebc82afaf77606185e64d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::ItemEnabledPerViewport::setEnabledViewports</definition>
-        <argsstring>(ViewportMask newMask)</argsstring>
-        <name>setEnabledViewports</name>
-        <qualifiedname>MR::ItemEnabledPerViewport::setEnabledViewports</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
-          <declname>newMask</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRItemEnabledPerViewport.h" line="16" column="23"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaa62d6677cf53b5231eecfe4c1576ff34" kind="function"><name>getEnabledViewports</name></member>
+      <member refid="group__GeneralGroup_1ga07e0387f9cebc82afaf77606185e64d1" kind="function"><name>setEnabledViewports</name></member>
     </sectiondef>
     <sectiondef kind="protected-func">
-      <memberdef kind="function" id="classMR_1_1ItemEnabledPerViewport_1a8551ebd9ecb3e6bab5cde187606e154a" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::ItemEnabledPerViewport::ItemEnabledPerViewport</definition>
-        <argsstring>()=default</argsstring>
-        <name>ItemEnabledPerViewport</name>
-        <qualifiedname>MR::ItemEnabledPerViewport::ItemEnabledPerViewport</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRItemEnabledPerViewport.h" line="19" column="5"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga8551ebd9ecb3e6bab5cde187606e154a" kind="function"><name>ItemEnabledPerViewport</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
 <para>A base class for <computeroutput><ref refid="classMR_1_1RibbonMenuItem" kindref="compound">RibbonMenuItem</ref></computeroutput>s that can be toggled per viewport. The intent is that the derived classes should also be derived from <computeroutput><ref refid="classMR_1_1RibbonMenuItem" kindref="compound">RibbonMenuItem</ref></computeroutput> and be registered in the ribbon schema. Doing this ensures that you can loop over all items in the schema to get a list of all items toggleable in this way. </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRItemEnabledPerViewport.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRItemEnabledPerViewport.h" bodystart="13" bodyend="23"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRItemEnabledPerViewport.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRItemEnabledPerViewport.h" bodystart="16" bodyend="26"/>
     <listofallmembers>
-      <member refid="classMR_1_1ItemEnabledPerViewport_1a40762ec90c11a9a4c41e2d161a68e435" prot="private" virt="non-virtual"><scope>MR::ItemEnabledPerViewport</scope><name>enabledViewports_</name></member>
-      <member refid="classMR_1_1ItemEnabledPerViewport_1aa62d6677cf53b5231eecfe4c1576ff34" prot="public" virt="non-virtual"><scope>MR::ItemEnabledPerViewport</scope><name>getEnabledViewports</name></member>
-      <member refid="classMR_1_1ItemEnabledPerViewport_1a8551ebd9ecb3e6bab5cde187606e154a" prot="protected" virt="non-virtual"><scope>MR::ItemEnabledPerViewport</scope><name>ItemEnabledPerViewport</name></member>
-      <member refid="classMR_1_1ItemEnabledPerViewport_1a07e0387f9cebc82afaf77606185e64d1" prot="public" virt="non-virtual"><scope>MR::ItemEnabledPerViewport</scope><name>setEnabledViewports</name></member>
+      <member refid="group__GeneralGroup_1ga40762ec90c11a9a4c41e2d161a68e435" prot="private" virt="non-virtual"><scope>MR::ItemEnabledPerViewport</scope><name>enabledViewports_</name></member>
+      <member refid="group__GeneralGroup_1gaa62d6677cf53b5231eecfe4c1576ff34" prot="public" virt="non-virtual"><scope>MR::ItemEnabledPerViewport</scope><name>getEnabledViewports</name></member>
+      <member refid="group__GeneralGroup_1ga8551ebd9ecb3e6bab5cde187606e154a" prot="protected" virt="non-virtual"><scope>MR::ItemEnabledPerViewport</scope><name>ItemEnabledPerViewport</name></member>
+      <member refid="group__GeneralGroup_1ga07e0387f9cebc82afaf77606185e64d1" prot="public" virt="non-virtual"><scope>MR::ItemEnabledPerViewport</scope><name>setEnabledViewports</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

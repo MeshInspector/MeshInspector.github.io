@@ -35,7 +35,7 @@
     </sectiondef>
     <sectiondef kind="public-func">
       <memberdef kind="function" id="classMR_1_1PlaneAccumulator_1a561b80488532ac9db2b78daf77f60124" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::PlaneAccumulator::addPlane</definition>
         <argsstring>(const Plane3d &amp;pl)</argsstring>
         <name>addPlane</name>
@@ -71,7 +71,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="78" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" bodystart="78" bodyend="78"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PlaneAccumulator_1af8c3f7e07324810201d7e42c25d77fb3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Vector3d</type>
+        <type>MRMESH_API Vector3d</type>
         <definition>MRMESH_API Vector3d MR::PlaneAccumulator::findBestCrossPoint</definition>
         <argsstring>(const Vector3d &amp;p0, double tol, int *rank=nullptr, Vector3d *space=nullptr) const</argsstring>
         <name>findBestCrossPoint</name>
@@ -129,7 +129,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFit.h" line="85" column="25"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PlaneAccumulator_1a0255552e85ddcbc57932a70e4eabbb28" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Vector3f</type>
+        <type>MRMESH_API Vector3f</type>
         <definition>MRMESH_API Vector3f MR::PlaneAccumulator::findBestCrossPoint</definition>
         <argsstring>(const Vector3f &amp;p0, float tol, int *rank=nullptr, Vector3f *space=nullptr) const</argsstring>
         <name>findBestCrossPoint</name>

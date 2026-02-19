@@ -19,39 +19,8 @@
       </param>
     </templateparamlist>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1SceneStateExactCheck_1a1e1b5cbd3ebad0cb3495f2ebb2100b84" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type></type>
-        <definition>virtual MR::SceneStateExactCheck&lt; N, ObjectT, typename &gt;::~SceneStateExactCheck</definition>
-        <argsstring>()=default</argsstring>
-        <name>~SceneStateExactCheck</name>
-        <qualifiedname>MR::SceneStateExactCheck::~SceneStateExactCheck</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" line="90" column="13"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SceneStateExactCheck_1abcdaa2e32bc223876a3043e83eb591e8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>std::string</type>
-        <definition>virtual std::string MR::SceneStateExactCheck&lt; N, ObjectT, typename &gt;::isAvailable</definition>
-        <argsstring>(const std::vector&lt; std::shared_ptr&lt; const Object &gt; &gt; &amp;objs) const override</argsstring>
-        <name>isAvailable</name>
-        <qualifiedname>MR::SceneStateExactCheck::isAvailable</qualifiedname>
-        <reimplements refid="classMR_1_1ISceneStateCheck_1adedf10c80ddfebcb456559fa828065c0">isAvailable</reimplements>
-        <param>
-          <type>const std::vector&lt; std::shared_ptr&lt; const <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt; &amp;</type>
-        </param>
-        <briefdescription>
-<para>return empty string if all requirements are satisfied, otherwise return first unsatisfied requirement </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" line="91" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" bodystart="91" bodyend="94"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga1e1b5cbd3ebad0cb3495f2ebb2100b84" kind="function"><name>~SceneStateExactCheck</name></member>
+      <member refid="group__GeneralGroup_1gabcdaa2e32bc223876a3043e83eb591e8" kind="function"><name>isAvailable</name></member>
     </sectiondef>
     <briefdescription>
 <para>check that given vector has exactly N objects if type ObjectT </para>
@@ -82,11 +51,11 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" line="87" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" bodystart="88" bodyend="95"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" line="90" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" bodystart="91" bodyend="98"/>
     <listofallmembers>
-      <member refid="classMR_1_1SceneStateExactCheck_1abcdaa2e32bc223876a3043e83eb591e8" prot="public" virt="virtual"><scope>MR::SceneStateExactCheck</scope><name>isAvailable</name></member>
-      <member refid="classMR_1_1ISceneStateCheck_1ad6d7bd5bc97dd4a629de5e0a33af3afe" prot="public" virt="virtual"><scope>MR::SceneStateExactCheck</scope><name>~ISceneStateCheck</name></member>
-      <member refid="classMR_1_1SceneStateExactCheck_1a1e1b5cbd3ebad0cb3495f2ebb2100b84" prot="public" virt="virtual"><scope>MR::SceneStateExactCheck</scope><name>~SceneStateExactCheck</name></member>
+      <member refid="group__GeneralGroup_1gabcdaa2e32bc223876a3043e83eb591e8" prot="public" virt="virtual"><scope>MR::SceneStateExactCheck</scope><name>isAvailable</name></member>
+      <member refid="group__GeneralGroup_1gad6d7bd5bc97dd4a629de5e0a33af3afe" prot="public" virt="virtual"><scope>MR::SceneStateExactCheck</scope><name>~ISceneStateCheck</name></member>
+      <member refid="group__GeneralGroup_1ga1e1b5cbd3ebad0cb3495f2ebb2100b84" prot="public" virt="virtual"><scope>MR::SceneStateExactCheck</scope><name>~SceneStateExactCheck</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

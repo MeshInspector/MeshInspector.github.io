@@ -4,124 +4,15 @@
     <compoundname>MR::VertCoordsDiff</compoundname>
     <includes refid="MRVertCoordsDiff_8h" local="no">MRVertCoordsDiff.h</includes>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1VertCoordsDiff_1adb23bddb4886131109da4625a8f4fc49" prot="private" static="no" mutable="no">
-        <type>size_t</type>
-        <definition>size_t MR::VertCoordsDiff::toPointsSize_</definition>
-        <argsstring></argsstring>
-        <name>toPointsSize_</name>
-        <qualifiedname>MR::VertCoordsDiff::toPointsSize_</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVertCoordsDiff.h" line="33" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVertCoordsDiff.h" bodystart="33" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1VertCoordsDiff_1aaa74de1f0ea8b101a368ab46e93136b4" prot="private" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1af8ad9e1b05a45987a3075d43bf345d68" kindref="member">HashMap</ref>&lt; VertId, Vector3f &gt;</type>
-        <definition>HashMap&lt;VertId, Vector3f&gt; MR::VertCoordsDiff::changedPoints_</definition>
-        <argsstring></argsstring>
-        <name>changedPoints_</name>
-        <qualifiedname>MR::VertCoordsDiff::changedPoints_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVertCoordsDiff.h" line="34" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVertCoordsDiff.h" bodystart="34" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gadb23bddb4886131109da4625a8f4fc49" kind="variable"><name>toPointsSize_</name></member>
+      <member refid="group__GeneralGroup_1gaaa74de1f0ea8b101a368ab46e93136b4" kind="variable"><name>changedPoints_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1VertCoordsDiff_1afa80c539d783f275a194ae8f5202647e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::VertCoordsDiff::VertCoordsDiff</definition>
-        <argsstring>()=default</argsstring>
-        <name>VertCoordsDiff</name>
-        <qualifiedname>MR::VertCoordsDiff::VertCoordsDiff</qualifiedname>
-        <briefdescription>
-<para>constructs minimal difference, where applyAndSwap( v ) will produce empty vector </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVertCoordsDiff.h" line="15" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1VertCoordsDiff_1ab6cb02c630ddd3015cb11dde6673f889" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
-        <definition>MRMESH_API MR::VertCoordsDiff::VertCoordsDiff</definition>
-        <argsstring>(const VertCoords &amp;from, const VertCoords &amp;to)</argsstring>
-        <name>VertCoordsDiff</name>
-        <qualifiedname>MR::VertCoordsDiff::VertCoordsDiff</qualifiedname>
-        <param>
-          <type>const VertCoords &amp;</type>
-          <declname>from</declname>
-        </param>
-        <param>
-          <type>const VertCoords &amp;</type>
-          <declname>to</declname>
-        </param>
-        <briefdescription>
-<para>computes the difference, that can be applied to vector-from in order to get vector-to </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVertCoordsDiff.h" line="18" column="16"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1VertCoordsDiff_1acd8d214b41c3bbf6d29b72f1a3d03e2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::VertCoordsDiff::applyAndSwap</definition>
-        <argsstring>(VertCoords &amp;m)</argsstring>
-        <name>applyAndSwap</name>
-        <qualifiedname>MR::VertCoordsDiff::applyAndSwap</qualifiedname>
-        <param>
-          <type>VertCoords &amp;</type>
-          <declname>m</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>given vector-from on input converts it in vector-to, this object is updated to become the reverse difference from original vector-to to original vector-from </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVertCoordsDiff.h" line="22" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1VertCoordsDiff_1a5f175f350625d742580210d6aeda32e8" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::VertCoordsDiff::any</definition>
-        <argsstring>() const</argsstring>
-        <name>any</name>
-        <qualifiedname>MR::VertCoordsDiff::any</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>returns true if this object does contain some difference in point coordinates; if (from) vector has just more points and the common elements are the same, then the method will return false since nothing is stored here </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVertCoordsDiff.h" line="27" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVertCoordsDiff.h" bodystart="27" bodyend="27"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1VertCoordsDiff_1a91f5877a46b424d1a68ecb23025a2a27" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> size_t</type>
-        <definition>MRMESH_API size_t MR::VertCoordsDiff::heapBytes</definition>
-        <argsstring>() const</argsstring>
-        <name>heapBytes</name>
-        <qualifiedname>MR::VertCoordsDiff::heapBytes</qualifiedname>
-        <briefdescription>
-<para>returns the amount of memory this object occupies on heap </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVertCoordsDiff.h" line="30" column="24"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gafa80c539d783f275a194ae8f5202647e" kind="function"><name>VertCoordsDiff</name></member>
+      <member refid="group__GeneralGroup_1gab6cb02c630ddd3015cb11dde6673f889" kind="function"><name>VertCoordsDiff</name></member>
+      <member refid="group__GeneralGroup_1gacd8d214b41c3bbf6d29b72f1a3d03e2b" kind="function"><name>applyAndSwap</name></member>
+      <member refid="group__GeneralGroup_1ga5f175f350625d742580210d6aeda32e8" kind="function"><name>any</name></member>
+      <member refid="group__GeneralGroup_1ga91f5877a46b424d1a68ecb23025a2a27" kind="function"><name>heapBytes</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -129,15 +20,15 @@
 <para>this object stores a difference between two vectors with 3D coordinates</para>
 <para>if the vectors are similar then this object is small, if the vectors are very distinct then this object will be even larger than one vector itself </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVertCoordsDiff.h" line="11" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVertCoordsDiff.h" bodystart="12" bodyend="35"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVertCoordsDiff.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVertCoordsDiff.h" bodystart="15" bodyend="38"/>
     <listofallmembers>
-      <member refid="classMR_1_1VertCoordsDiff_1a5f175f350625d742580210d6aeda32e8" prot="public" virt="non-virtual"><scope>MR::VertCoordsDiff</scope><name>any</name></member>
-      <member refid="classMR_1_1VertCoordsDiff_1acd8d214b41c3bbf6d29b72f1a3d03e2b" prot="public" virt="non-virtual"><scope>MR::VertCoordsDiff</scope><name>applyAndSwap</name></member>
-      <member refid="classMR_1_1VertCoordsDiff_1aaa74de1f0ea8b101a368ab46e93136b4" prot="private" virt="non-virtual"><scope>MR::VertCoordsDiff</scope><name>changedPoints_</name></member>
-      <member refid="classMR_1_1VertCoordsDiff_1a91f5877a46b424d1a68ecb23025a2a27" prot="public" virt="non-virtual"><scope>MR::VertCoordsDiff</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1VertCoordsDiff_1adb23bddb4886131109da4625a8f4fc49" prot="private" virt="non-virtual"><scope>MR::VertCoordsDiff</scope><name>toPointsSize_</name></member>
-      <member refid="classMR_1_1VertCoordsDiff_1afa80c539d783f275a194ae8f5202647e" prot="public" virt="non-virtual"><scope>MR::VertCoordsDiff</scope><name>VertCoordsDiff</name></member>
-      <member refid="classMR_1_1VertCoordsDiff_1ab6cb02c630ddd3015cb11dde6673f889" prot="public" virt="non-virtual"><scope>MR::VertCoordsDiff</scope><name>VertCoordsDiff</name></member>
+      <member refid="group__GeneralGroup_1ga5f175f350625d742580210d6aeda32e8" prot="public" virt="non-virtual"><scope>MR::VertCoordsDiff</scope><name>any</name></member>
+      <member refid="group__GeneralGroup_1gacd8d214b41c3bbf6d29b72f1a3d03e2b" prot="public" virt="non-virtual"><scope>MR::VertCoordsDiff</scope><name>applyAndSwap</name></member>
+      <member refid="group__GeneralGroup_1gaaa74de1f0ea8b101a368ab46e93136b4" prot="private" virt="non-virtual"><scope>MR::VertCoordsDiff</scope><name>changedPoints_</name></member>
+      <member refid="group__GeneralGroup_1ga91f5877a46b424d1a68ecb23025a2a27" prot="public" virt="non-virtual"><scope>MR::VertCoordsDiff</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1gadb23bddb4886131109da4625a8f4fc49" prot="private" virt="non-virtual"><scope>MR::VertCoordsDiff</scope><name>toPointsSize_</name></member>
+      <member refid="group__GeneralGroup_1gafa80c539d783f275a194ae8f5202647e" prot="public" virt="non-virtual"><scope>MR::VertCoordsDiff</scope><name>VertCoordsDiff</name></member>
+      <member refid="group__GeneralGroup_1gab6cb02c630ddd3015cb11dde6673f889" prot="public" virt="non-virtual"><scope>MR::VertCoordsDiff</scope><name>VertCoordsDiff</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

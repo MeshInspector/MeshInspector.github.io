@@ -69,7 +69,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="88" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" bodystart="88" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1BooleanParameters_1a4e9fd686cd57658f583e243451c94393" prot="public" static="no" mutable="no">
-        <type>std::vector&lt; <ref refid="namespaceMR_1a099da1b4cb4b8348ee3fed0588b01aa3" kindref="member">EdgeLoop</ref> &gt; *</type>
+        <type>std::vector&lt; EdgeLoop &gt; *</type>
         <definition>std::vector&lt;EdgeLoop&gt;* MR::BooleanParameters::outCutEdges</definition>
         <argsstring></argsstring>
         <name>outCutEdges</name>
@@ -119,7 +119,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="100" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" bodystart="100" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1BooleanParameters_1a3e10d01aa0e3e192325518ba6d1ea24c" prot="public" static="no" mutable="no">
-        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+        <type>ProgressCallback</type>
         <definition>ProgressCallback MR::BooleanParameters::cb</definition>
         <argsstring></argsstring>
         <name>cb</name>

@@ -72,7 +72,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBooleanOperation.h" line="61" column="5"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1BooleanResultMapper_1a730a4aa776837ed09143d106e54c085b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> FaceBitSet</type>
+        <type>MRMESH_API FaceBitSet</type>
         <definition>MRMESH_API FaceBitSet MR::BooleanResultMapper::map</definition>
         <argsstring>(const FaceBitSet &amp;oldBS, MapObject obj) const</argsstring>
         <name>map</name>
@@ -95,7 +95,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBooleanOperation.h" line="64" column="27"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1BooleanResultMapper_1ac601634b2fe9f6fe7b9531d6c8bf6d7c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> VertBitSet</type>
+        <type>MRMESH_API VertBitSet</type>
         <definition>MRMESH_API VertBitSet MR::BooleanResultMapper::map</definition>
         <argsstring>(const VertBitSet &amp;oldBS, MapObject obj) const</argsstring>
         <name>map</name>
@@ -118,7 +118,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBooleanOperation.h" line="67" column="27"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1BooleanResultMapper_1ac5f5c7f84c16ba4d08fd3b45d06c5914" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> EdgeBitSet</type>
+        <type>MRMESH_API EdgeBitSet</type>
         <definition>MRMESH_API EdgeBitSet MR::BooleanResultMapper::map</definition>
         <argsstring>(const EdgeBitSet &amp;oldBS, MapObject obj) const</argsstring>
         <name>map</name>
@@ -141,7 +141,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBooleanOperation.h" line="70" column="27"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1BooleanResultMapper_1a98265093e5d605c22ac13fb59ac056b2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> UndirectedEdgeBitSet</type>
+        <type>MRMESH_API UndirectedEdgeBitSet</type>
         <definition>MRMESH_API UndirectedEdgeBitSet MR::BooleanResultMapper::map</definition>
         <argsstring>(const UndirectedEdgeBitSet &amp;oldBS, MapObject obj) const</argsstring>
         <name>map</name>
@@ -164,7 +164,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBooleanOperation.h" line="73" column="37"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1BooleanResultMapper_1a965145c8345c2af57bdd338b3fd038b4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> FaceBitSet</type>
+        <type>MRMESH_API FaceBitSet</type>
         <definition>MRMESH_API FaceBitSet MR::BooleanResultMapper::newFaces</definition>
         <argsstring>() const</argsstring>
         <name>newFaces</name>
@@ -179,7 +179,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBooleanOperation.h" line="76" column="27"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1BooleanResultMapper_1ab684f42e7c2f76fd478da500c3b2ddcd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> FaceBitSet</type>
+        <type>MRMESH_API FaceBitSet</type>
         <definition>MRMESH_API FaceBitSet MR::BooleanResultMapper::filteredOldFaceBitSet</definition>
         <argsstring>(const FaceBitSet &amp;oldBS, MapObject obj)</argsstring>
         <name>filteredOldFaceBitSet</name>

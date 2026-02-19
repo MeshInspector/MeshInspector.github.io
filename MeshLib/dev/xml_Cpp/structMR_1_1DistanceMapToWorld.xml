@@ -91,7 +91,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="138" column="5"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1DistanceMapToWorld_1aee6ea73dd4b8ce002eaa164c6d5e45f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <type>MRMESH_API</type>
         <definition>MRMESH_API MR::DistanceMapToWorld::DistanceMapToWorld</definition>
         <argsstring>(const MeshToDistanceMapParams &amp;params)</argsstring>
         <name>DistanceMapToWorld</name>
@@ -110,7 +110,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="141" column="16"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1DistanceMapToWorld_1a45d71d4ab5dd33dbd4ef7b7b6eb16468" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <type>MRMESH_API</type>
         <definition>MRMESH_API MR::DistanceMapToWorld::DistanceMapToWorld</definition>
         <argsstring>(const ContourToDistanceMapParams &amp;params)</argsstring>
         <name>DistanceMapToWorld</name>
@@ -181,7 +181,7 @@
         <name>operator AffineXf3f</name>
         <qualifiedname>MR::DistanceMapToWorld::operator AffineXf3f</qualifiedname>
         <briefdescription>
-<para>converts in transformation X: <ref refid="namespaceMR_1a05195fdcf0d1d90b73a5d24b11150005a02129bb861061d1a052c592e2dc6b383" kindref="member">X(p)</ref> == toWorld( p.x, p.y, p.z ) </para>
+<para>converts in transformation X: <ref refid="group__GeneralGroup_1gga05195fdcf0d1d90b73a5d24b11150005a02129bb861061d1a052c592e2dc6b383" kindref="member">X(p)</ref> == toWorld( p.x, p.y, p.z ) </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>

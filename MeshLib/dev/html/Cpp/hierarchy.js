@@ -177,10 +177,7 @@ var hierarchy =
     [ "MR::BooleanResultPoints", "structMR_1_1BooleanResultPoints.html", null ],
     [ "MR::BoundarySelectionWidget::BoundarySelectionWidgetParams", "structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html", null ],
     [ "MR::UI::TestEngine::detail::BoundedValue< T >", "structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html", null ],
-    [ "MR::Box< V >", "structMR_1_1Box.html", [
-      [ "MR::VoxelsVolumeMinMax< T >", "structMR_1_1VoxelsVolumeMinMax.html", null ]
-    ] ],
-    [ "MR::Box< float >", "structMR_1_1Box.html", null ],
+    [ "MR::Box< V >", "structMR_1_1Box.html", null ],
     [ "MR::BoxedLeaf< T >", "structMR_1_1BoxedLeaf.html", null ],
     [ "MR::Buffer< V, I >", "classMR_1_1Buffer.html", null ],
     [ "MR::Buffer< FaceId, size_t >", "classMR_1_1Buffer.html", null ],
@@ -254,14 +251,7 @@ var hierarchy =
         [ "MR::StateListenerPlugin< MouseDownListener, MouseUpListener, MouseMoveListener >", "classMR_1_1StateListenerPlugin.html", [
           [ "MR::SelectObjectByClick", "classMR_1_1SelectObjectByClick.html", null ]
         ] ],
-        [ "MR::StateListenerPlugin< Connectables >", "classMR_1_1StateListenerPlugin.html", [
-          [ "MR::AddCustomThemePlugin", "classMR_1_1AddCustomThemePlugin.html", null ],
-          [ "MR::BinaryOperations", "classMR_1_1BinaryOperations.html", null ],
-          [ "MR::CameraOrientation", "classMR_1_1CameraOrientation.html", null ],
-          [ "MR::CaptureScreenshotMenuItem", "classMR_1_1CaptureScreenshotMenuItem.html", null ],
-          [ "MR::OpenRawVoxelsPlugin", "classMR_1_1OpenRawVoxelsPlugin.html", null ],
-          [ "MR::ViewerSettingsPlugin", "classMR_1_1ViewerSettingsPlugin.html", null ]
-        ] ]
+        [ "MR::StateListenerPlugin< Connectables >", "classMR_1_1StateListenerPlugin.html", null ]
       ] ],
       [ "MR::MultiListener< MouseDownListener, MouseMoveListener, MouseUpListener, PreDrawListener, PostDrawListener >", "structMR_1_1MultiListener.html", [
         [ "MR::ObjectTransformWidget", "classMR_1_1ObjectTransformWidget.html", null ]
@@ -775,7 +765,6 @@ var hierarchy =
     [ "MR::ImGuiMeasurementIndicators::TextParams::Line", "structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1_1Line.html", null ],
     [ "MR::Line< V >", "structMR_1_1Line.html", null ],
     [ "MR::Line3Mesh< T >", "structMR_1_1Line3Mesh.html", null ],
-    [ "MR::Line< T >", "structMR_1_1Line.html", null ],
     [ "MR::ImGuiMeasurementIndicators::LineBodyParams", "structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams.html", null ],
     [ "MR::ImGuiMeasurementIndicators::LineCap", "structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html", null ],
     [ "MR::LineInterpolationParams", "structMR_1_1LineInterpolationParams.html", null ],
@@ -795,9 +784,6 @@ var hierarchy =
     [ "MR::detail::MakeScopeGuard< T >", "structMR_1_1detail_1_1MakeScopeGuard.html", null ],
     [ "MR::MakeSignedByWindingNumberSettings", "structMR_1_1MakeSignedByWindingNumberSettings.html", null ],
     [ "MR::MapOrHashMap< K, V >", "structMR_1_1MapOrHashMap.html", null ],
-    [ "MR::MapOrHashMap< FaceId, FaceId >", "structMR_1_1MapOrHashMap.html", null ],
-    [ "MR::MapOrHashMap< UndirectedEdgeId, EdgeId >", "structMR_1_1MapOrHashMap.html", null ],
-    [ "MR::MapOrHashMap< VertId, VertId >", "structMR_1_1MapOrHashMap.html", null ],
     [ "MR::BooleanResultMapper::Maps", "structMR_1_1BooleanResultMapper_1_1Maps.html", null ],
     [ "MR::MarchingCubesByParts", "classMR_1_1MarchingCubesByParts.html", null ],
     [ "MR::MarchingCubesParams", "structMR_1_1MarchingCubesParams.html", null ],
@@ -846,6 +832,9 @@ var hierarchy =
     [ "MR::MeshVoxelsConverter", "structMR_1_1MeshVoxelsConverter.html", null ],
     [ "MR::MetricToAStarPenalty", "structMR_1_1MetricToAStarPenalty.html", null ],
     [ "MR::MinArg< T, I >", "structMR_1_1MinArg.html", null ],
+    [ "MinMax", null, [
+      [ "MR::VoxelsVolumeMinMax< T >", "structMR_1_1VoxelsVolumeMinMax.html", null ]
+    ] ],
     [ "MR::MinMaxArg< T, I >", "structMR_1_1MinMaxArg.html", null ],
     [ "MR::ModalDialog", "classMR_1_1ModalDialog.html", null ],
     [ "MR::ModalDialogSettings", "structMR_1_1ModalDialogSettings.html", null ],
@@ -877,7 +866,6 @@ var hierarchy =
     [ "MR::NoCtor< T >", "structMR_1_1NoCtor_3_01T_01_4.html", null ],
     [ "MR::AABBTreePoints::Node", "structMR_1_1AABBTreePoints_1_1Node.html", null ],
     [ "MR::NodeNode", "structMR_1_1NodeNode.html", null ],
-    [ "MR::NoInit", "structMR_1_1NoInit.html", null ],
     [ "MR::NoiseSettings", "structMR_1_1NoiseSettings.html", null ],
     [ "MR::NoModelCheck", "structMR_1_1NoModelCheck.html", null ],
     [ "MR::NormalsToPoints", "classMR_1_1NormalsToPoints.html", null ],
@@ -1206,6 +1194,16 @@ var hierarchy =
     [ "MR::SplineSettings", "structMR_1_1SplineSettings.html", null ],
     [ "MR::Src2TgtMaps", "classMR_1_1Src2TgtMaps.html", null ],
     [ "MR::MultiwayAligningTransform::Stabilizer", "structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html", null ],
+    [ "MR::StatePlugin", null, [
+      [ "MR::CameraOrientation", "classMR_1_1CameraOrientation.html", null ],
+      [ "MR::CaptureScreenshotMenuItem", "classMR_1_1CaptureScreenshotMenuItem.html", null ],
+      [ "MR::OpenRawVoxelsPlugin", "classMR_1_1OpenRawVoxelsPlugin.html", null ],
+      [ "MR::ViewerSettingsPlugin", "classMR_1_1ViewerSettingsPlugin.html", null ]
+    ] ],
+    [ "StatePlugin", null, [
+      [ "MR::AddCustomThemePlugin", "classMR_1_1AddCustomThemePlugin.html", null ],
+      [ "MR::BinaryOperations", "classMR_1_1BinaryOperations.html", null ]
+    ] ],
     [ "MR::ImGuiMeasurementIndicators::Stipple", "structMR_1_1ImGuiMeasurementIndicators_1_1Stipple.html", null ],
     [ "MR::StitchHolesParams", "structMR_1_1StitchHolesParams.html", null ],
     [ "MR::StopOnTrueCombiner", "structMR_1_1StopOnTrueCombiner.html", null ],
@@ -1285,9 +1283,6 @@ var hierarchy =
       [ "MR::IsVisualizeMaskEnum< PointMeasurementVisualizePropertyType >", "structMR_1_1IsVisualizeMaskEnum_3_01PointMeasurementVisualizePropertyType_01_4.html", null ],
       [ "MR::IsVisualizeMaskEnum< PointsVisualizePropertyType >", "structMR_1_1IsVisualizeMaskEnum_3_01PointsVisualizePropertyType_01_4.html", null ],
       [ "MR::IsVisualizeMaskEnum< VisualizeMaskType >", "structMR_1_1IsVisualizeMaskEnum_3_01VisualizeMaskType_01_4.html", null ]
-    ] ],
-    [ "Ts...", null, [
-      [ "MR::overloaded< Ts >", "structMR_1_1overloaded.html", null ]
     ] ],
     [ "MR::TypedFlatTree", "structMR_1_1TypedFlatTree.html", null ],
     [ "MR::UiRenderManager", "structMR_1_1UiRenderManager.html", [

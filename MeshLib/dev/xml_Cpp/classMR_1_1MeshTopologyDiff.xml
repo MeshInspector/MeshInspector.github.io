@@ -4,124 +4,15 @@
     <compoundname>MR::MeshTopologyDiff</compoundname>
     <includes refid="MRMeshTopologyDiff_8h" local="no">MRMeshTopologyDiff.h</includes>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1MeshTopologyDiff_1a9f2e1e81b6a1f5328a10fb914ad88869" prot="private" static="no" mutable="no">
-        <type>size_t</type>
-        <definition>size_t MR::MeshTopologyDiff::toEdgesSize_</definition>
-        <argsstring></argsstring>
-        <name>toEdgesSize_</name>
-        <qualifiedname>MR::MeshTopologyDiff::toEdgesSize_</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTopologyDiff.h" line="34" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTopologyDiff.h" bodystart="34" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1MeshTopologyDiff_1a39b1649c247ac2e6e2c8364114912a1d" prot="private" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1af8ad9e1b05a45987a3075d43bf345d68" kindref="member">HashMap</ref>&lt; EdgeId, MeshTopology::HalfEdgeRecord &gt;</type>
-        <definition>HashMap&lt;EdgeId, MeshTopology::HalfEdgeRecord&gt; MR::MeshTopologyDiff::changedEdges_</definition>
-        <argsstring></argsstring>
-        <name>changedEdges_</name>
-        <qualifiedname>MR::MeshTopologyDiff::changedEdges_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTopologyDiff.h" line="35" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTopologyDiff.h" bodystart="35" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga9f2e1e81b6a1f5328a10fb914ad88869" kind="variable"><name>toEdgesSize_</name></member>
+      <member refid="group__GeneralGroup_1ga39b1649c247ac2e6e2c8364114912a1d" kind="variable"><name>changedEdges_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1MeshTopologyDiff_1af1195b4bb18db9e8ca21e92db9139406" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::MeshTopologyDiff::MeshTopologyDiff</definition>
-        <argsstring>()=default</argsstring>
-        <name>MeshTopologyDiff</name>
-        <qualifiedname>MR::MeshTopologyDiff::MeshTopologyDiff</qualifiedname>
-        <briefdescription>
-<para>constructs minimal difference, where applyAndSwap( t ) will produce empty topology </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTopologyDiff.h" line="16" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshTopologyDiff_1a124d70218b979697c0fa67ce32b07c56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
-        <definition>MRMESH_API MR::MeshTopologyDiff::MeshTopologyDiff</definition>
-        <argsstring>(const MeshTopology &amp;from, const MeshTopology &amp;to)</argsstring>
-        <name>MeshTopologyDiff</name>
-        <qualifiedname>MR::MeshTopologyDiff::MeshTopologyDiff</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref> &amp;</type>
-          <declname>from</declname>
-        </param>
-        <param>
-          <type>const <ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref> &amp;</type>
-          <declname>to</declname>
-        </param>
-        <briefdescription>
-<para>computes the difference, that can be applied to topology-from in order to get topology-to </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTopologyDiff.h" line="19" column="16"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshTopologyDiff_1aad4c78043b91fd4835e71c4d2a281a95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::MeshTopologyDiff::applyAndSwap</definition>
-        <argsstring>(MeshTopology &amp;t)</argsstring>
-        <name>applyAndSwap</name>
-        <qualifiedname>MR::MeshTopologyDiff::applyAndSwap</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref> &amp;</type>
-          <declname>t</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>given topology-from on input converts it in topology-to, this object is updated to become the reverse difference from original topology-to to original topology-from </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTopologyDiff.h" line="23" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshTopologyDiff_1aeb15ef52dc9593c97da084a462456e23" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::MeshTopologyDiff::any</definition>
-        <argsstring>() const</argsstring>
-        <name>any</name>
-        <qualifiedname>MR::MeshTopologyDiff::any</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>returns true if this object does contain some difference in topology; if (from) has more topology elements than (to) and the common elements are the same, then the method will return false since nothing is stored here </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTopologyDiff.h" line="28" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTopologyDiff.h" bodystart="28" bodyend="28"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshTopologyDiff_1a743e293604e551a32e96aba9e63cb091" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> size_t</type>
-        <definition>MRMESH_API size_t MR::MeshTopologyDiff::heapBytes</definition>
-        <argsstring>() const</argsstring>
-        <name>heapBytes</name>
-        <qualifiedname>MR::MeshTopologyDiff::heapBytes</qualifiedname>
-        <briefdescription>
-<para>returns the amount of memory this object occupies on heap </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTopologyDiff.h" line="31" column="24"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaf1195b4bb18db9e8ca21e92db9139406" kind="function"><name>MeshTopologyDiff</name></member>
+      <member refid="group__GeneralGroup_1ga124d70218b979697c0fa67ce32b07c56" kind="function"><name>MeshTopologyDiff</name></member>
+      <member refid="group__GeneralGroup_1gaad4c78043b91fd4835e71c4d2a281a95" kind="function"><name>applyAndSwap</name></member>
+      <member refid="group__GeneralGroup_1gaeb15ef52dc9593c97da084a462456e23" kind="function"><name>any</name></member>
+      <member refid="group__GeneralGroup_1ga743e293604e551a32e96aba9e63cb091" kind="function"><name>heapBytes</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -129,15 +20,15 @@
 <para>this object stores a difference between two topologies: both in coordinates and in topology</para>
 <para>if the topologies are similar then this object is small, if the topologies are very distinct then this object will be even larger than one topology itself </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTopologyDiff.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTopologyDiff.h" bodystart="13" bodyend="36"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTopologyDiff.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTopologyDiff.h" bodystart="16" bodyend="39"/>
     <listofallmembers>
-      <member refid="classMR_1_1MeshTopologyDiff_1aeb15ef52dc9593c97da084a462456e23" prot="public" virt="non-virtual"><scope>MR::MeshTopologyDiff</scope><name>any</name></member>
-      <member refid="classMR_1_1MeshTopologyDiff_1aad4c78043b91fd4835e71c4d2a281a95" prot="public" virt="non-virtual"><scope>MR::MeshTopologyDiff</scope><name>applyAndSwap</name></member>
-      <member refid="classMR_1_1MeshTopologyDiff_1a39b1649c247ac2e6e2c8364114912a1d" prot="private" virt="non-virtual"><scope>MR::MeshTopologyDiff</scope><name>changedEdges_</name></member>
-      <member refid="classMR_1_1MeshTopologyDiff_1a743e293604e551a32e96aba9e63cb091" prot="public" virt="non-virtual"><scope>MR::MeshTopologyDiff</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1MeshTopologyDiff_1af1195b4bb18db9e8ca21e92db9139406" prot="public" virt="non-virtual"><scope>MR::MeshTopologyDiff</scope><name>MeshTopologyDiff</name></member>
-      <member refid="classMR_1_1MeshTopologyDiff_1a124d70218b979697c0fa67ce32b07c56" prot="public" virt="non-virtual"><scope>MR::MeshTopologyDiff</scope><name>MeshTopologyDiff</name></member>
-      <member refid="classMR_1_1MeshTopologyDiff_1a9f2e1e81b6a1f5328a10fb914ad88869" prot="private" virt="non-virtual"><scope>MR::MeshTopologyDiff</scope><name>toEdgesSize_</name></member>
+      <member refid="group__GeneralGroup_1gaeb15ef52dc9593c97da084a462456e23" prot="public" virt="non-virtual"><scope>MR::MeshTopologyDiff</scope><name>any</name></member>
+      <member refid="group__GeneralGroup_1gaad4c78043b91fd4835e71c4d2a281a95" prot="public" virt="non-virtual"><scope>MR::MeshTopologyDiff</scope><name>applyAndSwap</name></member>
+      <member refid="group__GeneralGroup_1ga39b1649c247ac2e6e2c8364114912a1d" prot="private" virt="non-virtual"><scope>MR::MeshTopologyDiff</scope><name>changedEdges_</name></member>
+      <member refid="group__GeneralGroup_1ga743e293604e551a32e96aba9e63cb091" prot="public" virt="non-virtual"><scope>MR::MeshTopologyDiff</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1gaf1195b4bb18db9e8ca21e92db9139406" prot="public" virt="non-virtual"><scope>MR::MeshTopologyDiff</scope><name>MeshTopologyDiff</name></member>
+      <member refid="group__GeneralGroup_1ga124d70218b979697c0fa67ce32b07c56" prot="public" virt="non-virtual"><scope>MR::MeshTopologyDiff</scope><name>MeshTopologyDiff</name></member>
+      <member refid="group__GeneralGroup_1ga9f2e1e81b6a1f5328a10fb914ad88869" prot="private" virt="non-virtual"><scope>MR::MeshTopologyDiff</scope><name>toEdgesSize_</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

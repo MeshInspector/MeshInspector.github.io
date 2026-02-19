@@ -9,41 +9,13 @@
     <includedby refid="MRChangeLabelAction_8h" local="yes">MRChangeLabelAction.h</includedby>
     <includedby refid="MRObjectLabel_8h" local="yes">MRObjectLabel.h</includedby>
     <incdepgraph>
-      <node id="10">
-        <label>MRMesh/MRCanonicalTypedefs.h</label>
-        <link refid="MRCanonicalTypedefs_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-      </node>
-      <node id="17">
+      <node id="9">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
       <node id="4">
         <label>MRMacros.h</label>
         <link refid="MRMacros_8h"/>
-      </node>
-      <node id="8">
-        <label>MRMeshFwd.h</label>
-        <link refid="MRMeshFwd_8h"/>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
       </node>
       <node id="1">
         <label>MRPositionedText.h</label>
@@ -52,7 +24,7 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
       </node>
       <node id="5">
@@ -72,66 +44,50 @@
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
       </node>
-      <node id="9">
-        <label>config.h</label>
-        <link refid="MRMesh_2config_8h"/>
+      <node id="8">
+        <label>MRMeshFwd.h</label>
       </node>
       <node id="2">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="18">
+      <node id="10">
         <label>algorithm</label>
       </node>
       <node id="11">
-        <label>array</label>
-      </node>
-      <node id="16">
-        <label>cassert</label>
-      </node>
-      <node id="19">
         <label>cmath</label>
       </node>
       <node id="6">
         <label>cstddef</label>
       </node>
-      <node id="20">
+      <node id="12">
         <label>cstring</label>
       </node>
-      <node id="15">
-        <label>functional</label>
-      </node>
-      <node id="21">
+      <node id="13">
         <label>iosfwd</label>
       </node>
-      <node id="14">
-        <label>parallel_hashmap/phmap_fwd_decl.h</label>
-      </node>
-      <node id="13">
+      <node id="15">
         <label>string</label>
       </node>
       <node id="7">
         <label>type_traits</label>
       </node>
-      <node id="22">
+      <node id="14">
         <label>utility</label>
-      </node>
-      <node id="12">
-        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
@@ -174,21 +130,22 @@
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight></codeline>
-<codeline lineno="9" refid="structMR_1_1PositionedText" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1PositionedText" kindref="compound">PositionedText</ref></highlight></codeline>
-<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="11" refid="structMR_1_1PositionedText_1acc622ad7b3847f83e8d5d6f92dd0ed0a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1PositionedText_1acc622ad7b3847f83e8d5d6f92dd0ed0a" kindref="member">PositionedText</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="12" refid="structMR_1_1PositionedText_1a362e71ee7a4c24ff0ca9f4dce5d43fa1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1PositionedText_1a362e71ee7a4c24ff0ca9f4dce5d43fa1" kindref="member">PositionedText</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/><ref refid="structMR_1_1PositionedText_1a0361f418c9fa0c8257d7148d219fe4c6" kindref="member">text</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/><ref refid="structMR_1_1PositionedText_1adf395638da1f3aeb90c01d197a2cf0e0" kindref="member">position</ref><sp/>)<sp/>:<sp/><ref refid="structMR_1_1PositionedText_1a0361f418c9fa0c8257d7148d219fe4c6" kindref="member">text</ref>{<ref refid="structMR_1_1PositionedText_1a0361f418c9fa0c8257d7148d219fe4c6" kindref="member">text</ref>},<sp/><ref refid="structMR_1_1PositionedText_1adf395638da1f3aeb90c01d197a2cf0e0" kindref="member">position</ref>{<ref refid="structMR_1_1PositionedText_1adf395638da1f3aeb90c01d197a2cf0e0" kindref="member">position</ref>}{}</highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="structMR_1_1PositionedText_1a0361f418c9fa0c8257d7148d219fe4c6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="structMR_1_1PositionedText_1a0361f418c9fa0c8257d7148d219fe4c6" kindref="member">text</ref>;</highlight></codeline>
-<codeline lineno="15" refid="structMR_1_1PositionedText_1adf395638da1f3aeb90c01d197a2cf0e0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="structMR_1_1PositionedText_1adf395638da1f3aeb90c01d197a2cf0e0" kindref="member">position</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="structMR_1_1PositionedText" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1PositionedText" kindref="compound">PositionedText</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14" refid="group__GeneralGroup_1gacc622ad7b3847f83e8d5d6f92dd0ed0a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gacc622ad7b3847f83e8d5d6f92dd0ed0a" kindref="member">PositionedText</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="15" refid="group__GeneralGroup_1ga362e71ee7a4c24ff0ca9f4dce5d43fa1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga362e71ee7a4c24ff0ca9f4dce5d43fa1" kindref="member">PositionedText</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/><ref refid="group__GeneralGroup_1ga0361f418c9fa0c8257d7148d219fe4c6" kindref="member">text</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/><ref refid="group__GeneralGroup_1gadf395638da1f3aeb90c01d197a2cf0e0" kindref="member">position</ref><sp/>)<sp/>:<sp/><ref refid="group__GeneralGroup_1ga0361f418c9fa0c8257d7148d219fe4c6" kindref="member">text</ref>{<ref refid="group__GeneralGroup_1ga0361f418c9fa0c8257d7148d219fe4c6" kindref="member">text</ref>},<sp/><ref refid="group__GeneralGroup_1gadf395638da1f3aeb90c01d197a2cf0e0" kindref="member">position</ref>{<ref refid="group__GeneralGroup_1gadf395638da1f3aeb90c01d197a2cf0e0" kindref="member">position</ref>}{}</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="structMR_1_1PositionedText_1aa430fb4a7ceafb3eb18505b07dcd5273" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PositionedText_1aa430fb4a7ceafb3eb18505b07dcd5273" kindref="member">operator==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PositionedText" kindref="compound">PositionedText</ref>&amp;<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="18"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="17" refid="group__GeneralGroup_1ga0361f418c9fa0c8257d7148d219fe4c6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga0361f418c9fa0c8257d7148d219fe4c6" kindref="member">text</ref>;</highlight></codeline>
+<codeline lineno="18" refid="group__GeneralGroup_1gadf395638da1f3aeb90c01d197a2cf0e0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1gadf395638da1f3aeb90c01d197a2cf0e0" kindref="member">position</ref>;</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">MeshLabel<sp/>[[deprecated]]<sp/><ref refid="namespaceMR_1ac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/>=<sp/><ref refid="structMR_1_1PositionedText" kindref="compound">PositionedText</ref>;</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="20" refid="group__GeneralGroup_1gaa430fb4a7ceafb3eb18505b07dcd5273" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa430fb4a7ceafb3eb18505b07dcd5273" kindref="member">operator==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PositionedText" kindref="compound">PositionedText</ref>&amp;<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">MeshLabel<sp/>[[deprecated]]<sp/><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/>=<sp/><ref refid="structMR_1_1PositionedText" kindref="compound">PositionedText</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionedText.h"/>
   </compounddef>

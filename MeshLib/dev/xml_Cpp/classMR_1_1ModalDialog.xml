@@ -4,151 +4,36 @@
     <compoundname>MR::ModalDialog</compoundname>
     <includes refid="MRModalDialog_8h" local="no">MRModalDialog.h</includes>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1ModalDialog_1a2811055d3af6c5927e72be4d41ff504e" prot="private" static="no" mutable="no">
-        <type>std::string</type>
-        <definition>std::string MR::ModalDialog::label_</definition>
-        <argsstring></argsstring>
-        <name>label_</name>
-        <qualifiedname>MR::ModalDialog::label_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRModalDialog.h" line="53" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRModalDialog.h" bodystart="53" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ModalDialog_1a721993f1e4a7955cfe1e62a12638e2af" prot="private" static="no" mutable="no">
-        <type><ref refid="structMR_1_1ModalDialogSettings" kindref="compound">ModalDialogSettings</ref></type>
-        <definition>ModalDialogSettings MR::ModalDialog::settings_</definition>
-        <argsstring></argsstring>
-        <name>settings_</name>
-        <qualifiedname>MR::ModalDialog::settings_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRModalDialog.h" line="54" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRModalDialog.h" bodystart="54" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga2811055d3af6c5927e72be4d41ff504e" kind="variable"><name>label_</name></member>
+      <member refid="group__GeneralGroup_1ga721993f1e4a7955cfe1e62a12638e2af" kind="variable"><name>settings_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1ModalDialog_1a6367352ce1c441ad84edbc1c4939c9c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API</type>
-        <definition>MRVIEWER_API MR::ModalDialog::ModalDialog</definition>
-        <argsstring>(std::string label, ModalDialogSettings settings)</argsstring>
-        <name>ModalDialog</name>
-        <qualifiedname>MR::ModalDialog::ModalDialog</qualifiedname>
-        <param>
-          <type>std::string</type>
-          <declname>label</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1ModalDialogSettings" kindref="compound">ModalDialogSettings</ref></type>
-          <declname>settings</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRModalDialog.h" line="37" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ModalDialog_1a858234d06631d6898dea488a675bc6d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>MRVIEWER_API bool MR::ModalDialog::beginPopup</definition>
-        <argsstring>()</argsstring>
-        <name>beginPopup</name>
-        <qualifiedname>MR::ModalDialog::beginPopup</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Open the dialog and render its header (headline, close button, text). Returns true if the dialog window is open. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRModalDialog.h" line="41" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ModalDialog_1a25147c8c3226b614b4ddfa3f30e59d88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::ModalDialog::endPopup</definition>
-        <argsstring>()</argsstring>
-        <name>endPopup</name>
-        <qualifiedname>MR::ModalDialog::endPopup</qualifiedname>
-        <briefdescription>
-<para>Render the dialog&apos;s footer (&quot;Don&apos;t show again&quot; checkbox) and finish the dialog. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRModalDialog.h" line="43" column="23"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga6367352ce1c441ad84edbc1c4939c9c8" kind="function"><name>ModalDialog</name></member>
+      <member refid="group__GeneralGroup_1ga858234d06631d6898dea488a675bc6d9" kind="function"><name>beginPopup</name></member>
+      <member refid="group__GeneralGroup_1ga25147c8c3226b614b4ddfa3f30e59d88" kind="function"><name>endPopup</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1ModalDialog_1ae4837412960e333a9ddeac07b8f44dde" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API float</type>
-        <definition>static MRVIEWER_API float MR::ModalDialog::windowWidth</definition>
-        <argsstring>()</argsstring>
-        <name>windowWidth</name>
-        <qualifiedname>MR::ModalDialog::windowWidth</qualifiedname>
-        <briefdescription>
-<para>Returns the current window width in pixels. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRModalDialog.h" line="46" column="32"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gae4837412960e333a9ddeac07b8f44dde" kind="function"><name>windowWidth</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMR_1_1ModalDialog_1ae737bce0e2dc1c28fbd496048e878954" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ModalDialog::setStyle_</definition>
-        <argsstring>()</argsstring>
-        <name>setStyle_</name>
-        <qualifiedname>MR::ModalDialog::setStyle_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRModalDialog.h" line="49" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ModalDialog_1afc865cc4f9f82a13a0e212a58ef59a9e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ModalDialog::unsetStyle_</definition>
-        <argsstring>()</argsstring>
-        <name>unsetStyle_</name>
-        <qualifiedname>MR::ModalDialog::unsetStyle_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRModalDialog.h" line="50" column="10"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gae737bce0e2dc1c28fbd496048e878954" kind="function"><name>setStyle_</name></member>
+      <member refid="group__GeneralGroup_1gafc865cc4f9f82a13a0e212a58ef59a9e" kind="function"><name>unsetStyle_</name></member>
     </sectiondef>
     <briefdescription>
 <para>Helper class to display modal dialogs. <ref refid="structMR_1_1ModalDialogSettings" kindref="compound">ModalDialogSettings</ref>. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRModalDialog.h" line="34" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRModalDialog.h" bodystart="35" bodyend="55"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRModalDialog.h" line="37" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRModalDialog.h" bodystart="38" bodyend="58"/>
     <listofallmembers>
-      <member refid="classMR_1_1ModalDialog_1a858234d06631d6898dea488a675bc6d9" prot="public" virt="non-virtual"><scope>MR::ModalDialog</scope><name>beginPopup</name></member>
-      <member refid="classMR_1_1ModalDialog_1a25147c8c3226b614b4ddfa3f30e59d88" prot="public" virt="non-virtual"><scope>MR::ModalDialog</scope><name>endPopup</name></member>
-      <member refid="classMR_1_1ModalDialog_1a2811055d3af6c5927e72be4d41ff504e" prot="private" virt="non-virtual"><scope>MR::ModalDialog</scope><name>label_</name></member>
-      <member refid="classMR_1_1ModalDialog_1a6367352ce1c441ad84edbc1c4939c9c8" prot="public" virt="non-virtual"><scope>MR::ModalDialog</scope><name>ModalDialog</name></member>
-      <member refid="classMR_1_1ModalDialog_1ae737bce0e2dc1c28fbd496048e878954" prot="private" virt="non-virtual"><scope>MR::ModalDialog</scope><name>setStyle_</name></member>
-      <member refid="classMR_1_1ModalDialog_1a721993f1e4a7955cfe1e62a12638e2af" prot="private" virt="non-virtual"><scope>MR::ModalDialog</scope><name>settings_</name></member>
-      <member refid="classMR_1_1ModalDialog_1afc865cc4f9f82a13a0e212a58ef59a9e" prot="private" virt="non-virtual"><scope>MR::ModalDialog</scope><name>unsetStyle_</name></member>
-      <member refid="classMR_1_1ModalDialog_1ae4837412960e333a9ddeac07b8f44dde" prot="public" virt="non-virtual"><scope>MR::ModalDialog</scope><name>windowWidth</name></member>
+      <member refid="group__GeneralGroup_1ga858234d06631d6898dea488a675bc6d9" prot="public" virt="non-virtual"><scope>MR::ModalDialog</scope><name>beginPopup</name></member>
+      <member refid="group__GeneralGroup_1ga25147c8c3226b614b4ddfa3f30e59d88" prot="public" virt="non-virtual"><scope>MR::ModalDialog</scope><name>endPopup</name></member>
+      <member refid="group__GeneralGroup_1ga2811055d3af6c5927e72be4d41ff504e" prot="private" virt="non-virtual"><scope>MR::ModalDialog</scope><name>label_</name></member>
+      <member refid="group__GeneralGroup_1ga6367352ce1c441ad84edbc1c4939c9c8" prot="public" virt="non-virtual"><scope>MR::ModalDialog</scope><name>ModalDialog</name></member>
+      <member refid="group__GeneralGroup_1gae737bce0e2dc1c28fbd496048e878954" prot="private" virt="non-virtual"><scope>MR::ModalDialog</scope><name>setStyle_</name></member>
+      <member refid="group__GeneralGroup_1ga721993f1e4a7955cfe1e62a12638e2af" prot="private" virt="non-virtual"><scope>MR::ModalDialog</scope><name>settings_</name></member>
+      <member refid="group__GeneralGroup_1gafc865cc4f9f82a13a0e212a58ef59a9e" prot="private" virt="non-virtual"><scope>MR::ModalDialog</scope><name>unsetStyle_</name></member>
+      <member refid="group__GeneralGroup_1gae4837412960e333a9ddeac07b8f44dde" prot="public" virt="non-virtual"><scope>MR::ModalDialog</scope><name>windowWidth</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

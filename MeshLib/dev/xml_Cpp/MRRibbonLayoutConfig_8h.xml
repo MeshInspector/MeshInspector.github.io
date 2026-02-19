@@ -8,44 +8,42 @@
     <includes local="yes">MRPch/MRJson.h</includes>
     <includes local="no">optional</includes>
     <incdepgraph>
-      <node id="8">
-        <label>MRMesh/MRCanonicalTypedefs.h</label>
-        <link refid="MRCanonicalTypedefs_8h"/>
-        <childnode refid="9" relation="include">
-        </childnode>
-      </node>
       <node id="5">
         <label>MRMesh/MRColor.h</label>
         <link refid="MRColor_8h"/>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="26" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
       </node>
-      <node id="20">
+      <node id="12">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
-      <node id="9">
-        <label>MRMesh/MRMacros.h</label>
+      <node id="8">
+        <label>MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
-      <node id="6">
-        <label>MRMeshFwd.h</label>
-        <link refid="MRMeshFwd_8h"/>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
+      <node id="9">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
         <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+      </node>
+      <node id="7">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
@@ -53,58 +51,28 @@
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
-      </node>
-      <node id="17">
-        <label>MRMesh/MRUnsigned.h</label>
-        <link refid="MRUnsigned_8h"/>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-      </node>
-      <node id="16">
-        <label>MRVector3.h</label>
-        <link refid="MRVector3_8h"/>
-        <childnode refid="9" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
         <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
-        <childnode refid="23" relation="include">
-        </childnode>
-        <childnode refid="24" relation="include">
-        </childnode>
-        <childnode refid="25" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
       </node>
-      <node id="26">
+      <node id="19">
         <label>MRVector4.h</label>
         <link refid="MRVector4_8h"/>
-        <childnode refid="22" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="24" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
-      </node>
-      <node id="7">
-        <label>config.h</label>
-        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
         <label>MRRibbonLayoutConfig.h</label>
@@ -115,9 +83,9 @@
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="27" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
-        <childnode refid="28" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
       </node>
       <node id="3">
@@ -126,56 +94,44 @@
         <childnode refid="4" relation="include">
         </childnode>
       </node>
-      <node id="10">
+      <node id="6">
+        <label>MRMeshFwd.h</label>
+      </node>
+      <node id="13">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="27">
+      <node id="20">
         <label>MRPch/MRJson.h</label>
       </node>
-      <node id="21">
+      <node id="14">
         <label>algorithm</label>
       </node>
-      <node id="11">
-        <label>array</label>
-      </node>
       <node id="15">
-        <label>cassert</label>
-      </node>
-      <node id="22">
         <label>cmath</label>
       </node>
-      <node id="18">
+      <node id="10">
         <label>cstddef</label>
       </node>
-      <node id="23">
+      <node id="16">
         <label>cstring</label>
       </node>
       <node id="2">
         <label>exports.h</label>
       </node>
-      <node id="14">
-        <label>functional</label>
-      </node>
-      <node id="24">
+      <node id="17">
         <label>iosfwd</label>
       </node>
-      <node id="28">
+      <node id="21">
         <label>optional</label>
-      </node>
-      <node id="13">
-        <label>parallel_hashmap/phmap_fwd_decl.h</label>
       </node>
       <node id="4">
         <label>string</label>
       </node>
-      <node id="19">
+      <node id="11">
         <label>type_traits</label>
       </node>
-      <node id="25">
+      <node id="18">
         <label>utility</label>
-      </node>
-      <node id="12">
-        <label>vector</label>
       </node>
     </incdepgraph>
     <innerclass refid="structMR_1_1RibbonConfig" prot="public">MR::RibbonConfig</innerclass>
@@ -195,21 +151,22 @@
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="10"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="structMR_1_1RibbonConfig" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1RibbonConfig" kindref="compound">RibbonConfig</ref></highlight></codeline>
-<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="14" refid="structMR_1_1RibbonConfig_1a5002834cd308d2eeda7cc7f532840f8a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::optional&lt;RibbonMenuUIConfig&gt;<sp/><ref refid="structMR_1_1RibbonConfig_1a5002834cd308d2eeda7cc7f532840f8a" kindref="member">menuUIConfig</ref>;</highlight></codeline>
-<codeline lineno="15" refid="structMR_1_1RibbonConfig_1a678575ecbadf5b880fab6e6072873ee5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::optional&lt;Color&gt;<sp/><ref refid="structMR_1_1RibbonConfig_1a678575ecbadf5b880fab6e6072873ee5" kindref="member">monochromeRibbonIcons</ref>;<sp/></highlight></codeline>
-<codeline lineno="16" refid="structMR_1_1RibbonConfig_1a64f5562c14952b7d260af9fa205a774e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::optional&lt;Json::Value&gt;<sp/><ref refid="structMR_1_1RibbonConfig_1a64f5562c14952b7d260af9fa205a774e" kindref="member">colorTheme</ref>;<sp/></highlight></codeline>
-<codeline lineno="17" refid="structMR_1_1RibbonConfig_1afccbd7944f12542b4f6d3f27184a4633" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::optional&lt;Json::Value&gt;<sp/><ref refid="structMR_1_1RibbonConfig_1afccbd7944f12542b4f6d3f27184a4633" kindref="member">ribbonStructure</ref>;<sp/></highlight></codeline>
-<codeline lineno="18" refid="structMR_1_1RibbonConfig_1ac2c7bf907acefc60264b250f1af05e61" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::optional&lt;Json::Value&gt;<sp/><ref refid="structMR_1_1RibbonConfig_1ac2c7bf907acefc60264b250f1af05e61" kindref="member">ribbonItemsOverrides</ref>;<sp/></highlight></codeline>
-<codeline lineno="19"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22" refid="namespaceMR_1ad38761a3c9798cc64354bfb245cce186" refkind="member"><highlight class="normal">MRVIEWER_API<sp/><ref refid="structMR_1_1RibbonConfig" kindref="compound">RibbonConfig</ref><sp/><ref refid="namespaceMR_1ad38761a3c9798cc64354bfb245cce186" kindref="member">createRibbonConfigFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root<sp/>);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="structMR_1_1RibbonConfig" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1RibbonConfig" kindref="compound">RibbonConfig</ref></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17" refid="group__GeneralGroup_1ga5002834cd308d2eeda7cc7f532840f8a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::optional&lt;RibbonMenuUIConfig&gt;<sp/><ref refid="group__GeneralGroup_1ga5002834cd308d2eeda7cc7f532840f8a" kindref="member">menuUIConfig</ref>;</highlight></codeline>
+<codeline lineno="18" refid="group__GeneralGroup_1ga678575ecbadf5b880fab6e6072873ee5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::optional&lt;Color&gt;<sp/><ref refid="group__GeneralGroup_1ga678575ecbadf5b880fab6e6072873ee5" kindref="member">monochromeRibbonIcons</ref>;<sp/></highlight></codeline>
+<codeline lineno="19" refid="group__GeneralGroup_1ga64f5562c14952b7d260af9fa205a774e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::optional&lt;Json::Value&gt;<sp/><ref refid="group__GeneralGroup_1ga64f5562c14952b7d260af9fa205a774e" kindref="member">colorTheme</ref>;<sp/></highlight></codeline>
+<codeline lineno="20" refid="group__GeneralGroup_1gafccbd7944f12542b4f6d3f27184a4633" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::optional&lt;Json::Value&gt;<sp/><ref refid="group__GeneralGroup_1gafccbd7944f12542b4f6d3f27184a4633" kindref="member">ribbonStructure</ref>;<sp/></highlight></codeline>
+<codeline lineno="21" refid="group__GeneralGroup_1gac2c7bf907acefc60264b250f1af05e61" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::optional&lt;Json::Value&gt;<sp/><ref refid="group__GeneralGroup_1gac2c7bf907acefc60264b250f1af05e61" kindref="member">ribbonItemsOverrides</ref>;<sp/></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25" refid="namespaceMR_1a57613237dbb6d143b056f9f888c9ee0d" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a57613237dbb6d143b056f9f888c9ee0d" kindref="member">applyRibbonConfig</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1RibbonConfig" kindref="compound">RibbonConfig</ref>&amp;<sp/>config<sp/>);</highlight></codeline>
+<codeline lineno="25" refid="group__GeneralGroup_1gad38761a3c9798cc64354bfb245cce186" refkind="member"><highlight class="normal">MRVIEWER_API<sp/><ref refid="structMR_1_1RibbonConfig" kindref="compound">RibbonConfig</ref><sp/><ref refid="group__GeneralGroup_1gad38761a3c9798cc64354bfb245cce186" kindref="member">createRibbonConfigFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>root<sp/>);</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="28" refid="group__GeneralGroup_1ga57613237dbb6d143b056f9f888c9ee0d" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga57613237dbb6d143b056f9f888c9ee0d" kindref="member">applyRibbonConfig</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1RibbonConfig" kindref="compound">RibbonConfig</ref>&amp;<sp/>config<sp/>);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}<sp/></highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonLayoutConfig.h"/>
   </compounddef>

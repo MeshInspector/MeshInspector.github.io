@@ -4,44 +4,17 @@
     <compoundname>MR::CustomButtonParameters</compoundname>
     <includes refid="MRRibbonButtonDrawer_8h" local="no">MRRibbonButtonDrawer.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1CustomButtonParameters_1ad01797d49f38c7175a5ca759d5064866" prot="public" static="no" mutable="no">
-        <type>std::function&lt; int(bool, bool)&gt;</type>
-        <definition>std::function&lt;int( bool, bool )&gt; MR::CustomButtonParameters::pushColorsCb</definition>
-        <argsstring></argsstring>
-        <name>pushColorsCb</name>
-        <qualifiedname>MR::CustomButtonParameters::pushColorsCb</qualifiedname>
-        <briefdescription>
-<para>if not set push default ribbon colors </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" line="44" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" bodystart="44" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1CustomButtonParameters_1ac4659ddd4f1cc193ad87ef0c017e00eb" prot="public" static="no" mutable="no">
-        <type><ref refid="classMR_1_1RibbonIcons_1a2d10e82f8fd5c6cc53279374e9bd3931" kindref="member">RibbonIcons::IconType</ref></type>
-        <definition>RibbonIcons::IconType MR::CustomButtonParameters::iconType</definition>
-        <argsstring></argsstring>
-        <name>iconType</name>
-        <qualifiedname>MR::CustomButtonParameters::iconType</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" line="45" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" bodystart="45" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gad01797d49f38c7175a5ca759d5064866" kind="variable"><name>pushColorsCb</name></member>
+      <member refid="group__GeneralGroup_1gac4659ddd4f1cc193ad87ef0c017e00eb" kind="variable"><name>iconType</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" line="41" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" bodystart="42" bodyend="46"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" line="44" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" bodystart="45" bodyend="49"/>
     <listofallmembers>
-      <member refid="structMR_1_1CustomButtonParameters_1ac4659ddd4f1cc193ad87ef0c017e00eb" prot="public" virt="non-virtual"><scope>MR::CustomButtonParameters</scope><name>iconType</name></member>
-      <member refid="structMR_1_1CustomButtonParameters_1ad01797d49f38c7175a5ca759d5064866" prot="public" virt="non-virtual"><scope>MR::CustomButtonParameters</scope><name>pushColorsCb</name></member>
+      <member refid="group__GeneralGroup_1gac4659ddd4f1cc193ad87ef0c017e00eb" prot="public" virt="non-virtual"><scope>MR::CustomButtonParameters</scope><name>iconType</name></member>
+      <member refid="group__GeneralGroup_1gad01797d49f38c7175a5ca759d5064866" prot="public" virt="non-virtual"><scope>MR::CustomButtonParameters</scope><name>pushColorsCb</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

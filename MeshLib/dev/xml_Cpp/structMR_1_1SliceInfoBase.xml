@@ -5,73 +5,12 @@
     <derivedcompoundref refid="structMR_1_1SliceInfo" prot="public" virt="non-virtual">MR::SliceInfo</derivedcompoundref>
     <includes refid="MRScanHelpers_8h" local="no">MRScanHelpers.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1SliceInfoBase_1ae54aec5158705c1e248f53879d6639cf" prot="public" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::SliceInfoBase::instanceNum</definition>
-        <argsstring></argsstring>
-        <name>instanceNum</name>
-        <qualifiedname>MR::SliceInfoBase::instanceNum</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-<para>instance number </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRScanHelpers.h" line="18" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRScanHelpers.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1SliceInfoBase_1a1c860dd386f07581661cc74f394a1470" prot="public" static="no" mutable="no">
-        <type>double</type>
-        <definition>double MR::SliceInfoBase::z</definition>
-        <argsstring></argsstring>
-        <name>z</name>
-        <qualifiedname>MR::SliceInfoBase::z</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-<para>layer height </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRScanHelpers.h" line="20" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRScanHelpers.h" bodystart="20" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1SliceInfoBase_1a0f4b29a9c38aac83de066f74ddc95c4d" prot="public" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::SliceInfoBase::fileNum</definition>
-        <argsstring></argsstring>
-        <name>fileNum</name>
-        <qualifiedname>MR::SliceInfoBase::fileNum</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-<para>file index </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRScanHelpers.h" line="22" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRScanHelpers.h" bodystart="22" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gae54aec5158705c1e248f53879d6639cf" kind="variable"><name>instanceNum</name></member>
+      <member refid="group__GeneralGroup_1ga1c860dd386f07581661cc74f394a1470" kind="variable"><name>z</name></member>
+      <member refid="group__GeneralGroup_1ga0f4b29a9c38aac83de066f74ddc95c4d" kind="variable"><name>fileNum</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1SliceInfoBase_1a2d712987f45ca23b27e048c4decf6293" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>auto</type>
-        <definition>auto MR::SliceInfoBase::operator&lt;=&gt;</definition>
-        <argsstring>(const SliceInfoBase &amp;) const =default</argsstring>
-        <name>operator&lt;=&gt;</name>
-        <qualifiedname>MR::SliceInfoBase::operator&lt;=&gt;</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1SliceInfoBase" kindref="compound">SliceInfoBase</ref> &amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRScanHelpers.h" line="24" column="5"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga2d712987f45ca23b27e048c4decf6293" kind="function"><name>operator&lt;=&gt;</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -92,12 +31,12 @@
         <link refid="structMR_1_1SliceInfoBase"/>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRScanHelpers.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRScanHelpers.h" bodystart="16" bodyend="25"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRScanHelpers.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRScanHelpers.h" bodystart="19" bodyend="28"/>
     <listofallmembers>
-      <member refid="structMR_1_1SliceInfoBase_1a0f4b29a9c38aac83de066f74ddc95c4d" prot="public" virt="non-virtual"><scope>MR::SliceInfoBase</scope><name>fileNum</name></member>
-      <member refid="structMR_1_1SliceInfoBase_1ae54aec5158705c1e248f53879d6639cf" prot="public" virt="non-virtual"><scope>MR::SliceInfoBase</scope><name>instanceNum</name></member>
-      <member refid="structMR_1_1SliceInfoBase_1a2d712987f45ca23b27e048c4decf6293" prot="public" virt="non-virtual"><scope>MR::SliceInfoBase</scope><name>operator&lt;=&gt;</name></member>
-      <member refid="structMR_1_1SliceInfoBase_1a1c860dd386f07581661cc74f394a1470" prot="public" virt="non-virtual"><scope>MR::SliceInfoBase</scope><name>z</name></member>
+      <member refid="group__GeneralGroup_1ga0f4b29a9c38aac83de066f74ddc95c4d" prot="public" virt="non-virtual"><scope>MR::SliceInfoBase</scope><name>fileNum</name></member>
+      <member refid="group__GeneralGroup_1gae54aec5158705c1e248f53879d6639cf" prot="public" virt="non-virtual"><scope>MR::SliceInfoBase</scope><name>instanceNum</name></member>
+      <member refid="group__GeneralGroup_1ga2d712987f45ca23b27e048c4decf6293" prot="public" virt="non-virtual"><scope>MR::SliceInfoBase</scope><name>operator&lt;=&gt;</name></member>
+      <member refid="group__GeneralGroup_1ga1c860dd386f07581661cc74f394a1470" prot="public" virt="non-virtual"><scope>MR::SliceInfoBase</scope><name>z</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

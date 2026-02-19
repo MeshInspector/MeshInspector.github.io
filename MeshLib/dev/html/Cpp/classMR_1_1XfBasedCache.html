@@ -148,7 +148,7 @@ $(function(){initNavTree('classMR_1_1XfBasedCache.html',''); initResizable(true)
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classMR_1_1XfBasedCache-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">MR::XfBasedCache&lt; T &gt; Class Template Reference<div class="ingroups"><a class="el" href="group__DataModelGroup.html">Data Model</a></div></div></div>
+  <div class="headertitle"><div class="title">MR::XfBasedCache&lt; T &gt; Class Template Reference<div class="ingroups"><a class="el" href="group__GeneralGroup.html">GeneralGroup</a> &#124; <a class="el" href="group__DataModelGroup.html">Data Model</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -156,112 +156,20 @@ $(function(){initNavTree('classMR_1_1XfBasedCache.html',''); initResizable(true)
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a4cb9593831740a31e6a6933644435799" id="r_a4cb9593831740a31e6a6933644435799"><td class="memItemLeft" align="right" valign="top">const std::optional&lt; T &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cb9593831740a31e6a6933644435799">get</a> (const AffineXf3f &amp;xf) const</td></tr>
-<tr class="memdesc:a4cb9593831740a31e6a6933644435799"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns stored object only if requested transformation is the same as stored one  <br /></td></tr>
-<tr class="separator:a4cb9593831740a31e6a6933644435799"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b3e82656a92381f41f435da52178562" id="r_a3b3e82656a92381f41f435da52178562"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b3e82656a92381f41f435da52178562">set</a> (const AffineXf3f &amp;xf, T t)</td></tr>
-<tr class="memdesc:a3b3e82656a92381f41f435da52178562"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets new transformation and the object  <br /></td></tr>
-<tr class="separator:a3b3e82656a92381f41f435da52178562"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6341f3c9b4f6ccb5bcf18cc28ccf5efc" id="r_a6341f3c9b4f6ccb5bcf18cc28ccf5efc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6341f3c9b4f6ccb5bcf18cc28ccf5efc">reset</a> ()</td></tr>
-<tr class="memdesc:a6341f3c9b4f6ccb5bcf18cc28ccf5efc"><td class="mdescLeft">&#160;</td><td class="mdescRight">clears stored object  <br /></td></tr>
-<tr class="separator:a6341f3c9b4f6ccb5bcf18cc28ccf5efc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4cb9593831740a31e6a6933644435799" id="r_ga4cb9593831740a31e6a6933644435799"><td class="memItemLeft" align="right" valign="top">const std::optional&lt; T &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga4cb9593831740a31e6a6933644435799">get</a> (const AffineXf3f &amp;xf) const</td></tr>
+<tr class="memdesc:ga4cb9593831740a31e6a6933644435799"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns stored object only if requested transformation is the same as stored one  <br /></td></tr>
+<tr class="separator:ga4cb9593831740a31e6a6933644435799"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3b3e82656a92381f41f435da52178562" id="r_ga3b3e82656a92381f41f435da52178562"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga3b3e82656a92381f41f435da52178562">set</a> (const AffineXf3f &amp;xf, T t)</td></tr>
+<tr class="memdesc:ga3b3e82656a92381f41f435da52178562"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets new transformation and the object  <br /></td></tr>
+<tr class="separator:ga3b3e82656a92381f41f435da52178562"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6341f3c9b4f6ccb5bcf18cc28ccf5efc" id="r_ga6341f3c9b4f6ccb5bcf18cc28ccf5efc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga6341f3c9b4f6ccb5bcf18cc28ccf5efc">reset</a> ()</td></tr>
+<tr class="memdesc:ga6341f3c9b4f6ccb5bcf18cc28ccf5efc"><td class="mdescLeft">&#160;</td><td class="mdescRight">clears stored object  <br /></td></tr>
+<tr class="separator:ga6341f3c9b4f6ccb5bcf18cc28ccf5efc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;class T&gt;<br />
 class MR::XfBasedCache&lt; T &gt;</div><p>optional T-object container, which stores a transformation as well for which the object is valid </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a4cb9593831740a31e6a6933644435799" name="a4cb9593831740a31e6a6933644435799"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4cb9593831740a31e6a6933644435799">&#9670;&#160;</a></span>get()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::optional&lt; T &gt; &amp; <a class="el" href="classMR_1_1XfBasedCache.html">MR::XfBasedCache</a>&lt; T &gt;::get </td>
-          <td>(</td>
-          <td class="paramtype">const AffineXf3f &amp;</td>          <td class="paramname"><span class="paramname"><em>xf</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>returns stored object only if requested transformation is the same as stored one </p>
-
-</div>
-</div>
-<a id="a6341f3c9b4f6ccb5bcf18cc28ccf5efc" name="a6341f3c9b4f6ccb5bcf18cc28ccf5efc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6341f3c9b4f6ccb5bcf18cc28ccf5efc">&#9670;&#160;</a></span>reset()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="classMR_1_1XfBasedCache.html">MR::XfBasedCache</a>&lt; T &gt;::reset </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>clears stored object </p>
-
-</div>
-</div>
-<a id="a3b3e82656a92381f41f435da52178562" name="a3b3e82656a92381f41f435da52178562"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3b3e82656a92381f41f435da52178562">&#9670;&#160;</a></span>set()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="classMR_1_1XfBasedCache.html">MR::XfBasedCache</a>&lt; T &gt;::set </td>
-          <td>(</td>
-          <td class="paramtype">const AffineXf3f &amp;</td>          <td class="paramname"><span class="paramname"><em>xf</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>sets new transformation and the object </p>
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+</div><hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="MRXfBasedCache_8h_source.html">MRXfBasedCache.h</a></li>
 </ul>
 </div><!-- contents -->

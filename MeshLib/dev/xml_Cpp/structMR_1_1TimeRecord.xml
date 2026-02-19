@@ -38,7 +38,7 @@
     </sectiondef>
     <sectiondef kind="public-func">
       <memberdef kind="function" id="structMR_1_1TimeRecord_1a7fcf403676ad98c8772e03ebec6d37de" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::chrono::nanoseconds</type>
+        <type>MRMESH_API std::chrono::nanoseconds</type>
         <definition>MRMESH_API std::chrono::nanoseconds MR::TimeRecord::childTime</definition>
         <argsstring>() const</argsstring>
         <name>childTime</name>

@@ -4,101 +4,25 @@
     <compoundname>MR::PositionedText</compoundname>
     <includes refid="MRPositionedText_8h" local="no">MRPositionedText.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1PositionedText_1a0361f418c9fa0c8257d7148d219fe4c6" prot="public" static="no" mutable="no">
-        <type>std::string</type>
-        <definition>std::string MR::PositionedText::text</definition>
-        <argsstring></argsstring>
-        <name>text</name>
-        <qualifiedname>MR::PositionedText::text</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionedText.h" line="14" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionedText.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1PositionedText_1adf395638da1f3aeb90c01d197a2cf0e0" prot="public" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::PositionedText::position</definition>
-        <argsstring></argsstring>
-        <name>position</name>
-        <qualifiedname>MR::PositionedText::position</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionedText.h" line="15" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionedText.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga0361f418c9fa0c8257d7148d219fe4c6" kind="variable"><name>text</name></member>
+      <member refid="group__GeneralGroup_1gadf395638da1f3aeb90c01d197a2cf0e0" kind="variable"><name>position</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1PositionedText_1acc622ad7b3847f83e8d5d6f92dd0ed0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::PositionedText::PositionedText</definition>
-        <argsstring>()=default</argsstring>
-        <name>PositionedText</name>
-        <qualifiedname>MR::PositionedText::PositionedText</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionedText.h" line="11" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1PositionedText_1a362e71ee7a4c24ff0ca9f4dce5d43fa1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::PositionedText::PositionedText</definition>
-        <argsstring>(const std::string &amp;text, const Vector3f &amp;position)</argsstring>
-        <name>PositionedText</name>
-        <qualifiedname>MR::PositionedText::PositionedText</qualifiedname>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>text</declname>
-        </param>
-        <param>
-          <type>const Vector3f &amp;</type>
-          <declname>position</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionedText.h" line="12" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionedText.h" bodystart="12" bodyend="12"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1PositionedText_1aa430fb4a7ceafb3eb18505b07dcd5273" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::PositionedText::operator==</definition>
-        <argsstring>(const PositionedText &amp;) const =default</argsstring>
-        <name>operator==</name>
-        <qualifiedname>MR::PositionedText::operator==</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1PositionedText" kindref="compound">PositionedText</ref> &amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionedText.h" line="17" column="10"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gacc622ad7b3847f83e8d5d6f92dd0ed0a" kind="function"><name>PositionedText</name></member>
+      <member refid="group__GeneralGroup_1ga362e71ee7a4c24ff0ca9f4dce5d43fa1" kind="function"><name>PositionedText</name></member>
+      <member refid="group__GeneralGroup_1gaa430fb4a7ceafb3eb18505b07dcd5273" kind="function"><name>operator==</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionedText.h" line="9" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionedText.h" bodystart="10" bodyend="18"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionedText.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionedText.h" bodystart="13" bodyend="21"/>
     <listofallmembers>
-      <member refid="structMR_1_1PositionedText_1aa430fb4a7ceafb3eb18505b07dcd5273" prot="public" virt="non-virtual"><scope>MR::PositionedText</scope><name>operator==</name></member>
-      <member refid="structMR_1_1PositionedText_1adf395638da1f3aeb90c01d197a2cf0e0" prot="public" virt="non-virtual"><scope>MR::PositionedText</scope><name>position</name></member>
-      <member refid="structMR_1_1PositionedText_1acc622ad7b3847f83e8d5d6f92dd0ed0a" prot="public" virt="non-virtual"><scope>MR::PositionedText</scope><name>PositionedText</name></member>
-      <member refid="structMR_1_1PositionedText_1a362e71ee7a4c24ff0ca9f4dce5d43fa1" prot="public" virt="non-virtual"><scope>MR::PositionedText</scope><name>PositionedText</name></member>
-      <member refid="structMR_1_1PositionedText_1a0361f418c9fa0c8257d7148d219fe4c6" prot="public" virt="non-virtual"><scope>MR::PositionedText</scope><name>text</name></member>
+      <member refid="group__GeneralGroup_1gaa430fb4a7ceafb3eb18505b07dcd5273" prot="public" virt="non-virtual"><scope>MR::PositionedText</scope><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1gadf395638da1f3aeb90c01d197a2cf0e0" prot="public" virt="non-virtual"><scope>MR::PositionedText</scope><name>position</name></member>
+      <member refid="group__GeneralGroup_1gacc622ad7b3847f83e8d5d6f92dd0ed0a" prot="public" virt="non-virtual"><scope>MR::PositionedText</scope><name>PositionedText</name></member>
+      <member refid="group__GeneralGroup_1ga362e71ee7a4c24ff0ca9f4dce5d43fa1" prot="public" virt="non-virtual"><scope>MR::PositionedText</scope><name>PositionedText</name></member>
+      <member refid="group__GeneralGroup_1ga0361f418c9fa0c8257d7148d219fe4c6" prot="public" virt="non-virtual"><scope>MR::PositionedText</scope><name>text</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

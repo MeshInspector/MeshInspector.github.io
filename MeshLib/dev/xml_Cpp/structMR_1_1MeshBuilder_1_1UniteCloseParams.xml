@@ -4,124 +4,25 @@
     <compoundname>MR::MeshBuilder::UniteCloseParams</compoundname>
     <includes refid="MRMeshBuilder_8h" local="no">MRMeshBuilder.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1MeshBuilder_1_1UniteCloseParams_1a7a875c31321cd79bd5c7d57c5b9a6f4e" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::MeshBuilder::UniteCloseParams::closeDist</definition>
-        <argsstring></argsstring>
-        <name>closeDist</name>
-        <qualifiedname>MR::MeshBuilder::UniteCloseParams::closeDist</qualifiedname>
-        <initializer>= 0.0f</initializer>
-        <briefdescription>
-<para>&lt; vertices located closer to each other than </para>
-        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>closeDist</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>will be united if true then only boundary vertices can be united, all internal vertices (even close ones) will remain </para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" line="95" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" bodystart="95" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MeshBuilder_1_1UniteCloseParams_1a114d1d59ef37898d184ed75daaf0b5fa" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::MeshBuilder::UniteCloseParams::uniteOnlyBd</definition>
-        <argsstring></argsstring>
-        <name>uniteOnlyBd</name>
-        <qualifiedname>MR::MeshBuilder::UniteCloseParams::uniteOnlyBd</qualifiedname>
-        <initializer>= true</initializer>
-        <briefdescription>
-<para>if true, only vertices from this region can be affected </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" line="98" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" bodystart="98" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MeshBuilder_1_1UniteCloseParams_1a3fe2bba25d7c567c9b75a5a856990f20" prot="public" static="no" mutable="no">
-        <type>VertBitSet *</type>
-        <definition>VertBitSet* MR::MeshBuilder::UniteCloseParams::region</definition>
-        <argsstring></argsstring>
-        <name>region</name>
-        <qualifiedname>MR::MeshBuilder::UniteCloseParams::region</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-<para>if true - try to duplicates non-manifold vertices instead of removing faces </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" line="101" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" bodystart="101" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MeshBuilder_1_1UniteCloseParams_1a6e04cfb485e0a54e7aaf0c75c8ad0eec" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::MeshBuilder::UniteCloseParams::duplicateNonManifold</definition>
-        <argsstring></argsstring>
-        <name>duplicateNonManifold</name>
-        <qualifiedname>MR::MeshBuilder::UniteCloseParams::duplicateNonManifold</qualifiedname>
-        <initializer>= false</initializer>
-        <briefdescription>
-<para>is the mapping of vertices: before -&gt; after </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" line="104" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" bodystart="104" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MeshBuilder_1_1UniteCloseParams_1a5379829943a90af63f2b4db61f7ff57d" prot="public" static="no" mutable="no">
-        <type>VertMap *</type>
-        <definition>VertMap* MR::MeshBuilder::UniteCloseParams::optionalVertOldToNew</definition>
-        <argsstring></argsstring>
-        <name>optionalVertOldToNew</name>
-        <qualifiedname>MR::MeshBuilder::UniteCloseParams::optionalVertOldToNew</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-<para>this can be used to map attributes to duplicated vertices </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" line="107" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" bodystart="107" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MeshBuilder_1_1UniteCloseParams_1a110cc42934b904692094323354588513" prot="public" static="no" mutable="no">
-        <type>std::vector&lt; <ref refid="structMR_1_1MeshBuilder_1_1VertDuplication" kindref="compound">MeshBuilder::VertDuplication</ref> &gt; *</type>
-        <definition>std::vector&lt;MeshBuilder::VertDuplication&gt;* MR::MeshBuilder::UniteCloseParams::optionalDuplications</definition>
-        <argsstring></argsstring>
-        <name>optionalDuplications</name>
-        <qualifiedname>MR::MeshBuilder::UniteCloseParams::optionalDuplications</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" line="110" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" bodystart="110" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga7a875c31321cd79bd5c7d57c5b9a6f4e" kind="variable"><name>closeDist</name></member>
+      <member refid="group__GeneralGroup_1ga114d1d59ef37898d184ed75daaf0b5fa" kind="variable"><name>uniteOnlyBd</name></member>
+      <member refid="group__GeneralGroup_1ga3fe2bba25d7c567c9b75a5a856990f20" kind="variable"><name>region</name></member>
+      <member refid="group__GeneralGroup_1ga6e04cfb485e0a54e7aaf0c75c8ad0eec" kind="variable"><name>duplicateNonManifold</name></member>
+      <member refid="group__GeneralGroup_1ga5379829943a90af63f2b4db61f7ff57d" kind="variable"><name>optionalVertOldToNew</name></member>
+      <member refid="group__GeneralGroup_1ga110cc42934b904692094323354588513" kind="variable"><name>optionalDuplications</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" line="92" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" bodystart="93" bodyend="111"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" line="95" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" bodystart="96" bodyend="114"/>
     <listofallmembers>
-      <member refid="structMR_1_1MeshBuilder_1_1UniteCloseParams_1a7a875c31321cd79bd5c7d57c5b9a6f4e" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::UniteCloseParams</scope><name>closeDist</name></member>
-      <member refid="structMR_1_1MeshBuilder_1_1UniteCloseParams_1a6e04cfb485e0a54e7aaf0c75c8ad0eec" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::UniteCloseParams</scope><name>duplicateNonManifold</name></member>
-      <member refid="structMR_1_1MeshBuilder_1_1UniteCloseParams_1a110cc42934b904692094323354588513" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::UniteCloseParams</scope><name>optionalDuplications</name></member>
-      <member refid="structMR_1_1MeshBuilder_1_1UniteCloseParams_1a5379829943a90af63f2b4db61f7ff57d" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::UniteCloseParams</scope><name>optionalVertOldToNew</name></member>
-      <member refid="structMR_1_1MeshBuilder_1_1UniteCloseParams_1a3fe2bba25d7c567c9b75a5a856990f20" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::UniteCloseParams</scope><name>region</name></member>
-      <member refid="structMR_1_1MeshBuilder_1_1UniteCloseParams_1a114d1d59ef37898d184ed75daaf0b5fa" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::UniteCloseParams</scope><name>uniteOnlyBd</name></member>
+      <member refid="group__GeneralGroup_1ga7a875c31321cd79bd5c7d57c5b9a6f4e" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::UniteCloseParams</scope><name>closeDist</name></member>
+      <member refid="group__GeneralGroup_1ga6e04cfb485e0a54e7aaf0c75c8ad0eec" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::UniteCloseParams</scope><name>duplicateNonManifold</name></member>
+      <member refid="group__GeneralGroup_1ga110cc42934b904692094323354588513" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::UniteCloseParams</scope><name>optionalDuplications</name></member>
+      <member refid="group__GeneralGroup_1ga5379829943a90af63f2b4db61f7ff57d" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::UniteCloseParams</scope><name>optionalVertOldToNew</name></member>
+      <member refid="group__GeneralGroup_1ga3fe2bba25d7c567c9b75a5a856990f20" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::UniteCloseParams</scope><name>region</name></member>
+      <member refid="group__GeneralGroup_1ga114d1d59ef37898d184ed75daaf0b5fa" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::UniteCloseParams</scope><name>uniteOnlyBd</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

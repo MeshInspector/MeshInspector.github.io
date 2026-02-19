@@ -4,879 +4,114 @@
     <compoundname>MR::MoveObjectByMouseImpl</compoundname>
     <includes refid="MRMoveObjectByMouseImpl_8h" local="no">MRMoveObjectByMouseImpl.h</includes>
     <sectiondef kind="protected-type">
-      <memberdef kind="enum" id="classMR_1_1MoveObjectByMouseImpl_1a4e5180c9fe4f3ff399794c4a640b500a" prot="protected" static="no" strong="yes">
-        <type></type>
-        <name>TransformMode</name>
-        <qualifiedname>MR::MoveObjectByMouseImpl::TransformMode</qualifiedname>
-        <enumvalue id="classMR_1_1MoveObjectByMouseImpl_1a4e5180c9fe4f3ff399794c4a640b500aa6adf97f83acf6453d4a6a4b1070f3754" prot="protected">
-          <name>None</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1MoveObjectByMouseImpl_1a4e5180c9fe4f3ff399794c4a640b500aa6dd08874f83507e9c7b23f1a46b7fa7c" prot="protected">
-          <name>Translation</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1MoveObjectByMouseImpl_1a4e5180c9fe4f3ff399794c4a640b500aaf1a42bd417390fc63b030a519624607a" prot="protected">
-          <name>Rotation</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1MoveObjectByMouseImpl_1a4e5180c9fe4f3ff399794c4a640b500aa191348a9fc863907c57be8b4bc28bea7" prot="protected">
-          <name>UniformScale</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1MoveObjectByMouseImpl_1a4e5180c9fe4f3ff399794c4a640b500aa5a2f9ea34c787f321f36dfeb41b837fb" prot="protected">
-          <name>NonUniformScale</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-<para>Transformation mode. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" line="59" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" bodystart="60" bodyend="66"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga4e5180c9fe4f3ff399794c4a640b500a" kind="enum"><name>TransformMode</name></member>
     </sectiondef>
     <sectiondef kind="protected-attrib">
-      <memberdef kind="variable" id="classMR_1_1MoveObjectByMouseImpl_1ada61b8ab8617465251bf6b1f36c1d782" prot="protected" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::MoveObjectByMouseImpl::deadZonePixelRadius_</definition>
-        <argsstring></argsstring>
-        <name>deadZonePixelRadius_</name>
-        <qualifiedname>MR::MoveObjectByMouseImpl::deadZonePixelRadius_</qualifiedname>
-        <initializer>{ 20.0f }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>if this value is &gt; 0.0f, then Rotation and Scale will be blocked in this zone around xf center (this value IS automatically modified by <computeroutput><ref refid="namespaceMR_1_1UI_1a5d2fd1d58ef16bcced4cfefc67d2c023" kindref="member">UI::scale()</ref></computeroutput>) </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" line="70" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" bodystart="70" bodyend="70"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1MoveObjectByMouseImpl_1adb167ed72d4e0abf3fd5ebc2bf23acc6" prot="protected" static="no" mutable="no">
-        <type>AffineXf3f</type>
-        <definition>AffineXf3f MR::MoveObjectByMouseImpl::currentXf_</definition>
-        <argsstring></argsstring>
-        <name>currentXf_</name>
-        <qualifiedname>MR::MoveObjectByMouseImpl::currentXf_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" line="96" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" bodystart="96" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gada61b8ab8617465251bf6b1f36c1d782" kind="variable"><name>deadZonePixelRadius_</name></member>
+      <member refid="group__GeneralGroup_1gadb167ed72d4e0abf3fd5ebc2bf23acc6" kind="variable"><name>currentXf_</name></member>
     </sectiondef>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1MoveObjectByMouseImpl_1a30bae421e02c7584c7f41e30d1b8847a" prot="private" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::MoveObjectByMouseImpl::minDistance_</definition>
-        <argsstring></argsstring>
-        <name>minDistance_</name>
-        <qualifiedname>MR::MoveObjectByMouseImpl::minDistance_</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-<para>Transform currently applied to objects. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" line="98" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" bodystart="98" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1MoveObjectByMouseImpl_1a657bfc3b281441e2c6d71db6b7aaaccb" prot="private" static="no" mutable="no">
-        <type>std::vector&lt; std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt;</type>
-        <definition>std::vector&lt;std::shared_ptr&lt;Object&gt; &gt; MR::MoveObjectByMouseImpl::objects_</definition>
-        <argsstring></argsstring>
-        <name>objects_</name>
-        <qualifiedname>MR::MoveObjectByMouseImpl::objects_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" line="118" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" bodystart="118" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1MoveObjectByMouseImpl_1ad8e3944dd8d88a6a0f47b14ce21766f3" prot="private" static="no" mutable="no">
-        <type>std::vector&lt; AffineXf3f &gt;</type>
-        <definition>std::vector&lt;AffineXf3f&gt; MR::MoveObjectByMouseImpl::initialXfs_</definition>
-        <argsstring></argsstring>
-        <name>initialXfs_</name>
-        <qualifiedname>MR::MoveObjectByMouseImpl::initialXfs_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" line="119" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" bodystart="119" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1MoveObjectByMouseImpl_1a3efc8fc475406f248572ef9dca195318" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1MoveObjectByMouseImpl_1a4e5180c9fe4f3ff399794c4a640b500a" kindref="member">TransformMode</ref></type>
-        <definition>TransformMode MR::MoveObjectByMouseImpl::transformMode_</definition>
-        <argsstring></argsstring>
-        <name>transformMode_</name>
-        <qualifiedname>MR::MoveObjectByMouseImpl::transformMode_</qualifiedname>
-        <initializer>= <ref refid="classMR_1_1MoveObjectByMouseImpl_1a4e5180c9fe4f3ff399794c4a640b500aa6adf97f83acf6453d4a6a4b1070f3754" kindref="member">TransformMode::None</ref></initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" line="121" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" bodystart="121" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1MoveObjectByMouseImpl_1a3a6c148739515a46ba300de5cc48d45f" prot="private" static="no" mutable="no">
-        <type>Vector2i</type>
-        <definition>Vector2i MR::MoveObjectByMouseImpl::screenStartPoint_</definition>
-        <argsstring></argsstring>
-        <name>screenStartPoint_</name>
-        <qualifiedname>MR::MoveObjectByMouseImpl::screenStartPoint_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" line="122" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" bodystart="122" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1MoveObjectByMouseImpl_1a26187a9b086147b49548f06e1e5f36e3" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::MoveObjectByMouseImpl::xfChanged_</definition>
-        <argsstring></argsstring>
-        <name>xfChanged_</name>
-        <qualifiedname>MR::MoveObjectByMouseImpl::xfChanged_</qualifiedname>
-        <initializer>= false</initializer>
-        <briefdescription>
-<para><ref refid="classMR_1_1MoveObjectByMouseImpl_1a540598c4c8004c75d894fa4e63f90694" kindref="member">onMouseDown()</ref> writes here the position of mouse when mouse dragging was started </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" line="123" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" bodystart="123" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1MoveObjectByMouseImpl_1a25be6eb1f0310848c191bd549503e65d" prot="private" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1a13f98b7840e7298925ef1770b7cdb62d" kindref="member">MouseButton</ref></type>
-        <definition>MouseButton MR::MoveObjectByMouseImpl::currentButton_</definition>
-        <argsstring></argsstring>
-        <name>currentButton_</name>
-        <qualifiedname>MR::MoveObjectByMouseImpl::currentButton_</qualifiedname>
-        <initializer>= <ref refid="namespaceMR_1a13f98b7840e7298925ef1770b7cdb62dab592247167772fc6ba15f3d0f6465e38" kindref="member">MouseButton::NoButton</ref></initializer>
-        <briefdescription>
-<para>it becomes true when onMouseMove changes transform of objects for the first time and optionally appends history actions </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" line="124" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" bodystart="124" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1MoveObjectByMouseImpl_1afe250f63d007cdbe32501712fb211da4" prot="private" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::MoveObjectByMouseImpl::worldStartPoint_</definition>
-        <argsstring></argsstring>
-        <name>worldStartPoint_</name>
-        <qualifiedname>MR::MoveObjectByMouseImpl::worldStartPoint_</qualifiedname>
-        <briefdescription>
-<para>Data used to calculate transform. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" line="127" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" bodystart="127" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1MoveObjectByMouseImpl_1ac12830ca5547a8b463dc0d7c4a7590e8" prot="private" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::MoveObjectByMouseImpl::xfCenterPoint_</definition>
-        <argsstring></argsstring>
-        <name>xfCenterPoint_</name>
-        <qualifiedname>MR::MoveObjectByMouseImpl::xfCenterPoint_</qualifiedname>
-        <briefdescription>
-<para>World point corresponding to cursor, for transform calculation. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" line="128" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" bodystart="128" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1MoveObjectByMouseImpl_1aad0528c4048d4b028963ecc61c3fd2d0" prot="private" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::MoveObjectByMouseImpl::viewportStartPointZ_</definition>
-        <argsstring></argsstring>
-        <name>viewportStartPointZ_</name>
-        <qualifiedname>MR::MoveObjectByMouseImpl::viewportStartPointZ_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" line="129" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" bodystart="129" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1MoveObjectByMouseImpl_1aacb9fa9b021cf7630965729bb5bfa554" prot="private" static="no" mutable="no">
-        <type>Plane3f</type>
-        <definition>Plane3f MR::MoveObjectByMouseImpl::referencePlane_</definition>
-        <argsstring></argsstring>
-        <name>referencePlane_</name>
-        <qualifiedname>MR::MoveObjectByMouseImpl::referencePlane_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" line="130" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" bodystart="130" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1MoveObjectByMouseImpl_1a5b5ae11b230c45d421a32acdbe001d51" prot="private" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::MoveObjectByMouseImpl::angle_</definition>
-        <argsstring></argsstring>
-        <name>angle_</name>
-        <qualifiedname>MR::MoveObjectByMouseImpl::angle_</qualifiedname>
-        <initializer>= 0.f</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" line="131" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" bodystart="131" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1MoveObjectByMouseImpl_1a0d2331fdc1bf2fc0c011406c5c293457" prot="private" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::MoveObjectByMouseImpl::shift_</definition>
-        <argsstring></argsstring>
-        <name>shift_</name>
-        <qualifiedname>MR::MoveObjectByMouseImpl::shift_</qualifiedname>
-        <initializer>= 0.f</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" line="132" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" bodystart="132" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1MoveObjectByMouseImpl_1ab848840eac2ca88c09b492f5e8aea4d4" prot="private" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::MoveObjectByMouseImpl::scale_</definition>
-        <argsstring></argsstring>
-        <name>scale_</name>
-        <qualifiedname>MR::MoveObjectByMouseImpl::scale_</qualifiedname>
-        <initializer>= 1.f</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" line="133" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" bodystart="133" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1MoveObjectByMouseImpl_1aedc15af9d62e2f9a6876425b6080b23f" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::MoveObjectByMouseImpl::historyEnabled_</definition>
-        <argsstring></argsstring>
-        <name>historyEnabled_</name>
-        <qualifiedname>MR::MoveObjectByMouseImpl::historyEnabled_</qualifiedname>
-        <initializer>{ true }</initializer>
-        <briefdescription>
-<para>only check on real appending history </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" line="136" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" bodystart="136" bodyend="136"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1MoveObjectByMouseImpl_1af06ea02984f408b2be6b8c36632aed4d" prot="private" static="no" mutable="no">
-        <type>std::vector&lt; ImVec2 &gt;</type>
-        <definition>std::vector&lt;ImVec2&gt; MR::MoveObjectByMouseImpl::visualizeVectors_</definition>
-        <argsstring></argsstring>
-        <name>visualizeVectors_</name>
-        <qualifiedname>MR::MoveObjectByMouseImpl::visualizeVectors_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" line="138" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" bodystart="138" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1MoveObjectByMouseImpl_1a90dbe741209952112c83d303612a9463" prot="private" static="no" mutable="no">
-        <type>std::vector&lt; boost::signals2::scoped_connection &gt;</type>
-        <definition>std::vector&lt;boost::signals2::scoped_connection&gt; MR::MoveObjectByMouseImpl::connections_</definition>
-        <argsstring></argsstring>
-        <name>connections_</name>
-        <qualifiedname>MR::MoveObjectByMouseImpl::connections_</qualifiedname>
-        <briefdescription>
-<para>monitors external transform change of objects during mouse moving </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" line="141" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" bodystart="141" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1MoveObjectByMouseImpl_1aa1fe6d33d6556da2ce9e87a68c5b5388" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::MoveObjectByMouseImpl::changingXfFromMouseMove_</definition>
-        <argsstring></argsstring>
-        <name>changingXfFromMouseMove_</name>
-        <qualifiedname>MR::MoveObjectByMouseImpl::changingXfFromMouseMove_</qualifiedname>
-        <initializer>{ false }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" line="142" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" bodystart="142" bodyend="142"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga30bae421e02c7584c7f41e30d1b8847a" kind="variable"><name>minDistance_</name></member>
+      <member refid="group__GeneralGroup_1ga657bfc3b281441e2c6d71db6b7aaaccb" kind="variable"><name>objects_</name></member>
+      <member refid="group__GeneralGroup_1gad8e3944dd8d88a6a0f47b14ce21766f3" kind="variable"><name>initialXfs_</name></member>
+      <member refid="group__GeneralGroup_1ga3efc8fc475406f248572ef9dca195318" kind="variable"><name>transformMode_</name></member>
+      <member refid="group__GeneralGroup_1ga3a6c148739515a46ba300de5cc48d45f" kind="variable"><name>screenStartPoint_</name></member>
+      <member refid="group__GeneralGroup_1ga26187a9b086147b49548f06e1e5f36e3" kind="variable"><name>xfChanged_</name></member>
+      <member refid="group__GeneralGroup_1ga25be6eb1f0310848c191bd549503e65d" kind="variable"><name>currentButton_</name></member>
+      <member refid="group__GeneralGroup_1gafe250f63d007cdbe32501712fb211da4" kind="variable"><name>worldStartPoint_</name></member>
+      <member refid="group__GeneralGroup_1gac12830ca5547a8b463dc0d7c4a7590e8" kind="variable"><name>xfCenterPoint_</name></member>
+      <member refid="group__GeneralGroup_1gaad0528c4048d4b028963ecc61c3fd2d0" kind="variable"><name>viewportStartPointZ_</name></member>
+      <member refid="group__GeneralGroup_1gaacb9fa9b021cf7630965729bb5bfa554" kind="variable"><name>referencePlane_</name></member>
+      <member refid="group__GeneralGroup_1ga5b5ae11b230c45d421a32acdbe001d51" kind="variable"><name>angle_</name></member>
+      <member refid="group__GeneralGroup_1ga0d2331fdc1bf2fc0c011406c5c293457" kind="variable"><name>shift_</name></member>
+      <member refid="group__GeneralGroup_1gab848840eac2ca88c09b492f5e8aea4d4" kind="variable"><name>scale_</name></member>
+      <member refid="group__GeneralGroup_1gaedc15af9d62e2f9a6876425b6080b23f" kind="variable"><name>historyEnabled_</name></member>
+      <member refid="group__GeneralGroup_1gaf06ea02984f408b2be6b8c36632aed4d" kind="variable"><name>visualizeVectors_</name></member>
+      <member refid="group__GeneralGroup_1ga90dbe741209952112c83d303612a9463" kind="variable"><name>connections_</name></member>
+      <member refid="group__GeneralGroup_1gaa1fe6d33d6556da2ce9e87a68c5b5388" kind="variable"><name>changingXfFromMouseMove_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1MoveObjectByMouseImpl_1a38667d92b4c0a5c674ae3984e4887601" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::MoveObjectByMouseImpl::MoveObjectByMouseImpl</definition>
-        <argsstring>()=default</argsstring>
-        <name>MoveObjectByMouseImpl</name>
-        <qualifiedname>MR::MoveObjectByMouseImpl::MoveObjectByMouseImpl</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" line="19" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MoveObjectByMouseImpl_1a1efc181844c96d8927ff6e49ea0139bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type></type>
-        <definition>virtual MR::MoveObjectByMouseImpl::~MoveObjectByMouseImpl</definition>
-        <argsstring>()=default</argsstring>
-        <name>~MoveObjectByMouseImpl</name>
-        <qualifiedname>MR::MoveObjectByMouseImpl::~MoveObjectByMouseImpl</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" line="20" column="13"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MoveObjectByMouseImpl_1a8ed871e4f43e2c23e6b2cfb9aae9b0ae" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>int</type>
-        <definition>int MR::MoveObjectByMouseImpl::minDistance</definition>
-        <argsstring>() const</argsstring>
-        <name>minDistance</name>
-        <qualifiedname>MR::MoveObjectByMouseImpl::minDistance</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Minimum drag distance in screen pixels If cursor moved less than this value, no transform is done Default value 0 (set transformation even if mouse did not move) </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" line="25" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" bodystart="25" bodyend="25"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MoveObjectByMouseImpl_1aa3df927c144669a86b1cbaba22fa36ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::MoveObjectByMouseImpl::setMinDistance</definition>
-        <argsstring>(int minDistance)</argsstring>
-        <name>setMinDistance</name>
-        <qualifiedname>MR::MoveObjectByMouseImpl::setMinDistance</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>minDistance</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" line="26" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" bodystart="26" bodyend="26"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MoveObjectByMouseImpl_1a6ce0bc82b6e4105651d707287c05c7ec" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::MoveObjectByMouseImpl::onDrawDialog</definition>
-        <argsstring>() const</argsstring>
-        <name>onDrawDialog</name>
-        <qualifiedname>MR::MoveObjectByMouseImpl::onDrawDialog</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Drawing callback to draw lines and tooltips Should be called from <computeroutput>drawDialog</computeroutput> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" line="30" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MoveObjectByMouseImpl_1a540598c4c8004c75d894fa4e63f90694" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>MRVIEWER_API bool MR::MoveObjectByMouseImpl::onMouseDown</definition>
-        <argsstring>(MouseButton button, int modifiers)</argsstring>
-        <name>onMouseDown</name>
-        <qualifiedname>MR::MoveObjectByMouseImpl::onMouseDown</qualifiedname>
-        <param>
-          <type><ref refid="namespaceMR_1a13f98b7840e7298925ef1770b7cdb62d" kindref="member">MouseButton</ref></type>
-          <declname>button</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>modifiers</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>These functions should be called from corresponding mouse handlers Or mouse drag handlers, making it work together with mouseClick signal Return true if handled (picked/moved/released) It is recommended to call <computeroutput>viewer-&gt;select_hovered_viewport()</computeroutput> before <computeroutput>onMouseDown</computeroutput> The object is transformed temporarily in <computeroutput>onMouseMove</computeroutput> <computeroutput>onMouseUp</computeroutput> finalizes the transformation and writes to undo/redo history (unless cancelled) </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" line="38" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MoveObjectByMouseImpl_1a3932fa9a5384b09c3fd4b7f7179697c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>MRVIEWER_API bool MR::MoveObjectByMouseImpl::onMouseMove</definition>
-        <argsstring>(int x, int y)</argsstring>
-        <name>onMouseMove</name>
-        <qualifiedname>MR::MoveObjectByMouseImpl::onMouseMove</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>x</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>y</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" line="39" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MoveObjectByMouseImpl_1a4516bc68a71f976621ce71dff17b7837" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>MRVIEWER_API bool MR::MoveObjectByMouseImpl::onMouseUp</definition>
-        <argsstring>(MouseButton button, int modifiers)</argsstring>
-        <name>onMouseUp</name>
-        <qualifiedname>MR::MoveObjectByMouseImpl::onMouseUp</qualifiedname>
-        <param>
-          <type><ref refid="namespaceMR_1a13f98b7840e7298925ef1770b7cdb62d" kindref="member">MouseButton</ref></type>
-          <declname>button</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>modifiers</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" line="40" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MoveObjectByMouseImpl_1a6f7401692f7a4fc4b54c9a588eb04165" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>MRVIEWER_API bool MR::MoveObjectByMouseImpl::isMoving</definition>
-        <argsstring>() const</argsstring>
-        <name>isMoving</name>
-        <qualifiedname>MR::MoveObjectByMouseImpl::isMoving</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Returns true if currently moving object(s) Return false if not active, or object picked but <computeroutput>minDistance</computeroutput> has not yet reached </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" line="44" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MoveObjectByMouseImpl_1aad8cb7773d35560f8b4469f293cbd169" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::MoveObjectByMouseImpl::cancel</definition>
-        <argsstring>()</argsstring>
-        <name>cancel</name>
-        <qualifiedname>MR::MoveObjectByMouseImpl::cancel</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Stop moving the object(s). Does nothing if not moving anything Calling <computeroutput>onMouseUp</computeroutput> is not necessary after this Should be called when closing plugin etc. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" line="49" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MoveObjectByMouseImpl_1a7de4136fb42f0c74d8c8f56b3e7e7254" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::MoveObjectByMouseImpl::enableHistory</definition>
-        <argsstring>(bool history)</argsstring>
-        <name>enableHistory</name>
-        <qualifiedname>MR::MoveObjectByMouseImpl::enableHistory</qualifiedname>
-        <param>
-          <type>bool</type>
-          <declname>history</declname>
-        </param>
-        <briefdescription>
-<para>enables or disables adding history to viewer history store by this tool </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" line="52" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" bodystart="52" bodyend="52"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MoveObjectByMouseImpl_1af6ca6c34829bccce1c38a2f30f793b99" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::MoveObjectByMouseImpl::isHistoryEnabled</definition>
-        <argsstring>() const</argsstring>
-        <name>isHistoryEnabled</name>
-        <qualifiedname>MR::MoveObjectByMouseImpl::isHistoryEnabled</qualifiedname>
-        <briefdescription>
-<para>returns true if appending history to viewer history store is enabled in this tool </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" line="55" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" bodystart="55" bodyend="55"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga38667d92b4c0a5c674ae3984e4887601" kind="function"><name>MoveObjectByMouseImpl</name></member>
+      <member refid="group__GeneralGroup_1ga1efc181844c96d8927ff6e49ea0139bf" kind="function"><name>~MoveObjectByMouseImpl</name></member>
+      <member refid="group__GeneralGroup_1ga8ed871e4f43e2c23e6b2cfb9aae9b0ae" kind="function"><name>minDistance</name></member>
+      <member refid="group__GeneralGroup_1gaa3df927c144669a86b1cbaba22fa36ac" kind="function"><name>setMinDistance</name></member>
+      <member refid="group__GeneralGroup_1ga6ce0bc82b6e4105651d707287c05c7ec" kind="function"><name>onDrawDialog</name></member>
+      <member refid="group__GeneralGroup_1ga540598c4c8004c75d894fa4e63f90694" kind="function"><name>onMouseDown</name></member>
+      <member refid="group__GeneralGroup_1ga3932fa9a5384b09c3fd4b7f7179697c6" kind="function"><name>onMouseMove</name></member>
+      <member refid="group__GeneralGroup_1ga4516bc68a71f976621ce71dff17b7837" kind="function"><name>onMouseUp</name></member>
+      <member refid="group__GeneralGroup_1ga6f7401692f7a4fc4b54c9a588eb04165" kind="function"><name>isMoving</name></member>
+      <member refid="group__GeneralGroup_1gaad8cb7773d35560f8b4469f293cbd169" kind="function"><name>cancel</name></member>
+      <member refid="group__GeneralGroup_1ga7de4136fb42f0c74d8c8f56b3e7e7254" kind="function"><name>enableHistory</name></member>
+      <member refid="group__GeneralGroup_1gaf6ca6c34829bccce1c38a2f30f793b99" kind="function"><name>isHistoryEnabled</name></member>
     </sectiondef>
     <sectiondef kind="protected-func">
-      <memberdef kind="function" id="classMR_1_1MoveObjectByMouseImpl_1a4634374908c348c3436bbbbc7a8571f0" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API <ref refid="namespaceMR_1a7080d56b73b285dc9afd120e1bc1ff71" kindref="member">ObjAndPick</ref></type>
-        <definition>virtual MRVIEWER_API ObjAndPick MR::MoveObjectByMouseImpl::pickObjects_</definition>
-        <argsstring>(std::vector&lt; std::shared_ptr&lt; Object &gt; &gt; &amp;objects, int modifiers) const</argsstring>
-        <name>pickObjects_</name>
-        <qualifiedname>MR::MoveObjectByMouseImpl::pickObjects_</qualifiedname>
-        <param>
-          <type>std::vector&lt; std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt; &amp;</type>
-          <declname>objects</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>modifiers</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>This function is called from <computeroutput>onMouseMove</computeroutput> to update current active objects <computeroutput>objects</computeroutput> - list of objects to be affected by transformation </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" line="74" column="37"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MoveObjectByMouseImpl_1a1c00c84e0c80219e1fa10b926a82cf91" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API <ref refid="classMR_1_1MoveObjectByMouseImpl_1a4e5180c9fe4f3ff399794c4a640b500a" kindref="member">TransformMode</ref></type>
-        <definition>virtual MRVIEWER_API TransformMode MR::MoveObjectByMouseImpl::modeFromPickModifiers_</definition>
-        <argsstring>(int modifiers) const</argsstring>
-        <name>modeFromPickModifiers_</name>
-        <qualifiedname>MR::MoveObjectByMouseImpl::modeFromPickModifiers_</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>modifiers</declname>
-        </param>
-        <briefdescription>
-<para>Helper function to determine TransformMode based on modifiers. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" line="77" column="40"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MoveObjectByMouseImpl_1a8d4fb97994485132ccb6214d20ec2041" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API <ref refid="classMR_1_1MoveObjectByMouseImpl_1a4e5180c9fe4f3ff399794c4a640b500a" kindref="member">TransformMode</ref></type>
-        <definition>virtual MRVIEWER_API TransformMode MR::MoveObjectByMouseImpl::modeFromPick_</definition>
-        <argsstring>(MouseButton button, int modifiers) const</argsstring>
-        <name>modeFromPick_</name>
-        <qualifiedname>MR::MoveObjectByMouseImpl::modeFromPick_</qualifiedname>
-        <param>
-          <type><ref refid="namespaceMR_1a13f98b7840e7298925ef1770b7cdb62d" kindref="member">MouseButton</ref></type>
-          <declname>button</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>modifiers</declname>
-        </param>
-        <briefdescription>
-<para>this function is called from <computeroutput>onMouseDown</computeroutput> to verify if pick should proceed, if None is returned - <computeroutput>onMouseDown</computeroutput> is canceled </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" line="80" column="40"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MoveObjectByMouseImpl_1acb585eb1c444459ffe5c95d7b0db381e" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>virtual MRVIEWER_API void MR::MoveObjectByMouseImpl::setStartPoint_</definition>
-        <argsstring>(const ObjAndPick &amp;pick, Vector3f &amp;startPoint) const</argsstring>
-        <name>setStartPoint_</name>
-        <qualifiedname>MR::MoveObjectByMouseImpl::setStartPoint_</qualifiedname>
-        <param>
-          <type>const <ref refid="namespaceMR_1a7080d56b73b285dc9afd120e1bc1ff71" kindref="member">ObjAndPick</ref> &amp;</type>
-          <declname>pick</declname>
-        </param>
-        <param>
-          <type>Vector3f &amp;</type>
-          <declname>startPoint</declname>
-        </param>
-        <briefdescription>
-<para><computeroutput>startPoint</computeroutput> - a point under cursor for transform calculation, can be the picked point or else (world coordinates) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" line="83" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MoveObjectByMouseImpl_1a0e1c8964e80c006d7432d351d7f71e4d" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>virtual MRVIEWER_API void MR::MoveObjectByMouseImpl::setCenterPoint_</definition>
-        <argsstring>(const std::vector&lt; std::shared_ptr&lt; Object &gt; &gt; &amp;objects, Vector3f &amp;centerPoint) const</argsstring>
-        <name>setCenterPoint_</name>
-        <qualifiedname>MR::MoveObjectByMouseImpl::setCenterPoint_</qualifiedname>
-        <param>
-          <type>const std::vector&lt; std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt; &amp;</type>
-          <declname>objects</declname>
-        </param>
-        <param>
-          <type>Vector3f &amp;</type>
-          <declname>centerPoint</declname>
-        </param>
-        <briefdescription>
-<para><computeroutput>centerPoint</computeroutput> - a point that will be used as center of rotation/scaling in world space </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" line="86" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MoveObjectByMouseImpl_1a66259d6115ca5e276ea745447817f0ce" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API Plane3f</type>
-        <definition>virtual MRVIEWER_API Plane3f MR::MoveObjectByMouseImpl::calcControlPlane_</definition>
-        <argsstring>(const Viewport &amp;vp, const Vector3f &amp;viewportCenterPoint, const Vector3f &amp;xfCenterPoint) const</argsstring>
-        <name>calcControlPlane_</name>
-        <qualifiedname>MR::MoveObjectByMouseImpl::calcControlPlane_</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1Viewport" kindref="compound">Viewport</ref> &amp;</type>
-          <declname>vp</declname>
-        </param>
-        <param>
-          <type>const Vector3f &amp;</type>
-          <declname>viewportCenterPoint</declname>
-        </param>
-        <param>
-          <type>const Vector3f &amp;</type>
-          <declname>xfCenterPoint</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>override this function to customize plane in which all movement will happen default: screen plane moved to <computeroutput>xfCenterPoint</computeroutput> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" line="90" column="34"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MoveObjectByMouseImpl_1a32b8f295b15b40dffc3f103110e9d1b6" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API Box3f</type>
-        <definition>MRVIEWER_API Box3f MR::MoveObjectByMouseImpl::getBbox_</definition>
-        <argsstring>(const std::vector&lt; std::shared_ptr&lt; Object &gt; &gt; &amp;objects) const</argsstring>
-        <name>getBbox_</name>
-        <qualifiedname>MR::MoveObjectByMouseImpl::getBbox_</qualifiedname>
-        <param>
-          <type>const std::vector&lt; std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt; &amp;</type>
-          <declname>objects</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Helper function to calculate world bounding box for several objects Note: can be invalid (feature objects give an invalid box etc.) </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" line="94" column="24"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga4634374908c348c3436bbbbc7a8571f0" kind="function"><name>pickObjects_</name></member>
+      <member refid="group__GeneralGroup_1ga1c00c84e0c80219e1fa10b926a82cf91" kind="function"><name>modeFromPickModifiers_</name></member>
+      <member refid="group__GeneralGroup_1ga8d4fb97994485132ccb6214d20ec2041" kind="function"><name>modeFromPick_</name></member>
+      <member refid="group__GeneralGroup_1gacb585eb1c444459ffe5c95d7b0db381e" kind="function"><name>setStartPoint_</name></member>
+      <member refid="group__GeneralGroup_1ga0e1c8964e80c006d7432d351d7f71e4d" kind="function"><name>setCenterPoint_</name></member>
+      <member refid="group__GeneralGroup_1ga66259d6115ca5e276ea745447817f0ce" kind="function"><name>calcControlPlane_</name></member>
+      <member refid="group__GeneralGroup_1ga32b8f295b15b40dffc3f103110e9d1b6" kind="function"><name>getBbox_</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMR_1_1MoveObjectByMouseImpl_1a1a2c55bc1aa6acf230657040df6490f6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMR_1_1MoveObjectByMouseImpl_1a4e5180c9fe4f3ff399794c4a640b500a" kindref="member">TransformMode</ref></type>
-        <definition>TransformMode MR::MoveObjectByMouseImpl::pick_</definition>
-        <argsstring>(MouseButton button, int modifiers)</argsstring>
-        <name>pick_</name>
-        <qualifiedname>MR::MoveObjectByMouseImpl::pick_</qualifiedname>
-        <param>
-          <type><ref refid="namespaceMR_1a13f98b7840e7298925ef1770b7cdb62d" kindref="member">MouseButton</ref></type>
-          <declname>button</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>modifiers</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Called from <computeroutput>onMouseDown</computeroutput> Returns chosen <computeroutput>TransformMode</computeroutput> to start transformation, <computeroutput>None</computeroutput> to skip; fills the output parameters: <computeroutput>centerPoint</computeroutput> - center point for rotation (world coordinates) <computeroutput>startPoint</computeroutput> - a point under cursor for transform calculation, can be the picked point or else (world coordinates) Default implementation can be used as a reference for custom implementations </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" line="105" column="19"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MoveObjectByMouseImpl_1aa18aa05aa247a170a5e7cf128e082bee" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>virtual MRVIEWER_API void MR::MoveObjectByMouseImpl::onPick_</definition>
-        <argsstring>(TransformMode mode, const std::vector&lt; std::shared_ptr&lt; Object &gt; &gt; &amp;objects, const Vector3f &amp;centerPoint, const Vector3f &amp;startPoint)</argsstring>
-        <name>onPick_</name>
-        <qualifiedname>MR::MoveObjectByMouseImpl::onPick_</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1MoveObjectByMouseImpl_1a4e5180c9fe4f3ff399794c4a640b500a" kindref="member">TransformMode</ref></type>
-          <declname>mode</declname>
-        </param>
-        <param>
-          <type>const std::vector&lt; std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt; &amp;</type>
-          <declname>objects</declname>
-        </param>
-        <param>
-          <type>const Vector3f &amp;</type>
-          <declname>centerPoint</declname>
-        </param>
-        <param>
-          <type>const Vector3f &amp;</type>
-          <declname>startPoint</declname>
-        </param>
-        <briefdescription>
-<para>one can override this function to modify derived class right after <computeroutput>pick_</computeroutput> is called </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" line="108" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MoveObjectByMouseImpl_1ac3fa71fe5563d174520291c3b3bcb3d3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::MoveObjectByMouseImpl::clear_</definition>
-        <argsstring>()</argsstring>
-        <name>clear_</name>
-        <qualifiedname>MR::MoveObjectByMouseImpl::clear_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" line="112" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MoveObjectByMouseImpl_1a64704d6d9cfbe6c54fb2623898033620" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::MoveObjectByMouseImpl::applyCurrentXf_</definition>
-        <argsstring>()</argsstring>
-        <name>applyCurrentXf_</name>
-        <qualifiedname>MR::MoveObjectByMouseImpl::applyCurrentXf_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" line="114" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MoveObjectByMouseImpl_1a0b7f66c2def84650c9b1b7e61ce65bf1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::MoveObjectByMouseImpl::setVisualizeVectors_</definition>
-        <argsstring>(std::vector&lt; Vector3f &gt; worldPoints)</argsstring>
-        <name>setVisualizeVectors_</name>
-        <qualifiedname>MR::MoveObjectByMouseImpl::setVisualizeVectors_</qualifiedname>
-        <param>
-          <type>std::vector&lt; Vector3f &gt;</type>
-          <declname>worldPoints</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" line="116" column="10"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga1a2c55bc1aa6acf230657040df6490f6" kind="function"><name>pick_</name></member>
+      <member refid="group__GeneralGroup_1gaa18aa05aa247a170a5e7cf128e082bee" kind="function"><name>onPick_</name></member>
+      <member refid="group__GeneralGroup_1gac3fa71fe5563d174520291c3b3bcb3d3" kind="function"><name>clear_</name></member>
+      <member refid="group__GeneralGroup_1ga64704d6d9cfbe6c54fb2623898033620" kind="function"><name>applyCurrentXf_</name></member>
+      <member refid="group__GeneralGroup_1ga0b7f66c2def84650c9b1b7e61ce65bf1" kind="function"><name>setVisualizeVectors_</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
 <para>Helper class to incorporate basic object transformation feature into plugins User can move objects by dragging them, rotate by dragging with Ctrl key; scaling is disabled by default To use, create class instance and call its event handlers For extra features, override the <computeroutput>pick_</computeroutput> method </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" bodystart="17" bodyend="143"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" line="19" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMoveObjectByMouseImpl.h" bodystart="20" bodyend="146"/>
     <listofallmembers>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1a5b5ae11b230c45d421a32acdbe001d51" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>angle_</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1a64704d6d9cfbe6c54fb2623898033620" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>applyCurrentXf_</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1a66259d6115ca5e276ea745447817f0ce" prot="protected" virt="virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>calcControlPlane_</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1aad8cb7773d35560f8b4469f293cbd169" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>cancel</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1aa1fe6d33d6556da2ce9e87a68c5b5388" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>changingXfFromMouseMove_</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1ac3fa71fe5563d174520291c3b3bcb3d3" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>clear_</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1a90dbe741209952112c83d303612a9463" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>connections_</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1a25be6eb1f0310848c191bd549503e65d" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>currentButton_</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1adb167ed72d4e0abf3fd5ebc2bf23acc6" prot="protected" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>currentXf_</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1ada61b8ab8617465251bf6b1f36c1d782" prot="protected" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>deadZonePixelRadius_</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1a7de4136fb42f0c74d8c8f56b3e7e7254" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>enableHistory</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1a32b8f295b15b40dffc3f103110e9d1b6" prot="protected" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>getBbox_</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1aedc15af9d62e2f9a6876425b6080b23f" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>historyEnabled_</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1ad8e3944dd8d88a6a0f47b14ce21766f3" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>initialXfs_</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1af6ca6c34829bccce1c38a2f30f793b99" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>isHistoryEnabled</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1a6f7401692f7a4fc4b54c9a588eb04165" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>isMoving</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1a8ed871e4f43e2c23e6b2cfb9aae9b0ae" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>minDistance</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1a30bae421e02c7584c7f41e30d1b8847a" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>minDistance_</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1a8d4fb97994485132ccb6214d20ec2041" prot="protected" virt="virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>modeFromPick_</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1a1c00c84e0c80219e1fa10b926a82cf91" prot="protected" virt="virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>modeFromPickModifiers_</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1a38667d92b4c0a5c674ae3984e4887601" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>MoveObjectByMouseImpl</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1a657bfc3b281441e2c6d71db6b7aaaccb" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>objects_</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1a6ce0bc82b6e4105651d707287c05c7ec" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>onDrawDialog</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1a540598c4c8004c75d894fa4e63f90694" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>onMouseDown</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1a3932fa9a5384b09c3fd4b7f7179697c6" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>onMouseMove</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1a4516bc68a71f976621ce71dff17b7837" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>onMouseUp</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1aa18aa05aa247a170a5e7cf128e082bee" prot="private" virt="virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>onPick_</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1a1a2c55bc1aa6acf230657040df6490f6" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>pick_</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1a4634374908c348c3436bbbbc7a8571f0" prot="protected" virt="virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>pickObjects_</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1aacb9fa9b021cf7630965729bb5bfa554" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>referencePlane_</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1ab848840eac2ca88c09b492f5e8aea4d4" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>scale_</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1a3a6c148739515a46ba300de5cc48d45f" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>screenStartPoint_</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1a0e1c8964e80c006d7432d351d7f71e4d" prot="protected" virt="virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>setCenterPoint_</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1aa3df927c144669a86b1cbaba22fa36ac" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>setMinDistance</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1acb585eb1c444459ffe5c95d7b0db381e" prot="protected" virt="virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>setStartPoint_</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1a0b7f66c2def84650c9b1b7e61ce65bf1" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>setVisualizeVectors_</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1a0d2331fdc1bf2fc0c011406c5c293457" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>shift_</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1a4e5180c9fe4f3ff399794c4a640b500a" prot="protected" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>TransformMode</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1a3efc8fc475406f248572ef9dca195318" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>transformMode_</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1aad0528c4048d4b028963ecc61c3fd2d0" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>viewportStartPointZ_</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1af06ea02984f408b2be6b8c36632aed4d" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>visualizeVectors_</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1afe250f63d007cdbe32501712fb211da4" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>worldStartPoint_</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1ac12830ca5547a8b463dc0d7c4a7590e8" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>xfCenterPoint_</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1a26187a9b086147b49548f06e1e5f36e3" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>xfChanged_</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1a1efc181844c96d8927ff6e49ea0139bf" prot="public" virt="virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>~MoveObjectByMouseImpl</name></member>
+      <member refid="group__GeneralGroup_1ga5b5ae11b230c45d421a32acdbe001d51" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>angle_</name></member>
+      <member refid="group__GeneralGroup_1ga64704d6d9cfbe6c54fb2623898033620" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>applyCurrentXf_</name></member>
+      <member refid="group__GeneralGroup_1ga66259d6115ca5e276ea745447817f0ce" prot="protected" virt="virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>calcControlPlane_</name></member>
+      <member refid="group__GeneralGroup_1gaad8cb7773d35560f8b4469f293cbd169" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>cancel</name></member>
+      <member refid="group__GeneralGroup_1gaa1fe6d33d6556da2ce9e87a68c5b5388" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>changingXfFromMouseMove_</name></member>
+      <member refid="group__GeneralGroup_1gac3fa71fe5563d174520291c3b3bcb3d3" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>clear_</name></member>
+      <member refid="group__GeneralGroup_1ga90dbe741209952112c83d303612a9463" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>connections_</name></member>
+      <member refid="group__GeneralGroup_1ga25be6eb1f0310848c191bd549503e65d" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>currentButton_</name></member>
+      <member refid="group__GeneralGroup_1gadb167ed72d4e0abf3fd5ebc2bf23acc6" prot="protected" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>currentXf_</name></member>
+      <member refid="group__GeneralGroup_1gada61b8ab8617465251bf6b1f36c1d782" prot="protected" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>deadZonePixelRadius_</name></member>
+      <member refid="group__GeneralGroup_1ga7de4136fb42f0c74d8c8f56b3e7e7254" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>enableHistory</name></member>
+      <member refid="group__GeneralGroup_1ga32b8f295b15b40dffc3f103110e9d1b6" prot="protected" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>getBbox_</name></member>
+      <member refid="group__GeneralGroup_1gaedc15af9d62e2f9a6876425b6080b23f" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>historyEnabled_</name></member>
+      <member refid="group__GeneralGroup_1gad8e3944dd8d88a6a0f47b14ce21766f3" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>initialXfs_</name></member>
+      <member refid="group__GeneralGroup_1gaf6ca6c34829bccce1c38a2f30f793b99" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>isHistoryEnabled</name></member>
+      <member refid="group__GeneralGroup_1ga6f7401692f7a4fc4b54c9a588eb04165" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>isMoving</name></member>
+      <member refid="group__GeneralGroup_1ga8ed871e4f43e2c23e6b2cfb9aae9b0ae" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>minDistance</name></member>
+      <member refid="group__GeneralGroup_1ga30bae421e02c7584c7f41e30d1b8847a" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>minDistance_</name></member>
+      <member refid="group__GeneralGroup_1ga8d4fb97994485132ccb6214d20ec2041" prot="protected" virt="virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>modeFromPick_</name></member>
+      <member refid="group__GeneralGroup_1ga1c00c84e0c80219e1fa10b926a82cf91" prot="protected" virt="virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>modeFromPickModifiers_</name></member>
+      <member refid="group__GeneralGroup_1ga38667d92b4c0a5c674ae3984e4887601" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>MoveObjectByMouseImpl</name></member>
+      <member refid="group__GeneralGroup_1ga657bfc3b281441e2c6d71db6b7aaaccb" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>objects_</name></member>
+      <member refid="group__GeneralGroup_1ga6ce0bc82b6e4105651d707287c05c7ec" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>onDrawDialog</name></member>
+      <member refid="group__GeneralGroup_1ga540598c4c8004c75d894fa4e63f90694" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>onMouseDown</name></member>
+      <member refid="group__GeneralGroup_1ga3932fa9a5384b09c3fd4b7f7179697c6" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>onMouseMove</name></member>
+      <member refid="group__GeneralGroup_1ga4516bc68a71f976621ce71dff17b7837" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>onMouseUp</name></member>
+      <member refid="group__GeneralGroup_1gaa18aa05aa247a170a5e7cf128e082bee" prot="private" virt="virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>onPick_</name></member>
+      <member refid="group__GeneralGroup_1ga1a2c55bc1aa6acf230657040df6490f6" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>pick_</name></member>
+      <member refid="group__GeneralGroup_1ga4634374908c348c3436bbbbc7a8571f0" prot="protected" virt="virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>pickObjects_</name></member>
+      <member refid="group__GeneralGroup_1gaacb9fa9b021cf7630965729bb5bfa554" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>referencePlane_</name></member>
+      <member refid="group__GeneralGroup_1gab848840eac2ca88c09b492f5e8aea4d4" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>scale_</name></member>
+      <member refid="group__GeneralGroup_1ga3a6c148739515a46ba300de5cc48d45f" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>screenStartPoint_</name></member>
+      <member refid="group__GeneralGroup_1ga0e1c8964e80c006d7432d351d7f71e4d" prot="protected" virt="virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>setCenterPoint_</name></member>
+      <member refid="group__GeneralGroup_1gaa3df927c144669a86b1cbaba22fa36ac" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>setMinDistance</name></member>
+      <member refid="group__GeneralGroup_1gacb585eb1c444459ffe5c95d7b0db381e" prot="protected" virt="virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>setStartPoint_</name></member>
+      <member refid="group__GeneralGroup_1ga0b7f66c2def84650c9b1b7e61ce65bf1" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>setVisualizeVectors_</name></member>
+      <member refid="group__GeneralGroup_1ga0d2331fdc1bf2fc0c011406c5c293457" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>shift_</name></member>
+      <member refid="group__GeneralGroup_1ga4e5180c9fe4f3ff399794c4a640b500a" prot="protected" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>TransformMode</name></member>
+      <member refid="group__GeneralGroup_1ga3efc8fc475406f248572ef9dca195318" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>transformMode_</name></member>
+      <member refid="group__GeneralGroup_1gaad0528c4048d4b028963ecc61c3fd2d0" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>viewportStartPointZ_</name></member>
+      <member refid="group__GeneralGroup_1gaf06ea02984f408b2be6b8c36632aed4d" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>visualizeVectors_</name></member>
+      <member refid="group__GeneralGroup_1gafe250f63d007cdbe32501712fb211da4" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>worldStartPoint_</name></member>
+      <member refid="group__GeneralGroup_1gac12830ca5547a8b463dc0d7c4a7590e8" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>xfCenterPoint_</name></member>
+      <member refid="group__GeneralGroup_1ga26187a9b086147b49548f06e1e5f36e3" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>xfChanged_</name></member>
+      <member refid="group__GeneralGroup_1ga1efc181844c96d8927ff6e49ea0139bf" prot="public" virt="virtual"><scope>MR::MoveObjectByMouseImpl</scope><name>~MoveObjectByMouseImpl</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

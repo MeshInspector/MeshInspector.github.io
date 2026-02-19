@@ -5,38 +5,10 @@
     <basecompoundref refid="structMR_1_1BaseRenderParams" prot="public" virt="non-virtual">MR::BaseRenderParams</basecompoundref>
     <includes refid="MRIRenderObject_8h" local="no">MRIRenderObject.h</includes>
     <sectiondef kind="public-type">
-      <memberdef kind="typedef" id="structMR_1_1UiRenderParams_1a7db0595bba979c4028be5875ef3e067d" prot="public" static="no">
-        <type>std::vector&lt; std::shared_ptr&lt; <ref refid="structMR_1_1BasicUiRenderTask" kindref="compound">BasicUiRenderTask</ref> &gt; &gt;</type>
-        <definition>using MR::UiRenderParams::UiTaskList =  std::vector&lt;std::shared_ptr&lt;BasicUiRenderTask&gt;&gt;</definition>
-        <argsstring></argsstring>
-        <name>UiTaskList</name>
-        <qualifiedname>MR::UiRenderParams::UiTaskList</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="108" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="108" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga7db0595bba979c4028be5875ef3e067d" kind="typedef"><name>UiTaskList</name></member>
     </sectiondef>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1UiRenderParams_1a5f69c0eb3c0590c0bd49dbcdddbc0eca" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1UiRenderParams_1a7db0595bba979c4028be5875ef3e067d" kindref="member">UiTaskList</ref> *</type>
-        <definition>UiTaskList* MR::UiRenderParams::tasks</definition>
-        <argsstring></argsstring>
-        <name>tasks</name>
-        <qualifiedname>MR::UiRenderParams::tasks</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-<para>Those are Z-sorted and then executed. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="111" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="111" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga5f69c0eb3c0590c0bd49dbcdddbc0eca" kind="variable"><name>tasks</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -73,14 +45,14 @@
         <link refid="classMR_1_1ViewportId"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="106" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="107" bodyend="112"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="109" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="110" bodyend="115"/>
     <listofallmembers>
-      <member refid="structMR_1_1BaseRenderParams_1ab108063540156c1b73540c07c48e6d01" prot="public" virt="non-virtual"><scope>MR::UiRenderParams</scope><name>projMatrix</name></member>
-      <member refid="structMR_1_1UiRenderParams_1a5f69c0eb3c0590c0bd49dbcdddbc0eca" prot="public" virt="non-virtual"><scope>MR::UiRenderParams</scope><name>tasks</name></member>
-      <member refid="structMR_1_1UiRenderParams_1a7db0595bba979c4028be5875ef3e067d" prot="public" virt="non-virtual"><scope>MR::UiRenderParams</scope><name>UiTaskList</name></member>
-      <member refid="structMR_1_1BaseRenderParams_1a564bcf6e1925912d15fa1cb20a3b0a3c" prot="public" virt="non-virtual"><scope>MR::UiRenderParams</scope><name>viewMatrix</name></member>
-      <member refid="structMR_1_1BaseRenderParams_1aabb1d7dfa544bd6cb1d98a79a8d036a9" prot="public" virt="non-virtual"><scope>MR::UiRenderParams</scope><name>viewport</name></member>
-      <member refid="structMR_1_1BaseRenderParams_1adf952473500110be7f693c5d725f6fde" prot="public" virt="non-virtual"><scope>MR::UiRenderParams</scope><name>viewportId</name></member>
+      <member refid="group__GeneralGroup_1gab108063540156c1b73540c07c48e6d01" prot="public" virt="non-virtual"><scope>MR::UiRenderParams</scope><name>projMatrix</name></member>
+      <member refid="group__GeneralGroup_1ga5f69c0eb3c0590c0bd49dbcdddbc0eca" prot="public" virt="non-virtual"><scope>MR::UiRenderParams</scope><name>tasks</name></member>
+      <member refid="group__GeneralGroup_1ga7db0595bba979c4028be5875ef3e067d" prot="public" virt="non-virtual"><scope>MR::UiRenderParams</scope><name>UiTaskList</name></member>
+      <member refid="group__GeneralGroup_1ga564bcf6e1925912d15fa1cb20a3b0a3c" prot="public" virt="non-virtual"><scope>MR::UiRenderParams</scope><name>viewMatrix</name></member>
+      <member refid="group__GeneralGroup_1gaabb1d7dfa544bd6cb1d98a79a8d036a9" prot="public" virt="non-virtual"><scope>MR::UiRenderParams</scope><name>viewport</name></member>
+      <member refid="group__GeneralGroup_1gadf952473500110be7f693c5d725f6fde" prot="public" virt="non-virtual"><scope>MR::UiRenderParams</scope><name>viewportId</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

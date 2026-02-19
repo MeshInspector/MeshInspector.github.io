@@ -9,124 +9,30 @@
       </param>
     </templateparamlist>
     <sectiondef kind="public-type">
-      <memberdef kind="typedef" id="classMR_1_1ShiftTransformer_1a25779f4d269609b5b8a197c243b7a19c" prot="public" static="no">
-        <type>typename openvdb::tree::ValueAccessor&lt; const TreeT &gt;</type>
-        <definition>using MR::ShiftTransformer&lt; TreeT &gt;::InTreeAccessor =  typename openvdb::tree::ValueAccessor&lt;const TreeT&gt;</definition>
-        <argsstring></argsstring>
-        <name>InTreeAccessor</name>
-        <qualifiedname>MR::ShiftTransformer::InTreeAccessor</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="153" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="153" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1ShiftTransformer_1a002673d0c242633120d670961940cac5" prot="public" static="no">
-        <type>typename openvdb::tree::ValueAccessor&lt; TreeT &gt;</type>
-        <definition>using MR::ShiftTransformer&lt; TreeT &gt;::OutTreeAccessor =  typename openvdb::tree::ValueAccessor&lt;TreeT&gt;</definition>
-        <argsstring></argsstring>
-        <name>OutTreeAccessor</name>
-        <qualifiedname>MR::ShiftTransformer::OutTreeAccessor</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="154" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="154" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1ShiftTransformer_1ab7175d7b506f4e42478b9365b5b2ddbf" prot="public" static="no">
-        <type>typename TreeT::ValueType</type>
-        <definition>using MR::ShiftTransformer&lt; TreeT &gt;::ValueT =  typename TreeT::ValueType</definition>
-        <argsstring></argsstring>
-        <name>ValueT</name>
-        <qualifiedname>MR::ShiftTransformer::ValueT</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="155" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="155" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga25779f4d269609b5b8a197c243b7a19c" kind="typedef"><name>InTreeAccessor</name></member>
+      <member refid="group__GeneralGroup_1ga002673d0c242633120d670961940cac5" kind="typedef"><name>OutTreeAccessor</name></member>
+      <member refid="group__GeneralGroup_1gab7175d7b506f4e42478b9365b5b2ddbf" kind="typedef"><name>ValueT</name></member>
     </sectiondef>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1ShiftTransformer_1a436ae747665056333cc7496a41258a32" prot="private" static="no" mutable="no">
-        <type>openvdb::math::Coord</type>
-        <definition>openvdb::math::Coord MR::ShiftTransformer&lt; TreeT &gt;::shift_</definition>
-        <argsstring></argsstring>
-        <name>shift_</name>
-        <qualifiedname>MR::ShiftTransformer::shift_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="165" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="165" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga436ae747665056333cc7496a41258a32" kind="variable"><name>shift_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1ShiftTransformer_1a1884898b6086a4da8a93f20af5c6519e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ShiftTransformer&lt; TreeT &gt;::operator()</definition>
-        <argsstring>(const InTreeAccessor &amp;inAcc, OutTreeAccessor &amp;outAcc, openvdb::math::Coord coord)</argsstring>
-        <name>operator()</name>
-        <qualifiedname>MR::ShiftTransformer::operator()</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1ShiftTransformer_1a25779f4d269609b5b8a197c243b7a19c" kindref="member">InTreeAccessor</ref> &amp;</type>
-          <declname>inAcc</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1ShiftTransformer_1a002673d0c242633120d670961940cac5" kindref="member">OutTreeAccessor</ref> &amp;</type>
-          <declname>outAcc</declname>
-        </param>
-        <param>
-          <type>openvdb::math::Coord</type>
-          <declname>coord</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="157" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="157" bodyend="162"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ShiftTransformer_1a2462275abc34da748597b3ebccd9f961" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ShiftTransformer&lt; TreeT &gt;::setShift</definition>
-        <argsstring>(const openvdb::math::Coord &amp;shift)</argsstring>
-        <name>setShift</name>
-        <qualifiedname>MR::ShiftTransformer::setShift</qualifiedname>
-        <param>
-          <type>const openvdb::math::Coord &amp;</type>
-          <declname>shift</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="163" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="163" bodyend="163"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga1884898b6086a4da8a93f20af5c6519e" kind="function"><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1ga2462275abc34da748597b3ebccd9f961" kind="function"><name>setShift</name></member>
     </sectiondef>
     <briefdescription>
 <para>functor for shifting voxels </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="150" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="151" bodyend="166"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="153" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="154" bodyend="169"/>
     <listofallmembers>
-      <member refid="classMR_1_1ShiftTransformer_1a25779f4d269609b5b8a197c243b7a19c" prot="public" virt="non-virtual"><scope>MR::ShiftTransformer</scope><name>InTreeAccessor</name></member>
-      <member refid="classMR_1_1ShiftTransformer_1a1884898b6086a4da8a93f20af5c6519e" prot="public" virt="non-virtual"><scope>MR::ShiftTransformer</scope><name>operator()</name></member>
-      <member refid="classMR_1_1ShiftTransformer_1a002673d0c242633120d670961940cac5" prot="public" virt="non-virtual"><scope>MR::ShiftTransformer</scope><name>OutTreeAccessor</name></member>
-      <member refid="classMR_1_1ShiftTransformer_1a2462275abc34da748597b3ebccd9f961" prot="public" virt="non-virtual"><scope>MR::ShiftTransformer</scope><name>setShift</name></member>
-      <member refid="classMR_1_1ShiftTransformer_1a436ae747665056333cc7496a41258a32" prot="private" virt="non-virtual"><scope>MR::ShiftTransformer</scope><name>shift_</name></member>
-      <member refid="classMR_1_1ShiftTransformer_1ab7175d7b506f4e42478b9365b5b2ddbf" prot="public" virt="non-virtual"><scope>MR::ShiftTransformer</scope><name>ValueT</name></member>
+      <member refid="group__GeneralGroup_1ga25779f4d269609b5b8a197c243b7a19c" prot="public" virt="non-virtual"><scope>MR::ShiftTransformer</scope><name>InTreeAccessor</name></member>
+      <member refid="group__GeneralGroup_1ga1884898b6086a4da8a93f20af5c6519e" prot="public" virt="non-virtual"><scope>MR::ShiftTransformer</scope><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1ga002673d0c242633120d670961940cac5" prot="public" virt="non-virtual"><scope>MR::ShiftTransformer</scope><name>OutTreeAccessor</name></member>
+      <member refid="group__GeneralGroup_1ga2462275abc34da748597b3ebccd9f961" prot="public" virt="non-virtual"><scope>MR::ShiftTransformer</scope><name>setShift</name></member>
+      <member refid="group__GeneralGroup_1ga436ae747665056333cc7496a41258a32" prot="private" virt="non-virtual"><scope>MR::ShiftTransformer</scope><name>shift_</name></member>
+      <member refid="group__GeneralGroup_1gab7175d7b506f4e42478b9365b5b2ddbf" prot="public" virt="non-virtual"><scope>MR::ShiftTransformer</scope><name>ValueT</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

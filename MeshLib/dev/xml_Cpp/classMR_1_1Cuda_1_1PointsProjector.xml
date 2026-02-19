@@ -22,7 +22,7 @@
     </sectiondef>
     <sectiondef kind="public-func">
       <memberdef kind="function" id="classMR_1_1Cuda_1_1PointsProjector_1ae5f97af32e2a2a8898a3063117312160" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRCUDA_API <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <type>MRCUDA_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
         <definition>MRCUDA_API Expected&lt; void &gt; MR::Cuda::PointsProjector::setPointCloud</definition>
         <argsstring>(const PointCloud &amp;pointCloud) override</argsstring>
         <name>setPointCloud</name>
@@ -42,7 +42,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPointsProject.h" line="19" column="25"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Cuda_1_1PointsProjector_1ad0cebe62c8c8a4ef6fb8cf7799844112" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRCUDA_API <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <type>MRCUDA_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
         <definition>MRCUDA_API Expected&lt; void &gt; MR::Cuda::PointsProjector::findProjections</definition>
         <argsstring>(std::vector&lt; MR::PointsProjectionResult &gt; &amp;results, const std::vector&lt; Vector3f &gt; &amp;points, const FindProjectionOnPointsSettings &amp;settings) const override</argsstring>
         <name>findProjections</name>

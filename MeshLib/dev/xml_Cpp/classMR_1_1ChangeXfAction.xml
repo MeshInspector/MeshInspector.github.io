@@ -6,165 +6,17 @@
     <derivedcompoundref refid="classMR_1_1DirectionWidget_1_1ChangeDirAction" prot="public" virt="non-virtual">MR::DirectionWidget::ChangeDirAction</derivedcompoundref>
     <includes refid="MRChangeXfAction_8h" local="no">MRChangeXfAction.h</includes>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1ChangeXfAction_1a7d2647426f8708c71d2f6e85da678c2d" prot="private" static="no" mutable="no">
-        <type>std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
-        <definition>std::shared_ptr&lt;Object&gt; MR::ChangeXfAction::obj_</definition>
-        <argsstring></argsstring>
-        <name>obj_</name>
-        <qualifiedname>MR::ChangeXfAction::obj_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeXfAction.h" line="58" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeXfAction.h" bodystart="58" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ChangeXfAction_1ab818f28be739c6818b6bae8347ca44e9" prot="private" static="no" mutable="no">
-        <type>AffineXf3f</type>
-        <definition>AffineXf3f MR::ChangeXfAction::xf_</definition>
-        <argsstring></argsstring>
-        <name>xf_</name>
-        <qualifiedname>MR::ChangeXfAction::xf_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeXfAction.h" line="59" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeXfAction.h" bodystart="59" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ChangeXfAction_1a6c53dc147f506c5f00859801ff00d1ad" prot="private" static="no" mutable="no">
-        <type>std::string</type>
-        <definition>std::string MR::ChangeXfAction::name_</definition>
-        <argsstring></argsstring>
-        <name>name_</name>
-        <qualifiedname>MR::ChangeXfAction::name_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeXfAction.h" line="60" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeXfAction.h" bodystart="60" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga7d2647426f8708c71d2f6e85da678c2d" kind="variable"><name>obj_</name></member>
+      <member refid="group__GeneralGroup_1gab818f28be739c6818b6bae8347ca44e9" kind="variable"><name>xf_</name></member>
+      <member refid="group__GeneralGroup_1ga6c53dc147f506c5f00859801ff00d1ad" kind="variable"><name>name_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1ChangeXfAction_1adc90b8207a85c52060b965692645d95b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::ChangeXfAction::ChangeXfAction</definition>
-        <argsstring>(const std::string &amp;name, const std::shared_ptr&lt; Object &gt; &amp;obj)</argsstring>
-        <name>ChangeXfAction</name>
-        <qualifiedname>MR::ChangeXfAction::ChangeXfAction</qualifiedname>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>name</declname>
-        </param>
-        <param>
-          <type>const std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &amp;</type>
-          <declname>obj</declname>
-        </param>
-        <briefdescription>
-<para>use this constructor to remember object&apos;s transformation before making any changes in it </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeXfAction.h" line="16" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeXfAction.h" bodystart="16" bodyend="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ChangeXfAction_1ac6aa69f1f7afe95ad6453c38ba4fb80e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::ChangeXfAction::ChangeXfAction</definition>
-        <argsstring>(const std::string &amp;name, const std::shared_ptr&lt; Object &gt; &amp;obj, const AffineXf3f &amp;newXf)</argsstring>
-        <name>ChangeXfAction</name>
-        <qualifiedname>MR::ChangeXfAction::ChangeXfAction</qualifiedname>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>name</declname>
-        </param>
-        <param>
-          <type>const std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &amp;</type>
-          <declname>obj</declname>
-        </param>
-        <param>
-          <type>const AffineXf3f &amp;</type>
-          <declname>newXf</declname>
-        </param>
-        <briefdescription>
-<para>use this constructor to remember object&apos;s transformation and immediately set new mesh </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeXfAction.h" line="24" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeXfAction.h" bodystart="24" bodyend="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ChangeXfAction_1a677bcbff928530a06249b4aa004556bc" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>std::string</type>
-        <definition>virtual std::string MR::ChangeXfAction::name</definition>
-        <argsstring>() const override</argsstring>
-        <name>name</name>
-        <qualifiedname>MR::ChangeXfAction::name</qualifiedname>
-        <reimplements refid="classMR_1_1HistoryAction_1a9daa0b79de161f676f6283e3804dc8ce">name</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeXfAction.h" line="33" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeXfAction.h" bodystart="33" bodyend="36"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ChangeXfAction_1ae0205231d9c1c0389daaa03a05b302e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MR::ChangeXfAction::action</definition>
-        <argsstring>(HistoryAction::Type) override</argsstring>
-        <name>action</name>
-        <qualifiedname>MR::ChangeXfAction::action</qualifiedname>
-        <reimplements refid="classMR_1_1HistoryAction_1aecfce349736beaf17a23a6817c86f3bb">action</reimplements>
-        <param>
-          <type><ref refid="classMR_1_1HistoryAction_1ac16eb31dd26d35cfc18bac8a05983aa7" kindref="member">HistoryAction::Type</ref></type>
-          <declname>actionType</declname>
-        </param>
-        <briefdescription>
-<para>This function is called on history action (undo, redo, etc.) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeXfAction.h" line="38" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeXfAction.h" bodystart="38" bodyend="45"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ChangeXfAction_1a92b9d01bccf043de100f19110630ce24" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>size_t</type>
-        <definition>virtual size_t MR::ChangeXfAction::heapBytes</definition>
-        <argsstring>() const override</argsstring>
-        <name>heapBytes</name>
-        <qualifiedname>MR::ChangeXfAction::heapBytes</qualifiedname>
-        <reimplements refid="classMR_1_1HistoryAction_1ad6df54da6a63ed83f15053507e8569de">heapBytes</reimplements>
-        <briefdescription>
-<para>returns the amount of memory this object occupies on heap </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeXfAction.h" line="47" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeXfAction.h" bodystart="47" bodyend="50"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ChangeXfAction_1a7ca462bf6ff993310a54857dc66ba1ff" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &amp;</type>
-        <definition>const std::shared_ptr&lt; Object &gt; &amp; MR::ChangeXfAction::obj</definition>
-        <argsstring>() const</argsstring>
-        <name>obj</name>
-        <qualifiedname>MR::ChangeXfAction::obj</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeXfAction.h" line="52" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeXfAction.h" bodystart="52" bodyend="55"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gadc90b8207a85c52060b965692645d95b" kind="function"><name>ChangeXfAction</name></member>
+      <member refid="group__GeneralGroup_1gac6aa69f1f7afe95ad6453c38ba4fb80e" kind="function"><name>ChangeXfAction</name></member>
+      <member refid="group__GeneralGroup_1ga677bcbff928530a06249b4aa004556bc" kind="function"><name>name</name></member>
+      <member refid="group__GeneralGroup_1gae0205231d9c1c0389daaa03a05b302e2" kind="function"><name>action</name></member>
+      <member refid="group__GeneralGroup_1ga92b9d01bccf043de100f19110630ce24" kind="function"><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1ga7ca462bf6ff993310a54857dc66ba1ff" kind="function"><name>obj</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -201,19 +53,19 @@
         <link refid="classMR_1_1HistoryAction"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeXfAction.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeXfAction.h" bodystart="13" bodyend="61"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeXfAction.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeXfAction.h" bodystart="16" bodyend="64"/>
     <listofallmembers>
-      <member refid="classMR_1_1ChangeXfAction_1ae0205231d9c1c0389daaa03a05b302e2" prot="public" virt="virtual"><scope>MR::ChangeXfAction</scope><name>action</name></member>
-      <member refid="classMR_1_1ChangeXfAction_1adc90b8207a85c52060b965692645d95b" prot="public" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>ChangeXfAction</name></member>
-      <member refid="classMR_1_1ChangeXfAction_1ac6aa69f1f7afe95ad6453c38ba4fb80e" prot="public" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>ChangeXfAction</name></member>
-      <member refid="classMR_1_1ChangeXfAction_1a92b9d01bccf043de100f19110630ce24" prot="public" virt="virtual"><scope>MR::ChangeXfAction</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1ChangeXfAction_1a677bcbff928530a06249b4aa004556bc" prot="public" virt="virtual"><scope>MR::ChangeXfAction</scope><name>name</name></member>
-      <member refid="classMR_1_1ChangeXfAction_1a6c53dc147f506c5f00859801ff00d1ad" prot="private" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>name_</name></member>
-      <member refid="classMR_1_1ChangeXfAction_1a7ca462bf6ff993310a54857dc66ba1ff" prot="public" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>obj</name></member>
-      <member refid="classMR_1_1ChangeXfAction_1a7d2647426f8708c71d2f6e85da678c2d" prot="private" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>obj_</name></member>
-      <member refid="classMR_1_1HistoryAction_1ac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>Type</name></member>
-      <member refid="classMR_1_1ChangeXfAction_1ab818f28be739c6818b6bae8347ca44e9" prot="private" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>xf_</name></member>
-      <member refid="classMR_1_1HistoryAction_1a97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::ChangeXfAction</scope><name>~HistoryAction</name></member>
+      <member refid="group__GeneralGroup_1gae0205231d9c1c0389daaa03a05b302e2" prot="public" virt="virtual"><scope>MR::ChangeXfAction</scope><name>action</name></member>
+      <member refid="group__GeneralGroup_1gadc90b8207a85c52060b965692645d95b" prot="public" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>ChangeXfAction</name></member>
+      <member refid="group__GeneralGroup_1gac6aa69f1f7afe95ad6453c38ba4fb80e" prot="public" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>ChangeXfAction</name></member>
+      <member refid="group__GeneralGroup_1ga92b9d01bccf043de100f19110630ce24" prot="public" virt="virtual"><scope>MR::ChangeXfAction</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1ga677bcbff928530a06249b4aa004556bc" prot="public" virt="virtual"><scope>MR::ChangeXfAction</scope><name>name</name></member>
+      <member refid="group__GeneralGroup_1ga6c53dc147f506c5f00859801ff00d1ad" prot="private" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>name_</name></member>
+      <member refid="group__GeneralGroup_1ga7ca462bf6ff993310a54857dc66ba1ff" prot="public" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>obj</name></member>
+      <member refid="group__GeneralGroup_1ga7d2647426f8708c71d2f6e85da678c2d" prot="private" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>obj_</name></member>
+      <member refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>Type</name></member>
+      <member refid="group__GeneralGroup_1gab818f28be739c6818b6bae8347ca44e9" prot="private" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>xf_</name></member>
+      <member refid="group__GeneralGroup_1ga97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::ChangeXfAction</scope><name>~HistoryAction</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

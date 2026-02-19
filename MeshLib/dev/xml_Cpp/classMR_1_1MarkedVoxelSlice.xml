@@ -7,582 +7,42 @@
     <innerclass refid="structMR_1_1MarkedVoxelSlice_1_1Mark" prot="public">MR::MarkedVoxelSlice::Mark</innerclass>
     <innerclass refid="structMR_1_1MarkedVoxelSlice_1_1Parameters" prot="public">MR::MarkedVoxelSlice::Parameters</innerclass>
     <sectiondef kind="public-type">
-      <memberdef kind="enum" id="classMR_1_1MarkedVoxelSlice_1af7c2c434d5b367268f132826d94c9457" prot="public" static="no" strong="no">
-        <type></type>
-        <name>MaskType</name>
-        <qualifiedname>MR::MarkedVoxelSlice::MaskType</qualifiedname>
-        <enumvalue id="classMR_1_1MarkedVoxelSlice_1af7c2c434d5b367268f132826d94c9457a4283b93e69f9bf090a59fe6e0fbc24ef" prot="public">
-          <name>Inside</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1MarkedVoxelSlice_1af7c2c434d5b367268f132826d94c9457a6be0b0fff8d33b533481c4ddbadfb310" prot="public">
-          <name>Outside</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1MarkedVoxelSlice_1af7c2c434d5b367268f132826d94c9457affb70c18e04a80d228aa7ef4a86e0702" prot="public">
-          <name>Segment</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1MarkedVoxelSlice_1af7c2c434d5b367268f132826d94c9457aa754fdcd470e1658650d8eb977cde96c" prot="public">
-          <name>Count</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" line="29" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" bodystart="29" bodyend="29"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaf7c2c434d5b367268f132826d94c9457" kind="enum"><name>MaskType</name></member>
     </sectiondef>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1MarkedVoxelSlice_1a59d5c54906ac87a368772559ebb81aab" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref></type>
-        <definition>FloatGrid MR::MarkedVoxelSlice::grid_</definition>
-        <argsstring></argsstring>
-        <name>grid_</name>
-        <qualifiedname>MR::MarkedVoxelSlice::grid_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" line="117" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" bodystart="117" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1MarkedVoxelSlice_1a094ba490347c2ad2d04d6326d0b5bc0f" prot="private" static="no" mutable="no">
-        <type>Vector3i</type>
-        <definition>Vector3i MR::MarkedVoxelSlice::dims_</definition>
-        <argsstring></argsstring>
-        <name>dims_</name>
-        <qualifiedname>MR::MarkedVoxelSlice::dims_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" line="118" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" bodystart="118" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1MarkedVoxelSlice_1a16d4cae96337324ef3f6d67095003eba" prot="private" static="no" mutable="no">
-        <type><ref refid="structMR_1_1MarkedVoxelSlice_1_1Parameters" kindref="compound">Parameters</ref></type>
-        <definition>Parameters MR::MarkedVoxelSlice::params_</definition>
-        <argsstring></argsstring>
-        <name>params_</name>
-        <qualifiedname>MR::MarkedVoxelSlice::params_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" line="120" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" bodystart="120" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga59d5c54906ac87a368772559ebb81aab" kind="variable"><name>grid_</name></member>
+      <member refid="group__GeneralGroup_1ga094ba490347c2ad2d04d6326d0b5bc0f" kind="variable"><name>dims_</name></member>
+      <member refid="group__GeneralGroup_1ga16d4cae96337324ef3f6d67095003eba" kind="variable"><name>params_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1MarkedVoxelSlice_1ad8db7482eea8aa284e25701a769f2fd1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API</type>
-        <definition>MRVIEWER_API MR::MarkedVoxelSlice::MarkedVoxelSlice</definition>
-        <argsstring>(const ObjectVoxels &amp;voxels)</argsstring>
-        <name>MarkedVoxelSlice</name>
-        <qualifiedname>MR::MarkedVoxelSlice::MarkedVoxelSlice</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref> &amp;</type>
-          <declname>voxels</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" line="27" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MarkedVoxelSlice_1a68ad6e146ae252dc8573c3a2ce4c5616" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>VoxelBitSet &amp;</type>
-        <definition>VoxelBitSet &amp; MR::MarkedVoxelSlice::getMask</definition>
-        <argsstring>(MaskType type)</argsstring>
-        <name>getMask</name>
-        <qualifiedname>MR::MarkedVoxelSlice::getMask</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1MarkedVoxelSlice_1af7c2c434d5b367268f132826d94c9457" kindref="member">MaskType</ref></type>
-          <declname>type</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Needed to avoid VoxelBitSet copy ensure using <ref refid="classMR_1_1MarkedVoxelSlice_1a8cfc8efe67bed7ab6770d8952e75c6b6" kindref="member">forceUpdate()</ref> after chaging this reference </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" line="33" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" bodystart="33" bodyend="33"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MarkedVoxelSlice_1a72c959e4d508236259fcf2ac2777a909" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const VoxelBitSet &amp;</type>
-        <definition>const VoxelBitSet &amp; MR::MarkedVoxelSlice::getMask</definition>
-        <argsstring>(MaskType type) const</argsstring>
-        <name>getMask</name>
-        <qualifiedname>MR::MarkedVoxelSlice::getMask</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1MarkedVoxelSlice_1af7c2c434d5b367268f132826d94c9457" kindref="member">MaskType</ref></type>
-          <declname>type</declname>
-        </param>
-        <briefdescription>
-<para>Returns mask(VoxelBitSet of whole voxel object) of given type. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" line="35" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" bodystart="35" bodyend="35"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MarkedVoxelSlice_1a520c3e0654e16a1e5d2abeae4b4c8115" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::MarkedVoxelSlice::setMask</definition>
-        <argsstring>(const VoxelBitSet &amp;mask, MaskType type)</argsstring>
-        <name>setMask</name>
-        <qualifiedname>MR::MarkedVoxelSlice::setMask</qualifiedname>
-        <param>
-          <type>const VoxelBitSet &amp;</type>
-          <declname>mask</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1MarkedVoxelSlice_1af7c2c434d5b367268f132826d94c9457" kindref="member">MaskType</ref></type>
-          <declname>type</declname>
-        </param>
-        <briefdescription>
-<para>Sets mask(VoxelBitSet of whole voxel object) of given type, updates texture. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" line="37" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" bodystart="37" bodyend="37"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MarkedVoxelSlice_1a0f141ee0150f0efb387278f0c171e708" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &amp;</type>
-        <definition>const Color &amp; MR::MarkedVoxelSlice::getColor</definition>
-        <argsstring>(MaskType type) const</argsstring>
-        <name>getColor</name>
-        <qualifiedname>MR::MarkedVoxelSlice::getColor</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1MarkedVoxelSlice_1af7c2c434d5b367268f132826d94c9457" kindref="member">MaskType</ref></type>
-          <declname>type</declname>
-        </param>
-        <briefdescription>
-<para>Colors of slice marks controls, setters update texture. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" line="40" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" bodystart="40" bodyend="40"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MarkedVoxelSlice_1ae6e05e1715f6a7c8cbd5d2896d23c163" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::MarkedVoxelSlice::setColor</definition>
-        <argsstring>(const Color &amp;color, MaskType type)</argsstring>
-        <name>setColor</name>
-        <qualifiedname>MR::MarkedVoxelSlice::setColor</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &amp;</type>
-          <declname>color</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1MarkedVoxelSlice_1af7c2c434d5b367268f132826d94c9457" kindref="member">MaskType</ref></type>
-          <declname>type</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" line="41" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" bodystart="41" bodyend="41"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MarkedVoxelSlice_1a60de9b6876066ec3417619a0ce95abad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1MarkedVoxelSlice_1_1Mark" kindref="compound">Mark</ref> &amp;</type>
-        <definition>Mark &amp; MR::MarkedVoxelSlice::getMark</definition>
-        <argsstring>(MaskType type)</argsstring>
-        <name>getMark</name>
-        <qualifiedname>MR::MarkedVoxelSlice::getMark</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1MarkedVoxelSlice_1af7c2c434d5b367268f132826d94c9457" kindref="member">MaskType</ref></type>
-          <declname>type</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Needed to avoid VoxelBitSet copy ensure using <ref refid="classMR_1_1MarkedVoxelSlice_1a8cfc8efe67bed7ab6770d8952e75c6b6" kindref="member">forceUpdate()</ref> after chaging this reference </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" line="46" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" bodystart="46" bodyend="46"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MarkedVoxelSlice_1adbcf5136f507046d164884a62801f018" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const <ref refid="structMR_1_1MarkedVoxelSlice_1_1Mark" kindref="compound">Mark</ref> &amp;</type>
-        <definition>const Mark &amp; MR::MarkedVoxelSlice::getMark</definition>
-        <argsstring>(MaskType type) const</argsstring>
-        <name>getMark</name>
-        <qualifiedname>MR::MarkedVoxelSlice::getMark</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1MarkedVoxelSlice_1af7c2c434d5b367268f132826d94c9457" kindref="member">MaskType</ref></type>
-          <declname>type</declname>
-        </param>
-        <briefdescription>
-<para>Returns color and mask(VoxelBitSet of whole voxel object) of given type. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" line="48" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" bodystart="48" bodyend="48"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MarkedVoxelSlice_1a86a746a3d208f9b05419acf8e15d0bf1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::MarkedVoxelSlice::setMark</definition>
-        <argsstring>(const Mark &amp;mark, MaskType type)</argsstring>
-        <name>setMark</name>
-        <qualifiedname>MR::MarkedVoxelSlice::setMark</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1MarkedVoxelSlice_1_1Mark" kindref="compound">Mark</ref> &amp;</type>
-          <declname>mark</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1MarkedVoxelSlice_1af7c2c434d5b367268f132826d94c9457" kindref="member">MaskType</ref></type>
-          <declname>type</declname>
-        </param>
-        <briefdescription>
-<para>Sets color and mask(VoxelBitSet of whole voxel object) of given type, updates texture. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" line="50" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" bodystart="50" bodyend="50"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MarkedVoxelSlice_1a67bae19cf8e9844b8762dc86c0d5e7b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>std::vector&lt; <ref refid="structMR_1_1MarkedVoxelSlice_1_1Mark" kindref="compound">Mark</ref> &gt; &amp;</type>
-        <definition>std::vector&lt; Mark &gt; &amp; MR::MarkedVoxelSlice::getCustomBackgroundMarks</definition>
-        <argsstring>()</argsstring>
-        <name>getCustomBackgroundMarks</name>
-        <qualifiedname>MR::MarkedVoxelSlice::getCustomBackgroundMarks</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Needed to avoid VoxelBitSet copy ensure using <ref refid="classMR_1_1MarkedVoxelSlice_1a8cfc8efe67bed7ab6770d8952e75c6b6" kindref="member">forceUpdate()</ref> after chaging this reference returns background colors and masks(VoxelBitSet of whole voxel object) </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" line="55" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" bodystart="55" bodyend="55"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MarkedVoxelSlice_1a91858ffd13eff95bc3ea28526fee0d97" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const std::vector&lt; <ref refid="structMR_1_1MarkedVoxelSlice_1_1Mark" kindref="compound">Mark</ref> &gt; &amp;</type>
-        <definition>const std::vector&lt; Mark &gt; &amp; MR::MarkedVoxelSlice::getCustomBackgroundMarks</definition>
-        <argsstring>() const</argsstring>
-        <name>getCustomBackgroundMarks</name>
-        <qualifiedname>MR::MarkedVoxelSlice::getCustomBackgroundMarks</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" line="56" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" bodystart="56" bodyend="56"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MarkedVoxelSlice_1a0a8896353e458b466104e95260345376" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::MarkedVoxelSlice::setCustomBackgroundMarks</definition>
-        <argsstring>(const std::vector&lt; Mark &gt; &amp;backgroundMarks)</argsstring>
-        <name>setCustomBackgroundMarks</name>
-        <qualifiedname>MR::MarkedVoxelSlice::setCustomBackgroundMarks</qualifiedname>
-        <param>
-          <type>const std::vector&lt; <ref refid="structMR_1_1MarkedVoxelSlice_1_1Mark" kindref="compound">Mark</ref> &gt; &amp;</type>
-          <declname>backgroundMarks</declname>
-        </param>
-        <briefdescription>
-<para>Sets background colors and masks(VoxelBitSet of whole voxel object) of given type, updates texture. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" line="58" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" bodystart="58" bodyend="58"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MarkedVoxelSlice_1a7ae548f5bf2801169f8be5e014429a48" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>std::vector&lt; <ref refid="structMR_1_1MarkedVoxelSlice_1_1Mark" kindref="compound">Mark</ref> &gt; &amp;</type>
-        <definition>std::vector&lt; Mark &gt; &amp; MR::MarkedVoxelSlice::getCustomForegroundMarks</definition>
-        <argsstring>()</argsstring>
-        <name>getCustomForegroundMarks</name>
-        <qualifiedname>MR::MarkedVoxelSlice::getCustomForegroundMarks</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Needed to avoid VoxelBitSet copy ensure using <ref refid="classMR_1_1MarkedVoxelSlice_1a8cfc8efe67bed7ab6770d8952e75c6b6" kindref="member">forceUpdate()</ref> after chaging this reference returns foreground colors and masks(VoxelBitSet of whole voxel object) </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" line="63" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" bodystart="63" bodyend="63"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MarkedVoxelSlice_1a702b8644e0f84517de02698fd2d9d745" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const std::vector&lt; <ref refid="structMR_1_1MarkedVoxelSlice_1_1Mark" kindref="compound">Mark</ref> &gt; &amp;</type>
-        <definition>const std::vector&lt; Mark &gt; &amp; MR::MarkedVoxelSlice::getCustomForegroundMarks</definition>
-        <argsstring>() const</argsstring>
-        <name>getCustomForegroundMarks</name>
-        <qualifiedname>MR::MarkedVoxelSlice::getCustomForegroundMarks</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" line="64" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" bodystart="64" bodyend="64"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MarkedVoxelSlice_1a44cc38689eddc0b8b7ecc02cc11ab162" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::MarkedVoxelSlice::setCustomForegroundMarks</definition>
-        <argsstring>(const std::vector&lt; Mark &gt; &amp;foregroundMarks)</argsstring>
-        <name>setCustomForegroundMarks</name>
-        <qualifiedname>MR::MarkedVoxelSlice::setCustomForegroundMarks</qualifiedname>
-        <param>
-          <type>const std::vector&lt; <ref refid="structMR_1_1MarkedVoxelSlice_1_1Mark" kindref="compound">Mark</ref> &gt; &amp;</type>
-          <declname>foregroundMarks</declname>
-        </param>
-        <briefdescription>
-<para>Sets foreground colors and masks(VoxelBitSet of whole voxel object) of given type, updates texture. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" line="66" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" bodystart="66" bodyend="66"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MarkedVoxelSlice_1a21bf4ef527270ad0d69f992c4378f606" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="group__VoxelPathGroup_1ga4412ea17fd4bcca4ad23e987f61c20ab" kindref="member">SlicePlane</ref></type>
-        <definition>SlicePlane MR::MarkedVoxelSlice::getActivePlane</definition>
-        <argsstring>() const</argsstring>
-        <name>getActivePlane</name>
-        <qualifiedname>MR::MarkedVoxelSlice::getActivePlane</qualifiedname>
-        <briefdescription>
-<para>Active plane (YZ, ZX or XY) controls, setters update texture. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" line="70" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" bodystart="70" bodyend="70"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MarkedVoxelSlice_1a05fc56e95ac8301cb2924ddec31eb109" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::MarkedVoxelSlice::setActivePlane</definition>
-        <argsstring>(SlicePlane plane)</argsstring>
-        <name>setActivePlane</name>
-        <qualifiedname>MR::MarkedVoxelSlice::setActivePlane</qualifiedname>
-        <param>
-          <type><ref refid="group__VoxelPathGroup_1ga4412ea17fd4bcca4ad23e987f61c20ab" kindref="member">SlicePlane</ref></type>
-          <declname>plane</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" line="71" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" bodystart="71" bodyend="71"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MarkedVoxelSlice_1a64f919f38e1712b774646be9eb857f99" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const Vector3i &amp;</type>
-        <definition>const Vector3i &amp; MR::MarkedVoxelSlice::getActiveVoxel</definition>
-        <argsstring>() const</argsstring>
-        <name>getActiveVoxel</name>
-        <qualifiedname>MR::MarkedVoxelSlice::getActiveVoxel</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" line="73" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" bodystart="73" bodyend="73"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MarkedVoxelSlice_1a6c9a848bfdf1495e5b72648aee211a87" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::MarkedVoxelSlice::setActiveVoxel</definition>
-        <argsstring>(const Vector3i &amp;voxel)</argsstring>
-        <name>setActiveVoxel</name>
-        <qualifiedname>MR::MarkedVoxelSlice::setActiveVoxel</qualifiedname>
-        <param>
-          <type>const Vector3i &amp;</type>
-          <declname>voxel</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" line="74" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" bodystart="74" bodyend="74"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MarkedVoxelSlice_1ace084b7a6961ec8f31f9a9f4ebb9bb05" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>float</type>
-        <definition>float MR::MarkedVoxelSlice::getMin</definition>
-        <argsstring>() const</argsstring>
-        <name>getMin</name>
-        <qualifiedname>MR::MarkedVoxelSlice::getMin</qualifiedname>
-        <briefdescription>
-<para>Slice normalization parameters, setters update texture. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" line="77" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" bodystart="77" bodyend="77"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MarkedVoxelSlice_1acf4c42bc1d7a16cc6ff7ce4c3df76ab5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::MarkedVoxelSlice::setMin</definition>
-        <argsstring>(float min)</argsstring>
-        <name>setMin</name>
-        <qualifiedname>MR::MarkedVoxelSlice::setMin</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>min</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" line="78" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" bodystart="78" bodyend="78"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MarkedVoxelSlice_1a737cb9282dabaf2d7912815736d7da37" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>float</type>
-        <definition>float MR::MarkedVoxelSlice::getMax</definition>
-        <argsstring>() const</argsstring>
-        <name>getMax</name>
-        <qualifiedname>MR::MarkedVoxelSlice::getMax</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" line="79" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" bodystart="79" bodyend="79"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MarkedVoxelSlice_1af725ffcc60939034b1746e896cfbe394" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::MarkedVoxelSlice::setMax</definition>
-        <argsstring>(float max)</argsstring>
-        <name>setMax</name>
-        <qualifiedname>MR::MarkedVoxelSlice::setMax</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>max</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" line="80" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" bodystart="80" bodyend="80"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MarkedVoxelSlice_1a3eb57f66e35c3ad6e95531620e2e40fa" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const Box3i &amp;</type>
-        <definition>const Box3i &amp; MR::MarkedVoxelSlice::getActiveBox</definition>
-        <argsstring>() const</argsstring>
-        <name>getActiveBox</name>
-        <qualifiedname>MR::MarkedVoxelSlice::getActiveBox</qualifiedname>
-        <briefdescription>
-<para>Returns current active box of slice. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" line="83" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" bodystart="83" bodyend="83"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MarkedVoxelSlice_1ad26146bfaaea86c6642ac101c7f5bbfc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::MarkedVoxelSlice::setActiveBox</definition>
-        <argsstring>(const Box3i &amp;box)</argsstring>
-        <name>setActiveBox</name>
-        <qualifiedname>MR::MarkedVoxelSlice::setActiveBox</qualifiedname>
-        <param>
-          <type>const Box3i &amp;</type>
-          <declname>box</declname>
-        </param>
-        <briefdescription>
-<para>Updates active box of slice, do not affect <ref refid="classMR_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref>, updates texture. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" line="85" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" bodystart="85" bodyend="85"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MarkedVoxelSlice_1aa967f828058afd78b02970f57f9f96f2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const <ref refid="structMR_1_1MarkedVoxelSlice_1_1Parameters" kindref="compound">Parameters</ref> &amp;</type>
-        <definition>const Parameters &amp; MR::MarkedVoxelSlice::getParameters</definition>
-        <argsstring>() const</argsstring>
-        <name>getParameters</name>
-        <qualifiedname>MR::MarkedVoxelSlice::getParameters</qualifiedname>
-        <briefdescription>
-<para>Get all parameters as one structure. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" line="109" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" bodystart="109" bodyend="109"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MarkedVoxelSlice_1a1b237098f1645350afbc53876ef3f617" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::MarkedVoxelSlice::setParameters</definition>
-        <argsstring>(const Parameters &amp;params)</argsstring>
-        <name>setParameters</name>
-        <qualifiedname>MR::MarkedVoxelSlice::setParameters</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1MarkedVoxelSlice_1_1Parameters" kindref="compound">Parameters</ref> &amp;</type>
-          <declname>params</declname>
-        </param>
-        <briefdescription>
-<para>Set all parameters as one structure, updates texture. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" line="111" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" bodystart="111" bodyend="111"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MarkedVoxelSlice_1a8cfc8efe67bed7ab6770d8952e75c6b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::MarkedVoxelSlice::forceUpdate</definition>
-        <argsstring>()</argsstring>
-        <name>forceUpdate</name>
-        <qualifiedname>MR::MarkedVoxelSlice::forceUpdate</qualifiedname>
-        <briefdescription>
-<para>Set current slice with marks to texture, do not abuse this. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" line="114" column="23"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gad8db7482eea8aa284e25701a769f2fd1" kind="function"><name>MarkedVoxelSlice</name></member>
+      <member refid="group__GeneralGroup_1ga68ad6e146ae252dc8573c3a2ce4c5616" kind="function"><name>getMask</name></member>
+      <member refid="group__GeneralGroup_1ga72c959e4d508236259fcf2ac2777a909" kind="function"><name>getMask</name></member>
+      <member refid="group__GeneralGroup_1ga520c3e0654e16a1e5d2abeae4b4c8115" kind="function"><name>setMask</name></member>
+      <member refid="group__GeneralGroup_1ga0f141ee0150f0efb387278f0c171e708" kind="function"><name>getColor</name></member>
+      <member refid="group__GeneralGroup_1gae6e05e1715f6a7c8cbd5d2896d23c163" kind="function"><name>setColor</name></member>
+      <member refid="group__GeneralGroup_1ga60de9b6876066ec3417619a0ce95abad" kind="function"><name>getMark</name></member>
+      <member refid="group__GeneralGroup_1gadbcf5136f507046d164884a62801f018" kind="function"><name>getMark</name></member>
+      <member refid="group__GeneralGroup_1ga86a746a3d208f9b05419acf8e15d0bf1" kind="function"><name>setMark</name></member>
+      <member refid="group__GeneralGroup_1ga67bae19cf8e9844b8762dc86c0d5e7b4" kind="function"><name>getCustomBackgroundMarks</name></member>
+      <member refid="group__GeneralGroup_1ga91858ffd13eff95bc3ea28526fee0d97" kind="function"><name>getCustomBackgroundMarks</name></member>
+      <member refid="group__GeneralGroup_1ga0a8896353e458b466104e95260345376" kind="function"><name>setCustomBackgroundMarks</name></member>
+      <member refid="group__GeneralGroup_1ga7ae548f5bf2801169f8be5e014429a48" kind="function"><name>getCustomForegroundMarks</name></member>
+      <member refid="group__GeneralGroup_1ga702b8644e0f84517de02698fd2d9d745" kind="function"><name>getCustomForegroundMarks</name></member>
+      <member refid="group__GeneralGroup_1ga44cc38689eddc0b8b7ecc02cc11ab162" kind="function"><name>setCustomForegroundMarks</name></member>
+      <member refid="group__GeneralGroup_1ga21bf4ef527270ad0d69f992c4378f606" kind="function"><name>getActivePlane</name></member>
+      <member refid="group__GeneralGroup_1ga05fc56e95ac8301cb2924ddec31eb109" kind="function"><name>setActivePlane</name></member>
+      <member refid="group__GeneralGroup_1ga64f919f38e1712b774646be9eb857f99" kind="function"><name>getActiveVoxel</name></member>
+      <member refid="group__GeneralGroup_1ga6c9a848bfdf1495e5b72648aee211a87" kind="function"><name>setActiveVoxel</name></member>
+      <member refid="group__GeneralGroup_1gace084b7a6961ec8f31f9a9f4ebb9bb05" kind="function"><name>getMin</name></member>
+      <member refid="group__GeneralGroup_1gacf4c42bc1d7a16cc6ff7ce4c3df76ab5" kind="function"><name>setMin</name></member>
+      <member refid="group__GeneralGroup_1ga737cb9282dabaf2d7912815736d7da37" kind="function"><name>getMax</name></member>
+      <member refid="group__GeneralGroup_1gaf725ffcc60939034b1746e896cfbe394" kind="function"><name>setMax</name></member>
+      <member refid="group__GeneralGroup_1ga3eb57f66e35c3ad6e95531620e2e40fa" kind="function"><name>getActiveBox</name></member>
+      <member refid="group__GeneralGroup_1gad26146bfaaea86c6642ac101c7f5bbfc" kind="function"><name>setActiveBox</name></member>
+      <member refid="group__GeneralGroup_1gaa967f828058afd78b02970f57f9f96f2" kind="function"><name>getParameters</name></member>
+      <member refid="group__GeneralGroup_1ga1b237098f1645350afbc53876ef3f617" kind="function"><name>setParameters</name></member>
+      <member refid="group__GeneralGroup_1ga8cfc8efe67bed7ab6770d8952e75c6b6" kind="function"><name>forceUpdate</name></member>
     </sectiondef>
     <briefdescription>
 <para><ref refid="namespaceImGui" kindref="compound">ImGui</ref> visualization of a slice from voxel object and seed marks on it. </para>
@@ -613,52 +73,52 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" bodystart="19" bodyend="122"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" line="21" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMarkedVoxelSlice.h" bodystart="22" bodyend="125"/>
     <listofallmembers>
-      <member refid="classMR_1_1MarkedVoxelSlice_1af7c2c434d5b367268f132826d94c9457aa754fdcd470e1658650d8eb977cde96c" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>Count</name></member>
-      <member refid="classMR_1_1MarkedVoxelSlice_1a094ba490347c2ad2d04d6326d0b5bc0f" prot="private" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>dims_</name></member>
-      <member refid="classMR_1_1MarkedVoxelSlice_1a8cfc8efe67bed7ab6770d8952e75c6b6" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>forceUpdate</name></member>
-      <member refid="classMR_1_1MarkedVoxelSlice_1a3eb57f66e35c3ad6e95531620e2e40fa" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>getActiveBox</name></member>
-      <member refid="classMR_1_1MarkedVoxelSlice_1a21bf4ef527270ad0d69f992c4378f606" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>getActivePlane</name></member>
-      <member refid="classMR_1_1MarkedVoxelSlice_1a64f919f38e1712b774646be9eb857f99" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>getActiveVoxel</name></member>
-      <member refid="classMR_1_1MarkedVoxelSlice_1a0f141ee0150f0efb387278f0c171e708" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>getColor</name></member>
-      <member refid="classMR_1_1MarkedVoxelSlice_1a67bae19cf8e9844b8762dc86c0d5e7b4" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>getCustomBackgroundMarks</name></member>
-      <member refid="classMR_1_1MarkedVoxelSlice_1a91858ffd13eff95bc3ea28526fee0d97" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>getCustomBackgroundMarks</name></member>
-      <member refid="classMR_1_1MarkedVoxelSlice_1a7ae548f5bf2801169f8be5e014429a48" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>getCustomForegroundMarks</name></member>
-      <member refid="classMR_1_1MarkedVoxelSlice_1a702b8644e0f84517de02698fd2d9d745" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>getCustomForegroundMarks</name></member>
-      <member refid="classMR_1_1ImGuiImage_1af7efcafad27428ae82671e4afd46058c" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>getId</name></member>
-      <member refid="classMR_1_1ImGuiImage_1aab2666c326947c96b079e4a96251593a" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>getImageHeight</name></member>
-      <member refid="classMR_1_1ImGuiImage_1a0c6de551a06595b9dc35a13abda19ac2" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>getImageWidth</name></member>
-      <member refid="classMR_1_1ImGuiImage_1a8a0fd221ff69ddb4e271b936b8c03902" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>getImTextureId</name></member>
-      <member refid="classMR_1_1MarkedVoxelSlice_1a60de9b6876066ec3417619a0ce95abad" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>getMark</name></member>
-      <member refid="classMR_1_1MarkedVoxelSlice_1adbcf5136f507046d164884a62801f018" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>getMark</name></member>
-      <member refid="classMR_1_1MarkedVoxelSlice_1a68ad6e146ae252dc8573c3a2ce4c5616" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>getMask</name></member>
-      <member refid="classMR_1_1MarkedVoxelSlice_1a72c959e4d508236259fcf2ac2777a909" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>getMask</name></member>
-      <member refid="classMR_1_1MarkedVoxelSlice_1a737cb9282dabaf2d7912815736d7da37" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>getMax</name></member>
-      <member refid="classMR_1_1ImGuiImage_1ad1d16cfb70c45755afa4a6d81dcd4191" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>getMeshTexture</name></member>
-      <member refid="classMR_1_1MarkedVoxelSlice_1ace084b7a6961ec8f31f9a9f4ebb9bb05" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>getMin</name></member>
-      <member refid="classMR_1_1MarkedVoxelSlice_1aa967f828058afd78b02970f57f9f96f2" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>getParameters</name></member>
-      <member refid="classMR_1_1MarkedVoxelSlice_1a59d5c54906ac87a368772559ebb81aab" prot="private" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>grid_</name></member>
-      <member refid="classMR_1_1ImGuiImage_1a45fefc6f372ef7195d6871caba9cfee2" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>ImGuiImage</name></member>
-      <member refid="classMR_1_1MarkedVoxelSlice_1af7c2c434d5b367268f132826d94c9457a4283b93e69f9bf090a59fe6e0fbc24ef" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>Inside</name></member>
-      <member refid="classMR_1_1MarkedVoxelSlice_1ad8db7482eea8aa284e25701a769f2fd1" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>MarkedVoxelSlice</name></member>
-      <member refid="classMR_1_1MarkedVoxelSlice_1af7c2c434d5b367268f132826d94c9457" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>MaskType</name></member>
-      <member refid="classMR_1_1MarkedVoxelSlice_1af7c2c434d5b367268f132826d94c9457a6be0b0fff8d33b533481c4ddbadfb310" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>Outside</name></member>
-      <member refid="classMR_1_1MarkedVoxelSlice_1a16d4cae96337324ef3f6d67095003eba" prot="private" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>params_</name></member>
-      <member refid="classMR_1_1MarkedVoxelSlice_1af7c2c434d5b367268f132826d94c9457affb70c18e04a80d228aa7ef4a86e0702" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>Segment</name></member>
-      <member refid="classMR_1_1MarkedVoxelSlice_1ad26146bfaaea86c6642ac101c7f5bbfc" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>setActiveBox</name></member>
-      <member refid="classMR_1_1MarkedVoxelSlice_1a05fc56e95ac8301cb2924ddec31eb109" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>setActivePlane</name></member>
-      <member refid="classMR_1_1MarkedVoxelSlice_1a6c9a848bfdf1495e5b72648aee211a87" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>setActiveVoxel</name></member>
-      <member refid="classMR_1_1MarkedVoxelSlice_1ae6e05e1715f6a7c8cbd5d2896d23c163" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>setColor</name></member>
-      <member refid="classMR_1_1MarkedVoxelSlice_1a0a8896353e458b466104e95260345376" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>setCustomBackgroundMarks</name></member>
-      <member refid="classMR_1_1MarkedVoxelSlice_1a44cc38689eddc0b8b7ecc02cc11ab162" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>setCustomForegroundMarks</name></member>
-      <member refid="classMR_1_1MarkedVoxelSlice_1a86a746a3d208f9b05419acf8e15d0bf1" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>setMark</name></member>
-      <member refid="classMR_1_1MarkedVoxelSlice_1a520c3e0654e16a1e5d2abeae4b4c8115" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>setMask</name></member>
-      <member refid="classMR_1_1MarkedVoxelSlice_1af725ffcc60939034b1746e896cfbe394" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>setMax</name></member>
-      <member refid="classMR_1_1MarkedVoxelSlice_1acf4c42bc1d7a16cc6ff7ce4c3df76ab5" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>setMin</name></member>
-      <member refid="classMR_1_1MarkedVoxelSlice_1a1b237098f1645350afbc53876ef3f617" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>setParameters</name></member>
-      <member refid="classMR_1_1ImGuiImage_1aa1bd137d3093a9f7422dc445457b692f" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>update</name></member>
-      <member refid="classMR_1_1ImGuiImage_1a1d77e3e4c4aee3fb4502181c14bc89a7" prot="public" virt="virtual"><scope>MR::MarkedVoxelSlice</scope><name>~ImGuiImage</name></member>
+      <member refid="group__GeneralGroup_1ggaf7c2c434d5b367268f132826d94c9457aa754fdcd470e1658650d8eb977cde96c" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>Count</name></member>
+      <member refid="group__GeneralGroup_1ga094ba490347c2ad2d04d6326d0b5bc0f" prot="private" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>dims_</name></member>
+      <member refid="group__GeneralGroup_1ga8cfc8efe67bed7ab6770d8952e75c6b6" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>forceUpdate</name></member>
+      <member refid="group__GeneralGroup_1ga3eb57f66e35c3ad6e95531620e2e40fa" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>getActiveBox</name></member>
+      <member refid="group__GeneralGroup_1ga21bf4ef527270ad0d69f992c4378f606" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>getActivePlane</name></member>
+      <member refid="group__GeneralGroup_1ga64f919f38e1712b774646be9eb857f99" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>getActiveVoxel</name></member>
+      <member refid="group__GeneralGroup_1ga0f141ee0150f0efb387278f0c171e708" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>getColor</name></member>
+      <member refid="group__GeneralGroup_1ga67bae19cf8e9844b8762dc86c0d5e7b4" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>getCustomBackgroundMarks</name></member>
+      <member refid="group__GeneralGroup_1ga91858ffd13eff95bc3ea28526fee0d97" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>getCustomBackgroundMarks</name></member>
+      <member refid="group__GeneralGroup_1ga7ae548f5bf2801169f8be5e014429a48" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>getCustomForegroundMarks</name></member>
+      <member refid="group__GeneralGroup_1ga702b8644e0f84517de02698fd2d9d745" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>getCustomForegroundMarks</name></member>
+      <member refid="group__GeneralGroup_1gaf7efcafad27428ae82671e4afd46058c" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>getId</name></member>
+      <member refid="group__GeneralGroup_1gaab2666c326947c96b079e4a96251593a" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>getImageHeight</name></member>
+      <member refid="group__GeneralGroup_1ga0c6de551a06595b9dc35a13abda19ac2" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>getImageWidth</name></member>
+      <member refid="group__GeneralGroup_1ga8a0fd221ff69ddb4e271b936b8c03902" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>getImTextureId</name></member>
+      <member refid="group__GeneralGroup_1ga60de9b6876066ec3417619a0ce95abad" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>getMark</name></member>
+      <member refid="group__GeneralGroup_1gadbcf5136f507046d164884a62801f018" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>getMark</name></member>
+      <member refid="group__GeneralGroup_1ga68ad6e146ae252dc8573c3a2ce4c5616" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>getMask</name></member>
+      <member refid="group__GeneralGroup_1ga72c959e4d508236259fcf2ac2777a909" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>getMask</name></member>
+      <member refid="group__GeneralGroup_1ga737cb9282dabaf2d7912815736d7da37" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>getMax</name></member>
+      <member refid="group__GeneralGroup_1gad1d16cfb70c45755afa4a6d81dcd4191" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>getMeshTexture</name></member>
+      <member refid="group__GeneralGroup_1gace084b7a6961ec8f31f9a9f4ebb9bb05" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>getMin</name></member>
+      <member refid="group__GeneralGroup_1gaa967f828058afd78b02970f57f9f96f2" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>getParameters</name></member>
+      <member refid="group__GeneralGroup_1ga59d5c54906ac87a368772559ebb81aab" prot="private" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>grid_</name></member>
+      <member refid="group__GeneralGroup_1ga45fefc6f372ef7195d6871caba9cfee2" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>ImGuiImage</name></member>
+      <member refid="group__GeneralGroup_1ggaf7c2c434d5b367268f132826d94c9457a4283b93e69f9bf090a59fe6e0fbc24ef" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>Inside</name></member>
+      <member refid="group__GeneralGroup_1gad8db7482eea8aa284e25701a769f2fd1" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>MarkedVoxelSlice</name></member>
+      <member refid="group__GeneralGroup_1gaf7c2c434d5b367268f132826d94c9457" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>MaskType</name></member>
+      <member refid="group__GeneralGroup_1ggaf7c2c434d5b367268f132826d94c9457a6be0b0fff8d33b533481c4ddbadfb310" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>Outside</name></member>
+      <member refid="group__GeneralGroup_1ga16d4cae96337324ef3f6d67095003eba" prot="private" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>params_</name></member>
+      <member refid="group__GeneralGroup_1ggaf7c2c434d5b367268f132826d94c9457affb70c18e04a80d228aa7ef4a86e0702" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>Segment</name></member>
+      <member refid="group__GeneralGroup_1gad26146bfaaea86c6642ac101c7f5bbfc" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>setActiveBox</name></member>
+      <member refid="group__GeneralGroup_1ga05fc56e95ac8301cb2924ddec31eb109" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>setActivePlane</name></member>
+      <member refid="group__GeneralGroup_1ga6c9a848bfdf1495e5b72648aee211a87" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>setActiveVoxel</name></member>
+      <member refid="group__GeneralGroup_1gae6e05e1715f6a7c8cbd5d2896d23c163" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>setColor</name></member>
+      <member refid="group__GeneralGroup_1ga0a8896353e458b466104e95260345376" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>setCustomBackgroundMarks</name></member>
+      <member refid="group__GeneralGroup_1ga44cc38689eddc0b8b7ecc02cc11ab162" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>setCustomForegroundMarks</name></member>
+      <member refid="group__GeneralGroup_1ga86a746a3d208f9b05419acf8e15d0bf1" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>setMark</name></member>
+      <member refid="group__GeneralGroup_1ga520c3e0654e16a1e5d2abeae4b4c8115" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>setMask</name></member>
+      <member refid="group__GeneralGroup_1gaf725ffcc60939034b1746e896cfbe394" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>setMax</name></member>
+      <member refid="group__GeneralGroup_1gacf4c42bc1d7a16cc6ff7ce4c3df76ab5" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>setMin</name></member>
+      <member refid="group__GeneralGroup_1ga1b237098f1645350afbc53876ef3f617" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>setParameters</name></member>
+      <member refid="group__GeneralGroup_1gaa1bd137d3093a9f7422dc445457b692f" prot="public" virt="non-virtual"><scope>MR::MarkedVoxelSlice</scope><name>update</name></member>
+      <member refid="group__GeneralGroup_1ga1d77e3e4c4aee3fb4502181c14bc89a7" prot="public" virt="virtual"><scope>MR::MarkedVoxelSlice</scope><name>~ImGuiImage</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

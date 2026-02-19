@@ -4,87 +4,24 @@
     <compoundname>MR::TbbTaskArenaAndGroup</compoundname>
     <includes refid="MRTbbTaskArenaAndGroup_8h" local="no">MRTbbTaskArenaAndGroup.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1TbbTaskArenaAndGroup_1a24c1257c943adf488e8748f5a05298ee" prot="public" static="no" mutable="no">
-        <type>tbb::task_arena</type>
-        <definition>tbb::task_arena MR::TbbTaskArenaAndGroup::arena</definition>
-        <argsstring></argsstring>
-        <name>arena</name>
-        <qualifiedname>MR::TbbTaskArenaAndGroup::arena</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTbbTaskArenaAndGroup.h" line="14" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTbbTaskArenaAndGroup.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1TbbTaskArenaAndGroup_1a1f5614244e1fa27e65469e5f0266ec4b" prot="public" static="no" mutable="no">
-        <type>tbb::task_group</type>
-        <definition>tbb::task_group MR::TbbTaskArenaAndGroup::group</definition>
-        <argsstring></argsstring>
-        <name>group</name>
-        <qualifiedname>MR::TbbTaskArenaAndGroup::group</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTbbTaskArenaAndGroup.h" line="15" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTbbTaskArenaAndGroup.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga24c1257c943adf488e8748f5a05298ee" kind="variable"><name>arena</name></member>
+      <member refid="group__GeneralGroup_1ga1f5614244e1fa27e65469e5f0266ec4b" kind="variable"><name>group</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1TbbTaskArenaAndGroup_1a42c69991d5313139fd4a95c3e361a60d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename F</type>
-          </param>
-        </templateparamlist>
-        <type>void</type>
-        <definition>void MR::TbbTaskArenaAndGroup::execute</definition>
-        <argsstring>(F &amp;&amp;f)</argsstring>
-        <name>execute</name>
-        <qualifiedname>MR::TbbTaskArenaAndGroup::execute</qualifiedname>
-        <param>
-          <type>F &amp;&amp;</type>
-          <declname>f</declname>
-        </param>
-        <briefdescription>
-<para>runs given function within this task group and task arena </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTbbTaskArenaAndGroup.h" line="19" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTbbTaskArenaAndGroup.h" bodystart="19" bodyend="28"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1TbbTaskArenaAndGroup_1a4c412febc6da82629fc96409954f1824" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::TbbTaskArenaAndGroup::wait</definition>
-        <argsstring>()</argsstring>
-        <name>wait</name>
-        <qualifiedname>MR::TbbTaskArenaAndGroup::wait</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>waits till all tasks are done, joining to their execution; <ref refid="structMR_1_1TbbTaskArenaAndGroup_1a4c412febc6da82629fc96409954f1824" kindref="member">wait()</ref> must be called before this class destruction </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTbbTaskArenaAndGroup.h" line="32" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTbbTaskArenaAndGroup.h" bodystart="32" bodyend="38"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga42c69991d5313139fd4a95c3e361a60d" kind="function"><name>execute</name></member>
+      <member refid="group__GeneralGroup_1ga4c412febc6da82629fc96409954f1824" kind="function"><name>wait</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
 <para>allows several threads to work on a group of tasks in isolation (in one arena): they cannot steal outside tasks until the all these tasks are finished; this solves the issue of recursive calling of the function where <ref refid="structMR_1_1TbbTaskArenaAndGroup" kindref="compound">TbbTaskArenaAndGroup</ref> was created </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTbbTaskArenaAndGroup.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTbbTaskArenaAndGroup.h" bodystart="13" bodyend="39"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTbbTaskArenaAndGroup.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTbbTaskArenaAndGroup.h" bodystart="16" bodyend="42"/>
     <listofallmembers>
-      <member refid="structMR_1_1TbbTaskArenaAndGroup_1a24c1257c943adf488e8748f5a05298ee" prot="public" virt="non-virtual"><scope>MR::TbbTaskArenaAndGroup</scope><name>arena</name></member>
-      <member refid="structMR_1_1TbbTaskArenaAndGroup_1a42c69991d5313139fd4a95c3e361a60d" prot="public" virt="non-virtual"><scope>MR::TbbTaskArenaAndGroup</scope><name>execute</name></member>
-      <member refid="structMR_1_1TbbTaskArenaAndGroup_1a1f5614244e1fa27e65469e5f0266ec4b" prot="public" virt="non-virtual"><scope>MR::TbbTaskArenaAndGroup</scope><name>group</name></member>
-      <member refid="structMR_1_1TbbTaskArenaAndGroup_1a4c412febc6da82629fc96409954f1824" prot="public" virt="non-virtual"><scope>MR::TbbTaskArenaAndGroup</scope><name>wait</name></member>
+      <member refid="group__GeneralGroup_1ga24c1257c943adf488e8748f5a05298ee" prot="public" virt="non-virtual"><scope>MR::TbbTaskArenaAndGroup</scope><name>arena</name></member>
+      <member refid="group__GeneralGroup_1ga42c69991d5313139fd4a95c3e361a60d" prot="public" virt="non-virtual"><scope>MR::TbbTaskArenaAndGroup</scope><name>execute</name></member>
+      <member refid="group__GeneralGroup_1ga1f5614244e1fa27e65469e5f0266ec4b" prot="public" virt="non-virtual"><scope>MR::TbbTaskArenaAndGroup</scope><name>group</name></member>
+      <member refid="group__GeneralGroup_1ga4c412febc6da82629fc96409954f1824" prot="public" virt="non-virtual"><scope>MR::TbbTaskArenaAndGroup</scope><name>wait</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

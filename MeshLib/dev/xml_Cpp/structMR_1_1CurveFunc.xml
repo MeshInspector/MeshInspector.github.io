@@ -4,46 +4,17 @@
     <compoundname>MR::CurveFunc</compoundname>
     <includes refid="MRCurve_8h" local="no">MRCurve.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1CurveFunc_1a7a92b6effeeb33d9c993fa589c5eff96" prot="public" static="no" mutable="no">
-        <type>std::function&lt; <ref refid="structMR_1_1CurvePoint" kindref="compound">CurvePoint</ref>(float)&gt;</type>
-        <definition>std::function&lt;CurvePoint( float )&gt; MR::CurveFunc::func</definition>
-        <argsstring></argsstring>
-        <name>func</name>
-        <qualifiedname>MR::CurveFunc::func</qualifiedname>
-        <briefdescription>
-<para>curve given as a function: position along curve -&gt; point </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCurve.h" line="19" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCurve.h" bodystart="19" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1CurveFunc_1a21b99a5ca399c63ce98b634bf83fb7fb" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::CurveFunc::totalLength</definition>
-        <argsstring></argsstring>
-        <name>totalLength</name>
-        <qualifiedname>MR::CurveFunc::totalLength</qualifiedname>
-        <initializer>= 1.0f</initializer>
-        <briefdescription>
-<para>total length of the given curve </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCurve.h" line="22" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCurve.h" bodystart="22" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga7a92b6effeeb33d9c993fa589c5eff96" kind="variable"><name>func</name></member>
+      <member refid="group__GeneralGroup_1ga21b99a5ca399c63ce98b634bf83fb7fb" kind="variable"><name>totalLength</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCurve.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCurve.h" bodystart="17" bodyend="26"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCurve.h" line="19" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCurve.h" bodystart="20" bodyend="29"/>
     <listofallmembers>
-      <member refid="structMR_1_1CurveFunc_1a7a92b6effeeb33d9c993fa589c5eff96" prot="public" virt="non-virtual"><scope>MR::CurveFunc</scope><name>func</name></member>
-      <member refid="structMR_1_1CurveFunc_1a21b99a5ca399c63ce98b634bf83fb7fb" prot="public" virt="non-virtual"><scope>MR::CurveFunc</scope><name>totalLength</name></member>
+      <member refid="group__GeneralGroup_1ga7a92b6effeeb33d9c993fa589c5eff96" prot="public" virt="non-virtual"><scope>MR::CurveFunc</scope><name>func</name></member>
+      <member refid="group__GeneralGroup_1ga21b99a5ca399c63ce98b634bf83fb7fb" prot="public" virt="non-virtual"><scope>MR::CurveFunc</scope><name>totalLength</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

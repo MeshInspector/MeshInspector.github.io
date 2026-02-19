@@ -8,13 +8,7 @@
     <includes local="yes">MRphmap.h</includes>
     <includes local="no">array</includes>
     <incdepgraph>
-      <node id="5">
-        <label>MRMesh/MRCanonicalTypedefs.h</label>
-        <link refid="MRCanonicalTypedefs_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
-      </node>
-      <node id="19">
+      <node id="11">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
@@ -23,51 +17,29 @@
         <link refid="MRId_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-      </node>
-      <node id="6">
-        <label>MRMesh/MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
-      </node>
-      <node id="3">
-        <label>MRMeshFwd.h</label>
-        <link refid="MRMeshFwd_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
       </node>
-      <node id="25">
+      <node id="4">
+        <label>MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="18">
         <label>MRResizeNoInit.h</label>
         <link refid="MRResizeNoInit_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="26" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -75,112 +47,99 @@
         <link refid="MRSeparationPoint_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
         <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="24" relation="include">
-        </childnode>
-        <childnode refid="27" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-      </node>
-      <node id="18">
-        <label>MRMesh/MRUnsigned.h</label>
-        <link refid="MRUnsigned_8h"/>
-        <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
-      </node>
-      <node id="24">
-        <label>MRVector.h</label>
-        <link refid="MRVector_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="25" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-      </node>
-      <node id="17">
-        <label>MRVector3.h</label>
-        <link refid="MRVector3_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="20" relation="include">
         </childnode>
         <childnode refid="21" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+      </node>
+      <node id="10">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="23" relation="include">
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>MRVector.h</label>
+        <link refid="MRVector_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
       </node>
-      <node id="4">
-        <label>config.h</label>
-        <link refid="MRMesh_2config_8h"/>
-      </node>
-      <node id="7">
-        <label>MRPch/MRBindingMacros.h</label>
-      </node>
-      <node id="27">
-        <label>MRphmap.h</label>
-      </node>
-      <node id="20">
-        <label>algorithm</label>
-      </node>
-      <node id="8">
-        <label>array</label>
-      </node>
-      <node id="13">
-        <label>cassert</label>
-      </node>
-      <node id="21">
-        <label>cmath</label>
-      </node>
-      <node id="26">
-        <label>concepts</label>
-      </node>
-      <node id="14">
-        <label>cstddef</label>
-      </node>
-      <node id="22">
-        <label>cstring</label>
+      <node id="3">
+        <label>MRMeshFwd.h</label>
       </node>
       <node id="12">
-        <label>functional</label>
+        <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="23">
-        <label>iosfwd</label>
+      <node id="20">
+        <label>MRphmap.h</label>
       </node>
-      <node id="11">
-        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      <node id="13">
+        <label>algorithm</label>
       </node>
-      <node id="10">
-        <label>string</label>
+      <node id="21">
+        <label>array</label>
+      </node>
+      <node id="5">
+        <label>cassert</label>
+      </node>
+      <node id="14">
+        <label>cmath</label>
+      </node>
+      <node id="19">
+        <label>concepts</label>
+      </node>
+      <node id="6">
+        <label>cstddef</label>
       </node>
       <node id="15">
-        <label>type_traits</label>
+        <label>cstring</label>
       </node>
       <node id="16">
-        <label>utility</label>
+        <label>iosfwd</label>
       </node>
-      <node id="9">
-        <label>vector</label>
+      <node id="7">
+        <label>type_traits</label>
+      </node>
+      <node id="8">
+        <label>utility</label>
       </node>
     </incdepgraph>
     <innerclass refid="classMR_1_1SeparationPointStorage" prot="public">MR::SeparationPointStorage</innerclass>
@@ -201,53 +160,54 @@
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="10"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="namespaceMR_1a280c060609c3f9f4b19b026220db29fe" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a280c060609c3f9f4b19b026220db29fe" kindref="member">NeighborDir</ref></highlight></codeline>
-<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a05195fdcf0d1d90b73a5d24b11150005a02129bb861061d1a052c592e2dc6b383" kindref="member">X</ref>,<sp/><ref refid="namespaceMR_1a05195fdcf0d1d90b73a5d24b11150005a57cec4137b614c87cb4e24a3d003a3e0" kindref="member">Y</ref>,<sp/><ref refid="namespaceMR_1a05195fdcf0d1d90b73a5d24b11150005a21c2e59531c8710156d34a3c30ac81d5" kindref="member">Z</ref>,<sp/><ref refid="namespaceMR_1a23e900d0cb79ee7e0562507ab9e9f562ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Count</ref></highlight></codeline>
-<codeline lineno="15"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="namespaceMR_1a9818c25296630cb432dbe0d4e068734d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1a9818c25296630cb432dbe0d4e068734d" kindref="member">SeparationPointSet</ref><sp/>=<sp/>std::array&lt;VertId,<sp/>size_t(<sp/><ref refid="namespaceMR_1a280c060609c3f9f4b19b026220db29feae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">NeighborDir::Count</ref><sp/>)&gt;;</highlight></codeline>
-<codeline lineno="18" refid="namespaceMR_1abe4fc717ac175a150ec372e71e5d0ba1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1abe4fc717ac175a150ec372e71e5d0ba1" kindref="member">SeparationPointMap</ref><sp/>=<sp/><ref refid="namespaceMR_1af8ad9e1b05a45987a3075d43bf345d68" kindref="member">HashMap&lt;size_t, SeparationPointSet&gt;</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="group__GeneralGroup_1ga280c060609c3f9f4b19b026220db29fe" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga280c060609c3f9f4b19b026220db29fe" kindref="member">NeighborDir</ref></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga05195fdcf0d1d90b73a5d24b11150005a02129bb861061d1a052c592e2dc6b383" kindref="member">X</ref>,<sp/><ref refid="group__GeneralGroup_1gga05195fdcf0d1d90b73a5d24b11150005a57cec4137b614c87cb4e24a3d003a3e0" kindref="member">Y</ref>,<sp/><ref refid="group__GeneralGroup_1gga05195fdcf0d1d90b73a5d24b11150005a21c2e59531c8710156d34a3c30ac81d5" kindref="member">Z</ref>,<sp/><ref refid="group__GeneralGroup_1gga23e900d0cb79ee7e0562507ab9e9f562ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Count</ref></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="classMR_1_1SeparationPointStorage" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1SeparationPointStorage" kindref="compound">SeparationPointStorage</ref></highlight></codeline>
-<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="24" refid="structMR_1_1SeparationPointStorage_1_1Block" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="keyword">alignas</highlight><highlight class="normal">(64)<sp/><ref refid="structMR_1_1SeparationPointStorage_1_1Block" kindref="compound">Block</ref></highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="26" refid="structMR_1_1SeparationPointStorage_1_1Block_1a171fe956486e01cdfdddedaedd905ca4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1abe4fc717ac175a150ec372e71e5d0ba1" kindref="member">SeparationPointMap</ref><sp/><ref refid="structMR_1_1SeparationPointStorage_1_1Block_1a171fe956486e01cdfdddedaedd905ca4" kindref="member">smap</ref>;</highlight></codeline>
-<codeline lineno="27" refid="structMR_1_1SeparationPointStorage_1_1Block_1a58df13a2b6e26ec0a73b3883451f7c27" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;Vector3f&gt;<sp/><ref refid="structMR_1_1SeparationPointStorage_1_1Block_1a58df13a2b6e26ec0a73b3883451f7c27" kindref="member">coords</ref>;</highlight></codeline>
-<codeline lineno="29" refid="structMR_1_1SeparationPointStorage_1_1Block_1ab2e39467c0dd89a73144f53515aaeedb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>VertId<sp/><ref refid="structMR_1_1SeparationPointStorage_1_1Block_1ab2e39467c0dd89a73144f53515aaeedb" kindref="member">shift</ref>;</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32" refid="structMR_1_1SeparationPointStorage_1_1Block_1a2ef8d933c08326819afd1d2681a5446c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>VertId<sp/><ref refid="structMR_1_1SeparationPointStorage_1_1Block_1a2ef8d933c08326819afd1d2681a5446c" kindref="member">nextVid</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>VertId(<sp/><ref refid="structMR_1_1SeparationPointStorage_1_1Block_1a58df13a2b6e26ec0a73b3883451f7c27" kindref="member">coords</ref>.size()<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="20" refid="group__GeneralGroup_1ga9818c25296630cb432dbe0d4e068734d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga9818c25296630cb432dbe0d4e068734d" kindref="member">SeparationPointSet</ref><sp/>=<sp/>std::array&lt;VertId,<sp/>size_t(<sp/><ref refid="group__GeneralGroup_1gga280c060609c3f9f4b19b026220db29feae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">NeighborDir::Count</ref><sp/>)&gt;;</highlight></codeline>
+<codeline lineno="21" refid="group__GeneralGroup_1gabe4fc717ac175a150ec372e71e5d0ba1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gabe4fc717ac175a150ec372e71e5d0ba1" kindref="member">SeparationPointMap</ref><sp/>=<sp/>HashMap&lt;size_t,<sp/>SeparationPointSet&gt;;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="classMR_1_1SeparationPointStorage" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1SeparationPointStorage" kindref="compound">SeparationPointStorage</ref></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="27" refid="structMR_1_1SeparationPointStorage_1_1Block" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="keyword">alignas</highlight><highlight class="normal">(64)<sp/><ref refid="structMR_1_1SeparationPointStorage_1_1Block" kindref="compound">Block</ref></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="29" refid="group__GeneralGroup_1ga171fe956486e01cdfdddedaedd905ca4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gabe4fc717ac175a150ec372e71e5d0ba1" kindref="member">SeparationPointMap</ref><sp/><ref refid="group__GeneralGroup_1ga171fe956486e01cdfdddedaedd905ca4" kindref="member">smap</ref>;</highlight></codeline>
+<codeline lineno="30" refid="group__GeneralGroup_1ga58df13a2b6e26ec0a73b3883451f7c27" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;Vector3f&gt;<sp/><ref refid="group__GeneralGroup_1ga58df13a2b6e26ec0a73b3883451f7c27" kindref="member">coords</ref>;</highlight></codeline>
+<codeline lineno="32" refid="group__GeneralGroup_1gab2e39467c0dd89a73144f53515aaeedb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>VertId<sp/><ref refid="group__GeneralGroup_1gab2e39467c0dd89a73144f53515aaeedb" kindref="member">shift</ref>;</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="structMR_1_1SeparationPointStorage_1_1Block_1a846d3bc158a03f5fd24580dc8b40e085" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Triangulation<sp/><ref refid="structMR_1_1SeparationPointStorage_1_1Block_1a846d3bc158a03f5fd24580dc8b40e085" kindref="member">tris</ref>;</highlight></codeline>
-<codeline lineno="35" refid="structMR_1_1SeparationPointStorage_1_1Block_1a3bb9eb5b60d6dcb38389506da2cb6a0e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;VoxelId, FaceId&gt;</ref><sp/><ref refid="structMR_1_1SeparationPointStorage_1_1Block_1a3bb9eb5b60d6dcb38389506da2cb6a0e" kindref="member">faceMap</ref>;</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39" refid="classMR_1_1SeparationPointStorage_1ac2cd0c47a3c902b6c162620b71ccf9c6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1SeparationPointStorage_1ac2cd0c47a3c902b6c162620b71ccf9c6" kindref="member">resize</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>blockCount,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>blockSize<sp/>);</highlight></codeline>
+<codeline lineno="35" refid="group__GeneralGroup_1ga2ef8d933c08326819afd1d2681a5446c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>VertId<sp/><ref refid="group__GeneralGroup_1ga2ef8d933c08326819afd1d2681a5446c" kindref="member">nextVid</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>VertId(<sp/><ref refid="group__GeneralGroup_1ga58df13a2b6e26ec0a73b3883451f7c27" kindref="member">coords</ref>.size()<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="group__GeneralGroup_1ga846d3bc158a03f5fd24580dc8b40e085" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Triangulation<sp/><ref refid="group__GeneralGroup_1ga846d3bc158a03f5fd24580dc8b40e085" kindref="member">tris</ref>;</highlight></codeline>
+<codeline lineno="38" refid="group__GeneralGroup_1ga3bb9eb5b60d6dcb38389506da2cb6a0e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;VoxelId, FaceId&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga3bb9eb5b60d6dcb38389506da2cb6a0e" kindref="member">faceMap</ref>;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42" refid="classMR_1_1SeparationPointStorage_1ad8c6370ffaec4ad07e20b71a365327d7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1SeparationPointStorage_1_1Block" kindref="compound">Block</ref><sp/>&amp;<sp/><ref refid="classMR_1_1SeparationPointStorage_1ad8c6370ffaec4ad07e20b71a365327d7" kindref="member">getBlock</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>blockIndex<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>blocks_[blockIndex];<sp/>}</highlight></codeline>
+<codeline lineno="42" refid="group__GeneralGroup_1gac2cd0c47a3c902b6c162620b71ccf9c6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac2cd0c47a3c902b6c162620b71ccf9c6" kindref="member">resize</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>blockCount,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>blockSize<sp/>);</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="46" refid="classMR_1_1SeparationPointStorage_1a99db5fa322a3860d51db5e4292a83786" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1SeparationPointStorage_1a99db5fa322a3860d51db5e4292a83786" kindref="member">makeUniqueVids</ref>();</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="49" refid="classMR_1_1SeparationPointStorage_1a4f797a53cf1d4fedcf01fbd51dcf3e04" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1SeparationPointStorage_1a4f797a53cf1d4fedcf01fbd51dcf3e04" kindref="member">findSeparationPointSet</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>voxelId<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>-&gt;<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a9818c25296630cb432dbe0d4e068734d" kindref="member">SeparationPointSet</ref><sp/>*</highlight></codeline>
-<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>&amp;<sp/>map<sp/>=<sp/>blocks_[voxelId<sp/>/<sp/>blockSize_].smap;</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>it<sp/>=<sp/>map.find(<sp/>voxelId<sp/>);</highlight></codeline>
-<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<sp/>it<sp/>!=<sp/>map.end()<sp/>)<sp/>?<sp/>&amp;it-&gt;second<sp/>:<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="55"><highlight class="normal"></highlight></codeline>
-<codeline lineno="57" refid="classMR_1_1SeparationPointStorage_1a3ad8f87539f118ca7419849b7029208b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>Triangulation<sp/><ref refid="classMR_1_1SeparationPointStorage_1a3ad8f87539f118ca7419849b7029208b" kindref="member">getTriangulation</ref>(<sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;VoxelId, FaceId&gt;</ref>*<sp/>outVoxelPerFaceMap<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="45" refid="group__GeneralGroup_1gad8c6370ffaec4ad07e20b71a365327d7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1SeparationPointStorage_1_1Block" kindref="compound">Block</ref><sp/>&amp;<sp/><ref refid="group__GeneralGroup_1gad8c6370ffaec4ad07e20b71a365327d7" kindref="member">getBlock</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>blockIndex<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>blocks_[blockIndex];<sp/>}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="group__GeneralGroup_1ga99db5fa322a3860d51db5e4292a83786" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga99db5fa322a3860d51db5e4292a83786" kindref="member">makeUniqueVids</ref>();</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="group__GeneralGroup_1ga4f797a53cf1d4fedcf01fbd51dcf3e04" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4f797a53cf1d4fedcf01fbd51dcf3e04" kindref="member">findSeparationPointSet</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>voxelId<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>-&gt;<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9818c25296630cb432dbe0d4e068734d" kindref="member">SeparationPointSet</ref><sp/>*</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>&amp;<sp/>map<sp/>=<sp/>blocks_[voxelId<sp/>/<sp/>blockSize_].smap;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>it<sp/>=<sp/>map.find(<sp/>voxelId<sp/>);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<sp/>it<sp/>!=<sp/>map.end()<sp/>)<sp/>?<sp/>&amp;it-&gt;second<sp/>:<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="58"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60" refid="classMR_1_1SeparationPointStorage_1a5a0d66ada3a7d052880ac0c16dfa4ca2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1SeparationPointStorage_1a5a0d66ada3a7d052880ac0c16dfa4ca2" kindref="member">getPoints</ref>(<sp/>VertCoords<sp/>&amp;<sp/>points<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="60" refid="group__GeneralGroup_1ga3ad8f87539f118ca7419849b7029208b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/>Triangulation<sp/><ref refid="group__GeneralGroup_1ga3ad8f87539f118ca7419849b7029208b" kindref="member">getTriangulation</ref>(<sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;VoxelId, FaceId&gt;</ref>*<sp/>outVoxelPerFaceMap<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
-<codeline lineno="62"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>blockSize_<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;Block&gt;<sp/>blocks_;</highlight></codeline>
-<codeline lineno="65"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="66"><highlight class="normal"></highlight></codeline>
-<codeline lineno="67"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="63" refid="group__GeneralGroup_1ga5a0d66ada3a7d052880ac0c16dfa4ca2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5a0d66ada3a7d052880ac0c16dfa4ca2" kindref="member">getPoints</ref>(<sp/>VertCoords<sp/>&amp;<sp/>points<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>blockSize_<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;Block&gt;<sp/>blocks_;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal">}<sp/></highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSeparationPoint.h"/>
   </compounddef>

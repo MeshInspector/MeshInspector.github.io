@@ -9,80 +9,21 @@
       </param>
     </templateparamlist>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1Parallel_1_1CallWithTLS_1a722db6d032253e8f27ba25efd31f43c3" prot="public" static="no" mutable="no">
-        <type>T &amp;</type>
-        <definition>T&amp; MR::Parallel::CallWithTLS&lt; T &gt;::tls</definition>
-        <argsstring></argsstring>
-        <name>tls</name>
-        <qualifiedname>MR::Parallel::CallWithTLS::tls</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallel.h" line="25" column="8" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallel.h" bodystart="25" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga722db6d032253e8f27ba25efd31f43c3" kind="variable"><name>tls</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1Parallel_1_1CallWithTLS_1ad5299ab010ebcba9b1e37ad61cb59b25" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>auto</type>
-        <definition>auto MR::Parallel::CallWithTLS&lt; T &gt;::operator()</definition>
-        <argsstring>(auto &amp;&amp;f, auto id) const</argsstring>
-        <name>operator()</name>
-        <qualifiedname>MR::Parallel::CallWithTLS::operator()</qualifiedname>
-        <param>
-          <type>auto &amp;&amp;</type>
-          <declname>f</declname>
-        </param>
-        <param>
-          <type>auto</type>
-          <declname>id</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallel.h" line="26" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallel.h" bodystart="26" bodyend="26"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Parallel_1_1CallWithTLS_1abc22f0ca644c177ec27809d7804e79fc" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>auto</type>
-        <definition>auto MR::Parallel::CallWithTLS&lt; T &gt;::operator()</definition>
-        <argsstring>(auto &amp;&amp;f, auto id, auto &amp;&amp;subrange) const</argsstring>
-        <name>operator()</name>
-        <qualifiedname>MR::Parallel::CallWithTLS::operator()</qualifiedname>
-        <param>
-          <type>auto &amp;&amp;</type>
-          <declname>f</declname>
-        </param>
-        <param>
-          <type>auto</type>
-          <declname>id</declname>
-        </param>
-        <param>
-          <type>auto &amp;&amp;</type>
-          <declname>subrange</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallel.h" line="27" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallel.h" bodystart="27" bodyend="27"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gad5299ab010ebcba9b1e37ad61cb59b25" kind="function"><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1gabc22f0ca644c177ec27809d7804e79fc" kind="function"><name>operator()</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallel.h" line="23" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallel.h" bodystart="24" bodyend="28"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallel.h" line="26" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallel.h" bodystart="27" bodyend="31"/>
     <listofallmembers>
-      <member refid="structMR_1_1Parallel_1_1CallWithTLS_1ad5299ab010ebcba9b1e37ad61cb59b25" prot="public" virt="non-virtual"><scope>MR::Parallel::CallWithTLS</scope><name>operator()</name></member>
-      <member refid="structMR_1_1Parallel_1_1CallWithTLS_1abc22f0ca644c177ec27809d7804e79fc" prot="public" virt="non-virtual"><scope>MR::Parallel::CallWithTLS</scope><name>operator()</name></member>
-      <member refid="structMR_1_1Parallel_1_1CallWithTLS_1a722db6d032253e8f27ba25efd31f43c3" prot="public" virt="non-virtual"><scope>MR::Parallel::CallWithTLS</scope><name>tls</name></member>
+      <member refid="group__GeneralGroup_1gad5299ab010ebcba9b1e37ad61cb59b25" prot="public" virt="non-virtual"><scope>MR::Parallel::CallWithTLS</scope><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1gabc22f0ca644c177ec27809d7804e79fc" prot="public" virt="non-virtual"><scope>MR::Parallel::CallWithTLS</scope><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1ga722db6d032253e8f27ba25efd31f43c3" prot="public" virt="non-virtual"><scope>MR::Parallel::CallWithTLS</scope><name>tls</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

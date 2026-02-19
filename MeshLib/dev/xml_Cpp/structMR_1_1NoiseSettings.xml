@@ -4,62 +4,19 @@
     <compoundname>MR::NoiseSettings</compoundname>
     <includes refid="MRAddNoise_8h" local="no">MRAddNoise.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1NoiseSettings_1a737d9ffe78cecf476dbba17c7a68e40d" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::NoiseSettings::sigma</definition>
-        <argsstring></argsstring>
-        <name>sigma</name>
-        <qualifiedname>MR::NoiseSettings::sigma</qualifiedname>
-        <initializer>= 0.01f</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAddNoise.h" line="14" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAddNoise.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1NoiseSettings_1a81d588d7442ccd8974d74cb6dbaca36d" prot="public" static="no" mutable="no">
-        <type>unsigned int</type>
-        <definition>unsigned int MR::NoiseSettings::seed</definition>
-        <argsstring></argsstring>
-        <name>seed</name>
-        <qualifiedname>MR::NoiseSettings::seed</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-<para>start state of the generator engine </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAddNoise.h" line="16" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAddNoise.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1NoiseSettings_1a414f4d6065c24f7db4605e0dac3362b8" prot="public" static="no" mutable="no">
-        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
-        <definition>ProgressCallback MR::NoiseSettings::callback</definition>
-        <argsstring></argsstring>
-        <name>callback</name>
-        <qualifiedname>MR::NoiseSettings::callback</qualifiedname>
-        <initializer>= {}</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAddNoise.h" line="17" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAddNoise.h" bodystart="17" bodyend="17"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga737d9ffe78cecf476dbba17c7a68e40d" kind="variable"><name>sigma</name></member>
+      <member refid="group__GeneralGroup_1ga81d588d7442ccd8974d74cb6dbaca36d" kind="variable"><name>seed</name></member>
+      <member refid="group__GeneralGroup_1ga414f4d6065c24f7db4605e0dac3362b8" kind="variable"><name>callback</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAddNoise.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAddNoise.h" bodystart="13" bodyend="18"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAddNoise.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAddNoise.h" bodystart="16" bodyend="21"/>
     <listofallmembers>
-      <member refid="structMR_1_1NoiseSettings_1a414f4d6065c24f7db4605e0dac3362b8" prot="public" virt="non-virtual"><scope>MR::NoiseSettings</scope><name>callback</name></member>
-      <member refid="structMR_1_1NoiseSettings_1a81d588d7442ccd8974d74cb6dbaca36d" prot="public" virt="non-virtual"><scope>MR::NoiseSettings</scope><name>seed</name></member>
-      <member refid="structMR_1_1NoiseSettings_1a737d9ffe78cecf476dbba17c7a68e40d" prot="public" virt="non-virtual"><scope>MR::NoiseSettings</scope><name>sigma</name></member>
+      <member refid="group__GeneralGroup_1ga414f4d6065c24f7db4605e0dac3362b8" prot="public" virt="non-virtual"><scope>MR::NoiseSettings</scope><name>callback</name></member>
+      <member refid="group__GeneralGroup_1ga81d588d7442ccd8974d74cb6dbaca36d" prot="public" virt="non-virtual"><scope>MR::NoiseSettings</scope><name>seed</name></member>
+      <member refid="group__GeneralGroup_1ga737d9ffe78cecf476dbba17c7a68e40d" prot="public" virt="non-virtual"><scope>MR::NoiseSettings</scope><name>sigma</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

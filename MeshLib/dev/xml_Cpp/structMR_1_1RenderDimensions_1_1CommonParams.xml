@@ -4,37 +4,8 @@
     <compoundname>MR::RenderDimensions::CommonParams</compoundname>
     <includes refid="MRRenderDimensions_8h" local="no">MRRenderDimensions.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1RenderDimensions_1_1CommonParams_1a24e53f6e56b159ccb14495ab5e06145f" prot="public" static="no" mutable="no">
-        <type>const <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> *</type>
-        <definition>const VisualObject* MR::RenderDimensions::CommonParams::objectToSelect</definition>
-        <argsstring></argsstring>
-        <name>objectToSelect</name>
-        <qualifiedname>MR::RenderDimensions::CommonParams::objectToSelect</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>What object to select when the label is clicked. Optional. Not clickable if this is null. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" line="29" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" bodystart="29" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1RenderDimensions_1_1CommonParams_1aa609dc0e9f68c9ca781df34a9acbe475" prot="public" static="no" mutable="no">
-        <type>std::string</type>
-        <definition>std::string MR::RenderDimensions::CommonParams::objectName</definition>
-        <argsstring></argsstring>
-        <name>objectName</name>
-        <qualifiedname>MR::RenderDimensions::CommonParams::objectName</qualifiedname>
-        <briefdescription>
-<para>Optional. If specified, this name is drawn above the measurement. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" line="32" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" bodystart="32" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga24e53f6e56b159ccb14495ab5e06145f" kind="variable"><name>objectToSelect</name></member>
+      <member refid="group__GeneralGroup_1gaa609dc0e9f68c9ca781df34a9acbe475" kind="variable"><name>objectName</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -129,10 +100,10 @@
         <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" line="25" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" bodystart="26" bodyend="33"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" line="28" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" bodystart="29" bodyend="36"/>
     <listofallmembers>
-      <member refid="structMR_1_1RenderDimensions_1_1CommonParams_1aa609dc0e9f68c9ca781df34a9acbe475" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::CommonParams</scope><name>objectName</name></member>
-      <member refid="structMR_1_1RenderDimensions_1_1CommonParams_1a24e53f6e56b159ccb14495ab5e06145f" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::CommonParams</scope><name>objectToSelect</name></member>
+      <member refid="group__GeneralGroup_1gaa609dc0e9f68c9ca781df34a9acbe475" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::CommonParams</scope><name>objectName</name></member>
+      <member refid="group__GeneralGroup_1ga24e53f6e56b159ccb14495ab5e06145f" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::CommonParams</scope><name>objectToSelect</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

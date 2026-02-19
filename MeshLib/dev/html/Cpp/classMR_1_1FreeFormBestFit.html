@@ -148,7 +148,7 @@ $(function(){initNavTree('classMR_1_1FreeFormBestFit.html',''); initResizable(tr
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classMR_1_1FreeFormBestFit-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">MR::FreeFormBestFit Class Reference</div></div>
+  <div class="headertitle"><div class="title">MR::FreeFormBestFit Class Reference<div class="ingroups"><a class="el" href="group__GeneralGroup.html">GeneralGroup</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -156,212 +156,28 @@ $(function(){initNavTree('classMR_1_1FreeFormBestFit.html',''); initResizable(tr
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ab4da354aabbcd433f8e592efba7472a7" id="r_ab4da354aabbcd433f8e592efba7472a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4da354aabbcd433f8e592efba7472a7">FreeFormBestFit</a> (const Box3d &amp;box, const Vector3i &amp;resolution=Vector3i::diagonal(2))</td></tr>
-<tr class="memdesc:ab4da354aabbcd433f8e592efba7472a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialize the class, compute cached values and reserve space for matrices  <br /></td></tr>
-<tr class="separator:ab4da354aabbcd433f8e592efba7472a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11e739e1974c8b474fb6f111f59b9cb8" id="r_a11e739e1974c8b474fb6f111f59b9cb8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11e739e1974c8b474fb6f111f59b9cb8">addPair</a> (const Vector3d &amp;src, const Vector3d &amp;tgt, double w=1.0)</td></tr>
-<tr class="memdesc:a11e739e1974c8b474fb6f111f59b9cb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">add pair of source and target point to accumulator  <br /></td></tr>
-<tr class="separator:a11e739e1974c8b474fb6f111f59b9cb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e0c21c2de7ea212b991b59d105e79bd" id="r_a5e0c21c2de7ea212b991b59d105e79bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e0c21c2de7ea212b991b59d105e79bd">addPair</a> (const Vector3f &amp;src, const Vector3f &amp;tgt, float w=1.0f)</td></tr>
-<tr class="separator:a5e0c21c2de7ea212b991b59d105e79bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92fb64c83b3d706c39e60b22c99bdfd1" id="r_a92fb64c83b3d706c39e60b22c99bdfd1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92fb64c83b3d706c39e60b22c99bdfd1">addOther</a> (const <a class="el" href="classMR_1_1FreeFormBestFit.html">FreeFormBestFit</a> &amp;<a class="el" href="namespaceMR.html#a24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf">other</a>)</td></tr>
-<tr class="memdesc:a92fb64c83b3d706c39e60b22c99bdfd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds other instance of <a class="el" href="classMR_1_1FreeFormBestFit.html">FreeFormBestFit</a> if it has same ref grid  <br /></td></tr>
-<tr class="separator:a92fb64c83b3d706c39e60b22c99bdfd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7da32b588679f5a44bb7394b8906ed3c" id="r_a7da32b588679f5a44bb7394b8906ed3c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7da32b588679f5a44bb7394b8906ed3c">setStabilizer</a> (double stabilizer)</td></tr>
-<tr class="separator:a7da32b588679f5a44bb7394b8906ed3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74da50410f7eed1cfc466b2a63ba919d" id="r_a74da50410f7eed1cfc466b2a63ba919d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74da50410f7eed1cfc466b2a63ba919d">getStabilizer</a> () const</td></tr>
-<tr class="separator:a74da50410f7eed1cfc466b2a63ba919d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ba45d03a34b8ab81b1d6ecbc6893453" id="r_a8ba45d03a34b8ab81b1d6ecbc6893453"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; Vector3f &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ba45d03a34b8ab81b1d6ecbc6893453">findBestDeformationReferenceGrid</a> ()</td></tr>
-<tr class="memdesc:a8ba45d03a34b8ab81b1d6ecbc6893453"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds best grid points positions to align source points to target points  <br /></td></tr>
-<tr class="separator:a8ba45d03a34b8ab81b1d6ecbc6893453"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab4da354aabbcd433f8e592efba7472a7" id="r_gab4da354aabbcd433f8e592efba7472a7"><td class="memItemLeft" align="right" valign="top">MRMESH_API&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gab4da354aabbcd433f8e592efba7472a7">FreeFormBestFit</a> (const Box3d &amp;box, const Vector3i &amp;resolution=Vector3i::diagonal(2))</td></tr>
+<tr class="memdesc:gab4da354aabbcd433f8e592efba7472a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialize the class, compute cached values and reserve space for matrices  <br /></td></tr>
+<tr class="separator:gab4da354aabbcd433f8e592efba7472a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga11e739e1974c8b474fb6f111f59b9cb8" id="r_ga11e739e1974c8b474fb6f111f59b9cb8"><td class="memItemLeft" align="right" valign="top">MRMESH_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga11e739e1974c8b474fb6f111f59b9cb8">addPair</a> (const Vector3d &amp;src, const Vector3d &amp;tgt, double w=1.0)</td></tr>
+<tr class="memdesc:ga11e739e1974c8b474fb6f111f59b9cb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">add pair of source and target point to accumulator  <br /></td></tr>
+<tr class="separator:ga11e739e1974c8b474fb6f111f59b9cb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5e0c21c2de7ea212b991b59d105e79bd" id="r_ga5e0c21c2de7ea212b991b59d105e79bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga5e0c21c2de7ea212b991b59d105e79bd">addPair</a> (const Vector3f &amp;src, const Vector3f &amp;tgt, float w=1.0f)</td></tr>
+<tr class="separator:ga5e0c21c2de7ea212b991b59d105e79bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga92fb64c83b3d706c39e60b22c99bdfd1" id="r_ga92fb64c83b3d706c39e60b22c99bdfd1"><td class="memItemLeft" align="right" valign="top">MRMESH_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga92fb64c83b3d706c39e60b22c99bdfd1">addOther</a> (const <a class="el" href="classMR_1_1FreeFormBestFit.html">FreeFormBestFit</a> &amp;<a class="el" href="group__GeneralGroup.html#gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf">other</a>)</td></tr>
+<tr class="memdesc:ga92fb64c83b3d706c39e60b22c99bdfd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds other instance of <a class="el" href="classMR_1_1FreeFormBestFit.html">FreeFormBestFit</a> if it has same ref grid  <br /></td></tr>
+<tr class="separator:ga92fb64c83b3d706c39e60b22c99bdfd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7da32b588679f5a44bb7394b8906ed3c" id="r_ga7da32b588679f5a44bb7394b8906ed3c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga7da32b588679f5a44bb7394b8906ed3c">setStabilizer</a> (double stabilizer)</td></tr>
+<tr class="separator:ga7da32b588679f5a44bb7394b8906ed3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga74da50410f7eed1cfc466b2a63ba919d" id="r_ga74da50410f7eed1cfc466b2a63ba919d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga74da50410f7eed1cfc466b2a63ba919d">getStabilizer</a> () const</td></tr>
+<tr class="separator:ga74da50410f7eed1cfc466b2a63ba919d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8ba45d03a34b8ab81b1d6ecbc6893453" id="r_ga8ba45d03a34b8ab81b1d6ecbc6893453"><td class="memItemLeft" align="right" valign="top">MRMESH_API std::vector&lt; Vector3f &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga8ba45d03a34b8ab81b1d6ecbc6893453">findBestDeformationReferenceGrid</a> ()</td></tr>
+<tr class="memdesc:ga8ba45d03a34b8ab81b1d6ecbc6893453"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds best grid points positions to align source points to target points  <br /></td></tr>
+<tr class="separator:ga8ba45d03a34b8ab81b1d6ecbc6893453"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class to accumulate source and target points for free form alignment Calculates best Free Form transform to fit given source-&gt;target deformation origin ref grid as box corners ( resolution parameter specifies how to divide box ) </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ab4da354aabbcd433f8e592efba7472a7" name="ab4da354aabbcd433f8e592efba7472a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab4da354aabbcd433f8e592efba7472a7">&#9670;&#160;</a></span>FreeFormBestFit()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> MR::FreeFormBestFit::FreeFormBestFit </td>
-          <td>(</td>
-          <td class="paramtype">const Box3d &amp;</td>          <td class="paramname"><span class="paramname"><em>box</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>resolution</em></span><span class="paramdefsep"> = </span><span class="paramdefval">Vector3i::diagonal(2)</span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>initialize the class, compute cached values and reserve space for matrices </p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a92fb64c83b3d706c39e60b22c99bdfd1" name="a92fb64c83b3d706c39e60b22c99bdfd1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a92fb64c83b3d706c39e60b22c99bdfd1">&#9670;&#160;</a></span>addOther()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::FreeFormBestFit::addOther </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1FreeFormBestFit.html">FreeFormBestFit</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>adds other instance of <a class="el" href="classMR_1_1FreeFormBestFit.html">FreeFormBestFit</a> if it has same ref grid </p>
-
-</div>
-</div>
-<a id="a11e739e1974c8b474fb6f111f59b9cb8" name="a11e739e1974c8b474fb6f111f59b9cb8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11e739e1974c8b474fb6f111f59b9cb8">&#9670;&#160;</a></span>addPair() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::FreeFormBestFit::addPair </td>
-          <td>(</td>
-          <td class="paramtype">const Vector3d &amp;</td>          <td class="paramname"><span class="paramname"><em>src</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Vector3d &amp;</td>          <td class="paramname"><span class="paramname"><em>tgt</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>w</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1.0</span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>add pair of source and target point to accumulator </p>
-
-</div>
-</div>
-<a id="a5e0c21c2de7ea212b991b59d105e79bd" name="a5e0c21c2de7ea212b991b59d105e79bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5e0c21c2de7ea212b991b59d105e79bd">&#9670;&#160;</a></span>addPair() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MR::FreeFormBestFit::addPair </td>
-          <td>(</td>
-          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>src</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>tgt</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>w</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1.0f</span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8ba45d03a34b8ab81b1d6ecbc6893453" name="a8ba45d03a34b8ab81b1d6ecbc6893453"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8ba45d03a34b8ab81b1d6ecbc6893453">&#9670;&#160;</a></span>findBestDeformationReferenceGrid()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; Vector3f &gt; MR::FreeFormBestFit::findBestDeformationReferenceGrid </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>finds best grid points positions to align source points to target points </p>
-
-</div>
-</div>
-<a id="a74da50410f7eed1cfc466b2a63ba919d" name="a74da50410f7eed1cfc466b2a63ba919d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a74da50410f7eed1cfc466b2a63ba919d">&#9670;&#160;</a></span>getStabilizer()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double MR::FreeFormBestFit::getStabilizer </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7da32b588679f5a44bb7394b8906ed3c" name="a7da32b588679f5a44bb7394b8906ed3c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7da32b588679f5a44bb7394b8906ed3c">&#9670;&#160;</a></span>setStabilizer()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MR::FreeFormBestFit::setStabilizer </td>
-          <td>(</td>
-          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>stabilizer</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>stabilizer adds additional weights to keep result grid closer to origins recommended values (0;1], but it can be higher </p>
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+</div><hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="MRFreeFormDeformer_8h_source.html">MRFreeFormDeformer.h</a></li>
 </ul>
 </div><!-- contents -->

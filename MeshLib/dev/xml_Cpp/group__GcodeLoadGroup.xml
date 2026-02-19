@@ -5,7 +5,7 @@
     <title>Mesh Load</title>
     <sectiondef kind="var">
       <memberdef kind="variable" id="group__GcodeLoadGroup_1ga35effe39ccae6c9f42a114a9dac9bf44" prot="public" static="no" extern="yes" mutable="no">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> const IOFilters</type>
+        <type>MRMESH_API const IOFilters</type>
         <definition>MRMESH_API const IOFilters MR::GcodeLoad::Filters</definition>
         <argsstring></argsstring>
         <name>Filters</name>
@@ -21,7 +21,7 @@
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="group__GcodeLoadGroup_1ga3fb5b21ae941b7ddf2b03fe3cd86d6d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; GcodeSource &gt;</type>
+        <type>MRMESH_API Expected&lt; GcodeSource &gt;</type>
         <definition>MRMESH_API Expected&lt; GcodeSource &gt; MR::GcodeLoad::fromGcode</definition>
         <argsstring>(const std::filesystem::path &amp;file, ProgressCallback callback={})</argsstring>
         <name>fromGcode</name>
@@ -45,7 +45,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeLoad.h" line="23" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeLoad.h" declline="23" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__GcodeLoadGroup_1ga189701bf2d6aeb45f33edd76af737827" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; GcodeSource &gt;</type>
+        <type>MRMESH_API Expected&lt; GcodeSource &gt;</type>
         <definition>MRMESH_API Expected&lt; GcodeSource &gt; MR::GcodeLoad::fromGcode</definition>
         <argsstring>(std::istream &amp;in, ProgressCallback callback={})</argsstring>
         <name>fromGcode</name>
@@ -68,7 +68,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeLoad.h" line="25" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeLoad.h" declline="25" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__GcodeLoadGroup_1ga735fe0c1addb07566dd89260cdaff6c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; GcodeSource &gt;</type>
+        <type>MRMESH_API Expected&lt; GcodeSource &gt;</type>
         <definition>MRMESH_API Expected&lt; GcodeSource &gt; MR::GcodeLoad::fromAnySupportedFormat</definition>
         <argsstring>(const std::filesystem::path &amp;file, ProgressCallback callback={})</argsstring>
         <name>fromAnySupportedFormat</name>
@@ -92,7 +92,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeLoad.h" line="29" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeLoad.h" declline="29" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__GcodeLoadGroup_1ga8be6edc15f79ed3847e61a3704ad234d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; GcodeSource &gt;</type>
+        <type>MRMESH_API Expected&lt; GcodeSource &gt;</type>
         <definition>MRMESH_API Expected&lt; GcodeSource &gt; MR::GcodeLoad::fromAnySupportedFormat</definition>
         <argsstring>(std::istream &amp;in, const std::string &amp;extension, ProgressCallback callback={})</argsstring>
         <name>fromAnySupportedFormat</name>

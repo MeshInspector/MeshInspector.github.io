@@ -23,7 +23,7 @@
     </sectiondef>
     <sectiondef kind="public-func">
       <memberdef kind="function" id="classMR_1_1PointsProjector_1abbb8bb3a25f447af9b6abe188662181a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <type>MRMESH_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
         <definition>MRMESH_API Expected&lt; void &gt; MR::PointsProjector::setPointCloud</definition>
         <argsstring>(const PointCloud &amp;pointCloud) override</argsstring>
         <name>setPointCloud</name>
@@ -43,7 +43,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" line="113" column="25"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointsProjector_1a7f6e0c85341469a32a8424abb1a7e25f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <type>MRMESH_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
         <definition>MRMESH_API Expected&lt; void &gt; MR::PointsProjector::findProjections</definition>
         <argsstring>(std::vector&lt; PointsProjectionResult &gt; &amp;results, const std::vector&lt; Vector3f &gt; &amp;points, const FindProjectionOnPointsSettings &amp;settings) const override</argsstring>
         <name>findProjections</name>
@@ -71,7 +71,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" line="116" column="25"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointsProjector_1a2ae04a83d426c8411c3e839482a1f96f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> size_t</type>
+        <type>MRMESH_API size_t</type>
         <definition>virtual MRMESH_API size_t MR::PointsProjector::projectionsHeapBytes</definition>
         <argsstring>(size_t numProjections) const override</argsstring>
         <name>projectionsHeapBytes</name>

@@ -5,58 +5,11 @@
     <derivedcompoundref refid="classMR_1_1ObjectFactory" prot="public" virt="non-virtual">MR::ObjectFactory&lt; T &gt;</derivedcompoundref>
     <includes refid="MRObjectFactory_8h" local="no">MRObjectFactory.h</includes>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1ObjectFactoryBase_1a48f50f91bb6c365827044dcd2dc82008" prot="private" static="no" mutable="no">
-        <type>std::string</type>
-        <definition>std::string MR::ObjectFactoryBase::className_</definition>
-        <argsstring></argsstring>
-        <name>className_</name>
-        <qualifiedname>MR::ObjectFactoryBase::className_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectFactory.h" line="30" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectFactory.h" bodystart="30" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga48f50f91bb6c365827044dcd2dc82008" kind="variable"><name>className_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1ObjectFactoryBase_1aa58c04997252d38070201583bd163e4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="namespaceMR_1ac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref> <ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
-        <definition>MR_BIND_IGNORE MRMESH_API MR::ObjectFactoryBase::ObjectFactoryBase</definition>
-        <argsstring>(std::string className, ObjectMakerFunc *creator)</argsstring>
-        <name>ObjectFactoryBase</name>
-        <qualifiedname>MR::ObjectFactoryBase::ObjectFactoryBase</qualifiedname>
-        <param>
-          <type>std::string</type>
-          <declname>className</declname>
-        </param>
-        <param>
-          <type><ref refid="namespaceMR_1a748899906b8ac8f5f125c7f913e38007" kindref="member">ObjectMakerFunc</ref> *</type>
-          <declname>creator</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectFactory.h" line="26" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectFactoryBase_1a93cb60b621c8a8657c9e22d6eb464369" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
-        <definition>MRMESH_API MR::ObjectFactoryBase::~ObjectFactoryBase</definition>
-        <argsstring>()</argsstring>
-        <name>~ObjectFactoryBase</name>
-        <qualifiedname>MR::ObjectFactoryBase::~ObjectFactoryBase</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectFactory.h" line="27" column="16"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaa58c04997252d38070201583bd163e4b" kind="function"><name>ObjectFactoryBase</name></member>
+      <member refid="group__GeneralGroup_1ga93cb60b621c8a8657c9e22d6eb464369" kind="function"><name>~ObjectFactoryBase</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -74,11 +27,11 @@
         <link refid="classMR_1_1ObjectFactoryBase"/>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectFactory.h" line="23" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectFactory.h" bodystart="24" bodyend="31"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectFactory.h" line="26" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectFactory.h" bodystart="27" bodyend="34"/>
     <listofallmembers>
-      <member refid="classMR_1_1ObjectFactoryBase_1a48f50f91bb6c365827044dcd2dc82008" prot="private" virt="non-virtual"><scope>MR::ObjectFactoryBase</scope><name>className_</name></member>
-      <member refid="classMR_1_1ObjectFactoryBase_1aa58c04997252d38070201583bd163e4b" prot="public" virt="non-virtual"><scope>MR::ObjectFactoryBase</scope><name>ObjectFactoryBase</name></member>
-      <member refid="classMR_1_1ObjectFactoryBase_1a93cb60b621c8a8657c9e22d6eb464369" prot="public" virt="non-virtual"><scope>MR::ObjectFactoryBase</scope><name>~ObjectFactoryBase</name></member>
+      <member refid="group__GeneralGroup_1ga48f50f91bb6c365827044dcd2dc82008" prot="private" virt="non-virtual"><scope>MR::ObjectFactoryBase</scope><name>className_</name></member>
+      <member refid="group__GeneralGroup_1gaa58c04997252d38070201583bd163e4b" prot="public" virt="non-virtual"><scope>MR::ObjectFactoryBase</scope><name>ObjectFactoryBase</name></member>
+      <member refid="group__GeneralGroup_1ga93cb60b621c8a8657c9e22d6eb464369" prot="public" virt="non-virtual"><scope>MR::ObjectFactoryBase</scope><name>~ObjectFactoryBase</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

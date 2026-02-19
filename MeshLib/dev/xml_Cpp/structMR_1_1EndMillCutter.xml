@@ -4,136 +4,26 @@
     <compoundname>MR::EndMillCutter</compoundname>
     <includes refid="MREndMill_8h" local="no">MREndMill.h</includes>
     <sectiondef kind="public-type">
-      <memberdef kind="enum" id="structMR_1_1EndMillCutter_1ab507809dfb8f5d7c74c8629fbb94d518" prot="public" static="no" strong="yes">
-        <type></type>
-        <name>Type</name>
-        <qualifiedname>MR::EndMillCutter::Type</qualifiedname>
-        <enumvalue id="structMR_1_1EndMillCutter_1ab507809dfb8f5d7c74c8629fbb94d518a745e3db6a7ffd50e1a72b39482f0882d" prot="public">
-          <name>Flat</name>
-          <briefdescription>
-<para>flat end mill </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="structMR_1_1EndMillCutter_1ab507809dfb8f5d7c74c8629fbb94d518a353df421c4fc976e2637061d7a83f601" prot="public">
-          <name>Ball</name>
-          <briefdescription>
-<para>ball end mill </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="structMR_1_1EndMillCutter_1ab507809dfb8f5d7c74c8629fbb94d518a7081aaaca6f0bb0d1f920ba52c6c287c" prot="public">
-          <name>BullNose</name>
-          <briefdescription>
-<para>bull nose end mill </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="structMR_1_1EndMillCutter_1ab507809dfb8f5d7c74c8629fbb94d518ae837b737dc29d88107296d9f4aca6b29" prot="public">
-          <name>Chamfer</name>
-          <briefdescription>
-<para>chamfer end mill </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="structMR_1_1EndMillCutter_1ab507809dfb8f5d7c74c8629fbb94d518ae93f994f01c537c4e2f7d8528c3eb5e9" prot="public">
-          <name>Count</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-<para>cutter type </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREndMill.h" line="15" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREndMill.h" bodystart="16" bodyend="27"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gab507809dfb8f5d7c74c8629fbb94d518" kind="enum"><name>Type</name></member>
     </sectiondef>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1EndMillCutter_1a345bf16216bfaccfd158af74e386acbc" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1EndMillCutter_1ab507809dfb8f5d7c74c8629fbb94d518" kindref="member">Type</ref></type>
-        <definition>Type MR::EndMillCutter::type</definition>
-        <argsstring></argsstring>
-        <name>type</name>
-        <qualifiedname>MR::EndMillCutter::type</qualifiedname>
-        <initializer>= <ref refid="structMR_1_1EndMillCutter_1ab507809dfb8f5d7c74c8629fbb94d518a745e3db6a7ffd50e1a72b39482f0882d" kindref="member">Type::Flat</ref></initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREndMill.h" line="28" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREndMill.h" bodystart="28" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1EndMillCutter_1a70c992b2d214834d246a23811425f9d8" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::EndMillCutter::cornerRadius</definition>
-        <argsstring></argsstring>
-        <name>cornerRadius</name>
-        <qualifiedname>MR::EndMillCutter::cornerRadius</qualifiedname>
-        <initializer>= 0.f</initializer>
-        <briefdescription>
-<para>(bull nose) corner radius </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREndMill.h" line="30" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREndMill.h" bodystart="30" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1EndMillCutter_1a81eafe021d71d7fb7b20c845dc847c94" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::EndMillCutter::cuttingAngle</definition>
-        <argsstring></argsstring>
-        <name>cuttingAngle</name>
-        <qualifiedname>MR::EndMillCutter::cuttingAngle</qualifiedname>
-        <initializer>= 0.f</initializer>
-        <briefdescription>
-<para>(chamfer) cutting angle </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREndMill.h" line="32" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREndMill.h" bodystart="32" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1EndMillCutter_1ac48d5c8fc78e3aaa89d3614f193fbfd7" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::EndMillCutter::endDiameter</definition>
-        <argsstring></argsstring>
-        <name>endDiameter</name>
-        <qualifiedname>MR::EndMillCutter::endDiameter</qualifiedname>
-        <initializer>= 0.f</initializer>
-        <briefdescription>
-<para>(chamfer) end diameter </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREndMill.h" line="34" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREndMill.h" bodystart="34" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga345bf16216bfaccfd158af74e386acbc" kind="variable"><name>type</name></member>
+      <member refid="group__GeneralGroup_1ga70c992b2d214834d246a23811425f9d8" kind="variable"><name>cornerRadius</name></member>
+      <member refid="group__GeneralGroup_1ga81eafe021d71d7fb7b20c845dc847c94" kind="variable"><name>cuttingAngle</name></member>
+      <member refid="group__GeneralGroup_1gac48d5c8fc78e3aaa89d3614f193fbfd7" kind="variable"><name>endDiameter</name></member>
     </sectiondef>
     <briefdescription>
 <para>end mill cutter specifications </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREndMill.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREndMill.h" bodystart="13" bodyend="35"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREndMill.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREndMill.h" bodystart="16" bodyend="38"/>
     <listofallmembers>
-      <member refid="structMR_1_1EndMillCutter_1a70c992b2d214834d246a23811425f9d8" prot="public" virt="non-virtual"><scope>MR::EndMillCutter</scope><name>cornerRadius</name></member>
-      <member refid="structMR_1_1EndMillCutter_1a81eafe021d71d7fb7b20c845dc847c94" prot="public" virt="non-virtual"><scope>MR::EndMillCutter</scope><name>cuttingAngle</name></member>
-      <member refid="structMR_1_1EndMillCutter_1ac48d5c8fc78e3aaa89d3614f193fbfd7" prot="public" virt="non-virtual"><scope>MR::EndMillCutter</scope><name>endDiameter</name></member>
-      <member refid="structMR_1_1EndMillCutter_1ab507809dfb8f5d7c74c8629fbb94d518" prot="public" virt="non-virtual"><scope>MR::EndMillCutter</scope><name>Type</name></member>
-      <member refid="structMR_1_1EndMillCutter_1a345bf16216bfaccfd158af74e386acbc" prot="public" virt="non-virtual"><scope>MR::EndMillCutter</scope><name>type</name></member>
+      <member refid="group__GeneralGroup_1ga70c992b2d214834d246a23811425f9d8" prot="public" virt="non-virtual"><scope>MR::EndMillCutter</scope><name>cornerRadius</name></member>
+      <member refid="group__GeneralGroup_1ga81eafe021d71d7fb7b20c845dc847c94" prot="public" virt="non-virtual"><scope>MR::EndMillCutter</scope><name>cuttingAngle</name></member>
+      <member refid="group__GeneralGroup_1gac48d5c8fc78e3aaa89d3614f193fbfd7" prot="public" virt="non-virtual"><scope>MR::EndMillCutter</scope><name>endDiameter</name></member>
+      <member refid="group__GeneralGroup_1gab507809dfb8f5d7c74c8629fbb94d518" prot="public" virt="non-virtual"><scope>MR::EndMillCutter</scope><name>Type</name></member>
+      <member refid="group__GeneralGroup_1ga345bf16216bfaccfd158af74e386acbc" prot="public" virt="non-virtual"><scope>MR::EndMillCutter</scope><name>type</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

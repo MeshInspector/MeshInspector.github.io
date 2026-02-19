@@ -6,212 +6,40 @@
     <innerclass refid="structMR_1_1ParallelProgressReporter_1_1PerTaskReporter" prot="public">MR::ParallelProgressReporter::PerTaskReporter</innerclass>
     <innerclass refid="structMR_1_1ParallelProgressReporter_1_1TaskInfo" prot="public">MR::ParallelProgressReporter::TaskInfo</innerclass>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1ParallelProgressReporter_1a86cf6968f94b8518a115c3a12af2f6cd" prot="private" static="no" mutable="no">
-        <type>const <ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref> &amp;</type>
-        <definition>const ProgressCallback&amp; MR::ParallelProgressReporter::cb_</definition>
-        <argsstring></argsstring>
-        <name>cb_</name>
-        <qualifiedname>MR::ParallelProgressReporter::cb_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelProgressReporter.h" line="52" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelProgressReporter.h" bodystart="52" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ParallelProgressReporter_1a7b9b9c50339c2c105662ca56619cc9c6" prot="private" static="no" mutable="no">
-        <type>std::forward_list&lt; <ref refid="structMR_1_1ParallelProgressReporter_1_1TaskInfo" kindref="compound">TaskInfo</ref> &gt;</type>
-        <definition>std::forward_list&lt;TaskInfo&gt; MR::ParallelProgressReporter::perTaskInfo_</definition>
-        <argsstring></argsstring>
-        <name>perTaskInfo_</name>
-        <qualifiedname>MR::ParallelProgressReporter::perTaskInfo_</qualifiedname>
-        <briefdescription>
-<para>progress of each task </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelProgressReporter.h" line="55" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelProgressReporter.h" bodystart="55" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ParallelProgressReporter_1af0956ae113eb7654ed05a4cd64002ec5" prot="private" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::ParallelProgressReporter::totalWeight_</definition>
-        <argsstring></argsstring>
-        <name>totalWeight_</name>
-        <qualifiedname>MR::ParallelProgressReporter::totalWeight_</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-<para>sum of the weights of all the tasks </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelProgressReporter.h" line="58" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelProgressReporter.h" bodystart="58" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ParallelProgressReporter_1ae630ffc4f6603a059244658600c77741" prot="private" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::ParallelProgressReporter::progress_</definition>
-        <argsstring></argsstring>
-        <name>progress_</name>
-        <qualifiedname>MR::ParallelProgressReporter::progress_</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-<para>avg progress for all the tasks </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelProgressReporter.h" line="61" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelProgressReporter.h" bodystart="61" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ParallelProgressReporter_1a9e24875ac9a999b2110e7afd6d4d5e95" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::ParallelProgressReporter::continue_</definition>
-        <argsstring></argsstring>
-        <name>continue_</name>
-        <qualifiedname>MR::ParallelProgressReporter::continue_</qualifiedname>
-        <initializer>= true</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelProgressReporter.h" line="63" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelProgressReporter.h" bodystart="63" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ParallelProgressReporter_1ac23bdc95adc7deb6ef113101132f3960" prot="private" static="no" mutable="no">
-        <type>std::mutex</type>
-        <definition>std::mutex MR::ParallelProgressReporter::mutex_</definition>
-        <argsstring></argsstring>
-        <name>mutex_</name>
-        <qualifiedname>MR::ParallelProgressReporter::mutex_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelProgressReporter.h" line="65" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelProgressReporter.h" bodystart="65" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ParallelProgressReporter_1a598517c76f8e542e9a0e729d88043bb1" prot="private" static="no" mutable="no">
-        <type>std::thread::id</type>
-        <definition>std::thread::id MR::ParallelProgressReporter::mainThreadId_</definition>
-        <argsstring></argsstring>
-        <name>mainThreadId_</name>
-        <qualifiedname>MR::ParallelProgressReporter::mainThreadId_</qualifiedname>
-        <briefdescription>
-<para>id if the thread from which the constructor was called (it is supposed to be the main thread) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelProgressReporter.h" line="68" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelProgressReporter.h" bodystart="68" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga86cf6968f94b8518a115c3a12af2f6cd" kind="variable"><name>cb_</name></member>
+      <member refid="group__GeneralGroup_1ga7b9b9c50339c2c105662ca56619cc9c6" kind="variable"><name>perTaskInfo_</name></member>
+      <member refid="group__GeneralGroup_1gaf0956ae113eb7654ed05a4cd64002ec5" kind="variable"><name>totalWeight_</name></member>
+      <member refid="group__GeneralGroup_1gae630ffc4f6603a059244658600c77741" kind="variable"><name>progress_</name></member>
+      <member refid="group__GeneralGroup_1ga9e24875ac9a999b2110e7afd6d4d5e95" kind="variable"><name>continue_</name></member>
+      <member refid="group__GeneralGroup_1gac23bdc95adc7deb6ef113101132f3960" kind="variable"><name>mutex_</name></member>
+      <member refid="group__GeneralGroup_1ga598517c76f8e542e9a0e729d88043bb1" kind="variable"><name>mainThreadId_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1ParallelProgressReporter_1a2c6d0ee3e32d318d2f21e81a65c786fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
-        <definition>MRMESH_API MR::ParallelProgressReporter::ParallelProgressReporter</definition>
-        <argsstring>(const ProgressCallback &amp;cb)</argsstring>
-        <name>ParallelProgressReporter</name>
-        <qualifiedname>MR::ParallelProgressReporter::ParallelProgressReporter</qualifiedname>
-        <param>
-          <type>const <ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref> &amp;</type>
-          <declname>cb</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelProgressReporter.h" line="20" column="16"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ParallelProgressReporter_1afb8acccd63d1068e162e165f290b3227" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="structMR_1_1ParallelProgressReporter_1_1PerTaskReporter" kindref="compound">PerTaskReporter</ref></type>
-        <definition>MRMESH_API PerTaskReporter MR::ParallelProgressReporter::newTask</definition>
-        <argsstring>(float weight=1.f)</argsstring>
-        <name>newTask</name>
-        <qualifiedname>MR::ParallelProgressReporter::newTask</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>weight</declname>
-          <defval>1.f</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Add task to the pull <simplesect kind="note"><para>This function must not be invoked concurrently. </para>
-</simplesect>
-<simplesect kind="return"><para>The reporter functor, that could be safely invoked from a different thread </para>
-</simplesect>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelProgressReporter.h" line="41" column="32"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ParallelProgressReporter_1a14f01226cb9a140ad5be9540453a8eed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
-        <definition>MRMESH_API bool MR::ParallelProgressReporter::operator()</definition>
-        <argsstring>()</argsstring>
-        <name>operator()</name>
-        <qualifiedname>MR::ParallelProgressReporter::operator()</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Actually report the progress. Designed to be invoked in loop until all tasks are completed or until the operation is cancelled <simplesect kind="note"><para>This function is automatically invoked from the PerTaskReporter::operator() under the condition that the thread that invokes it is the same as the thread from which <ref refid="classMR_1_1ParallelProgressReporter" kindref="compound">ParallelProgressReporter</ref> was created. </para>
-</simplesect>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelProgressReporter.h" line="46" column="21"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga2c6d0ee3e32d318d2f21e81a65c786fb" kind="function"><name>ParallelProgressReporter</name></member>
+      <member refid="group__GeneralGroup_1gafb8acccd63d1068e162e165f290b3227" kind="function"><name>newTask</name></member>
+      <member refid="group__GeneralGroup_1ga14f01226cb9a140ad5be9540453a8eed" kind="function"><name>operator()</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMR_1_1ParallelProgressReporter_1abdfe8a6135f67c2c0d453940a135c50c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::ParallelProgressReporter::updateTask_</definition>
-        <argsstring>(float delta)</argsstring>
-        <name>updateTask_</name>
-        <qualifiedname>MR::ParallelProgressReporter::updateTask_</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>delta</declname>
-        </param>
-        <briefdescription>
-<para>Invoked from local reporters concurrently. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelProgressReporter.h" line="50" column="10"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gabdfe8a6135f67c2c0d453940a135c50c" kind="function"><name>updateTask_</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
 <para>This class allows progress to be reported from different threads. Unlike progress callback that is passed to <ref refid="group__BasicGroup_1gaf184f372f735726148d7a07cbbbb29af" kindref="member">ParallelFor</ref>, each task may report the progress separately, and the progress displayed to user is not just a number of completed tasks divided by the total number of tasks, but rather a (weighted) average of progresses reported from each task </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelProgressReporter.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelProgressReporter.h" bodystart="18" bodyend="69"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelProgressReporter.h" line="20" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelProgressReporter.h" bodystart="21" bodyend="72"/>
     <listofallmembers>
-      <member refid="classMR_1_1ParallelProgressReporter_1a86cf6968f94b8518a115c3a12af2f6cd" prot="private" virt="non-virtual"><scope>MR::ParallelProgressReporter</scope><name>cb_</name></member>
-      <member refid="classMR_1_1ParallelProgressReporter_1a9e24875ac9a999b2110e7afd6d4d5e95" prot="private" virt="non-virtual"><scope>MR::ParallelProgressReporter</scope><name>continue_</name></member>
-      <member refid="classMR_1_1ParallelProgressReporter_1a598517c76f8e542e9a0e729d88043bb1" prot="private" virt="non-virtual"><scope>MR::ParallelProgressReporter</scope><name>mainThreadId_</name></member>
-      <member refid="classMR_1_1ParallelProgressReporter_1ac23bdc95adc7deb6ef113101132f3960" prot="private" virt="non-virtual"><scope>MR::ParallelProgressReporter</scope><name>mutex_</name></member>
-      <member refid="classMR_1_1ParallelProgressReporter_1afb8acccd63d1068e162e165f290b3227" prot="public" virt="non-virtual"><scope>MR::ParallelProgressReporter</scope><name>newTask</name></member>
-      <member refid="classMR_1_1ParallelProgressReporter_1a14f01226cb9a140ad5be9540453a8eed" prot="public" virt="non-virtual"><scope>MR::ParallelProgressReporter</scope><name>operator()</name></member>
-      <member refid="classMR_1_1ParallelProgressReporter_1a2c6d0ee3e32d318d2f21e81a65c786fb" prot="public" virt="non-virtual"><scope>MR::ParallelProgressReporter</scope><name>ParallelProgressReporter</name></member>
-      <member refid="classMR_1_1ParallelProgressReporter_1a7b9b9c50339c2c105662ca56619cc9c6" prot="private" virt="non-virtual"><scope>MR::ParallelProgressReporter</scope><name>perTaskInfo_</name></member>
-      <member refid="classMR_1_1ParallelProgressReporter_1ae630ffc4f6603a059244658600c77741" prot="private" virt="non-virtual"><scope>MR::ParallelProgressReporter</scope><name>progress_</name></member>
-      <member refid="classMR_1_1ParallelProgressReporter_1af0956ae113eb7654ed05a4cd64002ec5" prot="private" virt="non-virtual"><scope>MR::ParallelProgressReporter</scope><name>totalWeight_</name></member>
-      <member refid="classMR_1_1ParallelProgressReporter_1abdfe8a6135f67c2c0d453940a135c50c" prot="private" virt="non-virtual"><scope>MR::ParallelProgressReporter</scope><name>updateTask_</name></member>
+      <member refid="group__GeneralGroup_1ga86cf6968f94b8518a115c3a12af2f6cd" prot="private" virt="non-virtual"><scope>MR::ParallelProgressReporter</scope><name>cb_</name></member>
+      <member refid="group__GeneralGroup_1ga9e24875ac9a999b2110e7afd6d4d5e95" prot="private" virt="non-virtual"><scope>MR::ParallelProgressReporter</scope><name>continue_</name></member>
+      <member refid="group__GeneralGroup_1ga598517c76f8e542e9a0e729d88043bb1" prot="private" virt="non-virtual"><scope>MR::ParallelProgressReporter</scope><name>mainThreadId_</name></member>
+      <member refid="group__GeneralGroup_1gac23bdc95adc7deb6ef113101132f3960" prot="private" virt="non-virtual"><scope>MR::ParallelProgressReporter</scope><name>mutex_</name></member>
+      <member refid="group__GeneralGroup_1gafb8acccd63d1068e162e165f290b3227" prot="public" virt="non-virtual"><scope>MR::ParallelProgressReporter</scope><name>newTask</name></member>
+      <member refid="group__GeneralGroup_1ga14f01226cb9a140ad5be9540453a8eed" prot="public" virt="non-virtual"><scope>MR::ParallelProgressReporter</scope><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1ga2c6d0ee3e32d318d2f21e81a65c786fb" prot="public" virt="non-virtual"><scope>MR::ParallelProgressReporter</scope><name>ParallelProgressReporter</name></member>
+      <member refid="group__GeneralGroup_1ga7b9b9c50339c2c105662ca56619cc9c6" prot="private" virt="non-virtual"><scope>MR::ParallelProgressReporter</scope><name>perTaskInfo_</name></member>
+      <member refid="group__GeneralGroup_1gae630ffc4f6603a059244658600c77741" prot="private" virt="non-virtual"><scope>MR::ParallelProgressReporter</scope><name>progress_</name></member>
+      <member refid="group__GeneralGroup_1gaf0956ae113eb7654ed05a4cd64002ec5" prot="private" virt="non-virtual"><scope>MR::ParallelProgressReporter</scope><name>totalWeight_</name></member>
+      <member refid="group__GeneralGroup_1gabdfe8a6135f67c2c0d453940a135c50c" prot="private" virt="non-virtual"><scope>MR::ParallelProgressReporter</scope><name>updateTask_</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

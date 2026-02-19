@@ -95,7 +95,7 @@
         <argsstring>() const override</argsstring>
         <name>name</name>
         <qualifiedname>MR::ChangeIsoAction::name</qualifiedname>
-        <reimplements refid="classMR_1_1HistoryAction_1a9daa0b79de161f676f6283e3804dc8ce">name</reimplements>
+        <reimplements refid="group__GeneralGroup_1ga9daa0b79de161f676f6283e3804dc8ce">name</reimplements>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -110,9 +110,9 @@
         <argsstring>(HistoryAction::Type) override</argsstring>
         <name>action</name>
         <qualifiedname>MR::ChangeIsoAction::action</qualifiedname>
-        <reimplements refid="classMR_1_1HistoryAction_1aecfce349736beaf17a23a6817c86f3bb">action</reimplements>
+        <reimplements refid="group__GeneralGroup_1gaecfce349736beaf17a23a6817c86f3bb">action</reimplements>
         <param>
-          <type><ref refid="classMR_1_1HistoryAction_1ac16eb31dd26d35cfc18bac8a05983aa7" kindref="member">HistoryAction::Type</ref></type>
+          <type><ref refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" kindref="member">HistoryAction::Type</ref></type>
           <declname>actionType</declname>
         </param>
         <briefdescription>
@@ -131,7 +131,7 @@
         <argsstring>() const override</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR::ChangeIsoAction::heapBytes</qualifiedname>
-        <reimplements refid="classMR_1_1HistoryAction_1ad6df54da6a63ed83f15053507e8569de">heapBytes</reimplements>
+        <reimplements refid="group__GeneralGroup_1gad6df54da6a63ed83f15053507e8569de">heapBytes</reimplements>
         <briefdescription>
 <para>returns the amount of memory this object occupies on heap </para>
         </briefdescription>
@@ -201,8 +201,8 @@
       <member refid="classMR_1_1ChangeIsoAction_1a2e8ce0ca9aadf5d7ebaa56c4ae5c925b" prot="private" virt="non-virtual"><scope>MR::ChangeIsoAction</scope><name>objVoxels_</name></member>
       <member refid="classMR_1_1ChangeIsoAction_1a9b71839721e6f85a7267c6593843e35d" prot="public" virt="non-virtual"><scope>MR::ChangeIsoAction</scope><name>setObjectDirty</name></member>
       <member refid="classMR_1_1ChangeIsoAction_1aef6e2e8868298b07f883b1e7527d75ed" prot="private" virt="non-virtual"><scope>MR::ChangeIsoAction</scope><name>storedIso_</name></member>
-      <member refid="classMR_1_1HistoryAction_1ac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::ChangeIsoAction</scope><name>Type</name></member>
-      <member refid="classMR_1_1HistoryAction_1a97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::ChangeIsoAction</scope><name>~HistoryAction</name></member>
+      <member refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::ChangeIsoAction</scope><name>Type</name></member>
+      <member refid="group__GeneralGroup_1ga97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::ChangeIsoAction</scope><name>~HistoryAction</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

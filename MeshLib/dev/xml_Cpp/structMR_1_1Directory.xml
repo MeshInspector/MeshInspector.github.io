@@ -4,44 +4,18 @@
     <compoundname>MR::Directory</compoundname>
     <includes refid="MRDirectory_8h" local="no">MRDirectory.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1Directory_1a65306e29fafdd199b5c607289be0a79c" prot="public" static="no" mutable="no">
-        <type>std::filesystem::path</type>
-        <definition>std::filesystem::path MR::Directory::dir</definition>
-        <argsstring></argsstring>
-        <name>dir</name>
-        <qualifiedname>MR::Directory::dir</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirectory.h" line="17" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirectory.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1Directory_1aa0c34b86b17fa7255361f1bb764e006d" prot="public" static="no" mutable="no">
-        <type>std::error_code &amp;</type>
-        <definition>std::error_code&amp; MR::Directory::ec</definition>
-        <argsstring></argsstring>
-        <name>ec</name>
-        <qualifiedname>MR::Directory::ec</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirectory.h" line="18" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirectory.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga65306e29fafdd199b5c607289be0a79c" kind="variable"><name>dir</name></member>
+      <member refid="group__GeneralGroup_1gaa0c34b86b17fa7255361f1bb764e006d" kind="variable"><name>ec</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
 <para>object of this struct can be passed to range-based-for to enumerate all entries in a filesystem directory <emphasis>without</emphasis> throwing exceptions, see <ulink url="https:///">https:///</ulink> stackoverflow.com/q/67776830/7325599 e.g. std::error_code ec; for ( auto dirEntry : <ref refid="structMR_1_1Directory" kindref="compound">Directory</ref>{ std::filesystem::current_path(), ec } ) { ... } </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirectory.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirectory.h" bodystart="16" bodyend="19"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirectory.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirectory.h" bodystart="19" bodyend="22"/>
     <listofallmembers>
-      <member refid="structMR_1_1Directory_1a65306e29fafdd199b5c607289be0a79c" prot="public" virt="non-virtual"><scope>MR::Directory</scope><name>dir</name></member>
-      <member refid="structMR_1_1Directory_1aa0c34b86b17fa7255361f1bb764e006d" prot="public" virt="non-virtual"><scope>MR::Directory</scope><name>ec</name></member>
+      <member refid="group__GeneralGroup_1ga65306e29fafdd199b5c607289be0a79c" prot="public" virt="non-virtual"><scope>MR::Directory</scope><name>dir</name></member>
+      <member refid="group__GeneralGroup_1gaa0c34b86b17fa7255361f1bb764e006d" prot="public" virt="non-virtual"><scope>MR::Directory</scope><name>ec</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

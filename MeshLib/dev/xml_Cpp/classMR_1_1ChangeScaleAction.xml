@@ -5,129 +5,15 @@
     <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
     <includes refid="MRChangeScaleAction_8h" local="no">MRChangeScaleAction.h</includes>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1ChangeScaleAction_1a34ee15aeaa5fd343fa66757e88a7e634" prot="private" static="no" mutable="no">
-        <type>std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
-        <definition>std::shared_ptr&lt;Object&gt; MR::ChangeScaleAction::obj_</definition>
-        <argsstring></argsstring>
-        <name>obj_</name>
-        <qualifiedname>MR::ChangeScaleAction::obj_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeScaleAction.h" line="48" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeScaleAction.h" bodystart="48" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ChangeScaleAction_1ab6aef2e7f19b6ff376065b1e7e3d1838" prot="private" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::ChangeScaleAction::scale_</definition>
-        <argsstring></argsstring>
-        <name>scale_</name>
-        <qualifiedname>MR::ChangeScaleAction::scale_</qualifiedname>
-        <initializer>= 1.0f</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeScaleAction.h" line="49" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeScaleAction.h" bodystart="49" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ChangeScaleAction_1ae1747a0e2a5e5262f4c9622308aacb02" prot="private" static="no" mutable="no">
-        <type>std::string</type>
-        <definition>std::string MR::ChangeScaleAction::name_</definition>
-        <argsstring></argsstring>
-        <name>name_</name>
-        <qualifiedname>MR::ChangeScaleAction::name_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeScaleAction.h" line="50" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeScaleAction.h" bodystart="50" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga34ee15aeaa5fd343fa66757e88a7e634" kind="variable"><name>obj_</name></member>
+      <member refid="group__GeneralGroup_1gab6aef2e7f19b6ff376065b1e7e3d1838" kind="variable"><name>scale_</name></member>
+      <member refid="group__GeneralGroup_1gae1747a0e2a5e5262f4c9622308aacb02" kind="variable"><name>name_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1ChangeScaleAction_1a7ed6dd43bb4742c5a423190cdb2b8075" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::ChangeScaleAction::ChangeScaleAction</definition>
-        <argsstring>(const std::string &amp;name, const std::shared_ptr&lt; Object &gt; &amp;obj, float scale)</argsstring>
-        <name>ChangeScaleAction</name>
-        <qualifiedname>MR::ChangeScaleAction::ChangeScaleAction</qualifiedname>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>name</declname>
-        </param>
-        <param>
-          <type>const std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &amp;</type>
-          <declname>obj</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>scale</declname>
-        </param>
-        <briefdescription>
-<para>Constructor that performs object scaling, and remembers inverted scale value for undoing. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeScaleAction.h" line="17" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeScaleAction.h" bodystart="17" bodyend="26"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ChangeScaleAction_1a4ef261e118c5b35c7f334c4c5dc65f5c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>std::string</type>
-        <definition>virtual std::string MR::ChangeScaleAction::name</definition>
-        <argsstring>() const override</argsstring>
-        <name>name</name>
-        <qualifiedname>MR::ChangeScaleAction::name</qualifiedname>
-        <reimplements refid="classMR_1_1HistoryAction_1a9daa0b79de161f676f6283e3804dc8ce">name</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeScaleAction.h" line="28" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeScaleAction.h" bodystart="28" bodyend="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ChangeScaleAction_1a5b30db2db48c27d37a14849a1b6b0dca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MR::ChangeScaleAction::action</definition>
-        <argsstring>(HistoryAction::Type) override</argsstring>
-        <name>action</name>
-        <qualifiedname>MR::ChangeScaleAction::action</qualifiedname>
-        <reimplements refid="classMR_1_1HistoryAction_1aecfce349736beaf17a23a6817c86f3bb">action</reimplements>
-        <param>
-          <type><ref refid="classMR_1_1HistoryAction_1ac16eb31dd26d35cfc18bac8a05983aa7" kindref="member">HistoryAction::Type</ref></type>
-          <declname>actionType</declname>
-        </param>
-        <briefdescription>
-<para>This function is called on history action (undo, redo, etc.) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeScaleAction.h" line="33" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeScaleAction.h" bodystart="33" bodyend="40"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ChangeScaleAction_1a55c7a14904e79aef0cd60392a1fd9dd1" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>size_t</type>
-        <definition>virtual size_t MR::ChangeScaleAction::heapBytes</definition>
-        <argsstring>() const override</argsstring>
-        <name>heapBytes</name>
-        <qualifiedname>MR::ChangeScaleAction::heapBytes</qualifiedname>
-        <reimplements refid="classMR_1_1HistoryAction_1ad6df54da6a63ed83f15053507e8569de">heapBytes</reimplements>
-        <briefdescription>
-<para>returns the amount of memory this object occupies on heap </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeScaleAction.h" line="42" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeScaleAction.h" bodystart="42" bodyend="45"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga7ed6dd43bb4742c5a423190cdb2b8075" kind="function"><name>ChangeScaleAction</name></member>
+      <member refid="group__GeneralGroup_1ga4ef261e118c5b35c7f334c4c5dc65f5c" kind="function"><name>name</name></member>
+      <member refid="group__GeneralGroup_1ga5b30db2db48c27d37a14849a1b6b0dca" kind="function"><name>action</name></member>
+      <member refid="group__GeneralGroup_1ga55c7a14904e79aef0cd60392a1fd9dd1" kind="function"><name>heapBytes</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -158,17 +44,17 @@
         <link refid="classMR_1_1HistoryAction"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeScaleAction.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeScaleAction.h" bodystart="14" bodyend="51"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeScaleAction.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeScaleAction.h" bodystart="17" bodyend="54"/>
     <listofallmembers>
-      <member refid="classMR_1_1ChangeScaleAction_1a5b30db2db48c27d37a14849a1b6b0dca" prot="public" virt="virtual"><scope>MR::ChangeScaleAction</scope><name>action</name></member>
-      <member refid="classMR_1_1ChangeScaleAction_1a7ed6dd43bb4742c5a423190cdb2b8075" prot="public" virt="non-virtual"><scope>MR::ChangeScaleAction</scope><name>ChangeScaleAction</name></member>
-      <member refid="classMR_1_1ChangeScaleAction_1a55c7a14904e79aef0cd60392a1fd9dd1" prot="public" virt="virtual"><scope>MR::ChangeScaleAction</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1ChangeScaleAction_1a4ef261e118c5b35c7f334c4c5dc65f5c" prot="public" virt="virtual"><scope>MR::ChangeScaleAction</scope><name>name</name></member>
-      <member refid="classMR_1_1ChangeScaleAction_1ae1747a0e2a5e5262f4c9622308aacb02" prot="private" virt="non-virtual"><scope>MR::ChangeScaleAction</scope><name>name_</name></member>
-      <member refid="classMR_1_1ChangeScaleAction_1a34ee15aeaa5fd343fa66757e88a7e634" prot="private" virt="non-virtual"><scope>MR::ChangeScaleAction</scope><name>obj_</name></member>
-      <member refid="classMR_1_1ChangeScaleAction_1ab6aef2e7f19b6ff376065b1e7e3d1838" prot="private" virt="non-virtual"><scope>MR::ChangeScaleAction</scope><name>scale_</name></member>
-      <member refid="classMR_1_1HistoryAction_1ac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::ChangeScaleAction</scope><name>Type</name></member>
-      <member refid="classMR_1_1HistoryAction_1a97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::ChangeScaleAction</scope><name>~HistoryAction</name></member>
+      <member refid="group__GeneralGroup_1ga5b30db2db48c27d37a14849a1b6b0dca" prot="public" virt="virtual"><scope>MR::ChangeScaleAction</scope><name>action</name></member>
+      <member refid="group__GeneralGroup_1ga7ed6dd43bb4742c5a423190cdb2b8075" prot="public" virt="non-virtual"><scope>MR::ChangeScaleAction</scope><name>ChangeScaleAction</name></member>
+      <member refid="group__GeneralGroup_1ga55c7a14904e79aef0cd60392a1fd9dd1" prot="public" virt="virtual"><scope>MR::ChangeScaleAction</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1ga4ef261e118c5b35c7f334c4c5dc65f5c" prot="public" virt="virtual"><scope>MR::ChangeScaleAction</scope><name>name</name></member>
+      <member refid="group__GeneralGroup_1gae1747a0e2a5e5262f4c9622308aacb02" prot="private" virt="non-virtual"><scope>MR::ChangeScaleAction</scope><name>name_</name></member>
+      <member refid="group__GeneralGroup_1ga34ee15aeaa5fd343fa66757e88a7e634" prot="private" virt="non-virtual"><scope>MR::ChangeScaleAction</scope><name>obj_</name></member>
+      <member refid="group__GeneralGroup_1gab6aef2e7f19b6ff376065b1e7e3d1838" prot="private" virt="non-virtual"><scope>MR::ChangeScaleAction</scope><name>scale_</name></member>
+      <member refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::ChangeScaleAction</scope><name>Type</name></member>
+      <member refid="group__GeneralGroup_1ga97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::ChangeScaleAction</scope><name>~HistoryAction</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

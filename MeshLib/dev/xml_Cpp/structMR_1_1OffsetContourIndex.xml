@@ -4,64 +4,21 @@
     <compoundname>MR::OffsetContourIndex</compoundname>
     <includes refid="MROffsetContours_8h" local="no">MROffsetContours.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1OffsetContourIndex_1aec9f5b82e1dfa088b1c90d534d047f67" prot="public" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::OffsetContourIndex::contourId</definition>
-        <argsstring></argsstring>
-        <name>contourId</name>
-        <qualifiedname>MR::OffsetContourIndex::contourId</qualifiedname>
-        <initializer>{ -1 }</initializer>
-        <briefdescription>
-<para>-1 means unknown index </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" line="14" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" bodystart="14" bodyend="14"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1OffsetContourIndex_1a54bdd66c3fff31476178a447886820e7" prot="public" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::OffsetContourIndex::vertId</definition>
-        <argsstring></argsstring>
-        <name>vertId</name>
-        <qualifiedname>MR::OffsetContourIndex::vertId</qualifiedname>
-        <initializer>{ -1 }</initializer>
-        <briefdescription>
-<para>-1 means unknown index </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" line="16" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" bodystart="16" bodyend="16"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaec9f5b82e1dfa088b1c90d534d047f67" kind="variable"><name>contourId</name></member>
+      <member refid="group__GeneralGroup_1ga54bdd66c3fff31476178a447886820e7" kind="variable"><name>vertId</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1OffsetContourIndex_1ae382efff2f4e2a54df6db8e72d4c7420" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::OffsetContourIndex::valid</definition>
-        <argsstring>() const</argsstring>
-        <name>valid</name>
-        <qualifiedname>MR::OffsetContourIndex::valid</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" line="17" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" bodystart="17" bodyend="17"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gae382efff2f4e2a54df6db8e72d4c7420" kind="function"><name>valid</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" line="11" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" bodystart="12" bodyend="18"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" bodystart="15" bodyend="21"/>
     <listofallmembers>
-      <member refid="structMR_1_1OffsetContourIndex_1aec9f5b82e1dfa088b1c90d534d047f67" prot="public" virt="non-virtual"><scope>MR::OffsetContourIndex</scope><name>contourId</name></member>
-      <member refid="structMR_1_1OffsetContourIndex_1ae382efff2f4e2a54df6db8e72d4c7420" prot="public" virt="non-virtual"><scope>MR::OffsetContourIndex</scope><name>valid</name></member>
-      <member refid="structMR_1_1OffsetContourIndex_1a54bdd66c3fff31476178a447886820e7" prot="public" virt="non-virtual"><scope>MR::OffsetContourIndex</scope><name>vertId</name></member>
+      <member refid="group__GeneralGroup_1gaec9f5b82e1dfa088b1c90d534d047f67" prot="public" virt="non-virtual"><scope>MR::OffsetContourIndex</scope><name>contourId</name></member>
+      <member refid="group__GeneralGroup_1gae382efff2f4e2a54df6db8e72d4c7420" prot="public" virt="non-virtual"><scope>MR::OffsetContourIndex</scope><name>valid</name></member>
+      <member refid="group__GeneralGroup_1ga54bdd66c3fff31476178a447886820e7" prot="public" virt="non-virtual"><scope>MR::OffsetContourIndex</scope><name>vertId</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

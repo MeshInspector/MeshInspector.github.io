@@ -4,110 +4,16 @@
     <compoundname>MR::QuadricApprox</compoundname>
     <includes refid="MRBestFitQuadric_8h" local="no">MRBestFitQuadric.h</includes>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1QuadricApprox_1ac8e19cbed09e8196fce48b968dc5e48b" prot="private" static="no" mutable="no">
-        <type>Eigen::Matrix&lt; double, 6, 6 &gt;</type>
-        <definition>Eigen::Matrix&lt;double, 6, 6&gt; MR::QuadricApprox::accumA_</definition>
-        <argsstring></argsstring>
-        <name>accumA_</name>
-        <qualifiedname>MR::QuadricApprox::accumA_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitQuadric.h" line="27" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitQuadric.h" bodystart="27" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1QuadricApprox_1ac6a49098dda65bfc0257dad801d5c49e" prot="private" static="no" mutable="no">
-        <type>Eigen::Matrix&lt; double, 6, 1 &gt;</type>
-        <definition>Eigen::Matrix&lt;double, 6, 1&gt; MR::QuadricApprox::accumB_</definition>
-        <argsstring></argsstring>
-        <name>accumB_</name>
-        <qualifiedname>MR::QuadricApprox::accumB_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitQuadric.h" line="28" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitQuadric.h" bodystart="28" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gac8e19cbed09e8196fce48b968dc5e48b" kind="variable"><name>accumA_</name></member>
+      <member refid="group__GeneralGroup_1gac6a49098dda65bfc0257dad801d5c49e" kind="variable"><name>accumB_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1QuadricApprox_1ae270ffda4cb41173e3c68cdc4f52ad51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
-        <definition>MRMESH_API MR::QuadricApprox::QuadricApprox</definition>
-        <argsstring>()</argsstring>
-        <name>QuadricApprox</name>
-        <qualifiedname>MR::QuadricApprox::QuadricApprox</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitQuadric.h" line="14" column="16"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1QuadricApprox_1a342756aa48e8673901de34a1d494a186" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::QuadricApprox::addPoint</definition>
-        <argsstring>(const Vector3d &amp;point, double weight=1.0)</argsstring>
-        <name>addPoint</name>
-        <qualifiedname>MR::QuadricApprox::addPoint</qualifiedname>
-        <param>
-          <type>const Vector3d &amp;</type>
-          <declname>point</declname>
-        </param>
-        <param>
-          <type>double</type>
-          <declname>weight</declname>
-          <defval>1.0</defval>
-        </param>
-        <briefdescription>
-<para>Adds point to accumulation with weight. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitQuadric.h" line="17" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1QuadricApprox_1a0cea7a7005e02a997a52d3b6cb12c0e3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Eigen::Matrix&lt; double, 6, 1 &gt;</type>
-        <definition>MRMESH_API Eigen::Matrix&lt; double, 6, 1 &gt; MR::QuadricApprox::calcBestCoefficients</definition>
-        <argsstring>() const</argsstring>
-        <name>calcBestCoefficients</name>
-        <qualifiedname>MR::QuadricApprox::calcBestCoefficients</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Calculates best coefficients a, b, c, d a*x^2 + b*x*y + c*y^2 + d*x + e*y + f = z </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitQuadric.h" line="21" column="30"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gae270ffda4cb41173e3c68cdc4f52ad51" kind="function"><name>QuadricApprox</name></member>
+      <member refid="group__GeneralGroup_1ga342756aa48e8673901de34a1d494a186" kind="function"><name>addPoint</name></member>
+      <member refid="group__GeneralGroup_1ga0cea7a7005e02a997a52d3b6cb12c0e3" kind="function"><name>calcBestCoefficients</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1QuadricApprox_1a3b30fafd105b242617b7b762edfad5e6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Vector3d</type>
-        <definition>static MRMESH_API Vector3d MR::QuadricApprox::findZeroProjection</definition>
-        <argsstring>(const Eigen::Matrix&lt; double, 6, 1 &gt; &amp;coefs)</argsstring>
-        <name>findZeroProjection</name>
-        <qualifiedname>MR::QuadricApprox::findZeroProjection</qualifiedname>
-        <param>
-          <type>const Eigen::Matrix&lt; double, 6, 1 &gt; &amp;</type>
-          <declname>coefs</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Finds projection of zero point to surface given by coefs: a*x^2 + b*x*y + c*y^2 + d*x + e*y + f = z </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitQuadric.h" line="25" column="32"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga3b30fafd105b242617b7b762edfad5e6" kind="function"><name>findZeroProjection</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -115,14 +21,14 @@
 <para>Accumulate points and make best quadric approximation</para>
 <para><formula id="1">$ a*x^2 + b*x*y + c*y^2 + d*x + e*y + f = z $</formula> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitQuadric.h" line="11" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitQuadric.h" bodystart="12" bodyend="29"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitQuadric.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitQuadric.h" bodystart="15" bodyend="32"/>
     <listofallmembers>
-      <member refid="classMR_1_1QuadricApprox_1ac8e19cbed09e8196fce48b968dc5e48b" prot="private" virt="non-virtual"><scope>MR::QuadricApprox</scope><name>accumA_</name></member>
-      <member refid="classMR_1_1QuadricApprox_1ac6a49098dda65bfc0257dad801d5c49e" prot="private" virt="non-virtual"><scope>MR::QuadricApprox</scope><name>accumB_</name></member>
-      <member refid="classMR_1_1QuadricApprox_1a342756aa48e8673901de34a1d494a186" prot="public" virt="non-virtual"><scope>MR::QuadricApprox</scope><name>addPoint</name></member>
-      <member refid="classMR_1_1QuadricApprox_1a0cea7a7005e02a997a52d3b6cb12c0e3" prot="public" virt="non-virtual"><scope>MR::QuadricApprox</scope><name>calcBestCoefficients</name></member>
-      <member refid="classMR_1_1QuadricApprox_1a3b30fafd105b242617b7b762edfad5e6" prot="public" virt="non-virtual"><scope>MR::QuadricApprox</scope><name>findZeroProjection</name></member>
-      <member refid="classMR_1_1QuadricApprox_1ae270ffda4cb41173e3c68cdc4f52ad51" prot="public" virt="non-virtual"><scope>MR::QuadricApprox</scope><name>QuadricApprox</name></member>
+      <member refid="group__GeneralGroup_1gac8e19cbed09e8196fce48b968dc5e48b" prot="private" virt="non-virtual"><scope>MR::QuadricApprox</scope><name>accumA_</name></member>
+      <member refid="group__GeneralGroup_1gac6a49098dda65bfc0257dad801d5c49e" prot="private" virt="non-virtual"><scope>MR::QuadricApprox</scope><name>accumB_</name></member>
+      <member refid="group__GeneralGroup_1ga342756aa48e8673901de34a1d494a186" prot="public" virt="non-virtual"><scope>MR::QuadricApprox</scope><name>addPoint</name></member>
+      <member refid="group__GeneralGroup_1ga0cea7a7005e02a997a52d3b6cb12c0e3" prot="public" virt="non-virtual"><scope>MR::QuadricApprox</scope><name>calcBestCoefficients</name></member>
+      <member refid="group__GeneralGroup_1ga3b30fafd105b242617b7b762edfad5e6" prot="public" virt="non-virtual"><scope>MR::QuadricApprox</scope><name>findZeroProjection</name></member>
+      <member refid="group__GeneralGroup_1gae270ffda4cb41173e3c68cdc4f52ad51" prot="public" virt="non-virtual"><scope>MR::QuadricApprox</scope><name>QuadricApprox</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

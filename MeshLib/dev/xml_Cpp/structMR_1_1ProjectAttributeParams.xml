@@ -4,34 +4,8 @@
     <compoundname>MR::ProjectAttributeParams</compoundname>
     <includes refid="MRProjectionMeshAttribute_8h" local="no">MRProjectionMeshAttribute.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1ProjectAttributeParams_1a4ed7b5103a09ec50b55cc7d76e2fd9a5" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1MeshProjectionTransforms" kindref="compound">MeshProjectionTransforms</ref></type>
-        <definition>MeshProjectionTransforms MR::ProjectAttributeParams::xfs</definition>
-        <argsstring></argsstring>
-        <name>xfs</name>
-        <qualifiedname>MR::ProjectAttributeParams::xfs</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRProjectionMeshAttribute.h" line="17" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRProjectionMeshAttribute.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ProjectAttributeParams_1af693ac66bc0bd5d4efcd44cde67cfda4" prot="public" static="no" mutable="no">
-        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
-        <definition>ProgressCallback MR::ProjectAttributeParams::progressCb</definition>
-        <argsstring></argsstring>
-        <name>progressCb</name>
-        <qualifiedname>MR::ProjectAttributeParams::progressCb</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRProjectionMeshAttribute.h" line="18" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRProjectionMeshAttribute.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga4ed7b5103a09ec50b55cc7d76e2fd9a5" kind="variable"><name>xfs</name></member>
+      <member refid="group__GeneralGroup_1gaf693ac66bc0bd5d4efcd44cde67cfda4" kind="variable"><name>progressCb</name></member>
     </sectiondef>
     <briefdescription>
 <para>this structure contains transformation for projection from one mesh to another and progress callback </para>
@@ -51,10 +25,10 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRProjectionMeshAttribute.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRProjectionMeshAttribute.h" bodystart="16" bodyend="19"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRProjectionMeshAttribute.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRProjectionMeshAttribute.h" bodystart="19" bodyend="22"/>
     <listofallmembers>
-      <member refid="structMR_1_1ProjectAttributeParams_1af693ac66bc0bd5d4efcd44cde67cfda4" prot="public" virt="non-virtual"><scope>MR::ProjectAttributeParams</scope><name>progressCb</name></member>
-      <member refid="structMR_1_1ProjectAttributeParams_1a4ed7b5103a09ec50b55cc7d76e2fd9a5" prot="public" virt="non-virtual"><scope>MR::ProjectAttributeParams</scope><name>xfs</name></member>
+      <member refid="group__GeneralGroup_1gaf693ac66bc0bd5d4efcd44cde67cfda4" prot="public" virt="non-virtual"><scope>MR::ProjectAttributeParams</scope><name>progressCb</name></member>
+      <member refid="group__GeneralGroup_1ga4ed7b5103a09ec50b55cc7d76e2fd9a5" prot="public" virt="non-virtual"><scope>MR::ProjectAttributeParams</scope><name>xfs</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

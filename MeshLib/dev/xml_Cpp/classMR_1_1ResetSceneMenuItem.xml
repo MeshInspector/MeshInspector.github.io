@@ -6,114 +6,17 @@
     <basecompoundref refid="structMR_1_1MultiListener" prot="public" virt="non-virtual">MR::MultiListener&lt; PreDrawListener &gt;</basecompoundref>
     <includes refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h" local="no">MRSceneControlMenuItems.h</includes>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1ResetSceneMenuItem_1aa2577785c51fca6cf9c5605dc5ef02f1" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::ResetSceneMenuItem::openPopup_</definition>
-        <argsstring></argsstring>
-        <name>openPopup_</name>
-        <qualifiedname>MR::ResetSceneMenuItem::openPopup_</qualifiedname>
-        <initializer>{ false }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" line="19" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" bodystart="19" bodyend="19"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ResetSceneMenuItem_1acc5976a9de72b471c2df00b11a52cacb" prot="private" static="no" mutable="no">
-        <type>unsigned</type>
-        <definition>unsigned MR::ResetSceneMenuItem::popupId_</definition>
-        <argsstring></argsstring>
-        <name>popupId_</name>
-        <qualifiedname>MR::ResetSceneMenuItem::popupId_</qualifiedname>
-        <initializer>{ 0 }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" line="20" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" bodystart="20" bodyend="20"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaa2577785c51fca6cf9c5605dc5ef02f1" kind="variable"><name>openPopup_</name></member>
+      <member refid="group__GeneralGroup_1gacc5976a9de72b471c2df00b11a52cacb" kind="variable"><name>popupId_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1ResetSceneMenuItem_1a2c950de3ab65581e1305d27acdfae42e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::ResetSceneMenuItem::ResetSceneMenuItem</definition>
-        <argsstring>()</argsstring>
-        <name>ResetSceneMenuItem</name>
-        <qualifiedname>MR::ResetSceneMenuItem::ResetSceneMenuItem</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" line="13" column="4"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ResetSceneMenuItem_1a4d10d54c7e98ad78d11b2b056231d6d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::ResetSceneMenuItem::action</definition>
-        <argsstring>() override</argsstring>
-        <name>action</name>
-        <qualifiedname>MR::ResetSceneMenuItem::action</qualifiedname>
-        <reimplements refid="classMR_1_1RibbonMenuItem_1a4af847e120965263839d2628cf7dd979">action</reimplements>
-        <briefdescription>
-<para>returns true if state of item changed </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" line="14" column="17"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ResetSceneMenuItem_1af16f8c683f827d933c164d15c68c3ecb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::ResetSceneMenuItem::blocking</definition>
-        <argsstring>() const override</argsstring>
-        <name>blocking</name>
-        <qualifiedname>MR::ResetSceneMenuItem::blocking</qualifiedname>
-        <reimplements refid="classMR_1_1RibbonMenuItem_1ac9fd2cbdcf5356c6fbb093464568afdc">blocking</reimplements>
-        <briefdescription>
-<para>true if this item is blocking (only one blocking item can be active at once) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" line="15" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" bodystart="15" bodyend="15"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga2c950de3ab65581e1305d27acdfae42e" kind="function"><name>ResetSceneMenuItem</name></member>
+      <member refid="group__GeneralGroup_1ga4d10d54c7e98ad78d11b2b056231d6d8" kind="function"><name>action</name></member>
+      <member refid="group__GeneralGroup_1gaf16f8c683f827d933c164d15c68c3ecb" kind="function"><name>blocking</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMR_1_1ResetSceneMenuItem_1a4616b273a429eac7d2842a0bda9cde48" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MR::ResetSceneMenuItem::preDraw_</definition>
-        <argsstring>() override</argsstring>
-        <name>preDraw_</name>
-        <qualifiedname>MR::ResetSceneMenuItem::preDraw_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" line="17" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ResetSceneMenuItem_1a6fb544f81705794b471cbf30939e9726" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ResetSceneMenuItem::resetScene_</definition>
-        <argsstring>()</argsstring>
-        <name>resetScene_</name>
-        <qualifiedname>MR::ResetSceneMenuItem::resetScene_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" line="18" column="10"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga4616b273a429eac7d2842a0bda9cde48" kind="function"><name>preDraw_</name></member>
+      <member refid="group__GeneralGroup_1ga6fb544f81705794b471cbf30939e9726" kind="function"><name>resetScene_</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -177,34 +80,34 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" line="10" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" bodystart="11" bodyend="21"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" bodystart="14" bodyend="24"/>
     <listofallmembers>
-      <member refid="classMR_1_1ResetSceneMenuItem_1a4d10d54c7e98ad78d11b2b056231d6d8" prot="public" virt="virtual"><scope>MR::ResetSceneMenuItem</scope><name>action</name></member>
-      <member refid="classMR_1_1ResetSceneMenuItem_1af16f8c683f827d933c164d15c68c3ecb" prot="public" virt="virtual"><scope>MR::ResetSceneMenuItem</scope><name>blocking</name></member>
-      <member refid="structMR_1_1MultiListener_1af3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::ResetSceneMenuItem</scope><name>connect</name></member>
-      <member refid="structMR_1_1MultiListener_1acfa598489bfbc3b88c84b029213d042c" prot="public" virt="virtual"><scope>MR::ResetSceneMenuItem</scope><name>disconnect</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a1141be44babb4a13201487188c332668" prot="public" virt="virtual"><scope>MR::ResetSceneMenuItem</scope><name>dropItems</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a4799011be3410f46444164d6d00b966e" prot="public" virt="non-virtual"><scope>MR::ResetSceneMenuItem</scope><name>DropItemsList</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a2f25401d4b94a752bd63b79152673ab5" prot="protected" virt="non-virtual"><scope>MR::ResetSceneMenuItem</scope><name>dropList_</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a88f1487695e2012ebb1cacbc1a59775a" prot="public" virt="virtual"><scope>MR::ResetSceneMenuItem</scope><name>getDynamicTooltip</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a3b30bb82fe11901e3d971d3b761f5bf2" prot="public" virt="virtual"><scope>MR::ResetSceneMenuItem</scope><name>isActive</name></member>
-      <member refid="classMR_1_1ISceneStateCheck_1adedf10c80ddfebcb456559fa828065c0" prot="public" virt="virtual"><scope>MR::ResetSceneMenuItem</scope><name>isAvailable</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a957422a15704b2f8854bfd0b2d1ae76d" prot="public" virt="non-virtual"><scope>MR::ResetSceneMenuItem</scope><name>MR_DELETE_MOVE</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1abf4ea13c8983c44214b92a066e8b7659" prot="public" virt="non-virtual"><scope>MR::ResetSceneMenuItem</scope><name>name</name></member>
-      <member refid="classMR_1_1ResetSceneMenuItem_1aa2577785c51fca6cf9c5605dc5ef02f1" prot="private" virt="non-virtual"><scope>MR::ResetSceneMenuItem</scope><name>openPopup_</name></member>
-      <member refid="classMR_1_1ResetSceneMenuItem_1acc5976a9de72b471c2df00b11a52cacb" prot="private" virt="non-virtual"><scope>MR::ResetSceneMenuItem</scope><name>popupId_</name></member>
-      <member refid="classMR_1_1ResetSceneMenuItem_1a4616b273a429eac7d2842a0bda9cde48" prot="private" virt="virtual"><scope>MR::ResetSceneMenuItem</scope><name>preDraw_</name></member>
-      <member refid="classMR_1_1ResetSceneMenuItem_1a6fb544f81705794b471cbf30939e9726" prot="private" virt="non-virtual"><scope>MR::ResetSceneMenuItem</scope><name>resetScene_</name></member>
-      <member refid="classMR_1_1ResetSceneMenuItem_1a2c950de3ab65581e1305d27acdfae42e" prot="public" virt="non-virtual"><scope>MR::ResetSceneMenuItem</scope><name>ResetSceneMenuItem</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1ad3e0eda49eae11a9fba79187c62e07bb" prot="public" virt="non-virtual"><scope>MR::ResetSceneMenuItem</scope><name>RibbonMenuItem</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1af417cbe66b6559e5df0122377c5a3628" prot="public" virt="non-virtual"><scope>MR::ResetSceneMenuItem</scope><name>setDropItemsFromItemList</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1ab499c9049737793e6b1994048b99952c" prot="public" virt="non-virtual"><scope>MR::ResetSceneMenuItem</scope><name>setRibbonItemType</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a15b6a4b9f191b8716be1199364bb74e0" prot="public" virt="virtual"><scope>MR::ResetSceneMenuItem</scope><name>type</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a00b402da6dbcec7d6c97b5c6a16e3924" prot="protected" virt="non-virtual"><scope>MR::ResetSceneMenuItem</scope><name>type_</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a327958b76ec3d044202620beafe67c93" prot="public" virt="virtual"><scope>MR::ResetSceneMenuItem</scope><name>uiName</name></member>
-      <member refid="classMR_1_1ISceneStateCheck_1ad6d7bd5bc97dd4a629de5e0a33af3afe" prot="public" virt="virtual"><scope>MR::ResetSceneMenuItem</scope><name>~ISceneStateCheck</name></member>
-      <member refid="structMR_1_1MultiListener_1a726f5e2601b7f25e31824a0cac630fb2" prot="public" virt="virtual"><scope>MR::ResetSceneMenuItem</scope><name>~MultiListener</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1ac8074b75f1c764d041b11210b5b7541c" prot="public" virt="virtual"><scope>MR::ResetSceneMenuItem</scope><name>~RibbonMenuItem</name></member>
+      <member refid="group__GeneralGroup_1ga4d10d54c7e98ad78d11b2b056231d6d8" prot="public" virt="virtual"><scope>MR::ResetSceneMenuItem</scope><name>action</name></member>
+      <member refid="group__GeneralGroup_1gaf16f8c683f827d933c164d15c68c3ecb" prot="public" virt="virtual"><scope>MR::ResetSceneMenuItem</scope><name>blocking</name></member>
+      <member refid="group__GeneralGroup_1gaf3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::ResetSceneMenuItem</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1gacfa598489bfbc3b88c84b029213d042c" prot="public" virt="virtual"><scope>MR::ResetSceneMenuItem</scope><name>disconnect</name></member>
+      <member refid="group__GeneralGroup_1ga1141be44babb4a13201487188c332668" prot="public" virt="virtual"><scope>MR::ResetSceneMenuItem</scope><name>dropItems</name></member>
+      <member refid="group__GeneralGroup_1ga4799011be3410f46444164d6d00b966e" prot="public" virt="non-virtual"><scope>MR::ResetSceneMenuItem</scope><name>DropItemsList</name></member>
+      <member refid="group__GeneralGroup_1ga2f25401d4b94a752bd63b79152673ab5" prot="protected" virt="non-virtual"><scope>MR::ResetSceneMenuItem</scope><name>dropList_</name></member>
+      <member refid="group__GeneralGroup_1ga88f1487695e2012ebb1cacbc1a59775a" prot="public" virt="virtual"><scope>MR::ResetSceneMenuItem</scope><name>getDynamicTooltip</name></member>
+      <member refid="group__GeneralGroup_1ga3b30bb82fe11901e3d971d3b761f5bf2" prot="public" virt="virtual"><scope>MR::ResetSceneMenuItem</scope><name>isActive</name></member>
+      <member refid="group__GeneralGroup_1gadedf10c80ddfebcb456559fa828065c0" prot="public" virt="virtual"><scope>MR::ResetSceneMenuItem</scope><name>isAvailable</name></member>
+      <member refid="group__GeneralGroup_1ga957422a15704b2f8854bfd0b2d1ae76d" prot="public" virt="non-virtual"><scope>MR::ResetSceneMenuItem</scope><name>MR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1gabf4ea13c8983c44214b92a066e8b7659" prot="public" virt="non-virtual"><scope>MR::ResetSceneMenuItem</scope><name>name</name></member>
+      <member refid="group__GeneralGroup_1gaa2577785c51fca6cf9c5605dc5ef02f1" prot="private" virt="non-virtual"><scope>MR::ResetSceneMenuItem</scope><name>openPopup_</name></member>
+      <member refid="group__GeneralGroup_1gacc5976a9de72b471c2df00b11a52cacb" prot="private" virt="non-virtual"><scope>MR::ResetSceneMenuItem</scope><name>popupId_</name></member>
+      <member refid="group__GeneralGroup_1ga4616b273a429eac7d2842a0bda9cde48" prot="private" virt="virtual"><scope>MR::ResetSceneMenuItem</scope><name>preDraw_</name></member>
+      <member refid="group__GeneralGroup_1ga6fb544f81705794b471cbf30939e9726" prot="private" virt="non-virtual"><scope>MR::ResetSceneMenuItem</scope><name>resetScene_</name></member>
+      <member refid="group__GeneralGroup_1ga2c950de3ab65581e1305d27acdfae42e" prot="public" virt="non-virtual"><scope>MR::ResetSceneMenuItem</scope><name>ResetSceneMenuItem</name></member>
+      <member refid="group__GeneralGroup_1gad3e0eda49eae11a9fba79187c62e07bb" prot="public" virt="non-virtual"><scope>MR::ResetSceneMenuItem</scope><name>RibbonMenuItem</name></member>
+      <member refid="group__GeneralGroup_1gaf417cbe66b6559e5df0122377c5a3628" prot="public" virt="non-virtual"><scope>MR::ResetSceneMenuItem</scope><name>setDropItemsFromItemList</name></member>
+      <member refid="group__GeneralGroup_1gab499c9049737793e6b1994048b99952c" prot="public" virt="non-virtual"><scope>MR::ResetSceneMenuItem</scope><name>setRibbonItemType</name></member>
+      <member refid="group__GeneralGroup_1ga15b6a4b9f191b8716be1199364bb74e0" prot="public" virt="virtual"><scope>MR::ResetSceneMenuItem</scope><name>type</name></member>
+      <member refid="group__GeneralGroup_1ga00b402da6dbcec7d6c97b5c6a16e3924" prot="protected" virt="non-virtual"><scope>MR::ResetSceneMenuItem</scope><name>type_</name></member>
+      <member refid="group__GeneralGroup_1ga327958b76ec3d044202620beafe67c93" prot="public" virt="virtual"><scope>MR::ResetSceneMenuItem</scope><name>uiName</name></member>
+      <member refid="group__GeneralGroup_1gad6d7bd5bc97dd4a629de5e0a33af3afe" prot="public" virt="virtual"><scope>MR::ResetSceneMenuItem</scope><name>~ISceneStateCheck</name></member>
+      <member refid="group__GeneralGroup_1ga726f5e2601b7f25e31824a0cac630fb2" prot="public" virt="virtual"><scope>MR::ResetSceneMenuItem</scope><name>~MultiListener</name></member>
+      <member refid="group__GeneralGroup_1gac8074b75f1c764d041b11210b5b7541c" prot="public" virt="virtual"><scope>MR::ResetSceneMenuItem</scope><name>~RibbonMenuItem</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

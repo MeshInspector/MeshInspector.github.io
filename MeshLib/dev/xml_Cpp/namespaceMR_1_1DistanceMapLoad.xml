@@ -4,7 +4,7 @@
     <compoundname>MR::DistanceMapLoad</compoundname>
     <sectiondef kind="typedef">
       <memberdef kind="typedef" id="namespaceMR_1_1DistanceMapLoad_1af1f62813f68011847bea88c8d3bfe7bb" prot="public" static="no">
-        <type><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref> &gt;(*)(const std::filesystem::path &amp;path, const <ref refid="structMR_1_1DistanceMapLoadSettings" kindref="compound">DistanceMapLoadSettings</ref> &amp;settings)</type>
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref> &gt;(*)(const std::filesystem::path &amp;path, const <ref refid="structMR_1_1DistanceMapLoadSettings" kindref="compound">DistanceMapLoadSettings</ref> &amp;settings)</type>
         <definition>using MR::DistanceMapLoad::DistanceMapLoader =  Expected&lt;DistanceMap&gt;( * )( const std::filesystem::path&amp; path, const DistanceMapLoadSettings&amp; settings )</definition>
         <argsstring></argsstring>
         <name>DistanceMapLoader</name>

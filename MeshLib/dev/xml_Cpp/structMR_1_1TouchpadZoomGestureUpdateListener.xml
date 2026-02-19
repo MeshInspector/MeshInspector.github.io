@@ -5,88 +5,12 @@
     <basecompoundref refid="structMR_1_1ConnectionHolder" prot="public" virt="non-virtual">MR::ConnectionHolder</basecompoundref>
     <includes refid="MRViewerEventsListener_8h" local="no">MRViewerEventsListener.h</includes>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1TouchpadZoomGestureUpdateListener_1ab217e54fd04b93bb68db492b58504e33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::TouchpadZoomGestureUpdateListener::MR_ADD_CTOR_DELETE_MOVE</definition>
-        <argsstring>(TouchpadZoomGestureUpdateListener)</argsstring>
-        <name>MR_ADD_CTOR_DELETE_MOVE</name>
-        <qualifiedname>MR::TouchpadZoomGestureUpdateListener::MR_ADD_CTOR_DELETE_MOVE</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1TouchpadZoomGestureUpdateListener" kindref="compound">TouchpadZoomGestureUpdateListener</ref></type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="378" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1TouchpadZoomGestureUpdateListener_1ab16d2a45a42547cacb952e49d9018c4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type></type>
-        <definition>virtual MR::TouchpadZoomGestureUpdateListener::~TouchpadZoomGestureUpdateListener</definition>
-        <argsstring>()=default</argsstring>
-        <name>~TouchpadZoomGestureUpdateListener</name>
-        <qualifiedname>MR::TouchpadZoomGestureUpdateListener::~TouchpadZoomGestureUpdateListener</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="379" column="13"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1TouchpadZoomGestureUpdateListener_1a724f32397cb8683793b5cd819c263129" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>virtual MRVIEWER_API void MR::TouchpadZoomGestureUpdateListener::connect</definition>
-        <argsstring>(Viewer *viewer, int group, boost::signals2::connect_position pos) override</argsstring>
-        <name>connect</name>
-        <qualifiedname>MR::TouchpadZoomGestureUpdateListener::connect</qualifiedname>
-        <reimplements refid="structMR_1_1IConnectable_1a2212095d3996892cff578320ac2ce746">connect</reimplements>
-        <param>
-          <type><ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref> *</type>
-          <declname>viewer</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>group</declname>
-        </param>
-        <param>
-          <type>boost::signals2::connect_position</type>
-          <declname>pos</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="380" column="31"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gab217e54fd04b93bb68db492b58504e33" kind="function"><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1gab16d2a45a42547cacb952e49d9018c4d" kind="function"><name>~TouchpadZoomGestureUpdateListener</name></member>
+      <member refid="group__GeneralGroup_1ga724f32397cb8683793b5cd819c263129" kind="function"><name>connect</name></member>
     </sectiondef>
     <sectiondef kind="protected-func">
-      <memberdef kind="function" id="structMR_1_1TouchpadZoomGestureUpdateListener_1ae08054a4d6183bf4e0352e5ecdfcb450" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::TouchpadZoomGestureUpdateListener::touchpadZoomGestureUpdate_</definition>
-        <argsstring>(float scale, bool kinetic)=0</argsstring>
-        <name>touchpadZoomGestureUpdate_</name>
-        <qualifiedname>MR::TouchpadZoomGestureUpdateListener::touchpadZoomGestureUpdate_</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>scale</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>kinetic</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="382" column="18"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gae08054a4d6183bf4e0352e5ecdfcb450" kind="function"><name>touchpadZoomGestureUpdate_</name></member>
     </sectiondef>
     <briefdescription>
 <para>class to subscribe on TouchpadZoomGestureUpdateEvent </para>
@@ -129,16 +53,16 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="376" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="377" bodyend="383"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="379" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="380" bodyend="386"/>
     <listofallmembers>
-      <member refid="structMR_1_1TouchpadZoomGestureUpdateListener_1a724f32397cb8683793b5cd819c263129" prot="public" virt="virtual"><scope>MR::TouchpadZoomGestureUpdateListener</scope><name>connect</name></member>
-      <member refid="structMR_1_1ConnectionHolder_1a56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::TouchpadZoomGestureUpdateListener</scope><name>connection_</name></member>
-      <member refid="structMR_1_1ConnectionHolder_1afe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::TouchpadZoomGestureUpdateListener</scope><name>disconnect</name></member>
-      <member refid="structMR_1_1TouchpadZoomGestureUpdateListener_1ab217e54fd04b93bb68db492b58504e33" prot="public" virt="non-virtual"><scope>MR::TouchpadZoomGestureUpdateListener</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
-      <member refid="structMR_1_1TouchpadZoomGestureUpdateListener_1ae08054a4d6183bf4e0352e5ecdfcb450" prot="protected" virt="pure-virtual"><scope>MR::TouchpadZoomGestureUpdateListener</scope><name>touchpadZoomGestureUpdate_</name></member>
-      <member refid="structMR_1_1ConnectionHolder_1a99ffc44dd73f73e2e907b7ab5bb38aaf" prot="public" virt="virtual"><scope>MR::TouchpadZoomGestureUpdateListener</scope><name>~ConnectionHolder</name></member>
-      <member refid="structMR_1_1IConnectable_1a28c07761e682b80befbb2d5f91bdd38c" prot="public" virt="virtual"><scope>MR::TouchpadZoomGestureUpdateListener</scope><name>~IConnectable</name></member>
-      <member refid="structMR_1_1TouchpadZoomGestureUpdateListener_1ab16d2a45a42547cacb952e49d9018c4d" prot="public" virt="virtual"><scope>MR::TouchpadZoomGestureUpdateListener</scope><name>~TouchpadZoomGestureUpdateListener</name></member>
+      <member refid="group__GeneralGroup_1ga724f32397cb8683793b5cd819c263129" prot="public" virt="virtual"><scope>MR::TouchpadZoomGestureUpdateListener</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1ga56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::TouchpadZoomGestureUpdateListener</scope><name>connection_</name></member>
+      <member refid="group__GeneralGroup_1gafe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::TouchpadZoomGestureUpdateListener</scope><name>disconnect</name></member>
+      <member refid="group__GeneralGroup_1gab217e54fd04b93bb68db492b58504e33" prot="public" virt="non-virtual"><scope>MR::TouchpadZoomGestureUpdateListener</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1gae08054a4d6183bf4e0352e5ecdfcb450" prot="protected" virt="pure-virtual"><scope>MR::TouchpadZoomGestureUpdateListener</scope><name>touchpadZoomGestureUpdate_</name></member>
+      <member refid="group__GeneralGroup_1ga99ffc44dd73f73e2e907b7ab5bb38aaf" prot="public" virt="virtual"><scope>MR::TouchpadZoomGestureUpdateListener</scope><name>~ConnectionHolder</name></member>
+      <member refid="group__GeneralGroup_1ga28c07761e682b80befbb2d5f91bdd38c" prot="public" virt="virtual"><scope>MR::TouchpadZoomGestureUpdateListener</scope><name>~IConnectable</name></member>
+      <member refid="group__GeneralGroup_1gab16d2a45a42547cacb952e49d9018c4d" prot="public" virt="virtual"><scope>MR::TouchpadZoomGestureUpdateListener</scope><name>~TouchpadZoomGestureUpdateListener</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

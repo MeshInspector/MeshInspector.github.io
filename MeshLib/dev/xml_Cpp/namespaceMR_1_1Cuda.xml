@@ -10,7 +10,7 @@
     <innerclass refid="classMR_1_1Cuda_1_1Polyline3DataHolder" prot="public">MR::Cuda::Polyline3DataHolder</innerclass>
     <sectiondef kind="var">
       <memberdef kind="variable" id="namespaceMR_1_1Cuda_1a770259831b49f60068c30df5121056c9" prot="public" static="no" mutable="no">
-        <type>struct <ref refid="namespaceMR_1ac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref></type>
+        <type>struct <ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref></type>
         <definition>struct MR_BIND_IGNORE MR::Cuda::PointCloudDataHolder</definition>
         <argsstring></argsstring>
         <name>PointCloudDataHolder</name>
@@ -26,153 +26,14 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
-      <memberdef kind="function" id="namespaceMR_1_1Cuda_1a481800f210dd09851992846af357b7e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRCUDA_API bool</type>
-        <definition>MRCUDA_API bool MR::Cuda::isCudaAvailable</definition>
-        <argsstring>(int *driverVersion=nullptr, int *runtimeVersion=nullptr, int *computeMajor=nullptr, int *computeMinor=nullptr)</argsstring>
-        <name>isCudaAvailable</name>
-        <qualifiedname>MR::Cuda::isCudaAvailable</qualifiedname>
-        <param>
-          <type>int *</type>
-          <declname>driverVersion</declname>
-          <defval>nullptr</defval>
-        </param>
-        <param>
-          <type>int *</type>
-          <declname>runtimeVersion</declname>
-          <defval>nullptr</defval>
-        </param>
-        <param>
-          <type>int *</type>
-          <declname>computeMajor</declname>
-          <defval>nullptr</defval>
-        </param>
-        <param>
-          <type>int *</type>
-          <declname>computeMinor</declname>
-          <defval>nullptr</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Returns true if <ref refid="namespaceMR_1_1Cuda" kindref="compound">Cuda</ref> is present on this GPU optional out maximum driver supported version optional out current runtime version optional out compute capability major version optional out compute capability minor version </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaBasic.h" line="18" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaBasic.h" declline="18" declcolumn="17"/>
-      </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1Cuda_1ae3d6344c4c9b5959665fdde2ddc4a838" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRCUDA_API size_t</type>
-        <definition>MRCUDA_API size_t MR::Cuda::getCudaAvailableMemory</definition>
-        <argsstring>()</argsstring>
-        <name>getCudaAvailableMemory</name>
-        <qualifiedname>MR::Cuda::getCudaAvailableMemory</qualifiedname>
-        <briefdescription>
-<para>Returns available GPU memory in bytes. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaBasic.h" line="21" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaBasic.h" declline="21" declcolumn="19"/>
-      </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1Cuda_1a2fed8d0688936d46135f8dad5f3497ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRCUDA_API size_t</type>
-        <definition>MRCUDA_API size_t MR::Cuda::getCudaSafeMemoryLimit</definition>
-        <argsstring>()</argsstring>
-        <name>getCudaSafeMemoryLimit</name>
-        <qualifiedname>MR::Cuda::getCudaSafeMemoryLimit</qualifiedname>
-        <briefdescription>
-<para>Returns maximum safe amount of free GPU memory that will be used for dynamic-sized buffers. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaBasic.h" line="24" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaBasic.h" declline="24" declcolumn="19"/>
-      </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1Cuda_1a45296cef05363425e0b1271f76436597" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRCUDA_API size_t</type>
-        <definition>MRCUDA_API size_t MR::Cuda::maxBufferSize</definition>
-        <argsstring>(size_t availableBytes, size_t elementCount, size_t elementBytes)</argsstring>
-        <name>maxBufferSize</name>
-        <qualifiedname>MR::Cuda::maxBufferSize</qualifiedname>
-        <param>
-          <type>size_t</type>
-          <declname>availableBytes</declname>
-        </param>
-        <param>
-          <type>size_t</type>
-          <declname>elementCount</declname>
-        </param>
-        <param>
-          <type>size_t</type>
-          <declname>elementBytes</declname>
-        </param>
-        <briefdescription>
-<para>Returns maximum buffer size in elements that can be allocated with given memory limit. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaBasic.h" line="27" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaBasic.h" declline="27" declcolumn="19"/>
-      </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1Cuda_1aef610d07cea3f8cabc78d63878b53bc8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRCUDA_API size_t</type>
-        <definition>MRCUDA_API size_t MR::Cuda::maxBufferSizeAlignedByBlock</definition>
-        <argsstring>(size_t availableBytes, const Vector2i &amp;blockDims, size_t elementBytes)</argsstring>
-        <name>maxBufferSizeAlignedByBlock</name>
-        <qualifiedname>MR::Cuda::maxBufferSizeAlignedByBlock</qualifiedname>
-        <param>
-          <type>size_t</type>
-          <declname>availableBytes</declname>
-        </param>
-        <param>
-          <type>const Vector2i &amp;</type>
-          <declname>blockDims</declname>
-        </param>
-        <param>
-          <type>size_t</type>
-          <declname>elementBytes</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Returns maximum buffer size in elements that can be allocated with given memory limit The size is aligned to the block dimensions </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaBasic.h" line="31" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaBasic.h" declline="31" declcolumn="19"/>
-      </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1Cuda_1a3e5fd79d686c56c93e9dc89064653219" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRCUDA_API size_t</type>
-        <definition>MRCUDA_API size_t MR::Cuda::maxBufferSizeAlignedByBlock</definition>
-        <argsstring>(size_t availableBytes, const Vector3i &amp;blockDims, size_t elementBytes)</argsstring>
-        <name>maxBufferSizeAlignedByBlock</name>
-        <qualifiedname>MR::Cuda::maxBufferSizeAlignedByBlock</qualifiedname>
-        <param>
-          <type>size_t</type>
-          <declname>availableBytes</declname>
-        </param>
-        <param>
-          <type>const Vector3i &amp;</type>
-          <declname>blockDims</declname>
-        </param>
-        <param>
-          <type>size_t</type>
-          <declname>elementBytes</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaBasic.h" line="32" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaBasic.h" declline="32" declcolumn="19"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga481800f210dd09851992846af357b7e2" kind="function"><name>isCudaAvailable</name></member>
+      <member refid="group__GeneralGroup_1gae3d6344c4c9b5959665fdde2ddc4a838" kind="function"><name>getCudaAvailableMemory</name></member>
+      <member refid="group__GeneralGroup_1ga2fed8d0688936d46135f8dad5f3497ee" kind="function"><name>getCudaSafeMemoryLimit</name></member>
+      <member refid="group__GeneralGroup_1ga45296cef05363425e0b1271f76436597" kind="function"><name>maxBufferSize</name></member>
+      <member refid="group__GeneralGroup_1gaef610d07cea3f8cabc78d63878b53bc8" kind="function"><name>maxBufferSizeAlignedByBlock</name></member>
+      <member refid="group__GeneralGroup_1ga3e5fd79d686c56c93e9dc89064653219" kind="function"><name>maxBufferSizeAlignedByBlock</name></member>
       <memberdef kind="function" id="namespaceMR_1_1Cuda_1ad903c7645148d442eed7b3be6f4b0da7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRCUDA_API <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref> &gt;</type>
+        <type>MRCUDA_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref> &gt;</type>
         <definition>MRCUDA_API Expected&lt; DistanceMap &gt; MR::Cuda::distanceMapFromContours</definition>
         <argsstring>(const Polyline2 &amp;polyline, const ContourToDistanceMapParams &amp;params)</argsstring>
         <name>distanceMapFromContours</name>
@@ -273,7 +134,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaMath.h" line="28" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaMath.h" declline="28" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1Cuda_1ae00800a975100101a6b94ad8c6c4c817" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRCUDA_API <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref> &gt;</type>
+        <type>MRCUDA_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref> &gt;</type>
         <definition>MRCUDA_API Expected&lt; DistanceMap &gt; MR::Cuda::computeDistanceMap</definition>
         <argsstring>(const Mesh &amp;mesh, const MeshToDistanceMapParams &amp;params, ProgressCallback cb={}, std::vector&lt; MeshTriPoint &gt; *outSamples=nullptr)</argsstring>
         <name>computeDistanceMap</name>
@@ -287,7 +148,7 @@
           <declname>params</declname>
         </param>
         <param>
-          <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+          <type>ProgressCallback</type>
           <declname>cb</declname>
           <defval>{}</defval>
         </param>
@@ -348,7 +209,7 @@
             <type>typename CPUFunc</type>
           </param>
         </templateparamlist>
-        <type><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
         <definition>Expected&lt; void &gt; MR::Cuda::cudaPipeline</definition>
         <argsstring>(BufferType init, InputIt begin, InputIt end, GPUFunc gpuFunc, CPUFunc cpuFunc)</argsstring>
         <name>cudaPipeline</name>
@@ -376,14 +237,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Process data by blocks alternately by GPU and CPU. GPUFunc is executed in a separate thread. Both GPUFunc and CPUFunc must satisfy the following signature: <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">MR::Expected&lt;void&gt;</ref> (*funcName) ( BufferType&amp; buffer, InputIt::value_type value ) </para>
+<para>Process data by blocks alternately by GPU and CPU. GPUFunc is executed in a separate thread. Both GPUFunc and CPUFunc must satisfy the following signature: <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">MR::Expected&lt;void&gt;</ref> (*funcName) ( BufferType&amp; buffer, InputIt::value_type value ) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPipeline.h" line="12" column="10" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPipeline.h" declline="12" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1Cuda_1ae65f347287f9c0ba39f2cc533c51582e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRCUDA_API <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; std::unique_ptr&lt; <ref refid="namespaceMR_1_1Cuda_1a770259831b49f60068c30df5121056c9" kindref="member">PointCloudDataHolder</ref> &gt; &gt;</type>
+        <type>MRCUDA_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; std::unique_ptr&lt; <ref refid="namespaceMR_1_1Cuda_1a770259831b49f60068c30df5121056c9" kindref="member">PointCloudDataHolder</ref> &gt; &gt;</type>
         <definition>MRCUDA_API Expected&lt; std::unique_ptr&lt; PointCloudDataHolder &gt; &gt; MR::Cuda::copyDataFrom</definition>
         <argsstring>(const PointCloud &amp;pc, bool copyNormals=false, const std::vector&lt; Vector3f &gt; *normals=nullptr)</argsstring>
         <name>copyDataFrom</name>
@@ -441,7 +302,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPointCloud.h" line="19" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPointCloud.h" declline="19" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1Cuda_1acdd0eaf7b314f1758bf6e417ad1f3795" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRCUDA_API <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; std::vector&lt; <ref refid="structMR_1_1PointsProjectionResult" kindref="compound">MR::PointsProjectionResult</ref> &gt; &gt;</type>
+        <type>MRCUDA_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; std::vector&lt; <ref refid="structMR_1_1PointsProjectionResult" kindref="compound">MR::PointsProjectionResult</ref> &gt; &gt;</type>
         <definition>MRCUDA_API Expected&lt; std::vector&lt; MR::PointsProjectionResult &gt; &gt; MR::Cuda::findProjectionOnPoints</definition>
         <argsstring>(const PointCloud &amp;pointCloud, const std::vector&lt; Vector3f &gt; &amp;points, const FindProjectionOnPointsSettings &amp;settings={})</argsstring>
         <name>findProjectionOnPoints</name>
@@ -491,204 +352,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPointsProject.h" line="37" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPointsProject.h" declline="37" declcolumn="19"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1Cuda_1a76d46e2388018a2bca5a72dfaefd30e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRCUDA_API <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; MR::SimpleVolumeMinMax &gt;</type>
-        <definition>MRCUDA_API Expected&lt; MR::SimpleVolumeMinMax &gt; MR::Cuda::pointsToDistanceVolume</definition>
-        <argsstring>(const PointCloud &amp;cloud, const MR::PointsToDistanceVolumeParams &amp;params)</argsstring>
-        <name>pointsToDistanceVolume</name>
-        <qualifiedname>MR::Cuda::pointsToDistanceVolume</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref> &amp;</type>
-          <declname>cloud</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1PointsToDistanceVolumeParams" kindref="compound">MR::PointsToDistanceVolumeParams</ref> &amp;</type>
-          <declname>params</declname>
-        </param>
-        <briefdescription>
-<para>makes SimpleVolume filled with signed distances to points with normals </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPointsToDistanceVolume.h" line="13" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPointsToDistanceVolume.h" declline="13" declcolumn="21"/>
-      </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1Cuda_1a2ca6e42153313ca635d7ea3e12d19bf0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRCUDA_API <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
-        <definition>MRCUDA_API Expected&lt; void &gt; MR::Cuda::pointsToDistanceVolumeByParts</definition>
-        <argsstring>(const PointCloud &amp;cloud, const MR::PointsToDistanceVolumeParams &amp;params, std::function&lt; Expected&lt; void &gt;(const SimpleVolumeMinMax &amp;volume, int zOffset)&gt; addPart, int layerOverlap)</argsstring>
-        <name>pointsToDistanceVolumeByParts</name>
-        <qualifiedname>MR::Cuda::pointsToDistanceVolumeByParts</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref> &amp;</type>
-          <declname>cloud</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1PointsToDistanceVolumeParams" kindref="compound">MR::PointsToDistanceVolumeParams</ref> &amp;</type>
-          <declname>params</declname>
-        </param>
-        <param>
-          <type>std::function&lt; <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;(const SimpleVolumeMinMax &amp;<ref refid="namespaceMR_1a83e40508b3f05b594da19748c1da2d05" kindref="member">volume</ref>, int zOffset)&gt;</type>
-          <declname>addPart</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>layerOverlap</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>makes SimpleVolume filled with signed distances to points with normals populate the volume by parts to the given callback </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPointsToDistanceVolume.h" line="17" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPointsToDistanceVolume.h" declline="17" declcolumn="21"/>
-      </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1Cuda_1ab5f9490f820c7e7eb708e516e58d6e5a" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRCUDA_API VertScalars</type>
-        <definition>MRCUDA_API VertScalars MR::Cuda::computeSkyViewFactor</definition>
-        <argsstring>(const Mesh &amp;terrain, const VertCoords &amp;samples, const VertBitSet &amp;validSamples, const std::vector&lt; MR::SkyPatch &gt; &amp;skyPatches, BitSet *outSkyRays=nullptr, std::vector&lt; MR::MeshIntersectionResult &gt; *outIntersections=nullptr)</argsstring>
-        <name>computeSkyViewFactor</name>
-        <qualifiedname>MR::Cuda::computeSkyViewFactor</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &amp;</type>
-          <declname>terrain</declname>
-        </param>
-        <param>
-          <type>const VertCoords &amp;</type>
-          <declname>samples</declname>
-        </param>
-        <param>
-          <type>const VertBitSet &amp;</type>
-          <declname>validSamples</declname>
-        </param>
-        <param>
-          <type>const std::vector&lt; <ref refid="structMR_1_1SkyPatch" kindref="compound">MR::SkyPatch</ref> &gt; &amp;</type>
-          <declname>skyPatches</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> *</type>
-          <declname>outSkyRays</declname>
-          <defval>nullptr</defval>
-        </param>
-        <param>
-          <type>std::vector&lt; <ref refid="structMR_1_1MeshIntersectionResult" kindref="compound">MR::MeshIntersectionResult</ref> &gt; *</type>
-          <declname>outIntersections</declname>
-          <defval>nullptr</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>computes relative radiation in each valid sample point by emitting rays from that point in the sky: the radiation is 1.0f if all rays reach the sky not hitting the terrain; the radiation is 0.0f if all rays do not reach the sky because they are intercepted by the terrain; <parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>outSkyRays</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>- optional output bitset where for every valid sample #i its rays are stored at indices [i*numPatches; (i+1)*numPatches), 0s for occluded rays (hitting the terrain) and 1s for the ones which don&apos;t hit anything and reach the sky </para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>outIntersections</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>- optional output vector of <ref refid="structMR_1_1MeshIntersectionResult" kindref="compound">MeshIntersectionResult</ref> for every valid sample point </para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaSolarRadiation.h" line="21" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaSolarRadiation.h" declline="21" declcolumn="25"/>
-      </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1Cuda_1af763aea7896baa102ab7715278d93231" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRCUDA_API <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref></type>
-        <definition>MRCUDA_API BitSet MR::Cuda::findSkyRays</definition>
-        <argsstring>(const Mesh &amp;terrain, const VertCoords &amp;samples, const VertBitSet &amp;validSamples, const std::vector&lt; MR::SkyPatch &gt; &amp;skyPatches, std::vector&lt; MR::MeshIntersectionResult &gt; *outIntersections=nullptr)</argsstring>
-        <name>findSkyRays</name>
-        <qualifiedname>MR::Cuda::findSkyRays</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &amp;</type>
-          <declname>terrain</declname>
-        </param>
-        <param>
-          <type>const VertCoords &amp;</type>
-          <declname>samples</declname>
-        </param>
-        <param>
-          <type>const VertBitSet &amp;</type>
-          <declname>validSamples</declname>
-        </param>
-        <param>
-          <type>const std::vector&lt; <ref refid="structMR_1_1SkyPatch" kindref="compound">MR::SkyPatch</ref> &gt; &amp;</type>
-          <declname>skyPatches</declname>
-        </param>
-        <param>
-          <type>std::vector&lt; <ref refid="structMR_1_1MeshIntersectionResult" kindref="compound">MR::MeshIntersectionResult</ref> &gt; *</type>
-          <declname>outIntersections</declname>
-          <defval>nullptr</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>In each valid sample point tests the rays from that point in the sky; <simplesect kind="return"><para>bitset where for every valid sample #i its rays are stored at indices [i*numPatches; (i+1)*numPatches), 0s for occluded rays (hitting the terrain) and 1s for the ones which don&apos;t hit anything and reach the sky </para>
-</simplesect>
-<parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>outIntersections</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>- optional output vector of <ref refid="structMR_1_1MeshIntersectionResult" kindref="compound">MeshIntersectionResult</ref> for every valid sample point </para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaSolarRadiation.h" line="30" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaSolarRadiation.h" declline="30" declcolumn="20"/>
-      </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1Cuda_1a07684cc6b916a645e4ed28757498d51a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRCUDA_API <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
-        <definition>MRCUDA_API Expected&lt; void &gt; MR::Cuda::negatePicture</definition>
-        <argsstring>(MR::Image &amp;image)</argsstring>
-        <name>negatePicture</name>
-        <qualifiedname>MR::Cuda::negatePicture</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1Image" kindref="compound">MR::Image</ref> &amp;</type>
-          <declname>image</declname>
-        </param>
-        <briefdescription>
-<para>This function inverts <ref refid="structMR_1_1Color" kindref="compound">Color</ref> value (255 - value in each channel except alpha) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaTest.h" line="15" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaTest.h" declline="15" declcolumn="21"/>
-      </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1Cuda_1a5caa3c21e1c35ac6d6dd2eb125484783" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRCUDA_API void</type>
-        <definition>MRCUDA_API void MR::Cuda::loadMRCudaDll</definition>
-        <argsstring>()</argsstring>
-        <name>loadMRCudaDll</name>
-        <qualifiedname>MR::Cuda::loadMRCudaDll</qualifiedname>
-        <briefdescription>
-<para>call this function to load MRCuda shared library </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaTest.h" line="18" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaTest.h" declline="18" declcolumn="17"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga76d46e2388018a2bca5a72dfaefd30e9" kind="function"><name>pointsToDistanceVolume</name></member>
+      <member refid="group__GeneralGroup_1ga2ca6e42153313ca635d7ea3e12d19bf0" kind="function"><name>pointsToDistanceVolumeByParts</name></member>
+      <member refid="group__GeneralGroup_1gab5f9490f820c7e7eb708e516e58d6e5a" kind="function"><name>computeSkyViewFactor</name></member>
+      <member refid="group__GeneralGroup_1gaf763aea7896baa102ab7715278d93231" kind="function"><name>findSkyRays</name></member>
+      <member refid="group__GeneralGroup_1ga07684cc6b916a645e4ed28757498d51a" kind="function"><name>negatePicture</name></member>
+      <member refid="group__GeneralGroup_1ga5caa3c21e1c35ac6d6dd2eb125484783" kind="function"><name>loadMRCudaDll</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaBasic.h" line="10" column="1"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaBasic.h" line="13" column="1"/>
   </compounddef>
 </doxygen>

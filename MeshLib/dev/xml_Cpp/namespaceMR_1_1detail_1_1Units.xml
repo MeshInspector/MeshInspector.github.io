@@ -4,30 +4,12 @@
     <compoundname>MR::detail::Units</compoundname>
     <innerclass refid="structMR_1_1detail_1_1Units_1_1Empty" prot="public">MR::detail::Units::Empty</innerclass>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="namespaceMR_1_1detail_1_1Units_1aec57db09655986b2ed959d498edc6f2a" prot="public" static="no">
-        <templateparamlist>
-          <param>
-            <type>typename T</type>
-          </param>
-        </templateparamlist>
-        <type>std::conditional_t&lt; std::is_integral_v&lt; typename <ref refid="structMR_1_1VectorTraits" kindref="compound">VectorTraits</ref>&lt; T &gt;::BaseType &gt;, typename <ref refid="structMR_1_1VectorTraits" kindref="compound">VectorTraits</ref>&lt; T &gt;::template ChangeBaseType&lt; float &gt;, T &gt;</type>
-        <definition>using MR::detail::Units::MakeFloatingPoint =  std::conditional_t&lt;std::is_integral_v&lt;typename VectorTraits&lt;T&gt;::BaseType&gt;, typename VectorTraits&lt;T&gt;::template ChangeBaseType&lt;float&gt;, T&gt;</definition>
-        <argsstring></argsstring>
-        <name>MakeFloatingPoint</name>
-        <qualifiedname>MR::detail::Units::MakeFloatingPoint</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnitInfo.h" line="173" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnitInfo.h" bodystart="173" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaec57db09655986b2ed959d498edc6f2a" kind="typedef"><name>MakeFloatingPoint</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnitInfo.h" line="167" column="1"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnitInfo.h" line="170" column="1"/>
   </compounddef>
 </doxygen>

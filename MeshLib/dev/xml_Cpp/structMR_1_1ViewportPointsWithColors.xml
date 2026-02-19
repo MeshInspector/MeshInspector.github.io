@@ -4,44 +4,18 @@
     <compoundname>MR::ViewportPointsWithColors</compoundname>
     <includes refid="MRViewportGL_8h" local="no">MRViewportGL.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1ViewportPointsWithColors_1ac82bf98c749b0bb821e259629bb70b84" prot="public" static="no" mutable="no">
-        <type>std::vector&lt; Vector3f &gt;</type>
-        <definition>std::vector&lt;Vector3f&gt; MR::ViewportPointsWithColors::points</definition>
-        <argsstring></argsstring>
-        <name>points</name>
-        <qualifiedname>MR::ViewportPointsWithColors::points</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="29" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="29" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ViewportPointsWithColors_1af0122c41ec3efb5901af84d7a442e268" prot="public" static="no" mutable="no">
-        <type>std::vector&lt; Vector4f &gt;</type>
-        <definition>std::vector&lt;Vector4f&gt; MR::ViewportPointsWithColors::colors</definition>
-        <argsstring></argsstring>
-        <name>colors</name>
-        <qualifiedname>MR::ViewportPointsWithColors::colors</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="30" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="30" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gac82bf98c749b0bb821e259629bb70b84" kind="variable"><name>points</name></member>
+      <member refid="group__GeneralGroup_1gaf0122c41ec3efb5901af84d7a442e268" kind="variable"><name>colors</name></member>
     </sectiondef>
     <briefdescription>
 <para>stores points and corresponding colors (sizes of vectors should be the same) </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="27" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="28" bodyend="31"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="30" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="31" bodyend="34"/>
     <listofallmembers>
-      <member refid="structMR_1_1ViewportPointsWithColors_1af0122c41ec3efb5901af84d7a442e268" prot="public" virt="non-virtual"><scope>MR::ViewportPointsWithColors</scope><name>colors</name></member>
-      <member refid="structMR_1_1ViewportPointsWithColors_1ac82bf98c749b0bb821e259629bb70b84" prot="public" virt="non-virtual"><scope>MR::ViewportPointsWithColors</scope><name>points</name></member>
+      <member refid="group__GeneralGroup_1gaf0122c41ec3efb5901af84d7a442e268" prot="public" virt="non-virtual"><scope>MR::ViewportPointsWithColors</scope><name>colors</name></member>
+      <member refid="group__GeneralGroup_1gac82bf98c749b0bb821e259629bb70b84" prot="public" virt="non-virtual"><scope>MR::ViewportPointsWithColors</scope><name>points</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

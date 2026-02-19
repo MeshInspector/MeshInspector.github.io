@@ -15,39 +15,8 @@
       </param>
     </templateparamlist>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4_1ad21248165ad203df01a756a7fb45036a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type></type>
-        <definition>virtual MR::SceneStateExactCheck&lt; N, ObjectT, NoVisualRepresentationCheck &gt;::~SceneStateExactCheck</definition>
-        <argsstring>()=default</argsstring>
-        <name>~SceneStateExactCheck</name>
-        <qualifiedname>MR::SceneStateExactCheck&lt; N, ObjectT, NoVisualRepresentationCheck &gt;::~SceneStateExactCheck</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" line="101" column="13"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4_1a8119757962c12e1b44b3b9b96c6fee98" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>std::string</type>
-        <definition>virtual std::string MR::SceneStateExactCheck&lt; N, ObjectT, NoVisualRepresentationCheck &gt;::isAvailable</definition>
-        <argsstring>(const std::vector&lt; std::shared_ptr&lt; const Object &gt; &gt; &amp;objs) const override</argsstring>
-        <name>isAvailable</name>
-        <qualifiedname>MR::SceneStateExactCheck&lt; N, ObjectT, NoVisualRepresentationCheck &gt;::isAvailable</qualifiedname>
-        <reimplements refid="classMR_1_1ISceneStateCheck_1adedf10c80ddfebcb456559fa828065c0">isAvailable</reimplements>
-        <param>
-          <type>const std::vector&lt; std::shared_ptr&lt; const <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt; &amp;</type>
-        </param>
-        <briefdescription>
-<para>return empty string if all requirements are satisfied, otherwise return first unsatisfied requirement </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" line="102" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" bodystart="102" bodyend="105"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gad21248165ad203df01a756a7fb45036a" kind="function"><name>~SceneStateExactCheck</name></member>
+      <member refid="group__GeneralGroup_1ga8119757962c12e1b44b3b9b96c6fee98" kind="function"><name>isAvailable</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -77,11 +46,11 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" line="98" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" bodystart="99" bodyend="106"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" line="101" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" bodystart="102" bodyend="109"/>
     <listofallmembers>
-      <member refid="classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4_1a8119757962c12e1b44b3b9b96c6fee98" prot="public" virt="virtual"><scope>MR::SceneStateExactCheck&lt; N, ObjectT, NoVisualRepresentationCheck &gt;</scope><name>isAvailable</name></member>
-      <member refid="classMR_1_1ISceneStateCheck_1ad6d7bd5bc97dd4a629de5e0a33af3afe" prot="public" virt="virtual"><scope>MR::SceneStateExactCheck&lt; N, ObjectT, NoVisualRepresentationCheck &gt;</scope><name>~ISceneStateCheck</name></member>
-      <member refid="classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4_1ad21248165ad203df01a756a7fb45036a" prot="public" virt="virtual"><scope>MR::SceneStateExactCheck&lt; N, ObjectT, NoVisualRepresentationCheck &gt;</scope><name>~SceneStateExactCheck</name></member>
+      <member refid="group__GeneralGroup_1ga8119757962c12e1b44b3b9b96c6fee98" prot="public" virt="virtual"><scope>MR::SceneStateExactCheck&lt; N, ObjectT, NoVisualRepresentationCheck &gt;</scope><name>isAvailable</name></member>
+      <member refid="group__GeneralGroup_1gad6d7bd5bc97dd4a629de5e0a33af3afe" prot="public" virt="virtual"><scope>MR::SceneStateExactCheck&lt; N, ObjectT, NoVisualRepresentationCheck &gt;</scope><name>~ISceneStateCheck</name></member>
+      <member refid="group__GeneralGroup_1gad21248165ad203df01a756a7fb45036a" prot="public" virt="virtual"><scope>MR::SceneStateExactCheck&lt; N, ObjectT, NoVisualRepresentationCheck &gt;</scope><name>~SceneStateExactCheck</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

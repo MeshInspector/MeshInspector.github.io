@@ -5,123 +5,15 @@
     <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
     <includes refid="MRObjectTransformWidget_8h" local="no">MRObjectTransformWidget.h</includes>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1ITransformControls_1_1ChangeCenterAction_1a11a04d5d3816fae8706b3ce313c1ad38" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1ITransformControls" kindref="compound">ITransformControls</ref> &amp;</type>
-        <definition>ITransformControls&amp; MR::ITransformControls::ChangeCenterAction::controls_</definition>
-        <argsstring></argsstring>
-        <name>controls_</name>
-        <qualifiedname>MR::ITransformControls::ChangeCenterAction::controls_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="105" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="105" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ITransformControls_1_1ChangeCenterAction_1a860edc3de0be8f7a088fb847d998bf00" prot="private" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::ITransformControls::ChangeCenterAction::center_</definition>
-        <argsstring></argsstring>
-        <name>center_</name>
-        <qualifiedname>MR::ITransformControls::ChangeCenterAction::center_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="106" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="106" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ITransformControls_1_1ChangeCenterAction_1a53ab2f2b43d2f63fc5a1a5544c4f476d" prot="private" static="no" mutable="no">
-        <type>std::string</type>
-        <definition>std::string MR::ITransformControls::ChangeCenterAction::name_</definition>
-        <argsstring></argsstring>
-        <name>name_</name>
-        <qualifiedname>MR::ITransformControls::ChangeCenterAction::name_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="107" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="107" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga11a04d5d3816fae8706b3ce313c1ad38" kind="variable"><name>controls_</name></member>
+      <member refid="group__GeneralGroup_1ga860edc3de0be8f7a088fb847d998bf00" kind="variable"><name>center_</name></member>
+      <member refid="group__GeneralGroup_1ga53ab2f2b43d2f63fc5a1a5544c4f476d" kind="variable"><name>name_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1ITransformControls_1_1ChangeCenterAction_1a926ace27d08d805a74cb193b73bcb2b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::ITransformControls::ChangeCenterAction::ChangeCenterAction</definition>
-        <argsstring>(const std::string &amp;name, ITransformControls &amp;controls)</argsstring>
-        <name>ChangeCenterAction</name>
-        <qualifiedname>MR::ITransformControls::ChangeCenterAction::ChangeCenterAction</qualifiedname>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>name</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1ITransformControls" kindref="compound">ITransformControls</ref> &amp;</type>
-          <declname>controls</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="89" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="89" bodyend="91"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ITransformControls_1_1ChangeCenterAction_1a9f633c38c10b5c7437a1f2479e01acdf" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>std::string</type>
-        <definition>virtual std::string MR::ITransformControls::ChangeCenterAction::name</definition>
-        <argsstring>() const override</argsstring>
-        <name>name</name>
-        <qualifiedname>MR::ITransformControls::ChangeCenterAction::name</qualifiedname>
-        <reimplements refid="classMR_1_1HistoryAction_1a9daa0b79de161f676f6283e3804dc8ce">name</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="93" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="93" bodyend="93"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ITransformControls_1_1ChangeCenterAction_1abf5a84325d8fc0c434b810083942d5d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MR::ITransformControls::ChangeCenterAction::action</definition>
-        <argsstring>(HistoryAction::Type) override</argsstring>
-        <name>action</name>
-        <qualifiedname>MR::ITransformControls::ChangeCenterAction::action</qualifiedname>
-        <reimplements refid="classMR_1_1HistoryAction_1aecfce349736beaf17a23a6817c86f3bb">action</reimplements>
-        <param>
-          <type><ref refid="classMR_1_1HistoryAction_1ac16eb31dd26d35cfc18bac8a05983aa7" kindref="member">HistoryAction::Type</ref></type>
-          <declname>actionType</declname>
-        </param>
-        <briefdescription>
-<para>This function is called on history action (undo, redo, etc.) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="95" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="95" bodyend="100"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ITransformControls_1_1ChangeCenterAction_1a33f480e43da49df5be723d1981cda6c8" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>size_t</type>
-        <definition>virtual size_t MR::ITransformControls::ChangeCenterAction::heapBytes</definition>
-        <argsstring>() const override</argsstring>
-        <name>heapBytes</name>
-        <qualifiedname>MR::ITransformControls::ChangeCenterAction::heapBytes</qualifiedname>
-        <reimplements refid="classMR_1_1HistoryAction_1ad6df54da6a63ed83f15053507e8569de">heapBytes</reimplements>
-        <briefdescription>
-<para>returns the amount of memory this object occupies on heap </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="102" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="102" bodyend="102"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga926ace27d08d805a74cb193b73bcb2b0" kind="function"><name>ChangeCenterAction</name></member>
+      <member refid="group__GeneralGroup_1ga9f633c38c10b5c7437a1f2479e01acdf" kind="function"><name>name</name></member>
+      <member refid="group__GeneralGroup_1gabf5a84325d8fc0c434b810083942d5d2" kind="function"><name>action</name></member>
+      <member refid="group__GeneralGroup_1ga33f480e43da49df5be723d1981cda6c8" kind="function"><name>heapBytes</name></member>
     </sectiondef>
     <briefdescription>
 <para>build-in history action class for change center </para>
@@ -152,17 +44,17 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="86" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="87" bodyend="108"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="89" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="90" bodyend="111"/>
     <listofallmembers>
-      <member refid="classMR_1_1ITransformControls_1_1ChangeCenterAction_1abf5a84325d8fc0c434b810083942d5d2" prot="public" virt="virtual"><scope>MR::ITransformControls::ChangeCenterAction</scope><name>action</name></member>
-      <member refid="classMR_1_1ITransformControls_1_1ChangeCenterAction_1a860edc3de0be8f7a088fb847d998bf00" prot="private" virt="non-virtual"><scope>MR::ITransformControls::ChangeCenterAction</scope><name>center_</name></member>
-      <member refid="classMR_1_1ITransformControls_1_1ChangeCenterAction_1a926ace27d08d805a74cb193b73bcb2b0" prot="public" virt="non-virtual"><scope>MR::ITransformControls::ChangeCenterAction</scope><name>ChangeCenterAction</name></member>
-      <member refid="classMR_1_1ITransformControls_1_1ChangeCenterAction_1a11a04d5d3816fae8706b3ce313c1ad38" prot="private" virt="non-virtual"><scope>MR::ITransformControls::ChangeCenterAction</scope><name>controls_</name></member>
-      <member refid="classMR_1_1ITransformControls_1_1ChangeCenterAction_1a33f480e43da49df5be723d1981cda6c8" prot="public" virt="virtual"><scope>MR::ITransformControls::ChangeCenterAction</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1ITransformControls_1_1ChangeCenterAction_1a9f633c38c10b5c7437a1f2479e01acdf" prot="public" virt="virtual"><scope>MR::ITransformControls::ChangeCenterAction</scope><name>name</name></member>
-      <member refid="classMR_1_1ITransformControls_1_1ChangeCenterAction_1a53ab2f2b43d2f63fc5a1a5544c4f476d" prot="private" virt="non-virtual"><scope>MR::ITransformControls::ChangeCenterAction</scope><name>name_</name></member>
-      <member refid="classMR_1_1HistoryAction_1ac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::ITransformControls::ChangeCenterAction</scope><name>Type</name></member>
-      <member refid="classMR_1_1HistoryAction_1a97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::ITransformControls::ChangeCenterAction</scope><name>~HistoryAction</name></member>
+      <member refid="group__GeneralGroup_1gabf5a84325d8fc0c434b810083942d5d2" prot="public" virt="virtual"><scope>MR::ITransformControls::ChangeCenterAction</scope><name>action</name></member>
+      <member refid="group__GeneralGroup_1ga860edc3de0be8f7a088fb847d998bf00" prot="private" virt="non-virtual"><scope>MR::ITransformControls::ChangeCenterAction</scope><name>center_</name></member>
+      <member refid="group__GeneralGroup_1ga926ace27d08d805a74cb193b73bcb2b0" prot="public" virt="non-virtual"><scope>MR::ITransformControls::ChangeCenterAction</scope><name>ChangeCenterAction</name></member>
+      <member refid="group__GeneralGroup_1ga11a04d5d3816fae8706b3ce313c1ad38" prot="private" virt="non-virtual"><scope>MR::ITransformControls::ChangeCenterAction</scope><name>controls_</name></member>
+      <member refid="group__GeneralGroup_1ga33f480e43da49df5be723d1981cda6c8" prot="public" virt="virtual"><scope>MR::ITransformControls::ChangeCenterAction</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1ga9f633c38c10b5c7437a1f2479e01acdf" prot="public" virt="virtual"><scope>MR::ITransformControls::ChangeCenterAction</scope><name>name</name></member>
+      <member refid="group__GeneralGroup_1ga53ab2f2b43d2f63fc5a1a5544c4f476d" prot="private" virt="non-virtual"><scope>MR::ITransformControls::ChangeCenterAction</scope><name>name_</name></member>
+      <member refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::ITransformControls::ChangeCenterAction</scope><name>Type</name></member>
+      <member refid="group__GeneralGroup_1ga97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::ITransformControls::ChangeCenterAction</scope><name>~HistoryAction</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

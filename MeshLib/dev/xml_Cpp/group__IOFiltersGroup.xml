@@ -22,7 +22,7 @@
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="group__IOFiltersGroup_1ga92c17e5c77b16529d727a2fe2b1c1148" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> IOFilters</type>
+        <type>MRMESH_API IOFilters</type>
         <definition>MRMESH_API IOFilters MR::operator|</definition>
         <argsstring>(const IOFilters &amp;a, const IOFilters &amp;b)</argsstring>
         <name>operator|</name>
@@ -45,7 +45,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFilters.h" line="35" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFilters.h" declline="35" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="group__IOFiltersGroup_1gadd9420cabaaa71b707111e6213f0fdc6" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::optional&lt; IOFilter &gt;</type>
+        <type>MRMESH_API std::optional&lt; IOFilter &gt;</type>
         <definition>MRMESH_API std::optional&lt; IOFilter &gt; MR::findFilter</definition>
         <argsstring>(const IOFilters &amp;filters, const std::string &amp;extension)</argsstring>
         <name>findFilter</name>

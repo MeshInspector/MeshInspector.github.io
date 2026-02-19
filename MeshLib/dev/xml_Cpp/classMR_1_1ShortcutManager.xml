@@ -6,478 +6,44 @@
     <includes refid="MRShortcutManager_8h" local="no">MRShortcutManager.h</includes>
     <innerclass refid="structMR_1_1ShortcutManager_1_1ShortcutCommand" prot="public">MR::ShortcutManager::ShortcutCommand</innerclass>
     <sectiondef kind="public-type">
-      <memberdef kind="enum" id="classMR_1_1ShortcutManager_1a1a85baae28af51cf7825c2099b693c1b" prot="public" static="no" strong="yes">
-        <type></type>
-        <name>Reason</name>
-        <qualifiedname>MR::ShortcutManager::Reason</qualifiedname>
-        <enumvalue id="classMR_1_1ShortcutManager_1a1a85baae28af51cf7825c2099b693c1bacfd07bf1effd88bca04a12a087777354" prot="public">
-          <name>KeyDown</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1ShortcutManager_1a1a85baae28af51cf7825c2099b693c1ba4a18f6017ff7015424784e907c933572" prot="public">
-          <name>KeyRepeat</name>
-          <briefdescription>
-<para>the user just pressed the keys </para>
-          </briefdescription>
-          <detaileddescription>
-<para>the user holds the keys for a long time </para>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h" line="72" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h" bodystart="73" bodyend="76"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1ShortcutManager_1a95af7d1cba13355b957e0dd270166269" prot="public" static="no">
-        <type><ref refid="structMR_1_1ShortcutKey" kindref="compound">MR::ShortcutKey</ref></type>
-        <definition>using MR::ShortcutManager::ShortcutKey =  MR::ShortcutKey</definition>
-        <argsstring></argsstring>
-        <name>ShortcutKey</name>
-        <qualifiedname>MR::ShortcutManager::ShortcutKey</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h" line="48" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h" bodystart="48" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1ShortcutManager_1acac503f87e678e4a4e1c3541d5915098" prot="public" static="no">
-        <type><ref refid="namespaceMR_1abeff4ec21e8ee2ea544cdb4ce4d55d6b" kindref="member">MR::ShortcutCategory</ref></type>
-        <definition>using MR::ShortcutManager::Category =  MR::ShortcutCategory</definition>
-        <argsstring></argsstring>
-        <name>Category</name>
-        <qualifiedname>MR::ShortcutManager::Category</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h" line="49" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h" bodystart="49" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1ShortcutManager_1a912f0a1bddab02d0a371cdf93d4729f1" prot="public" static="no">
-        <type>std::vector&lt; std::tuple&lt; <ref refid="classMR_1_1ShortcutManager_1a95af7d1cba13355b957e0dd270166269" kindref="member">ShortcutKey</ref>, <ref refid="namespaceMR_1abeff4ec21e8ee2ea544cdb4ce4d55d6b" kindref="member">Category</ref>, std::string &gt; &gt;</type>
-        <definition>using MR::ShortcutManager::ShortcutList =  std::vector&lt;std::tuple&lt;ShortcutKey, Category, std::string&gt;&gt;</definition>
-        <argsstring></argsstring>
-        <name>ShortcutList</name>
-        <qualifiedname>MR::ShortcutManager::ShortcutList</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h" line="66" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h" bodystart="66" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga1a85baae28af51cf7825c2099b693c1b" kind="enum"><name>Reason</name></member>
+      <member refid="group__GeneralGroup_1ga95af7d1cba13355b957e0dd270166269" kind="typedef"><name>ShortcutKey</name></member>
+      <member refid="group__GeneralGroup_1gacac503f87e678e4a4e1c3541d5915098" kind="typedef"><name>Category</name></member>
+      <member refid="group__GeneralGroup_1ga912f0a1bddab02d0a371cdf93d4729f1" kind="typedef"><name>ShortcutList</name></member>
     </sectiondef>
     <sectiondef kind="protected-type">
-      <memberdef kind="typedef" id="classMR_1_1ShortcutManager_1aa3f924fb2d8d08321689742094b61a10" prot="protected" static="no">
-        <type><ref refid="namespaceMR_1af8ad9e1b05a45987a3075d43bf345d68" kindref="member">HashMap</ref>&lt; int, <ref refid="structMR_1_1ShortcutManager_1_1ShortcutCommand" kindref="compound">ShortcutCommand</ref> &gt;</type>
-        <definition>using MR::ShortcutManager::ShourtcutsMap =  HashMap&lt;int, ShortcutCommand&gt;</definition>
-        <argsstring></argsstring>
-        <name>ShourtcutsMap</name>
-        <qualifiedname>MR::ShortcutManager::ShourtcutsMap</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h" line="107" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h" bodystart="107" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1ShortcutManager_1a12fa153bb2f0df72498264f840eeef6c" prot="protected" static="no">
-        <type><ref refid="namespaceMR_1af8ad9e1b05a45987a3075d43bf345d68" kindref="member">HashMap</ref>&lt; std::string, int &gt;</type>
-        <definition>using MR::ShortcutManager::ShourtcutsBackMap =  HashMap&lt;std::string, int&gt;</definition>
-        <argsstring></argsstring>
-        <name>ShourtcutsBackMap</name>
-        <qualifiedname>MR::ShortcutManager::ShourtcutsBackMap</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h" line="108" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h" bodystart="108" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaa3f924fb2d8d08321689742094b61a10" kind="typedef"><name>ShourtcutsMap</name></member>
+      <member refid="group__GeneralGroup_1ga12fa153bb2f0df72498264f840eeef6c" kind="typedef"><name>ShourtcutsBackMap</name></member>
     </sectiondef>
     <sectiondef kind="public-static-attrib">
-      <memberdef kind="variable" id="classMR_1_1ShortcutManager_1a32f51a9bb8d5a8f0ef57375bf98c2ce1" prot="public" static="yes" mutable="no">
-        <type>const std::string</type>
-        <definition>const std::string MR::ShortcutManager::categoryNames[6]</definition>
-        <argsstring>[6]</argsstring>
-        <name>categoryNames</name>
-        <qualifiedname>MR::ShortcutManager::categoryNames</qualifiedname>
-        <initializer>= { &quot;Info&quot;, &quot;Edit&quot;, &quot;View&quot;, &quot;Scene&quot;, &quot;Objects&quot;, &quot;Selection &quot; }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h" line="59" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h" bodystart="59" bodyend="59"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga32f51a9bb8d5a8f0ef57375bf98c2ce1" kind="variable"><name>categoryNames</name></member>
     </sectiondef>
     <sectiondef kind="protected-attrib">
-      <memberdef kind="variable" id="classMR_1_1ShortcutManager_1af0dd4d072b92bf237ce72e80f357d475" prot="protected" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::ShortcutManager::enabled_</definition>
-        <argsstring></argsstring>
-        <name>enabled_</name>
-        <qualifiedname>MR::ShortcutManager::enabled_</qualifiedname>
-        <initializer>{ true }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h" line="110" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h" bodystart="110" bodyend="110"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ShortcutManager_1aac7a5049ef27e6c01ce4352af5405141" prot="protected" static="no" mutable="no">
-        <type><ref refid="classMR_1_1ShortcutManager_1aa3f924fb2d8d08321689742094b61a10" kindref="member">ShourtcutsMap</ref></type>
-        <definition>ShourtcutsMap MR::ShortcutManager::map_</definition>
-        <argsstring></argsstring>
-        <name>map_</name>
-        <qualifiedname>MR::ShortcutManager::map_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h" line="112" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h" bodystart="112" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ShortcutManager_1aa81ce4c0f43334be0c680e28346fce2e" prot="protected" static="no" mutable="no">
-        <type><ref refid="classMR_1_1ShortcutManager_1a12fa153bb2f0df72498264f840eeef6c" kindref="member">ShourtcutsBackMap</ref></type>
-        <definition>ShourtcutsBackMap MR::ShortcutManager::backMap_</definition>
-        <argsstring></argsstring>
-        <name>backMap_</name>
-        <qualifiedname>MR::ShortcutManager::backMap_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h" line="113" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h" bodystart="113" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ShortcutManager_1adf3fea364a499a2b41b73fb7fa94b301" prot="protected" static="no" mutable="yes">
-        <type>std::optional&lt; <ref refid="classMR_1_1ShortcutManager_1a912f0a1bddab02d0a371cdf93d4729f1" kindref="member">ShortcutList</ref> &gt;</type>
-        <definition>std::optional&lt;ShortcutList&gt; MR::ShortcutManager::listCache_</definition>
-        <argsstring></argsstring>
-        <name>listCache_</name>
-        <qualifiedname>MR::ShortcutManager::listCache_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h" line="115" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h" bodystart="115" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaf0dd4d072b92bf237ce72e80f357d475" kind="variable"><name>enabled_</name></member>
+      <member refid="group__GeneralGroup_1gaac7a5049ef27e6c01ce4352af5405141" kind="variable"><name>map_</name></member>
+      <member refid="group__GeneralGroup_1gaa81ce4c0f43334be0c680e28346fce2e" kind="variable"><name>backMap_</name></member>
+      <member refid="group__GeneralGroup_1gadf3fea364a499a2b41b73fb7fa94b301" kind="variable"><name>listCache_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1ShortcutManager_1ac5d35f9b0ea4c909a2e0e182b46ca18b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type></type>
-        <definition>virtual MR::ShortcutManager::~ShortcutManager</definition>
-        <argsstring>()=default</argsstring>
-        <name>~ShortcutManager</name>
-        <qualifiedname>MR::ShortcutManager::~ShortcutManager</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h" line="46" column="13"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ShortcutManager_1a70996e2b27f24841fb75376870328103" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>virtual MRVIEWER_API void MR::ShortcutManager::setShortcut</definition>
-        <argsstring>(const ShortcutKey &amp;key, const ShortcutCommand &amp;command)</argsstring>
-        <name>setShortcut</name>
-        <qualifiedname>MR::ShortcutManager::setShortcut</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1ShortcutManager_1a95af7d1cba13355b957e0dd270166269" kindref="member">ShortcutKey</ref> &amp;</type>
-          <declname>key</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1ShortcutManager_1_1ShortcutCommand" kindref="compound">ShortcutCommand</ref> &amp;</type>
-          <declname>command</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>set shortcut note: one action can have only one shortcut, one shortcut can have only one action if action already has other shortcut, other one will be removed </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h" line="64" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ShortcutManager_1a0d5470fbe42101af3a425b0108338a10" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API const <ref refid="classMR_1_1ShortcutManager_1a912f0a1bddab02d0a371cdf93d4729f1" kindref="member">ShortcutList</ref> &amp;</type>
-        <definition>MRVIEWER_API const ShortcutList &amp; MR::ShortcutManager::getShortcutList</definition>
-        <argsstring>() const</argsstring>
-        <name>getShortcutList</name>
-        <qualifiedname>MR::ShortcutManager::getShortcutList</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>returns cached list of sorted shortcuts (sorting by key) if this structure was changed since last call of this function - updates cache </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h" line="70" column="37"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ShortcutManager_1aaf51fc21fb54cb1e8d7b1734c0d4c0e9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::ShortcutManager::isEnabled</definition>
-        <argsstring>() const</argsstring>
-        <name>isEnabled</name>
-        <qualifiedname>MR::ShortcutManager::isEnabled</qualifiedname>
-        <briefdescription>
-<para>processShortcut does nothing if not enabled </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h" line="79" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h" bodystart="79" bodyend="79"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ShortcutManager_1a5e5ccda452d5473a8328af4b7003e4f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ShortcutManager::enable</definition>
-        <argsstring>(bool on)</argsstring>
-        <name>enable</name>
-        <qualifiedname>MR::ShortcutManager::enable</qualifiedname>
-        <param>
-          <type>bool</type>
-          <declname>on</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h" line="80" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h" bodystart="80" bodyend="80"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ShortcutManager_1a4342c4301200e65be8eb010636b8db8e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>virtual MRVIEWER_API bool MR::ShortcutManager::processShortcut</definition>
-        <argsstring>(const ShortcutKey &amp;key, Reason=Reason::KeyDown) const</argsstring>
-        <name>processShortcut</name>
-        <qualifiedname>MR::ShortcutManager::processShortcut</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1ShortcutManager_1a95af7d1cba13355b957e0dd270166269" kindref="member">ShortcutKey</ref> &amp;</type>
-          <declname>key</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1ShortcutManager_1a1a85baae28af51cf7825c2099b693c1b" kindref="member">Reason</ref></type>
-          <defval><ref refid="classMR_1_1ShortcutManager_1a1a85baae28af51cf7825c2099b693c1bacfd07bf1effd88bca04a12a087777354" kindref="member">Reason::KeyDown</ref></defval>
-        </param>
-        <briefdescription>
-<para>if given key has action in shortcut map - process it and returns true, otherwise returns false; </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h" line="83" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ShortcutManager_1a3492565e858a0451f1ef647ad5d40b68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>MRVIEWER_API bool MR::ShortcutManager::onKeyDown_</definition>
-        <argsstring>(int key, int modifier) override</argsstring>
-        <name>onKeyDown_</name>
-        <qualifiedname>MR::ShortcutManager::onKeyDown_</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>key</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>modifier</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h" line="85" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ShortcutManager_1aeff727b4670aa9fcca089a4f082b30e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>MRVIEWER_API bool MR::ShortcutManager::onKeyRepeat_</definition>
-        <argsstring>(int key, int modifier) override</argsstring>
-        <name>onKeyRepeat_</name>
-        <qualifiedname>MR::ShortcutManager::onKeyRepeat_</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>key</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>modifier</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h" line="86" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ShortcutManager_1adf200a338401cd7994a122ba61bfce47" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API std::optional&lt; <ref refid="classMR_1_1ShortcutManager_1a95af7d1cba13355b957e0dd270166269" kindref="member">ShortcutKey</ref> &gt;</type>
-        <definition>MRVIEWER_API std::optional&lt; ShortcutKey &gt; MR::ShortcutManager::findShortcutByName</definition>
-        <argsstring>(const std::string &amp;name) const</argsstring>
-        <name>findShortcutByName</name>
-        <qualifiedname>MR::ShortcutManager::findShortcutByName</qualifiedname>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>name</declname>
-        </param>
-        <briefdescription>
-<para>if action with given name is present in shortcut list - returns it </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h" line="96" column="32"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ShortcutManager_1a608ab9e3afbb9351ea419a3ae0215ab2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::ShortcutManager::clear</definition>
-        <argsstring>()</argsstring>
-        <name>clear</name>
-        <qualifiedname>MR::ShortcutManager::clear</qualifiedname>
-        <briefdescription>
-<para>clear all saved shortcuts </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h" line="99" column="23"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gac5d35f9b0ea4c909a2e0e182b46ca18b" kind="function"><name>~ShortcutManager</name></member>
+      <member refid="group__GeneralGroup_1ga70996e2b27f24841fb75376870328103" kind="function"><name>setShortcut</name></member>
+      <member refid="group__GeneralGroup_1ga0d5470fbe42101af3a425b0108338a10" kind="function"><name>getShortcutList</name></member>
+      <member refid="group__GeneralGroup_1gaaf51fc21fb54cb1e8d7b1734c0d4c0e9" kind="function"><name>isEnabled</name></member>
+      <member refid="group__GeneralGroup_1ga5e5ccda452d5473a8328af4b7003e4f3" kind="function"><name>enable</name></member>
+      <member refid="group__GeneralGroup_1ga4342c4301200e65be8eb010636b8db8e" kind="function"><name>processShortcut</name></member>
+      <member refid="group__GeneralGroup_1ga3492565e858a0451f1ef647ad5d40b68" kind="function"><name>onKeyDown_</name></member>
+      <member refid="group__GeneralGroup_1gaeff727b4670aa9fcca089a4f082b30e1" kind="function"><name>onKeyRepeat_</name></member>
+      <member refid="group__GeneralGroup_1gadf200a338401cd7994a122ba61bfce47" kind="function"><name>findShortcutByName</name></member>
+      <member refid="group__GeneralGroup_1ga608ab9e3afbb9351ea419a3ae0215ab2" kind="function"><name>clear</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1ShortcutManager_1a258c8543c76df8430c01cd6511f365be" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API const char *</type>
-        <definition>static MRVIEWER_API const char * MR::ShortcutManager::getModifierString</definition>
-        <argsstring>(int mod)</argsstring>
-        <name>getModifierString</name>
-        <qualifiedname>MR::ShortcutManager::getModifierString</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>mod</declname>
-        </param>
-        <briefdescription>
-<para>make string from strictly one modifier </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h" line="89" column="36"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ShortcutManager_1a289b280e2a0b231a0820aa8d2fc2a4b3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API std::string</type>
-        <definition>static MRVIEWER_API std::string MR::ShortcutManager::getKeyString</definition>
-        <argsstring>(int key)</argsstring>
-        <name>getKeyString</name>
-        <qualifiedname>MR::ShortcutManager::getKeyString</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>key</declname>
-        </param>
-        <briefdescription>
-<para>make string from a key without modifiers, for arrow characters it uses icons font </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h" line="91" column="37"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ShortcutManager_1ad8411027e895d06475915a2acf0951ce" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API std::string</type>
-        <definition>static MRVIEWER_API std::string MR::ShortcutManager::getKeyFullString</definition>
-        <argsstring>(const ShortcutKey &amp;key, bool respectKey=true)</argsstring>
-        <name>getKeyFullString</name>
-        <qualifiedname>MR::ShortcutManager::getKeyFullString</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1ShortcutManager_1a95af7d1cba13355b957e0dd270166269" kindref="member">ShortcutKey</ref> &amp;</type>
-          <declname>key</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>respectKey</declname>
-          <defval>true</defval>
-        </param>
-        <briefdescription>
-<para>make string from all modifiers and with/without key and returns it </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h" line="93" column="37"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga258c8543c76df8430c01cd6511f365be" kind="function"><name>getModifierString</name></member>
+      <member refid="group__GeneralGroup_1ga289b280e2a0b231a0820aa8d2fc2a4b3" kind="function"><name>getKeyString</name></member>
+      <member refid="group__GeneralGroup_1gad8411027e895d06475915a2acf0951ce" kind="function"><name>getKeyFullString</name></member>
     </sectiondef>
     <sectiondef kind="protected-static-func">
-      <memberdef kind="function" id="classMR_1_1ShortcutManager_1aca6db17670dc5d2ff94f61f7f4c759b9" prot="protected" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API int</type>
-        <definition>static MRVIEWER_API int MR::ShortcutManager::mapKeyFromKeyAndMod</definition>
-        <argsstring>(const ShortcutKey &amp;key, bool respectKeyboard)</argsstring>
-        <name>mapKeyFromKeyAndMod</name>
-        <qualifiedname>MR::ShortcutManager::mapKeyFromKeyAndMod</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1ShortcutManager_1a95af7d1cba13355b957e0dd270166269" kindref="member">ShortcutKey</ref> &amp;</type>
-          <declname>key</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>respectKeyboard</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>returns simple map key from key with modifier (alt, ctrl, shift, etc.) if respectKeyboard is set, key will be mapped using local keyboard settings (only if it is mapped to latin symbol) </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h" line="103" column="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ShortcutManager_1a0b68904b55fdbcdc64a244f69e50b481" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="classMR_1_1ShortcutManager_1a95af7d1cba13355b957e0dd270166269" kindref="member">ShortcutKey</ref></type>
-        <definition>static ShortcutKey MR::ShortcutManager::kayAndModFromMapKey</definition>
-        <argsstring>(int mapKey)</argsstring>
-        <name>kayAndModFromMapKey</name>
-        <qualifiedname>MR::ShortcutManager::kayAndModFromMapKey</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>mapKey</declname>
-        </param>
-        <briefdescription>
-<para>returns key with modifier (alt, ctrl, shift, etc.) from simple map key </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h" line="105" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h" bodystart="105" bodyend="105"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaca6db17670dc5d2ff94f61f7f4c759b9" kind="function"><name>mapKeyFromKeyAndMod</name></member>
+      <member refid="group__GeneralGroup_1ga0b68904b55fdbcdc64a244f69e50b481" kind="function"><name>kayAndModFromMapKey</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -518,37 +84,37 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h" line="43" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h" bodystart="44" bodyend="116"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h" line="46" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShortcutManager.h" bodystart="47" bodyend="119"/>
     <listofallmembers>
-      <member refid="classMR_1_1ShortcutManager_1aa81ce4c0f43334be0c680e28346fce2e" prot="protected" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>backMap_</name></member>
-      <member refid="classMR_1_1ShortcutManager_1acac503f87e678e4a4e1c3541d5915098" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>Category</name></member>
-      <member refid="classMR_1_1ShortcutManager_1a32f51a9bb8d5a8f0ef57375bf98c2ce1" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>categoryNames</name></member>
-      <member refid="classMR_1_1ShortcutManager_1a608ab9e3afbb9351ea419a3ae0215ab2" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>clear</name></member>
-      <member refid="structMR_1_1MultiListener_1af3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::ShortcutManager</scope><name>connect</name></member>
-      <member refid="structMR_1_1MultiListener_1acfa598489bfbc3b88c84b029213d042c" prot="public" virt="virtual"><scope>MR::ShortcutManager</scope><name>disconnect</name></member>
-      <member refid="classMR_1_1ShortcutManager_1a5e5ccda452d5473a8328af4b7003e4f3" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>enable</name></member>
-      <member refid="classMR_1_1ShortcutManager_1af0dd4d072b92bf237ce72e80f357d475" prot="protected" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>enabled_</name></member>
-      <member refid="classMR_1_1ShortcutManager_1adf200a338401cd7994a122ba61bfce47" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>findShortcutByName</name></member>
-      <member refid="classMR_1_1ShortcutManager_1ad8411027e895d06475915a2acf0951ce" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>getKeyFullString</name></member>
-      <member refid="classMR_1_1ShortcutManager_1a289b280e2a0b231a0820aa8d2fc2a4b3" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>getKeyString</name></member>
-      <member refid="classMR_1_1ShortcutManager_1a258c8543c76df8430c01cd6511f365be" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>getModifierString</name></member>
-      <member refid="classMR_1_1ShortcutManager_1a0d5470fbe42101af3a425b0108338a10" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>getShortcutList</name></member>
-      <member refid="classMR_1_1ShortcutManager_1aaf51fc21fb54cb1e8d7b1734c0d4c0e9" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>isEnabled</name></member>
-      <member refid="classMR_1_1ShortcutManager_1a0b68904b55fdbcdc64a244f69e50b481" prot="protected" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>kayAndModFromMapKey</name></member>
-      <member refid="classMR_1_1ShortcutManager_1adf3fea364a499a2b41b73fb7fa94b301" prot="protected" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>listCache_</name></member>
-      <member refid="classMR_1_1ShortcutManager_1aac7a5049ef27e6c01ce4352af5405141" prot="protected" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>map_</name></member>
-      <member refid="classMR_1_1ShortcutManager_1aca6db17670dc5d2ff94f61f7f4c759b9" prot="protected" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>mapKeyFromKeyAndMod</name></member>
-      <member refid="classMR_1_1ShortcutManager_1a3492565e858a0451f1ef647ad5d40b68" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>onKeyDown_</name></member>
-      <member refid="classMR_1_1ShortcutManager_1aeff727b4670aa9fcca089a4f082b30e1" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>onKeyRepeat_</name></member>
-      <member refid="classMR_1_1ShortcutManager_1a4342c4301200e65be8eb010636b8db8e" prot="public" virt="virtual"><scope>MR::ShortcutManager</scope><name>processShortcut</name></member>
-      <member refid="classMR_1_1ShortcutManager_1a1a85baae28af51cf7825c2099b693c1b" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>Reason</name></member>
-      <member refid="classMR_1_1ShortcutManager_1a70996e2b27f24841fb75376870328103" prot="public" virt="virtual"><scope>MR::ShortcutManager</scope><name>setShortcut</name></member>
-      <member refid="classMR_1_1ShortcutManager_1a95af7d1cba13355b957e0dd270166269" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>ShortcutKey</name></member>
-      <member refid="classMR_1_1ShortcutManager_1a912f0a1bddab02d0a371cdf93d4729f1" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>ShortcutList</name></member>
-      <member refid="classMR_1_1ShortcutManager_1a12fa153bb2f0df72498264f840eeef6c" prot="protected" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>ShourtcutsBackMap</name></member>
-      <member refid="classMR_1_1ShortcutManager_1aa3f924fb2d8d08321689742094b61a10" prot="protected" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>ShourtcutsMap</name></member>
-      <member refid="structMR_1_1MultiListener_1a726f5e2601b7f25e31824a0cac630fb2" prot="public" virt="virtual"><scope>MR::ShortcutManager</scope><name>~MultiListener</name></member>
-      <member refid="classMR_1_1ShortcutManager_1ac5d35f9b0ea4c909a2e0e182b46ca18b" prot="public" virt="virtual"><scope>MR::ShortcutManager</scope><name>~ShortcutManager</name></member>
+      <member refid="group__GeneralGroup_1gaa81ce4c0f43334be0c680e28346fce2e" prot="protected" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>backMap_</name></member>
+      <member refid="group__GeneralGroup_1gacac503f87e678e4a4e1c3541d5915098" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>Category</name></member>
+      <member refid="group__GeneralGroup_1ga32f51a9bb8d5a8f0ef57375bf98c2ce1" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>categoryNames</name></member>
+      <member refid="group__GeneralGroup_1ga608ab9e3afbb9351ea419a3ae0215ab2" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>clear</name></member>
+      <member refid="group__GeneralGroup_1gaf3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::ShortcutManager</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1gacfa598489bfbc3b88c84b029213d042c" prot="public" virt="virtual"><scope>MR::ShortcutManager</scope><name>disconnect</name></member>
+      <member refid="group__GeneralGroup_1ga5e5ccda452d5473a8328af4b7003e4f3" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>enable</name></member>
+      <member refid="group__GeneralGroup_1gaf0dd4d072b92bf237ce72e80f357d475" prot="protected" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>enabled_</name></member>
+      <member refid="group__GeneralGroup_1gadf200a338401cd7994a122ba61bfce47" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>findShortcutByName</name></member>
+      <member refid="group__GeneralGroup_1gad8411027e895d06475915a2acf0951ce" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>getKeyFullString</name></member>
+      <member refid="group__GeneralGroup_1ga289b280e2a0b231a0820aa8d2fc2a4b3" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>getKeyString</name></member>
+      <member refid="group__GeneralGroup_1ga258c8543c76df8430c01cd6511f365be" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>getModifierString</name></member>
+      <member refid="group__GeneralGroup_1ga0d5470fbe42101af3a425b0108338a10" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>getShortcutList</name></member>
+      <member refid="group__GeneralGroup_1gaaf51fc21fb54cb1e8d7b1734c0d4c0e9" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>isEnabled</name></member>
+      <member refid="group__GeneralGroup_1ga0b68904b55fdbcdc64a244f69e50b481" prot="protected" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>kayAndModFromMapKey</name></member>
+      <member refid="group__GeneralGroup_1gadf3fea364a499a2b41b73fb7fa94b301" prot="protected" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>listCache_</name></member>
+      <member refid="group__GeneralGroup_1gaac7a5049ef27e6c01ce4352af5405141" prot="protected" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>map_</name></member>
+      <member refid="group__GeneralGroup_1gaca6db17670dc5d2ff94f61f7f4c759b9" prot="protected" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>mapKeyFromKeyAndMod</name></member>
+      <member refid="group__GeneralGroup_1ga3492565e858a0451f1ef647ad5d40b68" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>onKeyDown_</name></member>
+      <member refid="group__GeneralGroup_1gaeff727b4670aa9fcca089a4f082b30e1" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>onKeyRepeat_</name></member>
+      <member refid="group__GeneralGroup_1ga4342c4301200e65be8eb010636b8db8e" prot="public" virt="virtual"><scope>MR::ShortcutManager</scope><name>processShortcut</name></member>
+      <member refid="group__GeneralGroup_1ga1a85baae28af51cf7825c2099b693c1b" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>Reason</name></member>
+      <member refid="group__GeneralGroup_1ga70996e2b27f24841fb75376870328103" prot="public" virt="virtual"><scope>MR::ShortcutManager</scope><name>setShortcut</name></member>
+      <member refid="group__GeneralGroup_1ga95af7d1cba13355b957e0dd270166269" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>ShortcutKey</name></member>
+      <member refid="group__GeneralGroup_1ga912f0a1bddab02d0a371cdf93d4729f1" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>ShortcutList</name></member>
+      <member refid="group__GeneralGroup_1ga12fa153bb2f0df72498264f840eeef6c" prot="protected" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>ShourtcutsBackMap</name></member>
+      <member refid="group__GeneralGroup_1gaa3f924fb2d8d08321689742094b61a10" prot="protected" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>ShourtcutsMap</name></member>
+      <member refid="group__GeneralGroup_1ga726f5e2601b7f25e31824a0cac630fb2" prot="public" virt="virtual"><scope>MR::ShortcutManager</scope><name>~MultiListener</name></member>
+      <member refid="group__GeneralGroup_1gac5d35f9b0ea4c909a2e0e182b46ca18b" prot="public" virt="virtual"><scope>MR::ShortcutManager</scope><name>~ShortcutManager</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

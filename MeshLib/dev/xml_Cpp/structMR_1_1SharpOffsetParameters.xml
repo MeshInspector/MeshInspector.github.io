@@ -6,86 +6,11 @@
     <derivedcompoundref refid="structMR_1_1GeneralOffsetParameters" prot="public" virt="non-virtual">MR::GeneralOffsetParameters</derivedcompoundref>
     <includes refid="MROffset_8h" local="no">MROffset.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1SharpOffsetParameters_1a662db16653ae12258fec109e1a4b4357" prot="public" static="no" mutable="no">
-        <type>UndirectedEdgeBitSet *</type>
-        <definition>UndirectedEdgeBitSet* MR::SharpOffsetParameters::outSharpEdges</definition>
-        <argsstring></argsstring>
-        <name>outSharpEdges</name>
-        <qualifiedname>MR::SharpOffsetParameters::outSharpEdges</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-<para>if non-null then created sharp edges will be saved here </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROffset.h" line="63" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROffset.h" bodystart="63" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1SharpOffsetParameters_1af01c8832be1a64bae952f261154116cf" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::SharpOffsetParameters::minNewVertDev</definition>
-        <argsstring></argsstring>
-        <name>minNewVertDev</name>
-        <qualifiedname>MR::SharpOffsetParameters::minNewVertDev</qualifiedname>
-        <initializer>= 1.0f / 25</initializer>
-        <briefdescription>
-<para>minimal surface deviation to introduce new vertex in a voxel, measured in voxelSize </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROffset.h" line="65" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROffset.h" bodystart="65" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1SharpOffsetParameters_1a431f430b0b5458fce3c73fddbb6428a4" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::SharpOffsetParameters::maxNewRank2VertDev</definition>
-        <argsstring></argsstring>
-        <name>maxNewRank2VertDev</name>
-        <qualifiedname>MR::SharpOffsetParameters::maxNewRank2VertDev</qualifiedname>
-        <initializer>= 5</initializer>
-        <briefdescription>
-<para>maximal surface deviation to introduce new rank 2 vertex (on intersection of 2 planes), measured in voxelSize </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROffset.h" line="67" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROffset.h" bodystart="67" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1SharpOffsetParameters_1a482a50c8e7ad39898c7dafff5c92474e" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::SharpOffsetParameters::maxNewRank3VertDev</definition>
-        <argsstring></argsstring>
-        <name>maxNewRank3VertDev</name>
-        <qualifiedname>MR::SharpOffsetParameters::maxNewRank3VertDev</qualifiedname>
-        <initializer>= 2</initializer>
-        <briefdescription>
-<para>maximal surface deviation to introduce new rank 3 vertex (on intersection of 3 planes), measured in voxelSize </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROffset.h" line="69" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROffset.h" bodystart="69" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1SharpOffsetParameters_1afb1d63d46e98d00f4c3560f3eb55b99b" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::SharpOffsetParameters::maxOldVertPosCorrection</definition>
-        <argsstring></argsstring>
-        <name>maxOldVertPosCorrection</name>
-        <qualifiedname>MR::SharpOffsetParameters::maxOldVertPosCorrection</qualifiedname>
-        <initializer>= 0.5f</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>correct positions of the input vertices using reference mesh by not more than this distance, measured in voxelSize; big correction can be wrong and result from self-intersections in the reference mesh </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROffset.h" line="72" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROffset.h" bodystart="72" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga662db16653ae12258fec109e1a4b4357" kind="variable"><name>outSharpEdges</name></member>
+      <member refid="group__GeneralGroup_1gaf01c8832be1a64bae952f261154116cf" kind="variable"><name>minNewVertDev</name></member>
+      <member refid="group__GeneralGroup_1ga431f430b0b5458fce3c73fddbb6428a4" kind="variable"><name>maxNewRank2VertDev</name></member>
+      <member refid="group__GeneralGroup_1ga482a50c8e7ad39898c7dafff5c92474e" kind="variable"><name>maxNewRank3VertDev</name></member>
+      <member refid="group__GeneralGroup_1gafb1d63d46e98d00f4c3560f3eb55b99b" kind="variable"><name>maxOldVertPosCorrection</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -133,21 +58,21 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROffset.h" line="60" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROffset.h" bodystart="61" bodyend="73"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROffset.h" line="63" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROffset.h" bodystart="64" bodyend="76"/>
     <listofallmembers>
-      <member refid="structMR_1_1BaseShellParameters_1a21a919475b5c9882d80ab9a26dd60d50" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>callBack</name></member>
-      <member refid="structMR_1_1OffsetParameters_1a17a5a45fd3d4de2eba7280f9071ac737" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>closeHolesInHoleWindingNumber</name></member>
-      <member refid="structMR_1_1OffsetParameters_1a6599d762d28d8ca7118f3b4dba6602d2" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>fwn</name></member>
-      <member refid="structMR_1_1SharpOffsetParameters_1a431f430b0b5458fce3c73fddbb6428a4" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>maxNewRank2VertDev</name></member>
-      <member refid="structMR_1_1SharpOffsetParameters_1a482a50c8e7ad39898c7dafff5c92474e" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>maxNewRank3VertDev</name></member>
-      <member refid="structMR_1_1SharpOffsetParameters_1afb1d63d46e98d00f4c3560f3eb55b99b" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>maxOldVertPosCorrection</name></member>
-      <member refid="structMR_1_1OffsetParameters_1abd9bbd0481fadc99967608720c11fee4" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>memoryEfficient</name></member>
-      <member refid="structMR_1_1SharpOffsetParameters_1af01c8832be1a64bae952f261154116cf" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>minNewVertDev</name></member>
-      <member refid="structMR_1_1SharpOffsetParameters_1a662db16653ae12258fec109e1a4b4357" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>outSharpEdges</name></member>
-      <member refid="structMR_1_1OffsetParameters_1aa411170d1cc5cc475f3caeab0a525e26" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>signDetectionMode</name></member>
-      <member refid="structMR_1_1BaseShellParameters_1a0496e82daf37476561be7bd450c6fb48" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>voxelSize</name></member>
-      <member refid="structMR_1_1OffsetParameters_1ad18e4a01d5b80daf7231296013920c10" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>windingNumberBeta</name></member>
-      <member refid="structMR_1_1OffsetParameters_1aa99164027d422577e04d9f14f605b51c" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>windingNumberThreshold</name></member>
+      <member refid="group__GeneralGroup_1ga21a919475b5c9882d80ab9a26dd60d50" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>callBack</name></member>
+      <member refid="group__GeneralGroup_1ga17a5a45fd3d4de2eba7280f9071ac737" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>closeHolesInHoleWindingNumber</name></member>
+      <member refid="group__GeneralGroup_1ga6599d762d28d8ca7118f3b4dba6602d2" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>fwn</name></member>
+      <member refid="group__GeneralGroup_1ga431f430b0b5458fce3c73fddbb6428a4" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>maxNewRank2VertDev</name></member>
+      <member refid="group__GeneralGroup_1ga482a50c8e7ad39898c7dafff5c92474e" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>maxNewRank3VertDev</name></member>
+      <member refid="group__GeneralGroup_1gafb1d63d46e98d00f4c3560f3eb55b99b" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>maxOldVertPosCorrection</name></member>
+      <member refid="group__GeneralGroup_1gabd9bbd0481fadc99967608720c11fee4" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>memoryEfficient</name></member>
+      <member refid="group__GeneralGroup_1gaf01c8832be1a64bae952f261154116cf" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>minNewVertDev</name></member>
+      <member refid="group__GeneralGroup_1ga662db16653ae12258fec109e1a4b4357" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>outSharpEdges</name></member>
+      <member refid="group__GeneralGroup_1gaa411170d1cc5cc475f3caeab0a525e26" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>signDetectionMode</name></member>
+      <member refid="group__GeneralGroup_1ga0496e82daf37476561be7bd450c6fb48" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>voxelSize</name></member>
+      <member refid="group__GeneralGroup_1gad18e4a01d5b80daf7231296013920c10" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>windingNumberBeta</name></member>
+      <member refid="group__GeneralGroup_1gaa99164027d422577e04d9f14f605b51c" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>windingNumberThreshold</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

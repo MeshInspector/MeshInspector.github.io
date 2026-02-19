@@ -5,816 +5,112 @@
     <includes refid="MRMouseController_8h" local="no">MRMouseController.h</includes>
     <innerclass refid="structMR_1_1MouseController_1_1MouseControlKey" prot="public">MR::MouseController::MouseControlKey</innerclass>
     <sectiondef kind="private-type">
-      <memberdef kind="typedef" id="classMR_1_1MouseController_1aa74ac024d9ebcf8b9b970eab67a5a767" prot="private" static="no">
-        <type><ref refid="namespaceMR_1af8ad9e1b05a45987a3075d43bf345d68" kindref="member">HashMap</ref>&lt; int, <ref refid="namespaceMR_1a067afc36528fa2a554ff76aaa10efb75" kindref="member">MouseMode</ref> &gt;</type>
-        <definition>using MR::MouseController::MouseModeMap =  HashMap&lt;int, MouseMode&gt;</definition>
-        <argsstring></argsstring>
-        <name>MouseModeMap</name>
-        <qualifiedname>MR::MouseController::MouseModeMap</qualifiedname>
-        <briefdescription>
-<para>Dragging currently active. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="104" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" bodystart="104" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1MouseController_1abc8ea13d2c29de4c6878d778c53b7940" prot="private" static="no">
-        <type><ref refid="namespaceMR_1af8ad9e1b05a45987a3075d43bf345d68" kindref="member">HashMap</ref>&lt; <ref refid="namespaceMR_1a067afc36528fa2a554ff76aaa10efb75" kindref="member">MouseMode</ref>, int &gt;</type>
-        <definition>using MR::MouseController::MouseModeBackMap =  HashMap&lt;MouseMode, int&gt;</definition>
-        <argsstring></argsstring>
-        <name>MouseModeBackMap</name>
-        <qualifiedname>MR::MouseController::MouseModeBackMap</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="105" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" bodystart="105" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaa74ac024d9ebcf8b9b970eab67a5a767" kind="typedef"><name>MouseModeMap</name></member>
+      <member refid="group__GeneralGroup_1gabc8ea13d2c29de4c6878d778c53b7940" kind="typedef"><name>MouseModeBackMap</name></member>
     </sectiondef>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1MouseController_1a57cfdd5a88450edaed4d0ef0bddb6370" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::MouseController::isCursorInside_</definition>
-        <argsstring></argsstring>
-        <name>isCursorInside_</name>
-        <qualifiedname>MR::MouseController::isCursorInside_</qualifiedname>
-        <initializer>{ false }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="81" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" bodystart="81" bodyend="81"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1MouseController_1a72fb2fecdb2ee6e4351f29a5cc80b465" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::MouseController::dropOldEventsOnNew_</definition>
-        <argsstring></argsstring>
-        <name>dropOldEventsOnNew_</name>
-        <qualifiedname>MR::MouseController::dropOldEventsOnNew_</qualifiedname>
-        <initializer>{ false }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="84" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" bodystart="84" bodyend="84"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1MouseController_1a2e6765b0f76655d0df89fa3a5dabdc38" prot="private" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::MouseController::downTranslation_</definition>
-        <argsstring></argsstring>
-        <name>downTranslation_</name>
-        <qualifiedname>MR::MouseController::downTranslation_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="87" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" bodystart="87" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1MouseController_1a9c73486137ca18d89c55de9e8690f998" prot="private" static="no" mutable="no">
-        <type>Vector2i</type>
-        <definition>Vector2i MR::MouseController::downMousePos_</definition>
-        <argsstring></argsstring>
-        <name>downMousePos_</name>
-        <qualifiedname>MR::MouseController::downMousePos_</qualifiedname>
-        <briefdescription>
-<para>screen space </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="89" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" bodystart="89" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1MouseController_1a54f3d2a5c3b3baa3b91f9b87a8187e03" prot="private" static="no" mutable="no">
-        <type>Vector2i</type>
-        <definition>Vector2i MR::MouseController::prevMousePos_</definition>
-        <argsstring></argsstring>
-        <name>prevMousePos_</name>
-        <qualifiedname>MR::MouseController::prevMousePos_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="90" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" bodystart="90" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1MouseController_1abb4d12ea163f0f2ad318bab3d7cdec04" prot="private" static="no" mutable="no">
-        <type>Vector2i</type>
-        <definition>Vector2i MR::MouseController::currentMousePos_</definition>
-        <argsstring></argsstring>
-        <name>currentMousePos_</name>
-        <qualifiedname>MR::MouseController::currentMousePos_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="91" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" bodystart="91" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1MouseController_1a3558791fcc45041e37412914370454c3" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref></type>
-        <definition>BitSet MR::MouseController::downState_</definition>
-        <argsstring></argsstring>
-        <name>downState_</name>
-        <qualifiedname>MR::MouseController::downState_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="93" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" bodystart="93" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1MouseController_1a133a228bac6f1df8212f8df1039ffe89" prot="private" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1a067afc36528fa2a554ff76aaa10efb75" kindref="member">MouseMode</ref></type>
-        <definition>MouseMode MR::MouseController::currentMode_</definition>
-        <argsstring></argsstring>
-        <name>currentMode_</name>
-        <qualifiedname>MR::MouseController::currentMode_</qualifiedname>
-        <initializer>{ <ref refid="namespaceMR_1a067afc36528fa2a554ff76aaa10efb75a6adf97f83acf6453d4a6a4b1070f3754" kindref="member">MouseMode::None</ref> }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="94" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" bodystart="94" bodyend="94"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1MouseController_1a277e6e071b88904a856769149ff3b56a" prot="private" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1a13f98b7840e7298925ef1770b7cdb62d" kindref="member">MouseButton</ref></type>
-        <definition>MouseButton MR::MouseController::clickButton_</definition>
-        <argsstring></argsstring>
-        <name>clickButton_</name>
-        <qualifiedname>MR::MouseController::clickButton_</qualifiedname>
-        <initializer>{ <ref refid="namespaceMR_1a13f98b7840e7298925ef1770b7cdb62dab592247167772fc6ba15f3d0f6465e38" kindref="member">MouseButton::NoButton</ref> }</initializer>
-        <briefdescription>
-<para>Variables related to mouseClick signal. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="97" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" bodystart="97" bodyend="97"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1MouseController_1af1d2af68b305682321cc5fc636ad3435" prot="private" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::MouseController::clickModifiers_</definition>
-        <argsstring></argsstring>
-        <name>clickModifiers_</name>
-        <qualifiedname>MR::MouseController::clickModifiers_</qualifiedname>
-        <initializer>{}</initializer>
-        <briefdescription>
-<para>Current candidate for mouseClick. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="98" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" bodystart="98" bodyend="98"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1MouseController_1a4ee40fc6f784380b6b48fa681ad8fb81" prot="private" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1a200de30e6095463279bfb030e610864b" kindref="member">Time</ref></type>
-        <definition>Time MR::MouseController::clickTime_</definition>
-        <argsstring></argsstring>
-        <name>clickTime_</name>
-        <qualifiedname>MR::MouseController::clickTime_</qualifiedname>
-        <initializer>{}</initializer>
-        <briefdescription>
-<para>Modifiers state at the moment of button press. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="99" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" bodystart="99" bodyend="99"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1MouseController_1ace6ff7ee7290e7ebc86bfbc3125cbace" prot="private" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1a13f98b7840e7298925ef1770b7cdb62d" kindref="member">MouseButton</ref></type>
-        <definition>MouseButton MR::MouseController::clickPendingDown_</definition>
-        <argsstring></argsstring>
-        <name>clickPendingDown_</name>
-        <qualifiedname>MR::MouseController::clickPendingDown_</qualifiedname>
-        <initializer>{ <ref refid="namespaceMR_1a13f98b7840e7298925ef1770b7cdb62dab592247167772fc6ba15f3d0f6465e38" kindref="member">MouseButton::NoButton</ref> }</initializer>
-        <briefdescription>
-<para>Time point of button press. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="100" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" bodystart="100" bodyend="100"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1MouseController_1a2bfcc1cfbe75108b42dc97a3da162141" prot="private" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1a13f98b7840e7298925ef1770b7cdb62d" kindref="member">MouseButton</ref></type>
-        <definition>MouseButton MR::MouseController::dragButton_</definition>
-        <argsstring></argsstring>
-        <name>dragButton_</name>
-        <qualifiedname>MR::MouseController::dragButton_</qualifiedname>
-        <initializer>{ <ref refid="namespaceMR_1a13f98b7840e7298925ef1770b7cdb62dab592247167772fc6ba15f3d0f6465e38" kindref="member">MouseButton::NoButton</ref> }</initializer>
-        <briefdescription>
-<para>Button for deterred camera operation. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="101" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" bodystart="101" bodyend="101"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1MouseController_1a0a7601b01a5133b6acdad382da935ca2" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::MouseController::dragActive_</definition>
-        <argsstring></argsstring>
-        <name>dragActive_</name>
-        <qualifiedname>MR::MouseController::dragActive_</qualifiedname>
-        <initializer>{}</initializer>
-        <briefdescription>
-<para>Current candidate for dragging. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="102" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" bodystart="102" bodyend="102"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1MouseController_1a8f30fa3856888a18448ad24974f98b1b" prot="private" static="no" mutable="no">
-        <type>MouseModeMap</type>
-        <definition>MouseModeMap MR::MouseController::map_</definition>
-        <argsstring></argsstring>
-        <name>map_</name>
-        <qualifiedname>MR::MouseController::map_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="107" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" bodystart="107" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1MouseController_1a466cd2d69aa16b0e62170a0967243e43" prot="private" static="no" mutable="no">
-        <type>MouseModeBackMap</type>
-        <definition>MouseModeBackMap MR::MouseController::backMap_</definition>
-        <argsstring></argsstring>
-        <name>backMap_</name>
-        <qualifiedname>MR::MouseController::backMap_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="108" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" bodystart="108" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1MouseController_1a8f377fb5f4b4ae1261438935d12d6b89" prot="private" static="no" mutable="no">
-        <type>std::function&lt; void(AffineXf3f &amp;)&gt;</type>
-        <definition>std::function&lt;void( AffineXf3f&amp; )&gt; MR::MouseController::transformModifierCb_</definition>
-        <argsstring></argsstring>
-        <name>transformModifierCb_</name>
-        <qualifiedname>MR::MouseController::transformModifierCb_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="110" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" bodystart="110" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1MouseController_1ad1b71f4ffbe2dbebe14d9b4a3f9bb426" prot="private" static="no" mutable="no">
-        <type>std::function&lt; void(float &amp;)&gt;</type>
-        <definition>std::function&lt;void( float&amp; )&gt; MR::MouseController::fovModifierCb_</definition>
-        <argsstring></argsstring>
-        <name>fovModifierCb_</name>
-        <qualifiedname>MR::MouseController::fovModifierCb_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="111" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" bodystart="111" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga57cfdd5a88450edaed4d0ef0bddb6370" kind="variable"><name>isCursorInside_</name></member>
+      <member refid="group__GeneralGroup_1ga72fb2fecdb2ee6e4351f29a5cc80b465" kind="variable"><name>dropOldEventsOnNew_</name></member>
+      <member refid="group__GeneralGroup_1ga2e6765b0f76655d0df89fa3a5dabdc38" kind="variable"><name>downTranslation_</name></member>
+      <member refid="group__GeneralGroup_1ga9c73486137ca18d89c55de9e8690f998" kind="variable"><name>downMousePos_</name></member>
+      <member refid="group__GeneralGroup_1ga54f3d2a5c3b3baa3b91f9b87a8187e03" kind="variable"><name>prevMousePos_</name></member>
+      <member refid="group__GeneralGroup_1gabb4d12ea163f0f2ad318bab3d7cdec04" kind="variable"><name>currentMousePos_</name></member>
+      <member refid="group__GeneralGroup_1ga3558791fcc45041e37412914370454c3" kind="variable"><name>downState_</name></member>
+      <member refid="group__GeneralGroup_1ga133a228bac6f1df8212f8df1039ffe89" kind="variable"><name>currentMode_</name></member>
+      <member refid="group__GeneralGroup_1ga277e6e071b88904a856769149ff3b56a" kind="variable"><name>clickButton_</name></member>
+      <member refid="group__GeneralGroup_1gaf1d2af68b305682321cc5fc636ad3435" kind="variable"><name>clickModifiers_</name></member>
+      <member refid="group__GeneralGroup_1ga4ee40fc6f784380b6b48fa681ad8fb81" kind="variable"><name>clickTime_</name></member>
+      <member refid="group__GeneralGroup_1gace6ff7ee7290e7ebc86bfbc3125cbace" kind="variable"><name>clickPendingDown_</name></member>
+      <member refid="group__GeneralGroup_1ga2bfcc1cfbe75108b42dc97a3da162141" kind="variable"><name>dragButton_</name></member>
+      <member refid="group__GeneralGroup_1ga0a7601b01a5133b6acdad382da935ca2" kind="variable"><name>dragActive_</name></member>
+      <member refid="group__GeneralGroup_1ga8f30fa3856888a18448ad24974f98b1b" kind="variable"><name>map_</name></member>
+      <member refid="group__GeneralGroup_1ga466cd2d69aa16b0e62170a0967243e43" kind="variable"><name>backMap_</name></member>
+      <member refid="group__GeneralGroup_1ga8f377fb5f4b4ae1261438935d12d6b89" kind="variable"><name>transformModifierCb_</name></member>
+      <member refid="group__GeneralGroup_1gad1b71f4ffbe2dbebe14d9b4a3f9bb426" kind="variable"><name>fovModifierCb_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1MouseController_1af91ecfb07e0863d000af4ebedc49c763" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::MouseController::MR_ADD_CTOR_DELETE_MOVE</definition>
-        <argsstring>(MouseController)</argsstring>
-        <name>MR_ADD_CTOR_DELETE_MOVE</name>
-        <qualifiedname>MR::MouseController::MR_ADD_CTOR_DELETE_MOVE</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1MouseController" kindref="compound">MouseController</ref></type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="23" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MouseController_1a801124ee76e24e9a65f09339f064e35b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::MouseController::connect</definition>
-        <argsstring>()</argsstring>
-        <name>connect</name>
-        <qualifiedname>MR::MouseController::connect</qualifiedname>
-        <briefdescription>
-<para>called in <ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref> init, connects to <ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref> mouse signals </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="31" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MouseController_1a658d96148a2b7e4d19231d7801569723" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::MouseController::setMouseControl</definition>
-        <argsstring>(const MouseControlKey &amp;key, MouseMode mode)</argsstring>
-        <name>setMouseControl</name>
-        <qualifiedname>MR::MouseController::setMouseControl</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1MouseController_1_1MouseControlKey" kindref="compound">MouseControlKey</ref> &amp;</type>
-          <declname>key</declname>
-        </param>
-        <param>
-          <type><ref refid="namespaceMR_1a067afc36528fa2a554ff76aaa10efb75" kindref="member">MouseMode</ref></type>
-          <declname>mode</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>set control note: one control can have only one mode, one mode can have only one control if mode already has other control, other one will be removed </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="36" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MouseController_1a97504993e7ae26edd11c87386a2b5c6a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const Vector2i &amp;</type>
-        <definition>const Vector2i &amp; MR::MouseController::getDownMousePos</definition>
-        <argsstring>() const</argsstring>
-        <name>getDownMousePos</name>
-        <qualifiedname>MR::MouseController::getDownMousePos</qualifiedname>
-        <briefdescription>
-<para>returns previous mouse down (if several mouse buttons are down returns position of first one) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="39" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" bodystart="39" bodyend="39"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MouseController_1af7ace43b0cc3f1e6c8f984e53473876a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const Vector2i &amp;</type>
-        <definition>const Vector2i &amp; MR::MouseController::getMousePos</definition>
-        <argsstring>() const</argsstring>
-        <name>getMousePos</name>
-        <qualifiedname>MR::MouseController::getMousePos</qualifiedname>
-        <briefdescription>
-<para>returns current mouse position </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="41" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" bodystart="41" bodyend="41"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MouseController_1a2a1971571d792ac671837f6658315096" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>MRVIEWER_API bool MR::MouseController::isPressed</definition>
-        <argsstring>(MouseButton button) const</argsstring>
-        <name>isPressed</name>
-        <qualifiedname>MR::MouseController::isPressed</qualifiedname>
-        <param>
-          <type><ref refid="namespaceMR_1a13f98b7840e7298925ef1770b7cdb62d" kindref="member">MouseButton</ref></type>
-          <declname>button</declname>
-        </param>
-        <briefdescription>
-<para>returns state of mouse button </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="43" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MouseController_1a7696a282703b3fb0ade622ed97e5e3ba" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>MRVIEWER_API bool MR::MouseController::isPressedAny</definition>
-        <argsstring>() const</argsstring>
-        <name>isPressedAny</name>
-        <qualifiedname>MR::MouseController::isPressedAny</qualifiedname>
-        <briefdescription>
-<para>returns true if any mouse btn is down </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="45" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MouseController_1a60ec56af8ea70c0cef52b6f90c088000" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::MouseController::isCursorInside</definition>
-        <argsstring>() const</argsstring>
-        <name>isCursorInside</name>
-        <qualifiedname>MR::MouseController::isCursorInside</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="47" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" bodystart="47" bodyend="47"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MouseController_1aa1030d7031685c5fff336b1a7e01e08b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::MouseController::isDropOldEventOnNewActive</definition>
-        <argsstring>() const</argsstring>
-        <name>isDropOldEventOnNewActive</name>
-        <qualifiedname>MR::MouseController::isDropOldEventOnNewActive</qualifiedname>
-        <briefdescription>
-<para>dropOldEventsOnNew flag - drop active mouse down state (calling mouseUp) if new mouse event happens </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="50" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" bodystart="50" bodyend="50"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MouseController_1abb21421c9f8c663d90c93fc87982a797" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::MouseController::dropOldEventsOnNew</definition>
-        <argsstring>(bool on)</argsstring>
-        <name>dropOldEventsOnNew</name>
-        <qualifiedname>MR::MouseController::dropOldEventsOnNew</qualifiedname>
-        <param>
-          <type>bool</type>
-          <declname>on</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="51" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" bodystart="51" bodyend="51"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MouseController_1a287c53d51507ce60bbd4cdd1aceddd48" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API std::optional&lt; <ref refid="structMR_1_1MouseController_1_1MouseControlKey" kindref="compound">MouseControlKey</ref> &gt;</type>
-        <definition>MRVIEWER_API std::optional&lt; MouseControlKey &gt; MR::MouseController::findControlByMode</definition>
-        <argsstring>(MouseMode mode) const</argsstring>
-        <name>findControlByMode</name>
-        <qualifiedname>MR::MouseController::findControlByMode</qualifiedname>
-        <param>
-          <type><ref refid="namespaceMR_1a067afc36528fa2a554ff76aaa10efb75" kindref="member">MouseMode</ref></type>
-          <declname>mode</declname>
-        </param>
-        <briefdescription>
-<para>returns nullopt if no control is present for given mode, otherwise returns associated control </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="54" column="32"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MouseController_1aad7e4bd9f3d1de6069e852940644b5e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::MouseController::setTrasformModifierCb</definition>
-        <argsstring>(std::function&lt; void(AffineXf3f &amp;)&gt; cb)</argsstring>
-        <name>setTrasformModifierCb</name>
-        <qualifiedname>MR::MouseController::setTrasformModifierCb</qualifiedname>
-        <param>
-          <type>std::function&lt; void(AffineXf3f &amp;)&gt;</type>
-          <declname>cb</declname>
-        </param>
-        <briefdescription>
-<para>set callback to modify view transform before it is applied to viewport </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="64" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" bodystart="64" bodyend="64"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MouseController_1ae1ce84791f0d7205fd00e67c96b257b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::MouseController::setFOVModifierCb</definition>
-        <argsstring>(std::function&lt; void(float &amp;)&gt; cb)</argsstring>
-        <name>setFOVModifierCb</name>
-        <qualifiedname>MR::MouseController::setFOVModifierCb</qualifiedname>
-        <param>
-          <type>std::function&lt; void(float &amp;)&gt;</type>
-          <declname>cb</declname>
-        </param>
-        <briefdescription>
-<para>set callback to modify new field of view before it is applied to viewport </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="67" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" bodystart="67" bodyend="67"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MouseController_1a24e57a9dc84d98aa47bb153dce49815c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>int</type>
-        <definition>int MR::MouseController::getMouseConflicts</definition>
-        <argsstring>()</argsstring>
-        <name>getMouseConflicts</name>
-        <qualifiedname>MR::MouseController::getMouseConflicts</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>get number of potential conflicts between opened plugins and camera controls plugin is conflicting if it listens for mouseDown or dragStart events, and camera control uses LMB </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="71" column="9"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaf91ecfb07e0863d000af4ebedc49c763" kind="function"><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1ga801124ee76e24e9a65f09339f064e35b" kind="function"><name>connect</name></member>
+      <member refid="group__GeneralGroup_1ga658d96148a2b7e4d19231d7801569723" kind="function"><name>setMouseControl</name></member>
+      <member refid="group__GeneralGroup_1ga97504993e7ae26edd11c87386a2b5c6a" kind="function"><name>getDownMousePos</name></member>
+      <member refid="group__GeneralGroup_1gaf7ace43b0cc3f1e6c8f984e53473876a" kind="function"><name>getMousePos</name></member>
+      <member refid="group__GeneralGroup_1ga2a1971571d792ac671837f6658315096" kind="function"><name>isPressed</name></member>
+      <member refid="group__GeneralGroup_1ga7696a282703b3fb0ade622ed97e5e3ba" kind="function"><name>isPressedAny</name></member>
+      <member refid="group__GeneralGroup_1ga60ec56af8ea70c0cef52b6f90c088000" kind="function"><name>isCursorInside</name></member>
+      <member refid="group__GeneralGroup_1gaa1030d7031685c5fff336b1a7e01e08b" kind="function"><name>isDropOldEventOnNewActive</name></member>
+      <member refid="group__GeneralGroup_1gabb21421c9f8c663d90c93fc87982a797" kind="function"><name>dropOldEventsOnNew</name></member>
+      <member refid="group__GeneralGroup_1ga287c53d51507ce60bbd4cdd1aceddd48" kind="function"><name>findControlByMode</name></member>
+      <member refid="group__GeneralGroup_1gaad7e4bd9f3d1de6069e852940644b5e9" kind="function"><name>setTrasformModifierCb</name></member>
+      <member refid="group__GeneralGroup_1gae1ce84791f0d7205fd00e67c96b257b1" kind="function"><name>setFOVModifierCb</name></member>
+      <member refid="group__GeneralGroup_1ga24e57a9dc84d98aa47bb153dce49815c" kind="function"><name>getMouseConflicts</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1MouseController_1afb9ca609657051489af0e9c49e4e5214" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API std::string</type>
-        <definition>static MRVIEWER_API std::string MR::MouseController::getControlString</definition>
-        <argsstring>(const MouseControlKey &amp;key)</argsstring>
-        <name>getControlString</name>
-        <qualifiedname>MR::MouseController::getControlString</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1MouseController_1_1MouseControlKey" kindref="compound">MouseControlKey</ref> &amp;</type>
-          <declname>key</declname>
-        </param>
-        <briefdescription>
-<para>make string from mouse button and modifier </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="56" column="37"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MouseController_1a2affe8f585571c7d0426962af908ffe1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API int</type>
-        <definition>static MRVIEWER_API int MR::MouseController::mouseAndModToKey</definition>
-        <argsstring>(const MouseControlKey &amp;key)</argsstring>
-        <name>mouseAndModToKey</name>
-        <qualifiedname>MR::MouseController::mouseAndModToKey</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1MouseController_1_1MouseControlKey" kindref="compound">MouseControlKey</ref> &amp;</type>
-          <declname>key</declname>
-        </param>
-        <briefdescription>
-<para>cast mouse button and modifier to simple int key </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="59" column="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MouseController_1a9d5e51eb18d1cd7551ba1f8385da113c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API <ref refid="structMR_1_1MouseController_1_1MouseControlKey" kindref="compound">MouseControlKey</ref></type>
-        <definition>static MRVIEWER_API MouseControlKey MR::MouseController::keyToMouseAndMod</definition>
-        <argsstring>(int key)</argsstring>
-        <name>keyToMouseAndMod</name>
-        <qualifiedname>MR::MouseController::keyToMouseAndMod</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>key</declname>
-        </param>
-        <briefdescription>
-<para>cast simple int key to mouse button and modifier </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="61" column="41"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gafb9ca609657051489af0e9c49e4e5214" kind="function"><name>getControlString</name></member>
+      <member refid="group__GeneralGroup_1ga2affe8f585571c7d0426962af908ffe1" kind="function"><name>mouseAndModToKey</name></member>
+      <member refid="group__GeneralGroup_1ga9d5e51eb18d1cd7551ba1f8385da113c" kind="function"><name>keyToMouseAndMod</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMR_1_1MouseController_1a40d31be81a1f1a36774c3240969be6d6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::MouseController::preMouseDown_</definition>
-        <argsstring>(MouseButton button, int modifier)</argsstring>
-        <name>preMouseDown_</name>
-        <qualifiedname>MR::MouseController::preMouseDown_</qualifiedname>
-        <param>
-          <type><ref refid="namespaceMR_1a13f98b7840e7298925ef1770b7cdb62d" kindref="member">MouseButton</ref></type>
-          <declname>button</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>modifier</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="74" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MouseController_1aba6e92a5a4a8fe8713057e942b2056b6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::MouseController::mouseDown_</definition>
-        <argsstring>(MouseButton button, int modifier)</argsstring>
-        <name>mouseDown_</name>
-        <qualifiedname>MR::MouseController::mouseDown_</qualifiedname>
-        <param>
-          <type><ref refid="namespaceMR_1a13f98b7840e7298925ef1770b7cdb62d" kindref="member">MouseButton</ref></type>
-          <declname>button</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>modifier</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="75" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MouseController_1aae5a7b97a117db96e3541d4ff4e8eb96" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::MouseController::preMouseUp_</definition>
-        <argsstring>(MouseButton button, int modifier)</argsstring>
-        <name>preMouseUp_</name>
-        <qualifiedname>MR::MouseController::preMouseUp_</qualifiedname>
-        <param>
-          <type><ref refid="namespaceMR_1a13f98b7840e7298925ef1770b7cdb62d" kindref="member">MouseButton</ref></type>
-          <declname>button</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>modifier</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="76" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MouseController_1a4529493c14f9d8b11b26a4f23d5e9e26" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::MouseController::preDragDrop_</definition>
-        <argsstring>(const std::vector&lt; std::filesystem::path &gt; &amp;paths)</argsstring>
-        <name>preDragDrop_</name>
-        <qualifiedname>MR::MouseController::preDragDrop_</qualifiedname>
-        <param>
-          <type>const std::vector&lt; std::filesystem::path &gt; &amp;</type>
-          <declname>paths</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="77" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MouseController_1abb9d0696f050b5c7a5a4cd91592d83af" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::MouseController::preMouseMove_</definition>
-        <argsstring>(int x, int y)</argsstring>
-        <name>preMouseMove_</name>
-        <qualifiedname>MR::MouseController::preMouseMove_</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>x</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>y</declname>
-        </param>
-        <briefdescription>
-<para>this slot is needed to guaranteed update <computeroutput>currentMousePos_</computeroutput> before actual drop (it may be not updated in borwser) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="78" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MouseController_1aa4026196164b20bb9abef4700439c60b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::MouseController::mouseScroll_</definition>
-        <argsstring>(float delta)</argsstring>
-        <name>mouseScroll_</name>
-        <qualifiedname>MR::MouseController::mouseScroll_</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>delta</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="79" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MouseController_1a92e2b5854eb11ae1d9391c63c0c675b8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::MouseController::cursorEntrance_</definition>
-        <argsstring>(bool entered)</argsstring>
-        <name>cursorEntrance_</name>
-        <qualifiedname>MR::MouseController::cursorEntrance_</qualifiedname>
-        <param>
-          <type>bool</type>
-          <declname>entered</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="82" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MouseController_1a0d913e0ad425b861ac4e770079c87b0a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::MouseController::resetAllIfNeeded_</definition>
-        <argsstring>()</argsstring>
-        <name>resetAllIfNeeded_</name>
-        <qualifiedname>MR::MouseController::resetAllIfNeeded_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="85" column="10"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga40d31be81a1f1a36774c3240969be6d6" kind="function"><name>preMouseDown_</name></member>
+      <member refid="group__GeneralGroup_1gaba6e92a5a4a8fe8713057e942b2056b6" kind="function"><name>mouseDown_</name></member>
+      <member refid="group__GeneralGroup_1gaae5a7b97a117db96e3541d4ff4e8eb96" kind="function"><name>preMouseUp_</name></member>
+      <member refid="group__GeneralGroup_1ga4529493c14f9d8b11b26a4f23d5e9e26" kind="function"><name>preDragDrop_</name></member>
+      <member refid="group__GeneralGroup_1gabb9d0696f050b5c7a5a4cd91592d83af" kind="function"><name>preMouseMove_</name></member>
+      <member refid="group__GeneralGroup_1gaa4026196164b20bb9abef4700439c60b" kind="function"><name>mouseScroll_</name></member>
+      <member refid="group__GeneralGroup_1ga92e2b5854eb11ae1d9391c63c0c675b8" kind="function"><name>cursorEntrance_</name></member>
+      <member refid="group__GeneralGroup_1ga0d913e0ad425b861ac4e770079c87b0a" kind="function"><name>resetAllIfNeeded_</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
 <para>this class stores two maps: 1) mouse control to mouse mode 2) mouse mode to mouse control it is present as field in <ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref>, and used to control scene note: default state is usually set from <ref refid="classMR_1_1ViewerSetup" kindref="compound">ViewerSetup</ref> class note: user config saves its state </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="20" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" bodystart="21" bodyend="112"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="23" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" bodystart="24" bodyend="115"/>
     <listofallmembers>
-      <member refid="classMR_1_1MouseController_1a466cd2d69aa16b0e62170a0967243e43" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>backMap_</name></member>
-      <member refid="classMR_1_1MouseController_1a277e6e071b88904a856769149ff3b56a" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>clickButton_</name></member>
-      <member refid="classMR_1_1MouseController_1af1d2af68b305682321cc5fc636ad3435" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>clickModifiers_</name></member>
-      <member refid="classMR_1_1MouseController_1ace6ff7ee7290e7ebc86bfbc3125cbace" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>clickPendingDown_</name></member>
-      <member refid="classMR_1_1MouseController_1a4ee40fc6f784380b6b48fa681ad8fb81" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>clickTime_</name></member>
-      <member refid="classMR_1_1MouseController_1a801124ee76e24e9a65f09339f064e35b" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>connect</name></member>
-      <member refid="classMR_1_1MouseController_1a133a228bac6f1df8212f8df1039ffe89" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>currentMode_</name></member>
-      <member refid="classMR_1_1MouseController_1abb4d12ea163f0f2ad318bab3d7cdec04" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>currentMousePos_</name></member>
-      <member refid="classMR_1_1MouseController_1a92e2b5854eb11ae1d9391c63c0c675b8" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>cursorEntrance_</name></member>
-      <member refid="classMR_1_1MouseController_1a9c73486137ca18d89c55de9e8690f998" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>downMousePos_</name></member>
-      <member refid="classMR_1_1MouseController_1a3558791fcc45041e37412914370454c3" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>downState_</name></member>
-      <member refid="classMR_1_1MouseController_1a2e6765b0f76655d0df89fa3a5dabdc38" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>downTranslation_</name></member>
-      <member refid="classMR_1_1MouseController_1a0a7601b01a5133b6acdad382da935ca2" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>dragActive_</name></member>
-      <member refid="classMR_1_1MouseController_1a2bfcc1cfbe75108b42dc97a3da162141" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>dragButton_</name></member>
-      <member refid="classMR_1_1MouseController_1abb21421c9f8c663d90c93fc87982a797" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>dropOldEventsOnNew</name></member>
-      <member refid="classMR_1_1MouseController_1a72fb2fecdb2ee6e4351f29a5cc80b465" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>dropOldEventsOnNew_</name></member>
-      <member refid="classMR_1_1MouseController_1a287c53d51507ce60bbd4cdd1aceddd48" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>findControlByMode</name></member>
-      <member refid="classMR_1_1MouseController_1ad1b71f4ffbe2dbebe14d9b4a3f9bb426" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>fovModifierCb_</name></member>
-      <member refid="classMR_1_1MouseController_1afb9ca609657051489af0e9c49e4e5214" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>getControlString</name></member>
-      <member refid="classMR_1_1MouseController_1a97504993e7ae26edd11c87386a2b5c6a" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>getDownMousePos</name></member>
-      <member refid="classMR_1_1MouseController_1a24e57a9dc84d98aa47bb153dce49815c" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>getMouseConflicts</name></member>
-      <member refid="classMR_1_1MouseController_1af7ace43b0cc3f1e6c8f984e53473876a" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>getMousePos</name></member>
-      <member refid="classMR_1_1MouseController_1a60ec56af8ea70c0cef52b6f90c088000" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>isCursorInside</name></member>
-      <member refid="classMR_1_1MouseController_1a57cfdd5a88450edaed4d0ef0bddb6370" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>isCursorInside_</name></member>
-      <member refid="classMR_1_1MouseController_1aa1030d7031685c5fff336b1a7e01e08b" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>isDropOldEventOnNewActive</name></member>
-      <member refid="classMR_1_1MouseController_1a2a1971571d792ac671837f6658315096" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>isPressed</name></member>
-      <member refid="classMR_1_1MouseController_1a7696a282703b3fb0ade622ed97e5e3ba" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>isPressedAny</name></member>
-      <member refid="classMR_1_1MouseController_1a9d5e51eb18d1cd7551ba1f8385da113c" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>keyToMouseAndMod</name></member>
-      <member refid="classMR_1_1MouseController_1a8f30fa3856888a18448ad24974f98b1b" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>map_</name></member>
-      <member refid="classMR_1_1MouseController_1a2affe8f585571c7d0426962af908ffe1" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>mouseAndModToKey</name></member>
-      <member refid="classMR_1_1MouseController_1aba6e92a5a4a8fe8713057e942b2056b6" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>mouseDown_</name></member>
-      <member refid="classMR_1_1MouseController_1abc8ea13d2c29de4c6878d778c53b7940" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>MouseModeBackMap</name></member>
-      <member refid="classMR_1_1MouseController_1aa74ac024d9ebcf8b9b970eab67a5a767" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>MouseModeMap</name></member>
-      <member refid="classMR_1_1MouseController_1aa4026196164b20bb9abef4700439c60b" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>mouseScroll_</name></member>
-      <member refid="classMR_1_1MouseController_1af91ecfb07e0863d000af4ebedc49c763" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
-      <member refid="classMR_1_1MouseController_1a4529493c14f9d8b11b26a4f23d5e9e26" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>preDragDrop_</name></member>
-      <member refid="classMR_1_1MouseController_1a40d31be81a1f1a36774c3240969be6d6" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>preMouseDown_</name></member>
-      <member refid="classMR_1_1MouseController_1abb9d0696f050b5c7a5a4cd91592d83af" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>preMouseMove_</name></member>
-      <member refid="classMR_1_1MouseController_1aae5a7b97a117db96e3541d4ff4e8eb96" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>preMouseUp_</name></member>
-      <member refid="classMR_1_1MouseController_1a54f3d2a5c3b3baa3b91f9b87a8187e03" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>prevMousePos_</name></member>
-      <member refid="classMR_1_1MouseController_1a0d913e0ad425b861ac4e770079c87b0a" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>resetAllIfNeeded_</name></member>
-      <member refid="classMR_1_1MouseController_1ae1ce84791f0d7205fd00e67c96b257b1" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>setFOVModifierCb</name></member>
-      <member refid="classMR_1_1MouseController_1a658d96148a2b7e4d19231d7801569723" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>setMouseControl</name></member>
-      <member refid="classMR_1_1MouseController_1aad7e4bd9f3d1de6069e852940644b5e9" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>setTrasformModifierCb</name></member>
-      <member refid="classMR_1_1MouseController_1a8f377fb5f4b4ae1261438935d12d6b89" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>transformModifierCb_</name></member>
+      <member refid="group__GeneralGroup_1ga466cd2d69aa16b0e62170a0967243e43" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>backMap_</name></member>
+      <member refid="group__GeneralGroup_1ga277e6e071b88904a856769149ff3b56a" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>clickButton_</name></member>
+      <member refid="group__GeneralGroup_1gaf1d2af68b305682321cc5fc636ad3435" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>clickModifiers_</name></member>
+      <member refid="group__GeneralGroup_1gace6ff7ee7290e7ebc86bfbc3125cbace" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>clickPendingDown_</name></member>
+      <member refid="group__GeneralGroup_1ga4ee40fc6f784380b6b48fa681ad8fb81" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>clickTime_</name></member>
+      <member refid="group__GeneralGroup_1ga801124ee76e24e9a65f09339f064e35b" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1ga133a228bac6f1df8212f8df1039ffe89" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>currentMode_</name></member>
+      <member refid="group__GeneralGroup_1gabb4d12ea163f0f2ad318bab3d7cdec04" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>currentMousePos_</name></member>
+      <member refid="group__GeneralGroup_1ga92e2b5854eb11ae1d9391c63c0c675b8" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>cursorEntrance_</name></member>
+      <member refid="group__GeneralGroup_1ga9c73486137ca18d89c55de9e8690f998" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>downMousePos_</name></member>
+      <member refid="group__GeneralGroup_1ga3558791fcc45041e37412914370454c3" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>downState_</name></member>
+      <member refid="group__GeneralGroup_1ga2e6765b0f76655d0df89fa3a5dabdc38" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>downTranslation_</name></member>
+      <member refid="group__GeneralGroup_1ga0a7601b01a5133b6acdad382da935ca2" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>dragActive_</name></member>
+      <member refid="group__GeneralGroup_1ga2bfcc1cfbe75108b42dc97a3da162141" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>dragButton_</name></member>
+      <member refid="group__GeneralGroup_1gabb21421c9f8c663d90c93fc87982a797" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>dropOldEventsOnNew</name></member>
+      <member refid="group__GeneralGroup_1ga72fb2fecdb2ee6e4351f29a5cc80b465" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>dropOldEventsOnNew_</name></member>
+      <member refid="group__GeneralGroup_1ga287c53d51507ce60bbd4cdd1aceddd48" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>findControlByMode</name></member>
+      <member refid="group__GeneralGroup_1gad1b71f4ffbe2dbebe14d9b4a3f9bb426" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>fovModifierCb_</name></member>
+      <member refid="group__GeneralGroup_1gafb9ca609657051489af0e9c49e4e5214" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>getControlString</name></member>
+      <member refid="group__GeneralGroup_1ga97504993e7ae26edd11c87386a2b5c6a" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>getDownMousePos</name></member>
+      <member refid="group__GeneralGroup_1ga24e57a9dc84d98aa47bb153dce49815c" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>getMouseConflicts</name></member>
+      <member refid="group__GeneralGroup_1gaf7ace43b0cc3f1e6c8f984e53473876a" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>getMousePos</name></member>
+      <member refid="group__GeneralGroup_1ga60ec56af8ea70c0cef52b6f90c088000" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>isCursorInside</name></member>
+      <member refid="group__GeneralGroup_1ga57cfdd5a88450edaed4d0ef0bddb6370" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>isCursorInside_</name></member>
+      <member refid="group__GeneralGroup_1gaa1030d7031685c5fff336b1a7e01e08b" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>isDropOldEventOnNewActive</name></member>
+      <member refid="group__GeneralGroup_1ga2a1971571d792ac671837f6658315096" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>isPressed</name></member>
+      <member refid="group__GeneralGroup_1ga7696a282703b3fb0ade622ed97e5e3ba" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>isPressedAny</name></member>
+      <member refid="group__GeneralGroup_1ga9d5e51eb18d1cd7551ba1f8385da113c" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>keyToMouseAndMod</name></member>
+      <member refid="group__GeneralGroup_1ga8f30fa3856888a18448ad24974f98b1b" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>map_</name></member>
+      <member refid="group__GeneralGroup_1ga2affe8f585571c7d0426962af908ffe1" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>mouseAndModToKey</name></member>
+      <member refid="group__GeneralGroup_1gaba6e92a5a4a8fe8713057e942b2056b6" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>mouseDown_</name></member>
+      <member refid="group__GeneralGroup_1gabc8ea13d2c29de4c6878d778c53b7940" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>MouseModeBackMap</name></member>
+      <member refid="group__GeneralGroup_1gaa74ac024d9ebcf8b9b970eab67a5a767" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>MouseModeMap</name></member>
+      <member refid="group__GeneralGroup_1gaa4026196164b20bb9abef4700439c60b" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>mouseScroll_</name></member>
+      <member refid="group__GeneralGroup_1gaf91ecfb07e0863d000af4ebedc49c763" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1ga4529493c14f9d8b11b26a4f23d5e9e26" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>preDragDrop_</name></member>
+      <member refid="group__GeneralGroup_1ga40d31be81a1f1a36774c3240969be6d6" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>preMouseDown_</name></member>
+      <member refid="group__GeneralGroup_1gabb9d0696f050b5c7a5a4cd91592d83af" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>preMouseMove_</name></member>
+      <member refid="group__GeneralGroup_1gaae5a7b97a117db96e3541d4ff4e8eb96" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>preMouseUp_</name></member>
+      <member refid="group__GeneralGroup_1ga54f3d2a5c3b3baa3b91f9b87a8187e03" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>prevMousePos_</name></member>
+      <member refid="group__GeneralGroup_1ga0d913e0ad425b861ac4e770079c87b0a" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>resetAllIfNeeded_</name></member>
+      <member refid="group__GeneralGroup_1gae1ce84791f0d7205fd00e67c96b257b1" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>setFOVModifierCb</name></member>
+      <member refid="group__GeneralGroup_1ga658d96148a2b7e4d19231d7801569723" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>setMouseControl</name></member>
+      <member refid="group__GeneralGroup_1gaad7e4bd9f3d1de6069e852940644b5e9" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>setTrasformModifierCb</name></member>
+      <member refid="group__GeneralGroup_1ga8f377fb5f4b4ae1261438935d12d6b89" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>transformModifierCb_</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

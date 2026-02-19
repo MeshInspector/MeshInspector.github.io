@@ -4,61 +4,19 @@
     <compoundname>MR::CurvePoint</compoundname>
     <includes refid="MRCurve_8h" local="no">MRCurve.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1CurvePoint_1aa66dd8795ad06b100b6b27009f406df5" prot="public" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::CurvePoint::pos</definition>
-        <argsstring></argsstring>
-        <name>pos</name>
-        <qualifiedname>MR::CurvePoint::pos</qualifiedname>
-        <briefdescription>
-<para>position on the curve </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCurve.h" line="11" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCurve.h" bodystart="11" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1CurvePoint_1ab890d6dbf3c55646c877002d9cdcef86" prot="public" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::CurvePoint::dir</definition>
-        <argsstring></argsstring>
-        <name>dir</name>
-        <qualifiedname>MR::CurvePoint::dir</qualifiedname>
-        <briefdescription>
-<para>direction along the curve </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCurve.h" line="12" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCurve.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1CurvePoint_1aa9ddd8b08fe744f50edac9292ae66920" prot="public" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::CurvePoint::snorm</definition>
-        <argsstring></argsstring>
-        <name>snorm</name>
-        <qualifiedname>MR::CurvePoint::snorm</qualifiedname>
-        <briefdescription>
-<para>the normal of the surface where the curve is located </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCurve.h" line="13" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCurve.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaa66dd8795ad06b100b6b27009f406df5" kind="variable"><name>pos</name></member>
+      <member refid="group__GeneralGroup_1gab890d6dbf3c55646c877002d9cdcef86" kind="variable"><name>dir</name></member>
+      <member refid="group__GeneralGroup_1gaa9ddd8b08fe744f50edac9292ae66920" kind="variable"><name>snorm</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCurve.h" line="9" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCurve.h" bodystart="10" bodyend="14"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCurve.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCurve.h" bodystart="13" bodyend="17"/>
     <listofallmembers>
-      <member refid="structMR_1_1CurvePoint_1ab890d6dbf3c55646c877002d9cdcef86" prot="public" virt="non-virtual"><scope>MR::CurvePoint</scope><name>dir</name></member>
-      <member refid="structMR_1_1CurvePoint_1aa66dd8795ad06b100b6b27009f406df5" prot="public" virt="non-virtual"><scope>MR::CurvePoint</scope><name>pos</name></member>
-      <member refid="structMR_1_1CurvePoint_1aa9ddd8b08fe744f50edac9292ae66920" prot="public" virt="non-virtual"><scope>MR::CurvePoint</scope><name>snorm</name></member>
+      <member refid="group__GeneralGroup_1gab890d6dbf3c55646c877002d9cdcef86" prot="public" virt="non-virtual"><scope>MR::CurvePoint</scope><name>dir</name></member>
+      <member refid="group__GeneralGroup_1gaa66dd8795ad06b100b6b27009f406df5" prot="public" virt="non-virtual"><scope>MR::CurvePoint</scope><name>pos</name></member>
+      <member refid="group__GeneralGroup_1gaa9ddd8b08fe744f50edac9292ae66920" prot="public" virt="non-virtual"><scope>MR::CurvePoint</scope><name>snorm</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

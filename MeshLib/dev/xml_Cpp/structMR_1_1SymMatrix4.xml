@@ -9,480 +9,72 @@
       </param>
     </templateparamlist>
     <sectiondef kind="user-defined">
-      <memberdef kind="function" id="structMR_1_1SymMatrix4_1afc0a6af3d8944b99ae426026e296ef03" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename T</type>
-          </param>
-        </templateparamlist>
-        <type><ref refid="structMR_1_1Vector4" kindref="compound">Vector4</ref>&lt; T &gt;</type>
-        <definition>Vector4&lt; T &gt; operator*</definition>
-        <argsstring>(const SymMatrix4&lt; T &gt; &amp;a, const Vector4&lt; T &gt; &amp;b)</argsstring>
-        <name>operator*</name>
-        <qualifiedname>MR::SymMatrix4::operator*</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1SymMatrix4" kindref="compound">SymMatrix4</ref>&lt; T &gt; &amp;</type>
-          <declname>a</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1Vector4" kindref="compound">Vector4</ref>&lt; T &gt; &amp;</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-<para>x = a * b </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" line="50" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" bodystart="50" bodyend="59"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1SymMatrix4_1a27b6e7fc3e23fc7528ad7a37f8629668" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename T</type>
-          </param>
-        </templateparamlist>
-        <type><ref refid="structMR_1_1SymMatrix4" kindref="compound">SymMatrix4</ref>&lt; T &gt;</type>
-        <definition>SymMatrix4&lt; T &gt; outerSquare</definition>
-        <argsstring>(const Vector4&lt; T &gt; &amp;a)</argsstring>
-        <name>outerSquare</name>
-        <qualifiedname>MR::SymMatrix4::outerSquare</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Vector4" kindref="compound">Vector4</ref>&lt; T &gt; &amp;</type>
-          <declname>a</declname>
-        </param>
-        <briefdescription>
-<para>x = a * a^T </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" line="63" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" bodystart="63" bodyend="71"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1SymMatrix4_1a66114790de91e3bbd34e6ae1d04a97e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename T</type>
-          </param>
-        </templateparamlist>
-        <type><ref refid="structMR_1_1SymMatrix4" kindref="compound">SymMatrix4</ref>&lt; T &gt;</type>
-        <definition>SymMatrix4&lt; T &gt; outerSquare</definition>
-        <argsstring>(T k, const Vector4&lt; T &gt; &amp;a)</argsstring>
-        <name>outerSquare</name>
-        <qualifiedname>MR::SymMatrix4::outerSquare</qualifiedname>
-        <param>
-          <type>T</type>
-          <declname>k</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1Vector4" kindref="compound">Vector4</ref>&lt; T &gt; &amp;</type>
-          <declname>a</declname>
-        </param>
-        <briefdescription>
-<para>x = k * a * a^T </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" line="75" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" bodystart="75" bodyend="84"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gafc0a6af3d8944b99ae426026e296ef03" kind="function"><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1ga27b6e7fc3e23fc7528ad7a37f8629668" kind="function"><name>outerSquare</name></member>
+      <member refid="group__GeneralGroup_1ga66114790de91e3bbd34e6ae1d04a97e5" kind="function"><name>outerSquare</name></member>
     </sectiondef>
     <sectiondef kind="public-type">
-      <memberdef kind="typedef" id="structMR_1_1SymMatrix4_1a8d09737a54e0acef8b37f43c20c7dff5" prot="public" static="no">
-        <type>T</type>
-        <definition>using MR::SymMatrix4&lt; T &gt;::ValueType =  T</definition>
-        <argsstring></argsstring>
-        <name>ValueType</name>
-        <qualifiedname>MR::SymMatrix4::ValueType</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" line="14" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga8d09737a54e0acef8b37f43c20c7dff5" kind="typedef"><name>ValueType</name></member>
     </sectiondef>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1SymMatrix4_1a4fb698a206dc30bd585a5dab6ac9c8d1" prot="public" static="no" mutable="no">
-        <type>T</type>
-        <definition>T MR::SymMatrix4&lt; T &gt;::xx</definition>
-        <argsstring></argsstring>
-        <name>xx</name>
-        <qualifiedname>MR::SymMatrix4::xx</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-<para>zero matrix by default </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" line="17" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1SymMatrix4_1a81d260c4cff78ebfe4a0b6a1eeead433" prot="public" static="no" mutable="no">
-        <type>T</type>
-        <definition>T MR::SymMatrix4&lt; T &gt;::xy</definition>
-        <argsstring></argsstring>
-        <name>xy</name>
-        <qualifiedname>MR::SymMatrix4::xy</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" line="17" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1SymMatrix4_1a02636edb960785731936c618186131dd" prot="public" static="no" mutable="no">
-        <type>T</type>
-        <definition>T MR::SymMatrix4&lt; T &gt;::xz</definition>
-        <argsstring></argsstring>
-        <name>xz</name>
-        <qualifiedname>MR::SymMatrix4::xz</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" line="17" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1SymMatrix4_1aacd1c64ccc38944a171aa223364256b9" prot="public" static="no" mutable="no">
-        <type>T</type>
-        <definition>T MR::SymMatrix4&lt; T &gt;::xw</definition>
-        <argsstring></argsstring>
-        <name>xw</name>
-        <qualifiedname>MR::SymMatrix4::xw</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" line="17" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1SymMatrix4_1ac64a17a99da69d6c7352b775c4c034b7" prot="public" static="no" mutable="no">
-        <type>T</type>
-        <definition>T MR::SymMatrix4&lt; T &gt;::yy</definition>
-        <argsstring></argsstring>
-        <name>yy</name>
-        <qualifiedname>MR::SymMatrix4::yy</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" line="18" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1SymMatrix4_1aa9da96b0258f9f938457f9c36503172d" prot="public" static="no" mutable="no">
-        <type>T</type>
-        <definition>T MR::SymMatrix4&lt; T &gt;::yz</definition>
-        <argsstring></argsstring>
-        <name>yz</name>
-        <qualifiedname>MR::SymMatrix4::yz</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" line="18" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1SymMatrix4_1afb5ebef84a840cfde0e7c3faa69da4ab" prot="public" static="no" mutable="no">
-        <type>T</type>
-        <definition>T MR::SymMatrix4&lt; T &gt;::yw</definition>
-        <argsstring></argsstring>
-        <name>yw</name>
-        <qualifiedname>MR::SymMatrix4::yw</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" line="18" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1SymMatrix4_1a73599b372bfd1917775d5b88bdd9bf19" prot="public" static="no" mutable="no">
-        <type>T</type>
-        <definition>T MR::SymMatrix4&lt; T &gt;::zz</definition>
-        <argsstring></argsstring>
-        <name>zz</name>
-        <qualifiedname>MR::SymMatrix4::zz</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" line="19" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" bodystart="19" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1SymMatrix4_1a4a1f640d731c441127236acba8ffca96" prot="public" static="no" mutable="no">
-        <type>T</type>
-        <definition>T MR::SymMatrix4&lt; T &gt;::zw</definition>
-        <argsstring></argsstring>
-        <name>zw</name>
-        <qualifiedname>MR::SymMatrix4::zw</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" line="19" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" bodystart="19" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1SymMatrix4_1a5f21446d34d40b1bc92d85397bc24134" prot="public" static="no" mutable="no">
-        <type>T</type>
-        <definition>T MR::SymMatrix4&lt; T &gt;::ww</definition>
-        <argsstring></argsstring>
-        <name>ww</name>
-        <qualifiedname>MR::SymMatrix4::ww</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" line="20" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" bodystart="20" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga4fb698a206dc30bd585a5dab6ac9c8d1" kind="variable"><name>xx</name></member>
+      <member refid="group__GeneralGroup_1ga81d260c4cff78ebfe4a0b6a1eeead433" kind="variable"><name>xy</name></member>
+      <member refid="group__GeneralGroup_1ga02636edb960785731936c618186131dd" kind="variable"><name>xz</name></member>
+      <member refid="group__GeneralGroup_1gaacd1c64ccc38944a171aa223364256b9" kind="variable"><name>xw</name></member>
+      <member refid="group__GeneralGroup_1gac64a17a99da69d6c7352b775c4c034b7" kind="variable"><name>yy</name></member>
+      <member refid="group__GeneralGroup_1gaa9da96b0258f9f938457f9c36503172d" kind="variable"><name>yz</name></member>
+      <member refid="group__GeneralGroup_1gafb5ebef84a840cfde0e7c3faa69da4ab" kind="variable"><name>yw</name></member>
+      <member refid="group__GeneralGroup_1ga73599b372bfd1917775d5b88bdd9bf19" kind="variable"><name>zz</name></member>
+      <member refid="group__GeneralGroup_1ga4a1f640d731c441127236acba8ffca96" kind="variable"><name>zw</name></member>
+      <member refid="group__GeneralGroup_1ga5f21446d34d40b1bc92d85397bc24134" kind="variable"><name>ww</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1SymMatrix4_1a8bba7cb7e8b42e2e84775e1f07217196" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type>constexpr</type>
-        <definition>MR::SymMatrix4&lt; T &gt;::SymMatrix4</definition>
-        <argsstring>() noexcept=default</argsstring>
-        <name>SymMatrix4</name>
-        <qualifiedname>MR::SymMatrix4::SymMatrix4</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" line="22" column="15"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1SymMatrix4_1a527abb0a49799714b14dac1889bcbc39" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename U</type>
-          </param>
-        </templateparamlist>
-        <type>constexpr</type>
-        <definition>MR::SymMatrix4&lt; T &gt;::SymMatrix4</definition>
-        <argsstring>(const SymMatrix4&lt; U &gt; &amp;m)</argsstring>
-        <name>SymMatrix4</name>
-        <qualifiedname>MR::SymMatrix4::SymMatrix4</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1SymMatrix4" kindref="compound">SymMatrix4</ref>&lt; U &gt; &amp;</type>
-          <declname>m</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" line="24" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" bodystart="24" bodyend="28"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1SymMatrix4_1aa81a146dfe065dc9e492ff69c83dfc33" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>T</type>
-        <definition>T MR::SymMatrix4&lt; T &gt;::trace</definition>
-        <argsstring>() const noexcept</argsstring>
-        <name>trace</name>
-        <qualifiedname>MR::SymMatrix4::trace</qualifiedname>
-        <briefdescription>
-<para>computes trace of the matrix </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" line="33" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" bodystart="33" bodyend="33"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1SymMatrix4_1a3800df67aa75d0782b005ad6334cad45" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type>T</type>
-        <definition>T MR::SymMatrix4&lt; T &gt;::normSq</definition>
-        <argsstring>() const noexcept</argsstring>
-        <name>normSq</name>
-        <qualifiedname>MR::SymMatrix4::normSq</qualifiedname>
-        <briefdescription>
-<para>computes the squared norm of the matrix, which is equal to the sum of 16 squared elements </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" line="35" column="17"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1SymMatrix4_1a2d631de1df967d6ddca570a6e16d4938" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="structMR_1_1SymMatrix4" kindref="compound">SymMatrix4</ref> &amp;</type>
-        <definition>SymMatrix4 &amp; MR::SymMatrix4&lt; T &gt;::operator+=</definition>
-        <argsstring>(const SymMatrix4&lt; T &gt; &amp;b)</argsstring>
-        <name>operator+=</name>
-        <qualifiedname>MR::SymMatrix4::operator+=</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1SymMatrix4" kindref="compound">SymMatrix4</ref>&lt; T &gt; &amp;</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" line="37" column="17"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1SymMatrix4_1a0a5e9e9469df428b50136b463c5350a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="structMR_1_1SymMatrix4" kindref="compound">SymMatrix4</ref> &amp;</type>
-        <definition>SymMatrix4 &amp; MR::SymMatrix4&lt; T &gt;::operator-=</definition>
-        <argsstring>(const SymMatrix4&lt; T &gt; &amp;b)</argsstring>
-        <name>operator-=</name>
-        <qualifiedname>MR::SymMatrix4::operator-=</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1SymMatrix4" kindref="compound">SymMatrix4</ref>&lt; T &gt; &amp;</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" line="38" column="17"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1SymMatrix4_1aa5a2bc6b458e7890d92c6220fbd4b2c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="structMR_1_1SymMatrix4" kindref="compound">SymMatrix4</ref> &amp;</type>
-        <definition>SymMatrix4 &amp; MR::SymMatrix4&lt; T &gt;::operator*=</definition>
-        <argsstring>(T b)</argsstring>
-        <name>operator*=</name>
-        <qualifiedname>MR::SymMatrix4::operator*=</qualifiedname>
-        <param>
-          <type>T</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" line="39" column="17"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1SymMatrix4_1ae0f862cb58c64e35b3da4f2f0698f466" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="structMR_1_1SymMatrix4" kindref="compound">SymMatrix4</ref> &amp;</type>
-        <definition>SymMatrix4 &amp; MR::SymMatrix4&lt; T &gt;::operator/=</definition>
-        <argsstring>(T b)</argsstring>
-        <name>operator/=</name>
-        <qualifiedname>MR::SymMatrix4::operator/=</qualifiedname>
-        <param>
-          <type>T</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" line="40" column="17"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1SymMatrix4_1a8ddbb2995c7659e3cc15a4e925ee3ca8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::SymMatrix4&lt; T &gt;::operator==</definition>
-        <argsstring>(const SymMatrix4&lt; T &gt; &amp;) const =default</argsstring>
-        <name>operator==</name>
-        <qualifiedname>MR::SymMatrix4::operator==</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1SymMatrix4" kindref="compound">SymMatrix4</ref>&lt; T &gt; &amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" line="42" column="10"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga8bba7cb7e8b42e2e84775e1f07217196" kind="function"><name>SymMatrix4</name></member>
+      <member refid="group__GeneralGroup_1ga527abb0a49799714b14dac1889bcbc39" kind="function"><name>SymMatrix4</name></member>
+      <member refid="group__GeneralGroup_1gaa81a146dfe065dc9e492ff69c83dfc33" kind="function"><name>trace</name></member>
+      <member refid="group__GeneralGroup_1ga3800df67aa75d0782b005ad6334cad45" kind="function"><name>normSq</name></member>
+      <member refid="group__GeneralGroup_1ga2d631de1df967d6ddca570a6e16d4938" kind="function"><name>operator+=</name></member>
+      <member refid="group__GeneralGroup_1ga0a5e9e9469df428b50136b463c5350a4" kind="function"><name>operator-=</name></member>
+      <member refid="group__GeneralGroup_1gaa5a2bc6b458e7890d92c6220fbd4b2c8" kind="function"><name>operator*=</name></member>
+      <member refid="group__GeneralGroup_1gae0f862cb58c64e35b3da4f2f0698f466" kind="function"><name>operator/=</name></member>
+      <member refid="group__GeneralGroup_1ga8ddbb2995c7659e3cc15a4e925ee3ca8" kind="function"><name>operator==</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="structMR_1_1SymMatrix4_1afbcf116c4a2ef5bb375df7b99a4f00e5" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1SymMatrix4" kindref="compound">SymMatrix4</ref></type>
-        <definition>static constexpr SymMatrix4 MR::SymMatrix4&lt; T &gt;::identity</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>identity</name>
-        <qualifiedname>MR::SymMatrix4::identity</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" line="29" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" bodystart="29" bodyend="29"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1SymMatrix4_1a4035197926d1c7b4e776a8384343771a" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1SymMatrix4" kindref="compound">SymMatrix4</ref></type>
-        <definition>static constexpr SymMatrix4 MR::SymMatrix4&lt; T &gt;::diagonal</definition>
-        <argsstring>(T diagVal) noexcept</argsstring>
-        <name>diagonal</name>
-        <qualifiedname>MR::SymMatrix4::diagonal</qualifiedname>
-        <param>
-          <type>T</type>
-          <declname>diagVal</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" line="30" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" bodystart="30" bodyend="30"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gafbcf116c4a2ef5bb375df7b99a4f00e5" kind="function"><name>identity</name></member>
+      <member refid="group__GeneralGroup_1ga4035197926d1c7b4e776a8384343771a" kind="function"><name>diagonal</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
 <para>symmetric 4x4 matrix </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" bodystart="13" bodyend="43"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix4.h" bodystart="16" bodyend="46"/>
     <listofallmembers>
-      <member refid="structMR_1_1SymMatrix4_1a4035197926d1c7b4e776a8384343771a" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>diagonal</name></member>
-      <member refid="structMR_1_1SymMatrix4_1afbcf116c4a2ef5bb375df7b99a4f00e5" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>identity</name></member>
-      <member refid="structMR_1_1SymMatrix4_1a3800df67aa75d0782b005ad6334cad45" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>normSq</name></member>
-      <member refid="structMR_1_1SymMatrix4_1afc0a6af3d8944b99ae426026e296ef03" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>operator*</name></member>
-      <member refid="structMR_1_1SymMatrix4_1aa5a2bc6b458e7890d92c6220fbd4b2c8" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>operator*=</name></member>
-      <member refid="structMR_1_1SymMatrix4_1a2d631de1df967d6ddca570a6e16d4938" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>operator+=</name></member>
-      <member refid="structMR_1_1SymMatrix4_1a0a5e9e9469df428b50136b463c5350a4" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>operator-=</name></member>
-      <member refid="structMR_1_1SymMatrix4_1ae0f862cb58c64e35b3da4f2f0698f466" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>operator/=</name></member>
-      <member refid="structMR_1_1SymMatrix4_1a8ddbb2995c7659e3cc15a4e925ee3ca8" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>operator==</name></member>
-      <member refid="structMR_1_1SymMatrix4_1a27b6e7fc3e23fc7528ad7a37f8629668" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>outerSquare</name></member>
-      <member refid="structMR_1_1SymMatrix4_1a66114790de91e3bbd34e6ae1d04a97e5" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>outerSquare</name></member>
-      <member refid="structMR_1_1SymMatrix4_1a8bba7cb7e8b42e2e84775e1f07217196" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>SymMatrix4</name></member>
-      <member refid="structMR_1_1SymMatrix4_1a527abb0a49799714b14dac1889bcbc39" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>SymMatrix4</name></member>
-      <member refid="structMR_1_1SymMatrix4_1aa81a146dfe065dc9e492ff69c83dfc33" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>trace</name></member>
-      <member refid="structMR_1_1SymMatrix4_1a8d09737a54e0acef8b37f43c20c7dff5" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>ValueType</name></member>
-      <member refid="structMR_1_1SymMatrix4_1a5f21446d34d40b1bc92d85397bc24134" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>ww</name></member>
-      <member refid="structMR_1_1SymMatrix4_1aacd1c64ccc38944a171aa223364256b9" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>xw</name></member>
-      <member refid="structMR_1_1SymMatrix4_1a4fb698a206dc30bd585a5dab6ac9c8d1" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>xx</name></member>
-      <member refid="structMR_1_1SymMatrix4_1a81d260c4cff78ebfe4a0b6a1eeead433" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>xy</name></member>
-      <member refid="structMR_1_1SymMatrix4_1a02636edb960785731936c618186131dd" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>xz</name></member>
-      <member refid="structMR_1_1SymMatrix4_1afb5ebef84a840cfde0e7c3faa69da4ab" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>yw</name></member>
-      <member refid="structMR_1_1SymMatrix4_1ac64a17a99da69d6c7352b775c4c034b7" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>yy</name></member>
-      <member refid="structMR_1_1SymMatrix4_1aa9da96b0258f9f938457f9c36503172d" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>yz</name></member>
-      <member refid="structMR_1_1SymMatrix4_1a4a1f640d731c441127236acba8ffca96" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>zw</name></member>
-      <member refid="structMR_1_1SymMatrix4_1a73599b372bfd1917775d5b88bdd9bf19" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>zz</name></member>
+      <member refid="group__GeneralGroup_1ga4035197926d1c7b4e776a8384343771a" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>diagonal</name></member>
+      <member refid="group__GeneralGroup_1gafbcf116c4a2ef5bb375df7b99a4f00e5" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>identity</name></member>
+      <member refid="group__GeneralGroup_1ga3800df67aa75d0782b005ad6334cad45" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>normSq</name></member>
+      <member refid="group__GeneralGroup_1gafc0a6af3d8944b99ae426026e296ef03" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1gaa5a2bc6b458e7890d92c6220fbd4b2c8" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>operator*=</name></member>
+      <member refid="group__GeneralGroup_1ga2d631de1df967d6ddca570a6e16d4938" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>operator+=</name></member>
+      <member refid="group__GeneralGroup_1ga0a5e9e9469df428b50136b463c5350a4" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>operator-=</name></member>
+      <member refid="group__GeneralGroup_1gae0f862cb58c64e35b3da4f2f0698f466" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>operator/=</name></member>
+      <member refid="group__GeneralGroup_1ga8ddbb2995c7659e3cc15a4e925ee3ca8" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga27b6e7fc3e23fc7528ad7a37f8629668" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>outerSquare</name></member>
+      <member refid="group__GeneralGroup_1ga66114790de91e3bbd34e6ae1d04a97e5" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>outerSquare</name></member>
+      <member refid="group__GeneralGroup_1ga8bba7cb7e8b42e2e84775e1f07217196" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>SymMatrix4</name></member>
+      <member refid="group__GeneralGroup_1ga527abb0a49799714b14dac1889bcbc39" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>SymMatrix4</name></member>
+      <member refid="group__GeneralGroup_1gaa81a146dfe065dc9e492ff69c83dfc33" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>trace</name></member>
+      <member refid="group__GeneralGroup_1ga8d09737a54e0acef8b37f43c20c7dff5" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>ValueType</name></member>
+      <member refid="group__GeneralGroup_1ga5f21446d34d40b1bc92d85397bc24134" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>ww</name></member>
+      <member refid="group__GeneralGroup_1gaacd1c64ccc38944a171aa223364256b9" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>xw</name></member>
+      <member refid="group__GeneralGroup_1ga4fb698a206dc30bd585a5dab6ac9c8d1" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>xx</name></member>
+      <member refid="group__GeneralGroup_1ga81d260c4cff78ebfe4a0b6a1eeead433" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>xy</name></member>
+      <member refid="group__GeneralGroup_1ga02636edb960785731936c618186131dd" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>xz</name></member>
+      <member refid="group__GeneralGroup_1gafb5ebef84a840cfde0e7c3faa69da4ab" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>yw</name></member>
+      <member refid="group__GeneralGroup_1gac64a17a99da69d6c7352b775c4c034b7" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>yy</name></member>
+      <member refid="group__GeneralGroup_1gaa9da96b0258f9f938457f9c36503172d" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>yz</name></member>
+      <member refid="group__GeneralGroup_1ga4a1f640d731c441127236acba8ffca96" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>zw</name></member>
+      <member refid="group__GeneralGroup_1ga73599b372bfd1917775d5b88bdd9bf19" prot="public" virt="non-virtual"><scope>MR::SymMatrix4</scope><name>zz</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

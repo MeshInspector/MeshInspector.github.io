@@ -121,7 +121,7 @@
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="group__VoxelPathGroup_1ga149abd6a892e1284e051e285396c94c6" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> VoxelsMetric</type>
+        <type>MRVOXELS_API VoxelsMetric</type>
         <definition>MRVOXELS_API VoxelsMetric MR::voxelsExponentMetric</definition>
         <argsstring>(const VdbVolume &amp;voxels, const VoxelMetricParameters &amp;parameters, float modifier=-1.0f)</argsstring>
         <name>voxelsExponentMetric</name>
@@ -149,7 +149,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelPath.h" line="47" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelPath.h" declline="47" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="group__VoxelPathGroup_1gaffc0e3988ac89d7c4ed030de11be4b80" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> VoxelsMetric</type>
+        <type>MRVOXELS_API VoxelsMetric</type>
         <definition>MRVOXELS_API VoxelsMetric MR::voxelsSumDiffsMetric</definition>
         <argsstring>(const VdbVolume &amp;voxels, const VoxelMetricParameters &amp;parameters)</argsstring>
         <name>voxelsSumDiffsMetric</name>
@@ -172,7 +172,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelPath.h" line="51" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelPath.h" declline="51" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="group__VoxelPathGroup_1gad1772070c201609ff1aac3958e6b9005" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> std::vector&lt; size_t &gt;</type>
+        <type>MRVOXELS_API std::vector&lt; size_t &gt;</type>
         <definition>MRVOXELS_API std::vector&lt; size_t &gt; MR::buildSmallestMetricPath</definition>
         <argsstring>(const VdbVolume &amp;voxels, const VoxelsMetric &amp;metric, size_t start, size_t finish, ProgressCallback cb={})</argsstring>
         <name>buildSmallestMetricPath</name>

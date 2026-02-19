@@ -1,13 +1,13 @@
 var group__AABBTreeGroup =
 [
     [ "MR::Cuda::FastWindingNumber", "classMR_1_1Cuda_1_1FastWindingNumber.html", [
-      [ "FastWindingNumber", "classMR_1_1Cuda_1_1FastWindingNumber.html#afed4d0df31eef8da93ca2d843c3a8a63", null ],
-      [ "calcFromGrid", "classMR_1_1Cuda_1_1FastWindingNumber.html#ade8474a42b222e2956b6fe29750ac544", null ],
-      [ "calcFromGridByParts", "classMR_1_1Cuda_1_1FastWindingNumber.html#a2a62210342991fb5c15a7f7627fbbd45", null ],
-      [ "calcFromGridWithDistances", "classMR_1_1Cuda_1_1FastWindingNumber.html#aeb495c4eda1b8be00020369fc04f7159", null ],
-      [ "calcFromGridWithDistancesByParts", "classMR_1_1Cuda_1_1FastWindingNumber.html#aa58e46d5a0d4b887dfc6f4edddafa860", null ],
-      [ "calcFromVector", "classMR_1_1Cuda_1_1FastWindingNumber.html#a5c175130af9cbdf1fac5b175f1f44ae3", null ],
-      [ "calcSelfIntersections", "classMR_1_1Cuda_1_1FastWindingNumber.html#a2f11c9de4efd17bdc6ac47d85b97c079", null ]
+      [ "FastWindingNumber", "group__GeneralGroup.html#gafed4d0df31eef8da93ca2d843c3a8a63", null ],
+      [ "calcFromGrid", "group__GeneralGroup.html#gade8474a42b222e2956b6fe29750ac544", null ],
+      [ "calcFromGridByParts", "group__GeneralGroup.html#ga2a62210342991fb5c15a7f7627fbbd45", null ],
+      [ "calcFromGridWithDistances", "group__GeneralGroup.html#gaeb495c4eda1b8be00020369fc04f7159", null ],
+      [ "calcFromGridWithDistancesByParts", "group__GeneralGroup.html#gaa58e46d5a0d4b887dfc6f4edddafa860", null ],
+      [ "calcFromVector", "group__GeneralGroup.html#ga5c175130af9cbdf1fac5b175f1f44ae3", null ],
+      [ "calcSelfIntersections", "group__GeneralGroup.html#ga2f11c9de4efd17bdc6ac47d85b97c079", null ]
     ] ],
     [ "MR::AABBTree", "classMR_1_1AABBTree.html", [
       [ "AABBTree", "classMR_1_1AABBTree.html#a0c762ebbd20c05c2219b1a348f22e0fb", null ],
@@ -44,12 +44,12 @@ var group__AABBTreeGroup =
       [ "bNode", "structMR_1_1NodeNode.html#a79a5205b5b3afdb4525f05a356ec8a18", null ]
     ] ],
     [ "MR::AABBTreeObjects", "classMR_1_1AABBTreeObjects.html", [
-      [ "AABBTreeObjects", "classMR_1_1AABBTreeObjects.html#aa38c8faf49a02e3d7be46e67ca93605c", null ],
-      [ "AABBTreeObjects", "classMR_1_1AABBTreeObjects.html#ac03ebfddd0d44b67e900401b14ab8510", null ],
-      [ "obj", "classMR_1_1AABBTreeObjects.html#a99168530efbec41936b6d609dd4817ef", null ],
-      [ "toLocal", "classMR_1_1AABBTreeObjects.html#ace976de99f292fc7409294bee7c05658", null ],
-      [ "toLocal", "classMR_1_1AABBTreeObjects.html#a38603d0eea93fb5ee6465cbb5f5240df", null ],
-      [ "toWorld", "classMR_1_1AABBTreeObjects.html#a53a2373adc7f8c553eef2252a15f8e6c", null ]
+      [ "AABBTreeObjects", "group__GeneralGroup.html#gaa38c8faf49a02e3d7be46e67ca93605c", null ],
+      [ "AABBTreeObjects", "group__GeneralGroup.html#gac03ebfddd0d44b67e900401b14ab8510", null ],
+      [ "obj", "group__GeneralGroup.html#ga99168530efbec41936b6d609dd4817ef", null ],
+      [ "toLocal", "group__GeneralGroup.html#gace976de99f292fc7409294bee7c05658", null ],
+      [ "toLocal", "group__GeneralGroup.html#ga38603d0eea93fb5ee6465cbb5f5240df", null ],
+      [ "toWorld", "group__GeneralGroup.html#ga53a2373adc7f8c553eef2252a15f8e6c", null ]
     ] ],
     [ "MR::AABBTreePoints", "classMR_1_1AABBTreePoints.html", [
       [ "Node", "structMR_1_1AABBTreePoints_1_1Node.html", [
@@ -113,12 +113,12 @@ var group__AABBTreeGroup =
       [ "bUndirEdge", "structMR_1_1UndirectedEdgeUndirectedEdge.html#a535f1290920a2d84945d8cc8989397c6", null ]
     ] ],
     [ "MR::FastWindingNumber", "classMR_1_1FastWindingNumber.html", [
-      [ "FastWindingNumber", "classMR_1_1FastWindingNumber.html#a6af89b7c93e4591719b2ffd0eeeffd07", null ],
-      [ "calcFromGrid", "classMR_1_1FastWindingNumber.html#a186f894c032c3bdf71d61355cbe9056d", null ],
-      [ "calcFromGridWithDistances", "classMR_1_1FastWindingNumber.html#aca960465c3521aa3c3a87ca39dc7d94a", null ],
-      [ "calcFromVector", "classMR_1_1FastWindingNumber.html#af82a0cdae2d3f0021d770000203f1c3d", null ],
-      [ "calcSelfIntersections", "classMR_1_1FastWindingNumber.html#ada34ead58fe4909d1eca8f4abd41743d", null ],
-      [ "calcWithDistances", "classMR_1_1FastWindingNumber.html#a67a65bbf1fec70506c8d72c72446d653", null ]
+      [ "FastWindingNumber", "group__GeneralGroup.html#ga6af89b7c93e4591719b2ffd0eeeffd07", null ],
+      [ "calcFromGrid", "group__GeneralGroup.html#ga186f894c032c3bdf71d61355cbe9056d", null ],
+      [ "calcFromGridWithDistances", "group__GeneralGroup.html#gaca960465c3521aa3c3a87ca39dc7d94a", null ],
+      [ "calcFromVector", "group__GeneralGroup.html#gaf82a0cdae2d3f0021d770000203f1c3d", null ],
+      [ "calcSelfIntersections", "group__GeneralGroup.html#gada34ead58fe4909d1eca8f4abd41743d", null ],
+      [ "calcWithDistances", "group__GeneralGroup.html#ga67a65bbf1fec70506c8d72c72446d653", null ]
     ] ],
     [ "MR::IntersectionPrecomputes< T >", "structMR_1_1IntersectionPrecomputes.html", [
       [ "IntersectionPrecomputes", "group__AABBTreeGroup.html#ga9984ed4cff38cd012243e835f02e0e92", null ],

@@ -4,271 +4,44 @@
     <compoundname>MR::Histogram</compoundname>
     <includes refid="MRHistogram_8h" local="no">MRHistogram.h</includes>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1Histogram_1a15f621762bad334bfe43bfaf4b5b7d83" prot="private" static="no" mutable="no">
-        <type>std::vector&lt; size_t &gt;</type>
-        <definition>std::vector&lt;size_t&gt; MR::Histogram::bins_</definition>
-        <argsstring></argsstring>
-        <name>bins_</name>
-        <qualifiedname>MR::Histogram::bins_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHistogram.h" line="39" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHistogram.h" bodystart="39" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1Histogram_1a9751323300b9e28451f7f9fa6adf098d" prot="private" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::Histogram::min_</definition>
-        <argsstring></argsstring>
-        <name>min_</name>
-        <qualifiedname>MR::Histogram::min_</qualifiedname>
-        <initializer>{0.0f}</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHistogram.h" line="40" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHistogram.h" bodystart="40" bodyend="40"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1Histogram_1a249621b2451b634318652fbf88970b20" prot="private" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::Histogram::max_</definition>
-        <argsstring></argsstring>
-        <name>max_</name>
-        <qualifiedname>MR::Histogram::max_</qualifiedname>
-        <initializer>{0.0f}</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHistogram.h" line="41" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHistogram.h" bodystart="41" bodyend="41"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1Histogram_1a97c4c672a329bfd1d51743c738ecbabd" prot="private" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::Histogram::binSize_</definition>
-        <argsstring></argsstring>
-        <name>binSize_</name>
-        <qualifiedname>MR::Histogram::binSize_</qualifiedname>
-        <initializer>{0.0f}</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHistogram.h" line="42" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHistogram.h" bodystart="42" bodyend="42"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga15f621762bad334bfe43bfaf4b5b7d83" kind="variable"><name>bins_</name></member>
+      <member refid="group__GeneralGroup_1ga9751323300b9e28451f7f9fa6adf098d" kind="variable"><name>min_</name></member>
+      <member refid="group__GeneralGroup_1ga249621b2451b634318652fbf88970b20" kind="variable"><name>max_</name></member>
+      <member refid="group__GeneralGroup_1ga97c4c672a329bfd1d51743c738ecbabd" kind="variable"><name>binSize_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1Histogram_1aba207b56824356ab7f80254c5fd34819" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::Histogram::Histogram</definition>
-        <argsstring>()=default</argsstring>
-        <name>Histogram</name>
-        <qualifiedname>MR::Histogram::Histogram</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHistogram.h" line="12" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Histogram_1a9987d6f205ec5eb085631e1d45e333b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
-        <definition>MRMESH_API MR::Histogram::Histogram</definition>
-        <argsstring>(float min, float max, size_t size)</argsstring>
-        <name>Histogram</name>
-        <qualifiedname>MR::Histogram::Histogram</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>min</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>max</declname>
-        </param>
-        <param>
-          <type>size_t</type>
-          <declname>size</declname>
-        </param>
-        <briefdescription>
-<para>Initialize histogram with minimum and maximum values, and number of bins. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHistogram.h" line="15" column="16"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Histogram_1a2b4f6ecb70d69c8ccba757095f5162cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::Histogram::addSample</definition>
-        <argsstring>(float sample, size_t count=1)</argsstring>
-        <name>addSample</name>
-        <qualifiedname>MR::Histogram::addSample</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>sample</declname>
-        </param>
-        <param>
-          <type>size_t</type>
-          <declname>count</declname>
-          <defval>1</defval>
-        </param>
-        <briefdescription>
-<para>Adds sample to corresponding bin. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHistogram.h" line="18" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Histogram_1ac1ebc3ae44e75437744d7f0b35a0dad5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::Histogram::addHistogram</definition>
-        <argsstring>(const Histogram &amp;hist)</argsstring>
-        <name>addHistogram</name>
-        <qualifiedname>MR::Histogram::addHistogram</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1Histogram" kindref="compound">Histogram</ref> &amp;</type>
-          <declname>hist</declname>
-        </param>
-        <briefdescription>
-<para>Adds bins of input hist to this. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHistogram.h" line="20" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Histogram_1a489a0a4c59abc3a2d4a5b3382fd7e4b3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> const std::vector&lt; size_t &gt; &amp;</type>
-        <definition>MRMESH_API const std::vector&lt; size_t &gt; &amp; MR::Histogram::getBins</definition>
-        <argsstring>() const</argsstring>
-        <name>getBins</name>
-        <qualifiedname>MR::Histogram::getBins</qualifiedname>
-        <briefdescription>
-<para>Gets bins. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHistogram.h" line="23" column="34"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Histogram_1a46da7c1b719682c2e39bfb89ee04eca3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> float</type>
-        <definition>MRMESH_API float MR::Histogram::getMin</definition>
-        <argsstring>() const</argsstring>
-        <name>getMin</name>
-        <qualifiedname>MR::Histogram::getMin</qualifiedname>
-        <briefdescription>
-<para>Gets minimum value of histogram. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHistogram.h" line="26" column="22"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Histogram_1a827e85fc6dbb381db1ecdd86cc85efc8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> float</type>
-        <definition>MRMESH_API float MR::Histogram::getMax</definition>
-        <argsstring>() const</argsstring>
-        <name>getMax</name>
-        <qualifiedname>MR::Histogram::getMax</qualifiedname>
-        <briefdescription>
-<para>Gets maximum value of histogram. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHistogram.h" line="28" column="22"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Histogram_1aa191601972d6382ef20f1b6fa9ad85a0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> size_t</type>
-        <definition>MRMESH_API size_t MR::Histogram::getBinId</definition>
-        <argsstring>(float sample) const</argsstring>
-        <name>getBinId</name>
-        <qualifiedname>MR::Histogram::getBinId</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>sample</declname>
-        </param>
-        <briefdescription>
-<para>Gets id of bin that inherits sample. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHistogram.h" line="31" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Histogram_1a77d44fead356e682cf2c30805722b59c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::pair&lt; float, float &gt;</type>
-        <definition>MRMESH_API std::pair&lt; float, float &gt; MR::Histogram::getBinMinMax</definition>
-        <argsstring>(size_t binId) const</argsstring>
-        <name>getBinMinMax</name>
-        <qualifiedname>MR::Histogram::getBinMinMax</qualifiedname>
-        <param>
-          <type>size_t</type>
-          <declname>binId</declname>
-        </param>
-        <briefdescription>
-<para>Gets minimum and maximum of diapason inherited by bin. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHistogram.h" line="33" column="26"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Histogram_1a4666262b73e1f92125d26cb27d2d5eca" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>size_t</type>
-        <definition>size_t MR::Histogram::heapBytes</definition>
-        <argsstring>() const</argsstring>
-        <name>heapBytes</name>
-        <qualifiedname>MR::Histogram::heapBytes</qualifiedname>
-        <briefdescription>
-<para>returns the amount of memory this object occupies on heap </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHistogram.h" line="36" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHistogram.h" bodystart="36" bodyend="36"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaba207b56824356ab7f80254c5fd34819" kind="function"><name>Histogram</name></member>
+      <member refid="group__GeneralGroup_1ga9987d6f205ec5eb085631e1d45e333b7" kind="function"><name>Histogram</name></member>
+      <member refid="group__GeneralGroup_1ga2b4f6ecb70d69c8ccba757095f5162cc" kind="function"><name>addSample</name></member>
+      <member refid="group__GeneralGroup_1gac1ebc3ae44e75437744d7f0b35a0dad5" kind="function"><name>addHistogram</name></member>
+      <member refid="group__GeneralGroup_1ga489a0a4c59abc3a2d4a5b3382fd7e4b3" kind="function"><name>getBins</name></member>
+      <member refid="group__GeneralGroup_1ga46da7c1b719682c2e39bfb89ee04eca3" kind="function"><name>getMin</name></member>
+      <member refid="group__GeneralGroup_1ga827e85fc6dbb381db1ecdd86cc85efc8" kind="function"><name>getMax</name></member>
+      <member refid="group__GeneralGroup_1gaa191601972d6382ef20f1b6fa9ad85a0" kind="function"><name>getBinId</name></member>
+      <member refid="group__GeneralGroup_1ga77d44fead356e682cf2c30805722b59c" kind="function"><name>getBinMinMax</name></member>
+      <member refid="group__GeneralGroup_1ga4666262b73e1f92125d26cb27d2d5eca" kind="function"><name>heapBytes</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
 <para>Simple class for calculating histogram </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHistogram.h" line="9" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHistogram.h" bodystart="10" bodyend="43"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHistogram.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHistogram.h" bodystart="13" bodyend="46"/>
     <listofallmembers>
-      <member refid="classMR_1_1Histogram_1ac1ebc3ae44e75437744d7f0b35a0dad5" prot="public" virt="non-virtual"><scope>MR::Histogram</scope><name>addHistogram</name></member>
-      <member refid="classMR_1_1Histogram_1a2b4f6ecb70d69c8ccba757095f5162cc" prot="public" virt="non-virtual"><scope>MR::Histogram</scope><name>addSample</name></member>
-      <member refid="classMR_1_1Histogram_1a15f621762bad334bfe43bfaf4b5b7d83" prot="private" virt="non-virtual"><scope>MR::Histogram</scope><name>bins_</name></member>
-      <member refid="classMR_1_1Histogram_1a97c4c672a329bfd1d51743c738ecbabd" prot="private" virt="non-virtual"><scope>MR::Histogram</scope><name>binSize_</name></member>
-      <member refid="classMR_1_1Histogram_1aa191601972d6382ef20f1b6fa9ad85a0" prot="public" virt="non-virtual"><scope>MR::Histogram</scope><name>getBinId</name></member>
-      <member refid="classMR_1_1Histogram_1a77d44fead356e682cf2c30805722b59c" prot="public" virt="non-virtual"><scope>MR::Histogram</scope><name>getBinMinMax</name></member>
-      <member refid="classMR_1_1Histogram_1a489a0a4c59abc3a2d4a5b3382fd7e4b3" prot="public" virt="non-virtual"><scope>MR::Histogram</scope><name>getBins</name></member>
-      <member refid="classMR_1_1Histogram_1a827e85fc6dbb381db1ecdd86cc85efc8" prot="public" virt="non-virtual"><scope>MR::Histogram</scope><name>getMax</name></member>
-      <member refid="classMR_1_1Histogram_1a46da7c1b719682c2e39bfb89ee04eca3" prot="public" virt="non-virtual"><scope>MR::Histogram</scope><name>getMin</name></member>
-      <member refid="classMR_1_1Histogram_1a4666262b73e1f92125d26cb27d2d5eca" prot="public" virt="non-virtual"><scope>MR::Histogram</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1Histogram_1aba207b56824356ab7f80254c5fd34819" prot="public" virt="non-virtual"><scope>MR::Histogram</scope><name>Histogram</name></member>
-      <member refid="classMR_1_1Histogram_1a9987d6f205ec5eb085631e1d45e333b7" prot="public" virt="non-virtual"><scope>MR::Histogram</scope><name>Histogram</name></member>
-      <member refid="classMR_1_1Histogram_1a249621b2451b634318652fbf88970b20" prot="private" virt="non-virtual"><scope>MR::Histogram</scope><name>max_</name></member>
-      <member refid="classMR_1_1Histogram_1a9751323300b9e28451f7f9fa6adf098d" prot="private" virt="non-virtual"><scope>MR::Histogram</scope><name>min_</name></member>
+      <member refid="group__GeneralGroup_1gac1ebc3ae44e75437744d7f0b35a0dad5" prot="public" virt="non-virtual"><scope>MR::Histogram</scope><name>addHistogram</name></member>
+      <member refid="group__GeneralGroup_1ga2b4f6ecb70d69c8ccba757095f5162cc" prot="public" virt="non-virtual"><scope>MR::Histogram</scope><name>addSample</name></member>
+      <member refid="group__GeneralGroup_1ga15f621762bad334bfe43bfaf4b5b7d83" prot="private" virt="non-virtual"><scope>MR::Histogram</scope><name>bins_</name></member>
+      <member refid="group__GeneralGroup_1ga97c4c672a329bfd1d51743c738ecbabd" prot="private" virt="non-virtual"><scope>MR::Histogram</scope><name>binSize_</name></member>
+      <member refid="group__GeneralGroup_1gaa191601972d6382ef20f1b6fa9ad85a0" prot="public" virt="non-virtual"><scope>MR::Histogram</scope><name>getBinId</name></member>
+      <member refid="group__GeneralGroup_1ga77d44fead356e682cf2c30805722b59c" prot="public" virt="non-virtual"><scope>MR::Histogram</scope><name>getBinMinMax</name></member>
+      <member refid="group__GeneralGroup_1ga489a0a4c59abc3a2d4a5b3382fd7e4b3" prot="public" virt="non-virtual"><scope>MR::Histogram</scope><name>getBins</name></member>
+      <member refid="group__GeneralGroup_1ga827e85fc6dbb381db1ecdd86cc85efc8" prot="public" virt="non-virtual"><scope>MR::Histogram</scope><name>getMax</name></member>
+      <member refid="group__GeneralGroup_1ga46da7c1b719682c2e39bfb89ee04eca3" prot="public" virt="non-virtual"><scope>MR::Histogram</scope><name>getMin</name></member>
+      <member refid="group__GeneralGroup_1ga4666262b73e1f92125d26cb27d2d5eca" prot="public" virt="non-virtual"><scope>MR::Histogram</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1gaba207b56824356ab7f80254c5fd34819" prot="public" virt="non-virtual"><scope>MR::Histogram</scope><name>Histogram</name></member>
+      <member refid="group__GeneralGroup_1ga9987d6f205ec5eb085631e1d45e333b7" prot="public" virt="non-virtual"><scope>MR::Histogram</scope><name>Histogram</name></member>
+      <member refid="group__GeneralGroup_1ga249621b2451b634318652fbf88970b20" prot="private" virt="non-virtual"><scope>MR::Histogram</scope><name>max_</name></member>
+      <member refid="group__GeneralGroup_1ga9751323300b9e28451f7f9fa6adf098d" prot="private" virt="non-virtual"><scope>MR::Histogram</scope><name>min_</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

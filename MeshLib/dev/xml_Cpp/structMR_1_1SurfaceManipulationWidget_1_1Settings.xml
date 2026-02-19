@@ -4,132 +4,28 @@
     <compoundname>MR::SurfaceManipulationWidget::Settings</compoundname>
     <includes refid="MRSurfaceManipulationWidget_8h" local="no">MRSurfaceManipulationWidget.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1SurfaceManipulationWidget_1_1Settings_1a112aadc006f7ece0404c1cbe603783cd" prot="public" static="no" mutable="no">
-        <type><ref refid="classMR_1_1SurfaceManipulationWidget_1aaf2bf24fbfd2017b8037ed9cab3df93c" kindref="member">WorkMode</ref></type>
-        <definition>WorkMode MR::SurfaceManipulationWidget::Settings::workMode</definition>
-        <argsstring></argsstring>
-        <name>workMode</name>
-        <qualifiedname>MR::SurfaceManipulationWidget::Settings::workMode</qualifiedname>
-        <initializer>= <ref refid="classMR_1_1SurfaceManipulationWidget_1aaf2bf24fbfd2017b8037ed9cab3df93caec211f7c20af43e742bf2570c3cb84f9" kindref="member">WorkMode::Add</ref></initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="48" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="48" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1SurfaceManipulationWidget_1_1Settings_1a39181874053a773d7db01166de8a0c7b" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::SurfaceManipulationWidget::Settings::radius</definition>
-        <argsstring></argsstring>
-        <name>radius</name>
-        <qualifiedname>MR::SurfaceManipulationWidget::Settings::radius</qualifiedname>
-        <initializer>= 1.f</initializer>
-        <briefdescription>
-<para>radius of editing region </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="49" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="49" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1SurfaceManipulationWidget_1_1Settings_1a2d31568cac0bf19969e4cc51dc854a14" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::SurfaceManipulationWidget::Settings::relaxForce</definition>
-        <argsstring></argsstring>
-        <name>relaxForce</name>
-        <qualifiedname>MR::SurfaceManipulationWidget::Settings::relaxForce</qualifiedname>
-        <initializer>= 0.2f</initializer>
-        <briefdescription>
-<para>speed of relaxing, typical values (0 - 0.5] </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="50" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="50" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1SurfaceManipulationWidget_1_1Settings_1ab14405334e68a28589b518f7764d2176" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::SurfaceManipulationWidget::Settings::editForce</definition>
-        <argsstring></argsstring>
-        <name>editForce</name>
-        <qualifiedname>MR::SurfaceManipulationWidget::Settings::editForce</qualifiedname>
-        <initializer>= 1.f</initializer>
-        <briefdescription>
-<para>the force of changing mesh </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="51" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="51" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1SurfaceManipulationWidget_1_1Settings_1ac91503b98cd4530afb0bafe21f09b924" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::SurfaceManipulationWidget::Settings::sharpness</definition>
-        <argsstring></argsstring>
-        <name>sharpness</name>
-        <qualifiedname>MR::SurfaceManipulationWidget::Settings::sharpness</qualifiedname>
-        <initializer>= 50.f</initializer>
-        <briefdescription>
-<para>effect of force on points far from center editing area. [0 - 100] </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="52" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="52" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1SurfaceManipulationWidget_1_1Settings_1ab3d9e28df35121c177e6e2eead86a43a" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::SurfaceManipulationWidget::Settings::relaxForceAfterEdit</definition>
-        <argsstring></argsstring>
-        <name>relaxForceAfterEdit</name>
-        <qualifiedname>MR::SurfaceManipulationWidget::Settings::relaxForceAfterEdit</qualifiedname>
-        <initializer>= 0.25f</initializer>
-        <briefdescription>
-<para>force of relaxing modified area after editing (add / remove) is complete. [0 - 0.5], 0 - not relax </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="53" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="53" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1SurfaceManipulationWidget_1_1Settings_1a2bf410c025634089f22b3341825cd20b" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1a5ac9f08cd2ef48394fa1c77a8ebdd6c8" kindref="member">EdgeWeights</ref></type>
-        <definition>EdgeWeights MR::SurfaceManipulationWidget::Settings::edgeWeights</definition>
-        <argsstring></argsstring>
-        <name>edgeWeights</name>
-        <qualifiedname>MR::SurfaceManipulationWidget::Settings::edgeWeights</qualifiedname>
-        <initializer>= <ref refid="namespaceMR_1a5ac9f08cd2ef48394fa1c77a8ebdd6c8af2ccdc14df1f860d7b09661c47cc15c9" kindref="member">EdgeWeights::Cotan</ref></initializer>
-        <briefdescription>
-<para>edge weights for <ref refid="classMR_1_1Laplacian" kindref="compound">Laplacian</ref> and Patch </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="54" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="54" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga112aadc006f7ece0404c1cbe603783cd" kind="variable"><name>workMode</name></member>
+      <member refid="group__GeneralGroup_1ga39181874053a773d7db01166de8a0c7b" kind="variable"><name>radius</name></member>
+      <member refid="group__GeneralGroup_1ga2d31568cac0bf19969e4cc51dc854a14" kind="variable"><name>relaxForce</name></member>
+      <member refid="group__GeneralGroup_1gab14405334e68a28589b518f7764d2176" kind="variable"><name>editForce</name></member>
+      <member refid="group__GeneralGroup_1gac91503b98cd4530afb0bafe21f09b924" kind="variable"><name>sharpness</name></member>
+      <member refid="group__GeneralGroup_1gab3d9e28df35121c177e6e2eead86a43a" kind="variable"><name>relaxForceAfterEdit</name></member>
+      <member refid="group__GeneralGroup_1ga2bf410c025634089f22b3341825cd20b" kind="variable"><name>edgeWeights</name></member>
     </sectiondef>
     <briefdescription>
 <para><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> change settings. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="46" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="47" bodyend="55"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="49" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="50" bodyend="58"/>
     <listofallmembers>
-      <member refid="structMR_1_1SurfaceManipulationWidget_1_1Settings_1a2bf410c025634089f22b3341825cd20b" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget::Settings</scope><name>edgeWeights</name></member>
-      <member refid="structMR_1_1SurfaceManipulationWidget_1_1Settings_1ab14405334e68a28589b518f7764d2176" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget::Settings</scope><name>editForce</name></member>
-      <member refid="structMR_1_1SurfaceManipulationWidget_1_1Settings_1a39181874053a773d7db01166de8a0c7b" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget::Settings</scope><name>radius</name></member>
-      <member refid="structMR_1_1SurfaceManipulationWidget_1_1Settings_1a2d31568cac0bf19969e4cc51dc854a14" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget::Settings</scope><name>relaxForce</name></member>
-      <member refid="structMR_1_1SurfaceManipulationWidget_1_1Settings_1ab3d9e28df35121c177e6e2eead86a43a" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget::Settings</scope><name>relaxForceAfterEdit</name></member>
-      <member refid="structMR_1_1SurfaceManipulationWidget_1_1Settings_1ac91503b98cd4530afb0bafe21f09b924" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget::Settings</scope><name>sharpness</name></member>
-      <member refid="structMR_1_1SurfaceManipulationWidget_1_1Settings_1a112aadc006f7ece0404c1cbe603783cd" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget::Settings</scope><name>workMode</name></member>
+      <member refid="group__GeneralGroup_1ga2bf410c025634089f22b3341825cd20b" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget::Settings</scope><name>edgeWeights</name></member>
+      <member refid="group__GeneralGroup_1gab14405334e68a28589b518f7764d2176" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget::Settings</scope><name>editForce</name></member>
+      <member refid="group__GeneralGroup_1ga39181874053a773d7db01166de8a0c7b" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget::Settings</scope><name>radius</name></member>
+      <member refid="group__GeneralGroup_1ga2d31568cac0bf19969e4cc51dc854a14" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget::Settings</scope><name>relaxForce</name></member>
+      <member refid="group__GeneralGroup_1gab3d9e28df35121c177e6e2eead86a43a" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget::Settings</scope><name>relaxForceAfterEdit</name></member>
+      <member refid="group__GeneralGroup_1gac91503b98cd4530afb0bafe21f09b924" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget::Settings</scope><name>sharpness</name></member>
+      <member refid="group__GeneralGroup_1ga112aadc006f7ece0404c1cbe603783cd" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget::Settings</scope><name>workMode</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

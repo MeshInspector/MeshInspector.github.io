@@ -4,43 +4,17 @@
     <compoundname>MR::FlowAggregator::Flows</compoundname>
     <includes refid="MRAggregateFlow_8h" local="no">MRAggregateFlow.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1FlowAggregator_1_1Flows_1ace1c7b358cce696bd6d7409cc71984d1" prot="public" static="no" mutable="no">
-        <type>Polyline3</type>
-        <definition>Polyline3 MR::FlowAggregator::Flows::polyline</definition>
-        <argsstring></argsstring>
-        <name>polyline</name>
-        <qualifiedname>MR::FlowAggregator::Flows::polyline</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" line="51" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" bodystart="51" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1FlowAggregator_1_1Flows_1a1b00cb5cc3b4966d2b6b9b009a6ed153" prot="public" static="no" mutable="no">
-        <type>UndirectedEdgeScalars</type>
-        <definition>UndirectedEdgeScalars MR::FlowAggregator::Flows::flowPerEdge</definition>
-        <argsstring></argsstring>
-        <name>flowPerEdge</name>
-        <qualifiedname>MR::FlowAggregator::Flows::flowPerEdge</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" line="52" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" bodystart="52" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gace1c7b358cce696bd6d7409cc71984d1" kind="variable"><name>polyline</name></member>
+      <member refid="group__GeneralGroup_1ga1b00cb5cc3b4966d2b6b9b009a6ed153" kind="variable"><name>flowPerEdge</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" line="49" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" bodystart="50" bodyend="53"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" line="52" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" bodystart="53" bodyend="56"/>
     <listofallmembers>
-      <member refid="structMR_1_1FlowAggregator_1_1Flows_1a1b00cb5cc3b4966d2b6b9b009a6ed153" prot="public" virt="non-virtual"><scope>MR::FlowAggregator::Flows</scope><name>flowPerEdge</name></member>
-      <member refid="structMR_1_1FlowAggregator_1_1Flows_1ace1c7b358cce696bd6d7409cc71984d1" prot="public" virt="non-virtual"><scope>MR::FlowAggregator::Flows</scope><name>polyline</name></member>
+      <member refid="group__GeneralGroup_1ga1b00cb5cc3b4966d2b6b9b009a6ed153" prot="public" virt="non-virtual"><scope>MR::FlowAggregator::Flows</scope><name>flowPerEdge</name></member>
+      <member refid="group__GeneralGroup_1gace1c7b358cce696bd6d7409cc71984d1" prot="public" virt="non-virtual"><scope>MR::FlowAggregator::Flows</scope><name>polyline</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

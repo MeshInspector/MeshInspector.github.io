@@ -4,44 +4,17 @@
     <compoundname>MR::WeightedVertex</compoundname>
     <includes refid="MRMeshTriPoint_8h" local="no">MRMeshTriPoint.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1WeightedVertex_1a2f8953ff5552fb2b6756a483ef480790" prot="public" static="no" mutable="no">
-        <type>VertId</type>
-        <definition>VertId MR::WeightedVertex::v</definition>
-        <argsstring></argsstring>
-        <name>v</name>
-        <qualifiedname>MR::WeightedVertex::v</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" line="12" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1WeightedVertex_1a1208b58be6e320fd52f5e5a18d6c5760" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::WeightedVertex::weight</definition>
-        <argsstring></argsstring>
-        <name>weight</name>
-        <qualifiedname>MR::WeightedVertex::weight</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" line="13" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga2f8953ff5552fb2b6756a483ef480790" kind="variable"><name>v</name></member>
+      <member refid="group__GeneralGroup_1ga1208b58be6e320fd52f5e5a18d6c5760" kind="variable"><name>weight</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" line="10" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" bodystart="11" bodyend="14"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" bodystart="14" bodyend="17"/>
     <listofallmembers>
-      <member refid="structMR_1_1WeightedVertex_1a2f8953ff5552fb2b6756a483ef480790" prot="public" virt="non-virtual"><scope>MR::WeightedVertex</scope><name>v</name></member>
-      <member refid="structMR_1_1WeightedVertex_1a1208b58be6e320fd52f5e5a18d6c5760" prot="public" virt="non-virtual"><scope>MR::WeightedVertex</scope><name>weight</name></member>
+      <member refid="group__GeneralGroup_1ga2f8953ff5552fb2b6756a483ef480790" prot="public" virt="non-virtual"><scope>MR::WeightedVertex</scope><name>v</name></member>
+      <member refid="group__GeneralGroup_1ga1208b58be6e320fd52f5e5a18d6c5760" prot="public" virt="non-virtual"><scope>MR::WeightedVertex</scope><name>weight</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -10,129 +10,15 @@
       </param>
     </templateparamlist>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1ChangeValue_1af64336b69c67fa157f60699a6807cc72" prot="private" static="no" mutable="no">
-        <type>std::string</type>
-        <definition>std::string MR::ChangeValue&lt; T &gt;::name_</definition>
-        <argsstring></argsstring>
-        <name>name_</name>
-        <qualifiedname>MR::ChangeValue::name_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeValue.h" line="43" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeValue.h" bodystart="43" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ChangeValue_1a882c6ca4a5e68d65ab532e5ba0b02403" prot="private" static="no" mutable="no">
-        <type>T *</type>
-        <definition>T* MR::ChangeValue&lt; T &gt;::currentValue_</definition>
-        <argsstring></argsstring>
-        <name>currentValue_</name>
-        <qualifiedname>MR::ChangeValue::currentValue_</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeValue.h" line="44" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeValue.h" bodystart="44" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ChangeValue_1a30a6d37fa99c40e665dca69563219739" prot="private" static="no" mutable="no">
-        <type>T</type>
-        <definition>T MR::ChangeValue&lt; T &gt;::oldValue_</definition>
-        <argsstring></argsstring>
-        <name>oldValue_</name>
-        <qualifiedname>MR::ChangeValue::oldValue_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeValue.h" line="45" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeValue.h" bodystart="45" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaf64336b69c67fa157f60699a6807cc72" kind="variable"><name>name_</name></member>
+      <member refid="group__GeneralGroup_1ga882c6ca4a5e68d65ab532e5ba0b02403" kind="variable"><name>currentValue_</name></member>
+      <member refid="group__GeneralGroup_1ga30a6d37fa99c40e665dca69563219739" kind="variable"><name>oldValue_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1ChangeValue_1a3c7d78b1f71f742ade3d4d065d0a09c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::ChangeValue&lt; T &gt;::ChangeValue</definition>
-        <argsstring>(const std::string &amp;name, T *currentValue, T oldValue)</argsstring>
-        <name>ChangeValue</name>
-        <qualifiedname>MR::ChangeValue::ChangeValue</qualifiedname>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>name</declname>
-        </param>
-        <param>
-          <type>T *</type>
-          <declname>currentValue</declname>
-        </param>
-        <param>
-          <type>T</type>
-          <declname>oldValue</declname>
-        </param>
-        <briefdescription>
-<para>Constructed from original object&apos;s pointer and old value. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeValue.h" line="19" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeValue.h" bodystart="19" bodyend="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ChangeValue_1a1ebe31dbc55d650d0de83ae16bfe2e52" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>std::string</type>
-        <definition>virtual std::string MR::ChangeValue&lt; T &gt;::name</definition>
-        <argsstring>() const override</argsstring>
-        <name>name</name>
-        <qualifiedname>MR::ChangeValue::name</qualifiedname>
-        <reimplements refid="classMR_1_1HistoryAction_1a9daa0b79de161f676f6283e3804dc8ce">name</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeValue.h" line="25" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeValue.h" bodystart="25" bodyend="28"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ChangeValue_1a0cdf8d0a543743f5f83872b03ff33891" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MR::ChangeValue&lt; T &gt;::action</definition>
-        <argsstring>(HistoryAction::Type) override</argsstring>
-        <name>action</name>
-        <qualifiedname>MR::ChangeValue::action</qualifiedname>
-        <reimplements refid="classMR_1_1HistoryAction_1aecfce349736beaf17a23a6817c86f3bb">action</reimplements>
-        <param>
-          <type><ref refid="classMR_1_1HistoryAction_1ac16eb31dd26d35cfc18bac8a05983aa7" kindref="member">HistoryAction::Type</ref></type>
-          <declname>actionType</declname>
-        </param>
-        <briefdescription>
-<para>This function is called on history action (undo, redo, etc.) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeValue.h" line="30" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeValue.h" bodystart="30" bodyend="35"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ChangeValue_1a49b7b6012fb8adf78381f77cf6a1b9b1" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>size_t</type>
-        <definition>virtual size_t MR::ChangeValue&lt; T &gt;::heapBytes</definition>
-        <argsstring>() const override</argsstring>
-        <name>heapBytes</name>
-        <qualifiedname>MR::ChangeValue::heapBytes</qualifiedname>
-        <reimplements refid="classMR_1_1HistoryAction_1ad6df54da6a63ed83f15053507e8569de">heapBytes</reimplements>
-        <briefdescription>
-<para>returns the amount of memory this object occupies on heap </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeValue.h" line="37" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeValue.h" bodystart="37" bodyend="40"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga3c7d78b1f71f742ade3d4d065d0a09c1" kind="function"><name>ChangeValue</name></member>
+      <member refid="group__GeneralGroup_1ga1ebe31dbc55d650d0de83ae16bfe2e52" kind="function"><name>name</name></member>
+      <member refid="group__GeneralGroup_1ga0cdf8d0a543743f5f83872b03ff33891" kind="function"><name>action</name></member>
+      <member refid="group__GeneralGroup_1ga49b7b6012fb8adf78381f77cf6a1b9b1" kind="function"><name>heapBytes</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -163,17 +49,17 @@
         <link refid="classMR_1_1HistoryAction"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeValue.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeValue.h" bodystart="16" bodyend="46"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeValue.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeValue.h" bodystart="19" bodyend="49"/>
     <listofallmembers>
-      <member refid="classMR_1_1ChangeValue_1a0cdf8d0a543743f5f83872b03ff33891" prot="public" virt="virtual"><scope>MR::ChangeValue</scope><name>action</name></member>
-      <member refid="classMR_1_1ChangeValue_1a3c7d78b1f71f742ade3d4d065d0a09c1" prot="public" virt="non-virtual"><scope>MR::ChangeValue</scope><name>ChangeValue</name></member>
-      <member refid="classMR_1_1ChangeValue_1a882c6ca4a5e68d65ab532e5ba0b02403" prot="private" virt="non-virtual"><scope>MR::ChangeValue</scope><name>currentValue_</name></member>
-      <member refid="classMR_1_1ChangeValue_1a49b7b6012fb8adf78381f77cf6a1b9b1" prot="public" virt="virtual"><scope>MR::ChangeValue</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1ChangeValue_1a1ebe31dbc55d650d0de83ae16bfe2e52" prot="public" virt="virtual"><scope>MR::ChangeValue</scope><name>name</name></member>
-      <member refid="classMR_1_1ChangeValue_1af64336b69c67fa157f60699a6807cc72" prot="private" virt="non-virtual"><scope>MR::ChangeValue</scope><name>name_</name></member>
-      <member refid="classMR_1_1ChangeValue_1a30a6d37fa99c40e665dca69563219739" prot="private" virt="non-virtual"><scope>MR::ChangeValue</scope><name>oldValue_</name></member>
-      <member refid="classMR_1_1HistoryAction_1ac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::ChangeValue</scope><name>Type</name></member>
-      <member refid="classMR_1_1HistoryAction_1a97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::ChangeValue</scope><name>~HistoryAction</name></member>
+      <member refid="group__GeneralGroup_1ga0cdf8d0a543743f5f83872b03ff33891" prot="public" virt="virtual"><scope>MR::ChangeValue</scope><name>action</name></member>
+      <member refid="group__GeneralGroup_1ga3c7d78b1f71f742ade3d4d065d0a09c1" prot="public" virt="non-virtual"><scope>MR::ChangeValue</scope><name>ChangeValue</name></member>
+      <member refid="group__GeneralGroup_1ga882c6ca4a5e68d65ab532e5ba0b02403" prot="private" virt="non-virtual"><scope>MR::ChangeValue</scope><name>currentValue_</name></member>
+      <member refid="group__GeneralGroup_1ga49b7b6012fb8adf78381f77cf6a1b9b1" prot="public" virt="virtual"><scope>MR::ChangeValue</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1ga1ebe31dbc55d650d0de83ae16bfe2e52" prot="public" virt="virtual"><scope>MR::ChangeValue</scope><name>name</name></member>
+      <member refid="group__GeneralGroup_1gaf64336b69c67fa157f60699a6807cc72" prot="private" virt="non-virtual"><scope>MR::ChangeValue</scope><name>name_</name></member>
+      <member refid="group__GeneralGroup_1ga30a6d37fa99c40e665dca69563219739" prot="private" virt="non-virtual"><scope>MR::ChangeValue</scope><name>oldValue_</name></member>
+      <member refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::ChangeValue</scope><name>Type</name></member>
+      <member refid="group__GeneralGroup_1ga97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::ChangeValue</scope><name>~HistoryAction</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

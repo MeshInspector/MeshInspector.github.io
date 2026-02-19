@@ -54,7 +54,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="26" column="5"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMap_1a5ca222a772dcddb16e0ca704fdb91f4f" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <type>MRMESH_API</type>
         <definition>MRMESH_API MR::DistanceMap::DistanceMap</definition>
         <argsstring>(size_t resX, size_t resY)</argsstring>
         <name>DistanceMap</name>
@@ -77,7 +77,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="30" column="17"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMap_1aa0529b95564bf62adb72c9ecda53188f" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <type>MRMESH_API</type>
         <definition>MRMESH_API MR::DistanceMap::DistanceMap</definition>
         <argsstring>(const MR::Matrix&lt; float &gt; &amp;m)</argsstring>
         <name>DistanceMap</name>
@@ -96,7 +96,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="33" column="17"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMap_1a1eaf3f29a82b7eb2528f578d2f9e8f34" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <type>MRMESH_API bool</type>
         <definition>MRMESH_API bool MR::DistanceMap::isValid</definition>
         <argsstring>(size_t x, size_t y) const</argsstring>
         <name>isValid</name>
@@ -119,7 +119,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="39" column="22"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMap_1af1b7ab47803d2d2e93f40336ba1e06f7" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <type>MRMESH_API bool</type>
         <definition>MRMESH_API bool MR::DistanceMap::isValid</definition>
         <argsstring>(size_t i) const</argsstring>
         <name>isValid</name>
@@ -180,7 +180,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="46" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" bodystart="46" bodyend="46"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMap_1a101a1b0a998a4c98f3c5fcbae8d9c593" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::optional&lt; float &gt;</type>
+        <type>MRMESH_API std::optional&lt; float &gt;</type>
         <definition>MRMESH_API std::optional&lt; float &gt; MR::DistanceMap::get</definition>
         <argsstring>(size_t x, size_t y) const</argsstring>
         <name>get</name>
@@ -203,7 +203,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="49" column="31"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMap_1a8a2738cef5f113ff90fa89f1743a0e5c" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::optional&lt; float &gt;</type>
+        <type>MRMESH_API std::optional&lt; float &gt;</type>
         <definition>MRMESH_API std::optional&lt; float &gt; MR::DistanceMap::get</definition>
         <argsstring>(size_t i) const</argsstring>
         <name>get</name>
@@ -331,7 +331,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="72" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" bodystart="72" bodyend="72"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMap_1a98776cc9ffe74bd314621c772dc0c719" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::optional&lt; float &gt;</type>
+        <type>MRMESH_API std::optional&lt; float &gt;</type>
         <definition>MRMESH_API std::optional&lt; float &gt; MR::DistanceMap::getInterpolated</definition>
         <argsstring>(float x, float y) const</argsstring>
         <name>getInterpolated</name>
@@ -365,7 +365,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="83" column="31"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMap_1a88bf257eb0b870e90c3acdccb814fc9d" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::optional&lt; Vector3f &gt;</type>
+        <type>MRMESH_API std::optional&lt; Vector3f &gt;</type>
         <definition>MRMESH_API std::optional&lt; Vector3f &gt; MR::DistanceMap::unproject</definition>
         <argsstring>(size_t x, size_t y, const AffineXf3f &amp;toWorld) const</argsstring>
         <name>unproject</name>
@@ -392,7 +392,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="88" column="31"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMap_1aea6c5d7815d9a1aa998913b7d373347f" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::optional&lt; Vector3f &gt;</type>
+        <type>MRMESH_API std::optional&lt; Vector3f &gt;</type>
         <definition>MRMESH_API std::optional&lt; Vector3f &gt; MR::DistanceMap::unprojectInterpolated</definition>
         <argsstring>(float x, float y, const AffineXf3f &amp;toWorld) const</argsstring>
         <name>unprojectInterpolated</name>
@@ -430,7 +430,7 @@ getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <ulink url="https:///">https://
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="98" column="31"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMap_1a3a5f4cfc04cd3b23b64977ad5facd6f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::DistanceMap::negate</definition>
         <argsstring>()</argsstring>
         <name>negate</name>
@@ -445,7 +445,7 @@ getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <ulink url="https:///">https://
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="101" column="21"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMap_1a79e49582180247f71a986aa45410f8d7" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref></type>
+        <type>MRMESH_API <ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref></type>
         <definition>MRMESH_API DistanceMap MR::DistanceMap::max</definition>
         <argsstring>(const DistanceMap &amp;rhs) const</argsstring>
         <name>max</name>
@@ -464,7 +464,7 @@ getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <ulink url="https:///">https://
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="105" column="29"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMap_1a53691beaee2c175c2cf0440a27911d15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> const <ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref> &amp;</type>
+        <type>MRMESH_API const <ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref> &amp;</type>
         <definition>MRMESH_API const DistanceMap &amp; MR::DistanceMap::mergeMax</definition>
         <argsstring>(const DistanceMap &amp;rhs)</argsstring>
         <name>mergeMax</name>
@@ -483,7 +483,7 @@ getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <ulink url="https:///">https://
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="107" column="34"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMap_1a4daec07560aee52f20284d13d4c65844" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref></type>
+        <type>MRMESH_API <ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref></type>
         <definition>MRMESH_API DistanceMap MR::DistanceMap::min</definition>
         <argsstring>(const DistanceMap &amp;rhs) const</argsstring>
         <name>min</name>
@@ -502,7 +502,7 @@ getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <ulink url="https:///">https://
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="109" column="29"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMap_1a92f28e4feca4c5df0e99697811859787" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> const <ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref> &amp;</type>
+        <type>MRMESH_API const <ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref> &amp;</type>
         <definition>MRMESH_API const DistanceMap &amp; MR::DistanceMap::mergeMin</definition>
         <argsstring>(const DistanceMap &amp;rhs)</argsstring>
         <name>mergeMin</name>
@@ -521,7 +521,7 @@ getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <ulink url="https:///">https://
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="111" column="34"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMap_1a05298e5df32c52283b4fbb3ab608f377" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref></type>
+        <type>MRMESH_API <ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref></type>
         <definition>MRMESH_API DistanceMap MR::DistanceMap::operator-</definition>
         <argsstring>(const DistanceMap &amp;rhs) const</argsstring>
         <name>operator-</name>
@@ -540,7 +540,7 @@ getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <ulink url="https:///">https://
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="113" column="29"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMap_1a17100c5280ade4c9d1b1008d85178ecc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> const <ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref> &amp;</type>
+        <type>MRMESH_API const <ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref> &amp;</type>
         <definition>MRMESH_API const DistanceMap &amp; MR::DistanceMap::operator-=</definition>
         <argsstring>(const DistanceMap &amp;rhs)</argsstring>
         <name>operator-=</name>
@@ -559,7 +559,7 @@ getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <ulink url="https:///">https://
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="115" column="34"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMap_1ad6f348bd639abf5491d2d203623c8ec5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::DistanceMap::set</definition>
         <argsstring>(size_t x, size_t y, float val)</argsstring>
         <name>set</name>
@@ -586,7 +586,7 @@ getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <ulink url="https:///">https://
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="118" column="21"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMap_1a00a3638fd3d285e192befb047bf95db2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::DistanceMap::set</definition>
         <argsstring>(size_t i, float val)</argsstring>
         <name>set</name>
@@ -609,7 +609,7 @@ getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <ulink url="https:///">https://
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="120" column="21"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMap_1a55389356dd0df5de1c041e73baa076f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::DistanceMap::set</definition>
         <argsstring>(std::vector&lt; float &gt; data)</argsstring>
         <name>set</name>
@@ -628,7 +628,7 @@ getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <ulink url="https:///">https://
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="122" column="21"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMap_1accb80725a2b8dca649a538bcf090f98f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::DistanceMap::unset</definition>
         <argsstring>(size_t x, size_t y)</argsstring>
         <name>unset</name>
@@ -651,7 +651,7 @@ getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <ulink url="https:///">https://
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="124" column="21"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMap_1ae9daffb9c88428b1354e37aa4c55fb9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::DistanceMap::unset</definition>
         <argsstring>(size_t i)</argsstring>
         <name>unset</name>
@@ -670,7 +670,7 @@ getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <ulink url="https:///">https://
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="126" column="21"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMap_1ad5b12268ebb7ac7c56982566845c0e08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::DistanceMap::invalidateAll</definition>
         <argsstring>()</argsstring>
         <name>invalidateAll</name>
@@ -685,7 +685,7 @@ getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <ulink url="https:///">https://
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="129" column="21"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMap_1af17d14221a21a70499a859487ec1c66f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::DistanceMap::clear</definition>
         <argsstring>()</argsstring>
         <name>clear</name>
@@ -700,7 +700,7 @@ getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <ulink url="https:///">https://
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="131" column="21"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMap_1a5fb9437de36ca41f9202cdbb15d3db9a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref></type>
+        <type>MRMESH_API <ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref></type>
         <definition>MRMESH_API DistanceMap MR::DistanceMap::getDerivativeMap</definition>
         <argsstring>() const</argsstring>
         <name>getDerivativeMap</name>
@@ -715,7 +715,7 @@ getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <ulink url="https:///">https://
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="134" column="29"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMap_1aaaf57f68fae4b550eaab60acb61871b3" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::pair&lt; <ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref>, <ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref> &gt;</type>
+        <type>MRMESH_API std::pair&lt; <ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref>, <ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref> &gt;</type>
         <definition>MRMESH_API std::pair&lt; DistanceMap, DistanceMap &gt; MR::DistanceMap::getXYDerivativeMaps</definition>
         <argsstring>() const</argsstring>
         <name>getXYDerivativeMaps</name>
@@ -730,7 +730,7 @@ getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <ulink url="https:///">https://
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="136" column="27"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMap_1a8f3d1d2032d248a5d9caedd59ae785e8" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::vector&lt; std::pair&lt; size_t, size_t &gt; &gt;</type>
+        <type>MRMESH_API std::vector&lt; std::pair&lt; size_t, size_t &gt; &gt;</type>
         <definition>MRMESH_API std::vector&lt; std::pair&lt; size_t, size_t &gt; &gt; MR::DistanceMap::getLocalMaximums</definition>
         <argsstring>() const</argsstring>
         <name>getLocalMaximums</name>
@@ -790,7 +790,7 @@ getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <ulink url="https:///">https://
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="153" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" bodystart="153" bodyend="156"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMap_1a7f84b034f7b522fa041c24de79c0fec3" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::pair&lt; float, float &gt;</type>
+        <type>MRMESH_API std::pair&lt; float, float &gt;</type>
         <definition>MRMESH_API std::pair&lt; float, float &gt; MR::DistanceMap::getMinMaxValues</definition>
         <argsstring>() const</argsstring>
         <name>getMinMaxValues</name>
@@ -805,7 +805,7 @@ getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <ulink url="https:///">https://
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="160" column="27"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMap_1ab2d9f40322b479e2ab1ff5a49627027b" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::pair&lt; size_t, size_t &gt;</type>
+        <type>MRMESH_API std::pair&lt; size_t, size_t &gt;</type>
         <definition>MRMESH_API std::pair&lt; size_t, size_t &gt; MR::DistanceMap::getMinIndex</definition>
         <argsstring>() const</argsstring>
         <name>getMinIndex</name>
@@ -820,7 +820,7 @@ getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <ulink url="https:///">https://
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="163" column="27"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMap_1a491d7051e8163ff54790e25895c36105" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::pair&lt; size_t, size_t &gt;</type>
+        <type>MRMESH_API std::pair&lt; size_t, size_t &gt;</type>
         <definition>MRMESH_API std::pair&lt; size_t, size_t &gt; MR::DistanceMap::getMaxIndex</definition>
         <argsstring>() const</argsstring>
         <name>getMaxIndex</name>

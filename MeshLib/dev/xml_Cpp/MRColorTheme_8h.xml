@@ -11,40 +11,46 @@
     <includes local="no">array</includes>
     <includedby refid="MRAddCustomTheme_8h" local="yes">MRAddCustomTheme.h</includedby>
     <incdepgraph>
-      <node id="6">
-        <label>MRMesh/MRCanonicalTypedefs.h</label>
-        <link refid="MRCanonicalTypedefs_8h"/>
-        <childnode refid="7" relation="include">
-        </childnode>
-      </node>
       <node id="3">
         <label>MRMesh/MRColor.h</label>
         <link refid="MRColor_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="25" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
       </node>
-      <node id="19">
+      <node id="10">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
-      <node id="7">
-        <label>MRMesh/MRMacros.h</label>
+      <node id="6">
+        <label>MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
-      <node id="4">
-        <label>MRMeshFwd.h</label>
-        <link refid="MRMeshFwd_8h"/>
-        <childnode refid="5" relation="include">
+      <node id="18">
+        <label>MRMesh/MRSignal.h</label>
+        <link refid="MRSignal_8h"/>
+        <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
+      </node>
+      <node id="7">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
         <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
@@ -56,33 +62,35 @@
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
-      </node>
-      <node id="26">
-        <label>MRMesh/MRSignal.h</label>
-        <link refid="MRSignal_8h"/>
-        <childnode refid="27" relation="include">
-        </childnode>
-      </node>
-      <node id="16">
-        <label>MRMesh/MRUnsigned.h</label>
-        <link refid="MRUnsigned_8h"/>
-        <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-      </node>
-      <node id="15">
-        <label>MRVector3.h</label>
-        <link refid="MRVector3_8h"/>
-        <childnode refid="7" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
+      </node>
+      <node id="17">
+        <label>MRVector4.h</label>
+        <link refid="MRVector4_8h"/>
+        <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRColorTheme.h</label>
+        <link refid="MRColorTheme_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
         </childnode>
         <childnode refid="20" relation="include">
         </childnode>
@@ -92,99 +100,50 @@
         </childnode>
         <childnode refid="23" relation="include">
         </childnode>
-        <childnode refid="24" relation="include">
-        </childnode>
       </node>
-      <node id="25">
-        <label>MRVector4.h</label>
-        <link refid="MRVector4_8h"/>
-        <childnode refid="21" relation="include">
-        </childnode>
-        <childnode refid="23" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
+      <node id="4">
+        <label>MRMeshFwd.h</label>
       </node>
-      <node id="5">
-        <label>config.h</label>
-        <link refid="MRMesh_2config_8h"/>
-      </node>
-      <node id="1">
-        <label>MRColorTheme.h</label>
-        <link refid="MRColorTheme_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="26" relation="include">
-        </childnode>
-        <childnode refid="28" relation="include">
-        </childnode>
-        <childnode refid="29" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-      </node>
-      <node id="8">
+      <node id="11">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="20">
+      <node id="12">
         <label>algorithm</label>
       </node>
-      <node id="9">
+      <node id="23">
         <label>array</label>
       </node>
-      <node id="27">
+      <node id="19">
         <label>boost/signals2/signal.hpp</label>
       </node>
-      <node id="14">
-        <label>cassert</label>
-      </node>
-      <node id="21">
+      <node id="13">
         <label>cmath</label>
       </node>
-      <node id="17">
+      <node id="8">
         <label>cstddef</label>
       </node>
-      <node id="22">
+      <node id="14">
         <label>cstring</label>
       </node>
       <node id="2">
         <label>exports.h</label>
       </node>
-      <node id="29">
+      <node id="21">
         <label>filesystem</label>
       </node>
-      <node id="13">
-        <label>functional</label>
-      </node>
-      <node id="23">
+      <node id="15">
         <label>iosfwd</label>
       </node>
-      <node id="28">
+      <node id="20">
         <label>json/forwards.h</label>
       </node>
-      <node id="12">
-        <label>parallel_hashmap/phmap_fwd_decl.h</label>
-      </node>
-      <node id="11">
-        <label>string</label>
-      </node>
-      <node id="18">
+      <node id="9">
         <label>type_traits</label>
       </node>
-      <node id="24">
+      <node id="16">
         <label>utility</label>
       </node>
-      <node id="10">
+      <node id="22">
         <label>vector</label>
       </node>
     </incdepgraph>
@@ -218,170 +177,171 @@
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="11"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="classMR_1_1ColorTheme" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ColorTheme" kindref="compound">ColorTheme</ref></highlight></codeline>
-<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="18" refid="classMR_1_1ColorTheme_1a15699e42dc7a6e8fc8c45c6adbe410cb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ColorTheme" kindref="compound">ColorTheme</ref>&amp;<sp/><ref refid="classMR_1_1ColorTheme_1a15699e42dc7a6e8fc8c45c6adbe410cb" kindref="member">instance</ref>();</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="classMR_1_1ColorTheme_1abbecc6afa53db91ada45757b845b5514" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ColorTheme_1abbecc6afa53db91ada45757b845b5514" kindref="member">Preset</ref></highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1abbecc6afa53db91ada45757b845b5514aa18366b217ebf811ad1886e4f4f865b2" kindref="member">Dark</ref>,</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1abbecc6afa53db91ada45757b845b5514a7a1920d61156abc05a60135aefe8bc67" kindref="member">Default</ref><sp/>=<sp/><ref refid="classMR_1_1ColorTheme_1abbecc6afa53db91ada45757b845b5514aa18366b217ebf811ad1886e4f4f865b2" kindref="member">Dark</ref>,</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1abbecc6afa53db91ada45757b845b5514a9914a0ce04a7b7b6a8e39bec55064b82" kindref="member">Light</ref>,</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1abbecc6afa53db91ada45757b845b5514ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Count</ref></highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="27" refid="classMR_1_1ColorTheme_1a7256014620791ee160d6f0dfc56dde4f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ColorTheme_1abbecc6afa53db91ada45757b845b5514" kindref="member">Preset</ref><sp/><ref refid="classMR_1_1ColorTheme_1a7256014620791ee160d6f0dfc56dde4f" kindref="member">getPreset</ref>();</highlight></codeline>
-<codeline lineno="28" refid="classMR_1_1ColorTheme_1a20dfec58a706676b5c0efb946051c854" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="classMR_1_1ColorTheme_1a20dfec58a706676b5c0efb946051c854" kindref="member">getPresetName</ref>(<sp/><ref refid="classMR_1_1ColorTheme_1abbecc6afa53db91ada45757b845b5514" kindref="member">Preset</ref><sp/>type<sp/>);</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31" refid="classMR_1_1ColorTheme_1ad14d75ef685e439c80487ba1d4c41eca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ColorTheme_1ad14d75ef685e439c80487ba1d4c41eca" kindref="member">Type</ref></highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1abbecc6afa53db91ada45757b845b5514a7a1920d61156abc05a60135aefe8bc67" kindref="member">Default</ref>,</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1ad14d75ef685e439c80487ba1d4c41ecaa8f9bfe9d1345237cb3b2b205864da075" kindref="member">User</ref></highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37" refid="classMR_1_1ColorTheme_1adf6e7e1ab1712a295b5b94453300fde5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ColorTheme_1ad14d75ef685e439c80487ba1d4c41eca" kindref="member">Type</ref><sp/><ref refid="classMR_1_1ColorTheme_1adf6e7e1ab1712a295b5b94453300fde5" kindref="member">getThemeType</ref>();</highlight></codeline>
-<codeline lineno="38" refid="classMR_1_1ColorTheme_1afa765bafc3ea475fe65fc3383607cd63" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/><ref refid="classMR_1_1ColorTheme_1afa765bafc3ea475fe65fc3383607cd63" kindref="member">getThemeName</ref>();</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="classMR_1_1ColorTheme" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1ColorTheme" kindref="compound">ColorTheme</ref></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="21" refid="group__GeneralGroup_1ga15699e42dc7a6e8fc8c45c6adbe410cb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ColorTheme" kindref="compound">ColorTheme</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga15699e42dc7a6e8fc8c45c6adbe410cb" kindref="member">instance</ref>();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="group__GeneralGroup_1gabbecc6afa53db91ada45757b845b5514" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gabbecc6afa53db91ada45757b845b5514" kindref="member">Preset</ref></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggabbecc6afa53db91ada45757b845b5514aa18366b217ebf811ad1886e4f4f865b2" kindref="member">Dark</ref>,</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggabbecc6afa53db91ada45757b845b5514a7a1920d61156abc05a60135aefe8bc67" kindref="member">Default</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1ggabbecc6afa53db91ada45757b845b5514aa18366b217ebf811ad1886e4f4f865b2" kindref="member">Dark</ref>,</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggabbecc6afa53db91ada45757b845b5514a9914a0ce04a7b7b6a8e39bec55064b82" kindref="member">Light</ref>,</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggabbecc6afa53db91ada45757b845b5514ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Count</ref></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="30" refid="group__GeneralGroup_1ga7256014620791ee160d6f0dfc56dde4f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gabbecc6afa53db91ada45757b845b5514" kindref="member">Preset</ref><sp/><ref refid="group__GeneralGroup_1ga7256014620791ee160d6f0dfc56dde4f" kindref="member">getPreset</ref>();</highlight></codeline>
+<codeline lineno="31" refid="group__GeneralGroup_1ga20dfec58a706676b5c0efb946051c854" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="group__GeneralGroup_1ga20dfec58a706676b5c0efb946051c854" kindref="member">getPresetName</ref>(<sp/><ref refid="group__GeneralGroup_1gabbecc6afa53db91ada45757b845b5514" kindref="member">Preset</ref><sp/>type<sp/>);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="group__GeneralGroup_1gad14d75ef685e439c80487ba1d4c41eca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad14d75ef685e439c80487ba1d4c41eca" kindref="member">Type</ref></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggabbecc6afa53db91ada45757b845b5514a7a1920d61156abc05a60135aefe8bc67" kindref="member">Default</ref>,</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggad14d75ef685e439c80487ba1d4c41ecaa8f9bfe9d1345237cb3b2b205864da075" kindref="member">User</ref></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41" refid="classMR_1_1ColorTheme_1a6c591711ec8a5d41cd5e3c037a795c24" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ColorTheme_1a6c591711ec8a5d41cd5e3c037a795c24" kindref="member">setupByTypeName</ref>(<sp/><ref refid="classMR_1_1ColorTheme_1ad14d75ef685e439c80487ba1d4c41eca" kindref="member">Type</ref><sp/>type,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>name<sp/>);</highlight></codeline>
-<codeline lineno="42" refid="classMR_1_1ColorTheme_1a8be757d1ce64f10a822aea16eadb333b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ColorTheme_1a8be757d1ce64f10a822aea16eadb333b" kindref="member">setupDefaultDark</ref>();</highlight></codeline>
-<codeline lineno="43" refid="classMR_1_1ColorTheme_1a801d15e2c46b79b721809d41123aeda5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ColorTheme_1a801d15e2c46b79b721809d41123aeda5" kindref="member">setupDefaultLight</ref>();</highlight></codeline>
-<codeline lineno="44" refid="classMR_1_1ColorTheme_1a0e971a3744071e72a002685d2666487d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ColorTheme_1a0e971a3744071e72a002685d2666487d" kindref="member">setupUserTheme</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>themeName<sp/>);</highlight></codeline>
-<codeline lineno="46" refid="classMR_1_1ColorTheme_1a31bee87bf2d160eb687a1d047770e390" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ColorTheme_1a31bee87bf2d160eb687a1d047770e390" kindref="member">setupFromFile</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>path,<sp/><ref refid="classMR_1_1ColorTheme_1ad14d75ef685e439c80487ba1d4c41eca" kindref="member">Type</ref><sp/>type<sp/>=<sp/><ref refid="classMR_1_1ColorTheme_1ad14d75ef685e439c80487ba1d4c41ecaa8f9bfe9d1345237cb3b2b205864da075" kindref="member">Type::User</ref><sp/>);</highlight></codeline>
-<codeline lineno="48" refid="classMR_1_1ColorTheme_1a19709b0e383ad59e4f3913cfd8035d09" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ColorTheme_1a19709b0e383ad59e4f3913cfd8035d09" kindref="member">setupFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>value,<sp/><ref refid="classMR_1_1ColorTheme_1ad14d75ef685e439c80487ba1d4c41eca" kindref="member">Type</ref><sp/>type<sp/>=<sp/><ref refid="classMR_1_1ColorTheme_1ad14d75ef685e439c80487ba1d4c41ecaa8f9bfe9d1345237cb3b2b205864da075" kindref="member">Type::User</ref><sp/>);</highlight></codeline>
-<codeline lineno="49"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53" refid="classMR_1_1ColorTheme_1aae306524f7db4b80fc4b4c2a39ccda41" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ColorTheme_1aae306524f7db4b80fc4b4c2a39ccda41" kindref="member">serializeCurrentToFile</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>path<sp/>);</highlight></codeline>
-<codeline lineno="57" refid="classMR_1_1ColorTheme_1af097c5985c3dcb124375d6767d34f764" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ColorTheme_1af097c5985c3dcb124375d6767d34f764" kindref="member">serializeCurrentToJson</ref>(<sp/>Json::Value&amp;<sp/>root<sp/>);</highlight></codeline>
-<codeline lineno="58"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60" refid="classMR_1_1ColorTheme_1a1506f82ec73be1eb299f6c390dce1fd0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ColorTheme_1a1506f82ec73be1eb299f6c390dce1fd0" kindref="member">isInitialized</ref>();</highlight></codeline>
+<codeline lineno="40" refid="group__GeneralGroup_1gadf6e7e1ab1712a295b5b94453300fde5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad14d75ef685e439c80487ba1d4c41eca" kindref="member">Type</ref><sp/><ref refid="group__GeneralGroup_1gadf6e7e1ab1712a295b5b94453300fde5" kindref="member">getThemeType</ref>();</highlight></codeline>
+<codeline lineno="41" refid="group__GeneralGroup_1gafa765bafc3ea475fe65fc3383607cd63" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/><ref refid="group__GeneralGroup_1gafa765bafc3ea475fe65fc3383607cd63" kindref="member">getThemeName</ref>();</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="group__GeneralGroup_1ga6c591711ec8a5d41cd5e3c037a795c24" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6c591711ec8a5d41cd5e3c037a795c24" kindref="member">setupByTypeName</ref>(<sp/><ref refid="group__GeneralGroup_1gad14d75ef685e439c80487ba1d4c41eca" kindref="member">Type</ref><sp/>type,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>name<sp/>);</highlight></codeline>
+<codeline lineno="45" refid="group__GeneralGroup_1ga8be757d1ce64f10a822aea16eadb333b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8be757d1ce64f10a822aea16eadb333b" kindref="member">setupDefaultDark</ref>();</highlight></codeline>
+<codeline lineno="46" refid="group__GeneralGroup_1ga801d15e2c46b79b721809d41123aeda5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga801d15e2c46b79b721809d41123aeda5" kindref="member">setupDefaultLight</ref>();</highlight></codeline>
+<codeline lineno="47" refid="group__GeneralGroup_1ga0e971a3744071e72a002685d2666487d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0e971a3744071e72a002685d2666487d" kindref="member">setupUserTheme</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>themeName<sp/>);</highlight></codeline>
+<codeline lineno="49" refid="group__GeneralGroup_1ga31bee87bf2d160eb687a1d047770e390" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga31bee87bf2d160eb687a1d047770e390" kindref="member">setupFromFile</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>path,<sp/><ref refid="group__GeneralGroup_1gad14d75ef685e439c80487ba1d4c41eca" kindref="member">Type</ref><sp/>type<sp/>=<sp/><ref refid="group__GeneralGroup_1ggad14d75ef685e439c80487ba1d4c41ecaa8f9bfe9d1345237cb3b2b205864da075" kindref="member">Type::User</ref><sp/>);</highlight></codeline>
+<codeline lineno="51" refid="group__GeneralGroup_1ga19709b0e383ad59e4f3913cfd8035d09" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga19709b0e383ad59e4f3913cfd8035d09" kindref="member">setupFromJson</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Json::Value&amp;<sp/>value,<sp/><ref refid="group__GeneralGroup_1gad14d75ef685e439c80487ba1d4c41eca" kindref="member">Type</ref><sp/>type<sp/>=<sp/><ref refid="group__GeneralGroup_1ggad14d75ef685e439c80487ba1d4c41ecaa8f9bfe9d1345237cb3b2b205864da075" kindref="member">Type::User</ref><sp/>);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="group__GeneralGroup_1gaae306524f7db4b80fc4b4c2a39ccda41" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaae306524f7db4b80fc4b4c2a39ccda41" kindref="member">serializeCurrentToFile</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>path<sp/>);</highlight></codeline>
+<codeline lineno="60" refid="group__GeneralGroup_1gaf097c5985c3dcb124375d6767d34f764" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf097c5985c3dcb124375d6767d34f764" kindref="member">serializeCurrentToJson</ref>(<sp/>Json::Value&amp;<sp/>root<sp/>);</highlight></codeline>
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
-<codeline lineno="63" refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0" kindref="member">RibbonColorsType</ref></highlight></codeline>
-<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0aa9ded1e5ce5d75814730bb4caaf49419" kindref="member">Background</ref>,</highlight></codeline>
-<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a5c6096c5bd502c82f62242293e9a0ecd" kindref="member">BackgroundSecStyle</ref>,</highlight></codeline>
-<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a2dfef339aeaa577faf0d49879bc040d2" kindref="member">HeaderBackground</ref>,</highlight></codeline>
-<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a7af2aa44b44cb2c9ed912410b4f3fa4d" kindref="member">HeaderSeparator</ref>,</highlight></codeline>
-<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a2d838f579eb9b302faa00ef4fbc90172" kindref="member">TopPanelBackground</ref>,</highlight></codeline>
-<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0ab73410dff2c1861ebb8980d455bc29ac" kindref="member">TopPanelSearchBackground</ref>,</highlight></codeline>
-<codeline lineno="71"><highlight class="normal"></highlight></codeline>
-<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a085d26fc5e16986ab4f0f365f2f49a19" kindref="member">QuickAccessBackground</ref>,</highlight></codeline>
-<codeline lineno="73"><highlight class="normal"></highlight></codeline>
-<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0ae313502ef38a56454f3e9de57f384476" kindref="member">Borders</ref>,</highlight></codeline>
-<codeline lineno="75"><highlight class="normal"></highlight></codeline>
-<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0ab9ec620a9b6e516079ed9090700ef961" kindref="member">TabHovered</ref>,</highlight></codeline>
-<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a34b6901b18dad551befcf60407ff1509" kindref="member">TabClicked</ref>,</highlight></codeline>
-<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a4bee1ab256dfd5208c42c149da53f86a" kindref="member">TabActive</ref>,</highlight></codeline>
-<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0aa0559031ef8e5498f84e5074f6669ee4" kindref="member">TabActiveHovered</ref>,</highlight></codeline>
-<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0ad23d5f7e2baee8237e25498afa28433d" kindref="member">TabActiveClicked</ref>,</highlight></codeline>
-<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a59ce3a1823add77157d34ba4dc516796" kindref="member">TabText</ref>,</highlight></codeline>
-<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a766f7faeb0a4d7a594238c300876813a" kindref="member">TabActiveText</ref>,</highlight></codeline>
-<codeline lineno="83"><highlight class="normal"></highlight></codeline>
-<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0add6f466efeaf5a96dfc33f6ef0df67db" kindref="member">DialogTab</ref>,</highlight></codeline>
-<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a59ecebaad36f9417c81fdd2b8cfa1785" kindref="member">DialogTabHovered</ref>,</highlight></codeline>
-<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0ac0ee22e71fb95f1d07ed490d0ca63cd6" kindref="member">DialogTabActive</ref>,</highlight></codeline>
-<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0ad644db49bc959d3cabf5c3561456212e" kindref="member">DialogTabActiveHovered</ref>,</highlight></codeline>
-<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a44e89643c3d74218928fade2818cbc8a" kindref="member">DialogTabText</ref>,</highlight></codeline>
-<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0ae70b3fa1f1a6b951c0f5c2a2f745ce5c" kindref="member">DialogTabActiveText</ref>,</highlight></codeline>
-<codeline lineno="90"><highlight class="normal"></highlight></codeline>
-<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a76851ceee06bccd61e3f181d29dac532" kindref="member">ToolbarHovered</ref>,</highlight></codeline>
-<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0ac85fcec1e15f3735fc91801590d0b609" kindref="member">ToolbarClicked</ref>,</highlight></codeline>
+<codeline lineno="63" refid="group__GeneralGroup_1ga1506f82ec73be1eb299f6c390dce1fd0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1506f82ec73be1eb299f6c390dce1fd0" kindref="member">isInitialized</ref>();</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="group__GeneralGroup_1gaeb576da7973c6ccabb036634b3d878b0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaeb576da7973c6ccabb036634b3d878b0" kindref="member">RibbonColorsType</ref></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0aa9ded1e5ce5d75814730bb4caaf49419" kindref="member">Background</ref>,</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0a5c6096c5bd502c82f62242293e9a0ecd" kindref="member">BackgroundSecStyle</ref>,</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0a2dfef339aeaa577faf0d49879bc040d2" kindref="member">HeaderBackground</ref>,</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0a7af2aa44b44cb2c9ed912410b4f3fa4d" kindref="member">HeaderSeparator</ref>,</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0a2d838f579eb9b302faa00ef4fbc90172" kindref="member">TopPanelBackground</ref>,</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0ab73410dff2c1861ebb8980d455bc29ac" kindref="member">TopPanelSearchBackground</ref>,</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0a085d26fc5e16986ab4f0f365f2f49a19" kindref="member">QuickAccessBackground</ref>,</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0ae313502ef38a56454f3e9de57f384476" kindref="member">Borders</ref>,</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0ab9ec620a9b6e516079ed9090700ef961" kindref="member">TabHovered</ref>,</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0a34b6901b18dad551befcf60407ff1509" kindref="member">TabClicked</ref>,</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0a4bee1ab256dfd5208c42c149da53f86a" kindref="member">TabActive</ref>,</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0aa0559031ef8e5498f84e5074f6669ee4" kindref="member">TabActiveHovered</ref>,</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0ad23d5f7e2baee8237e25498afa28433d" kindref="member">TabActiveClicked</ref>,</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0a59ce3a1823add77157d34ba4dc516796" kindref="member">TabText</ref>,</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0a766f7faeb0a4d7a594238c300876813a" kindref="member">TabActiveText</ref>,</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0add6f466efeaf5a96dfc33f6ef0df67db" kindref="member">DialogTab</ref>,</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0a59ecebaad36f9417c81fdd2b8cfa1785" kindref="member">DialogTabHovered</ref>,</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0ac0ee22e71fb95f1d07ed490d0ca63cd6" kindref="member">DialogTabActive</ref>,</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0ad644db49bc959d3cabf5c3561456212e" kindref="member">DialogTabActiveHovered</ref>,</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0a44e89643c3d74218928fade2818cbc8a" kindref="member">DialogTabText</ref>,</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0ae70b3fa1f1a6b951c0f5c2a2f745ce5c" kindref="member">DialogTabActiveText</ref>,</highlight></codeline>
 <codeline lineno="93"><highlight class="normal"></highlight></codeline>
-<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0aba8e26fe60447633b1d9bf56680b8adc" kindref="member">ModalBackground</ref>,</highlight></codeline>
-<codeline lineno="95"><highlight class="normal"></highlight></codeline>
-<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a9dffbf69ffba8bc38bc4e01abf4b1675" kindref="member">Text</ref>,</highlight></codeline>
-<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0aa83cd867d8cf60320dd3948eb15f7192" kindref="member">TextEnabled</ref>,</highlight></codeline>
-<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0ae3a96937ea651675ce06873eb8398ac0" kindref="member">TextDisabled</ref>,</highlight></codeline>
-<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0ae4d6eaf3ac4a68236347d40d63b8a2b4" kindref="member">TextSelectedBg</ref>,</highlight></codeline>
-<codeline lineno="100"><highlight class="normal"></highlight></codeline>
-<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a525b14df5462bcd36ab6046c11b74b39" kindref="member">RibbonButtonHovered</ref>,</highlight></codeline>
-<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a1f0299955bfa50ff0a40eac8eda3bf8d" kindref="member">RibbonButtonClicked</ref>,</highlight></codeline>
-<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a405ab182bbac4b79edbf8cc4acd5bcd6" kindref="member">RibbonButtonActive</ref>,</highlight></codeline>
-<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a0954e2b27971721016aea8cbc8220933" kindref="member">RibbonButtonActiveHovered</ref>,</highlight></codeline>
-<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a1a3f051475bc0b988d3cd5015105bf33" kindref="member">RibbonButtonActiveClicked</ref>,</highlight></codeline>
-<codeline lineno="106"><highlight class="normal"></highlight></codeline>
-<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0aa9748daf587164a6715a081151c33bf8" kindref="member">ThirdpartyBackground</ref>,</highlight></codeline>
-<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0ae1bbec5067f1e6cc71f108e6d5ac7b81" kindref="member">ProgressBarBackground</ref>,</highlight></codeline>
-<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0ab7645d391763ab26ea48e51c80c3837e" kindref="member">FrameBackground</ref>,</highlight></codeline>
-<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0ae26407610c1540ad5648f9496a2f5e8b" kindref="member">CollapseHeaderBackground</ref>,</highlight></codeline>
-<codeline lineno="111"><highlight class="normal"></highlight></codeline>
-<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0abc0bd1b6e1dd5d93d7ad6b4d7e66ddc0" kindref="member">SelectedObjectText</ref>,</highlight></codeline>
-<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a51fc4ac9f7e95aa0e47690b6636f13dd" kindref="member">SelectedObjectFrame</ref>,</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0a76851ceee06bccd61e3f181d29dac532" kindref="member">ToolbarHovered</ref>,</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0ac85fcec1e15f3735fc91801590d0b609" kindref="member">ToolbarClicked</ref>,</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0aba8e26fe60447633b1d9bf56680b8adc" kindref="member">ModalBackground</ref>,</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0a9dffbf69ffba8bc38bc4e01abf4b1675" kindref="member">Text</ref>,</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0aa83cd867d8cf60320dd3948eb15f7192" kindref="member">TextEnabled</ref>,</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0ae3a96937ea651675ce06873eb8398ac0" kindref="member">TextDisabled</ref>,</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0ae4d6eaf3ac4a68236347d40d63b8a2b4" kindref="member">TextSelectedBg</ref>,</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0a525b14df5462bcd36ab6046c11b74b39" kindref="member">RibbonButtonHovered</ref>,</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0a1f0299955bfa50ff0a40eac8eda3bf8d" kindref="member">RibbonButtonClicked</ref>,</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0a405ab182bbac4b79edbf8cc4acd5bcd6" kindref="member">RibbonButtonActive</ref>,</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0a0954e2b27971721016aea8cbc8220933" kindref="member">RibbonButtonActiveHovered</ref>,</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0a1a3f051475bc0b988d3cd5015105bf33" kindref="member">RibbonButtonActiveClicked</ref>,</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0aa9748daf587164a6715a081151c33bf8" kindref="member">ThirdpartyBackground</ref>,</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0ae1bbec5067f1e6cc71f108e6d5ac7b81" kindref="member">ProgressBarBackground</ref>,</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0ab7645d391763ab26ea48e51c80c3837e" kindref="member">FrameBackground</ref>,</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0ae26407610c1540ad5648f9496a2f5e8b" kindref="member">CollapseHeaderBackground</ref>,</highlight></codeline>
 <codeline lineno="114"><highlight class="normal"></highlight></codeline>
-<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0afd01a2b69bde153fcd2589c5749c317d" kindref="member">GradientStart</ref>,</highlight></codeline>
-<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0aad7101ceb05b131ad92ee95d98c68c35" kindref="member">GradientEnd</ref>,</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0abc0bd1b6e1dd5d93d7ad6b4d7e66ddc0" kindref="member">SelectedObjectText</ref>,</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0a51fc4ac9f7e95aa0e47690b6636f13dd" kindref="member">SelectedObjectFrame</ref>,</highlight></codeline>
 <codeline lineno="117"><highlight class="normal"></highlight></codeline>
-<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0aad2cc424d609b2ce998423ef9d8b8b8f" kindref="member">TextContrastBackground</ref>,</highlight></codeline>
-<codeline lineno="119"><highlight class="normal"></highlight></codeline>
-<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a50114286d87f93089d7d222120a2aff5" kindref="member">GradBtnStart</ref>,</highlight></codeline>
-<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a2db2d120c28ce02f3ae09cb46ab142be" kindref="member">GradBtnHoverStart</ref>,</highlight></codeline>
-<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0ac89a96d82a927e50a773c18a61e7a780" kindref="member">GradBtnActiveStart</ref>,</highlight></codeline>
-<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a11c9d2b923596e7459895684448aa6b0" kindref="member">GradBtnDisableStart</ref>,</highlight></codeline>
-<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a5704717e193de9710967a1f65c75d2c7" kindref="member">GradBtnEnd</ref>,</highlight></codeline>
-<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0afc7e5e724a1d4777a9e8f28ca38916c3" kindref="member">GradBtnHoverEnd</ref>,</highlight></codeline>
-<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a79ca2c61ddfccb6fb9dd7fa7aef4797f" kindref="member">GradBtnActiveEnd</ref>,</highlight></codeline>
-<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a3cf021c6c36c7ca240737b15a58169a5" kindref="member">GradBtnDisableEnd</ref>,</highlight></codeline>
-<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0aa3e216a80fa3ed8ce043a3227686b692" kindref="member">GradBtnText</ref>,</highlight></codeline>
-<codeline lineno="129"><highlight class="normal"></highlight></codeline>
-<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a01bc2b070c09f3d2e1cc66670e1cbbae" kindref="member">GradBtnSecStyleStart</ref>,</highlight></codeline>
-<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a6ba1b2ee8410d3d91bbdf59590579fff" kindref="member">GradBtnSecStyleHoverStart</ref>,</highlight></codeline>
-<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a6085c7d170c3e8defc025b8188fa56ee" kindref="member">GradBtnSecStyleActiveStart</ref>,</highlight></codeline>
-<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a20f8001e129053fad17ae238b505e776" kindref="member">GradBtnSecStyleEnd</ref>,</highlight></codeline>
-<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a7c4e2f4ba1440cb30951c8ae2877d49c" kindref="member">GradBtnSecStyleHoverEnd</ref>,</highlight></codeline>
-<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a2403adc78e8c55b12b417c627bb19162" kindref="member">GradBtnSecStyleActiveEnd</ref>,</highlight></codeline>
-<codeline lineno="136"><highlight class="normal"></highlight></codeline>
-<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0a5174d1309f275ba6f275db3af9eb3e18" kindref="member">Grid</ref>,</highlight></codeline>
-<codeline lineno="138"><highlight class="normal"></highlight></codeline>
-<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1abbecc6afa53db91ada45757b845b5514ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Count</ref></highlight></codeline>
-<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="142" refid="classMR_1_1ColorTheme_1a339d8efd1037cbee5aa77d9d68e07c16" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ColorTheme_1a339d8efd1037cbee5aa77d9d68e07c16" kindref="member">setRibbonColor</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref>&amp;<sp/>color,<sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0" kindref="member">RibbonColorsType</ref><sp/>type<sp/>);</highlight></codeline>
-<codeline lineno="143" refid="classMR_1_1ColorTheme_1ab578b08c1af51e65c8871b6df209b260" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref>&amp;<sp/><ref refid="classMR_1_1ColorTheme_1ab578b08c1af51e65c8871b6df209b260" kindref="member">getRibbonColor</ref>(<sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0" kindref="member">RibbonColorsType</ref><sp/>type<sp/>);</highlight></codeline>
-<codeline lineno="144" refid="classMR_1_1ColorTheme_1a2aa0fd83cf8b28513b77491e1f5f5a09" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="classMR_1_1ColorTheme_1a2aa0fd83cf8b28513b77491e1f5f5a09" kindref="member">getRibbonColorTypeName</ref>(<sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0" kindref="member">RibbonColorsType</ref><sp/>type<sp/>);</highlight></codeline>
-<codeline lineno="145"><highlight class="normal"></highlight></codeline>
-<codeline lineno="146" refid="classMR_1_1ColorTheme_1a91b6b928ca7f490fdd396c347347bcdc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ColorTheme_1a91b6b928ca7f490fdd396c347347bcdc" kindref="member">ViewportColorsType</ref></highlight></codeline>
-<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0aa9ded1e5ce5d75814730bb4caaf49419" kindref="member">Background</ref>,</highlight></codeline>
-<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0ae313502ef38a56454f3e9de57f384476" kindref="member">Borders</ref>,</highlight></codeline>
-<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1a91b6b928ca7f490fdd396c347347bcdca38b0844100a915cd3c87159b391161b9" kindref="member">AxisX</ref>,</highlight></codeline>
-<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1a91b6b928ca7f490fdd396c347347bcdcab30a50c686982b3b209cf1234f4247cd" kindref="member">AxisY</ref>,</highlight></codeline>
-<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1a91b6b928ca7f490fdd396c347347bcdcadd1071c1aa89157c2386d3303413218f" kindref="member">AxisZ</ref>,</highlight></codeline>
-<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1abbecc6afa53db91ada45757b845b5514ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Count</ref></highlight></codeline>
-<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="155"><highlight class="normal"></highlight></codeline>
-<codeline lineno="157" refid="classMR_1_1ColorTheme_1ab9d7ae71db1952c73d2acf507830b877" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ColorTheme_1ab9d7ae71db1952c73d2acf507830b877" kindref="member">setViewportColor</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref>&amp;<sp/>color,<sp/><ref refid="classMR_1_1ColorTheme_1a91b6b928ca7f490fdd396c347347bcdc" kindref="member">ViewportColorsType</ref><sp/>type<sp/>);</highlight></codeline>
-<codeline lineno="158" refid="classMR_1_1ColorTheme_1ac188190a8deffab5d8289ed5e6a007c4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref>&amp;<sp/><ref refid="classMR_1_1ColorTheme_1ac188190a8deffab5d8289ed5e6a007c4" kindref="member">getViewportColor</ref>(<sp/><ref refid="classMR_1_1ColorTheme_1a91b6b928ca7f490fdd396c347347bcdc" kindref="member">ViewportColorsType</ref><sp/>type<sp/>);</highlight></codeline>
-<codeline lineno="159" refid="classMR_1_1ColorTheme_1a97174ab0c04fadd2cc5c150048f3e0b4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="classMR_1_1ColorTheme_1a97174ab0c04fadd2cc5c150048f3e0b4" kindref="member">getViewportColorTypeName</ref>(<sp/><ref refid="classMR_1_1ColorTheme_1a91b6b928ca7f490fdd396c347347bcdc" kindref="member">ViewportColorsType</ref><sp/>type<sp/>);</highlight></codeline>
-<codeline lineno="160"><highlight class="normal"></highlight></codeline>
-<codeline lineno="162" refid="classMR_1_1ColorTheme_1a3e7d39643b4603246f85f52e6014466d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>std::filesystem::path<sp/><ref refid="classMR_1_1ColorTheme_1a3e7d39643b4603246f85f52e6014466d" kindref="member">getUserThemesDirectory</ref>();</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0afd01a2b69bde153fcd2589c5749c317d" kindref="member">GradientStart</ref>,</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0aad7101ceb05b131ad92ee95d98c68c35" kindref="member">GradientEnd</ref>,</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0aad2cc424d609b2ce998423ef9d8b8b8f" kindref="member">TextContrastBackground</ref>,</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0a50114286d87f93089d7d222120a2aff5" kindref="member">GradBtnStart</ref>,</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0a2db2d120c28ce02f3ae09cb46ab142be" kindref="member">GradBtnHoverStart</ref>,</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0ac89a96d82a927e50a773c18a61e7a780" kindref="member">GradBtnActiveStart</ref>,</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0a11c9d2b923596e7459895684448aa6b0" kindref="member">GradBtnDisableStart</ref>,</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0a5704717e193de9710967a1f65c75d2c7" kindref="member">GradBtnEnd</ref>,</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0afc7e5e724a1d4777a9e8f28ca38916c3" kindref="member">GradBtnHoverEnd</ref>,</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0a79ca2c61ddfccb6fb9dd7fa7aef4797f" kindref="member">GradBtnActiveEnd</ref>,</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0a3cf021c6c36c7ca240737b15a58169a5" kindref="member">GradBtnDisableEnd</ref>,</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0aa3e216a80fa3ed8ce043a3227686b692" kindref="member">GradBtnText</ref>,</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0a01bc2b070c09f3d2e1cc66670e1cbbae" kindref="member">GradBtnSecStyleStart</ref>,</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0a6ba1b2ee8410d3d91bbdf59590579fff" kindref="member">GradBtnSecStyleHoverStart</ref>,</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0a6085c7d170c3e8defc025b8188fa56ee" kindref="member">GradBtnSecStyleActiveStart</ref>,</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0a20f8001e129053fad17ae238b505e776" kindref="member">GradBtnSecStyleEnd</ref>,</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0a7c4e2f4ba1440cb30951c8ae2877d49c" kindref="member">GradBtnSecStyleHoverEnd</ref>,</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0a2403adc78e8c55b12b417c627bb19162" kindref="member">GradBtnSecStyleActiveEnd</ref>,</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0a5174d1309f275ba6f275db3af9eb3e18" kindref="member">Grid</ref>,</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggabbecc6afa53db91ada45757b845b5514ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Count</ref></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="145" refid="group__GeneralGroup_1ga339d8efd1037cbee5aa77d9d68e07c16" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga339d8efd1037cbee5aa77d9d68e07c16" kindref="member">setRibbonColor</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref>&amp;<sp/>color,<sp/><ref refid="group__GeneralGroup_1gaeb576da7973c6ccabb036634b3d878b0" kindref="member">RibbonColorsType</ref><sp/>type<sp/>);</highlight></codeline>
+<codeline lineno="146" refid="group__GeneralGroup_1gab578b08c1af51e65c8871b6df209b260" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gab578b08c1af51e65c8871b6df209b260" kindref="member">getRibbonColor</ref>(<sp/><ref refid="group__GeneralGroup_1gaeb576da7973c6ccabb036634b3d878b0" kindref="member">RibbonColorsType</ref><sp/>type<sp/>);</highlight></codeline>
+<codeline lineno="147" refid="group__GeneralGroup_1ga2aa0fd83cf8b28513b77491e1f5f5a09" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="group__GeneralGroup_1ga2aa0fd83cf8b28513b77491e1f5f5a09" kindref="member">getRibbonColorTypeName</ref>(<sp/><ref refid="group__GeneralGroup_1gaeb576da7973c6ccabb036634b3d878b0" kindref="member">RibbonColorsType</ref><sp/>type<sp/>);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149" refid="group__GeneralGroup_1ga91b6b928ca7f490fdd396c347347bcdc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga91b6b928ca7f490fdd396c347347bcdc" kindref="member">ViewportColorsType</ref></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0aa9ded1e5ce5d75814730bb4caaf49419" kindref="member">Background</ref>,</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0ae313502ef38a56454f3e9de57f384476" kindref="member">Borders</ref>,</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga91b6b928ca7f490fdd396c347347bcdca38b0844100a915cd3c87159b391161b9" kindref="member">AxisX</ref>,</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga91b6b928ca7f490fdd396c347347bcdcab30a50c686982b3b209cf1234f4247cd" kindref="member">AxisY</ref>,</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga91b6b928ca7f490fdd396c347347bcdcadd1071c1aa89157c2386d3303413218f" kindref="member">AxisZ</ref>,</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggabbecc6afa53db91ada45757b845b5514ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Count</ref></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160" refid="group__GeneralGroup_1gab9d7ae71db1952c73d2acf507830b877" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab9d7ae71db1952c73d2acf507830b877" kindref="member">setViewportColor</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref>&amp;<sp/>color,<sp/><ref refid="group__GeneralGroup_1ga91b6b928ca7f490fdd396c347347bcdc" kindref="member">ViewportColorsType</ref><sp/>type<sp/>);</highlight></codeline>
+<codeline lineno="161" refid="group__GeneralGroup_1gac188190a8deffab5d8289ed5e6a007c4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gac188190a8deffab5d8289ed5e6a007c4" kindref="member">getViewportColor</ref>(<sp/><ref refid="group__GeneralGroup_1ga91b6b928ca7f490fdd396c347347bcdc" kindref="member">ViewportColorsType</ref><sp/>type<sp/>);</highlight></codeline>
+<codeline lineno="162" refid="group__GeneralGroup_1ga97174ab0c04fadd2cc5c150048f3e0b4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="group__GeneralGroup_1ga97174ab0c04fadd2cc5c150048f3e0b4" kindref="member">getViewportColorTypeName</ref>(<sp/><ref refid="group__GeneralGroup_1ga91b6b928ca7f490fdd396c347347bcdc" kindref="member">ViewportColorsType</ref><sp/>type<sp/>);</highlight></codeline>
 <codeline lineno="163"><highlight class="normal"></highlight></codeline>
-<codeline lineno="165" refid="classMR_1_1ColorTheme_1a0bcb053091eb10e1e15d24b17d15d379" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ColorTheme_1a0bcb053091eb10e1e15d24b17d15d379" kindref="member">updateUserThemesList</ref>();</highlight></codeline>
-<codeline lineno="167" refid="classMR_1_1ColorTheme_1a569785effc8f8f3c1c78f9ea3ab25c23" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>std::vector&lt;std::string&gt;<sp/><ref refid="classMR_1_1ColorTheme_1a569785effc8f8f3c1c78f9ea3ab25c23" kindref="member">foundUserThemes</ref>();</highlight></codeline>
-<codeline lineno="168"><highlight class="normal"></highlight></codeline>
-<codeline lineno="170" refid="classMR_1_1ColorTheme_1af27347c90aa80168a890bdb58f2d0423" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1ColorTheme_1af27347c90aa80168a890bdb58f2d0423" kindref="member">resetImGuiStyle</ref>();</highlight></codeline>
+<codeline lineno="165" refid="group__GeneralGroup_1ga3e7d39643b4603246f85f52e6014466d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>std::filesystem::path<sp/><ref refid="group__GeneralGroup_1ga3e7d39643b4603246f85f52e6014466d" kindref="member">getUserThemesDirectory</ref>();</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168" refid="group__GeneralGroup_1ga0bcb053091eb10e1e15d24b17d15d379" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0bcb053091eb10e1e15d24b17d15d379" kindref="member">updateUserThemesList</ref>();</highlight></codeline>
+<codeline lineno="170" refid="group__GeneralGroup_1ga569785effc8f8f3c1c78f9ea3ab25c23" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>std::vector&lt;std::string&gt;<sp/><ref refid="group__GeneralGroup_1ga569785effc8f8f3c1c78f9ea3ab25c23" kindref="member">foundUserThemes</ref>();</highlight></codeline>
 <codeline lineno="171"><highlight class="normal"></highlight></codeline>
-<codeline lineno="173" refid="classMR_1_1ColorTheme_1a1b86b0353c7e246e58746a652441cbda" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>boost::signals2::connection<sp/><ref refid="classMR_1_1ColorTheme_1a1b86b0353c7e246e58746a652441cbda" kindref="member">onChanged</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::function&lt;</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">()&gt;&amp;<sp/>slot,<sp/>boost::signals2::connect_position<sp/><ref refid="namespaceMR_1a24a027691feb30cad77ca6a162d05c58a4757fe07fd492a8be0ea6a760d683d6e" kindref="member">position</ref><sp/>=<sp/>boost::signals2::at_back<sp/>);</highlight></codeline>
+<codeline lineno="173" refid="group__GeneralGroup_1gaf27347c90aa80168a890bdb58f2d0423" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf27347c90aa80168a890bdb58f2d0423" kindref="member">resetImGuiStyle</ref>();</highlight></codeline>
 <codeline lineno="174"><highlight class="normal"></highlight></codeline>
-<codeline lineno="175"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme" kindref="compound">ColorTheme</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme" kindref="compound">~ColorTheme</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="178"><highlight class="normal"></highlight></codeline>
-<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>apply_(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Color&gt;&amp;<sp/>sceneColors<sp/>);</highlight></codeline>
-<codeline lineno="184"><highlight class="normal"></highlight></codeline>
-<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isInitialized_<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1abbecc6afa53db91ada45757b845b5514" kindref="member">Preset</ref><sp/>themePreset_<sp/>=<sp/><ref refid="classMR_1_1ColorTheme_1abbecc6afa53db91ada45757b845b5514aa18366b217ebf811ad1886e4f4f865b2" kindref="member">Preset::Dark</ref>;</highlight></codeline>
-<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/>std::array&lt;<ref refid="structMR_1_1Color" kindref="compound">Color</ref>,<sp/>size_t(<sp/><ref refid="classMR_1_1ColorTheme_1aeb576da7973c6ccabb036634b3d878b0ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">RibbonColorsType::Count</ref><sp/>)&gt;<sp/>newUIColors_;</highlight></codeline>
-<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/>std::array&lt;<ref refid="structMR_1_1Color" kindref="compound">Color</ref>,<sp/>size_t(<sp/><ref refid="classMR_1_1ColorTheme_1a91b6b928ca7f490fdd396c347347bcdcae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">ViewportColorsType::Count</ref><sp/>)&gt;<sp/>viewportColors_;</highlight></codeline>
-<codeline lineno="189"><highlight class="normal"></highlight></codeline>
-<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme_1ad14d75ef685e439c80487ba1d4c41eca" kindref="member">Type</ref><sp/>type_{<sp/><ref refid="classMR_1_1ColorTheme_1ad14d75ef685e439c80487ba1d4c41ecaa7a1920d61156abc05a60135aefe8bc67" kindref="member">Type::Default</ref><sp/>};</highlight></codeline>
-<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>themeName_;</highlight></codeline>
+<codeline lineno="176" refid="group__GeneralGroup_1ga1b86b0353c7e246e58746a652441cbda" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>boost::signals2::connection<sp/><ref refid="group__GeneralGroup_1ga1b86b0353c7e246e58746a652441cbda" kindref="member">onChanged</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::function&lt;</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">()&gt;&amp;<sp/>slot,<sp/>boost::signals2::connect_position<sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a4757fe07fd492a8be0ea6a760d683d6e" kindref="member">position</ref><sp/>=<sp/>boost::signals2::at_back<sp/>);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme" kindref="compound">ColorTheme</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1ColorTheme" kindref="compound">~ColorTheme</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>apply_(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Color&gt;&amp;<sp/>sceneColors<sp/>);</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isInitialized_<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gabbecc6afa53db91ada45757b845b5514" kindref="member">Preset</ref><sp/>themePreset_<sp/>=<sp/><ref refid="group__GeneralGroup_1ggabbecc6afa53db91ada45757b845b5514aa18366b217ebf811ad1886e4f4f865b2" kindref="member">Preset::Dark</ref>;</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/>std::array&lt;<ref refid="structMR_1_1Color" kindref="compound">Color</ref>,<sp/>size_t(<sp/><ref refid="group__GeneralGroup_1ggaeb576da7973c6ccabb036634b3d878b0ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">RibbonColorsType::Count</ref><sp/>)&gt;<sp/>newUIColors_;</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/>std::array&lt;<ref refid="structMR_1_1Color" kindref="compound">Color</ref>,<sp/>size_t(<sp/><ref refid="group__GeneralGroup_1gga91b6b928ca7f490fdd396c347347bcdcae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">ViewportColorsType::Count</ref><sp/>)&gt;<sp/>viewportColors_;</highlight></codeline>
 <codeline lineno="192"><highlight class="normal"></highlight></codeline>
-<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;std::string&gt;<sp/>foundUserThemes_;</highlight></codeline>
-<codeline lineno="194"><highlight class="normal"></highlight></codeline>
-<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">ChangedSignal<sp/>=<sp/><ref refid="structMR_1_1Signal" kindref="compound">Signal</ref>&lt;void()&gt;;</highlight></codeline>
-<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/>ChangedSignal<sp/>changedSignal_;</highlight></codeline>
-<codeline lineno="197"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="198"><highlight class="normal"></highlight></codeline>
-<codeline lineno="199"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gad14d75ef685e439c80487ba1d4c41eca" kindref="member">Type</ref><sp/>type_{<sp/><ref refid="group__GeneralGroup_1ggad14d75ef685e439c80487ba1d4c41ecaa7a1920d61156abc05a60135aefe8bc67" kindref="member">Type::Default</ref><sp/>};</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>themeName_;</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;std::string&gt;<sp/>foundUserThemes_;</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">ChangedSignal<sp/>=<sp/><ref refid="structMR_1_1Signal" kindref="compound">Signal</ref>&lt;void()&gt;;</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/>ChangedSignal<sp/>changedSignal_;</highlight></codeline>
+<codeline lineno="200"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h"/>
   </compounddef>

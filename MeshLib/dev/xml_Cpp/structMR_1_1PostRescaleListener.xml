@@ -5,88 +5,12 @@
     <basecompoundref refid="structMR_1_1ConnectionHolder" prot="public" virt="non-virtual">MR::ConnectionHolder</basecompoundref>
     <includes refid="MRViewerEventsListener_8h" local="no">MRViewerEventsListener.h</includes>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1PostRescaleListener_1ae837647183571bf4802bcae71f403831" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::PostRescaleListener::MR_ADD_CTOR_DELETE_MOVE</definition>
-        <argsstring>(PostRescaleListener)</argsstring>
-        <name>MR_ADD_CTOR_DELETE_MOVE</name>
-        <qualifiedname>MR::PostRescaleListener::MR_ADD_CTOR_DELETE_MOVE</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1PostRescaleListener" kindref="compound">PostRescaleListener</ref></type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="241" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1PostRescaleListener_1a774a0276db498e8c1a194a69eaa2bf61" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type></type>
-        <definition>virtual MR::PostRescaleListener::~PostRescaleListener</definition>
-        <argsstring>()=default</argsstring>
-        <name>~PostRescaleListener</name>
-        <qualifiedname>MR::PostRescaleListener::~PostRescaleListener</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="242" column="13"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1PostRescaleListener_1a663f17033774ed6940d244c30bc62013" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>virtual MRVIEWER_API void MR::PostRescaleListener::connect</definition>
-        <argsstring>(Viewer *viewer, int group, boost::signals2::connect_position pos) override</argsstring>
-        <name>connect</name>
-        <qualifiedname>MR::PostRescaleListener::connect</qualifiedname>
-        <reimplements refid="structMR_1_1IConnectable_1a2212095d3996892cff578320ac2ce746">connect</reimplements>
-        <param>
-          <type><ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref> *</type>
-          <declname>viewer</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>group</declname>
-        </param>
-        <param>
-          <type>boost::signals2::connect_position</type>
-          <declname>pos</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="243" column="31"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gae837647183571bf4802bcae71f403831" kind="function"><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1ga774a0276db498e8c1a194a69eaa2bf61" kind="function"><name>~PostRescaleListener</name></member>
+      <member refid="group__GeneralGroup_1ga663f17033774ed6940d244c30bc62013" kind="function"><name>connect</name></member>
     </sectiondef>
     <sectiondef kind="protected-func">
-      <memberdef kind="function" id="structMR_1_1PostRescaleListener_1a73f8715bed55eb4dbbf29f2268afb042" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
-        <type>void</type>
-        <definition>virtual void MR::PostRescaleListener::postRescale_</definition>
-        <argsstring>(float x, float y)=0</argsstring>
-        <name>postRescale_</name>
-        <qualifiedname>MR::PostRescaleListener::postRescale_</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>x</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>y</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="245" column="18"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga73f8715bed55eb4dbbf29f2268afb042" kind="function"><name>postRescale_</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -128,16 +52,16 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="239" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="240" bodyend="246"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="242" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="243" bodyend="249"/>
     <listofallmembers>
-      <member refid="structMR_1_1PostRescaleListener_1a663f17033774ed6940d244c30bc62013" prot="public" virt="virtual"><scope>MR::PostRescaleListener</scope><name>connect</name></member>
-      <member refid="structMR_1_1ConnectionHolder_1a56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::PostRescaleListener</scope><name>connection_</name></member>
-      <member refid="structMR_1_1ConnectionHolder_1afe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::PostRescaleListener</scope><name>disconnect</name></member>
-      <member refid="structMR_1_1PostRescaleListener_1ae837647183571bf4802bcae71f403831" prot="public" virt="non-virtual"><scope>MR::PostRescaleListener</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
-      <member refid="structMR_1_1PostRescaleListener_1a73f8715bed55eb4dbbf29f2268afb042" prot="protected" virt="pure-virtual"><scope>MR::PostRescaleListener</scope><name>postRescale_</name></member>
-      <member refid="structMR_1_1ConnectionHolder_1a99ffc44dd73f73e2e907b7ab5bb38aaf" prot="public" virt="virtual"><scope>MR::PostRescaleListener</scope><name>~ConnectionHolder</name></member>
-      <member refid="structMR_1_1IConnectable_1a28c07761e682b80befbb2d5f91bdd38c" prot="public" virt="virtual"><scope>MR::PostRescaleListener</scope><name>~IConnectable</name></member>
-      <member refid="structMR_1_1PostRescaleListener_1a774a0276db498e8c1a194a69eaa2bf61" prot="public" virt="virtual"><scope>MR::PostRescaleListener</scope><name>~PostRescaleListener</name></member>
+      <member refid="group__GeneralGroup_1ga663f17033774ed6940d244c30bc62013" prot="public" virt="virtual"><scope>MR::PostRescaleListener</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1ga56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::PostRescaleListener</scope><name>connection_</name></member>
+      <member refid="group__GeneralGroup_1gafe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::PostRescaleListener</scope><name>disconnect</name></member>
+      <member refid="group__GeneralGroup_1gae837647183571bf4802bcae71f403831" prot="public" virt="non-virtual"><scope>MR::PostRescaleListener</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1ga73f8715bed55eb4dbbf29f2268afb042" prot="protected" virt="pure-virtual"><scope>MR::PostRescaleListener</scope><name>postRescale_</name></member>
+      <member refid="group__GeneralGroup_1ga99ffc44dd73f73e2e907b7ab5bb38aaf" prot="public" virt="virtual"><scope>MR::PostRescaleListener</scope><name>~ConnectionHolder</name></member>
+      <member refid="group__GeneralGroup_1ga28c07761e682b80befbb2d5f91bdd38c" prot="public" virt="virtual"><scope>MR::PostRescaleListener</scope><name>~IConnectable</name></member>
+      <member refid="group__GeneralGroup_1ga774a0276db498e8c1a194a69eaa2bf61" prot="public" virt="virtual"><scope>MR::PostRescaleListener</scope><name>~PostRescaleListener</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

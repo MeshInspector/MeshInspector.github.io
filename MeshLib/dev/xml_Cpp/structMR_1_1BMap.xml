@@ -8,40 +8,12 @@
         <type>typename T</type>
       </param>
       <param>
-        <type>typename <ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref></type>
+        <type>typename I</type>
       </param>
     </templateparamlist>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1BMap_1a092cf8a0fd74634e6e4d50b8cfc9956d" prot="public" static="no" mutable="no">
-        <type><ref refid="classMR_1_1Buffer" kindref="compound">Buffer</ref>&lt; T, <ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref> &gt;</type>
-        <definition>Buffer&lt;T, I&gt; MR::BMap&lt; T, I &gt;::b</definition>
-        <argsstring></argsstring>
-        <name>b</name>
-        <qualifiedname>MR::BMap::b</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" line="145" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" bodystart="145" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1BMap_1a82445cec627eb947404a79b0b670c515" prot="public" static="no" mutable="no">
-        <type>size_t</type>
-        <definition>size_t MR::BMap&lt; T, I &gt;::tsize</definition>
-        <argsstring></argsstring>
-        <name>tsize</name>
-        <qualifiedname>MR::BMap::tsize</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-<para>target size, all values inside b must be less than this value </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" line="146" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" bodystart="146" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga092cf8a0fd74634e6e4d50b8cfc9956d" kind="variable"><name>b</name></member>
+      <member refid="group__GeneralGroup_1ga82445cec627eb947404a79b0b670c515" kind="variable"><name>tsize</name></member>
     </sectiondef>
     <briefdescription>
 <para>flat map: I -&gt; T </para>
@@ -61,10 +33,10 @@
         <link refid="classMR_1_1Buffer"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" line="143" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" bodystart="144" bodyend="147"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" line="146" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" bodystart="147" bodyend="150"/>
     <listofallmembers>
-      <member refid="structMR_1_1BMap_1a092cf8a0fd74634e6e4d50b8cfc9956d" prot="public" virt="non-virtual"><scope>MR::BMap</scope><name>b</name></member>
-      <member refid="structMR_1_1BMap_1a82445cec627eb947404a79b0b670c515" prot="public" virt="non-virtual"><scope>MR::BMap</scope><name>tsize</name></member>
+      <member refid="group__GeneralGroup_1ga092cf8a0fd74634e6e4d50b8cfc9956d" prot="public" virt="non-virtual"><scope>MR::BMap</scope><name>b</name></member>
+      <member refid="group__GeneralGroup_1ga82445cec627eb947404a79b0b670c515" prot="public" virt="non-virtual"><scope>MR::BMap</scope><name>tsize</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

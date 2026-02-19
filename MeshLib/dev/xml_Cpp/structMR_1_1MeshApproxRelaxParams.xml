@@ -22,12 +22,12 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" line="54" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" bodystart="54" bodyend="54"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1MeshApproxRelaxParams_1a1cee1338307334369140e04b54f03b51" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1a6ab288ae813e1aa688312e31c258df71" kindref="member">RelaxApproxType</ref></type>
+        <type><ref refid="group__GeneralGroup_1ga6ab288ae813e1aa688312e31c258df71" kindref="member">RelaxApproxType</ref></type>
         <definition>RelaxApproxType MR::MeshApproxRelaxParams::type</definition>
         <argsstring></argsstring>
         <name>type</name>
         <qualifiedname>MR::MeshApproxRelaxParams::type</qualifiedname>
-        <initializer>{ <ref refid="namespaceMR_1a6ab288ae813e1aa688312e31c258df71a93a097009b6443e711996c50b5354adf" kindref="member">RelaxApproxType::Planar</ref> }</initializer>
+        <initializer>{ <ref refid="group__GeneralGroup_1gga6ab288ae813e1aa688312e31c258df71a93a097009b6443e711996c50b5354adf" kindref="member">RelaxApproxType::Planar</ref> }</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -79,13 +79,13 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" line="50" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" bodystart="51" bodyend="56"/>
     <listofallmembers>
-      <member refid="structMR_1_1RelaxParams_1a47663082758ba9a1d7d9942c1d2550fc" prot="public" virt="non-virtual"><scope>MR::MeshApproxRelaxParams</scope><name>_padding</name></member>
-      <member refid="structMR_1_1RelaxParams_1a7f58a3b0b7e5c09209f53edd90b4371a" prot="public" virt="non-virtual"><scope>MR::MeshApproxRelaxParams</scope><name>force</name></member>
+      <member refid="group__GeneralGroup_1ga47663082758ba9a1d7d9942c1d2550fc" prot="public" virt="non-virtual"><scope>MR::MeshApproxRelaxParams</scope><name>_padding</name></member>
+      <member refid="group__GeneralGroup_1ga7f58a3b0b7e5c09209f53edd90b4371a" prot="public" virt="non-virtual"><scope>MR::MeshApproxRelaxParams</scope><name>force</name></member>
       <member refid="structMR_1_1MeshRelaxParams_1aeb8c3fee03385430c013562e6fafb17e" prot="public" virt="non-virtual"><scope>MR::MeshApproxRelaxParams</scope><name>hardSmoothTetrahedrons</name></member>
-      <member refid="structMR_1_1RelaxParams_1af6f0f001e98c26c2b38d1d51b3f3ef1f" prot="public" virt="non-virtual"><scope>MR::MeshApproxRelaxParams</scope><name>iterations</name></member>
-      <member refid="structMR_1_1RelaxParams_1ae8d07089d4abc1f4c2ccd3018e66e23a" prot="public" virt="non-virtual"><scope>MR::MeshApproxRelaxParams</scope><name>limitNearInitial</name></member>
-      <member refid="structMR_1_1RelaxParams_1ae2779bd159120c7d84c4d2e13186af7e" prot="public" virt="non-virtual"><scope>MR::MeshApproxRelaxParams</scope><name>maxInitialDist</name></member>
-      <member refid="structMR_1_1RelaxParams_1abeb08d7e70411cf9ef2826c0f058b909" prot="public" virt="non-virtual"><scope>MR::MeshApproxRelaxParams</scope><name>region</name></member>
+      <member refid="group__GeneralGroup_1gaf6f0f001e98c26c2b38d1d51b3f3ef1f" prot="public" virt="non-virtual"><scope>MR::MeshApproxRelaxParams</scope><name>iterations</name></member>
+      <member refid="group__GeneralGroup_1gae8d07089d4abc1f4c2ccd3018e66e23a" prot="public" virt="non-virtual"><scope>MR::MeshApproxRelaxParams</scope><name>limitNearInitial</name></member>
+      <member refid="group__GeneralGroup_1gae2779bd159120c7d84c4d2e13186af7e" prot="public" virt="non-virtual"><scope>MR::MeshApproxRelaxParams</scope><name>maxInitialDist</name></member>
+      <member refid="group__GeneralGroup_1gabeb08d7e70411cf9ef2826c0f058b909" prot="public" virt="non-virtual"><scope>MR::MeshApproxRelaxParams</scope><name>region</name></member>
       <member refid="structMR_1_1MeshApproxRelaxParams_1aed8137acdd95c73e5606d4ad5fa7e3ae" prot="public" virt="non-virtual"><scope>MR::MeshApproxRelaxParams</scope><name>surfaceDilateRadius</name></member>
       <member refid="structMR_1_1MeshApproxRelaxParams_1a1cee1338307334369140e04b54f03b51" prot="public" virt="non-virtual"><scope>MR::MeshApproxRelaxParams</scope><name>type</name></member>
       <member refid="structMR_1_1MeshRelaxParams_1a41780c569c9092f50274655744456aea" prot="public" virt="non-virtual"><scope>MR::MeshApproxRelaxParams</scope><name>weights</name></member>

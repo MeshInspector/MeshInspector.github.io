@@ -41,7 +41,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="313" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="313" bodyend="316"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicGroup_1ga300a438da6440ee7d2e92933bcfa6018" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <type>MRMESH_API bool</type>
         <definition>MRMESH_API bool MR::operator==</definition>
         <argsstring>(const BitSet &amp;a, const BitSet &amp;b)</argsstring>
         <name>operator==</name>
@@ -847,7 +847,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeapBytes.h" line="77" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeapBytes.h" bodystart="77" bodyend="87"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicGroup_1ga524978bc8b442f91e2d32e481686ebc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::parallelFor</definition>
         <argsstring>(size_t begin, size_t end, FunctionRef&lt; void(size_t)&gt; f)</argsstring>
         <name>parallelFor</name>
@@ -873,7 +873,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelFor.h" line="17" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelFor.h" declline="17" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicGroup_1gafbd597dd2d6ae3edeef89aefdd4ed15c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::parallelFor</definition>
         <argsstring>(size_t begin, size_t end, FunctionRef&lt; void(size_t, void *)&gt; f, FunctionRef&lt; void *()&gt; ctx)</argsstring>
         <name>parallelFor</name>
@@ -903,7 +903,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelFor.h" line="19" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelFor.h" declline="19" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicGroup_1gaed81ac05489c909fead54deea0cf7d3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <type>MRMESH_API bool</type>
         <definition>MRMESH_API bool MR::parallelFor</definition>
         <argsstring>(size_t begin, size_t end, FunctionRef&lt; void(size_t, void *)&gt; f, FunctionRef&lt; void *()&gt; ctx, ProgressCallback cb, size_t reportProgressEvery=1024)</argsstring>
         <name>parallelFor</name>
@@ -1152,7 +1152,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelFor.h" line="87" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelFor.h" bodystart="87" bodyend="90"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicGroup_1ga4accadafe09c169e3742b72d1e5e5733" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::vertMapsComposition</definition>
         <argsstring>(VertMap &amp;a2b, const VertMap &amp;b2c)</argsstring>
         <name>vertMapsComposition</name>
@@ -1175,7 +1175,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrimitiveMapsComposition.h" line="11" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrimitiveMapsComposition.h" declline="11" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicGroup_1gad522c5e76d8252c0c5a3bc55818ce589" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> VertMap</type>
+        <type>MRMESH_API VertMap</type>
         <definition>MRMESH_API VertMap MR::vertMapsComposition</definition>
         <argsstring>(const VertMap &amp;a2b, const VertMap &amp;b2c)</argsstring>
         <name>vertMapsComposition</name>
@@ -1198,7 +1198,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrimitiveMapsComposition.h" line="13" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrimitiveMapsComposition.h" declline="13" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicGroup_1ga6c6986e0b57b1aaf6c155adb000bc9f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::edgeMapsComposition</definition>
         <argsstring>(EdgeMap &amp;a2b, const EdgeMap &amp;b2c)</argsstring>
         <name>edgeMapsComposition</name>
@@ -1221,7 +1221,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrimitiveMapsComposition.h" line="16" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrimitiveMapsComposition.h" declline="16" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicGroup_1gaa8261f1d45e6d92532c31f3e4ca98614" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> EdgeMap</type>
+        <type>MRMESH_API EdgeMap</type>
         <definition>MRMESH_API EdgeMap MR::edgeMapsComposition</definition>
         <argsstring>(const EdgeMap &amp;a2b, const EdgeMap &amp;b2c)</argsstring>
         <name>edgeMapsComposition</name>
@@ -1244,7 +1244,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrimitiveMapsComposition.h" line="18" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrimitiveMapsComposition.h" declline="18" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicGroup_1gae15f0e77aea97c2194995913d9b8acfa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::faceMapsComposition</definition>
         <argsstring>(FaceMap &amp;a2b, const FaceMap &amp;b2c)</argsstring>
         <name>faceMapsComposition</name>
@@ -1267,7 +1267,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrimitiveMapsComposition.h" line="21" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrimitiveMapsComposition.h" declline="21" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicGroup_1gab49400ae6dafb3acc3d4f328d6658e75" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> FaceMap</type>
+        <type>MRMESH_API FaceMap</type>
         <definition>MRMESH_API FaceMap MR::faceMapsComposition</definition>
         <argsstring>(const FaceMap &amp;a2b, const FaceMap &amp;b2c)</argsstring>
         <name>faceMapsComposition</name>
@@ -1290,7 +1290,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrimitiveMapsComposition.h" line="23" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrimitiveMapsComposition.h" declline="23" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicGroup_1ga52d34a9bbe60f99085e9aab32040499f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::redirectSTDStreamsToLogger</definition>
         <argsstring>()</argsstring>
         <name>redirectSTDStreamsToLogger</name>
@@ -1298,7 +1298,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Redirects stdcout stdcerr stdclog to default logger <simplesect kind="note"><para>do not call this function directly if you use <ref refid="namespaceMR_1a1e251c5988273136d8a8cf12655f3f0d" kindref="member">MR::setupLoggerByDefault()</ref> </para>
+<para>Redirects stdcout stdcerr stdclog to default logger <simplesect kind="note"><para>do not call this function directly if you use <ref refid="group__GeneralGroup_1ga1e251c5988273136d8a8cf12655f3f0d" kindref="member">MR::setupLoggerByDefault()</ref> </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -1307,7 +1307,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRestoringStreamsSink.h" line="55" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRestoringStreamsSink.h" declline="55" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicGroup_1ga245584b85505ab9157d346bb3d8caf53" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> size_t</type>
+        <type>MRMESH_API size_t</type>
         <definition>MRMESH_API size_t MR::findSubstringCaseInsensitive</definition>
         <argsstring>(const std::string &amp;string, const std::string &amp;substring)</argsstring>
         <name>findSubstringCaseInsensitive</name>
@@ -1329,10 +1329,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRString.h" line="14" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRString.h" declline="14" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRString.h" line="17" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRString.h" declline="17" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicGroup_1gadb9d497f4e19d60a460324a964581ebb" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> int</type>
+        <type>MRMESH_API int</type>
         <definition>MRMESH_API int MR::calcDamerauLevenshteinDistance</definition>
         <argsstring>(const std::string &amp;stringA, const std::string &amp;stringB, bool caseSensitive=true, int *outLeftRightAddition=nullptr)</argsstring>
         <name>calcDamerauLevenshteinDistance</name>
@@ -1371,10 +1371,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRString.h" line="21" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRString.h" declline="21" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRString.h" line="24" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRString.h" declline="24" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicGroup_1ga4a32fd3117efa96b71c220bfc13c359b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::vector&lt; std::string &gt;</type>
+        <type>MRMESH_API std::vector&lt; std::string &gt;</type>
         <definition>MRMESH_API std::vector&lt; std::string &gt; MR::split</definition>
         <argsstring>(const std::string &amp;string, const std::string &amp;delimiter)</argsstring>
         <name>split</name>
@@ -1396,10 +1396,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRString.h" line="29" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRString.h" declline="29" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRString.h" line="32" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRString.h" declline="32" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicGroup_1ga9c68f9a0e1405a37f98f03203a234da5" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MR_BIND_IGNORE <ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::wstring</type>
+        <type>MR_BIND_IGNORE MRMESH_API std::wstring</type>
         <definition>MR_BIND_IGNORE MRMESH_API std::wstring MR::utf8ToWide</definition>
         <argsstring>(const char *utf8)</argsstring>
         <name>utf8ToWide</name>
@@ -1418,7 +1418,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRStringConvert.h" line="16" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRStringConvert.h" declline="16" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicGroup_1ga9a6b64a85d116ca32c7ff8b93ca80da1" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::string</type>
+        <type>MRMESH_API std::string</type>
         <definition>MRMESH_API std::string MR::systemToUtf8</definition>
         <argsstring>(const std::string &amp;system)</argsstring>
         <name>systemToUtf8</name>
@@ -1437,7 +1437,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRStringConvert.h" line="19" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRStringConvert.h" declline="19" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicGroup_1ga01094b293542b9fcf1b2f084dbf799a9" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::string</type>
+        <type>MRMESH_API std::string</type>
         <definition>MRMESH_API std::string MR::utf8ToSystem</definition>
         <argsstring>(const std::string &amp;utf8)</argsstring>
         <name>utf8ToSystem</name>
@@ -1456,7 +1456,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRStringConvert.h" line="23" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRStringConvert.h" declline="23" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicGroup_1gae9a27addfa702ba60eeaca8d967e2d6e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MR_BIND_IGNORE <ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::string</type>
+        <type>MR_BIND_IGNORE MRMESH_API std::string</type>
         <definition>MR_BIND_IGNORE MRMESH_API std::string MR::wideToUtf8</definition>
         <argsstring>(const wchar_t *wide)</argsstring>
         <name>wideToUtf8</name>
@@ -1621,7 +1621,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRStringConvert.h" line="69" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRStringConvert.h" declline="69" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicGroup_1ga9d44c29a02f4672e97b9cf002eb4f7ca" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::string</type>
+        <type>MRMESH_API std::string</type>
         <definition>MRMESH_API std::string MR::utf8substr</definition>
         <argsstring>(const char *s, size_t pos, size_t count)</argsstring>
         <name>utf8substr</name>
@@ -1648,7 +1648,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRStringConvert.h" line="73" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRStringConvert.h" declline="73" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicGroup_1ga52ef6e1208fe1f50e79f683d8f04fd15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::printTimingTreeAtEnd</definition>
         <argsstring>(bool on, double minTimeSec=0.1)</argsstring>
         <name>printTimingTreeAtEnd</name>
@@ -1681,7 +1681,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimer.h" line="40" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimer.h" declline="40" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicGroup_1ga92715abafbf0ac9f1aef87f2cff3088a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::printCurrentTimerBranch</definition>
         <argsstring>()</argsstring>
         <name>printCurrentTimerBranch</name>
@@ -1696,7 +1696,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimer.h" line="43" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimer.h" declline="43" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicGroup_1ga125565922a2357da0b9bcc8c1c8bb44a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::printTimingTree</definition>
         <argsstring>(double minTimeSec=0.1)</argsstring>
         <name>printTimingTree</name>
@@ -1725,7 +1725,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimer.h" line="47" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimer.h" declline="47" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicGroup_1ga73f1c5c9fb6ffeff44c6f14fb15a30ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MR_BIND_IGNORE <ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MR_BIND_IGNORE MRMESH_API void</type>
         <definition>MR_BIND_IGNORE MRMESH_API void MR::registerThreadRootTimeRecord</definition>
         <argsstring>(ThreadRootTimeRecord &amp;root)</argsstring>
         <name>registerThreadRootTimeRecord</name>
@@ -1744,7 +1744,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimeRecord.h" line="49" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimeRecord.h" declline="49" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicGroup_1gad352239f809241e329ff312b293854bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MR_BIND_IGNORE <ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MR_BIND_IGNORE MRMESH_API void</type>
         <definition>MR_BIND_IGNORE MRMESH_API void MR::unregisterThreadRootTimeRecord</definition>
         <argsstring>(ThreadRootTimeRecord &amp;root)</argsstring>
         <name>unregisterThreadRootTimeRecord</name>

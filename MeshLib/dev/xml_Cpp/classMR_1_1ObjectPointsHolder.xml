@@ -6,1411 +6,101 @@
     <derivedcompoundref refid="classMR_1_1ObjectPoints" prot="public" virt="non-virtual">MR::ObjectPoints</derivedcompoundref>
     <includes refid="MRObjectPointsHolder_8h" local="no">MRObjectPointsHolder.h</includes>
     <sectiondef kind="public-type">
-      <memberdef kind="typedef" id="classMR_1_1ObjectPointsHolder_1a47af96d907b055836d92ad8ff7c21d95" prot="public" static="no">
-        <type><ref refid="structMR_1_1Signal" kindref="compound">Signal</ref>&lt; void()&gt;</type>
-        <definition>using MR::ObjectPointsHolder::SelectionChangedSignal =  Signal&lt;void()&gt;</definition>
-        <argsstring></argsstring>
-        <name>SelectionChangedSignal</name>
-        <qualifiedname>MR::ObjectPointsHolder::SelectionChangedSignal</qualifiedname>
-        <briefdescription>
-<para>signal about points selection changing, triggered in selectPoints </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="152" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" bodystart="152" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1ObjectPointsHolder_1a5973874925d41d27196eb5a6f381ebbc" prot="public" static="no">
-        <type><ref refid="structMR_1_1Signal" kindref="compound">Signal</ref>&lt; void(uint32_t mask)&gt;</type>
-        <definition>using MR::ObjectPointsHolder::ChangedSignal =  Signal&lt;void( uint32_t mask )&gt;</definition>
-        <argsstring></argsstring>
-        <name>ChangedSignal</name>
-        <qualifiedname>MR::ObjectPointsHolder::ChangedSignal</qualifiedname>
-        <briefdescription>
-<para>signal about points or normals changing, triggered in setDirtyFlag </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="159" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" bodystart="159" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga47af96d907b055836d92ad8ff7c21d95" kind="typedef"><name>SelectionChangedSignal</name></member>
+      <member refid="group__GeneralGroup_1ga5973874925d41d27196eb5a6f381ebbc" kind="typedef"><name>ChangedSignal</name></member>
     </sectiondef>
     <sectiondef kind="public-static-attrib">
-      <memberdef kind="variable" id="classMR_1_1ObjectPointsHolder_1aaac75458d3d39d711b336b903c273ba0" prot="public" static="yes" constexpr="yes" mutable="no">
-        <type>int</type>
-        <definition>int MR::ObjectPointsHolder::MaxRenderingPointsDefault</definition>
-        <argsstring></argsstring>
-        <name>MaxRenderingPointsDefault</name>
-        <qualifiedname>MR::ObjectPointsHolder::MaxRenderingPointsDefault</qualifiedname>
-        <initializer>= 1&apos;000&apos;000</initializer>
-        <briefdescription>
-<para>default value for maximum rendered points number </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="125" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" bodystart="125" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ObjectPointsHolder_1a64f6a6f37810695e4b48f8022a5bde9f" prot="public" static="yes" constexpr="yes" mutable="no">
-        <type>int</type>
-        <definition>int MR::ObjectPointsHolder::MaxRenderingPointsUnlimited</definition>
-        <argsstring></argsstring>
-        <name>MaxRenderingPointsUnlimited</name>
-        <qualifiedname>MR::ObjectPointsHolder::MaxRenderingPointsUnlimited</qualifiedname>
-        <initializer>= std::numeric_limits&lt;int&gt;::max()</initializer>
-        <briefdescription>
-<para>recommended value for maximum rendered points number to disable discretization </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="127" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" bodystart="127" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaaac75458d3d39d711b336b903c273ba0" kind="variable"><name>MaxRenderingPointsDefault</name></member>
+      <member refid="group__GeneralGroup_1ga64f6a6f37810695e4b48f8022a5bde9f" kind="variable"><name>MaxRenderingPointsUnlimited</name></member>
     </sectiondef>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="classMR_1_1ObjectPointsHolder_1a5bbb21ee63e49be34db52c3c870061a4" prot="public" static="no" mutable="no">
-        <type><ref refid="classMR_1_1ObjectPointsHolder_1a47af96d907b055836d92ad8ff7c21d95" kindref="member">SelectionChangedSignal</ref></type>
-        <definition>SelectionChangedSignal MR::ObjectPointsHolder::pointsSelectionChangedSignal</definition>
-        <argsstring></argsstring>
-        <name>pointsSelectionChangedSignal</name>
-        <qualifiedname>MR::ObjectPointsHolder::pointsSelectionChangedSignal</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="153" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" bodystart="153" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ObjectPointsHolder_1a6fea0837d122988e4317e021db887a42" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1Signal" kindref="compound">Signal</ref>&lt; void()&gt;</type>
-        <definition>Signal&lt;void()&gt; MR::ObjectPointsHolder::renderDiscretizationChangedSignal</definition>
-        <argsstring></argsstring>
-        <name>renderDiscretizationChangedSignal</name>
-        <qualifiedname>MR::ObjectPointsHolder::renderDiscretizationChangedSignal</qualifiedname>
-        <briefdescription>
-<para>signal about render discretization changing, triggered in setRenderDiscretization </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="156" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" bodystart="156" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ObjectPointsHolder_1a399b7a5eaf4584900665900719cb2e7f" prot="public" static="no" mutable="no">
-        <type><ref refid="classMR_1_1ObjectPointsHolder_1a5973874925d41d27196eb5a6f381ebbc" kindref="member">ChangedSignal</ref></type>
-        <definition>ChangedSignal MR::ObjectPointsHolder::pointsChangedSignal</definition>
-        <argsstring></argsstring>
-        <name>pointsChangedSignal</name>
-        <qualifiedname>MR::ObjectPointsHolder::pointsChangedSignal</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="160" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" bodystart="160" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ObjectPointsHolder_1a89efdd45b8ade4b867e62d9b15297963" prot="public" static="no" mutable="no">
-        <type><ref refid="classMR_1_1ObjectPointsHolder_1a5973874925d41d27196eb5a6f381ebbc" kindref="member">ChangedSignal</ref></type>
-        <definition>ChangedSignal MR::ObjectPointsHolder::normalsChangedSignal</definition>
-        <argsstring></argsstring>
-        <name>normalsChangedSignal</name>
-        <qualifiedname>MR::ObjectPointsHolder::normalsChangedSignal</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="161" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" bodystart="161" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga5bbb21ee63e49be34db52c3c870061a4" kind="variable"><name>pointsSelectionChangedSignal</name></member>
+      <member refid="group__GeneralGroup_1ga6fea0837d122988e4317e021db887a42" kind="variable"><name>renderDiscretizationChangedSignal</name></member>
+      <member refid="group__GeneralGroup_1ga399b7a5eaf4584900665900719cb2e7f" kind="variable"><name>pointsChangedSignal</name></member>
+      <member refid="group__GeneralGroup_1ga89efdd45b8ade4b867e62d9b15297963" kind="variable"><name>normalsChangedSignal</name></member>
     </sectiondef>
     <sectiondef kind="protected-attrib">
-      <memberdef kind="variable" id="classMR_1_1ObjectPointsHolder_1a63b094a393073c94e180aece5eeb0729" prot="protected" static="no" mutable="no">
-        <type>VertBitSet</type>
-        <definition>VertBitSet MR::ObjectPointsHolder::selectedPoints_</definition>
-        <argsstring></argsstring>
-        <name>selectedPoints_</name>
-        <qualifiedname>MR::ObjectPointsHolder::selectedPoints_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="164" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" bodystart="164" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ObjectPointsHolder_1a20b26902cdfc19f4bd28762ec7add76e" prot="protected" static="no" mutable="yes">
-        <type>std::optional&lt; size_t &gt;</type>
-        <definition>std::optional&lt;size_t&gt; MR::ObjectPointsHolder::numValidPoints_</definition>
-        <argsstring></argsstring>
-        <name>numValidPoints_</name>
-        <qualifiedname>MR::ObjectPointsHolder::numValidPoints_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="165" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" bodystart="165" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ObjectPointsHolder_1af7ab9f32dcef65ad1a79fde9078c19af" prot="protected" static="no" mutable="yes">
-        <type>std::optional&lt; size_t &gt;</type>
-        <definition>std::optional&lt;size_t&gt; MR::ObjectPointsHolder::numSelectedPoints_</definition>
-        <argsstring></argsstring>
-        <name>numSelectedPoints_</name>
-        <qualifiedname>MR::ObjectPointsHolder::numSelectedPoints_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="166" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" bodystart="166" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ObjectPointsHolder_1a045c0320f1489b9374254b9dd00aeb51" prot="protected" static="no" mutable="no">
-        <type><ref refid="classMR_1_1ViewportProperty" kindref="compound">ViewportProperty</ref>&lt; <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &gt;</type>
-        <definition>ViewportProperty&lt;Color&gt; MR::ObjectPointsHolder::selectedVerticesColor_</definition>
-        <argsstring></argsstring>
-        <name>selectedVerticesColor_</name>
-        <qualifiedname>MR::ObjectPointsHolder::selectedVerticesColor_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="167" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" bodystart="167" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ObjectPointsHolder_1a48270cb125e897505184be1003eb4500" prot="protected" static="no" mutable="no">
-        <type><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
-        <definition>ViewportMask MR::ObjectPointsHolder::showSelectedVertices_</definition>
-        <argsstring></argsstring>
-        <name>showSelectedVertices_</name>
-        <qualifiedname>MR::ObjectPointsHolder::showSelectedVertices_</qualifiedname>
-        <initializer>= <ref refid="classMR_1_1ViewportMask_1a46b7527f0e3a3394b41be2515c171747" kindref="member">ViewportMask::all</ref>()</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="168" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" bodystart="168" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ObjectPointsHolder_1a3bea7e24940446fdc81e38da2f8db14c" prot="protected" static="no" mutable="no">
-        <type>VertColors</type>
-        <definition>VertColors MR::ObjectPointsHolder::vertsColorMap_</definition>
-        <argsstring></argsstring>
-        <name>vertsColorMap_</name>
-        <qualifiedname>MR::ObjectPointsHolder::vertsColorMap_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="169" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" bodystart="169" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ObjectPointsHolder_1abfa588fa9e443c6c2bb637a1e9ad98cb" prot="protected" static="no" mutable="no">
-        <type>std::shared_ptr&lt; <ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref> &gt;</type>
-        <definition>std::shared_ptr&lt;PointCloud&gt; MR::ObjectPointsHolder::points_</definition>
-        <argsstring></argsstring>
-        <name>points_</name>
-        <qualifiedname>MR::ObjectPointsHolder::points_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="175" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" bodystart="175" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ObjectPointsHolder_1a896a4967afa85824de6ebc22a609a95d" prot="protected" static="no" mutable="yes">
-        <type><ref refid="classMR_1_1ViewportProperty" kindref="compound">ViewportProperty</ref>&lt; <ref refid="classMR_1_1XfBasedCache" kindref="compound">XfBasedCache</ref>&lt; Box3f &gt; &gt;</type>
-        <definition>ViewportProperty&lt;XfBasedCache&lt;Box3f&gt; &gt; MR::ObjectPointsHolder::worldBox_</definition>
-        <argsstring></argsstring>
-        <name>worldBox_</name>
-        <qualifiedname>MR::ObjectPointsHolder::worldBox_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="176" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" bodystart="176" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ObjectPointsHolder_1aff82edcc80eafd10cf373c842d0c3b8e" prot="protected" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::ObjectPointsHolder::pointSize_</definition>
-        <argsstring></argsstring>
-        <name>pointSize_</name>
-        <qualifiedname>MR::ObjectPointsHolder::pointSize_</qualifiedname>
-        <initializer>{ 5.0f }</initializer>
-        <briefdescription>
-<para>size of point in pixels </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="179" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" bodystart="179" bodyend="179"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ObjectPointsHolder_1a1bf94b614f61d0c5f7e7e9128c767f12" prot="protected" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::ObjectPointsHolder::maxRenderingPoints_</definition>
-        <argsstring></argsstring>
-        <name>maxRenderingPoints_</name>
-        <qualifiedname>MR::ObjectPointsHolder::maxRenderingPoints_</qualifiedname>
-        <initializer>= <ref refid="classMR_1_1ObjectPointsHolder_1aaac75458d3d39d711b336b903c273ba0" kindref="member">MaxRenderingPointsDefault</ref></initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="201" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" bodystart="201" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga63b094a393073c94e180aece5eeb0729" kind="variable"><name>selectedPoints_</name></member>
+      <member refid="group__GeneralGroup_1ga20b26902cdfc19f4bd28762ec7add76e" kind="variable"><name>numValidPoints_</name></member>
+      <member refid="group__GeneralGroup_1gaf7ab9f32dcef65ad1a79fde9078c19af" kind="variable"><name>numSelectedPoints_</name></member>
+      <member refid="group__GeneralGroup_1ga045c0320f1489b9374254b9dd00aeb51" kind="variable"><name>selectedVerticesColor_</name></member>
+      <member refid="group__GeneralGroup_1ga48270cb125e897505184be1003eb4500" kind="variable"><name>showSelectedVertices_</name></member>
+      <member refid="group__GeneralGroup_1ga3bea7e24940446fdc81e38da2f8db14c" kind="variable"><name>vertsColorMap_</name></member>
+      <member refid="group__GeneralGroup_1gabfa588fa9e443c6c2bb637a1e9ad98cb" kind="variable"><name>points_</name></member>
+      <member refid="group__GeneralGroup_1ga896a4967afa85824de6ebc22a609a95d" kind="variable"><name>worldBox_</name></member>
+      <member refid="group__GeneralGroup_1gaff82edcc80eafd10cf373c842d0c3b8e" kind="variable"><name>pointSize_</name></member>
+      <member refid="group__GeneralGroup_1ga1bf94b614f61d0c5f7e7e9128c767f12" kind="variable"><name>maxRenderingPoints_</name></member>
     </sectiondef>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1ObjectPointsHolder_1a75cc66876cd874cbf5e8185768bdb2be" prot="private" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::ObjectPointsHolder::renderDiscretization_</definition>
-        <argsstring></argsstring>
-        <name>renderDiscretization_</name>
-        <qualifiedname>MR::ObjectPointsHolder::renderDiscretization_</qualifiedname>
-        <initializer>= 1</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="214" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" bodystart="214" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ObjectPointsHolder_1ace6ed38ca530c42b12860aef7d541653" prot="private" static="no" mutable="no">
-        <type>const char *</type>
-        <definition>const char* MR::ObjectPointsHolder::serializeFormat_</definition>
-        <argsstring></argsstring>
-        <name>serializeFormat_</name>
-        <qualifiedname>MR::ObjectPointsHolder::serializeFormat_</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-<para>auxiliary parameter to avoid recalculation in every frame </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="216" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" bodystart="216" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga75cc66876cd874cbf5e8185768bdb2be" kind="variable"><name>renderDiscretization_</name></member>
+      <member refid="group__GeneralGroup_1gace6ed38ca530c42b12860aef7d541653" kind="variable"><name>serializeFormat_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1a18cfe61ccf4c9bfd32aa9b16db4e68ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
-        <definition>MRMESH_API MR::ObjectPointsHolder::ObjectPointsHolder</definition>
-        <argsstring>()</argsstring>
-        <name>ObjectPointsHolder</name>
-        <qualifiedname>MR::ObjectPointsHolder::ObjectPointsHolder</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="23" column="16"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1a35c4a5cdd30d196d5a25bab562012667" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::ObjectPointsHolder::ObjectPointsHolder</definition>
-        <argsstring>(ObjectPointsHolder &amp;&amp;) noexcept=default</argsstring>
-        <name>ObjectPointsHolder</name>
-        <qualifiedname>MR::ObjectPointsHolder::ObjectPointsHolder</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1ObjectPointsHolder" kindref="compound">ObjectPointsHolder</ref> &amp;&amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="25" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1a704442d942ed959e077e867fd13df5ef" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type><ref refid="classMR_1_1ObjectPointsHolder" kindref="compound">ObjectPointsHolder</ref> &amp;</type>
-        <definition>ObjectPointsHolder &amp; MR::ObjectPointsHolder::operator=</definition>
-        <argsstring>(ObjectPointsHolder &amp;&amp;) noexcept=default</argsstring>
-        <name>operator=</name>
-        <qualifiedname>MR::ObjectPointsHolder::operator=</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1ObjectPointsHolder" kindref="compound">ObjectPointsHolder</ref> &amp;&amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="26" column="24"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1a56ae0abc43ac144e212830cf2233d413" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>const char *</type>
-        <definition>virtual const char * MR::ObjectPointsHolder::typeName</definition>
-        <argsstring>() const override</argsstring>
-        <name>typeName</name>
-        <qualifiedname>MR::ObjectPointsHolder::typeName</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1a6f629cc6822b206ab9232648fa19dcb6">typeName</reimplements>
-        <reimplementedby refid="classMR_1_1ObjectPoints_1af389d74376fb91966716aa2ff7444a5d">typeName</reimplementedby>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="29" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" bodystart="29" bodyend="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1abd19fedb77b950f4b6d214edc81e6611" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>virtual MRMESH_API void MR::ObjectPointsHolder::applyScale</definition>
-        <argsstring>(float scaleFactor) override</argsstring>
-        <name>applyScale</name>
-        <qualifiedname>MR::ObjectPointsHolder::applyScale</qualifiedname>
-        <reimplements refid="classMR_1_1Object_1a0afca40a7c24d33df4e4d7a5c98167a4">applyScale</reimplements>
-        <param>
-          <type>float</type>
-          <declname>scaleFactor</declname>
-        </param>
-        <briefdescription>
-<para>scale object size (all point positions) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="31" column="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1aaf5a84fb8a05f5651aee309a512efb74" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
-        <definition>virtual MRMESH_API bool MR::ObjectPointsHolder::hasVisualRepresentation</definition>
-        <argsstring>() const override</argsstring>
-        <name>hasVisualRepresentation</name>
-        <qualifiedname>MR::ObjectPointsHolder::hasVisualRepresentation</qualifiedname>
-        <reimplements refid="classMR_1_1Object_1a9f8a60330354b5cd43536c22bed08f3d">hasVisualRepresentation</reimplements>
-        <briefdescription>
-<para>does the object have any visual representation (visible points, triangles, edges, etc.), no considering child objects </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="33" column="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1a3f994efd266fcfa91366976539698e6b" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::ObjectPointsHolder::hasModel</definition>
-        <argsstring>() const override</argsstring>
-        <name>hasModel</name>
-        <qualifiedname>MR::ObjectPointsHolder::hasModel</qualifiedname>
-        <reimplements refid="classMR_1_1Object_1a376cb1be36addec5afd14487533e6693">hasModel</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>does the object have any model available (but possibly empty), e.g. <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> has valid mesh() or <ref refid="classMR_1_1ObjectPoints" kindref="compound">ObjectPoints</ref> has valid <ref refid="classMR_1_1ObjectPointsHolder_1a1e4577ab2bb24e7600c98bc550668b06" kindref="member">pointCloud()</ref> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="35" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" bodystart="35" bodyend="35"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1a1e4577ab2bb24e7600c98bc550668b06" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const std::shared_ptr&lt; const <ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref> &gt; &amp;</type>
-        <definition>const std::shared_ptr&lt; const PointCloud &gt; &amp; MR::ObjectPointsHolder::pointCloud</definition>
-        <argsstring>() const</argsstring>
-        <name>pointCloud</name>
-        <qualifiedname>MR::ObjectPointsHolder::pointCloud</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="37" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" bodystart="37" bodyend="38"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1a8f8cc5bc215e60ae310217c6a7afbcb4" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1PointCloudPart" kindref="compound">PointCloudPart</ref></type>
-        <definition>PointCloudPart MR::ObjectPointsHolder::pointCloudPart</definition>
-        <argsstring>() const</argsstring>
-        <name>pointCloudPart</name>
-        <qualifiedname>MR::ObjectPointsHolder::pointCloudPart</qualifiedname>
-        <briefdescription>
-<para>reinterpret_cast to avoid making a copy of shared_ptr </para>
-        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="return"><para>the pair ( point cloud, selected points ) if any point is selected or full point cloud otherwise </para>
-</simplesect>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="41" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" bodystart="41" bodyend="41"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1a7f67435bceafd659dec15164f3786ff9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
-        <definition>virtual MRMESH_API std::shared_ptr&lt; Object &gt; MR::ObjectPointsHolder::clone</definition>
-        <argsstring>() const override</argsstring>
-        <name>clone</name>
-        <qualifiedname>MR::ObjectPointsHolder::clone</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1a2abf3d3c767a16a584ad513af643feca">clone</reimplements>
-        <reimplementedby refid="classMR_1_1ObjectPoints_1ad267de3013f2004552a791899a4d2fb6">clone</reimplementedby>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>clones this object only, without its children, making new object the owner of all copied resources </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="43" column="40"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1aafeb7e582463b9ab47d0465ddb7e8758" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
-        <definition>virtual MRMESH_API std::shared_ptr&lt; Object &gt; MR::ObjectPointsHolder::shallowClone</definition>
-        <argsstring>() const override</argsstring>
-        <name>shallowClone</name>
-        <qualifiedname>MR::ObjectPointsHolder::shallowClone</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1adf2d7e16d33d059dbf2bbd0f1c34c8bf">shallowClone</reimplements>
-        <reimplementedby refid="classMR_1_1ObjectPoints_1a0204d43ba94c12cd5f8e20ef283315d2">shallowClone</reimplementedby>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>clones this object only, without its children, making new object to share resources with this object </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="44" column="40"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1a29d230eab5ae9ef093a8d9f9878ecb6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>virtual MRMESH_API void MR::ObjectPointsHolder::setDirtyFlags</definition>
-        <argsstring>(uint32_t mask, bool invalidateCaches=true) override</argsstring>
-        <name>setDirtyFlags</name>
-        <qualifiedname>MR::ObjectPointsHolder::setDirtyFlags</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1a3e72e4b693ea9b28b46b5928167f0e74">setDirtyFlags</reimplements>
-        <param>
-          <type>uint32_t</type>
-          <declname>mask</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>invalidateCaches</declname>
-          <defval>true</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>sets some dirty flags for the object (to force its visual update) <parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>mask</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>is a union of DirtyFlags flags </para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>invalidateCaches</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>whether to automatically invalidate model caches (pass false here if you manually update the caches) </para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="46" column="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1ad8bde1f8aa5e5c2b7abd5eaa069f4cba" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const VertBitSet &amp;</type>
-        <definition>const VertBitSet &amp; MR::ObjectPointsHolder::getSelectedPoints</definition>
-        <argsstring>() const</argsstring>
-        <name>getSelectedPoints</name>
-        <qualifiedname>MR::ObjectPointsHolder::getSelectedPoints</qualifiedname>
-        <briefdescription>
-<para>gets current selected points </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="49" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" bodystart="49" bodyend="49"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1ab4590c20e3453fd49b62915f266c4c79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ObjectPointsHolder::selectPoints</definition>
-        <argsstring>(VertBitSet newSelection)</argsstring>
-        <name>selectPoints</name>
-        <qualifiedname>MR::ObjectPointsHolder::selectPoints</qualifiedname>
-        <param>
-          <type>VertBitSet</type>
-          <declname>newSelection</declname>
-        </param>
-        <briefdescription>
-<para>sets current selected points </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="52" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" bodystart="52" bodyend="52"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1a887e143b291be915ac30c0325781824f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>virtual MRMESH_API void MR::ObjectPointsHolder::updateSelectedPoints</definition>
-        <argsstring>(VertBitSet &amp;selection)</argsstring>
-        <name>updateSelectedPoints</name>
-        <qualifiedname>MR::ObjectPointsHolder::updateSelectedPoints</qualifiedname>
-        <param>
-          <type>VertBitSet &amp;</type>
-          <declname>selection</declname>
-        </param>
-        <briefdescription>
-<para>swaps current selected points with the argument </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="55" column="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1a59f6f730af5ab18d05ad3792be57b210" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> const VertBitSet &amp;</type>
-        <definition>MRMESH_API const VertBitSet &amp; MR::ObjectPointsHolder::getSelectedPointsOrAll</definition>
-        <argsstring>() const</argsstring>
-        <name>getSelectedPointsOrAll</name>
-        <qualifiedname>MR::ObjectPointsHolder::getSelectedPointsOrAll</qualifiedname>
-        <briefdescription>
-<para>returns selected points if any, otherwise returns all valid points </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="58" column="33"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1a4bc2febb79ba59f6cf1a1567e8530a7f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &amp;</type>
-        <definition>const Color &amp; MR::ObjectPointsHolder::getSelectedVerticesColor</definition>
-        <argsstring>(ViewportId id={}) const</argsstring>
-        <name>getSelectedVerticesColor</name>
-        <qualifiedname>MR::ObjectPointsHolder::getSelectedVerticesColor</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
-          <declname>id</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-<para>returns colors of selected vertices </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="61" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" bodystart="61" bodyend="64"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1a9cb5c91de776239dbfc1ee5ff9c6715e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>virtual MRMESH_API void MR::ObjectPointsHolder::setSelectedVerticesColor</definition>
-        <argsstring>(const Color &amp;color, ViewportId id={})</argsstring>
-        <name>setSelectedVerticesColor</name>
-        <qualifiedname>MR::ObjectPointsHolder::setSelectedVerticesColor</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &amp;</type>
-          <declname>color</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
-          <declname>id</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-<para>sets colors of selected vertices </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="66" column="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1a1735bc6e1a052ca27d264576b441d306" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> const <ref refid="classMR_1_1ViewportProperty" kindref="compound">ViewportProperty</ref>&lt; <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &gt; &amp;</type>
-        <definition>MRMESH_API const ViewportProperty&lt; Color &gt; &amp; MR::ObjectPointsHolder::getSelectedVerticesColorsForAllViewports</definition>
-        <argsstring>() const</argsstring>
-        <name>getSelectedVerticesColorsForAllViewports</name>
-        <qualifiedname>MR::ObjectPointsHolder::getSelectedVerticesColorsForAllViewports</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="68" column="39"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1aee16d2b8918460907bba03f68431314c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>virtual MRMESH_API void MR::ObjectPointsHolder::setSelectedVerticesColorsForAllViewports</definition>
-        <argsstring>(ViewportProperty&lt; Color &gt; val)</argsstring>
-        <name>setSelectedVerticesColorsForAllViewports</name>
-        <qualifiedname>MR::ObjectPointsHolder::setSelectedVerticesColorsForAllViewports</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1ViewportProperty" kindref="compound">ViewportProperty</ref>&lt; <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &gt;</type>
-          <declname>val</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="69" column="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1a8109b854611237320d65254f81c8148a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::ObjectPointsHolder::copyAllSolidColors</definition>
-        <argsstring>(const ObjectPointsHolder &amp;other)</argsstring>
-        <name>copyAllSolidColors</name>
-        <qualifiedname>MR::ObjectPointsHolder::copyAllSolidColors</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1ObjectPointsHolder" kindref="compound">ObjectPointsHolder</ref> &amp;</type>
-          <declname>other</declname>
-        </param>
-        <briefdescription>
-<para>set all object solid colors (front/back/etc.) from other object for all viewports </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="72" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1a063fd6bcd742ad46b10c0cb3232d7fe4" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
-        <definition>MRMESH_API bool MR::ObjectPointsHolder::supportsVisualizeProperty</definition>
-        <argsstring>(AnyVisualizeMaskEnum type) const override</argsstring>
-        <name>supportsVisualizeProperty</name>
-        <qualifiedname>MR::ObjectPointsHolder::supportsVisualizeProperty</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1a17a87c846a1caa768c3043ee50bbd966">supportsVisualizeProperty</reimplements>
-        <param>
-          <type><ref refid="classMR_1_1AnyVisualizeMaskEnum" kindref="compound">AnyVisualizeMaskEnum</ref></type>
-          <declname>type</declname>
-        </param>
-        <briefdescription>
-<para>Returns true if this class supports the property <computeroutput>type</computeroutput>. Otherwise passing it to the functions below is illegal. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="74" column="22"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1ae3b2bea04abb41d991834debde3ccedf" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const VertColors &amp;</type>
-        <definition>const VertColors &amp; MR::ObjectPointsHolder::getVertsColorMap</definition>
-        <argsstring>() const</argsstring>
-        <name>getVertsColorMap</name>
-        <qualifiedname>MR::ObjectPointsHolder::getVertsColorMap</qualifiedname>
-        <briefdescription>
-<para>returns per-point colors of the object </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="77" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" bodystart="77" bodyend="77"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1acd5076d5c4b63ae07c67fb237ce83775" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MR::ObjectPointsHolder::setVertsColorMap</definition>
-        <argsstring>(VertColors vertsColorMap)</argsstring>
-        <name>setVertsColorMap</name>
-        <qualifiedname>MR::ObjectPointsHolder::setVertsColorMap</qualifiedname>
-        <param>
-          <type>VertColors</type>
-          <declname>vertsColorMap</declname>
-        </param>
-        <briefdescription>
-<para>sets per-point colors of the object </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="80" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" bodystart="80" bodyend="80"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1a2c17071846cdec9a78120404df0df2ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MR::ObjectPointsHolder::updateVertsColorMap</definition>
-        <argsstring>(VertColors &amp;vertsColorMap)</argsstring>
-        <name>updateVertsColorMap</name>
-        <qualifiedname>MR::ObjectPointsHolder::updateVertsColorMap</qualifiedname>
-        <param>
-          <type>VertColors &amp;</type>
-          <declname>vertsColorMap</declname>
-        </param>
-        <briefdescription>
-<para>swaps per-point colors of the object with given argument </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="83" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" bodystart="83" bodyend="83"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1a2518a2c2c8afd31aa1653e6ca5bd7f43" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>virtual MRMESH_API void MR::ObjectPointsHolder::copyColors</definition>
-        <argsstring>(const ObjectPointsHolder &amp;src, const VertMap &amp;thisToSrc, const FaceMap &amp;thisToSrcFaces={})</argsstring>
-        <name>copyColors</name>
-        <qualifiedname>MR::ObjectPointsHolder::copyColors</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1ObjectPointsHolder" kindref="compound">ObjectPointsHolder</ref> &amp;</type>
-          <declname>src</declname>
-        </param>
-        <param>
-          <type>const VertMap &amp;</type>
-          <declname>thisToSrc</declname>
-        </param>
-        <param>
-          <type>const FaceMap &amp;</type>
-          <declname>thisToSrcFaces</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-<para>copies point colors from given source object </para>
-        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>src</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>using given map</para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>thisToSrc</parametername>
-</parameternamelist>
-<parameterdescription>
-<para></para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="86" column="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1a8c4e3b9cafca3e334c278e0d0edaf6f4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="group__VisualObjectGroup_1ga1f6aeed936aa967b17cba0997d30ff7f" kindref="member">AllVisualizeProperties</ref></type>
-        <definition>MRMESH_API AllVisualizeProperties MR::ObjectPointsHolder::getAllVisualizeProperties</definition>
-        <argsstring>() const override</argsstring>
-        <name>getAllVisualizeProperties</name>
-        <qualifiedname>MR::ObjectPointsHolder::getAllVisualizeProperties</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1ab5a7a842052c24ab9b286eafae1bfb8d">getAllVisualizeProperties</reimplements>
-        <briefdescription>
-<para>get all visualize properties masks </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="89" column="39"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1a77fbcb94dbd452d3429c4ca2b844bdc0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> const <ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref> &amp;</type>
-        <definition>MRMESH_API const ViewportMask &amp; MR::ObjectPointsHolder::getVisualizePropertyMask</definition>
-        <argsstring>(AnyVisualizeMaskEnum type) const override</argsstring>
-        <name>getVisualizePropertyMask</name>
-        <qualifiedname>MR::ObjectPointsHolder::getVisualizePropertyMask</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1a94e84a6aefe10a606f6dbf056049dcee">getVisualizePropertyMask</reimplements>
-        <reimplementedby refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase_1afcc0243fff2f044976ef6dfd9ef220b0">getVisualizePropertyMask</reimplementedby>
-        <param>
-          <type><ref refid="classMR_1_1AnyVisualizeMaskEnum" kindref="compound">AnyVisualizeMaskEnum</ref></type>
-          <declname>type</declname>
-        </param>
-        <briefdescription>
-<para>returns mask of viewports where given property is set </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="91" column="35"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1aa7f91dadfb276318513e5f3022078c63" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>virtual MRMESH_API void MR::ObjectPointsHolder::setPointSize</definition>
-        <argsstring>(float size)</argsstring>
-        <name>setPointSize</name>
-        <qualifiedname>MR::ObjectPointsHolder::setPointSize</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>size</declname>
-        </param>
-        <briefdescription>
-<para>sets size of points on screen in pixels </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="94" column="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1aa53d380f14d7e4f6295ef7054713cf91" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>float</type>
-        <definition>virtual float MR::ObjectPointsHolder::getPointSize</definition>
-        <argsstring>() const</argsstring>
-        <name>getPointSize</name>
-        <qualifiedname>MR::ObjectPointsHolder::getPointSize</qualifiedname>
-        <reimplementedby refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectPoints_01_4_1ab8af8dcf5138af62a9672ae2ac1145db">getPointSize</reimplementedby>
-        <briefdescription>
-<para>returns size of points on screen in pixels </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="96" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" bodystart="96" bodyend="96"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1a19482cf3c1f465a186788f1208312266" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::ObjectPointsHolder::ObjectPointsHolder</definition>
-        <argsstring>(ProtectedStruct, const ObjectPointsHolder &amp;obj)</argsstring>
-        <name>ObjectPointsHolder</name>
-        <qualifiedname>MR::ObjectPointsHolder::ObjectPointsHolder</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1Object_1_1ProtectedStruct" kindref="compound">ProtectedStruct</ref></type>
-        </param>
-        <param>
-          <type>const <ref refid="classMR_1_1ObjectPointsHolder" kindref="compound">ObjectPointsHolder</ref> &amp;</type>
-          <declname>obj</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="note"><para>this ctor is public only for std::make_shared used inside <ref refid="classMR_1_1ObjectPointsHolder_1a7f67435bceafd659dec15164f3786ff9" kindref="member">clone()</ref> </para>
-</simplesect>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="99" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" bodystart="99" bodyend="100"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1ac7185971e31bea27e35f17cf9c4254d9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Box3f</type>
-        <definition>virtual MRMESH_API Box3f MR::ObjectPointsHolder::getWorldBox</definition>
-        <argsstring>(ViewportId={}) const override</argsstring>
-        <name>getWorldBox</name>
-        <qualifiedname>MR::ObjectPointsHolder::getWorldBox</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1a32cc9bc32e5402ed77f63de53d754314">getWorldBox</reimplements>
-        <param>
-          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>returns cached bounding box of this point object in world coordinates; if you need bounding box in local coordinates please call <ref refid="classMR_1_1VisualObject_1a8fe84b708cf42b2d73b31e77f02fae6a" kindref="member">getBoundingBox()</ref> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="104" column="30"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1aba48075cc3847fbce801558843fc38d1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> size_t</type>
-        <definition>MRMESH_API size_t MR::ObjectPointsHolder::numValidPoints</definition>
-        <argsstring>() const</argsstring>
-        <name>numValidPoints</name>
-        <qualifiedname>MR::ObjectPointsHolder::numValidPoints</qualifiedname>
-        <briefdescription>
-<para>returns cached information about the number of valid points </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="106" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1a54c093ecf7ef8fa2397f85b65631c47a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> size_t</type>
-        <definition>MRMESH_API size_t MR::ObjectPointsHolder::numSelectedPoints</definition>
-        <argsstring>() const</argsstring>
-        <name>numSelectedPoints</name>
-        <qualifiedname>MR::ObjectPointsHolder::numSelectedPoints</qualifiedname>
-        <briefdescription>
-<para>returns cached information about the number of selected points </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="108" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1a2646bd14bb792576389645ad9483bc0a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> size_t</type>
-        <definition>virtual MRMESH_API size_t MR::ObjectPointsHolder::heapBytes</definition>
-        <argsstring>() const override</argsstring>
-        <name>heapBytes</name>
-        <qualifiedname>MR::ObjectPointsHolder::heapBytes</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1a1c54cde8d69f13962e4e64bf839f3111">heapBytes</reimplements>
-        <briefdescription>
-<para>returns the amount of memory this object occupies on heap </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="111" column="32"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1a655ebcd931a3422a41e25e3080f708d5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>int</type>
-        <definition>int MR::ObjectPointsHolder::getRenderDiscretization</definition>
-        <argsstring>() const</argsstring>
-        <name>getRenderDiscretization</name>
-        <qualifiedname>MR::ObjectPointsHolder::getRenderDiscretization</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>returns rendering discretization display each <computeroutput>renderDiscretization</computeroutput>-th point only, starting from 0 index, total number is <ref refid="classMR_1_1ObjectPointsHolder_1a225c4db48183040ba15a8dccca928412" kindref="member">numRenderingValidPoints()</ref> \detail defined by maximum rendered points number as: <ref refid="classMR_1_1ObjectPointsHolder_1aba48075cc3847fbce801558843fc38d1" kindref="member">numValidPoints()</ref> / <ref refid="classMR_1_1ObjectPointsHolder_1a1889e45631f7acbe861a73c528476f9c" kindref="member">getMaxRenderingPoints()</ref> (rounded up) updated when setting <computeroutput>maxRenderingPoints</computeroutput> or changing the cloud (setting <computeroutput>DIRTY_FACE</computeroutput> flag) </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="119" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" bodystart="119" bodyend="119"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1a225c4db48183040ba15a8dccca928412" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> size_t</type>
-        <definition>MRMESH_API size_t MR::ObjectPointsHolder::numRenderingValidPoints</definition>
-        <argsstring>() const</argsstring>
-        <name>numRenderingValidPoints</name>
-        <qualifiedname>MR::ObjectPointsHolder::numRenderingValidPoints</qualifiedname>
-        <briefdescription>
-<para>returns count of valid points that will be rendered </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="122" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1a1889e45631f7acbe861a73c528476f9c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> int</type>
-        <definition>MRMESH_API int MR::ObjectPointsHolder::getMaxRenderingPoints</definition>
-        <argsstring>() const</argsstring>
-        <name>getMaxRenderingPoints</name>
-        <qualifiedname>MR::ObjectPointsHolder::getMaxRenderingPoints</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>returns maximal number of points that will be rendered if actual count of valid points is greater then the points will be sampled </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="131" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" bodystart="131" bodyend="131"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1a6d544e708ad4ac5612035941e897ca16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::ObjectPointsHolder::setMaxRenderingPoints</definition>
-        <argsstring>(int val)</argsstring>
-        <name>setMaxRenderingPoints</name>
-        <qualifiedname>MR::ObjectPointsHolder::setMaxRenderingPoints</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>val</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>sets maximal number of points that will be rendered <simplesect kind="see"><para><ref refid="classMR_1_1ObjectPointsHolder_1a655ebcd931a3422a41e25e3080f708d5" kindref="member">getRenderDiscretization</ref>, <ref refid="classMR_1_1ObjectPointsHolder_1aaac75458d3d39d711b336b903c273ba0" kindref="member">MaxRenderingPointsDefault</ref>, <ref refid="classMR_1_1ObjectPointsHolder_1a64f6a6f37810695e4b48f8022a5bde9f" kindref="member">MaxRenderingPointsUnlimited</ref> </para>
-</simplesect>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="135" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1aa25dc82cc5e496a153beeae60247d6c3" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const char *</type>
-        <definition>const char * MR::ObjectPointsHolder::serializeFormat</definition>
-        <argsstring>() const</argsstring>
-        <name>serializeFormat</name>
-        <qualifiedname>MR::ObjectPointsHolder::serializeFormat</qualifiedname>
-        <briefdescription>
-<para>returns overriden file extension used to serialize point cloud inside this object, nullptr means <ref refid="namespaceMR_1afef5d869778f6e470421c5e70529110c" kindref="member">defaultSerializePointsFormat()</ref> </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="138" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" bodystart="138" bodyend="138"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1a1027d5f4b567e9cc613073b40d9394ea" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="namespaceMR_1ac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref> const char *</type>
-        <definition>MR_BIND_IGNORE const char * MR::ObjectPointsHolder::savePointsFormat</definition>
-        <argsstring>() const</argsstring>
-        <name>savePointsFormat</name>
-        <qualifiedname>MR::ObjectPointsHolder::savePointsFormat</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="139" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" bodystart="139" bodyend="139"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1a78c753d70a86a6fc77e04749d52da72b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::ObjectPointsHolder::setSerializeFormat</definition>
-        <argsstring>(const char *newFormat)</argsstring>
-        <name>setSerializeFormat</name>
-        <qualifiedname>MR::ObjectPointsHolder::setSerializeFormat</qualifiedname>
-        <param>
-          <type>const char *</type>
-          <declname>newFormat</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>overrides file extension used to serialize point cloud inside this object: must start from &apos;.&apos;, nullptr means serialize in <ref refid="namespaceMR_1afef5d869778f6e470421c5e70529110c" kindref="member">defaultSerializePointsFormat()</ref> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="143" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1a37fdb82e969da9523ee3f2deec8e9d75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="namespaceMR_1ac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref> void</type>
-        <definition>MR_BIND_IGNORE void MR::ObjectPointsHolder::setSavePointsFormat</definition>
-        <argsstring>(const char *newFormat)</argsstring>
-        <name>setSavePointsFormat</name>
-        <qualifiedname>MR::ObjectPointsHolder::setSavePointsFormat</qualifiedname>
-        <param>
-          <type>const char *</type>
-          <declname>newFormat</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="144" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" bodystart="144" bodyend="144"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1adc4c7b3bbf3bf8c149c17e31bf241b5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::ObjectPointsHolder::resetFrontColor</definition>
-        <argsstring>() override</argsstring>
-        <name>resetFrontColor</name>
-        <qualifiedname>MR::ObjectPointsHolder::resetFrontColor</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1afb0c75a4ae3c759e382ae9c1abc0234b">resetFrontColor</reimplements>
-        <briefdescription>
-<para>reset basic object colors to their default values from the current theme </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="147" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1af81f56db413ec388aca6754041b268d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::ObjectPointsHolder::resetColors</definition>
-        <argsstring>() override</argsstring>
-        <name>resetColors</name>
-        <qualifiedname>MR::ObjectPointsHolder::resetColors</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1a0b0f7552c903173a32d29ad4f2c2b247">resetColors</reimplements>
-        <briefdescription>
-<para>reset all object colors to their default values from the current theme </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="149" column="21"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga18cfe61ccf4c9bfd32aa9b16db4e68ce" kind="function"><name>ObjectPointsHolder</name></member>
+      <member refid="group__GeneralGroup_1ga35c4a5cdd30d196d5a25bab562012667" kind="function"><name>ObjectPointsHolder</name></member>
+      <member refid="group__GeneralGroup_1ga704442d942ed959e077e867fd13df5ef" kind="function"><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga56ae0abc43ac144e212830cf2233d413" kind="function"><name>typeName</name></member>
+      <member refid="group__GeneralGroup_1gabd19fedb77b950f4b6d214edc81e6611" kind="function"><name>applyScale</name></member>
+      <member refid="group__GeneralGroup_1gaaf5a84fb8a05f5651aee309a512efb74" kind="function"><name>hasVisualRepresentation</name></member>
+      <member refid="group__GeneralGroup_1ga3f994efd266fcfa91366976539698e6b" kind="function"><name>hasModel</name></member>
+      <member refid="group__GeneralGroup_1ga1e4577ab2bb24e7600c98bc550668b06" kind="function"><name>pointCloud</name></member>
+      <member refid="group__GeneralGroup_1ga8f8cc5bc215e60ae310217c6a7afbcb4" kind="function"><name>pointCloudPart</name></member>
+      <member refid="group__GeneralGroup_1ga7f67435bceafd659dec15164f3786ff9" kind="function"><name>clone</name></member>
+      <member refid="group__GeneralGroup_1gaafeb7e582463b9ab47d0465ddb7e8758" kind="function"><name>shallowClone</name></member>
+      <member refid="group__GeneralGroup_1ga29d230eab5ae9ef093a8d9f9878ecb6a" kind="function"><name>setDirtyFlags</name></member>
+      <member refid="group__GeneralGroup_1gad8bde1f8aa5e5c2b7abd5eaa069f4cba" kind="function"><name>getSelectedPoints</name></member>
+      <member refid="group__GeneralGroup_1gab4590c20e3453fd49b62915f266c4c79" kind="function"><name>selectPoints</name></member>
+      <member refid="group__GeneralGroup_1ga887e143b291be915ac30c0325781824f" kind="function"><name>updateSelectedPoints</name></member>
+      <member refid="group__GeneralGroup_1ga59f6f730af5ab18d05ad3792be57b210" kind="function"><name>getSelectedPointsOrAll</name></member>
+      <member refid="group__GeneralGroup_1ga4bc2febb79ba59f6cf1a1567e8530a7f" kind="function"><name>getSelectedVerticesColor</name></member>
+      <member refid="group__GeneralGroup_1ga9cb5c91de776239dbfc1ee5ff9c6715e" kind="function"><name>setSelectedVerticesColor</name></member>
+      <member refid="group__GeneralGroup_1ga1735bc6e1a052ca27d264576b441d306" kind="function"><name>getSelectedVerticesColorsForAllViewports</name></member>
+      <member refid="group__GeneralGroup_1gaee16d2b8918460907bba03f68431314c" kind="function"><name>setSelectedVerticesColorsForAllViewports</name></member>
+      <member refid="group__GeneralGroup_1ga8109b854611237320d65254f81c8148a" kind="function"><name>copyAllSolidColors</name></member>
+      <member refid="group__GeneralGroup_1ga063fd6bcd742ad46b10c0cb3232d7fe4" kind="function"><name>supportsVisualizeProperty</name></member>
+      <member refid="group__GeneralGroup_1gae3b2bea04abb41d991834debde3ccedf" kind="function"><name>getVertsColorMap</name></member>
+      <member refid="group__GeneralGroup_1gacd5076d5c4b63ae07c67fb237ce83775" kind="function"><name>setVertsColorMap</name></member>
+      <member refid="group__GeneralGroup_1ga2c17071846cdec9a78120404df0df2ac" kind="function"><name>updateVertsColorMap</name></member>
+      <member refid="group__GeneralGroup_1ga2518a2c2c8afd31aa1653e6ca5bd7f43" kind="function"><name>copyColors</name></member>
+      <member refid="group__GeneralGroup_1ga8c4e3b9cafca3e334c278e0d0edaf6f4" kind="function"><name>getAllVisualizeProperties</name></member>
+      <member refid="group__GeneralGroup_1ga77fbcb94dbd452d3429c4ca2b844bdc0" kind="function"><name>getVisualizePropertyMask</name></member>
+      <member refid="group__GeneralGroup_1gaa7f91dadfb276318513e5f3022078c63" kind="function"><name>setPointSize</name></member>
+      <member refid="group__GeneralGroup_1gaa53d380f14d7e4f6295ef7054713cf91" kind="function"><name>getPointSize</name></member>
+      <member refid="group__GeneralGroup_1ga19482cf3c1f465a186788f1208312266" kind="function"><name>ObjectPointsHolder</name></member>
+      <member refid="group__GeneralGroup_1gac7185971e31bea27e35f17cf9c4254d9" kind="function"><name>getWorldBox</name></member>
+      <member refid="group__GeneralGroup_1gaba48075cc3847fbce801558843fc38d1" kind="function"><name>numValidPoints</name></member>
+      <member refid="group__GeneralGroup_1ga54c093ecf7ef8fa2397f85b65631c47a" kind="function"><name>numSelectedPoints</name></member>
+      <member refid="group__GeneralGroup_1ga2646bd14bb792576389645ad9483bc0a" kind="function"><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1ga655ebcd931a3422a41e25e3080f708d5" kind="function"><name>getRenderDiscretization</name></member>
+      <member refid="group__GeneralGroup_1ga225c4db48183040ba15a8dccca928412" kind="function"><name>numRenderingValidPoints</name></member>
+      <member refid="group__GeneralGroup_1ga1889e45631f7acbe861a73c528476f9c" kind="function"><name>getMaxRenderingPoints</name></member>
+      <member refid="group__GeneralGroup_1ga6d544e708ad4ac5612035941e897ca16" kind="function"><name>setMaxRenderingPoints</name></member>
+      <member refid="group__GeneralGroup_1gaa25dc82cc5e496a153beeae60247d6c3" kind="function"><name>serializeFormat</name></member>
+      <member refid="group__GeneralGroup_1ga1027d5f4b567e9cc613073b40d9394ea" kind="function"><name>savePointsFormat</name></member>
+      <member refid="group__GeneralGroup_1ga78c753d70a86a6fc77e04749d52da72b" kind="function"><name>setSerializeFormat</name></member>
+      <member refid="group__GeneralGroup_1ga37fdb82e969da9523ee3f2deec8e9d75" kind="function"><name>setSavePointsFormat</name></member>
+      <member refid="group__GeneralGroup_1gadc4c7b3bbf3bf8c149c17e31bf241b5d" kind="function"><name>resetFrontColor</name></member>
+      <member refid="group__GeneralGroup_1gaf81f56db413ec388aca6754041b268d6" kind="function"><name>resetColors</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1a4ead22366584724e5ebedeabffde6073" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>const char *</type>
-        <definition>static constexpr const char * MR::ObjectPointsHolder::StaticTypeName</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>StaticTypeName</name>
-        <qualifiedname>MR::ObjectPointsHolder::StaticTypeName</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="28" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" bodystart="28" bodyend="28"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga4ead22366584724e5ebedeabffde6073" kind="function"><name>StaticTypeName</name></member>
     </sectiondef>
     <sectiondef kind="protected-func">
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1a2206a7673291c743de019228d79d5569" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>virtual MRMESH_API void MR::ObjectPointsHolder::swapSignals_</definition>
-        <argsstring>(Object &amp;other) override</argsstring>
-        <name>swapSignals_</name>
-        <qualifiedname>MR::ObjectPointsHolder::swapSignals_</qualifiedname>
-        <reimplements refid="classMR_1_1Object_1a82d2749fefb75e38b62dd69a52307680">swapSignals_</reimplements>
-        <param>
-          <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
-          <declname>other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>swaps signals, used in <computeroutput>swap</computeroutput> function to return back signals after <computeroutput>swapBase_</computeroutput> pls call Parent::swapSignals_ first when overriding this function </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="173" column="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1a812b962d75d5c7f853ba5ae479e40120" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::ObjectPointsHolder::ObjectPointsHolder</definition>
-        <argsstring>(const ObjectPointsHolder &amp;other)=default</argsstring>
-        <name>ObjectPointsHolder</name>
-        <qualifiedname>MR::ObjectPointsHolder::ObjectPointsHolder</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1ObjectPointsHolder" kindref="compound">ObjectPointsHolder</ref> &amp;</type>
-          <declname>other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="181" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1aea1d998484c820abf8d0f350e035f139" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>virtual MRMESH_API void MR::ObjectPointsHolder::swapBase_</definition>
-        <argsstring>(Object &amp;other) override</argsstring>
-        <name>swapBase_</name>
-        <qualifiedname>MR::ObjectPointsHolder::swapBase_</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1a76b7b6b3bfd7dac31eb1d150afb761f7">swapBase_</reimplements>
-        <reimplementedby refid="classMR_1_1ObjectPoints_1a7cbf8f6689936307fe71452da91038a4">swapBase_</reimplementedby>
-        <param>
-          <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
-          <declname>other</declname>
-        </param>
-        <briefdescription>
-<para>swaps this object with other </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="184" column="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1a6f85a9f56979c1853b75dcb8a1b3b94d" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Box3f</type>
-        <definition>virtual MRMESH_API Box3f MR::ObjectPointsHolder::computeBoundingBox_</definition>
-        <argsstring>() const override</argsstring>
-        <name>computeBoundingBox_</name>
-        <qualifiedname>MR::ObjectPointsHolder::computeBoundingBox_</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1a4e27182996ebf22fc42c7d1ebf6cf02b">computeBoundingBox_</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="186" column="30"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1a65e5ddbc1a33ad4d92709534633958e7" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; std::future&lt; <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt; &gt; &gt;</type>
-        <definition>virtual MRMESH_API Expected&lt; std::future&lt; Expected&lt; void &gt; &gt; &gt; MR::ObjectPointsHolder::serializeModel_</definition>
-        <argsstring>(const std::filesystem::path &amp;path) const override</argsstring>
-        <name>serializeModel_</name>
-        <qualifiedname>MR::ObjectPointsHolder::serializeModel_</qualifiedname>
-        <reimplements refid="classMR_1_1Object_1a7bf17e9cdecb511570759169e86bf0e2">serializeModel_</reimplements>
-        <param>
-          <type>const std::filesystem::path &amp;</type>
-          <declname>path</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Creates future to save object model (e.g. mesh) in given file path is full filename without extension </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="188" column="33"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1aa5d09d8ac06d164d03a166e6a4cd6b24" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
-        <definition>virtual MRMESH_API Expected&lt; void &gt; MR::ObjectPointsHolder::deserializeModel_</definition>
-        <argsstring>(const std::filesystem::path &amp;path, ProgressCallback progressCb={}) override</argsstring>
-        <name>deserializeModel_</name>
-        <qualifiedname>MR::ObjectPointsHolder::deserializeModel_</qualifiedname>
-        <reimplements refid="classMR_1_1Object_1a694bf2e911f3079c872f0dc9c13370c9">deserializeModel_</reimplements>
-        <param>
-          <type>const std::filesystem::path &amp;</type>
-          <declname>path</declname>
-        </param>
-        <param>
-          <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
-          <declname>progressCb</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-<para>Reads model from file. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="190" column="33"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1ae0b780196658ba9017ae41f3ab2dd195" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>virtual MRMESH_API void MR::ObjectPointsHolder::serializeFields_</definition>
-        <argsstring>(Json::Value &amp;root) const override</argsstring>
-        <name>serializeFields_</name>
-        <qualifiedname>MR::ObjectPointsHolder::serializeFields_</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1aa7e5231f013c0e9e1b528c69759cc60d">serializeFields_</reimplements>
-        <reimplementedby refid="classMR_1_1ObjectPoints_1a6e93d56966cf8c7d956767173ee17eae">serializeFields_</reimplementedby>
-        <param>
-          <type>Json::Value &amp;</type>
-          <declname>root</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Write parameters to given Json::Value, <simplesect kind="note"><para>if you override this method, please call Base::serializeFields_(root) in the beginning </para>
-</simplesect>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="192" column="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1a6188f5d044e81a3a0e220618684fa515" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>virtual MRMESH_API void MR::ObjectPointsHolder::deserializeFields_</definition>
-        <argsstring>(const Json::Value &amp;root) override</argsstring>
-        <name>deserializeFields_</name>
-        <qualifiedname>MR::ObjectPointsHolder::deserializeFields_</qualifiedname>
-        <reimplements refid="classMR_1_1Object_1afa7de2dfba47f9766bfa741f01f73e42">deserializeFields_</reimplements>
-        <param>
-          <type>const Json::Value &amp;</type>
-          <declname>root</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Reads parameters from json value <simplesect kind="note"><para>if you override this method, please call Base::deserializeFields_(root) in the beginning </para>
-</simplesect>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="194" column="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1a3188b1f7d0a671ba6542d8d7e27174c1" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>virtual MRMESH_API void MR::ObjectPointsHolder::setupRenderObject_</definition>
-        <argsstring>() const override</argsstring>
-        <name>setupRenderObject_</name>
-        <qualifiedname>MR::ObjectPointsHolder::setupRenderObject_</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1a8c9ac961e923f7c61ccf3424413be0fb">setupRenderObject_</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>each renderable child of <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> should implement this method and assign renderObj_ inside </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="196" column="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1a596ddb7a672b67d1d610a62a1e28e55a" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::ObjectPointsHolder::setAllVisualizeProperties_</definition>
-        <argsstring>(const AllVisualizeProperties &amp;properties, std::size_t &amp;pos) override</argsstring>
-        <name>setAllVisualizeProperties_</name>
-        <qualifiedname>MR::ObjectPointsHolder::setAllVisualizeProperties_</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1a5ec593dbd42519c53e6ebe322386f9a6">setAllVisualizeProperties_</reimplements>
-        <param>
-          <type>const <ref refid="group__VisualObjectGroup_1ga1f6aeed936aa967b17cba0997d30ff7f" kindref="member">AllVisualizeProperties</ref> &amp;</type>
-          <declname>properties</declname>
-        </param>
-        <param>
-          <type>std::size_t &amp;</type>
-          <declname>pos</declname>
-        </param>
-        <briefdescription>
-<para>set all visualize properties masks </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="199" column="21"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga2206a7673291c743de019228d79d5569" kind="function"><name>swapSignals_</name></member>
+      <member refid="group__GeneralGroup_1ga812b962d75d5c7f853ba5ae479e40120" kind="function"><name>ObjectPointsHolder</name></member>
+      <member refid="group__GeneralGroup_1gaea1d998484c820abf8d0f350e035f139" kind="function"><name>swapBase_</name></member>
+      <member refid="group__GeneralGroup_1ga6f85a9f56979c1853b75dcb8a1b3b94d" kind="function"><name>computeBoundingBox_</name></member>
+      <member refid="group__GeneralGroup_1ga65e5ddbc1a33ad4d92709534633958e7" kind="function"><name>serializeModel_</name></member>
+      <member refid="group__GeneralGroup_1gaa5d09d8ac06d164d03a166e6a4cd6b24" kind="function"><name>deserializeModel_</name></member>
+      <member refid="group__GeneralGroup_1gae0b780196658ba9017ae41f3ab2dd195" kind="function"><name>serializeFields_</name></member>
+      <member refid="group__GeneralGroup_1ga6188f5d044e81a3a0e220618684fa515" kind="function"><name>deserializeFields_</name></member>
+      <member refid="group__GeneralGroup_1ga3188b1f7d0a671ba6542d8d7e27174c1" kind="function"><name>setupRenderObject_</name></member>
+      <member refid="group__GeneralGroup_1ga596ddb7a672b67d1d610a62a1e28e55a" kind="function"><name>setAllVisualizeProperties_</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1abe1e951932c506b306d367115a41e02c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ObjectPointsHolder::setDefaultColors_</definition>
-        <argsstring>()</argsstring>
-        <name>setDefaultColors_</name>
-        <qualifiedname>MR::ObjectPointsHolder::setDefaultColors_</qualifiedname>
-        <briefdescription>
-<para>this is private function to set default colors of this type (<ref refid="classMR_1_1ObjectPointsHolder" kindref="compound">ObjectPointsHolder</ref>) in constructor only </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="206" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1a5a6a53417a1bffe790748adf670da548" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ObjectPointsHolder::setDefaultSceneProperties_</definition>
-        <argsstring>()</argsstring>
-        <name>setDefaultSceneProperties_</name>
-        <qualifiedname>MR::ObjectPointsHolder::setDefaultSceneProperties_</qualifiedname>
-        <briefdescription>
-<para>set default scene-related properties </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="209" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectPointsHolder_1a9cddf2a7ff90fd435aab61ca3770f048" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ObjectPointsHolder::updateRenderDiscretization_</definition>
-        <argsstring>()</argsstring>
-        <name>updateRenderDiscretization_</name>
-        <qualifiedname>MR::ObjectPointsHolder::updateRenderDiscretization_</qualifiedname>
-        <briefdescription>
-<para>update renderDiscretization_ as numValidPoints_ / maxRenderingPoints_ (rounded up) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="212" column="10"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gabe1e951932c506b306d367115a41e02c" kind="function"><name>setDefaultColors_</name></member>
+      <member refid="group__GeneralGroup_1ga5a6a53417a1bffe790748adf670da548" kind="function"><name>setDefaultSceneProperties_</name></member>
+      <member refid="group__GeneralGroup_1ga9cddf2a7ff90fd435aab61ca3770f048" kind="function"><name>updateRenderDiscretization_</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -1583,36 +273,36 @@
         <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="20" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" bodystart="21" bodyend="217"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" line="23" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectPointsHolder.h" bodystart="24" bodyend="220"/>
     <listofallmembers>
       <member refid="classMR_1_1Object_1aa6cdc407999b7e829fd23b242cb6346d" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>addChild</name></member>
       <member refid="classMR_1_1Object_1a8eeb1cb21b22db97f20eac75b897f7ae" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>addChildBefore</name></member>
       <member refid="classMR_1_1Object_1a1bc49d038870615cf0a59705e4796075" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>addTag</name></member>
       <member refid="classMR_1_1VisualObject_1a53f3623d9c70f13c0546466a3ab5da96" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>ambientStrength_</name></member>
       <member refid="classMR_1_1Object_1a7919fe84554abf5973d82255df4425a6" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>ancillary_</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1abd19fedb77b950f4b6d214edc81e6611" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>applyScale</name></member>
+      <member refid="group__GeneralGroup_1gabd19fedb77b950f4b6d214edc81e6611" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>applyScale</name></member>
       <member refid="classMR_1_1Object_1a1f6de8e94b4cc46c3fd7ba2cb4e6cfb3" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>asType</name></member>
       <member refid="classMR_1_1Object_1a64cc87b1de99f84bb49d9e0b0f24d9ea" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>asType</name></member>
       <member refid="classMR_1_1VisualObject_1ae3a2d142d4abb2283a71caf7395282a4" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>backFacesColor_</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a2ba9302240c85bc5dfd78068e7b2e918" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>bastards_</name></member>
       <member refid="classMR_1_1VisualObject_1af81b9247c457c9dbd36d6bbe4c74b826" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>boundingBoxToInfoLines_</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a5973874925d41d27196eb5a6f381ebbc" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>ChangedSignal</name></member>
+      <member refid="group__GeneralGroup_1ga5973874925d41d27196eb5a6f381ebbc" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>ChangedSignal</name></member>
       <member refid="classMR_1_1Object_1a918f27844d6d9aae269008f0036bc671" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>children</name></member>
       <member refid="classMR_1_1Object_1a2f38b85c4109bb77ad1a49e42085b9fb" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>children</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a20c010d72c82523c01e5de05910eb34c" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>children_</name></member>
       <member refid="classMR_1_1VisualObject_1a4a9efcd8828d774516f5cd4960359d08" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>className</name></member>
       <member refid="classMR_1_1VisualObject_1a470477a43cc2e761f791623ee732e4b7" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>classNameInPlural</name></member>
       <member refid="classMR_1_1VisualObject_1ab87c9fab3f92c38aba589584b5466a98" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>clipByPlane_</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a7f67435bceafd659dec15164f3786ff9" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>clone</name></member>
+      <member refid="group__GeneralGroup_1ga7f67435bceafd659dec15164f3786ff9" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>clone</name></member>
       <member refid="classMR_1_1Object_1a54eb8f6e602368572ffb27af73f87465" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>cloneTree</name></member>
       <member refid="classMR_1_1VisualObject_1a21eb2d0c923e3ca0544e4cf90782e6b1" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>coloringType_</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a6f85a9f56979c1853b75dcb8a1b3b94d" prot="protected" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>computeBoundingBox_</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a8109b854611237320d65254f81c8148a" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>copyAllSolidColors</name></member>
+      <member refid="group__GeneralGroup_1ga6f85a9f56979c1853b75dcb8a1b3b94d" prot="protected" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>computeBoundingBox_</name></member>
+      <member refid="group__GeneralGroup_1ga8109b854611237320d65254f81c8148a" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>copyAllSolidColors</name></member>
       <member refid="classMR_1_1VisualObject_1a7857f20b8f16704a46297b95e12524f7" prot="public" virt="non-virtual" ambiguityscope="MR::VisualObject::"><scope>MR::ObjectPointsHolder</scope><name>copyAllSolidColors</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a2518a2c2c8afd31aa1653e6ca5bd7f43" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>copyColors</name></member>
+      <member refid="group__GeneralGroup_1ga2518a2c2c8afd31aa1653e6ca5bd7f43" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>copyColors</name></member>
       <member refid="classMR_1_1VisualObject_1a3c81a910d1fdd5c1f1b413c185bf750d" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>depthTest_</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a6188f5d044e81a3a0e220618684fa515" prot="protected" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>deserializeFields_</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1aa5d09d8ac06d164d03a166e6a4cd6b24" prot="protected" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>deserializeModel_</name></member>
+      <member refid="group__GeneralGroup_1ga6188f5d044e81a3a0e220618684fa515" prot="protected" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>deserializeFields_</name></member>
+      <member refid="group__GeneralGroup_1gaa5d09d8ac06d164d03a166e6a4cd6b24" prot="protected" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>deserializeModel_</name></member>
       <member refid="classMR_1_1Object_1ae6602edbad891420dc4dff152e9df603" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>deserializeRecursive</name></member>
       <member refid="classMR_1_1Object_1a80a32a58c497b044d63e5aaa75e77fbe" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>detachFromParent</name></member>
       <member refid="classMR_1_1Object_1abcc984d346790cbe1a13d6ee87daffd0" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>find</name></member>
@@ -1623,7 +313,7 @@
       <member refid="classMR_1_1Object_1a7dc1382248ea0ff99064282167614a4b" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>find</name></member>
       <member refid="classMR_1_1Object_1aa3e60b6a82814bffff2ba324dcaa7bd2" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>findCommonAncestor</name></member>
       <member refid="classMR_1_1Object_1af3951674c765923b8a024a44bd27342d" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>findCommonAncestor</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a8c4e3b9cafca3e334c278e0d0edaf6f4" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="group__GeneralGroup_1ga8c4e3b9cafca3e334c278e0d0edaf6f4" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>getAllVisualizeProperties</name></member>
       <member refid="classMR_1_1VisualObject_1a44359499c4ee0b22074b8f3999d53a6e" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>getAllVisualizePropertiesForEnum</name></member>
       <member refid="classMR_1_1VisualObject_1afd16375df437a376f44c3bdea5186b82" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>getAmbientStrength</name></member>
       <member refid="classMR_1_1VisualObject_1af49f84e12ea7e21ec8dc39ae8609bc18" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>getBackColor</name></member>
@@ -1636,32 +326,32 @@
       <member refid="classMR_1_1VisualObject_1afe6426aa46d769e1d6f4cab1e56e0559" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>getGlobalAlpha</name></member>
       <member refid="classMR_1_1VisualObject_1a3ef31c439da47a55ca3287bf45a377ad" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>getGlobalAlphaForAllViewports</name></member>
       <member refid="classMR_1_1VisualObject_1a76988bf72aa3be996e864fec3ab47ed2" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>getInfoLines</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a1889e45631f7acbe861a73c528476f9c" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>getMaxRenderingPoints</name></member>
+      <member refid="group__GeneralGroup_1ga1889e45631f7acbe861a73c528476f9c" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>getMaxRenderingPoints</name></member>
       <member refid="classMR_1_1Object_1a4a0bdbb221822d1b73720712b1488489" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>getModelHash</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1aa53d380f14d7e4f6295ef7054713cf91" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>getPointSize</name></member>
+      <member refid="group__GeneralGroup_1gaa53d380f14d7e4f6295ef7054713cf91" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>getPointSize</name></member>
       <member refid="classMR_1_1VisualObject_1a08a44c8bd562c85361950682c997f752" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>getRedrawFlag</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a655ebcd931a3422a41e25e3080f708d5" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>getRenderDiscretization</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1ad8bde1f8aa5e5c2b7abd5eaa069f4cba" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>getSelectedPoints</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a59f6f730af5ab18d05ad3792be57b210" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>getSelectedPointsOrAll</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a4bc2febb79ba59f6cf1a1567e8530a7f" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>getSelectedVerticesColor</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a1735bc6e1a052ca27d264576b441d306" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>getSelectedVerticesColorsForAllViewports</name></member>
+      <member refid="group__GeneralGroup_1ga655ebcd931a3422a41e25e3080f708d5" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>getRenderDiscretization</name></member>
+      <member refid="group__GeneralGroup_1gad8bde1f8aa5e5c2b7abd5eaa069f4cba" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>getSelectedPoints</name></member>
+      <member refid="group__GeneralGroup_1ga59f6f730af5ab18d05ad3792be57b210" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>getSelectedPointsOrAll</name></member>
+      <member refid="group__GeneralGroup_1ga4bc2febb79ba59f6cf1a1567e8530a7f" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>getSelectedVerticesColor</name></member>
+      <member refid="group__GeneralGroup_1ga1735bc6e1a052ca27d264576b441d306" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>getSelectedVerticesColorsForAllViewports</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a64c12f40ae3ee9c61ba167319e33f4a8" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>getSharedPtr</name></member>
       <member refid="classMR_1_1VisualObject_1a1a152f22b671a1cf98ddcf43db92b1da" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>getShininess</name></member>
       <member refid="classMR_1_1VisualObject_1a746d651e584a6df83424853a8777138b" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>getSpecularStrength</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1ae3b2bea04abb41d991834debde3ccedf" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>getVertsColorMap</name></member>
+      <member refid="group__GeneralGroup_1gae3b2bea04abb41d991834debde3ccedf" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>getVertsColorMap</name></member>
       <member refid="classMR_1_1VisualObject_1a3e21bc521981859584703215ba45f219" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>getVisualizeProperty</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a77fbcb94dbd452d3429c4ca2b844bdc0" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="group__GeneralGroup_1ga77fbcb94dbd452d3429c4ca2b844bdc0" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>getVisualizePropertyMask</name></member>
       <member refid="classMR_1_1VisualObject_1a11c8d591aa72e021a946b58349b80bcf" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>getVisualizePropertyMask_</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1ac7185971e31bea27e35f17cf9c4254d9" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>getWorldBox</name></member>
+      <member refid="group__GeneralGroup_1gac7185971e31bea27e35f17cf9c4254d9" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>getWorldBox</name></member>
       <member refid="classMR_1_1Object_1a41924fd6534dc41bfdb6dd30e263109b" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>getWorldTreeBox</name></member>
       <member refid="classMR_1_1VisualObject_1a96232055c664463cca20dda327b1c30f" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>globalAlpha_</name></member>
       <member refid="classMR_1_1VisualObject_1a5985106ad6fa7332062d84fdd44b5986" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>globalClippedByPlane</name></member>
       <member refid="classMR_1_1VisualObject_1af8f1e6dfa5e98e4c44896a848932fa66" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>globalClippedByPlaneMask</name></member>
       <member refid="classMR_1_1Object_1a1a3e9aa0f80849839b009e8b82c37c94" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>globalVisibility</name></member>
       <member refid="classMR_1_1Object_1a16b01c9f31dc2c3ab06b702718e9c7cb" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>globalVisibilityMask</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a3f994efd266fcfa91366976539698e6b" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>hasModel</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1aaf5a84fb8a05f5651aee309a512efb74" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>hasVisualRepresentation</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a2646bd14bb792576389645ad9483bc0a" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1ga3f994efd266fcfa91366976539698e6b" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>hasModel</name></member>
+      <member refid="group__GeneralGroup_1gaaf5a84fb8a05f5651aee309a512efb74" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>hasVisualRepresentation</name></member>
+      <member refid="group__GeneralGroup_1ga2646bd14bb792576389645ad9483bc0a" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1VisualObject_1ac1c087e54a58af29aa241898f9ea3222" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>invalidateMetricsCache_</name></member>
       <member refid="classMR_1_1VisualObject_1af6cd63e72a721fbe39cdff002950bce4" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>invertNormals_</name></member>
       <member refid="classMR_1_1Object_1a7c970b0fa099d812c04978d33c4b624e" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>isAncestor</name></member>
@@ -1673,18 +363,18 @@
       <member refid="classMR_1_1Object_1a3f649834561a9f246e1d840a0f3080c8" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>isSelected</name></member>
       <member refid="classMR_1_1Object_1a98c9e0d07b736d2b86c4d3d340b77844" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>isVisible</name></member>
       <member refid="classMR_1_1Object_1a958714fb7d616e608cb16223e052052b" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>locked_</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a1bf94b614f61d0c5f7e7e9128c767f12" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>maxRenderingPoints_</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1aaac75458d3d39d711b336b903c273ba0" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>MaxRenderingPointsDefault</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a64f6a6f37810695e4b48f8022a5bde9f" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>MaxRenderingPointsUnlimited</name></member>
+      <member refid="group__GeneralGroup_1ga1bf94b614f61d0c5f7e7e9128c767f12" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>maxRenderingPoints_</name></member>
+      <member refid="group__GeneralGroup_1gaaac75458d3d39d711b336b903c273ba0" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>MaxRenderingPointsDefault</name></member>
+      <member refid="group__GeneralGroup_1ga64f6a6f37810695e4b48f8022a5bde9f" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>MaxRenderingPointsUnlimited</name></member>
       <member refid="classMR_1_1Object_1ae813e1ae9ad5cbb71ca45adbdd811679" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>name</name></member>
       <member refid="classMR_1_1Object_1a3d6d27065a13a0a262df4b74ff82e538" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>name_</name></member>
       <member refid="classMR_1_1Object_1a92a390dc7570098981912529e341433d" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>needRedraw_</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a89efdd45b8ade4b867e62d9b15297963" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>normalsChangedSignal</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a225c4db48183040ba15a8dccca928412" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>numRenderingValidPoints</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a54c093ecf7ef8fa2397f85b65631c47a" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>numSelectedPoints</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1af7ab9f32dcef65ad1a79fde9078c19af" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>numSelectedPoints_</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1aba48075cc3847fbce801558843fc38d1" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>numValidPoints</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a20b26902cdfc19f4bd28762ec7add76e" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>numValidPoints_</name></member>
+      <member refid="group__GeneralGroup_1ga89efdd45b8ade4b867e62d9b15297963" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>normalsChangedSignal</name></member>
+      <member refid="group__GeneralGroup_1ga225c4db48183040ba15a8dccca928412" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>numRenderingValidPoints</name></member>
+      <member refid="group__GeneralGroup_1ga54c093ecf7ef8fa2397f85b65631c47a" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>numSelectedPoints</name></member>
+      <member refid="group__GeneralGroup_1gaf7ab9f32dcef65ad1a79fde9078c19af" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>numSelectedPoints_</name></member>
+      <member refid="group__GeneralGroup_1gaba48075cc3847fbce801558843fc38d1" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>numValidPoints</name></member>
+      <member refid="group__GeneralGroup_1ga20b26902cdfc19f4bd28762ec7add76e" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>numValidPoints_</name></member>
       <member refid="classMR_1_1Object_1ac2ef0a60f0cb9b488534014376ccd38d" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>Object</name></member>
       <member refid="classMR_1_1Object_1abac87686448c89b770d46ab30ad79dc2" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>Object</name></member>
       <member refid="classMR_1_1Object_1a795eb7eeaecc99cf34dabd14ac113e0b" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>Object</name></member>
@@ -1692,12 +382,12 @@
       <member refid="classMR_1_1ObjectChildrenHolder_1acad4a073a2e703743e01e2e5cce9e285" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>ObjectChildrenHolder</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a676c20b6eea355fe68748a8c1ad0b086" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>ObjectChildrenHolder</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a89b1fff6ebde3c5a71a530e3c8cddfb6" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>ObjectChildrenHolder</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a18cfe61ccf4c9bfd32aa9b16db4e68ce" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>ObjectPointsHolder</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a35c4a5cdd30d196d5a25bab562012667" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>ObjectPointsHolder</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a19482cf3c1f465a186788f1208312266" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>ObjectPointsHolder</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a812b962d75d5c7f853ba5ae479e40120" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>ObjectPointsHolder</name></member>
+      <member refid="group__GeneralGroup_1ga18cfe61ccf4c9bfd32aa9b16db4e68ce" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>ObjectPointsHolder</name></member>
+      <member refid="group__GeneralGroup_1ga35c4a5cdd30d196d5a25bab562012667" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>ObjectPointsHolder</name></member>
+      <member refid="group__GeneralGroup_1ga19482cf3c1f465a186788f1208312266" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>ObjectPointsHolder</name></member>
+      <member refid="group__GeneralGroup_1ga812b962d75d5c7f853ba5ae479e40120" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>ObjectPointsHolder</name></member>
       <member refid="classMR_1_1Object_1ae552548142751ab5d35d446cb5d56fae" prot="protected" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>onWorldXfChanged_</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a704442d942ed959e077e867fd13df5ef" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga704442d942ed959e077e867fd13df5ef" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>operator=</name></member>
       <member refid="classMR_1_1VisualObject_1ad5bb82fa6b6b0ea77f0137b975c802f6" prot="public" virt="non-virtual" ambiguityscope="MR::VisualObject::"><scope>MR::ObjectPointsHolder</scope><name>operator=</name></member>
       <member refid="classMR_1_1Object_1aaa2378c439796ceb7a28ad41322cb8d7" prot="public" virt="non-virtual" ambiguityscope="MR::Object::"><scope>MR::ObjectPointsHolder</scope><name>operator=</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a44a4427301ae71511f5b3138cdf02e9f" prot="public" virt="non-virtual" ambiguityscope="MR::ObjectChildrenHolder::"><scope>MR::ObjectPointsHolder</scope><name>operator=</name></member>
@@ -1707,54 +397,54 @@
       <member refid="classMR_1_1ObjectChildrenHolder_1a79a7197e0981d1da1b59f5fa0d858f7d" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>parent_</name></member>
       <member refid="classMR_1_1Object_1a2f679f701887cee54069b81a45cc8ebc" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>parentLocked_</name></member>
       <member refid="classMR_1_1VisualObject_1a43bcd013faf296110ba8cb4a94bbe12f" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>pickable_</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a1e4577ab2bb24e7600c98bc550668b06" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>pointCloud</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a8f8cc5bc215e60ae310217c6a7afbcb4" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>pointCloudPart</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1abfa588fa9e443c6c2bb637a1e9ad98cb" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>points_</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a399b7a5eaf4584900665900719cb2e7f" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>pointsChangedSignal</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1aff82edcc80eafd10cf373c842d0c3b8e" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>pointSize_</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a5bbb21ee63e49be34db52c3c870061a4" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>pointsSelectionChangedSignal</name></member>
+      <member refid="group__GeneralGroup_1ga1e4577ab2bb24e7600c98bc550668b06" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>pointCloud</name></member>
+      <member refid="group__GeneralGroup_1ga8f8cc5bc215e60ae310217c6a7afbcb4" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>pointCloudPart</name></member>
+      <member refid="group__GeneralGroup_1gabfa588fa9e443c6c2bb637a1e9ad98cb" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>points_</name></member>
+      <member refid="group__GeneralGroup_1ga399b7a5eaf4584900665900719cb2e7f" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>pointsChangedSignal</name></member>
+      <member refid="group__GeneralGroup_1gaff82edcc80eafd10cf373c842d0c3b8e" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>pointSize_</name></member>
+      <member refid="group__GeneralGroup_1ga5bbb21ee63e49be34db52c3c870061a4" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>pointsSelectionChangedSignal</name></member>
       <member refid="classMR_1_1Object_1a1b5609ba616723794aea4dda67727865" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>removeAllChildren</name></member>
       <member refid="classMR_1_1Object_1aa988bb552650c9d30e888e456f458d46" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>removeChild</name></member>
       <member refid="classMR_1_1Object_1a291d8e281e83a1199d6da8484e798fd5" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>removeChild</name></member>
       <member refid="classMR_1_1Object_1aba4a6f7731fa48aa3ffcd233f5dfc451" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>removeTag</name></member>
       <member refid="classMR_1_1VisualObject_1a4ee8d7c7819cfcae4624e5818a870052" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>render</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a75cc66876cd874cbf5e8185768bdb2be" prot="private" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>renderDiscretization_</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a6fea0837d122988e4317e021db887a42" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>renderDiscretizationChangedSignal</name></member>
+      <member refid="group__GeneralGroup_1ga75cc66876cd874cbf5e8185768bdb2be" prot="private" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>renderDiscretization_</name></member>
+      <member refid="group__GeneralGroup_1ga6fea0837d122988e4317e021db887a42" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>renderDiscretizationChangedSignal</name></member>
       <member refid="classMR_1_1VisualObject_1a190bc33649da029a5669785110d1dd19" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>renderForPicker</name></member>
       <member refid="classMR_1_1VisualObject_1ab054b578e5da7a7822d693ec0f61b1e7" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>renderObj_</name></member>
       <member refid="classMR_1_1VisualObject_1a7c703445b89c896790544b583d052e9f" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>renderUi</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1af81f56db413ec388aca6754041b268d6" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>resetColors</name></member>
+      <member refid="group__GeneralGroup_1gaf81f56db413ec388aca6754041b268d6" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>resetColors</name></member>
       <member refid="classMR_1_1VisualObject_1a30fe82d49e41f2e7830f58113b295cce" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>resetDirty</name></member>
       <member refid="classMR_1_1VisualObject_1a885f987ce58a89d2b12a33cf48e92c6c" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>resetDirtyExceptMask</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1adc4c7b3bbf3bf8c149c17e31bf241b5d" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>resetFrontColor</name></member>
+      <member refid="group__GeneralGroup_1gadc4c7b3bbf3bf8c149c17e31bf241b5d" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>resetFrontColor</name></member>
       <member refid="classMR_1_1Object_1a9dc77f3f61430395182e8402e6e6f410" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>resetRedrawFlag</name></member>
       <member refid="classMR_1_1Object_1a0fabfb16f09fd70879a89efbb8df0da6" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>resetXf</name></member>
       <member refid="classMR_1_1Object_1ac581a9c74f34770bb727b5168fcfa753" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>sameModels</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a1027d5f4b567e9cc613073b40d9394ea" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>savePointsFormat</name></member>
+      <member refid="group__GeneralGroup_1ga1027d5f4b567e9cc613073b40d9394ea" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>savePointsFormat</name></member>
       <member refid="classMR_1_1Object_1a989bd3b98218be00c001e3ee8cb77334" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>select</name></member>
       <member refid="classMR_1_1Object_1a0d8ef27f83b47e000093eaa0df9c36f9" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>selected_</name></member>
       <member refid="classMR_1_1VisualObject_1ac75d179334e336af0672bf0d9c997038" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>selectedColor_</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a63b094a393073c94e180aece5eeb0729" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>selectedPoints_</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a045c0320f1489b9374254b9dd00aeb51" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>selectedVerticesColor_</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a47af96d907b055836d92ad8ff7c21d95" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>SelectionChangedSignal</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1ab4590c20e3453fd49b62915f266c4c79" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>selectPoints</name></member>
+      <member refid="group__GeneralGroup_1ga63b094a393073c94e180aece5eeb0729" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>selectedPoints_</name></member>
+      <member refid="group__GeneralGroup_1ga045c0320f1489b9374254b9dd00aeb51" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>selectedVerticesColor_</name></member>
+      <member refid="group__GeneralGroup_1ga47af96d907b055836d92ad8ff7c21d95" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>SelectionChangedSignal</name></member>
+      <member refid="group__GeneralGroup_1gab4590c20e3453fd49b62915f266c4c79" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>selectPoints</name></member>
       <member refid="classMR_1_1Object_1ab41eb618ef90d9677638173475b2d983" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>sendWorldXfChangedSignal_</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1ae0b780196658ba9017ae41f3ab2dd195" prot="protected" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>serializeFields_</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1aa25dc82cc5e496a153beeae60247d6c3" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>serializeFormat</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1ace6ed38ca530c42b12860aef7d541653" prot="private" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>serializeFormat_</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a65e5ddbc1a33ad4d92709534633958e7" prot="protected" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>serializeModel_</name></member>
+      <member refid="group__GeneralGroup_1gae0b780196658ba9017ae41f3ab2dd195" prot="protected" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>serializeFields_</name></member>
+      <member refid="group__GeneralGroup_1gaa25dc82cc5e496a153beeae60247d6c3" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>serializeFormat</name></member>
+      <member refid="group__GeneralGroup_1gace6ed38ca530c42b12860aef7d541653" prot="private" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>serializeFormat_</name></member>
+      <member refid="group__GeneralGroup_1ga65e5ddbc1a33ad4d92709534633958e7" prot="protected" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>serializeModel_</name></member>
       <member refid="classMR_1_1Object_1a9585a709b1b7bd6d35276d099afd0079" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>serializeRecursive</name></member>
       <member refid="classMR_1_1VisualObject_1aa19ae518997e365fbfa1ddd81b04eb10" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>setAllVisualizeProperties</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a596ddb7a672b67d1d610a62a1e28e55a" prot="protected" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>setAllVisualizeProperties_</name></member>
+      <member refid="group__GeneralGroup_1ga596ddb7a672b67d1d610a62a1e28e55a" prot="protected" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>setAllVisualizeProperties_</name></member>
       <member refid="classMR_1_1VisualObject_1aa66ddfe5c8361744b9537dead37974b6" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>setAllVisualizePropertiesForEnum</name></member>
       <member refid="classMR_1_1VisualObject_1a932577d6970c183bc981e1b79cc256e4" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>setAmbientStrength</name></member>
       <member refid="classMR_1_1Object_1a3758df5e3fe75f83c0449e77770961b3" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>setAncillary</name></member>
       <member refid="classMR_1_1VisualObject_1a469ac6da4b8c323e12d0d78943831a4e" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>setBackColor</name></member>
       <member refid="classMR_1_1VisualObject_1a6b7e8cf2909d71a7537a47028f77913a" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>setBackColorsForAllViewports</name></member>
       <member refid="classMR_1_1VisualObject_1a8d339ad1cf1735f90773b4f8b89e9059" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>setColoringType</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1abe1e951932c506b306d367115a41e02c" prot="private" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>setDefaultColors_</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a5a6a53417a1bffe790748adf670da548" prot="private" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>setDefaultSceneProperties_</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a29d230eab5ae9ef093a8d9f9878ecb6a" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>setDirtyFlags</name></member>
+      <member refid="group__GeneralGroup_1gabe1e951932c506b306d367115a41e02c" prot="private" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>setDefaultColors_</name></member>
+      <member refid="group__GeneralGroup_1ga5a6a53417a1bffe790748adf670da548" prot="private" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>setDefaultSceneProperties_</name></member>
+      <member refid="group__GeneralGroup_1ga29d230eab5ae9ef093a8d9f9878ecb6a" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>setDirtyFlags</name></member>
       <member refid="classMR_1_1VisualObject_1a2261b98d651c586e2bc62a2e1efb902a" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>setDirtyFlagsFast_</name></member>
       <member refid="classMR_1_1VisualObject_1a0d1a64b6bed894b4236b06ac732dfd74" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>setFrontColor</name></member>
       <member refid="classMR_1_1VisualObject_1ac8fd310ffa1926e733e28b521f658778" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>setFrontColorsForAllViewports</name></member>
@@ -1763,21 +453,21 @@
       <member refid="classMR_1_1VisualObject_1a6212504702d0e12528f65b94e270069e" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>setGlobalClippedByPlane</name></member>
       <member refid="classMR_1_1Object_1af61964cafaa7f98e2b14f89fed277368" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>setGlobalVisibility</name></member>
       <member refid="classMR_1_1Object_1ac427b5b1a99a87eac1305683801fc850" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>setLocked</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a6d544e708ad4ac5612035941e897ca16" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>setMaxRenderingPoints</name></member>
+      <member refid="group__GeneralGroup_1ga6d544e708ad4ac5612035941e897ca16" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>setMaxRenderingPoints</name></member>
       <member refid="classMR_1_1Object_1ace89695fb0235bdf97caecfe26390349" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>setName</name></member>
       <member refid="classMR_1_1Object_1acd0464af4d89730f9a969f997fdcc8ce" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>setParentLocked</name></member>
       <member refid="classMR_1_1VisualObject_1add21d6793f336877707d5ed7b4785ce6" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>setPickable</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1aa7f91dadfb276318513e5f3022078c63" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>setPointSize</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a37fdb82e969da9523ee3f2deec8e9d75" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>setSavePointsFormat</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a9cb5c91de776239dbfc1ee5ff9c6715e" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>setSelectedVerticesColor</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1aee16d2b8918460907bba03f68431314c" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>setSelectedVerticesColorsForAllViewports</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a78c753d70a86a6fc77e04749d52da72b" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>setSerializeFormat</name></member>
+      <member refid="group__GeneralGroup_1gaa7f91dadfb276318513e5f3022078c63" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>setPointSize</name></member>
+      <member refid="group__GeneralGroup_1ga37fdb82e969da9523ee3f2deec8e9d75" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>setSavePointsFormat</name></member>
+      <member refid="group__GeneralGroup_1ga9cb5c91de776239dbfc1ee5ff9c6715e" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>setSelectedVerticesColor</name></member>
+      <member refid="group__GeneralGroup_1gaee16d2b8918460907bba03f68431314c" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>setSelectedVerticesColorsForAllViewports</name></member>
+      <member refid="group__GeneralGroup_1ga78c753d70a86a6fc77e04749d52da72b" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>setSerializeFormat</name></member>
       <member refid="classMR_1_1Object_1a911d7f54ae21939fe483b0f5caf04a66" prot="protected" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>setSharedModel_</name></member>
       <member refid="classMR_1_1VisualObject_1add52279d4cba695b4fa60d469cb8c1af" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>setShininess</name></member>
       <member refid="classMR_1_1VisualObject_1a455eb4255b591d822d504e0403c5e984" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>setSpecularStrength</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a3188b1f7d0a671ba6542d8d7e27174c1" prot="protected" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>setupRenderObject_</name></member>
+      <member refid="group__GeneralGroup_1ga3188b1f7d0a671ba6542d8d7e27174c1" prot="protected" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>setupRenderObject_</name></member>
       <member refid="classMR_1_1VisualObject_1a12fceb01c325ff73eb770fa255cb5ecf" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>setUseDefaultScenePropertiesOnDeserialization</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1acd5076d5c4b63ae07c67fb237ce83775" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>setVertsColorMap</name></member>
+      <member refid="group__GeneralGroup_1gacd5076d5c4b63ae07c67fb237ce83775" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>setVertsColorMap</name></member>
       <member refid="classMR_1_1Object_1a01ca9dab857ceb8e3fad3d04d271ff0e" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>setVisibilityMask</name></member>
       <member refid="classMR_1_1Object_1a4f9e9d6e328f1eda7944805cf9d52dc0" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>setVisible</name></member>
       <member refid="classMR_1_1VisualObject_1a2bbb1d0c58312e6cec629c558dec4eb8" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>setVisualizeProperty</name></member>
@@ -1785,40 +475,40 @@
       <member refid="classMR_1_1Object_1a214e37583ccaa45d92895464c6de685d" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>setWorldXf</name></member>
       <member refid="classMR_1_1Object_1a2f9761f33c2e77153389c9b3583e013e" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>setXf</name></member>
       <member refid="classMR_1_1Object_1a6d2214b6fde4d128210f1421cc36176d" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>setXfsForAllViewports</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1aafeb7e582463b9ab47d0465ddb7e8758" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>shallowClone</name></member>
+      <member refid="group__GeneralGroup_1gaafeb7e582463b9ab47d0465ddb7e8758" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>shallowClone</name></member>
       <member refid="classMR_1_1Object_1ac8e64c569d24d04c1dfcfe7cb1511580" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>shallowCloneTree</name></member>
       <member refid="classMR_1_1VisualObject_1a88b3d55070a6a91ed592e80b0f925419" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>shininess_</name></member>
       <member refid="classMR_1_1VisualObject_1aa23cd40dfdaaebc073129fb1ba57dce7" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>showName</name></member>
       <member refid="classMR_1_1VisualObject_1a6f691bb814bb6837382b81f60eff14c5" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>showName</name></member>
       <member refid="classMR_1_1VisualObject_1a611894e7f98e2633137d75833e361781" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>showName_</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a48270cb125e897505184be1003eb4500" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>showSelectedVertices_</name></member>
+      <member refid="group__GeneralGroup_1ga48270cb125e897505184be1003eb4500" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>showSelectedVertices_</name></member>
       <member refid="classMR_1_1Object_1a6f67ec7cbe1e69e514d8f0d5286a35da" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>sortChildren</name></member>
       <member refid="classMR_1_1VisualObject_1ab494630abaaab85d3b4c16929c7e6e83" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>specularStrength_</name></member>
       <member refid="classMR_1_1VisualObject_1aada7c90048febb2b7885af4b99e67f0e" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>StaticClassName</name></member>
       <member refid="classMR_1_1VisualObject_1a98cd3516a6d384fb7370afbc397cf704" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>StaticClassNameInPlural</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a4ead22366584724e5ebedeabffde6073" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>StaticTypeName</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a063fd6bcd742ad46b10c0cb3232d7fe4" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>supportsVisualizeProperty</name></member>
+      <member refid="group__GeneralGroup_1ga4ead22366584724e5ebedeabffde6073" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>StaticTypeName</name></member>
+      <member refid="group__GeneralGroup_1ga063fd6bcd742ad46b10c0cb3232d7fe4" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>supportsVisualizeProperty</name></member>
       <member refid="classMR_1_1Object_1a39e506e0816b1d504e86a2823ee90cf3" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>swap</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1aea1d998484c820abf8d0f350e035f139" prot="protected" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>swapBase_</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a2206a7673291c743de019228d79d5569" prot="protected" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>swapSignals_</name></member>
+      <member refid="group__GeneralGroup_1gaea1d998484c820abf8d0f350e035f139" prot="protected" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>swapBase_</name></member>
+      <member refid="group__GeneralGroup_1ga2206a7673291c743de019228d79d5569" prot="protected" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>swapSignals_</name></member>
       <member refid="classMR_1_1Object_1abf2e87d7dd67d22799d82a35ddecc7b3" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>tags</name></member>
       <member refid="classMR_1_1Object_1abf2154dc69866e93f47d7207cdb4abf4" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>tags_</name></member>
       <member refid="classMR_1_1VisualObject_1af63540ac95e6431477166fb4d1c249a3" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>toggleVisualizeProperty</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a56ae0abc43ac144e212830cf2233d413" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>typeName</name></member>
+      <member refid="group__GeneralGroup_1ga56ae0abc43ac144e212830cf2233d413" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>typeName</name></member>
       <member refid="classMR_1_1VisualObject_1a567b072f1d687c864a8be3d5e68d13a3" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>unselectedColor_</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a9cddf2a7ff90fd435aab61ca3770f048" prot="private" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>updateRenderDiscretization_</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a887e143b291be915ac30c0325781824f" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>updateSelectedPoints</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a2c17071846cdec9a78120404df0df2ac" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>updateVertsColorMap</name></member>
+      <member refid="group__GeneralGroup_1ga9cddf2a7ff90fd435aab61ca3770f048" prot="private" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>updateRenderDiscretization_</name></member>
+      <member refid="group__GeneralGroup_1ga887e143b291be915ac30c0325781824f" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>updateSelectedPoints</name></member>
+      <member refid="group__GeneralGroup_1ga2c17071846cdec9a78120404df0df2ac" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>updateVertsColorMap</name></member>
       <member refid="classMR_1_1VisualObject_1a0466c6ddefdea403775b5b4fa4a46219" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
       <member refid="classMR_1_1VisualObject_1aeed6d251c7bdbffe0634b0fe96faab35" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>useDefaultScenePropertiesOnDeserialization_</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a3bea7e24940446fdc81e38da2f8db14c" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>vertsColorMap_</name></member>
+      <member refid="group__GeneralGroup_1ga3bea7e24940446fdc81e38da2f8db14c" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>vertsColorMap_</name></member>
       <member refid="classMR_1_1Object_1a9363ba86191cc486fa554ea0d6238d05" prot="public" virt="virtual"><scope>MR::ObjectPointsHolder</scope><name>visibilityMask</name></member>
       <member refid="classMR_1_1Object_1ae98466115f6fa8989c8628ff6ec54e9e" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>visibilityMask_</name></member>
       <member refid="classMR_1_1VisualObject_1a248a0efabc82874bd29ca605c2fb7481" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>VisualObject</name></member>
       <member refid="classMR_1_1VisualObject_1a95016bb1aefebfa8952ac3457cc57ee4" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>VisualObject</name></member>
       <member refid="classMR_1_1VisualObject_1a132f300dcd5614eaaa237b865dc79763" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>VisualObject</name></member>
       <member refid="classMR_1_1VisualObject_1a84d46a3ce3da143b5735f0b6ac79deee" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>VisualObject</name></member>
-      <member refid="classMR_1_1ObjectPointsHolder_1a896a4967afa85824de6ebc22a609a95d" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>worldBox_</name></member>
+      <member refid="group__GeneralGroup_1ga896a4967afa85824de6ebc22a609a95d" prot="protected" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>worldBox_</name></member>
       <member refid="classMR_1_1Object_1adf99bf3b0a5a59452a7e4efd6f48b657" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>worldXf</name></member>
       <member refid="classMR_1_1Object_1a84debbb8e5d281139acb86024c2f7964" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>worldXfChangedSignal</name></member>
       <member refid="classMR_1_1Object_1a603c094ba75fe76c397b93e84d1cb129" prot="public" virt="non-virtual"><scope>MR::ObjectPointsHolder</scope><name>xf</name></member>

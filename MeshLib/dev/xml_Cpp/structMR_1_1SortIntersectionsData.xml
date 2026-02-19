@@ -4,92 +4,12 @@
     <compoundname>MR::SortIntersectionsData</compoundname>
     <includes refid="MROneMeshContours_8h" local="no">MROneMeshContours.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1SortIntersectionsData_1ac190f44f37a1e2b9ece5d869fe02015d" prot="public" static="no" mutable="no">
-        <type>const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &amp;</type>
-        <definition>const Mesh&amp; MR::SortIntersectionsData::otherMesh</definition>
-        <argsstring></argsstring>
-        <name>otherMesh</name>
-        <qualifiedname>MR::SortIntersectionsData::otherMesh</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" line="15" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1SortIntersectionsData_1a3e022423fc25738632598f90c2caf5b1" prot="public" static="no" mutable="no">
-        <type>const <ref refid="namespaceMR_1a9f26ad2470dbd62255be7fc1cab2b503" kindref="member">ContinuousContours</ref> &amp;</type>
-        <definition>const ContinuousContours&amp; MR::SortIntersectionsData::contours</definition>
-        <argsstring></argsstring>
-        <name>contours</name>
-        <qualifiedname>MR::SortIntersectionsData::contours</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" line="16" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1SortIntersectionsData_1a4799d62c8691f94b44fc3c7f3a77bbe4" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1ab81d3ad87ff9cd57deee77336ddf83e1" kindref="member">ConvertToIntVector</ref></type>
-        <definition>ConvertToIntVector MR::SortIntersectionsData::converter</definition>
-        <argsstring></argsstring>
-        <name>converter</name>
-        <qualifiedname>MR::SortIntersectionsData::converter</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" line="17" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1SortIntersectionsData_1a24cce95182673d88059c5d9a38905fc0" prot="public" static="no" mutable="no">
-        <type>const AffineXf3f *</type>
-        <definition>const AffineXf3f* MR::SortIntersectionsData::rigidB2A</definition>
-        <argsstring></argsstring>
-        <name>rigidB2A</name>
-        <qualifiedname>MR::SortIntersectionsData::rigidB2A</qualifiedname>
-        <initializer>{nullptr}</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" line="18" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" bodystart="18" bodyend="18"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1SortIntersectionsData_1a4ffc178d247321fb6150846084fd616a" prot="public" static="no" mutable="no">
-        <type>size_t</type>
-        <definition>size_t MR::SortIntersectionsData::meshAVertsNum</definition>
-        <argsstring></argsstring>
-        <name>meshAVertsNum</name>
-        <qualifiedname>MR::SortIntersectionsData::meshAVertsNum</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" line="19" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" bodystart="19" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1SortIntersectionsData_1a64cd77d679e163bbff985d79336ae2c4" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::SortIntersectionsData::isOtherA</definition>
-        <argsstring></argsstring>
-        <name>isOtherA</name>
-        <qualifiedname>MR::SortIntersectionsData::isOtherA</qualifiedname>
-        <initializer>{false}</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" line="20" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" bodystart="20" bodyend="20"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gac190f44f37a1e2b9ece5d869fe02015d" kind="variable"><name>otherMesh</name></member>
+      <member refid="group__GeneralGroup_1ga3e022423fc25738632598f90c2caf5b1" kind="variable"><name>contours</name></member>
+      <member refid="group__GeneralGroup_1ga4799d62c8691f94b44fc3c7f3a77bbe4" kind="variable"><name>converter</name></member>
+      <member refid="group__GeneralGroup_1ga24cce95182673d88059c5d9a38905fc0" kind="variable"><name>rigidB2A</name></member>
+      <member refid="group__GeneralGroup_1ga4ffc178d247321fb6150846084fd616a" kind="variable"><name>meshAVertsNum</name></member>
+      <member refid="group__GeneralGroup_1ga64cd77d679e163bbff985d79336ae2c4" kind="variable"><name>isOtherA</name></member>
     </sectiondef>
     <briefdescription>
 <para>Special data to sort intersections more accurate. </para>
@@ -116,14 +36,14 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" bodystart="14" bodyend="21"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" bodystart="17" bodyend="24"/>
     <listofallmembers>
-      <member refid="structMR_1_1SortIntersectionsData_1a3e022423fc25738632598f90c2caf5b1" prot="public" virt="non-virtual"><scope>MR::SortIntersectionsData</scope><name>contours</name></member>
-      <member refid="structMR_1_1SortIntersectionsData_1a4799d62c8691f94b44fc3c7f3a77bbe4" prot="public" virt="non-virtual"><scope>MR::SortIntersectionsData</scope><name>converter</name></member>
-      <member refid="structMR_1_1SortIntersectionsData_1a64cd77d679e163bbff985d79336ae2c4" prot="public" virt="non-virtual"><scope>MR::SortIntersectionsData</scope><name>isOtherA</name></member>
-      <member refid="structMR_1_1SortIntersectionsData_1a4ffc178d247321fb6150846084fd616a" prot="public" virt="non-virtual"><scope>MR::SortIntersectionsData</scope><name>meshAVertsNum</name></member>
-      <member refid="structMR_1_1SortIntersectionsData_1ac190f44f37a1e2b9ece5d869fe02015d" prot="public" virt="non-virtual"><scope>MR::SortIntersectionsData</scope><name>otherMesh</name></member>
-      <member refid="structMR_1_1SortIntersectionsData_1a24cce95182673d88059c5d9a38905fc0" prot="public" virt="non-virtual"><scope>MR::SortIntersectionsData</scope><name>rigidB2A</name></member>
+      <member refid="group__GeneralGroup_1ga3e022423fc25738632598f90c2caf5b1" prot="public" virt="non-virtual"><scope>MR::SortIntersectionsData</scope><name>contours</name></member>
+      <member refid="group__GeneralGroup_1ga4799d62c8691f94b44fc3c7f3a77bbe4" prot="public" virt="non-virtual"><scope>MR::SortIntersectionsData</scope><name>converter</name></member>
+      <member refid="group__GeneralGroup_1ga64cd77d679e163bbff985d79336ae2c4" prot="public" virt="non-virtual"><scope>MR::SortIntersectionsData</scope><name>isOtherA</name></member>
+      <member refid="group__GeneralGroup_1ga4ffc178d247321fb6150846084fd616a" prot="public" virt="non-virtual"><scope>MR::SortIntersectionsData</scope><name>meshAVertsNum</name></member>
+      <member refid="group__GeneralGroup_1gac190f44f37a1e2b9ece5d869fe02015d" prot="public" virt="non-virtual"><scope>MR::SortIntersectionsData</scope><name>otherMesh</name></member>
+      <member refid="group__GeneralGroup_1ga24cce95182673d88059c5d9a38905fc0" prot="public" virt="non-virtual"><scope>MR::SortIntersectionsData</scope><name>rigidB2A</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

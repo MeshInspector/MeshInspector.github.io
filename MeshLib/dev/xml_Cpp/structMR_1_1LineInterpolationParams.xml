@@ -4,64 +4,19 @@
     <compoundname>MR::LineInterpolationParams</compoundname>
     <includes refid="MRToolPath_8h" local="no">MRToolPath.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1LineInterpolationParams_1a00b2d591ecca68af7d6e8cbd8d119b05" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::LineInterpolationParams::eps</definition>
-        <argsstring></argsstring>
-        <name>eps</name>
-        <qualifiedname>MR::LineInterpolationParams::eps</qualifiedname>
-        <initializer>= {}</initializer>
-        <briefdescription>
-<para>maximal deviation from given line </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="76" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="76" bodyend="76"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1LineInterpolationParams_1a588b14865af06878e86ac78f0f16a5e2" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::LineInterpolationParams::maxLength</definition>
-        <argsstring></argsstring>
-        <name>maxLength</name>
-        <qualifiedname>MR::LineInterpolationParams::maxLength</qualifiedname>
-        <initializer>= {}</initializer>
-        <briefdescription>
-<para>maximal length of the line </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="78" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="78" bodyend="78"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1LineInterpolationParams_1a56f66f6964e1a35b9ad98d4ea792c248" prot="public" static="no" mutable="no">
-        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
-        <definition>ProgressCallback MR::LineInterpolationParams::cb</definition>
-        <argsstring></argsstring>
-        <name>cb</name>
-        <qualifiedname>MR::LineInterpolationParams::cb</qualifiedname>
-        <initializer>= {}</initializer>
-        <briefdescription>
-<para>callback for reporting on progress </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="80" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="80" bodyend="80"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga00b2d591ecca68af7d6e8cbd8d119b05" kind="variable"><name>eps</name></member>
+      <member refid="group__GeneralGroup_1ga588b14865af06878e86ac78f0f16a5e2" kind="variable"><name>maxLength</name></member>
+      <member refid="group__GeneralGroup_1ga56f66f6964e1a35b9ad98d4ea792c248" kind="variable"><name>cb</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="73" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="74" bodyend="81"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="76" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="77" bodyend="84"/>
     <listofallmembers>
-      <member refid="structMR_1_1LineInterpolationParams_1a56f66f6964e1a35b9ad98d4ea792c248" prot="public" virt="non-virtual"><scope>MR::LineInterpolationParams</scope><name>cb</name></member>
-      <member refid="structMR_1_1LineInterpolationParams_1a00b2d591ecca68af7d6e8cbd8d119b05" prot="public" virt="non-virtual"><scope>MR::LineInterpolationParams</scope><name>eps</name></member>
-      <member refid="structMR_1_1LineInterpolationParams_1a588b14865af06878e86ac78f0f16a5e2" prot="public" virt="non-virtual"><scope>MR::LineInterpolationParams</scope><name>maxLength</name></member>
+      <member refid="group__GeneralGroup_1ga56f66f6964e1a35b9ad98d4ea792c248" prot="public" virt="non-virtual"><scope>MR::LineInterpolationParams</scope><name>cb</name></member>
+      <member refid="group__GeneralGroup_1ga00b2d591ecca68af7d6e8cbd8d119b05" prot="public" virt="non-virtual"><scope>MR::LineInterpolationParams</scope><name>eps</name></member>
+      <member refid="group__GeneralGroup_1ga588b14865af06878e86ac78f0f16a5e2" prot="public" virt="non-virtual"><scope>MR::LineInterpolationParams</scope><name>maxLength</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

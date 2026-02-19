@@ -21,7 +21,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" line="30" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" bodystart="30" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="classMR_1_1AABBTreePoints_1a2f7aeba60ac6d266e6f4c8994d4f534c" prot="public" static="no">
-        <type>TaggedBitSet&lt; <ref refid="namespaceMR_1a377a98e08f145435910c6f6f568722b3" kindref="member">NodeTag</ref> &gt;</type>
+        <type>TaggedBitSet&lt; NodeTag &gt;</type>
         <definition>using MR::AABBTreePoints::NodeBitSet =  TaggedBitSet&lt;NodeTag&gt;</definition>
         <argsstring></argsstring>
         <name>NodeBitSet</name>
@@ -182,7 +182,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" line="43" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" bodystart="43" bodyend="43"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1AABBTreePoints_1afe5c12db028de0c7152524376a92c38b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <type>MRMESH_API</type>
         <definition>MRMESH_API MR::AABBTreePoints::AABBTreePoints</definition>
         <argsstring>(const PointCloud &amp;pointCloud)</argsstring>
         <name>AABBTreePoints</name>
@@ -201,7 +201,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" line="46" column="16"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1AABBTreePoints_1ab159b10db8a36b63387eb1149c826dbd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <type>MRMESH_API</type>
         <definition>MRMESH_API MR::AABBTreePoints::AABBTreePoints</definition>
         <argsstring>(const Mesh &amp;mesh)</argsstring>
         <name>AABBTreePoints</name>
@@ -220,7 +220,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" line="48" column="16"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1AABBTreePoints_1a976151993a24b9b4ac94b8aff478f69e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <type>MRMESH_API</type>
         <definition>MRMESH_API MR::AABBTreePoints::AABBTreePoints</definition>
         <argsstring>(const VertCoords &amp;points, const VertBitSet *validPoints=nullptr)</argsstring>
         <name>AABBTreePoints</name>
@@ -244,7 +244,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" line="50" column="16"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1AABBTreePoints_1a8154a2813c0a69767e82f1f67be5161c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="namespaceMR_1ac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref></type>
+        <type><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref></type>
         <definition>MR_BIND_IGNORE MR::AABBTreePoints::AABBTreePoints</definition>
         <argsstring>(const VertCoords &amp;points, const VertBitSet &amp;validPoints)</argsstring>
         <name>AABBTreePoints</name>
@@ -301,7 +301,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" line="60" column="21"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1AABBTreePoints_1afda8c5fe845e055b0d3e838046ee1996" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::AABBTreePoints::getLeafOrder</definition>
         <argsstring>(VertBMap &amp;vertMap) const</argsstring>
         <name>getLeafOrder</name>
@@ -320,7 +320,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" line="64" column="21"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1AABBTreePoints_1a0423d1153871df30826966748ac710a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::AABBTreePoints::getLeafOrderAndReset</definition>
         <argsstring>(VertBMap &amp;vertMap)</argsstring>
         <name>getLeafOrderAndReset</name>
@@ -339,7 +339,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" line="68" column="21"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1AABBTreePoints_1a1a8a3bec838147878ea5d896d024d881" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> size_t</type>
+        <type>MRMESH_API size_t</type>
         <definition>MRMESH_API size_t MR::AABBTreePoints::heapBytes</definition>
         <argsstring>() const</argsstring>
         <name>heapBytes</name>
@@ -354,7 +354,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" line="71" column="24"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1AABBTreePoints_1ab5f64a7b70e62b9965109f36108247e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::AABBTreePoints::refit</definition>
         <argsstring>(const VertCoords &amp;newCoords, const VertBitSet &amp;changedVerts)</argsstring>
         <name>refit</name>

@@ -5,80 +5,12 @@
     <basecompoundref refid="structMR_1_1ConnectionHolder" prot="public" virt="non-virtual">MR::ConnectionHolder</basecompoundref>
     <includes refid="MRViewerEventsListener_8h" local="no">MRViewerEventsListener.h</includes>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1InterruptCloseListener_1a9cd1676a4e7cfec815de633788a28894" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::InterruptCloseListener::MR_ADD_CTOR_DELETE_MOVE</definition>
-        <argsstring>(InterruptCloseListener)</argsstring>
-        <name>MR_ADD_CTOR_DELETE_MOVE</name>
-        <qualifiedname>MR::InterruptCloseListener::MR_ADD_CTOR_DELETE_MOVE</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1InterruptCloseListener" kindref="compound">InterruptCloseListener</ref></type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="232" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1InterruptCloseListener_1a9b215bb36d1f025f2b907911acc49542" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type></type>
-        <definition>virtual MR::InterruptCloseListener::~InterruptCloseListener</definition>
-        <argsstring>()=default</argsstring>
-        <name>~InterruptCloseListener</name>
-        <qualifiedname>MR::InterruptCloseListener::~InterruptCloseListener</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="233" column="13"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1InterruptCloseListener_1a93d20fb33a5fdc587397d3cbd079d6c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>virtual MRVIEWER_API void MR::InterruptCloseListener::connect</definition>
-        <argsstring>(Viewer *viewer, int group, boost::signals2::connect_position pos) override</argsstring>
-        <name>connect</name>
-        <qualifiedname>MR::InterruptCloseListener::connect</qualifiedname>
-        <reimplements refid="structMR_1_1IConnectable_1a2212095d3996892cff578320ac2ce746">connect</reimplements>
-        <param>
-          <type><ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref> *</type>
-          <declname>viewer</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>group</declname>
-        </param>
-        <param>
-          <type>boost::signals2::connect_position</type>
-          <declname>pos</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="234" column="31"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga9cd1676a4e7cfec815de633788a28894" kind="function"><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1ga9b215bb36d1f025f2b907911acc49542" kind="function"><name>~InterruptCloseListener</name></member>
+      <member refid="group__GeneralGroup_1ga93d20fb33a5fdc587397d3cbd079d6c7" kind="function"><name>connect</name></member>
     </sectiondef>
     <sectiondef kind="protected-func">
-      <memberdef kind="function" id="structMR_1_1InterruptCloseListener_1af380fa89eb3a2d038f3c24cd2d703ec6" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::InterruptCloseListener::interruptClose_</definition>
-        <argsstring>()=0</argsstring>
-        <name>interruptClose_</name>
-        <qualifiedname>MR::InterruptCloseListener::interruptClose_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="236" column="18"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaf380fa89eb3a2d038f3c24cd2d703ec6" kind="function"><name>interruptClose_</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -120,16 +52,16 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="230" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="231" bodyend="237"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="233" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="234" bodyend="240"/>
     <listofallmembers>
-      <member refid="structMR_1_1InterruptCloseListener_1a93d20fb33a5fdc587397d3cbd079d6c7" prot="public" virt="virtual"><scope>MR::InterruptCloseListener</scope><name>connect</name></member>
-      <member refid="structMR_1_1ConnectionHolder_1a56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::InterruptCloseListener</scope><name>connection_</name></member>
-      <member refid="structMR_1_1ConnectionHolder_1afe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::InterruptCloseListener</scope><name>disconnect</name></member>
-      <member refid="structMR_1_1InterruptCloseListener_1af380fa89eb3a2d038f3c24cd2d703ec6" prot="protected" virt="pure-virtual"><scope>MR::InterruptCloseListener</scope><name>interruptClose_</name></member>
-      <member refid="structMR_1_1InterruptCloseListener_1a9cd1676a4e7cfec815de633788a28894" prot="public" virt="non-virtual"><scope>MR::InterruptCloseListener</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
-      <member refid="structMR_1_1ConnectionHolder_1a99ffc44dd73f73e2e907b7ab5bb38aaf" prot="public" virt="virtual"><scope>MR::InterruptCloseListener</scope><name>~ConnectionHolder</name></member>
-      <member refid="structMR_1_1IConnectable_1a28c07761e682b80befbb2d5f91bdd38c" prot="public" virt="virtual"><scope>MR::InterruptCloseListener</scope><name>~IConnectable</name></member>
-      <member refid="structMR_1_1InterruptCloseListener_1a9b215bb36d1f025f2b907911acc49542" prot="public" virt="virtual"><scope>MR::InterruptCloseListener</scope><name>~InterruptCloseListener</name></member>
+      <member refid="group__GeneralGroup_1ga93d20fb33a5fdc587397d3cbd079d6c7" prot="public" virt="virtual"><scope>MR::InterruptCloseListener</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1ga56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::InterruptCloseListener</scope><name>connection_</name></member>
+      <member refid="group__GeneralGroup_1gafe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::InterruptCloseListener</scope><name>disconnect</name></member>
+      <member refid="group__GeneralGroup_1gaf380fa89eb3a2d038f3c24cd2d703ec6" prot="protected" virt="pure-virtual"><scope>MR::InterruptCloseListener</scope><name>interruptClose_</name></member>
+      <member refid="group__GeneralGroup_1ga9cd1676a4e7cfec815de633788a28894" prot="public" virt="non-virtual"><scope>MR::InterruptCloseListener</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1ga99ffc44dd73f73e2e907b7ab5bb38aaf" prot="public" virt="virtual"><scope>MR::InterruptCloseListener</scope><name>~ConnectionHolder</name></member>
+      <member refid="group__GeneralGroup_1ga28c07761e682b80befbb2d5f91bdd38c" prot="public" virt="virtual"><scope>MR::InterruptCloseListener</scope><name>~IConnectable</name></member>
+      <member refid="group__GeneralGroup_1ga9b215bb36d1f025f2b907911acc49542" prot="public" virt="virtual"><scope>MR::InterruptCloseListener</scope><name>~InterruptCloseListener</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

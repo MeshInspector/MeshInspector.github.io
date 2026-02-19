@@ -4,169 +4,36 @@
     <compoundname>MR::RibbonSchema</compoundname>
     <includes refid="MRRibbonSchema_8h" local="no">MRRibbonSchema.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1RibbonSchema_1a5773b44f78b9e6a2610bf2260a1891bd" prot="public" static="no" mutable="no">
-        <type>std::vector&lt; <ref refid="structMR_1_1RibbonTab" kindref="compound">RibbonTab</ref> &gt;</type>
-        <definition>std::vector&lt;RibbonTab&gt; MR::RibbonSchema::tabsOrder</definition>
-        <argsstring></argsstring>
-        <name>tabsOrder</name>
-        <qualifiedname>MR::RibbonSchema::tabsOrder</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="60" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" bodystart="60" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1RibbonSchema_1a21a3586ebedfeb4b958b58b82d741fb8" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1a9156ba38070249801207259b1b438e47" kindref="member">TabsGroupsMap</ref></type>
-        <definition>TabsGroupsMap MR::RibbonSchema::tabsMap</definition>
-        <argsstring></argsstring>
-        <name>tabsMap</name>
-        <qualifiedname>MR::RibbonSchema::tabsMap</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="61" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" bodystart="61" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1RibbonSchema_1a55e0334c55b2b6a85bc323a85f88ea10" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1ad42a75e584073228a798aaddab06e6f4" kindref="member">GroupsItemsMap</ref></type>
-        <definition>GroupsItemsMap MR::RibbonSchema::groupsMap</definition>
-        <argsstring></argsstring>
-        <name>groupsMap</name>
-        <qualifiedname>MR::RibbonSchema::groupsMap</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="62" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" bodystart="62" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1RibbonSchema_1ab33aec85ce2ca0672bc4605ba54e2fe1" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1a55efef56c0d2d0a5eabf81b134ec39c9" kindref="member">ItemMap</ref></type>
-        <definition>ItemMap MR::RibbonSchema::items</definition>
-        <argsstring></argsstring>
-        <name>items</name>
-        <qualifiedname>MR::RibbonSchema::items</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="63" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" bodystart="63" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1RibbonSchema_1a2001ba5c144da0024d60ad381cb6fc5b" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1a8201e149aed09ff61bb82c538012fbd1" kindref="member">MenuItemsList</ref></type>
-        <definition>MenuItemsList MR::RibbonSchema::defaultQuickAccessList</definition>
-        <argsstring></argsstring>
-        <name>defaultQuickAccessList</name>
-        <qualifiedname>MR::RibbonSchema::defaultQuickAccessList</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="64" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" bodystart="64" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1RibbonSchema_1aff336be3c724c96b01194c689d9bdac9" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1a8201e149aed09ff61bb82c538012fbd1" kindref="member">MenuItemsList</ref></type>
-        <definition>MenuItemsList MR::RibbonSchema::headerQuickAccessList</definition>
-        <argsstring></argsstring>
-        <name>headerQuickAccessList</name>
-        <qualifiedname>MR::RibbonSchema::headerQuickAccessList</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="65" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" bodystart="65" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1RibbonSchema_1a10236edecf0d4d4b8fe8a8cec7faee6b" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1a8201e149aed09ff61bb82c538012fbd1" kindref="member">MenuItemsList</ref></type>
-        <definition>MenuItemsList MR::RibbonSchema::sceneButtonsList</definition>
-        <argsstring></argsstring>
-        <name>sceneButtonsList</name>
-        <qualifiedname>MR::RibbonSchema::sceneButtonsList</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="66" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" bodystart="66" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga5773b44f78b9e6a2610bf2260a1891bd" kind="variable"><name>tabsOrder</name></member>
+      <member refid="group__GeneralGroup_1ga21a3586ebedfeb4b958b58b82d741fb8" kind="variable"><name>tabsMap</name></member>
+      <member refid="group__GeneralGroup_1ga55e0334c55b2b6a85bc323a85f88ea10" kind="variable"><name>groupsMap</name></member>
+      <member refid="group__GeneralGroup_1gab33aec85ce2ca0672bc4605ba54e2fe1" kind="variable"><name>items</name></member>
+      <member refid="group__GeneralGroup_1ga2001ba5c144da0024d60ad381cb6fc5b" kind="variable"><name>defaultQuickAccessList</name></member>
+      <member refid="group__GeneralGroup_1gaff336be3c724c96b01194c689d9bdac9" kind="variable"><name>headerQuickAccessList</name></member>
+      <member refid="group__GeneralGroup_1ga10236edecf0d4d4b8fe8a8cec7faee6b" kind="variable"><name>sceneButtonsList</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1RibbonSchema_1a0f637361de5a95f82fb2a89a6eb23351" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::RibbonSchema::eliminateEmptyGroups</definition>
-        <argsstring>()</argsstring>
-        <name>eliminateEmptyGroups</name>
-        <qualifiedname>MR::RibbonSchema::eliminateEmptyGroups</qualifiedname>
-        <briefdescription>
-<para>deletes empty groups (and references on them from tabs) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="69" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1RibbonSchema_1aa723570687ac4d1ccc83d6a5305e69dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::RibbonSchema::sortTabsByPriority</definition>
-        <argsstring>()</argsstring>
-        <name>sortTabsByPriority</name>
-        <qualifiedname>MR::RibbonSchema::sortTabsByPriority</qualifiedname>
-        <briefdescription>
-<para>re-order items in tabsOrder according to their priority, the order of items having same priority is preserved </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="72" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1RibbonSchema_1a0c1f7b3946e054a392a6a4699ab6c3ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::RibbonSchema::updateCaptions</definition>
-        <argsstring>()</argsstring>
-        <name>updateCaptions</name>
-        <qualifiedname>MR::RibbonSchema::updateCaptions</qualifiedname>
-        <briefdescription>
-<para>updates inner caption for all StateBasePlugins in schema </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="75" column="23"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga0f637361de5a95f82fb2a89a6eb23351" kind="function"><name>eliminateEmptyGroups</name></member>
+      <member refid="group__GeneralGroup_1gaa723570687ac4d1ccc83d6a5305e69dd" kind="function"><name>sortTabsByPriority</name></member>
+      <member refid="group__GeneralGroup_1ga0c1f7b3946e054a392a6a4699ab6c3ec" kind="function"><name>updateCaptions</name></member>
     </sectiondef>
     <briefdescription>
 <para>This structure describes <ref refid="namespaceMR_1_1UI" kindref="compound">UI</ref> schema of ribbon menu. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="58" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" bodystart="59" bodyend="76"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="61" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" bodystart="62" bodyend="79"/>
     <listofallmembers>
-      <member refid="structMR_1_1RibbonSchema_1a2001ba5c144da0024d60ad381cb6fc5b" prot="public" virt="non-virtual"><scope>MR::RibbonSchema</scope><name>defaultQuickAccessList</name></member>
-      <member refid="structMR_1_1RibbonSchema_1a0f637361de5a95f82fb2a89a6eb23351" prot="public" virt="non-virtual"><scope>MR::RibbonSchema</scope><name>eliminateEmptyGroups</name></member>
-      <member refid="structMR_1_1RibbonSchema_1a55e0334c55b2b6a85bc323a85f88ea10" prot="public" virt="non-virtual"><scope>MR::RibbonSchema</scope><name>groupsMap</name></member>
-      <member refid="structMR_1_1RibbonSchema_1aff336be3c724c96b01194c689d9bdac9" prot="public" virt="non-virtual"><scope>MR::RibbonSchema</scope><name>headerQuickAccessList</name></member>
-      <member refid="structMR_1_1RibbonSchema_1ab33aec85ce2ca0672bc4605ba54e2fe1" prot="public" virt="non-virtual"><scope>MR::RibbonSchema</scope><name>items</name></member>
-      <member refid="structMR_1_1RibbonSchema_1a10236edecf0d4d4b8fe8a8cec7faee6b" prot="public" virt="non-virtual"><scope>MR::RibbonSchema</scope><name>sceneButtonsList</name></member>
-      <member refid="structMR_1_1RibbonSchema_1aa723570687ac4d1ccc83d6a5305e69dd" prot="public" virt="non-virtual"><scope>MR::RibbonSchema</scope><name>sortTabsByPriority</name></member>
-      <member refid="structMR_1_1RibbonSchema_1a21a3586ebedfeb4b958b58b82d741fb8" prot="public" virt="non-virtual"><scope>MR::RibbonSchema</scope><name>tabsMap</name></member>
-      <member refid="structMR_1_1RibbonSchema_1a5773b44f78b9e6a2610bf2260a1891bd" prot="public" virt="non-virtual"><scope>MR::RibbonSchema</scope><name>tabsOrder</name></member>
-      <member refid="structMR_1_1RibbonSchema_1a0c1f7b3946e054a392a6a4699ab6c3ec" prot="public" virt="non-virtual"><scope>MR::RibbonSchema</scope><name>updateCaptions</name></member>
+      <member refid="group__GeneralGroup_1ga2001ba5c144da0024d60ad381cb6fc5b" prot="public" virt="non-virtual"><scope>MR::RibbonSchema</scope><name>defaultQuickAccessList</name></member>
+      <member refid="group__GeneralGroup_1ga0f637361de5a95f82fb2a89a6eb23351" prot="public" virt="non-virtual"><scope>MR::RibbonSchema</scope><name>eliminateEmptyGroups</name></member>
+      <member refid="group__GeneralGroup_1ga55e0334c55b2b6a85bc323a85f88ea10" prot="public" virt="non-virtual"><scope>MR::RibbonSchema</scope><name>groupsMap</name></member>
+      <member refid="group__GeneralGroup_1gaff336be3c724c96b01194c689d9bdac9" prot="public" virt="non-virtual"><scope>MR::RibbonSchema</scope><name>headerQuickAccessList</name></member>
+      <member refid="group__GeneralGroup_1gab33aec85ce2ca0672bc4605ba54e2fe1" prot="public" virt="non-virtual"><scope>MR::RibbonSchema</scope><name>items</name></member>
+      <member refid="group__GeneralGroup_1ga10236edecf0d4d4b8fe8a8cec7faee6b" prot="public" virt="non-virtual"><scope>MR::RibbonSchema</scope><name>sceneButtonsList</name></member>
+      <member refid="group__GeneralGroup_1gaa723570687ac4d1ccc83d6a5305e69dd" prot="public" virt="non-virtual"><scope>MR::RibbonSchema</scope><name>sortTabsByPriority</name></member>
+      <member refid="group__GeneralGroup_1ga21a3586ebedfeb4b958b58b82d741fb8" prot="public" virt="non-virtual"><scope>MR::RibbonSchema</scope><name>tabsMap</name></member>
+      <member refid="group__GeneralGroup_1ga5773b44f78b9e6a2610bf2260a1891bd" prot="public" virt="non-virtual"><scope>MR::RibbonSchema</scope><name>tabsOrder</name></member>
+      <member refid="group__GeneralGroup_1ga0c1f7b3946e054a392a6a4699ab6c3ec" prot="public" virt="non-virtual"><scope>MR::RibbonSchema</scope><name>updateCaptions</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -189,7 +189,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRectIndexer.h" line="53" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRectIndexer.h" bodystart="53" bodyend="53"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1RectIndexer_1ac517f36a12430a41779b1e7fd847684b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> PixelId</type>
+        <type>MRMESH_API PixelId</type>
         <definition>MRMESH_API PixelId MR::RectIndexer::getNeighbor</definition>
         <argsstring>(PixelId v, const Vector2i &amp;pos, OutEdge2 toNei) const</argsstring>
         <name>getNeighbor</name>

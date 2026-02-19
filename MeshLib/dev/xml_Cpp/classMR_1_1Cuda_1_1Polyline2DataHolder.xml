@@ -49,7 +49,7 @@
     </sectiondef>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1Cuda_1_1Polyline2DataHolder_1a5ce3f1afdf8bc14fd31b7480a0ccc596" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRCUDA_API <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="classMR_1_1Cuda_1_1Polyline2DataHolder" kindref="compound">Polyline2DataHolder</ref> &gt;</type>
+        <type>MRCUDA_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="classMR_1_1Cuda_1_1Polyline2DataHolder" kindref="compound">Polyline2DataHolder</ref> &gt;</type>
         <definition>static MRCUDA_API Expected&lt; Polyline2DataHolder &gt; MR::Cuda::Polyline2DataHolder::fromLines</definition>
         <argsstring>(const Polyline2 &amp;polyline)</argsstring>
         <name>fromLines</name>

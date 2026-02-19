@@ -4,69 +4,10 @@
     <compoundname>MR::SceneReorder</compoundname>
     <includes refid="MRSceneReorder_8h" local="no">MRSceneReorder.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1SceneReorder_1ad02567fbc39d8a94b4870c8b0f55a01a" prot="public" static="no" mutable="no">
-        <type>std::vector&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> * &gt;</type>
-        <definition>std::vector&lt;Object*&gt; MR::SceneReorder::who</definition>
-        <argsstring></argsstring>
-        <name>who</name>
-        <qualifiedname>MR::SceneReorder::who</qualifiedname>
-        <briefdescription>
-<para>objects that will be moved </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneReorder.h" line="12" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneReorder.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1SceneReorder_1abacbb4958924f1ae24622120a956b43f" prot="public" static="no" mutable="no">
-        <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> *</type>
-        <definition>Object* MR::SceneReorder::to</definition>
-        <argsstring></argsstring>
-        <name>to</name>
-        <qualifiedname>MR::SceneReorder::to</qualifiedname>
-        <initializer>{ nullptr }</initializer>
-        <briefdescription>
-<para>target object </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneReorder.h" line="15" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneReorder.h" bodystart="15" bodyend="15"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1SceneReorder_1ab39a433324beece46d83541e3d195aa1" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::SceneReorder::before</definition>
-        <argsstring></argsstring>
-        <name>before</name>
-        <qualifiedname>MR::SceneReorder::before</qualifiedname>
-        <initializer>{ false }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>if false, each &quot;who&quot; will be attached to &quot;to&quot; as last child, if true, each &quot;who&quot; will be attached to &quot;to&quot;&apos;s parent as a child before &quot;to&quot; </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneReorder.h" line="19" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneReorder.h" bodystart="19" bodyend="19"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1SceneReorder_1a1c8fd0f37268e8e1bf9729aff0c21300" prot="public" static="no" mutable="no">
-        <type>std::string</type>
-        <definition>std::string MR::SceneReorder::historyName</definition>
-        <argsstring></argsstring>
-        <name>historyName</name>
-        <qualifiedname>MR::SceneReorder::historyName</qualifiedname>
-        <initializer>{ &quot;Reorder Scene&quot; }</initializer>
-        <briefdescription>
-<para>the name of added undo history scope </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneReorder.h" line="22" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneReorder.h" bodystart="22" bodyend="22"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gad02567fbc39d8a94b4870c8b0f55a01a" kind="variable"><name>who</name></member>
+      <member refid="group__GeneralGroup_1gabacbb4958924f1ae24622120a956b43f" kind="variable"><name>to</name></member>
+      <member refid="group__GeneralGroup_1gab39a433324beece46d83541e3d195aa1" kind="variable"><name>before</name></member>
+      <member refid="group__GeneralGroup_1ga1c8fd0f37268e8e1bf9729aff0c21300" kind="variable"><name>historyName</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -120,12 +61,12 @@
         <label>boost::signals2::signal&lt; void() &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneReorder.h" line="9" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneReorder.h" bodystart="10" bodyend="23"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneReorder.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneReorder.h" bodystart="13" bodyend="26"/>
     <listofallmembers>
-      <member refid="structMR_1_1SceneReorder_1ab39a433324beece46d83541e3d195aa1" prot="public" virt="non-virtual"><scope>MR::SceneReorder</scope><name>before</name></member>
-      <member refid="structMR_1_1SceneReorder_1a1c8fd0f37268e8e1bf9729aff0c21300" prot="public" virt="non-virtual"><scope>MR::SceneReorder</scope><name>historyName</name></member>
-      <member refid="structMR_1_1SceneReorder_1abacbb4958924f1ae24622120a956b43f" prot="public" virt="non-virtual"><scope>MR::SceneReorder</scope><name>to</name></member>
-      <member refid="structMR_1_1SceneReorder_1ad02567fbc39d8a94b4870c8b0f55a01a" prot="public" virt="non-virtual"><scope>MR::SceneReorder</scope><name>who</name></member>
+      <member refid="group__GeneralGroup_1gab39a433324beece46d83541e3d195aa1" prot="public" virt="non-virtual"><scope>MR::SceneReorder</scope><name>before</name></member>
+      <member refid="group__GeneralGroup_1ga1c8fd0f37268e8e1bf9729aff0c21300" prot="public" virt="non-virtual"><scope>MR::SceneReorder</scope><name>historyName</name></member>
+      <member refid="group__GeneralGroup_1gabacbb4958924f1ae24622120a956b43f" prot="public" virt="non-virtual"><scope>MR::SceneReorder</scope><name>to</name></member>
+      <member refid="group__GeneralGroup_1gad02567fbc39d8a94b4870c8b0f55a01a" prot="public" virt="non-virtual"><scope>MR::SceneReorder</scope><name>who</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

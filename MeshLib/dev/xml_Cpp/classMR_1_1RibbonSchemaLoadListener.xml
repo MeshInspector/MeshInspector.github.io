@@ -4,66 +4,24 @@
     <compoundname>MR::RibbonSchemaLoadListener</compoundname>
     <includes refid="MRRibbonSchema_8h" local="no">MRRibbonSchema.h</includes>
     <sectiondef kind="friend">
-      <memberdef kind="friend" id="classMR_1_1RibbonSchemaLoadListener_1a246ba9e59dd5b36be0e8b8144ff30b86" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>class</type>
-        <definition>friend class RibbonSchemaLoader</definition>
-        <argsstring></argsstring>
-        <name>RibbonSchemaLoader</name>
-        <qualifiedname>MR::RibbonSchemaLoadListener::RibbonSchemaLoader</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1RibbonSchemaLoader" kindref="compound">RibbonSchemaLoader</ref></type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="42" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" bodystart="42" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga246ba9e59dd5b36be0e8b8144ff30b86" kind="friend"><name>RibbonSchemaLoader</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1RibbonSchemaLoadListener_1ad5aac79f51a7cd04adfe98f468a0fbea" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type></type>
-        <definition>virtual MR::RibbonSchemaLoadListener::~RibbonSchemaLoadListener</definition>
-        <argsstring>()=default</argsstring>
-        <name>~RibbonSchemaLoadListener</name>
-        <qualifiedname>MR::RibbonSchemaLoadListener::~RibbonSchemaLoadListener</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="39" column="13"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gad5aac79f51a7cd04adfe98f468a0fbea" kind="function"><name>~RibbonSchemaLoadListener</name></member>
     </sectiondef>
     <sectiondef kind="protected-func">
-      <memberdef kind="function" id="classMR_1_1RibbonSchemaLoadListener_1a76315b1d51caa43fb0c118321f6f3ce8" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
-        <type>void</type>
-        <definition>virtual void MR::RibbonSchemaLoadListener::onRibbonSchemaLoad_</definition>
-        <argsstring>()=0</argsstring>
-        <name>onRibbonSchemaLoad_</name>
-        <qualifiedname>MR::RibbonSchemaLoadListener::onRibbonSchemaLoad_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="43" column="18"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga76315b1d51caa43fb0c118321f6f3ce8" kind="function"><name>onRibbonSchemaLoad_</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
 <para>interface for plugins that should be notified when their information is loaded from the schema json file allows to alternate behavior depending on whether the plugin is available in the app </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="36" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" bodystart="37" bodyend="44"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="39" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" bodystart="40" bodyend="47"/>
     <listofallmembers>
-      <member refid="classMR_1_1RibbonSchemaLoadListener_1a76315b1d51caa43fb0c118321f6f3ce8" prot="protected" virt="pure-virtual"><scope>MR::RibbonSchemaLoadListener</scope><name>onRibbonSchemaLoad_</name></member>
-      <member refid="classMR_1_1RibbonSchemaLoadListener_1a246ba9e59dd5b36be0e8b8144ff30b86" prot="protected" virt="non-virtual"><scope>MR::RibbonSchemaLoadListener</scope><name>RibbonSchemaLoader</name></member>
-      <member refid="classMR_1_1RibbonSchemaLoadListener_1ad5aac79f51a7cd04adfe98f468a0fbea" prot="public" virt="virtual"><scope>MR::RibbonSchemaLoadListener</scope><name>~RibbonSchemaLoadListener</name></member>
+      <member refid="group__GeneralGroup_1ga76315b1d51caa43fb0c118321f6f3ce8" prot="protected" virt="pure-virtual"><scope>MR::RibbonSchemaLoadListener</scope><name>onRibbonSchemaLoad_</name></member>
+      <member refid="group__GeneralGroup_1ga246ba9e59dd5b36be0e8b8144ff30b86" prot="protected" virt="non-virtual"><scope>MR::RibbonSchemaLoadListener</scope><name>RibbonSchemaLoader</name></member>
+      <member refid="group__GeneralGroup_1gad5aac79f51a7cd04adfe98f468a0fbea" prot="public" virt="virtual"><scope>MR::RibbonSchemaLoadListener</scope><name>~RibbonSchemaLoadListener</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

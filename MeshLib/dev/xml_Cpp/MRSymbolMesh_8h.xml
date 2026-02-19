@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="MRSymbolMesh_8h" kind="file" language="C++">
     <compoundname>MRSymbolMesh.h</compoundname>
-    <includes refid="MRSymbolMeshFwd_8h" local="yes">MRSymbolMeshFwd.h</includes>
+    <includes local="yes">MRSymbolMeshFwd.h</includes>
     <includes refid="MRVector2_8h" local="yes">MRMesh/MRVector2.h</includes>
     <includes refid="MRSystem_8h" local="yes">MRMesh/MRSystem.h</includes>
     <includes refid="MRExpected_8h" local="yes">MRMesh/MRExpected.h</includes>
@@ -11,50 +11,64 @@
     <includedby refid="MRAlignTextToMesh_8h" local="yes">MRAlignTextToMesh.h</includedby>
     <includedby refid="MRObjectLabel_8h" local="yes">MRObjectLabel.h</includedby>
     <incdepgraph>
-      <node id="5">
-        <label>MRMesh/MRCanonicalTypedefs.h</label>
-        <link refid="MRCanonicalTypedefs_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
-      </node>
-      <node id="24">
+      <node id="16">
         <label>MRColor.h</label>
         <link refid="MRColor_8h"/>
-        <childnode refid="3" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="25" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="27" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
       </node>
-      <node id="26">
+      <node id="18">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
-      <node id="29">
+      <node id="22">
         <label>MRMesh/MRExpected.h</label>
         <link refid="MRExpected_8h"/>
-        <childnode refid="3" relation="include">
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="15">
+        <label>MRMesh/MRSystem.h</label>
+        <link refid="MRSystem_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="30" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-      </node>
-      <node id="6">
-        <label>MRMesh/MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
       </node>
       <node id="3">
-        <label>MRMesh/MRMeshFwd.h</label>
-        <link refid="MRMeshFwd_8h"/>
+        <label>MRMesh/MRVector2.h</label>
+        <link refid="MRVector2_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
@@ -68,164 +82,103 @@
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
       </node>
-      <node id="23">
-        <label>MRMesh/MRSystem.h</label>
-        <link refid="MRSystem_8h"/>
-        <childnode refid="7" relation="include">
+      <node id="17">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="3" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="24" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="28" relation="include">
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
-      </node>
-      <node id="15">
-        <label>MRMesh/MRUnsigned.h</label>
-        <link refid="MRUnsigned_8h"/>
-        <childnode refid="16" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
-      </node>
-      <node id="14">
-        <label>MRMesh/MRVector2.h</label>
-        <link refid="MRVector2_8h"/>
-        <childnode refid="6" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
       </node>
-      <node id="25">
-        <label>MRVector3.h</label>
-        <link refid="MRVector3_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="26" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
-      </node>
-      <node id="27">
+      <node id="19">
         <label>MRVector4.h</label>
         <link refid="MRVector4_8h"/>
-        <childnode refid="19" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="25" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
-      </node>
-      <node id="4">
-        <label>config.h</label>
-        <link refid="MRMesh_2config_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
       </node>
       <node id="1">
         <label>MRSymbolMesh.h</label>
         <link refid="MRSymbolMesh_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="23" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="29" relation="include">
+        <childnode refid="22" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
-        <childnode refid="28" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
+      </node>
+      <node id="8">
+        <label>MRMeshFwd.h</label>
+      </node>
+      <node id="9">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="23">
+        <label>MRPch/MRExpected.h</label>
       </node>
       <node id="2">
         <label>MRSymbolMeshFwd.h</label>
-        <link refid="MRSymbolMeshFwd_8h"/>
-        <childnode refid="3" relation="include">
-        </childnode>
-      </node>
-      <node id="7">
-        <label>MRPch/MRBindingMacros.h</label>
-      </node>
-      <node id="30">
-        <label>MRPch/MRExpected.h</label>
-      </node>
-      <node id="18">
-        <label>algorithm</label>
-      </node>
-      <node id="8">
-        <label>array</label>
-      </node>
-      <node id="13">
-        <label>cassert</label>
-      </node>
-      <node id="19">
-        <label>cmath</label>
-      </node>
-      <node id="16">
-        <label>cstddef</label>
-      </node>
-      <node id="20">
-        <label>cstring</label>
-      </node>
-      <node id="28">
-        <label>filesystem</label>
-      </node>
-      <node id="12">
-        <label>functional</label>
-      </node>
-      <node id="21">
-        <label>iosfwd</label>
-      </node>
-      <node id="11">
-        <label>parallel_hashmap/phmap_fwd_decl.h</label>
       </node>
       <node id="10">
+        <label>algorithm</label>
+      </node>
+      <node id="11">
+        <label>cmath</label>
+      </node>
+      <node id="6">
+        <label>cstddef</label>
+      </node>
+      <node id="12">
+        <label>cstring</label>
+      </node>
+      <node id="20">
+        <label>filesystem</label>
+      </node>
+      <node id="13">
+        <label>iosfwd</label>
+      </node>
+      <node id="21">
         <label>string</label>
       </node>
-      <node id="17">
+      <node id="7">
         <label>type_traits</label>
       </node>
-      <node id="22">
+      <node id="14">
         <label>utility</label>
-      </node>
-      <node id="9">
-        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
@@ -261,7 +214,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRSymbolMeshFwd_8h" kindref="compound">MRSymbolMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRSymbolMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVector2_8h" kindref="compound">MRMesh/MRVector2.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRSystem_8h" kindref="compound">MRMesh/MRSystem.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
@@ -272,34 +225,35 @@
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="13"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="namespaceMR_1a78218d9e8bdad31c92f563f91f5d470a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a78218d9e8bdad31c92f563f91f5d470a" kindref="member">AlignType</ref><sp/>{</highlight></codeline>
-<codeline lineno="16" refid="namespaceMR_1a78218d9e8bdad31c92f563f91f5d470aaf275ae8072936015841ec53b58693aaf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a78218d9e8bdad31c92f563f91f5d470aaf275ae8072936015841ec53b58693aaf" kindref="member">Left</ref>,</highlight></codeline>
-<codeline lineno="17" refid="namespaceMR_1a78218d9e8bdad31c92f563f91f5d470aa5b265d7896353384ff9b6e3c69467563" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a78218d9e8bdad31c92f563f91f5d470aa5b265d7896353384ff9b6e3c69467563" kindref="member">Center</ref>,</highlight></codeline>
-<codeline lineno="18" refid="namespaceMR_1a78218d9e8bdad31c92f563f91f5d470aa54ea5115bec8bfd809c0ced25e85bbde" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a78218d9e8bdad31c92f563f91f5d470aa54ea5115bec8bfd809c0ced25e85bbde" kindref="member">Right</ref>,</highlight></codeline>
-<codeline lineno="19"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="structMR_1_1SymbolMeshParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1SymbolMeshParams" kindref="compound">SymbolMeshParams</ref></highlight></codeline>
-<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="24" refid="structMR_1_1SymbolMeshParams_1acb1fbf339bac28e29347e8a59589b28b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="structMR_1_1SymbolMeshParams_1acb1fbf339bac28e29347e8a59589b28b" kindref="member">text</ref>;</highlight></codeline>
-<codeline lineno="26" refid="structMR_1_1SymbolMeshParams_1a862ff23debfa432cd8025d0d39a00868" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SymbolMeshParams_1a862ff23debfa432cd8025d0d39a00868" kindref="member">fontDetalization</ref>{5};</highlight></codeline>
-<codeline lineno="30" refid="structMR_1_1SymbolMeshParams_1a13308560203bfeb849317043fdd1957a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector2f<sp/><ref refid="structMR_1_1SymbolMeshParams_1a13308560203bfeb849317043fdd1957a" kindref="member">symbolsDistanceAdditionalOffset</ref>{<sp/>0.0f,<sp/>0.0f<sp/>};</highlight></codeline>
-<codeline lineno="33" refid="structMR_1_1SymbolMeshParams_1a41e3e2a0fe3747d584ee52635c67c307" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SymbolMeshParams_1a41e3e2a0fe3747d584ee52635c67c307" kindref="member">symbolsThicknessOffsetModifier</ref>{<sp/>0.0f<sp/>};</highlight></codeline>
-<codeline lineno="35" refid="structMR_1_1SymbolMeshParams_1afd1a0869903aae7b0b8c5df8492a936b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a78218d9e8bdad31c92f563f91f5d470a" kindref="member">AlignType</ref><sp/><ref refid="structMR_1_1SymbolMeshParams_1afd1a0869903aae7b0b8c5df8492a936b" kindref="member">align</ref>{<ref refid="namespaceMR_1a78218d9e8bdad31c92f563f91f5d470aaf275ae8072936015841ec53b58693aaf" kindref="member">AlignType::Left</ref>};</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>_WIN32</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>std::filesystem::path<sp/><ref refid="structMR_1_1SymbolMeshParams_1a91479aefd75dc365ef6b39108ea22fcf" kindref="member">pathToFontFile</ref><sp/>=<sp/>GetWindowsInstallDirectory()<sp/>/<sp/></highlight><highlight class="stringliteral">&quot;Fonts&quot;</highlight><highlight class="normal"><sp/>/<sp/></highlight><highlight class="stringliteral">&quot;Consola.ttf&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight></codeline>
-<codeline lineno="41" refid="structMR_1_1SymbolMeshParams_1a91479aefd75dc365ef6b39108ea22fcf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::filesystem::path<sp/><ref refid="structMR_1_1SymbolMeshParams_1a91479aefd75dc365ef6b39108ea22fcf" kindref="member">pathToFontFile</ref>;</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45" refid="structMR_1_1SymbolMeshParams_1a06383c90b2966a74b8076c74c310a45f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SymbolMeshParams_1a06383c90b2966a74b8076c74c310a45f" kindref="member">MaxGeneratedFontHeight</ref><sp/>=<sp/>5826.0f<sp/>*<sp/>1e-3f;</highlight></codeline>
-<codeline lineno="46"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="49" refid="namespaceMR_1a3864227e969c9b436c4ee8357ec33d20" refkind="member"><highlight class="normal"><ref refid="MRSymbolMeshFwd_8h_1a390b9f66fb03f4077f495bc88a5bbe3b" kindref="member">MRSYMBOLMESH_API</ref><sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Contours2f&gt;</ref><sp/><ref refid="namespaceMR_1a3864227e969c9b436c4ee8357ec33d20" kindref="member">createSymbolContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SymbolMeshParams" kindref="compound">SymbolMeshParams</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="group__GeneralGroup_1ga78218d9e8bdad31c92f563f91f5d470a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga78218d9e8bdad31c92f563f91f5d470a" kindref="member">AlignType</ref><sp/>{</highlight></codeline>
+<codeline lineno="19" refid="group__GeneralGroup_1gga78218d9e8bdad31c92f563f91f5d470aaf275ae8072936015841ec53b58693aaf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga78218d9e8bdad31c92f563f91f5d470aaf275ae8072936015841ec53b58693aaf" kindref="member">Left</ref>,</highlight></codeline>
+<codeline lineno="20" refid="group__GeneralGroup_1gga78218d9e8bdad31c92f563f91f5d470aa5b265d7896353384ff9b6e3c69467563" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga78218d9e8bdad31c92f563f91f5d470aa5b265d7896353384ff9b6e3c69467563" kindref="member">Center</ref>,</highlight></codeline>
+<codeline lineno="21" refid="group__GeneralGroup_1gga78218d9e8bdad31c92f563f91f5d470aa54ea5115bec8bfd809c0ced25e85bbde" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga78218d9e8bdad31c92f563f91f5d470aa54ea5115bec8bfd809c0ced25e85bbde" kindref="member">Right</ref>,</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="structMR_1_1SymbolMeshParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1SymbolMeshParams" kindref="compound">SymbolMeshParams</ref></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="27" refid="group__GeneralGroup_1gacb1fbf339bac28e29347e8a59589b28b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="group__GeneralGroup_1gacb1fbf339bac28e29347e8a59589b28b" kindref="member">text</ref>;</highlight></codeline>
+<codeline lineno="29" refid="group__GeneralGroup_1ga862ff23debfa432cd8025d0d39a00868" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga862ff23debfa432cd8025d0d39a00868" kindref="member">fontDetalization</ref>{5};</highlight></codeline>
+<codeline lineno="33" refid="group__GeneralGroup_1ga13308560203bfeb849317043fdd1957a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector2f<sp/><ref refid="group__GeneralGroup_1ga13308560203bfeb849317043fdd1957a" kindref="member">symbolsDistanceAdditionalOffset</ref>{<sp/>0.0f,<sp/>0.0f<sp/>};</highlight></codeline>
+<codeline lineno="36" refid="group__GeneralGroup_1ga41e3e2a0fe3747d584ee52635c67c307" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga41e3e2a0fe3747d584ee52635c67c307" kindref="member">symbolsThicknessOffsetModifier</ref>{<sp/>0.0f<sp/>};</highlight></codeline>
+<codeline lineno="38" refid="group__GeneralGroup_1gafd1a0869903aae7b0b8c5df8492a936b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga78218d9e8bdad31c92f563f91f5d470a" kindref="member">AlignType</ref><sp/><ref refid="group__GeneralGroup_1gafd1a0869903aae7b0b8c5df8492a936b" kindref="member">align</ref>{<ref refid="group__GeneralGroup_1gga78218d9e8bdad31c92f563f91f5d470aaf275ae8072936015841ec53b58693aaf" kindref="member">AlignType::Left</ref>};</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>_WIN32</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>std::filesystem::path<sp/><ref refid="group__GeneralGroup_1ga91479aefd75dc365ef6b39108ea22fcf" kindref="member">pathToFontFile</ref><sp/>=<sp/>GetWindowsInstallDirectory()<sp/>/<sp/></highlight><highlight class="stringliteral">&quot;Fonts&quot;</highlight><highlight class="normal"><sp/>/<sp/></highlight><highlight class="stringliteral">&quot;Consola.ttf&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight></codeline>
+<codeline lineno="44" refid="group__GeneralGroup_1ga91479aefd75dc365ef6b39108ea22fcf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::filesystem::path<sp/><ref refid="group__GeneralGroup_1ga91479aefd75dc365ef6b39108ea22fcf" kindref="member">pathToFontFile</ref>;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="group__GeneralGroup_1ga06383c90b2966a74b8076c74c310a45f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga06383c90b2966a74b8076c74c310a45f" kindref="member">MaxGeneratedFontHeight</ref><sp/>=<sp/>5826.0f<sp/>*<sp/>1e-3f;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52" refid="namespaceMR_1a32402204da19d3e70a57443f237fb242" refkind="member"><highlight class="normal"><ref refid="MRSymbolMeshFwd_8h_1a390b9f66fb03f4077f495bc88a5bbe3b" kindref="member">MRSYMBOLMESH_API</ref><sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="namespaceMR_1a32402204da19d3e70a57443f237fb242" kindref="member">createSymbolsMesh</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SymbolMeshParams" kindref="compound">SymbolMeshParams</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
+<codeline lineno="52" refid="group__GeneralGroup_1ga3864227e969c9b436c4ee8357ec33d20" refkind="member"><highlight class="normal">MRSYMBOLMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Contours2f&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga3864227e969c9b436c4ee8357ec33d20" kindref="member">createSymbolContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SymbolMeshParams" kindref="compound">SymbolMeshParams</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="55" refid="group__GeneralGroup_1ga32402204da19d3e70a57443f237fb242" refkind="member"><highlight class="normal">MRSYMBOLMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga32402204da19d3e70a57443f237fb242" kindref="member">createSymbolsMesh</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SymbolMeshParams" kindref="compound">SymbolMeshParams</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRSymbolMesh.h"/>
   </compounddef>

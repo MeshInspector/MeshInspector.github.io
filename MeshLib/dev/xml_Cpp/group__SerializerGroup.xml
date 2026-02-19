@@ -5,7 +5,7 @@
     <title>Serializer</title>
     <sectiondef kind="func">
       <memberdef kind="function" id="group__SerializerGroup_1ga6495aafc6ad7f28a253874643bee186d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; std::string &gt;</type>
+        <type>MRMESH_API Expected&lt; std::string &gt;</type>
         <definition>MRMESH_API Expected&lt; std::string &gt; MR::serializeJsonValue</definition>
         <argsstring>(const Json::Value &amp;root)</argsstring>
         <name>serializeJsonValue</name>
@@ -23,7 +23,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="27" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="27" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga19fbe08d1728b0525ece1dd237171b25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; void &gt;</type>
+        <type>MRMESH_API Expected&lt; void &gt;</type>
         <definition>MRMESH_API Expected&lt; void &gt; MR::serializeJsonValue</definition>
         <argsstring>(const Json::Value &amp;root, std::ostream &amp;out)</argsstring>
         <name>serializeJsonValue</name>
@@ -45,7 +45,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="28" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="28" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga01b3a61fecaa74928fd26611f6a44cd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; void &gt;</type>
+        <type>MRMESH_API Expected&lt; void &gt;</type>
         <definition>MRMESH_API Expected&lt; void &gt; MR::serializeJsonValue</definition>
         <argsstring>(const Json::Value &amp;root, const std::filesystem::path &amp;path)</argsstring>
         <name>serializeJsonValue</name>
@@ -68,7 +68,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="29" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="29" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga4cabdbc3ab0e26dfe5f3f9541c696fc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; Json::Value &gt;</type>
+        <type>MRMESH_API Expected&lt; Json::Value &gt;</type>
         <definition>MRMESH_API Expected&lt; Json::Value &gt; MR::deserializeJsonValue</definition>
         <argsstring>(std::istream &amp;in)</argsstring>
         <name>deserializeJsonValue</name>
@@ -86,7 +86,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="31" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="31" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga2b3ef277fc9e90e456d7c0948a95f721" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; Json::Value &gt;</type>
+        <type>MRMESH_API Expected&lt; Json::Value &gt;</type>
         <definition>MRMESH_API Expected&lt; Json::Value &gt; MR::deserializeJsonValue</definition>
         <argsstring>(const char *data, size_t size)</argsstring>
         <name>deserializeJsonValue</name>
@@ -109,7 +109,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="32" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="32" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga84a27be875063a2ab0d174fa1f9e7771" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; Json::Value &gt;</type>
+        <type>MRMESH_API Expected&lt; Json::Value &gt;</type>
         <definition>MRMESH_API Expected&lt; Json::Value &gt; MR::deserializeJsonValue</definition>
         <argsstring>(const std::string &amp;str)</argsstring>
         <name>deserializeJsonValue</name>
@@ -127,7 +127,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="33" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="33" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga790b6ef6dd31f1a82bf42d810c4c1f44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; Json::Value &gt;</type>
+        <type>MRMESH_API Expected&lt; Json::Value &gt;</type>
         <definition>MRMESH_API Expected&lt; Json::Value &gt; MR::deserializeJsonValue</definition>
         <argsstring>(const std::filesystem::path &amp;path)</argsstring>
         <name>deserializeJsonValue</name>
@@ -145,7 +145,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="34" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="34" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1gab5e07b1a572a894ec06e8bb8113827e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; void &gt;</type>
+        <type>MRMESH_API Expected&lt; void &gt;</type>
         <definition>MRMESH_API Expected&lt; void &gt; MR::serializeMesh</definition>
         <argsstring>(const Mesh &amp;mesh, const std::filesystem::path &amp;path, const FaceBitSet *selection=nullptr, const char *serializeFormat=&quot;.mrmesh&quot;)</argsstring>
         <name>serializeMesh</name>
@@ -178,7 +178,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="39" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="39" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1gae2d000bf1be360d4156e421121308d90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::serializeToJson</definition>
         <argsstring>(const Vector2i &amp;vec, Json::Value &amp;root)</argsstring>
         <name>serializeToJson</name>
@@ -201,7 +201,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="43" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="43" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga2991c05216d6e89d4d73f2eb053cd283" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::serializeToJson</definition>
         <argsstring>(const Vector2f &amp;vec, Json::Value &amp;root)</argsstring>
         <name>serializeToJson</name>
@@ -223,7 +223,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="44" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="44" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga73da1f89ff79644868f29b66a89aa3ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::serializeToJson</definition>
         <argsstring>(const Vector3i &amp;vec, Json::Value &amp;root)</argsstring>
         <name>serializeToJson</name>
@@ -245,7 +245,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="45" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="45" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga01084ea4b91576f192aeb68017e8e45e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::serializeToJson</definition>
         <argsstring>(const Vector3f &amp;vec, Json::Value &amp;root)</argsstring>
         <name>serializeToJson</name>
@@ -267,7 +267,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="46" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="46" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga2460b57ac19911dbba07d61927a47ece" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::serializeToJson</definition>
         <argsstring>(const Vector4f &amp;vec, Json::Value &amp;root)</argsstring>
         <name>serializeToJson</name>
@@ -289,7 +289,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="47" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="47" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga27c3983bb6c56873da1fcfa8ce4044d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::serializeToJson</definition>
         <argsstring>(const Box3i &amp;box, Json::Value &amp;root)</argsstring>
         <name>serializeToJson</name>
@@ -311,7 +311,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="48" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="48" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1gacfc4f79eba7c0c8751bd4206a1604603" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::serializeToJson</definition>
         <argsstring>(const Box3f &amp;box, Json::Value &amp;root)</argsstring>
         <name>serializeToJson</name>
@@ -333,7 +333,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="49" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="49" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga6beb18d5f22f706bd29b9b4b1d2d1cad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::serializeToJson</definition>
         <argsstring>(const Color &amp;col, Json::Value &amp;root)</argsstring>
         <name>serializeToJson</name>
@@ -355,7 +355,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="50" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="50" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga337dbc4391f7f93340ae0d57d9992358" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::serializeToJson</definition>
         <argsstring>(const Matrix2f &amp;matrix, Json::Value &amp;root, bool skipIdentity=true)</argsstring>
         <name>serializeToJson</name>
@@ -382,7 +382,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="51" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="51" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1gadbd20d4ea1f7a2145ec9cea92d0c6d21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::serializeToJson</definition>
         <argsstring>(const Matrix3f &amp;matrix, Json::Value &amp;root, bool skipIdentity=true)</argsstring>
         <name>serializeToJson</name>
@@ -409,7 +409,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="52" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="52" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1gaaeef0bd02442f441b66c7decaabd2047" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::serializeToJson</definition>
         <argsstring>(const AffineXf2f &amp;xf, Json::Value &amp;root, bool skipIdentity=true)</argsstring>
         <name>serializeToJson</name>
@@ -436,7 +436,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="53" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="53" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga810f72ff4bfd3f308bf159660074e79c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::serializeToJson</definition>
         <argsstring>(const AffineXf3f &amp;xf, Json::Value &amp;root, bool skipIdentity=true)</argsstring>
         <name>serializeToJson</name>
@@ -463,7 +463,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="54" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="54" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga0247abbacd8ebd7c2abec7d6095cd659" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::serializeToJson</definition>
         <argsstring>(const BitSet &amp;bitset, Json::Value &amp;root)</argsstring>
         <name>serializeToJson</name>
@@ -485,7 +485,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="55" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="55" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga180759b8329e6976e4084837bf87bdb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; void &gt;</type>
+        <type>MRMESH_API Expected&lt; void &gt;</type>
         <definition>MRMESH_API Expected&lt; void &gt; MR::serializeToJson</definition>
         <argsstring>(const Mesh &amp;mesh, Json::Value &amp;root)</argsstring>
         <name>serializeToJson</name>
@@ -507,7 +507,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="56" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="56" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1gabf5d52bb9f6c77c69a8e8897c42fce28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::serializeToJson</definition>
         <argsstring>(const Plane3f &amp;plane, Json::Value &amp;root)</argsstring>
         <name>serializeToJson</name>
@@ -529,7 +529,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="57" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="57" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga828f3a1487f57601504c8818f38d0f9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::serializeToJson</definition>
         <argsstring>(const TriPointf &amp;tp, Json::Value &amp;root)</argsstring>
         <name>serializeToJson</name>
@@ -551,7 +551,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="58" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="58" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1gacd39b6a2edca023ff58233e8a5938a10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::serializeToJson</definition>
         <argsstring>(const MeshTexture &amp;texture, Json::Value &amp;root)</argsstring>
         <name>serializeToJson</name>
@@ -573,7 +573,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="59" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="59" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga79f82dccdb83d2653639d4bc89f77507" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::serializeToJson</definition>
         <argsstring>(const std::vector&lt; TextureId &gt; &amp;texturePerFace, Json::Value &amp;root)</argsstring>
         <name>serializeToJson</name>
@@ -595,7 +595,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="60" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="60" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga79617de343668de49d25a0ec996110e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::serializeToJson</definition>
         <argsstring>(const std::vector&lt; UVCoord &gt; &amp;uvCoords, Json::Value &amp;root)</argsstring>
         <name>serializeToJson</name>
@@ -617,7 +617,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="61" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="61" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1gae2b8279a340f17425a3c6d8e8feb98ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::serializeToJson</definition>
         <argsstring>(const std::vector&lt; Color &gt; &amp;colors, Json::Value &amp;root)</argsstring>
         <name>serializeToJson</name>
@@ -639,7 +639,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="62" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="62" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga332fb7d3339d515c107f05a5f3e4d251" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::serializeToJson</definition>
         <argsstring>(const MeshTriPoint &amp;mtp, const MeshTopology &amp;topology, Json::Value &amp;root)</argsstring>
         <name>serializeToJson</name>
@@ -666,7 +666,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="65" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="65" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga5a10f75cc5e4d7e14e17a21e9e8ddb0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::serializeToJson</definition>
         <argsstring>(const PointOnFace &amp;pf, Json::Value &amp;root)</argsstring>
         <name>serializeToJson</name>
@@ -688,7 +688,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="66" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="66" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga890eacf2c6391cbf6dbb98c6bbb0fa28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::serializeViaVerticesToJson</definition>
         <argsstring>(const UndirectedEdgeBitSet &amp;edges, const MeshTopology &amp;topology, Json::Value &amp;root)</argsstring>
         <name>serializeViaVerticesToJson</name>
@@ -715,7 +715,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="70" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="70" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1gab74247c70d34bac9da9d1e8c421b0703" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::deserializeViaVerticesFromJson</definition>
         <argsstring>(const Json::Value &amp;root, UndirectedEdgeBitSet &amp;edges, const MeshTopology &amp;topology)</argsstring>
         <name>deserializeViaVerticesFromJson</name>
@@ -741,7 +741,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="71" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="71" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga61a7230e0fffb1f10c81a359762186d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::deserializeFromJson</definition>
         <argsstring>(const Json::Value &amp;root, Vector2i &amp;vec)</argsstring>
         <name>deserializeFromJson</name>
@@ -764,7 +764,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="74" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="74" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga008566c571e968e28ac38c4317a9fbbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::deserializeFromJson</definition>
         <argsstring>(const Json::Value &amp;root, Vector2f &amp;vec)</argsstring>
         <name>deserializeFromJson</name>
@@ -786,7 +786,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="75" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="75" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga07c35f4efe0f243d11910aee401766ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::deserializeFromJson</definition>
         <argsstring>(const Json::Value &amp;root, Vector3i &amp;vec)</argsstring>
         <name>deserializeFromJson</name>
@@ -808,7 +808,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="76" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="76" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1gaa945fd69c2b9a828d6f34e7bc34b9df3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::deserializeFromJson</definition>
         <argsstring>(const Json::Value &amp;root, Vector3f &amp;vec)</argsstring>
         <name>deserializeFromJson</name>
@@ -830,7 +830,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="77" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="77" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga1155079bf2d53ebd19e08f2223fee2a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::deserializeFromJson</definition>
         <argsstring>(const Json::Value &amp;root, Vector4f &amp;vec)</argsstring>
         <name>deserializeFromJson</name>
@@ -852,7 +852,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="78" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="78" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1gab49dd82250557d820cf52d7cd3a59464" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::deserializeFromJson</definition>
         <argsstring>(const Json::Value &amp;root, Color &amp;col)</argsstring>
         <name>deserializeFromJson</name>
@@ -874,7 +874,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="79" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="79" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga8ba498d211b2a813befa63f55a7446cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::deserializeFromJson</definition>
         <argsstring>(const Json::Value &amp;root, Matrix2f &amp;matrix)</argsstring>
         <name>deserializeFromJson</name>
@@ -896,7 +896,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="80" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="80" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1gaeb2e68137af1a456b80b6a8574c03e6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::deserializeFromJson</definition>
         <argsstring>(const Json::Value &amp;root, Matrix3f &amp;matrix)</argsstring>
         <name>deserializeFromJson</name>
@@ -918,7 +918,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="81" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="81" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga9f65600bd6b7fb223ab125f81c96ae25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::deserializeFromJson</definition>
         <argsstring>(const Json::Value &amp;root, AffineXf2f &amp;xf)</argsstring>
         <name>deserializeFromJson</name>
@@ -940,7 +940,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="82" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="82" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1gaa6c9fafbe5675e06061b897d2e92f138" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::deserializeFromJson</definition>
         <argsstring>(const Json::Value &amp;root, AffineXf3f &amp;xf)</argsstring>
         <name>deserializeFromJson</name>
@@ -962,7 +962,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="83" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="83" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga4c0c62354556511936a0e90a2d4c586e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::deserializeFromJson</definition>
         <argsstring>(const Json::Value &amp;root, BitSet &amp;bitset)</argsstring>
         <name>deserializeFromJson</name>
@@ -984,7 +984,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="84" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="84" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga5e2004fef2b124e7462276bcee514d6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; Mesh &gt;</type>
+        <type>MRMESH_API Expected&lt; Mesh &gt;</type>
         <definition>MRMESH_API Expected&lt; Mesh &gt; MR::deserializeFromJson</definition>
         <argsstring>(const Json::Value &amp;root, VertColors *colors=nullptr)</argsstring>
         <name>deserializeFromJson</name>
@@ -1007,7 +1007,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="85" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="85" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1gabb27cc540be81d459806f905ad7f574a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::deserializeFromJson</definition>
         <argsstring>(const Json::Value &amp;root, Plane3f &amp;plane)</argsstring>
         <name>deserializeFromJson</name>
@@ -1029,7 +1029,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="86" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="86" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga72e078f3acb1fe95234144b3f7d2aced" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::deserializeFromJson</definition>
         <argsstring>(const Json::Value &amp;root, TriPointf &amp;tp)</argsstring>
         <name>deserializeFromJson</name>
@@ -1051,7 +1051,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="87" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="87" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1gacfed47f3a67cfbbaaab3df0125cc6c52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::deserializeFromJson</definition>
         <argsstring>(const Json::Value &amp;root, MeshTexture &amp;texture)</argsstring>
         <name>deserializeFromJson</name>
@@ -1073,7 +1073,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="88" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="88" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1gafab977958cb409b72f7584d9f6602a3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::deserializeFromJson</definition>
         <argsstring>(const Json::Value &amp;root, std::vector&lt; TextureId &gt; &amp;texturePerFace)</argsstring>
         <name>deserializeFromJson</name>
@@ -1095,7 +1095,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="89" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="89" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga88cac564b83aea9e1d7a37332fa81d50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::deserializeFromJson</definition>
         <argsstring>(const Json::Value &amp;root, std::vector&lt; UVCoord &gt; &amp;uvCoords)</argsstring>
         <name>deserializeFromJson</name>
@@ -1117,7 +1117,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="90" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="90" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1gaad585756b5bd8e2e9e6994cfc8f5b0fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::deserializeFromJson</definition>
         <argsstring>(const Json::Value &amp;root, std::vector&lt; Color &gt; &amp;colors)</argsstring>
         <name>deserializeFromJson</name>
@@ -1139,7 +1139,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="91" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="91" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga844db290f408a9fa59211a2239689ada" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::deserializeFromJson</definition>
         <argsstring>(const Json::Value &amp;root, MeshTriPoint &amp;mtp, const MeshTopology &amp;topology)</argsstring>
         <name>deserializeFromJson</name>
@@ -1166,7 +1166,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="94" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="94" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1gabb77b8518b98c3dde34206e1c8bbc5fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::deserializeFromJson</definition>
         <argsstring>(const Json::Value &amp;root, PointOnFace &amp;pf)</argsstring>
         <name>deserializeFromJson</name>
@@ -1188,7 +1188,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" line="95" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSerializer.h" declline="95" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga60ea0861186c3cd722eaed269571bc6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; void &gt;</type>
+        <type>MRMESH_API Expected&lt; void &gt;</type>
         <definition>MRMESH_API Expected&lt; void &gt; MR::decompressZip</definition>
         <argsstring>(const std::filesystem::path &amp;zipFile, const std::filesystem::path &amp;targetFolder, const char *password=nullptr)</argsstring>
         <name>decompressZip</name>
@@ -1226,7 +1226,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRZip.h" line="20" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRZip.h" declline="20" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga2e076375162aa8d5f3665a95f10e3710" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; void &gt;</type>
+        <type>MRMESH_API Expected&lt; void &gt;</type>
         <definition>MRMESH_API Expected&lt; void &gt; MR::decompressZip</definition>
         <argsstring>(std::istream &amp;zipStream, const std::filesystem::path &amp;targetFolder, const char *password=nullptr)</argsstring>
         <name>decompressZip</name>
@@ -1264,7 +1264,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRZip.h" line="27" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRZip.h" declline="27" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga5b20b87f58909c05202f8eebdbbcdd1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; void &gt;</type>
+        <type>MRMESH_API Expected&lt; void &gt;</type>
         <definition>MRMESH_API Expected&lt; void &gt; MR::compressZip</definition>
         <argsstring>(const std::filesystem::path &amp;zipFile, const std::filesystem::path &amp;sourceFolder, const std::vector&lt; std::filesystem::path &gt; &amp;excludeFiles={}, const char *password=nullptr, ProgressCallback cb={})</argsstring>
         <name>compressZip</name>

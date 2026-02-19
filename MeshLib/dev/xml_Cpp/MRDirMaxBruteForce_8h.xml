@@ -2,87 +2,33 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="MRDirMaxBruteForce_8h" kind="file" language="C++">
     <compoundname>MRDirMaxBruteForce.h</compoundname>
-    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
+    <includes local="yes">MRMeshFwd.h</includes>
     <includes refid="MRMinMaxArg_8h" local="yes">MRMinMaxArg.h</includes>
     <incdepgraph>
-      <node id="4">
-        <label>MRMesh/MRCanonicalTypedefs.h</label>
-        <link refid="MRCanonicalTypedefs_8h"/>
-        <childnode refid="5" relation="include">
-        </childnode>
-      </node>
       <node id="1">
         <label>MRDirMaxBruteForce.h</label>
         <link refid="MRDirMaxBruteForce_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-      </node>
-      <node id="5">
-        <label>MRMesh/MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
-      </node>
-      <node id="2">
-        <label>MRMeshFwd.h</label>
-        <link refid="MRMeshFwd_8h"/>
         <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-      </node>
-      <node id="13">
-        <label>MRMinMaxArg.h</label>
-        <link refid="MRMinMaxArg_8h"/>
-        <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
         </childnode>
       </node>
       <node id="3">
-        <label>config.h</label>
-        <link refid="MRMesh_2config_8h"/>
+        <label>MRMinMaxArg.h</label>
+        <link refid="MRMinMaxArg_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
       </node>
-      <node id="6">
-        <label>MRPch/MRBindingMacros.h</label>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
       </node>
-      <node id="7">
-        <label>array</label>
-      </node>
-      <node id="12">
-        <label>cassert</label>
-      </node>
-      <node id="11">
-        <label>functional</label>
-      </node>
-      <node id="14">
+      <node id="4">
         <label>limits</label>
       </node>
-      <node id="10">
-        <label>parallel_hashmap/phmap_fwd_decl.h</label>
-      </node>
-      <node id="9">
-        <label>string</label>
-      </node>
-      <node id="15">
+      <node id="5">
         <label>utility</label>
-      </node>
-      <node id="8">
-        <label>vector</label>
       </node>
     </incdepgraph>
     <innernamespace refid="namespaceMR">MR</innernamespace>
@@ -93,41 +39,42 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMinMaxArg_8h" kindref="compound">MRMinMaxArg.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight></codeline>
-<codeline lineno="10" refid="namespaceMR_1a2b7b575fdbb2b2e8f9ea6ab14093a27c" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>VertId<sp/><ref refid="namespaceMR_1a2b7b575fdbb2b2e8f9ea6ab14093a27c" kindref="member">findDirMaxBruteForce</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords<sp/>&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet<sp/>*<sp/>region<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="namespaceMR_1ad400f257e9ef22bc590e2a5d46e23c49" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>VertId<sp/><ref refid="namespaceMR_1a2b7b575fdbb2b2e8f9ea6ab14093a27c" kindref="member">findDirMaxBruteForce</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f<sp/>&amp;<sp/>dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords2<sp/>&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet<sp/>*<sp/>region<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="13" refid="group__GeneralGroup_1ga2b7b575fdbb2b2e8f9ea6ab14093a27c" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>VertId<sp/><ref refid="group__GeneralGroup_1ga2b7b575fdbb2b2e8f9ea6ab14093a27c" kindref="member">findDirMaxBruteForce</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords<sp/>&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet<sp/>*<sp/>region<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="namespaceMR_1aae4b2f32176e3c8f630b2806c1bb6d4d" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>VertId<sp/><ref refid="namespaceMR_1a2b7b575fdbb2b2e8f9ea6ab14093a27c" kindref="member">findDirMaxBruteForce</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/>&amp;<sp/>cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet<sp/>*<sp/>region<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="16" refid="group__GeneralGroup_1gad400f257e9ef22bc590e2a5d46e23c49" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>VertId<sp/><ref refid="group__GeneralGroup_1ga2b7b575fdbb2b2e8f9ea6ab14093a27c" kindref="member">findDirMaxBruteForce</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f<sp/>&amp;<sp/>dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords2<sp/>&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet<sp/>*<sp/>region<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="namespaceMR_1af36e24fb11f2ae3ac7ef7d5c38d62234" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>VertId<sp/><ref refid="namespaceMR_1a2b7b575fdbb2b2e8f9ea6ab14093a27c" kindref="member">findDirMaxBruteForce</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline3<sp/>&amp;<sp/>polyline<sp/>);</highlight></codeline>
+<codeline lineno="19" refid="group__GeneralGroup_1gaae4b2f32176e3c8f630b2806c1bb6d4d" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>VertId<sp/><ref refid="group__GeneralGroup_1ga2b7b575fdbb2b2e8f9ea6ab14093a27c" kindref="member">findDirMaxBruteForce</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/>&amp;<sp/>cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet<sp/>*<sp/>region<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22" refid="namespaceMR_1a3c034b87837b1006395f601d1ecdda60" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>VertId<sp/><ref refid="namespaceMR_1a2b7b575fdbb2b2e8f9ea6ab14093a27c" kindref="member">findDirMaxBruteForce</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f<sp/>&amp;<sp/>dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline2<sp/>&amp;<sp/>polyline<sp/>);</highlight></codeline>
+<codeline lineno="22" refid="group__GeneralGroup_1gaf36e24fb11f2ae3ac7ef7d5c38d62234" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>VertId<sp/><ref refid="group__GeneralGroup_1ga2b7b575fdbb2b2e8f9ea6ab14093a27c" kindref="member">findDirMaxBruteForce</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline3<sp/>&amp;<sp/>polyline<sp/>);</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25" refid="namespaceMR_1a2daa9a10f45d9e441c9ca23af46a5a22" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>VertId<sp/><ref refid="namespaceMR_1a2b7b575fdbb2b2e8f9ea6ab14093a27c" kindref="member">findDirMaxBruteForce</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp<sp/>);</highlight></codeline>
+<codeline lineno="25" refid="group__GeneralGroup_1ga3c034b87837b1006395f601d1ecdda60" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>VertId<sp/><ref refid="group__GeneralGroup_1ga2b7b575fdbb2b2e8f9ea6ab14093a27c" kindref="member">findDirMaxBruteForce</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f<sp/>&amp;<sp/>dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline2<sp/>&amp;<sp/>polyline<sp/>);</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28" refid="namespaceMR_1a8e79dd8f57c319d76ad68c2a4b68a1b1" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>VertId<sp/><ref refid="namespaceMR_1a2b7b575fdbb2b2e8f9ea6ab14093a27c" kindref="member">findDirMaxBruteForce</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshVertPart<sp/>&amp;<sp/>mp<sp/>);</highlight></codeline>
+<codeline lineno="28" refid="group__GeneralGroup_1ga2daa9a10f45d9e441c9ca23af46a5a22" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>VertId<sp/><ref refid="group__GeneralGroup_1ga2b7b575fdbb2b2e8f9ea6ab14093a27c" kindref="member">findDirMaxBruteForce</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp<sp/>);</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31" refid="namespaceMR_1a8aaf0d283ab2e93a0cd6c758696cba71" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1MinMaxArg" kindref="compound">MinMaxArg&lt;float, VertId&gt;</ref><sp/><ref refid="namespaceMR_1a8aaf0d283ab2e93a0cd6c758696cba71" kindref="member">findDirMinMaxBruteForce</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords<sp/>&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet<sp/>*<sp/>region<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="31" refid="group__GeneralGroup_1ga8e79dd8f57c319d76ad68c2a4b68a1b1" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>VertId<sp/><ref refid="group__GeneralGroup_1ga2b7b575fdbb2b2e8f9ea6ab14093a27c" kindref="member">findDirMaxBruteForce</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshVertPart<sp/>&amp;<sp/>mp<sp/>);</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="namespaceMR_1ac2ae2901e4ce95391394b14a3a567731" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1MinMaxArg" kindref="compound">MinMaxArg&lt;float, VertId&gt;</ref><sp/><ref refid="namespaceMR_1a8aaf0d283ab2e93a0cd6c758696cba71" kindref="member">findDirMinMaxBruteForce</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f<sp/>&amp;<sp/>dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords2<sp/>&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet<sp/>*<sp/>region<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="34" refid="group__GeneralGroup_1ga8aaf0d283ab2e93a0cd6c758696cba71" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="structMR_1_1MinMaxArg" kindref="compound">MinMaxArg&lt;float, VertId&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga8aaf0d283ab2e93a0cd6c758696cba71" kindref="member">findDirMinMaxBruteForce</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords<sp/>&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet<sp/>*<sp/>region<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37" refid="namespaceMR_1ae719e21c5b523b6f877ceee126fedb6e" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1MinMaxArg" kindref="compound">MinMaxArg&lt;float, VertId&gt;</ref><sp/><ref refid="namespaceMR_1a8aaf0d283ab2e93a0cd6c758696cba71" kindref="member">findDirMinMaxBruteForce</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/>&amp;<sp/>cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet<sp/>*<sp/>region<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="37" refid="group__GeneralGroup_1gac2ae2901e4ce95391394b14a3a567731" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="structMR_1_1MinMaxArg" kindref="compound">MinMaxArg&lt;float, VertId&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga8aaf0d283ab2e93a0cd6c758696cba71" kindref="member">findDirMinMaxBruteForce</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f<sp/>&amp;<sp/>dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords2<sp/>&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet<sp/>*<sp/>region<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="40" refid="namespaceMR_1aa24001667f1b523bf0d355ea7bee701f" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1MinMaxArg" kindref="compound">MinMaxArg&lt;float, VertId&gt;</ref><sp/><ref refid="namespaceMR_1a8aaf0d283ab2e93a0cd6c758696cba71" kindref="member">findDirMinMaxBruteForce</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline3<sp/>&amp;<sp/>polyline<sp/>);</highlight></codeline>
+<codeline lineno="40" refid="group__GeneralGroup_1gae719e21c5b523b6f877ceee126fedb6e" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="structMR_1_1MinMaxArg" kindref="compound">MinMaxArg&lt;float, VertId&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga8aaf0d283ab2e93a0cd6c758696cba71" kindref="member">findDirMinMaxBruteForce</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/>&amp;<sp/>cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet<sp/>*<sp/>region<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43" refid="namespaceMR_1a1f6b3a984d70f3584097f00ae331c013" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1MinMaxArg" kindref="compound">MinMaxArg&lt;float, VertId&gt;</ref><sp/><ref refid="namespaceMR_1a8aaf0d283ab2e93a0cd6c758696cba71" kindref="member">findDirMinMaxBruteForce</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f<sp/>&amp;<sp/>dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline2<sp/>&amp;<sp/>polyline<sp/>);</highlight></codeline>
+<codeline lineno="43" refid="group__GeneralGroup_1gaa24001667f1b523bf0d355ea7bee701f" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="structMR_1_1MinMaxArg" kindref="compound">MinMaxArg&lt;float, VertId&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga8aaf0d283ab2e93a0cd6c758696cba71" kindref="member">findDirMinMaxBruteForce</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline3<sp/>&amp;<sp/>polyline<sp/>);</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="46" refid="namespaceMR_1a0e60c6fe5ab29024d10ae97a59f03d7f" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1MinMaxArg" kindref="compound">MinMaxArg&lt;float, VertId&gt;</ref><sp/><ref refid="namespaceMR_1a8aaf0d283ab2e93a0cd6c758696cba71" kindref="member">findDirMinMaxBruteForce</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp<sp/>);</highlight></codeline>
+<codeline lineno="46" refid="group__GeneralGroup_1ga1f6b3a984d70f3584097f00ae331c013" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="structMR_1_1MinMaxArg" kindref="compound">MinMaxArg&lt;float, VertId&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga8aaf0d283ab2e93a0cd6c758696cba71" kindref="member">findDirMinMaxBruteForce</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f<sp/>&amp;<sp/>dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline2<sp/>&amp;<sp/>polyline<sp/>);</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="49" refid="namespaceMR_1a5f7465ce8f39d800ddf4e8007382d9ac" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1MinMaxArg" kindref="compound">MinMaxArg&lt;float, VertId&gt;</ref><sp/><ref refid="namespaceMR_1a8aaf0d283ab2e93a0cd6c758696cba71" kindref="member">findDirMinMaxBruteForce</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshVertPart<sp/>&amp;<sp/>mp<sp/>);</highlight></codeline>
+<codeline lineno="49" refid="group__GeneralGroup_1ga0e60c6fe5ab29024d10ae97a59f03d7f" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="structMR_1_1MinMaxArg" kindref="compound">MinMaxArg&lt;float, VertId&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga8aaf0d283ab2e93a0cd6c758696cba71" kindref="member">findDirMinMaxBruteForce</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp<sp/>);</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="52" refid="group__GeneralGroup_1ga5f7465ce8f39d800ddf4e8007382d9ac" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="structMR_1_1MinMaxArg" kindref="compound">MinMaxArg&lt;float, VertId&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga8aaf0d283ab2e93a0cd6c758696cba71" kindref="member">findDirMinMaxBruteForce</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshVertPart<sp/>&amp;<sp/>mp<sp/>);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal">}<sp/></highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirMaxBruteForce.h"/>
   </compounddef>

@@ -4,95 +4,22 @@
     <compoundname>MR::MeshMeshConverter</compoundname>
     <includes refid="MRMeshBooleanFacade_8h" local="no">MRMeshBooleanFacade.h</includes>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1MeshMeshConverter_1a9bd956d7adf45e7f09fe6105d37a84cb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1TransformedMesh" kindref="compound">TransformedMesh</ref></type>
-        <definition>TransformedMesh MR::MeshMeshConverter::operator()</definition>
-        <argsstring>(Mesh mesh, const AffineXf3f &amp;xf={}) const</argsstring>
-        <name>operator()</name>
-        <qualifiedname>MR::MeshMeshConverter::operator()</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref></type>
-          <declname>mesh</declname>
-        </param>
-        <param>
-          <type>const AffineXf3f &amp;</type>
-          <declname>xf</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBooleanFacade.h" line="22" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBooleanFacade.h" bodystart="22" bodyend="23"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1MeshMeshConverter_1abd3cf3ce0157d556dc8e8dec4228137d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="structMR_1_1TransformedMesh" kindref="compound">TransformedMesh</ref></type>
-        <definition>MRMESH_API TransformedMesh MR::MeshMeshConverter::operator()</definition>
-        <argsstring>(const ObjectMesh &amp;obj) const</argsstring>
-        <name>operator()</name>
-        <qualifiedname>MR::MeshMeshConverter::operator()</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> &amp;</type>
-          <declname>obj</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBooleanFacade.h" line="24" column="32"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1MeshMeshConverter_1ae0b30e21de516b46a8786250e234e4bd" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &amp;</type>
-        <definition>const Mesh &amp; MR::MeshMeshConverter::operator()</definition>
-        <argsstring>(const TransformedMesh &amp;xm) const</argsstring>
-        <name>operator()</name>
-        <qualifiedname>MR::MeshMeshConverter::operator()</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1TransformedMesh" kindref="compound">TransformedMesh</ref> &amp;</type>
-          <declname>xm</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBooleanFacade.h" line="26" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBooleanFacade.h" bodystart="26" bodyend="27"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1MeshMeshConverter_1a799a0b7401b397fa7e07c3a6c8f565a1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &amp;&amp;</type>
-        <definition>Mesh &amp;&amp; MR::MeshMeshConverter::operator()</definition>
-        <argsstring>(TransformedMesh &amp;&amp;xm) const</argsstring>
-        <name>operator()</name>
-        <qualifiedname>MR::MeshMeshConverter::operator()</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1TransformedMesh" kindref="compound">TransformedMesh</ref> &amp;&amp;</type>
-          <declname>xm</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBooleanFacade.h" line="28" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBooleanFacade.h" bodystart="28" bodyend="29"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga9bd956d7adf45e7f09fe6105d37a84cb" kind="function"><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1gabd3cf3ce0157d556dc8e8dec4228137d" kind="function"><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1gae0b30e21de516b46a8786250e234e4bd" kind="function"><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1ga799a0b7401b397fa7e07c3a6c8f565a1" kind="function"><name>operator()</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
 <para>the purpose of this class is to be a replacement for <ref refid="structMR_1_1MeshVoxelsConverter" kindref="compound">MeshVoxelsConverter</ref> in case one wants to quickly assess the change from voxel-based to mesh-based boolean </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBooleanFacade.h" line="20" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBooleanFacade.h" bodystart="21" bodyend="30"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBooleanFacade.h" line="23" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBooleanFacade.h" bodystart="24" bodyend="33"/>
     <listofallmembers>
-      <member refid="structMR_1_1MeshMeshConverter_1a9bd956d7adf45e7f09fe6105d37a84cb" prot="public" virt="non-virtual"><scope>MR::MeshMeshConverter</scope><name>operator()</name></member>
-      <member refid="structMR_1_1MeshMeshConverter_1abd3cf3ce0157d556dc8e8dec4228137d" prot="public" virt="non-virtual"><scope>MR::MeshMeshConverter</scope><name>operator()</name></member>
-      <member refid="structMR_1_1MeshMeshConverter_1ae0b30e21de516b46a8786250e234e4bd" prot="public" virt="non-virtual"><scope>MR::MeshMeshConverter</scope><name>operator()</name></member>
-      <member refid="structMR_1_1MeshMeshConverter_1a799a0b7401b397fa7e07c3a6c8f565a1" prot="public" virt="non-virtual"><scope>MR::MeshMeshConverter</scope><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1ga9bd956d7adf45e7f09fe6105d37a84cb" prot="public" virt="non-virtual"><scope>MR::MeshMeshConverter</scope><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1gabd3cf3ce0157d556dc8e8dec4228137d" prot="public" virt="non-virtual"><scope>MR::MeshMeshConverter</scope><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1gae0b30e21de516b46a8786250e234e4bd" prot="public" virt="non-virtual"><scope>MR::MeshMeshConverter</scope><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1ga799a0b7401b397fa7e07c3a6c8f565a1" prot="public" virt="non-virtual"><scope>MR::MeshMeshConverter</scope><name>operator()</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

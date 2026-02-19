@@ -42,7 +42,7 @@
     </sectiondef>
     <sectiondef kind="public-func">
       <memberdef kind="function" id="classMR_1_1AABBTree_1a0c762ebbd20c05c2219b1a348f22e0fb" prot="public" static="no" nodiscard="yes" const="no" explicit="yes" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <type>MRMESH_API</type>
         <definition>MRMESH_API MR::AABBTree::AABBTree</definition>
         <argsstring>(const MeshPart &amp;mp)</argsstring>
         <name>AABBTree</name>
@@ -109,7 +109,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTree.h" line="23" column="15"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1AABBTree_1afa9d6951c5f6c0370a71ad917fb5cfb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::AABBTree::refit</definition>
         <argsstring>(const Mesh &amp;mesh, const VertBitSet &amp;changedVerts)</argsstring>
         <name>refit</name>
@@ -227,30 +227,30 @@
       <member refid="classMR_1_1AABBTree_1a23b6f58682ec54006a8fb8d00ca4a191" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>AABBTree</name></member>
       <member refid="classMR_1_1AABBTree_1a299be175c35406bc5c624c524a3221e7" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>AABBTree</name></member>
       <member refid="classMR_1_1AABBTree_1ad6975060e66ad2015a573f87cc496c9d" prot="private" virt="non-virtual"><scope>MR::AABBTree</scope><name>AABBTree</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1a380c83540a90e46211318ad9752c2fd2" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>BoxT</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1aac02049340231922a6b175c0900d88c9" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>getBoundingBox</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1aa0b2c5625ad2b069c42780d685db9281" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>getLeafOrder</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1a79ff8d3344f3800e230483376df94d1f" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>getLeafOrderAndReset</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1ae91f1e83ca6d14ef5cc8555ad401b88c" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>getNodesFromLeaves</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1ab33ab0e0416c62327e0334ee7e149f61" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>getSubtreeLeaves</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1aaa00490fa2cf5eac02779a7f87baa86a" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>getSubtrees</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1aeb7792254b27842c6c5e0572db29d2f2" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1aa68c6e8f36c8a52617b624e91f11568d" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>LeafBitSet</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1a6fd4a54abb1c4fe946e503bcb14d15c4" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>LeafBMap</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1af22ebd659b66011e2ce0b16d3abc0e60" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>LeafId</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1a8174ff3f06b05cb213378de264fdcb57" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>LeafTag</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1a4a87e995071aa1a99752d3f3f32a72b3" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>Node</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1a58f8dd538965bde14c46c2ed60aac1f9" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>nodes</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1a11f524576ba6c686729f0173615bc190" prot="protected" virt="non-virtual"><scope>MR::AABBTree</scope><name>nodes_</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1a7a0335fa16114969e7f5e031192bf45b" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>NodeVec</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1a444c40a8f2e0206606d5abe15c0f506f" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>numLeaves</name></member>
+      <member refid="group__GeneralGroup_1ga380c83540a90e46211318ad9752c2fd2" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>BoxT</name></member>
+      <member refid="group__GeneralGroup_1gaac02049340231922a6b175c0900d88c9" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>getBoundingBox</name></member>
+      <member refid="group__GeneralGroup_1gaa0b2c5625ad2b069c42780d685db9281" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>getLeafOrder</name></member>
+      <member refid="group__GeneralGroup_1ga79ff8d3344f3800e230483376df94d1f" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>getLeafOrderAndReset</name></member>
+      <member refid="group__GeneralGroup_1gae91f1e83ca6d14ef5cc8555ad401b88c" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>getNodesFromLeaves</name></member>
+      <member refid="group__GeneralGroup_1gab33ab0e0416c62327e0334ee7e149f61" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>getSubtreeLeaves</name></member>
+      <member refid="group__GeneralGroup_1gaaa00490fa2cf5eac02779a7f87baa86a" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>getSubtrees</name></member>
+      <member refid="group__GeneralGroup_1gaeb7792254b27842c6c5e0572db29d2f2" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1gaa68c6e8f36c8a52617b624e91f11568d" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>LeafBitSet</name></member>
+      <member refid="group__GeneralGroup_1ga6fd4a54abb1c4fe946e503bcb14d15c4" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>LeafBMap</name></member>
+      <member refid="group__GeneralGroup_1gaf22ebd659b66011e2ce0b16d3abc0e60" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>LeafId</name></member>
+      <member refid="group__GeneralGroup_1ga8174ff3f06b05cb213378de264fdcb57" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>LeafTag</name></member>
+      <member refid="group__GeneralGroup_1ga4a87e995071aa1a99752d3f3f32a72b3" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>Node</name></member>
+      <member refid="group__GeneralGroup_1ga58f8dd538965bde14c46c2ed60aac1f9" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>nodes</name></member>
+      <member refid="group__GeneralGroup_1ga11f524576ba6c686729f0173615bc190" prot="protected" virt="non-virtual"><scope>MR::AABBTree</scope><name>nodes_</name></member>
+      <member refid="group__GeneralGroup_1ga7a0335fa16114969e7f5e031192bf45b" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>NodeVec</name></member>
+      <member refid="group__GeneralGroup_1ga444c40a8f2e0206606d5abe15c0f506f" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>numLeaves</name></member>
       <member refid="classMR_1_1AABBTree_1a3d03064881df6e739bd9f815c909abe5" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>operator=</name></member>
       <member refid="classMR_1_1AABBTree_1a4ab5667b36f37c71f2c5ead4d889d288" prot="private" virt="non-virtual"><scope>MR::AABBTree</scope><name>operator=</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1ac94f623e90a49fd07aeb61722ab8e7f1" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>operator[]</name></member>
+      <member refid="group__GeneralGroup_1gac94f623e90a49fd07aeb61722ab8e7f1" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>operator[]</name></member>
       <member refid="classMR_1_1AABBTree_1afa9d6951c5f6c0370a71ad917fb5cfb0" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>refit</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1ab08f029b6e9e13cf15d36bb11eddc952" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>rootNodeId</name></member>
+      <member refid="group__GeneralGroup_1gab08f029b6e9e13cf15d36bb11eddc952" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>rootNodeId</name></member>
       <member refid="classMR_1_1AABBTree_1a1c7a27ff83b86c0c4b27ab51c59cdedb" prot="private" virt="non-virtual"><scope>MR::AABBTree</scope><name>SharedThreadSafeOwner&lt; AABBTree &gt;</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1a66e27ff8d7cb865904647479f715a7f3" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>Traits</name></member>
+      <member refid="group__GeneralGroup_1ga66e27ff8d7cb865904647479f715a7f3" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>Traits</name></member>
       <member refid="classMR_1_1AABBTree_1aed6e78485032d75bf97587de91224aaf" prot="private" virt="non-virtual"><scope>MR::AABBTree</scope><name>UniqueThreadSafeOwner&lt; AABBTree &gt;</name></member>
     </listofallmembers>
   </compounddef>

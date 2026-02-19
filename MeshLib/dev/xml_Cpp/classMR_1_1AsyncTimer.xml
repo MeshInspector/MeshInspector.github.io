@@ -4,195 +4,38 @@
     <compoundname>MR::AsyncTimer</compoundname>
     <includes refid="MRAsyncTimer_8h" local="no">MRAsyncTimer.h</includes>
     <sectiondef kind="public-type">
-      <memberdef kind="enum" id="classMR_1_1AsyncTimer_1ad1582b16bb15b7032af648423d3dd002" prot="public" static="no" strong="yes">
-        <type></type>
-        <name>Event</name>
-        <qualifiedname>MR::AsyncTimer::Event</qualifiedname>
-        <enumvalue id="classMR_1_1AsyncTimer_1ad1582b16bb15b7032af648423d3dd002ab9f34773f28edd59e08c2bee5bcb5a0a" prot="public">
-          <name>AlertTimeReached</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1AsyncTimer_1ad1582b16bb15b7032af648423d3dd002a056fa3d840f48b7bfbbd68c19a4797b3" prot="public">
-          <name>Terminate</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-<para>to call from waiter thread </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAsyncTimer.h" line="34" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAsyncTimer.h" bodystart="35" bodyend="38"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gad1582b16bb15b7032af648423d3dd002" kind="enum"><name>Event</name></member>
     </sectiondef>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1AsyncTimer_1ad31db35640acad4fb60569545ed7ceea" prot="private" static="no" mutable="no">
-        <type>std::mutex</type>
-        <definition>std::mutex MR::AsyncTimer::mutex_</definition>
-        <argsstring></argsstring>
-        <name>mutex_</name>
-        <qualifiedname>MR::AsyncTimer::mutex_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAsyncTimer.h" line="42" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAsyncTimer.h" bodystart="42" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1AsyncTimer_1a394505ffc965e011ac606ca5737bd0dd" prot="private" static="no" mutable="no">
-        <type>std::condition_variable</type>
-        <definition>std::condition_variable MR::AsyncTimer::cvar_</definition>
-        <argsstring></argsstring>
-        <name>cvar_</name>
-        <qualifiedname>MR::AsyncTimer::cvar_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAsyncTimer.h" line="43" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAsyncTimer.h" bodystart="43" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1AsyncTimer_1ae3140d0fe340c0db3f51dc0de4878050" prot="private" static="no" mutable="no">
-        <type>std::optional&lt; <ref refid="namespaceMR_1a200de30e6095463279bfb030e610864b" kindref="member">Time</ref> &gt;</type>
-        <definition>std::optional&lt;Time&gt; MR::AsyncTimer::time_</definition>
-        <argsstring></argsstring>
-        <name>time_</name>
-        <qualifiedname>MR::AsyncTimer::time_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAsyncTimer.h" line="44" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAsyncTimer.h" bodystart="44" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1AsyncTimer_1a2ca482ef3648e8e5bbf46f87469c5413" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::AsyncTimer::terminating_</definition>
-        <argsstring></argsstring>
-        <name>terminating_</name>
-        <qualifiedname>MR::AsyncTimer::terminating_</qualifiedname>
-        <initializer>= false</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAsyncTimer.h" line="45" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAsyncTimer.h" bodystart="45" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gad31db35640acad4fb60569545ed7ceea" kind="variable"><name>mutex_</name></member>
+      <member refid="group__GeneralGroup_1ga394505ffc965e011ac606ca5737bd0dd" kind="variable"><name>cvar_</name></member>
+      <member refid="group__GeneralGroup_1gae3140d0fe340c0db3f51dc0de4878050" kind="variable"><name>time_</name></member>
+      <member refid="group__GeneralGroup_1ga2ca482ef3648e8e5bbf46f87469c5413" kind="variable"><name>terminating_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1AsyncTimer_1a22c22547b9f3f454f3bfeb6f368eb6c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::AsyncTimer::setTime</definition>
-        <argsstring>(const Time &amp;time)</argsstring>
-        <name>setTime</name>
-        <qualifiedname>MR::AsyncTimer::setTime</qualifiedname>
-        <param>
-          <type>const <ref refid="namespaceMR_1a200de30e6095463279bfb030e610864b" kindref="member">Time</ref> &amp;</type>
-          <declname>time</declname>
-        </param>
-        <briefdescription>
-<para>sets alert time, forgetting about previous time </para>
-        </briefdescription>
-        <detaileddescription>
-<para>to call from any requester thread </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAsyncTimer.h" line="24" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1AsyncTimer_1abeb2bb37589334da8a5e932ed882a5d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>MRVIEWER_API bool MR::AsyncTimer::setTimeIfNotSet</definition>
-        <argsstring>(const Time &amp;time)</argsstring>
-        <name>setTimeIfNotSet</name>
-        <qualifiedname>MR::AsyncTimer::setTimeIfNotSet</qualifiedname>
-        <param>
-          <type>const <ref refid="namespaceMR_1a200de30e6095463279bfb030e610864b" kindref="member">Time</ref> &amp;</type>
-          <declname>time</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>sets alert time only if it is not set yet returns true if timer set </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAsyncTimer.h" line="27" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1AsyncTimer_1a6de5f55a304287df5371578c9fb8bfad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::AsyncTimer::resetTime</definition>
-        <argsstring>()</argsstring>
-        <name>resetTime</name>
-        <qualifiedname>MR::AsyncTimer::resetTime</qualifiedname>
-        <briefdescription>
-<para>reset the timer </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAsyncTimer.h" line="29" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1AsyncTimer_1aeee85a939ba5485f5fe9cf00a8f5d275" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::AsyncTimer::terminate</definition>
-        <argsstring>()</argsstring>
-        <name>terminate</name>
-        <qualifiedname>MR::AsyncTimer::terminate</qualifiedname>
-        <briefdescription>
-<para>orders the waiter thread to stop </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAsyncTimer.h" line="31" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1AsyncTimer_1ab495cfbb4703c6205a17bc2dcd0a6b44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API <ref refid="classMR_1_1AsyncTimer_1ad1582b16bb15b7032af648423d3dd002" kindref="member">Event</ref></type>
-        <definition>MRVIEWER_API Event MR::AsyncTimer::waitBlocking</definition>
-        <argsstring>()</argsstring>
-        <name>waitBlocking</name>
-        <qualifiedname>MR::AsyncTimer::waitBlocking</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAsyncTimer.h" line="39" column="24"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga22c22547b9f3f454f3bfeb6f368eb6c8" kind="function"><name>setTime</name></member>
+      <member refid="group__GeneralGroup_1gabeb2bb37589334da8a5e932ed882a5d1" kind="function"><name>setTimeIfNotSet</name></member>
+      <member refid="group__GeneralGroup_1ga6de5f55a304287df5371578c9fb8bfad" kind="function"><name>resetTime</name></member>
+      <member refid="group__GeneralGroup_1gaeee85a939ba5485f5fe9cf00a8f5d275" kind="function"><name>terminate</name></member>
+      <member refid="group__GeneralGroup_1gab495cfbb4703c6205a17bc2dcd0a6b44" kind="function"><name>waitBlocking</name></member>
     </sectiondef>
     <briefdescription>
 <para>the object to set timer from any thread and wait for alert time from another thread </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAsyncTimer.h" line="20" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAsyncTimer.h" bodystart="21" bodyend="46"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAsyncTimer.h" line="23" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAsyncTimer.h" bodystart="24" bodyend="49"/>
     <listofallmembers>
-      <member refid="classMR_1_1AsyncTimer_1a394505ffc965e011ac606ca5737bd0dd" prot="private" virt="non-virtual"><scope>MR::AsyncTimer</scope><name>cvar_</name></member>
-      <member refid="classMR_1_1AsyncTimer_1ad1582b16bb15b7032af648423d3dd002" prot="public" virt="non-virtual"><scope>MR::AsyncTimer</scope><name>Event</name></member>
-      <member refid="classMR_1_1AsyncTimer_1ad31db35640acad4fb60569545ed7ceea" prot="private" virt="non-virtual"><scope>MR::AsyncTimer</scope><name>mutex_</name></member>
-      <member refid="classMR_1_1AsyncTimer_1a6de5f55a304287df5371578c9fb8bfad" prot="public" virt="non-virtual"><scope>MR::AsyncTimer</scope><name>resetTime</name></member>
-      <member refid="classMR_1_1AsyncTimer_1a22c22547b9f3f454f3bfeb6f368eb6c8" prot="public" virt="non-virtual"><scope>MR::AsyncTimer</scope><name>setTime</name></member>
-      <member refid="classMR_1_1AsyncTimer_1abeb2bb37589334da8a5e932ed882a5d1" prot="public" virt="non-virtual"><scope>MR::AsyncTimer</scope><name>setTimeIfNotSet</name></member>
-      <member refid="classMR_1_1AsyncTimer_1aeee85a939ba5485f5fe9cf00a8f5d275" prot="public" virt="non-virtual"><scope>MR::AsyncTimer</scope><name>terminate</name></member>
-      <member refid="classMR_1_1AsyncTimer_1a2ca482ef3648e8e5bbf46f87469c5413" prot="private" virt="non-virtual"><scope>MR::AsyncTimer</scope><name>terminating_</name></member>
-      <member refid="classMR_1_1AsyncTimer_1ae3140d0fe340c0db3f51dc0de4878050" prot="private" virt="non-virtual"><scope>MR::AsyncTimer</scope><name>time_</name></member>
-      <member refid="classMR_1_1AsyncTimer_1ab495cfbb4703c6205a17bc2dcd0a6b44" prot="public" virt="non-virtual"><scope>MR::AsyncTimer</scope><name>waitBlocking</name></member>
+      <member refid="group__GeneralGroup_1ga394505ffc965e011ac606ca5737bd0dd" prot="private" virt="non-virtual"><scope>MR::AsyncTimer</scope><name>cvar_</name></member>
+      <member refid="group__GeneralGroup_1gad1582b16bb15b7032af648423d3dd002" prot="public" virt="non-virtual"><scope>MR::AsyncTimer</scope><name>Event</name></member>
+      <member refid="group__GeneralGroup_1gad31db35640acad4fb60569545ed7ceea" prot="private" virt="non-virtual"><scope>MR::AsyncTimer</scope><name>mutex_</name></member>
+      <member refid="group__GeneralGroup_1ga6de5f55a304287df5371578c9fb8bfad" prot="public" virt="non-virtual"><scope>MR::AsyncTimer</scope><name>resetTime</name></member>
+      <member refid="group__GeneralGroup_1ga22c22547b9f3f454f3bfeb6f368eb6c8" prot="public" virt="non-virtual"><scope>MR::AsyncTimer</scope><name>setTime</name></member>
+      <member refid="group__GeneralGroup_1gabeb2bb37589334da8a5e932ed882a5d1" prot="public" virt="non-virtual"><scope>MR::AsyncTimer</scope><name>setTimeIfNotSet</name></member>
+      <member refid="group__GeneralGroup_1gaeee85a939ba5485f5fe9cf00a8f5d275" prot="public" virt="non-virtual"><scope>MR::AsyncTimer</scope><name>terminate</name></member>
+      <member refid="group__GeneralGroup_1ga2ca482ef3648e8e5bbf46f87469c5413" prot="private" virt="non-virtual"><scope>MR::AsyncTimer</scope><name>terminating_</name></member>
+      <member refid="group__GeneralGroup_1gae3140d0fe340c0db3f51dc0de4878050" prot="private" virt="non-virtual"><scope>MR::AsyncTimer</scope><name>time_</name></member>
+      <member refid="group__GeneralGroup_1gab495cfbb4703c6205a17bc2dcd0a6b44" prot="public" virt="non-virtual"><scope>MR::AsyncTimer</scope><name>waitBlocking</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

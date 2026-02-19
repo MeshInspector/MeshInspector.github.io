@@ -4,34 +4,8 @@
     <compoundname>MR::PolylineToVolumeParams</compoundname>
     <includes refid="MRPolylineToVoxels_8h" local="no">MRPolylineToVoxels.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1PolylineToVolumeParams_1a1daa9529865ff9fa75f4e718e54fbd75" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1DistanceVolumeParams" kindref="compound">DistanceVolumeParams</ref></type>
-        <definition>DistanceVolumeParams MR::PolylineToVolumeParams::vol</definition>
-        <argsstring></argsstring>
-        <name>vol</name>
-        <qualifiedname>MR::PolylineToVolumeParams::vol</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPolylineToVoxels.h" line="32" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPolylineToVoxels.h" bodystart="32" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1PolylineToVolumeParams_1a000c468f653f412dd5e5110354c49d7b" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1DistanceToMeshOptions" kindref="compound">DistanceToMeshOptions</ref></type>
-        <definition>DistanceToMeshOptions MR::PolylineToVolumeParams::dist</definition>
-        <argsstring></argsstring>
-        <name>dist</name>
-        <qualifiedname>MR::PolylineToVolumeParams::dist</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPolylineToVoxels.h" line="34" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPolylineToVoxels.h" bodystart="34" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga1daa9529865ff9fa75f4e718e54fbd75" kind="variable"><name>vol</name></member>
+      <member refid="group__GeneralGroup_1ga000c468f653f412dd5e5110354c49d7b" kind="variable"><name>dist</name></member>
     </sectiondef>
     <briefdescription>
 <para>Settings to conversion polyline to volume. </para>
@@ -58,10 +32,10 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPolylineToVoxels.h" line="30" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPolylineToVoxels.h" bodystart="31" bodyend="35"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPolylineToVoxels.h" line="33" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPolylineToVoxels.h" bodystart="34" bodyend="38"/>
     <listofallmembers>
-      <member refid="structMR_1_1PolylineToVolumeParams_1a000c468f653f412dd5e5110354c49d7b" prot="public" virt="non-virtual"><scope>MR::PolylineToVolumeParams</scope><name>dist</name></member>
-      <member refid="structMR_1_1PolylineToVolumeParams_1a1daa9529865ff9fa75f4e718e54fbd75" prot="public" virt="non-virtual"><scope>MR::PolylineToVolumeParams</scope><name>vol</name></member>
+      <member refid="group__GeneralGroup_1ga000c468f653f412dd5e5110354c49d7b" prot="public" virt="non-virtual"><scope>MR::PolylineToVolumeParams</scope><name>dist</name></member>
+      <member refid="group__GeneralGroup_1ga1daa9529865ff9fa75f4e718e54fbd75" prot="public" virt="non-virtual"><scope>MR::PolylineToVolumeParams</scope><name>vol</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

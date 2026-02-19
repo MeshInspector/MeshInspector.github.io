@@ -4,444 +4,66 @@
     <compoundname>MR::CNCMachineSettings</compoundname>
     <includes refid="MRCNCMachineSettings_8h" local="no">MRCNCMachineSettings.h</includes>
     <sectiondef kind="public-type">
-      <memberdef kind="enum" id="classMR_1_1CNCMachineSettings_1ac2d45830eaf9a922d7a6977cab60b79a" prot="public" static="no" strong="yes">
-        <type></type>
-        <name>RotationAxisName</name>
-        <qualifiedname>MR::CNCMachineSettings::RotationAxisName</qualifiedname>
-        <enumvalue id="classMR_1_1CNCMachineSettings_1ac2d45830eaf9a922d7a6977cab60b79aa7fc56270e7a70fa81a5935b72eacbe29" prot="public">
-          <name>A</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1CNCMachineSettings_1ac2d45830eaf9a922d7a6977cab60b79aa9d5ed678fe57bcca610140957afab571" prot="public">
-          <name>B</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1CNCMachineSettings_1ac2d45830eaf9a922d7a6977cab60b79aa0d61f8370cad1d412f80b84d143e1257" prot="public">
-          <name>C</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-<para>enumeration of axes of rotation </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCNCMachineSettings.h" line="19" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCNCMachineSettings.h" bodystart="20" bodyend="24"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1CNCMachineSettings_1ac6d8378bba6ed1303ede82290d59c97d" prot="public" static="no">
-        <type>std::vector&lt; <ref refid="classMR_1_1CNCMachineSettings_1ac2d45830eaf9a922d7a6977cab60b79a" kindref="member">RotationAxisName</ref> &gt;</type>
-        <definition>using MR::CNCMachineSettings::RotationAxesOrder =  std::vector&lt;RotationAxisName&gt;</definition>
-        <argsstring></argsstring>
-        <name>RotationAxesOrder</name>
-        <qualifiedname>MR::CNCMachineSettings::RotationAxesOrder</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCNCMachineSettings.h" line="25" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCNCMachineSettings.h" bodystart="25" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1CNCMachineSettings_1af2bd82f7a688dac76bdbfcf5f4f38ce8" prot="public" static="no">
-        <type>std::optional&lt; Vector2f &gt;</type>
-        <definition>using MR::CNCMachineSettings::RotationLimits =  std::optional&lt;Vector2f&gt;</definition>
-        <argsstring></argsstring>
-        <name>RotationLimits</name>
-        <qualifiedname>MR::CNCMachineSettings::RotationLimits</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCNCMachineSettings.h" line="26" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCNCMachineSettings.h" bodystart="26" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gac2d45830eaf9a922d7a6977cab60b79a" kind="enum"><name>RotationAxisName</name></member>
+      <member refid="group__GeneralGroup_1gac6d8378bba6ed1303ede82290d59c97d" kind="typedef"><name>RotationAxesOrder</name></member>
+      <member refid="group__GeneralGroup_1gaf2bd82f7a688dac76bdbfcf5f4f38ce8" kind="typedef"><name>RotationLimits</name></member>
     </sectiondef>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1CNCMachineSettings_1a8dd7ea31eac50f57c23100bb0692d4c5" prot="private" static="no" mutable="no">
-        <type>std::array&lt; Vector3f, 3 &gt;</type>
-        <definition>std::array&lt;Vector3f, 3&gt; MR::CNCMachineSettings::rotationAxes_</definition>
-        <argsstring></argsstring>
-        <name>rotationAxes_</name>
-        <qualifiedname>MR::CNCMachineSettings::rotationAxes_</qualifiedname>
-        <initializer>= { Vector3f::minusX(), Vector3f::minusY(), Vector3f::plusZ() }</initializer>
-        <briefdescription>
-<para>direction of axes around which the rotation occurs A, B, C </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCNCMachineSettings.h" line="55" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCNCMachineSettings.h" bodystart="55" bodyend="55"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1CNCMachineSettings_1a7b83d20a9d6d6d47d5e54c574f974ba1" prot="private" static="no" mutable="no">
-        <type>std::array&lt; <ref refid="classMR_1_1CNCMachineSettings_1af2bd82f7a688dac76bdbfcf5f4f38ce8" kindref="member">RotationLimits</ref>, 3 &gt;</type>
-        <definition>std::array&lt;RotationLimits, 3&gt; MR::CNCMachineSettings::rotationLimits_</definition>
-        <argsstring></argsstring>
-        <name>rotationLimits_</name>
-        <qualifiedname>MR::CNCMachineSettings::rotationLimits_</qualifiedname>
-        <briefdescription>
-<para>rotation limits </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCNCMachineSettings.h" line="57" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCNCMachineSettings.h" bodystart="57" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1CNCMachineSettings_1af3f76fa54102c963534a06757b535c52" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1CNCMachineSettings_1ac6d8378bba6ed1303ede82290d59c97d" kindref="member">RotationAxesOrder</ref></type>
-        <definition>RotationAxesOrder MR::CNCMachineSettings::rotationAxesOrder_</definition>
-        <argsstring></argsstring>
-        <name>rotationAxesOrder_</name>
-        <qualifiedname>MR::CNCMachineSettings::rotationAxesOrder_</qualifiedname>
-        <initializer>= { <ref refid="classMR_1_1CNCMachineSettings_1ac2d45830eaf9a922d7a6977cab60b79aa7fc56270e7a70fa81a5935b72eacbe29" kindref="member">RotationAxisName::A</ref>, <ref refid="classMR_1_1CNCMachineSettings_1ac2d45830eaf9a922d7a6977cab60b79aa9d5ed678fe57bcca610140957afab571" kindref="member">RotationAxisName::B</ref>, <ref refid="classMR_1_1CNCMachineSettings_1ac2d45830eaf9a922d7a6977cab60b79aa0d61f8370cad1d412f80b84d143e1257" kindref="member">RotationAxisName::C</ref> }</initializer>
-        <briefdescription>
-<para>order of application of rotations </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCNCMachineSettings.h" line="59" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCNCMachineSettings.h" bodystart="59" bodyend="59"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1CNCMachineSettings_1a9c190b668695dc7442dd075e6e0b036c" prot="private" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::CNCMachineSettings::feedrateIdle_</definition>
-        <argsstring></argsstring>
-        <name>feedrateIdle_</name>
-        <qualifiedname>MR::CNCMachineSettings::feedrateIdle_</qualifiedname>
-        <initializer>= 10000.f</initializer>
-        <briefdescription>
-<para>feedrate idle. 0 - feedrate idle set as maximum feedrate on any action, or 100 if feedrate is not set in any action </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCNCMachineSettings.h" line="61" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCNCMachineSettings.h" bodystart="61" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1CNCMachineSettings_1a72b1543f27bcfe4326e9701d9927bf27" prot="private" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::CNCMachineSettings::homePosition_</definition>
-        <argsstring></argsstring>
-        <name>homePosition_</name>
-        <qualifiedname>MR::CNCMachineSettings::homePosition_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCNCMachineSettings.h" line="62" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCNCMachineSettings.h" bodystart="62" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga8dd7ea31eac50f57c23100bb0692d4c5" kind="variable"><name>rotationAxes_</name></member>
+      <member refid="group__GeneralGroup_1ga7b83d20a9d6d6d47d5e54c574f974ba1" kind="variable"><name>rotationLimits_</name></member>
+      <member refid="group__GeneralGroup_1gaf3f76fa54102c963534a06757b535c52" kind="variable"><name>rotationAxesOrder_</name></member>
+      <member refid="group__GeneralGroup_1ga9c190b668695dc7442dd075e6e0b036c" kind="variable"><name>feedrateIdle_</name></member>
+      <member refid="group__GeneralGroup_1ga72b1543f27bcfe4326e9701d9927bf27" kind="variable"><name>homePosition_</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1CNCMachineSettings_1a271280ff24b28ebf15bb5513121032be" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>int</type>
-        <definition>static int MR::CNCMachineSettings::getAxesCount</definition>
-        <argsstring>()</argsstring>
-        <name>getAxesCount</name>
-        <qualifiedname>MR::CNCMachineSettings::getAxesCount</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCNCMachineSettings.h" line="28" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCNCMachineSettings.h" bodystart="28" bodyend="28"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga271280ff24b28ebf15bb5513121032be" kind="function"><name>getAxesCount</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1CNCMachineSettings_1af43358e48d8585153010284ae8573894" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::CNCMachineSettings::setRotationAxis</definition>
-        <argsstring>(RotationAxisName paramName, const Vector3f &amp;rotationAxis)</argsstring>
-        <name>setRotationAxis</name>
-        <qualifiedname>MR::CNCMachineSettings::setRotationAxis</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1CNCMachineSettings_1ac2d45830eaf9a922d7a6977cab60b79a" kindref="member">RotationAxisName</ref></type>
-          <declname>paramName</declname>
-        </param>
-        <param>
-          <type>const Vector3f &amp;</type>
-          <declname>rotationAxis</declname>
-        </param>
-        <briefdescription>
-<para>rotationAxis length will be more then 0.01 </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCNCMachineSettings.h" line="31" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1CNCMachineSettings_1a9b8cd0d699837ae1b90931ef9e94812e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> const Vector3f &amp;</type>
-        <definition>MRMESH_API const Vector3f &amp; MR::CNCMachineSettings::getRotationAxis</definition>
-        <argsstring>(RotationAxisName paramName) const</argsstring>
-        <name>getRotationAxis</name>
-        <qualifiedname>MR::CNCMachineSettings::getRotationAxis</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1CNCMachineSettings_1ac2d45830eaf9a922d7a6977cab60b79a" kindref="member">RotationAxisName</ref></type>
-          <declname>paramName</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCNCMachineSettings.h" line="32" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1CNCMachineSettings_1acc7183caf6c3269e59180f362ef83258" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::CNCMachineSettings::setRotationLimits</definition>
-        <argsstring>(RotationAxisName paramName, const RotationLimits &amp;rotationLimits)</argsstring>
-        <name>setRotationLimits</name>
-        <qualifiedname>MR::CNCMachineSettings::setRotationLimits</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1CNCMachineSettings_1ac2d45830eaf9a922d7a6977cab60b79a" kindref="member">RotationAxisName</ref></type>
-          <declname>paramName</declname>
-        </param>
-        <param>
-          <type>const <ref refid="classMR_1_1CNCMachineSettings_1af2bd82f7a688dac76bdbfcf5f4f38ce8" kindref="member">RotationLimits</ref> &amp;</type>
-          <declname>rotationLimits</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>rotationLimits = {min, max} valid range -180 &lt;= min &lt; max &lt;= 180 </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCNCMachineSettings.h" line="35" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1CNCMachineSettings_1ae955523fc216f1375b25477a94ebc629" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> const <ref refid="classMR_1_1CNCMachineSettings_1af2bd82f7a688dac76bdbfcf5f4f38ce8" kindref="member">RotationLimits</ref> &amp;</type>
-        <definition>MRMESH_API const RotationLimits &amp; MR::CNCMachineSettings::getRotationLimits</definition>
-        <argsstring>(RotationAxisName paramName) const</argsstring>
-        <name>getRotationLimits</name>
-        <qualifiedname>MR::CNCMachineSettings::getRotationLimits</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1CNCMachineSettings_1ac2d45830eaf9a922d7a6977cab60b79a" kindref="member">RotationAxisName</ref></type>
-          <declname>paramName</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCNCMachineSettings.h" line="36" column="37"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1CNCMachineSettings_1ac2d2ccfe7fd64c3498a251b0a0d33223" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::CNCMachineSettings::setRotationOrder</definition>
-        <argsstring>(const RotationAxesOrder &amp;rotationAxesOrder)</argsstring>
-        <name>setRotationOrder</name>
-        <qualifiedname>MR::CNCMachineSettings::setRotationOrder</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1CNCMachineSettings_1ac6d8378bba6ed1303ede82290d59c97d" kindref="member">RotationAxesOrder</ref> &amp;</type>
-          <declname>rotationAxesOrder</declname>
-        </param>
-        <briefdescription>
-<para>duplicated values will be removed (ABAAC - &gt; ABC) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCNCMachineSettings.h" line="38" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1CNCMachineSettings_1ac0c13922a14bfc3a6a3a9add38676b04" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const <ref refid="classMR_1_1CNCMachineSettings_1ac6d8378bba6ed1303ede82290d59c97d" kindref="member">RotationAxesOrder</ref> &amp;</type>
-        <definition>const RotationAxesOrder &amp; MR::CNCMachineSettings::getRotationOrder</definition>
-        <argsstring>() const</argsstring>
-        <name>getRotationOrder</name>
-        <qualifiedname>MR::CNCMachineSettings::getRotationOrder</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCNCMachineSettings.h" line="39" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCNCMachineSettings.h" bodystart="39" bodyend="39"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1CNCMachineSettings_1ae22e552af6d9f1dc0260d0da9fac1245" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::CNCMachineSettings::setFeedrateIdle</definition>
-        <argsstring>(float feedrateIdle)</argsstring>
-        <name>setFeedrateIdle</name>
-        <qualifiedname>MR::CNCMachineSettings::setFeedrateIdle</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>feedrateIdle</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>set feedrate idle. valid range - [0, 100000] 0 - feedrate idle set as maximum feedrate on any action, or 100 if feedrate is not set in any action </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCNCMachineSettings.h" line="42" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1CNCMachineSettings_1aa86d3a2352dd1da528e0b0e02259cb2a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>float</type>
-        <definition>float MR::CNCMachineSettings::getFeedrateIdle</definition>
-        <argsstring>() const</argsstring>
-        <name>getFeedrateIdle</name>
-        <qualifiedname>MR::CNCMachineSettings::getFeedrateIdle</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCNCMachineSettings.h" line="43" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCNCMachineSettings.h" bodystart="43" bodyend="43"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1CNCMachineSettings_1aeec12ba988b385f03ee2ab59df0bdd18" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::CNCMachineSettings::setHomePosition</definition>
-        <argsstring>(const Vector3f &amp;homePosition)</argsstring>
-        <name>setHomePosition</name>
-        <qualifiedname>MR::CNCMachineSettings::setHomePosition</qualifiedname>
-        <param>
-          <type>const Vector3f &amp;</type>
-          <declname>homePosition</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCNCMachineSettings.h" line="44" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCNCMachineSettings.h" bodystart="44" bodyend="44"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1CNCMachineSettings_1a404671f36c19d091b007337e8c67f052" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const Vector3f &amp;</type>
-        <definition>const Vector3f &amp; MR::CNCMachineSettings::getHomePosition</definition>
-        <argsstring>() const</argsstring>
-        <name>getHomePosition</name>
-        <qualifiedname>MR::CNCMachineSettings::getHomePosition</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCNCMachineSettings.h" line="45" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCNCMachineSettings.h" bodystart="45" bodyend="45"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1CNCMachineSettings_1a278d2f6aa58def219645069a531f5bcb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
-        <definition>MRMESH_API bool MR::CNCMachineSettings::operator==</definition>
-        <argsstring>(const CNCMachineSettings &amp;rhs)</argsstring>
-        <name>operator==</name>
-        <qualifiedname>MR::CNCMachineSettings::operator==</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1CNCMachineSettings" kindref="compound">CNCMachineSettings</ref> &amp;</type>
-          <declname>rhs</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCNCMachineSettings.h" line="47" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1CNCMachineSettings_1a0bbceb8d92b2fa4d3b6ef276385f4859" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::CNCMachineSettings::operator!=</definition>
-        <argsstring>(const CNCMachineSettings &amp;rhs)</argsstring>
-        <name>operator!=</name>
-        <qualifiedname>MR::CNCMachineSettings::operator!=</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1CNCMachineSettings" kindref="compound">CNCMachineSettings</ref> &amp;</type>
-          <declname>rhs</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCNCMachineSettings.h" line="48" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCNCMachineSettings.h" bodystart="48" bodyend="48"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1CNCMachineSettings_1aefee9fbee599870c51626aa983b8a978" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Json::Value</type>
-        <definition>MRMESH_API Json::Value MR::CNCMachineSettings::saveToJson</definition>
-        <argsstring>() const</argsstring>
-        <name>saveToJson</name>
-        <qualifiedname>MR::CNCMachineSettings::saveToJson</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCNCMachineSettings.h" line="50" column="28"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1CNCMachineSettings_1aea3e8581cae26f91618ddedf27079e5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
-        <definition>MRMESH_API bool MR::CNCMachineSettings::loadFromJson</definition>
-        <argsstring>(const Json::Value &amp;jsonValue)</argsstring>
-        <name>loadFromJson</name>
-        <qualifiedname>MR::CNCMachineSettings::loadFromJson</qualifiedname>
-        <param>
-          <type>const Json::Value &amp;</type>
-          <declname>jsonValue</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCNCMachineSettings.h" line="51" column="21"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaf43358e48d8585153010284ae8573894" kind="function"><name>setRotationAxis</name></member>
+      <member refid="group__GeneralGroup_1ga9b8cd0d699837ae1b90931ef9e94812e" kind="function"><name>getRotationAxis</name></member>
+      <member refid="group__GeneralGroup_1gacc7183caf6c3269e59180f362ef83258" kind="function"><name>setRotationLimits</name></member>
+      <member refid="group__GeneralGroup_1gae955523fc216f1375b25477a94ebc629" kind="function"><name>getRotationLimits</name></member>
+      <member refid="group__GeneralGroup_1gac2d2ccfe7fd64c3498a251b0a0d33223" kind="function"><name>setRotationOrder</name></member>
+      <member refid="group__GeneralGroup_1gac0c13922a14bfc3a6a3a9add38676b04" kind="function"><name>getRotationOrder</name></member>
+      <member refid="group__GeneralGroup_1gae22e552af6d9f1dc0260d0da9fac1245" kind="function"><name>setFeedrateIdle</name></member>
+      <member refid="group__GeneralGroup_1gaa86d3a2352dd1da528e0b0e02259cb2a" kind="function"><name>getFeedrateIdle</name></member>
+      <member refid="group__GeneralGroup_1gaeec12ba988b385f03ee2ab59df0bdd18" kind="function"><name>setHomePosition</name></member>
+      <member refid="group__GeneralGroup_1ga404671f36c19d091b007337e8c67f052" kind="function"><name>getHomePosition</name></member>
+      <member refid="group__GeneralGroup_1ga278d2f6aa58def219645069a531f5bcb" kind="function"><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga0bbceb8d92b2fa4d3b6ef276385f4859" kind="function"><name>operator!=</name></member>
+      <member refid="group__GeneralGroup_1gaefee9fbee599870c51626aa983b8a978" kind="function"><name>saveToJson</name></member>
+      <member refid="group__GeneralGroup_1gaea3e8581cae26f91618ddedf27079e5b" kind="function"><name>loadFromJson</name></member>
     </sectiondef>
     <briefdescription>
 <para>class with CNC machine emulation settings </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCNCMachineSettings.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCNCMachineSettings.h" bodystart="16" bodyend="63"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCNCMachineSettings.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCNCMachineSettings.h" bodystart="19" bodyend="66"/>
     <listofallmembers>
-      <member refid="classMR_1_1CNCMachineSettings_1a9c190b668695dc7442dd075e6e0b036c" prot="private" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>feedrateIdle_</name></member>
-      <member refid="classMR_1_1CNCMachineSettings_1a271280ff24b28ebf15bb5513121032be" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>getAxesCount</name></member>
-      <member refid="classMR_1_1CNCMachineSettings_1aa86d3a2352dd1da528e0b0e02259cb2a" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>getFeedrateIdle</name></member>
-      <member refid="classMR_1_1CNCMachineSettings_1a404671f36c19d091b007337e8c67f052" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>getHomePosition</name></member>
-      <member refid="classMR_1_1CNCMachineSettings_1a9b8cd0d699837ae1b90931ef9e94812e" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>getRotationAxis</name></member>
-      <member refid="classMR_1_1CNCMachineSettings_1ae955523fc216f1375b25477a94ebc629" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>getRotationLimits</name></member>
-      <member refid="classMR_1_1CNCMachineSettings_1ac0c13922a14bfc3a6a3a9add38676b04" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>getRotationOrder</name></member>
-      <member refid="classMR_1_1CNCMachineSettings_1a72b1543f27bcfe4326e9701d9927bf27" prot="private" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>homePosition_</name></member>
-      <member refid="classMR_1_1CNCMachineSettings_1aea3e8581cae26f91618ddedf27079e5b" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>loadFromJson</name></member>
-      <member refid="classMR_1_1CNCMachineSettings_1a0bbceb8d92b2fa4d3b6ef276385f4859" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>operator!=</name></member>
-      <member refid="classMR_1_1CNCMachineSettings_1a278d2f6aa58def219645069a531f5bcb" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>operator==</name></member>
-      <member refid="classMR_1_1CNCMachineSettings_1a8dd7ea31eac50f57c23100bb0692d4c5" prot="private" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>rotationAxes_</name></member>
-      <member refid="classMR_1_1CNCMachineSettings_1ac6d8378bba6ed1303ede82290d59c97d" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>RotationAxesOrder</name></member>
-      <member refid="classMR_1_1CNCMachineSettings_1af3f76fa54102c963534a06757b535c52" prot="private" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>rotationAxesOrder_</name></member>
-      <member refid="classMR_1_1CNCMachineSettings_1ac2d45830eaf9a922d7a6977cab60b79a" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>RotationAxisName</name></member>
-      <member refid="classMR_1_1CNCMachineSettings_1af2bd82f7a688dac76bdbfcf5f4f38ce8" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>RotationLimits</name></member>
-      <member refid="classMR_1_1CNCMachineSettings_1a7b83d20a9d6d6d47d5e54c574f974ba1" prot="private" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>rotationLimits_</name></member>
-      <member refid="classMR_1_1CNCMachineSettings_1aefee9fbee599870c51626aa983b8a978" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>saveToJson</name></member>
-      <member refid="classMR_1_1CNCMachineSettings_1ae22e552af6d9f1dc0260d0da9fac1245" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>setFeedrateIdle</name></member>
-      <member refid="classMR_1_1CNCMachineSettings_1aeec12ba988b385f03ee2ab59df0bdd18" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>setHomePosition</name></member>
-      <member refid="classMR_1_1CNCMachineSettings_1af43358e48d8585153010284ae8573894" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>setRotationAxis</name></member>
-      <member refid="classMR_1_1CNCMachineSettings_1acc7183caf6c3269e59180f362ef83258" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>setRotationLimits</name></member>
-      <member refid="classMR_1_1CNCMachineSettings_1ac2d2ccfe7fd64c3498a251b0a0d33223" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>setRotationOrder</name></member>
+      <member refid="group__GeneralGroup_1ga9c190b668695dc7442dd075e6e0b036c" prot="private" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>feedrateIdle_</name></member>
+      <member refid="group__GeneralGroup_1ga271280ff24b28ebf15bb5513121032be" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>getAxesCount</name></member>
+      <member refid="group__GeneralGroup_1gaa86d3a2352dd1da528e0b0e02259cb2a" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>getFeedrateIdle</name></member>
+      <member refid="group__GeneralGroup_1ga404671f36c19d091b007337e8c67f052" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>getHomePosition</name></member>
+      <member refid="group__GeneralGroup_1ga9b8cd0d699837ae1b90931ef9e94812e" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>getRotationAxis</name></member>
+      <member refid="group__GeneralGroup_1gae955523fc216f1375b25477a94ebc629" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>getRotationLimits</name></member>
+      <member refid="group__GeneralGroup_1gac0c13922a14bfc3a6a3a9add38676b04" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>getRotationOrder</name></member>
+      <member refid="group__GeneralGroup_1ga72b1543f27bcfe4326e9701d9927bf27" prot="private" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>homePosition_</name></member>
+      <member refid="group__GeneralGroup_1gaea3e8581cae26f91618ddedf27079e5b" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>loadFromJson</name></member>
+      <member refid="group__GeneralGroup_1ga0bbceb8d92b2fa4d3b6ef276385f4859" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>operator!=</name></member>
+      <member refid="group__GeneralGroup_1ga278d2f6aa58def219645069a531f5bcb" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga8dd7ea31eac50f57c23100bb0692d4c5" prot="private" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>rotationAxes_</name></member>
+      <member refid="group__GeneralGroup_1gac6d8378bba6ed1303ede82290d59c97d" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>RotationAxesOrder</name></member>
+      <member refid="group__GeneralGroup_1gaf3f76fa54102c963534a06757b535c52" prot="private" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>rotationAxesOrder_</name></member>
+      <member refid="group__GeneralGroup_1gac2d45830eaf9a922d7a6977cab60b79a" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>RotationAxisName</name></member>
+      <member refid="group__GeneralGroup_1gaf2bd82f7a688dac76bdbfcf5f4f38ce8" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>RotationLimits</name></member>
+      <member refid="group__GeneralGroup_1ga7b83d20a9d6d6d47d5e54c574f974ba1" prot="private" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>rotationLimits_</name></member>
+      <member refid="group__GeneralGroup_1gaefee9fbee599870c51626aa983b8a978" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>saveToJson</name></member>
+      <member refid="group__GeneralGroup_1gae22e552af6d9f1dc0260d0da9fac1245" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>setFeedrateIdle</name></member>
+      <member refid="group__GeneralGroup_1gaeec12ba988b385f03ee2ab59df0bdd18" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>setHomePosition</name></member>
+      <member refid="group__GeneralGroup_1gaf43358e48d8585153010284ae8573894" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>setRotationAxis</name></member>
+      <member refid="group__GeneralGroup_1gacc7183caf6c3269e59180f362ef83258" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>setRotationLimits</name></member>
+      <member refid="group__GeneralGroup_1gac2d2ccfe7fd64c3498a251b0a0d33223" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>setRotationOrder</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

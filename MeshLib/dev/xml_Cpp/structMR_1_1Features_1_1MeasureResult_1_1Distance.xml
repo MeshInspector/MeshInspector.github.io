@@ -5,106 +5,14 @@
     <basecompoundref refid="structMR_1_1Features_1_1MeasureResult_1_1BasicPart" prot="public" virt="non-virtual">MR::Features::MeasureResult::BasicPart</basecompoundref>
     <includes refid="MRFeatures_8h" local="no">MRFeatures.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1Features_1_1MeasureResult_1_1Distance_1abc2ecf316c1affc7c259c7b438753dbb" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::Features::MeasureResult::Distance::distance</definition>
-        <argsstring></argsstring>
-        <name>distance</name>
-        <qualifiedname>MR::Features::MeasureResult::Distance::distance</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-<para>This is a separate field because it can be negative. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="190" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" bodystart="190" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1Features_1_1MeasureResult_1_1Distance_1a63df7d9b2bc70ecaf640167b54487acc" prot="public" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::Features::MeasureResult::Distance::closestPointA</definition>
-        <argsstring></argsstring>
-        <name>closestPointA</name>
-        <qualifiedname>MR::Features::MeasureResult::Distance::closestPointA</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="192" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" bodystart="192" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1Features_1_1MeasureResult_1_1Distance_1aac200a7d9f4713275d0ceb4ed127773b" prot="public" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::Features::MeasureResult::Distance::closestPointB</definition>
-        <argsstring></argsstring>
-        <name>closestPointB</name>
-        <qualifiedname>MR::Features::MeasureResult::Distance::closestPointB</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="193" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" bodystart="193" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gabc2ecf316c1affc7c259c7b438753dbb" kind="variable"><name>distance</name></member>
+      <member refid="group__GeneralGroup_1ga63df7d9b2bc70ecaf640167b54487acc" kind="variable"><name>closestPointA</name></member>
+      <member refid="group__GeneralGroup_1gaac200a7d9f4713275d0ceb4ed127773b" kind="variable"><name>closestPointB</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1Features_1_1MeasureResult_1_1Distance_1a8670c18dcc3043de2c9724f9e7412b45" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::Features::MeasureResult::Distance::closestPointFor</definition>
-        <argsstring>(bool b) const</argsstring>
-        <name>closestPointFor</name>
-        <qualifiedname>MR::Features::MeasureResult::Distance::closestPointFor</qualifiedname>
-        <param>
-          <type>bool</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="195" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" bodystart="195" bodyend="195"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Features_1_1MeasureResult_1_1Distance_1a332150131bda07c1cc0ccb728695b123" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>float</type>
-        <definition>float MR::Features::MeasureResult::Distance::distanceAlongAxis</definition>
-        <argsstring>(int i) const</argsstring>
-        <name>distanceAlongAxis</name>
-        <qualifiedname>MR::Features::MeasureResult::Distance::distanceAlongAxis</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>i</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="197" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" bodystart="197" bodyend="197"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Features_1_1MeasureResult_1_1Distance_1aa226d42d5a35c9f64e1e15313df72d2c" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>float</type>
-        <definition>float MR::Features::MeasureResult::Distance::distanceAlongAxisAbs</definition>
-        <argsstring>(int i) const</argsstring>
-        <name>distanceAlongAxisAbs</name>
-        <qualifiedname>MR::Features::MeasureResult::Distance::distanceAlongAxisAbs</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>i</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="198" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" bodystart="198" bodyend="198"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga8670c18dcc3043de2c9724f9e7412b45" kind="function"><name>closestPointFor</name></member>
+      <member refid="group__GeneralGroup_1ga332150131bda07c1cc0ccb728695b123" kind="function"><name>distanceAlongAxis</name></member>
+      <member refid="group__GeneralGroup_1gaa226d42d5a35c9f64e1e15313df72d2c" kind="function"><name>distanceAlongAxisAbs</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -134,16 +42,16 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="187" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" bodystart="188" bodyend="199"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="190" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" bodystart="191" bodyend="202"/>
     <listofallmembers>
-      <member refid="structMR_1_1Features_1_1MeasureResult_1_1Distance_1a63df7d9b2bc70ecaf640167b54487acc" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult::Distance</scope><name>closestPointA</name></member>
-      <member refid="structMR_1_1Features_1_1MeasureResult_1_1Distance_1aac200a7d9f4713275d0ceb4ed127773b" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult::Distance</scope><name>closestPointB</name></member>
-      <member refid="structMR_1_1Features_1_1MeasureResult_1_1Distance_1a8670c18dcc3043de2c9724f9e7412b45" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult::Distance</scope><name>closestPointFor</name></member>
-      <member refid="structMR_1_1Features_1_1MeasureResult_1_1Distance_1abc2ecf316c1affc7c259c7b438753dbb" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult::Distance</scope><name>distance</name></member>
-      <member refid="structMR_1_1Features_1_1MeasureResult_1_1Distance_1a332150131bda07c1cc0ccb728695b123" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult::Distance</scope><name>distanceAlongAxis</name></member>
-      <member refid="structMR_1_1Features_1_1MeasureResult_1_1Distance_1aa226d42d5a35c9f64e1e15313df72d2c" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult::Distance</scope><name>distanceAlongAxisAbs</name></member>
-      <member refid="structMR_1_1Features_1_1MeasureResult_1_1BasicPart_1a7985af9aca32411b60aec8f8e6178e92" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult::Distance</scope><name>operator bool</name></member>
-      <member refid="structMR_1_1Features_1_1MeasureResult_1_1BasicPart_1a86193b4dbe9a464e56ff2fe272c46486" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult::Distance</scope><name>status</name></member>
+      <member refid="group__GeneralGroup_1ga63df7d9b2bc70ecaf640167b54487acc" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult::Distance</scope><name>closestPointA</name></member>
+      <member refid="group__GeneralGroup_1gaac200a7d9f4713275d0ceb4ed127773b" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult::Distance</scope><name>closestPointB</name></member>
+      <member refid="group__GeneralGroup_1ga8670c18dcc3043de2c9724f9e7412b45" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult::Distance</scope><name>closestPointFor</name></member>
+      <member refid="group__GeneralGroup_1gabc2ecf316c1affc7c259c7b438753dbb" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult::Distance</scope><name>distance</name></member>
+      <member refid="group__GeneralGroup_1ga332150131bda07c1cc0ccb728695b123" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult::Distance</scope><name>distanceAlongAxis</name></member>
+      <member refid="group__GeneralGroup_1gaa226d42d5a35c9f64e1e15313df72d2c" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult::Distance</scope><name>distanceAlongAxisAbs</name></member>
+      <member refid="group__GeneralGroup_1ga7985af9aca32411b60aec8f8e6178e92" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult::Distance</scope><name>operator bool</name></member>
+      <member refid="group__GeneralGroup_1ga86193b4dbe9a464e56ff2fe272c46486" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult::Distance</scope><name>status</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

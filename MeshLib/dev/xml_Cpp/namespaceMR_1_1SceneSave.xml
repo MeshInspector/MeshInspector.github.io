@@ -4,7 +4,7 @@
     <compoundname>MR::SceneSave</compoundname>
     <sectiondef kind="typedef">
       <memberdef kind="typedef" id="namespaceMR_1_1SceneSave_1a608a6e40cd6fd4e4c380794e4f48e3cd" prot="public" static="no">
-        <type><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;(*)(const <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;, const std::filesystem::path &amp;, const <ref refid="structMR_1_1ObjectSave_1_1Settings" kindref="compound">ObjectSave::Settings</ref> &amp;)</type>
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;(*)(const <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;, const std::filesystem::path &amp;, const <ref refid="structMR_1_1ObjectSave_1_1Settings" kindref="compound">ObjectSave::Settings</ref> &amp;)</type>
         <definition>using MR::SceneSave::SceneSaver =  Expected&lt;void&gt;( * )( const Object&amp;, const std::filesystem::path&amp;, const ObjectSave::Settings&amp; )</definition>
         <argsstring></argsstring>
         <name>SceneSaver</name>

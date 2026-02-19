@@ -4,175 +4,40 @@
     <compoundname>MR::SceneRoot</compoundname>
     <includes refid="MRSceneRoot_8h" local="no">MRSceneRoot.h</includes>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1SceneRoot_1ae31356778c49bcb0d703b8fd83a18098" prot="private" static="no" mutable="no">
-        <type>std::shared_ptr&lt; <ref refid="classMR_1_1SceneRootObject" kindref="compound">SceneRootObject</ref> &gt;</type>
-        <definition>std::shared_ptr&lt;SceneRootObject&gt; MR::SceneRoot::root_</definition>
-        <argsstring></argsstring>
-        <name>root_</name>
-        <qualifiedname>MR::SceneRoot::root_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" line="76" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" bodystart="76" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1SceneRoot_1a403c5d293c883065fdf6d851f599f705" prot="private" static="no" mutable="no">
-        <type>std::filesystem::path</type>
-        <definition>std::filesystem::path MR::SceneRoot::scenePath_</definition>
-        <argsstring></argsstring>
-        <name>scenePath_</name>
-        <qualifiedname>MR::SceneRoot::scenePath_</qualifiedname>
-        <briefdescription>
-<para>path to the recently opened scene </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" line="79" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" bodystart="79" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gae31356778c49bcb0d703b8fd83a18098" kind="variable"><name>root_</name></member>
+      <member refid="group__GeneralGroup_1ga403c5d293c883065fdf6d851f599f705" kind="variable"><name>scenePath_</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1SceneRoot_1a26c9bd358e7e5e76b3f4e08bfc3eea4f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="classMR_1_1SceneRootObject" kindref="compound">SceneRootObject</ref> &amp;</type>
-        <definition>static MRMESH_API SceneRootObject &amp; MR::SceneRoot::get</definition>
-        <argsstring>()</argsstring>
-        <name>get</name>
-        <qualifiedname>MR::SceneRoot::get</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" line="62" column="39"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SceneRoot_1a87d2061a4cc40dc32f3fa621cb14922b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::shared_ptr&lt; <ref refid="classMR_1_1SceneRootObject" kindref="compound">SceneRootObject</ref> &gt; &amp;</type>
-        <definition>static MRMESH_API std::shared_ptr&lt; SceneRootObject &gt; &amp; MR::SceneRoot::getSharedPtr</definition>
-        <argsstring>()</argsstring>
-        <name>getSharedPtr</name>
-        <qualifiedname>MR::SceneRoot::getSharedPtr</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" line="63" column="39"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SceneRoot_1ae4ac805edcab1ec53ddbfad5d216f087" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>static MRMESH_API void MR::SceneRoot::setScenePath</definition>
-        <argsstring>(const std::filesystem::path &amp;scenePath)</argsstring>
-        <name>setScenePath</name>
-        <qualifiedname>MR::SceneRoot::setScenePath</qualifiedname>
-        <param>
-          <type>const std::filesystem::path &amp;</type>
-          <declname>scenePath</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" line="65" column="28"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SceneRoot_1a4cedba219c53e9b81e297ebcca62042c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> const <ref refid="classMR_1_1SceneRootObject" kindref="compound">SceneRootObject</ref> &amp;</type>
-        <definition>static MRMESH_API const SceneRootObject &amp; MR::SceneRoot::constGet</definition>
-        <argsstring>()</argsstring>
-        <name>constGet</name>
-        <qualifiedname>MR::SceneRoot::constGet</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" line="67" column="45"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SceneRoot_1a2570770604664d169d088faee604094f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::shared_ptr&lt; const <ref refid="classMR_1_1SceneRootObject" kindref="compound">SceneRootObject</ref> &gt;</type>
-        <definition>static MRMESH_API std::shared_ptr&lt; const SceneRootObject &gt; MR::SceneRoot::constGetSharedPtr</definition>
-        <argsstring>()</argsstring>
-        <name>constGetSharedPtr</name>
-        <qualifiedname>MR::SceneRoot::constGetSharedPtr</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" line="68" column="39"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SceneRoot_1ad652022495e6fb91cc04a81423b2112c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> const std::filesystem::path &amp;</type>
-        <definition>static MRMESH_API const std::filesystem::path &amp; MR::SceneRoot::getScenePath</definition>
-        <argsstring>()</argsstring>
-        <name>getScenePath</name>
-        <qualifiedname>MR::SceneRoot::getScenePath</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" line="70" column="51"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga26c9bd358e7e5e76b3f4e08bfc3eea4f" kind="function"><name>get</name></member>
+      <member refid="group__GeneralGroup_1ga87d2061a4cc40dc32f3fa621cb14922b" kind="function"><name>getSharedPtr</name></member>
+      <member refid="group__GeneralGroup_1gae4ac805edcab1ec53ddbfad5d216f087" kind="function"><name>setScenePath</name></member>
+      <member refid="group__GeneralGroup_1ga4cedba219c53e9b81e297ebcca62042c" kind="function"><name>constGet</name></member>
+      <member refid="group__GeneralGroup_1ga2570770604664d169d088faee604094f" kind="function"><name>constGetSharedPtr</name></member>
+      <member refid="group__GeneralGroup_1gad652022495e6fb91cc04a81423b2112c" kind="function"><name>getScenePath</name></member>
     </sectiondef>
     <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1SceneRoot_1af054253c01f63b6b3b8c3b19a71bded8" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMR_1_1SceneRoot" kindref="compound">SceneRoot</ref> &amp;</type>
-        <definition>static SceneRoot &amp; MR::SceneRoot::instance_</definition>
-        <argsstring>()</argsstring>
-        <name>instance_</name>
-        <qualifiedname>MR::SceneRoot::instance_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" line="73" column="22"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaf054253c01f63b6b3b8c3b19a71bded8" kind="function"><name>instance_</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMR_1_1SceneRoot_1a1f7df551a66735b7ce2b93423d151303" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::SceneRoot::SceneRoot</definition>
-        <argsstring>()</argsstring>
-        <name>SceneRoot</name>
-        <qualifiedname>MR::SceneRoot::SceneRoot</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" line="74" column="5"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga1f7df551a66735b7ce2b93423d151303" kind="function"><name>SceneRoot</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
 <para>Singleton to store scene root object </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" line="58" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" bodystart="59" bodyend="80"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" line="61" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" bodystart="62" bodyend="83"/>
     <listofallmembers>
-      <member refid="classMR_1_1SceneRoot_1a4cedba219c53e9b81e297ebcca62042c" prot="public" virt="non-virtual"><scope>MR::SceneRoot</scope><name>constGet</name></member>
-      <member refid="classMR_1_1SceneRoot_1a2570770604664d169d088faee604094f" prot="public" virt="non-virtual"><scope>MR::SceneRoot</scope><name>constGetSharedPtr</name></member>
-      <member refid="classMR_1_1SceneRoot_1a26c9bd358e7e5e76b3f4e08bfc3eea4f" prot="public" virt="non-virtual"><scope>MR::SceneRoot</scope><name>get</name></member>
-      <member refid="classMR_1_1SceneRoot_1ad652022495e6fb91cc04a81423b2112c" prot="public" virt="non-virtual"><scope>MR::SceneRoot</scope><name>getScenePath</name></member>
-      <member refid="classMR_1_1SceneRoot_1a87d2061a4cc40dc32f3fa621cb14922b" prot="public" virt="non-virtual"><scope>MR::SceneRoot</scope><name>getSharedPtr</name></member>
-      <member refid="classMR_1_1SceneRoot_1af054253c01f63b6b3b8c3b19a71bded8" prot="private" virt="non-virtual"><scope>MR::SceneRoot</scope><name>instance_</name></member>
-      <member refid="classMR_1_1SceneRoot_1ae31356778c49bcb0d703b8fd83a18098" prot="private" virt="non-virtual"><scope>MR::SceneRoot</scope><name>root_</name></member>
-      <member refid="classMR_1_1SceneRoot_1a403c5d293c883065fdf6d851f599f705" prot="private" virt="non-virtual"><scope>MR::SceneRoot</scope><name>scenePath_</name></member>
-      <member refid="classMR_1_1SceneRoot_1a1f7df551a66735b7ce2b93423d151303" prot="private" virt="non-virtual"><scope>MR::SceneRoot</scope><name>SceneRoot</name></member>
-      <member refid="classMR_1_1SceneRoot_1ae4ac805edcab1ec53ddbfad5d216f087" prot="public" virt="non-virtual"><scope>MR::SceneRoot</scope><name>setScenePath</name></member>
+      <member refid="group__GeneralGroup_1ga4cedba219c53e9b81e297ebcca62042c" prot="public" virt="non-virtual"><scope>MR::SceneRoot</scope><name>constGet</name></member>
+      <member refid="group__GeneralGroup_1ga2570770604664d169d088faee604094f" prot="public" virt="non-virtual"><scope>MR::SceneRoot</scope><name>constGetSharedPtr</name></member>
+      <member refid="group__GeneralGroup_1ga26c9bd358e7e5e76b3f4e08bfc3eea4f" prot="public" virt="non-virtual"><scope>MR::SceneRoot</scope><name>get</name></member>
+      <member refid="group__GeneralGroup_1gad652022495e6fb91cc04a81423b2112c" prot="public" virt="non-virtual"><scope>MR::SceneRoot</scope><name>getScenePath</name></member>
+      <member refid="group__GeneralGroup_1ga87d2061a4cc40dc32f3fa621cb14922b" prot="public" virt="non-virtual"><scope>MR::SceneRoot</scope><name>getSharedPtr</name></member>
+      <member refid="group__GeneralGroup_1gaf054253c01f63b6b3b8c3b19a71bded8" prot="private" virt="non-virtual"><scope>MR::SceneRoot</scope><name>instance_</name></member>
+      <member refid="group__GeneralGroup_1gae31356778c49bcb0d703b8fd83a18098" prot="private" virt="non-virtual"><scope>MR::SceneRoot</scope><name>root_</name></member>
+      <member refid="group__GeneralGroup_1ga403c5d293c883065fdf6d851f599f705" prot="private" virt="non-virtual"><scope>MR::SceneRoot</scope><name>scenePath_</name></member>
+      <member refid="group__GeneralGroup_1ga1f7df551a66735b7ce2b93423d151303" prot="private" virt="non-virtual"><scope>MR::SceneRoot</scope><name>SceneRoot</name></member>
+      <member refid="group__GeneralGroup_1gae4ac805edcab1ec53ddbfad5d216f087" prot="public" virt="non-virtual"><scope>MR::SceneRoot</scope><name>setScenePath</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -4,115 +4,13 @@
     <compoundname>MR::RenderDimensions::RadiusParams</compoundname>
     <includes refid="MRRenderDimensions_8h" local="no">MRRenderDimensions.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1RenderDimensions_1_1RadiusParams_1a840dbe12e26001840b6e0464356dce72" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1RenderDimensions_1_1CommonParams" kindref="compound">CommonParams</ref></type>
-        <definition>CommonParams MR::RenderDimensions::RadiusParams::common</definition>
-        <argsstring></argsstring>
-        <name>common</name>
-        <qualifiedname>MR::RenderDimensions::RadiusParams::common</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" line="79" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" bodystart="79" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1RenderDimensions_1_1RadiusParams_1acbc9da122212ec41904e71d4e3002cc9" prot="public" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::RenderDimensions::RadiusParams::center</definition>
-        <argsstring></argsstring>
-        <name>center</name>
-        <qualifiedname>MR::RenderDimensions::RadiusParams::center</qualifiedname>
-        <briefdescription>
-<para>The center point. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" line="82" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" bodystart="82" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1RenderDimensions_1_1RadiusParams_1a6b8dbcb732f8c02e1c86373dbaf198ce" prot="public" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::RenderDimensions::RadiusParams::radiusAsVector</definition>
-        <argsstring></argsstring>
-        <name>radiusAsVector</name>
-        <qualifiedname>MR::RenderDimensions::RadiusParams::radiusAsVector</qualifiedname>
-        <initializer>= Vector3f( 1, 0, 0 )</initializer>
-        <briefdescription>
-<para>The length of this is the radius. This is also the preferred drawing direction relative to <computeroutput>center</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" line="85" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" bodystart="85" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1RenderDimensions_1_1RadiusParams_1abdf65391e79f7573aa94c2fc65ab7c26" prot="public" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::RenderDimensions::RadiusParams::normal</definition>
-        <argsstring></argsstring>
-        <name>normal</name>
-        <qualifiedname>MR::RenderDimensions::RadiusParams::normal</qualifiedname>
-        <initializer>= Vector3f( 0, 0, 1 )</initializer>
-        <briefdescription>
-<para>The preferred normal for non-spherical radiuses. The length is ignored, and this is automatically adjusted to be perpendicular to <computeroutput>radiusAsVector</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" line="88" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" bodystart="88" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1RenderDimensions_1_1RadiusParams_1a1161a2acb579467fd9f2bf7bd0bb2961" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::RenderDimensions::RadiusParams::drawAsDiameter</definition>
-        <argsstring></argsstring>
-        <name>drawAsDiameter</name>
-        <qualifiedname>MR::RenderDimensions::RadiusParams::drawAsDiameter</qualifiedname>
-        <initializer>= false</initializer>
-        <briefdescription>
-<para>Whether we should draw this as a diameter instead of a radius. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" line="91" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" bodystart="91" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1RenderDimensions_1_1RadiusParams_1a1b1c56e527cabfa9b554697eaf7b6e8d" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::RenderDimensions::RadiusParams::isSpherical</definition>
-        <argsstring></argsstring>
-        <name>isSpherical</name>
-        <qualifiedname>MR::RenderDimensions::RadiusParams::isSpherical</qualifiedname>
-        <initializer>= false</initializer>
-        <briefdescription>
-<para>Whether this is a sphere radius, as opposed to circle/cylinder radius. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" line="94" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" bodystart="94" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1RenderDimensions_1_1RadiusParams_1a209f752c72abb3b57f493fdde9dfe41e" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::RenderDimensions::RadiusParams::visualLengthMultiplier</definition>
-        <argsstring></argsstring>
-        <name>visualLengthMultiplier</name>
-        <qualifiedname>MR::RenderDimensions::RadiusParams::visualLengthMultiplier</qualifiedname>
-        <initializer>= 2 / 3.f</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>The visual leader line length multiplier, relative to the radius. You&apos;re recommended to set a min absolute value for the resulting length when rendering. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" line="98" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" bodystart="98" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga840dbe12e26001840b6e0464356dce72" kind="variable"><name>common</name></member>
+      <member refid="group__GeneralGroup_1gacbc9da122212ec41904e71d4e3002cc9" kind="variable"><name>center</name></member>
+      <member refid="group__GeneralGroup_1ga6b8dbcb732f8c02e1c86373dbaf198ce" kind="variable"><name>radiusAsVector</name></member>
+      <member refid="group__GeneralGroup_1gabdf65391e79f7573aa94c2fc65ab7c26" kind="variable"><name>normal</name></member>
+      <member refid="group__GeneralGroup_1ga1161a2acb579467fd9f2bf7bd0bb2961" kind="variable"><name>drawAsDiameter</name></member>
+      <member refid="group__GeneralGroup_1ga1b1c56e527cabfa9b554697eaf7b6e8d" kind="variable"><name>isSpherical</name></member>
+      <member refid="group__GeneralGroup_1ga209f752c72abb3b57f493fdde9dfe41e" kind="variable"><name>visualLengthMultiplier</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -214,15 +112,15 @@
         <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" line="77" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" bodystart="78" bodyend="99"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" line="80" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" bodystart="81" bodyend="102"/>
     <listofallmembers>
-      <member refid="structMR_1_1RenderDimensions_1_1RadiusParams_1acbc9da122212ec41904e71d4e3002cc9" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::RadiusParams</scope><name>center</name></member>
-      <member refid="structMR_1_1RenderDimensions_1_1RadiusParams_1a840dbe12e26001840b6e0464356dce72" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::RadiusParams</scope><name>common</name></member>
-      <member refid="structMR_1_1RenderDimensions_1_1RadiusParams_1a1161a2acb579467fd9f2bf7bd0bb2961" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::RadiusParams</scope><name>drawAsDiameter</name></member>
-      <member refid="structMR_1_1RenderDimensions_1_1RadiusParams_1a1b1c56e527cabfa9b554697eaf7b6e8d" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::RadiusParams</scope><name>isSpherical</name></member>
-      <member refid="structMR_1_1RenderDimensions_1_1RadiusParams_1abdf65391e79f7573aa94c2fc65ab7c26" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::RadiusParams</scope><name>normal</name></member>
-      <member refid="structMR_1_1RenderDimensions_1_1RadiusParams_1a6b8dbcb732f8c02e1c86373dbaf198ce" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::RadiusParams</scope><name>radiusAsVector</name></member>
-      <member refid="structMR_1_1RenderDimensions_1_1RadiusParams_1a209f752c72abb3b57f493fdde9dfe41e" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::RadiusParams</scope><name>visualLengthMultiplier</name></member>
+      <member refid="group__GeneralGroup_1gacbc9da122212ec41904e71d4e3002cc9" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::RadiusParams</scope><name>center</name></member>
+      <member refid="group__GeneralGroup_1ga840dbe12e26001840b6e0464356dce72" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::RadiusParams</scope><name>common</name></member>
+      <member refid="group__GeneralGroup_1ga1161a2acb579467fd9f2bf7bd0bb2961" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::RadiusParams</scope><name>drawAsDiameter</name></member>
+      <member refid="group__GeneralGroup_1ga1b1c56e527cabfa9b554697eaf7b6e8d" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::RadiusParams</scope><name>isSpherical</name></member>
+      <member refid="group__GeneralGroup_1gabdf65391e79f7573aa94c2fc65ab7c26" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::RadiusParams</scope><name>normal</name></member>
+      <member refid="group__GeneralGroup_1ga6b8dbcb732f8c02e1c86373dbaf198ce" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::RadiusParams</scope><name>radiusAsVector</name></member>
+      <member refid="group__GeneralGroup_1ga209f752c72abb3b57f493fdde9dfe41e" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::RadiusParams</scope><name>visualLengthMultiplier</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

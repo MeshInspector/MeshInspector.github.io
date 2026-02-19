@@ -4,102 +4,23 @@
     <compoundname>MR::TouchpadParameters</compoundname>
     <includes refid="MRTouchpadParameters_8h" local="no">MRTouchpadParameters.h</includes>
     <sectiondef kind="public-type">
-      <memberdef kind="enum" id="structMR_1_1TouchpadParameters_1a5fa77fceab21954148047b9057cdadce" prot="public" static="no" strong="yes">
-        <type></type>
-        <name>SwipeMode</name>
-        <qualifiedname>MR::TouchpadParameters::SwipeMode</qualifiedname>
-        <enumvalue id="structMR_1_1TouchpadParameters_1a5fa77fceab21954148047b9057cdadceac8d8e07ee6a9f2300e021461537270d1" prot="public">
-          <name>SwipeRotatesCamera</name>
-          <initializer>= 0</initializer>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="structMR_1_1TouchpadParameters_1a5fa77fceab21954148047b9057cdadcea439ba9124c50be9c2bc639bb99432b0e" prot="public">
-          <name>SwipeMovesCamera</name>
-          <initializer>= 1</initializer>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="structMR_1_1TouchpadParameters_1a5fa77fceab21954148047b9057cdadceae93f994f01c537c4e2f7d8528c3eb5e9" prot="public">
-          <name>Count</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-<para>swipe processing mode </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchpadParameters.h" line="15" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchpadParameters.h" bodystart="15" bodyend="19"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga5fa77fceab21954148047b9057cdadce" kind="enum"><name>SwipeMode</name></member>
     </sectiondef>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1TouchpadParameters_1a9ae8b021b03e91d547e512ba94391092" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::TouchpadParameters::ignoreKineticMoves</definition>
-        <argsstring></argsstring>
-        <name>ignoreKineticMoves</name>
-        <qualifiedname>MR::TouchpadParameters::ignoreKineticMoves</qualifiedname>
-        <initializer>= false</initializer>
-        <briefdescription>
-<para>most touchpads implement kinetic (or inertial) scrolling, this option disables handling of these events </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchpadParameters.h" line="11" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchpadParameters.h" bodystart="11" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1TouchpadParameters_1addabc579478d3071f3b5a951ab574251" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::TouchpadParameters::cancellable</definition>
-        <argsstring></argsstring>
-        <name>cancellable</name>
-        <qualifiedname>MR::TouchpadParameters::cancellable</qualifiedname>
-        <initializer>= false</initializer>
-        <briefdescription>
-<para>enable gesture&apos;s cancellability, i.e. revert its changes in case of external interruption </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchpadParameters.h" line="13" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchpadParameters.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1TouchpadParameters_1a4c54fd86bf3e610a33c76ea0e5b8c508" prot="public" static="no" mutable="no">
-        <type>enum <ref refid="structMR_1_1TouchpadParameters_1a5fa77fceab21954148047b9057cdadce" kindref="member">MR::TouchpadParameters::SwipeMode</ref></type>
-        <definition>enum MR::TouchpadParameters::SwipeMode MR::TouchpadParameters::swipeMode</definition>
-        <argsstring></argsstring>
-        <name>swipeMode</name>
-        <qualifiedname>MR::TouchpadParameters::swipeMode</qualifiedname>
-        <initializer>= <ref refid="structMR_1_1TouchpadParameters_1a5fa77fceab21954148047b9057cdadceac8d8e07ee6a9f2300e021461537270d1" kindref="member">SwipeMode::SwipeRotatesCamera</ref></initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchpadParameters.h" line="19" column="16"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga9ae8b021b03e91d547e512ba94391092" kind="variable"><name>ignoreKineticMoves</name></member>
+      <member refid="group__GeneralGroup_1gaddabc579478d3071f3b5a951ab574251" kind="variable"><name>cancellable</name></member>
+      <member refid="group__GeneralGroup_1ga4c54fd86bf3e610a33c76ea0e5b8c508" kind="variable"><name>swipeMode</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchpadParameters.h" line="8" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchpadParameters.h" bodystart="9" bodyend="20"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchpadParameters.h" line="11" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchpadParameters.h" bodystart="12" bodyend="23"/>
     <listofallmembers>
-      <member refid="structMR_1_1TouchpadParameters_1addabc579478d3071f3b5a951ab574251" prot="public" virt="non-virtual"><scope>MR::TouchpadParameters</scope><name>cancellable</name></member>
-      <member refid="structMR_1_1TouchpadParameters_1a9ae8b021b03e91d547e512ba94391092" prot="public" virt="non-virtual"><scope>MR::TouchpadParameters</scope><name>ignoreKineticMoves</name></member>
-      <member refid="structMR_1_1TouchpadParameters_1a5fa77fceab21954148047b9057cdadce" prot="public" virt="non-virtual"><scope>MR::TouchpadParameters</scope><name>SwipeMode</name></member>
-      <member refid="structMR_1_1TouchpadParameters_1a4c54fd86bf3e610a33c76ea0e5b8c508" prot="public" virt="non-virtual"><scope>MR::TouchpadParameters</scope><name>swipeMode</name></member>
+      <member refid="group__GeneralGroup_1gaddabc579478d3071f3b5a951ab574251" prot="public" virt="non-virtual"><scope>MR::TouchpadParameters</scope><name>cancellable</name></member>
+      <member refid="group__GeneralGroup_1ga9ae8b021b03e91d547e512ba94391092" prot="public" virt="non-virtual"><scope>MR::TouchpadParameters</scope><name>ignoreKineticMoves</name></member>
+      <member refid="group__GeneralGroup_1ga5fa77fceab21954148047b9057cdadce" prot="public" virt="non-virtual"><scope>MR::TouchpadParameters</scope><name>SwipeMode</name></member>
+      <member refid="group__GeneralGroup_1ga4c54fd86bf3e610a33c76ea0e5b8c508" prot="public" virt="non-virtual"><scope>MR::TouchpadParameters</scope><name>swipeMode</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

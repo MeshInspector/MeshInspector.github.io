@@ -25,15 +25,16 @@
 <codeline lineno="3"><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="5"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="6" refid="namespaceMR_1ad7e1f7039c3adef672abd4150bc4786c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1ad7e1f7039c3adef672abd4150bc4786c" kindref="member">PathPreference</ref></highlight></codeline>
-<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1ad7e1f7039c3adef672abd4150bc4786ca81cda646477dd0d1137c68b398ca755c" kindref="member">Geodesic</ref>,</highlight></codeline>
-<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1ad7e1f7039c3adef672abd4150bc4786ca766cae017fab4bcc1d1e83fbb9af87c3" kindref="member">Convex</ref>,</highlight></codeline>
-<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1ad7e1f7039c3adef672abd4150bc4786ca1cb290ed5917afdbf2532bb2bf6f0192" kindref="member">Concave</ref></highlight></codeline>
-<codeline lineno="11"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="namespaceMR_1ac0b91539ada635d196a67afe2f39fe5d" refkind="member"><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>MRVIEWER_API<sp/><ref refid="namespaceMR_1ac0b91539ada635d196a67afe2f39fe5d" kindref="member">SelectCurvaturePreference</ref>(<sp/><ref refid="namespaceMR_1ad7e1f7039c3adef672abd4150bc4786c" kindref="member">PathPreference</ref>*<sp/>pp<sp/>);</highlight></codeline>
-<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="group__GeneralGroup_1gad7e1f7039c3adef672abd4150bc4786c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad7e1f7039c3adef672abd4150bc4786c" kindref="member">PathPreference</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggad7e1f7039c3adef672abd4150bc4786ca81cda646477dd0d1137c68b398ca755c" kindref="member">Geodesic</ref>,</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggad7e1f7039c3adef672abd4150bc4786ca766cae017fab4bcc1d1e83fbb9af87c3" kindref="member">Convex</ref>,</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggad7e1f7039c3adef672abd4150bc4786ca1cb290ed5917afdbf2532bb2bf6f0192" kindref="member">Concave</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="group__GeneralGroup_1gac0b91539ada635d196a67afe2f39fe5d" refkind="member"><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1gac0b91539ada635d196a67afe2f39fe5d" kindref="member">SelectCurvaturePreference</ref>(<sp/><ref refid="group__GeneralGroup_1gad7e1f7039c3adef672abd4150bc4786c" kindref="member">PathPreference</ref>*<sp/>pp<sp/>);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSelectCurvaturePreference.h"/>
   </compounddef>

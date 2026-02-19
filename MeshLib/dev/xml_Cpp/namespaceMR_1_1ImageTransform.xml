@@ -4,7 +4,7 @@
     <compoundname>MR::ImageTransform</compoundname>
     <sectiondef kind="func">
       <memberdef kind="function" id="namespaceMR_1_1ImageTransform_1a6ad75371c87cc667908650a89456bd2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="structMR_1_1Image" kindref="compound">Image</ref></type>
+        <type>MRMESH_API <ref refid="structMR_1_1Image" kindref="compound">Image</ref></type>
         <definition>MRMESH_API Image MR::ImageTransform::rotateClockwise90</definition>
         <argsstring>(const Image &amp;image)</argsstring>
         <name>rotateClockwise90</name>

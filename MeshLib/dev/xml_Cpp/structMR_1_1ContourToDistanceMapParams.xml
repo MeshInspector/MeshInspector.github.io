@@ -86,7 +86,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="96" column="5"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1ContourToDistanceMapParams_1a2259024cb221dfbdaa806a2a0a213bbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <type>MRMESH_API</type>
         <definition>MRMESH_API MR::ContourToDistanceMapParams::ContourToDistanceMapParams</definition>
         <argsstring>(const Vector2i &amp;resolution, const Vector2f &amp;oriPoint, const Vector2f &amp;areaSize, bool withSign=false)</argsstring>
         <name>ContourToDistanceMapParams</name>
@@ -118,7 +118,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="99" column="16"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1ContourToDistanceMapParams_1a9e22bbb95e700464aef4f9d5a8809a59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <type>MRMESH_API</type>
         <definition>MRMESH_API MR::ContourToDistanceMapParams::ContourToDistanceMapParams</definition>
         <argsstring>(const Vector2i &amp;resolution, const Box2f &amp;box, bool withSign=false)</argsstring>
         <name>ContourToDistanceMapParams</name>
@@ -146,7 +146,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="103" column="16"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1ContourToDistanceMapParams_1acb66f00d43a900ccc08dffcb01c8a275" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <type>MRMESH_API</type>
         <definition>MRMESH_API MR::ContourToDistanceMapParams::ContourToDistanceMapParams</definition>
         <argsstring>(const Vector2i &amp;resolution, const Contours2f &amp;contours, float offset, bool withSign=false)</argsstring>
         <name>ContourToDistanceMapParams</name>
@@ -156,7 +156,7 @@
           <declname>resolution</declname>
         </param>
         <param>
-          <type>const <ref refid="namespaceMR_1a8746fbb8e09652c686ff0dcf8c01804c" kindref="member">Contours2f</ref> &amp;</type>
+          <type>const Contours2f &amp;</type>
           <declname>contours</declname>
         </param>
         <param>
@@ -178,7 +178,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="106" column="16"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1ContourToDistanceMapParams_1a35d5b9755c07b5533beef9aa20da8127" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <type>MRMESH_API</type>
         <definition>MRMESH_API MR::ContourToDistanceMapParams::ContourToDistanceMapParams</definition>
         <argsstring>(float pixelSize, const Contours2f &amp;contours, float offset, bool withSign=false)</argsstring>
         <name>ContourToDistanceMapParams</name>
@@ -188,7 +188,7 @@
           <declname>pixelSize</declname>
         </param>
         <param>
-          <type>const <ref refid="namespaceMR_1a8746fbb8e09652c686ff0dcf8c01804c" kindref="member">Contours2f</ref> &amp;</type>
+          <type>const Contours2f &amp;</type>
           <declname>contours</declname>
         </param>
         <param>
@@ -210,7 +210,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="110" column="16"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1ContourToDistanceMapParams_1abbd8dedf69e38f74671e46abe6e1ad92" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <type>MRMESH_API</type>
         <definition>MRMESH_API MR::ContourToDistanceMapParams::ContourToDistanceMapParams</definition>
         <argsstring>(const DistanceMapToWorld &amp;toWorld)</argsstring>
         <name>ContourToDistanceMapParams</name>

@@ -149,12 +149,12 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="314" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" bodystart="314" bodyend="314"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1VisualObject_1a21eb2d0c923e3ca0544e4cf90782e6b1" prot="protected" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1a270a25a8ef13e07e59e7070834efc33f" kindref="member">ColoringType</ref></type>
+        <type><ref refid="group__GeneralGroup_1ga270a25a8ef13e07e59e7070834efc33f" kindref="member">ColoringType</ref></type>
         <definition>ColoringType MR::VisualObject::coloringType_</definition>
         <argsstring></argsstring>
         <name>coloringType_</name>
         <qualifiedname>MR::VisualObject::coloringType_</qualifiedname>
-        <initializer>{<ref refid="namespaceMR_1a270a25a8ef13e07e59e7070834efc33fa63af9903673bdc27b881a7444b1f9854" kindref="member">ColoringType::SolidColor</ref>}</initializer>
+        <initializer>{<ref refid="group__GeneralGroup_1gga270a25a8ef13e07e59e7070834efc33fa63af9903673bdc27b881a7444b1f9854" kindref="member">ColoringType::SolidColor</ref>}</initializer>
         <briefdescription>
 <para>non - directional light intensity </para>
         </briefdescription>
@@ -271,7 +271,7 @@
     </sectiondef>
     <sectiondef kind="public-func">
       <memberdef kind="function" id="classMR_1_1VisualObject_1a248a0efabc82874bd29ca605c2fb7481" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <type>MRMESH_API</type>
         <definition>MRMESH_API MR::VisualObject::VisualObject</definition>
         <argsstring>()</argsstring>
         <name>VisualObject</name>
@@ -339,29 +339,29 @@
         <name>typeName</name>
         <qualifiedname>MR::VisualObject::typeName</qualifiedname>
         <reimplements refid="classMR_1_1Object_1a46f7be31befc01e09d18deed96127a02">typeName</reimplements>
-        <reimplementedby refid="classMR_1_1AngleMeasurementObject_1aaa46f9128d202f32be37d9d9db292fe6">typeName</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaaa46f9128d202f32be37d9d9db292fe6">typeName</reimplementedby>
         <reimplementedby refid="classMR_1_1CircleObject_1a7dd05445d9524f457b174b86526f7917">typeName</reimplementedby>
-        <reimplementedby refid="classMR_1_1ConeObject_1a907b47dc446af6c29603325828130005">typeName</reimplementedby>
-        <reimplementedby refid="classMR_1_1CylinderObject_1a51bf3dd6a9699a55576c099b57d39990">typeName</reimplementedby>
-        <reimplementedby refid="classMR_1_1DistanceMeasurementObject_1a7d8dc7b94d1a8f6533b6de5659495a9b">typeName</reimplementedby>
-        <reimplementedby refid="classMR_1_1FeatureObject_1a45535da24d737a00a9262dd1fbe8525f">typeName</reimplementedby>
-        <reimplementedby refid="classMR_1_1LineObject_1afe5e0bae23cb23a4485ddd95a2cb16ca">typeName</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectDistanceMap_1abaac591338fe97a8e55b49601c5c4367">typeName</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectGcode_1ac27e546bf2d66d45930837b6dd37cd9e">typeName</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectImGuiLabel_1afb01986bd3392c39d58639ca6930d453">typeName</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectLabel_1a4c2b4d2f1feca2726294451d193259d9">typeName</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectLines_1a069fc0b9496c10738c79ed84e458c729">typeName</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectLinesHolder_1a67bbdfa8042874e1a7033f78bb96be59">typeName</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectMesh_1af9b93365f1a3106e6b452c197251afba">typeName</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectMeshHolder_1a8881d4cf9ed83ffbec3af1d175a0ace2">typeName</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectPoints_1af389d74376fb91966716aa2ff7444a5d">typeName</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectPointsHolder_1a56ae0abc43ac144e212830cf2233d413">typeName</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectVoxels_1ad263dcb8982dbf8095729fa3a3d2032e">typeName</reimplementedby>
-        <reimplementedby refid="classMR_1_1PlaneObject_1a49f838bc215720ee037d22734a7cc987">typeName</reimplementedby>
-        <reimplementedby refid="classMR_1_1PointMeasurementObject_1a34bf1cdc06d67d92c5a859278440c05a">typeName</reimplementedby>
-        <reimplementedby refid="classMR_1_1PointObject_1af0d333f53e5214cef1fed176a67585a3">typeName</reimplementedby>
-        <reimplementedby refid="classMR_1_1RadiusMeasurementObject_1ac9d73f6782e3918bf0f9b201f13db7af">typeName</reimplementedby>
-        <reimplementedby refid="classMR_1_1SphereObject_1a3fe2e258e75828338f7c6f90cd70b09e">typeName</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga907b47dc446af6c29603325828130005">typeName</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga51bf3dd6a9699a55576c099b57d39990">typeName</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga7d8dc7b94d1a8f6533b6de5659495a9b">typeName</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga45535da24d737a00a9262dd1fbe8525f">typeName</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gafe5e0bae23cb23a4485ddd95a2cb16ca">typeName</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gabaac591338fe97a8e55b49601c5c4367">typeName</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gac27e546bf2d66d45930837b6dd37cd9e">typeName</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gafb01986bd3392c39d58639ca6930d453">typeName</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga4c2b4d2f1feca2726294451d193259d9">typeName</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga069fc0b9496c10738c79ed84e458c729">typeName</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga67bbdfa8042874e1a7033f78bb96be59">typeName</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaf9b93365f1a3106e6b452c197251afba">typeName</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga8881d4cf9ed83ffbec3af1d175a0ace2">typeName</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaf389d74376fb91966716aa2ff7444a5d">typeName</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga56ae0abc43ac144e212830cf2233d413">typeName</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gad263dcb8982dbf8095729fa3a3d2032e">typeName</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga49f838bc215720ee037d22734a7cc987">typeName</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga34bf1cdc06d67d92c5a859278440c05a">typeName</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaf0d333f53e5214cef1fed176a67585a3">typeName</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gac9d73f6782e3918bf0f9b201f13db7af">typeName</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga3fe2e258e75828338f7c6f90cd70b09e">typeName</reimplementedby>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -377,24 +377,24 @@
         <name>className</name>
         <qualifiedname>MR::VisualObject::className</qualifiedname>
         <reimplements refid="classMR_1_1Object_1affbcbbc7f5e086e26cdb5f7689557c74">className</reimplements>
-        <reimplementedby refid="classMR_1_1AngleMeasurementObject_1a11b4563811e536745042eac6cc7d7de3">className</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga11b4563811e536745042eac6cc7d7de3">className</reimplementedby>
         <reimplementedby refid="classMR_1_1CircleObject_1a991beec8b2a8e873d3c1325a07e90050">className</reimplementedby>
-        <reimplementedby refid="classMR_1_1ConeObject_1a3cfa63d59fc70663772e67762abdd3a0">className</reimplementedby>
-        <reimplementedby refid="classMR_1_1CylinderObject_1a7849ae40e1bbec939b323878b4c5697a">className</reimplementedby>
-        <reimplementedby refid="classMR_1_1DistanceMeasurementObject_1ad60ffe08ad7aac2a0118f9d755246849">className</reimplementedby>
-        <reimplementedby refid="classMR_1_1FeatureObject_1a9d50ec94a6a058376bf8e02827f5121c">className</reimplementedby>
-        <reimplementedby refid="classMR_1_1LineObject_1a44ca95a2452204b8e1b876b5ec08bac6">className</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectDistanceMap_1a3cb769b52ae53c4d9b790bc6b166b643">className</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectGcode_1a4a6ad740cebafaf34b828c8090a86c7c">className</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectLines_1ab6d75bcbb8337be4911605be69fe113c">className</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectMesh_1af4ac00d283a32148cf782022212b9aab">className</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectPoints_1a4252b0e95bda212a786f5d4cd32f9d35">className</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectVoxels_1aa0402c3a95f58c263dacb32b997a95aa">className</reimplementedby>
-        <reimplementedby refid="classMR_1_1PlaneObject_1a98b7c1739d2de8f0ac5e63dda69aa51a">className</reimplementedby>
-        <reimplementedby refid="classMR_1_1PointMeasurementObject_1aceade7c12dff0fd663f1b3863d59eb46">className</reimplementedby>
-        <reimplementedby refid="classMR_1_1PointObject_1a909db6f8e5efa3ddf0efa68e104ca751">className</reimplementedby>
-        <reimplementedby refid="classMR_1_1RadiusMeasurementObject_1a97570825bfd28f5a3f4d579a34f813c8">className</reimplementedby>
-        <reimplementedby refid="classMR_1_1SphereObject_1ad57d28fe2b4725637d8d33cf7e113f18">className</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga3cfa63d59fc70663772e67762abdd3a0">className</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga7849ae40e1bbec939b323878b4c5697a">className</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gad60ffe08ad7aac2a0118f9d755246849">className</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga9d50ec94a6a058376bf8e02827f5121c">className</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga44ca95a2452204b8e1b876b5ec08bac6">className</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga3cb769b52ae53c4d9b790bc6b166b643">className</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga4a6ad740cebafaf34b828c8090a86c7c">className</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gab6d75bcbb8337be4911605be69fe113c">className</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaf4ac00d283a32148cf782022212b9aab">className</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga4252b0e95bda212a786f5d4cd32f9d35">className</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaa0402c3a95f58c263dacb32b997a95aa">className</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga98b7c1739d2de8f0ac5e63dda69aa51a">className</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaceade7c12dff0fd663f1b3863d59eb46">className</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga909db6f8e5efa3ddf0efa68e104ca751">className</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga97570825bfd28f5a3f4d579a34f813c8">className</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gad57d28fe2b4725637d8d33cf7e113f18">className</reimplementedby>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -410,24 +410,24 @@
         <name>classNameInPlural</name>
         <qualifiedname>MR::VisualObject::classNameInPlural</qualifiedname>
         <reimplements refid="classMR_1_1Object_1a6f75a192e0d9f2bdfecdac79b4a15ae1">classNameInPlural</reimplements>
-        <reimplementedby refid="classMR_1_1AngleMeasurementObject_1ad2c4dd04439768c43bf48e9cc47ad5d7">classNameInPlural</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gad2c4dd04439768c43bf48e9cc47ad5d7">classNameInPlural</reimplementedby>
         <reimplementedby refid="classMR_1_1CircleObject_1aa13f61ce686ebbd95f164568642be551">classNameInPlural</reimplementedby>
-        <reimplementedby refid="classMR_1_1ConeObject_1aa4c317887a4c55672bcca1fa1534b2b7">classNameInPlural</reimplementedby>
-        <reimplementedby refid="classMR_1_1CylinderObject_1ae3e5d192041a079d62a7e67b0e9eaa52">classNameInPlural</reimplementedby>
-        <reimplementedby refid="classMR_1_1DistanceMeasurementObject_1a3fbff93178a6d5f281d512fbd3ba5d10">classNameInPlural</reimplementedby>
-        <reimplementedby refid="classMR_1_1FeatureObject_1a873cf4c43be4dfcce9768ae68ad3ae44">classNameInPlural</reimplementedby>
-        <reimplementedby refid="classMR_1_1LineObject_1aabcbd98619f36f8d3a704ec1cd0c52ab">classNameInPlural</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectDistanceMap_1ad91ecebfe7dcca6c86c62b4fa63c68fc">classNameInPlural</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectGcode_1aa197c20d302f82144a0d78fe07fb9f0c">classNameInPlural</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectLines_1a7f81cb2ef99bce186ed664ce7b4a219b">classNameInPlural</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectMesh_1a34dcbce4338ca82addb8e7a6fc88d1e6">classNameInPlural</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectPoints_1a7158fa0a7fc019003efd19130a838f58">classNameInPlural</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectVoxels_1a07a8d2c3383e05788beb2de69718b514">classNameInPlural</reimplementedby>
-        <reimplementedby refid="classMR_1_1PlaneObject_1abb12c84edcc027ddd9f16410a1440744">classNameInPlural</reimplementedby>
-        <reimplementedby refid="classMR_1_1PointMeasurementObject_1af6f6387bd339571f102c4abbab18b0aa">classNameInPlural</reimplementedby>
-        <reimplementedby refid="classMR_1_1PointObject_1a3a456c548afa275a1449d71e800dc5e2">classNameInPlural</reimplementedby>
-        <reimplementedby refid="classMR_1_1RadiusMeasurementObject_1a5378128a8a4fb296172cb5d2ed65bd48">classNameInPlural</reimplementedby>
-        <reimplementedby refid="classMR_1_1SphereObject_1a097e487aba59a6996fc2b21658af0fd2">classNameInPlural</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaa4c317887a4c55672bcca1fa1534b2b7">classNameInPlural</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gae3e5d192041a079d62a7e67b0e9eaa52">classNameInPlural</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga3fbff93178a6d5f281d512fbd3ba5d10">classNameInPlural</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga873cf4c43be4dfcce9768ae68ad3ae44">classNameInPlural</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaabcbd98619f36f8d3a704ec1cd0c52ab">classNameInPlural</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gad91ecebfe7dcca6c86c62b4fa63c68fc">classNameInPlural</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaa197c20d302f82144a0d78fe07fb9f0c">classNameInPlural</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga7f81cb2ef99bce186ed664ce7b4a219b">classNameInPlural</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga34dcbce4338ca82addb8e7a6fc88d1e6">classNameInPlural</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga7158fa0a7fc019003efd19130a838f58">classNameInPlural</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga07a8d2c3383e05788beb2de69718b514">classNameInPlural</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gabb12c84edcc027ddd9f16410a1440744">classNameInPlural</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaf6f6387bd339571f102c4abbab18b0aa">classNameInPlural</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga3a456c548afa275a1449d71e800dc5e2">classNameInPlural</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga5378128a8a4fb296172cb5d2ed65bd48">classNameInPlural</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga097e487aba59a6996fc2b21658af0fd2">classNameInPlural</reimplementedby>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -437,19 +437,19 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="131" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" bodystart="131" bodyend="131"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1a17a87c846a1caa768c3043ee50bbd966" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <type>MRMESH_API bool</type>
         <definition>virtual MRMESH_API bool MR::VisualObject::supportsVisualizeProperty</definition>
         <argsstring>(AnyVisualizeMaskEnum type) const</argsstring>
         <name>supportsVisualizeProperty</name>
         <qualifiedname>MR::VisualObject::supportsVisualizeProperty</qualifiedname>
-        <reimplementedby refid="classMR_1_1AddVisualProperties_1a06796f32f035d58e6a320f35f1845cf1">supportsVisualizeProperty</reimplementedby>
-        <reimplementedby refid="classMR_1_1AddVisualProperties_1a06796f32f035d58e6a320f35f1845cf1">supportsVisualizeProperty</reimplementedby>
-        <reimplementedby refid="classMR_1_1AddVisualProperties_1a06796f32f035d58e6a320f35f1845cf1">supportsVisualizeProperty</reimplementedby>
-        <reimplementedby refid="classMR_1_1FeatureObject_1aa371d414660e743cb7ffe960edbd7f7b">supportsVisualizeProperty</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectLinesHolder_1a9ebf2f4fb4aaec33e52f3d1be2b2d74d">supportsVisualizeProperty</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectMeshHolder_1aed6ee2653cd047b6aa6715f675e0e440">supportsVisualizeProperty</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectPointsHolder_1a063fd6bcd742ad46b10c0cb3232d7fe4">supportsVisualizeProperty</reimplementedby>
-        <reimplementedby refid="classMR_1_1PointMeasurementObject_1a0e98fb837af399d0beabc15ccb244735">supportsVisualizeProperty</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga06796f32f035d58e6a320f35f1845cf1">supportsVisualizeProperty</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga06796f32f035d58e6a320f35f1845cf1">supportsVisualizeProperty</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga06796f32f035d58e6a320f35f1845cf1">supportsVisualizeProperty</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaa371d414660e743cb7ffe960edbd7f7b">supportsVisualizeProperty</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga9ebf2f4fb4aaec33e52f3d1be2b2d74d">supportsVisualizeProperty</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaed6ee2653cd047b6aa6715f675e0e440">supportsVisualizeProperty</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga063fd6bcd742ad46b10c0cb3232d7fe4">supportsVisualizeProperty</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga0e98fb837af399d0beabc15ccb244735">supportsVisualizeProperty</reimplementedby>
         <param>
           <type><ref refid="classMR_1_1AnyVisualizeMaskEnum" kindref="compound">AnyVisualizeMaskEnum</ref></type>
           <declname>type</declname>
@@ -464,7 +464,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="134" column="30"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1a2bbb1d0c58312e6cec629c558dec4eb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::VisualObject::setVisualizeProperty</definition>
         <argsstring>(bool value, AnyVisualizeMaskEnum type, ViewportMask viewportMask)</argsstring>
         <name>setVisualizeProperty</name>
@@ -491,7 +491,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="136" column="21"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1acd4b651e989735ef689f9ed94bbf302d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>virtual MRMESH_API void MR::VisualObject::setVisualizePropertyMask</definition>
         <argsstring>(AnyVisualizeMaskEnum type, ViewportMask viewportMask)</argsstring>
         <name>setVisualizePropertyMask</name>
@@ -514,7 +514,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="138" column="29"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1a3e21bc521981859584703215ba45f219" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <type>MRMESH_API bool</type>
         <definition>MRMESH_API bool MR::VisualObject::getVisualizeProperty</definition>
         <argsstring>(AnyVisualizeMaskEnum type, ViewportMask viewportMask) const</argsstring>
         <name>getVisualizeProperty</name>
@@ -537,20 +537,20 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="140" column="21"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1a94e84a6aefe10a606f6dbf056049dcee" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> const <ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref> &amp;</type>
+        <type>MRMESH_API const <ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref> &amp;</type>
         <definition>virtual MRMESH_API const ViewportMask &amp; MR::VisualObject::getVisualizePropertyMask</definition>
         <argsstring>(AnyVisualizeMaskEnum type) const</argsstring>
         <name>getVisualizePropertyMask</name>
         <qualifiedname>MR::VisualObject::getVisualizePropertyMask</qualifiedname>
-        <reimplementedby refid="classMR_1_1AddVisualProperties_1aa7ce9ce8b54a5a131d54334b7ed26fb1">getVisualizePropertyMask</reimplementedby>
-        <reimplementedby refid="classMR_1_1AddVisualProperties_1aa7ce9ce8b54a5a131d54334b7ed26fb1">getVisualizePropertyMask</reimplementedby>
-        <reimplementedby refid="classMR_1_1AddVisualProperties_1aa7ce9ce8b54a5a131d54334b7ed26fb1">getVisualizePropertyMask</reimplementedby>
-        <reimplementedby refid="classMR_1_1FeatureObject_1a10e19e3693a5f3a1e46ff0a9539f211e">getVisualizePropertyMask</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectLabel_1afc03bf6428dfd9116ff618a39f7a4f20">getVisualizePropertyMask</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectLinesHolder_1ab19b7af18f21594b91628233ca2421b5">getVisualizePropertyMask</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectMeshHolder_1acee748e7294050525fc705701ce36f2a">getVisualizePropertyMask</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectPointsHolder_1a77fbcb94dbd452d3429c4ca2b844bdc0">getVisualizePropertyMask</reimplementedby>
-        <reimplementedby refid="classMR_1_1PointMeasurementObject_1adf8043ed27a7f7991ddbb7da81ed8a09">getVisualizePropertyMask</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaa7ce9ce8b54a5a131d54334b7ed26fb1">getVisualizePropertyMask</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaa7ce9ce8b54a5a131d54334b7ed26fb1">getVisualizePropertyMask</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaa7ce9ce8b54a5a131d54334b7ed26fb1">getVisualizePropertyMask</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga10e19e3693a5f3a1e46ff0a9539f211e">getVisualizePropertyMask</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gafc03bf6428dfd9116ff618a39f7a4f20">getVisualizePropertyMask</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gab19b7af18f21594b91628233ca2421b5">getVisualizePropertyMask</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gacee748e7294050525fc705701ce36f2a">getVisualizePropertyMask</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga77fbcb94dbd452d3429c4ca2b844bdc0">getVisualizePropertyMask</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gadf8043ed27a7f7991ddbb7da81ed8a09">getVisualizePropertyMask</reimplementedby>
         <reimplementedby refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase_1afcc0243fff2f044976ef6dfd9ef220b0">getVisualizePropertyMask</reimplementedby>
         <reimplementedby refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase_1afcc0243fff2f044976ef6dfd9ef220b0">getVisualizePropertyMask</reimplementedby>
         <reimplementedby refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase_1afcc0243fff2f044976ef6dfd9ef220b0">getVisualizePropertyMask</reimplementedby>
@@ -568,7 +568,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="142" column="43"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1af63540ac95e6431477166fb4d1c249a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::VisualObject::toggleVisualizeProperty</definition>
         <argsstring>(AnyVisualizeMaskEnum type, ViewportMask viewportMask)</argsstring>
         <name>toggleVisualizeProperty</name>
@@ -591,20 +591,20 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="144" column="21"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1ab5a7a842052c24ab9b286eafae1bfb8d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="group__VisualObjectGroup_1ga1f6aeed936aa967b17cba0997d30ff7f" kindref="member">AllVisualizeProperties</ref></type>
+        <type>MRMESH_API <ref refid="group__VisualObjectGroup_1ga1f6aeed936aa967b17cba0997d30ff7f" kindref="member">AllVisualizeProperties</ref></type>
         <definition>virtual MRMESH_API AllVisualizeProperties MR::VisualObject::getAllVisualizeProperties</definition>
         <argsstring>() const</argsstring>
         <name>getAllVisualizeProperties</name>
         <qualifiedname>MR::VisualObject::getAllVisualizeProperties</qualifiedname>
-        <reimplementedby refid="classMR_1_1AddVisualProperties_1a7fc99037212a4beaeec730ca98373554">getAllVisualizeProperties</reimplementedby>
-        <reimplementedby refid="classMR_1_1AddVisualProperties_1a7fc99037212a4beaeec730ca98373554">getAllVisualizeProperties</reimplementedby>
-        <reimplementedby refid="classMR_1_1AddVisualProperties_1a7fc99037212a4beaeec730ca98373554">getAllVisualizeProperties</reimplementedby>
-        <reimplementedby refid="classMR_1_1FeatureObject_1a023edd409ca58f579708564c89b70ac4">getAllVisualizeProperties</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectLabel_1a48d67e46ddf2d603bbe15943d84d7e7b">getAllVisualizeProperties</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectLinesHolder_1af36a700f7b56ba0159abf2c66b58d630">getAllVisualizeProperties</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectMeshHolder_1a0a095f30ca36c65f0f11707a7f2c6a3c">getAllVisualizeProperties</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectPointsHolder_1a8c4e3b9cafca3e334c278e0d0edaf6f4">getAllVisualizeProperties</reimplementedby>
-        <reimplementedby refid="classMR_1_1PointMeasurementObject_1ac44e9caf1510826e5de34c71bd1f421c">getAllVisualizeProperties</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga7fc99037212a4beaeec730ca98373554">getAllVisualizeProperties</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga7fc99037212a4beaeec730ca98373554">getAllVisualizeProperties</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga7fc99037212a4beaeec730ca98373554">getAllVisualizeProperties</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga023edd409ca58f579708564c89b70ac4">getAllVisualizeProperties</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga48d67e46ddf2d603bbe15943d84d7e7b">getAllVisualizeProperties</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaf36a700f7b56ba0159abf2c66b58d630">getAllVisualizeProperties</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga0a095f30ca36c65f0f11707a7f2c6a3c">getAllVisualizeProperties</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga8c4e3b9cafca3e334c278e0d0edaf6f4">getAllVisualizeProperties</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gac44e9caf1510826e5de34c71bd1f421c">getAllVisualizeProperties</reimplementedby>
         <briefdescription>
 <para>get all visualize properties masks </para>
         </briefdescription>
@@ -634,7 +634,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="149" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" bodystart="149" bodyend="153"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1a7857f20b8f16704a46297b95e12524f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::VisualObject::copyAllSolidColors</definition>
         <argsstring>(const VisualObject &amp;other)</argsstring>
         <name>copyAllSolidColors</name>
@@ -653,7 +653,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="156" column="21"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1af8f1e6dfa5e98e4c44896a848932fa66" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
+        <type>MRMESH_API <ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
         <definition>MRMESH_API ViewportMask MR::VisualObject::globalClippedByPlaneMask</definition>
         <argsstring>() const</argsstring>
         <name>globalClippedByPlaneMask</name>
@@ -688,7 +688,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="162" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" bodystart="162" bodyend="162"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1a6212504702d0e12528f65b94e270069e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::VisualObject::setGlobalClippedByPlane</definition>
         <argsstring>(bool on, ViewportMask viewportMask=ViewportMask::all())</argsstring>
         <name>setGlobalClippedByPlane</name>
@@ -746,7 +746,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="170" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" bodystart="170" bodyend="170"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1a70f15c0dc59f3b83a8b8c3e6390f7571" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> const <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &amp;</type>
+        <type>MRMESH_API const <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &amp;</type>
         <definition>MRMESH_API const Color &amp; MR::VisualObject::getFrontColor</definition>
         <argsstring>(bool selected=true, ViewportId viewportId={}) const</argsstring>
         <name>getFrontColor</name>
@@ -771,12 +771,12 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="173" column="28"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1a0d1a64b6bed894b4236b06ac732dfd74" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>virtual MRMESH_API void MR::VisualObject::setFrontColor</definition>
         <argsstring>(const Color &amp;color, bool selected, ViewportId viewportId={})</argsstring>
         <name>setFrontColor</name>
         <qualifiedname>MR::VisualObject::setFrontColor</qualifiedname>
-        <reimplementedby refid="classMR_1_1ObjectGcode_1a9572a367773d74f7d47b9da9770b0188">setFrontColor</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga9572a367773d74f7d47b9da9770b0188">setFrontColor</reimplementedby>
         <param>
           <type>const <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &amp;</type>
           <declname>color</declname>
@@ -800,7 +800,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="175" column="29"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1a04e6c3f8219124e3028f7dd8411cfc65" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> const <ref refid="classMR_1_1ViewportProperty" kindref="compound">ViewportProperty</ref>&lt; <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &gt; &amp;</type>
+        <type>MRMESH_API const <ref refid="classMR_1_1ViewportProperty" kindref="compound">ViewportProperty</ref>&lt; <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &gt; &amp;</type>
         <definition>virtual MRMESH_API const ViewportProperty&lt; Color &gt; &amp; MR::VisualObject::getFrontColorsForAllViewports</definition>
         <argsstring>(bool selected=true) const</argsstring>
         <name>getFrontColorsForAllViewports</name>
@@ -823,7 +823,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="178" column="47"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1ac8fd310ffa1926e733e28b521f658778" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>virtual MRMESH_API void MR::VisualObject::setFrontColorsForAllViewports</definition>
         <argsstring>(ViewportProperty&lt; Color &gt; val, bool selected=true)</argsstring>
         <name>setFrontColorsForAllViewports</name>
@@ -847,7 +847,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="180" column="29"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1a714aab4f9110c1072f3147edae51e293" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> const <ref refid="classMR_1_1ViewportProperty" kindref="compound">ViewportProperty</ref>&lt; <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &gt; &amp;</type>
+        <type>MRMESH_API const <ref refid="classMR_1_1ViewportProperty" kindref="compound">ViewportProperty</ref>&lt; <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &gt; &amp;</type>
         <definition>virtual MRMESH_API const ViewportProperty&lt; Color &gt; &amp; MR::VisualObject::getBackColorsForAllViewports</definition>
         <argsstring>() const</argsstring>
         <name>getBackColorsForAllViewports</name>
@@ -865,7 +865,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="183" column="47"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1a6b7e8cf2909d71a7537a47028f77913a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>virtual MRMESH_API void MR::VisualObject::setBackColorsForAllViewports</definition>
         <argsstring>(ViewportProperty&lt; Color &gt; val)</argsstring>
         <name>setBackColorsForAllViewports</name>
@@ -884,7 +884,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="185" column="29"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1af49f84e12ea7e21ec8dc39ae8609bc18" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> const <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &amp;</type>
+        <type>MRMESH_API const <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &amp;</type>
         <definition>MRMESH_API const Color &amp; MR::VisualObject::getBackColor</definition>
         <argsstring>(ViewportId viewportId={}) const</argsstring>
         <name>getBackColor</name>
@@ -904,7 +904,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="188" column="28"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1a469ac6da4b8c323e12d0d78943831a4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>virtual MRMESH_API void MR::VisualObject::setBackColor</definition>
         <argsstring>(const Color &amp;color, ViewportId viewportId={})</argsstring>
         <name>setBackColor</name>
@@ -928,7 +928,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="190" column="29"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1afe6426aa46d769e1d6f4cab1e56e0559" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> const uint8_t &amp;</type>
+        <type>MRMESH_API const uint8_t &amp;</type>
         <definition>MRMESH_API const uint8_t &amp; MR::VisualObject::getGlobalAlpha</definition>
         <argsstring>(ViewportId viewportId={}) const</argsstring>
         <name>getGlobalAlpha</name>
@@ -948,7 +948,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="193" column="30"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1a985084dc83b837ab048114f5f4bacae2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>virtual MRMESH_API void MR::VisualObject::setGlobalAlpha</definition>
         <argsstring>(uint8_t alpha, ViewportId viewportId={})</argsstring>
         <name>setGlobalAlpha</name>
@@ -972,7 +972,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="195" column="29"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1a3ef31c439da47a55ca3287bf45a377ad" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> const <ref refid="classMR_1_1ViewportProperty" kindref="compound">ViewportProperty</ref>&lt; uint8_t &gt; &amp;</type>
+        <type>MRMESH_API const <ref refid="classMR_1_1ViewportProperty" kindref="compound">ViewportProperty</ref>&lt; uint8_t &gt; &amp;</type>
         <definition>virtual MRMESH_API const ViewportProperty&lt; uint8_t &gt; &amp; MR::VisualObject::getGlobalAlphaForAllViewports</definition>
         <argsstring>() const</argsstring>
         <name>getGlobalAlphaForAllViewports</name>
@@ -993,7 +993,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="198" column="47"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1a8ae88237f1bd22f03cb5a77d018c6d7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>virtual MRMESH_API void MR::VisualObject::setGlobalAlphaForAllViewports</definition>
         <argsstring>(ViewportProperty&lt; uint8_t &gt; val)</argsstring>
         <name>setGlobalAlphaForAllViewports</name>
@@ -1012,16 +1012,16 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="200" column="29"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1a3e72e4b693ea9b28b46b5928167f0e74" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>virtual MRMESH_API void MR::VisualObject::setDirtyFlags</definition>
         <argsstring>(uint32_t mask, bool invalidateCaches=true)</argsstring>
         <name>setDirtyFlags</name>
         <qualifiedname>MR::VisualObject::setDirtyFlags</qualifiedname>
-        <reimplementedby refid="classMR_1_1ObjectGcode_1abd8d7ffd2cdeeac5474265b72f7a8ad7">setDirtyFlags</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectLinesHolder_1a4693af2f58656c85b0fe600e323273ff">setDirtyFlags</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectMeshHolder_1a263df6d53d2c8a082a9fc691c248ec46">setDirtyFlags</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectPointsHolder_1a29d230eab5ae9ef093a8d9f9878ecb6a">setDirtyFlags</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectVoxels_1a3c066a65c73f77c0e3a8438729f6102b">setDirtyFlags</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gabd8d7ffd2cdeeac5474265b72f7a8ad7">setDirtyFlags</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga4693af2f58656c85b0fe600e323273ff">setDirtyFlags</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga263df6d53d2c8a082a9fc691c248ec46">setDirtyFlags</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga29d230eab5ae9ef093a8d9f9878ecb6a">setDirtyFlags</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga3c066a65c73f77c0e3a8438729f6102b">setDirtyFlags</reimplementedby>
         <param>
           <type>uint32_t</type>
           <declname>mask</declname>
@@ -1058,7 +1058,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="205" column="29"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1a6411458c4cd7d098c12adaea27568db7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> uint32_t</type>
+        <type>MRMESH_API uint32_t</type>
         <definition>MRMESH_API uint32_t MR::VisualObject::getDirtyFlags</definition>
         <argsstring>() const</argsstring>
         <name>getDirtyFlags</name>
@@ -1073,7 +1073,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="207" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" bodystart="207" bodyend="207"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1a30fe82d49e41f2e7830f58113b295cce" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::VisualObject::resetDirty</definition>
         <argsstring>() const</argsstring>
         <name>resetDirty</name>
@@ -1088,7 +1088,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="209" column="21"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1a885f987ce58a89d2b12a33cf48e92c6c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>virtual MRMESH_API void MR::VisualObject::resetDirtyExceptMask</definition>
         <argsstring>(uint32_t mask) const</argsstring>
         <name>resetDirtyExceptMask</name>
@@ -1107,7 +1107,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="211" column="29"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1a8fe84b708cf42b2d73b31e77f02fae6a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Box3f</type>
+        <type>MRMESH_API Box3f</type>
         <definition>MRMESH_API Box3f MR::VisualObject::getBoundingBox</definition>
         <argsstring>() const</argsstring>
         <name>getBoundingBox</name>
@@ -1122,16 +1122,16 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="214" column="22"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1a32cc9bc32e5402ed77f63de53d754314" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Box3f</type>
+        <type>MRMESH_API Box3f</type>
         <definition>virtual MRMESH_API Box3f MR::VisualObject::getWorldBox</definition>
         <argsstring>(ViewportId={}) const override</argsstring>
         <name>getWorldBox</name>
         <qualifiedname>MR::VisualObject::getWorldBox</qualifiedname>
         <reimplements refid="classMR_1_1Object_1aeb145057d6707527c3d60d9f459ec2b4">getWorldBox</reimplements>
-        <reimplementedby refid="classMR_1_1ObjectLabel_1a1b7dd5988b7afd2f99debb1cfed9225e">getWorldBox</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectLinesHolder_1abf4784be6ef8c3ce90625490765084dd">getWorldBox</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectMeshHolder_1a2f0c431e946a273dfa9a2bb927206291">getWorldBox</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectPointsHolder_1ac7185971e31bea27e35f17cf9c4254d9">getWorldBox</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga1b7dd5988b7afd2f99debb1cfed9225e">getWorldBox</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gabf4784be6ef8c3ce90625490765084dd">getWorldBox</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga2f0c431e946a273dfa9a2bb927206291">getWorldBox</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gac7185971e31bea27e35f17cf9c4254d9">getWorldBox</reimplementedby>
         <param>
           <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
           <defval>{}</defval>
@@ -1152,7 +1152,7 @@
         <name>getRedrawFlag</name>
         <qualifiedname>MR::VisualObject::getRedrawFlag</qualifiedname>
         <reimplements refid="classMR_1_1Object_1a4ae8a13d0528c5937e200015938b6dc5">getRedrawFlag</reimplements>
-        <reimplementedby refid="classMR_1_1ObjectMeshHolder_1aa095821c8be332dee208deb420d5c7f8">getRedrawFlag</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaa095821c8be332dee208deb420d5c7f8">getRedrawFlag</reimplementedby>
         <param>
           <type><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
           <declname>viewportMask</declname>
@@ -1187,7 +1187,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="226" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" bodystart="226" bodyend="226"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1add21d6793f336877707d5ed7b4785ce6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>virtual MRMESH_API void MR::VisualObject::setPickable</definition>
         <argsstring>(bool on, ViewportMask viewportMask=ViewportMask::all())</argsstring>
         <name>setPickable</name>
@@ -1211,7 +1211,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="228" column="29"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1ad526a2645a12621b7742bc66aaf5ad0f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="namespaceMR_1a270a25a8ef13e07e59e7070834efc33f" kindref="member">ColoringType</ref></type>
+        <type><ref refid="group__GeneralGroup_1ga270a25a8ef13e07e59e7070834efc33f" kindref="member">ColoringType</ref></type>
         <definition>ColoringType MR::VisualObject::getColoringType</definition>
         <argsstring>() const</argsstring>
         <name>getColoringType</name>
@@ -1226,13 +1226,13 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="231" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" bodystart="231" bodyend="231"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1a8d339ad1cf1735f90773b4f8b89e9059" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>virtual MRMESH_API void MR::VisualObject::setColoringType</definition>
         <argsstring>(ColoringType coloringType)</argsstring>
         <name>setColoringType</name>
         <qualifiedname>MR::VisualObject::setColoringType</qualifiedname>
         <param>
-          <type><ref refid="namespaceMR_1a270a25a8ef13e07e59e7070834efc33f" kindref="member">ColoringType</ref></type>
+          <type><ref refid="group__GeneralGroup_1ga270a25a8ef13e07e59e7070834efc33f" kindref="member">ColoringType</ref></type>
           <declname>coloringType</declname>
         </param>
         <briefdescription>
@@ -1347,34 +1347,34 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="249" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" bodystart="249" bodyend="249"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1a2abf3d3c767a16a584ad513af643feca" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
+        <type>MRMESH_API std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
         <definition>virtual MRMESH_API std::shared_ptr&lt; Object &gt; MR::VisualObject::clone</definition>
         <argsstring>() const override</argsstring>
         <name>clone</name>
         <qualifiedname>MR::VisualObject::clone</qualifiedname>
         <reimplements refid="classMR_1_1Object_1ae0f00298204b65ca49b4daaa9a39f5c5">clone</reimplements>
-        <reimplementedby refid="classMR_1_1AngleMeasurementObject_1a0817825d46092c4ebf5fbc8aa9b3cc0f">clone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga0817825d46092c4ebf5fbc8aa9b3cc0f">clone</reimplementedby>
         <reimplementedby refid="classMR_1_1CircleObject_1a1fcb69f1dd8bdbf42302043d67fb8fa8">clone</reimplementedby>
-        <reimplementedby refid="classMR_1_1ConeObject_1afd3e44ebcd56377cde2ddecee9e57216">clone</reimplementedby>
-        <reimplementedby refid="classMR_1_1CylinderObject_1a9be1f18971d98b7c6b59e4b442661d86">clone</reimplementedby>
-        <reimplementedby refid="classMR_1_1DistanceMeasurementObject_1abc8e75e2c032185a15f15d542b20a9e0">clone</reimplementedby>
-        <reimplementedby refid="classMR_1_1LineObject_1aa9a192c6a7b45287b4e6221e3d5ecb6d">clone</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectDistanceMap_1a5128e28ab5be3c4295cfdbbf344635c5">clone</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectGcode_1adb08022f8d2a8019b625e6e28e6fd32c">clone</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectImGuiLabel_1a13d6da0884bda64f02742d0ef95e405d">clone</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectLabel_1ab79717ed9223b4f94cf8d564d1bc126d">clone</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectLines_1ada224fb3ab391e048a38ca259d333c09">clone</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectLinesHolder_1a8d62fc8248ac41e37620d11e4e326b62">clone</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectMesh_1a211a396578d24c0f475b44be7d6e5c44">clone</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectMeshHolder_1aeaa501dd61dadd0298de0f97c2b4c45d">clone</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectPoints_1ad267de3013f2004552a791899a4d2fb6">clone</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectPointsHolder_1a7f67435bceafd659dec15164f3786ff9">clone</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectVoxels_1a224d80aaee530a620181296ca8a114a1">clone</reimplementedby>
-        <reimplementedby refid="classMR_1_1PlaneObject_1a3de6d8962e60d11119a0a510af905f62">clone</reimplementedby>
-        <reimplementedby refid="classMR_1_1PointMeasurementObject_1a1028e5d0d684e5b32573488f69798497">clone</reimplementedby>
-        <reimplementedby refid="classMR_1_1PointObject_1ac70ea9d5e70ab550d46f0f74d632f202">clone</reimplementedby>
-        <reimplementedby refid="classMR_1_1RadiusMeasurementObject_1abf829a28a78153a2114e13a36a46f092">clone</reimplementedby>
-        <reimplementedby refid="classMR_1_1SphereObject_1a0f12c8dd3509baa2cb33bf45e476124a">clone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gafd3e44ebcd56377cde2ddecee9e57216">clone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga9be1f18971d98b7c6b59e4b442661d86">clone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gabc8e75e2c032185a15f15d542b20a9e0">clone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaa9a192c6a7b45287b4e6221e3d5ecb6d">clone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga5128e28ab5be3c4295cfdbbf344635c5">clone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gadb08022f8d2a8019b625e6e28e6fd32c">clone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga13d6da0884bda64f02742d0ef95e405d">clone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gab79717ed9223b4f94cf8d564d1bc126d">clone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gada224fb3ab391e048a38ca259d333c09">clone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga8d62fc8248ac41e37620d11e4e326b62">clone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga211a396578d24c0f475b44be7d6e5c44">clone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaeaa501dd61dadd0298de0f97c2b4c45d">clone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gad267de3013f2004552a791899a4d2fb6">clone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga7f67435bceafd659dec15164f3786ff9">clone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga224d80aaee530a620181296ca8a114a1">clone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga3de6d8962e60d11119a0a510af905f62">clone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga1028e5d0d684e5b32573488f69798497">clone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gac70ea9d5e70ab550d46f0f74d632f202">clone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gabf829a28a78153a2114e13a36a46f092">clone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga0f12c8dd3509baa2cb33bf45e476124a">clone</reimplementedby>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -1385,34 +1385,34 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="253" column="40"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1adf2d7e16d33d059dbf2bbd0f1c34c8bf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
+        <type>MRMESH_API std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
         <definition>virtual MRMESH_API std::shared_ptr&lt; Object &gt; MR::VisualObject::shallowClone</definition>
         <argsstring>() const override</argsstring>
         <name>shallowClone</name>
         <qualifiedname>MR::VisualObject::shallowClone</qualifiedname>
         <reimplements refid="classMR_1_1Object_1a0d35e02c1f43af6741066f893311266f">shallowClone</reimplements>
-        <reimplementedby refid="classMR_1_1AngleMeasurementObject_1a9e20a99d9cfb02b91a653aefadbbb391">shallowClone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga9e20a99d9cfb02b91a653aefadbbb391">shallowClone</reimplementedby>
         <reimplementedby refid="classMR_1_1CircleObject_1a1b666f68cb067916d8b0a10e19c98af6">shallowClone</reimplementedby>
-        <reimplementedby refid="classMR_1_1ConeObject_1aa6ffe65ecb905c4a85d865c70c753d4c">shallowClone</reimplementedby>
-        <reimplementedby refid="classMR_1_1CylinderObject_1a71326e9cd25df824ffbf9fe8fb545508">shallowClone</reimplementedby>
-        <reimplementedby refid="classMR_1_1DistanceMeasurementObject_1a99ecc95eccd9b0fab3c76911ea1006a0">shallowClone</reimplementedby>
-        <reimplementedby refid="classMR_1_1LineObject_1a1ee596ccd488d1e2f49a4d690b9b6a32">shallowClone</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectDistanceMap_1a8e077ec531dfa8174d27d9e5a31fa47f">shallowClone</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectGcode_1aba7a233ed2aaa7ce653e88e8795ffa84">shallowClone</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectImGuiLabel_1a374ae05761f1cc1baaa0aefae2e3ab18">shallowClone</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectLabel_1a21e09826b77caa1991f22c27088ada44">shallowClone</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectLines_1aff95536683320ad3bdc54a759afe5e7b">shallowClone</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectLinesHolder_1aa19c36b553adf089ebe87a6220248926">shallowClone</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectMesh_1a3da846b7d2eebc6602bc67510eb71d34">shallowClone</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectMeshHolder_1a5b883e16802b82fc905c2166fba9cbce">shallowClone</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectPoints_1a0204d43ba94c12cd5f8e20ef283315d2">shallowClone</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectPointsHolder_1aafeb7e582463b9ab47d0465ddb7e8758">shallowClone</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectVoxels_1afbad2a43279c25456d0ae5f6ad86f37e">shallowClone</reimplementedby>
-        <reimplementedby refid="classMR_1_1PlaneObject_1abf5ba6293ac5dd5b3019940c71272282">shallowClone</reimplementedby>
-        <reimplementedby refid="classMR_1_1PointMeasurementObject_1a3900b0b2a1c555af5028468829a2ae82">shallowClone</reimplementedby>
-        <reimplementedby refid="classMR_1_1PointObject_1a2073cb832f307501a3efea77d5f2f461">shallowClone</reimplementedby>
-        <reimplementedby refid="classMR_1_1RadiusMeasurementObject_1a0a61e373c543440d50c5cb78476cba67">shallowClone</reimplementedby>
-        <reimplementedby refid="classMR_1_1SphereObject_1ae8924769b4847b515a97481b5ac24215">shallowClone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaa6ffe65ecb905c4a85d865c70c753d4c">shallowClone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga71326e9cd25df824ffbf9fe8fb545508">shallowClone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga99ecc95eccd9b0fab3c76911ea1006a0">shallowClone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga1ee596ccd488d1e2f49a4d690b9b6a32">shallowClone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga8e077ec531dfa8174d27d9e5a31fa47f">shallowClone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaba7a233ed2aaa7ce653e88e8795ffa84">shallowClone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga374ae05761f1cc1baaa0aefae2e3ab18">shallowClone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga21e09826b77caa1991f22c27088ada44">shallowClone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaff95536683320ad3bdc54a759afe5e7b">shallowClone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaa19c36b553adf089ebe87a6220248926">shallowClone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga3da846b7d2eebc6602bc67510eb71d34">shallowClone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga5b883e16802b82fc905c2166fba9cbce">shallowClone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga0204d43ba94c12cd5f8e20ef283315d2">shallowClone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaafeb7e582463b9ab47d0465ddb7e8758">shallowClone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gafbad2a43279c25456d0ae5f6ad86f37e">shallowClone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gabf5ba6293ac5dd5b3019940c71272282">shallowClone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga3900b0b2a1c555af5028468829a2ae82">shallowClone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga2073cb832f307501a3efea77d5f2f461">shallowClone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga0a61e373c543440d50c5cb78476cba67">shallowClone</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gae8924769b4847b515a97481b5ac24215">shallowClone</reimplementedby>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -1423,7 +1423,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="256" column="40"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1a4ee8d7c7819cfcae4624e5818a870052" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <type>MRMESH_API bool</type>
         <definition>virtual MRMESH_API bool MR::VisualObject::render</definition>
         <argsstring>(const ModelRenderParams &amp;) const</argsstring>
         <name>render</name>
@@ -1441,7 +1441,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="260" column="29"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1a190bc33649da029a5669785110d1dd19" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>virtual MRMESH_API void MR::VisualObject::renderForPicker</definition>
         <argsstring>(const ModelBaseRenderParams &amp;, unsigned) const</argsstring>
         <name>renderForPicker</name>
@@ -1462,7 +1462,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="262" column="29"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1a7c703445b89c896790544b583d052e9f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>virtual MRMESH_API void MR::VisualObject::renderUi</definition>
         <argsstring>(const UiRenderParams &amp;params) const</argsstring>
         <name>renderUi</name>
@@ -1503,19 +1503,19 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="267" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" bodystart="267" bodyend="267"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1a1c54cde8d69f13962e4e64bf839f3111" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> size_t</type>
+        <type>MRMESH_API size_t</type>
         <definition>virtual MRMESH_API size_t MR::VisualObject::heapBytes</definition>
         <argsstring>() const override</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR::VisualObject::heapBytes</qualifiedname>
         <reimplements refid="classMR_1_1Object_1adc5d7c1d86bb8b8afe345a35b7c9a6bc">heapBytes</reimplements>
-        <reimplementedby refid="classMR_1_1ObjectDistanceMap_1a9788925d8f072383a35145d4b13cbb92">heapBytes</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectGcode_1a4dc4a82d21db1be6d2baf57046389e33">heapBytes</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectLabel_1ad0dafa16ac297c6861333ff5d93eb037">heapBytes</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectLinesHolder_1ad64322425bc9354238fc990bff3e2b10">heapBytes</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectMeshHolder_1a5e7e533cdcddd1d2a4fbf5fba6b9d607">heapBytes</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectPointsHolder_1a2646bd14bb792576389645ad9483bc0a">heapBytes</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectVoxels_1ad43c1a2a2825cbe90ba7cd3c398e210c">heapBytes</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga9788925d8f072383a35145d4b13cbb92">heapBytes</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga4dc4a82d21db1be6d2baf57046389e33">heapBytes</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gad0dafa16ac297c6861333ff5d93eb037">heapBytes</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gad64322425bc9354238fc990bff3e2b10">heapBytes</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga5e7e533cdcddd1d2a4fbf5fba6b9d607">heapBytes</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga2646bd14bb792576389645ad9483bc0a">heapBytes</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gad43c1a2a2825cbe90ba7cd3c398e210c">heapBytes</reimplementedby>
         <briefdescription>
 <para>returns the amount of memory this object occupies on heap </para>
         </briefdescription>
@@ -1526,21 +1526,21 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="270" column="32"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1a76988bf72aa3be996e864fec3ab47ed2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::vector&lt; std::string &gt;</type>
+        <type>MRMESH_API std::vector&lt; std::string &gt;</type>
         <definition>virtual MRMESH_API std::vector&lt; std::string &gt; MR::VisualObject::getInfoLines</definition>
         <argsstring>() const override</argsstring>
         <name>getInfoLines</name>
         <qualifiedname>MR::VisualObject::getInfoLines</qualifiedname>
         <reimplements refid="classMR_1_1Object_1ad99d5459862ef664776cb3dde87df0ee">getInfoLines</reimplements>
-        <reimplementedby refid="classMR_1_1AngleMeasurementObject_1a94c8a0bb6913155e136c7a02750e7d0f">getInfoLines</reimplementedby>
-        <reimplementedby refid="classMR_1_1DistanceMeasurementObject_1afee53f116445c2f14e15413ad6913d6b">getInfoLines</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectDistanceMap_1a769f47ff3df3a3e6aff07639c62a4f50">getInfoLines</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectGcode_1a66df6de195c9b8502579231576b0017c">getInfoLines</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectLines_1aef5e76ee8e7d04576faa2912fc3de4d0">getInfoLines</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectMesh_1a0b6c4c31b11e372dea9237b6f9fcf5c6">getInfoLines</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectPoints_1a8a5af21a0ab52a2d7f2464ba3e3f8131">getInfoLines</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectVoxels_1ae0e4a39d7b533adf3f8e3a245164b4b0">getInfoLines</reimplementedby>
-        <reimplementedby refid="classMR_1_1RadiusMeasurementObject_1a896f78dba51a77e27ca06d9a9b9f85a7">getInfoLines</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga94c8a0bb6913155e136c7a02750e7d0f">getInfoLines</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gafee53f116445c2f14e15413ad6913d6b">getInfoLines</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga769f47ff3df3a3e6aff07639c62a4f50">getInfoLines</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga66df6de195c9b8502579231576b0017c">getInfoLines</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaef5e76ee8e7d04576faa2912fc3de4d0">getInfoLines</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga0b6c4c31b11e372dea9237b6f9fcf5c6">getInfoLines</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga8a5af21a0ab52a2d7f2464ba3e3f8131">getInfoLines</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gae0e4a39d7b533adf3f8e3a245164b4b0">getInfoLines</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga896f78dba51a77e27ca06d9a9b9f85a7">getInfoLines</reimplementedby>
         <briefdescription>
 <para>return several info lines that can better describe the object in the <ref refid="namespaceMR_1_1UI" kindref="compound">UI</ref> </para>
         </briefdescription>
@@ -1551,7 +1551,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="272" column="36"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1a0466c6ddefdea403775b5b4fa4a46219" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <type>MRMESH_API bool</type>
         <definition>MRMESH_API bool MR::VisualObject::useDefaultScenePropertiesOnDeserialization</definition>
         <argsstring>() const</argsstring>
         <name>useDefaultScenePropertiesOnDeserialization</name>
@@ -1566,7 +1566,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="276" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" bodystart="276" bodyend="276"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1a12fceb01c325ff73eb770fa255cb5ecf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::VisualObject::setUseDefaultScenePropertiesOnDeserialization</definition>
         <argsstring>(bool useDefaultScenePropertiesOnDeserialization)</argsstring>
         <name>setUseDefaultScenePropertiesOnDeserialization</name>
@@ -1585,16 +1585,16 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="279" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" bodystart="279" bodyend="280"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1afb0c75a4ae3c759e382ae9c1abc0234b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>virtual MRMESH_API void MR::VisualObject::resetFrontColor</definition>
         <argsstring>()</argsstring>
         <name>resetFrontColor</name>
         <qualifiedname>MR::VisualObject::resetFrontColor</qualifiedname>
-        <reimplementedby refid="classMR_1_1ObjectDistanceMap_1af058f11fdad7fc39dca1a94ce1de3f97">resetFrontColor</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectLinesHolder_1a786c333d036a4aca15856725ae4e9edf">resetFrontColor</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectMeshHolder_1ab54b1a85b8b2ca48934ff171cdb5d5b5">resetFrontColor</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectPointsHolder_1adc4c7b3bbf3bf8c149c17e31bf241b5d">resetFrontColor</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectVoxels_1a8d8dc2407b56398b61d81060eddd8f33">resetFrontColor</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaf058f11fdad7fc39dca1a94ce1de3f97">resetFrontColor</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga786c333d036a4aca15856725ae4e9edf">resetFrontColor</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gab54b1a85b8b2ca48934ff171cdb5d5b5">resetFrontColor</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gadc4c7b3bbf3bf8c149c17e31bf241b5d">resetFrontColor</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga8d8dc2407b56398b61d81060eddd8f33">resetFrontColor</reimplementedby>
         <briefdescription>
 <para>reset basic object colors to their default values from the current theme </para>
         </briefdescription>
@@ -1605,13 +1605,13 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="283" column="29"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1a0b0f7552c903173a32d29ad4f2c2b247" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>virtual MRMESH_API void MR::VisualObject::resetColors</definition>
         <argsstring>()</argsstring>
         <name>resetColors</name>
         <qualifiedname>MR::VisualObject::resetColors</qualifiedname>
-        <reimplementedby refid="classMR_1_1ObjectMeshHolder_1ab51ab843d80b3a3634dc2eabf965d9bc">resetColors</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectPointsHolder_1af81f56db413ec388aca6754041b268d6">resetColors</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gab51ab843d80b3a3634dc2eabf965d9bc">resetColors</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaf81f56db413ec388aca6754041b268d6">resetColors</reimplementedby>
         <briefdescription>
 <para>reset all object colors to their default values from the current theme </para>
         </briefdescription>
@@ -1686,34 +1686,34 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="288" column="5"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1a76b7b6b3bfd7dac31eb1d150afb761f7" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>virtual MRMESH_API void MR::VisualObject::swapBase_</definition>
         <argsstring>(Object &amp;other) override</argsstring>
         <name>swapBase_</name>
         <qualifiedname>MR::VisualObject::swapBase_</qualifiedname>
         <reimplements refid="classMR_1_1Object_1a8ff1262849d62c014b87a26f031aee9a">swapBase_</reimplements>
-        <reimplementedby refid="classMR_1_1AngleMeasurementObject_1a0f47f7d31bec9d2791312b72e2ac1d1f">swapBase_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga0f47f7d31bec9d2791312b72e2ac1d1f">swapBase_</reimplementedby>
         <reimplementedby refid="classMR_1_1CircleObject_1a744c3d9624e8aaae878e393781b1b263">swapBase_</reimplementedby>
-        <reimplementedby refid="classMR_1_1ConeObject_1a576b9eda88516f812a400bea81f5fb17">swapBase_</reimplementedby>
-        <reimplementedby refid="classMR_1_1CylinderObject_1ad6493f67be6aa4a9a004c90d06a31d09">swapBase_</reimplementedby>
-        <reimplementedby refid="classMR_1_1DistanceMeasurementObject_1adcd21383f78a94b1d4ab6139004c73a8">swapBase_</reimplementedby>
-        <reimplementedby refid="classMR_1_1LineObject_1adec17436488d24c31d8bcfeb2e4d1118">swapBase_</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectDistanceMap_1a909bc94c17de8482114192a257f196a6">swapBase_</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectGcode_1a3369ad296b25670f64dcd09ff243e020">swapBase_</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectImGuiLabel_1ae4f6ce3d96a615ecb839a20f8f26df80">swapBase_</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectLabel_1a3c2f6a903e0a0d8bee8bb94b6385bb82">swapBase_</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectLines_1a527fce3c91b8dc02284dab71a95d2ea7">swapBase_</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectLinesHolder_1a11d75f9e64cd1cec71eff3f65d040259">swapBase_</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectMesh_1a58768d2ade5a8da7fdf85c181f2382a1">swapBase_</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectMeshHolder_1ab787120fcb4837c6d8ef2ec3e62eb935">swapBase_</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectPoints_1a7cbf8f6689936307fe71452da91038a4">swapBase_</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectPointsHolder_1aea1d998484c820abf8d0f350e035f139">swapBase_</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectVoxels_1aba61550178a3b30b0ebf21cc444e4c41">swapBase_</reimplementedby>
-        <reimplementedby refid="classMR_1_1PlaneObject_1afb6fc94d7cbe98896d3b6fea3c1f4ceb">swapBase_</reimplementedby>
-        <reimplementedby refid="classMR_1_1PointMeasurementObject_1ac48271380b514265ffc50f490fba6aff">swapBase_</reimplementedby>
-        <reimplementedby refid="classMR_1_1PointObject_1afdd7f6159c74701c90843b6632e7e75f">swapBase_</reimplementedby>
-        <reimplementedby refid="classMR_1_1RadiusMeasurementObject_1a144d0e6bad6b4589084b64ca9cdb9dea">swapBase_</reimplementedby>
-        <reimplementedby refid="classMR_1_1SphereObject_1ab073c7dd40fc01a69a3484338c65f9e0">swapBase_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga576b9eda88516f812a400bea81f5fb17">swapBase_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gad6493f67be6aa4a9a004c90d06a31d09">swapBase_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gadcd21383f78a94b1d4ab6139004c73a8">swapBase_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gadec17436488d24c31d8bcfeb2e4d1118">swapBase_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga909bc94c17de8482114192a257f196a6">swapBase_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga3369ad296b25670f64dcd09ff243e020">swapBase_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gae4f6ce3d96a615ecb839a20f8f26df80">swapBase_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga3c2f6a903e0a0d8bee8bb94b6385bb82">swapBase_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga527fce3c91b8dc02284dab71a95d2ea7">swapBase_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga11d75f9e64cd1cec71eff3f65d040259">swapBase_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga58768d2ade5a8da7fdf85c181f2382a1">swapBase_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gab787120fcb4837c6d8ef2ec3e62eb935">swapBase_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga7cbf8f6689936307fe71452da91038a4">swapBase_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaea1d998484c820abf8d0f350e035f139">swapBase_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaba61550178a3b30b0ebf21cc444e4c41">swapBase_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gafb6fc94d7cbe98896d3b6fea3c1f4ceb">swapBase_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gac48271380b514265ffc50f490fba6aff">swapBase_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gafdd7f6159c74701c90843b6632e7e75f">swapBase_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga144d0e6bad6b4589084b64ca9cdb9dea">swapBase_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gab073c7dd40fc01a69a3484338c65f9e0">swapBase_</reimplementedby>
         <param>
           <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
           <declname>other</declname>
@@ -1733,22 +1733,22 @@
         <argsstring>() const</argsstring>
         <name>setupRenderObject_</name>
         <qualifiedname>MR::VisualObject::setupRenderObject_</qualifiedname>
-        <reimplementedby refid="classMR_1_1AngleMeasurementObject_1ae9cceecc44b56c37d2a10067bdaa9e20">setupRenderObject_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gae9cceecc44b56c37d2a10067bdaa9e20">setupRenderObject_</reimplementedby>
         <reimplementedby refid="classMR_1_1CircleObject_1a3ec925469335dc13e8594830baf29182">setupRenderObject_</reimplementedby>
-        <reimplementedby refid="classMR_1_1ConeObject_1a58e25e035e9759982d74478c83f688b9">setupRenderObject_</reimplementedby>
-        <reimplementedby refid="classMR_1_1CylinderObject_1aac3bbcdfb28c8c49f275a6f8554b07eb">setupRenderObject_</reimplementedby>
-        <reimplementedby refid="classMR_1_1DistanceMeasurementObject_1a88884fe950634ef07794998d453d8bf2">setupRenderObject_</reimplementedby>
-        <reimplementedby refid="classMR_1_1LineObject_1a9016e7839ab6798de2cded20b3a79fb4">setupRenderObject_</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectImGuiLabel_1aa16b165837fdfa31d8bcf7f4ddf768b2">setupRenderObject_</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectLabel_1a24cbb50f1855d6c25c214a360db2648e">setupRenderObject_</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectLinesHolder_1a3a46ff446a508a1e4da51f1a85880461">setupRenderObject_</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectMeshHolder_1a0e1f5fb75ff002cd9cf560859663047e">setupRenderObject_</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectPointsHolder_1a3188b1f7d0a671ba6542d8d7e27174c1">setupRenderObject_</reimplementedby>
-        <reimplementedby refid="classMR_1_1PlaneObject_1a0dd5047850175341789a02b8137f7f7b">setupRenderObject_</reimplementedby>
-        <reimplementedby refid="classMR_1_1PointMeasurementObject_1a204af2ade8b0b40f0c1233e4c7d2a625">setupRenderObject_</reimplementedby>
-        <reimplementedby refid="classMR_1_1PointObject_1ab2817019fd4767a9959a629537d5eb3c">setupRenderObject_</reimplementedby>
-        <reimplementedby refid="classMR_1_1RadiusMeasurementObject_1a42db597cf6c86264265ae90f066d8b6b">setupRenderObject_</reimplementedby>
-        <reimplementedby refid="classMR_1_1SphereObject_1ab747a95226189b8c1e074510daa0bc78">setupRenderObject_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga58e25e035e9759982d74478c83f688b9">setupRenderObject_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaac3bbcdfb28c8c49f275a6f8554b07eb">setupRenderObject_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga88884fe950634ef07794998d453d8bf2">setupRenderObject_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga9016e7839ab6798de2cded20b3a79fb4">setupRenderObject_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaa16b165837fdfa31d8bcf7f4ddf768b2">setupRenderObject_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga24cbb50f1855d6c25c214a360db2648e">setupRenderObject_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga3a46ff446a508a1e4da51f1a85880461">setupRenderObject_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga0e1f5fb75ff002cd9cf560859663047e">setupRenderObject_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga3188b1f7d0a671ba6542d8d7e27174c1">setupRenderObject_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga0dd5047850175341789a02b8137f7f7b">setupRenderObject_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga204af2ade8b0b40f0c1233e4c7d2a625">setupRenderObject_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gab2817019fd4767a9959a629537d5eb3c">setupRenderObject_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga42db597cf6c86264265ae90f066d8b6b">setupRenderObject_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gab747a95226189b8c1e074510daa0bc78">setupRenderObject_</reimplementedby>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -1759,7 +1759,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="295" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" bodystart="295" bodyend="295"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1a2261b98d651c586e2bc62a2e1efb902a" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::VisualObject::setDirtyFlagsFast_</definition>
         <argsstring>(uint32_t mask)</argsstring>
         <name>setDirtyFlagsFast_</name>
@@ -1778,7 +1778,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="298" column="21"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1ac1c087e54a58af29aa241898f9ea3222" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::VisualObject::invalidateMetricsCache_</definition>
         <argsstring>(uint32_t mask)</argsstring>
         <name>invalidateMetricsCache_</name>
@@ -1796,7 +1796,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="299" column="21"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1a11c8d591aa72e021a946b58349b80bcf" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref> &amp;</type>
+        <type>MRMESH_API <ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref> &amp;</type>
         <definition>MRMESH_API ViewportMask &amp; MR::VisualObject::getVisualizePropertyMask_</definition>
         <argsstring>(AnyVisualizeMaskEnum type)</argsstring>
         <name>getVisualizePropertyMask_</name>
@@ -1814,35 +1814,35 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="325" column="29"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1aa7e5231f013c0e9e1b528c69759cc60d" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>virtual MRMESH_API void MR::VisualObject::serializeFields_</definition>
         <argsstring>(Json::Value &amp;root) const override</argsstring>
         <name>serializeFields_</name>
         <qualifiedname>MR::VisualObject::serializeFields_</qualifiedname>
         <reimplements refid="classMR_1_1Object_1a4b72f2310983a6e40753b5d919d72d35">serializeFields_</reimplements>
-        <reimplementedby refid="classMR_1_1AngleMeasurementObject_1a4b8623dc5463ca2d74dddd4de01243ad">serializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga4b8623dc5463ca2d74dddd4de01243ad">serializeFields_</reimplementedby>
         <reimplementedby refid="classMR_1_1CircleObject_1a2f2f75df180154bb0a2973c18a588e3f">serializeFields_</reimplementedby>
-        <reimplementedby refid="classMR_1_1ConeObject_1af6287a16f4c08d79fb7eabf432759e42">serializeFields_</reimplementedby>
-        <reimplementedby refid="classMR_1_1CylinderObject_1ab38f1a8dff6afd3547023c5162cab3ce">serializeFields_</reimplementedby>
-        <reimplementedby refid="classMR_1_1DistanceMeasurementObject_1a6a06fba3c75ed5593bee4cedd4c9d41c">serializeFields_</reimplementedby>
-        <reimplementedby refid="classMR_1_1FeatureObject_1accfacb42ebe37f4692a510c02fa02fca">serializeFields_</reimplementedby>
-        <reimplementedby refid="classMR_1_1LineObject_1a70dc397b963d30654e48c48ef0dbc910">serializeFields_</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectDistanceMap_1a1d68e848504ae3e593e550c51d0b1ddb">serializeFields_</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectGcode_1a79f589a038123b0475af33b9b0d43d2a">serializeFields_</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectImGuiLabel_1a37942a1ac8acb313c33f8b29ee289ae2">serializeFields_</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectLabel_1a4f32870205a547a67ffb38cd5b8f11ff">serializeFields_</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectLines_1ada9a662dc02f094a109afa99afda0e43">serializeFields_</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectLinesHolder_1ac53731d4425ec9404c558b238467c3fa">serializeFields_</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectMesh_1a03d1a17fadf84a8ad3ec4850334cef11">serializeFields_</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectMeshHolder_1a94d5dc0f646051e69cc9e5c89ad68f0d">serializeFields_</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectPoints_1a6e93d56966cf8c7d956767173ee17eae">serializeFields_</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectPointsHolder_1ae0b780196658ba9017ae41f3ab2dd195">serializeFields_</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectVoxels_1a8d05e0dff6ba746d6758554f24bf308b">serializeFields_</reimplementedby>
-        <reimplementedby refid="classMR_1_1PlaneObject_1a5758ae41f2198f2a1bbfb3004a14fd4d">serializeFields_</reimplementedby>
-        <reimplementedby refid="classMR_1_1PointMeasurementObject_1a8e666bd013d5313ea6db2ff4997e2f25">serializeFields_</reimplementedby>
-        <reimplementedby refid="classMR_1_1PointObject_1aeb16ff07a3bf800cb981d3d78a999a0d">serializeFields_</reimplementedby>
-        <reimplementedby refid="classMR_1_1RadiusMeasurementObject_1ae8bbd998f229f7b6ee72635d8aeca1bb">serializeFields_</reimplementedby>
-        <reimplementedby refid="classMR_1_1SphereObject_1aad300c4270da25b21556235725b4b8c3">serializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaf6287a16f4c08d79fb7eabf432759e42">serializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gab38f1a8dff6afd3547023c5162cab3ce">serializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga6a06fba3c75ed5593bee4cedd4c9d41c">serializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaccfacb42ebe37f4692a510c02fa02fca">serializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga70dc397b963d30654e48c48ef0dbc910">serializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga1d68e848504ae3e593e550c51d0b1ddb">serializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga79f589a038123b0475af33b9b0d43d2a">serializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga37942a1ac8acb313c33f8b29ee289ae2">serializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga4f32870205a547a67ffb38cd5b8f11ff">serializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gada9a662dc02f094a109afa99afda0e43">serializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gac53731d4425ec9404c558b238467c3fa">serializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga03d1a17fadf84a8ad3ec4850334cef11">serializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga94d5dc0f646051e69cc9e5c89ad68f0d">serializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga6e93d56966cf8c7d956767173ee17eae">serializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gae0b780196658ba9017ae41f3ab2dd195">serializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga8d05e0dff6ba746d6758554f24bf308b">serializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga5758ae41f2198f2a1bbfb3004a14fd4d">serializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga8e666bd013d5313ea6db2ff4997e2f25">serializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaeb16ff07a3bf800cb981d3d78a999a0d">serializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gae8bbd998f229f7b6ee72635d8aeca1bb">serializeFields_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaad300c4270da25b21556235725b4b8c3">serializeFields_</reimplementedby>
         <param>
           <type>Json::Value &amp;</type>
           <declname>root</declname>
@@ -1859,7 +1859,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="327" column="29"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1a671160c49edeed239f1361b59bd68810" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::VisualObject::deserializeFields_</definition>
         <argsstring>(const Json::Value &amp;root) override</argsstring>
         <name>deserializeFields_</name>
@@ -1886,10 +1886,10 @@
         <argsstring>() const</argsstring>
         <name>computeBoundingBox_</name>
         <qualifiedname>MR::VisualObject::computeBoundingBox_</qualifiedname>
-        <reimplementedby refid="classMR_1_1ObjectLabel_1a8a2c844b058ff7ae2ae3ccfed86bb62f">computeBoundingBox_</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectLinesHolder_1a502ed4a3293b4e8466ef0eacaa0f8d9d">computeBoundingBox_</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectMeshHolder_1aa05cf4d24dd3776eba6722f5ba23423d">computeBoundingBox_</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectPointsHolder_1a6f85a9f56979c1853b75dcb8a1b3b94d">computeBoundingBox_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga8a2c844b058ff7ae2ae3ccfed86bb62f">computeBoundingBox_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga502ed4a3293b4e8466ef0eacaa0f8d9d">computeBoundingBox_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaa05cf4d24dd3776eba6722f5ba23423d">computeBoundingBox_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga6f85a9f56979c1853b75dcb8a1b3b94d">computeBoundingBox_</reimplementedby>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -1899,7 +1899,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="331" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" bodystart="331" bodyend="331"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1af81b9247c457c9dbd36d6bbe4c74b826" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::VisualObject::boundingBoxToInfoLines_</definition>
         <argsstring>(std::vector&lt; std::string &gt; &amp;res) const</argsstring>
         <name>boundingBoxToInfoLines_</name>
@@ -1918,19 +1918,19 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="334" column="21"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VisualObject_1a5ec593dbd42519c53e6ebe322386f9a6" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>virtual MRMESH_API void MR::VisualObject::setAllVisualizeProperties_</definition>
         <argsstring>(const AllVisualizeProperties &amp;properties, std::size_t &amp;pos)</argsstring>
         <name>setAllVisualizeProperties_</name>
         <qualifiedname>MR::VisualObject::setAllVisualizeProperties_</qualifiedname>
-        <reimplementedby refid="classMR_1_1AddVisualProperties_1a099d73dfec242eced929d4f4705c90fd">setAllVisualizeProperties_</reimplementedby>
-        <reimplementedby refid="classMR_1_1AddVisualProperties_1a099d73dfec242eced929d4f4705c90fd">setAllVisualizeProperties_</reimplementedby>
-        <reimplementedby refid="classMR_1_1AddVisualProperties_1a099d73dfec242eced929d4f4705c90fd">setAllVisualizeProperties_</reimplementedby>
-        <reimplementedby refid="classMR_1_1FeatureObject_1af250eb819d6902646ee5f5ea33d5b679">setAllVisualizeProperties_</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectLabel_1a76f0c50a2b27ed61e7e6033571be7250">setAllVisualizeProperties_</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectLinesHolder_1a8485f04d2b33612fd7c5f7cbfe96fb91">setAllVisualizeProperties_</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectMeshHolder_1a436b709dbbda06b658597f05236e0038">setAllVisualizeProperties_</reimplementedby>
-        <reimplementedby refid="classMR_1_1ObjectPointsHolder_1a596ddb7a672b67d1d610a62a1e28e55a">setAllVisualizeProperties_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga099d73dfec242eced929d4f4705c90fd">setAllVisualizeProperties_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga099d73dfec242eced929d4f4705c90fd">setAllVisualizeProperties_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga099d73dfec242eced929d4f4705c90fd">setAllVisualizeProperties_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1gaf250eb819d6902646ee5f5ea33d5b679">setAllVisualizeProperties_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga76f0c50a2b27ed61e7e6033571be7250">setAllVisualizeProperties_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga8485f04d2b33612fd7c5f7cbfe96fb91">setAllVisualizeProperties_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga436b709dbbda06b658597f05236e0038">setAllVisualizeProperties_</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga596ddb7a672b67d1d610a62a1e28e55a">setAllVisualizeProperties_</reimplementedby>
         <param>
           <type>const <ref refid="group__VisualObjectGroup_1ga1f6aeed936aa967b17cba0997d30ff7f" kindref="member">AllVisualizeProperties</ref> &amp;</type>
           <declname>properties</declname>

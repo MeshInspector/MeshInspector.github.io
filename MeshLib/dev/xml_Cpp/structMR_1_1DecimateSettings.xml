@@ -260,7 +260,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="89" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="89" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DecimateSettings_1a5c38997b3f0df2d9e534bf87f530cdd7" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1ae4c04995449710309dc72ed533991d7f" kindref="member">UndirectedEdgeHashMap</ref> *</type>
+        <type>UndirectedEdgeHashMap *</type>
         <definition>UndirectedEdgeHashMap* MR::DecimateSettings::twinMap</definition>
         <argsstring></argsstring>
         <name>twinMap</name>
@@ -340,7 +340,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="110" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="110" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DecimateSettings_1a5901e72dc3fd85459f38318a894afbbd" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1a8ca6fbc7c349a31c3f0a68ce8f513265" kindref="member">PreCollapseCallback</ref></type>
+        <type>PreCollapseCallback</type>
         <definition>PreCollapseCallback MR::DecimateSettings::preCollapse</definition>
         <argsstring></argsstring>
         <name>preCollapse</name>
@@ -419,7 +419,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="142" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="142" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DecimateSettings_1aa54526c521844dcca8dc5aa91e3628de" prot="public" static="no" mutable="no">
-        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+        <type>ProgressCallback</type>
         <definition>ProgressCallback MR::DecimateSettings::progressCallback</definition>
         <argsstring></argsstring>
         <name>progressCallback</name>

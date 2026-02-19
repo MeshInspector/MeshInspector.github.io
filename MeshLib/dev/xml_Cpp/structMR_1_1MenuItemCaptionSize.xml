@@ -4,44 +4,17 @@
     <compoundname>MR::MenuItemCaptionSize</compoundname>
     <includes refid="MRRibbonSchema_8h" local="no">MRRibbonSchema.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1MenuItemCaptionSize_1aa2ee9d954b2e6fafdc20ad74c59602db" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::MenuItemCaptionSize::baseSize</definition>
-        <argsstring></argsstring>
-        <name>baseSize</name>
-        <qualifiedname>MR::MenuItemCaptionSize::baseSize</qualifiedname>
-        <initializer>{ 0.0f }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="20" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" bodystart="20" bodyend="20"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MenuItemCaptionSize_1a6c9273ccf3e41bf654cf3667bc985c0e" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1a0f8705ceb9b9ea512c947c5bdbcd3b5e" kindref="member">SplitCaptionInfo</ref></type>
-        <definition>SplitCaptionInfo MR::MenuItemCaptionSize::splitInfo</definition>
-        <argsstring></argsstring>
-        <name>splitInfo</name>
-        <qualifiedname>MR::MenuItemCaptionSize::splitInfo</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="21" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" bodystart="21" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaa2ee9d954b2e6fafdc20ad74c59602db" kind="variable"><name>baseSize</name></member>
+      <member refid="group__GeneralGroup_1ga6c9273ccf3e41bf654cf3667bc985c0e" kind="variable"><name>splitInfo</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" bodystart="19" bodyend="22"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="21" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" bodystart="22" bodyend="25"/>
     <listofallmembers>
-      <member refid="structMR_1_1MenuItemCaptionSize_1aa2ee9d954b2e6fafdc20ad74c59602db" prot="public" virt="non-virtual"><scope>MR::MenuItemCaptionSize</scope><name>baseSize</name></member>
-      <member refid="structMR_1_1MenuItemCaptionSize_1a6c9273ccf3e41bf654cf3667bc985c0e" prot="public" virt="non-virtual"><scope>MR::MenuItemCaptionSize</scope><name>splitInfo</name></member>
+      <member refid="group__GeneralGroup_1gaa2ee9d954b2e6fafdc20ad74c59602db" prot="public" virt="non-virtual"><scope>MR::MenuItemCaptionSize</scope><name>baseSize</name></member>
+      <member refid="group__GeneralGroup_1ga6c9273ccf3e41bf654cf3667bc985c0e" prot="public" virt="non-virtual"><scope>MR::MenuItemCaptionSize</scope><name>splitInfo</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -2,151 +2,107 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="MRTiffIO_8h" kind="file" language="C++">
     <compoundname>MRTiffIO.h</compoundname>
-    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
+    <includes local="yes">MRMeshFwd.h</includes>
     <includes refid="MRExpected_8h" local="yes">MRExpected.h</includes>
     <includes refid="MRVector2_8h" local="yes">MRVector2.h</includes>
     <includes local="no">filesystem</includes>
     <includes local="no">string</includes>
     <incdepgraph>
-      <node id="4">
-        <label>MRMesh/MRCanonicalTypedefs.h</label>
-        <link refid="MRCanonicalTypedefs_8h"/>
-        <childnode refid="5" relation="include">
-        </childnode>
-      </node>
-      <node id="13">
+      <node id="3">
         <label>MRExpected.h</label>
         <link refid="MRExpected_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-      </node>
-      <node id="5">
-        <label>MRMesh/MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
-      </node>
-      <node id="2">
-        <label>MRMeshFwd.h</label>
-        <link refid="MRMeshFwd_8h"/>
-        <childnode refid="3" relation="include">
-        </childnode>
         <childnode refid="4" relation="include">
         </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
+      </node>
+      <node id="8">
+        <label>MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
       </node>
       <node id="1">
         <label>MRTiffIO.h</label>
         <link refid="MRTiffIO_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="24" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-      </node>
-      <node id="16">
-        <label>MRMesh/MRUnsigned.h</label>
-        <link refid="MRUnsigned_8h"/>
         <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-      </node>
-      <node id="15">
-        <label>MRVector2.h</label>
-        <link refid="MRVector2_8h"/>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
-        <childnode refid="23" relation="include">
-        </childnode>
-      </node>
-      <node id="3">
-        <label>config.h</label>
-        <link refid="MRMesh_2config_8h"/>
-      </node>
-      <node id="6">
-        <label>MRPch/MRBindingMacros.h</label>
-      </node>
-      <node id="14">
-        <label>MRPch/MRExpected.h</label>
-      </node>
-      <node id="19">
-        <label>algorithm</label>
-      </node>
-      <node id="7">
-        <label>array</label>
-      </node>
-      <node id="12">
-        <label>cassert</label>
-      </node>
-      <node id="20">
-        <label>cmath</label>
-      </node>
-      <node id="17">
-        <label>cstddef</label>
-      </node>
-      <node id="21">
-        <label>cstring</label>
-      </node>
-      <node id="24">
-        <label>filesystem</label>
-      </node>
-      <node id="11">
-        <label>functional</label>
-      </node>
-      <node id="22">
-        <label>iosfwd</label>
-      </node>
-      <node id="10">
-        <label>parallel_hashmap/phmap_fwd_decl.h</label>
       </node>
       <node id="9">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MRVector2.h</label>
+        <link refid="MRVector2_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
+      </node>
+      <node id="4">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="5">
+        <label>MRPch/MRExpected.h</label>
+      </node>
+      <node id="12">
+        <label>algorithm</label>
+      </node>
+      <node id="13">
+        <label>cmath</label>
+      </node>
+      <node id="10">
+        <label>cstddef</label>
+      </node>
+      <node id="14">
+        <label>cstring</label>
+      </node>
+      <node id="17">
+        <label>filesystem</label>
+      </node>
+      <node id="15">
+        <label>iosfwd</label>
+      </node>
+      <node id="6">
         <label>string</label>
       </node>
-      <node id="18">
+      <node id="11">
         <label>type_traits</label>
       </node>
-      <node id="23">
+      <node id="16">
         <label>utility</label>
-      </node>
-      <node id="8">
-        <label>vector</label>
       </node>
     </incdepgraph>
     <innerclass refid="structMR_1_1BaseTiffParameters" prot="public">MR::BaseTiffParameters</innerclass>
@@ -160,7 +116,7 @@
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined(<sp/>__EMSCRIPTEN__)<sp/>&amp;&amp;<sp/>!defined(<sp/>MRMESH_NO_TIFF<sp/>)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRExpected_8h" kindref="compound">MRExpected.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVector2_8h" kindref="compound">MRVector2.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
@@ -170,78 +126,79 @@
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="11"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="structMR_1_1BaseTiffParameters" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1BaseTiffParameters" kindref="compound">BaseTiffParameters</ref></highlight></codeline>
-<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="15" refid="structMR_1_1BaseTiffParameters_1aaf63d045d0a43afd72404a7a0d4f862f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1BaseTiffParameters_1aaf63d045d0a43afd72404a7a0d4f862f" kindref="member">SampleType</ref></highlight></codeline>
-<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1BaseTiffParameters_1a5a3058ad1eccd44efa6030c506332e44" kindref="member">Unknown</ref>,</highlight></codeline>
-<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1BaseTiffParameters_1aaf63d045d0a43afd72404a7a0d4f862fafa28cf323a8d44edbf80f68165f4f75b" kindref="member">Uint</ref>,</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1BaseTiffParameters_1aaf63d045d0a43afd72404a7a0d4f862fa1686a6c336b71b36d77354cea19a8b52" kindref="member">Int</ref>,</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1BaseTiffParameters_1aaf63d045d0a43afd72404a7a0d4f862fa22ae0e2b89e5e3d477f988cc36d3272b" kindref="member">Float</ref></highlight></codeline>
-<codeline lineno="21" refid="structMR_1_1BaseTiffParameters_1a5a3058ad1eccd44efa6030c506332e44" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/>sampleType{<sp/><ref refid="structMR_1_1BaseTiffParameters_1aaf63d045d0a43afd72404a7a0d4f862fa88183b946cc5f0e8c96b2e66e1c74a7e" kindref="member">SampleType::Unknown</ref><sp/>};</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23" refid="structMR_1_1BaseTiffParameters_1a29407caa933d6665768b37358d7733e0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1BaseTiffParameters_1a29407caa933d6665768b37358d7733e0" kindref="member">ValueType</ref></highlight></codeline>
-<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1BaseTiffParameters_1a5a3058ad1eccd44efa6030c506332e44" kindref="member">Unknown</ref>,</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1BaseTiffParameters_1a29407caa933d6665768b37358d7733e0af60357a8d17e45793298323f1b372a74" kindref="member">Scalar</ref>,</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1BaseTiffParameters_1a29407caa933d6665768b37358d7733e0a889574aebacda6bfd3e534e2b49b8028" kindref="member">RGB</ref>,</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1BaseTiffParameters_1a29407caa933d6665768b37358d7733e0aea3495a278957dc58165e48a8945469f" kindref="member">RGBA</ref>,</highlight></codeline>
-<codeline lineno="29" refid="structMR_1_1BaseTiffParameters_1adc1dce84dde29a56c33ce9d8fd1e0d8d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/>valueType{<sp/><ref refid="structMR_1_1BaseTiffParameters_1a29407caa933d6665768b37358d7733e0a88183b946cc5f0e8c96b2e66e1c74a7e" kindref="member">ValueType::Unknown</ref><sp/>};</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32" refid="structMR_1_1BaseTiffParameters_1a3ff0d181f2553f8714d635e264f383c7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1BaseTiffParameters_1a3ff0d181f2553f8714d635e264f383c7" kindref="member">bytesPerSample</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="structMR_1_1BaseTiffParameters" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1BaseTiffParameters" kindref="compound">BaseTiffParameters</ref></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18" refid="group__GeneralGroup_1gaaf63d045d0a43afd72404a7a0d4f862f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaaf63d045d0a43afd72404a7a0d4f862f" kindref="member">SampleType</ref></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga5a3058ad1eccd44efa6030c506332e44" kindref="member">Unknown</ref>,</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaaf63d045d0a43afd72404a7a0d4f862fafa28cf323a8d44edbf80f68165f4f75b" kindref="member">Uint</ref>,</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaaf63d045d0a43afd72404a7a0d4f862fa1686a6c336b71b36d77354cea19a8b52" kindref="member">Int</ref>,</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggaaf63d045d0a43afd72404a7a0d4f862fa22ae0e2b89e5e3d477f988cc36d3272b" kindref="member">Float</ref></highlight></codeline>
+<codeline lineno="24" refid="group__GeneralGroup_1ga5a3058ad1eccd44efa6030c506332e44" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/>sampleType{<sp/><ref refid="group__GeneralGroup_1ggaaf63d045d0a43afd72404a7a0d4f862fa88183b946cc5f0e8c96b2e66e1c74a7e" kindref="member">SampleType::Unknown</ref><sp/>};</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="group__GeneralGroup_1ga29407caa933d6665768b37358d7733e0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga29407caa933d6665768b37358d7733e0" kindref="member">ValueType</ref></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga5a3058ad1eccd44efa6030c506332e44" kindref="member">Unknown</ref>,</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga29407caa933d6665768b37358d7733e0af60357a8d17e45793298323f1b372a74" kindref="member">Scalar</ref>,</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga29407caa933d6665768b37358d7733e0a889574aebacda6bfd3e534e2b49b8028" kindref="member">RGB</ref>,</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga29407caa933d6665768b37358d7733e0aea3495a278957dc58165e48a8945469f" kindref="member">RGBA</ref>,</highlight></codeline>
+<codeline lineno="32" refid="group__GeneralGroup_1gadc1dce84dde29a56c33ce9d8fd1e0d8d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/>valueType{<sp/><ref refid="group__GeneralGroup_1gga29407caa933d6665768b37358d7733e0a88183b946cc5f0e8c96b2e66e1c74a7e" kindref="member">ValueType::Unknown</ref><sp/>};</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35" refid="structMR_1_1BaseTiffParameters_1accde4306e1b219c38e5ff1880b053701" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector2i<sp/><ref refid="structMR_1_1BaseTiffParameters_1accde4306e1b219c38e5ff1880b053701" kindref="member">imageSize</ref>;</highlight></codeline>
+<codeline lineno="35" refid="group__GeneralGroup_1ga3ff0d181f2553f8714d635e264f383c7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3ff0d181f2553f8714d635e264f383c7" kindref="member">bytesPerSample</ref><sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37" refid="structMR_1_1BaseTiffParameters_1a5ed2f87a9ee82e003bd56c8fe6c05185" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1BaseTiffParameters_1a5ed2f87a9ee82e003bd56c8fe6c05185" kindref="member">operator==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1BaseTiffParameters" kindref="compound">BaseTiffParameters</ref>&amp;<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="38"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="38" refid="group__GeneralGroup_1gaccde4306e1b219c38e5ff1880b053701" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector2i<sp/><ref refid="group__GeneralGroup_1gaccde4306e1b219c38e5ff1880b053701" kindref="member">imageSize</ref>;</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="40" refid="structMR_1_1TiffParameters" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1TiffParameters" kindref="compound">TiffParameters</ref><sp/>:<sp/><ref refid="structMR_1_1BaseTiffParameters" kindref="compound">BaseTiffParameters</ref></highlight></codeline>
-<codeline lineno="41"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="43" refid="structMR_1_1TiffParameters_1af83e01315d14765d77386039af6d8687" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TiffParameters_1af83e01315d14765d77386039af6d8687" kindref="member">tiled</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="44" refid="structMR_1_1TiffParameters_1a0f390427adc09ea9947004b14be21cf0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector2i<sp/><ref refid="structMR_1_1TiffParameters_1a0f390427adc09ea9947004b14be21cf0" kindref="member">tileSize</ref>;</highlight></codeline>
-<codeline lineno="45" refid="structMR_1_1TiffParameters_1a7e4daa97486cdcdbe24a7e3a607ae1ab" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TiffParameters_1a7e4daa97486cdcdbe24a7e3a607ae1ab" kindref="member">layers</ref><sp/>=<sp/>1;</highlight></codeline>
-<codeline lineno="47" refid="structMR_1_1TiffParameters_1ad64f46697aae94f7b2569134b2cbd954" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TiffParameters_1ad64f46697aae94f7b2569134b2cbd954" kindref="member">depth</ref><sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="49" refid="structMR_1_1TiffParameters_1a67cf9b6f020900773f185c934f3ade7c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TiffParameters_1a67cf9b6f020900773f185c934f3ade7c" kindref="member">operator==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TiffParameters" kindref="compound">TiffParameters</ref>&amp;<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="50"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="40" refid="group__GeneralGroup_1ga5ed2f87a9ee82e003bd56c8fe6c05185" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5ed2f87a9ee82e003bd56c8fe6c05185" kindref="member">operator==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1BaseTiffParameters" kindref="compound">BaseTiffParameters</ref>&amp;<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="structMR_1_1TiffParameters" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1TiffParameters" kindref="compound">TiffParameters</ref><sp/>:<sp/><ref refid="structMR_1_1BaseTiffParameters" kindref="compound">BaseTiffParameters</ref></highlight></codeline>
+<codeline lineno="44"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="46" refid="group__GeneralGroup_1gaf83e01315d14765d77386039af6d8687" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf83e01315d14765d77386039af6d8687" kindref="member">tiled</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="47" refid="group__GeneralGroup_1ga0f390427adc09ea9947004b14be21cf0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector2i<sp/><ref refid="group__GeneralGroup_1ga0f390427adc09ea9947004b14be21cf0" kindref="member">tileSize</ref>;</highlight></codeline>
+<codeline lineno="48" refid="group__GeneralGroup_1ga7e4daa97486cdcdbe24a7e3a607ae1ab" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7e4daa97486cdcdbe24a7e3a607ae1ab" kindref="member">layers</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="50" refid="group__GeneralGroup_1gad64f46697aae94f7b2569134b2cbd954" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad64f46697aae94f7b2569134b2cbd954" kindref="member">depth</ref><sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53" refid="namespaceMR_1a30561e9335c9081843e4c982a0553366" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a30561e9335c9081843e4c982a0553366" kindref="member">isTIFFFile</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>path<sp/>);</highlight></codeline>
+<codeline lineno="52" refid="group__GeneralGroup_1ga67cf9b6f020900773f185c934f3ade7c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga67cf9b6f020900773f185c934f3ade7c" kindref="member">operator==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TiffParameters" kindref="compound">TiffParameters</ref>&amp;<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="54"><highlight class="normal"></highlight></codeline>
-<codeline lineno="56" refid="namespaceMR_1a7c49de97d655fd498b5741311c3c1bcf" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;TiffParameters&gt;</ref><sp/><ref refid="namespaceMR_1a7c49de97d655fd498b5741311c3c1bcf" kindref="member">readTiffParameters</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>path<sp/>);</highlight></codeline>
+<codeline lineno="56" refid="group__GeneralGroup_1ga30561e9335c9081843e4c982a0553366" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga30561e9335c9081843e4c982a0553366" kindref="member">isTIFFFile</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>path<sp/>);</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="58" refid="structMR_1_1RawTiffOutput" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1RawTiffOutput" kindref="compound">RawTiffOutput</ref></highlight></codeline>
-<codeline lineno="59"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="61" refid="structMR_1_1RawTiffOutput_1a0246df3ced8b0fffb290eb2abf95bb96" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t*<sp/><ref refid="structMR_1_1RawTiffOutput_1a0246df3ced8b0fffb290eb2abf95bb96" kindref="member">bytes</ref>{<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>};</highlight></codeline>
-<codeline lineno="63" refid="structMR_1_1RawTiffOutput_1aee37c2713f2e293aaf18d6ff35a3ef2f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1RawTiffOutput_1aee37c2713f2e293aaf18d6ff35a3ef2f" kindref="member">size</ref>{<sp/>0<sp/>};</highlight></codeline>
-<codeline lineno="65" refid="structMR_1_1RawTiffOutput_1a4a46a4e341d9607035dd3b8e7f94b350" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1TiffParameters" kindref="compound">TiffParameters</ref>*<sp/><ref refid="structMR_1_1RawTiffOutput_1a4a46a4e341d9607035dd3b8e7f94b350" kindref="member">params</ref>{<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>};</highlight></codeline>
-<codeline lineno="67" refid="structMR_1_1RawTiffOutput_1a56a198effd90991eb70ce8c6707711dc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>AffineXf3f*<sp/><ref refid="structMR_1_1RawTiffOutput_1a56a198effd90991eb70ce8c6707711dc" kindref="member">p2wXf</ref>{<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>};</highlight></codeline>
-<codeline lineno="69" refid="structMR_1_1RawTiffOutput_1a678bc6694cc6bc3d60c264d18d97e243" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1RawTiffOutput_1a678bc6694cc6bc3d60c264d18d97e243" kindref="member">convertToFloat</ref>{<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>};</highlight></codeline>
-<codeline lineno="71" refid="structMR_1_1RawTiffOutput_1a274e87eb13cf3064d528d5799b534c2d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/><ref refid="structMR_1_1RawTiffOutput_1a274e87eb13cf3064d528d5799b534c2d" kindref="member">min</ref>{<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>};</highlight></codeline>
-<codeline lineno="72" refid="structMR_1_1RawTiffOutput_1ab63212231c28e54f0070c1283711a98a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/><ref refid="structMR_1_1RawTiffOutput_1ab63212231c28e54f0070c1283711a98a" kindref="member">max</ref>{<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>};</highlight></codeline>
-<codeline lineno="73"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="74"><highlight class="normal"></highlight></codeline>
-<codeline lineno="76" refid="namespaceMR_1a16911b1d8c2b28200b6a2cb7d97f4bf8" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="namespaceMR_1a16911b1d8c2b28200b6a2cb7d97f4bf8" kindref="member">readRawTiff</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>path,<sp/><ref refid="structMR_1_1RawTiffOutput" kindref="compound">RawTiffOutput</ref>&amp;<sp/>output<sp/>);</highlight></codeline>
+<codeline lineno="59" refid="group__GeneralGroup_1ga7c49de97d655fd498b5741311c3c1bcf" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;TiffParameters&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga7c49de97d655fd498b5741311c3c1bcf" kindref="member">readTiffParameters</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>path<sp/>);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="structMR_1_1RawTiffOutput" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1RawTiffOutput" kindref="compound">RawTiffOutput</ref></highlight></codeline>
+<codeline lineno="62"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="64" refid="group__GeneralGroup_1ga0246df3ced8b0fffb290eb2abf95bb96" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t*<sp/><ref refid="group__GeneralGroup_1ga0246df3ced8b0fffb290eb2abf95bb96" kindref="member">bytes</ref>{<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>};</highlight></codeline>
+<codeline lineno="66" refid="group__GeneralGroup_1gaee37c2713f2e293aaf18d6ff35a3ef2f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaee37c2713f2e293aaf18d6ff35a3ef2f" kindref="member">size</ref>{<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="68" refid="group__GeneralGroup_1ga4a46a4e341d9607035dd3b8e7f94b350" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1TiffParameters" kindref="compound">TiffParameters</ref>*<sp/><ref refid="group__GeneralGroup_1ga4a46a4e341d9607035dd3b8e7f94b350" kindref="member">params</ref>{<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>};</highlight></codeline>
+<codeline lineno="70" refid="group__GeneralGroup_1ga56a198effd90991eb70ce8c6707711dc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>AffineXf3f*<sp/><ref refid="group__GeneralGroup_1ga56a198effd90991eb70ce8c6707711dc" kindref="member">p2wXf</ref>{<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>};</highlight></codeline>
+<codeline lineno="72" refid="group__GeneralGroup_1ga678bc6694cc6bc3d60c264d18d97e243" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga678bc6694cc6bc3d60c264d18d97e243" kindref="member">convertToFloat</ref>{<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>};</highlight></codeline>
+<codeline lineno="74" refid="group__GeneralGroup_1ga274e87eb13cf3064d528d5799b534c2d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/><ref refid="group__GeneralGroup_1ga274e87eb13cf3064d528d5799b534c2d" kindref="member">min</ref>{<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>};</highlight></codeline>
+<codeline lineno="75" refid="group__GeneralGroup_1gab63212231c28e54f0070c1283711a98a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/><ref refid="group__GeneralGroup_1gab63212231c28e54f0070c1283711a98a" kindref="member">max</ref>{<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>};</highlight></codeline>
+<codeline lineno="76"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"></highlight></codeline>
-<codeline lineno="78" refid="structMR_1_1WriteRawTiffParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1WriteRawTiffParams" kindref="compound">WriteRawTiffParams</ref></highlight></codeline>
-<codeline lineno="79"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="80" refid="structMR_1_1WriteRawTiffParams_1ae3407cfb581b97a1d15af1dcda46f310" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1BaseTiffParameters" kindref="compound">BaseTiffParameters</ref><sp/><ref refid="structMR_1_1WriteRawTiffParams_1ae3407cfb581b97a1d15af1dcda46f310" kindref="member">baseParams</ref>;</highlight></codeline>
-<codeline lineno="82" refid="structMR_1_1WriteRawTiffParams_1aaed0d8c11f3aa7212b03821592cd28f0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f*<sp/><ref refid="structMR_1_1WriteRawTiffParams_1aaed0d8c11f3aa7212b03821592cd28f0" kindref="member">xf</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="84" refid="structMR_1_1WriteRawTiffParams_1a1317e078308acc1053202597ce0c7fc5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="structMR_1_1WriteRawTiffParams_1a1317e078308acc1053202597ce0c7fc5" kindref="member">noData</ref>;</highlight></codeline>
-<codeline lineno="85"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="86"><highlight class="normal"></highlight></codeline>
-<codeline lineno="88" refid="namespaceMR_1ac268df8c3099a020a757e22b3722ece2" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="namespaceMR_1ac268df8c3099a020a757e22b3722ece2" kindref="member">writeRawTiff</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t*<sp/>bytes,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>path,</highlight></codeline>
-<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1WriteRawTiffParams" kindref="compound">WriteRawTiffParams</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
-<codeline lineno="90"><highlight class="normal">[[deprecated(<sp/></highlight><highlight class="stringliteral">&quot;use<sp/>WriteRawTiffParams<sp/>version<sp/>instead&quot;</highlight><highlight class="normal"><sp/>)]]</highlight></codeline>
-<codeline lineno="91" refid="namespaceMR_1ae22fd2b15bcc1e528cb2eb3c7650d520" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="namespaceMR_1ac268df8c3099a020a757e22b3722ece2" kindref="member">writeRawTiff</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t*<sp/>bytes,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>path,</highlight></codeline>
-<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1BaseTiffParameters" kindref="compound">BaseTiffParameters</ref>&amp;<sp/>params,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f*<sp/>xf<sp/>)</highlight></codeline>
-<codeline lineno="93"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1ac268df8c3099a020a757e22b3722ece2" kindref="member">writeRawTiff</ref>(<sp/>bytes,<sp/>path,<sp/>{<sp/>.baseParams<sp/>=<sp/>params,<sp/>.xf<sp/>=<sp/>xf<sp/>}<sp/>);</highlight></codeline>
-<codeline lineno="95"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="96"><highlight class="normal"></highlight></codeline>
-<codeline lineno="97"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="98"><highlight class="normal"></highlight></codeline>
-<codeline lineno="99"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="79" refid="group__GeneralGroup_1ga16911b1d8c2b28200b6a2cb7d97f4bf8" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga16911b1d8c2b28200b6a2cb7d97f4bf8" kindref="member">readRawTiff</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>path,<sp/><ref refid="structMR_1_1RawTiffOutput" kindref="compound">RawTiffOutput</ref>&amp;<sp/>output<sp/>);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="structMR_1_1WriteRawTiffParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1WriteRawTiffParams" kindref="compound">WriteRawTiffParams</ref></highlight></codeline>
+<codeline lineno="82"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="83" refid="group__GeneralGroup_1gae3407cfb581b97a1d15af1dcda46f310" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1BaseTiffParameters" kindref="compound">BaseTiffParameters</ref><sp/><ref refid="group__GeneralGroup_1gae3407cfb581b97a1d15af1dcda46f310" kindref="member">baseParams</ref>;</highlight></codeline>
+<codeline lineno="85" refid="group__GeneralGroup_1gaaed0d8c11f3aa7212b03821592cd28f0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f*<sp/><ref refid="group__GeneralGroup_1gaaed0d8c11f3aa7212b03821592cd28f0" kindref="member">xf</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="87" refid="group__GeneralGroup_1ga1317e078308acc1053202597ce0c7fc5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga1317e078308acc1053202597ce0c7fc5" kindref="member">noData</ref>;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="group__GeneralGroup_1gac268df8c3099a020a757e22b3722ece2" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__GeneralGroup_1gac268df8c3099a020a757e22b3722ece2" kindref="member">writeRawTiff</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t*<sp/>bytes,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>path,</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1WriteRawTiffParams" kindref="compound">WriteRawTiffParams</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal">[[deprecated(<sp/></highlight><highlight class="stringliteral">&quot;use<sp/>WriteRawTiffParams<sp/>version<sp/>instead&quot;</highlight><highlight class="normal"><sp/>)]]</highlight></codeline>
+<codeline lineno="94" refid="group__GeneralGroup_1gae22fd2b15bcc1e528cb2eb3c7650d520" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__GeneralGroup_1gac268df8c3099a020a757e22b3722ece2" kindref="member">writeRawTiff</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t*<sp/>bytes,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>path,</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1BaseTiffParameters" kindref="compound">BaseTiffParameters</ref>&amp;<sp/>params,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f*<sp/>xf<sp/>)</highlight></codeline>
+<codeline lineno="96"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac268df8c3099a020a757e22b3722ece2" kindref="member">writeRawTiff</ref>(<sp/>bytes,<sp/>path,<sp/>{<sp/>.baseParams<sp/>=<sp/>params,<sp/>.xf<sp/>=<sp/>xf<sp/>}<sp/>);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h"/>
   </compounddef>

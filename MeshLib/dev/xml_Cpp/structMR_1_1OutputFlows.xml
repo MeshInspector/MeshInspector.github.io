@@ -4,64 +4,19 @@
     <compoundname>MR::OutputFlows</compoundname>
     <includes refid="MRAggregateFlow_8h" local="no">MRAggregateFlow.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1OutputFlows_1ab696447c7c75c2271af326e9df613cd7" prot="public" static="no" mutable="no">
-        <type>Polyline3 *</type>
-        <definition>Polyline3* MR::OutputFlows::pPolyline</definition>
-        <argsstring></argsstring>
-        <name>pPolyline</name>
-        <qualifiedname>MR::OutputFlows::pPolyline</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-<para>optional output: lines of all flows </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" line="22" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" bodystart="22" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1OutputFlows_1a72f9e10ced291a77b3b93815e416e700" prot="public" static="no" mutable="no">
-        <type>UndirectedEdgeScalars *</type>
-        <definition>UndirectedEdgeScalars* MR::OutputFlows::pFlowPerEdge</definition>
-        <argsstring></argsstring>
-        <name>pFlowPerEdge</name>
-        <qualifiedname>MR::OutputFlows::pFlowPerEdge</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-<para>optional output: flow in each line of outPolyline </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" line="24" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" bodystart="24" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1OutputFlows_1a269ce938dc53ce1c582db0ce91e12693" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::OutputFlows::amountGreaterThan</definition>
-        <argsstring></argsstring>
-        <name>amountGreaterThan</name>
-        <qualifiedname>MR::OutputFlows::amountGreaterThan</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-<para>output in outPolyline only the flows with the amount greater than </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" line="26" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" bodystart="26" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gab696447c7c75c2271af326e9df613cd7" kind="variable"><name>pPolyline</name></member>
+      <member refid="group__GeneralGroup_1ga72f9e10ced291a77b3b93815e416e700" kind="variable"><name>pFlowPerEdge</name></member>
+      <member refid="group__GeneralGroup_1ga269ce938dc53ce1c582db0ce91e12693" kind="variable"><name>amountGreaterThan</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" line="19" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" bodystart="20" bodyend="27"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" line="22" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" bodystart="23" bodyend="30"/>
     <listofallmembers>
-      <member refid="structMR_1_1OutputFlows_1a269ce938dc53ce1c582db0ce91e12693" prot="public" virt="non-virtual"><scope>MR::OutputFlows</scope><name>amountGreaterThan</name></member>
-      <member refid="structMR_1_1OutputFlows_1a72f9e10ced291a77b3b93815e416e700" prot="public" virt="non-virtual"><scope>MR::OutputFlows</scope><name>pFlowPerEdge</name></member>
-      <member refid="structMR_1_1OutputFlows_1ab696447c7c75c2271af326e9df613cd7" prot="public" virt="non-virtual"><scope>MR::OutputFlows</scope><name>pPolyline</name></member>
+      <member refid="group__GeneralGroup_1ga269ce938dc53ce1c582db0ce91e12693" prot="public" virt="non-virtual"><scope>MR::OutputFlows</scope><name>amountGreaterThan</name></member>
+      <member refid="group__GeneralGroup_1ga72f9e10ced291a77b3b93815e416e700" prot="public" virt="non-virtual"><scope>MR::OutputFlows</scope><name>pFlowPerEdge</name></member>
+      <member refid="group__GeneralGroup_1gab696447c7c75c2271af326e9df613cd7" prot="public" virt="non-virtual"><scope>MR::OutputFlows</scope><name>pPolyline</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

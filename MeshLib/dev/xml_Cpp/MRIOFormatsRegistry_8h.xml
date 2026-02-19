@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="MRIOFormatsRegistry_8h" kind="file" language="C++">
     <compoundname>MRIOFormatsRegistry.h</compoundname>
-    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
+    <includes local="yes">MRMeshFwd.h</includes>
     <includes refid="MRDistanceMap_8h" local="yes">MRDistanceMap.h</includes>
     <includes refid="MRExpected_8h" local="yes">MRExpected.h</includes>
     <includes refid="MRIOFilters_8h" local="yes">MRIOFilters.h</includes>
@@ -18,180 +18,174 @@
     <includedby refid="MRVoxelsLoad_8h" local="yes">MRVoxelsLoad.h</includedby>
     <includedby refid="MRVoxelsSave_8h" local="yes">MRVoxelsSave.h</includedby>
     <incdepgraph>
-      <node id="35">
+      <node id="30">
         <label>MRAffineXf.h</label>
         <link refid="MRAffineXf_8h"/>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-      </node>
-      <node id="31">
-        <label>MRAffineXf3.h</label>
-        <link refid="MRAffineXf3_8h"/>
-        <childnode refid="32" relation="include">
-        </childnode>
-        <childnode refid="35" relation="include">
-        </childnode>
-      </node>
-      <node id="25">
-        <label>MRBitSet.h</label>
-        <link refid="MRBitSet_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="24" relation="include">
-        </childnode>
-        <childnode refid="26" relation="include">
-        </childnode>
-        <childnode refid="27" relation="include">
-        </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
+        <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>MRAffineXf3.h</label>
+        <link refid="MRAffineXf3_8h"/>
+        <childnode refid="27" relation="include">
         </childnode>
         <childnode refid="30" relation="include">
         </childnode>
       </node>
-      <node id="38">
+      <node id="19">
+        <label>MRBitSet.h</label>
+        <link refid="MRBitSet_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="34">
         <label>MRBox.h</label>
         <link refid="MRBox_8h"/>
-        <childnode refid="5" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>MRColor.h</label>
+        <link refid="MRColor_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>MRConstants.h</label>
+        <link refid="MRConstants_8h"/>
+      </node>
+      <node id="3">
+        <label>MRDistanceMap.h</label>
+        <link refid="MRDistanceMap_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
         </childnode>
         <childnode refid="31" relation="include">
         </childnode>
         <childnode refid="39" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="47" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="48" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
-        <childnode refid="40" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-      </node>
-      <node id="4">
-        <label>MRMesh/MRCanonicalTypedefs.h</label>
-        <link refid="MRCanonicalTypedefs_8h"/>
-        <childnode refid="5" relation="include">
-        </childnode>
-      </node>
-      <node id="52">
-        <label>MRColor.h</label>
-        <link refid="MRColor_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="33" relation="include">
-        </childnode>
-        <childnode refid="53" relation="include">
-        </childnode>
-      </node>
-      <node id="34">
-        <label>MRConstants.h</label>
-        <link refid="MRConstants_8h"/>
-      </node>
-      <node id="13">
-        <label>MRDistanceMap.h</label>
-        <link refid="MRDistanceMap_8h"/>
-        <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="25" relation="include">
-        </childnode>
-        <childnode refid="31" relation="include">
-        </childnode>
-        <childnode refid="36" relation="include">
-        </childnode>
-        <childnode refid="42" relation="include">
-        </childnode>
-        <childnode refid="50" relation="include">
-        </childnode>
-        <childnode refid="51" relation="include">
+        <childnode refid="52" relation="include">
         </childnode>
         <childnode refid="55" relation="include">
         </childnode>
-        <childnode refid="57" relation="include">
+        <childnode refid="56" relation="include">
         </childnode>
-        <childnode refid="58" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="33" relation="include">
         </childnode>
       </node>
-      <node id="36">
+      <node id="31">
         <label>MRDistanceMapParams.h</label>
         <link refid="MRDistanceMapParams_8h"/>
-        <childnode refid="37" relation="include">
+        <childnode refid="32" relation="include">
         </childnode>
-        <childnode refid="25" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="31" relation="include">
+        <childnode refid="26" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
         </childnode>
         <childnode refid="38" relation="include">
         </childnode>
-        <childnode refid="41" relation="include">
-        </childnode>
       </node>
-      <node id="48">
+      <node id="45">
         <label>MREdgePoint.h</label>
         <link refid="MREdgePoint_8h"/>
-        <childnode refid="24" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="49" relation="include">
+        <childnode refid="46" relation="include">
         </childnode>
       </node>
-      <node id="54">
+      <node id="51">
         <label>MREnums.h</label>
         <link refid="MREnums_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
-      <node id="55">
+      <node id="52">
         <label>MRExpected.h</label>
         <link refid="MRExpected_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="56" relation="include">
+        <childnode refid="53" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="54" relation="include">
         </childnode>
       </node>
-      <node id="50">
+      <node id="47">
         <label>MRHeapBytes.h</label>
         <link refid="MRHeapBytes_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="33" relation="include">
         </childnode>
-        <childnode refid="45" relation="include">
+        <childnode refid="42" relation="include">
         </childnode>
       </node>
-      <node id="59">
+      <node id="57">
         <label>MRIOFilters.h</label>
         <link refid="MRIOFilters_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="60" relation="include">
+        <childnode refid="58" relation="include">
         </childnode>
-        <childnode refid="61" relation="include">
+        <childnode refid="59" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="54" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="33" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -199,129 +193,301 @@
         <link refid="MRIOFormatsRegistry_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="55" relation="include">
+        <childnode refid="52" relation="include">
         </childnode>
-        <childnode refid="59" relation="include">
+        <childnode refid="57" relation="include">
+        </childnode>
+        <childnode refid="60" relation="include">
         </childnode>
         <childnode refid="62" relation="include">
+        </childnode>
+        <childnode refid="63" relation="include">
         </childnode>
         <childnode refid="64" relation="include">
         </childnode>
         <childnode refid="65" relation="include">
         </childnode>
-        <childnode refid="66" relation="include">
-        </childnode>
         <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="68" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
         </childnode>
         <childnode refid="69" relation="include">
         </childnode>
-        <childnode refid="70" relation="include">
-        </childnode>
-        <childnode refid="58" relation="include">
-        </childnode>
-        <childnode refid="71" relation="include">
-        </childnode>
       </node>
-      <node id="24">
+      <node id="16">
         <label>MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="23" relation="include">
-        </childnode>
-      </node>
-      <node id="51">
-        <label>MRImage.h</label>
-        <link refid="MRImage_8h"/>
-        <childnode refid="52" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
-        <childnode refid="54" relation="include">
-        </childnode>
-        <childnode refid="50" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-      </node>
-      <node id="47">
-        <label>MRLineSegm.h</label>
-        <link refid="MRLineSegm_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
-      </node>
-      <node id="64">
-        <label>MRLinesLoadSettings.h</label>
-        <link refid="MRLinesLoadSettings_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="63" relation="include">
-        </childnode>
-      </node>
-      <node id="70">
-        <label>MRLoadedObjects.h</label>
-        <link refid="MRLoadedObjects_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="68" relation="include">
-        </childnode>
-        <childnode refid="45" relation="include">
-        </childnode>
-        <childnode refid="61" relation="include">
-        </childnode>
-      </node>
-      <node id="5">
-        <label>MRMesh/MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
-      </node>
-      <node id="37">
-        <label>MRMatrix.h</label>
-        <link refid="MRMatrix_8h"/>
-        <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-      </node>
-      <node id="32">
-        <label>MRMatrix3.h</label>
-        <link refid="MRMatrix3_8h"/>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="33" relation="include">
-        </childnode>
-        <childnode refid="34" relation="include">
-        </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
-      </node>
-      <node id="2">
-        <label>MRMeshFwd.h</label>
-        <link refid="MRMeshFwd_8h"/>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="48">
+        <label>MRImage.h</label>
+        <link refid="MRImage_8h"/>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>MRLineSegm.h</label>
+        <link refid="MRLineSegm_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="62">
+        <label>MRLinesLoadSettings.h</label>
+        <link refid="MRLinesLoadSettings_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+      </node>
+      <node id="68">
+        <label>MRLoadedObjects.h</label>
+        <link refid="MRLoadedObjects_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="59" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="32">
+        <label>MRMatrix.h</label>
+        <link refid="MRMatrix_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>MRMatrix3.h</label>
+        <link refid="MRMatrix3_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="60">
+        <label>MRMeshLoadSettings.h</label>
+        <link refid="MRMeshLoadSettings_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="59" relation="include">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>MRMeshPart.h</label>
+        <link refid="MRMeshPart_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="67">
+        <label>MRObjectSaveSettings.h</label>
+        <link refid="MRObjectSaveSettings_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="59" relation="include">
+        </childnode>
+      </node>
+      <node id="63">
+        <label>MROnInit.h</label>
+        <link refid="MROnInit_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>MRPlane3.h</label>
+        <link refid="MRPlane3_8h"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="64">
+        <label>MRPointsLoadSettings.h</label>
+        <link refid="MRPointsLoadSettings_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>MRPolyline.h</label>
+        <link refid="MRPolyline_8h"/>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>MRPolylineTopology.h</label>
+        <link refid="MRPolylineTopology_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="61">
+        <label>MRProgressCallback.h</label>
+        <link refid="MRProgressCallback_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRRectIndexer.h</label>
+        <link refid="MRRectIndexer_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>MRResizeNoInit.h</label>
+        <link refid="MRResizeNoInit_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="65">
+        <label>MRSaveSettings.h</label>
+        <link refid="MRSaveSettings_8h"/>
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="59" relation="include">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>MRSegmPoint.h</label>
+        <link refid="MRSegmPoint_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>MRSharedThreadSafeOwner.h</label>
+        <link refid="MRSharedThreadSafeOwner_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+      </node>
+      <node id="66">
+        <label>MRUnitInfo.h</label>
+        <link refid="MRUnitInfo_8h"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="59" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>MRVector.h</label>
+        <link refid="MRVector_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRVector2.h</label>
+        <link refid="MRVector2_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
@@ -329,334 +495,139 @@
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
-      </node>
-      <node id="62">
-        <label>MRMeshLoadSettings.h</label>
-        <link refid="MRMeshLoadSettings_8h"/>
-        <childnode refid="2" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="63" relation="include">
-        </childnode>
-        <childnode refid="61" relation="include">
-        </childnode>
-      </node>
-      <node id="41">
-        <label>MRMeshPart.h</label>
-        <link refid="MRMeshPart_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-      </node>
-      <node id="69">
-        <label>MRObjectSaveSettings.h</label>
-        <link refid="MRObjectSaveSettings_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="68" relation="include">
-        </childnode>
-        <childnode refid="61" relation="include">
-        </childnode>
-      </node>
-      <node id="65">
-        <label>MROnInit.h</label>
-        <link refid="MROnInit_8h"/>
-        <childnode refid="5" relation="include">
-        </childnode>
-      </node>
-      <node id="46">
-        <label>MRPlane3.h</label>
-        <link refid="MRPlane3_8h"/>
-        <childnode refid="33" relation="include">
-        </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
-      </node>
-      <node id="66">
-        <label>MRPointsLoadSettings.h</label>
-        <link refid="MRPointsLoadSettings_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-      </node>
-      <node id="42">
-        <label>MRPolyline.h</label>
-        <link refid="MRPolyline_8h"/>
-        <childnode refid="43" relation="include">
-        </childnode>
-        <childnode refid="44" relation="include">
-        </childnode>
-        <childnode refid="46" relation="include">
-        </childnode>
-        <childnode refid="47" relation="include">
-        </childnode>
-        <childnode refid="48" relation="include">
-        </childnode>
-      </node>
-      <node id="43">
-        <label>MRPolylineTopology.h</label>
-        <link refid="MRPolylineTopology_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="27" relation="include">
-        </childnode>
-        <childnode refid="24" relation="include">
-        </childnode>
-        <childnode refid="25" relation="include">
-        </childnode>
-      </node>
-      <node id="63">
-        <label>MRProgressCallback.h</label>
-        <link refid="MRProgressCallback_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
-      </node>
-      <node id="14">
-        <label>MRRectIndexer.h</label>
-        <link refid="MRRectIndexer_8h"/>
-        <childnode refid="2" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="24" relation="include">
+      </node>
+      <node id="28">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-      </node>
-      <node id="28">
-        <label>MRResizeNoInit.h</label>
-        <link refid="MRResizeNoInit_8h"/>
         <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="29" relation="include">
         </childnode>
-      </node>
-      <node id="67">
-        <label>MRSaveSettings.h</label>
-        <link refid="MRSaveSettings_8h"/>
-        <childnode refid="63" relation="include">
-        </childnode>
-        <childnode refid="31" relation="include">
-        </childnode>
-        <childnode refid="24" relation="include">
-        </childnode>
-        <childnode refid="27" relation="include">
-        </childnode>
-        <childnode refid="68" relation="include">
-        </childnode>
-        <childnode refid="52" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="61" relation="include">
-        </childnode>
-      </node>
-      <node id="49">
-        <label>MRSegmPoint.h</label>
-        <link refid="MRSegmPoint_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="40" relation="include">
-        </childnode>
-      </node>
-      <node id="44">
-        <label>MRSharedThreadSafeOwner.h</label>
-        <link refid="MRSharedThreadSafeOwner_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="45" relation="include">
-        </childnode>
-      </node>
-      <node id="68">
-        <label>MRUnitInfo.h</label>
-        <link refid="MRUnitInfo_8h"/>
-        <childnode refid="39" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
         <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="61" relation="include">
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
         </childnode>
       </node>
-      <node id="16">
-        <label>MRMesh/MRUnsigned.h</label>
-        <link refid="MRUnsigned_8h"/>
-        <childnode refid="17" relation="include">
+      <node id="50">
+        <label>MRVector4.h</label>
+        <link refid="MRVector4_8h"/>
+        <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
-      </node>
-      <node id="27">
-        <label>MRVector.h</label>
-        <link refid="MRVector_8h"/>
-        <childnode refid="5" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="2" relation="include">
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="28" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
       </node>
-      <node id="15">
-        <label>MRVector2.h</label>
-        <link refid="MRVector2_8h"/>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
-        <childnode refid="23" relation="include">
-        </childnode>
-      </node>
-      <node id="33">
-        <label>MRVector3.h</label>
-        <link refid="MRVector3_8h"/>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="34" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
-        <childnode refid="23" relation="include">
-        </childnode>
-      </node>
-      <node id="53">
-        <label>MRVector4.h</label>
-        <link refid="MRVector4_8h"/>
-        <childnode refid="20" relation="include">
-        </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="33" relation="include">
-        </childnode>
-      </node>
-      <node id="39">
+      <node id="35">
         <label>MRVectorTraits.h</label>
         <link refid="MRMesh_2MRVectorTraits_8h"/>
-        <childnode refid="2" relation="include">
+        <childnode refid="36" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
       </node>
-      <node id="3">
-        <label>config.h</label>
-        <link refid="MRMesh_2config_8h"/>
+      <node id="36">
+        <label>MRMesh/MRMeshFwd.h</label>
       </node>
-      <node id="6">
-        <label>MRPch/MRBindingMacros.h</label>
-      </node>
-      <node id="56">
-        <label>MRPch/MRExpected.h</label>
-      </node>
-      <node id="26">
-        <label>MRphmap.h</label>
-      </node>
-      <node id="19">
-        <label>algorithm</label>
-      </node>
-      <node id="7">
-        <label>array</label>
-      </node>
-      <node id="12">
-        <label>cassert</label>
-      </node>
-      <node id="57">
-        <label>cfloat</label>
-      </node>
-      <node id="20">
-        <label>cmath</label>
-      </node>
-      <node id="60">
-        <label>compare</label>
-      </node>
-      <node id="29">
-        <label>concepts</label>
-      </node>
-      <node id="17">
-        <label>cstddef</label>
-      </node>
-      <node id="21">
-        <label>cstring</label>
-      </node>
-      <node id="58">
-        <label>filesystem</label>
-      </node>
-      <node id="11">
-        <label>functional</label>
-      </node>
-      <node id="22">
-        <label>iosfwd</label>
-      </node>
-      <node id="30">
-        <label>iterator</label>
-      </node>
-      <node id="40">
-        <label>limits</label>
-      </node>
-      <node id="71">
-        <label>map</label>
-      </node>
-      <node id="45">
-        <label>memory</label>
-      </node>
-      <node id="61">
-        <label>optional</label>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
       </node>
       <node id="10">
-        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+        <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="9">
-        <label>string</label>
+      <node id="53">
+        <label>MRPch/MRExpected.h</label>
+      </node>
+      <node id="20">
+        <label>MRphmap.h</label>
+      </node>
+      <node id="11">
+        <label>algorithm</label>
       </node>
       <node id="18">
-        <label>type_traits</label>
+        <label>array</label>
+      </node>
+      <node id="17">
+        <label>cassert</label>
+      </node>
+      <node id="55">
+        <label>cfloat</label>
+      </node>
+      <node id="12">
+        <label>cmath</label>
+      </node>
+      <node id="58">
+        <label>compare</label>
       </node>
       <node id="23">
-        <label>utility</label>
+        <label>concepts</label>
       </node>
       <node id="8">
+        <label>cstddef</label>
+      </node>
+      <node id="13">
+        <label>cstring</label>
+      </node>
+      <node id="56">
+        <label>filesystem</label>
+      </node>
+      <node id="24">
+        <label>functional</label>
+      </node>
+      <node id="14">
+        <label>iosfwd</label>
+      </node>
+      <node id="25">
+        <label>iterator</label>
+      </node>
+      <node id="37">
+        <label>limits</label>
+      </node>
+      <node id="69">
+        <label>map</label>
+      </node>
+      <node id="42">
+        <label>memory</label>
+      </node>
+      <node id="59">
+        <label>optional</label>
+      </node>
+      <node id="54">
+        <label>string</label>
+      </node>
+      <node id="9">
+        <label>type_traits</label>
+      </node>
+      <node id="15">
+        <label>utility</label>
+      </node>
+      <node id="33">
         <label>vector</label>
       </node>
     </incdepgraph>
@@ -728,7 +699,7 @@ API_ATTR const IOFilters&amp; getFilters();</initializer>
       <memberdef kind="define" id="MRIOFormatsRegistry_8h_1ac0f6e00f19d26a3fb4eef786c3e46599" prot="public" static="no">
         <name>MR_FORMAT_REGISTRY_DECL</name>
         <param><defname>ProcName</defname></param>
-        <initializer><ref refid="MRIOFormatsRegistry_8h_1a5523f4a0eb6dd34454d8708545fa1463" kindref="member">MR_FORMAT_REGISTRY_EXTERNAL_DECL</ref>( <ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref>, ProcName )</initializer>
+        <initializer><ref refid="MRIOFormatsRegistry_8h_1a5523f4a0eb6dd34454d8708545fa1463" kindref="member">MR_FORMAT_REGISTRY_EXTERNAL_DECL</ref>( MRMESH_API, ProcName )</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -1070,7 +1041,7 @@ const IOFilters&amp; getFilters()                                               
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>MR_PARSING_FOR_ANY_BINDINGS</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRDistanceMap_8h" kindref="compound">MRDistanceMap.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRExpected_8h" kindref="compound">MRExpected.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
@@ -1115,7 +1086,7 @@ const IOFilters&amp; getFilters()                                               
 <codeline lineno="44"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="45"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__IOFiltersGroup_1ga6e5e24c14d4909fcad8aa5fab54d047b" kindref="member">IOFilters</ref><sp/><ref refid="namespaceMR_1aa6434e5b84b58ad6cdbaef2ab570f520" kindref="member">AllFilter</ref>;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__IOFiltersGroup_1ga6e5e24c14d4909fcad8aa5fab54d047b" kindref="member">IOFilters</ref><sp/><ref refid="namespaceMR_1aa6434e5b84b58ad6cdbaef2ab570f520" kindref="member">AllFilter</ref>;</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"></highlight></codeline>
 <codeline lineno="52"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>Processor&gt;</highlight></codeline>
 <codeline lineno="53" refid="classMR_1_1FormatRegistry" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1FormatRegistry" kindref="compound">FormatRegistry</ref></highlight></codeline>
@@ -1195,8 +1166,8 @@ const IOFilters&amp; getFilters()                                               
 <codeline lineno="132"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="133"><highlight class="normal"></highlight></codeline>
 <codeline lineno="137"><highlight class="normal"></highlight></codeline>
-<codeline lineno="138" refid="group__IOFormatsRegistryGroup_1gaf573976800f135f2ae1cc5430be86fb0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__IOFormatsRegistryGroup_1gaf573976800f135f2ae1cc5430be86fb0" kindref="member">MeshFileLoader</ref><sp/>=<sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;MR::Mesh&gt;</ref>(<sp/>*<sp/>)(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshLoadSettings" kindref="compound">MeshLoadSettings</ref>&amp;<sp/>);</highlight></codeline>
-<codeline lineno="139" refid="group__IOFormatsRegistryGroup_1ga485ea6956850ab0f801b945739a8a9d3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__IOFormatsRegistryGroup_1ga485ea6956850ab0f801b945739a8a9d3" kindref="member">MeshStreamLoader</ref><sp/>=<sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;MR::Mesh&gt;</ref>(<sp/>*<sp/>)(<sp/>std::istream&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshLoadSettings" kindref="compound">MeshLoadSettings</ref>&amp;<sp/>);</highlight></codeline>
+<codeline lineno="138" refid="group__IOFormatsRegistryGroup_1gaf573976800f135f2ae1cc5430be86fb0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__IOFormatsRegistryGroup_1gaf573976800f135f2ae1cc5430be86fb0" kindref="member">MeshFileLoader</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;MR::Mesh&gt;</ref>(<sp/>*<sp/>)(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshLoadSettings" kindref="compound">MeshLoadSettings</ref>&amp;<sp/>);</highlight></codeline>
+<codeline lineno="139" refid="group__IOFormatsRegistryGroup_1ga485ea6956850ab0f801b945739a8a9d3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__IOFormatsRegistryGroup_1ga485ea6956850ab0f801b945739a8a9d3" kindref="member">MeshStreamLoader</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;MR::Mesh&gt;</ref>(<sp/>*<sp/>)(<sp/>std::istream&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshLoadSettings" kindref="compound">MeshLoadSettings</ref>&amp;<sp/>);</highlight></codeline>
 <codeline lineno="140"><highlight class="normal"></highlight></codeline>
 <codeline lineno="141" refid="structMR_1_1MeshLoad_1_1MeshLoader" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1MeshLoad_1_1MeshLoader" kindref="compound">MeshLoader</ref></highlight></codeline>
 <codeline lineno="142"><highlight class="normal">{</highlight></codeline>
@@ -1219,8 +1190,8 @@ const IOFilters&amp; getFilters()                                               
 <codeline lineno="165"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">MeshSave</highlight></codeline>
 <codeline lineno="166"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="167"><highlight class="normal"></highlight></codeline>
-<codeline lineno="168" refid="namespaceMR_1_1MeshSave_1a44ae097f41a9722d0110ffb971ba7ce0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1MeshSave_1a44ae097f41a9722d0110ffb971ba7ce0" kindref="member">MeshFileSaver</ref><sp/>=<sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref>(<sp/>*<sp/>)(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref>&amp;<sp/>);</highlight></codeline>
-<codeline lineno="169" refid="namespaceMR_1_1MeshSave_1a7e16b086c414a0768e241ea5f21ca9b6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1MeshSave_1a7e16b086c414a0768e241ea5f21ca9b6" kindref="member">MeshStreamSaver</ref><sp/>=<sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref>(<sp/>*<sp/>)(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;,<sp/>std::ostream&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref>&amp;<sp/>);</highlight></codeline>
+<codeline lineno="168" refid="namespaceMR_1_1MeshSave_1a44ae097f41a9722d0110ffb971ba7ce0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1MeshSave_1a44ae097f41a9722d0110ffb971ba7ce0" kindref="member">MeshFileSaver</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref>(<sp/>*<sp/>)(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref>&amp;<sp/>);</highlight></codeline>
+<codeline lineno="169" refid="namespaceMR_1_1MeshSave_1a7e16b086c414a0768e241ea5f21ca9b6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1MeshSave_1a7e16b086c414a0768e241ea5f21ca9b6" kindref="member">MeshStreamSaver</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref>(<sp/>*<sp/>)(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;,<sp/>std::ostream&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref>&amp;<sp/>);</highlight></codeline>
 <codeline lineno="170"><highlight class="normal"></highlight></codeline>
 <codeline lineno="172" refid="structMR_1_1MeshSave_1_1MeshSaverCapabilities" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1MeshSave_1_1MeshSaverCapabilities" kindref="compound">MeshSaverCapabilities</ref></highlight></codeline>
 <codeline lineno="173"><highlight class="normal">{</highlight></codeline>
@@ -1249,8 +1220,8 @@ const IOFilters&amp; getFilters()                                               
 <codeline lineno="199"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">LinesLoad</highlight></codeline>
 <codeline lineno="200"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="201"><highlight class="normal"></highlight></codeline>
-<codeline lineno="202" refid="namespaceMR_1_1LinesLoad_1a90da90447771026ea69eb4b7e8a2c5af" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1LinesLoad_1a90da90447771026ea69eb4b7e8a2c5af" kindref="member">LinesFileLoader</ref><sp/>=<sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Polyline3&gt;</ref>(<sp/>*<sp/>)(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1LinesLoadSettings" kindref="compound">LinesLoadSettings</ref>&amp;<sp/>);</highlight></codeline>
-<codeline lineno="203" refid="namespaceMR_1_1LinesLoad_1a8ba03f82b986b90262ac83290496a441" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1LinesLoad_1a8ba03f82b986b90262ac83290496a441" kindref="member">LinesStreamLoader</ref><sp/>=<sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Polyline3&gt;</ref>(<sp/>*<sp/>)(<sp/>std::istream&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1LinesLoadSettings" kindref="compound">LinesLoadSettings</ref>&amp;<sp/>);</highlight></codeline>
+<codeline lineno="202" refid="namespaceMR_1_1LinesLoad_1a90da90447771026ea69eb4b7e8a2c5af" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1LinesLoad_1a90da90447771026ea69eb4b7e8a2c5af" kindref="member">LinesFileLoader</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Polyline3&gt;</ref>(<sp/>*<sp/>)(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1LinesLoadSettings" kindref="compound">LinesLoadSettings</ref>&amp;<sp/>);</highlight></codeline>
+<codeline lineno="203" refid="namespaceMR_1_1LinesLoad_1a8ba03f82b986b90262ac83290496a441" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1LinesLoad_1a8ba03f82b986b90262ac83290496a441" kindref="member">LinesStreamLoader</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Polyline3&gt;</ref>(<sp/>*<sp/>)(<sp/>std::istream&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1LinesLoadSettings" kindref="compound">LinesLoadSettings</ref>&amp;<sp/>);</highlight></codeline>
 <codeline lineno="204"><highlight class="normal"></highlight></codeline>
 <codeline lineno="205" refid="structMR_1_1LinesLoad_1_1LinesLoader" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1LinesLoad_1_1LinesLoader" kindref="compound">LinesLoader</ref></highlight></codeline>
 <codeline lineno="206"><highlight class="normal">{</highlight></codeline>
@@ -1271,8 +1242,8 @@ const IOFilters&amp; getFilters()                                               
 <codeline lineno="221" refid="namespaceMR_1_1LinesSave" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">LinesSave</highlight></codeline>
 <codeline lineno="222"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="223"><highlight class="normal"></highlight></codeline>
-<codeline lineno="224" refid="namespaceMR_1_1LinesSave_1af60c53a3373b70b68b166f03994a8894" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1LinesSave_1af60c53a3373b70b68b166f03994a8894" kindref="member">LinesFileSaver</ref><sp/>=<sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref>(<sp/>*<sp/>)(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline3&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref>&amp;<sp/>);</highlight></codeline>
-<codeline lineno="225" refid="namespaceMR_1_1LinesSave_1a268aa90e5a330542295cca4a34787a08" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1LinesSave_1a268aa90e5a330542295cca4a34787a08" kindref="member">LinesStreamSaver</ref><sp/>=<sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref>(<sp/>*<sp/>)(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline3&amp;,<sp/>std::ostream&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref>&amp;<sp/>);</highlight></codeline>
+<codeline lineno="224" refid="namespaceMR_1_1LinesSave_1af60c53a3373b70b68b166f03994a8894" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1LinesSave_1af60c53a3373b70b68b166f03994a8894" kindref="member">LinesFileSaver</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref>(<sp/>*<sp/>)(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline3&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref>&amp;<sp/>);</highlight></codeline>
+<codeline lineno="225" refid="namespaceMR_1_1LinesSave_1a268aa90e5a330542295cca4a34787a08" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1LinesSave_1a268aa90e5a330542295cca4a34787a08" kindref="member">LinesStreamSaver</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref>(<sp/>*<sp/>)(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline3&amp;,<sp/>std::ostream&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref>&amp;<sp/>);</highlight></codeline>
 <codeline lineno="226"><highlight class="normal"></highlight></codeline>
 <codeline lineno="227" refid="structMR_1_1LinesSave_1_1LinesSaver" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1LinesSave_1_1LinesSaver" kindref="compound">LinesSaver</ref></highlight></codeline>
 <codeline lineno="228"><highlight class="normal">{</highlight></codeline>
@@ -1293,8 +1264,8 @@ const IOFilters&amp; getFilters()                                               
 <codeline lineno="243"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">PointsLoad</highlight></codeline>
 <codeline lineno="244"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="245"><highlight class="normal"></highlight></codeline>
-<codeline lineno="246" refid="namespaceMR_1_1PointsLoad_1acaeabf1d4cced15a0961b626a6e9b868" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1PointsLoad_1acaeabf1d4cced15a0961b626a6e9b868" kindref="member">PointsFileLoader</ref><sp/>=<sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;PointCloud&gt;</ref>(<sp/>*<sp/>)(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref>&amp;<sp/>);</highlight></codeline>
-<codeline lineno="247" refid="namespaceMR_1_1PointsLoad_1a0f81139db68679c906d09ff033071478" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1PointsLoad_1a0f81139db68679c906d09ff033071478" kindref="member">PointsStreamLoader</ref><sp/>=<sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;PointCloud&gt;</ref>(<sp/>*<sp/>)(<sp/>std::istream&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref>&amp;<sp/>);</highlight></codeline>
+<codeline lineno="246" refid="namespaceMR_1_1PointsLoad_1acaeabf1d4cced15a0961b626a6e9b868" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1PointsLoad_1acaeabf1d4cced15a0961b626a6e9b868" kindref="member">PointsFileLoader</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;PointCloud&gt;</ref>(<sp/>*<sp/>)(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref>&amp;<sp/>);</highlight></codeline>
+<codeline lineno="247" refid="namespaceMR_1_1PointsLoad_1a0f81139db68679c906d09ff033071478" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1PointsLoad_1a0f81139db68679c906d09ff033071478" kindref="member">PointsStreamLoader</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;PointCloud&gt;</ref>(<sp/>*<sp/>)(<sp/>std::istream&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref>&amp;<sp/>);</highlight></codeline>
 <codeline lineno="248"><highlight class="normal"></highlight></codeline>
 <codeline lineno="249" refid="structMR_1_1PointsLoad_1_1PointsLoader" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1PointsLoad_1_1PointsLoader" kindref="compound">PointsLoader</ref></highlight></codeline>
 <codeline lineno="250"><highlight class="normal">{</highlight></codeline>
@@ -1312,8 +1283,8 @@ const IOFilters&amp; getFilters()                                               
 <codeline lineno="262"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">PointsSave</highlight></codeline>
 <codeline lineno="263"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="264"><highlight class="normal"></highlight></codeline>
-<codeline lineno="265" refid="namespaceMR_1_1PointsSave_1a356417aed0685b9e9741744f7b357eba" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1PointsSave_1a356417aed0685b9e9741744f7b357eba" kindref="member">PointsFileSaver</ref><sp/>=<sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref>(<sp/>*<sp/>)(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref>&amp;<sp/>);</highlight></codeline>
-<codeline lineno="266" refid="namespaceMR_1_1PointsSave_1a1c0d45a07ed1828ee0d1190c6ca69cab" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1PointsSave_1a1c0d45a07ed1828ee0d1190c6ca69cab" kindref="member">PointsStreamSaver</ref><sp/>=<sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref>(<sp/>*<sp/>)(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;,<sp/>std::ostream&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref>&amp;<sp/>);</highlight></codeline>
+<codeline lineno="265" refid="namespaceMR_1_1PointsSave_1a356417aed0685b9e9741744f7b357eba" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1PointsSave_1a356417aed0685b9e9741744f7b357eba" kindref="member">PointsFileSaver</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref>(<sp/>*<sp/>)(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref>&amp;<sp/>);</highlight></codeline>
+<codeline lineno="266" refid="namespaceMR_1_1PointsSave_1a1c0d45a07ed1828ee0d1190c6ca69cab" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1PointsSave_1a1c0d45a07ed1828ee0d1190c6ca69cab" kindref="member">PointsStreamSaver</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref>(<sp/>*<sp/>)(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;,<sp/>std::ostream&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref>&amp;<sp/>);</highlight></codeline>
 <codeline lineno="267"><highlight class="normal"></highlight></codeline>
 <codeline lineno="268" refid="structMR_1_1PointsSave_1_1PointsSaver" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1PointsSave_1_1PointsSaver" kindref="compound">PointsSaver</ref></highlight></codeline>
 <codeline lineno="269"><highlight class="normal">{</highlight></codeline>
@@ -1331,7 +1302,7 @@ const IOFilters&amp; getFilters()                                               
 <codeline lineno="281"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">ImageLoad</highlight></codeline>
 <codeline lineno="282"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="283"><highlight class="normal"></highlight></codeline>
-<codeline lineno="284" refid="namespaceMR_1_1ImageLoad_1a13d83aa7ec99dc7a9ae166be69ecac53" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1ImageLoad_1a13d83aa7ec99dc7a9ae166be69ecac53" kindref="member">ImageLoader</ref><sp/>=<sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Image&gt;</ref>(<sp/>*<sp/>)(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>);</highlight></codeline>
+<codeline lineno="284" refid="namespaceMR_1_1ImageLoad_1a13d83aa7ec99dc7a9ae166be69ecac53" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1ImageLoad_1a13d83aa7ec99dc7a9ae166be69ecac53" kindref="member">ImageLoader</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Image&gt;</ref>(<sp/>*<sp/>)(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>);</highlight></codeline>
 <codeline lineno="285"><highlight class="normal"></highlight></codeline>
 <codeline lineno="286"><highlight class="normal"><ref refid="MRIOFormatsRegistry_8h_1ac0f6e00f19d26a3fb4eef786c3e46599" kindref="member">MR_FORMAT_REGISTRY_DECL</ref>(<sp/><ref refid="namespaceMR_1_1ImageLoad_1a13d83aa7ec99dc7a9ae166be69ecac53" kindref="member">ImageLoader</ref><sp/>)</highlight></codeline>
 <codeline lineno="287"><highlight class="normal"></highlight></codeline>
@@ -1346,7 +1317,7 @@ const IOFilters&amp; getFilters()                                               
 <codeline lineno="296"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">ImageSave</highlight></codeline>
 <codeline lineno="297"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="298"><highlight class="normal"></highlight></codeline>
-<codeline lineno="299" refid="namespaceMR_1_1ImageSave_1af787ba09d658e9fdb5560be6d9d7f2eb" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1ImageSave_1af787ba09d658e9fdb5560be6d9d7f2eb" kindref="member">ImageSaver</ref><sp/>=<sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref>(<sp/>*<sp/>)(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Image" kindref="compound">Image</ref>&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>);</highlight></codeline>
+<codeline lineno="299" refid="namespaceMR_1_1ImageSave_1af787ba09d658e9fdb5560be6d9d7f2eb" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1ImageSave_1af787ba09d658e9fdb5560be6d9d7f2eb" kindref="member">ImageSaver</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref>(<sp/>*<sp/>)(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Image" kindref="compound">Image</ref>&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>);</highlight></codeline>
 <codeline lineno="300"><highlight class="normal"></highlight></codeline>
 <codeline lineno="301"><highlight class="normal"><ref refid="MRIOFormatsRegistry_8h_1ac0f6e00f19d26a3fb4eef786c3e46599" kindref="member">MR_FORMAT_REGISTRY_DECL</ref>(<sp/><ref refid="namespaceMR_1_1ImageSave_1af787ba09d658e9fdb5560be6d9d7f2eb" kindref="member">ImageSaver</ref><sp/>)</highlight></codeline>
 <codeline lineno="302"><highlight class="normal"></highlight></codeline>
@@ -1361,7 +1332,7 @@ const IOFilters&amp; getFilters()                                               
 <codeline lineno="311" refid="namespaceMR_1_1ObjectLoad" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">ObjectLoad</highlight></codeline>
 <codeline lineno="312"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="313"><highlight class="normal"></highlight></codeline>
-<codeline lineno="314" refid="namespaceMR_1_1ObjectLoad_1a19c3bb2545005ca4c70a6243f3fd7a21" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1ObjectLoad_1a19c3bb2545005ca4c70a6243f3fd7a21" kindref="member">ObjectLoader</ref><sp/>=<sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;LoadedObjects&gt;</ref>(<sp/>*<sp/>)(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref>&amp;<sp/>);</highlight></codeline>
+<codeline lineno="314" refid="namespaceMR_1_1ObjectLoad_1a19c3bb2545005ca4c70a6243f3fd7a21" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1ObjectLoad_1a19c3bb2545005ca4c70a6243f3fd7a21" kindref="member">ObjectLoader</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;LoadedObjects&gt;</ref>(<sp/>*<sp/>)(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ProgressCallback&amp;<sp/>);</highlight></codeline>
 <codeline lineno="315"><highlight class="normal"></highlight></codeline>
 <codeline lineno="316"><highlight class="normal"><ref refid="MRIOFormatsRegistry_8h_1ac0f6e00f19d26a3fb4eef786c3e46599" kindref="member">MR_FORMAT_REGISTRY_DECL</ref>(<sp/><ref refid="namespaceMR_1_1ObjectLoad_1a19c3bb2545005ca4c70a6243f3fd7a21" kindref="member">ObjectLoader</ref><sp/>)</highlight></codeline>
 <codeline lineno="317"><highlight class="normal"></highlight></codeline>
@@ -1373,7 +1344,7 @@ const IOFilters&amp; getFilters()                                               
 <codeline lineno="323" refid="namespaceMR_1_1ObjectSave" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">ObjectSave</highlight></codeline>
 <codeline lineno="324"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="325"><highlight class="normal"></highlight></codeline>
-<codeline lineno="326" refid="namespaceMR_1_1ObjectSave_1a04cd611d4176bd7db5a7ca47e17c8f91" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1ObjectSave_1a04cd611d4176bd7db5a7ca47e17c8f91" kindref="member">ObjectSaver</ref><sp/>=<sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref>(<sp/>*<sp/>)(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ObjectSave_1_1Settings" kindref="compound">Settings</ref>&amp;<sp/>);</highlight></codeline>
+<codeline lineno="326" refid="namespaceMR_1_1ObjectSave_1a04cd611d4176bd7db5a7ca47e17c8f91" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1ObjectSave_1a04cd611d4176bd7db5a7ca47e17c8f91" kindref="member">ObjectSaver</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref>(<sp/>*<sp/>)(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ObjectSave_1_1Settings" kindref="compound">Settings</ref>&amp;<sp/>);</highlight></codeline>
 <codeline lineno="327"><highlight class="normal"></highlight></codeline>
 <codeline lineno="328"><highlight class="normal"><ref refid="MRIOFormatsRegistry_8h_1ac0f6e00f19d26a3fb4eef786c3e46599" kindref="member">MR_FORMAT_REGISTRY_DECL</ref>(<sp/><ref refid="namespaceMR_1_1ObjectSave_1a04cd611d4176bd7db5a7ca47e17c8f91" kindref="member">ObjectSaver</ref><sp/>)</highlight></codeline>
 <codeline lineno="329"><highlight class="normal"></highlight></codeline>
@@ -1385,8 +1356,8 @@ const IOFilters&amp; getFilters()                                               
 <codeline lineno="335" refid="namespaceMR_1_1AsyncObjectLoad" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">AsyncObjectLoad</highlight></codeline>
 <codeline lineno="336"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="337"><highlight class="normal"></highlight></codeline>
-<codeline lineno="338" refid="namespaceMR_1_1AsyncObjectLoad_1a00566fda9bf4c9254ac5d2d9ffe7208d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1AsyncObjectLoad_1a00566fda9bf4c9254ac5d2d9ffe7208d" kindref="member">PostLoadCallback</ref><sp/>=<sp/>std::function&lt;void<sp/>(<sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;LoadedObjects&gt;</ref><sp/>)&gt;;</highlight></codeline>
-<codeline lineno="339" refid="namespaceMR_1_1AsyncObjectLoad_1a5be8803f8be8c57d2ec98589759c0507" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1AsyncObjectLoad_1a5be8803f8be8c57d2ec98589759c0507" kindref="member">ObjectLoader</ref><sp/>=<sp/>void(<sp/>*<sp/>)(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;,<sp/><ref refid="namespaceMR_1_1AsyncObjectLoad_1a00566fda9bf4c9254ac5d2d9ffe7208d" kindref="member">PostLoadCallback</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref>&amp;<sp/>);</highlight></codeline>
+<codeline lineno="338" refid="namespaceMR_1_1AsyncObjectLoad_1a00566fda9bf4c9254ac5d2d9ffe7208d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1AsyncObjectLoad_1a00566fda9bf4c9254ac5d2d9ffe7208d" kindref="member">PostLoadCallback</ref><sp/>=<sp/>std::function&lt;void<sp/>(<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;LoadedObjects&gt;</ref><sp/>)&gt;;</highlight></codeline>
+<codeline lineno="339" refid="namespaceMR_1_1AsyncObjectLoad_1a5be8803f8be8c57d2ec98589759c0507" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1AsyncObjectLoad_1a5be8803f8be8c57d2ec98589759c0507" kindref="member">ObjectLoader</ref><sp/>=<sp/>void(<sp/>*<sp/>)(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;,<sp/><ref refid="namespaceMR_1_1AsyncObjectLoad_1a00566fda9bf4c9254ac5d2d9ffe7208d" kindref="member">PostLoadCallback</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ProgressCallback&amp;<sp/>);</highlight></codeline>
 <codeline lineno="340"><highlight class="normal"></highlight></codeline>
 <codeline lineno="341"><highlight class="normal"><ref refid="MRIOFormatsRegistry_8h_1ac0f6e00f19d26a3fb4eef786c3e46599" kindref="member">MR_FORMAT_REGISTRY_DECL</ref>(<sp/><ref refid="namespaceMR_1_1AsyncObjectLoad_1a5be8803f8be8c57d2ec98589759c0507" kindref="member">ObjectLoader</ref><sp/>)</highlight></codeline>
 <codeline lineno="342"><highlight class="normal"></highlight></codeline>
@@ -1395,7 +1366,7 @@ const IOFilters&amp; getFilters()                                               
 <codeline lineno="345" refid="namespaceMR_1_1SceneLoad" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">SceneLoad</highlight></codeline>
 <codeline lineno="346"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="347"><highlight class="normal"></highlight></codeline>
-<codeline lineno="348" refid="namespaceMR_1_1SceneLoad_1a0b87b3918d63624f559f15d25ecb9c3a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1SceneLoad_1a0b87b3918d63624f559f15d25ecb9c3a" kindref="member">SceneLoader</ref><sp/>=<sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;LoadedObject&gt;</ref>(<sp/>*<sp/>)(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref>&amp;<sp/>);</highlight></codeline>
+<codeline lineno="348" refid="namespaceMR_1_1SceneLoad_1a0b87b3918d63624f559f15d25ecb9c3a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1SceneLoad_1a0b87b3918d63624f559f15d25ecb9c3a" kindref="member">SceneLoader</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;LoadedObject&gt;</ref>(<sp/>*<sp/>)(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ProgressCallback&amp;<sp/>);</highlight></codeline>
 <codeline lineno="349"><highlight class="normal"></highlight></codeline>
 <codeline lineno="350"><highlight class="normal"><ref refid="MRIOFormatsRegistry_8h_1ac0f6e00f19d26a3fb4eef786c3e46599" kindref="member">MR_FORMAT_REGISTRY_DECL</ref>(<sp/><ref refid="namespaceMR_1_1SceneLoad_1a0b87b3918d63624f559f15d25ecb9c3a" kindref="member">SceneLoader</ref><sp/>)</highlight></codeline>
 <codeline lineno="351"><highlight class="normal"></highlight></codeline>
@@ -1410,7 +1381,7 @@ const IOFilters&amp; getFilters()                                               
 <codeline lineno="360" refid="namespaceMR_1_1SceneSave" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">SceneSave</highlight></codeline>
 <codeline lineno="361"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="362"><highlight class="normal"></highlight></codeline>
-<codeline lineno="363" refid="namespaceMR_1_1SceneSave_1a608a6e40cd6fd4e4c380794e4f48e3cd" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1SceneSave_1a608a6e40cd6fd4e4c380794e4f48e3cd" kindref="member">SceneSaver</ref><sp/>=<sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref>(<sp/>*<sp/>)(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ObjectSave_1_1Settings" kindref="compound">ObjectSave::Settings</ref>&amp;<sp/>);</highlight></codeline>
+<codeline lineno="363" refid="namespaceMR_1_1SceneSave_1a608a6e40cd6fd4e4c380794e4f48e3cd" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1SceneSave_1a608a6e40cd6fd4e4c380794e4f48e3cd" kindref="member">SceneSaver</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref>(<sp/>*<sp/>)(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ObjectSave_1_1Settings" kindref="compound">ObjectSave::Settings</ref>&amp;<sp/>);</highlight></codeline>
 <codeline lineno="364"><highlight class="normal"></highlight></codeline>
 <codeline lineno="365"><highlight class="normal"><ref refid="MRIOFormatsRegistry_8h_1ac0f6e00f19d26a3fb4eef786c3e46599" kindref="member">MR_FORMAT_REGISTRY_DECL</ref>(<sp/><ref refid="namespaceMR_1_1SceneSave_1a608a6e40cd6fd4e4c380794e4f48e3cd" kindref="member">SceneSaver</ref><sp/>)</highlight></codeline>
 <codeline lineno="366"><highlight class="normal"></highlight></codeline>
@@ -1425,7 +1396,7 @@ const IOFilters&amp; getFilters()                                               
 <codeline lineno="375"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">DistanceMapLoad</highlight></codeline>
 <codeline lineno="376"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="377"><highlight class="normal"></highlight></codeline>
-<codeline lineno="378" refid="namespaceMR_1_1DistanceMapLoad_1af1f62813f68011847bea88c8d3bfe7bb" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1DistanceMapLoad_1af1f62813f68011847bea88c8d3bfe7bb" kindref="member">DistanceMapLoader</ref><sp/>=<sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;DistanceMap&gt;</ref>(<sp/>*<sp/>)(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1DistanceMapLoadSettings" kindref="compound">DistanceMapLoadSettings</ref>&amp;<sp/>settings<sp/>);</highlight></codeline>
+<codeline lineno="378" refid="namespaceMR_1_1DistanceMapLoad_1af1f62813f68011847bea88c8d3bfe7bb" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1DistanceMapLoad_1af1f62813f68011847bea88c8d3bfe7bb" kindref="member">DistanceMapLoader</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;DistanceMap&gt;</ref>(<sp/>*<sp/>)(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1DistanceMapLoadSettings" kindref="compound">DistanceMapLoadSettings</ref>&amp;<sp/>settings<sp/>);</highlight></codeline>
 <codeline lineno="379"><highlight class="normal"></highlight></codeline>
 <codeline lineno="380"><highlight class="normal"><ref refid="MRIOFormatsRegistry_8h_1ac0f6e00f19d26a3fb4eef786c3e46599" kindref="member">MR_FORMAT_REGISTRY_DECL</ref>(<sp/><ref refid="namespaceMR_1_1DistanceMapLoad_1af1f62813f68011847bea88c8d3bfe7bb" kindref="member">DistanceMapLoader</ref><sp/>)</highlight></codeline>
 <codeline lineno="381"><highlight class="normal"></highlight></codeline>
@@ -1440,7 +1411,7 @@ const IOFilters&amp; getFilters()                                               
 <codeline lineno="390"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">DistanceMapSave</highlight></codeline>
 <codeline lineno="391"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="392"><highlight class="normal"></highlight></codeline>
-<codeline lineno="393" refid="namespaceMR_1_1DistanceMapSave_1aac7825149eb9a0b19702af74fa42f45e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1DistanceMapSave_1aac7825149eb9a0b19702af74fa42f45e" kindref="member">DistanceMapSaver</ref><sp/>=<sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref>(<sp/>*<sp/>)(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref>&amp;<sp/>distanceMap,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1DistanceMapSaveSettings" kindref="compound">DistanceMapSaveSettings</ref>&amp;<sp/>settings<sp/>);</highlight></codeline>
+<codeline lineno="393" refid="namespaceMR_1_1DistanceMapSave_1aac7825149eb9a0b19702af74fa42f45e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1DistanceMapSave_1aac7825149eb9a0b19702af74fa42f45e" kindref="member">DistanceMapSaver</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref>(<sp/>*<sp/>)(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref>&amp;<sp/>distanceMap,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1DistanceMapSaveSettings" kindref="compound">DistanceMapSaveSettings</ref>&amp;<sp/>settings<sp/>);</highlight></codeline>
 <codeline lineno="394"><highlight class="normal"></highlight></codeline>
 <codeline lineno="395"><highlight class="normal"><ref refid="MRIOFormatsRegistry_8h_1ac0f6e00f19d26a3fb4eef786c3e46599" kindref="member">MR_FORMAT_REGISTRY_DECL</ref>(<sp/><ref refid="namespaceMR_1_1DistanceMapSave_1aac7825149eb9a0b19702af74fa42f45e" kindref="member">DistanceMapSaver</ref><sp/>)</highlight></codeline>
 <codeline lineno="396"><highlight class="normal"></highlight></codeline>

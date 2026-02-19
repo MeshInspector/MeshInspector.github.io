@@ -6,7 +6,7 @@
     <includes refid="MRBitSet_8h" local="no">MRBitSet.h</includes>
     <templateparamlist>
       <param>
-        <type>typename <ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref></type>
+        <type>typename I</type>
       </param>
     </templateparamlist>
     <sectiondef kind="private-type">
@@ -27,7 +27,7 @@
     </sectiondef>
     <sectiondef kind="public-type">
       <memberdef kind="typedef" id="classMR_1_1TypedBitSet_1a7434b47b953a52e27cb6a6c645c7ca9e" prot="public" static="no">
-        <type><ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref></type>
+        <type>I</type>
         <definition>using MR::TypedBitSet&lt; I &gt;::IndexType =  I</definition>
         <argsstring></argsstring>
         <name>IndexType</name>
@@ -694,7 +694,7 @@
         <name>getMapping</name>
         <qualifiedname>MR::TypedBitSet::getMapping</qualifiedname>
         <param>
-          <type>const <ref refid="namespaceMR_1af8ad9e1b05a45987a3075d43bf345d68" kindref="member">HashMap</ref>&lt; <ref refid="classMR_1_1TypedBitSet_1a7434b47b953a52e27cb6a6c645c7ca9e" kindref="member">IndexType</ref>, <ref refid="classMR_1_1TypedBitSet_1a7434b47b953a52e27cb6a6c645c7ca9e" kindref="member">IndexType</ref> &gt; &amp;</type>
+          <type>const HashMap&lt; <ref refid="classMR_1_1TypedBitSet_1a7434b47b953a52e27cb6a6c645c7ca9e" kindref="member">IndexType</ref>, <ref refid="classMR_1_1TypedBitSet_1a7434b47b953a52e27cb6a6c645c7ca9e" kindref="member">IndexType</ref> &gt; &amp;</type>
           <declname>map</declname>
         </param>
         <briefdescription>
@@ -762,7 +762,7 @@
         <name>getMapping</name>
         <qualifiedname>MR::TypedBitSet::getMapping</qualifiedname>
         <param>
-          <type>const <ref refid="namespaceMR_1af8ad9e1b05a45987a3075d43bf345d68" kindref="member">HashMap</ref>&lt; <ref refid="classMR_1_1TypedBitSet_1a7434b47b953a52e27cb6a6c645c7ca9e" kindref="member">IndexType</ref>, <ref refid="classMR_1_1TypedBitSet_1a7434b47b953a52e27cb6a6c645c7ca9e" kindref="member">IndexType</ref> &gt; &amp;</type>
+          <type>const HashMap&lt; <ref refid="classMR_1_1TypedBitSet_1a7434b47b953a52e27cb6a6c645c7ca9e" kindref="member">IndexType</ref>, <ref refid="classMR_1_1TypedBitSet_1a7434b47b953a52e27cb6a6c645c7ca9e" kindref="member">IndexType</ref> &gt; &amp;</type>
           <declname>map</declname>
         </param>
         <param>

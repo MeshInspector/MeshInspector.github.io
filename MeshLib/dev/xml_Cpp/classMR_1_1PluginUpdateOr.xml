@@ -12,65 +12,12 @@
       </param>
     </templateparamlist>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1PluginUpdateOr_1a7a215652b9140f1b495ef8302f2119ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MR::PluginUpdateOr&lt; Updates &gt;::preDrawUpdate</definition>
-        <argsstring>() override</argsstring>
-        <name>preDrawUpdate</name>
-        <qualifiedname>MR::PluginUpdateOr::preDrawUpdate</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" line="105" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" bodystart="105" bodyend="108"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga7a215652b9140f1b495ef8302f2119ae" kind="function"><name>preDrawUpdate</name></member>
     </sectiondef>
     <sectiondef kind="protected-func">
-      <memberdef kind="function" id="classMR_1_1PluginUpdateOr_1ad916bd3dde1ec66ce4c87b223517fc00" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MR::PluginUpdateOr&lt; Updates &gt;::onPluginEnable_</definition>
-        <argsstring>() override</argsstring>
-        <name>onPluginEnable_</name>
-        <qualifiedname>MR::PluginUpdateOr::onPluginEnable_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" line="110" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" bodystart="110" bodyend="113"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PluginUpdateOr_1ab13e2a281b83e65ad9b1e99315bc173e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MR::PluginUpdateOr&lt; Updates &gt;::onPluginDisable_</definition>
-        <argsstring>() override</argsstring>
-        <name>onPluginDisable_</name>
-        <qualifiedname>MR::PluginUpdateOr::onPluginDisable_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-<para>disconnect in reversed order</para>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" line="114" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" bodystart="114" bodyend="119"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PluginUpdateOr_1ae8df8724ca459a77b0b3d07ebfbd0f21" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::PluginUpdateOr&lt; Updates &gt;::shouldClose_</definition>
-        <argsstring>() const override</argsstring>
-        <name>shouldClose_</name>
-        <qualifiedname>MR::PluginUpdateOr::shouldClose_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" line="120" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" bodystart="120" bodyend="123"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gad916bd3dde1ec66ce4c87b223517fc00" kind="function"><name>onPluginEnable_</name></member>
+      <member refid="group__GeneralGroup_1gab13e2a281b83e65ad9b1e99315bc173e" kind="function"><name>onPluginDisable_</name></member>
+      <member refid="group__GeneralGroup_1gae8df8724ca459a77b0b3d07ebfbd0f21" kind="function"><name>shouldClose_</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -100,12 +47,12 @@
         <label>Updates...</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" line="102" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" bodystart="103" bodyend="124"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" line="105" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" bodystart="106" bodyend="127"/>
     <listofallmembers>
-      <member refid="classMR_1_1PluginUpdateOr_1ab13e2a281b83e65ad9b1e99315bc173e" prot="protected" virt="virtual"><scope>MR::PluginUpdateOr</scope><name>onPluginDisable_</name></member>
-      <member refid="classMR_1_1PluginUpdateOr_1ad916bd3dde1ec66ce4c87b223517fc00" prot="protected" virt="virtual"><scope>MR::PluginUpdateOr</scope><name>onPluginEnable_</name></member>
-      <member refid="classMR_1_1PluginUpdateOr_1a7a215652b9140f1b495ef8302f2119ae" prot="public" virt="virtual"><scope>MR::PluginUpdateOr</scope><name>preDrawUpdate</name></member>
-      <member refid="classMR_1_1PluginUpdateOr_1ae8df8724ca459a77b0b3d07ebfbd0f21" prot="protected" virt="virtual"><scope>MR::PluginUpdateOr</scope><name>shouldClose_</name></member>
+      <member refid="group__GeneralGroup_1gab13e2a281b83e65ad9b1e99315bc173e" prot="protected" virt="virtual"><scope>MR::PluginUpdateOr</scope><name>onPluginDisable_</name></member>
+      <member refid="group__GeneralGroup_1gad916bd3dde1ec66ce4c87b223517fc00" prot="protected" virt="virtual"><scope>MR::PluginUpdateOr</scope><name>onPluginEnable_</name></member>
+      <member refid="group__GeneralGroup_1ga7a215652b9140f1b495ef8302f2119ae" prot="public" virt="virtual"><scope>MR::PluginUpdateOr</scope><name>preDrawUpdate</name></member>
+      <member refid="group__GeneralGroup_1gae8df8724ca459a77b0b3d07ebfbd0f21" prot="protected" virt="virtual"><scope>MR::PluginUpdateOr</scope><name>shouldClose_</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -4,89 +4,22 @@
     <compoundname>MR::NotificationTags</compoundname>
     <includes refid="MRRibbonNotification_8h" local="no">MRRibbonNotification.h</includes>
     <sectiondef kind="public-type">
-      <memberdef kind="enum" id="structMR_1_1NotificationTags_1afb89f8ecc2e2d580f7447ab6d7fb0bf7" prot="public" static="no" strong="no">
-        <type>unsigned</type>
-        <name>Tag</name>
-        <qualifiedname>MR::NotificationTags::Tag</qualifiedname>
-        <enumvalue id="structMR_1_1NotificationTags_1afb89f8ecc2e2d580f7447ab6d7fb0bf7aa53c19a5992ea9b4c35b429f300a57e3" prot="public">
-          <name>None</name>
-          <initializer>= 0b0000</initializer>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="structMR_1_1NotificationTags_1afb89f8ecc2e2d580f7447ab6d7fb0bf7a351655346b7a902dc9812da4f857c1da" prot="public">
-          <name>Report</name>
-          <initializer>= 0b0001</initializer>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="structMR_1_1NotificationTags_1afb89f8ecc2e2d580f7447ab6d7fb0bf7a37ebb939ed2ca98edb5c1fd1bd3ca502" prot="public">
-          <name>Recommendation</name>
-          <initializer>= 0b0010</initializer>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="structMR_1_1NotificationTags_1afb89f8ecc2e2d580f7447ab6d7fb0bf7a26bbeb82785638e76fe2fefe89eee16f" prot="public">
-          <name>ImplicitChanges</name>
-          <initializer>= 0b0100</initializer>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="structMR_1_1NotificationTags_1afb89f8ecc2e2d580f7447ab6d7fb0bf7a58bca33d6ad2854d29c6ff020e8b0851" prot="public">
-          <name>Important</name>
-          <initializer>= 0b1000</initializer>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="structMR_1_1NotificationTags_1afb89f8ecc2e2d580f7447ab6d7fb0bf7a5b9be82a1acc4be0e293f6d175610d3d" prot="public">
-          <name>Default</name>
-          <initializer>= Important | ImplicitChanges</initializer>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="structMR_1_1NotificationTags_1afb89f8ecc2e2d580f7447ab6d7fb0bf7a4425e9774bb85a89fd5f3ef9868071a3" prot="public">
-          <name>All</name>
-          <initializer>= Report | ImplicitChanges | Recommendation | Important</initializer>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" line="15" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" bodystart="16" bodyend="24"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gafb89f8ecc2e2d580f7447ab6d7fb0bf7" kind="enum"><name>Tag</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" bodystart="14" bodyend="25"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" bodystart="17" bodyend="28"/>
     <listofallmembers>
-      <member refid="structMR_1_1NotificationTags_1afb89f8ecc2e2d580f7447ab6d7fb0bf7a4425e9774bb85a89fd5f3ef9868071a3" prot="public" virt="non-virtual"><scope>MR::NotificationTags</scope><name>All</name></member>
-      <member refid="structMR_1_1NotificationTags_1afb89f8ecc2e2d580f7447ab6d7fb0bf7a5b9be82a1acc4be0e293f6d175610d3d" prot="public" virt="non-virtual"><scope>MR::NotificationTags</scope><name>Default</name></member>
-      <member refid="structMR_1_1NotificationTags_1afb89f8ecc2e2d580f7447ab6d7fb0bf7a26bbeb82785638e76fe2fefe89eee16f" prot="public" virt="non-virtual"><scope>MR::NotificationTags</scope><name>ImplicitChanges</name></member>
-      <member refid="structMR_1_1NotificationTags_1afb89f8ecc2e2d580f7447ab6d7fb0bf7a58bca33d6ad2854d29c6ff020e8b0851" prot="public" virt="non-virtual"><scope>MR::NotificationTags</scope><name>Important</name></member>
-      <member refid="structMR_1_1NotificationTags_1afb89f8ecc2e2d580f7447ab6d7fb0bf7aa53c19a5992ea9b4c35b429f300a57e3" prot="public" virt="non-virtual"><scope>MR::NotificationTags</scope><name>None</name></member>
-      <member refid="structMR_1_1NotificationTags_1afb89f8ecc2e2d580f7447ab6d7fb0bf7a37ebb939ed2ca98edb5c1fd1bd3ca502" prot="public" virt="non-virtual"><scope>MR::NotificationTags</scope><name>Recommendation</name></member>
-      <member refid="structMR_1_1NotificationTags_1afb89f8ecc2e2d580f7447ab6d7fb0bf7a351655346b7a902dc9812da4f857c1da" prot="public" virt="non-virtual"><scope>MR::NotificationTags</scope><name>Report</name></member>
-      <member refid="structMR_1_1NotificationTags_1afb89f8ecc2e2d580f7447ab6d7fb0bf7" prot="public" virt="non-virtual"><scope>MR::NotificationTags</scope><name>Tag</name></member>
+      <member refid="group__GeneralGroup_1ggafb89f8ecc2e2d580f7447ab6d7fb0bf7a4425e9774bb85a89fd5f3ef9868071a3" prot="public" virt="non-virtual"><scope>MR::NotificationTags</scope><name>All</name></member>
+      <member refid="group__GeneralGroup_1ggafb89f8ecc2e2d580f7447ab6d7fb0bf7a5b9be82a1acc4be0e293f6d175610d3d" prot="public" virt="non-virtual"><scope>MR::NotificationTags</scope><name>Default</name></member>
+      <member refid="group__GeneralGroup_1ggafb89f8ecc2e2d580f7447ab6d7fb0bf7a26bbeb82785638e76fe2fefe89eee16f" prot="public" virt="non-virtual"><scope>MR::NotificationTags</scope><name>ImplicitChanges</name></member>
+      <member refid="group__GeneralGroup_1ggafb89f8ecc2e2d580f7447ab6d7fb0bf7a58bca33d6ad2854d29c6ff020e8b0851" prot="public" virt="non-virtual"><scope>MR::NotificationTags</scope><name>Important</name></member>
+      <member refid="group__GeneralGroup_1ggafb89f8ecc2e2d580f7447ab6d7fb0bf7aa53c19a5992ea9b4c35b429f300a57e3" prot="public" virt="non-virtual"><scope>MR::NotificationTags</scope><name>None</name></member>
+      <member refid="group__GeneralGroup_1ggafb89f8ecc2e2d580f7447ab6d7fb0bf7a37ebb939ed2ca98edb5c1fd1bd3ca502" prot="public" virt="non-virtual"><scope>MR::NotificationTags</scope><name>Recommendation</name></member>
+      <member refid="group__GeneralGroup_1ggafb89f8ecc2e2d580f7447ab6d7fb0bf7a351655346b7a902dc9812da4f857c1da" prot="public" virt="non-virtual"><scope>MR::NotificationTags</scope><name>Report</name></member>
+      <member refid="group__GeneralGroup_1gafb89f8ecc2e2d580f7447ab6d7fb0bf7" prot="public" virt="non-virtual"><scope>MR::NotificationTags</scope><name>Tag</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

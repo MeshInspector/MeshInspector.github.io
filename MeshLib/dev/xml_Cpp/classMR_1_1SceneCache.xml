@@ -6,129 +6,34 @@
     <innerclass refid="structMR_1_1SceneCache_1_1BasicVectorHolder" prot="private">MR::SceneCache::BasicVectorHolder</innerclass>
     <innerclass refid="structMR_1_1SceneCache_1_1VectorHolder" prot="private">MR::SceneCache::VectorHolder</innerclass>
     <sectiondef kind="public-type">
-      <memberdef kind="typedef" id="classMR_1_1SceneCache_1a9d132145ed6e28c339f8a129698217d6" prot="public" static="no">
-        <templateparamlist>
-          <param>
-            <type>typename ObjectType</type>
-          </param>
-        </templateparamlist>
-        <type>std::vector&lt; std::shared_ptr&lt; ObjectType &gt; &gt;</type>
-        <definition>using MR::SceneCache::ObjectList =  std::vector&lt;std::shared_ptr&lt;ObjectType&gt;&gt;</definition>
-        <argsstring></argsstring>
-        <name>ObjectList</name>
-        <qualifiedname>MR::SceneCache::ObjectList</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneCache.h" line="21" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneCache.h" bodystart="21" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga9d132145ed6e28c339f8a129698217d6" kind="typedef"><name>ObjectList</name></member>
     </sectiondef>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1SceneCache_1a8dc1a7e0d229b3e79f0bced413a9b2eb" prot="private" static="no" mutable="no">
-        <type>std::unordered_map&lt; std::type_index, std::shared_ptr&lt; BasicVectorHolder &gt; &gt;</type>
-        <definition>std::unordered_map&lt;std::type_index, std::shared_ptr&lt;BasicVectorHolder&gt; &gt; MR::SceneCache::cachedData_</definition>
-        <argsstring></argsstring>
-        <name>cachedData_</name>
-        <qualifiedname>MR::SceneCache::cachedData_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneCache.h" line="43" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneCache.h" bodystart="43" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga8dc1a7e0d229b3e79f0bced413a9b2eb" kind="variable"><name>cachedData_</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1SceneCache_1aba6c0d17104f37a1b2af8967dab219e5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>static MRVIEWER_API void MR::SceneCache::invalidateAll</definition>
-        <argsstring>()</argsstring>
-        <name>invalidateAll</name>
-        <qualifiedname>MR::SceneCache::invalidateAll</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>invalidate all cached data call it in the beginning each frame </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneCache.h" line="18" column="30"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SceneCache_1af66e451d5cc1d0246d98bb3700a0b82c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename ObjectType</type>
-          </param>
-          <param>
-            <type>ObjectSelectivityType</type>
-            <declname>SelectivityType</declname>
-            <defname>SelectivityType</defname>
-          </param>
-        </templateparamlist>
-        <type>const <ref refid="classMR_1_1SceneCache_1a9d132145ed6e28c339f8a129698217d6" kindref="member">ObjectList</ref>&lt; ObjectType &gt; &amp;</type>
-        <definition>const SceneCache::ObjectList&lt; ObjectType &gt; &amp; MR::SceneCache::getAllObjects</definition>
-        <argsstring>()</argsstring>
-        <name>getAllObjects</name>
-        <qualifiedname>MR::SceneCache::getAllObjects</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>analog getAllObjectsInTree&lt;ObjectType&gt;( &amp;SceneRoot::get(), SelectivityType ) but use cached data reference copy is valid until <ref refid="classMR_1_1SceneCache_1aba6c0d17104f37a1b2af8967dab219e5" kindref="member">invalidateAll()</ref> is called </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneCache.h" line="25" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneCache.h" bodystart="47" bodyend="63"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaba6c0d17104f37a1b2af8967dab219e5" kind="function"><name>invalidateAll</name></member>
+      <member refid="group__GeneralGroup_1gaf66e451d5cc1d0246d98bb3700a0b82c" kind="function"><name>getAllObjects</name></member>
     </sectiondef>
     <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1SceneCache_1a7c719267ad003b1c33152a8724d0655c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API <ref refid="classMR_1_1SceneCache" kindref="compound">SceneCache</ref> &amp;</type>
-        <definition>static MRVIEWER_API SceneCache &amp; MR::SceneCache::instance_</definition>
-        <argsstring>()</argsstring>
-        <name>instance_</name>
-        <qualifiedname>MR::SceneCache::instance_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneCache.h" line="28" column="36"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga7c719267ad003b1c33152a8724d0655c" kind="function"><name>instance_</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMR_1_1SceneCache_1aab04433c59956d678e5cbf5fe5ec657c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::SceneCache::SceneCache</definition>
-        <argsstring>()=default</argsstring>
-        <name>SceneCache</name>
-        <qualifiedname>MR::SceneCache::SceneCache</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneCache.h" line="29" column="5"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaab04433c59956d678e5cbf5fe5ec657c" kind="function"><name>SceneCache</name></member>
     </sectiondef>
     <briefdescription>
 <para>class to cached scene objects data </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneCache.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneCache.h" bodystart="14" bodyend="44"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneCache.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneCache.h" bodystart="17" bodyend="47"/>
     <listofallmembers>
-      <member refid="classMR_1_1SceneCache_1a8dc1a7e0d229b3e79f0bced413a9b2eb" prot="private" virt="non-virtual"><scope>MR::SceneCache</scope><name>cachedData_</name></member>
-      <member refid="classMR_1_1SceneCache_1af66e451d5cc1d0246d98bb3700a0b82c" prot="public" virt="non-virtual"><scope>MR::SceneCache</scope><name>getAllObjects</name></member>
-      <member refid="classMR_1_1SceneCache_1a7c719267ad003b1c33152a8724d0655c" prot="private" virt="non-virtual"><scope>MR::SceneCache</scope><name>instance_</name></member>
-      <member refid="classMR_1_1SceneCache_1aba6c0d17104f37a1b2af8967dab219e5" prot="public" virt="non-virtual"><scope>MR::SceneCache</scope><name>invalidateAll</name></member>
-      <member refid="classMR_1_1SceneCache_1a9d132145ed6e28c339f8a129698217d6" prot="public" virt="non-virtual"><scope>MR::SceneCache</scope><name>ObjectList</name></member>
-      <member refid="classMR_1_1SceneCache_1aab04433c59956d678e5cbf5fe5ec657c" prot="private" virt="non-virtual"><scope>MR::SceneCache</scope><name>SceneCache</name></member>
+      <member refid="group__GeneralGroup_1ga8dc1a7e0d229b3e79f0bced413a9b2eb" prot="private" virt="non-virtual"><scope>MR::SceneCache</scope><name>cachedData_</name></member>
+      <member refid="group__GeneralGroup_1gaf66e451d5cc1d0246d98bb3700a0b82c" prot="public" virt="non-virtual"><scope>MR::SceneCache</scope><name>getAllObjects</name></member>
+      <member refid="group__GeneralGroup_1ga7c719267ad003b1c33152a8724d0655c" prot="private" virt="non-virtual"><scope>MR::SceneCache</scope><name>instance_</name></member>
+      <member refid="group__GeneralGroup_1gaba6c0d17104f37a1b2af8967dab219e5" prot="public" virt="non-virtual"><scope>MR::SceneCache</scope><name>invalidateAll</name></member>
+      <member refid="group__GeneralGroup_1ga9d132145ed6e28c339f8a129698217d6" prot="public" virt="non-virtual"><scope>MR::SceneCache</scope><name>ObjectList</name></member>
+      <member refid="group__GeneralGroup_1gaab04433c59956d678e5cbf5fe5ec657c" prot="private" virt="non-virtual"><scope>MR::SceneCache</scope><name>SceneCache</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

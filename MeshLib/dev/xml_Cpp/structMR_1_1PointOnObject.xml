@@ -4,142 +4,17 @@
     <compoundname>MR::PointOnObject</compoundname>
     <includes refid="MRPointOnObject_8h" local="no">MRPointOnObject.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1PointOnObject_1ab99d125d3a34811d275a4d95aefe82f4" prot="public" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::PointOnObject::point</definition>
-        <argsstring></argsstring>
-        <name>point</name>
-        <qualifiedname>MR::PointOnObject::point</qualifiedname>
-        <briefdescription>
-<para>3D location on the object in local coordinates </para>
-        </briefdescription>
-        <detaileddescription>
-<para>default ctor is required by Clang </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointOnObject.h" line="21" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointOnObject.h" bodystart="21" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1PointOnObject_1ae7a40e7e5c90fdf33a56711b68896efb" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::PointOnObject::zBuffer</definition>
-        <argsstring></argsstring>
-        <name>zBuffer</name>
-        <qualifiedname>MR::PointOnObject::zBuffer</qualifiedname>
-        <initializer>{ 1.0f }</initializer>
-        <briefdescription>
-<para>z buffer value </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointOnObject.h" line="23" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointOnObject.h" bodystart="23" bodyend="23"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1PointOnObject_1a24573ab8d99e131aad6fa4b5b12e034f" prot="public" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::PointOnObject::primId</definition>
-        <argsstring></argsstring>
-        <name>primId</name>
-        <qualifiedname>MR::PointOnObject::primId</qualifiedname>
-        <initializer>= -1</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointOnObject.h" line="27" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointOnObject.h" bodystart="27" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1PointOnObject_1a097965189767222c3d16454fef46570c" prot="public" static="no" mutable="no">
-        <type>FaceId</type>
-        <definition>FaceId MR::PointOnObject::face</definition>
-        <argsstring></argsstring>
-        <name>face</name>
-        <qualifiedname>MR::PointOnObject::face</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointOnObject.h" line="28" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointOnObject.h" bodystart="28" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1PointOnObject_1aff11e6354c0eb7e2e92d1ecdf69ddb18" prot="public" static="no" mutable="no">
-        <type>UndirectedEdgeId</type>
-        <definition>UndirectedEdgeId MR::PointOnObject::uedge</definition>
-        <argsstring></argsstring>
-        <name>uedge</name>
-        <qualifiedname>MR::PointOnObject::uedge</qualifiedname>
-        <briefdescription>
-<para>for <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointOnObject.h" line="29" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointOnObject.h" bodystart="29" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1PointOnObject_1aea864d6b3c02490b48f05814d5023357" prot="public" static="no" mutable="no">
-        <type>VertId</type>
-        <definition>VertId MR::PointOnObject::vert</definition>
-        <argsstring></argsstring>
-        <name>vert</name>
-        <qualifiedname>MR::PointOnObject::vert</qualifiedname>
-        <briefdescription>
-<para>for <ref refid="classMR_1_1ObjectLines" kindref="compound">ObjectLines</ref> </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointOnObject.h" line="30" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointOnObject.h" bodystart="30" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1PointOnObject_1a6a1ea405ed1586d1dc3766730bb3f1e4" prot="public" static="no" mutable="no">
-        <type>union <ref refid="structMR_1_1PointOnObject" kindref="compound">MR::PointOnObject</ref></type>
-        <definition>union MR::PointOnObject MR::PointOnObject</definition>
-        <argsstring></argsstring>
-        <name></name>
-        <qualifiedname>MR::PointOnObject</qualifiedname>
-        <briefdescription>
-<para>to which primitive that point pertains </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointOnObject.h" line="31" column="5"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gab99d125d3a34811d275a4d95aefe82f4" kind="variable"><name>point</name></member>
+      <member refid="group__GeneralGroup_1gae7a40e7e5c90fdf33a56711b68896efb" kind="variable"><name>zBuffer</name></member>
+      <member refid="group__GeneralGroup_1ga24573ab8d99e131aad6fa4b5b12e034f" kind="variable"><name>primId</name></member>
+      <member refid="group__GeneralGroup_1ga097965189767222c3d16454fef46570c" kind="variable"><name>face</name></member>
+      <member refid="group__GeneralGroup_1gaff11e6354c0eb7e2e92d1ecdf69ddb18" kind="variable"><name>uedge</name></member>
+      <member refid="group__GeneralGroup_1gaea864d6b3c02490b48f05814d5023357" kind="variable"><name>vert</name></member>
+      <member refid="group__GeneralGroup_1ga6a1ea405ed1586d1dc3766730bb3f1e4" kind="variable"><name></name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1PointOnObject_1ae6ddf1f922426da0befb0c18020f6682" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::PointOnObject::PointOnObject</definition>
-        <argsstring>()</argsstring>
-        <name>PointOnObject</name>
-        <qualifiedname>MR::PointOnObject::PointOnObject</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointOnObject.h" line="19" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointOnObject.h" bodystart="19" bodyend="19"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1PointOnObject_1a2e7dcb184c3434e435a3b5cf16b66101" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::PointOnObject::operator PointOnFace</definition>
-        <argsstring>() const</argsstring>
-        <name>operator PointOnFace</name>
-        <qualifiedname>MR::PointOnObject::operator PointOnFace</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointOnObject.h" line="32" column="6" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointOnObject.h" bodystart="32" bodyend="32"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gae6ddf1f922426da0befb0c18020f6682" kind="function"><name>PointOnObject</name></member>
+      <member refid="group__GeneralGroup_1ga2e7dcb184c3434e435a3b5cf16b66101" kind="function"><name>operator PointOnFace</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -151,16 +26,16 @@
 </listitem></orderedlist>
 </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointOnObject.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointOnObject.h" bodystart="18" bodyend="33"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointOnObject.h" line="20" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointOnObject.h" bodystart="21" bodyend="36"/>
     <listofallmembers>
-      <member refid="structMR_1_1PointOnObject_1a097965189767222c3d16454fef46570c" prot="public" virt="non-virtual"><scope>MR::PointOnObject</scope><name>face</name></member>
-      <member refid="structMR_1_1PointOnObject_1a2e7dcb184c3434e435a3b5cf16b66101" prot="public" virt="non-virtual"><scope>MR::PointOnObject</scope><name>operator PointOnFace</name></member>
-      <member refid="structMR_1_1PointOnObject_1ab99d125d3a34811d275a4d95aefe82f4" prot="public" virt="non-virtual"><scope>MR::PointOnObject</scope><name>point</name></member>
-      <member refid="structMR_1_1PointOnObject_1ae6ddf1f922426da0befb0c18020f6682" prot="public" virt="non-virtual"><scope>MR::PointOnObject</scope><name>PointOnObject</name></member>
-      <member refid="structMR_1_1PointOnObject_1a24573ab8d99e131aad6fa4b5b12e034f" prot="public" virt="non-virtual"><scope>MR::PointOnObject</scope><name>primId</name></member>
-      <member refid="structMR_1_1PointOnObject_1aff11e6354c0eb7e2e92d1ecdf69ddb18" prot="public" virt="non-virtual"><scope>MR::PointOnObject</scope><name>uedge</name></member>
-      <member refid="structMR_1_1PointOnObject_1aea864d6b3c02490b48f05814d5023357" prot="public" virt="non-virtual"><scope>MR::PointOnObject</scope><name>vert</name></member>
-      <member refid="structMR_1_1PointOnObject_1ae7a40e7e5c90fdf33a56711b68896efb" prot="public" virt="non-virtual"><scope>MR::PointOnObject</scope><name>zBuffer</name></member>
+      <member refid="group__GeneralGroup_1ga097965189767222c3d16454fef46570c" prot="public" virt="non-virtual"><scope>MR::PointOnObject</scope><name>face</name></member>
+      <member refid="group__GeneralGroup_1ga2e7dcb184c3434e435a3b5cf16b66101" prot="public" virt="non-virtual"><scope>MR::PointOnObject</scope><name>operator PointOnFace</name></member>
+      <member refid="group__GeneralGroup_1gab99d125d3a34811d275a4d95aefe82f4" prot="public" virt="non-virtual"><scope>MR::PointOnObject</scope><name>point</name></member>
+      <member refid="group__GeneralGroup_1gae6ddf1f922426da0befb0c18020f6682" prot="public" virt="non-virtual"><scope>MR::PointOnObject</scope><name>PointOnObject</name></member>
+      <member refid="group__GeneralGroup_1ga24573ab8d99e131aad6fa4b5b12e034f" prot="public" virt="non-virtual"><scope>MR::PointOnObject</scope><name>primId</name></member>
+      <member refid="group__GeneralGroup_1gaff11e6354c0eb7e2e92d1ecdf69ddb18" prot="public" virt="non-virtual"><scope>MR::PointOnObject</scope><name>uedge</name></member>
+      <member refid="group__GeneralGroup_1gaea864d6b3c02490b48f05814d5023357" prot="public" virt="non-virtual"><scope>MR::PointOnObject</scope><name>vert</name></member>
+      <member refid="group__GeneralGroup_1gae7a40e7e5c90fdf33a56711b68896efb" prot="public" virt="non-virtual"><scope>MR::PointOnObject</scope><name>zBuffer</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

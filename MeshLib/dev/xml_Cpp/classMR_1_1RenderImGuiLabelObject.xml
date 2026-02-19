@@ -5,87 +5,13 @@
     <basecompoundref refid="classMR_1_1RenderObjectCombinator" prot="public" virt="non-virtual">MR::RenderObjectCombinator&lt; RenderDefaultUiObject, RenderResetDirtyComponent &gt;</basecompoundref>
     <includes refid="MRRenderImGuiLabelObject_8h" local="no">MRRenderImGuiLabelObject.h</includes>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1RenderImGuiLabelObject_1a256037192503b9d5797a92292c980035" prot="private" static="no" mutable="no">
-        <type>const <ref refid="classMR_1_1ObjectImGuiLabel" kindref="compound">ObjectImGuiLabel</ref> *</type>
-        <definition>const ObjectImGuiLabel* MR::RenderImGuiLabelObject::object_</definition>
-        <argsstring></argsstring>
-        <name>object_</name>
-        <qualifiedname>MR::RenderImGuiLabelObject::object_</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderImGuiLabelObject.h" line="14" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderImGuiLabelObject.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RenderImGuiLabelObject_1a7a36069c74dac44417a63948abcea036" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1UI_1_1NonOverlappingLabelTask" kindref="compound">UI::NonOverlappingLabelTask</ref></type>
-        <definition>UI::NonOverlappingLabelTask MR::RenderImGuiLabelObject::task_</definition>
-        <argsstring></argsstring>
-        <name>task_</name>
-        <qualifiedname>MR::RenderImGuiLabelObject::task_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderImGuiLabelObject.h" line="15" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderImGuiLabelObject.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RenderImGuiLabelObject_1a5fcfe1eb532954b9ec210971f8aebd1d" prot="private" static="no" mutable="no">
-        <type><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params" kindref="compound">ImGuiMeasurementIndicators::Params</ref></type>
-        <definition>ImGuiMeasurementIndicators::Params MR::RenderImGuiLabelObject::indicatorParams_</definition>
-        <argsstring></argsstring>
-        <name>indicatorParams_</name>
-        <qualifiedname>MR::RenderImGuiLabelObject::indicatorParams_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderImGuiLabelObject.h" line="16" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderImGuiLabelObject.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga256037192503b9d5797a92292c980035" kind="variable"><name>object_</name></member>
+      <member refid="group__GeneralGroup_1ga7a36069c74dac44417a63948abcea036" kind="variable"><name>task_</name></member>
+      <member refid="group__GeneralGroup_1ga5fcfe1eb532954b9ec210971f8aebd1d" kind="variable"><name>indicatorParams_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1RenderImGuiLabelObject_1ae326eec4f1bdc617e0de76f6f4331dd9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API</type>
-        <definition>MRVIEWER_API MR::RenderImGuiLabelObject::RenderImGuiLabelObject</definition>
-        <argsstring>(const VisualObject &amp;object)</argsstring>
-        <name>RenderImGuiLabelObject</name>
-        <qualifiedname>MR::RenderImGuiLabelObject::RenderImGuiLabelObject</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> &amp;</type>
-          <declname>object</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderImGuiLabelObject.h" line="18" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RenderImGuiLabelObject_1a10bda644e5bf5d339048fc403685a021" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::RenderImGuiLabelObject::renderUi</definition>
-        <argsstring>(const UiRenderParams &amp;params) override</argsstring>
-        <name>renderUi</name>
-        <qualifiedname>MR::RenderImGuiLabelObject::renderUi</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1UiRenderParams" kindref="compound">UiRenderParams</ref> &amp;</type>
-          <declname>params</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderImGuiLabelObject.h" line="19" column="23"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gae326eec4f1bdc617e0de76f6f4331dd9" kind="function"><name>RenderImGuiLabelObject</name></member>
+      <member refid="group__GeneralGroup_1ga10bda644e5bf5d339048fc403685a021" kind="function"><name>renderUi</name></member>
     </sectiondef>
     <briefdescription>
 <para>The implementation of <computeroutput><ref refid="classMR_1_1IRenderObject" kindref="compound">IRenderObject</ref></computeroutput> used by <computeroutput><ref refid="classMR_1_1ObjectImGuiLabel" kindref="compound">ObjectImGuiLabel</ref></computeroutput>. Draws an label using <ref refid="namespaceImGui" kindref="compound">ImGui</ref>. </para>
@@ -126,19 +52,19 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderImGuiLabelObject.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderImGuiLabelObject.h" bodystart="13" bodyend="20"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderImGuiLabelObject.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderImGuiLabelObject.h" bodystart="16" bodyend="23"/>
     <listofallmembers>
-      <member refid="classMR_1_1RenderObjectCombinator_1ab4757762c061347ec2412d44c7b7c443" prot="public" virt="non-virtual"><scope>MR::RenderImGuiLabelObject</scope><name>forceBindAll</name></member>
-      <member refid="classMR_1_1RenderObjectCombinator_1a119987068e72df89faccb9088a8def44" prot="public" virt="non-virtual"><scope>MR::RenderImGuiLabelObject</scope><name>glBytes</name></member>
-      <member refid="classMR_1_1RenderObjectCombinator_1a2e7fc28637f457e02fe5dafff8f5d614" prot="public" virt="non-virtual"><scope>MR::RenderImGuiLabelObject</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1RenderImGuiLabelObject_1a5fcfe1eb532954b9ec210971f8aebd1d" prot="private" virt="non-virtual"><scope>MR::RenderImGuiLabelObject</scope><name>indicatorParams_</name></member>
-      <member refid="classMR_1_1RenderImGuiLabelObject_1a256037192503b9d5797a92292c980035" prot="private" virt="non-virtual"><scope>MR::RenderImGuiLabelObject</scope><name>object_</name></member>
-      <member refid="classMR_1_1RenderObjectCombinator_1a6c8e2b2a990fbdf14835f953090ef542" prot="public" virt="non-virtual"><scope>MR::RenderImGuiLabelObject</scope><name>render</name></member>
-      <member refid="classMR_1_1RenderImGuiLabelObject_1ae326eec4f1bdc617e0de76f6f4331dd9" prot="public" virt="non-virtual"><scope>MR::RenderImGuiLabelObject</scope><name>RenderImGuiLabelObject</name></member>
-      <member refid="classMR_1_1RenderObjectCombinator_1aaf9f364da4dd0710603d3ea88860d423" prot="public" virt="non-virtual"><scope>MR::RenderImGuiLabelObject</scope><name>RenderObjectCombinator</name></member>
-      <member refid="classMR_1_1RenderObjectCombinator_1a8acfcf58dd21cbe8b8fc889a79b8106d" prot="public" virt="non-virtual"><scope>MR::RenderImGuiLabelObject</scope><name>renderPicker</name></member>
-      <member refid="classMR_1_1RenderImGuiLabelObject_1a10bda644e5bf5d339048fc403685a021" prot="public" virt="non-virtual"><scope>MR::RenderImGuiLabelObject</scope><name>renderUi</name></member>
-      <member refid="classMR_1_1RenderImGuiLabelObject_1a7a36069c74dac44417a63948abcea036" prot="private" virt="non-virtual"><scope>MR::RenderImGuiLabelObject</scope><name>task_</name></member>
+      <member refid="group__GeneralGroup_1gab4757762c061347ec2412d44c7b7c443" prot="public" virt="non-virtual"><scope>MR::RenderImGuiLabelObject</scope><name>forceBindAll</name></member>
+      <member refid="group__GeneralGroup_1ga119987068e72df89faccb9088a8def44" prot="public" virt="non-virtual"><scope>MR::RenderImGuiLabelObject</scope><name>glBytes</name></member>
+      <member refid="group__GeneralGroup_1ga2e7fc28637f457e02fe5dafff8f5d614" prot="public" virt="non-virtual"><scope>MR::RenderImGuiLabelObject</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1ga5fcfe1eb532954b9ec210971f8aebd1d" prot="private" virt="non-virtual"><scope>MR::RenderImGuiLabelObject</scope><name>indicatorParams_</name></member>
+      <member refid="group__GeneralGroup_1ga256037192503b9d5797a92292c980035" prot="private" virt="non-virtual"><scope>MR::RenderImGuiLabelObject</scope><name>object_</name></member>
+      <member refid="group__GeneralGroup_1ga6c8e2b2a990fbdf14835f953090ef542" prot="public" virt="non-virtual"><scope>MR::RenderImGuiLabelObject</scope><name>render</name></member>
+      <member refid="group__GeneralGroup_1gae326eec4f1bdc617e0de76f6f4331dd9" prot="public" virt="non-virtual"><scope>MR::RenderImGuiLabelObject</scope><name>RenderImGuiLabelObject</name></member>
+      <member refid="group__GeneralGroup_1gaaf9f364da4dd0710603d3ea88860d423" prot="public" virt="non-virtual"><scope>MR::RenderImGuiLabelObject</scope><name>RenderObjectCombinator</name></member>
+      <member refid="group__GeneralGroup_1ga8acfcf58dd21cbe8b8fc889a79b8106d" prot="public" virt="non-virtual"><scope>MR::RenderImGuiLabelObject</scope><name>renderPicker</name></member>
+      <member refid="group__GeneralGroup_1ga10bda644e5bf5d339048fc403685a021" prot="public" virt="non-virtual"><scope>MR::RenderImGuiLabelObject</scope><name>renderUi</name></member>
+      <member refid="group__GeneralGroup_1ga7a36069c74dac44417a63948abcea036" prot="private" virt="non-virtual"><scope>MR::RenderImGuiLabelObject</scope><name>task_</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

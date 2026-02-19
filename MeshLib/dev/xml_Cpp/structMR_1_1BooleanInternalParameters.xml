@@ -37,7 +37,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBooleanOperation.h" line="106" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBooleanOperation.h" bodystart="106" bodyend="106"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1BooleanInternalParameters_1a3d8d32104f837c9064678f6e0cbc420c" prot="public" static="no" mutable="no">
-        <type>std::vector&lt; <ref refid="namespaceMR_1a099da1b4cb4b8348ee3fed0588b01aa3" kindref="member">EdgeLoop</ref> &gt; *</type>
+        <type>std::vector&lt; EdgeLoop &gt; *</type>
         <definition>std::vector&lt;EdgeLoop&gt;* MR::BooleanInternalParameters::optionalOutCut</definition>
         <argsstring></argsstring>
         <name>optionalOutCut</name>

@@ -4,73 +4,21 @@
     <compoundname>MR::Pdf::CellCustomParams</compoundname>
     <includes refid="MRPdf_8h" local="no">MRPdf.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1Pdf_1_1CellCustomParams_1a8da0806f9e4216beecedc92f0af5e48c" prot="public" static="no" mutable="no">
-        <type>std::optional&lt; <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &gt;</type>
-        <definition>std::optional&lt;Color&gt; MR::Pdf::CellCustomParams::colorText</definition>
-        <argsstring></argsstring>
-        <name>colorText</name>
-        <qualifiedname>MR::Pdf::CellCustomParams::colorText</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="209" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="209" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1Pdf_1_1CellCustomParams_1a70b9acf2ccdbf5641f8e6d5d9c66c37e" prot="public" static="no" mutable="no">
-        <type>std::optional&lt; <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &gt;</type>
-        <definition>std::optional&lt;Color&gt; MR::Pdf::CellCustomParams::colorCellBg</definition>
-        <argsstring></argsstring>
-        <name>colorCellBg</name>
-        <qualifiedname>MR::Pdf::CellCustomParams::colorCellBg</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="210" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="210" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1Pdf_1_1CellCustomParams_1aa0d955c51ec17d9ae66d62a4c5ae2c7b" prot="public" static="no" mutable="no">
-        <type>std::optional&lt; <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &gt;</type>
-        <definition>std::optional&lt;Color&gt; MR::Pdf::CellCustomParams::colorCellBorder</definition>
-        <argsstring></argsstring>
-        <name>colorCellBorder</name>
-        <qualifiedname>MR::Pdf::CellCustomParams::colorCellBorder</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="211" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="211" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1Pdf_1_1CellCustomParams_1abcaff0b1310eb5d3c3918f573a4623a2" prot="public" static="no" mutable="no">
-        <type>std::optional&lt; std::string &gt;</type>
-        <definition>std::optional&lt;std::string&gt; MR::Pdf::CellCustomParams::text</definition>
-        <argsstring></argsstring>
-        <name>text</name>
-        <qualifiedname>MR::Pdf::CellCustomParams::text</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="212" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="212" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga8da0806f9e4216beecedc92f0af5e48c" kind="variable"><name>colorText</name></member>
+      <member refid="group__GeneralGroup_1ga70b9acf2ccdbf5641f8e6d5d9c66c37e" kind="variable"><name>colorCellBg</name></member>
+      <member refid="group__GeneralGroup_1gaa0d955c51ec17d9ae66d62a4c5ae2c7b" kind="variable"><name>colorCellBorder</name></member>
+      <member refid="group__GeneralGroup_1gabcaff0b1310eb5d3c3918f573a4623a2" kind="variable"><name>text</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="207" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="208" bodyend="213"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="210" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="211" bodyend="216"/>
     <listofallmembers>
-      <member refid="structMR_1_1Pdf_1_1CellCustomParams_1a70b9acf2ccdbf5641f8e6d5d9c66c37e" prot="public" virt="non-virtual"><scope>MR::Pdf::CellCustomParams</scope><name>colorCellBg</name></member>
-      <member refid="structMR_1_1Pdf_1_1CellCustomParams_1aa0d955c51ec17d9ae66d62a4c5ae2c7b" prot="public" virt="non-virtual"><scope>MR::Pdf::CellCustomParams</scope><name>colorCellBorder</name></member>
-      <member refid="structMR_1_1Pdf_1_1CellCustomParams_1a8da0806f9e4216beecedc92f0af5e48c" prot="public" virt="non-virtual"><scope>MR::Pdf::CellCustomParams</scope><name>colorText</name></member>
-      <member refid="structMR_1_1Pdf_1_1CellCustomParams_1abcaff0b1310eb5d3c3918f573a4623a2" prot="public" virt="non-virtual"><scope>MR::Pdf::CellCustomParams</scope><name>text</name></member>
+      <member refid="group__GeneralGroup_1ga70b9acf2ccdbf5641f8e6d5d9c66c37e" prot="public" virt="non-virtual"><scope>MR::Pdf::CellCustomParams</scope><name>colorCellBg</name></member>
+      <member refid="group__GeneralGroup_1gaa0d955c51ec17d9ae66d62a4c5ae2c7b" prot="public" virt="non-virtual"><scope>MR::Pdf::CellCustomParams</scope><name>colorCellBorder</name></member>
+      <member refid="group__GeneralGroup_1ga8da0806f9e4216beecedc92f0af5e48c" prot="public" virt="non-virtual"><scope>MR::Pdf::CellCustomParams</scope><name>colorText</name></member>
+      <member refid="group__GeneralGroup_1gabcaff0b1310eb5d3c3918f573a4623a2" prot="public" virt="non-virtual"><scope>MR::Pdf::CellCustomParams</scope><name>text</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

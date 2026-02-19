@@ -6,7 +6,7 @@
     <includes local="yes">exports.h</includes>
     <includes refid="MRVector2_8h" local="yes">MRMesh/MRVector2.h</includes>
     <includes refid="MRColor_8h" local="yes">MRMesh/MRColor.h</includes>
-    <includes refid="MRViewerFwd_8h" local="yes">MRViewer/MRViewerFwd.h</includes>
+    <includes local="yes">MRViewer/MRViewerFwd.h</includes>
     <includes refid="MRImGui_8h" local="yes">MRViewer/MRImGui.h</includes>
     <includes refid="MRImGuiVectorOperators_8h" local="yes">MRViewer/MRImGuiVectorOperators.h</includes>
     <includes local="no">misc/cpp/imgui_stdlib.h</includes>
@@ -19,23 +19,17 @@
     <includes local="no">optional</includes>
     <includedby refid="MRStatePlugin_8h" local="yes">MRStatePlugin.h</includedby>
     <incdepgraph>
-      <node id="11">
-        <label>MRMesh/MRCanonicalTypedefs.h</label>
-        <link refid="MRCanonicalTypedefs_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
-      </node>
-      <node id="24">
+      <node id="16">
         <label>MRMesh/MRColor.h</label>
         <link refid="MRColor_8h"/>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="25" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="27" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
       </node>
-      <node id="26">
+      <node id="18">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
@@ -48,28 +42,6 @@
       <node id="6">
         <label>MRMacros.h</label>
         <link refid="MRMacros_8h"/>
-      </node>
-      <node id="9">
-        <label>MRMeshFwd.h</label>
-        <link refid="MRMeshFwd_8h"/>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
       </node>
       <node id="7">
         <label>MRMesh/MRUnsigned.h</label>
@@ -88,20 +60,20 @@
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
         <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
-        <childnode refid="23" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
       </node>
-      <node id="25">
+      <node id="17">
         <label>MRVector3.h</label>
         <link refid="MRVector3_8h"/>
         <childnode refid="6" relation="include">
@@ -110,40 +82,36 @@
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="26" relation="include">
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
-        <childnode refid="23" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
       </node>
-      <node id="27">
+      <node id="19">
         <label>MRVector4.h</label>
         <link refid="MRVector4_8h"/>
-        <childnode refid="20" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="25" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
-      </node>
-      <node id="10">
-        <label>config.h</label>
-        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
         <label>ImGuiHelpers.h</label>
@@ -154,126 +122,107 @@
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
         <childnode refid="24" relation="include">
         </childnode>
-        <childnode refid="28" relation="include">
+        <childnode refid="26" relation="include">
         </childnode>
-        <childnode refid="30" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="33" relation="include">
-        </childnode>
-        <childnode refid="35" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
+        <childnode refid="27" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="36" relation="include">
+        <childnode refid="28" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="29" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="37" relation="include">
-        </childnode>
-      </node>
-      <node id="30">
-        <label>MRViewer/MRImGui.h</label>
-        <link refid="MRImGui_8h"/>
-        <childnode refid="31" relation="include">
-        </childnode>
-        <childnode refid="32" relation="include">
-        </childnode>
-      </node>
-      <node id="33">
-        <label>MRViewer/MRImGuiVectorOperators.h</label>
-        <link refid="MRImGuiVectorOperators_8h"/>
         <childnode refid="30" relation="include">
         </childnode>
-        <childnode refid="34" relation="include">
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>MRViewer/MRImGui.h</label>
+        <link refid="MRImGui_8h"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>MRViewer/MRImGuiVectorOperators.h</label>
+        <link refid="MRImGuiVectorOperators_8h"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="28">
-        <label>MRViewer/MRViewerFwd.h</label>
-        <link refid="MRViewerFwd_8h"/>
-        <childnode refid="29" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
+      <node id="9">
+        <label>MRMeshFwd.h</label>
       </node>
-      <node id="29">
-        <label>config.h</label>
-        <link refid="MRViewer_2config_8h"/>
-      </node>
-      <node id="12">
+      <node id="10">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="31">
+      <node id="22">
         <label>MRPch/MRSuppressWarning.h</label>
       </node>
-      <node id="19">
+      <node id="20">
+        <label>MRViewer/MRViewerFwd.h</label>
+      </node>
+      <node id="11">
         <label>algorithm</label>
       </node>
-      <node id="13">
-        <label>array</label>
-      </node>
-      <node id="18">
-        <label>cassert</label>
-      </node>
-      <node id="20">
+      <node id="12">
         <label>cmath</label>
       </node>
-      <node id="34">
+      <node id="25">
         <label>concepts</label>
       </node>
       <node id="8">
         <label>cstddef</label>
       </node>
-      <node id="21">
+      <node id="13">
         <label>cstring</label>
       </node>
       <node id="4">
         <label>exports.h</label>
       </node>
-      <node id="17">
+      <node id="27">
         <label>functional</label>
       </node>
-      <node id="32">
+      <node id="23">
         <label>imgui.h</label>
       </node>
-      <node id="22">
+      <node id="14">
         <label>iosfwd</label>
       </node>
-      <node id="36">
+      <node id="28">
         <label>limits</label>
       </node>
-      <node id="35">
+      <node id="26">
         <label>misc/cpp/imgui_stdlib.h</label>
       </node>
-      <node id="37">
+      <node id="31">
         <label>optional</label>
       </node>
-      <node id="16">
-        <label>parallel_hashmap/phmap_fwd_decl.h</label>
-      </node>
-      <node id="15">
+      <node id="29">
         <label>string</label>
       </node>
       <node id="3">
         <label>type_traits</label>
       </node>
-      <node id="23">
+      <node id="15">
         <label>utility</label>
       </node>
-      <node id="14">
+      <node id="30">
         <label>vector</label>
       </node>
     </incdepgraph>
@@ -359,7 +308,7 @@
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;exports.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVector2_8h" kindref="compound">MRMesh/MRVector2.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRColor_8h" kindref="compound">MRMesh/MRColor.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRViewerFwd_8h" kindref="compound">MRViewer/MRViewerFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRViewer/MRViewerFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRImGui_8h" kindref="compound">MRViewer/MRImGui.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRImGuiVectorOperators_8h" kindref="compound">MRViewer/MRImGuiVectorOperators.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;misc/cpp/imgui_stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>

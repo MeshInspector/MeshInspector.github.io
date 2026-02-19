@@ -4,82 +4,22 @@
     <compoundname>MR::MakeDegenerateBandAroundRegionParams</compoundname>
     <includes refid="MRMeshExtrude_8h" local="no">MRMeshExtrude.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1MakeDegenerateBandAroundRegionParams_1a7d6c4b4b9c582144c01aad1b8bf29605" prot="public" static="no" mutable="no">
-        <type>FaceBitSet *</type>
-        <definition>FaceBitSet* MR::MakeDegenerateBandAroundRegionParams::outNewFaces</definition>
-        <argsstring></argsstring>
-        <name>outNewFaces</name>
-        <qualifiedname>MR::MakeDegenerateBandAroundRegionParams::outNewFaces</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-<para>(optional) output newly generated faces </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshExtrude.h" line="11" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshExtrude.h" bodystart="11" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MakeDegenerateBandAroundRegionParams_1a9a43bd53420bdfcd8981d9dc16830775" prot="public" static="no" mutable="no">
-        <type>UndirectedEdgeBitSet *</type>
-        <definition>UndirectedEdgeBitSet* MR::MakeDegenerateBandAroundRegionParams::outExtrudedEdges</definition>
-        <argsstring></argsstring>
-        <name>outExtrudedEdges</name>
-        <qualifiedname>MR::MakeDegenerateBandAroundRegionParams::outExtrudedEdges</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-<para>(optional) output edges orthogonal to the boundary </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshExtrude.h" line="13" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshExtrude.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MakeDegenerateBandAroundRegionParams_1afc2056d17547f3244b2627054ffe02bf" prot="public" static="no" mutable="no">
-        <type>float *</type>
-        <definition>float* MR::MakeDegenerateBandAroundRegionParams::maxEdgeLength</definition>
-        <argsstring></argsstring>
-        <name>maxEdgeLength</name>
-        <qualifiedname>MR::MakeDegenerateBandAroundRegionParams::maxEdgeLength</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-<para>(optional) return legth of the longest edges from the boundary of the region </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshExtrude.h" line="15" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshExtrude.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MakeDegenerateBandAroundRegionParams_1a89ef3c78f83d43c17a9dc7939b7d90e7" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1a5f073f01bf5ba45cd1ca11d8507f494d" kindref="member">VertHashMap</ref> *</type>
-        <definition>VertHashMap* MR::MakeDegenerateBandAroundRegionParams::new2OldMap</definition>
-        <argsstring></argsstring>
-        <name>new2OldMap</name>
-        <qualifiedname>MR::MakeDegenerateBandAroundRegionParams::new2OldMap</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-<para>(optional) map of new vertices to old ones </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshExtrude.h" line="17" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshExtrude.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga7d6c4b4b9c582144c01aad1b8bf29605" kind="variable"><name>outNewFaces</name></member>
+      <member refid="group__GeneralGroup_1ga9a43bd53420bdfcd8981d9dc16830775" kind="variable"><name>outExtrudedEdges</name></member>
+      <member refid="group__GeneralGroup_1gafc2056d17547f3244b2627054ffe02bf" kind="variable"><name>maxEdgeLength</name></member>
+      <member refid="group__GeneralGroup_1ga89ef3c78f83d43c17a9dc7939b7d90e7" kind="variable"><name>new2OldMap</name></member>
     </sectiondef>
     <briefdescription>
 <para>holds together settings for makeDegenerateBandAroundRegion </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshExtrude.h" line="8" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshExtrude.h" bodystart="9" bodyend="18"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshExtrude.h" line="11" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshExtrude.h" bodystart="12" bodyend="21"/>
     <listofallmembers>
-      <member refid="structMR_1_1MakeDegenerateBandAroundRegionParams_1afc2056d17547f3244b2627054ffe02bf" prot="public" virt="non-virtual"><scope>MR::MakeDegenerateBandAroundRegionParams</scope><name>maxEdgeLength</name></member>
-      <member refid="structMR_1_1MakeDegenerateBandAroundRegionParams_1a89ef3c78f83d43c17a9dc7939b7d90e7" prot="public" virt="non-virtual"><scope>MR::MakeDegenerateBandAroundRegionParams</scope><name>new2OldMap</name></member>
-      <member refid="structMR_1_1MakeDegenerateBandAroundRegionParams_1a9a43bd53420bdfcd8981d9dc16830775" prot="public" virt="non-virtual"><scope>MR::MakeDegenerateBandAroundRegionParams</scope><name>outExtrudedEdges</name></member>
-      <member refid="structMR_1_1MakeDegenerateBandAroundRegionParams_1a7d6c4b4b9c582144c01aad1b8bf29605" prot="public" virt="non-virtual"><scope>MR::MakeDegenerateBandAroundRegionParams</scope><name>outNewFaces</name></member>
+      <member refid="group__GeneralGroup_1gafc2056d17547f3244b2627054ffe02bf" prot="public" virt="non-virtual"><scope>MR::MakeDegenerateBandAroundRegionParams</scope><name>maxEdgeLength</name></member>
+      <member refid="group__GeneralGroup_1ga89ef3c78f83d43c17a9dc7939b7d90e7" prot="public" virt="non-virtual"><scope>MR::MakeDegenerateBandAroundRegionParams</scope><name>new2OldMap</name></member>
+      <member refid="group__GeneralGroup_1ga9a43bd53420bdfcd8981d9dc16830775" prot="public" virt="non-virtual"><scope>MR::MakeDegenerateBandAroundRegionParams</scope><name>outExtrudedEdges</name></member>
+      <member refid="group__GeneralGroup_1ga7d6c4b4b9c582144c01aad1b8bf29605" prot="public" virt="non-virtual"><scope>MR::MakeDegenerateBandAroundRegionParams</scope><name>outNewFaces</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

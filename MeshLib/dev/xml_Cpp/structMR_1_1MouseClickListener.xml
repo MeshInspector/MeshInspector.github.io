@@ -5,88 +5,12 @@
     <basecompoundref refid="structMR_1_1ConnectionHolder" prot="public" virt="non-virtual">MR::ConnectionHolder</basecompoundref>
     <includes refid="MRViewerEventsListener_8h" local="no">MRViewerEventsListener.h</includes>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1MouseClickListener_1a4b1da3b9a028bfb17bba77a7f01f5adb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::MouseClickListener::MR_ADD_CTOR_DELETE_MOVE</definition>
-        <argsstring>(MouseClickListener)</argsstring>
-        <name>MR_ADD_CTOR_DELETE_MOVE</name>
-        <qualifiedname>MR::MouseClickListener::MR_ADD_CTOR_DELETE_MOVE</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1MouseClickListener" kindref="compound">MouseClickListener</ref></type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="88" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1MouseClickListener_1a69a367cc3c52ae54f5e24ae6a0f168dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type></type>
-        <definition>virtual MR::MouseClickListener::~MouseClickListener</definition>
-        <argsstring>()=default</argsstring>
-        <name>~MouseClickListener</name>
-        <qualifiedname>MR::MouseClickListener::~MouseClickListener</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="89" column="13"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1MouseClickListener_1a8a3a8c6ceb42ce6958bd4e57fa667d8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>virtual MRVIEWER_API void MR::MouseClickListener::connect</definition>
-        <argsstring>(Viewer *viewer, int group, boost::signals2::connect_position pos) override</argsstring>
-        <name>connect</name>
-        <qualifiedname>MR::MouseClickListener::connect</qualifiedname>
-        <reimplements refid="structMR_1_1IConnectable_1a2212095d3996892cff578320ac2ce746">connect</reimplements>
-        <param>
-          <type><ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref> *</type>
-          <declname>viewer</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>group</declname>
-        </param>
-        <param>
-          <type>boost::signals2::connect_position</type>
-          <declname>pos</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="90" column="31"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga4b1da3b9a028bfb17bba77a7f01f5adb" kind="function"><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1ga69a367cc3c52ae54f5e24ae6a0f168dc" kind="function"><name>~MouseClickListener</name></member>
+      <member refid="group__GeneralGroup_1ga8a3a8c6ceb42ce6958bd4e57fa667d8a" kind="function"><name>connect</name></member>
     </sectiondef>
     <sectiondef kind="protected-func">
-      <memberdef kind="function" id="structMR_1_1MouseClickListener_1a7f85d1874114505341d0745ec9bf02de" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::MouseClickListener::onMouseClick_</definition>
-        <argsstring>(MouseButton btn, int modifiers)=0</argsstring>
-        <name>onMouseClick_</name>
-        <qualifiedname>MR::MouseClickListener::onMouseClick_</qualifiedname>
-        <param>
-          <type><ref refid="namespaceMR_1a13f98b7840e7298925ef1770b7cdb62d" kindref="member">MouseButton</ref></type>
-          <declname>btn</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>modifiers</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="92" column="18"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga7f85d1874114505341d0745ec9bf02de" kind="function"><name>onMouseClick_</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -128,16 +52,16 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="86" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="87" bodyend="93"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="89" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="90" bodyend="96"/>
     <listofallmembers>
-      <member refid="structMR_1_1MouseClickListener_1a8a3a8c6ceb42ce6958bd4e57fa667d8a" prot="public" virt="virtual"><scope>MR::MouseClickListener</scope><name>connect</name></member>
-      <member refid="structMR_1_1ConnectionHolder_1a56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::MouseClickListener</scope><name>connection_</name></member>
-      <member refid="structMR_1_1ConnectionHolder_1afe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::MouseClickListener</scope><name>disconnect</name></member>
-      <member refid="structMR_1_1MouseClickListener_1a4b1da3b9a028bfb17bba77a7f01f5adb" prot="public" virt="non-virtual"><scope>MR::MouseClickListener</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
-      <member refid="structMR_1_1MouseClickListener_1a7f85d1874114505341d0745ec9bf02de" prot="protected" virt="pure-virtual"><scope>MR::MouseClickListener</scope><name>onMouseClick_</name></member>
-      <member refid="structMR_1_1ConnectionHolder_1a99ffc44dd73f73e2e907b7ab5bb38aaf" prot="public" virt="virtual"><scope>MR::MouseClickListener</scope><name>~ConnectionHolder</name></member>
-      <member refid="structMR_1_1IConnectable_1a28c07761e682b80befbb2d5f91bdd38c" prot="public" virt="virtual"><scope>MR::MouseClickListener</scope><name>~IConnectable</name></member>
-      <member refid="structMR_1_1MouseClickListener_1a69a367cc3c52ae54f5e24ae6a0f168dc" prot="public" virt="virtual"><scope>MR::MouseClickListener</scope><name>~MouseClickListener</name></member>
+      <member refid="group__GeneralGroup_1ga8a3a8c6ceb42ce6958bd4e57fa667d8a" prot="public" virt="virtual"><scope>MR::MouseClickListener</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1ga56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::MouseClickListener</scope><name>connection_</name></member>
+      <member refid="group__GeneralGroup_1gafe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::MouseClickListener</scope><name>disconnect</name></member>
+      <member refid="group__GeneralGroup_1ga4b1da3b9a028bfb17bba77a7f01f5adb" prot="public" virt="non-virtual"><scope>MR::MouseClickListener</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1ga7f85d1874114505341d0745ec9bf02de" prot="protected" virt="pure-virtual"><scope>MR::MouseClickListener</scope><name>onMouseClick_</name></member>
+      <member refid="group__GeneralGroup_1ga99ffc44dd73f73e2e907b7ab5bb38aaf" prot="public" virt="virtual"><scope>MR::MouseClickListener</scope><name>~ConnectionHolder</name></member>
+      <member refid="group__GeneralGroup_1ga28c07761e682b80befbb2d5f91bdd38c" prot="public" virt="virtual"><scope>MR::MouseClickListener</scope><name>~IConnectable</name></member>
+      <member refid="group__GeneralGroup_1ga69a367cc3c52ae54f5e24ae6a0f168dc" prot="public" virt="virtual"><scope>MR::MouseClickListener</scope><name>~MouseClickListener</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

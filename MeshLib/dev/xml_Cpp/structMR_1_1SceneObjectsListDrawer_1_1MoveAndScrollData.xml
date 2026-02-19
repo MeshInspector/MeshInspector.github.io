@@ -3,64 +3,20 @@
   <compounddef id="structMR_1_1SceneObjectsListDrawer_1_1MoveAndScrollData" kind="struct" language="C++" prot="private">
     <compoundname>MR::SceneObjectsListDrawer::MoveAndScrollData</compoundname>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1SceneObjectsListDrawer_1_1MoveAndScrollData_1a0c8ba2a60d4747b8f0eae8791efd2249" prot="public" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::SceneObjectsListDrawer::MoveAndScrollData::index</definition>
-        <argsstring></argsstring>
-        <name>index</name>
-        <qualifiedname>MR::SceneObjectsListDrawer::MoveAndScrollData::index</qualifiedname>
-        <initializer>= -1</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="129" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" bodystart="129" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1SceneObjectsListDrawer_1_1MoveAndScrollData_1af5e2efafccac2a050712323ed5479603" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::SceneObjectsListDrawer::MoveAndScrollData::posY</definition>
-        <argsstring></argsstring>
-        <name>posY</name>
-        <qualifiedname>MR::SceneObjectsListDrawer::MoveAndScrollData::posY</qualifiedname>
-        <initializer>= -1.f</initializer>
-        <briefdescription>
-<para>index of new selected object in list of all </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="130" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" bodystart="130" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1SceneObjectsListDrawer_1_1MoveAndScrollData_1a5fa4cc6e843bdb6827ddcfde0e1b7709" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::SceneObjectsListDrawer::MoveAndScrollData::needScroll</definition>
-        <argsstring></argsstring>
-        <name>needScroll</name>
-        <qualifiedname>MR::SceneObjectsListDrawer::MoveAndScrollData::needScroll</qualifiedname>
-        <initializer>= false</initializer>
-        <briefdescription>
-<para>scroll position of new selected object in list of all </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="131" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" bodystart="131" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga0c8ba2a60d4747b8f0eae8791efd2249" kind="variable"><name>index</name></member>
+      <member refid="group__GeneralGroup_1gaf5e2efafccac2a050712323ed5479603" kind="variable"><name>posY</name></member>
+      <member refid="group__GeneralGroup_1ga5fa4cc6e843bdb6827ddcfde0e1b7709" kind="variable"><name>needScroll</name></member>
     </sectiondef>
     <briefdescription>
 <para>struct to auto-scroll after move (arrow up / down) </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="127" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" bodystart="128" bodyend="132"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="130" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" bodystart="131" bodyend="135"/>
     <listofallmembers>
-      <member refid="structMR_1_1SceneObjectsListDrawer_1_1MoveAndScrollData_1a0c8ba2a60d4747b8f0eae8791efd2249" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer::MoveAndScrollData</scope><name>index</name></member>
-      <member refid="structMR_1_1SceneObjectsListDrawer_1_1MoveAndScrollData_1a5fa4cc6e843bdb6827ddcfde0e1b7709" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer::MoveAndScrollData</scope><name>needScroll</name></member>
-      <member refid="structMR_1_1SceneObjectsListDrawer_1_1MoveAndScrollData_1af5e2efafccac2a050712323ed5479603" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer::MoveAndScrollData</scope><name>posY</name></member>
+      <member refid="group__GeneralGroup_1ga0c8ba2a60d4747b8f0eae8791efd2249" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer::MoveAndScrollData</scope><name>index</name></member>
+      <member refid="group__GeneralGroup_1ga5fa4cc6e843bdb6827ddcfde0e1b7709" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer::MoveAndScrollData</scope><name>needScroll</name></member>
+      <member refid="group__GeneralGroup_1gaf5e2efafccac2a050712323ed5479603" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer::MoveAndScrollData</scope><name>posY</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

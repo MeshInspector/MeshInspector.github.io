@@ -10,464 +10,61 @@
       </param>
     </templateparamlist>
     <sectiondef kind="private-type">
-      <memberdef kind="enum" id="classMR_1_1Cylinder3Approximation_1af599ba04fb6dbe5520a1037998321ba8" prot="private" static="no" strong="yes">
-        <type></type>
-        <name>CylinderFitterType</name>
-        <qualifiedname>MR::Cylinder3Approximation::CylinderFitterType</qualifiedname>
-        <enumvalue id="classMR_1_1Cylinder3Approximation_1af599ba04fb6dbe5520a1037998321ba8a1a4728573c55a3c1ceca7af11776f64b" prot="private">
-          <name>HemisphereSearchFit</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-<para>The algorithm implementation needs an initial approximation to refine the cylinder axis. In this option, we sort through several possible options distributed over the hemisphere. </para>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1Cylinder3Approximation_1af599ba04fb6dbe5520a1037998321ba8a2c0500afc7ff11f210c486fe633f3384" prot="private">
-          <name>SpecificAxisFit</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-<para>In this case, we assume that there is an external estimate for the cylinder axis. Therefore, we specify only the position that is given from the outside TODO for Meshes try to implement specific algorithm from <ulink url="https:///">https:///</ulink> www.geometrictools.com/Documentation/LeastSquaresFitting.pdf TODO Also, an estimate of the cylinder axis can be obtained by the gravel component method or the like. But this requires additional. experiments. TODO for future try eigen vector covariance <ulink url="https:///">https:///</ulink> www.geometrictools.com/Documentation/RobustEigenSymmetric3x3.pdf </para>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" line="15" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" bodystart="16" bodyend="28"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaf599ba04fb6dbe5520a1037998321ba8" kind="enum"><name>CylinderFitterType</name></member>
     </sectiondef>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1Cylinder3Approximation_1abb30d2ef61a3c237a636b17c577959c6" prot="private" static="no" mutable="no">
-        <type>CylinderFitterType</type>
-        <definition>CylinderFitterType MR::Cylinder3Approximation&lt; T &gt;::fitter_</definition>
-        <argsstring></argsstring>
-        <name>fitter_</name>
-        <qualifiedname>MR::Cylinder3Approximation::fitter_</qualifiedname>
-        <initializer>= CylinderFitterType::HemisphereSearchFit</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" line="30" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" bodystart="30" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1Cylinder3Approximation_1a579d35802248f0935569af18cf42db07" prot="private" static="no" mutable="no">
-        <type>Eigen::Vector&lt; T, 3 &gt;</type>
-        <definition>Eigen::Vector&lt;T, 3&gt; MR::Cylinder3Approximation&lt; T &gt;::baseCylinderAxis_</definition>
-        <argsstring></argsstring>
-        <name>baseCylinderAxis_</name>
-        <qualifiedname>MR::Cylinder3Approximation::baseCylinderAxis_</qualifiedname>
-        <briefdescription>
-<para>CylinderFitterType::SpecificAxisFit params. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" line="33" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" bodystart="33" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1Cylinder3Approximation_1a572ae0cdbfe25ad8d61bb1b2789bccac" prot="private" static="no" mutable="no">
-        <type>size_t</type>
-        <definition>size_t MR::Cylinder3Approximation&lt; T &gt;::thetaResolution_</definition>
-        <argsstring></argsstring>
-        <name>thetaResolution_</name>
-        <qualifiedname>MR::Cylinder3Approximation::thetaResolution_</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-<para>CylinderFitterType::HemisphereSearchFit params. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" line="36" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" bodystart="36" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1Cylinder3Approximation_1a3a1edcc7bb8603942ed0c5ffd02088b2" prot="private" static="no" mutable="no">
-        <type>size_t</type>
-        <definition>size_t MR::Cylinder3Approximation&lt; T &gt;::phiResolution_</definition>
-        <argsstring></argsstring>
-        <name>phiResolution_</name>
-        <qualifiedname>MR::Cylinder3Approximation::phiResolution_</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" line="37" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" bodystart="37" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1Cylinder3Approximation_1a832899d3c70ab1c69613bf142d44c41d" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::Cylinder3Approximation&lt; T &gt;::isMultithread_</definition>
-        <argsstring></argsstring>
-        <name>isMultithread_</name>
-        <qualifiedname>MR::Cylinder3Approximation::isMultithread_</qualifiedname>
-        <initializer>= true</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" line="38" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" bodystart="38" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1Cylinder3Approximation_1a45710dc638e9a62fadc67bf7339d3fad" prot="private" static="no" mutable="no">
-        <type>std::vector&lt; Eigen::Vector&lt; T, 3 &gt; &gt;</type>
-        <definition>std::vector&lt;Eigen::Vector&lt;T, 3&gt; &gt; MR::Cylinder3Approximation&lt; T &gt;::normalizedPoints_</definition>
-        <argsstring></argsstring>
-        <name>normalizedPoints_</name>
-        <qualifiedname>MR::Cylinder3Approximation::normalizedPoints_</qualifiedname>
-        <initializer>= {}</initializer>
-        <briefdescription>
-<para>Input data converted to Eigen format and normalized to the avgPoint position of all points in the cloud. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" line="41" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" bodystart="41" bodyend="41"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1Cylinder3Approximation_1a6b83e51c6eb2a0c8ea2e23c70a5e8efe" prot="private" static="no" mutable="no">
-        <type>Eigen::Vector&lt; T, 6 &gt;</type>
-        <definition>Eigen::Vector&lt;T, 6&gt; MR::Cylinder3Approximation&lt; T &gt;::precomputedMu_</definition>
-        <argsstring></argsstring>
-        <name>precomputedMu_</name>
-        <qualifiedname>MR::Cylinder3Approximation::precomputedMu_</qualifiedname>
-        <initializer>= {}</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Precalculated values for speed up. In <ulink url="https:///">https:///</ulink> www.geometrictools.com/Documentation/LeastSquaresFitting.pdf page 35-36: Text below is a direct copy from pdf file: The sample application that used equation (94) directly was really slow. On an Intel CoreTM i7-6700 CPU at 3.40 GHz, the single - threaded version for 10765 points required 129 seconds and the multithreaded version using 8 hyperthreads required 22 seconds.The evaluation of G using the precomputed summations is much faster. The single - threaded version required 85 milliseconds and the multithreaded version using 8 hyperthreads required 22 milliseconds. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" line="51" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" bodystart="51" bodyend="51"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1Cylinder3Approximation_1a697dc85e99148d758f412ac9a63d583d" prot="private" static="no" mutable="no">
-        <type>Eigen::Matrix&lt; T, 3, 3 &gt;</type>
-        <definition>Eigen::Matrix&lt;T, 3, 3&gt; MR::Cylinder3Approximation&lt; T &gt;::precomputedF0_</definition>
-        <argsstring></argsstring>
-        <name>precomputedF0_</name>
-        <qualifiedname>MR::Cylinder3Approximation::precomputedF0_</qualifiedname>
-        <initializer>= {}</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" line="52" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" bodystart="52" bodyend="52"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1Cylinder3Approximation_1add39d274c7bf18726d5f0f8af50c0dc9" prot="private" static="no" mutable="no">
-        <type>Eigen::Matrix&lt; T, 3, 6 &gt;</type>
-        <definition>Eigen::Matrix&lt;T, 3, 6&gt; MR::Cylinder3Approximation&lt; T &gt;::precomputedF1_</definition>
-        <argsstring></argsstring>
-        <name>precomputedF1_</name>
-        <qualifiedname>MR::Cylinder3Approximation::precomputedF1_</qualifiedname>
-        <initializer>= {}</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" line="53" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" bodystart="53" bodyend="53"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1Cylinder3Approximation_1a11d3a86ad6a7b217f7be33edeee47ba2" prot="private" static="no" mutable="no">
-        <type>Eigen::Matrix&lt; T, 6, 6 &gt;</type>
-        <definition>Eigen::Matrix&lt;T, 6, 6&gt; MR::Cylinder3Approximation&lt; T &gt;::precomputedF2_</definition>
-        <argsstring></argsstring>
-        <name>precomputedF2_</name>
-        <qualifiedname>MR::Cylinder3Approximation::precomputedF2_</qualifiedname>
-        <initializer>= {}</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" line="54" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" bodystart="54" bodyend="54"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gabb30d2ef61a3c237a636b17c577959c6" kind="variable"><name>fitter_</name></member>
+      <member refid="group__GeneralGroup_1ga579d35802248f0935569af18cf42db07" kind="variable"><name>baseCylinderAxis_</name></member>
+      <member refid="group__GeneralGroup_1ga572ae0cdbfe25ad8d61bb1b2789bccac" kind="variable"><name>thetaResolution_</name></member>
+      <member refid="group__GeneralGroup_1ga3a1edcc7bb8603942ed0c5ffd02088b2" kind="variable"><name>phiResolution_</name></member>
+      <member refid="group__GeneralGroup_1ga832899d3c70ab1c69613bf142d44c41d" kind="variable"><name>isMultithread_</name></member>
+      <member refid="group__GeneralGroup_1ga45710dc638e9a62fadc67bf7339d3fad" kind="variable"><name>normalizedPoints_</name></member>
+      <member refid="group__GeneralGroup_1ga6b83e51c6eb2a0c8ea2e23c70a5e8efe" kind="variable"><name>precomputedMu_</name></member>
+      <member refid="group__GeneralGroup_1ga697dc85e99148d758f412ac9a63d583d" kind="variable"><name>precomputedF0_</name></member>
+      <member refid="group__GeneralGroup_1gadd39d274c7bf18726d5f0f8af50c0dc9" kind="variable"><name>precomputedF1_</name></member>
+      <member refid="group__GeneralGroup_1ga11d3a86ad6a7b217f7be33edeee47ba2" kind="variable"><name>precomputedF2_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1Cylinder3Approximation_1aafde02b06eea3fda628d934ce5b91770" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
-        <definition>MRMESH_API MR::Cylinder3Approximation&lt; T &gt;::Cylinder3Approximation</definition>
-        <argsstring>()</argsstring>
-        <name>Cylinder3Approximation</name>
-        <qualifiedname>MR::Cylinder3Approximation::Cylinder3Approximation</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" line="57" column="16"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Cylinder3Approximation_1a9fd0419e56efe6e18be85cf20d1ab692" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::Cylinder3Approximation&lt; T &gt;::reset</definition>
-        <argsstring>()</argsstring>
-        <name>reset</name>
-        <qualifiedname>MR::Cylinder3Approximation::reset</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" line="59" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Cylinder3Approximation_1abe21b11b74d5ae62d6d1412c1e7023e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> T</type>
-        <definition>MRMESH_API T MR::Cylinder3Approximation&lt; T &gt;::solveGeneral</definition>
-        <argsstring>(const std::vector&lt; MR::Vector3&lt; T &gt; &gt; &amp;points, Cylinder3&lt; T &gt; &amp;cylinder, size_t theta=180, size_t phi=90, bool isMultithread=true)</argsstring>
-        <name>solveGeneral</name>
-        <qualifiedname>MR::Cylinder3Approximation::solveGeneral</qualifiedname>
-        <param>
-          <type>const std::vector&lt; <ref refid="structMR_1_1Vector3" kindref="compound">MR::Vector3</ref>&lt; T &gt; &gt; &amp;</type>
-          <declname>points</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1Cylinder3" kindref="compound">Cylinder3</ref>&lt; T &gt; &amp;</type>
-          <declname>cylinder</declname>
-        </param>
-        <param>
-          <type>size_t</type>
-          <declname>theta</declname>
-          <defval>180</defval>
-        </param>
-        <param>
-          <type>size_t</type>
-          <declname>phi</declname>
-          <defval>90</defval>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>isMultithread</declname>
-          <defval>true</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Solver for CylinderFitterType::HemisphereSearchFit type thetaResolution_, phiResolution_ must be positive and as large as it posible. Price is CPU time. (~ 100 gives good results). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" line="63" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Cylinder3Approximation_1a0fe383f15556ef41b9d2bfce165b2af4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> T</type>
-        <definition>MRMESH_API T MR::Cylinder3Approximation&lt; T &gt;::solveSpecificAxis</definition>
-        <argsstring>(const std::vector&lt; MR::Vector3&lt; T &gt; &gt; &amp;points, Cylinder3&lt; T &gt; &amp;cylinder, MR::Vector3&lt; T &gt; const &amp;cylinderAxis)</argsstring>
-        <name>solveSpecificAxis</name>
-        <qualifiedname>MR::Cylinder3Approximation::solveSpecificAxis</qualifiedname>
-        <param>
-          <type>const std::vector&lt; <ref refid="structMR_1_1Vector3" kindref="compound">MR::Vector3</ref>&lt; T &gt; &gt; &amp;</type>
-          <declname>points</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1Cylinder3" kindref="compound">Cylinder3</ref>&lt; T &gt; &amp;</type>
-          <declname>cylinder</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1Vector3" kindref="compound">MR::Vector3</ref>&lt; T &gt; const &amp;</type>
-          <declname>cylinderAxis</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Solver for CylinderFitterType::SpecificAxisFit type Simplet way in case of we already know clinder axis </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" line="67" column="18"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaafde02b06eea3fda628d934ce5b91770" kind="function"><name>Cylinder3Approximation</name></member>
+      <member refid="group__GeneralGroup_1ga9fd0419e56efe6e18be85cf20d1ab692" kind="function"><name>reset</name></member>
+      <member refid="group__GeneralGroup_1gabe21b11b74d5ae62d6d1412c1e7023e8" kind="function"><name>solveGeneral</name></member>
+      <member refid="group__GeneralGroup_1ga0fe383f15556ef41b9d2bfce165b2af4" kind="function"><name>solveSpecificAxis</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMR_1_1Cylinder3Approximation_1af3ea4afe87e1dbb78ccb5720a2bb25bd" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>T</type>
-        <definition>T MR::Cylinder3Approximation&lt; T &gt;::solve</definition>
-        <argsstring>(const std::vector&lt; MR::Vector3&lt; T &gt; &gt; &amp;points, Cylinder3&lt; T &gt; &amp;cylinder)</argsstring>
-        <name>solve</name>
-        <qualifiedname>MR::Cylinder3Approximation::solve</qualifiedname>
-        <param>
-          <type>const std::vector&lt; <ref refid="structMR_1_1Vector3" kindref="compound">MR::Vector3</ref>&lt; T &gt; &gt; &amp;</type>
-          <declname>points</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1Cylinder3" kindref="compound">Cylinder3</ref>&lt; T &gt; &amp;</type>
-          <declname>cylinder</declname>
-        </param>
-        <briefdescription>
-<para>main solver. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" line="71" column="7"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Cylinder3Approximation_1a626ca4bfa406a8a459b2b55d004c3e9b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::Cylinder3Approximation&lt; T &gt;::updatePrecomputeParams</definition>
-        <argsstring>(const std::vector&lt; MR::Vector3&lt; T &gt; &gt; &amp;points, Vector3&lt; T &gt; &amp;average)</argsstring>
-        <name>updatePrecomputeParams</name>
-        <qualifiedname>MR::Cylinder3Approximation::updatePrecomputeParams</qualifiedname>
-        <param>
-          <type>const std::vector&lt; <ref refid="structMR_1_1Vector3" kindref="compound">MR::Vector3</ref>&lt; T &gt; &gt; &amp;</type>
-          <declname>points</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
-          <declname>average</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" line="73" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Cylinder3Approximation_1ab64fa1f0c1cf5703dca8ebd51dba0e7a" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>T</type>
-        <definition>T MR::Cylinder3Approximation&lt; T &gt;::G</definition>
-        <argsstring>(const Eigen::Vector&lt; T, 3 &gt; &amp;W, Eigen::Vector&lt; T, 3 &gt; &amp;PC, T &amp;rsqr) const</argsstring>
-        <name>G</name>
-        <qualifiedname>MR::Cylinder3Approximation::G</qualifiedname>
-        <param>
-          <type>const Eigen::Vector&lt; T, 3 &gt; &amp;</type>
-          <declname>W</declname>
-        </param>
-        <param>
-          <type>Eigen::Vector&lt; T, 3 &gt; &amp;</type>
-          <declname>PC</declname>
-        </param>
-        <param>
-          <type>T &amp;</type>
-          <declname>rsqr</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Core minimization function. Functional that needs to be minimized to obtain the optimal value of W (i.e. the cylinder axis) General definition is formula 94, but for speed up we use formula 99. <ulink url="https:///">https:///</ulink> www.geometrictools.com/Documentation/LeastSquaresFitting.pdf </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" line="79" column="7"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Cylinder3Approximation_1a9d04ae9e2ea8fc5f83411e9b05795448" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>T</type>
-        <definition>T MR::Cylinder3Approximation&lt; T &gt;::fitCylindeHemisphereSingleThreaded</definition>
-        <argsstring>(Eigen::Vector&lt; T, 3 &gt; &amp;PC, Eigen::Vector&lt; T, 3 &gt; &amp;W, T &amp;resultedRootSquare) const</argsstring>
-        <name>fitCylindeHemisphereSingleThreaded</name>
-        <qualifiedname>MR::Cylinder3Approximation::fitCylindeHemisphereSingleThreaded</qualifiedname>
-        <param>
-          <type>Eigen::Vector&lt; T, 3 &gt; &amp;</type>
-          <declname>PC</declname>
-        </param>
-        <param>
-          <type>Eigen::Vector&lt; T, 3 &gt; &amp;</type>
-          <declname>W</declname>
-        </param>
-        <param>
-          <type>T &amp;</type>
-          <declname>resultedRootSquare</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" line="81" column="7"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Cylinder3Approximation_1a6cfff0c53009b5847aaf0142118a1c1f" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>T</type>
-        <definition>T MR::Cylinder3Approximation&lt; T &gt;::fitCylindeHemisphereMultiThreaded</definition>
-        <argsstring>(Eigen::Vector&lt; T, 3 &gt; &amp;PC, Eigen::Vector&lt; T, 3 &gt; &amp;W, T &amp;resultedRootSquare) const</argsstring>
-        <name>fitCylindeHemisphereMultiThreaded</name>
-        <qualifiedname>MR::Cylinder3Approximation::fitCylindeHemisphereMultiThreaded</qualifiedname>
-        <param>
-          <type>Eigen::Vector&lt; T, 3 &gt; &amp;</type>
-          <declname>PC</declname>
-        </param>
-        <param>
-          <type>Eigen::Vector&lt; T, 3 &gt; &amp;</type>
-          <declname>W</declname>
-        </param>
-        <param>
-          <type>T &amp;</type>
-          <declname>resultedRootSquare</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" line="92" column="7"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Cylinder3Approximation_1a5cf30a88b39598fee141ae8e3147729a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>T</type>
-        <definition>T MR::Cylinder3Approximation&lt; T &gt;::SpecificAxisFit</definition>
-        <argsstring>(Eigen::Vector&lt; T, 3 &gt; &amp;PC, Eigen::Vector&lt; T, 3 &gt; &amp;W, T &amp;resultedRootSquare)</argsstring>
-        <name>SpecificAxisFit</name>
-        <qualifiedname>MR::Cylinder3Approximation::SpecificAxisFit</qualifiedname>
-        <param>
-          <type>Eigen::Vector&lt; T, 3 &gt; &amp;</type>
-          <declname>PC</declname>
-        </param>
-        <param>
-          <type>Eigen::Vector&lt; T, 3 &gt; &amp;</type>
-          <declname>W</declname>
-        </param>
-        <param>
-          <type>T &amp;</type>
-          <declname>resultedRootSquare</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" line="94" column="7"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaf3ea4afe87e1dbb78ccb5720a2bb25bd" kind="function"><name>solve</name></member>
+      <member refid="group__GeneralGroup_1ga626ca4bfa406a8a459b2b55d004c3e9b" kind="function"><name>updatePrecomputeParams</name></member>
+      <member refid="group__GeneralGroup_1gab64fa1f0c1cf5703dca8ebd51dba0e7a" kind="function"><name>G</name></member>
+      <member refid="group__GeneralGroup_1ga9d04ae9e2ea8fc5f83411e9b05795448" kind="function"><name>fitCylindeHemisphereSingleThreaded</name></member>
+      <member refid="group__GeneralGroup_1ga6cfff0c53009b5847aaf0142118a1c1f" kind="function"><name>fitCylindeHemisphereMultiThreaded</name></member>
+      <member refid="group__GeneralGroup_1ga5cf30a88b39598fee141ae8e3147729a" kind="function"><name>SpecificAxisFit</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" bodystart="13" bodyend="95"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" bodystart="16" bodyend="98"/>
     <listofallmembers>
-      <member refid="classMR_1_1Cylinder3Approximation_1a579d35802248f0935569af18cf42db07" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>baseCylinderAxis_</name></member>
-      <member refid="classMR_1_1Cylinder3Approximation_1aafde02b06eea3fda628d934ce5b91770" prot="public" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>Cylinder3Approximation</name></member>
-      <member refid="classMR_1_1Cylinder3Approximation_1af599ba04fb6dbe5520a1037998321ba8" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>CylinderFitterType</name></member>
-      <member refid="classMR_1_1Cylinder3Approximation_1a6cfff0c53009b5847aaf0142118a1c1f" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>fitCylindeHemisphereMultiThreaded</name></member>
-      <member refid="classMR_1_1Cylinder3Approximation_1a9d04ae9e2ea8fc5f83411e9b05795448" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>fitCylindeHemisphereSingleThreaded</name></member>
-      <member refid="classMR_1_1Cylinder3Approximation_1abb30d2ef61a3c237a636b17c577959c6" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>fitter_</name></member>
-      <member refid="classMR_1_1Cylinder3Approximation_1ab64fa1f0c1cf5703dca8ebd51dba0e7a" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>G</name></member>
-      <member refid="classMR_1_1Cylinder3Approximation_1a832899d3c70ab1c69613bf142d44c41d" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>isMultithread_</name></member>
-      <member refid="classMR_1_1Cylinder3Approximation_1a45710dc638e9a62fadc67bf7339d3fad" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>normalizedPoints_</name></member>
-      <member refid="classMR_1_1Cylinder3Approximation_1a3a1edcc7bb8603942ed0c5ffd02088b2" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>phiResolution_</name></member>
-      <member refid="classMR_1_1Cylinder3Approximation_1a697dc85e99148d758f412ac9a63d583d" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>precomputedF0_</name></member>
-      <member refid="classMR_1_1Cylinder3Approximation_1add39d274c7bf18726d5f0f8af50c0dc9" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>precomputedF1_</name></member>
-      <member refid="classMR_1_1Cylinder3Approximation_1a11d3a86ad6a7b217f7be33edeee47ba2" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>precomputedF2_</name></member>
-      <member refid="classMR_1_1Cylinder3Approximation_1a6b83e51c6eb2a0c8ea2e23c70a5e8efe" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>precomputedMu_</name></member>
-      <member refid="classMR_1_1Cylinder3Approximation_1a9fd0419e56efe6e18be85cf20d1ab692" prot="public" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>reset</name></member>
-      <member refid="classMR_1_1Cylinder3Approximation_1af3ea4afe87e1dbb78ccb5720a2bb25bd" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>solve</name></member>
-      <member refid="classMR_1_1Cylinder3Approximation_1abe21b11b74d5ae62d6d1412c1e7023e8" prot="public" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>solveGeneral</name></member>
-      <member refid="classMR_1_1Cylinder3Approximation_1a0fe383f15556ef41b9d2bfce165b2af4" prot="public" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>solveSpecificAxis</name></member>
-      <member refid="classMR_1_1Cylinder3Approximation_1a5cf30a88b39598fee141ae8e3147729a" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>SpecificAxisFit</name></member>
-      <member refid="classMR_1_1Cylinder3Approximation_1a572ae0cdbfe25ad8d61bb1b2789bccac" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>thetaResolution_</name></member>
-      <member refid="classMR_1_1Cylinder3Approximation_1a626ca4bfa406a8a459b2b55d004c3e9b" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>updatePrecomputeParams</name></member>
+      <member refid="group__GeneralGroup_1ga579d35802248f0935569af18cf42db07" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>baseCylinderAxis_</name></member>
+      <member refid="group__GeneralGroup_1gaafde02b06eea3fda628d934ce5b91770" prot="public" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>Cylinder3Approximation</name></member>
+      <member refid="group__GeneralGroup_1gaf599ba04fb6dbe5520a1037998321ba8" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>CylinderFitterType</name></member>
+      <member refid="group__GeneralGroup_1ga6cfff0c53009b5847aaf0142118a1c1f" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>fitCylindeHemisphereMultiThreaded</name></member>
+      <member refid="group__GeneralGroup_1ga9d04ae9e2ea8fc5f83411e9b05795448" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>fitCylindeHemisphereSingleThreaded</name></member>
+      <member refid="group__GeneralGroup_1gabb30d2ef61a3c237a636b17c577959c6" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>fitter_</name></member>
+      <member refid="group__GeneralGroup_1gab64fa1f0c1cf5703dca8ebd51dba0e7a" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>G</name></member>
+      <member refid="group__GeneralGroup_1ga832899d3c70ab1c69613bf142d44c41d" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>isMultithread_</name></member>
+      <member refid="group__GeneralGroup_1ga45710dc638e9a62fadc67bf7339d3fad" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>normalizedPoints_</name></member>
+      <member refid="group__GeneralGroup_1ga3a1edcc7bb8603942ed0c5ffd02088b2" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>phiResolution_</name></member>
+      <member refid="group__GeneralGroup_1ga697dc85e99148d758f412ac9a63d583d" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>precomputedF0_</name></member>
+      <member refid="group__GeneralGroup_1gadd39d274c7bf18726d5f0f8af50c0dc9" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>precomputedF1_</name></member>
+      <member refid="group__GeneralGroup_1ga11d3a86ad6a7b217f7be33edeee47ba2" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>precomputedF2_</name></member>
+      <member refid="group__GeneralGroup_1ga6b83e51c6eb2a0c8ea2e23c70a5e8efe" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>precomputedMu_</name></member>
+      <member refid="group__GeneralGroup_1ga9fd0419e56efe6e18be85cf20d1ab692" prot="public" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>reset</name></member>
+      <member refid="group__GeneralGroup_1gaf3ea4afe87e1dbb78ccb5720a2bb25bd" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>solve</name></member>
+      <member refid="group__GeneralGroup_1gabe21b11b74d5ae62d6d1412c1e7023e8" prot="public" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>solveGeneral</name></member>
+      <member refid="group__GeneralGroup_1ga0fe383f15556ef41b9d2bfce165b2af4" prot="public" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>solveSpecificAxis</name></member>
+      <member refid="group__GeneralGroup_1ga5cf30a88b39598fee141ae8e3147729a" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>SpecificAxisFit</name></member>
+      <member refid="group__GeneralGroup_1ga572ae0cdbfe25ad8d61bb1b2789bccac" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>thetaResolution_</name></member>
+      <member refid="group__GeneralGroup_1ga626ca4bfa406a8a459b2b55d004c3e9b" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>updatePrecomputeParams</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

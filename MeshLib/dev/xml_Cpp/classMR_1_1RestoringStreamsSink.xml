@@ -92,7 +92,7 @@
     </sectiondef>
     <sectiondef kind="public-func">
       <memberdef kind="function" id="classMR_1_1RestoringStreamsSink_1aa423a8c6a70592f7e1b45b5f3255c5c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <type>MRMESH_API</type>
         <definition>MRMESH_API MR::RestoringStreamsSink::RestoringStreamsSink</definition>
         <argsstring>()</argsstring>
         <name>RestoringStreamsSink</name>
@@ -106,7 +106,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRestoringStreamsSink.h" line="37" column="16"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1RestoringStreamsSink_1a618c5f626a98c04e3f583577f1a0be03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <type>MRMESH_API</type>
         <definition>MRMESH_API MR::RestoringStreamsSink::~RestoringStreamsSink</definition>
         <argsstring>()</argsstring>
         <name>~RestoringStreamsSink</name>

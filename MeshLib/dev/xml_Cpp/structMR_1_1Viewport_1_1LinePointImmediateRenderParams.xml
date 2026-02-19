@@ -5,36 +5,8 @@
     <basecompoundref refid="structMR_1_1BaseRenderParams" prot="public" virt="non-virtual">MR::BaseRenderParams</basecompoundref>
     <includes refid="MRViewport_8h" local="no">MRViewport.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1Viewport_1_1LinePointImmediateRenderParams_1aed132f8f5de9c205e387a103f2378f07" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::Viewport::LinePointImmediateRenderParams::width</definition>
-        <argsstring></argsstring>
-        <name>width</name>
-        <qualifiedname>MR::Viewport::LinePointImmediateRenderParams::width</qualifiedname>
-        <initializer>{1.0f}</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewport.h" line="121" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewport.h" bodystart="121" bodyend="121"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1Viewport_1_1LinePointImmediateRenderParams_1a66920eee269c99c0e8fc16530ac5399d" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::Viewport::LinePointImmediateRenderParams::depthTest</definition>
-        <argsstring></argsstring>
-        <name>depthTest</name>
-        <qualifiedname>MR::Viewport::LinePointImmediateRenderParams::depthTest</qualifiedname>
-        <initializer>{ true }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewport.h" line="122" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewport.h" bodystart="122" bodyend="122"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaed132f8f5de9c205e387a103f2378f07" kind="variable"><name>width</name></member>
+      <member refid="group__GeneralGroup_1ga66920eee269c99c0e8fc16530ac5399d" kind="variable"><name>depthTest</name></member>
     </sectiondef>
     <briefdescription>
 <para>Rendering parameters for immediate drawing of lines and points. </para>
@@ -72,14 +44,14 @@
         <link refid="classMR_1_1ViewportId"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewport.h" line="119" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewport.h" bodystart="120" bodyend="123"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewport.h" line="122" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewport.h" bodystart="123" bodyend="126"/>
     <listofallmembers>
-      <member refid="structMR_1_1Viewport_1_1LinePointImmediateRenderParams_1a66920eee269c99c0e8fc16530ac5399d" prot="public" virt="non-virtual"><scope>MR::Viewport::LinePointImmediateRenderParams</scope><name>depthTest</name></member>
-      <member refid="structMR_1_1BaseRenderParams_1ab108063540156c1b73540c07c48e6d01" prot="public" virt="non-virtual"><scope>MR::Viewport::LinePointImmediateRenderParams</scope><name>projMatrix</name></member>
-      <member refid="structMR_1_1BaseRenderParams_1a564bcf6e1925912d15fa1cb20a3b0a3c" prot="public" virt="non-virtual"><scope>MR::Viewport::LinePointImmediateRenderParams</scope><name>viewMatrix</name></member>
-      <member refid="structMR_1_1BaseRenderParams_1aabb1d7dfa544bd6cb1d98a79a8d036a9" prot="public" virt="non-virtual"><scope>MR::Viewport::LinePointImmediateRenderParams</scope><name>viewport</name></member>
-      <member refid="structMR_1_1BaseRenderParams_1adf952473500110be7f693c5d725f6fde" prot="public" virt="non-virtual"><scope>MR::Viewport::LinePointImmediateRenderParams</scope><name>viewportId</name></member>
-      <member refid="structMR_1_1Viewport_1_1LinePointImmediateRenderParams_1aed132f8f5de9c205e387a103f2378f07" prot="public" virt="non-virtual"><scope>MR::Viewport::LinePointImmediateRenderParams</scope><name>width</name></member>
+      <member refid="group__GeneralGroup_1ga66920eee269c99c0e8fc16530ac5399d" prot="public" virt="non-virtual"><scope>MR::Viewport::LinePointImmediateRenderParams</scope><name>depthTest</name></member>
+      <member refid="group__GeneralGroup_1gab108063540156c1b73540c07c48e6d01" prot="public" virt="non-virtual"><scope>MR::Viewport::LinePointImmediateRenderParams</scope><name>projMatrix</name></member>
+      <member refid="group__GeneralGroup_1ga564bcf6e1925912d15fa1cb20a3b0a3c" prot="public" virt="non-virtual"><scope>MR::Viewport::LinePointImmediateRenderParams</scope><name>viewMatrix</name></member>
+      <member refid="group__GeneralGroup_1gaabb1d7dfa544bd6cb1d98a79a8d036a9" prot="public" virt="non-virtual"><scope>MR::Viewport::LinePointImmediateRenderParams</scope><name>viewport</name></member>
+      <member refid="group__GeneralGroup_1gadf952473500110be7f693c5d725f6fde" prot="public" virt="non-virtual"><scope>MR::Viewport::LinePointImmediateRenderParams</scope><name>viewportId</name></member>
+      <member refid="group__GeneralGroup_1gaed132f8f5de9c205e387a103f2378f07" prot="public" virt="non-virtual"><scope>MR::Viewport::LinePointImmediateRenderParams</scope><name>width</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

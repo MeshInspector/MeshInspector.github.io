@@ -4,87 +4,25 @@
     <compoundname>MR::NumSum</compoundname>
     <includes refid="MRICP_8h" local="no">MRICP.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1NumSum_1afd716f4242e9554e7900e18a890be1fa" prot="public" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::NumSum::num</definition>
-        <argsstring></argsstring>
-        <name>num</name>
-        <qualifiedname>MR::NumSum::num</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="91" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="91" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1NumSum_1adab70c85e9a40a08c221e2a031274326" prot="public" static="no" mutable="no">
-        <type>double</type>
-        <definition>double MR::NumSum::sum</definition>
-        <argsstring></argsstring>
-        <name>sum</name>
-        <qualifiedname>MR::NumSum::sum</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="92" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="92" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gafd716f4242e9554e7900e18a890be1fa" kind="variable"><name>num</name></member>
+      <member refid="group__GeneralGroup_1gadab70c85e9a40a08c221e2a031274326" kind="variable"><name>sum</name></member>
     </sectiondef>
     <sectiondef kind="friend">
-      <memberdef kind="friend" id="structMR_1_1NumSum_1a0fe6b707b49d42eb921bab61a351f02f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1NumSum" kindref="compound">NumSum</ref></type>
-        <definition>NumSum operator+</definition>
-        <argsstring>(const NumSum &amp;a, const NumSum &amp;b)</argsstring>
-        <name>operator+</name>
-        <qualifiedname>MR::NumSum::operator+</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1NumSum" kindref="compound">NumSum</ref> &amp;</type>
-          <declname>a</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1NumSum" kindref="compound">NumSum</ref> &amp;</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="94" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="94" bodyend="94"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga0fe6b707b49d42eb921bab61a351f02f" kind="friend"><name>operator+</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1NumSum_1a6e4c85d138945344d45fda05ab558710" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>float</type>
-        <definition>float MR::NumSum::rootMeanSqF</definition>
-        <argsstring>() const</argsstring>
-        <name>rootMeanSqF</name>
-        <qualifiedname>MR::NumSum::rootMeanSqF</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="96" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="96" bodyend="96"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga6e4c85d138945344d45fda05ab558710" kind="function"><name>rootMeanSqF</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="89" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="90" bodyend="97"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="92" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="93" bodyend="100"/>
     <listofallmembers>
-      <member refid="structMR_1_1NumSum_1afd716f4242e9554e7900e18a890be1fa" prot="public" virt="non-virtual"><scope>MR::NumSum</scope><name>num</name></member>
-      <member refid="structMR_1_1NumSum_1a0fe6b707b49d42eb921bab61a351f02f" prot="public" virt="non-virtual"><scope>MR::NumSum</scope><name>operator+</name></member>
-      <member refid="structMR_1_1NumSum_1a6e4c85d138945344d45fda05ab558710" prot="public" virt="non-virtual"><scope>MR::NumSum</scope><name>rootMeanSqF</name></member>
-      <member refid="structMR_1_1NumSum_1adab70c85e9a40a08c221e2a031274326" prot="public" virt="non-virtual"><scope>MR::NumSum</scope><name>sum</name></member>
+      <member refid="group__GeneralGroup_1gafd716f4242e9554e7900e18a890be1fa" prot="public" virt="non-virtual"><scope>MR::NumSum</scope><name>num</name></member>
+      <member refid="group__GeneralGroup_1ga0fe6b707b49d42eb921bab61a351f02f" prot="public" virt="non-virtual"><scope>MR::NumSum</scope><name>operator+</name></member>
+      <member refid="group__GeneralGroup_1ga6e4c85d138945344d45fda05ab558710" prot="public" virt="non-virtual"><scope>MR::NumSum</scope><name>rootMeanSqF</name></member>
+      <member refid="group__GeneralGroup_1gadab70c85e9a40a08c221e2a031274326" prot="public" virt="non-virtual"><scope>MR::NumSum</scope><name>sum</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

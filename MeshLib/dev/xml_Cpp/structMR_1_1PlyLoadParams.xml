@@ -4,180 +4,17 @@
     <compoundname>MR::PlyLoadParams</compoundname>
     <includes refid="MRPly_8h" local="no">MRPly.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1PlyLoadParams_1ab60b055cffae98b1ce1a1a4466cfe633" prot="public" static="no" mutable="no">
-        <type>std::optional&lt; Triangulation &gt; *</type>
-        <definition>std::optional&lt;Triangulation&gt;* MR::PlyLoadParams::tris</definition>
-        <argsstring></argsstring>
-        <name>tris</name>
-        <qualifiedname>MR::PlyLoadParams::tris</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-<para>optional load artifact: mesh triangles </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPly.h" line="16" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPly.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1PlyLoadParams_1ae8303df7b41e4693e1bc02050bc121ca" prot="public" static="no" mutable="no">
-        <type>std::optional&lt; <ref refid="MRObjectMeshHolder_8h_1a29d14b75d26970bc256e90bf11c3f0e5" kindref="member">Edges</ref> &gt; *</type>
-        <definition>std::optional&lt;Edges&gt;* MR::PlyLoadParams::edges</definition>
-        <argsstring></argsstring>
-        <name>edges</name>
-        <qualifiedname>MR::PlyLoadParams::edges</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-<para>optional load artifact: polyline edges </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPly.h" line="17" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPly.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1PlyLoadParams_1a9ce47c459de54352d5e746497909802c" prot="public" static="no" mutable="no">
-        <type>VertColors *</type>
-        <definition>VertColors* MR::PlyLoadParams::colors</definition>
-        <argsstring></argsstring>
-        <name>colors</name>
-        <qualifiedname>MR::PlyLoadParams::colors</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-<para>optional load artifact: per-vertex color map </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPly.h" line="18" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPly.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1PlyLoadParams_1adfaa1da3233f2b31bd69d1841e863162" prot="public" static="no" mutable="no">
-        <type>FaceColors *</type>
-        <definition>FaceColors* MR::PlyLoadParams::faceColors</definition>
-        <argsstring></argsstring>
-        <name>faceColors</name>
-        <qualifiedname>MR::PlyLoadParams::faceColors</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-<para>optional load artifact: per-face color map </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPly.h" line="19" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPly.h" bodystart="19" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1PlyLoadParams_1ad25eed18572d645b917be81829d73a71" prot="public" static="no" mutable="no">
-        <type>VertUVCoords *</type>
-        <definition>VertUVCoords* MR::PlyLoadParams::uvCoords</definition>
-        <argsstring></argsstring>
-        <name>uvCoords</name>
-        <qualifiedname>MR::PlyLoadParams::uvCoords</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-<para>optional load artifact: per-vertex uv-coordinates </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPly.h" line="20" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPly.h" bodystart="20" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1PlyLoadParams_1a2e08ddf614c8b881ce551b6810228501" prot="public" static="no" mutable="no">
-        <type>TriCornerUVCoords *</type>
-        <definition>TriCornerUVCoords* MR::PlyLoadParams::triCornerUvCoords</definition>
-        <argsstring></argsstring>
-        <name>triCornerUvCoords</name>
-        <qualifiedname>MR::PlyLoadParams::triCornerUvCoords</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-<para>optional load artifact: per-corner uv-coordinates for each triangle </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPly.h" line="21" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPly.h" bodystart="21" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1PlyLoadParams_1a128f81d674912484655b1bf2a62ae58f" prot="public" static="no" mutable="no">
-        <type>VertNormals *</type>
-        <definition>VertNormals* MR::PlyLoadParams::normals</definition>
-        <argsstring></argsstring>
-        <name>normals</name>
-        <qualifiedname>MR::PlyLoadParams::normals</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-<para>optional load artifact: per-vertex normals </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPly.h" line="22" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPly.h" bodystart="22" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1PlyLoadParams_1a0da01188c983c86875fdd5d0b6471fa5" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1MeshTexture" kindref="compound">MeshTexture</ref> *</type>
-        <definition>MeshTexture* MR::PlyLoadParams::texture</definition>
-        <argsstring></argsstring>
-        <name>texture</name>
-        <qualifiedname>MR::PlyLoadParams::texture</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-<para>optional load artifact: texture image </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPly.h" line="23" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPly.h" bodystart="23" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1PlyLoadParams_1a5084f3891463b6886fc10c57dbce63af" prot="public" static="no" mutable="no">
-        <type>std::filesystem::path</type>
-        <definition>std::filesystem::path MR::PlyLoadParams::dir</definition>
-        <argsstring></argsstring>
-        <name>dir</name>
-        <qualifiedname>MR::PlyLoadParams::dir</qualifiedname>
-        <briefdescription>
-<para>directory to load texture files from </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPly.h" line="25" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPly.h" bodystart="25" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1PlyLoadParams_1af97e597d26a385d02c839501ae01a201" prot="public" static="no" mutable="no">
-        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
-        <definition>ProgressCallback MR::PlyLoadParams::callback</definition>
-        <argsstring></argsstring>
-        <name>callback</name>
-        <qualifiedname>MR::PlyLoadParams::callback</qualifiedname>
-        <briefdescription>
-<para>callback for set progress and stop process </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPly.h" line="26" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPly.h" bodystart="26" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1PlyLoadParams_1a9ad593a784aa6436f4c2c6a5ba87b9ca" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::PlyLoadParams::telemetrySignal</definition>
-        <argsstring></argsstring>
-        <name>telemetrySignal</name>
-        <qualifiedname>MR::PlyLoadParams::telemetrySignal</qualifiedname>
-        <initializer>= true</initializer>
-        <briefdescription>
-<para>permit telemetry signal about loading </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPly.h" line="27" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPly.h" bodystart="27" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gab60b055cffae98b1ce1a1a4466cfe633" kind="variable"><name>tris</name></member>
+      <member refid="group__GeneralGroup_1gae8303df7b41e4693e1bc02050bc121ca" kind="variable"><name>edges</name></member>
+      <member refid="group__GeneralGroup_1ga9ce47c459de54352d5e746497909802c" kind="variable"><name>colors</name></member>
+      <member refid="group__GeneralGroup_1gadfaa1da3233f2b31bd69d1841e863162" kind="variable"><name>faceColors</name></member>
+      <member refid="group__GeneralGroup_1gad25eed18572d645b917be81829d73a71" kind="variable"><name>uvCoords</name></member>
+      <member refid="group__GeneralGroup_1ga2e08ddf614c8b881ce551b6810228501" kind="variable"><name>triCornerUvCoords</name></member>
+      <member refid="group__GeneralGroup_1ga128f81d674912484655b1bf2a62ae58f" kind="variable"><name>normals</name></member>
+      <member refid="group__GeneralGroup_1ga0da01188c983c86875fdd5d0b6471fa5" kind="variable"><name>texture</name></member>
+      <member refid="group__GeneralGroup_1ga5084f3891463b6886fc10c57dbce63af" kind="variable"><name>dir</name></member>
+      <member refid="group__GeneralGroup_1gaf97e597d26a385d02c839501ae01a201" kind="variable"><name>callback</name></member>
+      <member refid="group__GeneralGroup_1ga9ad593a784aa6436f4c2c6a5ba87b9ca" kind="variable"><name>telemetrySignal</name></member>
     </sectiondef>
     <briefdescription>
 <para>optional load artifacts and other setting for PLY file loading </para>
@@ -203,19 +40,19 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPly.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPly.h" bodystart="15" bodyend="28"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPly.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPly.h" bodystart="18" bodyend="31"/>
     <listofallmembers>
-      <member refid="structMR_1_1PlyLoadParams_1af97e597d26a385d02c839501ae01a201" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>callback</name></member>
-      <member refid="structMR_1_1PlyLoadParams_1a9ce47c459de54352d5e746497909802c" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>colors</name></member>
-      <member refid="structMR_1_1PlyLoadParams_1a5084f3891463b6886fc10c57dbce63af" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>dir</name></member>
-      <member refid="structMR_1_1PlyLoadParams_1ae8303df7b41e4693e1bc02050bc121ca" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>edges</name></member>
-      <member refid="structMR_1_1PlyLoadParams_1adfaa1da3233f2b31bd69d1841e863162" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>faceColors</name></member>
-      <member refid="structMR_1_1PlyLoadParams_1a128f81d674912484655b1bf2a62ae58f" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>normals</name></member>
-      <member refid="structMR_1_1PlyLoadParams_1a9ad593a784aa6436f4c2c6a5ba87b9ca" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>telemetrySignal</name></member>
-      <member refid="structMR_1_1PlyLoadParams_1a0da01188c983c86875fdd5d0b6471fa5" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>texture</name></member>
-      <member refid="structMR_1_1PlyLoadParams_1a2e08ddf614c8b881ce551b6810228501" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>triCornerUvCoords</name></member>
-      <member refid="structMR_1_1PlyLoadParams_1ab60b055cffae98b1ce1a1a4466cfe633" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>tris</name></member>
-      <member refid="structMR_1_1PlyLoadParams_1ad25eed18572d645b917be81829d73a71" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>uvCoords</name></member>
+      <member refid="group__GeneralGroup_1gaf97e597d26a385d02c839501ae01a201" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>callback</name></member>
+      <member refid="group__GeneralGroup_1ga9ce47c459de54352d5e746497909802c" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>colors</name></member>
+      <member refid="group__GeneralGroup_1ga5084f3891463b6886fc10c57dbce63af" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>dir</name></member>
+      <member refid="group__GeneralGroup_1gae8303df7b41e4693e1bc02050bc121ca" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>edges</name></member>
+      <member refid="group__GeneralGroup_1gadfaa1da3233f2b31bd69d1841e863162" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>faceColors</name></member>
+      <member refid="group__GeneralGroup_1ga128f81d674912484655b1bf2a62ae58f" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>normals</name></member>
+      <member refid="group__GeneralGroup_1ga9ad593a784aa6436f4c2c6a5ba87b9ca" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>telemetrySignal</name></member>
+      <member refid="group__GeneralGroup_1ga0da01188c983c86875fdd5d0b6471fa5" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>texture</name></member>
+      <member refid="group__GeneralGroup_1ga2e08ddf614c8b881ce551b6810228501" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>triCornerUvCoords</name></member>
+      <member refid="group__GeneralGroup_1gab60b055cffae98b1ce1a1a4466cfe633" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>tris</name></member>
+      <member refid="group__GeneralGroup_1gad25eed18572d645b917be81829d73a71" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>uvCoords</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

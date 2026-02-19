@@ -5,76 +5,14 @@
     <basecompoundref refid="classMR_1_1RibbonMenuItem" prot="public" virt="non-virtual">MR::RibbonMenuItem</basecompoundref>
     <includes refid="MRLambdaRibbonItem_8h" local="no">MRLambdaRibbonItem.h</includes>
     <sectiondef kind="public-type">
-      <memberdef kind="typedef" id="classMR_1_1LambdaRibbonItem_1adf0efc0eaab84312e1058ba6f3d8cb95" prot="public" static="no">
-        <type>std::function&lt; void()&gt;</type>
-        <definition>using MR::LambdaRibbonItem::SimpleLambda =  std::function&lt;void()&gt;</definition>
-        <argsstring></argsstring>
-        <name>SimpleLambda</name>
-        <qualifiedname>MR::LambdaRibbonItem::SimpleLambda</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRLambdaRibbonItem.h" line="12" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRLambdaRibbonItem.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gadf0efc0eaab84312e1058ba6f3d8cb95" kind="typedef"><name>SimpleLambda</name></member>
     </sectiondef>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1LambdaRibbonItem_1aa1374eb434966d04ed3799de672ce3a3" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1LambdaRibbonItem_1adf0efc0eaab84312e1058ba6f3d8cb95" kindref="member">SimpleLambda</ref></type>
-        <definition>SimpleLambda MR::LambdaRibbonItem::lambda_</definition>
-        <argsstring></argsstring>
-        <name>lambda_</name>
-        <qualifiedname>MR::LambdaRibbonItem::lambda_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRLambdaRibbonItem.h" line="24" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRLambdaRibbonItem.h" bodystart="24" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaa1374eb434966d04ed3799de672ce3a3" kind="variable"><name>lambda_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1LambdaRibbonItem_1adef78787d2334e909f2cd6f40c3e427e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::LambdaRibbonItem::LambdaRibbonItem</definition>
-        <argsstring>(std::string name, SimpleLambda lambda)</argsstring>
-        <name>LambdaRibbonItem</name>
-        <qualifiedname>MR::LambdaRibbonItem::LambdaRibbonItem</qualifiedname>
-        <param>
-          <type>std::string</type>
-          <declname>name</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1LambdaRibbonItem_1adf0efc0eaab84312e1058ba6f3d8cb95" kindref="member">SimpleLambda</ref></type>
-          <declname>lambda</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRLambdaRibbonItem.h" line="13" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRLambdaRibbonItem.h" bodystart="13" bodyend="16"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1LambdaRibbonItem_1a596df9f6e3335a7b93dbefdeffcf7b72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::LambdaRibbonItem::action</definition>
-        <argsstring>() override</argsstring>
-        <name>action</name>
-        <qualifiedname>MR::LambdaRibbonItem::action</qualifiedname>
-        <reimplements refid="classMR_1_1RibbonMenuItem_1a4af847e120965263839d2628cf7dd979">action</reimplements>
-        <briefdescription>
-<para>returns true if state of item changed </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRLambdaRibbonItem.h" line="18" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRLambdaRibbonItem.h" bodystart="18" bodyend="22"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gadef78787d2334e909f2cd6f40c3e427e" kind="function"><name>LambdaRibbonItem</name></member>
+      <member refid="group__GeneralGroup_1ga596df9f6e3335a7b93dbefdeffcf7b72" kind="function"><name>action</name></member>
     </sectiondef>
     <briefdescription>
 <para>Simple ribbon item acting given lambda. </para>
@@ -117,29 +55,29 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRLambdaRibbonItem.h" line="9" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRLambdaRibbonItem.h" bodystart="10" bodyend="25"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRLambdaRibbonItem.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRLambdaRibbonItem.h" bodystart="13" bodyend="28"/>
     <listofallmembers>
-      <member refid="classMR_1_1LambdaRibbonItem_1a596df9f6e3335a7b93dbefdeffcf7b72" prot="public" virt="virtual"><scope>MR::LambdaRibbonItem</scope><name>action</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1ac9fd2cbdcf5356c6fbb093464568afdc" prot="public" virt="virtual"><scope>MR::LambdaRibbonItem</scope><name>blocking</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a1141be44babb4a13201487188c332668" prot="public" virt="virtual"><scope>MR::LambdaRibbonItem</scope><name>dropItems</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a4799011be3410f46444164d6d00b966e" prot="public" virt="non-virtual"><scope>MR::LambdaRibbonItem</scope><name>DropItemsList</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a2f25401d4b94a752bd63b79152673ab5" prot="protected" virt="non-virtual"><scope>MR::LambdaRibbonItem</scope><name>dropList_</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a88f1487695e2012ebb1cacbc1a59775a" prot="public" virt="virtual"><scope>MR::LambdaRibbonItem</scope><name>getDynamicTooltip</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a3b30bb82fe11901e3d971d3b761f5bf2" prot="public" virt="virtual"><scope>MR::LambdaRibbonItem</scope><name>isActive</name></member>
-      <member refid="classMR_1_1ISceneStateCheck_1adedf10c80ddfebcb456559fa828065c0" prot="public" virt="virtual"><scope>MR::LambdaRibbonItem</scope><name>isAvailable</name></member>
-      <member refid="classMR_1_1LambdaRibbonItem_1aa1374eb434966d04ed3799de672ce3a3" prot="private" virt="non-virtual"><scope>MR::LambdaRibbonItem</scope><name>lambda_</name></member>
-      <member refid="classMR_1_1LambdaRibbonItem_1adef78787d2334e909f2cd6f40c3e427e" prot="public" virt="non-virtual"><scope>MR::LambdaRibbonItem</scope><name>LambdaRibbonItem</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a957422a15704b2f8854bfd0b2d1ae76d" prot="public" virt="non-virtual"><scope>MR::LambdaRibbonItem</scope><name>MR_DELETE_MOVE</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1abf4ea13c8983c44214b92a066e8b7659" prot="public" virt="non-virtual"><scope>MR::LambdaRibbonItem</scope><name>name</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1ad3e0eda49eae11a9fba79187c62e07bb" prot="public" virt="non-virtual"><scope>MR::LambdaRibbonItem</scope><name>RibbonMenuItem</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1af417cbe66b6559e5df0122377c5a3628" prot="public" virt="non-virtual"><scope>MR::LambdaRibbonItem</scope><name>setDropItemsFromItemList</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1ab499c9049737793e6b1994048b99952c" prot="public" virt="non-virtual"><scope>MR::LambdaRibbonItem</scope><name>setRibbonItemType</name></member>
-      <member refid="classMR_1_1LambdaRibbonItem_1adf0efc0eaab84312e1058ba6f3d8cb95" prot="public" virt="non-virtual"><scope>MR::LambdaRibbonItem</scope><name>SimpleLambda</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a15b6a4b9f191b8716be1199364bb74e0" prot="public" virt="virtual"><scope>MR::LambdaRibbonItem</scope><name>type</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a00b402da6dbcec7d6c97b5c6a16e3924" prot="protected" virt="non-virtual"><scope>MR::LambdaRibbonItem</scope><name>type_</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a327958b76ec3d044202620beafe67c93" prot="public" virt="virtual"><scope>MR::LambdaRibbonItem</scope><name>uiName</name></member>
-      <member refid="classMR_1_1ISceneStateCheck_1ad6d7bd5bc97dd4a629de5e0a33af3afe" prot="public" virt="virtual"><scope>MR::LambdaRibbonItem</scope><name>~ISceneStateCheck</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1ac8074b75f1c764d041b11210b5b7541c" prot="public" virt="virtual"><scope>MR::LambdaRibbonItem</scope><name>~RibbonMenuItem</name></member>
+      <member refid="group__GeneralGroup_1ga596df9f6e3335a7b93dbefdeffcf7b72" prot="public" virt="virtual"><scope>MR::LambdaRibbonItem</scope><name>action</name></member>
+      <member refid="group__GeneralGroup_1gac9fd2cbdcf5356c6fbb093464568afdc" prot="public" virt="virtual"><scope>MR::LambdaRibbonItem</scope><name>blocking</name></member>
+      <member refid="group__GeneralGroup_1ga1141be44babb4a13201487188c332668" prot="public" virt="virtual"><scope>MR::LambdaRibbonItem</scope><name>dropItems</name></member>
+      <member refid="group__GeneralGroup_1ga4799011be3410f46444164d6d00b966e" prot="public" virt="non-virtual"><scope>MR::LambdaRibbonItem</scope><name>DropItemsList</name></member>
+      <member refid="group__GeneralGroup_1ga2f25401d4b94a752bd63b79152673ab5" prot="protected" virt="non-virtual"><scope>MR::LambdaRibbonItem</scope><name>dropList_</name></member>
+      <member refid="group__GeneralGroup_1ga88f1487695e2012ebb1cacbc1a59775a" prot="public" virt="virtual"><scope>MR::LambdaRibbonItem</scope><name>getDynamicTooltip</name></member>
+      <member refid="group__GeneralGroup_1ga3b30bb82fe11901e3d971d3b761f5bf2" prot="public" virt="virtual"><scope>MR::LambdaRibbonItem</scope><name>isActive</name></member>
+      <member refid="group__GeneralGroup_1gadedf10c80ddfebcb456559fa828065c0" prot="public" virt="virtual"><scope>MR::LambdaRibbonItem</scope><name>isAvailable</name></member>
+      <member refid="group__GeneralGroup_1gaa1374eb434966d04ed3799de672ce3a3" prot="private" virt="non-virtual"><scope>MR::LambdaRibbonItem</scope><name>lambda_</name></member>
+      <member refid="group__GeneralGroup_1gadef78787d2334e909f2cd6f40c3e427e" prot="public" virt="non-virtual"><scope>MR::LambdaRibbonItem</scope><name>LambdaRibbonItem</name></member>
+      <member refid="group__GeneralGroup_1ga957422a15704b2f8854bfd0b2d1ae76d" prot="public" virt="non-virtual"><scope>MR::LambdaRibbonItem</scope><name>MR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1gabf4ea13c8983c44214b92a066e8b7659" prot="public" virt="non-virtual"><scope>MR::LambdaRibbonItem</scope><name>name</name></member>
+      <member refid="group__GeneralGroup_1gad3e0eda49eae11a9fba79187c62e07bb" prot="public" virt="non-virtual"><scope>MR::LambdaRibbonItem</scope><name>RibbonMenuItem</name></member>
+      <member refid="group__GeneralGroup_1gaf417cbe66b6559e5df0122377c5a3628" prot="public" virt="non-virtual"><scope>MR::LambdaRibbonItem</scope><name>setDropItemsFromItemList</name></member>
+      <member refid="group__GeneralGroup_1gab499c9049737793e6b1994048b99952c" prot="public" virt="non-virtual"><scope>MR::LambdaRibbonItem</scope><name>setRibbonItemType</name></member>
+      <member refid="group__GeneralGroup_1gadf0efc0eaab84312e1058ba6f3d8cb95" prot="public" virt="non-virtual"><scope>MR::LambdaRibbonItem</scope><name>SimpleLambda</name></member>
+      <member refid="group__GeneralGroup_1ga15b6a4b9f191b8716be1199364bb74e0" prot="public" virt="virtual"><scope>MR::LambdaRibbonItem</scope><name>type</name></member>
+      <member refid="group__GeneralGroup_1ga00b402da6dbcec7d6c97b5c6a16e3924" prot="protected" virt="non-virtual"><scope>MR::LambdaRibbonItem</scope><name>type_</name></member>
+      <member refid="group__GeneralGroup_1ga327958b76ec3d044202620beafe67c93" prot="public" virt="virtual"><scope>MR::LambdaRibbonItem</scope><name>uiName</name></member>
+      <member refid="group__GeneralGroup_1gad6d7bd5bc97dd4a629de5e0a33af3afe" prot="public" virt="virtual"><scope>MR::LambdaRibbonItem</scope><name>~ISceneStateCheck</name></member>
+      <member refid="group__GeneralGroup_1gac8074b75f1c764d041b11210b5b7541c" prot="public" virt="virtual"><scope>MR::LambdaRibbonItem</scope><name>~RibbonMenuItem</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

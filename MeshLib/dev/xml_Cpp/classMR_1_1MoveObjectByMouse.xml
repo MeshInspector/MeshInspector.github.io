@@ -6,260 +6,27 @@
     <includes refid="MRMoveObjectByMouse_8h" local="no">MRMoveObjectByMouse.h</includes>
     <innerclass refid="classMR_1_1MoveObjectByMouse_1_1MoveObjectByMouseWithSelected" prot="private">MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</innerclass>
     <sectiondef kind="private-type">
-      <memberdef kind="enum" id="classMR_1_1MoveObjectByMouse_1a6aacb9f665076ffd42d5baa6e69c24fb" prot="private" static="no" strong="yes">
-        <type></type>
-        <name>XfMode</name>
-        <qualifiedname>MR::MoveObjectByMouse::XfMode</qualifiedname>
-        <enumvalue id="classMR_1_1MoveObjectByMouse_1a6aacb9f665076ffd42d5baa6e69c24fba6bc362dbf494c61ea117fe3c71ca48a5" prot="private">
-          <name>Move</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1MoveObjectByMouse_1a6aacb9f665076ffd42d5baa6e69c24fba8d2de5368588552fbae54044ac5c7b3d" prot="private">
-          <name>Rotate</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1MoveObjectByMouse_1a6aacb9f665076ffd42d5baa6e69c24fba85a7cd587d6142dbfc1a4de05af7b75d" prot="private">
-          <name>Scale</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-<para>Transformation mode. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRMoveObjectByMouse.h" line="30" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRMoveObjectByMouse.h" bodystart="30" bodyend="30"/>
-      </memberdef>
-      <memberdef kind="enum" id="classMR_1_1MoveObjectByMouse_1a9f9368163a7eb034e5b62720ce527214" prot="private" static="no" strong="yes">
-        <type></type>
-        <name>XfTarget</name>
-        <qualifiedname>MR::MoveObjectByMouse::XfTarget</qualifiedname>
-        <enumvalue id="classMR_1_1MoveObjectByMouse_1a9f9368163a7eb034e5b62720ce527214ad93f746231e2eee7870ea159b391b6a6" prot="private">
-          <name>Picked</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1MoveObjectByMouse_1a9f9368163a7eb034e5b62720ce527214a91b442d385b54e1418d81adc34871053" prot="private">
-          <name>Selected</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-<para>Transformation target: pick an object or move selected object(s) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRMoveObjectByMouse.h" line="32" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRMoveObjectByMouse.h" bodystart="32" bodyend="32"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga6aacb9f665076ffd42d5baa6e69c24fb" kind="enum"><name>XfMode</name></member>
+      <member refid="group__GeneralGroup_1ga9f9368163a7eb034e5b62720ce527214" kind="enum"><name>XfTarget</name></member>
     </sectiondef>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1MoveObjectByMouse_1a5e6920e0ae7542fdb65403c5b40762be" prot="private" static="no" mutable="no">
-        <type>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</type>
-        <definition>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected MR::MoveObjectByMouse::moveByMouse_</definition>
-        <argsstring></argsstring>
-        <name>moveByMouse_</name>
-        <qualifiedname>MR::MoveObjectByMouse::moveByMouse_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRMoveObjectByMouse.h" line="50" column="18"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga5e6920e0ae7542fdb65403c5b40762be" kind="variable"><name>moveByMouse_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1MoveObjectByMouse_1a6cbf5471dae3b6da79fd5848e0962195" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::MoveObjectByMouse::MoveObjectByMouse</definition>
-        <argsstring>()</argsstring>
-        <name>MoveObjectByMouse</name>
-        <qualifiedname>MR::MoveObjectByMouse::MoveObjectByMouse</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRMoveObjectByMouse.h" line="18" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MoveObjectByMouse_1a50d77237a0a34be87abed7cfd945a2f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::MoveObjectByMouse::~MoveObjectByMouse</definition>
-        <argsstring>()</argsstring>
-        <name>~MoveObjectByMouse</name>
-        <qualifiedname>MR::MoveObjectByMouse::~MoveObjectByMouse</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRMoveObjectByMouse.h" line="19" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MoveObjectByMouse_1a71368bcc18bdc5ca465c55ffc7f9681e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::MoveObjectByMouse::onDisable_</definition>
-        <argsstring>() override</argsstring>
-        <name>onDisable_</name>
-        <qualifiedname>MR::MoveObjectByMouse::onDisable_</qualifiedname>
-        <reimplements refid="classMR_1_1StateBasePlugin_1a31980ff25e0e7e77cf8ace037ddd9f68">onDisable_</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRMoveObjectByMouse.h" line="23" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MoveObjectByMouse_1af9eebac5b509f6da74156f568536c564" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MR::MoveObjectByMouse::drawDialog</definition>
-        <argsstring>(ImGuiContext *) override</argsstring>
-        <name>drawDialog</name>
-        <qualifiedname>MR::MoveObjectByMouse::drawDialog</qualifiedname>
-        <reimplements refid="classMR_1_1StateBasePlugin_1aa3a6877967ca8f424ed261e43345bd26">drawDialog</reimplements>
-        <param>
-          <type>ImGuiContext *</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRMoveObjectByMouse.h" line="24" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MoveObjectByMouse_1af8619e80df46a41878d35b50d427ef0c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::MoveObjectByMouse::blocking</definition>
-        <argsstring>() const override</argsstring>
-        <name>blocking</name>
-        <qualifiedname>MR::MoveObjectByMouse::blocking</qualifiedname>
-        <reimplements refid="classMR_1_1StateBasePlugin_1ae7a96edadae63c78192e0f1f6b1f9db9">blocking</reimplements>
-        <briefdescription>
-<para>true if this item is blocking (only one blocking item can be active at once) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRMoveObjectByMouse.h" line="26" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRMoveObjectByMouse.h" bodystart="26" bodyend="26"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga6cbf5471dae3b6da79fd5848e0962195" kind="function"><name>MoveObjectByMouse</name></member>
+      <member refid="group__GeneralGroup_1ga50d77237a0a34be87abed7cfd945a2f3" kind="function"><name>~MoveObjectByMouse</name></member>
+      <member refid="group__GeneralGroup_1ga71368bcc18bdc5ca465c55ffc7f9681e" kind="function"><name>onDisable_</name></member>
+      <member refid="group__GeneralGroup_1gaf9eebac5b509f6da74156f568536c564" kind="function"><name>drawDialog</name></member>
+      <member refid="group__GeneralGroup_1gaf8619e80df46a41878d35b50d427ef0c" kind="function"><name>blocking</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1MoveObjectByMouse_1abd0033249a4d6e6f7bd5d156eedfd3ee" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRCOMMONPLUGINS_API <ref refid="classMR_1_1MoveObjectByMouse" kindref="compound">MoveObjectByMouse</ref> *</type>
-        <definition>static MRCOMMONPLUGINS_API MoveObjectByMouse * MR::MoveObjectByMouse::instance</definition>
-        <argsstring>()</argsstring>
-        <name>instance</name>
-        <qualifiedname>MR::MoveObjectByMouse::instance</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRMoveObjectByMouse.h" line="21" column="50"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gabd0033249a4d6e6f7bd5d156eedfd3ee" kind="function"><name>instance</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMR_1_1MoveObjectByMouse_1a4373ca7b26a7333c0a81f64a340c4817" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::MoveObjectByMouse::onDragStart_</definition>
-        <argsstring>(MouseButton btn, int modifiers) override</argsstring>
-        <name>onDragStart_</name>
-        <qualifiedname>MR::MoveObjectByMouse::onDragStart_</qualifiedname>
-        <param>
-          <type><ref refid="namespaceMR_1a13f98b7840e7298925ef1770b7cdb62d" kindref="member">MouseButton</ref></type>
-          <declname>btn</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>modifiers</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRMoveObjectByMouse.h" line="34" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MoveObjectByMouse_1a8bd4afca2c9a999b6ab24ef08a3c61e8" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::MoveObjectByMouse::onDrag_</definition>
-        <argsstring>(int x, int y) override</argsstring>
-        <name>onDrag_</name>
-        <qualifiedname>MR::MoveObjectByMouse::onDrag_</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>x</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>y</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRMoveObjectByMouse.h" line="35" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MoveObjectByMouse_1a0c03709fbf0edf86f46164592a815dfb" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::MoveObjectByMouse::onDragEnd_</definition>
-        <argsstring>(MouseButton btn, int modifiers) override</argsstring>
-        <name>onDragEnd_</name>
-        <qualifiedname>MR::MoveObjectByMouse::onDragEnd_</qualifiedname>
-        <param>
-          <type><ref refid="namespaceMR_1a13f98b7840e7298925ef1770b7cdb62d" kindref="member">MouseButton</ref></type>
-          <declname>btn</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>modifiers</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRMoveObjectByMouse.h" line="36" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MoveObjectByMouse_1a955d6497371b704e8f2fb16f79ce5461" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MR::MoveObjectByMouse::postDraw_</definition>
-        <argsstring>() override</argsstring>
-        <name>postDraw_</name>
-        <qualifiedname>MR::MoveObjectByMouse::postDraw_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRMoveObjectByMouse.h" line="37" column="18"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga4373ca7b26a7333c0a81f64a340c4817" kind="function"><name>onDragStart_</name></member>
+      <member refid="group__GeneralGroup_1ga8bd4afca2c9a999b6ab24ef08a3c61e8" kind="function"><name>onDrag_</name></member>
+      <member refid="group__GeneralGroup_1ga0c03709fbf0edf86f46164592a815dfb" kind="function"><name>onDragEnd_</name></member>
+      <member refid="group__GeneralGroup_1ga955d6497371b704e8f2fb16f79ce5461" kind="function"><name>postDraw_</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -390,74 +157,74 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRMoveObjectByMouse.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRMoveObjectByMouse.h" bodystart="16" bodyend="51"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRMoveObjectByMouse.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRMoveObjectByMouse.h" bodystart="19" bodyend="54"/>
     <listofallmembers>
-      <member refid="classMR_1_1StateBasePlugin_1a3e096e6d2e0ecf98e399691bd99c82f7" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>action</name></member>
-      <member refid="classMR_1_1MoveObjectByMouse_1af8619e80df46a41878d35b50d427ef0c" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>blocking</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1a730c0edb5aead3d67519512f5545bd63" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>checkStringMask</name></member>
-      <member refid="structMR_1_1MultiListener_1af3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>connect</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1a55b362aee5989fe359aadd33c9be78b4" prot="protected" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>dialogIsCollapsed_</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1ad91197be262f6b569d9234033d73bb8d" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>dialogIsOpen</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1a1d97f71a0f325fbe29b0bbec3e564204" prot="protected" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>dialogIsOpen_</name></member>
-      <member refid="structMR_1_1MultiListener_1acfa598489bfbc3b88c84b029213d042c" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>disconnect</name></member>
-      <member refid="classMR_1_1MoveObjectByMouse_1af9eebac5b509f6da74156f568536c564" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>drawDialog</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a1141be44babb4a13201487188c332668" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>dropItems</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a4799011be3410f46444164d6d00b966e" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>DropItemsList</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a2f25401d4b94a752bd63b79152673ab5" prot="protected" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>dropList_</name></member>
-      <member refid="classMR_1_1StateListenerPlugin_1a7dd63f0fe42b793001a53a4e76b94255" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>enable</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a88f1487695e2012ebb1cacbc1a59775a" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>getDynamicTooltip</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1a54181a3e2d58070b748c4d49c721a0ea" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>getTab</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1a1f81b6898ef7ea347c4639fb8d788bc8" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>getTabName</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1a2cd5d2532aaf3a9fd7283d4bb24a638d" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>getTooltip</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1aa1855ed7ea42bd976bee234e52655ffd" prot="protected" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>ImGuiBeginWindow_</name></member>
-      <member refid="classMR_1_1ViewerPlugin_1a67916b512e8d54ee7cdb8ef1cb4f6794" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>init</name></member>
-      <member refid="classMR_1_1MoveObjectByMouse_1abd0033249a4d6e6f7bd5d156eedfd3ee" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>instance</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1a2172655c98b73059ee0bfc8cb3115097" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>isActive</name></member>
-      <member refid="classMR_1_1ISceneStateCheck_1adedf10c80ddfebcb456559fa828065c0" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>isAvailable</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1ae7da0ed13a069a29ec8fac496e7aa065" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>isEnabled</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1a239e7ea5887cf228c8ea6a7eef781a2c" prot="protected" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>isEnabled_</name></member>
-      <member refid="classMR_1_1MoveObjectByMouse_1a5e6920e0ae7542fdb65403c5b40762be" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>moveByMouse_</name></member>
-      <member refid="classMR_1_1MoveObjectByMouse_1a6cbf5471dae3b6da79fd5848e0962195" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>MoveObjectByMouse</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a957422a15704b2f8854bfd0b2d1ae76d" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>MR_DELETE_MOVE</name></member>
-      <member refid="classMR_1_1StateListenerPlugin_1a700dee77fa82afbe743aa424eb782e2d" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>MultiListenerBase</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1abf4ea13c8983c44214b92a066e8b7659" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>name</name></member>
-      <member refid="classMR_1_1MoveObjectByMouse_1a71368bcc18bdc5ca465c55ffc7f9681e" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>onDisable_</name></member>
-      <member refid="classMR_1_1MoveObjectByMouse_1a8bd4afca2c9a999b6ab24ef08a3c61e8" prot="private" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>onDrag_</name></member>
-      <member refid="classMR_1_1MoveObjectByMouse_1a0c03709fbf0edf86f46164592a815dfb" prot="private" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>onDragEnd_</name></member>
-      <member refid="classMR_1_1MoveObjectByMouse_1a4373ca7b26a7333c0a81f64a340c4817" prot="private" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>onDragStart_</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1a653adb25964ffa5b7ca333c119b2e597" prot="protected" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>onEnable_</name></member>
-      <member refid="classMR_1_1IPluginUpdate_1a0ac2f366f4785c61b991e9d38f1c12d1" prot="protected" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>onPluginDisable_</name></member>
-      <member refid="classMR_1_1IPluginUpdate_1ac74a796b15f4842c135a9956d270caa3" prot="protected" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>onPluginEnable_</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1a3e0c7bd65afe7b25c1f4be31e13ea0c5" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>plugin_name</name></member>
-      <member refid="classMR_1_1StateListenerPlugin_1a1f068c2aecefbd45559101aca348aca3" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>PluginParent</name></member>
-      <member refid="classMR_1_1MoveObjectByMouse_1a955d6497371b704e8f2fb16f79ce5461" prot="private" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>postDraw_</name></member>
-      <member refid="classMR_1_1IPluginUpdate_1a6a79d0d76063de2f4947098cc9cb07a8" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>preDrawUpdate</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1ad3e0eda49eae11a9fba79187c62e07bb" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>RibbonMenuItem</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1af417cbe66b6559e5df0122377c5a3628" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>setDropItemsFromItemList</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1ab499c9049737793e6b1994048b99952c" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>setRibbonItemType</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1a1962cf4397a96b2ffc12d9b23ab51cb6" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>setUIName</name></member>
-      <member refid="classMR_1_1IPluginUpdate_1ab6e6e3dcf2ab382434fd967480164324" prot="protected" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>shouldClose_</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1af0d68f675e98e0a1ceb44192eaf94a13" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>shutdown</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1adede9d0773e7eff370bd78dc66a4c898" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>sortString</name></member>
+      <member refid="group__GeneralGroup_1ga3e096e6d2e0ecf98e399691bd99c82f7" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>action</name></member>
+      <member refid="group__GeneralGroup_1gaf8619e80df46a41878d35b50d427ef0c" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>blocking</name></member>
+      <member refid="group__GeneralGroup_1ga730c0edb5aead3d67519512f5545bd63" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>checkStringMask</name></member>
+      <member refid="group__GeneralGroup_1gaf3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1ga55b362aee5989fe359aadd33c9be78b4" prot="protected" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>dialogIsCollapsed_</name></member>
+      <member refid="group__GeneralGroup_1gad91197be262f6b569d9234033d73bb8d" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>dialogIsOpen</name></member>
+      <member refid="group__GeneralGroup_1ga1d97f71a0f325fbe29b0bbec3e564204" prot="protected" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>dialogIsOpen_</name></member>
+      <member refid="group__GeneralGroup_1gacfa598489bfbc3b88c84b029213d042c" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>disconnect</name></member>
+      <member refid="group__GeneralGroup_1gaf9eebac5b509f6da74156f568536c564" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>drawDialog</name></member>
+      <member refid="group__GeneralGroup_1ga1141be44babb4a13201487188c332668" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>dropItems</name></member>
+      <member refid="group__GeneralGroup_1ga4799011be3410f46444164d6d00b966e" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>DropItemsList</name></member>
+      <member refid="group__GeneralGroup_1ga2f25401d4b94a752bd63b79152673ab5" prot="protected" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>dropList_</name></member>
+      <member refid="group__GeneralGroup_1ga7dd63f0fe42b793001a53a4e76b94255" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>enable</name></member>
+      <member refid="group__GeneralGroup_1ga88f1487695e2012ebb1cacbc1a59775a" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>getDynamicTooltip</name></member>
+      <member refid="group__GeneralGroup_1ga54181a3e2d58070b748c4d49c721a0ea" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>getTab</name></member>
+      <member refid="group__GeneralGroup_1ga1f81b6898ef7ea347c4639fb8d788bc8" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>getTabName</name></member>
+      <member refid="group__GeneralGroup_1ga2cd5d2532aaf3a9fd7283d4bb24a638d" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>getTooltip</name></member>
+      <member refid="group__GeneralGroup_1gaa1855ed7ea42bd976bee234e52655ffd" prot="protected" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>ImGuiBeginWindow_</name></member>
+      <member refid="group__GeneralGroup_1ga67916b512e8d54ee7cdb8ef1cb4f6794" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>init</name></member>
+      <member refid="group__GeneralGroup_1gabd0033249a4d6e6f7bd5d156eedfd3ee" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>instance</name></member>
+      <member refid="group__GeneralGroup_1ga2172655c98b73059ee0bfc8cb3115097" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>isActive</name></member>
+      <member refid="group__GeneralGroup_1gadedf10c80ddfebcb456559fa828065c0" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>isAvailable</name></member>
+      <member refid="group__GeneralGroup_1gae7da0ed13a069a29ec8fac496e7aa065" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>isEnabled</name></member>
+      <member refid="group__GeneralGroup_1ga239e7ea5887cf228c8ea6a7eef781a2c" prot="protected" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>isEnabled_</name></member>
+      <member refid="group__GeneralGroup_1ga5e6920e0ae7542fdb65403c5b40762be" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>moveByMouse_</name></member>
+      <member refid="group__GeneralGroup_1ga6cbf5471dae3b6da79fd5848e0962195" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>MoveObjectByMouse</name></member>
+      <member refid="group__GeneralGroup_1ga957422a15704b2f8854bfd0b2d1ae76d" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>MR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1ga700dee77fa82afbe743aa424eb782e2d" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>MultiListenerBase</name></member>
+      <member refid="group__GeneralGroup_1gabf4ea13c8983c44214b92a066e8b7659" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>name</name></member>
+      <member refid="group__GeneralGroup_1ga71368bcc18bdc5ca465c55ffc7f9681e" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>onDisable_</name></member>
+      <member refid="group__GeneralGroup_1ga8bd4afca2c9a999b6ab24ef08a3c61e8" prot="private" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>onDrag_</name></member>
+      <member refid="group__GeneralGroup_1ga0c03709fbf0edf86f46164592a815dfb" prot="private" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>onDragEnd_</name></member>
+      <member refid="group__GeneralGroup_1ga4373ca7b26a7333c0a81f64a340c4817" prot="private" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>onDragStart_</name></member>
+      <member refid="group__GeneralGroup_1ga653adb25964ffa5b7ca333c119b2e597" prot="protected" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>onEnable_</name></member>
+      <member refid="group__GeneralGroup_1ga0ac2f366f4785c61b991e9d38f1c12d1" prot="protected" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>onPluginDisable_</name></member>
+      <member refid="group__GeneralGroup_1gac74a796b15f4842c135a9956d270caa3" prot="protected" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>onPluginEnable_</name></member>
+      <member refid="group__GeneralGroup_1ga3e0c7bd65afe7b25c1f4be31e13ea0c5" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>plugin_name</name></member>
+      <member refid="group__GeneralGroup_1ga1f068c2aecefbd45559101aca348aca3" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>PluginParent</name></member>
+      <member refid="group__GeneralGroup_1ga955d6497371b704e8f2fb16f79ce5461" prot="private" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>postDraw_</name></member>
+      <member refid="group__GeneralGroup_1ga6a79d0d76063de2f4947098cc9cb07a8" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>preDrawUpdate</name></member>
+      <member refid="group__GeneralGroup_1gad3e0eda49eae11a9fba79187c62e07bb" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>RibbonMenuItem</name></member>
+      <member refid="group__GeneralGroup_1gaf417cbe66b6559e5df0122377c5a3628" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>setDropItemsFromItemList</name></member>
+      <member refid="group__GeneralGroup_1gab499c9049737793e6b1994048b99952c" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>setRibbonItemType</name></member>
+      <member refid="group__GeneralGroup_1ga1962cf4397a96b2ffc12d9b23ab51cb6" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>setUIName</name></member>
+      <member refid="group__GeneralGroup_1gab6e6e3dcf2ab382434fd967480164324" prot="protected" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>shouldClose_</name></member>
+      <member refid="group__GeneralGroup_1gaf0d68f675e98e0a1ceb44192eaf94a13" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>shutdown</name></member>
+      <member refid="group__GeneralGroup_1gadede9d0773e7eff370bd78dc66a4c898" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>sortString</name></member>
       <member refid="classMR_1_1StateListenerPlugin_1a36686d0a6dcae1a1bcce521d5db5e413" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>StateBasePlugin</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1ac3e8d3db81bf9d8a316c46e82f369980" prot="protected" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>tab_</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a15b6a4b9f191b8716be1199364bb74e0" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>type</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a00b402da6dbcec7d6c97b5c6a16e3924" prot="protected" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>type_</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1a56d7b27cd916a3ec2fcf0bcb4b7e3d28" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>uiName</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1a5c9e09293a48644029f129e878ececd6" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>UINameSuffix</name></member>
-      <member refid="classMR_1_1ISceneSelectionChange_1a0e5a18c4e15ba23a7536d1511cb823b6" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>updateSelection</name></member>
-      <member refid="classMR_1_1ViewerPlugin_1ad12538d77ebcf356c03469cbce40abae" prot="protected" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>viewer</name></member>
-      <member refid="classMR_1_1MoveObjectByMouse_1a6aacb9f665076ffd42d5baa6e69c24fb" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>XfMode</name></member>
-      <member refid="classMR_1_1MoveObjectByMouse_1a9f9368163a7eb034e5b62720ce527214" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>XfTarget</name></member>
-      <member refid="classMR_1_1IPluginUpdate_1a3a57e2a35ba84c0bdd2af8a0f162c5f3" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>~IPluginUpdate</name></member>
-      <member refid="classMR_1_1ISceneSelectionChange_1a46ed29a0c79bdfb7de53ea802fee042c" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>~ISceneSelectionChange</name></member>
-      <member refid="classMR_1_1ISceneStateCheck_1ad6d7bd5bc97dd4a629de5e0a33af3afe" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>~ISceneStateCheck</name></member>
-      <member refid="classMR_1_1MoveObjectByMouse_1a50d77237a0a34be87abed7cfd945a2f3" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>~MoveObjectByMouse</name></member>
-      <member refid="structMR_1_1MultiListener_1a726f5e2601b7f25e31824a0cac630fb2" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>~MultiListener</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1ac8074b75f1c764d041b11210b5b7541c" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>~RibbonMenuItem</name></member>
-      <member refid="classMR_1_1StateBasePlugin_1a9a8917bb4527c6108a4ec176619d2990" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>~StateBasePlugin</name></member>
-      <member refid="classMR_1_1StateListenerPlugin_1a85268a85190bc88be8cc76981bff5587" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>~StateListenerPlugin</name></member>
-      <member refid="classMR_1_1ViewerPlugin_1ad7fd0e80e15b5c45837fc005c71c9eab" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>~ViewerPlugin</name></member>
+      <member refid="group__GeneralGroup_1gac3e8d3db81bf9d8a316c46e82f369980" prot="protected" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>tab_</name></member>
+      <member refid="group__GeneralGroup_1ga15b6a4b9f191b8716be1199364bb74e0" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>type</name></member>
+      <member refid="group__GeneralGroup_1ga00b402da6dbcec7d6c97b5c6a16e3924" prot="protected" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>type_</name></member>
+      <member refid="group__GeneralGroup_1ga56d7b27cd916a3ec2fcf0bcb4b7e3d28" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>uiName</name></member>
+      <member refid="group__GeneralGroup_1ga5c9e09293a48644029f129e878ececd6" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>UINameSuffix</name></member>
+      <member refid="group__GeneralGroup_1ga0e5a18c4e15ba23a7536d1511cb823b6" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>updateSelection</name></member>
+      <member refid="group__GeneralGroup_1gad12538d77ebcf356c03469cbce40abae" prot="protected" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>viewer</name></member>
+      <member refid="group__GeneralGroup_1ga6aacb9f665076ffd42d5baa6e69c24fb" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>XfMode</name></member>
+      <member refid="group__GeneralGroup_1ga9f9368163a7eb034e5b62720ce527214" prot="private" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>XfTarget</name></member>
+      <member refid="group__GeneralGroup_1ga3a57e2a35ba84c0bdd2af8a0f162c5f3" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>~IPluginUpdate</name></member>
+      <member refid="group__GeneralGroup_1ga46ed29a0c79bdfb7de53ea802fee042c" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>~ISceneSelectionChange</name></member>
+      <member refid="group__GeneralGroup_1gad6d7bd5bc97dd4a629de5e0a33af3afe" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>~ISceneStateCheck</name></member>
+      <member refid="group__GeneralGroup_1ga50d77237a0a34be87abed7cfd945a2f3" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse</scope><name>~MoveObjectByMouse</name></member>
+      <member refid="group__GeneralGroup_1ga726f5e2601b7f25e31824a0cac630fb2" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>~MultiListener</name></member>
+      <member refid="group__GeneralGroup_1gac8074b75f1c764d041b11210b5b7541c" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>~RibbonMenuItem</name></member>
+      <member refid="group__GeneralGroup_1ga9a8917bb4527c6108a4ec176619d2990" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>~StateBasePlugin</name></member>
+      <member refid="group__GeneralGroup_1ga85268a85190bc88be8cc76981bff5587" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>~StateListenerPlugin</name></member>
+      <member refid="group__GeneralGroup_1gad7fd0e80e15b5c45837fc005c71c9eab" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse</scope><name>~ViewerPlugin</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

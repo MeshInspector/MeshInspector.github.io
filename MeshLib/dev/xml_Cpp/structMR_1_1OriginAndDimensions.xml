@@ -4,44 +4,18 @@
     <compoundname>MR::OriginAndDimensions</compoundname>
     <includes refid="MRCalcDims_8h" local="no">MRCalcDims.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1OriginAndDimensions_1a3249421064f723e9274d910acde0cc34" prot="public" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::OriginAndDimensions::origin</definition>
-        <argsstring></argsstring>
-        <name>origin</name>
-        <qualifiedname>MR::OriginAndDimensions::origin</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRCalcDims.h" line="13" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRCalcDims.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1OriginAndDimensions_1a47a625c37bc5587c8811c698a4720f0e" prot="public" static="no" mutable="no">
-        <type>Vector3i</type>
-        <definition>Vector3i MR::OriginAndDimensions::dimensions</definition>
-        <argsstring></argsstring>
-        <name>dimensions</name>
-        <qualifiedname>MR::OriginAndDimensions::dimensions</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRCalcDims.h" line="14" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRCalcDims.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga3249421064f723e9274d910acde0cc34" kind="variable"><name>origin</name></member>
+      <member refid="group__GeneralGroup_1ga47a625c37bc5587c8811c698a4720f0e" kind="variable"><name>dimensions</name></member>
     </sectiondef>
     <briefdescription>
 <para>shift of zero voxel in 3D space and dimensions of voxel-grid </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRCalcDims.h" line="11" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRCalcDims.h" bodystart="12" bodyend="15"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRCalcDims.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRCalcDims.h" bodystart="15" bodyend="18"/>
     <listofallmembers>
-      <member refid="structMR_1_1OriginAndDimensions_1a47a625c37bc5587c8811c698a4720f0e" prot="public" virt="non-virtual"><scope>MR::OriginAndDimensions</scope><name>dimensions</name></member>
-      <member refid="structMR_1_1OriginAndDimensions_1a3249421064f723e9274d910acde0cc34" prot="public" virt="non-virtual"><scope>MR::OriginAndDimensions</scope><name>origin</name></member>
+      <member refid="group__GeneralGroup_1ga47a625c37bc5587c8811c698a4720f0e" prot="public" virt="non-virtual"><scope>MR::OriginAndDimensions</scope><name>dimensions</name></member>
+      <member refid="group__GeneralGroup_1ga3249421064f723e9274d910acde0cc34" prot="public" virt="non-virtual"><scope>MR::OriginAndDimensions</scope><name>origin</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

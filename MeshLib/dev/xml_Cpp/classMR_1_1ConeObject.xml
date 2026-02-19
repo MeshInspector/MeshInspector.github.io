@@ -5,645 +5,45 @@
     <basecompoundref refid="classMR_1_1AddVisualProperties" prot="public" virt="non-virtual">MR::AddVisualProperties&lt; FeatureObject, DimensionsVisualizePropertyType::diameter, DimensionsVisualizePropertyType::angle, DimensionsVisualizePropertyType::length &gt;</basecompoundref>
     <includes refid="MRConeObject_8h" local="no">MRConeObject.h</includes>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1ConeObject_1a4d46a50a7ee3470869450b185ad66d89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
-        <definition>MRMESH_API MR::ConeObject::ConeObject</definition>
-        <argsstring>()</argsstring>
-        <name>ConeObject</name>
-        <qualifiedname>MR::ConeObject::ConeObject</qualifiedname>
-        <briefdescription>
-<para>Creates simple Cone object with center in zero and radius - 1. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" line="22" column="16"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ConeObject_1adefa5d1e368af74e9c0ea1512970bf69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
-        <definition>MRMESH_API MR::ConeObject::ConeObject</definition>
-        <argsstring>(const std::vector&lt; Vector3f &gt; &amp;pointsToApprox)</argsstring>
-        <name>ConeObject</name>
-        <qualifiedname>MR::ConeObject::ConeObject</qualifiedname>
-        <param>
-          <type>const std::vector&lt; Vector3f &gt; &amp;</type>
-          <declname>pointsToApprox</declname>
-        </param>
-        <briefdescription>
-<para>Finds best Cone to approx given points. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" line="24" column="16"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ConeObject_1af938f4c12b7998e3a7fa7ddd2e713568" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::ConeObject::ConeObject</definition>
-        <argsstring>(ConeObject &amp;&amp;) noexcept=default</argsstring>
-        <name>ConeObject</name>
-        <qualifiedname>MR::ConeObject::ConeObject</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1ConeObject" kindref="compound">ConeObject</ref> &amp;&amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" line="26" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ConeObject_1aed2d23faa5e35c40c16b5ab5550ed022" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type><ref refid="classMR_1_1ConeObject" kindref="compound">ConeObject</ref> &amp;</type>
-        <definition>ConeObject &amp; MR::ConeObject::operator=</definition>
-        <argsstring>(ConeObject &amp;&amp;) noexcept=default</argsstring>
-        <name>operator=</name>
-        <qualifiedname>MR::ConeObject::operator=</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1ConeObject" kindref="compound">ConeObject</ref> &amp;&amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" line="27" column="16"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ConeObject_1a907b47dc446af6c29603325828130005" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>const char *</type>
-        <definition>virtual const char * MR::ConeObject::typeName</definition>
-        <argsstring>() const override</argsstring>
-        <name>typeName</name>
-        <qualifiedname>MR::ConeObject::typeName</qualifiedname>
-        <reimplements refid="classMR_1_1FeatureObject_1a45535da24d737a00a9262dd1fbe8525f">typeName</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" line="30" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" bodystart="30" bodyend="30"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ConeObject_1a3cfa63d59fc70663772e67762abdd3a0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>std::string</type>
-        <definition>virtual std::string MR::ConeObject::className</definition>
-        <argsstring>() const override</argsstring>
-        <name>className</name>
-        <qualifiedname>MR::ConeObject::className</qualifiedname>
-        <reimplements refid="classMR_1_1FeatureObject_1a9d50ec94a6a058376bf8e02827f5121c">className</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" line="33" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" bodystart="33" bodyend="33"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ConeObject_1aa4c317887a4c55672bcca1fa1534b2b7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>std::string</type>
-        <definition>virtual std::string MR::ConeObject::classNameInPlural</definition>
-        <argsstring>() const override</argsstring>
-        <name>classNameInPlural</name>
-        <qualifiedname>MR::ConeObject::classNameInPlural</qualifiedname>
-        <reimplements refid="classMR_1_1FeatureObject_1a873cf4c43be4dfcce9768ae68ad3ae44">classNameInPlural</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" line="36" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" bodystart="36" bodyend="36"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ConeObject_1acf915767d92ede7e04ca9da619fa3845" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::ConeObject::ConeObject</definition>
-        <argsstring>(ProtectedStruct, const ConeObject &amp;obj)</argsstring>
-        <name>ConeObject</name>
-        <qualifiedname>MR::ConeObject::ConeObject</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1Object_1_1ProtectedStruct" kindref="compound">ProtectedStruct</ref></type>
-        </param>
-        <param>
-          <type>const <ref refid="classMR_1_1ConeObject" kindref="compound">ConeObject</ref> &amp;</type>
-          <declname>obj</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="note"><para>this ctor is public only for std::make_shared used inside <ref refid="classMR_1_1ConeObject_1afd3e44ebcd56377cde2ddecee9e57216" kindref="member">clone()</ref> </para>
-</simplesect>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" line="39" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" bodystart="39" bodyend="40"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ConeObject_1afd3e44ebcd56377cde2ddecee9e57216" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
-        <definition>virtual MRMESH_API std::shared_ptr&lt; Object &gt; MR::ConeObject::clone</definition>
-        <argsstring>() const override</argsstring>
-        <name>clone</name>
-        <qualifiedname>MR::ConeObject::clone</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1a2abf3d3c767a16a584ad513af643feca">clone</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>clones this object only, without its children, making new object the owner of all copied resources </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" line="42" column="40"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ConeObject_1aa6ffe65ecb905c4a85d865c70c753d4c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
-        <definition>virtual MRMESH_API std::shared_ptr&lt; Object &gt; MR::ConeObject::shallowClone</definition>
-        <argsstring>() const override</argsstring>
-        <name>shallowClone</name>
-        <qualifiedname>MR::ConeObject::shallowClone</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1adf2d7e16d33d059dbf2bbd0f1c34c8bf">shallowClone</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>clones this object only, without its children, making new object to share resources with this object </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" line="43" column="40"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ConeObject_1aee0cce82eb8d15e883bf0d50eaecfd27" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> float</type>
-        <definition>MRMESH_API float MR::ConeObject::getAngle</definition>
-        <argsstring>(ViewportId id={}) const</argsstring>
-        <name>getAngle</name>
-        <qualifiedname>MR::ConeObject::getAngle</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
-          <declname>id</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-<para>calculates cone angle from xf. It is an angle betweeh main axis and side. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" line="46" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ConeObject_1a9ee28bed15c74a1c10cb9c6db8ba8b19" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Vector3f</type>
-        <definition>MRMESH_API Vector3f MR::ConeObject::getCenter</definition>
-        <argsstring>(ViewportId id={}) const</argsstring>
-        <name>getCenter</name>
-        <qualifiedname>MR::ConeObject::getCenter</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
-          <declname>id</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-<para>calculates center from xf. Center is the apex of the cone. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" line="48" column="26"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ConeObject_1a114d733b5fccd533496cde9091b5b3d4" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> float</type>
-        <definition>MRMESH_API float MR::ConeObject::getHeight</definition>
-        <argsstring>(ViewportId id={}) const</argsstring>
-        <name>getHeight</name>
-        <qualifiedname>MR::ConeObject::getHeight</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
-          <declname>id</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-<para>calculates cone height from xf </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" line="50" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ConeObject_1a52991f3f7e3f80d675e98736f33e1e23" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Vector3f</type>
-        <definition>MRMESH_API Vector3f MR::ConeObject::getDirection</definition>
-        <argsstring>(ViewportId id={}) const</argsstring>
-        <name>getDirection</name>
-        <qualifiedname>MR::ConeObject::getDirection</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
-          <declname>id</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-<para>calculates main axis direction from xf </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" line="52" column="26"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ConeObject_1a48654827313a384b867e19af3decfd07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::ConeObject::setCenter</definition>
-        <argsstring>(const Vector3f &amp;center, ViewportId id={})</argsstring>
-        <name>setCenter</name>
-        <qualifiedname>MR::ConeObject::setCenter</qualifiedname>
-        <param>
-          <type>const Vector3f &amp;</type>
-          <declname>center</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
-          <declname>id</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-<para>updates xf to fit given center. Center is the apex of the cone. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" line="54" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ConeObject_1a17f187e540021ced92b462f9a865e299" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::ConeObject::setDirection</definition>
-        <argsstring>(const Vector3f &amp;normal, ViewportId id={})</argsstring>
-        <name>setDirection</name>
-        <qualifiedname>MR::ConeObject::setDirection</qualifiedname>
-        <param>
-          <type>const Vector3f &amp;</type>
-          <declname>normal</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
-          <declname>id</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-<para>updates xf to fit main axis </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" line="56" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ConeObject_1a7562b1accb4c2fb95e6bc3fcb69d4370" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::ConeObject::setHeight</definition>
-        <argsstring>(float height, ViewportId id={})</argsstring>
-        <name>setHeight</name>
-        <qualifiedname>MR::ConeObject::setHeight</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>height</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
-          <declname>id</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-<para>updates xf to fit cone height </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" line="58" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ConeObject_1a22d46e3457a22a2e4a158ae10af1c82a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::ConeObject::setAngle</definition>
-        <argsstring>(float angle, ViewportId id={})</argsstring>
-        <name>setAngle</name>
-        <qualifiedname>MR::ConeObject::setAngle</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>angle</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
-          <declname>id</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-<para>updates xf to fit given cone angle. It is an angle betweeh main axis and side </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" line="60" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ConeObject_1a9f25917be502efa8afcdeb227140fb42" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> float</type>
-        <definition>MRMESH_API float MR::ConeObject::getBaseRadius</definition>
-        <argsstring>(ViewportId id={}) const</argsstring>
-        <name>getBaseRadius</name>
-        <qualifiedname>MR::ConeObject::getBaseRadius</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
-          <declname>id</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-<para>Computes the base base radius from the xf. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" line="62" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ConeObject_1af41c7ee41d175791f53fa013772f99b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::ConeObject::setBaseRadius</definition>
-        <argsstring>(float radius, ViewportId id={})</argsstring>
-        <name>setBaseRadius</name>
-        <qualifiedname>MR::ConeObject::setBaseRadius</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>radius</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
-          <declname>id</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-<para>Updates the xf for the new base radius. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" line="64" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ConeObject_1a03cbbb3c2194467c85bf870c09f08e72" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Vector3f</type>
-        <definition>virtual MRMESH_API Vector3f MR::ConeObject::getBasePoint</definition>
-        <argsstring>(ViewportId id={}) const override</argsstring>
-        <name>getBasePoint</name>
-        <qualifiedname>MR::ConeObject::getBasePoint</qualifiedname>
-        <reimplements refid="classMR_1_1FeatureObject_1a9156046dada7ff2cd440abcec27fa98b">getBasePoint</reimplements>
-        <param>
-          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
-          <declname>id</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-<para>Returns point considered as base for the feature. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" line="67" column="34"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ConeObject_1a9f478343ae57720fcf7c3c78f01011c4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> const std::vector&lt; <ref refid="structMR_1_1FeatureObjectSharedProperty" kindref="compound">FeatureObjectSharedProperty</ref> &gt; &amp;</type>
-        <definition>virtual MRMESH_API const std::vector&lt; FeatureObjectSharedProperty &gt; &amp; MR::ConeObject::getAllSharedProperties</definition>
-        <argsstring>() const override</argsstring>
-        <name>getAllSharedProperties</name>
-        <qualifiedname>MR::ConeObject::getAllSharedProperties</qualifiedname>
-        <reimplements refid="classMR_1_1FeatureObject_1a67f4c8131f16d91de68c6ac590d31fa4">getAllSharedProperties</reimplements>
-        <briefdescription>
-<para>Create and generate list of bounded getters and setters for the main properties of feature object, together with prop. name for display and edit into <ref refid="namespaceMR_1_1UI" kindref="compound">UI</ref>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" line="69" column="42"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ConeObject_1ae6cc2d16f39a5d0cb5a6cc9535843b84" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="structMR_1_1FeatureObjectProjectPointResult" kindref="compound">FeatureObjectProjectPointResult</ref></type>
-        <definition>MRMESH_API FeatureObjectProjectPointResult MR::ConeObject::projectPoint</definition>
-        <argsstring>(const Vector3f &amp;point, ViewportId id={}) const override</argsstring>
-        <name>projectPoint</name>
-        <qualifiedname>MR::ConeObject::projectPoint</qualifiedname>
-        <reimplements refid="classMR_1_1FeatureObject_1ad59d121c1a25c1218815462882d6bf8b">projectPoint</reimplements>
-        <param>
-          <type>const Vector3f &amp;</type>
-          <declname>point</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
-          <declname>id</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Since a point on an abstract feature is difficult to uniquely parameterize, the projection function simultaneously returns the normal to the surface at the projection point. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" line="71" column="49"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga4d46a50a7ee3470869450b185ad66d89" kind="function"><name>ConeObject</name></member>
+      <member refid="group__GeneralGroup_1gadefa5d1e368af74e9c0ea1512970bf69" kind="function"><name>ConeObject</name></member>
+      <member refid="group__GeneralGroup_1gaf938f4c12b7998e3a7fa7ddd2e713568" kind="function"><name>ConeObject</name></member>
+      <member refid="group__GeneralGroup_1gaed2d23faa5e35c40c16b5ab5550ed022" kind="function"><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga907b47dc446af6c29603325828130005" kind="function"><name>typeName</name></member>
+      <member refid="group__GeneralGroup_1ga3cfa63d59fc70663772e67762abdd3a0" kind="function"><name>className</name></member>
+      <member refid="group__GeneralGroup_1gaa4c317887a4c55672bcca1fa1534b2b7" kind="function"><name>classNameInPlural</name></member>
+      <member refid="group__GeneralGroup_1gacf915767d92ede7e04ca9da619fa3845" kind="function"><name>ConeObject</name></member>
+      <member refid="group__GeneralGroup_1gafd3e44ebcd56377cde2ddecee9e57216" kind="function"><name>clone</name></member>
+      <member refid="group__GeneralGroup_1gaa6ffe65ecb905c4a85d865c70c753d4c" kind="function"><name>shallowClone</name></member>
+      <member refid="group__GeneralGroup_1gaee0cce82eb8d15e883bf0d50eaecfd27" kind="function"><name>getAngle</name></member>
+      <member refid="group__GeneralGroup_1ga9ee28bed15c74a1c10cb9c6db8ba8b19" kind="function"><name>getCenter</name></member>
+      <member refid="group__GeneralGroup_1ga114d733b5fccd533496cde9091b5b3d4" kind="function"><name>getHeight</name></member>
+      <member refid="group__GeneralGroup_1ga52991f3f7e3f80d675e98736f33e1e23" kind="function"><name>getDirection</name></member>
+      <member refid="group__GeneralGroup_1ga48654827313a384b867e19af3decfd07" kind="function"><name>setCenter</name></member>
+      <member refid="group__GeneralGroup_1ga17f187e540021ced92b462f9a865e299" kind="function"><name>setDirection</name></member>
+      <member refid="group__GeneralGroup_1ga7562b1accb4c2fb95e6bc3fcb69d4370" kind="function"><name>setHeight</name></member>
+      <member refid="group__GeneralGroup_1ga22d46e3457a22a2e4a158ae10af1c82a" kind="function"><name>setAngle</name></member>
+      <member refid="group__GeneralGroup_1ga9f25917be502efa8afcdeb227140fb42" kind="function"><name>getBaseRadius</name></member>
+      <member refid="group__GeneralGroup_1gaf41c7ee41d175791f53fa013772f99b9" kind="function"><name>setBaseRadius</name></member>
+      <member refid="group__GeneralGroup_1ga03cbbb3c2194467c85bf870c09f08e72" kind="function"><name>getBasePoint</name></member>
+      <member refid="group__GeneralGroup_1ga9f478343ae57720fcf7c3c78f01011c4" kind="function"><name>getAllSharedProperties</name></member>
+      <member refid="group__GeneralGroup_1gae6cc2d16f39a5d0cb5a6cc9535843b84" kind="function"><name>projectPoint</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1ConeObject_1a2d2e6a5937303deda49c3f33db7d8a11" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>const char *</type>
-        <definition>static constexpr const char * MR::ConeObject::StaticTypeName</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>StaticTypeName</name>
-        <qualifiedname>MR::ConeObject::StaticTypeName</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" line="29" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" bodystart="29" bodyend="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ConeObject_1a3b960d6116ad53020d4b8d957d73ca9d" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>const char *</type>
-        <definition>static constexpr const char * MR::ConeObject::StaticClassName</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>StaticClassName</name>
-        <qualifiedname>MR::ConeObject::StaticClassName</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" line="32" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" bodystart="32" bodyend="32"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ConeObject_1af67b28fcaf6cf8ca6bc98137a01f6922" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>const char *</type>
-        <definition>static constexpr const char * MR::ConeObject::StaticClassNameInPlural</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>StaticClassNameInPlural</name>
-        <qualifiedname>MR::ConeObject::StaticClassNameInPlural</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" line="35" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" bodystart="35" bodyend="35"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga2d2e6a5937303deda49c3f33db7d8a11" kind="function"><name>StaticTypeName</name></member>
+      <member refid="group__GeneralGroup_1ga3b960d6116ad53020d4b8d957d73ca9d" kind="function"><name>StaticClassName</name></member>
+      <member refid="group__GeneralGroup_1gaf67b28fcaf6cf8ca6bc98137a01f6922" kind="function"><name>StaticClassNameInPlural</name></member>
     </sectiondef>
     <sectiondef kind="protected-func">
-      <memberdef kind="function" id="classMR_1_1ConeObject_1a522ae3f23c5e5d57e85a58e5518145eb" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::ConeObject::ConeObject</definition>
-        <argsstring>(const ConeObject &amp;other)=default</argsstring>
-        <name>ConeObject</name>
-        <qualifiedname>MR::ConeObject::ConeObject</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1ConeObject" kindref="compound">ConeObject</ref> &amp;</type>
-          <declname>other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" line="74" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ConeObject_1a576b9eda88516f812a400bea81f5fb17" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>virtual MRMESH_API void MR::ConeObject::swapBase_</definition>
-        <argsstring>(Object &amp;other) override</argsstring>
-        <name>swapBase_</name>
-        <qualifiedname>MR::ConeObject::swapBase_</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1a76b7b6b3bfd7dac31eb1d150afb761f7">swapBase_</reimplements>
-        <param>
-          <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
-          <declname>other</declname>
-        </param>
-        <briefdescription>
-<para>swaps this object with other </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" line="77" column="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ConeObject_1af6287a16f4c08d79fb7eabf432759e42" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>virtual MRMESH_API void MR::ConeObject::serializeFields_</definition>
-        <argsstring>(Json::Value &amp;root) const override</argsstring>
-        <name>serializeFields_</name>
-        <qualifiedname>MR::ConeObject::serializeFields_</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1aa7e5231f013c0e9e1b528c69759cc60d">serializeFields_</reimplements>
-        <param>
-          <type>Json::Value &amp;</type>
-          <declname>root</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Write parameters to given Json::Value, <simplesect kind="note"><para>if you override this method, please call Base::serializeFields_(root) in the beginning </para>
-</simplesect>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" line="79" column="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ConeObject_1ab66f3e6b0a4c5168078a082dd7320592" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; std::future&lt; <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt; &gt; &gt;</type>
-        <definition>virtual Expected&lt; std::future&lt; Expected&lt; void &gt; &gt; &gt; MR::ConeObject::serializeModel_</definition>
-        <argsstring>(const std::filesystem::path &amp;) const override</argsstring>
-        <name>serializeModel_</name>
-        <qualifiedname>MR::ConeObject::serializeModel_</qualifiedname>
-        <reimplements refid="classMR_1_1Object_1a7bf17e9cdecb511570759169e86bf0e2">serializeModel_</reimplements>
-        <param>
-          <type>const std::filesystem::path &amp;</type>
-          <declname>path</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Creates future to save object model (e.g. mesh) in given file path is full filename without extension </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" line="81" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" bodystart="81" bodyend="84"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ConeObject_1a615d94d3d0d7edc5f0572b37b99a2a3c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
-        <definition>virtual Expected&lt; void &gt; MR::ConeObject::deserializeModel_</definition>
-        <argsstring>(const std::filesystem::path &amp;, ProgressCallback) override</argsstring>
-        <name>deserializeModel_</name>
-        <qualifiedname>MR::ConeObject::deserializeModel_</qualifiedname>
-        <reimplements refid="classMR_1_1Object_1a694bf2e911f3079c872f0dc9c13370c9">deserializeModel_</reimplements>
-        <param>
-          <type>const std::filesystem::path &amp;</type>
-          <declname>path</declname>
-        </param>
-        <param>
-          <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
-          <declname>progressCb</declname>
-        </param>
-        <briefdescription>
-<para>Reads model from file. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" line="86" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" bodystart="86" bodyend="89"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ConeObject_1a58e25e035e9759982d74478c83f688b9" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::ConeObject::setupRenderObject_</definition>
-        <argsstring>() const override</argsstring>
-        <name>setupRenderObject_</name>
-        <qualifiedname>MR::ConeObject::setupRenderObject_</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1a8c9ac961e923f7c61ccf3424413be0fb">setupRenderObject_</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>each renderable child of <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> should implement this method and assign renderObj_ inside </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" line="91" column="21"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga522ae3f23c5e5d57e85a58e5518145eb" kind="function"><name>ConeObject</name></member>
+      <member refid="group__GeneralGroup_1ga576b9eda88516f812a400bea81f5fb17" kind="function"><name>swapBase_</name></member>
+      <member refid="group__GeneralGroup_1gaf6287a16f4c08d79fb7eabf432759e42" kind="function"><name>serializeFields_</name></member>
+      <member refid="group__GeneralGroup_1gab66f3e6b0a4c5168078a082dd7320592" kind="function"><name>serializeModel_</name></member>
+      <member refid="group__GeneralGroup_1ga615d94d3d0d7edc5f0572b37b99a2a3c" kind="function"><name>deserializeModel_</name></member>
+      <member refid="group__GeneralGroup_1ga58e25e035e9759982d74478c83f688b9" kind="function"><name>setupRenderObject_</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMR_1_1ConeObject_1a6be2e98cf05d6daad5305efd01aea14f" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>float</type>
-        <definition>float MR::ConeObject::getNormalizedRadius_</definition>
-        <argsstring>(ViewportId id={}) const</argsstring>
-        <name>getNormalizedRadius_</name>
-        <qualifiedname>MR::ConeObject::getNormalizedRadius_</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
-          <declname>id</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-<para>Featue Radius fully controll by cone angle, but its need for speedup internal calculation (not use tan / atan from each estimation). </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" line="95" column="11"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga6be2e98cf05d6daad5305efd01aea14f" kind="function"><name>getNormalizedRadius_</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -798,7 +198,7 @@
         <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" bodystart="19" bodyend="96"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" bodystart="22" bodyend="99"/>
     <listofallmembers>
       <member refid="classMR_1_1Object_1aa6cdc407999b7e829fd23b242cb6346d" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>addChild</name></member>
       <member refid="classMR_1_1Object_1a8eeb1cb21b22db97f20eac75b897f7ae" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>addChildBefore</name></member>
@@ -814,27 +214,27 @@
       <member refid="classMR_1_1Object_1a918f27844d6d9aae269008f0036bc671" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>children</name></member>
       <member refid="classMR_1_1Object_1a2f38b85c4109bb77ad1a49e42085b9fb" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>children</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a20c010d72c82523c01e5de05910eb34c" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>children_</name></member>
-      <member refid="classMR_1_1ConeObject_1a3cfa63d59fc70663772e67762abdd3a0" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>className</name></member>
-      <member refid="classMR_1_1ConeObject_1aa4c317887a4c55672bcca1fa1534b2b7" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>classNameInPlural</name></member>
+      <member refid="group__GeneralGroup_1ga3cfa63d59fc70663772e67762abdd3a0" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>className</name></member>
+      <member refid="group__GeneralGroup_1gaa4c317887a4c55672bcca1fa1534b2b7" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>classNameInPlural</name></member>
       <member refid="classMR_1_1VisualObject_1ab87c9fab3f92c38aba589584b5466a98" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>clipByPlane_</name></member>
-      <member refid="classMR_1_1ConeObject_1afd3e44ebcd56377cde2ddecee9e57216" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>clone</name></member>
+      <member refid="group__GeneralGroup_1gafd3e44ebcd56377cde2ddecee9e57216" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>clone</name></member>
       <member refid="classMR_1_1Object_1a54eb8f6e602368572ffb27af73f87465" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>cloneTree</name></member>
       <member refid="classMR_1_1VisualObject_1a21eb2d0c923e3ca0544e4cf90782e6b1" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>coloringType_</name></member>
       <member refid="classMR_1_1VisualObject_1a4e27182996ebf22fc42c7d1ebf6cf02b" prot="protected" virt="virtual"><scope>MR::ConeObject</scope><name>computeBoundingBox_</name></member>
-      <member refid="classMR_1_1ConeObject_1a4d46a50a7ee3470869450b185ad66d89" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>ConeObject</name></member>
-      <member refid="classMR_1_1ConeObject_1adefa5d1e368af74e9c0ea1512970bf69" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>ConeObject</name></member>
-      <member refid="classMR_1_1ConeObject_1af938f4c12b7998e3a7fa7ddd2e713568" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>ConeObject</name></member>
-      <member refid="classMR_1_1ConeObject_1acf915767d92ede7e04ca9da619fa3845" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>ConeObject</name></member>
-      <member refid="classMR_1_1ConeObject_1a522ae3f23c5e5d57e85a58e5518145eb" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>ConeObject</name></member>
+      <member refid="group__GeneralGroup_1ga4d46a50a7ee3470869450b185ad66d89" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>ConeObject</name></member>
+      <member refid="group__GeneralGroup_1gadefa5d1e368af74e9c0ea1512970bf69" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>ConeObject</name></member>
+      <member refid="group__GeneralGroup_1gaf938f4c12b7998e3a7fa7ddd2e713568" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>ConeObject</name></member>
+      <member refid="group__GeneralGroup_1gacf915767d92ede7e04ca9da619fa3845" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>ConeObject</name></member>
+      <member refid="group__GeneralGroup_1ga522ae3f23c5e5d57e85a58e5518145eb" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>ConeObject</name></member>
       <member refid="classMR_1_1VisualObject_1a7857f20b8f16704a46297b95e12524f7" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>copyAllSolidColors</name></member>
-      <member refid="classMR_1_1FeatureObject_1a1c8e2cd4e02b32ce6329d8a44ab727c6" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>decorationsColor_</name></member>
+      <member refid="group__GeneralGroup_1ga1c8e2cd4e02b32ce6329d8a44ab727c6" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>decorationsColor_</name></member>
       <member refid="classMR_1_1VisualObject_1a3c81a910d1fdd5c1f1b413c185bf750d" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>depthTest_</name></member>
-      <member refid="classMR_1_1FeatureObject_1aee2648d2f24f218b7c2cbcd1b48ae0f2" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>deserializeFields_</name></member>
-      <member refid="classMR_1_1ConeObject_1a615d94d3d0d7edc5f0572b37b99a2a3c" prot="protected" virt="virtual"><scope>MR::ConeObject</scope><name>deserializeModel_</name></member>
+      <member refid="group__GeneralGroup_1gaee2648d2f24f218b7c2cbcd1b48ae0f2" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>deserializeFields_</name></member>
+      <member refid="group__GeneralGroup_1ga615d94d3d0d7edc5f0572b37b99a2a3c" prot="protected" virt="virtual"><scope>MR::ConeObject</scope><name>deserializeModel_</name></member>
       <member refid="classMR_1_1Object_1ae6602edbad891420dc4dff152e9df603" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>deserializeRecursive</name></member>
       <member refid="classMR_1_1Object_1a80a32a58c497b044d63e5aaa75e77fbe" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>detachFromParent</name></member>
-      <member refid="classMR_1_1FeatureObject_1ac252edfceb31c314bc08c0ba5fac11b3" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>detailsOnNameTag_</name></member>
-      <member refid="classMR_1_1FeatureObject_1a537fbe1f37e55b900de3e7427c41e7b4" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>FeatureObject</name></member>
+      <member refid="group__GeneralGroup_1gac252edfceb31c314bc08c0ba5fac11b3" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>detailsOnNameTag_</name></member>
+      <member refid="group__GeneralGroup_1ga537fbe1f37e55b900de3e7427c41e7b4" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>FeatureObject</name></member>
       <member refid="classMR_1_1Object_1abcc984d346790cbe1a13d6ee87daffd0" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>find</name></member>
       <member refid="classMR_1_1Object_1a639d2e0d72c82c1efd9dc00ecaa0d3da" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>find</name></member>
       <member refid="group__DataModelGroup_1gaa9133d1e63e15eb09f7f902afe2abd3a" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>find</name></member>
@@ -843,47 +243,47 @@
       <member refid="classMR_1_1Object_1a7dc1382248ea0ff99064282167614a4b" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>find</name></member>
       <member refid="classMR_1_1Object_1aa3e60b6a82814bffff2ba324dcaa7bd2" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>findCommonAncestor</name></member>
       <member refid="classMR_1_1Object_1af3951674c765923b8a024a44bd27342d" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>findCommonAncestor</name></member>
-      <member refid="classMR_1_1ConeObject_1a9f478343ae57720fcf7c3c78f01011c4" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getAllSharedProperties</name></member>
-      <member refid="classMR_1_1AddVisualProperties_1a7fc99037212a4beaeec730ca98373554" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="group__GeneralGroup_1ga9f478343ae57720fcf7c3c78f01011c4" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getAllSharedProperties</name></member>
+      <member refid="group__GeneralGroup_1ga7fc99037212a4beaeec730ca98373554" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getAllVisualizeProperties</name></member>
       <member refid="classMR_1_1VisualObject_1a44359499c4ee0b22074b8f3999d53a6e" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>getAllVisualizePropertiesForEnum</name></member>
       <member refid="classMR_1_1VisualObject_1afd16375df437a376f44c3bdea5186b82" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getAmbientStrength</name></member>
-      <member refid="classMR_1_1ConeObject_1aee0cce82eb8d15e883bf0d50eaecfd27" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getAngle</name></member>
+      <member refid="group__GeneralGroup_1gaee0cce82eb8d15e883bf0d50eaecfd27" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getAngle</name></member>
       <member refid="classMR_1_1VisualObject_1af49f84e12ea7e21ec8dc39ae8609bc18" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getBackColor</name></member>
       <member refid="classMR_1_1VisualObject_1a714aab4f9110c1072f3147edae51e293" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getBackColorsForAllViewports</name></member>
-      <member refid="classMR_1_1ConeObject_1a03cbbb3c2194467c85bf870c09f08e72" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getBasePoint</name></member>
-      <member refid="classMR_1_1ConeObject_1a9f25917be502efa8afcdeb227140fb42" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getBaseRadius</name></member>
+      <member refid="group__GeneralGroup_1ga03cbbb3c2194467c85bf870c09f08e72" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getBasePoint</name></member>
+      <member refid="group__GeneralGroup_1ga9f25917be502efa8afcdeb227140fb42" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getBaseRadius</name></member>
       <member refid="classMR_1_1VisualObject_1a8fe84b708cf42b2d73b31e77f02fae6a" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getBoundingBox</name></member>
-      <member refid="classMR_1_1ConeObject_1a9ee28bed15c74a1c10cb9c6db8ba8b19" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getCenter</name></member>
+      <member refid="group__GeneralGroup_1ga9ee28bed15c74a1c10cb9c6db8ba8b19" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getCenter</name></member>
       <member refid="classMR_1_1VisualObject_1ad526a2645a12621b7742bc66aaf5ad0f" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getColoringType</name></member>
-      <member refid="classMR_1_1FeatureObject_1afa41398b2369e2bbe90b107c3de0bbe6" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getDecorationsColor</name></member>
-      <member refid="classMR_1_1FeatureObject_1a38e30bc9c390d73d9e302ef1e6f6238f" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getDecorationsColorForAllViewports</name></member>
-      <member refid="classMR_1_1ConeObject_1a52991f3f7e3f80d675e98736f33e1e23" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getDirection</name></member>
+      <member refid="group__GeneralGroup_1gafa41398b2369e2bbe90b107c3de0bbe6" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getDecorationsColor</name></member>
+      <member refid="group__GeneralGroup_1ga38e30bc9c390d73d9e302ef1e6f6238f" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getDecorationsColorForAllViewports</name></member>
+      <member refid="group__GeneralGroup_1ga52991f3f7e3f80d675e98736f33e1e23" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getDirection</name></member>
       <member refid="classMR_1_1VisualObject_1a6411458c4cd7d098c12adaea27568db7" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getDirtyFlags</name></member>
       <member refid="classMR_1_1VisualObject_1a70f15c0dc59f3b83a8b8c3e6390f7571" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getFrontColor</name></member>
       <member refid="classMR_1_1VisualObject_1a04e6c3f8219124e3028f7dd8411cfc65" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getFrontColorsForAllViewports</name></member>
       <member refid="classMR_1_1VisualObject_1afe6426aa46d769e1d6f4cab1e56e0559" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getGlobalAlpha</name></member>
       <member refid="classMR_1_1VisualObject_1a3ef31c439da47a55ca3287bf45a377ad" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getGlobalAlphaForAllViewports</name></member>
-      <member refid="classMR_1_1ConeObject_1a114d733b5fccd533496cde9091b5b3d4" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getHeight</name></member>
+      <member refid="group__GeneralGroup_1ga114d733b5fccd533496cde9091b5b3d4" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getHeight</name></member>
       <member refid="classMR_1_1VisualObject_1a76988bf72aa3be996e864fec3ab47ed2" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getInfoLines</name></member>
-      <member refid="classMR_1_1FeatureObject_1a40c1b4ffd8d3aba7fe5898caa6130b74" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getLineWidth</name></member>
-      <member refid="classMR_1_1FeatureObject_1a0ebee580bd79fb6dbee2bd1292b93b50" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getMainFeatureAlpha</name></member>
+      <member refid="group__GeneralGroup_1ga40c1b4ffd8d3aba7fe5898caa6130b74" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getLineWidth</name></member>
+      <member refid="group__GeneralGroup_1ga0ebee580bd79fb6dbee2bd1292b93b50" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getMainFeatureAlpha</name></member>
       <member refid="classMR_1_1Object_1a4a0bdbb221822d1b73720712b1488489" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getModelHash</name></member>
-      <member refid="classMR_1_1FeatureObject_1ae682c2765f3ef072c5552729523be1fa" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getNormal</name></member>
-      <member refid="classMR_1_1ConeObject_1a6be2e98cf05d6daad5305efd01aea14f" prot="private" virt="non-virtual"><scope>MR::ConeObject</scope><name>getNormalizedRadius_</name></member>
-      <member refid="classMR_1_1FeatureObject_1a17576a887b5a637765fb98d40ed7f097" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getPointSize</name></member>
+      <member refid="group__GeneralGroup_1gae682c2765f3ef072c5552729523be1fa" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getNormal</name></member>
+      <member refid="group__GeneralGroup_1ga6be2e98cf05d6daad5305efd01aea14f" prot="private" virt="non-virtual"><scope>MR::ConeObject</scope><name>getNormalizedRadius_</name></member>
+      <member refid="group__GeneralGroup_1ga17576a887b5a637765fb98d40ed7f097" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getPointSize</name></member>
       <member refid="classMR_1_1VisualObject_1a08a44c8bd562c85361950682c997f752" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getRedrawFlag</name></member>
-      <member refid="classMR_1_1FeatureObject_1a9b258943b501bd224607d6a5a8a5fc8a" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getRotationMatrix</name></member>
-      <member refid="classMR_1_1FeatureObject_1a4812ae385ef5a66bbcc0779f54025502" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getScaleShearMatrix</name></member>
+      <member refid="group__GeneralGroup_1ga9b258943b501bd224607d6a5a8a5fc8a" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getRotationMatrix</name></member>
+      <member refid="group__GeneralGroup_1ga4812ae385ef5a66bbcc0779f54025502" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getScaleShearMatrix</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a64c12f40ae3ee9c61ba167319e33f4a8" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getSharedPtr</name></member>
       <member refid="classMR_1_1VisualObject_1a1a152f22b671a1cf98ddcf43db92b1da" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getShininess</name></member>
       <member refid="classMR_1_1VisualObject_1a746d651e584a6df83424853a8777138b" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getSpecularStrength</name></member>
-      <member refid="classMR_1_1FeatureObject_1ac1944db120f70185200d4915fce0a660" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getSubfeatureAlphaLines</name></member>
-      <member refid="classMR_1_1FeatureObject_1a352152a4f6da671401876ef2e98e978d" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getSubfeatureAlphaMesh</name></member>
-      <member refid="classMR_1_1FeatureObject_1afbc72d3db7d89d7af4ea2a7ac835c15e" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getSubfeatureAlphaPoints</name></member>
-      <member refid="classMR_1_1FeatureObject_1ab8151a43482e95baea8f44d1a94bc61d" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getSubfeatureLineWidth</name></member>
-      <member refid="classMR_1_1FeatureObject_1a3866d143290905194a7c4e8da338c253" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getSubfeaturePointSize</name></member>
+      <member refid="group__GeneralGroup_1gac1944db120f70185200d4915fce0a660" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getSubfeatureAlphaLines</name></member>
+      <member refid="group__GeneralGroup_1ga352152a4f6da671401876ef2e98e978d" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getSubfeatureAlphaMesh</name></member>
+      <member refid="group__GeneralGroup_1gafbc72d3db7d89d7af4ea2a7ac835c15e" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getSubfeatureAlphaPoints</name></member>
+      <member refid="group__GeneralGroup_1gab8151a43482e95baea8f44d1a94bc61d" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getSubfeatureLineWidth</name></member>
+      <member refid="group__GeneralGroup_1ga3866d143290905194a7c4e8da338c253" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getSubfeaturePointSize</name></member>
       <member refid="classMR_1_1VisualObject_1a3e21bc521981859584703215ba45f219" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getVisualizeProperty</name></member>
-      <member refid="classMR_1_1AddVisualProperties_1aa7ce9ce8b54a5a131d54334b7ed26fb1" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="group__GeneralGroup_1gaa7ce9ce8b54a5a131d54334b7ed26fb1" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getVisualizePropertyMask</name></member>
       <member refid="classMR_1_1VisualObject_1a11c8d591aa72e021a946b58349b80bcf" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>getVisualizePropertyMask_</name></member>
       <member refid="classMR_1_1VisualObject_1a32cc9bc32e5402ed77f63de53d754314" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getWorldBox</name></member>
       <member refid="classMR_1_1Object_1a41924fd6534dc41bfdb6dd30e263109b" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getWorldTreeBox</name></member>
@@ -905,9 +305,9 @@
       <member refid="classMR_1_1VisualObject_1a938a64da82232f07dec418b944f5bc8b" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>isPickable</name></member>
       <member refid="classMR_1_1Object_1a3f649834561a9f246e1d840a0f3080c8" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>isSelected</name></member>
       <member refid="classMR_1_1Object_1a98c9e0d07b736d2b86c4d3d340b77844" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>isVisible</name></member>
-      <member refid="classMR_1_1FeatureObject_1a3b5a4031f824e124b74a89fe8c2e1a67" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>lineWidth_</name></member>
+      <member refid="group__GeneralGroup_1ga3b5a4031f824e124b74a89fe8c2e1a67" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>lineWidth_</name></member>
       <member refid="classMR_1_1Object_1a958714fb7d616e608cb16223e052052b" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>locked_</name></member>
-      <member refid="classMR_1_1FeatureObject_1a51043725ded5e5baa3695f7a0b95f4ff" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>mainFeatureAlpha_</name></member>
+      <member refid="group__GeneralGroup_1ga51043725ded5e5baa3695f7a0b95f4ff" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>mainFeatureAlpha_</name></member>
       <member refid="classMR_1_1Object_1ae813e1ae9ad5cbb71ca45adbdd811679" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>name</name></member>
       <member refid="classMR_1_1Object_1a3d6d27065a13a0a262df4b74ff82e538" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>name_</name></member>
       <member refid="classMR_1_1Object_1a92a390dc7570098981912529e341433d" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>needRedraw_</name></member>
@@ -919,7 +319,7 @@
       <member refid="classMR_1_1ObjectChildrenHolder_1a676c20b6eea355fe68748a8c1ad0b086" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>ObjectChildrenHolder</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a89b1fff6ebde3c5a71a530e3c8cddfb6" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>ObjectChildrenHolder</name></member>
       <member refid="classMR_1_1Object_1ae552548142751ab5d35d446cb5d56fae" prot="protected" virt="virtual"><scope>MR::ConeObject</scope><name>onWorldXfChanged_</name></member>
-      <member refid="classMR_1_1ConeObject_1aed2d23faa5e35c40c16b5ab5550ed022" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1gaed2d23faa5e35c40c16b5ab5550ed022" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>operator=</name></member>
       <member refid="classMR_1_1VisualObject_1ad5bb82fa6b6b0ea77f0137b975c802f6" prot="public" virt="non-virtual" ambiguityscope="MR::AddVisualProperties&lt; FeatureObject, DimensionsVisualizePropertyType::diameter, DimensionsVisualizePropertyType::angle, DimensionsVisualizePropertyType::length &gt;::"><scope>MR::ConeObject</scope><name>operator=</name></member>
       <member refid="classMR_1_1Object_1aaa2378c439796ceb7a28ad41322cb8d7" prot="public" virt="non-virtual" ambiguityscope="MR::Object::"><scope>MR::ConeObject</scope><name>operator=</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a44a4427301ae71511f5b3138cdf02e9f" prot="public" virt="non-virtual" ambiguityscope="MR::ObjectChildrenHolder::"><scope>MR::ConeObject</scope><name>operator=</name></member>
@@ -929,10 +329,10 @@
       <member refid="classMR_1_1ObjectChildrenHolder_1a79a7197e0981d1da1b59f5fa0d858f7d" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>parent_</name></member>
       <member refid="classMR_1_1Object_1a2f679f701887cee54069b81a45cc8ebc" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>parentLocked_</name></member>
       <member refid="classMR_1_1VisualObject_1a43bcd013faf296110ba8cb4a94bbe12f" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>pickable_</name></member>
-      <member refid="classMR_1_1FeatureObject_1ad870b3dc0af8af65bcaf74fb0fa84475" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>pointSize_</name></member>
-      <member refid="classMR_1_1ConeObject_1ae6cc2d16f39a5d0cb5a6cc9535843b84" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>projectPoint</name></member>
-      <member refid="classMR_1_1AddVisualProperties_1a534fe1b7809ccb50abd437a88b6c1412" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>propertyMasks_</name></member>
-      <member refid="classMR_1_1FeatureObject_1aced598f63c94fa32b11e140c3aec72fa" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>r_</name></member>
+      <member refid="group__GeneralGroup_1gad870b3dc0af8af65bcaf74fb0fa84475" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>pointSize_</name></member>
+      <member refid="group__GeneralGroup_1gae6cc2d16f39a5d0cb5a6cc9535843b84" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>projectPoint</name></member>
+      <member refid="group__GeneralGroup_1ga534fe1b7809ccb50abd437a88b6c1412" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>propertyMasks_</name></member>
+      <member refid="group__GeneralGroup_1gaced598f63c94fa32b11e140c3aec72fa" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>r_</name></member>
       <member refid="classMR_1_1Object_1a1b5609ba616723794aea4dda67727865" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>removeAllChildren</name></member>
       <member refid="classMR_1_1Object_1aa988bb552650c9d30e888e456f458d46" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>removeChild</name></member>
       <member refid="classMR_1_1Object_1a291d8e281e83a1199d6da8484e798fd5" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>removeChild</name></member>
@@ -946,30 +346,30 @@
       <member refid="classMR_1_1VisualObject_1a885f987ce58a89d2b12a33cf48e92c6c" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>resetDirtyExceptMask</name></member>
       <member refid="classMR_1_1VisualObject_1afb0c75a4ae3c759e382ae9c1abc0234b" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>resetFrontColor</name></member>
       <member refid="classMR_1_1Object_1a9dc77f3f61430395182e8402e6e6f410" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>resetRedrawFlag</name></member>
-      <member refid="classMR_1_1FeatureObject_1ab59d5f621e961a8874c5176e4b4ab355" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>resetXf</name></member>
-      <member refid="classMR_1_1FeatureObject_1ab1290c5fd9953439f5f8416adcd4ab38" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>s_</name></member>
+      <member refid="group__GeneralGroup_1gab59d5f621e961a8874c5176e4b4ab355" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>resetXf</name></member>
+      <member refid="group__GeneralGroup_1gab1290c5fd9953439f5f8416adcd4ab38" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>s_</name></member>
       <member refid="classMR_1_1Object_1ac581a9c74f34770bb727b5168fcfa753" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>sameModels</name></member>
       <member refid="classMR_1_1Object_1a989bd3b98218be00c001e3ee8cb77334" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>select</name></member>
       <member refid="classMR_1_1Object_1a0d8ef27f83b47e000093eaa0df9c36f9" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>selected_</name></member>
       <member refid="classMR_1_1VisualObject_1ac75d179334e336af0672bf0d9c997038" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>selectedColor_</name></member>
       <member refid="classMR_1_1Object_1ab41eb618ef90d9677638173475b2d983" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>sendWorldXfChangedSignal_</name></member>
-      <member refid="classMR_1_1ConeObject_1af6287a16f4c08d79fb7eabf432759e42" prot="protected" virt="virtual"><scope>MR::ConeObject</scope><name>serializeFields_</name></member>
-      <member refid="classMR_1_1ConeObject_1ab66f3e6b0a4c5168078a082dd7320592" prot="protected" virt="virtual"><scope>MR::ConeObject</scope><name>serializeModel_</name></member>
+      <member refid="group__GeneralGroup_1gaf6287a16f4c08d79fb7eabf432759e42" prot="protected" virt="virtual"><scope>MR::ConeObject</scope><name>serializeFields_</name></member>
+      <member refid="group__GeneralGroup_1gab66f3e6b0a4c5168078a082dd7320592" prot="protected" virt="virtual"><scope>MR::ConeObject</scope><name>serializeModel_</name></member>
       <member refid="classMR_1_1Object_1a9585a709b1b7bd6d35276d099afd0079" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>serializeRecursive</name></member>
       <member refid="classMR_1_1VisualObject_1aa19ae518997e365fbfa1ddd81b04eb10" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>setAllVisualizeProperties</name></member>
-      <member refid="classMR_1_1AddVisualProperties_1a099d73dfec242eced929d4f4705c90fd" prot="protected" virt="virtual"><scope>MR::ConeObject</scope><name>setAllVisualizeProperties_</name></member>
+      <member refid="group__GeneralGroup_1ga099d73dfec242eced929d4f4705c90fd" prot="protected" virt="virtual"><scope>MR::ConeObject</scope><name>setAllVisualizeProperties_</name></member>
       <member refid="classMR_1_1VisualObject_1aa66ddfe5c8361744b9537dead37974b6" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>setAllVisualizePropertiesForEnum</name></member>
       <member refid="classMR_1_1VisualObject_1a932577d6970c183bc981e1b79cc256e4" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setAmbientStrength</name></member>
       <member refid="classMR_1_1Object_1a3758df5e3fe75f83c0449e77770961b3" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setAncillary</name></member>
-      <member refid="classMR_1_1ConeObject_1a22d46e3457a22a2e4a158ae10af1c82a" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>setAngle</name></member>
+      <member refid="group__GeneralGroup_1ga22d46e3457a22a2e4a158ae10af1c82a" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>setAngle</name></member>
       <member refid="classMR_1_1VisualObject_1a469ac6da4b8c323e12d0d78943831a4e" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setBackColor</name></member>
       <member refid="classMR_1_1VisualObject_1a6b7e8cf2909d71a7537a47028f77913a" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setBackColorsForAllViewports</name></member>
-      <member refid="classMR_1_1ConeObject_1af41c7ee41d175791f53fa013772f99b9" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>setBaseRadius</name></member>
-      <member refid="classMR_1_1ConeObject_1a48654827313a384b867e19af3decfd07" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>setCenter</name></member>
+      <member refid="group__GeneralGroup_1gaf41c7ee41d175791f53fa013772f99b9" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>setBaseRadius</name></member>
+      <member refid="group__GeneralGroup_1ga48654827313a384b867e19af3decfd07" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>setCenter</name></member>
       <member refid="classMR_1_1VisualObject_1a8d339ad1cf1735f90773b4f8b89e9059" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setColoringType</name></member>
-      <member refid="classMR_1_1FeatureObject_1a40915fb0e5451adfd6f78c69047664a9" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setDecorationsColor</name></member>
-      <member refid="classMR_1_1FeatureObject_1abedf621fc54044d44c55d0a494edc86c" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setDecorationsColorForAllViewports</name></member>
-      <member refid="classMR_1_1ConeObject_1a17f187e540021ced92b462f9a865e299" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>setDirection</name></member>
+      <member refid="group__GeneralGroup_1ga40915fb0e5451adfd6f78c69047664a9" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setDecorationsColor</name></member>
+      <member refid="group__GeneralGroup_1gabedf621fc54044d44c55d0a494edc86c" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setDecorationsColorForAllViewports</name></member>
+      <member refid="group__GeneralGroup_1ga17f187e540021ced92b462f9a865e299" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>setDirection</name></member>
       <member refid="classMR_1_1VisualObject_1a3e72e4b693ea9b28b46b5928167f0e74" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setDirtyFlags</name></member>
       <member refid="classMR_1_1VisualObject_1a2261b98d651c586e2bc62a2e1efb902a" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>setDirtyFlagsFast_</name></member>
       <member refid="classMR_1_1VisualObject_1a0d1a64b6bed894b4236b06ac732dfd74" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setFrontColor</name></member>
@@ -978,32 +378,32 @@
       <member refid="classMR_1_1VisualObject_1a8ae88237f1bd22f03cb5a77d018c6d7c" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setGlobalAlphaForAllViewports</name></member>
       <member refid="classMR_1_1VisualObject_1a6212504702d0e12528f65b94e270069e" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>setGlobalClippedByPlane</name></member>
       <member refid="classMR_1_1Object_1af61964cafaa7f98e2b14f89fed277368" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>setGlobalVisibility</name></member>
-      <member refid="classMR_1_1ConeObject_1a7562b1accb4c2fb95e6bc3fcb69d4370" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>setHeight</name></member>
-      <member refid="classMR_1_1FeatureObject_1a1db924c7ae13b6068667a75a0f74ba50" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setLineWidth</name></member>
+      <member refid="group__GeneralGroup_1ga7562b1accb4c2fb95e6bc3fcb69d4370" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>setHeight</name></member>
+      <member refid="group__GeneralGroup_1ga1db924c7ae13b6068667a75a0f74ba50" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setLineWidth</name></member>
       <member refid="classMR_1_1Object_1ac427b5b1a99a87eac1305683801fc850" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setLocked</name></member>
-      <member refid="classMR_1_1FeatureObject_1aed449e8d3a06fe9d8f70ba93a73cc104" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setMainFeatureAlpha</name></member>
+      <member refid="group__GeneralGroup_1gaed449e8d3a06fe9d8f70ba93a73cc104" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setMainFeatureAlpha</name></member>
       <member refid="classMR_1_1Object_1ace89695fb0235bdf97caecfe26390349" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setName</name></member>
       <member refid="classMR_1_1Object_1acd0464af4d89730f9a969f997fdcc8ce" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setParentLocked</name></member>
       <member refid="classMR_1_1VisualObject_1add21d6793f336877707d5ed7b4785ce6" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setPickable</name></member>
-      <member refid="classMR_1_1FeatureObject_1a84e601e7bc1ee93ea6ec700eb616548f" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setPointSize</name></member>
+      <member refid="group__GeneralGroup_1ga84e601e7bc1ee93ea6ec700eb616548f" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setPointSize</name></member>
       <member refid="classMR_1_1Object_1a911d7f54ae21939fe483b0f5caf04a66" prot="protected" virt="virtual"><scope>MR::ConeObject</scope><name>setSharedModel_</name></member>
       <member refid="classMR_1_1VisualObject_1add52279d4cba695b4fa60d469cb8c1af" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setShininess</name></member>
       <member refid="classMR_1_1VisualObject_1a455eb4255b591d822d504e0403c5e984" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setSpecularStrength</name></member>
-      <member refid="classMR_1_1FeatureObject_1a2da9794b73ce4ddae136ccb8992cc690" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setSubfeatureAlphaLines</name></member>
-      <member refid="classMR_1_1FeatureObject_1ade84e20ad9c7be039362059db188055d" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setSubfeatureAlphaMesh</name></member>
-      <member refid="classMR_1_1FeatureObject_1aa0fe2e6df916bd424a5d77ef19379672" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setSubfeatureAlphaPoints</name></member>
-      <member refid="classMR_1_1FeatureObject_1af90cf28a65ce4f4698111d77e6e39a85" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setSubfeatureLineWidth</name></member>
-      <member refid="classMR_1_1FeatureObject_1ad4ff45224612c828ae56427661a0f00e" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setSubfeaturePointSize</name></member>
-      <member refid="classMR_1_1ConeObject_1a58e25e035e9759982d74478c83f688b9" prot="protected" virt="virtual"><scope>MR::ConeObject</scope><name>setupRenderObject_</name></member>
+      <member refid="group__GeneralGroup_1ga2da9794b73ce4ddae136ccb8992cc690" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setSubfeatureAlphaLines</name></member>
+      <member refid="group__GeneralGroup_1gade84e20ad9c7be039362059db188055d" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setSubfeatureAlphaMesh</name></member>
+      <member refid="group__GeneralGroup_1gaa0fe2e6df916bd424a5d77ef19379672" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setSubfeatureAlphaPoints</name></member>
+      <member refid="group__GeneralGroup_1gaf90cf28a65ce4f4698111d77e6e39a85" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setSubfeatureLineWidth</name></member>
+      <member refid="group__GeneralGroup_1gad4ff45224612c828ae56427661a0f00e" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setSubfeaturePointSize</name></member>
+      <member refid="group__GeneralGroup_1ga58e25e035e9759982d74478c83f688b9" prot="protected" virt="virtual"><scope>MR::ConeObject</scope><name>setupRenderObject_</name></member>
       <member refid="classMR_1_1VisualObject_1a12fceb01c325ff73eb770fa255cb5ecf" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>setUseDefaultScenePropertiesOnDeserialization</name></member>
       <member refid="classMR_1_1Object_1a01ca9dab857ceb8e3fad3d04d271ff0e" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setVisibilityMask</name></member>
       <member refid="classMR_1_1Object_1a4f9e9d6e328f1eda7944805cf9d52dc0" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>setVisible</name></member>
       <member refid="classMR_1_1VisualObject_1a2bbb1d0c58312e6cec629c558dec4eb8" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>setVisualizeProperty</name></member>
       <member refid="classMR_1_1VisualObject_1acd4b651e989735ef689f9ed94bbf302d" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setVisualizePropertyMask</name></member>
       <member refid="classMR_1_1Object_1a214e37583ccaa45d92895464c6de685d" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>setWorldXf</name></member>
-      <member refid="classMR_1_1FeatureObject_1a29cbd04bca216b622c6526ea818d86cb" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setXf</name></member>
+      <member refid="group__GeneralGroup_1ga29cbd04bca216b622c6526ea818d86cb" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setXf</name></member>
       <member refid="classMR_1_1Object_1a6d2214b6fde4d128210f1421cc36176d" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setXfsForAllViewports</name></member>
-      <member refid="classMR_1_1ConeObject_1aa6ffe65ecb905c4a85d865c70c753d4c" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>shallowClone</name></member>
+      <member refid="group__GeneralGroup_1gaa6ffe65ecb905c4a85d865c70c753d4c" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>shallowClone</name></member>
       <member refid="classMR_1_1Object_1ac8e64c569d24d04c1dfcfe7cb1511580" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>shallowCloneTree</name></member>
       <member refid="classMR_1_1VisualObject_1a88b3d55070a6a91ed592e80b0f925419" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>shininess_</name></member>
       <member refid="classMR_1_1VisualObject_1aa23cd40dfdaaebc073129fb1ba57dce7" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>showName</name></member>
@@ -1011,23 +411,23 @@
       <member refid="classMR_1_1VisualObject_1a611894e7f98e2633137d75833e361781" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>showName_</name></member>
       <member refid="classMR_1_1Object_1a6f67ec7cbe1e69e514d8f0d5286a35da" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>sortChildren</name></member>
       <member refid="classMR_1_1VisualObject_1ab494630abaaab85d3b4c16929c7e6e83" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>specularStrength_</name></member>
-      <member refid="classMR_1_1ConeObject_1a3b960d6116ad53020d4b8d957d73ca9d" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>StaticClassName</name></member>
-      <member refid="classMR_1_1ConeObject_1af67b28fcaf6cf8ca6bc98137a01f6922" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>StaticClassNameInPlural</name></member>
-      <member refid="classMR_1_1ConeObject_1a2d2e6a5937303deda49c3f33db7d8a11" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>StaticTypeName</name></member>
-      <member refid="classMR_1_1FeatureObject_1ae9eae47d979450ea334ee34d89bd931e" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>subAlphaLines_</name></member>
-      <member refid="classMR_1_1FeatureObject_1aee2b783554996a1934193cd74d782dbf" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>subAlphaMesh_</name></member>
-      <member refid="classMR_1_1FeatureObject_1ad7fbf06bb7ae7e9d6d048ae16629ccc3" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>subAlphaPoints_</name></member>
-      <member refid="classMR_1_1FeatureObject_1abd213076dcde954e6f1f26d06fa6d2fa" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>subfeatureVisibility_</name></member>
-      <member refid="classMR_1_1FeatureObject_1ac8ea614a47b17098054cd1859b24f70c" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>subLineWidth_</name></member>
-      <member refid="classMR_1_1FeatureObject_1a361a7ce85014e2c6232445612aa34c60" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>subPointSize_</name></member>
-      <member refid="classMR_1_1AddVisualProperties_1a06796f32f035d58e6a320f35f1845cf1" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>supportsVisualizeProperty</name></member>
+      <member refid="group__GeneralGroup_1ga3b960d6116ad53020d4b8d957d73ca9d" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>StaticClassName</name></member>
+      <member refid="group__GeneralGroup_1gaf67b28fcaf6cf8ca6bc98137a01f6922" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>StaticClassNameInPlural</name></member>
+      <member refid="group__GeneralGroup_1ga2d2e6a5937303deda49c3f33db7d8a11" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>StaticTypeName</name></member>
+      <member refid="group__GeneralGroup_1gae9eae47d979450ea334ee34d89bd931e" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>subAlphaLines_</name></member>
+      <member refid="group__GeneralGroup_1gaee2b783554996a1934193cd74d782dbf" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>subAlphaMesh_</name></member>
+      <member refid="group__GeneralGroup_1gad7fbf06bb7ae7e9d6d048ae16629ccc3" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>subAlphaPoints_</name></member>
+      <member refid="group__GeneralGroup_1gabd213076dcde954e6f1f26d06fa6d2fa" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>subfeatureVisibility_</name></member>
+      <member refid="group__GeneralGroup_1gac8ea614a47b17098054cd1859b24f70c" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>subLineWidth_</name></member>
+      <member refid="group__GeneralGroup_1ga361a7ce85014e2c6232445612aa34c60" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>subPointSize_</name></member>
+      <member refid="group__GeneralGroup_1ga06796f32f035d58e6a320f35f1845cf1" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>supportsVisualizeProperty</name></member>
       <member refid="classMR_1_1Object_1a39e506e0816b1d504e86a2823ee90cf3" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>swap</name></member>
-      <member refid="classMR_1_1ConeObject_1a576b9eda88516f812a400bea81f5fb17" prot="protected" virt="virtual"><scope>MR::ConeObject</scope><name>swapBase_</name></member>
+      <member refid="group__GeneralGroup_1ga576b9eda88516f812a400bea81f5fb17" prot="protected" virt="virtual"><scope>MR::ConeObject</scope><name>swapBase_</name></member>
       <member refid="classMR_1_1Object_1a82d2749fefb75e38b62dd69a52307680" prot="protected" virt="virtual"><scope>MR::ConeObject</scope><name>swapSignals_</name></member>
       <member refid="classMR_1_1Object_1abf2e87d7dd67d22799d82a35ddecc7b3" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>tags</name></member>
       <member refid="classMR_1_1Object_1abf2154dc69866e93f47d7207cdb4abf4" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>tags_</name></member>
       <member refid="classMR_1_1VisualObject_1af63540ac95e6431477166fb4d1c249a3" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>toggleVisualizeProperty</name></member>
-      <member refid="classMR_1_1ConeObject_1a907b47dc446af6c29603325828130005" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>typeName</name></member>
+      <member refid="group__GeneralGroup_1ga907b47dc446af6c29603325828130005" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>typeName</name></member>
       <member refid="classMR_1_1VisualObject_1a567b072f1d687c864a8be3d5e68d13a3" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>unselectedColor_</name></member>
       <member refid="classMR_1_1VisualObject_1a0466c6ddefdea403775b5b4fa4a46219" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
       <member refid="classMR_1_1VisualObject_1aeed6d251c7bdbffe0634b0fe96faab35" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>useDefaultScenePropertiesOnDeserialization_</name></member>

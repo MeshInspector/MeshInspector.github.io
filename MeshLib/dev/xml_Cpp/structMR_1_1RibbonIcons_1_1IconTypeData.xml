@@ -3,106 +3,25 @@
   <compounddef id="structMR_1_1RibbonIcons_1_1IconTypeData" kind="struct" language="C++" prot="private">
     <compoundname>MR::RibbonIcons::IconTypeData</compoundname>
     <sectiondef kind="public-type">
-      <memberdef kind="enum" id="structMR_1_1RibbonIcons_1_1IconTypeData_1a89fce585b7e09d0b6603c162d80d5991" prot="public" static="no" strong="yes">
-        <type></type>
-        <name>AvailableColor</name>
-        <qualifiedname>MR::RibbonIcons::IconTypeData::AvailableColor</qualifiedname>
-        <enumvalue id="structMR_1_1RibbonIcons_1_1IconTypeData_1a89fce585b7e09d0b6603c162d80d5991a25a81701fbfa4a1efdf660a950c1d006" prot="public">
-          <name>White</name>
-          <initializer>= 1 &lt;&lt; 0</initializer>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="structMR_1_1RibbonIcons_1_1IconTypeData_1a89fce585b7e09d0b6603c162d80d5991a23aad110ee43b97ef120fbbeb743d81c" prot="public">
-          <name>Colored</name>
-          <initializer>= 1 &lt;&lt; 1</initializer>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonIcons.h" line="66" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonIcons.h" bodystart="67" bodyend="70"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga89fce585b7e09d0b6603c162d80d5991" kind="enum"><name>AvailableColor</name></member>
     </sectiondef>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1RibbonIcons_1_1IconTypeData_1a8e7be73585be2d1e172f4043af2dd7da" prot="public" static="no" mutable="no">
-        <type>std::filesystem::path</type>
-        <definition>std::filesystem::path MR::RibbonIcons::IconTypeData::pathDirectory</definition>
-        <argsstring></argsstring>
-        <name>pathDirectory</name>
-        <qualifiedname>MR::RibbonIcons::IconTypeData::pathDirectory</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonIcons.h" line="73" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonIcons.h" bodystart="73" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1RibbonIcons_1_1IconTypeData_1a4731ad96d4ed20fddf9a1f57bdf7a532" prot="public" static="no" mutable="no">
-        <type>std::pair&lt; Sizes, Sizes &gt;</type>
-        <definition>std::pair&lt;Sizes, Sizes&gt; MR::RibbonIcons::IconTypeData::minMaxSizes</definition>
-        <argsstring></argsstring>
-        <name>minMaxSizes</name>
-        <qualifiedname>MR::RibbonIcons::IconTypeData::minMaxSizes</qualifiedname>
-        <briefdescription>
-<para>first - min size, second - max size </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonIcons.h" line="75" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonIcons.h" bodystart="75" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1RibbonIcons_1_1IconTypeData_1a0773e7767a6caea3e52277c10bab8610" prot="public" static="no" mutable="no">
-        <type>AvailableColor</type>
-        <definition>AvailableColor MR::RibbonIcons::IconTypeData::availableColor</definition>
-        <argsstring></argsstring>
-        <name>availableColor</name>
-        <qualifiedname>MR::RibbonIcons::IconTypeData::availableColor</qualifiedname>
-        <initializer>= AvailableColor::White</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonIcons.h" line="76" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonIcons.h" bodystart="76" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1RibbonIcons_1_1IconTypeData_1a05fb9b2891ce6c47d3792e32d2f762ea" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1af8ad9e1b05a45987a3075d43bf345d68" kindref="member">HashMap</ref>&lt; std::string, SizedIcons &gt;</type>
-        <definition>HashMap&lt;std::string, SizedIcons&gt; MR::RibbonIcons::IconTypeData::map</definition>
-        <argsstring></argsstring>
-        <name>map</name>
-        <qualifiedname>MR::RibbonIcons::IconTypeData::map</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonIcons.h" line="77" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonIcons.h" bodystart="77" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga8e7be73585be2d1e172f4043af2dd7da" kind="variable"><name>pathDirectory</name></member>
+      <member refid="group__GeneralGroup_1ga4731ad96d4ed20fddf9a1f57bdf7a532" kind="variable"><name>minMaxSizes</name></member>
+      <member refid="group__GeneralGroup_1ga0773e7767a6caea3e52277c10bab8610" kind="variable"><name>availableColor</name></member>
+      <member refid="group__GeneralGroup_1ga05fb9b2891ce6c47d3792e32d2f762ea" kind="variable"><name>map</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonIcons.h" line="64" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonIcons.h" bodystart="65" bodyend="78"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonIcons.h" line="67" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonIcons.h" bodystart="68" bodyend="81"/>
     <listofallmembers>
-      <member refid="structMR_1_1RibbonIcons_1_1IconTypeData_1a89fce585b7e09d0b6603c162d80d5991" prot="public" virt="non-virtual"><scope>MR::RibbonIcons::IconTypeData</scope><name>AvailableColor</name></member>
-      <member refid="structMR_1_1RibbonIcons_1_1IconTypeData_1a0773e7767a6caea3e52277c10bab8610" prot="public" virt="non-virtual"><scope>MR::RibbonIcons::IconTypeData</scope><name>availableColor</name></member>
-      <member refid="structMR_1_1RibbonIcons_1_1IconTypeData_1a05fb9b2891ce6c47d3792e32d2f762ea" prot="public" virt="non-virtual"><scope>MR::RibbonIcons::IconTypeData</scope><name>map</name></member>
-      <member refid="structMR_1_1RibbonIcons_1_1IconTypeData_1a4731ad96d4ed20fddf9a1f57bdf7a532" prot="public" virt="non-virtual"><scope>MR::RibbonIcons::IconTypeData</scope><name>minMaxSizes</name></member>
-      <member refid="structMR_1_1RibbonIcons_1_1IconTypeData_1a8e7be73585be2d1e172f4043af2dd7da" prot="public" virt="non-virtual"><scope>MR::RibbonIcons::IconTypeData</scope><name>pathDirectory</name></member>
+      <member refid="group__GeneralGroup_1ga89fce585b7e09d0b6603c162d80d5991" prot="public" virt="non-virtual"><scope>MR::RibbonIcons::IconTypeData</scope><name>AvailableColor</name></member>
+      <member refid="group__GeneralGroup_1ga0773e7767a6caea3e52277c10bab8610" prot="public" virt="non-virtual"><scope>MR::RibbonIcons::IconTypeData</scope><name>availableColor</name></member>
+      <member refid="group__GeneralGroup_1ga05fb9b2891ce6c47d3792e32d2f762ea" prot="public" virt="non-virtual"><scope>MR::RibbonIcons::IconTypeData</scope><name>map</name></member>
+      <member refid="group__GeneralGroup_1ga4731ad96d4ed20fddf9a1f57bdf7a532" prot="public" virt="non-virtual"><scope>MR::RibbonIcons::IconTypeData</scope><name>minMaxSizes</name></member>
+      <member refid="group__GeneralGroup_1ga8e7be73585be2d1e172f4043af2dd7da" prot="public" virt="non-virtual"><scope>MR::RibbonIcons::IconTypeData</scope><name>pathDirectory</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

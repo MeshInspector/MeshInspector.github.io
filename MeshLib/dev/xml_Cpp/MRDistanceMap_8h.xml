@@ -18,85 +18,79 @@
     <includedby refid="MRDistanceMapLoad_8h" local="yes">MRDistanceMapLoad.h</includedby>
     <includedby refid="MRIOFormatsRegistry_8h" local="yes">MRIOFormatsRegistry.h</includedby>
     <incdepgraph>
-      <node id="34">
+      <node id="29">
         <label>MRAffineXf.h</label>
         <link refid="MRAffineXf_8h"/>
-        <childnode refid="6" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="30">
+      <node id="25">
         <label>MRAffineXf3.h</label>
         <link refid="MRAffineXf3_8h"/>
-        <childnode refid="31" relation="include">
-        </childnode>
-        <childnode refid="34" relation="include">
-        </childnode>
-      </node>
-      <node id="24">
-        <label>MRBitSet.h</label>
-        <link refid="MRBitSet_8h"/>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="23" relation="include">
-        </childnode>
-        <childnode refid="25" relation="include">
-        </childnode>
         <childnode refid="26" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
         </childnode>
         <childnode refid="29" relation="include">
         </childnode>
       </node>
-      <node id="37">
-        <label>MRBox.h</label>
-        <link refid="MRBox_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
+      <node id="18">
+        <label>MRBitSet.h</label>
+        <link refid="MRBitSet_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="30" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="38" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-        <childnode refid="39" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
       </node>
-      <node id="5">
-        <label>MRMesh/MRCanonicalTypedefs.h</label>
-        <link refid="MRCanonicalTypedefs_8h"/>
-        <childnode refid="6" relation="include">
+      <node id="33">
+        <label>MRBox.h</label>
+        <link refid="MRBox_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="51">
+      <node id="48">
         <label>MRColor.h</label>
         <link refid="MRColor_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="32" relation="include">
+        <childnode refid="27" relation="include">
         </childnode>
-        <childnode refid="52" relation="include">
+        <childnode refid="49" relation="include">
         </childnode>
       </node>
-      <node id="33">
+      <node id="28">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
@@ -105,155 +99,257 @@
         <link refid="MRDistanceMap_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="24" relation="include">
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
         </childnode>
         <childnode refid="30" relation="include">
         </childnode>
-        <childnode refid="35" relation="include">
+        <childnode refid="38" relation="include">
         </childnode>
-        <childnode refid="41" relation="include">
+        <childnode refid="46" relation="include">
         </childnode>
-        <childnode refid="49" relation="include">
+        <childnode refid="47" relation="include">
         </childnode>
-        <childnode refid="50" relation="include">
+        <childnode refid="51" relation="include">
         </childnode>
         <childnode refid="54" relation="include">
         </childnode>
-        <childnode refid="56" relation="include">
+        <childnode refid="55" relation="include">
         </childnode>
-        <childnode refid="57" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="32" relation="include">
         </childnode>
       </node>
-      <node id="35">
+      <node id="30">
         <label>MRDistanceMapParams.h</label>
         <link refid="MRDistanceMapParams_8h"/>
-        <childnode refid="36" relation="include">
+        <childnode refid="31" relation="include">
         </childnode>
-        <childnode refid="24" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
-        <childnode refid="30" relation="include">
+        <childnode refid="25" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
         </childnode>
         <childnode refid="37" relation="include">
         </childnode>
-        <childnode refid="40" relation="include">
-        </childnode>
       </node>
-      <node id="47">
+      <node id="44">
         <label>MREdgePoint.h</label>
         <link refid="MREdgePoint_8h"/>
-        <childnode refid="23" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="48" relation="include">
+        <childnode refid="45" relation="include">
         </childnode>
       </node>
-      <node id="53">
+      <node id="50">
         <label>MREnums.h</label>
         <link refid="MREnums_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="54">
+      <node id="51">
         <label>MRExpected.h</label>
         <link refid="MRExpected_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="55" relation="include">
+        <childnode refid="52" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="53" relation="include">
         </childnode>
       </node>
-      <node id="49">
+      <node id="46">
         <label>MRHeapBytes.h</label>
         <link refid="MRHeapBytes_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="32" relation="include">
         </childnode>
-        <childnode refid="44" relation="include">
+        <childnode refid="41" relation="include">
         </childnode>
       </node>
-      <node id="23">
+      <node id="15">
         <label>MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
-      </node>
-      <node id="50">
-        <label>MRImage.h</label>
-        <link refid="MRImage_8h"/>
-        <childnode refid="51" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="53" relation="include">
-        </childnode>
-        <childnode refid="49" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-      </node>
-      <node id="46">
-        <label>MRLineSegm.h</label>
-        <link refid="MRLineSegm_8h"/>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-      </node>
-      <node id="6">
-        <label>MRMesh/MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
-      </node>
-      <node id="36">
-        <label>MRMatrix.h</label>
-        <link refid="MRMatrix_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-      </node>
-      <node id="31">
-        <label>MRMatrix3.h</label>
-        <link refid="MRMatrix3_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="32" relation="include">
-        </childnode>
-        <childnode refid="33" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-      </node>
-      <node id="3">
-        <label>MRMeshFwd.h</label>
-        <link refid="MRMeshFwd_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>MRImage.h</label>
+        <link refid="MRImage_8h"/>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>MRLineSegm.h</label>
+        <link refid="MRLineSegm_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="31">
+        <label>MRMatrix.h</label>
+        <link refid="MRMatrix_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>MRMatrix3.h</label>
+        <link refid="MRMatrix3_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>MRMeshPart.h</label>
+        <link refid="MRMeshPart_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>MRPlane3.h</label>
+        <link refid="MRPlane3_8h"/>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>MRPolyline.h</label>
+        <link refid="MRPolyline_8h"/>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>MRPolylineTopology.h</label>
+        <link refid="MRPolylineTopology_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRRectIndexer.h</label>
+        <link refid="MRRectIndexer_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>MRResizeNoInit.h</label>
+        <link refid="MRResizeNoInit_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>MRSegmPoint.h</label>
+        <link refid="MRSegmPoint_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>MRSharedThreadSafeOwner.h</label>
+        <link refid="MRSharedThreadSafeOwner_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>MRVector.h</label>
+        <link refid="MRVector_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRVector2.h</label>
+        <link refid="MRVector2_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
@@ -265,251 +361,126 @@
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
-      </node>
-      <node id="40">
-        <label>MRMeshPart.h</label>
-        <link refid="MRMeshPart_8h"/>
-        <childnode refid="3" relation="include">
-        </childnode>
-      </node>
-      <node id="45">
-        <label>MRPlane3.h</label>
-        <link refid="MRPlane3_8h"/>
-        <childnode refid="32" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-      </node>
-      <node id="41">
-        <label>MRPolyline.h</label>
-        <link refid="MRPolyline_8h"/>
-        <childnode refid="42" relation="include">
-        </childnode>
-        <childnode refid="43" relation="include">
-        </childnode>
-        <childnode refid="45" relation="include">
-        </childnode>
-        <childnode refid="46" relation="include">
-        </childnode>
-        <childnode refid="47" relation="include">
-        </childnode>
-      </node>
-      <node id="42">
-        <label>MRPolylineTopology.h</label>
-        <link refid="MRPolylineTopology_8h"/>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="26" relation="include">
-        </childnode>
-        <childnode refid="23" relation="include">
-        </childnode>
-        <childnode refid="24" relation="include">
-        </childnode>
-      </node>
-      <node id="2">
-        <label>MRRectIndexer.h</label>
-        <link refid="MRRectIndexer_8h"/>
-        <childnode refid="3" relation="include">
-        </childnode>
         <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="23" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
         </childnode>
       </node>
       <node id="27">
-        <label>MRResizeNoInit.h</label>
-        <link refid="MRResizeNoInit_8h"/>
-        <childnode refid="3" relation="include">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="28" relation="include">
         </childnode>
-      </node>
-      <node id="48">
-        <label>MRSegmPoint.h</label>
-        <link refid="MRSegmPoint_8h"/>
-        <childnode refid="3" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="39" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
-      </node>
-      <node id="43">
-        <label>MRSharedThreadSafeOwner.h</label>
-        <link refid="MRSharedThreadSafeOwner_8h"/>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="44" relation="include">
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
         </childnode>
       </node>
-      <node id="15">
-        <label>MRMesh/MRUnsigned.h</label>
-        <link refid="MRUnsigned_8h"/>
-        <childnode refid="16" relation="include">
+      <node id="49">
+        <label>MRVector4.h</label>
+        <link refid="MRVector4_8h"/>
+        <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-      </node>
-      <node id="26">
-        <label>MRVector.h</label>
-        <link refid="MRVector_8h"/>
-        <childnode refid="6" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="3" relation="include">
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="27" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
       </node>
-      <node id="14">
-        <label>MRVector2.h</label>
-        <link refid="MRVector2_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
-      </node>
-      <node id="32">
-        <label>MRVector3.h</label>
-        <link refid="MRVector3_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="33" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
-      </node>
-      <node id="52">
-        <label>MRVector4.h</label>
-        <link refid="MRVector4_8h"/>
-        <childnode refid="19" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="32" relation="include">
-        </childnode>
-      </node>
-      <node id="38">
+      <node id="34">
         <label>MRVectorTraits.h</label>
         <link refid="MRMesh_2MRVectorTraits_8h"/>
-        <childnode refid="3" relation="include">
+        <childnode refid="35" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
       </node>
-      <node id="4">
-        <label>config.h</label>
-        <link refid="MRMesh_2config_8h"/>
+      <node id="35">
+        <label>MRMesh/MRMeshFwd.h</label>
       </node>
-      <node id="7">
-        <label>MRPch/MRBindingMacros.h</label>
-      </node>
-      <node id="55">
-        <label>MRPch/MRExpected.h</label>
-      </node>
-      <node id="25">
-        <label>MRphmap.h</label>
-      </node>
-      <node id="18">
-        <label>algorithm</label>
-      </node>
-      <node id="8">
-        <label>array</label>
-      </node>
-      <node id="13">
-        <label>cassert</label>
-      </node>
-      <node id="56">
-        <label>cfloat</label>
-      </node>
-      <node id="19">
-        <label>cmath</label>
-      </node>
-      <node id="28">
-        <label>concepts</label>
-      </node>
-      <node id="16">
-        <label>cstddef</label>
-      </node>
-      <node id="20">
-        <label>cstring</label>
-      </node>
-      <node id="57">
-        <label>filesystem</label>
-      </node>
-      <node id="12">
-        <label>functional</label>
-      </node>
-      <node id="21">
-        <label>iosfwd</label>
-      </node>
-      <node id="29">
-        <label>iterator</label>
-      </node>
-      <node id="39">
-        <label>limits</label>
-      </node>
-      <node id="44">
-        <label>memory</label>
-      </node>
-      <node id="11">
-        <label>parallel_hashmap/phmap_fwd_decl.h</label>
-      </node>
-      <node id="10">
-        <label>string</label>
-      </node>
-      <node id="17">
-        <label>type_traits</label>
-      </node>
-      <node id="22">
-        <label>utility</label>
+      <node id="3">
+        <label>MRMeshFwd.h</label>
       </node>
       <node id="9">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="52">
+        <label>MRPch/MRExpected.h</label>
+      </node>
+      <node id="19">
+        <label>MRphmap.h</label>
+      </node>
+      <node id="10">
+        <label>algorithm</label>
+      </node>
+      <node id="17">
+        <label>array</label>
+      </node>
+      <node id="16">
+        <label>cassert</label>
+      </node>
+      <node id="54">
+        <label>cfloat</label>
+      </node>
+      <node id="11">
+        <label>cmath</label>
+      </node>
+      <node id="22">
+        <label>concepts</label>
+      </node>
+      <node id="7">
+        <label>cstddef</label>
+      </node>
+      <node id="12">
+        <label>cstring</label>
+      </node>
+      <node id="55">
+        <label>filesystem</label>
+      </node>
+      <node id="23">
+        <label>functional</label>
+      </node>
+      <node id="13">
+        <label>iosfwd</label>
+      </node>
+      <node id="24">
+        <label>iterator</label>
+      </node>
+      <node id="36">
+        <label>limits</label>
+      </node>
+      <node id="41">
+        <label>memory</label>
+      </node>
+      <node id="53">
+        <label>string</label>
+      </node>
+      <node id="8">
+        <label>type_traits</label>
+      </node>
+      <node id="14">
+        <label>utility</label>
+      </node>
+      <node id="32">
         <label>vector</label>
       </node>
     </incdepgraph>
@@ -593,20 +564,20 @@
 <codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="26" refid="classMR_1_1DistanceMap_1a4488979d529038d712bb847568b214d1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1DistanceMap_1a4488979d529038d712bb847568b214d1" kindref="member">DistanceMap</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30" refid="classMR_1_1DistanceMap_1a5ca222a772dcddb16e0ca704fdb91f4f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1DistanceMap_1a5ca222a772dcddb16e0ca704fdb91f4f" kindref="member">DistanceMap</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>resX,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>resY<sp/>);</highlight></codeline>
+<codeline lineno="30" refid="classMR_1_1DistanceMap_1a5ca222a772dcddb16e0ca704fdb91f4f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="classMR_1_1DistanceMap_1a5ca222a772dcddb16e0ca704fdb91f4f" kindref="member">DistanceMap</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>resX,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>resY<sp/>);</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33" refid="classMR_1_1DistanceMap_1aa0529b95564bf62adb72c9ecda53188f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1DistanceMap_1aa0529b95564bf62adb72c9ecda53188f" kindref="member">DistanceMap</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Matrix" kindref="compound">MR::Matrix&lt;float&gt;</ref>&amp;<sp/>m<sp/>);</highlight></codeline>
+<codeline lineno="33" refid="classMR_1_1DistanceMap_1aa0529b95564bf62adb72c9ecda53188f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="classMR_1_1DistanceMap_1aa0529b95564bf62adb72c9ecda53188f" kindref="member">DistanceMap</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Matrix" kindref="compound">MR::Matrix&lt;float&gt;</ref>&amp;<sp/>m<sp/>);</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
 <codeline lineno="36" refid="classMR_1_1DistanceMap_1ad6bccffa3db45e8bb1b96ae2091c7bcd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>NOT_VALID_VALUE<sp/>=<sp/>std::numeric_limits&lt;float&gt;::lowest();</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39" refid="classMR_1_1DistanceMap_1a1eaf3f29a82b7eb2528f578d2f9e8f34" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap_1a1eaf3f29a82b7eb2528f578d2f9e8f34" kindref="member">isValid</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>y<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="41" refid="classMR_1_1DistanceMap_1af1b7ab47803d2d2e93f40336ba1e06f7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap_1af1b7ab47803d2d2e93f40336ba1e06f7" kindref="member">isValid</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="39" refid="classMR_1_1DistanceMap_1a1eaf3f29a82b7eb2528f578d2f9e8f34" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap_1a1eaf3f29a82b7eb2528f578d2f9e8f34" kindref="member">isValid</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>y<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="41" refid="classMR_1_1DistanceMap_1af1b7ab47803d2d2e93f40336ba1e06f7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap_1af1b7ab47803d2d2e93f40336ba1e06f7" kindref="member">isValid</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
 <codeline lineno="44" refid="classMR_1_1DistanceMap_1ac569825ceb48710f525dde089d566e82" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap_1ac569825ceb48710f525dde089d566e82" kindref="member">isInBounds</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>y<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>x<sp/>&lt;<sp/>size_t(<sp/>dims_.x<sp/>)<sp/>&amp;&amp;<sp/>y<sp/>&lt;<sp/>size_t(<sp/>dims_.y<sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="46" refid="classMR_1_1DistanceMap_1afa3165909461f4338a68ad61061e3dd8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap_1afa3165909461f4338a68ad61061e3dd8" kindref="member">isInBounds</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>i<sp/>&lt;<sp/>size_;<sp/>}</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="49" refid="classMR_1_1DistanceMap_1a101a1b0a998a4c98f3c5fcbae8d9c593" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;float&gt;<sp/><ref refid="classMR_1_1DistanceMap_1a101a1b0a998a4c98f3c5fcbae8d9c593" kindref="member">get</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>y<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="51" refid="classMR_1_1DistanceMap_1a8a2738cef5f113ff90fa89f1743a0e5c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;float&gt;<sp/><ref refid="classMR_1_1DistanceMap_1a8a2738cef5f113ff90fa89f1743a0e5c" kindref="member">get</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="49" refid="classMR_1_1DistanceMap_1a101a1b0a998a4c98f3c5fcbae8d9c593" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/>std::optional&lt;float&gt;<sp/><ref refid="classMR_1_1DistanceMap_1a101a1b0a998a4c98f3c5fcbae8d9c593" kindref="member">get</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>y<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="51" refid="classMR_1_1DistanceMap_1a8a2738cef5f113ff90fa89f1743a0e5c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/>std::optional&lt;float&gt;<sp/><ref refid="classMR_1_1DistanceMap_1a8a2738cef5f113ff90fa89f1743a0e5c" kindref="member">get</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="54" refid="classMR_1_1DistanceMap_1aa7d63616e89a2dff0379ef4fe48b2c08" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&amp;<sp/><ref refid="classMR_1_1DistanceMap_1aa7d63616e89a2dff0379ef4fe48b2c08" kindref="member">getValue</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>y<sp/>)</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>data_[toIndex(<sp/>{<sp/>int(<sp/>x<sp/>),<sp/>int(<sp/>y<sp/>)<sp/>}<sp/>)];</highlight></codeline>
@@ -627,34 +598,34 @@
 <codeline lineno="71" refid="classMR_1_1DistanceMap_1a38e9ddb4a58e01a2fee45968358c5098" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/><ref refid="classMR_1_1DistanceMap_1a38e9ddb4a58e01a2fee45968358c5098" kindref="member">data</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>data_.data();<sp/>}</highlight></codeline>
 <codeline lineno="72" refid="classMR_1_1DistanceMap_1a40ae747ad28a6f966d16e3359c140eb3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/><ref refid="classMR_1_1DistanceMap_1a40ae747ad28a6f966d16e3359c140eb3" kindref="member">data</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>data_.data();<sp/>}</highlight></codeline>
 <codeline lineno="73"><highlight class="normal"></highlight></codeline>
-<codeline lineno="83" refid="classMR_1_1DistanceMap_1a98776cc9ffe74bd314621c772dc0c719" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;float&gt;<sp/><ref refid="classMR_1_1DistanceMap_1a98776cc9ffe74bd314621c772dc0c719" kindref="member">getInterpolated</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="83" refid="classMR_1_1DistanceMap_1a98776cc9ffe74bd314621c772dc0c719" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/>std::optional&lt;float&gt;<sp/><ref refid="classMR_1_1DistanceMap_1a98776cc9ffe74bd314621c772dc0c719" kindref="member">getInterpolated</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"></highlight></codeline>
-<codeline lineno="88" refid="classMR_1_1DistanceMap_1a88bf257eb0b870e90c3acdccb814fc9d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;Vector3f&gt;<sp/><ref refid="classMR_1_1DistanceMap_1a88bf257eb0b870e90c3acdccb814fc9d" kindref="member">unproject</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>toWorld<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="88" refid="classMR_1_1DistanceMap_1a88bf257eb0b870e90c3acdccb814fc9d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/>std::optional&lt;Vector3f&gt;<sp/><ref refid="classMR_1_1DistanceMap_1a88bf257eb0b870e90c3acdccb814fc9d" kindref="member">unproject</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>toWorld<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="89"><highlight class="normal"></highlight></codeline>
-<codeline lineno="98" refid="classMR_1_1DistanceMap_1aea6c5d7815d9a1aa998913b7d373347f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;Vector3f&gt;<sp/><ref refid="classMR_1_1DistanceMap_1aea6c5d7815d9a1aa998913b7d373347f" kindref="member">unprojectInterpolated</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>toWorld<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="98" refid="classMR_1_1DistanceMap_1aea6c5d7815d9a1aa998913b7d373347f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/>std::optional&lt;Vector3f&gt;<sp/><ref refid="classMR_1_1DistanceMap_1aea6c5d7815d9a1aa998913b7d373347f" kindref="member">unprojectInterpolated</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>toWorld<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="99"><highlight class="normal"></highlight></codeline>
-<codeline lineno="101" refid="classMR_1_1DistanceMap_1a3a5f4cfc04cd3b23b64977ad5facd6f1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap_1a3a5f4cfc04cd3b23b64977ad5facd6f1" kindref="member">negate</ref>();</highlight></codeline>
+<codeline lineno="101" refid="classMR_1_1DistanceMap_1a3a5f4cfc04cd3b23b64977ad5facd6f1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap_1a3a5f4cfc04cd3b23b64977ad5facd6f1" kindref="member">negate</ref>();</highlight></codeline>
 <codeline lineno="102"><highlight class="normal"></highlight></codeline>
-<codeline lineno="105" refid="classMR_1_1DistanceMap_1a79e49582180247f71a986aa45410f8d7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref><sp/><ref refid="classMR_1_1DistanceMap_1a79e49582180247f71a986aa45410f8d7" kindref="member">max</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref>&amp;<sp/>rhs<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="107" refid="classMR_1_1DistanceMap_1a53691beaee2c175c2cf0440a27911d15" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref>&amp;<sp/><ref refid="classMR_1_1DistanceMap_1a53691beaee2c175c2cf0440a27911d15" kindref="member">mergeMax</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref>&amp;<sp/>rhs<sp/>);</highlight></codeline>
-<codeline lineno="109" refid="classMR_1_1DistanceMap_1a4daec07560aee52f20284d13d4c65844" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref><sp/><ref refid="classMR_1_1DistanceMap_1a4daec07560aee52f20284d13d4c65844" kindref="member">min</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref>&amp;<sp/>rhs<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="111" refid="classMR_1_1DistanceMap_1a92f28e4feca4c5df0e99697811859787" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref>&amp;<sp/><ref refid="classMR_1_1DistanceMap_1a92f28e4feca4c5df0e99697811859787" kindref="member">mergeMin</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref>&amp;<sp/>rhs<sp/>);</highlight></codeline>
-<codeline lineno="113" refid="classMR_1_1DistanceMap_1a05298e5df32c52283b4fbb3ab608f377" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref><sp/><ref refid="MRImGuiVectorOperators_8h_1a1bb63ebefff7965e722fdab681030eda" kindref="member">operator- </ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref>&amp;<sp/>rhs<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="115" refid="classMR_1_1DistanceMap_1a17100c5280ade4c9d1b1008d85178ecc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref>&amp;<sp/><ref refid="MRImGuiVectorOperators_8h_1a8556ebd3ff55421b41967bfbdc1e3aba" kindref="member">operator-= </ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref>&amp;<sp/>rhs<sp/>);</highlight></codeline>
+<codeline lineno="105" refid="classMR_1_1DistanceMap_1a79e49582180247f71a986aa45410f8d7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref><sp/><ref refid="classMR_1_1DistanceMap_1a79e49582180247f71a986aa45410f8d7" kindref="member">max</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref>&amp;<sp/>rhs<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="107" refid="classMR_1_1DistanceMap_1a53691beaee2c175c2cf0440a27911d15" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref>&amp;<sp/><ref refid="classMR_1_1DistanceMap_1a53691beaee2c175c2cf0440a27911d15" kindref="member">mergeMax</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref>&amp;<sp/>rhs<sp/>);</highlight></codeline>
+<codeline lineno="109" refid="classMR_1_1DistanceMap_1a4daec07560aee52f20284d13d4c65844" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref><sp/><ref refid="classMR_1_1DistanceMap_1a4daec07560aee52f20284d13d4c65844" kindref="member">min</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref>&amp;<sp/>rhs<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="111" refid="classMR_1_1DistanceMap_1a92f28e4feca4c5df0e99697811859787" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref>&amp;<sp/><ref refid="classMR_1_1DistanceMap_1a92f28e4feca4c5df0e99697811859787" kindref="member">mergeMin</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref>&amp;<sp/>rhs<sp/>);</highlight></codeline>
+<codeline lineno="113" refid="classMR_1_1DistanceMap_1a05298e5df32c52283b4fbb3ab608f377" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref><sp/><ref refid="MRImGuiVectorOperators_8h_1a1bb63ebefff7965e722fdab681030eda" kindref="member">operator- </ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref>&amp;<sp/>rhs<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="115" refid="classMR_1_1DistanceMap_1a17100c5280ade4c9d1b1008d85178ecc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref>&amp;<sp/><ref refid="MRImGuiVectorOperators_8h_1a8556ebd3ff55421b41967bfbdc1e3aba" kindref="member">operator-= </ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref>&amp;<sp/>rhs<sp/>);</highlight></codeline>
 <codeline lineno="116"><highlight class="normal"></highlight></codeline>
-<codeline lineno="118" refid="classMR_1_1DistanceMap_1ad6f348bd639abf5491d2d203623c8ec5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap_1ad6f348bd639abf5491d2d203623c8ec5" kindref="member">set</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>val<sp/>);</highlight></codeline>
-<codeline lineno="120" refid="classMR_1_1DistanceMap_1a00a3638fd3d285e192befb047bf95db2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap_1a00a3638fd3d285e192befb047bf95db2" kindref="member">set</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>val<sp/>);</highlight></codeline>
-<codeline lineno="122" refid="classMR_1_1DistanceMap_1a55389356dd0df5de1c041e73baa076f7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap_1a55389356dd0df5de1c041e73baa076f7" kindref="member">set</ref>(<sp/>std::vector&lt;float&gt;<sp/>data<sp/>);</highlight></codeline>
-<codeline lineno="124" refid="classMR_1_1DistanceMap_1accb80725a2b8dca649a538bcf090f98f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap_1accb80725a2b8dca649a538bcf090f98f" kindref="member">unset</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>y<sp/>);</highlight></codeline>
-<codeline lineno="126" refid="classMR_1_1DistanceMap_1ae9daffb9c88428b1354e37aa4c55fb9d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap_1ae9daffb9c88428b1354e37aa4c55fb9d" kindref="member">unset</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i<sp/>);</highlight></codeline>
+<codeline lineno="118" refid="classMR_1_1DistanceMap_1ad6f348bd639abf5491d2d203623c8ec5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap_1ad6f348bd639abf5491d2d203623c8ec5" kindref="member">set</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>val<sp/>);</highlight></codeline>
+<codeline lineno="120" refid="classMR_1_1DistanceMap_1a00a3638fd3d285e192befb047bf95db2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap_1a00a3638fd3d285e192befb047bf95db2" kindref="member">set</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>val<sp/>);</highlight></codeline>
+<codeline lineno="122" refid="classMR_1_1DistanceMap_1a55389356dd0df5de1c041e73baa076f7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap_1a55389356dd0df5de1c041e73baa076f7" kindref="member">set</ref>(<sp/>std::vector&lt;float&gt;<sp/>data<sp/>);</highlight></codeline>
+<codeline lineno="124" refid="classMR_1_1DistanceMap_1accb80725a2b8dca649a538bcf090f98f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap_1accb80725a2b8dca649a538bcf090f98f" kindref="member">unset</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>y<sp/>);</highlight></codeline>
+<codeline lineno="126" refid="classMR_1_1DistanceMap_1ae9daffb9c88428b1354e37aa4c55fb9d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap_1ae9daffb9c88428b1354e37aa4c55fb9d" kindref="member">unset</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i<sp/>);</highlight></codeline>
 <codeline lineno="127"><highlight class="normal"></highlight></codeline>
-<codeline lineno="129" refid="classMR_1_1DistanceMap_1ad5b12268ebb7ac7c56982566845c0e08" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap_1ad5b12268ebb7ac7c56982566845c0e08" kindref="member">invalidateAll</ref>();</highlight></codeline>
-<codeline lineno="131" refid="classMR_1_1DistanceMap_1af17d14221a21a70499a859487ec1c66f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap_1af17d14221a21a70499a859487ec1c66f" kindref="member">clear</ref>();</highlight></codeline>
+<codeline lineno="129" refid="classMR_1_1DistanceMap_1ad5b12268ebb7ac7c56982566845c0e08" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap_1ad5b12268ebb7ac7c56982566845c0e08" kindref="member">invalidateAll</ref>();</highlight></codeline>
+<codeline lineno="131" refid="classMR_1_1DistanceMap_1af17d14221a21a70499a859487ec1c66f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap_1af17d14221a21a70499a859487ec1c66f" kindref="member">clear</ref>();</highlight></codeline>
 <codeline lineno="132"><highlight class="normal"></highlight></codeline>
-<codeline lineno="134" refid="classMR_1_1DistanceMap_1a5fb9437de36ca41f9202cdbb15d3db9a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref><sp/><ref refid="classMR_1_1DistanceMap_1a5fb9437de36ca41f9202cdbb15d3db9a" kindref="member">getDerivativeMap</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="136" refid="classMR_1_1DistanceMap_1aaaf57f68fae4b550eaab60acb61871b3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::pair&lt;<sp/>DistanceMap,<sp/>DistanceMap<sp/>&gt;<sp/><ref refid="classMR_1_1DistanceMap_1aaaf57f68fae4b550eaab60acb61871b3" kindref="member">getXYDerivativeMaps</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="134" refid="classMR_1_1DistanceMap_1a5fb9437de36ca41f9202cdbb15d3db9a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref><sp/><ref refid="classMR_1_1DistanceMap_1a5fb9437de36ca41f9202cdbb15d3db9a" kindref="member">getDerivativeMap</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="136" refid="classMR_1_1DistanceMap_1aaaf57f68fae4b550eaab60acb61871b3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/>std::pair&lt;<sp/>DistanceMap,<sp/>DistanceMap<sp/>&gt;<sp/><ref refid="classMR_1_1DistanceMap_1aaaf57f68fae4b550eaab60acb61871b3" kindref="member">getXYDerivativeMaps</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="137"><highlight class="normal"></highlight></codeline>
-<codeline lineno="139" refid="classMR_1_1DistanceMap_1a8f3d1d2032d248a5d9caedd59ae785e8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::vector&lt;<sp/>std::pair&lt;size_t,<sp/>size_t&gt;<sp/>&gt;<sp/><ref refid="classMR_1_1DistanceMap_1a8f3d1d2032d248a5d9caedd59ae785e8" kindref="member">getLocalMaximums</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="139" refid="classMR_1_1DistanceMap_1a8f3d1d2032d248a5d9caedd59ae785e8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/>std::vector&lt;<sp/>std::pair&lt;size_t,<sp/>size_t&gt;<sp/>&gt;<sp/><ref refid="classMR_1_1DistanceMap_1a8f3d1d2032d248a5d9caedd59ae785e8" kindref="member">getLocalMaximums</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="140"><highlight class="normal"></highlight></codeline>
 <codeline lineno="142" refid="classMR_1_1DistanceMap_1a86f99e58434c2a70fb27a552d08ba50f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap_1a86f99e58434c2a70fb27a552d08ba50f" kindref="member">resX</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="143"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
@@ -667,12 +638,12 @@
 <codeline lineno="151"><highlight class="normal"></highlight></codeline>
 <codeline lineno="153" refid="classMR_1_1DistanceMap_1af13b1ec7ff8d3cdc83fb66dc8ff4d97e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap_1af13b1ec7ff8d3cdc83fb66dc8ff4d97e" kindref="member">numPoints</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="154"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a306ff1f62992b3eb33c446913b64188a" kindref="member">size</ref>();</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga306ff1f62992b3eb33c446913b64188a" kindref="member">size</ref>();</highlight></codeline>
 <codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="157"><highlight class="normal"></highlight></codeline>
-<codeline lineno="160" refid="classMR_1_1DistanceMap_1a7f84b034f7b522fa041c24de79c0fec3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::pair&lt;float,<sp/>float&gt;<sp/><ref refid="classMR_1_1DistanceMap_1a7f84b034f7b522fa041c24de79c0fec3" kindref="member">getMinMaxValues</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="163" refid="classMR_1_1DistanceMap_1ab2d9f40322b479e2ab1ff5a49627027b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::pair&lt;size_t,<sp/>size_t&gt;<sp/><ref refid="classMR_1_1DistanceMap_1ab2d9f40322b479e2ab1ff5a49627027b" kindref="member">getMinIndex</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="166" refid="classMR_1_1DistanceMap_1a491d7051e8163ff54790e25895c36105" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::pair&lt;size_t,<sp/>size_t&gt;<sp/><ref refid="classMR_1_1DistanceMap_1a491d7051e8163ff54790e25895c36105" kindref="member">getMaxIndex</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="160" refid="classMR_1_1DistanceMap_1a7f84b034f7b522fa041c24de79c0fec3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/>std::pair&lt;float,<sp/>float&gt;<sp/><ref refid="classMR_1_1DistanceMap_1a7f84b034f7b522fa041c24de79c0fec3" kindref="member">getMinMaxValues</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="163" refid="classMR_1_1DistanceMap_1ab2d9f40322b479e2ab1ff5a49627027b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/>std::pair&lt;size_t,<sp/>size_t&gt;<sp/><ref refid="classMR_1_1DistanceMap_1ab2d9f40322b479e2ab1ff5a49627027b" kindref="member">getMinIndex</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="166" refid="classMR_1_1DistanceMap_1a491d7051e8163ff54790e25895c36105" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/>std::pair&lt;size_t,<sp/>size_t&gt;<sp/><ref refid="classMR_1_1DistanceMap_1a491d7051e8163ff54790e25895c36105" kindref="member">getMaxIndex</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="167"><highlight class="normal"></highlight></codeline>
 <codeline lineno="169" refid="classMR_1_1DistanceMap_1a9a2b0e5b026e2046b9d68412671d9f8a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap_1a9a2b0e5b026e2046b9d68412671d9f8a" kindref="member">heapBytes</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="170"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
@@ -683,13 +654,13 @@
 <codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;float&gt;<sp/>data_;</highlight></codeline>
 <codeline lineno="176"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="177"><highlight class="normal"></highlight></codeline>
-<codeline lineno="179" refid="group__DistanceMapGroup_1ga27435b7d8c5a7876aa45b60ea840b353" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref><sp/><ref refid="group__DistanceMapGroup_1ga27435b7d8c5a7876aa45b60ea840b353" kindref="member">combineXYderivativeMaps</ref>(<sp/>std::pair&lt;DistanceMap,<sp/>DistanceMap&gt;<sp/>XYderivativeMaps<sp/>);</highlight></codeline>
+<codeline lineno="179" refid="group__DistanceMapGroup_1ga27435b7d8c5a7876aa45b60ea840b353" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref><sp/><ref refid="group__DistanceMapGroup_1ga27435b7d8c5a7876aa45b60ea840b353" kindref="member">combineXYderivativeMaps</ref>(<sp/>std::pair&lt;DistanceMap,<sp/>DistanceMap&gt;<sp/>XYderivativeMaps<sp/>);</highlight></codeline>
 <codeline lineno="180"><highlight class="normal"></highlight></codeline>
-<codeline lineno="183" refid="group__DistanceMapGroup_1gaf972733cbe1eca39d0f85671e30b514c" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref><sp/><ref refid="group__DistanceMapGroup_1gaf972733cbe1eca39d0f85671e30b514c" kindref="member">computeDistanceMap</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshToDistanceMapParams" kindref="compound">MeshToDistanceMapParams</ref>&amp;<sp/>params,</highlight></codeline>
-<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>cb<sp/>=<sp/>{},<sp/>std::vector&lt;MeshTriPoint&gt;<sp/>*<sp/>outSamples<sp/>=<sp/>nullptr<sp/>);</highlight></codeline>
+<codeline lineno="183" refid="group__DistanceMapGroup_1gaf972733cbe1eca39d0f85671e30b514c" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref><sp/><ref refid="group__DistanceMapGroup_1gaf972733cbe1eca39d0f85671e30b514c" kindref="member">computeDistanceMap</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshToDistanceMapParams" kindref="compound">MeshToDistanceMapParams</ref>&amp;<sp/>params,</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/>ProgressCallback<sp/>cb<sp/>=<sp/>{},<sp/>std::vector&lt;MeshTriPoint&gt;<sp/>*<sp/>outSamples<sp/>=<sp/>nullptr<sp/>);</highlight></codeline>
 <codeline lineno="185"><highlight class="normal"></highlight></codeline>
-<codeline lineno="188" refid="group__DistanceMapGroup_1ga8f2c4ae318d14a691410a43d5c1c0ee4" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref><sp/><ref refid="group__DistanceMapGroup_1ga8f2c4ae318d14a691410a43d5c1c0ee4" kindref="member">computeDistanceMapD</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshToDistanceMapParams" kindref="compound">MeshToDistanceMapParams</ref>&amp;<sp/>params,</highlight></codeline>
-<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>cb<sp/>=<sp/>{},<sp/>std::vector&lt;MeshTriPoint&gt;<sp/>*<sp/>outSamples<sp/>=<sp/>nullptr<sp/>);</highlight></codeline>
+<codeline lineno="188" refid="group__DistanceMapGroup_1ga8f2c4ae318d14a691410a43d5c1c0ee4" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref><sp/><ref refid="group__DistanceMapGroup_1ga8f2c4ae318d14a691410a43d5c1c0ee4" kindref="member">computeDistanceMapD</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshToDistanceMapParams" kindref="compound">MeshToDistanceMapParams</ref>&amp;<sp/>params,</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/>ProgressCallback<sp/>cb<sp/>=<sp/>{},<sp/>std::vector&lt;MeshTriPoint&gt;<sp/>*<sp/>outSamples<sp/>=<sp/>nullptr<sp/>);</highlight></codeline>
 <codeline lineno="190"><highlight class="normal"></highlight></codeline>
 <codeline lineno="192" refid="structMR_1_1ContoursDistanceMapOffset" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal">[[nodiscard]]<sp/><ref refid="structMR_1_1ContoursDistanceMapOffset" kindref="compound">ContoursDistanceMapOffset</ref></highlight></codeline>
 <codeline lineno="193"><highlight class="normal">{</highlight></codeline>
@@ -706,7 +677,7 @@
 <codeline lineno="206" refid="structMR_1_1ContoursDistanceMapOptions_1a8338b4b187db812314a5890ccf5e6ec6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ContoursDistanceMapOptions_1a8338b4b187db812314a5890ccf5e6ec6" kindref="member">SignedDetectionMethod</ref></highlight></codeline>
 <codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="211" refid="structMR_1_1ContoursDistanceMapOptions_1a8338b4b187db812314a5890ccf5e6ec6ac0f03fce7a18db1b1d8c8c977e711727" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1ContoursDistanceMapOptions_1a8338b4b187db812314a5890ccf5e6ec6ac0f03fce7a18db1b1d8c8c977e711727" kindref="member">ContourOrientation</ref>,</highlight></codeline>
-<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a03fba1fe0e5d6fe3c22dc41c9d57d309a103a84d91e18de34821243d0495258ed" kindref="member">WindingRule</ref></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga03fba1fe0e5d6fe3c22dc41c9d57d309a103a84d91e18de34821243d0495258ed" kindref="member">WindingRule</ref></highlight></codeline>
 <codeline lineno="215" refid="structMR_1_1ContoursDistanceMapOptions_1ada938644fd6754f567016b529b5f7340" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/>signMethod{<sp/>ContourOrientation<sp/>};</highlight></codeline>
 <codeline lineno="217" refid="structMR_1_1ContoursDistanceMapOptions_1a5015f92ab6db453e909083c2c9486054" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ContoursDistanceMapOffset" kindref="compound">ContoursDistanceMapOffset</ref>*<sp/>offsetParameters{<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>};</highlight></codeline>
 <codeline lineno="219" refid="structMR_1_1ContoursDistanceMapOptions_1ad970162a0cd7b031b6f1394f856f5ba0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>PixelBitSet*<sp/>region{<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>};</highlight></codeline>
@@ -715,39 +686,39 @@
 <codeline lineno="225" refid="structMR_1_1ContoursDistanceMapOptions_1a37e6ab24d4bd5bee82c4ff4cfded2aec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxDist{<sp/>FLT_MAX<sp/>};</highlight></codeline>
 <codeline lineno="226"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="227"><highlight class="normal"></highlight></codeline>
-<codeline lineno="232" refid="group__DistanceMapGroup_1ga6ba988d1173a8800e2ccfc5ac30d2a68" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref><sp/><ref refid="group__DistanceMapGroup_1ga6ba988d1173a8800e2ccfc5ac30d2a68" kindref="member">distanceMapFromContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline2&amp;<sp/>contours,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ContourToDistanceMapParams" kindref="compound">ContourToDistanceMapParams</ref>&amp;<sp/>params,</highlight></codeline>
+<codeline lineno="232" refid="group__DistanceMapGroup_1ga6ba988d1173a8800e2ccfc5ac30d2a68" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref><sp/><ref refid="group__DistanceMapGroup_1ga6ba988d1173a8800e2ccfc5ac30d2a68" kindref="member">distanceMapFromContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline2&amp;<sp/>contours,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ContourToDistanceMapParams" kindref="compound">ContourToDistanceMapParams</ref>&amp;<sp/>params,</highlight></codeline>
 <codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ContoursDistanceMapOptions" kindref="compound">ContoursDistanceMapOptions</ref>&amp;<sp/>options<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="234"><highlight class="normal"></highlight></codeline>
-<codeline lineno="240" refid="group__DistanceMapGroup_1gaa50c3ffe7a7a332ff5cc4ca19890c47f" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__DistanceMapGroup_1ga6ba988d1173a8800e2ccfc5ac30d2a68" kindref="member">distanceMapFromContours</ref>(<sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref><sp/>&amp;<sp/>distMap,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline2&amp;<sp/>polyline,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ContourToDistanceMapParams" kindref="compound">ContourToDistanceMapParams</ref>&amp;<sp/>params,</highlight></codeline>
+<codeline lineno="240" refid="group__DistanceMapGroup_1gaa50c3ffe7a7a332ff5cc4ca19890c47f" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__DistanceMapGroup_1ga6ba988d1173a8800e2ccfc5ac30d2a68" kindref="member">distanceMapFromContours</ref>(<sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref><sp/>&amp;<sp/>distMap,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline2&amp;<sp/>polyline,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ContourToDistanceMapParams" kindref="compound">ContourToDistanceMapParams</ref>&amp;<sp/>params,</highlight></codeline>
 <codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ContoursDistanceMapOptions" kindref="compound">ContoursDistanceMapOptions</ref>&amp;<sp/>options<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="242"><highlight class="normal"></highlight></codeline>
-<codeline lineno="246" refid="group__DistanceMapGroup_1ga00ea89be5cae9953d5df7ef382259b58" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::vector&lt;Vector3f&gt;<sp/><ref refid="group__DistanceMapGroup_1ga00ea89be5cae9953d5df7ef382259b58" kindref="member">edgePointsFromContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline2&amp;<sp/>polyline,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>pixelSize,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>threshold<sp/>);</highlight></codeline>
+<codeline lineno="246" refid="group__DistanceMapGroup_1ga00ea89be5cae9953d5df7ef382259b58" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>std::vector&lt;Vector3f&gt;<sp/><ref refid="group__DistanceMapGroup_1ga00ea89be5cae9953d5df7ef382259b58" kindref="member">edgePointsFromContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline2&amp;<sp/>polyline,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>pixelSize,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>threshold<sp/>);</highlight></codeline>
 <codeline lineno="247"><highlight class="normal"></highlight></codeline>
-<codeline lineno="250" refid="group__DistanceMapGroup_1ga91dadb5d280efea2e31e4620ed69cf56" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>Polyline2<sp/><ref refid="group__DistanceMapGroup_1ga91dadb5d280efea2e31e4620ed69cf56" kindref="member">distanceMapTo2DIsoPolyline</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref>&amp;<sp/>distMap,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>isoValue<sp/>);</highlight></codeline>
+<codeline lineno="250" refid="group__DistanceMapGroup_1ga91dadb5d280efea2e31e4620ed69cf56" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>Polyline2<sp/><ref refid="group__DistanceMapGroup_1ga91dadb5d280efea2e31e4620ed69cf56" kindref="member">distanceMapTo2DIsoPolyline</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref>&amp;<sp/>distMap,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>isoValue<sp/>);</highlight></codeline>
 <codeline lineno="251"><highlight class="normal"></highlight></codeline>
-<codeline lineno="253" refid="group__DistanceMapGroup_1ga6d0dc4485cbdb50e2e0663aedcc73986" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>Polyline2<sp/><ref refid="group__DistanceMapGroup_1ga91dadb5d280efea2e31e4620ed69cf56" kindref="member">distanceMapTo2DIsoPolyline</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref>&amp;<sp/>distMap,</highlight></codeline>
+<codeline lineno="253" refid="group__DistanceMapGroup_1ga6d0dc4485cbdb50e2e0663aedcc73986" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>Polyline2<sp/><ref refid="group__DistanceMapGroup_1ga91dadb5d280efea2e31e4620ed69cf56" kindref="member">distanceMapTo2DIsoPolyline</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref>&amp;<sp/>distMap,</highlight></codeline>
 <codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ContourToDistanceMapParams" kindref="compound">ContourToDistanceMapParams</ref>&amp;<sp/>params,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>isoValue<sp/>);</highlight></codeline>
 <codeline lineno="255"><highlight class="normal"></highlight></codeline>
-<codeline lineno="259" refid="group__DistanceMapGroup_1ga875406db41d922b9e6b597a1cc589c02" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::pair&lt;Polyline2,<sp/>AffineXf3f&gt;<sp/><ref refid="group__DistanceMapGroup_1ga91dadb5d280efea2e31e4620ed69cf56" kindref="member">distanceMapTo2DIsoPolyline</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref>&amp;<sp/>distMap,</highlight></codeline>
+<codeline lineno="259" refid="group__DistanceMapGroup_1ga875406db41d922b9e6b597a1cc589c02" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>std::pair&lt;Polyline2,<sp/>AffineXf3f&gt;<sp/><ref refid="group__DistanceMapGroup_1ga91dadb5d280efea2e31e4620ed69cf56" kindref="member">distanceMapTo2DIsoPolyline</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref>&amp;<sp/>distMap,</highlight></codeline>
 <codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>xf,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>isoValue,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>useDepth<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>);</highlight></codeline>
-<codeline lineno="261" refid="group__DistanceMapGroup_1ga1acaca885d3034b9c8ef1f5cb9b8824a" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>Polyline2<sp/><ref refid="group__DistanceMapGroup_1ga91dadb5d280efea2e31e4620ed69cf56" kindref="member">distanceMapTo2DIsoPolyline</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref>&amp;<sp/>distMap,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>pixelSize,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>isoValue<sp/>);</highlight></codeline>
+<codeline lineno="261" refid="group__DistanceMapGroup_1ga1acaca885d3034b9c8ef1f5cb9b8824a" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>Polyline2<sp/><ref refid="group__DistanceMapGroup_1ga91dadb5d280efea2e31e4620ed69cf56" kindref="member">distanceMapTo2DIsoPolyline</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref>&amp;<sp/>distMap,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>pixelSize,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>isoValue<sp/>);</highlight></codeline>
 <codeline lineno="262"><highlight class="normal"></highlight></codeline>
-<codeline lineno="264" refid="group__DistanceMapGroup_1gaf720ea7221e6ad284c8b0b80e5c58364" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>Polyline2<sp/><ref refid="group__DistanceMapGroup_1gaf720ea7221e6ad284c8b0b80e5c58364" kindref="member">polylineOffset</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline2&amp;<sp/>polyline,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>pixelSize,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offset<sp/>);</highlight></codeline>
+<codeline lineno="264" refid="group__DistanceMapGroup_1gaf720ea7221e6ad284c8b0b80e5c58364" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>Polyline2<sp/><ref refid="group__DistanceMapGroup_1gaf720ea7221e6ad284c8b0b80e5c58364" kindref="member">polylineOffset</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline2&amp;<sp/>polyline,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>pixelSize,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offset<sp/>);</highlight></codeline>
 <codeline lineno="265"><highlight class="normal"></highlight></codeline>
-<codeline lineno="273" refid="group__DistanceMapGroup_1ga59af0939e79330f4ef6bcc99c74c196b" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>Polyline2<sp/><ref refid="group__DistanceMapGroup_1ga59af0939e79330f4ef6bcc99c74c196b" kindref="member">contourUnion</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline2&amp;<sp/>contoursA,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline2&amp;<sp/>contoursB,</highlight></codeline>
+<codeline lineno="273" refid="group__DistanceMapGroup_1ga59af0939e79330f4ef6bcc99c74c196b" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>Polyline2<sp/><ref refid="group__DistanceMapGroup_1ga59af0939e79330f4ef6bcc99c74c196b" kindref="member">contourUnion</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline2&amp;<sp/>contoursA,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline2&amp;<sp/>contoursB,</highlight></codeline>
 <codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ContourToDistanceMapParams" kindref="compound">ContourToDistanceMapParams</ref>&amp;<sp/>params,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offsetInside<sp/>=<sp/>0<sp/>);</highlight></codeline>
 <codeline lineno="275"><highlight class="normal"></highlight></codeline>
-<codeline lineno="283" refid="group__DistanceMapGroup_1ga8461963f3447f163979179222275114c" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>Polyline2<sp/><ref refid="group__DistanceMapGroup_1ga8461963f3447f163979179222275114c" kindref="member">contourIntersection</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline2&amp;<sp/>contoursA,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline2&amp;<sp/>contoursB,</highlight></codeline>
+<codeline lineno="283" refid="group__DistanceMapGroup_1ga8461963f3447f163979179222275114c" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>Polyline2<sp/><ref refid="group__DistanceMapGroup_1ga8461963f3447f163979179222275114c" kindref="member">contourIntersection</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline2&amp;<sp/>contoursA,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline2&amp;<sp/>contoursB,</highlight></codeline>
 <codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ContourToDistanceMapParams" kindref="compound">ContourToDistanceMapParams</ref>&amp;<sp/>params,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offsetInside<sp/>=<sp/>0.f<sp/>);</highlight></codeline>
 <codeline lineno="285"><highlight class="normal"></highlight></codeline>
-<codeline lineno="293" refid="group__DistanceMapGroup_1ga9ec7f0e4e736da31de012ad0e33f6b33" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>Polyline2<sp/><ref refid="group__DistanceMapGroup_1ga9ec7f0e4e736da31de012ad0e33f6b33" kindref="member">contourSubtract</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline2&amp;<sp/>contoursA,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline2&amp;<sp/>contoursB,</highlight></codeline>
+<codeline lineno="293" refid="group__DistanceMapGroup_1ga9ec7f0e4e736da31de012ad0e33f6b33" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>Polyline2<sp/><ref refid="group__DistanceMapGroup_1ga9ec7f0e4e736da31de012ad0e33f6b33" kindref="member">contourSubtract</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline2&amp;<sp/>contoursA,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline2&amp;<sp/>contoursB,</highlight></codeline>
 <codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ContourToDistanceMapParams" kindref="compound">ContourToDistanceMapParams</ref>&amp;<sp/>params,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offsetInside<sp/>=<sp/>0.f<sp/>);</highlight></codeline>
 <codeline lineno="295"><highlight class="normal"></highlight></codeline>
-<codeline lineno="297" refid="group__DistanceMapGroup_1ga145ea179a83ff19d1734af8771bba71a" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__DistanceMapGroup_1ga145ea179a83ff19d1734af8771bba71a" kindref="member">distanceMapToMesh</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref>&amp;<sp/>distMap,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>toWorld,<sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="297" refid="group__DistanceMapGroup_1ga145ea179a83ff19d1734af8771bba71a" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__DistanceMapGroup_1ga145ea179a83ff19d1734af8771bba71a" kindref="member">distanceMapToMesh</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref>&amp;<sp/>distMap,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>toWorld,<sp/>ProgressCallback<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="298"><highlight class="normal"></highlight></codeline>
-<codeline lineno="301" refid="group__DistanceMapGroup_1gadf85ea3c5943f6cd2cb8864c2991f6f2" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Image" kindref="compound">Image</ref><sp/><ref refid="group__DistanceMapGroup_1gadf85ea3c5943f6cd2cb8864c2991f6f2" kindref="member">convertDistanceMapToImage</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref>&amp;<sp/>distMap,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>threshold<sp/>=<sp/>1.f<sp/>/<sp/>255<sp/>);</highlight></codeline>
+<codeline lineno="301" refid="group__DistanceMapGroup_1gadf85ea3c5943f6cd2cb8864c2991f6f2" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="structMR_1_1Image" kindref="compound">Image</ref><sp/><ref refid="group__DistanceMapGroup_1gadf85ea3c5943f6cd2cb8864c2991f6f2" kindref="member">convertDistanceMapToImage</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref>&amp;<sp/>distMap,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>threshold<sp/>=<sp/>1.f<sp/>/<sp/>255<sp/>);</highlight></codeline>
 <codeline lineno="302"><highlight class="normal"></highlight></codeline>
-<codeline lineno="306" refid="group__DistanceMapGroup_1gabfddf0510446a24e68326d0574949301" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;DistanceMap&gt;</ref><sp/><ref refid="group__DistanceMapGroup_1gabfddf0510446a24e68326d0574949301" kindref="member">convertImageToDistanceMap</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Image" kindref="compound">Image</ref>&amp;<sp/>image,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>threshold<sp/>=<sp/>1.f<sp/>/<sp/>255,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>invert<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="306" refid="group__DistanceMapGroup_1gabfddf0510446a24e68326d0574949301" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;DistanceMap&gt;</ref><sp/><ref refid="group__DistanceMapGroup_1gabfddf0510446a24e68326d0574949301" kindref="member">convertImageToDistanceMap</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Image" kindref="compound">Image</ref>&amp;<sp/>image,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>threshold<sp/>=<sp/>1.f<sp/>/<sp/>255,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>invert<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="307"><highlight class="normal"></highlight></codeline>
 <codeline lineno="309"><highlight class="normal"></highlight></codeline>
 <codeline lineno="310"><highlight class="normal">}<sp/></highlight></codeline>

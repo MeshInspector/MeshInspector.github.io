@@ -5,7 +5,7 @@
     <innerclass refid="structMR_1_1LinesSave_1_1LinesSaver" prot="public">MR::LinesSave::LinesSaver</innerclass>
     <sectiondef kind="typedef">
       <memberdef kind="typedef" id="namespaceMR_1_1LinesSave_1af60c53a3373b70b68b166f03994a8894" prot="public" static="no">
-        <type><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;(*)(const Polyline3 &amp;, const std::filesystem::path &amp;, const <ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref> &amp;)</type>
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;(*)(const Polyline3 &amp;, const std::filesystem::path &amp;, const <ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref> &amp;)</type>
         <definition>using MR::LinesSave::LinesFileSaver =  Expected&lt;void&gt;( * )( const Polyline3&amp;, const std::filesystem::path&amp;, const SaveSettings&amp; )</definition>
         <argsstring></argsstring>
         <name>LinesFileSaver</name>
@@ -19,7 +19,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="224" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="224" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMR_1_1LinesSave_1a268aa90e5a330542295cca4a34787a08" prot="public" static="no">
-        <type><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;(*)(const Polyline3 &amp;, std::ostream &amp;, const <ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref> &amp;)</type>
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;(*)(const Polyline3 &amp;, std::ostream &amp;, const <ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref> &amp;)</type>
         <definition>using MR::LinesSave::LinesStreamSaver =  Expected&lt;void&gt;( * )( const Polyline3&amp;, std::ostream&amp;, const SaveSettings&amp; )</definition>
         <argsstring></argsstring>
         <name>LinesStreamSaver</name>

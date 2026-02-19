@@ -6,46 +6,19 @@
     <templateparamlist>
     </templateparamlist>
     <sectiondef kind="public-type">
-      <memberdef kind="typedef" id="structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Line_01_4_1ae118fa6ed40ec5fb3e1ce843d0591f6b" prot="public" static="no">
-        <type><ref refid="classMR_1_1LineObject" kindref="compound">LineObject</ref></type>
-        <definition>using MR::ObjKindTraits&lt; FeaturesObjectKind::Line &gt;::type =  LineObject</definition>
-        <argsstring></argsstring>
-        <name>type</name>
-        <qualifiedname>MR::ObjKindTraits&lt; FeaturesObjectKind::Line &gt;::type</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureHelpers.h" line="41" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureHelpers.h" bodystart="41" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gae118fa6ed40ec5fb3e1ce843d0591f6b" kind="typedef"><name>type</name></member>
     </sectiondef>
     <sectiondef kind="public-static-attrib">
-      <memberdef kind="variable" id="structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Line_01_4_1a0b7a1942dcf429a9cb761a48551b59b4" prot="public" static="yes" constexpr="yes" mutable="no">
-        <type>std::string_view</type>
-        <definition>std::string_view MR::ObjKindTraits&lt; FeaturesObjectKind::Line &gt;::name</definition>
-        <argsstring></argsstring>
-        <name>name</name>
-        <qualifiedname>MR::ObjKindTraits&lt; FeaturesObjectKind::Line &gt;::name</qualifiedname>
-        <initializer>= &quot;Line&quot;</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureHelpers.h" line="42" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureHelpers.h" bodystart="42" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga0b7a1942dcf429a9cb761a48551b59b4" kind="variable"><name>name</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureHelpers.h" line="39" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureHelpers.h" bodystart="40" bodyend="43"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureHelpers.h" line="42" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureHelpers.h" bodystart="43" bodyend="46"/>
     <listofallmembers>
-      <member refid="structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Line_01_4_1a0b7a1942dcf429a9cb761a48551b59b4" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits&lt; FeaturesObjectKind::Line &gt;</scope><name>name</name></member>
-      <member refid="structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Line_01_4_1ae118fa6ed40ec5fb3e1ce843d0591f6b" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits&lt; FeaturesObjectKind::Line &gt;</scope><name>type</name></member>
+      <member refid="group__GeneralGroup_1ga0b7a1942dcf429a9cb761a48551b59b4" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits&lt; FeaturesObjectKind::Line &gt;</scope><name>name</name></member>
+      <member refid="group__GeneralGroup_1gae118fa6ed40ec5fb3e1ce843d0591f6b" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits&lt; FeaturesObjectKind::Line &gt;</scope><name>type</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

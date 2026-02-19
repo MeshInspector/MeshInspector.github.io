@@ -37,7 +37,7 @@
     </sectiondef>
     <sectiondef kind="private-static-func">
       <memberdef kind="function" id="structfmt_1_1formatter_3_01MR_1_1BitSet_01_4_1a55698202c257b2fffb501dd7aafa2112" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::string</type>
+        <type>MRMESH_API std::string</type>
         <definition>static MRMESH_API std::string fmt::formatter&lt; MR::BitSet &gt;::toString</definition>
         <argsstring>(const MR::BitSet &amp;bs)</argsstring>
         <name>toString</name>

@@ -8,781 +8,58 @@
         <type>typename T</type>
       </param>
       <param>
-        <type>typename <ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref></type>
+        <type>typename I</type>
       </param>
     </templateparamlist>
     <sectiondef kind="public-type">
-      <memberdef kind="typedef" id="classMR_1_1Vector_1abd41445fa91a71145e3d65599d21e191" prot="public" static="no">
-        <type>typename std::vector&lt; T &gt;::value_type</type>
-        <definition>using MR::Vector&lt; T, I &gt;::value_type =  typename std::vector&lt;T&gt;::value_type</definition>
-        <argsstring></argsstring>
-        <name>value_type</name>
-        <qualifiedname>MR::Vector::value_type</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="22" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="22" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1Vector_1a3e5aedaea3719bcb3fd6e41e9c9225ff" prot="public" static="no">
-        <type>typename std::vector&lt; T &gt;::reference</type>
-        <definition>using MR::Vector&lt; T, I &gt;::reference =  typename std::vector&lt;T&gt;::reference</definition>
-        <argsstring></argsstring>
-        <name>reference</name>
-        <qualifiedname>MR::Vector::reference</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="23" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="23" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1Vector_1aaa0ee5d98cd26c7e6232195bcda2b459" prot="public" static="no">
-        <type>typename std::vector&lt; T &gt;::const_reference</type>
-        <definition>using MR::Vector&lt; T, I &gt;::const_reference =  typename std::vector&lt;T&gt;::const_reference</definition>
-        <argsstring></argsstring>
-        <name>const_reference</name>
-        <qualifiedname>MR::Vector::const_reference</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="24" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="24" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1Vector_1a23a39a0e101ba40e7369b90045cb930d" prot="public" static="no">
-        <type>typename std::vector&lt; T &gt;::iterator</type>
-        <definition>using MR::Vector&lt; T, I &gt;::iterator =  typename std::vector&lt;T&gt;::iterator</definition>
-        <argsstring></argsstring>
-        <name>iterator</name>
-        <qualifiedname>MR::Vector::iterator</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="25" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="25" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1Vector_1ad2ec2e50ffddfcbf6168c243fa2da868" prot="public" static="no">
-        <type>typename std::vector&lt; T &gt;::const_iterator</type>
-        <definition>using MR::Vector&lt; T, I &gt;::const_iterator =  typename std::vector&lt;T&gt;::const_iterator</definition>
-        <argsstring></argsstring>
-        <name>const_iterator</name>
-        <qualifiedname>MR::Vector::const_iterator</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="26" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="26" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gabd41445fa91a71145e3d65599d21e191" kind="typedef"><name>value_type</name></member>
+      <member refid="group__GeneralGroup_1ga3e5aedaea3719bcb3fd6e41e9c9225ff" kind="typedef"><name>reference</name></member>
+      <member refid="group__GeneralGroup_1gaaa0ee5d98cd26c7e6232195bcda2b459" kind="typedef"><name>const_reference</name></member>
+      <member refid="group__GeneralGroup_1ga23a39a0e101ba40e7369b90045cb930d" kind="typedef"><name>iterator</name></member>
+      <member refid="group__GeneralGroup_1gad2ec2e50ffddfcbf6168c243fa2da868" kind="typedef"><name>const_iterator</name></member>
     </sectiondef>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="classMR_1_1Vector_1ad4c1a76a727c0e52830149df75a87a0f" prot="public" static="no" mutable="no">
-        <type>std::vector&lt; T &gt;</type>
-        <definition>std::vector&lt;T&gt; MR::Vector&lt; T, I &gt;::vec_</definition>
-        <argsstring></argsstring>
-        <name>vec_</name>
-        <qualifiedname>MR::Vector::vec_</qualifiedname>
-        <briefdescription>
-<para>the user can directly manipulate the vector, anyway she cannot break anything </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="159" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="159" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gad4c1a76a727c0e52830149df75a87a0f" kind="variable"><name>vec_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1Vector_1a0c68875da8e1de13eb3033e6dcb33bf3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::Vector&lt; T, I &gt;::Vector</definition>
-        <argsstring>()=default</argsstring>
-        <name>Vector</name>
-        <qualifiedname>MR::Vector::Vector</qualifiedname>
-        <briefdescription>
-<para>creates empty vector </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="29" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector_1af899ea32ccf8bf49bb09d834c9d178dd" prot="public" static="no" const="no" explicit="yes" inline="yes" refqual="rvalue" virt="non-virtual">
-        <type></type>
-        <definition>MR::Vector&lt; T, I &gt;::Vector</definition>
-        <argsstring>(size_t size) MR_REQUIRES_IF_SUPPORTED(sizeof(T)&gt;0 &amp;&amp;std</argsstring>
-        <name>Vector</name>
-        <qualifiedname>MR::Vector::Vector</qualifiedname>
-        <param>
-          <type>size_t</type>
-          <declname>size</declname>
-        </param>
-        <briefdescription>
-<para>creates a vector with <computeroutput>size</computeroutput> elements with default value </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="32" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="32" bodyend="32"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector_1ac68e153a1cf7d72f90f9af6be0555d6e" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::Vector&lt; T, I &gt;::Vector</definition>
-        <argsstring>(size_t size, const T &amp;val)</argsstring>
-        <name>Vector</name>
-        <qualifiedname>MR::Vector::Vector</qualifiedname>
-        <param>
-          <type>size_t</type>
-          <declname>size</declname>
-        </param>
-        <param>
-          <type>const T &amp;</type>
-          <declname>val</declname>
-        </param>
-        <briefdescription>
-<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="35" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="35" bodyend="35"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector_1a68a6c5f7f0cebdd11e11ced071dad1bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::Vector&lt; T, I &gt;::Vector</definition>
-        <argsstring>(std::vector&lt; T &gt; &amp;&amp;vec)</argsstring>
-        <name>Vector</name>
-        <qualifiedname>MR::Vector::Vector</qualifiedname>
-        <param>
-          <type>std::vector&lt; T &gt; &amp;&amp;</type>
-          <declname>vec</declname>
-        </param>
-        <briefdescription>
-<para>moves data from the given std::vector&lt;T&gt; </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="38" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="38" bodyend="38"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector_1a677df0d98b9a3abfc0733796f1c56c7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>class InputIt</type>
-          </param>
-        </templateparamlist>
-        <type></type>
-        <definition>MR::Vector&lt; T, I &gt;::Vector</definition>
-        <argsstring>(InputIt first, InputIt last)</argsstring>
-        <name>Vector</name>
-        <qualifiedname>MR::Vector::Vector</qualifiedname>
-        <param>
-          <type>InputIt</type>
-          <declname>first</declname>
-        </param>
-        <param>
-          <type>InputIt</type>
-          <declname>last</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="41" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="41" bodyend="41"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector_1a8f77e1876cab4b371446e7913cb25121" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::Vector&lt; T, I &gt;::Vector</definition>
-        <argsstring>(std::initializer_list&lt; T &gt; init)</argsstring>
-        <name>Vector</name>
-        <qualifiedname>MR::Vector::Vector</qualifiedname>
-        <param>
-          <type>std::initializer_list&lt; T &gt;</type>
-          <declname>init</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="43" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="43" bodyend="43"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector_1ac23bc97fbd4484f943e6ff60af745e75" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" refqual="rvalue" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::Vector&lt; T, I &gt;::operator==</definition>
-        <argsstring>(const Vector &amp;b) const MR_REQUIRES_IF_SUPPORTED(sizeof(T)&gt;0 &amp;&amp;std</argsstring>
-        <name>operator==</name>
-        <qualifiedname>MR::Vector::operator==</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1Vector" kindref="compound">Vector</ref> &amp;</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="45" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="45" bodyend="45"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector_1a9e7dbbc00d422b6370dc679c663c5331" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" refqual="rvalue" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::Vector&lt; T, I &gt;::operator!=</definition>
-        <argsstring>(const Vector &amp;b) const MR_REQUIRES_IF_SUPPORTED(sizeof(T)&gt;0 &amp;&amp;std</argsstring>
-        <name>operator!=</name>
-        <qualifiedname>MR::Vector::operator!=</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1Vector" kindref="compound">Vector</ref> &amp;</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="46" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="46" bodyend="46"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector_1a0e593b171d655e35f554674f88083c76" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::Vector&lt; T, I &gt;::clear</definition>
-        <argsstring>()</argsstring>
-        <name>clear</name>
-        <qualifiedname>MR::Vector::clear</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="48" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="48" bodyend="48"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector_1ac4b153c69fb7b5e1466b10723dd2f35b" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::Vector&lt; T, I &gt;::empty</definition>
-        <argsstring>() const</argsstring>
-        <name>empty</name>
-        <qualifiedname>MR::Vector::empty</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="50" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="50" bodyend="50"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector_1a2816ffd002bac70ab04d1bd18e2c5cfd" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>std::size_t</type>
-        <definition>std::size_t MR::Vector&lt; T, I &gt;::size</definition>
-        <argsstring>() const</argsstring>
-        <name>size</name>
-        <qualifiedname>MR::Vector::size</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="52" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="52" bodyend="52"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector_1a2c8202f5b1a09ebf0bd5a5a3dc2936fd" prot="public" static="no" const="no" explicit="no" inline="yes" refqual="rvalue" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::Vector&lt; T, I &gt;::resize</definition>
-        <argsstring>(size_t newSize) MR_REQUIRES_IF_SUPPORTED(sizeof(T)&gt;0 &amp;&amp;std</argsstring>
-        <name>resize</name>
-        <qualifiedname>MR::Vector::resize</qualifiedname>
-        <param>
-          <type>size_t</type>
-          <declname>newSize</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="54" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="54" bodyend="54"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector_1ae081234bbf4fef169d61159d617cf5c6" prot="public" static="no" const="no" explicit="no" inline="yes" refqual="rvalue" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::Vector&lt; T, I &gt;::resize</definition>
-        <argsstring>(size_t newSize, const T &amp;t) MR_REQUIRES_IF_SUPPORTED(sizeof(T)&gt;0 &amp;&amp;std</argsstring>
-        <name>resize</name>
-        <qualifiedname>MR::Vector::resize</qualifiedname>
-        <param>
-          <type>size_t</type>
-          <declname>newSize</declname>
-        </param>
-        <param>
-          <type>const T &amp;</type>
-          <declname>t</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="55" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="55" bodyend="55"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector_1a8a23a61e0e9734a4a33ad686080db6b0" prot="public" static="no" const="no" explicit="no" inline="yes" refqual="rvalue" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::Vector&lt; T, I &gt;::resizeNoInit</definition>
-        <argsstring>(size_t targetSize) MR_REQUIRES_IF_SUPPORTED(sizeof(T)&gt;0 &amp;&amp;std</argsstring>
-        <name>resizeNoInit</name>
-        <qualifiedname>MR::Vector::resizeNoInit</qualifiedname>
-        <param>
-          <type>size_t</type>
-          <declname>targetSize</declname>
-        </param>
-        <briefdescription>
-<para>resizes the vector skipping initialization of its elements (more precisely initializing them using ( noInit ) constructor ) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="58" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="58" bodyend="58"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector_1a291f08448069b69e4286d064907e6fdd" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>std::size_t</type>
-        <definition>std::size_t MR::Vector&lt; T, I &gt;::capacity</definition>
-        <argsstring>() const</argsstring>
-        <name>capacity</name>
-        <qualifiedname>MR::Vector::capacity</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="60" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="60" bodyend="60"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector_1a74f2d276465f6183ec4068d124cbb596" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::Vector&lt; T, I &gt;::reserve</definition>
-        <argsstring>(size_t capacity)</argsstring>
-        <name>reserve</name>
-        <qualifiedname>MR::Vector::reserve</qualifiedname>
-        <param>
-          <type>size_t</type>
-          <declname>capacity</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="62" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="62" bodyend="62"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector_1a349375d06b5b75e3b26f9587fe0584f5" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="classMR_1_1Vector_1aaa0ee5d98cd26c7e6232195bcda2b459" kindref="member">const_reference</ref></type>
-        <definition>const_reference MR::Vector&lt; T, I &gt;::operator[]</definition>
-        <argsstring>(I i) const MR_LIFETIMEBOUND</argsstring>
-        <name>operator[]</name>
-        <qualifiedname>MR::Vector::operator[]</qualifiedname>
-        <param>
-          <type><ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref></type>
-          <declname>i</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="64" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="64" bodyend="68"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector_1a6bae4e482e7ead78efad9465a5ac085d" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="classMR_1_1Vector_1a3e5aedaea3719bcb3fd6e41e9c9225ff" kindref="member">reference</ref></type>
-        <definition>reference MR::Vector&lt; T, I &gt;::operator[]</definition>
-        <argsstring>(I i) MR_LIFETIMEBOUND</argsstring>
-        <name>operator[]</name>
-        <qualifiedname>MR::Vector::operator[]</qualifiedname>
-        <param>
-          <type><ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref></type>
-          <declname>i</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="69" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="69" bodyend="73"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector_1a291ed0f8042c268b0aa65b87497daca1" prot="public" static="no" const="no" explicit="no" inline="yes" refqual="rvalue" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::Vector&lt; T, I &gt;::resizeWithReserve</definition>
-        <argsstring>(size_t newSize) MR_REQUIRES_IF_SUPPORTED(sizeof(T)&gt;0 &amp;&amp;std</argsstring>
-        <name>resizeWithReserve</name>
-        <qualifiedname>MR::Vector::resizeWithReserve</qualifiedname>
-        <param>
-          <type>size_t</type>
-          <declname>newSize</declname>
-        </param>
-        <briefdescription>
-<para>doubles reserved memory until resize(newSize) can be done without reallocation </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-<para>This separate overload is needed as opposed to a <computeroutput>value = T{}</computeroutput> default argument, because if T isn&apos;t default-constructible, the parsed chokes on that.</para>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="76" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="76" bodyend="80"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector_1a8d2ff338e3ecf6232044e755e5145fde" prot="public" static="no" const="no" explicit="no" inline="yes" refqual="rvalue" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::Vector&lt; T, I &gt;::resizeWithReserve</definition>
-        <argsstring>(size_t newSize, const T &amp;value) MR_REQUIRES_IF_SUPPORTED(sizeof(T)&gt;0 &amp;&amp;std</argsstring>
-        <name>resizeWithReserve</name>
-        <qualifiedname>MR::Vector::resizeWithReserve</qualifiedname>
-        <param>
-          <type>size_t</type>
-          <declname>newSize</declname>
-        </param>
-        <param>
-          <type>const T &amp;</type>
-          <declname>value</declname>
-        </param>
-        <briefdescription>
-<para>doubles reserved memory until resize(newSize, value) can be done without reallocation </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="83" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="83" bodyend="93"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector_1af0951dea97b2041bcf0b554bf3f92408" prot="public" static="no" const="no" explicit="no" inline="yes" refqual="rvalue" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::Vector&lt; T, I &gt;::autoResizeSet</definition>
-        <argsstring>(I pos, size_t len, T val) MR_REQUIRES_IF_SUPPORTED(sizeof(T)&gt;0 &amp;&amp;std</argsstring>
-        <name>autoResizeSet</name>
-        <qualifiedname>MR::Vector::autoResizeSet</qualifiedname>
-        <param>
-          <type><ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref></type>
-          <declname>pos</declname>
-        </param>
-        <param>
-          <type>size_t</type>
-          <declname>len</declname>
-        </param>
-        <param>
-          <type>T</type>
-          <declname>val</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) </para>
-        </detaileddescription>
-        <inbodydescription>
-<para>add new elements with the given value</para>
-<para>the number of the elements existing before function call to be changed</para>
-<para>change the value of the elements existing before function call</para>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="97" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="97" bodyend="113"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector_1ac42f813829d695e418e088932eacfd6c" prot="public" static="no" const="no" explicit="no" inline="yes" refqual="rvalue" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::Vector&lt; T, I &gt;::autoResizeSet</definition>
-        <argsstring>(I i, T val) MR_REQUIRES_IF_SUPPORTED(sizeof(T)&gt;0 &amp;&amp;std</argsstring>
-        <name>autoResizeSet</name>
-        <qualifiedname>MR::Vector::autoResizeSet</qualifiedname>
-        <param>
-          <type><ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref></type>
-          <declname>i</declname>
-        </param>
-        <param>
-          <type>T</type>
-          <declname>val</declname>
-        </param>
-        <briefdescription>
-<para>sets the element #i to the given value, adjusting the size of the vector to include new element </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="116" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="116" bodyend="119"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector_1a34cbfbd253ebde3284a83172a4443540" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" refqual="rvalue" virt="non-virtual">
-        <type><ref refid="classMR_1_1Vector_1a3e5aedaea3719bcb3fd6e41e9c9225ff" kindref="member">reference</ref></type>
-        <definition>reference MR::Vector&lt; T, I &gt;::autoResizeAt</definition>
-        <argsstring>(I i) MR_REQUIRES_IF_SUPPORTED(sizeof(T)&gt;0 &amp;&amp;std</argsstring>
-        <name>autoResizeAt</name>
-        <qualifiedname>MR::Vector::autoResizeAt</qualifiedname>
-        <param>
-          <type><ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref></type>
-          <declname>i</declname>
-        </param>
-        <briefdescription>
-<para>this accessor automatically adjusts the size of the vector </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="122" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="122" bodyend="127"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector_1a5ea16d2aeaa1f2e2d683aade3c67794c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::Vector&lt; T, I &gt;::push_back</definition>
-        <argsstring>(const T &amp;t MR_LIFETIME_CAPTURE_BY_NESTED(this))</argsstring>
-        <name>push_back</name>
-        <qualifiedname>MR::Vector::push_back</qualifiedname>
-        <param>
-          <type>const T &amp;t </type>
-          <declname>MR_LIFETIME_CAPTURE_BY_NESTED</declname>
-          <array>this</array>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="129" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="129" bodyend="129"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector_1a05637c5798b92bebed2ff7a28c610317" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::Vector&lt; T, I &gt;::push_back</definition>
-        <argsstring>(T &amp;&amp;t MR_LIFETIME_CAPTURE_BY_NESTED(this))</argsstring>
-        <name>push_back</name>
-        <qualifiedname>MR::Vector::push_back</qualifiedname>
-        <param>
-          <type>T &amp;&amp;t </type>
-          <declname>MR_LIFETIME_CAPTURE_BY_NESTED</declname>
-          <array>this</array>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="130" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="130" bodyend="130"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector_1a06fae7c424bf43fc3c4cbbf624496400" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::Vector&lt; T, I &gt;::pop_back</definition>
-        <argsstring>()</argsstring>
-        <name>pop_back</name>
-        <qualifiedname>MR::Vector::pop_back</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="131" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="131" bodyend="131"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector_1a0d377a848db9d73675bc1849a0810eac" prot="public" static="no" const="no" explicit="no" inline="yes" refqual="rvalue" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename...</type>
-            <declname>Args</declname>
-            <defname>Args</defname>
-          </param>
-        </templateparamlist>
-        <type></type>
-        <definition>MR::Vector&lt; T, I &gt;::MR_REQUIRES_IF_SUPPORTED</definition>
-        <argsstring>(sizeof(T)&gt;0 &amp;&amp;std::constructible_from&lt; T, Args &amp;&amp;... &gt;) T &amp;emplace_back(Args &amp;&amp;... args)</argsstring>
-        <name>MR_REQUIRES_IF_SUPPORTED</name>
-        <qualifiedname>MR::Vector::MR_REQUIRES_IF_SUPPORTED</qualifiedname>
-        <param>
-          <type>sizeof(T)</type>
-        </param>
-        <param>
-          <type>0 &amp;&amp;std::constructible_from&lt; T, Args &amp;&amp;... &gt;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="133" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="133" bodyend="134"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector_1a45f2bc56cf356b515e4663756f9603d0" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="classMR_1_1Vector_1aaa0ee5d98cd26c7e6232195bcda2b459" kindref="member">const_reference</ref></type>
-        <definition>const_reference MR::Vector&lt; T, I &gt;::front</definition>
-        <argsstring>() const MR_LIFETIMEBOUND</argsstring>
-        <name>front</name>
-        <qualifiedname>MR::Vector::front</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="136" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="136" bodyend="136"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector_1a94dc9dbf3a73cbe2587df726910c0c62" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="classMR_1_1Vector_1a3e5aedaea3719bcb3fd6e41e9c9225ff" kindref="member">reference</ref></type>
-        <definition>reference MR::Vector&lt; T, I &gt;::front</definition>
-        <argsstring>() MR_LIFETIMEBOUND</argsstring>
-        <name>front</name>
-        <qualifiedname>MR::Vector::front</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="137" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="137" bodyend="137"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector_1a46444b5dbe2a6683e69b0da7019a275a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="classMR_1_1Vector_1aaa0ee5d98cd26c7e6232195bcda2b459" kindref="member">const_reference</ref></type>
-        <definition>const_reference MR::Vector&lt; T, I &gt;::back</definition>
-        <argsstring>() const MR_LIFETIMEBOUND</argsstring>
-        <name>back</name>
-        <qualifiedname>MR::Vector::back</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="138" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="138" bodyend="138"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector_1a00e105c75d03f3e463940689fbbc9971" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="classMR_1_1Vector_1a3e5aedaea3719bcb3fd6e41e9c9225ff" kindref="member">reference</ref></type>
-        <definition>reference MR::Vector&lt; T, I &gt;::back</definition>
-        <argsstring>() MR_LIFETIMEBOUND</argsstring>
-        <name>back</name>
-        <qualifiedname>MR::Vector::back</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="139" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="139" bodyend="139"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector_1a77de89f2d4e174400377d487cb85aa88" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref></type>
-        <definition>I MR::Vector&lt; T, I &gt;::beginId</definition>
-        <argsstring>() const</argsstring>
-        <name>beginId</name>
-        <qualifiedname>MR::Vector::beginId</qualifiedname>
-        <briefdescription>
-<para>returns the identifier of the first element </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="142" column="8" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="142" bodyend="142"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector_1a8c55eb98bf2596f633ff35ce1f8fe00b" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref></type>
-        <definition>I MR::Vector&lt; T, I &gt;::backId</definition>
-        <argsstring>() const</argsstring>
-        <name>backId</name>
-        <qualifiedname>MR::Vector::backId</qualifiedname>
-        <briefdescription>
-<para>returns the identifier of the <ref refid="classMR_1_1Vector_1a00e105c75d03f3e463940689fbbc9971" kindref="member">back()</ref> element </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="145" column="8" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="145" bodyend="145"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector_1affe4aad8fd23742b0de456abb1921fc0" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref></type>
-        <definition>I MR::Vector&lt; T, I &gt;::endId</definition>
-        <argsstring>() const</argsstring>
-        <name>endId</name>
-        <qualifiedname>MR::Vector::endId</qualifiedname>
-        <briefdescription>
-<para>returns <ref refid="classMR_1_1Vector_1a8c55eb98bf2596f633ff35ce1f8fe00b" kindref="member">backId()</ref> + 1 </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="148" column="8" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="148" bodyend="148"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector_1aade5514343c87eb684306b423c1c7243" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>T *</type>
-        <definition>T * MR::Vector&lt; T, I &gt;::data</definition>
-        <argsstring>() MR_LIFETIMEBOUND</argsstring>
-        <name>data</name>
-        <qualifiedname>MR::Vector::data</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="150" column="8" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="150" bodyend="150"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector_1a3aff297b5a977389219718cb0c834eb7" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const T *</type>
-        <definition>const T * MR::Vector&lt; T, I &gt;::data</definition>
-        <argsstring>() const MR_LIFETIMEBOUND</argsstring>
-        <name>data</name>
-        <qualifiedname>MR::Vector::data</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="151" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="151" bodyend="151"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector_1ae03333f72ab69a79829ae5f0d6d426ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::Vector&lt; T, I &gt;::swap</definition>
-        <argsstring>(Vector &amp;b)</argsstring>
-        <name>swap</name>
-        <qualifiedname>MR::Vector::swap</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Vector" kindref="compound">Vector</ref> &amp;</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="153" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="153" bodyend="153"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector_1a8adb58b328ca5465266d3859a7bc1d72" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>size_t</type>
-        <definition>size_t MR::Vector&lt; T, I &gt;::heapBytes</definition>
-        <argsstring>() const</argsstring>
-        <name>heapBytes</name>
-        <qualifiedname>MR::Vector::heapBytes</qualifiedname>
-        <briefdescription>
-<para>returns the amount of memory this object occupies on heap </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="156" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="156" bodyend="156"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga0c68875da8e1de13eb3033e6dcb33bf3" kind="function"><name>Vector</name></member>
+      <member refid="group__GeneralGroup_1gaf899ea32ccf8bf49bb09d834c9d178dd" kind="function"><name>Vector</name></member>
+      <member refid="group__GeneralGroup_1gac68e153a1cf7d72f90f9af6be0555d6e" kind="function"><name>Vector</name></member>
+      <member refid="group__GeneralGroup_1ga68a6c5f7f0cebdd11e11ced071dad1bd" kind="function"><name>Vector</name></member>
+      <member refid="group__GeneralGroup_1ga677df0d98b9a3abfc0733796f1c56c7d" kind="function"><name>Vector</name></member>
+      <member refid="group__GeneralGroup_1ga8f77e1876cab4b371446e7913cb25121" kind="function"><name>Vector</name></member>
+      <member refid="group__GeneralGroup_1gac23bc97fbd4484f943e6ff60af745e75" kind="function"><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga9e7dbbc00d422b6370dc679c663c5331" kind="function"><name>operator!=</name></member>
+      <member refid="group__GeneralGroup_1ga0e593b171d655e35f554674f88083c76" kind="function"><name>clear</name></member>
+      <member refid="group__GeneralGroup_1gac4b153c69fb7b5e1466b10723dd2f35b" kind="function"><name>empty</name></member>
+      <member refid="group__GeneralGroup_1ga2816ffd002bac70ab04d1bd18e2c5cfd" kind="function"><name>size</name></member>
+      <member refid="group__GeneralGroup_1ga2c8202f5b1a09ebf0bd5a5a3dc2936fd" kind="function"><name>resize</name></member>
+      <member refid="group__GeneralGroup_1gae081234bbf4fef169d61159d617cf5c6" kind="function"><name>resize</name></member>
+      <member refid="group__GeneralGroup_1ga8a23a61e0e9734a4a33ad686080db6b0" kind="function"><name>resizeNoInit</name></member>
+      <member refid="group__GeneralGroup_1ga291f08448069b69e4286d064907e6fdd" kind="function"><name>capacity</name></member>
+      <member refid="group__GeneralGroup_1ga74f2d276465f6183ec4068d124cbb596" kind="function"><name>reserve</name></member>
+      <member refid="group__GeneralGroup_1ga349375d06b5b75e3b26f9587fe0584f5" kind="function"><name>operator[]</name></member>
+      <member refid="group__GeneralGroup_1ga6bae4e482e7ead78efad9465a5ac085d" kind="function"><name>operator[]</name></member>
+      <member refid="group__GeneralGroup_1ga291ed0f8042c268b0aa65b87497daca1" kind="function"><name>resizeWithReserve</name></member>
+      <member refid="group__GeneralGroup_1ga8d2ff338e3ecf6232044e755e5145fde" kind="function"><name>resizeWithReserve</name></member>
+      <member refid="group__GeneralGroup_1gaf0951dea97b2041bcf0b554bf3f92408" kind="function"><name>autoResizeSet</name></member>
+      <member refid="group__GeneralGroup_1gac42f813829d695e418e088932eacfd6c" kind="function"><name>autoResizeSet</name></member>
+      <member refid="group__GeneralGroup_1ga34cbfbd253ebde3284a83172a4443540" kind="function"><name>autoResizeAt</name></member>
+      <member refid="group__GeneralGroup_1ga5ea16d2aeaa1f2e2d683aade3c67794c" kind="function"><name>push_back</name></member>
+      <member refid="group__GeneralGroup_1ga05637c5798b92bebed2ff7a28c610317" kind="function"><name>push_back</name></member>
+      <member refid="group__GeneralGroup_1ga06fae7c424bf43fc3c4cbbf624496400" kind="function"><name>pop_back</name></member>
+      <member refid="group__GeneralGroup_1ga0d377a848db9d73675bc1849a0810eac" kind="function"><name>MR_REQUIRES_IF_SUPPORTED</name></member>
+      <member refid="group__GeneralGroup_1ga45f2bc56cf356b515e4663756f9603d0" kind="function"><name>front</name></member>
+      <member refid="group__GeneralGroup_1ga94dc9dbf3a73cbe2587df726910c0c62" kind="function"><name>front</name></member>
+      <member refid="group__GeneralGroup_1ga46444b5dbe2a6683e69b0da7019a275a" kind="function"><name>back</name></member>
+      <member refid="group__GeneralGroup_1ga00e105c75d03f3e463940689fbbc9971" kind="function"><name>back</name></member>
+      <member refid="group__GeneralGroup_1ga77de89f2d4e174400377d487cb85aa88" kind="function"><name>beginId</name></member>
+      <member refid="group__GeneralGroup_1ga8c55eb98bf2596f633ff35ce1f8fe00b" kind="function"><name>backId</name></member>
+      <member refid="group__GeneralGroup_1gaffe4aad8fd23742b0de456abb1921fc0" kind="function"><name>endId</name></member>
+      <member refid="group__GeneralGroup_1gaade5514343c87eb684306b423c1c7243" kind="function"><name>data</name></member>
+      <member refid="group__GeneralGroup_1ga3aff297b5a977389219718cb0c834eb7" kind="function"><name>data</name></member>
+      <member refid="group__GeneralGroup_1gae03333f72ab69a79829ae5f0d6d426ef" kind="function"><name>swap</name></member>
+      <member refid="group__GeneralGroup_1ga8adb58b328ca5465266d3859a7bc1d72" kind="function"><name>heapBytes</name></member>
     </sectiondef>
     <briefdescription>
 <para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
@@ -807,52 +84,52 @@
 </parameterlist>
 </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="19" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="20" bodyend="164"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="22" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="23" bodyend="167"/>
     <listofallmembers>
-      <member refid="classMR_1_1Vector_1a34cbfbd253ebde3284a83172a4443540" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>autoResizeAt</name></member>
-      <member refid="classMR_1_1Vector_1af0951dea97b2041bcf0b554bf3f92408" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>autoResizeSet</name></member>
-      <member refid="classMR_1_1Vector_1ac42f813829d695e418e088932eacfd6c" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>autoResizeSet</name></member>
-      <member refid="classMR_1_1Vector_1a46444b5dbe2a6683e69b0da7019a275a" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>back</name></member>
-      <member refid="classMR_1_1Vector_1a00e105c75d03f3e463940689fbbc9971" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>back</name></member>
-      <member refid="classMR_1_1Vector_1a8c55eb98bf2596f633ff35ce1f8fe00b" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>backId</name></member>
-      <member refid="classMR_1_1Vector_1a77de89f2d4e174400377d487cb85aa88" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>beginId</name></member>
-      <member refid="classMR_1_1Vector_1a291f08448069b69e4286d064907e6fdd" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>capacity</name></member>
-      <member refid="classMR_1_1Vector_1a0e593b171d655e35f554674f88083c76" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>clear</name></member>
-      <member refid="classMR_1_1Vector_1ad2ec2e50ffddfcbf6168c243fa2da868" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>const_iterator</name></member>
-      <member refid="classMR_1_1Vector_1aaa0ee5d98cd26c7e6232195bcda2b459" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>const_reference</name></member>
-      <member refid="classMR_1_1Vector_1aade5514343c87eb684306b423c1c7243" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>data</name></member>
-      <member refid="classMR_1_1Vector_1a3aff297b5a977389219718cb0c834eb7" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>data</name></member>
-      <member refid="classMR_1_1Vector_1ac4b153c69fb7b5e1466b10723dd2f35b" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>empty</name></member>
-      <member refid="classMR_1_1Vector_1affe4aad8fd23742b0de456abb1921fc0" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>endId</name></member>
-      <member refid="classMR_1_1Vector_1a45f2bc56cf356b515e4663756f9603d0" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>front</name></member>
-      <member refid="classMR_1_1Vector_1a94dc9dbf3a73cbe2587df726910c0c62" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>front</name></member>
-      <member refid="classMR_1_1Vector_1a8adb58b328ca5465266d3859a7bc1d72" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1Vector_1a23a39a0e101ba40e7369b90045cb930d" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>iterator</name></member>
-      <member refid="classMR_1_1Vector_1a0d377a848db9d73675bc1849a0810eac" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>MR_REQUIRES_IF_SUPPORTED</name></member>
-      <member refid="classMR_1_1Vector_1a9e7dbbc00d422b6370dc679c663c5331" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>operator!=</name></member>
-      <member refid="classMR_1_1Vector_1ac23bc97fbd4484f943e6ff60af745e75" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>operator==</name></member>
-      <member refid="classMR_1_1Vector_1a349375d06b5b75e3b26f9587fe0584f5" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>operator[]</name></member>
-      <member refid="classMR_1_1Vector_1a6bae4e482e7ead78efad9465a5ac085d" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>operator[]</name></member>
-      <member refid="classMR_1_1Vector_1a06fae7c424bf43fc3c4cbbf624496400" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>pop_back</name></member>
-      <member refid="classMR_1_1Vector_1a5ea16d2aeaa1f2e2d683aade3c67794c" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>push_back</name></member>
-      <member refid="classMR_1_1Vector_1a05637c5798b92bebed2ff7a28c610317" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>push_back</name></member>
-      <member refid="classMR_1_1Vector_1a3e5aedaea3719bcb3fd6e41e9c9225ff" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>reference</name></member>
-      <member refid="classMR_1_1Vector_1a74f2d276465f6183ec4068d124cbb596" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>reserve</name></member>
-      <member refid="classMR_1_1Vector_1a2c8202f5b1a09ebf0bd5a5a3dc2936fd" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>resize</name></member>
-      <member refid="classMR_1_1Vector_1ae081234bbf4fef169d61159d617cf5c6" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>resize</name></member>
-      <member refid="classMR_1_1Vector_1a8a23a61e0e9734a4a33ad686080db6b0" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>resizeNoInit</name></member>
-      <member refid="classMR_1_1Vector_1a291ed0f8042c268b0aa65b87497daca1" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>resizeWithReserve</name></member>
-      <member refid="classMR_1_1Vector_1a8d2ff338e3ecf6232044e755e5145fde" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>resizeWithReserve</name></member>
-      <member refid="classMR_1_1Vector_1a2816ffd002bac70ab04d1bd18e2c5cfd" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>size</name></member>
-      <member refid="classMR_1_1Vector_1ae03333f72ab69a79829ae5f0d6d426ef" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>swap</name></member>
-      <member refid="classMR_1_1Vector_1abd41445fa91a71145e3d65599d21e191" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>value_type</name></member>
-      <member refid="classMR_1_1Vector_1ad4c1a76a727c0e52830149df75a87a0f" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>vec_</name></member>
-      <member refid="classMR_1_1Vector_1a0c68875da8e1de13eb3033e6dcb33bf3" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>Vector</name></member>
-      <member refid="classMR_1_1Vector_1af899ea32ccf8bf49bb09d834c9d178dd" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>Vector</name></member>
-      <member refid="classMR_1_1Vector_1ac68e153a1cf7d72f90f9af6be0555d6e" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>Vector</name></member>
-      <member refid="classMR_1_1Vector_1a68a6c5f7f0cebdd11e11ced071dad1bd" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>Vector</name></member>
-      <member refid="classMR_1_1Vector_1a677df0d98b9a3abfc0733796f1c56c7d" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>Vector</name></member>
-      <member refid="classMR_1_1Vector_1a8f77e1876cab4b371446e7913cb25121" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>Vector</name></member>
+      <member refid="group__GeneralGroup_1ga34cbfbd253ebde3284a83172a4443540" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>autoResizeAt</name></member>
+      <member refid="group__GeneralGroup_1gaf0951dea97b2041bcf0b554bf3f92408" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>autoResizeSet</name></member>
+      <member refid="group__GeneralGroup_1gac42f813829d695e418e088932eacfd6c" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>autoResizeSet</name></member>
+      <member refid="group__GeneralGroup_1ga46444b5dbe2a6683e69b0da7019a275a" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>back</name></member>
+      <member refid="group__GeneralGroup_1ga00e105c75d03f3e463940689fbbc9971" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>back</name></member>
+      <member refid="group__GeneralGroup_1ga8c55eb98bf2596f633ff35ce1f8fe00b" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>backId</name></member>
+      <member refid="group__GeneralGroup_1ga77de89f2d4e174400377d487cb85aa88" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>beginId</name></member>
+      <member refid="group__GeneralGroup_1ga291f08448069b69e4286d064907e6fdd" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>capacity</name></member>
+      <member refid="group__GeneralGroup_1ga0e593b171d655e35f554674f88083c76" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>clear</name></member>
+      <member refid="group__GeneralGroup_1gad2ec2e50ffddfcbf6168c243fa2da868" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>const_iterator</name></member>
+      <member refid="group__GeneralGroup_1gaaa0ee5d98cd26c7e6232195bcda2b459" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>const_reference</name></member>
+      <member refid="group__GeneralGroup_1gaade5514343c87eb684306b423c1c7243" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>data</name></member>
+      <member refid="group__GeneralGroup_1ga3aff297b5a977389219718cb0c834eb7" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>data</name></member>
+      <member refid="group__GeneralGroup_1gac4b153c69fb7b5e1466b10723dd2f35b" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>empty</name></member>
+      <member refid="group__GeneralGroup_1gaffe4aad8fd23742b0de456abb1921fc0" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>endId</name></member>
+      <member refid="group__GeneralGroup_1ga45f2bc56cf356b515e4663756f9603d0" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>front</name></member>
+      <member refid="group__GeneralGroup_1ga94dc9dbf3a73cbe2587df726910c0c62" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>front</name></member>
+      <member refid="group__GeneralGroup_1ga8adb58b328ca5465266d3859a7bc1d72" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1ga23a39a0e101ba40e7369b90045cb930d" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>iterator</name></member>
+      <member refid="group__GeneralGroup_1ga0d377a848db9d73675bc1849a0810eac" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>MR_REQUIRES_IF_SUPPORTED</name></member>
+      <member refid="group__GeneralGroup_1ga9e7dbbc00d422b6370dc679c663c5331" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>operator!=</name></member>
+      <member refid="group__GeneralGroup_1gac23bc97fbd4484f943e6ff60af745e75" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga349375d06b5b75e3b26f9587fe0584f5" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>operator[]</name></member>
+      <member refid="group__GeneralGroup_1ga6bae4e482e7ead78efad9465a5ac085d" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>operator[]</name></member>
+      <member refid="group__GeneralGroup_1ga06fae7c424bf43fc3c4cbbf624496400" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>pop_back</name></member>
+      <member refid="group__GeneralGroup_1ga5ea16d2aeaa1f2e2d683aade3c67794c" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>push_back</name></member>
+      <member refid="group__GeneralGroup_1ga05637c5798b92bebed2ff7a28c610317" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>push_back</name></member>
+      <member refid="group__GeneralGroup_1ga3e5aedaea3719bcb3fd6e41e9c9225ff" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>reference</name></member>
+      <member refid="group__GeneralGroup_1ga74f2d276465f6183ec4068d124cbb596" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>reserve</name></member>
+      <member refid="group__GeneralGroup_1ga2c8202f5b1a09ebf0bd5a5a3dc2936fd" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>resize</name></member>
+      <member refid="group__GeneralGroup_1gae081234bbf4fef169d61159d617cf5c6" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>resize</name></member>
+      <member refid="group__GeneralGroup_1ga8a23a61e0e9734a4a33ad686080db6b0" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>resizeNoInit</name></member>
+      <member refid="group__GeneralGroup_1ga291ed0f8042c268b0aa65b87497daca1" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>resizeWithReserve</name></member>
+      <member refid="group__GeneralGroup_1ga8d2ff338e3ecf6232044e755e5145fde" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>resizeWithReserve</name></member>
+      <member refid="group__GeneralGroup_1ga2816ffd002bac70ab04d1bd18e2c5cfd" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>size</name></member>
+      <member refid="group__GeneralGroup_1gae03333f72ab69a79829ae5f0d6d426ef" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>swap</name></member>
+      <member refid="group__GeneralGroup_1gabd41445fa91a71145e3d65599d21e191" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>value_type</name></member>
+      <member refid="group__GeneralGroup_1gad4c1a76a727c0e52830149df75a87a0f" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>vec_</name></member>
+      <member refid="group__GeneralGroup_1ga0c68875da8e1de13eb3033e6dcb33bf3" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>Vector</name></member>
+      <member refid="group__GeneralGroup_1gaf899ea32ccf8bf49bb09d834c9d178dd" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>Vector</name></member>
+      <member refid="group__GeneralGroup_1gac68e153a1cf7d72f90f9af6be0555d6e" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>Vector</name></member>
+      <member refid="group__GeneralGroup_1ga68a6c5f7f0cebdd11e11ced071dad1bd" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>Vector</name></member>
+      <member refid="group__GeneralGroup_1ga677df0d98b9a3abfc0733796f1c56c7d" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>Vector</name></member>
+      <member refid="group__GeneralGroup_1ga8f77e1876cab4b371446e7913cb25121" prot="public" virt="non-virtual"><scope>MR::Vector</scope><name>Vector</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

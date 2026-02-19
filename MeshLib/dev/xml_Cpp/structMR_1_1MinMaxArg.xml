@@ -8,177 +8,38 @@
         <type>typename T</type>
       </param>
       <param>
-        <type>typename <ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref></type>
+        <type>typename I</type>
       </param>
     </templateparamlist>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1MinMaxArg_1a26258462e8f6cb5ad553b6060188c941" prot="public" static="no" mutable="no">
-        <type>T</type>
-        <definition>T MR::MinMaxArg&lt; T, I &gt;::min</definition>
-        <argsstring></argsstring>
-        <name>min</name>
-        <qualifiedname>MR::MinMaxArg::min</qualifiedname>
-        <initializer>= std::numeric_limits&lt;T&gt;<ref refid="structMR_1_1MinMaxArg_1a640df22a3e7023f9954a28a221dc244b" kindref="member">::max</ref>()</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMinMaxArg.h" line="80" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMinMaxArg.h" bodystart="80" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MinMaxArg_1a640df22a3e7023f9954a28a221dc244b" prot="public" static="no" mutable="no">
-        <type>T</type>
-        <definition>T MR::MinMaxArg&lt; T, I &gt;::max</definition>
-        <argsstring></argsstring>
-        <name>max</name>
-        <qualifiedname>MR::MinMaxArg::max</qualifiedname>
-        <initializer>= std::numeric_limits&lt;T&gt;::lowest()</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMinMaxArg.h" line="81" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMinMaxArg.h" bodystart="81" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MinMaxArg_1acac909c03fcaa40453454fb6397ebc68" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref></type>
-        <definition>I MR::MinMaxArg&lt; T, I &gt;::minArg</definition>
-        <argsstring></argsstring>
-        <name>minArg</name>
-        <qualifiedname>MR::MinMaxArg::minArg</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMinMaxArg.h" line="82" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMinMaxArg.h" bodystart="82" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MinMaxArg_1a75db557e8a12f05d71ffa11c5ea9919e" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref></type>
-        <definition>I MR::MinMaxArg&lt; T, I &gt;::maxArg</definition>
-        <argsstring></argsstring>
-        <name>maxArg</name>
-        <qualifiedname>MR::MinMaxArg::maxArg</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMinMaxArg.h" line="82" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMinMaxArg.h" bodystart="82" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga26258462e8f6cb5ad553b6060188c941" kind="variable"><name>min</name></member>
+      <member refid="group__GeneralGroup_1ga640df22a3e7023f9954a28a221dc244b" kind="variable"><name>max</name></member>
+      <member refid="group__GeneralGroup_1gacac909c03fcaa40453454fb6397ebc68" kind="variable"><name>minArg</name></member>
+      <member refid="group__GeneralGroup_1ga75db557e8a12f05d71ffa11c5ea9919e" kind="variable"><name>maxArg</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1MinMaxArg_1a4376b0dda2b3a77015094200d2a9ec49" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>auto</type>
-        <definition>auto MR::MinMaxArg&lt; T, I &gt;::minPair</definition>
-        <argsstring>() const</argsstring>
-        <name>minPair</name>
-        <qualifiedname>MR::MinMaxArg::minPair</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMinMaxArg.h" line="84" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMinMaxArg.h" bodystart="84" bodyend="84"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1MinMaxArg_1a047c4d9c19b1241c1b35ae8a93c724bc" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>auto</type>
-        <definition>auto MR::MinMaxArg&lt; T, I &gt;::maxPair</definition>
-        <argsstring>() const</argsstring>
-        <name>maxPair</name>
-        <qualifiedname>MR::MinMaxArg::maxPair</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMinMaxArg.h" line="85" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMinMaxArg.h" bodystart="85" bodyend="85"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1MinMaxArg_1aecc5a502b2649c84a49a95f5429ba1cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::MinMaxArg&lt; T, I &gt;::include</definition>
-        <argsstring>(const std::pair&lt; T, I &gt; &amp;p)</argsstring>
-        <name>include</name>
-        <qualifiedname>MR::MinMaxArg::include</qualifiedname>
-        <param>
-          <type>const std::pair&lt; T, <ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref> &gt; &amp;</type>
-          <declname>p</declname>
-        </param>
-        <briefdescription>
-<para>changes <ref refid="structMR_1_1MinMaxArg_1a26258462e8f6cb5ad553b6060188c941" kindref="member">min(Arg)</ref> and <ref refid="structMR_1_1MinMaxArg_1a640df22a3e7023f9954a28a221dc244b" kindref="member">max(Arg)</ref> if necessary to include given point </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMinMaxArg.h" line="88" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMinMaxArg.h" bodystart="88" bodyend="100"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1MinMaxArg_1a3226eda61fc8b635dd6e389d6919fdfc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::MinMaxArg&lt; T, I &gt;::include</definition>
-        <argsstring>(T v, I arg)</argsstring>
-        <name>include</name>
-        <qualifiedname>MR::MinMaxArg::include</qualifiedname>
-        <param>
-          <type>T</type>
-          <declname>v</declname>
-        </param>
-        <param>
-          <type><ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref></type>
-          <declname>arg</declname>
-        </param>
-        <briefdescription>
-<para>changes <ref refid="structMR_1_1MinMaxArg_1a26258462e8f6cb5ad553b6060188c941" kindref="member">min(Arg)</ref> and <ref refid="structMR_1_1MinMaxArg_1a640df22a3e7023f9954a28a221dc244b" kindref="member">max(Arg)</ref> if necessary to include given point </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMinMaxArg.h" line="103" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMinMaxArg.h" bodystart="103" bodyend="106"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1MinMaxArg_1a3e1efd0776560a34274a833ea2c92089" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::MinMaxArg&lt; T, I &gt;::include</definition>
-        <argsstring>(const MinMaxArg &amp;s)</argsstring>
-        <name>include</name>
-        <qualifiedname>MR::MinMaxArg::include</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1MinMaxArg" kindref="compound">MinMaxArg</ref> &amp;</type>
-          <declname>s</declname>
-        </param>
-        <briefdescription>
-<para>changes <ref refid="structMR_1_1MinMaxArg_1a26258462e8f6cb5ad553b6060188c941" kindref="member">min(Arg)</ref> and <ref refid="structMR_1_1MinMaxArg_1a640df22a3e7023f9954a28a221dc244b" kindref="member">max(Arg)</ref> if necessary to include given segment </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-<para>it shall work with default initialized this and s</para>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMinMaxArg.h" line="109" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMinMaxArg.h" bodystart="109" bodyend="122"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga4376b0dda2b3a77015094200d2a9ec49" kind="function"><name>minPair</name></member>
+      <member refid="group__GeneralGroup_1ga047c4d9c19b1241c1b35ae8a93c724bc" kind="function"><name>maxPair</name></member>
+      <member refid="group__GeneralGroup_1gaecc5a502b2649c84a49a95f5429ba1cd" kind="function"><name>include</name></member>
+      <member refid="group__GeneralGroup_1ga3226eda61fc8b635dd6e389d6919fdfc" kind="function"><name>include</name></member>
+      <member refid="group__GeneralGroup_1ga3e1efd0776560a34274a833ea2c92089" kind="function"><name>include</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
 <para>minimum and maximum of some elements of type T, and the indices of where minimum and maximum are reached of type I </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFwd.h" line="425" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMinMaxArg.h" bodystart="79" bodyend="123"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMinMaxArg.h" line="81" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMinMaxArg.h" bodystart="82" bodyend="126"/>
     <listofallmembers>
-      <member refid="structMR_1_1MinMaxArg_1aecc5a502b2649c84a49a95f5429ba1cd" prot="public" virt="non-virtual"><scope>MR::MinMaxArg</scope><name>include</name></member>
-      <member refid="structMR_1_1MinMaxArg_1a3226eda61fc8b635dd6e389d6919fdfc" prot="public" virt="non-virtual"><scope>MR::MinMaxArg</scope><name>include</name></member>
-      <member refid="structMR_1_1MinMaxArg_1a3e1efd0776560a34274a833ea2c92089" prot="public" virt="non-virtual"><scope>MR::MinMaxArg</scope><name>include</name></member>
-      <member refid="structMR_1_1MinMaxArg_1a640df22a3e7023f9954a28a221dc244b" prot="public" virt="non-virtual"><scope>MR::MinMaxArg</scope><name>max</name></member>
-      <member refid="structMR_1_1MinMaxArg_1a75db557e8a12f05d71ffa11c5ea9919e" prot="public" virt="non-virtual"><scope>MR::MinMaxArg</scope><name>maxArg</name></member>
-      <member refid="structMR_1_1MinMaxArg_1a047c4d9c19b1241c1b35ae8a93c724bc" prot="public" virt="non-virtual"><scope>MR::MinMaxArg</scope><name>maxPair</name></member>
-      <member refid="structMR_1_1MinMaxArg_1a26258462e8f6cb5ad553b6060188c941" prot="public" virt="non-virtual"><scope>MR::MinMaxArg</scope><name>min</name></member>
-      <member refid="structMR_1_1MinMaxArg_1acac909c03fcaa40453454fb6397ebc68" prot="public" virt="non-virtual"><scope>MR::MinMaxArg</scope><name>minArg</name></member>
-      <member refid="structMR_1_1MinMaxArg_1a4376b0dda2b3a77015094200d2a9ec49" prot="public" virt="non-virtual"><scope>MR::MinMaxArg</scope><name>minPair</name></member>
+      <member refid="group__GeneralGroup_1gaecc5a502b2649c84a49a95f5429ba1cd" prot="public" virt="non-virtual"><scope>MR::MinMaxArg</scope><name>include</name></member>
+      <member refid="group__GeneralGroup_1ga3226eda61fc8b635dd6e389d6919fdfc" prot="public" virt="non-virtual"><scope>MR::MinMaxArg</scope><name>include</name></member>
+      <member refid="group__GeneralGroup_1ga3e1efd0776560a34274a833ea2c92089" prot="public" virt="non-virtual"><scope>MR::MinMaxArg</scope><name>include</name></member>
+      <member refid="group__GeneralGroup_1ga640df22a3e7023f9954a28a221dc244b" prot="public" virt="non-virtual"><scope>MR::MinMaxArg</scope><name>max</name></member>
+      <member refid="group__GeneralGroup_1ga75db557e8a12f05d71ffa11c5ea9919e" prot="public" virt="non-virtual"><scope>MR::MinMaxArg</scope><name>maxArg</name></member>
+      <member refid="group__GeneralGroup_1ga047c4d9c19b1241c1b35ae8a93c724bc" prot="public" virt="non-virtual"><scope>MR::MinMaxArg</scope><name>maxPair</name></member>
+      <member refid="group__GeneralGroup_1ga26258462e8f6cb5ad553b6060188c941" prot="public" virt="non-virtual"><scope>MR::MinMaxArg</scope><name>min</name></member>
+      <member refid="group__GeneralGroup_1gacac909c03fcaa40453454fb6397ebc68" prot="public" virt="non-virtual"><scope>MR::MinMaxArg</scope><name>minArg</name></member>
+      <member refid="group__GeneralGroup_1ga4376b0dda2b3a77015094200d2a9ec49" prot="public" virt="non-virtual"><scope>MR::MinMaxArg</scope><name>minPair</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

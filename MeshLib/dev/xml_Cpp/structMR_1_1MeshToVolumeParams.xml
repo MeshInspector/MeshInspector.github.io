@@ -4,142 +4,30 @@
     <compoundname>MR::MeshToVolumeParams</compoundname>
     <includes refid="MRVDBConversions_8h" local="no">MRVDBConversions.h</includes>
     <sectiondef kind="public-type">
-      <memberdef kind="enum" id="structMR_1_1MeshToVolumeParams_1a47dacbc5ca80bd9591ffea69c43b022e" prot="public" static="no" strong="yes">
-        <type></type>
-        <name>Type</name>
-        <qualifiedname>MR::MeshToVolumeParams::Type</qualifiedname>
-        <enumvalue id="structMR_1_1MeshToVolumeParams_1a47dacbc5ca80bd9591ffea69c43b022ea71fed0c3428bf1a2e19af257c4bac379" prot="public">
-          <name>Signed</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="structMR_1_1MeshToVolumeParams_1a47dacbc5ca80bd9591ffea69c43b022eaa1a914735b205424ba6c40b85528d78a" prot="public">
-          <name>Unsigned</name>
-          <briefdescription>
-<para>only closed meshes can be converted with signed type </para>
-          </briefdescription>
-          <detaileddescription>
-<para>this type leads to shell like iso-surfaces </para>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-<para>Conversion type. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" line="35" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" bodystart="36" bodyend="39"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga47dacbc5ca80bd9591ffea69c43b022e" kind="enum"><name>Type</name></member>
     </sectiondef>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1MeshToVolumeParams_1a7eb94a27012d5cf106c21b228b6c8c2a" prot="public" static="no" mutable="no">
-        <type>enum <ref refid="structMR_1_1MeshToVolumeParams_1a47dacbc5ca80bd9591ffea69c43b022e" kindref="member">MR::MeshToVolumeParams::Type</ref></type>
-        <definition>enum MR::MeshToVolumeParams::Type MR::MeshToVolumeParams::Unsigned</definition>
-        <argsstring></argsstring>
-        <name>Unsigned</name>
-        <qualifiedname>MR::MeshToVolumeParams::Unsigned</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" line="39" column="24"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MeshToVolumeParams_1a9453e71b6c68cba5c643d8c233b4e12e" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::MeshToVolumeParams::surfaceOffset</definition>
-        <argsstring></argsstring>
-        <name>surfaceOffset</name>
-        <qualifiedname>MR::MeshToVolumeParams::surfaceOffset</qualifiedname>
-        <initializer>{ 3.0 }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" line="40" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" bodystart="40" bodyend="40"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MeshToVolumeParams_1a51905e2ab88ac1c4d53c11ed65896ce9" prot="public" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::MeshToVolumeParams::voxelSize</definition>
-        <argsstring></argsstring>
-        <name>voxelSize</name>
-        <qualifiedname>MR::MeshToVolumeParams::voxelSize</qualifiedname>
-        <initializer>= Vector3f::diagonal( 1.0f )</initializer>
-        <briefdescription>
-<para>the number of voxels around surface to calculate distance in (should be positive) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" line="41" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" bodystart="41" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MeshToVolumeParams_1a160d9c2171039308aa5a181a76575967" prot="public" static="no" mutable="no">
-        <type>AffineXf3f</type>
-        <definition>AffineXf3f MR::MeshToVolumeParams::worldXf</definition>
-        <argsstring></argsstring>
-        <name>worldXf</name>
-        <qualifiedname>MR::MeshToVolumeParams::worldXf</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" line="42" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" bodystart="42" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MeshToVolumeParams_1a216b138081139f4900c546a416a39e0c" prot="public" static="no" mutable="no">
-        <type>AffineXf3f *</type>
-        <definition>AffineXf3f* MR::MeshToVolumeParams::outXf</definition>
-        <argsstring></argsstring>
-        <name>outXf</name>
-        <qualifiedname>MR::MeshToVolumeParams::outXf</qualifiedname>
-        <initializer>{ nullptr }</initializer>
-        <briefdescription>
-<para>mesh initial transform </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" line="43" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" bodystart="43" bodyend="43"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MeshToVolumeParams_1ad2911735fdf5e6da1f6bfb93f285f6a8" prot="public" static="no" mutable="no">
-        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
-        <definition>ProgressCallback MR::MeshToVolumeParams::cb</definition>
-        <argsstring></argsstring>
-        <name>cb</name>
-        <qualifiedname>MR::MeshToVolumeParams::cb</qualifiedname>
-        <briefdescription>
-<para>optional output: xf to original mesh (respecting worldXf) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" line="44" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" bodystart="44" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga7eb94a27012d5cf106c21b228b6c8c2a" kind="variable"><name>Unsigned</name></member>
+      <member refid="group__GeneralGroup_1ga9453e71b6c68cba5c643d8c233b4e12e" kind="variable"><name>surfaceOffset</name></member>
+      <member refid="group__GeneralGroup_1ga51905e2ab88ac1c4d53c11ed65896ce9" kind="variable"><name>voxelSize</name></member>
+      <member refid="group__GeneralGroup_1ga160d9c2171039308aa5a181a76575967" kind="variable"><name>worldXf</name></member>
+      <member refid="group__GeneralGroup_1ga216b138081139f4900c546a416a39e0c" kind="variable"><name>outXf</name></member>
+      <member refid="group__GeneralGroup_1gad2911735fdf5e6da1f6bfb93f285f6a8" kind="variable"><name>cb</name></member>
     </sectiondef>
     <briefdescription>
 <para>Parameters structure for meshToVolume function. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" line="32" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" bodystart="33" bodyend="45"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" line="35" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" bodystart="36" bodyend="48"/>
     <listofallmembers>
-      <member refid="structMR_1_1MeshToVolumeParams_1ad2911735fdf5e6da1f6bfb93f285f6a8" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>cb</name></member>
-      <member refid="structMR_1_1MeshToVolumeParams_1a216b138081139f4900c546a416a39e0c" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>outXf</name></member>
-      <member refid="structMR_1_1MeshToVolumeParams_1a9453e71b6c68cba5c643d8c233b4e12e" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>surfaceOffset</name></member>
-      <member refid="structMR_1_1MeshToVolumeParams_1a47dacbc5ca80bd9591ffea69c43b022e" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>Type</name></member>
-      <member refid="structMR_1_1MeshToVolumeParams_1a7eb94a27012d5cf106c21b228b6c8c2a" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>Unsigned</name></member>
-      <member refid="structMR_1_1MeshToVolumeParams_1a51905e2ab88ac1c4d53c11ed65896ce9" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>voxelSize</name></member>
-      <member refid="structMR_1_1MeshToVolumeParams_1a160d9c2171039308aa5a181a76575967" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>worldXf</name></member>
+      <member refid="group__GeneralGroup_1gad2911735fdf5e6da1f6bfb93f285f6a8" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>cb</name></member>
+      <member refid="group__GeneralGroup_1ga216b138081139f4900c546a416a39e0c" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>outXf</name></member>
+      <member refid="group__GeneralGroup_1ga9453e71b6c68cba5c643d8c233b4e12e" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>surfaceOffset</name></member>
+      <member refid="group__GeneralGroup_1ga47dacbc5ca80bd9591ffea69c43b022e" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>Type</name></member>
+      <member refid="group__GeneralGroup_1ga7eb94a27012d5cf106c21b228b6c8c2a" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>Unsigned</name></member>
+      <member refid="group__GeneralGroup_1ga51905e2ab88ac1c4d53c11ed65896ce9" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>voxelSize</name></member>
+      <member refid="group__GeneralGroup_1ga160d9c2171039308aa5a181a76575967" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>worldXf</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

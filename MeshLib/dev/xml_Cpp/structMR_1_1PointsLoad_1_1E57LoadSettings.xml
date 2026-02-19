@@ -37,7 +37,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRE57.h" line="26" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRE57.h" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1PointsLoad_1_1E57LoadSettings_1a8b3bf0a577305270989410f28025a672" prot="public" static="no" mutable="no">
-        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+        <type>ProgressCallback</type>
         <definition>ProgressCallback MR::PointsLoad::E57LoadSettings::progress</definition>
         <argsstring></argsstring>
         <name>progress</name>

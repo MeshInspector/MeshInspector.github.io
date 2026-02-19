@@ -5,22 +5,7 @@
     <basecompoundref refid="structMR_1_1FixUndercuts_1_1ImproveDirectionParameters" prot="public" virt="non-virtual">MR::FixUndercuts::ImproveDirectionParameters</basecompoundref>
     <includes refid="MRFixUndercuts_8h" local="no">MRFixUndercuts.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters_1a865b6dc16827bcf5024f2e675a74e8e0" prot="public" static="no" mutable="no">
-        <type>Vector2i</type>
-        <definition>Vector2i MR::FixUndercuts::DistMapImproveDirectionParameters::distanceMapResolution</definition>
-        <argsstring></argsstring>
-        <name>distanceMapResolution</name>
-        <qualifiedname>MR::FixUndercuts::DistMapImproveDirectionParameters::distanceMapResolution</qualifiedname>
-        <initializer>{100,100}</initializer>
-        <briefdescription>
-<para>Resolution of distance map, lower it is, faster score works. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFixUndercuts.h" line="126" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFixUndercuts.h" bodystart="126" bodyend="126"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga865b6dc16827bcf5024f2e675a74e8e0" kind="variable"><name>distanceMapResolution</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -50,13 +35,13 @@
         <link refid="structMR_1_1FixUndercuts_1_1ImproveDirectionParameters"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFixUndercuts.h" line="123" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFixUndercuts.h" bodystart="124" bodyend="127"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFixUndercuts.h" line="126" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFixUndercuts.h" bodystart="127" bodyend="130"/>
     <listofallmembers>
-      <member refid="structMR_1_1FixUndercuts_1_1ImproveDirectionParameters_1ac0272dc3ddf798713b8395f78ed62b2e" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::DistMapImproveDirectionParameters</scope><name>baseAngleStep</name></member>
-      <member refid="structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters_1a865b6dc16827bcf5024f2e675a74e8e0" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::DistMapImproveDirectionParameters</scope><name>distanceMapResolution</name></member>
-      <member refid="structMR_1_1FixUndercuts_1_1ImproveDirectionParameters_1ab5009f894a6360e076076d4379d340f2" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::DistMapImproveDirectionParameters</scope><name>hintDirection</name></member>
-      <member refid="structMR_1_1FixUndercuts_1_1ImproveDirectionParameters_1a6822b43f8eb010ed7b72c8159db3f7a6" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::DistMapImproveDirectionParameters</scope><name>maxBaseAngle</name></member>
-      <member refid="structMR_1_1FixUndercuts_1_1ImproveDirectionParameters_1abf279ce04ebf122659affd07a95928f3" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::DistMapImproveDirectionParameters</scope><name>polarAngleStep</name></member>
+      <member refid="group__GeneralGroup_1gac0272dc3ddf798713b8395f78ed62b2e" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::DistMapImproveDirectionParameters</scope><name>baseAngleStep</name></member>
+      <member refid="group__GeneralGroup_1ga865b6dc16827bcf5024f2e675a74e8e0" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::DistMapImproveDirectionParameters</scope><name>distanceMapResolution</name></member>
+      <member refid="group__GeneralGroup_1gab5009f894a6360e076076d4379d340f2" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::DistMapImproveDirectionParameters</scope><name>hintDirection</name></member>
+      <member refid="group__GeneralGroup_1ga6822b43f8eb010ed7b72c8159db3f7a6" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::DistMapImproveDirectionParameters</scope><name>maxBaseAngle</name></member>
+      <member refid="group__GeneralGroup_1gabf279ce04ebf122659affd07a95928f3" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::DistMapImproveDirectionParameters</scope><name>polarAngleStep</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

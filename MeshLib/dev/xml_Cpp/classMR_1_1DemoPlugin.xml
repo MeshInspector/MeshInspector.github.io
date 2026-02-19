@@ -6,132 +6,18 @@
     <basecompoundref refid="structMR_1_1MultiListener" prot="public" virt="non-virtual">MR::MultiListener&lt; PreDrawListener, DrawListener, InterruptCloseListener &gt;</basecompoundref>
     <includes refid="MRDemoPlugin_8h" local="no">MRDemoPlugin.h</includes>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1DemoPlugin_1ace2c158a224cd44af075518041d25968" prot="private" static="no" mutable="no">
-        <type>std::unique_ptr&lt; <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> &gt;</type>
-        <definition>std::unique_ptr&lt;ObjectMesh&gt; MR::DemoPlugin::demoSphere_</definition>
-        <argsstring></argsstring>
-        <name>demoSphere_</name>
-        <qualifiedname>MR::DemoPlugin::demoSphere_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDemoPlugin.h" line="24" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDemoPlugin.h" bodystart="24" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1DemoPlugin_1ae51fa4c57f1323a0d9060f5b84c85b75" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::DemoPlugin::shouldClose_</definition>
-        <argsstring></argsstring>
-        <name>shouldClose_</name>
-        <qualifiedname>MR::DemoPlugin::shouldClose_</qualifiedname>
-        <initializer>{false}</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDemoPlugin.h" line="26" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDemoPlugin.h" bodystart="26" bodyend="26"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1DemoPlugin_1a913eb7a143a158d0905d25a6d7fd72ae" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::DemoPlugin::showCloseModal_</definition>
-        <argsstring></argsstring>
-        <name>showCloseModal_</name>
-        <qualifiedname>MR::DemoPlugin::showCloseModal_</qualifiedname>
-        <initializer>{false}</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDemoPlugin.h" line="27" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDemoPlugin.h" bodystart="27" bodyend="27"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gace2c158a224cd44af075518041d25968" kind="variable"><name>demoSphere_</name></member>
+      <member refid="group__GeneralGroup_1gae51fa4c57f1323a0d9060f5b84c85b75" kind="variable"><name>shouldClose_</name></member>
+      <member refid="group__GeneralGroup_1ga913eb7a143a158d0905d25a6d7fd72ae" kind="variable"><name>showCloseModal_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1DemoPlugin_1a6be2d6bfd3895d3f759775a2843ed7fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void MRVIEWER_API</type>
-        <definition>virtual void MRVIEWER_API MR::DemoPlugin::init</definition>
-        <argsstring>(Viewer *_viewer) override</argsstring>
-        <name>init</name>
-        <qualifiedname>MR::DemoPlugin::init</qualifiedname>
-        <reimplements refid="classMR_1_1ViewerPlugin_1a67916b512e8d54ee7cdb8ef1cb4f6794">init</reimplements>
-        <param>
-          <type><ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref> *</type>
-          <declname>_viewer</declname>
-        </param>
-        <briefdescription>
-<para>This function is called when the viewer is initialized (no mesh will be loaded at this stage) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDemoPlugin.h" line="16" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DemoPlugin_1afd0d013177b9745090ea82dd3e6321e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void MRVIEWER_API</type>
-        <definition>virtual void MRVIEWER_API MR::DemoPlugin::shutdown</definition>
-        <argsstring>() override</argsstring>
-        <name>shutdown</name>
-        <qualifiedname>MR::DemoPlugin::shutdown</qualifiedname>
-        <reimplements refid="classMR_1_1ViewerPlugin_1a764e7d792fea63f8186ed87f2560578f">shutdown</reimplements>
-        <briefdescription>
-<para>This function is called before shutdown. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDemoPlugin.h" line="17" column="31"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga6be2d6bfd3895d3f759775a2843ed7fe" kind="function"><name>init</name></member>
+      <member refid="group__GeneralGroup_1gafd0d013177b9745090ea82dd3e6321e7" kind="function"><name>shutdown</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMR_1_1DemoPlugin_1ab3efc86bb86c30383b1acd8a7402ccb6" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MR::DemoPlugin::draw_</definition>
-        <argsstring>() override</argsstring>
-        <name>draw_</name>
-        <qualifiedname>MR::DemoPlugin::draw_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDemoPlugin.h" line="20" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DemoPlugin_1aad700650d3fbb94bb4bde49f341107ad" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MR::DemoPlugin::preDraw_</definition>
-        <argsstring>() override</argsstring>
-        <name>preDraw_</name>
-        <qualifiedname>MR::DemoPlugin::preDraw_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDemoPlugin.h" line="21" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DemoPlugin_1a6f86ebafb6280668b7c4176d7059d2d3" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::DemoPlugin::interruptClose_</definition>
-        <argsstring>() override</argsstring>
-        <name>interruptClose_</name>
-        <qualifiedname>MR::DemoPlugin::interruptClose_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDemoPlugin.h" line="22" column="18"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gab3efc86bb86c30383b1acd8a7402ccb6" kind="function"><name>draw_</name></member>
+      <member refid="group__GeneralGroup_1gaad700650d3fbb94bb4bde49f341107ad" kind="function"><name>preDraw_</name></member>
+      <member refid="group__GeneralGroup_1ga6f86ebafb6280668b7c4176d7059d2d3" kind="function"><name>interruptClose_</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -190,21 +76,21 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDemoPlugin.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDemoPlugin.h" bodystart="14" bodyend="29"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDemoPlugin.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDemoPlugin.h" bodystart="17" bodyend="32"/>
     <listofallmembers>
-      <member refid="structMR_1_1MultiListener_1af3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::DemoPlugin</scope><name>connect</name></member>
-      <member refid="classMR_1_1DemoPlugin_1ace2c158a224cd44af075518041d25968" prot="private" virt="non-virtual"><scope>MR::DemoPlugin</scope><name>demoSphere_</name></member>
-      <member refid="structMR_1_1MultiListener_1acfa598489bfbc3b88c84b029213d042c" prot="public" virt="virtual"><scope>MR::DemoPlugin</scope><name>disconnect</name></member>
-      <member refid="classMR_1_1DemoPlugin_1ab3efc86bb86c30383b1acd8a7402ccb6" prot="private" virt="virtual"><scope>MR::DemoPlugin</scope><name>draw_</name></member>
-      <member refid="classMR_1_1DemoPlugin_1a6be2d6bfd3895d3f759775a2843ed7fe" prot="public" virt="virtual"><scope>MR::DemoPlugin</scope><name>init</name></member>
-      <member refid="classMR_1_1DemoPlugin_1a6f86ebafb6280668b7c4176d7059d2d3" prot="private" virt="virtual"><scope>MR::DemoPlugin</scope><name>interruptClose_</name></member>
-      <member refid="classMR_1_1DemoPlugin_1aad700650d3fbb94bb4bde49f341107ad" prot="private" virt="virtual"><scope>MR::DemoPlugin</scope><name>preDraw_</name></member>
-      <member refid="classMR_1_1DemoPlugin_1ae51fa4c57f1323a0d9060f5b84c85b75" prot="private" virt="non-virtual"><scope>MR::DemoPlugin</scope><name>shouldClose_</name></member>
-      <member refid="classMR_1_1DemoPlugin_1a913eb7a143a158d0905d25a6d7fd72ae" prot="private" virt="non-virtual"><scope>MR::DemoPlugin</scope><name>showCloseModal_</name></member>
-      <member refid="classMR_1_1DemoPlugin_1afd0d013177b9745090ea82dd3e6321e7" prot="public" virt="virtual"><scope>MR::DemoPlugin</scope><name>shutdown</name></member>
-      <member refid="classMR_1_1ViewerPlugin_1ad12538d77ebcf356c03469cbce40abae" prot="protected" virt="non-virtual"><scope>MR::DemoPlugin</scope><name>viewer</name></member>
-      <member refid="structMR_1_1MultiListener_1a726f5e2601b7f25e31824a0cac630fb2" prot="public" virt="virtual"><scope>MR::DemoPlugin</scope><name>~MultiListener</name></member>
-      <member refid="classMR_1_1ViewerPlugin_1ad7fd0e80e15b5c45837fc005c71c9eab" prot="public" virt="virtual"><scope>MR::DemoPlugin</scope><name>~ViewerPlugin</name></member>
+      <member refid="group__GeneralGroup_1gaf3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::DemoPlugin</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1gace2c158a224cd44af075518041d25968" prot="private" virt="non-virtual"><scope>MR::DemoPlugin</scope><name>demoSphere_</name></member>
+      <member refid="group__GeneralGroup_1gacfa598489bfbc3b88c84b029213d042c" prot="public" virt="virtual"><scope>MR::DemoPlugin</scope><name>disconnect</name></member>
+      <member refid="group__GeneralGroup_1gab3efc86bb86c30383b1acd8a7402ccb6" prot="private" virt="virtual"><scope>MR::DemoPlugin</scope><name>draw_</name></member>
+      <member refid="group__GeneralGroup_1ga6be2d6bfd3895d3f759775a2843ed7fe" prot="public" virt="virtual"><scope>MR::DemoPlugin</scope><name>init</name></member>
+      <member refid="group__GeneralGroup_1ga6f86ebafb6280668b7c4176d7059d2d3" prot="private" virt="virtual"><scope>MR::DemoPlugin</scope><name>interruptClose_</name></member>
+      <member refid="group__GeneralGroup_1gaad700650d3fbb94bb4bde49f341107ad" prot="private" virt="virtual"><scope>MR::DemoPlugin</scope><name>preDraw_</name></member>
+      <member refid="group__GeneralGroup_1gae51fa4c57f1323a0d9060f5b84c85b75" prot="private" virt="non-virtual"><scope>MR::DemoPlugin</scope><name>shouldClose_</name></member>
+      <member refid="group__GeneralGroup_1ga913eb7a143a158d0905d25a6d7fd72ae" prot="private" virt="non-virtual"><scope>MR::DemoPlugin</scope><name>showCloseModal_</name></member>
+      <member refid="group__GeneralGroup_1gafd0d013177b9745090ea82dd3e6321e7" prot="public" virt="virtual"><scope>MR::DemoPlugin</scope><name>shutdown</name></member>
+      <member refid="group__GeneralGroup_1gad12538d77ebcf356c03469cbce40abae" prot="protected" virt="non-virtual"><scope>MR::DemoPlugin</scope><name>viewer</name></member>
+      <member refid="group__GeneralGroup_1ga726f5e2601b7f25e31824a0cac630fb2" prot="public" virt="virtual"><scope>MR::DemoPlugin</scope><name>~MultiListener</name></member>
+      <member refid="group__GeneralGroup_1gad7fd0e80e15b5c45837fc005c71c9eab" prot="public" virt="virtual"><scope>MR::DemoPlugin</scope><name>~ViewerPlugin</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

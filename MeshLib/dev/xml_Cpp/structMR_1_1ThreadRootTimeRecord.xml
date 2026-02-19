@@ -84,7 +84,7 @@
     </sectiondef>
     <sectiondef kind="public-func">
       <memberdef kind="function" id="structMR_1_1ThreadRootTimeRecord_1a4c09c418632cc98c124ec0bf7ad1c6de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <type>MRMESH_API</type>
         <definition>MRMESH_API MR::ThreadRootTimeRecord::ThreadRootTimeRecord</definition>
         <argsstring>(const char *tdName)</argsstring>
         <name>ThreadRootTimeRecord</name>
@@ -102,7 +102,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimeRecord.h" line="43" column="16"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1ThreadRootTimeRecord_1ab1a1265af16cac54bd16adf7e8c44c27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::ThreadRootTimeRecord::printTree</definition>
         <argsstring>()</argsstring>
         <name>printTree</name>
@@ -116,7 +116,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTimeRecord.h" line="44" column="21"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1ThreadRootTimeRecord_1a3651985f131934c6036be279a0f01b58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <type>MRMESH_API</type>
         <definition>MRMESH_API MR::ThreadRootTimeRecord::~ThreadRootTimeRecord</definition>
         <argsstring>()</argsstring>
         <name>~ThreadRootTimeRecord</name>

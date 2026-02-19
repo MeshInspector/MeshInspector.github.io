@@ -4,127 +4,30 @@
     <compoundname>MR::PointOnFace</compoundname>
     <includes refid="MRPointOnFace_8h" local="no">MRPointOnFace.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1PointOnFace_1a2ec934aa6c7847dbfbc812bcea286b53" prot="public" static="no" mutable="no">
-        <type>FaceId</type>
-        <definition>FaceId MR::PointOnFace::face</definition>
-        <argsstring></argsstring>
-        <name>face</name>
-        <qualifiedname>MR::PointOnFace::face</qualifiedname>
-        <briefdescription>
-<para>mesh&apos;s face containing the point </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointOnFace.h" line="15" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointOnFace.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1PointOnFace_1a8ee455f370bca112fa98cf9f81a2e3ad" prot="public" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::PointOnFace::point</definition>
-        <argsstring></argsstring>
-        <name>point</name>
-        <qualifiedname>MR::PointOnFace::point</qualifiedname>
-        <briefdescription>
-<para>a point of the mesh&apos;s face </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointOnFace.h" line="18" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointOnFace.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga2ec934aa6c7847dbfbc812bcea286b53" kind="variable"><name>face</name></member>
+      <member refid="group__GeneralGroup_1ga8ee455f370bca112fa98cf9f81a2e3ad" kind="variable"><name>point</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1PointOnFace_1a025f9557286d25c7be1c794fbb8ecafa" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::PointOnFace::valid</definition>
-        <argsstring>() const</argsstring>
-        <name>valid</name>
-        <qualifiedname>MR::PointOnFace::valid</qualifiedname>
-        <briefdescription>
-<para>check for validity, otherwise the point is not defined </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointOnFace.h" line="21" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointOnFace.h" bodystart="21" bodyend="21"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1PointOnFace_1acabf2c49796ac6c253d2d2031fb688c7" prot="public" static="no" nodiscard="yes" const="yes" explicit="yes" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::PointOnFace::operator bool</definition>
-        <argsstring>() const</argsstring>
-        <name>operator bool</name>
-        <qualifiedname>MR::PointOnFace::operator bool</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointOnFace.h" line="22" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointOnFace.h" bodystart="22" bodyend="22"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga025f9557286d25c7be1c794fbb8ecafa" kind="function"><name>valid</name></member>
+      <member refid="group__GeneralGroup_1gacabf2c49796ac6c253d2d2031fb688c7" kind="function"><name>operator bool</name></member>
     </sectiondef>
     <sectiondef kind="friend">
-      <memberdef kind="friend" id="structMR_1_1PointOnFace_1a8637dcfb147334b89a036bd81aa65d29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> friend std::ostream &amp;</type>
-        <definition>MRMESH_API friend std::ostream &amp; operator&lt;&lt;</definition>
-        <argsstring>(std::ostream &amp;s, const PointOnFace &amp;pof)</argsstring>
-        <name>operator&lt;&lt;</name>
-        <qualifiedname>MR::PointOnFace::operator&lt;&lt;</qualifiedname>
-        <param>
-          <type>std::ostream &amp;</type>
-          <declname>s</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1PointOnFace" kindref="compound">PointOnFace</ref> &amp;</type>
-          <declname>pof</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointOnFace.h" line="24" column="23"/>
-      </memberdef>
-      <memberdef kind="friend" id="structMR_1_1PointOnFace_1a2fec16fae9fb716a22a7e976563c23b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> friend std::istream &amp;</type>
-        <definition>MRMESH_API friend std::istream &amp; operator&gt;&gt;</definition>
-        <argsstring>(std::istream &amp;s, PointOnFace &amp;pof)</argsstring>
-        <name>operator&gt;&gt;</name>
-        <qualifiedname>MR::PointOnFace::operator&gt;&gt;</qualifiedname>
-        <param>
-          <type>std::istream &amp;</type>
-          <declname>s</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1PointOnFace" kindref="compound">PointOnFace</ref> &amp;</type>
-          <declname>pof</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointOnFace.h" line="25" column="36"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga8637dcfb147334b89a036bd81aa65d29" kind="friend"><name>operator&lt;&lt;</name></member>
+      <member refid="group__GeneralGroup_1ga2fec16fae9fb716a22a7e976563c23b6" kind="friend"><name>operator&gt;&gt;</name></member>
     </sectiondef>
     <briefdescription>
 <para>a point located on some mesh&apos;s face </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointOnFace.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointOnFace.h" bodystart="13" bodyend="26"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointOnFace.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointOnFace.h" bodystart="16" bodyend="29"/>
     <listofallmembers>
-      <member refid="structMR_1_1PointOnFace_1a2ec934aa6c7847dbfbc812bcea286b53" prot="public" virt="non-virtual"><scope>MR::PointOnFace</scope><name>face</name></member>
-      <member refid="structMR_1_1PointOnFace_1acabf2c49796ac6c253d2d2031fb688c7" prot="public" virt="non-virtual"><scope>MR::PointOnFace</scope><name>operator bool</name></member>
-      <member refid="structMR_1_1PointOnFace_1a8637dcfb147334b89a036bd81aa65d29" prot="public" virt="non-virtual"><scope>MR::PointOnFace</scope><name>operator&lt;&lt;</name></member>
-      <member refid="structMR_1_1PointOnFace_1a2fec16fae9fb716a22a7e976563c23b6" prot="public" virt="non-virtual"><scope>MR::PointOnFace</scope><name>operator&gt;&gt;</name></member>
-      <member refid="structMR_1_1PointOnFace_1a8ee455f370bca112fa98cf9f81a2e3ad" prot="public" virt="non-virtual"><scope>MR::PointOnFace</scope><name>point</name></member>
-      <member refid="structMR_1_1PointOnFace_1a025f9557286d25c7be1c794fbb8ecafa" prot="public" virt="non-virtual"><scope>MR::PointOnFace</scope><name>valid</name></member>
+      <member refid="group__GeneralGroup_1ga2ec934aa6c7847dbfbc812bcea286b53" prot="public" virt="non-virtual"><scope>MR::PointOnFace</scope><name>face</name></member>
+      <member refid="group__GeneralGroup_1gacabf2c49796ac6c253d2d2031fb688c7" prot="public" virt="non-virtual"><scope>MR::PointOnFace</scope><name>operator bool</name></member>
+      <member refid="group__GeneralGroup_1ga8637dcfb147334b89a036bd81aa65d29" prot="public" virt="non-virtual"><scope>MR::PointOnFace</scope><name>operator&lt;&lt;</name></member>
+      <member refid="group__GeneralGroup_1ga2fec16fae9fb716a22a7e976563c23b6" prot="public" virt="non-virtual"><scope>MR::PointOnFace</scope><name>operator&gt;&gt;</name></member>
+      <member refid="group__GeneralGroup_1ga8ee455f370bca112fa98cf9f81a2e3ad" prot="public" virt="non-virtual"><scope>MR::PointOnFace</scope><name>point</name></member>
+      <member refid="group__GeneralGroup_1ga025f9557286d25c7be1c794fbb8ecafa" prot="public" virt="non-virtual"><scope>MR::PointOnFace</scope><name>valid</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

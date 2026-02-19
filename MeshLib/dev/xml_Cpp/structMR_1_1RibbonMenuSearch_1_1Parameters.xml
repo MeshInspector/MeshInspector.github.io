@@ -4,48 +4,9 @@
     <compoundname>MR::RibbonMenuSearch::Parameters</compoundname>
     <includes refid="MRRibbonMenuSearch_8h" local="no">MRRibbonMenuSearch.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1RibbonMenuSearch_1_1Parameters_1afb17b1a5e87e3e47d6e9df9cca75739a" prot="public" static="no" mutable="no">
-        <type><ref refid="classMR_1_1RibbonButtonDrawer" kindref="compound">RibbonButtonDrawer</ref> &amp;</type>
-        <definition>RibbonButtonDrawer&amp; MR::RibbonMenuSearch::Parameters::btnDrawer</definition>
-        <argsstring></argsstring>
-        <name>btnDrawer</name>
-        <qualifiedname>MR::RibbonMenuSearch::Parameters::btnDrawer</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" line="26" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" bodystart="26" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1RibbonMenuSearch_1_1Parameters_1a557d5533b7a71b39965276427e9ce475" prot="public" static="no" mutable="no">
-        <type><ref refid="classMR_1_1RibbonFontManager" kindref="compound">RibbonFontManager</ref> &amp;</type>
-        <definition>RibbonFontManager&amp; MR::RibbonMenuSearch::Parameters::fontManager</definition>
-        <argsstring></argsstring>
-        <name>fontManager</name>
-        <qualifiedname>MR::RibbonMenuSearch::Parameters::fontManager</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" line="27" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" bodystart="27" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1RibbonMenuSearch_1_1Parameters_1af9d5d5e38c27a6973c6e92a74e412d6e" prot="public" static="no" mutable="no">
-        <type>std::function&lt; void(int)&gt;</type>
-        <definition>std::function&lt;void( int )&gt; MR::RibbonMenuSearch::Parameters::changeTabFunc</definition>
-        <argsstring></argsstring>
-        <name>changeTabFunc</name>
-        <qualifiedname>MR::RibbonMenuSearch::Parameters::changeTabFunc</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" line="28" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" bodystart="28" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gafb17b1a5e87e3e47d6e9df9cca75739a" kind="variable"><name>btnDrawer</name></member>
+      <member refid="group__GeneralGroup_1ga557d5533b7a71b39965276427e9ce475" kind="variable"><name>fontManager</name></member>
+      <member refid="group__GeneralGroup_1gaf9d5d5e38c27a6973c6e92a74e412d6e" kind="variable"><name>changeTabFunc</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -71,11 +32,11 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" line="24" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" bodystart="25" bodyend="29"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" line="27" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuSearch.h" bodystart="28" bodyend="32"/>
     <listofallmembers>
-      <member refid="structMR_1_1RibbonMenuSearch_1_1Parameters_1afb17b1a5e87e3e47d6e9df9cca75739a" prot="public" virt="non-virtual"><scope>MR::RibbonMenuSearch::Parameters</scope><name>btnDrawer</name></member>
-      <member refid="structMR_1_1RibbonMenuSearch_1_1Parameters_1af9d5d5e38c27a6973c6e92a74e412d6e" prot="public" virt="non-virtual"><scope>MR::RibbonMenuSearch::Parameters</scope><name>changeTabFunc</name></member>
-      <member refid="structMR_1_1RibbonMenuSearch_1_1Parameters_1a557d5533b7a71b39965276427e9ce475" prot="public" virt="non-virtual"><scope>MR::RibbonMenuSearch::Parameters</scope><name>fontManager</name></member>
+      <member refid="group__GeneralGroup_1gafb17b1a5e87e3e47d6e9df9cca75739a" prot="public" virt="non-virtual"><scope>MR::RibbonMenuSearch::Parameters</scope><name>btnDrawer</name></member>
+      <member refid="group__GeneralGroup_1gaf9d5d5e38c27a6973c6e92a74e412d6e" prot="public" virt="non-virtual"><scope>MR::RibbonMenuSearch::Parameters</scope><name>changeTabFunc</name></member>
+      <member refid="group__GeneralGroup_1ga557d5533b7a71b39965276427e9ce475" prot="public" virt="non-virtual"><scope>MR::RibbonMenuSearch::Parameters</scope><name>fontManager</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

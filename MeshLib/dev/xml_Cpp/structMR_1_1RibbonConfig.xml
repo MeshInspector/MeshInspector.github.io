@@ -4,91 +4,23 @@
     <compoundname>MR::RibbonConfig</compoundname>
     <includes refid="MRRibbonLayoutConfig_8h" local="no">MRRibbonLayoutConfig.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1RibbonConfig_1a5002834cd308d2eeda7cc7f532840f8a" prot="public" static="no" mutable="no">
-        <type>std::optional&lt; <ref refid="structMR_1_1RibbonMenuUIConfig" kindref="compound">RibbonMenuUIConfig</ref> &gt;</type>
-        <definition>std::optional&lt;RibbonMenuUIConfig&gt; MR::RibbonConfig::menuUIConfig</definition>
-        <argsstring></argsstring>
-        <name>menuUIConfig</name>
-        <qualifiedname>MR::RibbonConfig::menuUIConfig</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonLayoutConfig.h" line="14" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonLayoutConfig.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1RibbonConfig_1a678575ecbadf5b880fab6e6072873ee5" prot="public" static="no" mutable="no">
-        <type>std::optional&lt; <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &gt;</type>
-        <definition>std::optional&lt;Color&gt; MR::RibbonConfig::monochromeRibbonIcons</definition>
-        <argsstring></argsstring>
-        <name>monochromeRibbonIcons</name>
-        <qualifiedname>MR::RibbonConfig::monochromeRibbonIcons</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonLayoutConfig.h" line="15" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonLayoutConfig.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1RibbonConfig_1a64f5562c14952b7d260af9fa205a774e" prot="public" static="no" mutable="no">
-        <type>std::optional&lt; Json::Value &gt;</type>
-        <definition>std::optional&lt;Json::Value&gt; MR::RibbonConfig::colorTheme</definition>
-        <argsstring></argsstring>
-        <name>colorTheme</name>
-        <qualifiedname>MR::RibbonConfig::colorTheme</qualifiedname>
-        <briefdescription>
-<para>if present all ribbon items will be drawn with this monochrome color (if available) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonLayoutConfig.h" line="16" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonLayoutConfig.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1RibbonConfig_1afccbd7944f12542b4f6d3f27184a4633" prot="public" static="no" mutable="no">
-        <type>std::optional&lt; Json::Value &gt;</type>
-        <definition>std::optional&lt;Json::Value&gt; MR::RibbonConfig::ribbonStructure</definition>
-        <argsstring></argsstring>
-        <name>ribbonStructure</name>
-        <qualifiedname>MR::RibbonConfig::ribbonStructure</qualifiedname>
-        <briefdescription>
-<para>if present will be applied </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonLayoutConfig.h" line="17" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonLayoutConfig.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1RibbonConfig_1ac2c7bf907acefc60264b250f1af05e61" prot="public" static="no" mutable="no">
-        <type>std::optional&lt; Json::Value &gt;</type>
-        <definition>std::optional&lt;Json::Value&gt; MR::RibbonConfig::ribbonItemsOverrides</definition>
-        <argsstring></argsstring>
-        <name>ribbonItemsOverrides</name>
-        <qualifiedname>MR::RibbonConfig::ribbonItemsOverrides</qualifiedname>
-        <briefdescription>
-<para>analogue for ui.json file, if present will replace current layout </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonLayoutConfig.h" line="18" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonLayoutConfig.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga5002834cd308d2eeda7cc7f532840f8a" kind="variable"><name>menuUIConfig</name></member>
+      <member refid="group__GeneralGroup_1ga678575ecbadf5b880fab6e6072873ee5" kind="variable"><name>monochromeRibbonIcons</name></member>
+      <member refid="group__GeneralGroup_1ga64f5562c14952b7d260af9fa205a774e" kind="variable"><name>colorTheme</name></member>
+      <member refid="group__GeneralGroup_1gafccbd7944f12542b4f6d3f27184a4633" kind="variable"><name>ribbonStructure</name></member>
+      <member refid="group__GeneralGroup_1gac2c7bf907acefc60264b250f1af05e61" kind="variable"><name>ribbonItemsOverrides</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonLayoutConfig.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonLayoutConfig.h" bodystart="13" bodyend="19"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonLayoutConfig.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonLayoutConfig.h" bodystart="16" bodyend="22"/>
     <listofallmembers>
-      <member refid="structMR_1_1RibbonConfig_1a64f5562c14952b7d260af9fa205a774e" prot="public" virt="non-virtual"><scope>MR::RibbonConfig</scope><name>colorTheme</name></member>
-      <member refid="structMR_1_1RibbonConfig_1a5002834cd308d2eeda7cc7f532840f8a" prot="public" virt="non-virtual"><scope>MR::RibbonConfig</scope><name>menuUIConfig</name></member>
-      <member refid="structMR_1_1RibbonConfig_1a678575ecbadf5b880fab6e6072873ee5" prot="public" virt="non-virtual"><scope>MR::RibbonConfig</scope><name>monochromeRibbonIcons</name></member>
-      <member refid="structMR_1_1RibbonConfig_1ac2c7bf907acefc60264b250f1af05e61" prot="public" virt="non-virtual"><scope>MR::RibbonConfig</scope><name>ribbonItemsOverrides</name></member>
-      <member refid="structMR_1_1RibbonConfig_1afccbd7944f12542b4f6d3f27184a4633" prot="public" virt="non-virtual"><scope>MR::RibbonConfig</scope><name>ribbonStructure</name></member>
+      <member refid="group__GeneralGroup_1ga64f5562c14952b7d260af9fa205a774e" prot="public" virt="non-virtual"><scope>MR::RibbonConfig</scope><name>colorTheme</name></member>
+      <member refid="group__GeneralGroup_1ga5002834cd308d2eeda7cc7f532840f8a" prot="public" virt="non-virtual"><scope>MR::RibbonConfig</scope><name>menuUIConfig</name></member>
+      <member refid="group__GeneralGroup_1ga678575ecbadf5b880fab6e6072873ee5" prot="public" virt="non-virtual"><scope>MR::RibbonConfig</scope><name>monochromeRibbonIcons</name></member>
+      <member refid="group__GeneralGroup_1gac2c7bf907acefc60264b250f1af05e61" prot="public" virt="non-virtual"><scope>MR::RibbonConfig</scope><name>ribbonItemsOverrides</name></member>
+      <member refid="group__GeneralGroup_1gafccbd7944f12542b4f6d3f27184a4633" prot="public" virt="non-virtual"><scope>MR::RibbonConfig</scope><name>ribbonStructure</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

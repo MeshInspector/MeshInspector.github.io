@@ -70,13 +70,13 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="23" column="5"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1a9142ac9cb66c174e62a22937ddb32c24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <type>MRMESH_API</type>
         <definition>MRMESH_API MR::Polyline&lt; V &gt;::Polyline</definition>
         <argsstring>(const Contour&lt; V &gt; &amp;contour)</argsstring>
         <name>Polyline</name>
         <qualifiedname>MR::Polyline::Polyline</qualifiedname>
         <param>
-          <type>const <ref refid="MRObjectLabel_8h_1a1671b043728dec2b5c7e5446f1b8c97e" kindref="member">Contour</ref>&lt; V &gt; &amp;</type>
+          <type>const <ref refid="group__GeneralGroup_1ga1671b043728dec2b5c7e5446f1b8c97e" kindref="member">Contour</ref>&lt; V &gt; &amp;</type>
           <declname>contour</declname>
         </param>
         <briefdescription>
@@ -89,13 +89,13 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="26" column="16"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1ab6d5abcf7fd7877a16aa2665eee6913e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <type>MRMESH_API</type>
         <definition>MRMESH_API MR::Polyline&lt; V &gt;::Polyline</definition>
         <argsstring>(const Contours&lt; V &gt; &amp;contours)</argsstring>
         <name>Polyline</name>
         <qualifiedname>MR::Polyline::Polyline</qualifiedname>
         <param>
-          <type>const <ref refid="namespaceMR_1acc92c2d7152d14f1cb59bb4c7187fed8" kindref="member">Contours</ref>&lt; V &gt; &amp;</type>
+          <type>const Contours&lt; V &gt; &amp;</type>
           <declname>contours</declname>
         </param>
         <briefdescription>
@@ -108,7 +108,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="29" column="16"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1aa95a33cc56a264a94edd7ef4c0f833bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <type>MRMESH_API</type>
         <definition>MRMESH_API MR::Polyline&lt; V &gt;::Polyline</definition>
         <argsstring>(const std::vector&lt; VertId &gt; &amp;comp2firstVert, Vector&lt; V, VertId &gt; ps)</argsstring>
         <name>Polyline</name>
@@ -148,7 +148,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="34" column="16"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1aae40d1c6ba0e12c47a855747d44d40ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> EdgeId</type>
+        <type>MRMESH_API EdgeId</type>
         <definition>MRMESH_API EdgeId MR::Polyline&lt; V &gt;::addFromPoints</definition>
         <argsstring>(const V *vs, size_t num, bool closed)</argsstring>
         <name>addFromPoints</name>
@@ -179,7 +179,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="39" column="23"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1ad1f0bc764cd99c848a21add405261785" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> EdgeId</type>
+        <type>MRMESH_API EdgeId</type>
         <definition>MRMESH_API EdgeId MR::Polyline&lt; V &gt;::addFromPoints</definition>
         <argsstring>(const V *vs, size_t num)</argsstring>
         <name>addFromPoints</name>
@@ -205,7 +205,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="44" column="23"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1a51d38e177ee751404d7e836928dc4689" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::Polyline&lt; V &gt;::addPart</definition>
         <argsstring>(const Polyline&lt; V &gt; &amp;from, VertMap *outVmap=nullptr, WholeEdgeMap *outEmap=nullptr)</argsstring>
         <name>addPart</name>
@@ -244,7 +244,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="48" column="21"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1a3c415d06f60c7ddc956d9c1f5b4b9609" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::Polyline&lt; V &gt;::addPartByMask</definition>
         <argsstring>(const Polyline&lt; V &gt; &amp;from, const UndirectedEdgeBitSet &amp;mask, VertMap *outVmap=nullptr, EdgeMap *outEmap=nullptr)</argsstring>
         <name>addPartByMask</name>
@@ -277,7 +277,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="52" column="21"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1a8d063b261d3c64f8a2882f0b2eaf77ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::Polyline&lt; V &gt;::pack</definition>
         <argsstring>(VertMap *outVmap=nullptr, WholeEdgeMap *outEmap=nullptr)</argsstring>
         <name>pack</name>
@@ -458,7 +458,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="81" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" bodystart="81" bodyend="81"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1a036db71418e9c25f3d9fc51772ce4e6a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="structMR_1_1EdgePoint" kindref="compound">EdgePoint</ref></type>
+        <type>MRMESH_API <ref refid="structMR_1_1EdgePoint" kindref="compound">EdgePoint</ref></type>
         <definition>MRMESH_API EdgePoint MR::Polyline&lt; V &gt;::toEdgePoint</definition>
         <argsstring>(EdgeId e, const V &amp;p) const</argsstring>
         <name>toEdgePoint</name>
@@ -519,7 +519,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="90" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" bodystart="90" bodyend="90"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1adcd9babfa09e9b253e4e80937c08fa6f" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Vector3f</type>
+        <type>MRMESH_API Vector3f</type>
         <definition>MRMESH_API Vector3f MR::Polyline&lt; V &gt;::loopDirArea</definition>
         <argsstring>(EdgeId e) const</argsstring>
         <name>loopDirArea</name>
@@ -538,7 +538,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="94" column="26"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1a2a9c58f07401349f8113bfc5e5e03619" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> float</type>
+        <type>MRMESH_API float</type>
         <definition>MRMESH_API float MR::Polyline&lt; V &gt;::totalLength</definition>
         <argsstring>() const</argsstring>
         <name>totalLength</name>
@@ -568,7 +568,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="100" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" bodystart="100" bodyend="100"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1addf7be82ffec83205ba7adcd66001c5b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> const <ref refid="classMR_1_1AABBTreePolyline" kindref="compound">AABBTreePolyline</ref>&lt; V &gt; &amp;</type>
+        <type>MRMESH_API const <ref refid="classMR_1_1AABBTreePolyline" kindref="compound">AABBTreePolyline</ref>&lt; V &gt; &amp;</type>
         <definition>MRMESH_API const AABBTreePolyline&lt; V &gt; &amp; MR::Polyline&lt; V &gt;::getAABBTree</definition>
         <argsstring>() const</argsstring>
         <name>getAABBTree</name>
@@ -598,7 +598,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="106" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" bodystart="106" bodyend="106"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1a3dcacffc0e913721847e9e77ca00dc4b" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="structMR_1_1Box" kindref="compound">Box</ref>&lt; V &gt;</type>
+        <type>MRMESH_API <ref refid="structMR_1_1Box" kindref="compound">Box</ref>&lt; V &gt;</type>
         <definition>MRMESH_API Box&lt; V &gt; MR::Polyline&lt; V &gt;::getBoundingBox</definition>
         <argsstring>() const</argsstring>
         <name>getBoundingBox</name>
@@ -613,7 +613,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="109" column="21"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1af1debf021b9bc68d02c2905e0527ab11" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="structMR_1_1Box" kindref="compound">Box</ref>&lt; V &gt;</type>
+        <type>MRMESH_API <ref refid="structMR_1_1Box" kindref="compound">Box</ref>&lt; V &gt;</type>
         <definition>MRMESH_API Box&lt; V &gt; MR::Polyline&lt; V &gt;::computeBoundingBox</definition>
         <argsstring>(const AffineXf&lt; V &gt; *toWorld=nullptr) const</argsstring>
         <name>computeBoundingBox</name>
@@ -634,7 +634,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="113" column="21"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1a6e23e900e2959a7be3356ae3e71c017a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> V</type>
+        <type>MRMESH_API V</type>
         <definition>MRMESH_API V MR::Polyline&lt; V &gt;::findCenterFromPoints</definition>
         <argsstring>() const</argsstring>
         <name>findCenterFromPoints</name>
@@ -649,7 +649,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="116" column="19"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1a850c5acb1d7b21b7652c8b44f7e53965" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::Polyline&lt; V &gt;::transform</definition>
         <argsstring>(const AffineXf&lt; V &gt; &amp;xf)</argsstring>
         <name>transform</name>
@@ -668,7 +668,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="119" column="21"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1a17426532df4513648d6e3d0212e8f334" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> EdgeId</type>
+        <type>MRMESH_API EdgeId</type>
         <definition>MRMESH_API EdgeId MR::Polyline&lt; V &gt;::splitEdge</definition>
         <argsstring>(EdgeId e, const V &amp;newVertPos)</argsstring>
         <name>splitEdge</name>
@@ -725,7 +725,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="131" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" bodystart="131" bodyend="131"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1a91470a70289b04baf4e278a4b7c4702b" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="namespaceMR_1acc92c2d7152d14f1cb59bb4c7187fed8" kindref="member">Contours</ref>&lt; V &gt;</type>
+        <type>MRMESH_API Contours&lt; V &gt;</type>
         <definition>MRMESH_API Contours&lt; V &gt; MR::Polyline&lt; V &gt;::contours</definition>
         <argsstring>(std::vector&lt; std::vector&lt; VertId &gt; &gt; *vertMap=nullptr) const</argsstring>
         <name>contours</name>
@@ -775,7 +775,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="140" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" bodystart="174" bodyend="184"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1a21cfd60868c3fbabcfda71008f98cfa1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> EdgeId</type>
+        <type>MRMESH_API EdgeId</type>
         <definition>MRMESH_API EdgeId MR::Polyline&lt; V &gt;::addFromEdgePath</definition>
         <argsstring>(const Mesh &amp;mesh, const EdgePath &amp;path)</argsstring>
         <name>addFromEdgePath</name>
@@ -785,7 +785,7 @@
           <declname>mesh</declname>
         </param>
         <param>
-          <type>const <ref refid="namespaceMR_1a9f6c1e614e45e332d4cecfc5e77bc07e" kindref="member">EdgePath</ref> &amp;</type>
+          <type>const EdgePath &amp;</type>
           <declname>path</declname>
         </param>
         <briefdescription>
@@ -810,7 +810,7 @@
           <declname>mesh</declname>
         </param>
         <param>
-          <type>const <ref refid="namespaceMR_1a7798ef4dfda44362083b0aa66a45d6a3" kindref="member">SurfacePath</ref> &amp;</type>
+          <type>const SurfacePath &amp;</type>
           <declname>path</declname>
         </param>
         <briefdescription>
@@ -825,7 +825,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="148" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" bodystart="148" bodyend="148"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1af26b4e6a0cf3287f52bdf51f2eeebd02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> EdgeId</type>
+        <type>MRMESH_API EdgeId</type>
         <definition>MRMESH_API EdgeId MR::Polyline&lt; V &gt;::addFromGeneralSurfacePath</definition>
         <argsstring>(const Mesh &amp;mesh, const MeshTriPoint &amp;start, const SurfacePath &amp;path, const MeshTriPoint &amp;end)</argsstring>
         <name>addFromGeneralSurfacePath</name>
@@ -839,7 +839,7 @@
           <declname>start</declname>
         </param>
         <param>
-          <type>const <ref refid="namespaceMR_1a7798ef4dfda44362083b0aa66a45d6a3" kindref="member">SurfacePath</ref> &amp;</type>
+          <type>const SurfacePath &amp;</type>
           <declname>path</declname>
         </param>
         <param>
@@ -858,7 +858,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline.h" line="152" column="23"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1adb4149d3e094b89744f9831dac1103dd" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> size_t</type>
+        <type>MRMESH_API size_t</type>
         <definition>MRMESH_API size_t MR::Polyline&lt; V &gt;::heapBytes</definition>
         <argsstring>() const</argsstring>
         <name>heapBytes</name>

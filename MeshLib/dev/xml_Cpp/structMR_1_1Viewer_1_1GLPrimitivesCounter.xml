@@ -3,46 +3,19 @@
   <compounddef id="structMR_1_1Viewer_1_1GLPrimitivesCounter" kind="struct" language="C++" prot="private">
     <compoundname>MR::Viewer::GLPrimitivesCounter</compoundname>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1Viewer_1_1GLPrimitivesCounter_1a5e3703eba5285dc1c4ccfdcb9784030e" prot="public" static="no" mutable="no">
-        <type>std::array&lt; size_t, size_t(<ref refid="classMR_1_1Viewer_1acd808397ec9c13d1d3bce1b0e846bd40ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">GLPrimitivesType::Count</ref>)&gt;</type>
-        <definition>std::array&lt;size_t, size_t( GLPrimitivesType::Count )&gt; MR::Viewer::GLPrimitivesCounter::counter</definition>
-        <argsstring></argsstring>
-        <name>counter</name>
-        <qualifiedname>MR::Viewer::GLPrimitivesCounter::counter</qualifiedname>
-        <initializer>{}</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewer.h" line="586" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewer.h" bodystart="586" bodyend="586"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga5e3703eba5285dc1c4ccfdcb9784030e" kind="variable"><name>counter</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1Viewer_1_1GLPrimitivesCounter_1a4dd7ea4b014eafdbbb1c753fb97eb3ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::Viewer::GLPrimitivesCounter::reset</definition>
-        <argsstring>()</argsstring>
-        <name>reset</name>
-        <qualifiedname>MR::Viewer::GLPrimitivesCounter::reset</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewer.h" line="587" column="14"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga4dd7ea4b014eafdbbb1c753fb97eb3ab" kind="function"><name>reset</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewer.h" line="584" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewer.h" bodystart="585" bodyend="588"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewer.h" line="587" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewer.h" bodystart="588" bodyend="591"/>
     <listofallmembers>
-      <member refid="structMR_1_1Viewer_1_1GLPrimitivesCounter_1a5e3703eba5285dc1c4ccfdcb9784030e" prot="public" virt="non-virtual"><scope>MR::Viewer::GLPrimitivesCounter</scope><name>counter</name></member>
-      <member refid="structMR_1_1Viewer_1_1GLPrimitivesCounter_1a4dd7ea4b014eafdbbb1c753fb97eb3ab" prot="public" virt="non-virtual"><scope>MR::Viewer::GLPrimitivesCounter</scope><name>reset</name></member>
+      <member refid="group__GeneralGroup_1ga5e3703eba5285dc1c4ccfdcb9784030e" prot="public" virt="non-virtual"><scope>MR::Viewer::GLPrimitivesCounter</scope><name>counter</name></member>
+      <member refid="group__GeneralGroup_1ga4dd7ea4b014eafdbbb1c753fb97eb3ab" prot="public" virt="non-virtual"><scope>MR::Viewer::GLPrimitivesCounter</scope><name>reset</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

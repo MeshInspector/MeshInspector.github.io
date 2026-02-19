@@ -149,7 +149,7 @@ $(function(){initNavTree('classMR_1_1IFastWindingNumberByParts.html',''); initRe
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classMR_1_1IFastWindingNumberByParts-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">MR::IFastWindingNumberByParts Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
+  <div class="headertitle"><div class="title">MR::IFastWindingNumberByParts Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span><div class="ingroups"><a class="el" href="group__GeneralGroup.html">GeneralGroup</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -171,198 +171,23 @@ $(function(){initNavTree('classMR_1_1IFastWindingNumberByParts.html',''); initRe
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a54e74708f7b97596d00a59029266cc0f" id="r_a54e74708f7b97596d00a59029266cc0f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54e74708f7b97596d00a59029266cc0f">GridByPartsFunc</a> = std::function&lt;<a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;void&gt; ( std::vector&lt;float&gt;&amp;&amp; data, const Vector3i&amp; dims, int zOffset )&gt;</td></tr>
-<tr class="separator:a54e74708f7b97596d00a59029266cc0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga54e74708f7b97596d00a59029266cc0f" id="r_ga54e74708f7b97596d00a59029266cc0f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga54e74708f7b97596d00a59029266cc0f">GridByPartsFunc</a> = std::function&lt;<a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;void&gt; ( std::vector&lt;float&gt;&amp;&amp; data, const Vector3i&amp; dims, int zOffset )&gt;</td></tr>
+<tr class="separator:ga54e74708f7b97596d00a59029266cc0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af7e578881fbad35e93b36ab0a2697c1c" id="r_af7e578881fbad35e93b36ab0a2697c1c"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7e578881fbad35e93b36ab0a2697c1c">~IFastWindingNumberByParts</a> ()=default</td></tr>
-<tr class="separator:af7e578881fbad35e93b36ab0a2697c1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3cd5d444973254e7b31ab81917f07329" id="r_a3cd5d444973254e7b31ab81917f07329"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3cd5d444973254e7b31ab81917f07329">calcFromGridByParts</a> (<a class="el" href="#a54e74708f7b97596d00a59029266cc0f">GridByPartsFunc</a> resFunc, const Vector3i &amp;dims, const AffineXf3f &amp;gridToMeshXf, float beta, int layerOverlap, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb)=0</td></tr>
-<tr class="memdesc:a3cd5d444973254e7b31ab81917f07329"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates winding numbers in each point from a three-dimensional grid  <br /></td></tr>
-<tr class="separator:a3cd5d444973254e7b31ab81917f07329"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91d50343ae8805a878c0dac2b8ff0802" id="r_a91d50343ae8805a878c0dac2b8ff0802"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91d50343ae8805a878c0dac2b8ff0802">calcFromGridWithDistancesByParts</a> (<a class="el" href="#a54e74708f7b97596d00a59029266cc0f">GridByPartsFunc</a> resFunc, const Vector3i &amp;dims, const AffineXf3f &amp;gridToMeshXf, const <a class="el" href="structMR_1_1DistanceToMeshOptions.html">DistanceToMeshOptions</a> &amp;options, int layerOverlap, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb)=0</td></tr>
-<tr class="memdesc:a91d50343ae8805a878c0dac2b8ff0802"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates distances with the sign obtained from generalized winding number in each point from a three-dimensional grid; if sqr(res) &lt; minDistSq or sqr(res) &gt;= maxDistSq, then NaN is returned for such point  <br /></td></tr>
-<tr class="separator:a91d50343ae8805a878c0dac2b8ff0802"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf7e578881fbad35e93b36ab0a2697c1c" id="r_gaf7e578881fbad35e93b36ab0a2697c1c"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaf7e578881fbad35e93b36ab0a2697c1c">~IFastWindingNumberByParts</a> ()=default</td></tr>
+<tr class="separator:gaf7e578881fbad35e93b36ab0a2697c1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3cd5d444973254e7b31ab81917f07329" id="r_ga3cd5d444973254e7b31ab81917f07329"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga3cd5d444973254e7b31ab81917f07329">calcFromGridByParts</a> (<a class="el" href="group__GeneralGroup.html#ga54e74708f7b97596d00a59029266cc0f">GridByPartsFunc</a> resFunc, const Vector3i &amp;dims, const AffineXf3f &amp;gridToMeshXf, float beta, int layerOverlap, const ProgressCallback &amp;cb)=0</td></tr>
+<tr class="memdesc:ga3cd5d444973254e7b31ab81917f07329"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates winding numbers in each point from a three-dimensional grid  <br /></td></tr>
+<tr class="separator:ga3cd5d444973254e7b31ab81917f07329"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga91d50343ae8805a878c0dac2b8ff0802" id="r_ga91d50343ae8805a878c0dac2b8ff0802"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga91d50343ae8805a878c0dac2b8ff0802">calcFromGridWithDistancesByParts</a> (<a class="el" href="group__GeneralGroup.html#ga54e74708f7b97596d00a59029266cc0f">GridByPartsFunc</a> resFunc, const Vector3i &amp;dims, const AffineXf3f &amp;gridToMeshXf, const <a class="el" href="structMR_1_1DistanceToMeshOptions.html">DistanceToMeshOptions</a> &amp;options, int layerOverlap, const ProgressCallback &amp;cb)=0</td></tr>
+<tr class="memdesc:ga91d50343ae8805a878c0dac2b8ff0802"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates distances with the sign obtained from generalized winding number in each point from a three-dimensional grid; if sqr(res) &lt; minDistSq or sqr(res) &gt;= maxDistSq, then NaN is returned for such point  <br /></td></tr>
+<tr class="separator:ga91d50343ae8805a878c0dac2b8ff0802"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Abstract class that complements <a class="el" href="classMR_1_1IFastWindingNumber.html">IFastWindingNumber</a> with chunked processing variants of its methods. </p>
-</div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a54e74708f7b97596d00a59029266cc0f" name="a54e74708f7b97596d00a59029266cc0f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54e74708f7b97596d00a59029266cc0f">&#9670;&#160;</a></span>GridByPartsFunc</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#a54e74708f7b97596d00a59029266cc0f">MR::IFastWindingNumberByParts::GridByPartsFunc</a> = std::function&lt;<a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;void&gt; ( std::vector&lt;float&gt;&amp;&amp; data, const Vector3i&amp; dims, int zOffset )&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>callback that gets a block of resulting winding numbers </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">data</td><td>- block data </td></tr>
-    <tr><td class="paramname">dims</td><td>- block dimensions </td></tr>
-    <tr><td class="paramname">zOffset</td><td>- block offset in XY dimension </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="af7e578881fbad35e93b36ab0a2697c1c" name="af7e578881fbad35e93b36ab0a2697c1c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af7e578881fbad35e93b36ab0a2697c1c">&#9670;&#160;</a></span>~IFastWindingNumberByParts()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual MR::IFastWindingNumberByParts::~IFastWindingNumberByParts </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a3cd5d444973254e7b31ab81917f07329" name="a3cd5d444973254e7b31ab81917f07329"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3cd5d444973254e7b31ab81917f07329">&#9670;&#160;</a></span>calcFromGridByParts()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::IFastWindingNumberByParts::calcFromGridByParts </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="#a54e74708f7b97596d00a59029266cc0f">GridByPartsFunc</a></td>          <td class="paramname"><span class="paramname"><em>resFunc</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>dims</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const AffineXf3f &amp;</td>          <td class="paramname"><span class="paramname"><em>gridToMeshXf</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>beta</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>layerOverlap</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>calculates winding numbers in each point from a three-dimensional grid </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">resFunc</td><td>callback that gets a block of resulting winding numbers</td></tr>
-    <tr><td class="paramname">dims</td><td>dimensions of the grid</td></tr>
-    <tr><td class="paramname">gridToMeshXf</td><td>transform from integer grid locations to voxel's centers in mesh reference frame</td></tr>
-    <tr><td class="paramname">beta</td><td>determines the precision of the approximation: the more the better, recommended value 2 or more</td></tr>
-    <tr><td class="paramname">layerOverlap</td><td>overlap between two blocks of the grid, set as XY layer count</td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Implemented in <a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html#a2a62210342991fb5c15a7f7627fbbd45">MR::Cuda::FastWindingNumber</a>.</p>
-
-</div>
-</div>
-<a id="a91d50343ae8805a878c0dac2b8ff0802" name="a91d50343ae8805a878c0dac2b8ff0802"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a91d50343ae8805a878c0dac2b8ff0802">&#9670;&#160;</a></span>calcFromGridWithDistancesByParts()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::IFastWindingNumberByParts::calcFromGridWithDistancesByParts </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="#a54e74708f7b97596d00a59029266cc0f">GridByPartsFunc</a></td>          <td class="paramname"><span class="paramname"><em>resFunc</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>dims</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const AffineXf3f &amp;</td>          <td class="paramname"><span class="paramname"><em>gridToMeshXf</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1DistanceToMeshOptions.html">DistanceToMeshOptions</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>options</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>layerOverlap</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>calculates distances with the sign obtained from generalized winding number in each point from a three-dimensional grid; if sqr(res) &lt; minDistSq or sqr(res) &gt;= maxDistSq, then NaN is returned for such point </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">resFunc</td><td>callback that gets a block of resulting winding numbers</td></tr>
-    <tr><td class="paramname">dims</td><td>dimensions of the grid</td></tr>
-    <tr><td class="paramname">gridToMeshXf</td><td>transform from integer grid locations to voxel's centers in mesh reference frame</td></tr>
-    <tr><td class="paramname">layerOverlap</td><td>overlap between two blocks of the grid, set as XY layer count</td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Implemented in <a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html#aa58e46d5a0d4b887dfc6f4edddafa860">MR::Cuda::FastWindingNumber</a>.</p>
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+</div><hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="MRFastWindingNumber_8h_source.html">MRFastWindingNumber.h</a></li>
 </ul>
 </div><!-- contents -->

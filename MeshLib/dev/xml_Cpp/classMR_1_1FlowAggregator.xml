@@ -5,332 +5,44 @@
     <includes refid="MRAggregateFlow_8h" local="no">MRAggregateFlow.h</includes>
     <innerclass refid="structMR_1_1FlowAggregator_1_1Flows" prot="public">MR::FlowAggregator::Flows</innerclass>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1FlowAggregator_1aeff1f01ddc0616d8c8a47ea8bf154474" prot="private" static="no" mutable="no">
-        <type>const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &amp;</type>
-        <definition>const Mesh&amp; MR::FlowAggregator::mesh_</definition>
-        <argsstring></argsstring>
-        <name>mesh_</name>
-        <qualifiedname>MR::FlowAggregator::mesh_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" line="71" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" bodystart="71" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1FlowAggregator_1a59c35af30e622dae5559d0b174589d4b" prot="private" static="no" mutable="no">
-        <type>const VertScalars &amp;</type>
-        <definition>const VertScalars&amp; MR::FlowAggregator::heights_</definition>
-        <argsstring></argsstring>
-        <name>heights_</name>
-        <qualifiedname>MR::FlowAggregator::heights_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" line="72" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" bodystart="72" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1FlowAggregator_1a0baa645cf1baef29ca71c67a05806c12" prot="private" static="no" mutable="no">
-        <type>VertMap</type>
-        <definition>VertMap MR::FlowAggregator::downFlowVert_</definition>
-        <argsstring></argsstring>
-        <name>downFlowVert_</name>
-        <qualifiedname>MR::FlowAggregator::downFlowVert_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" line="73" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" bodystart="73" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1FlowAggregator_1a6df2f0d7fc05a2003447cbb87da7cffc" prot="private" static="no" mutable="no">
-        <type>VertMap</type>
-        <definition>VertMap MR::FlowAggregator::rootVert_</definition>
-        <argsstring></argsstring>
-        <name>rootVert_</name>
-        <qualifiedname>MR::FlowAggregator::rootVert_</qualifiedname>
-        <briefdescription>
-<para>for each vertex stores what next vertex is on flow path (invalid vertex for local minima) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" line="74" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" bodystart="74" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1FlowAggregator_1a4c7e6bf18b25e77a1f0162c3f827cf10" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; <ref refid="namespaceMR_1a7798ef4dfda44362083b0aa66a45d6a3" kindref="member">SurfacePath</ref>, VertId &gt;</type>
-        <definition>Vector&lt;SurfacePath, VertId&gt; MR::FlowAggregator::downPath_</definition>
-        <argsstring></argsstring>
-        <name>downPath_</name>
-        <qualifiedname>MR::FlowAggregator::downPath_</qualifiedname>
-        <briefdescription>
-<para>for each vertex stores the final vertex is on flow path (self-vertex for local minima) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" line="75" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" bodystart="75" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1FlowAggregator_1acbdabeec9b3e759a3676976de7e97e20" prot="private" static="no" mutable="no">
-        <type>std::vector&lt; VertId &gt;</type>
-        <definition>std::vector&lt;VertId&gt; MR::FlowAggregator::vertsSortedDesc_</definition>
-        <argsstring></argsstring>
-        <name>vertsSortedDesc_</name>
-        <qualifiedname>MR::FlowAggregator::vertsSortedDesc_</qualifiedname>
-        <briefdescription>
-<para>till next vertex </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" line="76" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" bodystart="76" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaeff1f01ddc0616d8c8a47ea8bf154474" kind="variable"><name>mesh_</name></member>
+      <member refid="group__GeneralGroup_1ga59c35af30e622dae5559d0b174589d4b" kind="variable"><name>heights_</name></member>
+      <member refid="group__GeneralGroup_1ga0baa645cf1baef29ca71c67a05806c12" kind="variable"><name>downFlowVert_</name></member>
+      <member refid="group__GeneralGroup_1ga6df2f0d7fc05a2003447cbb87da7cffc" kind="variable"><name>rootVert_</name></member>
+      <member refid="group__GeneralGroup_1ga4c7e6bf18b25e77a1f0162c3f827cf10" kind="variable"><name>downPath_</name></member>
+      <member refid="group__GeneralGroup_1gacbdabeec9b3e759a3676976de7e97e20" kind="variable"><name>vertsSortedDesc_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1FlowAggregator_1add4233affa5197236315d5efb16311a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
-        <definition>MRMESH_API MR::FlowAggregator::FlowAggregator</definition>
-        <argsstring>(const Mesh &amp;mesh, const VertScalars &amp;heights)</argsstring>
-        <name>FlowAggregator</name>
-        <qualifiedname>MR::FlowAggregator::FlowAggregator</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &amp;</type>
-          <declname>mesh</declname>
-        </param>
-        <param>
-          <type>const VertScalars &amp;</type>
-          <declname>heights</declname>
-        </param>
-        <briefdescription>
-<para>prepares the processing of given mesh with given height in each vertex </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" line="34" column="16"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1FlowAggregator_1af309ebefeb0b0100add0123e82cbafdb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> VertScalars</type>
-        <definition>MRMESH_API VertScalars MR::FlowAggregator::computeFlow</definition>
-        <argsstring>(const std::vector&lt; FlowOrigin &gt; &amp;starts, const OutputFlows &amp;out={}) const</argsstring>
-        <name>computeFlow</name>
-        <qualifiedname>MR::FlowAggregator::computeFlow</qualifiedname>
-        <param>
-          <type>const std::vector&lt; <ref refid="structMR_1_1FlowOrigin" kindref="compound">FlowOrigin</ref> &gt; &amp;</type>
-          <declname>starts</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1OutputFlows" kindref="compound">OutputFlows</ref> &amp;</type>
-          <declname>out</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>tracks multiple flows <parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>starts</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>the origin of each flow (should be uniformly sampled over the terrain) </para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-<simplesect kind="return"><para>the flow reached each mesh vertex </para>
-</simplesect>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" line="39" column="28"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1FlowAggregator_1a8d5145cec269402a1a63fc6da262cc81" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> VertScalars</type>
-        <definition>MRMESH_API VertScalars MR::FlowAggregator::computeFlow</definition>
-        <argsstring>(const std::vector&lt; MeshTriPoint &gt; &amp;starts, const OutputFlows &amp;out={}) const</argsstring>
-        <name>computeFlow</name>
-        <qualifiedname>MR::FlowAggregator::computeFlow</qualifiedname>
-        <param>
-          <type>const std::vector&lt; <ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref> &gt; &amp;</type>
-          <declname>starts</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1OutputFlows" kindref="compound">OutputFlows</ref> &amp;</type>
-          <declname>out</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-<para>same with all amounts equal to 1 </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" line="41" column="28"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1FlowAggregator_1a364cc219b9e12c0113e48d3ea18c886d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> VertScalars</type>
-        <definition>MRMESH_API VertScalars MR::FlowAggregator::computeFlow</definition>
-        <argsstring>(size_t numStarts, const std::function&lt; MeshTriPoint(size_t)&gt; &amp;startById, const std::function&lt; float(size_t)&gt; &amp;amountById, const std::function&lt; const FaceBitSet *(size_t)&gt; &amp;regionById, const OutputFlows &amp;out={}) const</argsstring>
-        <name>computeFlow</name>
-        <qualifiedname>MR::FlowAggregator::computeFlow</qualifiedname>
-        <param>
-          <type>size_t</type>
-          <declname>numStarts</declname>
-        </param>
-        <param>
-          <type>const std::function&lt; <ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref>(size_t)&gt; &amp;</type>
-          <declname>startById</declname>
-          <briefdescription><para>can return invalid point that will be ignored </para>
-</briefdescription>
-        </param>
-        <param>
-          <type>const std::function&lt; float(size_t)&gt; &amp;</type>
-          <declname>amountById</declname>
-        </param>
-        <param>
-          <type>const std::function&lt; const FaceBitSet *(size_t)&gt; &amp;</type>
-          <declname>regionById</declname>
-          <briefdescription><para>if given then the flow initially is limited to this region </para>
-</briefdescription>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1OutputFlows" kindref="compound">OutputFlows</ref> &amp;</type>
-          <declname>out</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-<para>general version that supplies starts in a functional way </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" line="43" column="28"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1FlowAggregator_1a7234a41d4570f6f8501446c4b7af87a2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="namespaceMR_1af8ad9e1b05a45987a3075d43bf345d68" kindref="member">HashMap</ref>&lt; VertId, <ref refid="structMR_1_1FlowAggregator_1_1Flows" kindref="compound">Flows</ref> &gt;</type>
-        <definition>MRMESH_API HashMap&lt; VertId, Flows &gt; MR::FlowAggregator::computeFlowsPerBasin</definition>
-        <argsstring>(const std::vector&lt; FlowOrigin &gt; &amp;starts) const</argsstring>
-        <name>computeFlowsPerBasin</name>
-        <qualifiedname>MR::FlowAggregator::computeFlowsPerBasin</qualifiedname>
-        <param>
-          <type>const std::vector&lt; <ref refid="structMR_1_1FlowOrigin" kindref="compound">FlowOrigin</ref> &gt; &amp;</type>
-          <declname>starts</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>tracks multiple flows <parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>starts</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>the origin of each flow (should be uniformly sampled over the terrain) </para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-<simplesect kind="return"><para>the flows grouped by the final destination vertex </para>
-</simplesect>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" line="58" column="24"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1FlowAggregator_1ad0e556ea9f008ea75d723c36bed3fa4e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="namespaceMR_1af8ad9e1b05a45987a3075d43bf345d68" kindref="member">HashMap</ref>&lt; VertId, <ref refid="structMR_1_1FlowAggregator_1_1Flows" kindref="compound">Flows</ref> &gt;</type>
-        <definition>MRMESH_API HashMap&lt; VertId, Flows &gt; MR::FlowAggregator::computeFlowsPerBasin</definition>
-        <argsstring>(const std::vector&lt; MeshTriPoint &gt; &amp;starts) const</argsstring>
-        <name>computeFlowsPerBasin</name>
-        <qualifiedname>MR::FlowAggregator::computeFlowsPerBasin</qualifiedname>
-        <param>
-          <type>const std::vector&lt; <ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref> &gt; &amp;</type>
-          <declname>starts</declname>
-        </param>
-        <briefdescription>
-<para>same with all amounts equal to 1 </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" line="60" column="24"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1FlowAggregator_1a83e4e9d4e05b0025e65c0b7c2cf64d44" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="namespaceMR_1af8ad9e1b05a45987a3075d43bf345d68" kindref="member">HashMap</ref>&lt; VertId, <ref refid="structMR_1_1FlowAggregator_1_1Flows" kindref="compound">Flows</ref> &gt;</type>
-        <definition>MRMESH_API HashMap&lt; VertId, Flows &gt; MR::FlowAggregator::computeFlowsPerBasin</definition>
-        <argsstring>(size_t numStarts, const std::function&lt; MeshTriPoint(size_t)&gt; &amp;startById, const std::function&lt; float(size_t)&gt; &amp;amountById) const</argsstring>
-        <name>computeFlowsPerBasin</name>
-        <qualifiedname>MR::FlowAggregator::computeFlowsPerBasin</qualifiedname>
-        <param>
-          <type>size_t</type>
-          <declname>numStarts</declname>
-        </param>
-        <param>
-          <type>const std::function&lt; <ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref>(size_t)&gt; &amp;</type>
-          <declname>startById</declname>
-          <briefdescription><para>can return invalid point that will be ignored </para>
-</briefdescription>
-        </param>
-        <param>
-          <type>const std::function&lt; float(size_t)&gt; &amp;</type>
-          <declname>amountById</declname>
-        </param>
-        <briefdescription>
-<para>general version that supplies starts in a functional way </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" line="62" column="24"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1FlowAggregator_1a2384bcaaf2bbf8e865fb2a1e4df9c443" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> UndirectedEdgeBitSet</type>
-        <definition>MRMESH_API UndirectedEdgeBitSet MR::FlowAggregator::computeCatchmentDelineation</definition>
-        <argsstring>() const</argsstring>
-        <name>computeCatchmentDelineation</name>
-        <qualifiedname>MR::FlowAggregator::computeCatchmentDelineation</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>finds the edges on the mesh that divides catchment basin (every triangle is attributed to the final destination point based on the path originated from its centroid) </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" line="68" column="38"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gadd4233affa5197236315d5efb16311a7" kind="function"><name>FlowAggregator</name></member>
+      <member refid="group__GeneralGroup_1gaf309ebefeb0b0100add0123e82cbafdb" kind="function"><name>computeFlow</name></member>
+      <member refid="group__GeneralGroup_1ga8d5145cec269402a1a63fc6da262cc81" kind="function"><name>computeFlow</name></member>
+      <member refid="group__GeneralGroup_1ga364cc219b9e12c0113e48d3ea18c886d" kind="function"><name>computeFlow</name></member>
+      <member refid="group__GeneralGroup_1ga7234a41d4570f6f8501446c4b7af87a2" kind="function"><name>computeFlowsPerBasin</name></member>
+      <member refid="group__GeneralGroup_1gad0e556ea9f008ea75d723c36bed3fa4e" kind="function"><name>computeFlowsPerBasin</name></member>
+      <member refid="group__GeneralGroup_1ga83e4e9d4e05b0025e65c0b7c2cf64d44" kind="function"><name>computeFlowsPerBasin</name></member>
+      <member refid="group__GeneralGroup_1ga2384bcaaf2bbf8e865fb2a1e4df9c443" kind="function"><name>computeCatchmentDelineation</name></member>
     </sectiondef>
     <briefdescription>
 <para>this class can track multiple flows and find in each mesh vertex the amount of water reached it </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" line="30" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" bodystart="31" bodyend="77"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" line="33" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" bodystart="34" bodyend="80"/>
     <listofallmembers>
-      <member refid="classMR_1_1FlowAggregator_1a2384bcaaf2bbf8e865fb2a1e4df9c443" prot="public" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>computeCatchmentDelineation</name></member>
-      <member refid="classMR_1_1FlowAggregator_1af309ebefeb0b0100add0123e82cbafdb" prot="public" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>computeFlow</name></member>
-      <member refid="classMR_1_1FlowAggregator_1a8d5145cec269402a1a63fc6da262cc81" prot="public" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>computeFlow</name></member>
-      <member refid="classMR_1_1FlowAggregator_1a364cc219b9e12c0113e48d3ea18c886d" prot="public" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>computeFlow</name></member>
-      <member refid="classMR_1_1FlowAggregator_1a7234a41d4570f6f8501446c4b7af87a2" prot="public" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>computeFlowsPerBasin</name></member>
-      <member refid="classMR_1_1FlowAggregator_1ad0e556ea9f008ea75d723c36bed3fa4e" prot="public" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>computeFlowsPerBasin</name></member>
-      <member refid="classMR_1_1FlowAggregator_1a83e4e9d4e05b0025e65c0b7c2cf64d44" prot="public" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>computeFlowsPerBasin</name></member>
-      <member refid="classMR_1_1FlowAggregator_1a0baa645cf1baef29ca71c67a05806c12" prot="private" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>downFlowVert_</name></member>
-      <member refid="classMR_1_1FlowAggregator_1a4c7e6bf18b25e77a1f0162c3f827cf10" prot="private" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>downPath_</name></member>
-      <member refid="classMR_1_1FlowAggregator_1add4233affa5197236315d5efb16311a7" prot="public" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>FlowAggregator</name></member>
-      <member refid="classMR_1_1FlowAggregator_1a59c35af30e622dae5559d0b174589d4b" prot="private" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>heights_</name></member>
-      <member refid="classMR_1_1FlowAggregator_1aeff1f01ddc0616d8c8a47ea8bf154474" prot="private" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>mesh_</name></member>
-      <member refid="classMR_1_1FlowAggregator_1a6df2f0d7fc05a2003447cbb87da7cffc" prot="private" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>rootVert_</name></member>
-      <member refid="classMR_1_1FlowAggregator_1acbdabeec9b3e759a3676976de7e97e20" prot="private" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>vertsSortedDesc_</name></member>
+      <member refid="group__GeneralGroup_1ga2384bcaaf2bbf8e865fb2a1e4df9c443" prot="public" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>computeCatchmentDelineation</name></member>
+      <member refid="group__GeneralGroup_1gaf309ebefeb0b0100add0123e82cbafdb" prot="public" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>computeFlow</name></member>
+      <member refid="group__GeneralGroup_1ga8d5145cec269402a1a63fc6da262cc81" prot="public" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>computeFlow</name></member>
+      <member refid="group__GeneralGroup_1ga364cc219b9e12c0113e48d3ea18c886d" prot="public" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>computeFlow</name></member>
+      <member refid="group__GeneralGroup_1ga7234a41d4570f6f8501446c4b7af87a2" prot="public" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>computeFlowsPerBasin</name></member>
+      <member refid="group__GeneralGroup_1gad0e556ea9f008ea75d723c36bed3fa4e" prot="public" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>computeFlowsPerBasin</name></member>
+      <member refid="group__GeneralGroup_1ga83e4e9d4e05b0025e65c0b7c2cf64d44" prot="public" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>computeFlowsPerBasin</name></member>
+      <member refid="group__GeneralGroup_1ga0baa645cf1baef29ca71c67a05806c12" prot="private" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>downFlowVert_</name></member>
+      <member refid="group__GeneralGroup_1ga4c7e6bf18b25e77a1f0162c3f827cf10" prot="private" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>downPath_</name></member>
+      <member refid="group__GeneralGroup_1gadd4233affa5197236315d5efb16311a7" prot="public" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>FlowAggregator</name></member>
+      <member refid="group__GeneralGroup_1ga59c35af30e622dae5559d0b174589d4b" prot="private" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>heights_</name></member>
+      <member refid="group__GeneralGroup_1gaeff1f01ddc0616d8c8a47ea8bf154474" prot="private" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>mesh_</name></member>
+      <member refid="group__GeneralGroup_1ga6df2f0d7fc05a2003447cbb87da7cffc" prot="private" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>rootVert_</name></member>
+      <member refid="group__GeneralGroup_1gacbdabeec9b3e759a3676976de7e97e20" prot="private" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>vertsSortedDesc_</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

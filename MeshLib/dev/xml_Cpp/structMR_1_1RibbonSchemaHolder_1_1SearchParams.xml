@@ -4,65 +4,20 @@
     <compoundname>MR::RibbonSchemaHolder::SearchParams</compoundname>
     <includes refid="MRRibbonSchema_8h" local="no">MRRibbonSchema.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1RibbonSchemaHolder_1_1SearchParams_1ae22ea02d78262a852d3144e7294fe604" prot="public" static="no" mutable="no">
-        <type>int *</type>
-        <definition>int* MR::RibbonSchemaHolder::SearchParams::captionCount</definition>
-        <argsstring></argsstring>
-        <name>captionCount</name>
-        <qualifiedname>MR::RibbonSchemaHolder::SearchParams::captionCount</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-<para>gets the number of matches in the captions </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="113" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" bodystart="113" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1RibbonSchemaHolder_1_1SearchParams_1aa7e03f93869b8695b61ce8aaf08406f8" prot="public" static="no" mutable="no">
-        <type>std::vector&lt; <ref refid="structMR_1_1RibbonSchemaHolder_1_1SearchResultWeight" kindref="compound">SearchResultWeight</ref> &gt; *</type>
-        <definition>std::vector&lt;SearchResultWeight&gt;* MR::RibbonSchemaHolder::SearchParams::weights</definition>
-        <argsstring></argsstring>
-        <name>weights</name>
-        <qualifiedname>MR::RibbonSchemaHolder::SearchParams::weights</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-<para>returns the coefficients of matching the search string for each tool found </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="115" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" bodystart="115" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1RibbonSchemaHolder_1_1SearchParams_1a6b6c1c5a1a26b8a37295e7e5a2e1d97c" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1a55cd176bca8ea774ad922ad2876e0f0d" kindref="member">RequirementsFunction</ref></type>
-        <definition>RequirementsFunction MR::RibbonSchemaHolder::SearchParams::requirementsFunc</definition>
-        <argsstring></argsstring>
-        <name>requirementsFunc</name>
-        <qualifiedname>MR::RibbonSchemaHolder::SearchParams::requirementsFunc</qualifiedname>
-        <initializer>= {}</initializer>
-        <briefdescription>
-<para>sort the results according to the launch capability (empty requirements) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="117" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" bodystart="117" bodyend="117"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gae22ea02d78262a852d3144e7294fe604" kind="variable"><name>captionCount</name></member>
+      <member refid="group__GeneralGroup_1gaa7e03f93869b8695b61ce8aaf08406f8" kind="variable"><name>weights</name></member>
+      <member refid="group__GeneralGroup_1ga6b6c1c5a1a26b8a37295e7e5a2e1d97c" kind="variable"><name>requirementsFunc</name></member>
     </sectiondef>
     <briefdescription>
 <para>tool search options </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="110" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" bodystart="111" bodyend="118"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="113" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" bodystart="114" bodyend="121"/>
     <listofallmembers>
-      <member refid="structMR_1_1RibbonSchemaHolder_1_1SearchParams_1ae22ea02d78262a852d3144e7294fe604" prot="public" virt="non-virtual"><scope>MR::RibbonSchemaHolder::SearchParams</scope><name>captionCount</name></member>
-      <member refid="structMR_1_1RibbonSchemaHolder_1_1SearchParams_1a6b6c1c5a1a26b8a37295e7e5a2e1d97c" prot="public" virt="non-virtual"><scope>MR::RibbonSchemaHolder::SearchParams</scope><name>requirementsFunc</name></member>
-      <member refid="structMR_1_1RibbonSchemaHolder_1_1SearchParams_1aa7e03f93869b8695b61ce8aaf08406f8" prot="public" virt="non-virtual"><scope>MR::RibbonSchemaHolder::SearchParams</scope><name>weights</name></member>
+      <member refid="group__GeneralGroup_1gae22ea02d78262a852d3144e7294fe604" prot="public" virt="non-virtual"><scope>MR::RibbonSchemaHolder::SearchParams</scope><name>captionCount</name></member>
+      <member refid="group__GeneralGroup_1ga6b6c1c5a1a26b8a37295e7e5a2e1d97c" prot="public" virt="non-virtual"><scope>MR::RibbonSchemaHolder::SearchParams</scope><name>requirementsFunc</name></member>
+      <member refid="group__GeneralGroup_1gaa7e03f93869b8695b61ce8aaf08406f8" prot="public" virt="non-virtual"><scope>MR::RibbonSchemaHolder::SearchParams</scope><name>weights</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

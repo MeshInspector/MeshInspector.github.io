@@ -5,80 +5,12 @@
     <basecompoundref refid="structMR_1_1ConnectionHolder" prot="public" virt="non-virtual">MR::ConnectionHolder</basecompoundref>
     <includes refid="MRViewerEventsListener_8h" local="no">MRViewerEventsListener.h</includes>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1TouchpadSwipeGestureEndListener_1ab4dd4cb2861d87a165c29539ada3aeda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::TouchpadSwipeGestureEndListener::MR_ADD_CTOR_DELETE_MOVE</definition>
-        <argsstring>(TouchpadSwipeGestureEndListener)</argsstring>
-        <name>MR_ADD_CTOR_DELETE_MOVE</name>
-        <qualifiedname>MR::TouchpadSwipeGestureEndListener::MR_ADD_CTOR_DELETE_MOVE</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1TouchpadSwipeGestureEndListener" kindref="compound">TouchpadSwipeGestureEndListener</ref></type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="358" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1TouchpadSwipeGestureEndListener_1ab51fd57e66a91ac6f90d166e8da77c1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type></type>
-        <definition>virtual MR::TouchpadSwipeGestureEndListener::~TouchpadSwipeGestureEndListener</definition>
-        <argsstring>()=default</argsstring>
-        <name>~TouchpadSwipeGestureEndListener</name>
-        <qualifiedname>MR::TouchpadSwipeGestureEndListener::~TouchpadSwipeGestureEndListener</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="359" column="13"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1TouchpadSwipeGestureEndListener_1a44e18078a4ed4790289f1c9b1be276e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>virtual MRVIEWER_API void MR::TouchpadSwipeGestureEndListener::connect</definition>
-        <argsstring>(Viewer *viewer, int group, boost::signals2::connect_position pos) override</argsstring>
-        <name>connect</name>
-        <qualifiedname>MR::TouchpadSwipeGestureEndListener::connect</qualifiedname>
-        <reimplements refid="structMR_1_1IConnectable_1a2212095d3996892cff578320ac2ce746">connect</reimplements>
-        <param>
-          <type><ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref> *</type>
-          <declname>viewer</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>group</declname>
-        </param>
-        <param>
-          <type>boost::signals2::connect_position</type>
-          <declname>pos</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="360" column="31"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gab4dd4cb2861d87a165c29539ada3aeda" kind="function"><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1gab51fd57e66a91ac6f90d166e8da77c1c" kind="function"><name>~TouchpadSwipeGestureEndListener</name></member>
+      <member refid="group__GeneralGroup_1ga44e18078a4ed4790289f1c9b1be276e9" kind="function"><name>connect</name></member>
     </sectiondef>
     <sectiondef kind="protected-func">
-      <memberdef kind="function" id="structMR_1_1TouchpadSwipeGestureEndListener_1a4119298e5a70c93a5b96b388ef0bda83" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::TouchpadSwipeGestureEndListener::touchpadSwipeGestureEnd_</definition>
-        <argsstring>()=0</argsstring>
-        <name>touchpadSwipeGestureEnd_</name>
-        <qualifiedname>MR::TouchpadSwipeGestureEndListener::touchpadSwipeGestureEnd_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="362" column="18"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga4119298e5a70c93a5b96b388ef0bda83" kind="function"><name>touchpadSwipeGestureEnd_</name></member>
     </sectiondef>
     <briefdescription>
 <para>class to subscribe on TouchpadSwipeGestureEndEvent </para>
@@ -121,16 +53,16 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="356" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="357" bodyend="363"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="359" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="360" bodyend="366"/>
     <listofallmembers>
-      <member refid="structMR_1_1TouchpadSwipeGestureEndListener_1a44e18078a4ed4790289f1c9b1be276e9" prot="public" virt="virtual"><scope>MR::TouchpadSwipeGestureEndListener</scope><name>connect</name></member>
-      <member refid="structMR_1_1ConnectionHolder_1a56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::TouchpadSwipeGestureEndListener</scope><name>connection_</name></member>
-      <member refid="structMR_1_1ConnectionHolder_1afe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::TouchpadSwipeGestureEndListener</scope><name>disconnect</name></member>
-      <member refid="structMR_1_1TouchpadSwipeGestureEndListener_1ab4dd4cb2861d87a165c29539ada3aeda" prot="public" virt="non-virtual"><scope>MR::TouchpadSwipeGestureEndListener</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
-      <member refid="structMR_1_1TouchpadSwipeGestureEndListener_1a4119298e5a70c93a5b96b388ef0bda83" prot="protected" virt="pure-virtual"><scope>MR::TouchpadSwipeGestureEndListener</scope><name>touchpadSwipeGestureEnd_</name></member>
-      <member refid="structMR_1_1ConnectionHolder_1a99ffc44dd73f73e2e907b7ab5bb38aaf" prot="public" virt="virtual"><scope>MR::TouchpadSwipeGestureEndListener</scope><name>~ConnectionHolder</name></member>
-      <member refid="structMR_1_1IConnectable_1a28c07761e682b80befbb2d5f91bdd38c" prot="public" virt="virtual"><scope>MR::TouchpadSwipeGestureEndListener</scope><name>~IConnectable</name></member>
-      <member refid="structMR_1_1TouchpadSwipeGestureEndListener_1ab51fd57e66a91ac6f90d166e8da77c1c" prot="public" virt="virtual"><scope>MR::TouchpadSwipeGestureEndListener</scope><name>~TouchpadSwipeGestureEndListener</name></member>
+      <member refid="group__GeneralGroup_1ga44e18078a4ed4790289f1c9b1be276e9" prot="public" virt="virtual"><scope>MR::TouchpadSwipeGestureEndListener</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1ga56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::TouchpadSwipeGestureEndListener</scope><name>connection_</name></member>
+      <member refid="group__GeneralGroup_1gafe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::TouchpadSwipeGestureEndListener</scope><name>disconnect</name></member>
+      <member refid="group__GeneralGroup_1gab4dd4cb2861d87a165c29539ada3aeda" prot="public" virt="non-virtual"><scope>MR::TouchpadSwipeGestureEndListener</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1ga4119298e5a70c93a5b96b388ef0bda83" prot="protected" virt="pure-virtual"><scope>MR::TouchpadSwipeGestureEndListener</scope><name>touchpadSwipeGestureEnd_</name></member>
+      <member refid="group__GeneralGroup_1ga99ffc44dd73f73e2e907b7ab5bb38aaf" prot="public" virt="virtual"><scope>MR::TouchpadSwipeGestureEndListener</scope><name>~ConnectionHolder</name></member>
+      <member refid="group__GeneralGroup_1ga28c07761e682b80befbb2d5f91bdd38c" prot="public" virt="virtual"><scope>MR::TouchpadSwipeGestureEndListener</scope><name>~IConnectable</name></member>
+      <member refid="group__GeneralGroup_1gab51fd57e66a91ac6f90d166e8da77c1c" prot="public" virt="virtual"><scope>MR::TouchpadSwipeGestureEndListener</scope><name>~TouchpadSwipeGestureEndListener</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

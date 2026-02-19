@@ -5,7 +5,7 @@
     <title>Lines Load</title>
     <sectiondef kind="func">
       <memberdef kind="function" id="group__LinesLoad_1ga5bbd4986a67fe058c317fc572072f788" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; Polyline3 &gt;</type>
+        <type>MRMESH_API Expected&lt; Polyline3 &gt;</type>
         <definition>MRMESH_API Expected&lt; Polyline3 &gt; MR::LinesLoad::fromMrLines</definition>
         <argsstring>(const std::filesystem::path &amp;file, const LinesLoadSettings &amp;settings={})</argsstring>
         <name>fromMrLines</name>
@@ -29,7 +29,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesLoad.h" line="23" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesLoad.h" declline="23" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__LinesLoad_1ga6b9ba72bb9c72e152c3157c6e6e7d20a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; Polyline3 &gt;</type>
+        <type>MRMESH_API Expected&lt; Polyline3 &gt;</type>
         <definition>MRMESH_API Expected&lt; Polyline3 &gt; MR::LinesLoad::fromMrLines</definition>
         <argsstring>(std::istream &amp;in, const LinesLoadSettings &amp;settings={})</argsstring>
         <name>fromMrLines</name>
@@ -53,7 +53,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesLoad.h" line="27" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesLoad.h" declline="27" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__LinesLoad_1gae7291e11583b98a3ad4fc821d635cd69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; Polyline3 &gt;</type>
+        <type>MRMESH_API Expected&lt; Polyline3 &gt;</type>
         <definition>MRMESH_API Expected&lt; Polyline3 &gt; MR::LinesLoad::fromPts</definition>
         <argsstring>(const std::filesystem::path &amp;file, const LinesLoadSettings &amp;settings={})</argsstring>
         <name>fromPts</name>
@@ -77,7 +77,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesLoad.h" line="30" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesLoad.h" declline="30" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__LinesLoad_1ga8bcc88ce6332215acae8bdcb45c3ec3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; Polyline3 &gt;</type>
+        <type>MRMESH_API Expected&lt; Polyline3 &gt;</type>
         <definition>MRMESH_API Expected&lt; Polyline3 &gt; MR::LinesLoad::fromPts</definition>
         <argsstring>(std::istream &amp;in, const LinesLoadSettings &amp;settings={})</argsstring>
         <name>fromPts</name>
@@ -101,7 +101,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesLoad.h" line="33" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesLoad.h" declline="33" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__LinesLoad_1ga6d309e19703b9fd3f9a7b5258471f304" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; Polyline3 &gt;</type>
+        <type>MRMESH_API Expected&lt; Polyline3 &gt;</type>
         <definition>MRMESH_API Expected&lt; Polyline3 &gt; MR::LinesLoad::fromPly</definition>
         <argsstring>(const std::filesystem::path &amp;file, const LinesLoadSettings &amp;settings={})</argsstring>
         <name>fromPly</name>
@@ -125,7 +125,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesLoad.h" line="36" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesLoad.h" declline="36" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__LinesLoad_1ga902501cd4125cf2facbf356941dcb8f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; Polyline3 &gt;</type>
+        <type>MRMESH_API Expected&lt; Polyline3 &gt;</type>
         <definition>MRMESH_API Expected&lt; Polyline3 &gt; MR::LinesLoad::fromPly</definition>
         <argsstring>(std::istream &amp;in, const LinesLoadSettings &amp;settings={})</argsstring>
         <name>fromPly</name>
@@ -149,7 +149,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesLoad.h" line="40" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesLoad.h" declline="40" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__LinesLoad_1gad25df65cb1286463c40c3525d7462da7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; Polyline3 &gt;</type>
+        <type>MRMESH_API Expected&lt; Polyline3 &gt;</type>
         <definition>MRMESH_API Expected&lt; Polyline3 &gt; MR::LinesLoad::fromAnySupportedFormat</definition>
         <argsstring>(const std::filesystem::path &amp;file, const LinesLoadSettings &amp;settings={})</argsstring>
         <name>fromAnySupportedFormat</name>
@@ -173,7 +173,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesLoad.h" line="43" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLinesLoad.h" declline="43" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__LinesLoad_1gac9f73ce11df2e9984939255605e2d437" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; Polyline3 &gt;</type>
+        <type>MRMESH_API Expected&lt; Polyline3 &gt;</type>
         <definition>MRMESH_API Expected&lt; Polyline3 &gt; MR::LinesLoad::fromAnySupportedFormat</definition>
         <argsstring>(std::istream &amp;in, const std::string &amp;extension, const LinesLoadSettings &amp;settings={})</argsstring>
         <name>fromAnySupportedFormat</name>

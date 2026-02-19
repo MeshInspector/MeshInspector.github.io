@@ -9,817 +9,55 @@
     <innerclass refid="structMR_1_1PickPointManager_1_1Params" prot="public">MR::PickPointManager::Params</innerclass>
     <innerclass refid="structMR_1_1PickPointManager_1_1WidgetHistoryAction" prot="public">MR::PickPointManager::WidgetHistoryAction</innerclass>
     <sectiondef kind="public-type">
-      <memberdef kind="typedef" id="classMR_1_1PickPointManager_1af5dd9ce5eda38d70eb2e0c789aa3e06c" prot="public" static="no">
-        <type>std::function&lt; void(std::shared_ptr&lt; <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> &gt; obj, int index)&gt;</type>
-        <definition>using MR::PickPointManager::PickerPointCallBack =  std::function&lt;void( std::shared_ptr&lt;VisualObject&gt; obj, int index )&gt;</definition>
-        <argsstring></argsstring>
-        <name>PickerPointCallBack</name>
-        <qualifiedname>MR::PickPointManager::PickerPointCallBack</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="23" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" bodystart="23" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1PickPointManager_1adffaab931d52fa647870ad0274b3166f" prot="public" static="no">
-        <type>std::function&lt; bool(const std::shared_ptr&lt; <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> &gt; &amp;obj, int index)&gt;</type>
-        <definition>using MR::PickPointManager::AllowCallBack =  std::function&lt;bool( const std::shared_ptr&lt;VisualObject&gt;&amp; obj, int index )&gt;</definition>
-        <argsstring></argsstring>
-        <name>AllowCallBack</name>
-        <qualifiedname>MR::PickPointManager::AllowCallBack</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="24" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" bodystart="24" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1PickPointManager_1aec9df5b70f6f58958c686105f526a1a5" prot="public" static="no">
-        <type>std::function&lt; bool(const std::shared_ptr&lt; <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> &gt; &amp;obj)&gt;</type>
-        <definition>using MR::PickPointManager::ChangeObjectCallBack =  std::function&lt;bool( const std::shared_ptr&lt;VisualObject&gt;&amp; obj )&gt;</definition>
-        <argsstring></argsstring>
-        <name>ChangeObjectCallBack</name>
-        <qualifiedname>MR::PickPointManager::ChangeObjectCallBack</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="25" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" bodystart="25" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1PickPointManager_1a66fec48ba08655d3ee9486f9b4e2c3f0" prot="public" static="no">
-        <type>std::vector&lt; std::shared_ptr&lt; <ref refid="classMR_1_1SurfacePointWidget" kindref="compound">SurfacePointWidget</ref> &gt; &gt;</type>
-        <definition>using MR::PickPointManager::SurfaceContour =  std::vector&lt;std::shared_ptr&lt;SurfacePointWidget&gt;&gt;</definition>
-        <argsstring></argsstring>
-        <name>SurfaceContour</name>
-        <qualifiedname>MR::PickPointManager::SurfaceContour</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="97" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" bodystart="97" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1PickPointManager_1a517842afda1f1c9d0c1487829fb09fb4" prot="public" static="no">
-        <type>std::unordered_map&lt; std::shared_ptr&lt; <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> &gt;, <ref refid="classMR_1_1PickPointManager_1a66fec48ba08655d3ee9486f9b4e2c3f0" kindref="member">SurfaceContour</ref> &gt;</type>
-        <definition>using MR::PickPointManager::SurfaceContours =  std::unordered_map &lt;std::shared_ptr&lt;VisualObject&gt;, SurfaceContour&gt;</definition>
-        <argsstring></argsstring>
-        <name>SurfaceContours</name>
-        <qualifiedname>MR::PickPointManager::SurfaceContours</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="98" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" bodystart="98" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1PickPointManager_1a126f436cbe4bfa2339652d428159ad0b" prot="public" static="no">
-        <type>std::vector&lt; <ref refid="structMR_1_1PickPointManager_1_1ObjectState" kindref="compound">ObjectState</ref> &gt;</type>
-        <definition>using MR::PickPointManager::FullState =  std::vector&lt;ObjectState&gt;</definition>
-        <argsstring></argsstring>
-        <name>FullState</name>
-        <qualifiedname>MR::PickPointManager::FullState</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="149" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" bodystart="149" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaf5dd9ce5eda38d70eb2e0c789aa3e06c" kind="typedef"><name>PickerPointCallBack</name></member>
+      <member refid="group__GeneralGroup_1gadffaab931d52fa647870ad0274b3166f" kind="typedef"><name>AllowCallBack</name></member>
+      <member refid="group__GeneralGroup_1gaec9df5b70f6f58958c686105f526a1a5" kind="typedef"><name>ChangeObjectCallBack</name></member>
+      <member refid="group__GeneralGroup_1ga66fec48ba08655d3ee9486f9b4e2c3f0" kind="typedef"><name>SurfaceContour</name></member>
+      <member refid="group__GeneralGroup_1ga517842afda1f1c9d0c1487829fb09fb4" kind="typedef"><name>SurfaceContours</name></member>
+      <member refid="group__GeneralGroup_1ga126f436cbe4bfa2339652d428159ad0b" kind="typedef"><name>FullState</name></member>
     </sectiondef>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="classMR_1_1PickPointManager_1ada6902120790d59fb87b99281b702b8c" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1PickPointManager_1_1Params" kindref="compound">Params</ref></type>
-        <definition>Params MR::PickPointManager::params</definition>
-        <argsstring></argsstring>
-        <name>params</name>
-        <qualifiedname>MR::PickPointManager::params</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="92" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" bodystart="92" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gada6902120790d59fb87b99281b702b8c" kind="variable"><name>params</name></member>
     </sectiondef>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1PickPointManager_1addf41a96534e38d28b995884affbcba2" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::PickPointManager::moveClosedPoint_</definition>
-        <argsstring></argsstring>
-        <name>moveClosedPoint_</name>
-        <qualifiedname>MR::PickPointManager::moveClosedPoint_</qualifiedname>
-        <initializer>= false</initializer>
-        <briefdescription>
-<para>whether the contour was closed before dragging of point #0, so we need to move the last point on end drag </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="198" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" bodystart="198" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1PickPointManager_1a3e22f7c3ed6bf212d676828f6518a8e7" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1SurfacePointWidget" kindref="compound">SurfacePointWidget</ref> *</type>
-        <definition>SurfacePointWidget* MR::PickPointManager::hoveredPointWidget_</definition>
-        <argsstring></argsstring>
-        <name>hoveredPointWidget_</name>
-        <qualifiedname>MR::PickPointManager::hoveredPointWidget_</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-<para>point widget currently under mouse and highlighted </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="201" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" bodystart="201" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1PickPointManager_1a3f9ec84c031441c8f3b210c2167d7c6c" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1SurfacePointWidget" kindref="compound">SurfacePointWidget</ref> *</type>
-        <definition>SurfacePointWidget* MR::PickPointManager::draggedPointWidget_</definition>
-        <argsstring></argsstring>
-        <name>draggedPointWidget_</name>
-        <qualifiedname>MR::PickPointManager::draggedPointWidget_</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-<para>point widget currently dragged by mouse </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="204" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" bodystart="204" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1PickPointManager_1a4df11dd3e391e34438e4e34e89fff100" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1PickPointManager_1a517842afda1f1c9d0c1487829fb09fb4" kindref="member">SurfaceContours</ref></type>
-        <definition>SurfaceContours MR::PickPointManager::pickedPoints_</definition>
-        <argsstring></argsstring>
-        <name>pickedPoints_</name>
-        <qualifiedname>MR::PickPointManager::pickedPoints_</qualifiedname>
-        <briefdescription>
-<para>data storage </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="207" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" bodystart="207" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1PickPointManager_1afcfbb490cac1e6b5cae3b8545f580e3c" prot="private" static="no" mutable="no">
-        <type>HashSet&lt; const <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> * &gt;</type>
-        <definition>HashSet&lt;const VisualObject*&gt; MR::PickPointManager::myPickSpheres_</definition>
-        <argsstring></argsstring>
-        <name>myPickSpheres_</name>
-        <qualifiedname>MR::PickPointManager::myPickSpheres_</qualifiedname>
-        <briefdescription>
-<para>all spheres created in createPickWidget_ to quickly differentiate them from other features </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="210" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" bodystart="210" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1PickPointManager_1a7b529ce727390e19e969071a10c019b2" prot="private" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1af8ad9e1b05a45987a3075d43bf345d68" kindref="member">HashMap</ref>&lt; std::shared_ptr&lt; <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> &gt;, ConnectionHolder &gt;</type>
-        <definition>HashMap&lt;std::shared_ptr&lt;VisualObject&gt;, ConnectionHolder&gt; MR::PickPointManager::connectionHolders_</definition>
-        <argsstring></argsstring>
-        <name>connectionHolders_</name>
-        <qualifiedname>MR::PickPointManager::connectionHolders_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="218" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" bodystart="218" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaddf41a96534e38d28b995884affbcba2" kind="variable"><name>moveClosedPoint_</name></member>
+      <member refid="group__GeneralGroup_1ga3e22f7c3ed6bf212d676828f6518a8e7" kind="variable"><name>hoveredPointWidget_</name></member>
+      <member refid="group__GeneralGroup_1ga3f9ec84c031441c8f3b210c2167d7c6c" kind="variable"><name>draggedPointWidget_</name></member>
+      <member refid="group__GeneralGroup_1ga4df11dd3e391e34438e4e34e89fff100" kind="variable"><name>pickedPoints_</name></member>
+      <member refid="group__GeneralGroup_1gafcfbb490cac1e6b5cae3b8545f580e3c" kind="variable"><name>myPickSpheres_</name></member>
+      <member refid="group__GeneralGroup_1ga7b529ce727390e19e969071a10c019b2" kind="variable"><name>connectionHolders_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1PickPointManager_1ab409cc955cfe26509e58b47d527cfa88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API</type>
-        <definition>MRVIEWER_API MR::PickPointManager::PickPointManager</definition>
-        <argsstring>()</argsstring>
-        <name>PickPointManager</name>
-        <qualifiedname>MR::PickPointManager::PickPointManager</qualifiedname>
-        <briefdescription>
-<para>create an object and starts listening for mouse events </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="101" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PickPointManager_1a31b5a1ad4254215a601d20d9930c956c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API</type>
-        <definition>MRVIEWER_API MR::PickPointManager::~PickPointManager</definition>
-        <argsstring>()</argsstring>
-        <name>~PickPointManager</name>
-        <qualifiedname>MR::PickPointManager::~PickPointManager</qualifiedname>
-        <briefdescription>
-<para>destroy this and remove the undo/redo actions referring this from the history. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="104" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PickPointManager_1a0922ea18b0bacb74b2787b4e9fb1987f" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>const <ref refid="classMR_1_1PickPointManager_1a66fec48ba08655d3ee9486f9b4e2c3f0" kindref="member">SurfaceContour</ref> &amp;</type>
-        <definition>const SurfaceContour &amp; MR::PickPointManager::getSurfaceContour</definition>
-        <argsstring>(const std::shared_ptr&lt; VisualObject &gt; &amp;obj)</argsstring>
-        <name>getSurfaceContour</name>
-        <qualifiedname>MR::PickPointManager::getSurfaceContour</qualifiedname>
-        <param>
-          <type>const std::shared_ptr&lt; <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> &gt; &amp;</type>
-          <declname>obj</declname>
-        </param>
-        <briefdescription>
-<para>return contour for specific object (creating new one if necessary) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="107" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" bodystart="107" bodyend="107"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PickPointManager_1a7785cb6ce3cab3d064b6c20f07958cf3" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const <ref refid="classMR_1_1PickPointManager_1a517842afda1f1c9d0c1487829fb09fb4" kindref="member">SurfaceContours</ref> &amp;</type>
-        <definition>const SurfaceContours &amp; MR::PickPointManager::getSurfaceContours</definition>
-        <argsstring>() const</argsstring>
-        <name>getSurfaceContours</name>
-        <qualifiedname>MR::PickPointManager::getSurfaceContours</qualifiedname>
-        <briefdescription>
-<para>return all contours, i.e. per object unorderd_map of ordered surface points [vector]. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="110" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" bodystart="110" bodyend="110"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PickPointManager_1abf753ac8d813babfa08dc56142474e65" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>MRVIEWER_API bool MR::PickPointManager::isClosedContour</definition>
-        <argsstring>(const std::shared_ptr&lt; VisualObject &gt; &amp;obj) const</argsstring>
-        <name>isClosedContour</name>
-        <qualifiedname>MR::PickPointManager::isClosedContour</qualifiedname>
-        <param>
-          <type>const std::shared_ptr&lt; <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> &gt; &amp;</type>
-          <declname>obj</declname>
-        </param>
-        <briefdescription>
-<para>check whether the contour is closed for a particular object. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="113" column="24"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PickPointManager_1adc30aaa3b2d5dea491584b3a5e6bf4c5" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API size_t</type>
-        <definition>MRVIEWER_API size_t MR::PickPointManager::numPickPoints</definition>
-        <argsstring>(const std::shared_ptr&lt; VisualObject &gt; &amp;obj) const</argsstring>
-        <name>numPickPoints</name>
-        <qualifiedname>MR::PickPointManager::numPickPoints</qualifiedname>
-        <param>
-          <type>const std::shared_ptr&lt; <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> &gt; &amp;</type>
-          <declname>obj</declname>
-        </param>
-        <briefdescription>
-<para>returns the total number of pick points (including extra point if the contour is closed) on given object </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="116" column="26"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PickPointManager_1afd198214161345e35723084cbe16222f" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API std::shared_ptr&lt; <ref refid="classMR_1_1SurfacePointWidget" kindref="compound">SurfacePointWidget</ref> &gt;</type>
-        <definition>MRVIEWER_API std::shared_ptr&lt; SurfacePointWidget &gt; MR::PickPointManager::getPointWidget</definition>
-        <argsstring>(const std::shared_ptr&lt; VisualObject &gt; &amp;obj, int index) const</argsstring>
-        <name>getPointWidget</name>
-        <qualifiedname>MR::PickPointManager::getPointWidget</qualifiedname>
-        <param>
-          <type>const std::shared_ptr&lt; <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> &gt; &amp;</type>
-          <declname>obj</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>index</declname>
-        </param>
-        <briefdescription>
-<para>returns point widget by index from given object or nullptr if no such widget exists </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="119" column="35"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PickPointManager_1a5293eb3d7c9e32d1534443a4eaadd070" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API int</type>
-        <definition>MRVIEWER_API int MR::PickPointManager::getPointIndex</definition>
-        <argsstring>(const std::shared_ptr&lt; VisualObject &gt; &amp;obj, SurfacePointWidget &amp;pointWidget) const</argsstring>
-        <name>getPointIndex</name>
-        <qualifiedname>MR::PickPointManager::getPointIndex</qualifiedname>
-        <param>
-          <type>const std::shared_ptr&lt; <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> &gt; &amp;</type>
-          <declname>obj</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1SurfacePointWidget" kindref="compound">SurfacePointWidget</ref> &amp;</type>
-          <declname>pointWidget</declname>
-        </param>
-        <briefdescription>
-<para>returns index of given point widget on given object or -1 if this widget is not from given object </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="122" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PickPointManager_1a61baa844efa1ebb8a509db54e7fa814c" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="classMR_1_1SurfacePointWidget" kindref="compound">SurfacePointWidget</ref> *</type>
-        <definition>SurfacePointWidget * MR::PickPointManager::draggedPointWidget</definition>
-        <argsstring>() const</argsstring>
-        <name>draggedPointWidget</name>
-        <qualifiedname>MR::PickPointManager::draggedPointWidget</qualifiedname>
-        <briefdescription>
-<para>returns point widget currently dragged by mouse </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="125" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" bodystart="125" bodyend="125"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PickPointManager_1af959eff3b4eda34f1ac7a97272444c8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>MRVIEWER_API bool MR::PickPointManager::appendPoint</definition>
-        <argsstring>(const std::shared_ptr&lt; VisualObject &gt; &amp;obj, const PickedPoint &amp;triPoint, bool startDragging=false)</argsstring>
-        <name>appendPoint</name>
-        <qualifiedname>MR::PickPointManager::appendPoint</qualifiedname>
-        <param>
-          <type>const std::shared_ptr&lt; <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> &gt; &amp;</type>
-          <declname>obj</declname>
-        </param>
-        <param>
-          <type>const <ref refid="namespaceMR_1a3c6c4a3a98a6d5a53b51d05984395fa3" kindref="member">PickedPoint</ref> &amp;</type>
-          <declname>triPoint</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>startDragging</declname>
-          <defval>false</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Add a point to the end of non closed contour connected with obj <parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>startDragging</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>if true then new point widget is immediately made draggable by mouse, please be sure that mouse is over new point and is down </para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="129" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PickPointManager_1a02c3091306f572deb4b8f46b6fe4c87f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>MRVIEWER_API bool MR::PickPointManager::insertPoint</definition>
-        <argsstring>(const std::shared_ptr&lt; VisualObject &gt; &amp;obj, int index, const PickedPoint &amp;triPoint, bool startDragging=false)</argsstring>
-        <name>insertPoint</name>
-        <qualifiedname>MR::PickPointManager::insertPoint</qualifiedname>
-        <param>
-          <type>const std::shared_ptr&lt; <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> &gt; &amp;</type>
-          <declname>obj</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>index</declname>
-        </param>
-        <param>
-          <type>const <ref refid="namespaceMR_1a3c6c4a3a98a6d5a53b51d05984395fa3" kindref="member">PickedPoint</ref> &amp;</type>
-          <declname>triPoint</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>startDragging</declname>
-          <defval>false</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Inserts a point into contour connected with obj <parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>index</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>point index before which to insert new point </para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>startDragging</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>if true then new point widget is immediately made draggable by mouse, please be sure that mouse is over new point and is down </para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="134" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PickPointManager_1a9c4b283d6f473e8f7b894b329c3af11d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>MRVIEWER_API bool MR::PickPointManager::removePoint</definition>
-        <argsstring>(const std::shared_ptr&lt; VisualObject &gt; &amp;obj, int pickedIndex)</argsstring>
-        <name>removePoint</name>
-        <qualifiedname>MR::PickPointManager::removePoint</qualifiedname>
-        <param>
-          <type>const std::shared_ptr&lt; <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> &gt; &amp;</type>
-          <declname>obj</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>pickedIndex</declname>
-        </param>
-        <briefdescription>
-<para>Remove point with pickedIndex index from contour connected with obj. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="137" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PickPointManager_1afe8ba740b1413bdd9b9eb081d4eda8c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>MRVIEWER_API bool MR::PickPointManager::closeContour</definition>
-        <argsstring>(const std::shared_ptr&lt; VisualObject &gt; &amp;obj, bool makeClosed=true)</argsstring>
-        <name>closeContour</name>
-        <qualifiedname>MR::PickPointManager::closeContour</qualifiedname>
-        <param>
-          <type>const std::shared_ptr&lt; <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> &gt; &amp;</type>
-          <declname>obj</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>makeClosed</declname>
-          <defval>true</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>if ( makeClosed ), and the contour is open add a special transparent point contour to the end of contour connected with given object. A coordinated of this special transparent point will be equal to the firs point in contour, which will means that contour is closed. if ( !makeClosed ), and the contour is closed remove last point of contour connected with given object. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="142" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PickPointManager_1a0dd9ef9d866e2b5ff2e61585eb577de6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API <ref refid="classMR_1_1PickPointManager_1a126f436cbe4bfa2339652d428159ad0b" kindref="member">FullState</ref></type>
-        <definition>MRVIEWER_API FullState MR::PickPointManager::getFullState</definition>
-        <argsstring>() const</argsstring>
-        <name>getFullState</name>
-        <qualifiedname>MR::PickPointManager::getFullState</qualifiedname>
-        <briefdescription>
-<para>returns the state of this </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="152" column="28"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PickPointManager_1aaa77594d52f4d994bf5604f3eae7d6cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::PickPointManager::clear</definition>
-        <argsstring>()</argsstring>
-        <name>clear</name>
-        <qualifiedname>MR::PickPointManager::clear</qualifiedname>
-        <briefdescription>
-<para>removes all points from all objects </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="155" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PickPointManager_1acba6697c62cf417cb8b8ed078a6a1288" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::PickPointManager::setFullState</definition>
-        <argsstring>(FullState s)</argsstring>
-        <name>setFullState</name>
-        <qualifiedname>MR::PickPointManager::setFullState</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1PickPointManager_1a126f436cbe4bfa2339652d428159ad0b" kindref="member">FullState</ref></type>
-          <declname>s</declname>
-        </param>
-        <briefdescription>
-<para>removes all current points, then adds pick points on all objects as prescribed by given state </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="158" column="23"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gab409cc955cfe26509e58b47d527cfa88" kind="function"><name>PickPointManager</name></member>
+      <member refid="group__GeneralGroup_1ga31b5a1ad4254215a601d20d9930c956c" kind="function"><name>~PickPointManager</name></member>
+      <member refid="group__GeneralGroup_1ga0922ea18b0bacb74b2787b4e9fb1987f" kind="function"><name>getSurfaceContour</name></member>
+      <member refid="group__GeneralGroup_1ga7785cb6ce3cab3d064b6c20f07958cf3" kind="function"><name>getSurfaceContours</name></member>
+      <member refid="group__GeneralGroup_1gabf753ac8d813babfa08dc56142474e65" kind="function"><name>isClosedContour</name></member>
+      <member refid="group__GeneralGroup_1gadc30aaa3b2d5dea491584b3a5e6bf4c5" kind="function"><name>numPickPoints</name></member>
+      <member refid="group__GeneralGroup_1gafd198214161345e35723084cbe16222f" kind="function"><name>getPointWidget</name></member>
+      <member refid="group__GeneralGroup_1ga5293eb3d7c9e32d1534443a4eaadd070" kind="function"><name>getPointIndex</name></member>
+      <member refid="group__GeneralGroup_1ga61baa844efa1ebb8a509db54e7fa814c" kind="function"><name>draggedPointWidget</name></member>
+      <member refid="group__GeneralGroup_1gaf959eff3b4eda34f1ac7a97272444c8e" kind="function"><name>appendPoint</name></member>
+      <member refid="group__GeneralGroup_1ga02c3091306f572deb4b8f46b6fe4c87f" kind="function"><name>insertPoint</name></member>
+      <member refid="group__GeneralGroup_1ga9c4b283d6f473e8f7b894b329c3af11d" kind="function"><name>removePoint</name></member>
+      <member refid="group__GeneralGroup_1gafe8ba740b1413bdd9b9eb081d4eda8c3" kind="function"><name>closeContour</name></member>
+      <member refid="group__GeneralGroup_1ga0dd9ef9d866e2b5ff2e61585eb577de6" kind="function"><name>getFullState</name></member>
+      <member refid="group__GeneralGroup_1gaaa77594d52f4d994bf5604f3eae7d6cb" kind="function"><name>clear</name></member>
+      <member refid="group__GeneralGroup_1gacba6697c62cf417cb8b8ed078a6a1288" kind="function"><name>setFullState</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMR_1_1PickPointManager_1a3fd558b89d0d48ed8a013ac4d7e46310" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>MRVIEWER_API bool MR::PickPointManager::onMouseDown_</definition>
-        <argsstring>(MouseButton button, int modifier) override</argsstring>
-        <name>onMouseDown_</name>
-        <qualifiedname>MR::PickPointManager::onMouseDown_</qualifiedname>
-        <param>
-          <type><ref refid="namespaceMR_1a13f98b7840e7298925ef1770b7cdb62d" kindref="member">MouseButton</ref></type>
-          <declname>button</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>modifier</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="161" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PickPointManager_1abb9a698f7e0e8e5dd24431bae4aa543c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>MRVIEWER_API bool MR::PickPointManager::onMouseMove_</definition>
-        <argsstring>(int mouse_x, int mouse_y) override</argsstring>
-        <name>onMouseMove_</name>
-        <qualifiedname>MR::PickPointManager::onMouseMove_</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>mouse_x</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>mouse_y</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="162" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PickPointManager_1a0f6e9d1906d74f6e6f3982a456a4e263" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="namespaceMR_1a7080d56b73b285dc9afd120e1bc1ff71" kindref="member">ObjAndPick</ref></type>
-        <definition>ObjAndPick MR::PickPointManager::pick_</definition>
-        <argsstring>() const</argsstring>
-        <name>pick_</name>
-        <qualifiedname>MR::PickPointManager::pick_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="164" column="16"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PickPointManager_1a5b07872c77c221bfce7f0450153aef82" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::PickPointManager::colorLast2Points_</definition>
-        <argsstring>(const std::shared_ptr&lt; VisualObject &gt; &amp;obj)</argsstring>
-        <name>colorLast2Points_</name>
-        <qualifiedname>MR::PickPointManager::colorLast2Points_</qualifiedname>
-        <param>
-          <type>const std::shared_ptr&lt; <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> &gt; &amp;</type>
-          <declname>obj</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>sets the color of last and pre-last pick spheres for given object; the colors are taken from parameters </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="168" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PickPointManager_1a21e2561e8dfc577e1f6c2dec41881e47" prot="private" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>std::shared_ptr&lt; <ref refid="classMR_1_1SurfacePointWidget" kindref="compound">SurfacePointWidget</ref> &gt;</type>
-        <definition>std::shared_ptr&lt; SurfacePointWidget &gt; MR::PickPointManager::createPickWidget_</definition>
-        <argsstring>(const std::shared_ptr&lt; VisualObject &gt; &amp;obj, const PickedPoint &amp;pt)</argsstring>
-        <name>createPickWidget_</name>
-        <qualifiedname>MR::PickPointManager::createPickWidget_</qualifiedname>
-        <param>
-          <type>const std::shared_ptr&lt; <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> &gt; &amp;</type>
-          <declname>obj</declname>
-        </param>
-        <param>
-          <type>const <ref refid="namespaceMR_1a3c6c4a3a98a6d5a53b51d05984395fa3" kindref="member">PickedPoint</ref> &amp;</type>
-          <declname>pt</declname>
-        </param>
-        <briefdescription>
-<para>creates point widget for add to contour. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="171" column="22"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PickPointManager_1a2ff416ed56117444635aa4086780dd41" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::PickPointManager::clearNoHistory_</definition>
-        <argsstring>()</argsstring>
-        <name>clearNoHistory_</name>
-        <qualifiedname>MR::PickPointManager::clearNoHistory_</qualifiedname>
-        <briefdescription>
-<para>removes everything </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="174" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PickPointManager_1a232b6f6a01185b09ee8b2970fbf3b1bd" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::PickPointManager::swapStateNoHistory_</definition>
-        <argsstring>(FullState &amp;s)</argsstring>
-        <name>swapStateNoHistory_</name>
-        <qualifiedname>MR::PickPointManager::swapStateNoHistory_</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1PickPointManager_1a126f436cbe4bfa2339652d428159ad0b" kindref="member">FullState</ref> &amp;</type>
-          <declname>s</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>adds pick points on all objects as prescribed by given state, puts original state of this in s on return </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="178" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PickPointManager_1a4c4f80acf0ad251934e1abd0d5410508" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>int</type>
-        <definition>int MR::PickPointManager::insertPointNoHistory_</definition>
-        <argsstring>(const std::shared_ptr&lt; VisualObject &gt; &amp;obj, int index, const PickedPoint &amp;point, bool startDragging)</argsstring>
-        <name>insertPointNoHistory_</name>
-        <qualifiedname>MR::PickPointManager::insertPointNoHistory_</qualifiedname>
-        <param>
-          <type>const std::shared_ptr&lt; <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> &gt; &amp;</type>
-          <declname>obj</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>index</declname>
-        </param>
-        <param>
-          <type>const <ref refid="namespaceMR_1a3c6c4a3a98a6d5a53b51d05984395fa3" kindref="member">PickedPoint</ref> &amp;</type>
-          <declname>point</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>startDragging</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>index</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>point index before which to insert new point, -1 here means insert after last one </para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-<simplesect kind="return"><para>index of just inserted point </para>
-</simplesect>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="182" column="9"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PickPointManager_1a509d03cb7c92fc3fe74b910f3c28a8a3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="namespaceMR_1a3c6c4a3a98a6d5a53b51d05984395fa3" kindref="member">PickedPoint</ref></type>
-        <definition>PickedPoint MR::PickPointManager::removePointNoHistory_</definition>
-        <argsstring>(const std::shared_ptr&lt; VisualObject &gt; &amp;obj, int index)</argsstring>
-        <name>removePointNoHistory_</name>
-        <qualifiedname>MR::PickPointManager::removePointNoHistory_</qualifiedname>
-        <param>
-          <type>const std::shared_ptr&lt; <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> &gt; &amp;</type>
-          <declname>obj</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>index</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="return"><para>location of just removed point </para>
-</simplesect>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="185" column="17"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PickPointManager_1a2a3eef8619c745538f986985802843c4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>class HistoryActionType</type>
-          </param>
-          <param>
-            <type>typename...</type>
-            <declname>Args</declname>
-            <defname>Args</defname>
-          </param>
-        </templateparamlist>
-        <type>void</type>
-        <definition>void MR::PickPointManager::appendHistory_</definition>
-        <argsstring>(Args &amp;&amp;... args)</argsstring>
-        <name>appendHistory_</name>
-        <qualifiedname>MR::PickPointManager::appendHistory_</qualifiedname>
-        <param>
-          <type>Args &amp;&amp;...</type>
-          <declname>args</declname>
-        </param>
-        <briefdescription>
-<para>if history writing is enabled, constructs history action and appends it to global store </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="189" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PickPointManager_1aee33fb19641ae9f9a5dfddf342414077" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::PickPointManager::appendHistory_</definition>
-        <argsstring>(std::shared_ptr&lt; HistoryAction &gt; action) const</argsstring>
-        <name>appendHistory_</name>
-        <qualifiedname>MR::PickPointManager::appendHistory_</qualifiedname>
-        <param>
-          <type>std::shared_ptr&lt; <ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref> &gt;</type>
-          <declname>action</declname>
-        </param>
-        <briefdescription>
-<para>if history writing is enabled, appends given history action to global store </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="192" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PickPointManager_1a994464eb2e13212ecdc58646034bfb24" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::PickPointManager::setHoveredPointWidget_</definition>
-        <argsstring>(SurfacePointWidget *newHoveredPoint)</argsstring>
-        <name>setHoveredPointWidget_</name>
-        <qualifiedname>MR::PickPointManager::setHoveredPointWidget_</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1SurfacePointWidget" kindref="compound">SurfacePointWidget</ref> *</type>
-          <declname>newHoveredPoint</declname>
-        </param>
-        <briefdescription>
-<para>setup new hovered point widget, and removes hovering from the previous one </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="195" column="10"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga3fd558b89d0d48ed8a013ac4d7e46310" kind="function"><name>onMouseDown_</name></member>
+      <member refid="group__GeneralGroup_1gabb9a698f7e0e8e5dd24431bae4aa543c" kind="function"><name>onMouseMove_</name></member>
+      <member refid="group__GeneralGroup_1ga0f6e9d1906d74f6e6f3982a456a4e263" kind="function"><name>pick_</name></member>
+      <member refid="group__GeneralGroup_1ga5b07872c77c221bfce7f0450153aef82" kind="function"><name>colorLast2Points_</name></member>
+      <member refid="group__GeneralGroup_1ga21e2561e8dfc577e1f6c2dec41881e47" kind="function"><name>createPickWidget_</name></member>
+      <member refid="group__GeneralGroup_1ga2ff416ed56117444635aa4086780dd41" kind="function"><name>clearNoHistory_</name></member>
+      <member refid="group__GeneralGroup_1ga232b6f6a01185b09ee8b2970fbf3b1bd" kind="function"><name>swapStateNoHistory_</name></member>
+      <member refid="group__GeneralGroup_1ga4c4f80acf0ad251934e1abd0d5410508" kind="function"><name>insertPointNoHistory_</name></member>
+      <member refid="group__GeneralGroup_1ga509d03cb7c92fc3fe74b910f3c28a8a3" kind="function"><name>removePointNoHistory_</name></member>
+      <member refid="group__GeneralGroup_1ga2a3eef8619c745538f986985802843c4" kind="function"><name>appendHistory_</name></member>
+      <member refid="group__GeneralGroup_1gaee33fb19641ae9f9a5dfddf342414077" kind="function"><name>appendHistory_</name></member>
+      <member refid="group__GeneralGroup_1ga994464eb2e13212ecdc58646034bfb24" kind="function"><name>setHoveredPointWidget_</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -888,52 +126,52 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" bodystart="21" bodyend="224"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="21" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" bodystart="24" bodyend="227"/>
     <listofallmembers>
-      <member refid="classMR_1_1PickPointManager_1adffaab931d52fa647870ad0274b3166f" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>AllowCallBack</name></member>
-      <member refid="classMR_1_1PickPointManager_1a2a3eef8619c745538f986985802843c4" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>appendHistory_</name></member>
-      <member refid="classMR_1_1PickPointManager_1aee33fb19641ae9f9a5dfddf342414077" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>appendHistory_</name></member>
-      <member refid="classMR_1_1PickPointManager_1af959eff3b4eda34f1ac7a97272444c8e" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>appendPoint</name></member>
-      <member refid="classMR_1_1PickPointManager_1aec9df5b70f6f58958c686105f526a1a5" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>ChangeObjectCallBack</name></member>
-      <member refid="classMR_1_1PickPointManager_1aaa77594d52f4d994bf5604f3eae7d6cb" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>clear</name></member>
-      <member refid="classMR_1_1PickPointManager_1a2ff416ed56117444635aa4086780dd41" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>clearNoHistory_</name></member>
-      <member refid="classMR_1_1PickPointManager_1afe8ba740b1413bdd9b9eb081d4eda8c3" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>closeContour</name></member>
-      <member refid="classMR_1_1PickPointManager_1a5b07872c77c221bfce7f0450153aef82" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>colorLast2Points_</name></member>
-      <member refid="structMR_1_1MultiListener_1af3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::PickPointManager</scope><name>connect</name></member>
-      <member refid="classMR_1_1PickPointManager_1a7b529ce727390e19e969071a10c019b2" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>connectionHolders_</name></member>
-      <member refid="classMR_1_1PickPointManager_1a21e2561e8dfc577e1f6c2dec41881e47" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>createPickWidget_</name></member>
-      <member refid="structMR_1_1MultiListener_1acfa598489bfbc3b88c84b029213d042c" prot="public" virt="virtual"><scope>MR::PickPointManager</scope><name>disconnect</name></member>
-      <member refid="classMR_1_1PickPointManager_1a61baa844efa1ebb8a509db54e7fa814c" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>draggedPointWidget</name></member>
-      <member refid="classMR_1_1PickPointManager_1a3f9ec84c031441c8f3b210c2167d7c6c" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>draggedPointWidget_</name></member>
-      <member refid="classMR_1_1PickPointManager_1a126f436cbe4bfa2339652d428159ad0b" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>FullState</name></member>
-      <member refid="classMR_1_1PickPointManager_1a0dd9ef9d866e2b5ff2e61585eb577de6" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>getFullState</name></member>
-      <member refid="classMR_1_1PickPointManager_1a5293eb3d7c9e32d1534443a4eaadd070" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>getPointIndex</name></member>
-      <member refid="classMR_1_1PickPointManager_1afd198214161345e35723084cbe16222f" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>getPointWidget</name></member>
-      <member refid="classMR_1_1PickPointManager_1a0922ea18b0bacb74b2787b4e9fb1987f" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>getSurfaceContour</name></member>
-      <member refid="classMR_1_1PickPointManager_1a7785cb6ce3cab3d064b6c20f07958cf3" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>getSurfaceContours</name></member>
-      <member refid="classMR_1_1PickPointManager_1a3e22f7c3ed6bf212d676828f6518a8e7" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>hoveredPointWidget_</name></member>
-      <member refid="classMR_1_1PickPointManager_1a02c3091306f572deb4b8f46b6fe4c87f" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>insertPoint</name></member>
-      <member refid="classMR_1_1PickPointManager_1a4c4f80acf0ad251934e1abd0d5410508" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>insertPointNoHistory_</name></member>
-      <member refid="classMR_1_1PickPointManager_1abf753ac8d813babfa08dc56142474e65" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>isClosedContour</name></member>
-      <member refid="classMR_1_1PickPointManager_1addf41a96534e38d28b995884affbcba2" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>moveClosedPoint_</name></member>
-      <member refid="classMR_1_1PickPointManager_1afcfbb490cac1e6b5cae3b8545f580e3c" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>myPickSpheres_</name></member>
-      <member refid="classMR_1_1PickPointManager_1adc30aaa3b2d5dea491584b3a5e6bf4c5" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>numPickPoints</name></member>
-      <member refid="classMR_1_1PickPointManager_1a3fd558b89d0d48ed8a013ac4d7e46310" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>onMouseDown_</name></member>
-      <member refid="classMR_1_1PickPointManager_1abb9a698f7e0e8e5dd24431bae4aa543c" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>onMouseMove_</name></member>
-      <member refid="classMR_1_1PickPointManager_1ada6902120790d59fb87b99281b702b8c" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>params</name></member>
-      <member refid="classMR_1_1PickPointManager_1a0f6e9d1906d74f6e6f3982a456a4e263" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>pick_</name></member>
-      <member refid="classMR_1_1PickPointManager_1a4df11dd3e391e34438e4e34e89fff100" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>pickedPoints_</name></member>
-      <member refid="classMR_1_1PickPointManager_1af5dd9ce5eda38d70eb2e0c789aa3e06c" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>PickerPointCallBack</name></member>
-      <member refid="classMR_1_1PickPointManager_1ab409cc955cfe26509e58b47d527cfa88" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>PickPointManager</name></member>
-      <member refid="classMR_1_1PickPointManager_1a9c4b283d6f473e8f7b894b329c3af11d" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>removePoint</name></member>
-      <member refid="classMR_1_1PickPointManager_1a509d03cb7c92fc3fe74b910f3c28a8a3" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>removePointNoHistory_</name></member>
-      <member refid="classMR_1_1PickPointManager_1acba6697c62cf417cb8b8ed078a6a1288" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>setFullState</name></member>
-      <member refid="classMR_1_1PickPointManager_1a994464eb2e13212ecdc58646034bfb24" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>setHoveredPointWidget_</name></member>
-      <member refid="classMR_1_1PickPointManager_1a66fec48ba08655d3ee9486f9b4e2c3f0" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>SurfaceContour</name></member>
-      <member refid="classMR_1_1PickPointManager_1a517842afda1f1c9d0c1487829fb09fb4" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>SurfaceContours</name></member>
-      <member refid="classMR_1_1PickPointManager_1a232b6f6a01185b09ee8b2970fbf3b1bd" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>swapStateNoHistory_</name></member>
-      <member refid="structMR_1_1MultiListener_1a726f5e2601b7f25e31824a0cac630fb2" prot="public" virt="virtual"><scope>MR::PickPointManager</scope><name>~MultiListener</name></member>
-      <member refid="classMR_1_1PickPointManager_1a31b5a1ad4254215a601d20d9930c956c" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>~PickPointManager</name></member>
+      <member refid="group__GeneralGroup_1gadffaab931d52fa647870ad0274b3166f" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>AllowCallBack</name></member>
+      <member refid="group__GeneralGroup_1ga2a3eef8619c745538f986985802843c4" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>appendHistory_</name></member>
+      <member refid="group__GeneralGroup_1gaee33fb19641ae9f9a5dfddf342414077" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>appendHistory_</name></member>
+      <member refid="group__GeneralGroup_1gaf959eff3b4eda34f1ac7a97272444c8e" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>appendPoint</name></member>
+      <member refid="group__GeneralGroup_1gaec9df5b70f6f58958c686105f526a1a5" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>ChangeObjectCallBack</name></member>
+      <member refid="group__GeneralGroup_1gaaa77594d52f4d994bf5604f3eae7d6cb" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>clear</name></member>
+      <member refid="group__GeneralGroup_1ga2ff416ed56117444635aa4086780dd41" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>clearNoHistory_</name></member>
+      <member refid="group__GeneralGroup_1gafe8ba740b1413bdd9b9eb081d4eda8c3" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>closeContour</name></member>
+      <member refid="group__GeneralGroup_1ga5b07872c77c221bfce7f0450153aef82" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>colorLast2Points_</name></member>
+      <member refid="group__GeneralGroup_1gaf3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::PickPointManager</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1ga7b529ce727390e19e969071a10c019b2" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>connectionHolders_</name></member>
+      <member refid="group__GeneralGroup_1ga21e2561e8dfc577e1f6c2dec41881e47" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>createPickWidget_</name></member>
+      <member refid="group__GeneralGroup_1gacfa598489bfbc3b88c84b029213d042c" prot="public" virt="virtual"><scope>MR::PickPointManager</scope><name>disconnect</name></member>
+      <member refid="group__GeneralGroup_1ga61baa844efa1ebb8a509db54e7fa814c" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>draggedPointWidget</name></member>
+      <member refid="group__GeneralGroup_1ga3f9ec84c031441c8f3b210c2167d7c6c" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>draggedPointWidget_</name></member>
+      <member refid="group__GeneralGroup_1ga126f436cbe4bfa2339652d428159ad0b" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>FullState</name></member>
+      <member refid="group__GeneralGroup_1ga0dd9ef9d866e2b5ff2e61585eb577de6" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>getFullState</name></member>
+      <member refid="group__GeneralGroup_1ga5293eb3d7c9e32d1534443a4eaadd070" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>getPointIndex</name></member>
+      <member refid="group__GeneralGroup_1gafd198214161345e35723084cbe16222f" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>getPointWidget</name></member>
+      <member refid="group__GeneralGroup_1ga0922ea18b0bacb74b2787b4e9fb1987f" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>getSurfaceContour</name></member>
+      <member refid="group__GeneralGroup_1ga7785cb6ce3cab3d064b6c20f07958cf3" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>getSurfaceContours</name></member>
+      <member refid="group__GeneralGroup_1ga3e22f7c3ed6bf212d676828f6518a8e7" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>hoveredPointWidget_</name></member>
+      <member refid="group__GeneralGroup_1ga02c3091306f572deb4b8f46b6fe4c87f" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>insertPoint</name></member>
+      <member refid="group__GeneralGroup_1ga4c4f80acf0ad251934e1abd0d5410508" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>insertPointNoHistory_</name></member>
+      <member refid="group__GeneralGroup_1gabf753ac8d813babfa08dc56142474e65" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>isClosedContour</name></member>
+      <member refid="group__GeneralGroup_1gaddf41a96534e38d28b995884affbcba2" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>moveClosedPoint_</name></member>
+      <member refid="group__GeneralGroup_1gafcfbb490cac1e6b5cae3b8545f580e3c" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>myPickSpheres_</name></member>
+      <member refid="group__GeneralGroup_1gadc30aaa3b2d5dea491584b3a5e6bf4c5" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>numPickPoints</name></member>
+      <member refid="group__GeneralGroup_1ga3fd558b89d0d48ed8a013ac4d7e46310" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>onMouseDown_</name></member>
+      <member refid="group__GeneralGroup_1gabb9a698f7e0e8e5dd24431bae4aa543c" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>onMouseMove_</name></member>
+      <member refid="group__GeneralGroup_1gada6902120790d59fb87b99281b702b8c" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>params</name></member>
+      <member refid="group__GeneralGroup_1ga0f6e9d1906d74f6e6f3982a456a4e263" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>pick_</name></member>
+      <member refid="group__GeneralGroup_1ga4df11dd3e391e34438e4e34e89fff100" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>pickedPoints_</name></member>
+      <member refid="group__GeneralGroup_1gaf5dd9ce5eda38d70eb2e0c789aa3e06c" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>PickerPointCallBack</name></member>
+      <member refid="group__GeneralGroup_1gab409cc955cfe26509e58b47d527cfa88" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>PickPointManager</name></member>
+      <member refid="group__GeneralGroup_1ga9c4b283d6f473e8f7b894b329c3af11d" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>removePoint</name></member>
+      <member refid="group__GeneralGroup_1ga509d03cb7c92fc3fe74b910f3c28a8a3" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>removePointNoHistory_</name></member>
+      <member refid="group__GeneralGroup_1gacba6697c62cf417cb8b8ed078a6a1288" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>setFullState</name></member>
+      <member refid="group__GeneralGroup_1ga994464eb2e13212ecdc58646034bfb24" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>setHoveredPointWidget_</name></member>
+      <member refid="group__GeneralGroup_1ga66fec48ba08655d3ee9486f9b4e2c3f0" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>SurfaceContour</name></member>
+      <member refid="group__GeneralGroup_1ga517842afda1f1c9d0c1487829fb09fb4" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>SurfaceContours</name></member>
+      <member refid="group__GeneralGroup_1ga232b6f6a01185b09ee8b2970fbf3b1bd" prot="private" virt="non-virtual"><scope>MR::PickPointManager</scope><name>swapStateNoHistory_</name></member>
+      <member refid="group__GeneralGroup_1ga726f5e2601b7f25e31824a0cac630fb2" prot="public" virt="virtual"><scope>MR::PickPointManager</scope><name>~MultiListener</name></member>
+      <member refid="group__GeneralGroup_1ga31b5a1ad4254215a601d20d9930c956c" prot="public" virt="non-virtual"><scope>MR::PickPointManager</scope><name>~PickPointManager</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

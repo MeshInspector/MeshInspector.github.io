@@ -55,7 +55,7 @@
     </sectiondef>
     <sectiondef kind="public-func">
       <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner_1aeef82c61856472cfd39c42fe30004d4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <type>MRMESH_API</type>
         <definition>MRMESH_API MR::UniqueThreadSafeOwner&lt; T &gt;::UniqueThreadSafeOwner</definition>
         <argsstring>()</argsstring>
         <name>UniqueThreadSafeOwner</name>
@@ -69,7 +69,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" line="20" column="16"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner_1ab82d0ad01192df7f52ddc46eb3d6b7a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <type>MRMESH_API</type>
         <definition>MRMESH_API MR::UniqueThreadSafeOwner&lt; T &gt;::UniqueThreadSafeOwner</definition>
         <argsstring>(const UniqueThreadSafeOwner &amp;)</argsstring>
         <name>UniqueThreadSafeOwner</name>
@@ -86,7 +86,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" line="21" column="16"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner_1af6ec1dea9bb6597f1eb584a24ebedd26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="classMR_1_1UniqueThreadSafeOwner" kindref="compound">UniqueThreadSafeOwner</ref> &amp;</type>
+        <type>MRMESH_API <ref refid="classMR_1_1UniqueThreadSafeOwner" kindref="compound">UniqueThreadSafeOwner</ref> &amp;</type>
         <definition>MRMESH_API UniqueThreadSafeOwner &amp; MR::UniqueThreadSafeOwner&lt; T &gt;::operator=</definition>
         <argsstring>(const UniqueThreadSafeOwner &amp;)</argsstring>
         <name>operator=</name>
@@ -103,7 +103,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" line="22" column="38"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner_1ad109e39c613cdd106e350b62dad36efe" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <type>MRMESH_API</type>
         <definition>MRMESH_API MR::UniqueThreadSafeOwner&lt; T &gt;::UniqueThreadSafeOwner</definition>
         <argsstring>(UniqueThreadSafeOwner &amp;&amp;b) noexcept</argsstring>
         <name>UniqueThreadSafeOwner</name>
@@ -121,7 +121,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" line="23" column="16"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner_1a6346fa8c52ec4d101fcbe69d489a04dc" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="classMR_1_1UniqueThreadSafeOwner" kindref="compound">UniqueThreadSafeOwner</ref> &amp;</type>
+        <type>MRMESH_API <ref refid="classMR_1_1UniqueThreadSafeOwner" kindref="compound">UniqueThreadSafeOwner</ref> &amp;</type>
         <definition>MRMESH_API UniqueThreadSafeOwner &amp; MR::UniqueThreadSafeOwner&lt; T &gt;::operator=</definition>
         <argsstring>(UniqueThreadSafeOwner &amp;&amp;b) noexcept</argsstring>
         <name>operator=</name>
@@ -139,7 +139,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" line="24" column="38"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner_1a3d73291f1f47c3b4d4a33166f8d09a6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <type>MRMESH_API</type>
         <definition>MRMESH_API MR::UniqueThreadSafeOwner&lt; T &gt;::~UniqueThreadSafeOwner</definition>
         <argsstring>()</argsstring>
         <name>~UniqueThreadSafeOwner</name>
@@ -153,7 +153,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" line="25" column="16"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner_1ab0b41efc38efad3d6af477942a131ef2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::UniqueThreadSafeOwner&lt; T &gt;::reset</definition>
         <argsstring>()</argsstring>
         <name>reset</name>
@@ -183,7 +183,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" line="30" column="8" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" bodystart="30" bodyend="30"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner_1ae534b2090bbb82c6fee33efc2f3c0c34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> T &amp;</type>
+        <type>MRMESH_API T &amp;</type>
         <definition>MRMESH_API T &amp; MR::UniqueThreadSafeOwner&lt; T &gt;::getOrCreate</definition>
         <argsstring>(const std::function&lt; T()&gt; &amp;creator)</argsstring>
         <name>getOrCreate</name>
@@ -202,7 +202,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" line="32" column="19"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner_1a116e9e31af9a5c5fb15cf8d9278226b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::UniqueThreadSafeOwner&lt; T &gt;::update</definition>
         <argsstring>(const std::function&lt; void(T &amp;)&gt; &amp;updater)</argsstring>
         <name>update</name>
@@ -221,7 +221,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueThreadSafeOwner.h" line="34" column="21"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner_1a6a6144337b7f7991fae893818231e943" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> size_t</type>
+        <type>MRMESH_API size_t</type>
         <definition>MRMESH_API size_t MR::UniqueThreadSafeOwner&lt; T &gt;::heapBytes</definition>
         <argsstring>() const</argsstring>
         <name>heapBytes</name>

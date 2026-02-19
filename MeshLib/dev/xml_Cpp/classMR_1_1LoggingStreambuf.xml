@@ -51,7 +51,7 @@
     </sectiondef>
     <sectiondef kind="public-func">
       <memberdef kind="function" id="classMR_1_1LoggingStreambuf_1af253d14866ae6530d01634b16042d387" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <type>MRMESH_API</type>
         <definition>MRMESH_API MR::LoggingStreambuf::LoggingStreambuf</definition>
         <argsstring>(spdlog::level::level_enum level)</argsstring>
         <name>LoggingStreambuf</name>
@@ -71,7 +71,7 @@
     </sectiondef>
     <sectiondef kind="protected-func">
       <memberdef kind="function" id="classMR_1_1LoggingStreambuf_1ad3da2990b79129af6e4cb2426b138860" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::streamsize</type>
+        <type>MRMESH_API std::streamsize</type>
         <definition>MRMESH_API std::streamsize MR::LoggingStreambuf::xsputn</definition>
         <argsstring>(const char_type *s, std::streamsize count) override</argsstring>
         <name>xsputn</name>
@@ -93,7 +93,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRestoringStreamsSink.h" line="22" column="32"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1LoggingStreambuf_1ad6dff8009973c32d9738ccde8cb43602" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> int_type</type>
+        <type>MRMESH_API int_type</type>
         <definition>MRMESH_API int_type MR::LoggingStreambuf::overflow</definition>
         <argsstring>(int_type ch=traits_type::eof()) override</argsstring>
         <name>overflow</name>

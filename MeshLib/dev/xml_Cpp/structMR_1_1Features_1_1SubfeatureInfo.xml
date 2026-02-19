@@ -36,7 +36,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSubfeatures.h" line="17" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSubfeatures.h" bodystart="17" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1Features_1_1SubfeatureInfo_1a257610a5ab6c4efc5a75b08c06e5402a" prot="public" static="no" mutable="no">
-        <type>std::function&lt; <ref refid="namespaceMR_1_1Features_1_1Primitives_1a955a7f843d9b5df0f393ec7699ada624" kindref="member">Primitives::Variant</ref>(const <ref refid="namespaceMR_1_1Features_1_1Primitives_1a955a7f843d9b5df0f393ec7699ada624" kindref="member">Features::Primitives::Variant</ref> &amp;feature)&gt;</type>
+        <type>std::function&lt; <ref refid="group__GeneralGroup_1ga955a7f843d9b5df0f393ec7699ada624" kindref="member">Primitives::Variant</ref>(const <ref refid="group__GeneralGroup_1ga955a7f843d9b5df0f393ec7699ada624" kindref="member">Features::Primitives::Variant</ref> &amp;feature)&gt;</type>
         <definition>std::function&lt;Primitives::Variant( const Features::Primitives::Variant&amp; feature )&gt; MR::Features::SubfeatureInfo::create</definition>
         <argsstring></argsstring>
         <name>create</name>

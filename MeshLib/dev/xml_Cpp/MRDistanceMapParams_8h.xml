@@ -13,75 +13,69 @@
     <includedby refid="MRObjectDistanceMap_8h" local="yes">MRObjectDistanceMap.h</includedby>
     <includedby refid="MRTiff_8h" local="no">MRTiff.h</includedby>
     <incdepgraph>
-      <node id="35">
+      <node id="31">
         <label>MRAffineXf.h</label>
         <link refid="MRAffineXf_8h"/>
-        <childnode refid="7" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
       </node>
-      <node id="31">
+      <node id="27">
         <label>MRAffineXf3.h</label>
         <link refid="MRAffineXf3_8h"/>
-        <childnode refid="32" relation="include">
+        <childnode refid="28" relation="include">
         </childnode>
-        <childnode refid="35" relation="include">
+        <childnode refid="31" relation="include">
         </childnode>
       </node>
-      <node id="25">
+      <node id="20">
         <label>MRBitSet.h</label>
         <link refid="MRBitSet_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="24" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="26" relation="include">
-        </childnode>
-        <childnode refid="27" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
         <childnode refid="22" relation="include">
         </childnode>
-        <childnode refid="30" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
-      </node>
-      <node id="36">
-        <label>MRBox.h</label>
-        <link refid="MRBox_8h"/>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="31" relation="include">
-        </childnode>
-        <childnode refid="37" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="25" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
-        <childnode refid="38" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="26" relation="include">
         </childnode>
       </node>
-      <node id="6">
-        <label>MRMesh/MRCanonicalTypedefs.h</label>
-        <link refid="MRCanonicalTypedefs_8h"/>
-        <childnode refid="7" relation="include">
+      <node id="32">
+        <label>MRBox.h</label>
+        <link refid="MRBox_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
         </childnode>
       </node>
-      <node id="34">
+      <node id="30">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
@@ -90,35 +84,35 @@
         <link refid="MRDistanceMapParams_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="25" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
-        <childnode refid="31" relation="include">
+        <childnode refid="27" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
         </childnode>
         <childnode refid="36" relation="include">
         </childnode>
-        <childnode refid="39" relation="include">
-        </childnode>
       </node>
-      <node id="24">
+      <node id="16">
         <label>MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="23" relation="include">
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
         </childnode>
       </node>
-      <node id="7">
-        <label>MRMesh/MRMacros.h</label>
+      <node id="6">
+        <label>MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
       <node id="2">
@@ -126,31 +120,79 @@
         <link refid="MRMatrix_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
       </node>
-      <node id="32">
+      <node id="28">
         <label>MRMatrix3.h</label>
         <link refid="MRMatrix3_8h"/>
-        <childnode refid="7" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="33" relation="include">
+        <childnode refid="29" relation="include">
         </childnode>
-        <childnode refid="34" relation="include">
+        <childnode refid="30" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
       </node>
-      <node id="4">
-        <label>MRMeshFwd.h</label>
-        <link refid="MRMeshFwd_8h"/>
+      <node id="36">
+        <label>MRMeshPart.h</label>
+        <link refid="MRMeshPart_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRRectIndexer.h</label>
+        <link refid="MRRectIndexer_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
         <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>MRResizeNoInit.h</label>
+        <link refid="MRResizeNoInit_8h"/>
+        <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
         <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>MRVector.h</label>
+        <link refid="MRVector_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRVector2.h</label>
+        <link refid="MRVector2_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
@@ -162,169 +204,95 @@
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
-      </node>
-      <node id="39">
-        <label>MRMeshPart.h</label>
-        <link refid="MRMeshPart_8h"/>
-        <childnode refid="4" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
       </node>
-      <node id="3">
-        <label>MRRectIndexer.h</label>
-        <link refid="MRRectIndexer_8h"/>
+      <node id="29">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
         <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="24" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-      </node>
-      <node id="28">
-        <label>MRResizeNoInit.h</label>
-        <link refid="MRResizeNoInit_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="29" relation="include">
-        </childnode>
-      </node>
-      <node id="16">
-        <label>MRMesh/MRUnsigned.h</label>
-        <link refid="MRUnsigned_8h"/>
-        <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-      </node>
-      <node id="27">
-        <label>MRVector.h</label>
-        <link refid="MRVector_8h"/>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="28" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-      </node>
-      <node id="15">
-        <label>MRVector2.h</label>
-        <link refid="MRVector2_8h"/>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
-        <childnode refid="23" relation="include">
-        </childnode>
       </node>
       <node id="33">
-        <label>MRVector3.h</label>
-        <link refid="MRVector3_8h"/>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="34" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
-        <childnode refid="23" relation="include">
-        </childnode>
-      </node>
-      <node id="37">
         <label>MRVectorTraits.h</label>
         <link refid="MRMesh_2MRVectorTraits_8h"/>
-        <childnode refid="4" relation="include">
+        <childnode refid="34" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
       </node>
-      <node id="5">
-        <label>config.h</label>
-        <link refid="MRMesh_2config_8h"/>
+      <node id="34">
+        <label>MRMesh/MRMeshFwd.h</label>
       </node>
-      <node id="8">
-        <label>MRPch/MRBindingMacros.h</label>
-      </node>
-      <node id="26">
-        <label>MRphmap.h</label>
-      </node>
-      <node id="19">
-        <label>algorithm</label>
-      </node>
-      <node id="9">
-        <label>array</label>
-      </node>
-      <node id="14">
-        <label>cassert</label>
-      </node>
-      <node id="20">
-        <label>cmath</label>
-      </node>
-      <node id="29">
-        <label>concepts</label>
-      </node>
-      <node id="17">
-        <label>cstddef</label>
-      </node>
-      <node id="21">
-        <label>cstring</label>
-      </node>
-      <node id="13">
-        <label>functional</label>
-      </node>
-      <node id="22">
-        <label>iosfwd</label>
-      </node>
-      <node id="30">
-        <label>iterator</label>
-      </node>
-      <node id="38">
-        <label>limits</label>
-      </node>
-      <node id="12">
-        <label>parallel_hashmap/phmap_fwd_decl.h</label>
-      </node>
-      <node id="11">
-        <label>string</label>
-      </node>
-      <node id="18">
-        <label>type_traits</label>
-      </node>
-      <node id="23">
-        <label>utility</label>
+      <node id="4">
+        <label>MRMeshFwd.h</label>
       </node>
       <node id="10">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="21">
+        <label>MRphmap.h</label>
+      </node>
+      <node id="11">
+        <label>algorithm</label>
+      </node>
+      <node id="18">
+        <label>array</label>
+      </node>
+      <node id="17">
+        <label>cassert</label>
+      </node>
+      <node id="12">
+        <label>cmath</label>
+      </node>
+      <node id="24">
+        <label>concepts</label>
+      </node>
+      <node id="8">
+        <label>cstddef</label>
+      </node>
+      <node id="13">
+        <label>cstring</label>
+      </node>
+      <node id="25">
+        <label>functional</label>
+      </node>
+      <node id="14">
+        <label>iosfwd</label>
+      </node>
+      <node id="26">
+        <label>iterator</label>
+      </node>
+      <node id="35">
+        <label>limits</label>
+      </node>
+      <node id="9">
+        <label>type_traits</label>
+      </node>
+      <node id="15">
+        <label>utility</label>
+      </node>
+      <node id="19">
         <label>vector</label>
       </node>
     </incdepgraph>
@@ -428,16 +396,16 @@
 <codeline lineno="17"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="19" refid="structMR_1_1MeshToDistanceMapParams_1acea3bbf8d8d0c8750d496ed6934725de" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1MeshToDistanceMapParams_1acea3bbf8d8d0c8750d496ed6934725de" kindref="member">MeshToDistanceMapParams</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27" refid="structMR_1_1MeshToDistanceMapParams_1acd9523a7ea030a77856bbadf789bd132" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1MeshToDistanceMapParams_1acd9523a7ea030a77856bbadf789bd132" kindref="member">MeshToDistanceMapParams</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/><ref refid="structMR_1_1MeshToDistanceMapParams_1a251bc8c963a3d914635b6ed3ab80a527" kindref="member">direction</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i&amp;<sp/><ref refid="structMR_1_1MeshToDistanceMapParams_1a7f9d8b8e94b257b2bf65aa10104459c9" kindref="member">resolution</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>usePreciseBoundingBox<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>);</highlight></codeline>
-<codeline lineno="28" refid="structMR_1_1MeshToDistanceMapParams_1adda331f5bf606eb9b53caf3c558a995e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1MeshToDistanceMapParams_1adda331f5bf606eb9b53caf3c558a995e" kindref="member">MeshToDistanceMapParams</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/><ref refid="structMR_1_1MeshToDistanceMapParams_1a251bc8c963a3d914635b6ed3ab80a527" kindref="member">direction</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>pixelSize,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>usePreciseBoundingBox<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="27" refid="structMR_1_1MeshToDistanceMapParams_1acd9523a7ea030a77856bbadf789bd132" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/><ref refid="structMR_1_1MeshToDistanceMapParams_1acd9523a7ea030a77856bbadf789bd132" kindref="member">MeshToDistanceMapParams</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/><ref refid="structMR_1_1MeshToDistanceMapParams_1a251bc8c963a3d914635b6ed3ab80a527" kindref="member">direction</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i&amp;<sp/><ref refid="structMR_1_1MeshToDistanceMapParams_1a7f9d8b8e94b257b2bf65aa10104459c9" kindref="member">resolution</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>usePreciseBoundingBox<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="28" refid="structMR_1_1MeshToDistanceMapParams_1adda331f5bf606eb9b53caf3c558a995e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/><ref refid="structMR_1_1MeshToDistanceMapParams_1adda331f5bf606eb9b53caf3c558a995e" kindref="member">MeshToDistanceMapParams</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/><ref refid="structMR_1_1MeshToDistanceMapParams_1a251bc8c963a3d914635b6ed3ab80a527" kindref="member">direction</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>pixelSize,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>usePreciseBoundingBox<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35" refid="structMR_1_1MeshToDistanceMapParams_1a0c6ccd10574471e4af8efbc69fafa6e8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1MeshToDistanceMapParams_1a0c6ccd10574471e4af8efbc69fafa6e8" kindref="member">MeshToDistanceMapParams</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Matrix3f&amp;<sp/>rotation,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>origin,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i&amp;<sp/><ref refid="structMR_1_1MeshToDistanceMapParams_1a7f9d8b8e94b257b2bf65aa10104459c9" kindref="member">resolution</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/><ref refid="namespaceMR_1a306ff1f62992b3eb33c446913b64188a" kindref="member">size</ref><sp/>);</highlight></codeline>
-<codeline lineno="36" refid="structMR_1_1MeshToDistanceMapParams_1a14db6d93dcb7499b5254dcfdca3449da" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1MeshToDistanceMapParams_1a14db6d93dcb7499b5254dcfdca3449da" kindref="member">MeshToDistanceMapParams</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Matrix3f&amp;<sp/>rotation,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>origin,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>pixelSize,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i&amp;<sp/><ref refid="structMR_1_1MeshToDistanceMapParams_1a7f9d8b8e94b257b2bf65aa10104459c9" kindref="member">resolution</ref><sp/>);</highlight></codeline>
+<codeline lineno="35" refid="structMR_1_1MeshToDistanceMapParams_1a0c6ccd10574471e4af8efbc69fafa6e8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/><ref refid="structMR_1_1MeshToDistanceMapParams_1a0c6ccd10574471e4af8efbc69fafa6e8" kindref="member">MeshToDistanceMapParams</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Matrix3f&amp;<sp/>rotation,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>origin,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i&amp;<sp/><ref refid="structMR_1_1MeshToDistanceMapParams_1a7f9d8b8e94b257b2bf65aa10104459c9" kindref="member">resolution</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/><ref refid="group__GeneralGroup_1ga306ff1f62992b3eb33c446913b64188a" kindref="member">size</ref><sp/>);</highlight></codeline>
+<codeline lineno="36" refid="structMR_1_1MeshToDistanceMapParams_1a14db6d93dcb7499b5254dcfdca3449da" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/><ref refid="structMR_1_1MeshToDistanceMapParams_1a14db6d93dcb7499b5254dcfdca3449da" kindref="member">MeshToDistanceMapParams</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Matrix3f&amp;<sp/>rotation,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>origin,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>pixelSize,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i&amp;<sp/><ref refid="structMR_1_1MeshToDistanceMapParams_1a7f9d8b8e94b257b2bf65aa10104459c9" kindref="member">resolution</ref><sp/>);</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45" refid="structMR_1_1MeshToDistanceMapParams_1a9cd65a60a7f447243861fb42df431beb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1MeshToDistanceMapParams_1a9cd65a60a7f447243861fb42df431beb" kindref="member">MeshToDistanceMapParams</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Matrix3f&amp;<sp/>rotation,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i&amp;<sp/><ref refid="structMR_1_1MeshToDistanceMapParams_1a7f9d8b8e94b257b2bf65aa10104459c9" kindref="member">resolution</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>usePreciseBoundingBox<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="45" refid="structMR_1_1MeshToDistanceMapParams_1a9cd65a60a7f447243861fb42df431beb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/><ref refid="structMR_1_1MeshToDistanceMapParams_1a9cd65a60a7f447243861fb42df431beb" kindref="member">MeshToDistanceMapParams</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Matrix3f&amp;<sp/>rotation,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i&amp;<sp/><ref refid="structMR_1_1MeshToDistanceMapParams_1a7f9d8b8e94b257b2bf65aa10104459c9" kindref="member">resolution</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>usePreciseBoundingBox<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="55" refid="structMR_1_1MeshToDistanceMapParams_1af2eeaa511b9352ea711dc539633b65ec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1MeshToDistanceMapParams_1af2eeaa511b9352ea711dc539633b65ec" kindref="member">MeshToDistanceMapParams</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/><ref refid="structMR_1_1MeshToDistanceMapParams_1ad5c988e350636c3a7804f51132290869" kindref="member">xf</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i&amp;<sp/><ref refid="structMR_1_1MeshToDistanceMapParams_1a7f9d8b8e94b257b2bf65aa10104459c9" kindref="member">resolution</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/><ref refid="namespaceMR_1a306ff1f62992b3eb33c446913b64188a" kindref="member">size</ref><sp/>);</highlight></codeline>
-<codeline lineno="56" refid="structMR_1_1MeshToDistanceMapParams_1a9217a48605a6d5f20c9daf1c4bd74356" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1MeshToDistanceMapParams_1a9217a48605a6d5f20c9daf1c4bd74356" kindref="member">MeshToDistanceMapParams</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/><ref refid="structMR_1_1MeshToDistanceMapParams_1ad5c988e350636c3a7804f51132290869" kindref="member">xf</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>pixelSize,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i&amp;<sp/><ref refid="structMR_1_1MeshToDistanceMapParams_1a7f9d8b8e94b257b2bf65aa10104459c9" kindref="member">resolution</ref><sp/>);</highlight></codeline>
+<codeline lineno="55" refid="structMR_1_1MeshToDistanceMapParams_1af2eeaa511b9352ea711dc539633b65ec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/><ref refid="structMR_1_1MeshToDistanceMapParams_1af2eeaa511b9352ea711dc539633b65ec" kindref="member">MeshToDistanceMapParams</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/><ref refid="structMR_1_1MeshToDistanceMapParams_1ad5c988e350636c3a7804f51132290869" kindref="member">xf</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i&amp;<sp/><ref refid="structMR_1_1MeshToDistanceMapParams_1a7f9d8b8e94b257b2bf65aa10104459c9" kindref="member">resolution</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/><ref refid="group__GeneralGroup_1ga306ff1f62992b3eb33c446913b64188a" kindref="member">size</ref><sp/>);</highlight></codeline>
+<codeline lineno="56" refid="structMR_1_1MeshToDistanceMapParams_1a9217a48605a6d5f20c9daf1c4bd74356" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/><ref refid="structMR_1_1MeshToDistanceMapParams_1a9217a48605a6d5f20c9daf1c4bd74356" kindref="member">MeshToDistanceMapParams</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/><ref refid="structMR_1_1MeshToDistanceMapParams_1ad5c988e350636c3a7804f51132290869" kindref="member">xf</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>pixelSize,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i&amp;<sp/><ref refid="structMR_1_1MeshToDistanceMapParams_1a7f9d8b8e94b257b2bf65aa10104459c9" kindref="member">resolution</ref><sp/>);</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
 <codeline lineno="59" refid="structMR_1_1MeshToDistanceMapParams_1a482fe4d7560bd0ee7537f958da60f404" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal"><sp/>AffineXf3f()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="60"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
@@ -465,7 +433,7 @@
 <codeline lineno="84"><highlight class="normal"></highlight></codeline>
 <codeline lineno="85"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>std::pair&lt;Vector3f,Vector2f&gt;<sp/>orgSizeFromMeshPart_(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Matrix3f&amp;<sp/>rotation,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>presiceBox<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>initFromSize_(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>worldOrientation,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i&amp;<sp/><ref refid="structMR_1_1MeshToDistanceMapParams_1a7f9d8b8e94b257b2bf65aa10104459c9" kindref="member">resolution</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/><ref refid="namespaceMR_1a306ff1f62992b3eb33c446913b64188a" kindref="member">size</ref><sp/>);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>initFromSize_(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>worldOrientation,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i&amp;<sp/><ref refid="structMR_1_1MeshToDistanceMapParams_1a7f9d8b8e94b257b2bf65aa10104459c9" kindref="member">resolution</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/><ref refid="group__GeneralGroup_1ga306ff1f62992b3eb33c446913b64188a" kindref="member">size</ref><sp/>);</highlight></codeline>
 <codeline lineno="88"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="89"><highlight class="normal"></highlight></codeline>
 <codeline lineno="90"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1DistanceMapToWorld" kindref="compound">DistanceMapToWorld</ref>;</highlight></codeline>
@@ -474,18 +442,18 @@
 <codeline lineno="94"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="96" refid="structMR_1_1ContourToDistanceMapParams_1a8c1e602f4300ada7c5982a184ee864b7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1ContourToDistanceMapParams_1a8c1e602f4300ada7c5982a184ee864b7" kindref="member">ContourToDistanceMapParams</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="97"><highlight class="normal"></highlight></codeline>
-<codeline lineno="99" refid="structMR_1_1ContourToDistanceMapParams_1a2259024cb221dfbdaa806a2a0a213bbc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1ContourToDistanceMapParams_1a2259024cb221dfbdaa806a2a0a213bbc" kindref="member">ContourToDistanceMapParams</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i&amp;<sp/><ref refid="structMR_1_1ContourToDistanceMapParams_1a777f64d2a02e161c0c2d62ceb280a2e4" kindref="member">resolution</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>oriPoint,</highlight></codeline>
+<codeline lineno="99" refid="structMR_1_1ContourToDistanceMapParams_1a2259024cb221dfbdaa806a2a0a213bbc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/><ref refid="structMR_1_1ContourToDistanceMapParams_1a2259024cb221dfbdaa806a2a0a213bbc" kindref="member">ContourToDistanceMapParams</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i&amp;<sp/><ref refid="structMR_1_1ContourToDistanceMapParams_1a777f64d2a02e161c0c2d62ceb280a2e4" kindref="member">resolution</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>oriPoint,</highlight></codeline>
 <codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>areaSize,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ContourToDistanceMapParams_1afe6ef70a540df80fca43fb338ca681ce" kindref="member">withSign</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="101"><highlight class="normal"></highlight></codeline>
-<codeline lineno="103" refid="structMR_1_1ContourToDistanceMapParams_1a9e22bbb95e700464aef4f9d5a8809a59" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1ContourToDistanceMapParams_1a9e22bbb95e700464aef4f9d5a8809a59" kindref="member">ContourToDistanceMapParams</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i&amp;<sp/><ref refid="structMR_1_1ContourToDistanceMapParams_1a777f64d2a02e161c0c2d62ceb280a2e4" kindref="member">resolution</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Box2f&amp;<sp/>box,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ContourToDistanceMapParams_1afe6ef70a540df80fca43fb338ca681ce" kindref="member">withSign</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="103" refid="structMR_1_1ContourToDistanceMapParams_1a9e22bbb95e700464aef4f9d5a8809a59" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/><ref refid="structMR_1_1ContourToDistanceMapParams_1a9e22bbb95e700464aef4f9d5a8809a59" kindref="member">ContourToDistanceMapParams</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i&amp;<sp/><ref refid="structMR_1_1ContourToDistanceMapParams_1a777f64d2a02e161c0c2d62ceb280a2e4" kindref="member">resolution</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Box2f&amp;<sp/>box,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ContourToDistanceMapParams_1afe6ef70a540df80fca43fb338ca681ce" kindref="member">withSign</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="104"><highlight class="normal"></highlight></codeline>
-<codeline lineno="106" refid="structMR_1_1ContourToDistanceMapParams_1acb66f00d43a900ccc08dffcb01c8a275" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1ContourToDistanceMapParams_1acb66f00d43a900ccc08dffcb01c8a275" kindref="member">ContourToDistanceMapParams</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i&amp;<sp/><ref refid="structMR_1_1ContourToDistanceMapParams_1a777f64d2a02e161c0c2d62ceb280a2e4" kindref="member">resolution</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a8746fbb8e09652c686ff0dcf8c01804c" kindref="member">Contours2f</ref>&amp;<sp/>contours,</highlight></codeline>
+<codeline lineno="106" refid="structMR_1_1ContourToDistanceMapParams_1acb66f00d43a900ccc08dffcb01c8a275" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/><ref refid="structMR_1_1ContourToDistanceMapParams_1acb66f00d43a900ccc08dffcb01c8a275" kindref="member">ContourToDistanceMapParams</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2i&amp;<sp/><ref refid="structMR_1_1ContourToDistanceMapParams_1a777f64d2a02e161c0c2d62ceb280a2e4" kindref="member">resolution</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Contours2f&amp;<sp/>contours,</highlight></codeline>
 <codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offset,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ContourToDistanceMapParams_1afe6ef70a540df80fca43fb338ca681ce" kindref="member">withSign</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="108"><highlight class="normal"></highlight></codeline>
-<codeline lineno="110" refid="structMR_1_1ContourToDistanceMapParams_1a35d5b9755c07b5533beef9aa20da8127" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1ContourToDistanceMapParams_1a35d5b9755c07b5533beef9aa20da8127" kindref="member">ContourToDistanceMapParams</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ContourToDistanceMapParams_1af6e89dcef8c3cd2419a4cd2dbb77015f" kindref="member">pixelSize</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a8746fbb8e09652c686ff0dcf8c01804c" kindref="member">Contours2f</ref>&amp;<sp/>contours,</highlight></codeline>
+<codeline lineno="110" refid="structMR_1_1ContourToDistanceMapParams_1a35d5b9755c07b5533beef9aa20da8127" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/><ref refid="structMR_1_1ContourToDistanceMapParams_1a35d5b9755c07b5533beef9aa20da8127" kindref="member">ContourToDistanceMapParams</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ContourToDistanceMapParams_1af6e89dcef8c3cd2419a4cd2dbb77015f" kindref="member">pixelSize</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Contours2f&amp;<sp/>contours,</highlight></codeline>
 <codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offset,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ContourToDistanceMapParams_1afe6ef70a540df80fca43fb338ca681ce" kindref="member">withSign</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="112"><highlight class="normal"></highlight></codeline>
-<codeline lineno="113" refid="structMR_1_1ContourToDistanceMapParams_1abbd8dedf69e38f74671e46abe6e1ad92" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ContourToDistanceMapParams_1abbd8dedf69e38f74671e46abe6e1ad92" kindref="member">ContourToDistanceMapParams</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1DistanceMapToWorld" kindref="compound">DistanceMapToWorld</ref>&amp;<sp/><ref refid="structMR_1_1ContourToDistanceMapParams_1aab02976e948f14539479e1305e319e3d" kindref="member">toWorld</ref><sp/>);</highlight></codeline>
+<codeline lineno="113" refid="structMR_1_1ContourToDistanceMapParams_1abbd8dedf69e38f74671e46abe6e1ad92" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ContourToDistanceMapParams_1abbd8dedf69e38f74671e46abe6e1ad92" kindref="member">ContourToDistanceMapParams</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1DistanceMapToWorld" kindref="compound">DistanceMapToWorld</ref>&amp;<sp/><ref refid="structMR_1_1ContourToDistanceMapParams_1aab02976e948f14539479e1305e319e3d" kindref="member">toWorld</ref><sp/>);</highlight></codeline>
 <codeline lineno="116" refid="structMR_1_1ContourToDistanceMapParams_1aab02976e948f14539479e1305e319e3d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector2f<sp/><ref refid="structMR_1_1ContourToDistanceMapParams_1aab02976e948f14539479e1305e319e3d" kindref="member">toWorld</ref>(<sp/>Vector2f<sp/>point<sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="117"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ContourToDistanceMapParams_1a7a018eb39177bd2bf920601b6a61d8b6" kindref="member">orgPoint</ref><sp/>+<sp/>Vector2f{<sp/><ref refid="structMR_1_1ContourToDistanceMapParams_1af6e89dcef8c3cd2419a4cd2dbb77015f" kindref="member">pixelSize</ref>.x<sp/>*<sp/>point.x,<sp/><ref refid="structMR_1_1ContourToDistanceMapParams_1af6e89dcef8c3cd2419a4cd2dbb77015f" kindref="member">pixelSize</ref>.y<sp/>*<sp/>point.y<sp/>};</highlight></codeline>
@@ -507,9 +475,9 @@
 <codeline lineno="136"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="138" refid="structMR_1_1DistanceMapToWorld_1a118712037e7a77efe4bad0bf7ee6d591" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1DistanceMapToWorld_1a118712037e7a77efe4bad0bf7ee6d591" kindref="member">DistanceMapToWorld</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="139"><highlight class="normal"></highlight></codeline>
-<codeline lineno="141" refid="structMR_1_1DistanceMapToWorld_1aee6ea73dd4b8ce002eaa164c6d5e45f5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1DistanceMapToWorld_1aee6ea73dd4b8ce002eaa164c6d5e45f5" kindref="member">DistanceMapToWorld</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshToDistanceMapParams" kindref="compound">MeshToDistanceMapParams</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
+<codeline lineno="141" refid="structMR_1_1DistanceMapToWorld_1aee6ea73dd4b8ce002eaa164c6d5e45f5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/><ref refid="structMR_1_1DistanceMapToWorld_1aee6ea73dd4b8ce002eaa164c6d5e45f5" kindref="member">DistanceMapToWorld</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshToDistanceMapParams" kindref="compound">MeshToDistanceMapParams</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
 <codeline lineno="142"><highlight class="normal"></highlight></codeline>
-<codeline lineno="144" refid="structMR_1_1DistanceMapToWorld_1a45d71d4ab5dd33dbd4ef7b7b6eb16468" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1DistanceMapToWorld_1a45d71d4ab5dd33dbd4ef7b7b6eb16468" kindref="member">DistanceMapToWorld</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ContourToDistanceMapParams" kindref="compound">ContourToDistanceMapParams</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
+<codeline lineno="144" refid="structMR_1_1DistanceMapToWorld_1a45d71d4ab5dd33dbd4ef7b7b6eb16468" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/><ref refid="structMR_1_1DistanceMapToWorld_1a45d71d4ab5dd33dbd4ef7b7b6eb16468" kindref="member">DistanceMapToWorld</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ContourToDistanceMapParams" kindref="compound">ContourToDistanceMapParams</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
 <codeline lineno="145"><highlight class="normal"></highlight></codeline>
 <codeline lineno="147" refid="structMR_1_1DistanceMapToWorld_1a58ecb87a75e584402ddd3420513d89df" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1DistanceMapToWorld_1a58ecb87a75e584402ddd3420513d89df" kindref="member">DistanceMapToWorld</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f<sp/>&amp;<sp/><ref refid="structMR_1_1DistanceMapToWorld_1a0360bc9aa1c6d3b0fbb427a31737d45e" kindref="member">xf</ref><sp/>)</highlight></codeline>
 <codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="structMR_1_1DistanceMapToWorld_1a32e6a45804b42ebcebd70500b984bc2a" kindref="member">orgPoint</ref>(<sp/><ref refid="structMR_1_1DistanceMapToWorld_1a0360bc9aa1c6d3b0fbb427a31737d45e" kindref="member">xf</ref>.b<sp/>)</highlight></codeline>
@@ -540,13 +508,13 @@
 <codeline lineno="188" refid="structMR_1_1DistanceMapLoadSettings" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1DistanceMapLoadSettings" kindref="compound">DistanceMapLoadSettings</ref></highlight></codeline>
 <codeline lineno="189"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="191" refid="structMR_1_1DistanceMapLoadSettings_1a4329716168946bea274736a95808880e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1DistanceMapToWorld" kindref="compound">DistanceMapToWorld</ref>*<sp/><ref refid="structMR_1_1DistanceMapLoadSettings_1a4329716168946bea274736a95808880e" kindref="member">distanceMapToWorld</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="193" refid="structMR_1_1DistanceMapLoadSettings_1ac98a6aecff7b146c598462c9c382a18f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/><ref refid="structMR_1_1DistanceMapLoadSettings_1ac98a6aecff7b146c598462c9c382a18f" kindref="member">progress</ref>;</highlight></codeline>
+<codeline lineno="193" refid="structMR_1_1DistanceMapLoadSettings_1ac98a6aecff7b146c598462c9c382a18f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ProgressCallback<sp/><ref refid="structMR_1_1DistanceMapLoadSettings_1ac98a6aecff7b146c598462c9c382a18f" kindref="member">progress</ref>;</highlight></codeline>
 <codeline lineno="194"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="195"><highlight class="normal"></highlight></codeline>
 <codeline lineno="197" refid="structMR_1_1DistanceMapSaveSettings" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1DistanceMapSaveSettings" kindref="compound">DistanceMapSaveSettings</ref></highlight></codeline>
 <codeline lineno="198"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="200" refid="structMR_1_1DistanceMapSaveSettings_1a9f997144e49ed33ed02e13c2f32edbf0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f*<sp/><ref refid="structMR_1_1DistanceMapSaveSettings_1a9f997144e49ed33ed02e13c2f32edbf0" kindref="member">xf</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="202" refid="structMR_1_1DistanceMapSaveSettings_1aec3a1ee780a0e876728e2fcfab35daa2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/><ref refid="structMR_1_1DistanceMapSaveSettings_1aec3a1ee780a0e876728e2fcfab35daa2" kindref="member">progress</ref>;</highlight></codeline>
+<codeline lineno="202" refid="structMR_1_1DistanceMapSaveSettings_1aec3a1ee780a0e876728e2fcfab35daa2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ProgressCallback<sp/><ref refid="structMR_1_1DistanceMapSaveSettings_1aec3a1ee780a0e876728e2fcfab35daa2" kindref="member">progress</ref>;</highlight></codeline>
 <codeline lineno="203"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="204"><highlight class="normal"></highlight></codeline>
 <codeline lineno="206"><highlight class="normal"></highlight></codeline>

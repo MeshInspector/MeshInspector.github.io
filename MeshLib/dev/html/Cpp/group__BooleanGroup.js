@@ -29,23 +29,23 @@ var group__BooleanGroup =
       [ "originalMeshB", "structMR_1_1BooleanInternalParameters.html#a9564c4edb40ecc90fa59bfc7a9342bc5", null ]
     ] ],
     [ "MR::NewEdgesMap", "structMR_1_1NewEdgesMap.html", [
-      [ "map", "structMR_1_1NewEdgesMap.html#a1d44ed6247b64a9007baa4bbbf2903aa", null ],
-      [ "splitEdges", "structMR_1_1NewEdgesMap.html#a3af4a8bfbe6579dc273d0b9f368f77aa", null ]
+      [ "map", "group__GeneralGroup.html#ga1d44ed6247b64a9007baa4bbbf2903aa", null ],
+      [ "splitEdges", "group__GeneralGroup.html#ga3af4a8bfbe6579dc273d0b9f368f77aa", null ]
     ] ],
     [ "MR::CutMeshParameters", "structMR_1_1CutMeshParameters.html", [
-      [ "ForceFill", "structMR_1_1CutMeshParameters.html#ae51d141aa40e0f91506f4921b6797a33", [
-        [ "None", "structMR_1_1CutMeshParameters.html#ae51d141aa40e0f91506f4921b6797a33a6adf97f83acf6453d4a6a4b1070f3754", null ],
-        [ "Good", "structMR_1_1CutMeshParameters.html#ae51d141aa40e0f91506f4921b6797a33a0c6ad70beb3a7e76c3fc7adab7c46acc", null ],
-        [ "All", "structMR_1_1CutMeshParameters.html#ae51d141aa40e0f91506f4921b6797a33ab1c94ca2fbc3e78fc30069c8d0f01680", null ]
+      [ "ForceFill", "group__GeneralGroup.html#gae51d141aa40e0f91506f4921b6797a33", [
+        [ "None", "group__GeneralGroup.html#ggae51d141aa40e0f91506f4921b6797a33a6adf97f83acf6453d4a6a4b1070f3754", null ],
+        [ "Good", "group__GeneralGroup.html#ggae51d141aa40e0f91506f4921b6797a33a0c6ad70beb3a7e76c3fc7adab7c46acc", null ],
+        [ "All", "group__GeneralGroup.html#ggae51d141aa40e0f91506f4921b6797a33ab1c94ca2fbc3e78fc30069c8d0f01680", null ]
       ] ],
-      [ "new2oldEdgesMap", "structMR_1_1CutMeshParameters.html#ae4b1e4cc599311ec4eaa5e0d7f90518b", null ],
-      [ "new2OldMap", "structMR_1_1CutMeshParameters.html#a75222f670fe00aaef7a945b8ccbb3ea9", null ],
-      [ "None", "structMR_1_1CutMeshParameters.html#a4c3c99dc26d25d555e9ebf6c6dfc5cbf", null ],
-      [ "sortData", "structMR_1_1CutMeshParameters.html#a3aaef62dde9c7e4727195071089e409f", null ]
+      [ "new2oldEdgesMap", "group__GeneralGroup.html#gae4b1e4cc599311ec4eaa5e0d7f90518b", null ],
+      [ "new2OldMap", "group__GeneralGroup.html#ga75222f670fe00aaef7a945b8ccbb3ea9", null ],
+      [ "None", "group__GeneralGroup.html#ga4c3c99dc26d25d555e9ebf6c6dfc5cbf", null ],
+      [ "sortData", "group__GeneralGroup.html#ga3aaef62dde9c7e4727195071089e409f", null ]
     ] ],
     [ "MR::CutMeshResult", "structMR_1_1CutMeshResult.html", [
-      [ "fbsWithContourIntersections", "structMR_1_1CutMeshResult.html#aca01891e95be4a6f3cb7168e88a33aac", null ],
-      [ "resultCut", "structMR_1_1CutMeshResult.html#a5fd92baa79aac5e503e3310ab91fb400", null ]
+      [ "fbsWithContourIntersections", "group__GeneralGroup.html#gaca01891e95be4a6f3cb7168e88a33aac", null ],
+      [ "resultCut", "group__GeneralGroup.html#ga5fd92baa79aac5e503e3310ab91fb400", null ]
     ] ],
     [ "MR::BooleanResult", "structMR_1_1BooleanResult.html", [
       [ "operator bool", "structMR_1_1BooleanResult.html#ab6a130e652e944be8b2d65e3ea1c273a", null ],

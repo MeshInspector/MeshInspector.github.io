@@ -4,52 +4,21 @@
     <compoundname>MR::VolumeToMeshByPartsSettings</compoundname>
     <includes refid="MRVoxelsConversionsByParts_8h" local="no">MRVoxelsConversionsByParts.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1VolumeToMeshByPartsSettings_1addf979a4cc4d34fb2f506e84d1a9cf7a" prot="public" static="no" mutable="no">
-        <type>size_t</type>
-        <definition>size_t MR::VolumeToMeshByPartsSettings::maxVolumePartMemoryUsage</definition>
-        <argsstring></argsstring>
-        <name>maxVolumePartMemoryUsage</name>
-        <qualifiedname>MR::VolumeToMeshByPartsSettings::maxVolumePartMemoryUsage</qualifiedname>
-        <initializer>= 2 &lt;&lt; 28</initializer>
-        <briefdescription>
-<para>the upper limit of memory amount used to store a voxel volume part </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsConversionsByParts.h" line="79" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsConversionsByParts.h" bodystart="79" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1VolumeToMeshByPartsSettings_1a49895c0e58dfde0834b03dcc99e6279c" prot="public" static="no" mutable="no">
-        <type>size_t</type>
-        <definition>size_t MR::VolumeToMeshByPartsSettings::stripeOverlap</definition>
-        <argsstring></argsstring>
-        <name>stripeOverlap</name>
-        <qualifiedname>MR::VolumeToMeshByPartsSettings::stripeOverlap</qualifiedname>
-        <initializer>= 4</initializer>
-        <briefdescription>
-<para>overlap in voxels between two parts </para>
-        </briefdescription>
-        <detaileddescription>
-<para>256 MiB </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsConversionsByParts.h" line="81" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsConversionsByParts.h" bodystart="81" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaddf979a4cc4d34fb2f506e84d1a9cf7a" kind="variable"><name>maxVolumePartMemoryUsage</name></member>
+      <member refid="group__GeneralGroup_1ga49895c0e58dfde0834b03dcc99e6279c" kind="variable"><name>stripeOverlap</name></member>
     </sectiondef>
     <briefdescription>
-<para>Parameters&apos; structure for <ref refid="namespaceMR_1ae7cf10a1862176d00de13d2fa27371b9" kindref="member">MR::volumeToMeshByParts</ref>. </para>
+<para>Parameters&apos; structure for <ref refid="group__GeneralGroup_1gae7cf10a1862176d00de13d2fa27371b9" kindref="member">MR::volumeToMeshByParts</ref>. </para>
     </briefdescription>
     <detaileddescription>
-<para><simplesect kind="see"><para><ref refid="namespaceMR_1ae7cf10a1862176d00de13d2fa27371b9" kindref="member">volumeToMeshByParts</ref> </para>
+<para><simplesect kind="see"><para><ref refid="group__GeneralGroup_1gae7cf10a1862176d00de13d2fa27371b9" kindref="member">volumeToMeshByParts</ref> </para>
 </simplesect>
 </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsConversionsByParts.h" line="76" column="1"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsConversionsByParts.h" line="79" column="1"/>
     <listofallmembers>
-      <member refid="structMR_1_1VolumeToMeshByPartsSettings_1addf979a4cc4d34fb2f506e84d1a9cf7a" prot="public" virt="non-virtual"><scope>MR::VolumeToMeshByPartsSettings</scope><name>maxVolumePartMemoryUsage</name></member>
-      <member refid="structMR_1_1VolumeToMeshByPartsSettings_1a49895c0e58dfde0834b03dcc99e6279c" prot="public" virt="non-virtual"><scope>MR::VolumeToMeshByPartsSettings</scope><name>stripeOverlap</name></member>
+      <member refid="group__GeneralGroup_1gaddf979a4cc4d34fb2f506e84d1a9cf7a" prot="public" virt="non-virtual"><scope>MR::VolumeToMeshByPartsSettings</scope><name>maxVolumePartMemoryUsage</name></member>
+      <member refid="group__GeneralGroup_1ga49895c0e58dfde0834b03dcc99e6279c" prot="public" virt="non-virtual"><scope>MR::VolumeToMeshByPartsSettings</scope><name>stripeOverlap</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -217,7 +217,7 @@
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="group__MeshLoadObjGroup_1gab52f28ac17e79efc94fc00389e683c02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; std::vector&lt; NamedMesh &gt; &gt;</type>
+        <type>MRMESH_API Expected&lt; std::vector&lt; NamedMesh &gt; &gt;</type>
         <definition>MRMESH_API Expected&lt; std::vector&lt; NamedMesh &gt; &gt; MR::MeshLoad::fromSceneObjFile</definition>
         <argsstring>(const std::filesystem::path &amp;file, bool combineAllObjects, const ObjLoadSettings &amp;settings={})</argsstring>
         <name>fromSceneObjFile</name>
@@ -245,7 +245,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" line="60" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" declline="60" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshLoadObjGroup_1ga0a0e35247ea58005627d346e49a5de82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; std::vector&lt; NamedMesh &gt; &gt;</type>
+        <type>MRMESH_API Expected&lt; std::vector&lt; NamedMesh &gt; &gt;</type>
         <definition>MRMESH_API Expected&lt; std::vector&lt; NamedMesh &gt; &gt; MR::MeshLoad::fromSceneObjFile</definition>
         <argsstring>(std::istream &amp;in, bool combineAllObjects, const std::filesystem::path &amp;dir, const ObjLoadSettings &amp;settings={})</argsstring>
         <name>fromSceneObjFile</name>
@@ -286,7 +286,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" line="66" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" declline="66" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshLoadObjGroup_1ga11ad7be5532b39f13f4f6df8f2b49fe7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; std::vector&lt; NamedMesh &gt; &gt;</type>
+        <type>MRMESH_API Expected&lt; std::vector&lt; NamedMesh &gt; &gt;</type>
         <definition>MRMESH_API Expected&lt; std::vector&lt; NamedMesh &gt; &gt; MR::MeshLoad::fromSceneObjFile</definition>
         <argsstring>(const char *data, size_t size, bool combineAllObjects, const std::filesystem::path &amp;dir, const ObjLoadSettings &amp;settings={})</argsstring>
         <name>fromSceneObjFile</name>
@@ -331,7 +331,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" line="71" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadObj.h" declline="71" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshLoadObjGroup_1gae5d6ebb9bff1143f8f529031d34001f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; LoadedObjects &gt;</type>
+        <type>MRMESH_API Expected&lt; LoadedObjects &gt;</type>
         <definition>MRMESH_API Expected&lt; LoadedObjects &gt; MR::MeshLoad::loadObjectFromObj</definition>
         <argsstring>(const std::filesystem::path &amp;file, const ProgressCallback &amp;cb={})</argsstring>
         <name>loadObjectFromObj</name>

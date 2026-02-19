@@ -3,174 +3,33 @@
   <compounddef id="classMR_1_1TouchesController_1_1MultiInfo" kind="class" language="C++" prot="private">
     <compoundname>MR::TouchesController::MultiInfo</compoundname>
     <sectiondef kind="public-type">
-      <memberdef kind="enum" id="classMR_1_1TouchesController_1_1MultiInfo_1ad95ec3590677f5afd0f6674057b203a7" prot="public" static="no" strong="yes">
-        <type></type>
-        <name>Finger</name>
-        <qualifiedname>MR::TouchesController::MultiInfo::Finger</qualifiedname>
-        <enumvalue id="classMR_1_1TouchesController_1_1MultiInfo_1ad95ec3590677f5afd0f6674057b203a7a7fb55ed0b7a30342ba6da306428cae04" prot="public">
-          <name>First</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1TouchesController_1_1MultiInfo_1ad95ec3590677f5afd0f6674057b203a7ac22cf8376b1893dcfcef0649fe1a7d87" prot="public">
-          <name>Second</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" line="53" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" bodystart="54" bodyend="57"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gad95ec3590677f5afd0f6674057b203a7" kind="enum"><name>Finger</name></member>
     </sectiondef>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1TouchesController_1_1MultiInfo_1a079d0fbdec472822e80b2f05d3c195ff" prot="private" static="no" mutable="no">
-        <type>std::array&lt; Info, 2 &gt;</type>
-        <definition>std::array&lt;Info,2&gt; MR::TouchesController::MultiInfo::info_</definition>
-        <argsstring></argsstring>
-        <name>info_</name>
-        <qualifiedname>MR::TouchesController::MultiInfo::info_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" line="64" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" bodystart="64" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga079d0fbdec472822e80b2f05d3c195ff" kind="variable"><name>info_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1TouchesController_1_1MultiInfo_1a5d8a10dcf681e3011b7057ab3782dfd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::TouchesController::MultiInfo::update</definition>
-        <argsstring>(Info info, bool remove=false)</argsstring>
-        <name>update</name>
-        <qualifiedname>MR::TouchesController::MultiInfo::update</qualifiedname>
-        <param>
-          <type>Info</type>
-          <declname>info</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>remove</declname>
-          <defval>false</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" line="52" column="14"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1TouchesController_1_1MultiInfo_1a2b91fec05b7357790177b622f99fa9f3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>std::optional&lt; Vector2f &gt;</type>
-        <definition>std::optional&lt; Vector2f &gt; MR::TouchesController::MultiInfo::getPosition</definition>
-        <argsstring>(Finger fing) const</argsstring>
-        <name>getPosition</name>
-        <qualifiedname>MR::TouchesController::MultiInfo::getPosition</qualifiedname>
-        <param>
-          <type>Finger</type>
-          <declname>fing</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" line="58" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1TouchesController_1_1MultiInfo_1afc5ff6d02bf3172cd6751d84141a6136" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>std::optional&lt; Vector2f &gt;</type>
-        <definition>std::optional&lt; Vector2f &gt; MR::TouchesController::MultiInfo::getPosition</definition>
-        <argsstring>(int id) const</argsstring>
-        <name>getPosition</name>
-        <qualifiedname>MR::TouchesController::MultiInfo::getPosition</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>id</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" line="59" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1TouchesController_1_1MultiInfo_1a1b9c7af06580db35681b3d42eb3c8901" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>std::optional&lt; Finger &gt;</type>
-        <definition>std::optional&lt; Finger &gt; MR::TouchesController::MultiInfo::getFingerById</definition>
-        <argsstring>(int id) const</argsstring>
-        <name>getFingerById</name>
-        <qualifiedname>MR::TouchesController::MultiInfo::getFingerById</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>id</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" line="60" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1TouchesController_1_1MultiInfo_1ab96951ae6504447e29dfe43519d814f9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>std::optional&lt; int &gt;</type>
-        <definition>std::optional&lt; int &gt; MR::TouchesController::MultiInfo::getIdByFinger</definition>
-        <argsstring>(Finger fing) const</argsstring>
-        <name>getIdByFinger</name>
-        <qualifiedname>MR::TouchesController::MultiInfo::getIdByFinger</qualifiedname>
-        <param>
-          <type>Finger</type>
-          <declname>fing</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" line="61" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1TouchesController_1_1MultiInfo_1a59b5523f0199404f0b9642e0dec5b46b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>int</type>
-        <definition>int MR::TouchesController::MultiInfo::getNumPressed</definition>
-        <argsstring>() const</argsstring>
-        <name>getNumPressed</name>
-        <qualifiedname>MR::TouchesController::MultiInfo::getNumPressed</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" line="62" column="13"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga5d8a10dcf681e3011b7057ab3782dfd3" kind="function"><name>update</name></member>
+      <member refid="group__GeneralGroup_1ga2b91fec05b7357790177b622f99fa9f3" kind="function"><name>getPosition</name></member>
+      <member refid="group__GeneralGroup_1gafc5ff6d02bf3172cd6751d84141a6136" kind="function"><name>getPosition</name></member>
+      <member refid="group__GeneralGroup_1ga1b9c7af06580db35681b3d42eb3c8901" kind="function"><name>getFingerById</name></member>
+      <member refid="group__GeneralGroup_1gab96951ae6504447e29dfe43519d814f9" kind="function"><name>getIdByFinger</name></member>
+      <member refid="group__GeneralGroup_1ga59b5523f0199404f0b9642e0dec5b46b" kind="function"><name>getNumPressed</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" line="49" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" bodystart="50" bodyend="65"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" line="52" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" bodystart="53" bodyend="68"/>
     <listofallmembers>
-      <member refid="classMR_1_1TouchesController_1_1MultiInfo_1ad95ec3590677f5afd0f6674057b203a7" prot="public" virt="non-virtual"><scope>MR::TouchesController::MultiInfo</scope><name>Finger</name></member>
-      <member refid="classMR_1_1TouchesController_1_1MultiInfo_1a1b9c7af06580db35681b3d42eb3c8901" prot="public" virt="non-virtual"><scope>MR::TouchesController::MultiInfo</scope><name>getFingerById</name></member>
-      <member refid="classMR_1_1TouchesController_1_1MultiInfo_1ab96951ae6504447e29dfe43519d814f9" prot="public" virt="non-virtual"><scope>MR::TouchesController::MultiInfo</scope><name>getIdByFinger</name></member>
-      <member refid="classMR_1_1TouchesController_1_1MultiInfo_1a59b5523f0199404f0b9642e0dec5b46b" prot="public" virt="non-virtual"><scope>MR::TouchesController::MultiInfo</scope><name>getNumPressed</name></member>
-      <member refid="classMR_1_1TouchesController_1_1MultiInfo_1a2b91fec05b7357790177b622f99fa9f3" prot="public" virt="non-virtual"><scope>MR::TouchesController::MultiInfo</scope><name>getPosition</name></member>
-      <member refid="classMR_1_1TouchesController_1_1MultiInfo_1afc5ff6d02bf3172cd6751d84141a6136" prot="public" virt="non-virtual"><scope>MR::TouchesController::MultiInfo</scope><name>getPosition</name></member>
-      <member refid="classMR_1_1TouchesController_1_1MultiInfo_1a079d0fbdec472822e80b2f05d3c195ff" prot="private" virt="non-virtual"><scope>MR::TouchesController::MultiInfo</scope><name>info_</name></member>
-      <member refid="classMR_1_1TouchesController_1_1MultiInfo_1a5d8a10dcf681e3011b7057ab3782dfd3" prot="public" virt="non-virtual"><scope>MR::TouchesController::MultiInfo</scope><name>update</name></member>
+      <member refid="group__GeneralGroup_1gad95ec3590677f5afd0f6674057b203a7" prot="public" virt="non-virtual"><scope>MR::TouchesController::MultiInfo</scope><name>Finger</name></member>
+      <member refid="group__GeneralGroup_1ga1b9c7af06580db35681b3d42eb3c8901" prot="public" virt="non-virtual"><scope>MR::TouchesController::MultiInfo</scope><name>getFingerById</name></member>
+      <member refid="group__GeneralGroup_1gab96951ae6504447e29dfe43519d814f9" prot="public" virt="non-virtual"><scope>MR::TouchesController::MultiInfo</scope><name>getIdByFinger</name></member>
+      <member refid="group__GeneralGroup_1ga59b5523f0199404f0b9642e0dec5b46b" prot="public" virt="non-virtual"><scope>MR::TouchesController::MultiInfo</scope><name>getNumPressed</name></member>
+      <member refid="group__GeneralGroup_1ga2b91fec05b7357790177b622f99fa9f3" prot="public" virt="non-virtual"><scope>MR::TouchesController::MultiInfo</scope><name>getPosition</name></member>
+      <member refid="group__GeneralGroup_1gafc5ff6d02bf3172cd6751d84141a6136" prot="public" virt="non-virtual"><scope>MR::TouchesController::MultiInfo</scope><name>getPosition</name></member>
+      <member refid="group__GeneralGroup_1ga079d0fbdec472822e80b2f05d3c195ff" prot="private" virt="non-virtual"><scope>MR::TouchesController::MultiInfo</scope><name>info_</name></member>
+      <member refid="group__GeneralGroup_1ga5d8a10dcf681e3011b7057ab3782dfd3" prot="public" virt="non-virtual"><scope>MR::TouchesController::MultiInfo</scope><name>update</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

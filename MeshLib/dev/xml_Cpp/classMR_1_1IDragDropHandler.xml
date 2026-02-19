@@ -4,29 +4,16 @@
     <compoundname>MR::IDragDropHandler</compoundname>
     <includes refid="MRDragDropHandler_8h" local="no">MRDragDropHandler.h</includes>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1IDragDropHandler_1a89d2434cf631084a41b1e4afa7ba1060" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type></type>
-        <definition>virtual MR::IDragDropHandler::~IDragDropHandler</definition>
-        <argsstring>()=default</argsstring>
-        <name>~IDragDropHandler</name>
-        <qualifiedname>MR::IDragDropHandler::~IDragDropHandler</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDragDropHandler.h" line="13" column="13"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga89d2434cf631084a41b1e4afa7ba1060" kind="function"><name>~IDragDropHandler</name></member>
     </sectiondef>
     <briefdescription>
 <para>this class is needed to emit detailed Drag &amp; Drop events to <ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref> on different platforms </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDragDropHandler.h" line="10" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDragDropHandler.h" bodystart="11" bodyend="14"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDragDropHandler.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDragDropHandler.h" bodystart="14" bodyend="17"/>
     <listofallmembers>
-      <member refid="classMR_1_1IDragDropHandler_1a89d2434cf631084a41b1e4afa7ba1060" prot="public" virt="virtual"><scope>MR::IDragDropHandler</scope><name>~IDragDropHandler</name></member>
+      <member refid="group__GeneralGroup_1ga89d2434cf631084a41b1e4afa7ba1060" prot="public" virt="virtual"><scope>MR::IDragDropHandler</scope><name>~IDragDropHandler</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

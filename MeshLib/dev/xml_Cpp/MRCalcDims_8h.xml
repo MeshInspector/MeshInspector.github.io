@@ -2,84 +2,86 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="MRCalcDims_8h" kind="file" language="C++">
     <compoundname>MRCalcDims.h</compoundname>
-    <includes refid="MRVoxelsFwd_8h" local="yes">MRVoxelsFwd.h</includes>
+    <includes local="yes">MRVoxelsFwd.h</includes>
     <includes refid="MRVector3_8h" local="no">MRMesh/MRVector3.h</includes>
     <includes refid="MRBox_8h" local="no">MRMesh/MRBox.h</includes>
     <incdepgraph>
-      <node id="28">
+      <node id="19">
         <label>MRAffineXf.h</label>
         <link refid="MRAffineXf_8h"/>
-        <childnode refid="7" relation="include">
-        </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="23" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="26">
+      <node id="17">
         <label>MRAffineXf3.h</label>
         <link refid="MRAffineXf3_8h"/>
-        <childnode refid="27" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
-        <childnode refid="28" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
       </node>
-      <node id="25">
+      <node id="16">
         <label>MRMesh/MRBox.h</label>
         <link refid="MRBox_8h"/>
-        <childnode refid="7" relation="include">
-        </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="26" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="29" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
         <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
         <childnode refid="23" relation="include">
         </childnode>
-        <childnode refid="30" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-      </node>
-      <node id="6">
-        <label>MRMesh/MRCanonicalTypedefs.h</label>
-        <link refid="MRCanonicalTypedefs_8h"/>
         <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="19">
+      <node id="9">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
-      <node id="7">
-        <label>MRMesh/MRMacros.h</label>
+      <node id="4">
+        <label>MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
-      <node id="27">
+      <node id="18">
         <label>MRMatrix3.h</label>
         <link refid="MRMatrix3_8h"/>
-        <childnode refid="7" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="23" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
       </node>
-      <node id="4">
-        <label>MRMesh/MRMeshFwd.h</label>
-        <link refid="MRMeshFwd_8h"/>
-        <childnode refid="5" relation="include">
-        </childnode>
+      <node id="5">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
         <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRMesh/MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
@@ -95,119 +97,67 @@
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
-      </node>
-      <node id="16">
-        <label>MRMesh/MRUnsigned.h</label>
-        <link refid="MRUnsigned_8h"/>
-        <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
       </node>
-      <node id="15">
-        <label>MRMesh/MRVector3.h</label>
-        <link refid="MRVector3_8h"/>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
+      <node id="20">
+        <label>MRVectorTraits.h</label>
+        <link refid="MRMesh_2MRVectorTraits_8h"/>
         <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="22" relation="include">
         </childnode>
-        <childnode refid="23" relation="include">
-        </childnode>
-        <childnode refid="24" relation="include">
-        </childnode>
-      </node>
-      <node id="29">
-        <label>MRVectorTraits.h</label>
-        <link refid="MRMesh_2MRVectorTraits_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-      </node>
-      <node id="5">
-        <label>config.h</label>
-        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
         <label>MRCalcDims.h</label>
         <link refid="MRCalcDims_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="25" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
+      </node>
+      <node id="21">
+        <label>MRMesh/MRMeshFwd.h</label>
+      </node>
+      <node id="8">
+        <label>MRMeshFwd.h</label>
+      </node>
+      <node id="10">
+        <label>MRPch/MRBindingMacros.h</label>
       </node>
       <node id="2">
         <label>MRVoxelsFwd.h</label>
-        <link refid="MRVoxelsFwd_8h"/>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-      </node>
-      <node id="3">
-        <label>config.h</label>
-        <link refid="MRVoxels_2config_8h"/>
-      </node>
-      <node id="8">
-        <label>MRPch/MRBindingMacros.h</label>
-      </node>
-      <node id="20">
-        <label>algorithm</label>
-      </node>
-      <node id="9">
-        <label>array</label>
-      </node>
-      <node id="14">
-        <label>cassert</label>
-      </node>
-      <node id="21">
-        <label>cmath</label>
-      </node>
-      <node id="17">
-        <label>cstddef</label>
-      </node>
-      <node id="22">
-        <label>cstring</label>
-      </node>
-      <node id="13">
-        <label>functional</label>
-      </node>
-      <node id="23">
-        <label>iosfwd</label>
-      </node>
-      <node id="30">
-        <label>limits</label>
-      </node>
-      <node id="12">
-        <label>parallel_hashmap/phmap_fwd_decl.h</label>
       </node>
       <node id="11">
-        <label>string</label>
+        <label>algorithm</label>
       </node>
-      <node id="18">
+      <node id="22">
+        <label>cassert</label>
+      </node>
+      <node id="12">
+        <label>cmath</label>
+      </node>
+      <node id="6">
+        <label>cstddef</label>
+      </node>
+      <node id="13">
+        <label>cstring</label>
+      </node>
+      <node id="14">
+        <label>iosfwd</label>
+      </node>
+      <node id="23">
+        <label>limits</label>
+      </node>
+      <node id="7">
         <label>type_traits</label>
       </node>
-      <node id="24">
+      <node id="15">
         <label>utility</label>
-      </node>
-      <node id="10">
-        <label>vector</label>
       </node>
     </incdepgraph>
     <innerclass refid="structMR_1_1OriginAndDimensions" prot="public">MR::OriginAndDimensions</innerclass>
@@ -219,32 +169,33 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVoxelsFwd_8h" kindref="compound">MRVoxelsFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRVoxelsFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRVector3_8h" kindref="compound">MRMesh/MRVector3.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRBox_8h" kindref="compound">MRMesh/MRBox.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="9"><highlight class="normal"></highlight></codeline>
-<codeline lineno="11" refid="structMR_1_1OriginAndDimensions" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1OriginAndDimensions" kindref="compound">OriginAndDimensions</ref></highlight></codeline>
-<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="13" refid="structMR_1_1OriginAndDimensions_1a3249421064f723e9274d910acde0cc34" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="structMR_1_1OriginAndDimensions_1a3249421064f723e9274d910acde0cc34" kindref="member">origin</ref>;</highlight></codeline>
-<codeline lineno="14" refid="structMR_1_1OriginAndDimensions_1a47a625c37bc5587c8811c698a4720f0e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3i<sp/><ref refid="structMR_1_1OriginAndDimensions_1a47a625c37bc5587c8811c698a4720f0e" kindref="member">dimensions</ref>;</highlight></codeline>
-<codeline lineno="15"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="namespaceMR_1af1eec874d8d4e923bb36851ae2456eff" refkind="member"><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1OriginAndDimensions" kindref="compound">OriginAndDimensions</ref><sp/><ref refid="namespaceMR_1af1eec874d8d4e923bb36851ae2456eff" kindref="member">calcOriginAndDimensions</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Box3f<sp/>&amp;<sp/>box,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>voxelSize<sp/>)</highlight></codeline>
-<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>expansion<sp/>=<sp/>Vector3f::diagonal(<sp/>2<sp/>*<sp/>voxelSize<sp/>);</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>origin<sp/>=<sp/>box.min<sp/>-<sp/>expansion;</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.origin<sp/>=<sp/>origin,</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.dimensions<sp/>=<sp/>Vector3i(<sp/>(<sp/>box.max<sp/>+<sp/>expansion<sp/>-<sp/>origin<sp/>)<sp/>/<sp/>voxelSize<sp/>)<sp/>+<sp/>Vector3i::diagonal(<sp/>1<sp/>)</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29"><highlight class="normal">}<sp/></highlight></codeline>
-<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="structMR_1_1OriginAndDimensions" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1OriginAndDimensions" kindref="compound">OriginAndDimensions</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16" refid="group__GeneralGroup_1ga3249421064f723e9274d910acde0cc34" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1ga3249421064f723e9274d910acde0cc34" kindref="member">origin</ref>;</highlight></codeline>
+<codeline lineno="17" refid="group__GeneralGroup_1ga47a625c37bc5587c8811c698a4720f0e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3i<sp/><ref refid="group__GeneralGroup_1ga47a625c37bc5587c8811c698a4720f0e" kindref="member">dimensions</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="group__GeneralGroup_1gaf1eec874d8d4e923bb36851ae2456eff" refkind="member"><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1OriginAndDimensions" kindref="compound">OriginAndDimensions</ref><sp/><ref refid="group__GeneralGroup_1gaf1eec874d8d4e923bb36851ae2456eff" kindref="member">calcOriginAndDimensions</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Box3f<sp/>&amp;<sp/>box,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>voxelSize<sp/>)</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>expansion<sp/>=<sp/>Vector3f::diagonal(<sp/>2<sp/>*<sp/>voxelSize<sp/>);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>origin<sp/>=<sp/>box.min<sp/>-<sp/>expansion;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.origin<sp/>=<sp/>origin,</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.dimensions<sp/>=<sp/>Vector3i(<sp/>(<sp/>box.max<sp/>+<sp/>expansion<sp/>-<sp/>origin<sp/>)<sp/>/<sp/>voxelSize<sp/>)<sp/>+<sp/>Vector3i::diagonal(<sp/>1<sp/>)</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRCalcDims.h"/>
   </compounddef>

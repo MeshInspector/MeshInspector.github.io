@@ -1,40 +1,40 @@
 var group__HistoryGroup =
 [
     [ "MR::ChangeObjectColorAction", "classMR_1_1ChangeObjectColorAction.html", [
-      [ "Obj", "classMR_1_1ChangeObjectColorAction.html#a5474abe2fe0d35caaf558c71cb6847d3", null ],
-      [ "Type", "classMR_1_1ChangeObjectColorAction.html#aadf478d3d29a773bd02b96beae263a51", [
-        [ "Unselected", "classMR_1_1ChangeObjectColorAction.html#aadf478d3d29a773bd02b96beae263a51a810460332a38c9ade69a49b057494cad", null ],
-        [ "Selected", "classMR_1_1ChangeObjectColorAction.html#aadf478d3d29a773bd02b96beae263a51a91b442d385b54e1418d81adc34871053", null ],
-        [ "Back", "classMR_1_1ChangeObjectColorAction.html#aadf478d3d29a773bd02b96beae263a51a0557fa923dcee4d0f86b1409f5c2167f", null ]
+      [ "Obj", "group__GeneralGroup.html#ga5474abe2fe0d35caaf558c71cb6847d3", null ],
+      [ "Type", "group__GeneralGroup.html#gaadf478d3d29a773bd02b96beae263a51", [
+        [ "Unselected", "group__GeneralGroup.html#ggaadf478d3d29a773bd02b96beae263a51a810460332a38c9ade69a49b057494cad", null ],
+        [ "Selected", "group__GeneralGroup.html#ggaadf478d3d29a773bd02b96beae263a51a91b442d385b54e1418d81adc34871053", null ],
+        [ "Back", "group__GeneralGroup.html#ggaadf478d3d29a773bd02b96beae263a51a0557fa923dcee4d0f86b1409f5c2167f", null ]
       ] ],
-      [ "ChangeObjectColorAction", "classMR_1_1ChangeObjectColorAction.html#a0a70aa0463c05950aea6686ecc817d30", null ],
-      [ "action", "classMR_1_1ChangeObjectColorAction.html#afe3b10ca2078780fe08c4e06a3cb8eb3", null ],
-      [ "heapBytes", "classMR_1_1ChangeObjectColorAction.html#a8b2119cba575337b8ff6ef6ed838ddad", null ],
-      [ "name", "classMR_1_1ChangeObjectColorAction.html#ada33e7dca54e7e04d9815765bed5fdfe", null ]
+      [ "ChangeObjectColorAction", "group__GeneralGroup.html#ga0a70aa0463c05950aea6686ecc817d30", null ],
+      [ "action", "group__GeneralGroup.html#gafe3b10ca2078780fe08c4e06a3cb8eb3", null ],
+      [ "heapBytes", "group__GeneralGroup.html#ga8b2119cba575337b8ff6ef6ed838ddad", null ],
+      [ "name", "group__GeneralGroup.html#gada33e7dca54e7e04d9815765bed5fdfe", null ]
     ] ],
     [ "MR::ChangeFacesColorMapAction", "classMR_1_1ChangeFacesColorMapAction.html", [
-      [ "Obj", "classMR_1_1ChangeFacesColorMapAction.html#aa339df5a9e2b648891867bc5a37bc837", null ],
-      [ "ChangeFacesColorMapAction", "classMR_1_1ChangeFacesColorMapAction.html#aec7da8b61591c85b8e910d1411bdaa56", null ],
-      [ "ChangeFacesColorMapAction", "classMR_1_1ChangeFacesColorMapAction.html#aff390880192bf2fb3e98fc5ad7f1243d", null ],
-      [ "action", "classMR_1_1ChangeFacesColorMapAction.html#a77ea732b203bb29d780236576dec2923", null ],
-      [ "heapBytes", "classMR_1_1ChangeFacesColorMapAction.html#aeee3e56ac0c488d99b1fb638817c0a8f", null ],
-      [ "name", "classMR_1_1ChangeFacesColorMapAction.html#a78e08b193afdbeaeb8e52e7a520a28d6", null ]
+      [ "Obj", "group__GeneralGroup.html#gaa339df5a9e2b648891867bc5a37bc837", null ],
+      [ "ChangeFacesColorMapAction", "group__GeneralGroup.html#gaec7da8b61591c85b8e910d1411bdaa56", null ],
+      [ "ChangeFacesColorMapAction", "group__GeneralGroup.html#gaff390880192bf2fb3e98fc5ad7f1243d", null ],
+      [ "action", "group__GeneralGroup.html#ga77ea732b203bb29d780236576dec2923", null ],
+      [ "heapBytes", "group__GeneralGroup.html#gaeee3e56ac0c488d99b1fb638817c0a8f", null ],
+      [ "name", "group__GeneralGroup.html#ga78e08b193afdbeaeb8e52e7a520a28d6", null ]
     ] ],
     [ "MR::ChangeLinesColorMapAction", "classMR_1_1ChangeLinesColorMapAction.html", [
-      [ "Obj", "classMR_1_1ChangeLinesColorMapAction.html#a55aeaa9aea474f11f11d8cd2d9410499", null ],
-      [ "ChangeLinesColorMapAction", "classMR_1_1ChangeLinesColorMapAction.html#a7806259621a23a6b67669e9b3be99e92", null ],
-      [ "ChangeLinesColorMapAction", "classMR_1_1ChangeLinesColorMapAction.html#aa8ddee0413ffd1f5443c24e425457f07", null ],
-      [ "action", "classMR_1_1ChangeLinesColorMapAction.html#a72f12b1fca7e6ed8731a32ca1796e0b2", null ],
-      [ "heapBytes", "classMR_1_1ChangeLinesColorMapAction.html#a5c000b7f2ed38d70be031166c9529327", null ],
-      [ "name", "classMR_1_1ChangeLinesColorMapAction.html#a58c39c7fe8142548916393082fe71741", null ]
+      [ "Obj", "group__GeneralGroup.html#ga55aeaa9aea474f11f11d8cd2d9410499", null ],
+      [ "ChangeLinesColorMapAction", "group__GeneralGroup.html#ga7806259621a23a6b67669e9b3be99e92", null ],
+      [ "ChangeLinesColorMapAction", "group__GeneralGroup.html#gaa8ddee0413ffd1f5443c24e425457f07", null ],
+      [ "action", "group__GeneralGroup.html#ga72f12b1fca7e6ed8731a32ca1796e0b2", null ],
+      [ "heapBytes", "group__GeneralGroup.html#ga5c000b7f2ed38d70be031166c9529327", null ],
+      [ "name", "group__GeneralGroup.html#ga58c39c7fe8142548916393082fe71741", null ]
     ] ],
     [ "MR::ChangeColoringType", "classMR_1_1ChangeColoringType.html", [
-      [ "Obj", "classMR_1_1ChangeColoringType.html#a35b932ef1ea3756de261b79a1a7a7677", null ],
-      [ "ChangeColoringType", "classMR_1_1ChangeColoringType.html#a6129a4154bb8fde03e2dfc8d0e310ad2", null ],
-      [ "ChangeColoringType", "classMR_1_1ChangeColoringType.html#a5926f12f23460add64c9ab4b0859f90b", null ],
-      [ "action", "classMR_1_1ChangeColoringType.html#ae42944016a4f6dd2c76e964cfb353bf4", null ],
-      [ "heapBytes", "classMR_1_1ChangeColoringType.html#a4c9d248392f35a9e929ab4dd107ff7d2", null ],
-      [ "name", "classMR_1_1ChangeColoringType.html#a531d559082c32567d685d888d4602ddf", null ]
+      [ "Obj", "group__GeneralGroup.html#ga35b932ef1ea3756de261b79a1a7a7677", null ],
+      [ "ChangeColoringType", "group__GeneralGroup.html#ga6129a4154bb8fde03e2dfc8d0e310ad2", null ],
+      [ "ChangeColoringType", "group__GeneralGroup.html#ga5926f12f23460add64c9ab4b0859f90b", null ],
+      [ "action", "group__GeneralGroup.html#gae42944016a4f6dd2c76e964cfb353bf4", null ],
+      [ "heapBytes", "group__GeneralGroup.html#ga4c9d248392f35a9e929ab4dd107ff7d2", null ],
+      [ "name", "group__GeneralGroup.html#ga531d559082c32567d685d888d4602ddf", null ]
     ] ],
     [ "MR::ChangeMeshAction", "classMR_1_1ChangeMeshAction.html", [
       [ "Obj", "classMR_1_1ChangeMeshAction.html#af714055379496f5d4d7cc0762f755fea", null ],
@@ -103,79 +103,79 @@ var group__HistoryGroup =
       [ "name", "classMR_1_1PartialChangeMeshDataAction.html#a86738a241e4ba1a61752fd26623c61e3", null ]
     ] ],
     [ "MR::ChangeNameAction", "classMR_1_1ChangeNameAction.html", [
-      [ "ChangeNameAction", "classMR_1_1ChangeNameAction.html#a8461f96378d4084fbd74bbdbf8d70ed3", null ],
-      [ "action", "classMR_1_1ChangeNameAction.html#a198059bf4924aae700a459e93da3d953", null ],
-      [ "heapBytes", "classMR_1_1ChangeNameAction.html#a78f9dfad757f976bb7af6f93bbfd2e74", null ],
-      [ "name", "classMR_1_1ChangeNameAction.html#af3abbe2d5970984c94bc836781925582", null ]
+      [ "ChangeNameAction", "group__GeneralGroup.html#ga8461f96378d4084fbd74bbdbf8d70ed3", null ],
+      [ "action", "group__GeneralGroup.html#ga198059bf4924aae700a459e93da3d953", null ],
+      [ "heapBytes", "group__GeneralGroup.html#ga78f9dfad757f976bb7af6f93bbfd2e74", null ],
+      [ "name", "group__GeneralGroup.html#gaf3abbe2d5970984c94bc836781925582", null ]
     ] ],
     [ "MR::ChangeObjectAction", "classMR_1_1ChangeObjectAction.html", [
-      [ "ChangeObjectAction", "classMR_1_1ChangeObjectAction.html#a1fb57757d3858115a5eb58acce570d82", null ],
-      [ "action", "classMR_1_1ChangeObjectAction.html#abae57c93f1aaa324cd73f0dd5a678718", null ],
-      [ "heapBytes", "classMR_1_1ChangeObjectAction.html#a74d98addc33191161e4cf6b9adaa55f2", null ],
-      [ "name", "classMR_1_1ChangeObjectAction.html#a657dce770efd0cbe3235515223438b7f", null ]
+      [ "ChangeObjectAction", "group__GeneralGroup.html#ga1fb57757d3858115a5eb58acce570d82", null ],
+      [ "action", "group__GeneralGroup.html#gabae57c93f1aaa324cd73f0dd5a678718", null ],
+      [ "heapBytes", "group__GeneralGroup.html#ga74d98addc33191161e4cf6b9adaa55f2", null ],
+      [ "name", "group__GeneralGroup.html#ga657dce770efd0cbe3235515223438b7f", null ]
     ] ],
     [ "MR::ChangeVisualizePropertyAction", "classMR_1_1ChangeVisualizePropertyAction.html", [
-      [ "Obj", "classMR_1_1ChangeVisualizePropertyAction.html#addf5e30e5eb678a766bb9b02bbfd996b", null ],
-      [ "ChangeVisualizePropertyAction", "classMR_1_1ChangeVisualizePropertyAction.html#a577d817010b8c025c743ede618924232", null ],
-      [ "ChangeVisualizePropertyAction", "classMR_1_1ChangeVisualizePropertyAction.html#a43ca44d5dd8461cb0a3a7bafb512a682", null ],
-      [ "action", "classMR_1_1ChangeVisualizePropertyAction.html#a6aed09dd3eb8747f16d7d1b3f4c016ec", null ],
-      [ "heapBytes", "classMR_1_1ChangeVisualizePropertyAction.html#a82fbcde1a6b6a67ddd9f760b0c43cf87", null ],
-      [ "name", "classMR_1_1ChangeVisualizePropertyAction.html#ab47bdfa15ccc0341044bdf265413933d", null ]
+      [ "Obj", "group__GeneralGroup.html#gaddf5e30e5eb678a766bb9b02bbfd996b", null ],
+      [ "ChangeVisualizePropertyAction", "group__GeneralGroup.html#ga577d817010b8c025c743ede618924232", null ],
+      [ "ChangeVisualizePropertyAction", "group__GeneralGroup.html#ga43ca44d5dd8461cb0a3a7bafb512a682", null ],
+      [ "action", "group__GeneralGroup.html#ga6aed09dd3eb8747f16d7d1b3f4c016ec", null ],
+      [ "heapBytes", "group__GeneralGroup.html#ga82fbcde1a6b6a67ddd9f760b0c43cf87", null ],
+      [ "name", "group__GeneralGroup.html#gab47bdfa15ccc0341044bdf265413933d", null ]
     ] ],
     [ "MR::ChangeObjectSelectedAction", "classMR_1_1ChangeObjectSelectedAction.html", [
-      [ "Obj", "classMR_1_1ChangeObjectSelectedAction.html#a937d04b50120a0a1c237ab976bf7f0d7", null ],
-      [ "ChangeObjectSelectedAction", "classMR_1_1ChangeObjectSelectedAction.html#aa52b1585ac548e84db85dd7223403ca9", null ],
-      [ "ChangeObjectSelectedAction", "classMR_1_1ChangeObjectSelectedAction.html#a1f6eeb88304ee19cffcc8662646ee76f", null ],
-      [ "action", "classMR_1_1ChangeObjectSelectedAction.html#aace3c2763b5625fb8eea898a21f5fc26", null ],
-      [ "heapBytes", "classMR_1_1ChangeObjectSelectedAction.html#a3755cc9192950a33d25ab548bc24ccc9", null ],
-      [ "name", "classMR_1_1ChangeObjectSelectedAction.html#ae709358ae5d269b3ef15942ba7ccea30", null ]
+      [ "Obj", "group__GeneralGroup.html#ga937d04b50120a0a1c237ab976bf7f0d7", null ],
+      [ "ChangeObjectSelectedAction", "group__GeneralGroup.html#gaa52b1585ac548e84db85dd7223403ca9", null ],
+      [ "ChangeObjectSelectedAction", "group__GeneralGroup.html#ga1f6eeb88304ee19cffcc8662646ee76f", null ],
+      [ "action", "group__GeneralGroup.html#gaace3c2763b5625fb8eea898a21f5fc26", null ],
+      [ "heapBytes", "group__GeneralGroup.html#ga3755cc9192950a33d25ab548bc24ccc9", null ],
+      [ "name", "group__GeneralGroup.html#gae709358ae5d269b3ef15942ba7ccea30", null ]
     ] ],
     [ "MR::ChangeObjectVisibilityAction", "classMR_1_1ChangeObjectVisibilityAction.html", [
-      [ "Obj", "classMR_1_1ChangeObjectVisibilityAction.html#aa3f6bc9f32a9afa29f3f632c1c8a6e5d", null ],
-      [ "ChangeObjectVisibilityAction", "classMR_1_1ChangeObjectVisibilityAction.html#a479356824a42fb710dc8fd412c4b34b7", null ],
-      [ "ChangeObjectVisibilityAction", "classMR_1_1ChangeObjectVisibilityAction.html#a4227858b5c82b2cf9ad2aec611a17f65", null ],
-      [ "action", "classMR_1_1ChangeObjectVisibilityAction.html#ab2ff1171bd87dd95a3e338f4244fafa6", null ],
-      [ "heapBytes", "classMR_1_1ChangeObjectVisibilityAction.html#a037473fbea41f9ad41ed74351f148e01", null ],
-      [ "name", "classMR_1_1ChangeObjectVisibilityAction.html#aeb43acff9643bd750856214f6f50b39d", null ]
+      [ "Obj", "group__GeneralGroup.html#gaa3f6bc9f32a9afa29f3f632c1c8a6e5d", null ],
+      [ "ChangeObjectVisibilityAction", "group__GeneralGroup.html#ga479356824a42fb710dc8fd412c4b34b7", null ],
+      [ "ChangeObjectVisibilityAction", "group__GeneralGroup.html#ga4227858b5c82b2cf9ad2aec611a17f65", null ],
+      [ "action", "group__GeneralGroup.html#gab2ff1171bd87dd95a3e338f4244fafa6", null ],
+      [ "heapBytes", "group__GeneralGroup.html#ga037473fbea41f9ad41ed74351f148e01", null ],
+      [ "name", "group__GeneralGroup.html#gaeb43acff9643bd750856214f6f50b39d", null ]
     ] ],
     [ "MR::ChangePointCloudAction", "classMR_1_1ChangePointCloudAction.html", [
-      [ "Obj", "classMR_1_1ChangePointCloudAction.html#a88fbf81698d29dc3b1de82e6258f3e62", null ],
-      [ "ChangePointCloudAction", "classMR_1_1ChangePointCloudAction.html#a36b0016bc6e04bb6c94996e9c8adbea2", null ],
-      [ "action", "classMR_1_1ChangePointCloudAction.html#a618406d420de41e825205cae3f53c9c6", null ],
-      [ "heapBytes", "classMR_1_1ChangePointCloudAction.html#aea2ce2e41b3850a18e72e5766ccb86f5", null ],
-      [ "name", "classMR_1_1ChangePointCloudAction.html#a3d96f0fc00a2d6d30b4807712b3793b6", null ]
+      [ "Obj", "group__GeneralGroup.html#ga88fbf81698d29dc3b1de82e6258f3e62", null ],
+      [ "ChangePointCloudAction", "group__GeneralGroup.html#ga36b0016bc6e04bb6c94996e9c8adbea2", null ],
+      [ "action", "group__GeneralGroup.html#ga618406d420de41e825205cae3f53c9c6", null ],
+      [ "heapBytes", "group__GeneralGroup.html#gaea2ce2e41b3850a18e72e5766ccb86f5", null ],
+      [ "name", "group__GeneralGroup.html#ga3d96f0fc00a2d6d30b4807712b3793b6", null ]
     ] ],
     [ "MR::ChangePointCloudPointsAction", "classMR_1_1ChangePointCloudPointsAction.html", [
-      [ "Obj", "classMR_1_1ChangePointCloudPointsAction.html#ab09d7c2288e5c1fa211d28437420fe23", null ],
-      [ "ChangePointCloudPointsAction", "classMR_1_1ChangePointCloudPointsAction.html#a7e99acd63b670299af8dc73a771d1ac3", null ],
-      [ "ChangePointCloudPointsAction", "classMR_1_1ChangePointCloudPointsAction.html#a9e9d9d96a33fdd65bdd65f038977fb3a", null ],
-      [ "action", "classMR_1_1ChangePointCloudPointsAction.html#ad8d1da6c3caadd31cd4053fa2924e372", null ],
-      [ "heapBytes", "classMR_1_1ChangePointCloudPointsAction.html#ac066d3dab32b1ce9ab3d604be8a48afb", null ],
-      [ "name", "classMR_1_1ChangePointCloudPointsAction.html#ab798c8b335a0610698bfa5fdc04b7ac9", null ]
+      [ "Obj", "group__GeneralGroup.html#gab09d7c2288e5c1fa211d28437420fe23", null ],
+      [ "ChangePointCloudPointsAction", "group__GeneralGroup.html#ga7e99acd63b670299af8dc73a771d1ac3", null ],
+      [ "ChangePointCloudPointsAction", "group__GeneralGroup.html#ga9e9d9d96a33fdd65bdd65f038977fb3a", null ],
+      [ "action", "group__GeneralGroup.html#gad8d1da6c3caadd31cd4053fa2924e372", null ],
+      [ "heapBytes", "group__GeneralGroup.html#gac066d3dab32b1ce9ab3d604be8a48afb", null ],
+      [ "name", "group__GeneralGroup.html#gab798c8b335a0610698bfa5fdc04b7ac9", null ]
     ] ],
     [ "MR::ChangeOnePointInCloudAction", "classMR_1_1ChangeOnePointInCloudAction.html", [
-      [ "Obj", "classMR_1_1ChangeOnePointInCloudAction.html#a53daa4ab4948e49bce8cf3efb71982cb", null ],
-      [ "ChangeOnePointInCloudAction", "classMR_1_1ChangeOnePointInCloudAction.html#a2a95838eed1970b6d1b9fe6009128d7f", null ],
-      [ "ChangeOnePointInCloudAction", "classMR_1_1ChangeOnePointInCloudAction.html#a6dae80316417b70ee98f67ecf0477677", null ],
-      [ "action", "classMR_1_1ChangeOnePointInCloudAction.html#adbe79dc8bbe3a4158e22e912c78dfcd8", null ],
-      [ "heapBytes", "classMR_1_1ChangeOnePointInCloudAction.html#a90c1e3a545b13734142bde8638b3ee63", null ],
-      [ "name", "classMR_1_1ChangeOnePointInCloudAction.html#a12d6cf9879dfc2c296fa9440b96442e3", null ]
+      [ "Obj", "group__GeneralGroup.html#ga53daa4ab4948e49bce8cf3efb71982cb", null ],
+      [ "ChangeOnePointInCloudAction", "group__GeneralGroup.html#ga2a95838eed1970b6d1b9fe6009128d7f", null ],
+      [ "ChangeOnePointInCloudAction", "group__GeneralGroup.html#ga6dae80316417b70ee98f67ecf0477677", null ],
+      [ "action", "group__GeneralGroup.html#gadbe79dc8bbe3a4158e22e912c78dfcd8", null ],
+      [ "heapBytes", "group__GeneralGroup.html#ga90c1e3a545b13734142bde8638b3ee63", null ],
+      [ "name", "group__GeneralGroup.html#ga12d6cf9879dfc2c296fa9440b96442e3", null ]
     ] ],
     [ "MR::ChangePointCloudNormalsAction", "classMR_1_1ChangePointCloudNormalsAction.html", [
-      [ "Obj", "classMR_1_1ChangePointCloudNormalsAction.html#ab1318bc8719ca89bb19cd901f204ad49", null ],
-      [ "ChangePointCloudNormalsAction", "classMR_1_1ChangePointCloudNormalsAction.html#aa3fc74b29ef4cc3ed08c0e8f0a5f342e", null ],
-      [ "ChangePointCloudNormalsAction", "classMR_1_1ChangePointCloudNormalsAction.html#a763106472cb85bcb84e8b3a97ad638d6", null ],
-      [ "action", "classMR_1_1ChangePointCloudNormalsAction.html#a3f4a62aa8bcd5d820f520ab6dea9a48d", null ],
-      [ "heapBytes", "classMR_1_1ChangePointCloudNormalsAction.html#a2bcd7434c87c613e94dd6c3ea18b541e", null ],
-      [ "name", "classMR_1_1ChangePointCloudNormalsAction.html#aec6f4ff965e50adb3b9f2605fa2662a8", null ]
+      [ "Obj", "group__GeneralGroup.html#gab1318bc8719ca89bb19cd901f204ad49", null ],
+      [ "ChangePointCloudNormalsAction", "group__GeneralGroup.html#gaa3fc74b29ef4cc3ed08c0e8f0a5f342e", null ],
+      [ "ChangePointCloudNormalsAction", "group__GeneralGroup.html#ga763106472cb85bcb84e8b3a97ad638d6", null ],
+      [ "action", "group__GeneralGroup.html#ga3f4a62aa8bcd5d820f520ab6dea9a48d", null ],
+      [ "heapBytes", "group__GeneralGroup.html#ga2bcd7434c87c613e94dd6c3ea18b541e", null ],
+      [ "name", "group__GeneralGroup.html#gaec6f4ff965e50adb3b9f2605fa2662a8", null ]
     ] ],
     [ "MR::ChangeOneNormalInCloudAction", "classMR_1_1ChangeOneNormalInCloudAction.html", [
-      [ "Obj", "classMR_1_1ChangeOneNormalInCloudAction.html#ac4f0cb98bb0490e5bc3bf86995a76ac0", null ],
-      [ "ChangeOneNormalInCloudAction", "classMR_1_1ChangeOneNormalInCloudAction.html#a56b040ed71f05bfbf64a540bf3b4bf3d", null ],
-      [ "ChangeOneNormalInCloudAction", "classMR_1_1ChangeOneNormalInCloudAction.html#aa2642a2de919be105852f8ea69084eac", null ],
-      [ "action", "classMR_1_1ChangeOneNormalInCloudAction.html#aafd6fc62e7b35ee903d98899500b8dc9", null ],
-      [ "heapBytes", "classMR_1_1ChangeOneNormalInCloudAction.html#a67594b68431eb196ebfb45604cedbdb9", null ],
-      [ "name", "classMR_1_1ChangeOneNormalInCloudAction.html#aa922f462c2baab3f1699371f60ca1059", null ]
+      [ "Obj", "group__GeneralGroup.html#gac4f0cb98bb0490e5bc3bf86995a76ac0", null ],
+      [ "ChangeOneNormalInCloudAction", "group__GeneralGroup.html#ga56b040ed71f05bfbf64a540bf3b4bf3d", null ],
+      [ "ChangeOneNormalInCloudAction", "group__GeneralGroup.html#gaa2642a2de919be105852f8ea69084eac", null ],
+      [ "action", "group__GeneralGroup.html#gaafd6fc62e7b35ee903d98899500b8dc9", null ],
+      [ "heapBytes", "group__GeneralGroup.html#ga67594b68431eb196ebfb45604cedbdb9", null ],
+      [ "name", "group__GeneralGroup.html#gaa922f462c2baab3f1699371f60ca1059", null ]
     ] ],
     [ "MR::ChangePolylineAction", "classMR_1_1ChangePolylineAction.html", [
       [ "Obj", "classMR_1_1ChangePolylineAction.html#aeb94c9f13be0f037086e0296e2beea62", null ],
@@ -208,26 +208,26 @@ var group__HistoryGroup =
       [ "name", "classMR_1_1ChangeOnePointInPolylineAction.html#a60545394635e0a3adb2be644e7bdafee", null ]
     ] ],
     [ "MR::ChangeScaleAction", "classMR_1_1ChangeScaleAction.html", [
-      [ "ChangeScaleAction", "classMR_1_1ChangeScaleAction.html#a7ed6dd43bb4742c5a423190cdb2b8075", null ],
-      [ "action", "classMR_1_1ChangeScaleAction.html#a5b30db2db48c27d37a14849a1b6b0dca", null ],
-      [ "heapBytes", "classMR_1_1ChangeScaleAction.html#a55c7a14904e79aef0cd60392a1fd9dd1", null ],
-      [ "name", "classMR_1_1ChangeScaleAction.html#a4ef261e118c5b35c7f334c4c5dc65f5c", null ]
+      [ "ChangeScaleAction", "group__GeneralGroup.html#ga7ed6dd43bb4742c5a423190cdb2b8075", null ],
+      [ "action", "group__GeneralGroup.html#ga5b30db2db48c27d37a14849a1b6b0dca", null ],
+      [ "heapBytes", "group__GeneralGroup.html#ga55c7a14904e79aef0cd60392a1fd9dd1", null ],
+      [ "name", "group__GeneralGroup.html#ga4ef261e118c5b35c7f334c4c5dc65f5c", null ]
     ] ],
     [ "MR::ChangeSceneAction", "classMR_1_1ChangeSceneAction.html", [
-      [ "Type", "classMR_1_1ChangeSceneAction.html#ae23bede5fadd45b799171e142607c1d1", [
-        [ "AddObject", "classMR_1_1ChangeSceneAction.html#ae23bede5fadd45b799171e142607c1d1a650a024818e022f05f44766109a5f846", null ],
-        [ "RemoveObject", "classMR_1_1ChangeSceneAction.html#ae23bede5fadd45b799171e142607c1d1af0c405ca8e7eb2c3fa3d102bb69b75a9", null ]
+      [ "Type", "group__GeneralGroup.html#gae23bede5fadd45b799171e142607c1d1", [
+        [ "AddObject", "group__GeneralGroup.html#ggae23bede5fadd45b799171e142607c1d1a650a024818e022f05f44766109a5f846", null ],
+        [ "RemoveObject", "group__GeneralGroup.html#ggae23bede5fadd45b799171e142607c1d1af0c405ca8e7eb2c3fa3d102bb69b75a9", null ]
       ] ],
-      [ "ChangeSceneAction", "classMR_1_1ChangeSceneAction.html#a1de30bd403835a03cc79234ac5f31280", null ],
-      [ "action", "classMR_1_1ChangeSceneAction.html#abe4134fb5816e6ed341b5b84526fe6c0", null ],
-      [ "heapBytes", "classMR_1_1ChangeSceneAction.html#afc8063a119e30688b93c3e6d04cb77d2", null ],
-      [ "name", "classMR_1_1ChangeSceneAction.html#ad1dec660d1132592b4ea2eb4ad53dda0", null ]
+      [ "ChangeSceneAction", "group__GeneralGroup.html#ga1de30bd403835a03cc79234ac5f31280", null ],
+      [ "action", "group__GeneralGroup.html#gabe4134fb5816e6ed341b5b84526fe6c0", null ],
+      [ "heapBytes", "group__GeneralGroup.html#gafc8063a119e30688b93c3e6d04cb77d2", null ],
+      [ "name", "group__GeneralGroup.html#gad1dec660d1132592b4ea2eb4ad53dda0", null ]
     ] ],
     [ "MR::ChangeSceneObjectsOrder", "classMR_1_1ChangeSceneObjectsOrder.html", [
-      [ "ChangeSceneObjectsOrder", "classMR_1_1ChangeSceneObjectsOrder.html#ac98e7e6f6de1cbc791db5f23b6409542", null ],
-      [ "action", "classMR_1_1ChangeSceneObjectsOrder.html#a48cb146f899e3b77bed59f4bd1073e11", null ],
-      [ "heapBytes", "classMR_1_1ChangeSceneObjectsOrder.html#ae5412f501f79caacfb257cd392119c50", null ],
-      [ "name", "classMR_1_1ChangeSceneObjectsOrder.html#ad692afbfc325fae56914094bc8b1f71d", null ]
+      [ "ChangeSceneObjectsOrder", "group__GeneralGroup.html#gac98e7e6f6de1cbc791db5f23b6409542", null ],
+      [ "action", "group__GeneralGroup.html#ga48cb146f899e3b77bed59f4bd1073e11", null ],
+      [ "heapBytes", "group__GeneralGroup.html#gae5412f501f79caacfb257cd392119c50", null ],
+      [ "name", "group__GeneralGroup.html#gad692afbfc325fae56914094bc8b1f71d", null ]
     ] ],
     [ "MR::ChangeMeshFaceSelectionAction", "classMR_1_1ChangeMeshFaceSelectionAction.html", [
       [ "Obj", "classMR_1_1ChangeMeshFaceSelectionAction.html#a405ed8f3e1f0ec969dffa0d31f26119b", null ],
@@ -265,46 +265,46 @@ var group__HistoryGroup =
       [ "selection", "classMR_1_1ChangePointPointSelectionAction.html#a3d3f98681572b719c29e2acd8ef99619", null ]
     ] ],
     [ "MR::ChangeValue< T >", "classMR_1_1ChangeValue.html", [
-      [ "ChangeValue", "classMR_1_1ChangeValue.html#a3c7d78b1f71f742ade3d4d065d0a09c1", null ],
-      [ "action", "classMR_1_1ChangeValue.html#a0cdf8d0a543743f5f83872b03ff33891", null ],
-      [ "heapBytes", "classMR_1_1ChangeValue.html#a49b7b6012fb8adf78381f77cf6a1b9b1", null ],
-      [ "name", "classMR_1_1ChangeValue.html#a1ebe31dbc55d650d0de83ae16bfe2e52", null ]
+      [ "ChangeValue", "group__GeneralGroup.html#ga3c7d78b1f71f742ade3d4d065d0a09c1", null ],
+      [ "action", "group__GeneralGroup.html#ga0cdf8d0a543743f5f83872b03ff33891", null ],
+      [ "heapBytes", "group__GeneralGroup.html#ga49b7b6012fb8adf78381f77cf6a1b9b1", null ],
+      [ "name", "group__GeneralGroup.html#ga1ebe31dbc55d650d0de83ae16bfe2e52", null ]
     ] ],
     [ "MR::ChangeVertsColorMapAction< T >", "classMR_1_1ChangeVertsColorMapAction.html", [
-      [ "Obj", "classMR_1_1ChangeVertsColorMapAction.html#ab1b2d8610405057232d3c46e0f326b77", null ],
-      [ "ChangeVertsColorMapAction", "classMR_1_1ChangeVertsColorMapAction.html#af543ed6ffdbac2a85e27deadaf79f448", null ],
-      [ "ChangeVertsColorMapAction", "classMR_1_1ChangeVertsColorMapAction.html#a3bfeb91b777c884b6154a9e36cc3a389", null ],
-      [ "action", "classMR_1_1ChangeVertsColorMapAction.html#abf17cf1a549936cc4bf5288dbc286f43", null ],
-      [ "heapBytes", "classMR_1_1ChangeVertsColorMapAction.html#abb19b89e750bb13f1c80ec81118c2303", null ],
-      [ "name", "classMR_1_1ChangeVertsColorMapAction.html#a7463a0c407fe96e44b65aac4e69c16d2", null ]
+      [ "Obj", "group__GeneralGroup.html#gab1b2d8610405057232d3c46e0f326b77", null ],
+      [ "ChangeVertsColorMapAction", "group__GeneralGroup.html#gaf543ed6ffdbac2a85e27deadaf79f448", null ],
+      [ "ChangeVertsColorMapAction", "group__GeneralGroup.html#ga3bfeb91b777c884b6154a9e36cc3a389", null ],
+      [ "action", "group__GeneralGroup.html#gabf17cf1a549936cc4bf5288dbc286f43", null ],
+      [ "heapBytes", "group__GeneralGroup.html#gabb19b89e750bb13f1c80ec81118c2303", null ],
+      [ "name", "group__GeneralGroup.html#ga7463a0c407fe96e44b65aac4e69c16d2", null ]
     ] ],
     [ "MR::ChangeXfAction", "classMR_1_1ChangeXfAction.html", [
-      [ "ChangeXfAction", "classMR_1_1ChangeXfAction.html#adc90b8207a85c52060b965692645d95b", null ],
-      [ "ChangeXfAction", "classMR_1_1ChangeXfAction.html#ac6aa69f1f7afe95ad6453c38ba4fb80e", null ],
-      [ "action", "classMR_1_1ChangeXfAction.html#ae0205231d9c1c0389daaa03a05b302e2", null ],
-      [ "heapBytes", "classMR_1_1ChangeXfAction.html#a92b9d01bccf043de100f19110630ce24", null ],
-      [ "name", "classMR_1_1ChangeXfAction.html#a677bcbff928530a06249b4aa004556bc", null ],
-      [ "obj", "classMR_1_1ChangeXfAction.html#a7ca462bf6ff993310a54857dc66ba1ff", null ]
+      [ "ChangeXfAction", "group__GeneralGroup.html#gadc90b8207a85c52060b965692645d95b", null ],
+      [ "ChangeXfAction", "group__GeneralGroup.html#gac6aa69f1f7afe95ad6453c38ba4fb80e", null ],
+      [ "action", "group__GeneralGroup.html#gae0205231d9c1c0389daaa03a05b302e2", null ],
+      [ "heapBytes", "group__GeneralGroup.html#ga92b9d01bccf043de100f19110630ce24", null ],
+      [ "name", "group__GeneralGroup.html#ga677bcbff928530a06249b4aa004556bc", null ],
+      [ "obj", "group__GeneralGroup.html#ga7ca462bf6ff993310a54857dc66ba1ff", null ]
     ] ],
     [ "MR::CombinedHistoryAction", "classMR_1_1CombinedHistoryAction.html", [
-      [ "CombinedHistoryAction", "classMR_1_1CombinedHistoryAction.html#afca8a41417b4242303d650c7996ef7f4", null ],
-      [ "action", "classMR_1_1CombinedHistoryAction.html#a8f6b646cd5256ca2f6cfdafba7db5d07", null ],
-      [ "empty", "classMR_1_1CombinedHistoryAction.html#a24336720e6ef2e49fe759978a653cd93", null ],
-      [ "filter", "classMR_1_1CombinedHistoryAction.html#a25f7969b5daf7f81d5dc52abce1f5850", null ],
-      [ "getStack", "classMR_1_1CombinedHistoryAction.html#aa47d5898040fc2ee2c67bf0ffee6176c", null ],
-      [ "getStack", "classMR_1_1CombinedHistoryAction.html#a304820a24e74e6c61b31a203e017bc48", null ],
-      [ "heapBytes", "classMR_1_1CombinedHistoryAction.html#adba474c4514ebf52c64eb24ed5b104a1", null ],
-      [ "name", "classMR_1_1CombinedHistoryAction.html#a59961c77016991a1c41b6f0c34545ee6", null ]
+      [ "CombinedHistoryAction", "group__GeneralGroup.html#gafca8a41417b4242303d650c7996ef7f4", null ],
+      [ "action", "group__GeneralGroup.html#ga8f6b646cd5256ca2f6cfdafba7db5d07", null ],
+      [ "empty", "group__GeneralGroup.html#ga24336720e6ef2e49fe759978a653cd93", null ],
+      [ "filter", "group__GeneralGroup.html#ga25f7969b5daf7f81d5dc52abce1f5850", null ],
+      [ "getStack", "group__GeneralGroup.html#gaa47d5898040fc2ee2c67bf0ffee6176c", null ],
+      [ "getStack", "group__GeneralGroup.html#ga304820a24e74e6c61b31a203e017bc48", null ],
+      [ "heapBytes", "group__GeneralGroup.html#gadba474c4514ebf52c64eb24ed5b104a1", null ],
+      [ "name", "group__GeneralGroup.html#ga59961c77016991a1c41b6f0c34545ee6", null ]
     ] ],
     [ "MR::HistoryAction", "classMR_1_1HistoryAction.html", [
-      [ "Type", "classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7", [
-        [ "Undo", "classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7a1cdc076b28f70afac5fcedadf99fa119", null ],
-        [ "Redo", "classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7a5afeaba074ef570dc720caaa855d49f6", null ]
+      [ "Type", "group__GeneralGroup.html#gac16eb31dd26d35cfc18bac8a05983aa7", [
+        [ "Undo", "group__GeneralGroup.html#ggac16eb31dd26d35cfc18bac8a05983aa7a1cdc076b28f70afac5fcedadf99fa119", null ],
+        [ "Redo", "group__GeneralGroup.html#ggac16eb31dd26d35cfc18bac8a05983aa7a5afeaba074ef570dc720caaa855d49f6", null ]
       ] ],
-      [ "~HistoryAction", "classMR_1_1HistoryAction.html#a97370459d3645a1169ed426ef4896e5c", null ],
-      [ "action", "classMR_1_1HistoryAction.html#aecfce349736beaf17a23a6817c86f3bb", null ],
-      [ "heapBytes", "classMR_1_1HistoryAction.html#ad6df54da6a63ed83f15053507e8569de", null ],
-      [ "name", "classMR_1_1HistoryAction.html#a9daa0b79de161f676f6283e3804dc8ce", null ]
+      [ "~HistoryAction", "group__GeneralGroup.html#ga97370459d3645a1169ed426ef4896e5c", null ],
+      [ "action", "group__GeneralGroup.html#gaecfce349736beaf17a23a6817c86f3bb", null ],
+      [ "heapBytes", "group__GeneralGroup.html#gad6df54da6a63ed83f15053507e8569de", null ],
+      [ "name", "group__GeneralGroup.html#ga9daa0b79de161f676f6283e3804dc8ce", null ]
     ] ],
     [ "MR::CmpOld", "structMR_1_1CmpOld.html", null ],
     [ "MR::SetNew", "structMR_1_1SetNew.html", null ],

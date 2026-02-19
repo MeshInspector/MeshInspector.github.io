@@ -5,7 +5,7 @@
     <innerclass refid="structMR_1_1LinesLoad_1_1LinesLoader" prot="public">MR::LinesLoad::LinesLoader</innerclass>
     <sectiondef kind="typedef">
       <memberdef kind="typedef" id="namespaceMR_1_1LinesLoad_1a90da90447771026ea69eb4b7e8a2c5af" prot="public" static="no">
-        <type><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; Polyline3 &gt;(*)(const std::filesystem::path &amp;, const <ref refid="structMR_1_1LinesLoadSettings" kindref="compound">LinesLoadSettings</ref> &amp;)</type>
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; Polyline3 &gt;(*)(const std::filesystem::path &amp;, const <ref refid="structMR_1_1LinesLoadSettings" kindref="compound">LinesLoadSettings</ref> &amp;)</type>
         <definition>using MR::LinesLoad::LinesFileLoader =  Expected&lt;Polyline3&gt;( * )( const std::filesystem::path&amp;, const LinesLoadSettings&amp; )</definition>
         <argsstring></argsstring>
         <name>LinesFileLoader</name>
@@ -19,7 +19,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="202" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="202" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMR_1_1LinesLoad_1a8ba03f82b986b90262ac83290496a441" prot="public" static="no">
-        <type><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; Polyline3 &gt;(*)(std::istream &amp;, const <ref refid="structMR_1_1LinesLoadSettings" kindref="compound">LinesLoadSettings</ref> &amp;)</type>
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; Polyline3 &gt;(*)(std::istream &amp;, const <ref refid="structMR_1_1LinesLoadSettings" kindref="compound">LinesLoadSettings</ref> &amp;)</type>
         <definition>using MR::LinesLoad::LinesStreamLoader =  Expected&lt;Polyline3&gt;( * )( std::istream&amp;, const LinesLoadSettings&amp; )</definition>
         <argsstring></argsstring>
         <name>LinesStreamLoader</name>
@@ -35,7 +35,7 @@
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="namespaceMR_1_1LinesLoad_1a56468082db347bc5fed5d141227ced71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRIOEXTRAS_API <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; Polyline3 &gt;</type>
+        <type>MRIOEXTRAS_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; Polyline3 &gt;</type>
         <definition>MRIOEXTRAS_API Expected&lt; Polyline3 &gt; MR::LinesLoad::fromSvg</definition>
         <argsstring>(const std::filesystem::path &amp;file, const LinesLoadSettings &amp;settings={})</argsstring>
         <name>fromSvg</name>
@@ -59,7 +59,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRSvg.h" line="16" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRSvg.h" declline="16" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1LinesLoad_1adbb821526ce909967cfd04366c150ed6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRIOEXTRAS_API <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; Polyline3 &gt;</type>
+        <type>MRIOEXTRAS_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; Polyline3 &gt;</type>
         <definition>MRIOEXTRAS_API Expected&lt; Polyline3 &gt; MR::LinesLoad::fromSvg</definition>
         <argsstring>(std::istream &amp;in, const LinesLoadSettings &amp;settings={})</argsstring>
         <name>fromSvg</name>
@@ -82,7 +82,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRSvg.h" line="17" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRSvg.h" declline="17" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1LinesLoad_1a95ffa7bdd0595c8fc73bba4e40993deb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRIOEXTRAS_API <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; Polyline3 &gt;</type>
+        <type>MRIOEXTRAS_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; Polyline3 &gt;</type>
         <definition>MRIOEXTRAS_API Expected&lt; Polyline3 &gt; MR::LinesLoad::fromSvg</definition>
         <argsstring>(const char *data, size_t size, const LinesLoadSettings &amp;settings={})</argsstring>
         <name>fromSvg</name>

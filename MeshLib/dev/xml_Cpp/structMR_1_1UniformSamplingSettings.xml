@@ -4,97 +4,23 @@
     <compoundname>MR::UniformSamplingSettings</compoundname>
     <includes refid="MRUniformSampling_8h" local="no">MRUniformSampling.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1UniformSamplingSettings_1a010165bed75fd690071dbe15b50f8c58" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::UniformSamplingSettings::distance</definition>
-        <argsstring></argsstring>
-        <name>distance</name>
-        <qualifiedname>MR::UniformSamplingSettings::distance</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-<para>minimal distance between samples </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniformSampling.h" line="14" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniformSampling.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1UniformSamplingSettings_1a4952e332cfe108e00f967d412a6aba88" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::UniformSamplingSettings::minNormalDot</definition>
-        <argsstring></argsstring>
-        <name>minNormalDot</name>
-        <qualifiedname>MR::UniformSamplingSettings::minNormalDot</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>if point cloud has normals then automatically decreases local distance to make sure that all points inside have absolute normal dot product not less than this value; this is to make sampling denser in the regions of high curvature; value &lt;=0 means ignore normals; value &gt;=1 means select all points (practically useless) </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniformSampling.h" line="19" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniformSampling.h" bodystart="19" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1UniformSamplingSettings_1a7c7a861d6d96b26592bb64ac801d6f43" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::UniformSamplingSettings::lexicographicalOrder</definition>
-        <argsstring></argsstring>
-        <name>lexicographicalOrder</name>
-        <qualifiedname>MR::UniformSamplingSettings::lexicographicalOrder</qualifiedname>
-        <initializer>= true</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>if true process the points in lexicographical order, which gives tighter and more uniform samples; if false process the points according to their ids, which is faster </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniformSampling.h" line="22" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniformSampling.h" bodystart="22" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1UniformSamplingSettings_1a1d523113f6c1fed152ce4ac0ca682b22" prot="public" static="no" mutable="no">
-        <type>const VertNormals *</type>
-        <definition>const VertNormals* MR::UniformSamplingSettings::pNormals</definition>
-        <argsstring></argsstring>
-        <name>pNormals</name>
-        <qualifiedname>MR::UniformSamplingSettings::pNormals</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-<para>if not nullptr then these normals will be used during sampling instead of normals in the cloud itself </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniformSampling.h" line="24" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniformSampling.h" bodystart="24" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1UniformSamplingSettings_1a5bc23c2e461b80a4516732d0e5add3a5" prot="public" static="no" mutable="no">
-        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
-        <definition>ProgressCallback MR::UniformSamplingSettings::progress</definition>
-        <argsstring></argsstring>
-        <name>progress</name>
-        <qualifiedname>MR::UniformSamplingSettings::progress</qualifiedname>
-        <briefdescription>
-<para>to report progress and cancel processing </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniformSampling.h" line="26" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniformSampling.h" bodystart="26" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga010165bed75fd690071dbe15b50f8c58" kind="variable"><name>distance</name></member>
+      <member refid="group__GeneralGroup_1ga4952e332cfe108e00f967d412a6aba88" kind="variable"><name>minNormalDot</name></member>
+      <member refid="group__GeneralGroup_1ga7c7a861d6d96b26592bb64ac801d6f43" kind="variable"><name>lexicographicalOrder</name></member>
+      <member refid="group__GeneralGroup_1ga1d523113f6c1fed152ce4ac0ca682b22" kind="variable"><name>pNormals</name></member>
+      <member refid="group__GeneralGroup_1ga5bc23c2e461b80a4516732d0e5add3a5" kind="variable"><name>progress</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniformSampling.h" line="11" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniformSampling.h" bodystart="12" bodyend="27"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniformSampling.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniformSampling.h" bodystart="15" bodyend="30"/>
     <listofallmembers>
-      <member refid="structMR_1_1UniformSamplingSettings_1a010165bed75fd690071dbe15b50f8c58" prot="public" virt="non-virtual"><scope>MR::UniformSamplingSettings</scope><name>distance</name></member>
-      <member refid="structMR_1_1UniformSamplingSettings_1a7c7a861d6d96b26592bb64ac801d6f43" prot="public" virt="non-virtual"><scope>MR::UniformSamplingSettings</scope><name>lexicographicalOrder</name></member>
-      <member refid="structMR_1_1UniformSamplingSettings_1a4952e332cfe108e00f967d412a6aba88" prot="public" virt="non-virtual"><scope>MR::UniformSamplingSettings</scope><name>minNormalDot</name></member>
-      <member refid="structMR_1_1UniformSamplingSettings_1a1d523113f6c1fed152ce4ac0ca682b22" prot="public" virt="non-virtual"><scope>MR::UniformSamplingSettings</scope><name>pNormals</name></member>
-      <member refid="structMR_1_1UniformSamplingSettings_1a5bc23c2e461b80a4516732d0e5add3a5" prot="public" virt="non-virtual"><scope>MR::UniformSamplingSettings</scope><name>progress</name></member>
+      <member refid="group__GeneralGroup_1ga010165bed75fd690071dbe15b50f8c58" prot="public" virt="non-virtual"><scope>MR::UniformSamplingSettings</scope><name>distance</name></member>
+      <member refid="group__GeneralGroup_1ga7c7a861d6d96b26592bb64ac801d6f43" prot="public" virt="non-virtual"><scope>MR::UniformSamplingSettings</scope><name>lexicographicalOrder</name></member>
+      <member refid="group__GeneralGroup_1ga4952e332cfe108e00f967d412a6aba88" prot="public" virt="non-virtual"><scope>MR::UniformSamplingSettings</scope><name>minNormalDot</name></member>
+      <member refid="group__GeneralGroup_1ga1d523113f6c1fed152ce4ac0ca682b22" prot="public" virt="non-virtual"><scope>MR::UniformSamplingSettings</scope><name>pNormals</name></member>
+      <member refid="group__GeneralGroup_1ga5bc23c2e461b80a4516732d0e5add3a5" prot="public" virt="non-virtual"><scope>MR::UniformSamplingSettings</scope><name>progress</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

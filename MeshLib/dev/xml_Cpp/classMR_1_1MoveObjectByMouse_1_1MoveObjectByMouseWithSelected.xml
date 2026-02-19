@@ -4,102 +4,13 @@
     <compoundname>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</compoundname>
     <basecompoundref refid="classMR_1_1MoveObjectByMouseImpl" prot="public" virt="non-virtual">MR::MoveObjectByMouseImpl</basecompoundref>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="classMR_1_1MoveObjectByMouse_1_1MoveObjectByMouseWithSelected_1a931780c01298cc9aceca63cbbaeff334" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1UI_1_1RadioButtonOrModifierState" kindref="compound">UI::RadioButtonOrModifierState</ref></type>
-        <definition>UI::RadioButtonOrModifierState MR::MoveObjectByMouse::MoveObjectByMouseWithSelected::modXfMode</definition>
-        <argsstring></argsstring>
-        <name>modXfMode</name>
-        <qualifiedname>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected::modXfMode</qualifiedname>
-        <initializer>{}</initializer>
-        <briefdescription>
-<para>Options are provided externally rather than directly from modifiers. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRMoveObjectByMouse.h" line="48" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRMoveObjectByMouse.h" bodystart="48" bodyend="48"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1MoveObjectByMouse_1_1MoveObjectByMouseWithSelected_1a1c15dd05011e26594ae6bdc1f91aefe4" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1UI_1_1RadioButtonOrModifierState" kindref="compound">UI::RadioButtonOrModifierState</ref></type>
-        <definition>UI::RadioButtonOrModifierState MR::MoveObjectByMouse::MoveObjectByMouseWithSelected::modXfTarget</definition>
-        <argsstring></argsstring>
-        <name>modXfTarget</name>
-        <qualifiedname>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected::modXfTarget</qualifiedname>
-        <initializer>{}</initializer>
-        <briefdescription>
-<para>XfMode. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRMoveObjectByMouse.h" line="49" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRMoveObjectByMouse.h" bodystart="49" bodyend="49"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga931780c01298cc9aceca63cbbaeff334" kind="variable"><name>modXfMode</name></member>
+      <member refid="group__GeneralGroup_1ga1c15dd05011e26594ae6bdc1f91aefe4" kind="variable"><name>modXfTarget</name></member>
     </sectiondef>
     <sectiondef kind="protected-func">
-      <memberdef kind="function" id="classMR_1_1MoveObjectByMouse_1_1MoveObjectByMouseWithSelected_1a15941d79a2ccc89a4ed223fb4a85cc76" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="namespaceMR_1a7080d56b73b285dc9afd120e1bc1ff71" kindref="member">ObjAndPick</ref></type>
-        <definition>virtual ObjAndPick MR::MoveObjectByMouse::MoveObjectByMouseWithSelected::pickObjects_</definition>
-        <argsstring>(std::vector&lt; std::shared_ptr&lt; Object &gt; &gt; &amp;objects, int modifiers) const override</argsstring>
-        <name>pickObjects_</name>
-        <qualifiedname>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected::pickObjects_</qualifiedname>
-        <param>
-          <type>std::vector&lt; std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt; &amp;</type>
-          <declname>objects</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>modifiers</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRMoveObjectByMouse.h" line="43" column="28"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MoveObjectByMouse_1_1MoveObjectByMouseWithSelected_1ad6ee69c955397bca5bbc207ab542b62c" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="classMR_1_1MoveObjectByMouseImpl_1a4e5180c9fe4f3ff399794c4a640b500a" kindref="member">TransformMode</ref></type>
-        <definition>virtual TransformMode MR::MoveObjectByMouse::MoveObjectByMouseWithSelected::modeFromPickModifiers_</definition>
-        <argsstring>(int modifiers) const override</argsstring>
-        <name>modeFromPickModifiers_</name>
-        <qualifiedname>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected::modeFromPickModifiers_</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>modifiers</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRMoveObjectByMouse.h" line="44" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MoveObjectByMouse_1_1MoveObjectByMouseWithSelected_1ac78f92ce2922c13cd873ba0f32c36c9c" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MR::MoveObjectByMouse::MoveObjectByMouseWithSelected::setStartPoint_</definition>
-        <argsstring>(const ObjAndPick &amp;pick, Vector3f &amp;startPoint) const override</argsstring>
-        <name>setStartPoint_</name>
-        <qualifiedname>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected::setStartPoint_</qualifiedname>
-        <param>
-          <type>const <ref refid="namespaceMR_1a7080d56b73b285dc9afd120e1bc1ff71" kindref="member">ObjAndPick</ref> &amp;</type>
-          <declname>pick</declname>
-        </param>
-        <param>
-          <type>Vector3f &amp;</type>
-          <declname>startPoint</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRMoveObjectByMouse.h" line="45" column="22"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga15941d79a2ccc89a4ed223fb4a85cc76" kind="function"><name>pickObjects_</name></member>
+      <member refid="group__GeneralGroup_1gad6ee69c955397bca5bbc207ab542b62c" kind="function"><name>modeFromPickModifiers_</name></member>
+      <member refid="group__GeneralGroup_1gac78f92ce2922c13cd873ba0f32c36c9c" kind="function"><name>setStartPoint_</name></member>
     </sectiondef>
     <briefdescription>
 <para>Same as basic implementation but allows to move selected objects together by holding Shift. </para>
@@ -136,32 +47,32 @@
         <link refid="structMR_1_1UI_1_1RadioButtonOrModifierState"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRMoveObjectByMouse.h" line="40" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRMoveObjectByMouse.h" bodystart="41" bodyend="50"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRMoveObjectByMouse.h" line="43" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRMoveObjectByMouse.h" bodystart="44" bodyend="53"/>
     <listofallmembers>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1a66259d6115ca5e276ea745447817f0ce" prot="protected" virt="virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>calcControlPlane_</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1aad8cb7773d35560f8b4469f293cbd169" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>cancel</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1adb167ed72d4e0abf3fd5ebc2bf23acc6" prot="protected" virt="non-virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>currentXf_</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1ada61b8ab8617465251bf6b1f36c1d782" prot="protected" virt="non-virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>deadZonePixelRadius_</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1a7de4136fb42f0c74d8c8f56b3e7e7254" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>enableHistory</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1a32b8f295b15b40dffc3f103110e9d1b6" prot="protected" virt="non-virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>getBbox_</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1af6ca6c34829bccce1c38a2f30f793b99" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>isHistoryEnabled</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1a6f7401692f7a4fc4b54c9a588eb04165" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>isMoving</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1a8ed871e4f43e2c23e6b2cfb9aae9b0ae" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>minDistance</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1a8d4fb97994485132ccb6214d20ec2041" prot="protected" virt="virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>modeFromPick_</name></member>
-      <member refid="classMR_1_1MoveObjectByMouse_1_1MoveObjectByMouseWithSelected_1ad6ee69c955397bca5bbc207ab542b62c" prot="protected" virt="virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>modeFromPickModifiers_</name></member>
-      <member refid="classMR_1_1MoveObjectByMouse_1_1MoveObjectByMouseWithSelected_1a931780c01298cc9aceca63cbbaeff334" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>modXfMode</name></member>
-      <member refid="classMR_1_1MoveObjectByMouse_1_1MoveObjectByMouseWithSelected_1a1c15dd05011e26594ae6bdc1f91aefe4" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>modXfTarget</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1a38667d92b4c0a5c674ae3984e4887601" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>MoveObjectByMouseImpl</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1a6ce0bc82b6e4105651d707287c05c7ec" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>onDrawDialog</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1a540598c4c8004c75d894fa4e63f90694" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>onMouseDown</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1a3932fa9a5384b09c3fd4b7f7179697c6" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>onMouseMove</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1a4516bc68a71f976621ce71dff17b7837" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>onMouseUp</name></member>
-      <member refid="classMR_1_1MoveObjectByMouse_1_1MoveObjectByMouseWithSelected_1a15941d79a2ccc89a4ed223fb4a85cc76" prot="protected" virt="virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>pickObjects_</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1a0e1c8964e80c006d7432d351d7f71e4d" prot="protected" virt="virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>setCenterPoint_</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1aa3df927c144669a86b1cbaba22fa36ac" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>setMinDistance</name></member>
-      <member refid="classMR_1_1MoveObjectByMouse_1_1MoveObjectByMouseWithSelected_1ac78f92ce2922c13cd873ba0f32c36c9c" prot="protected" virt="virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>setStartPoint_</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1a4e5180c9fe4f3ff399794c4a640b500a" prot="protected" virt="non-virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>TransformMode</name></member>
-      <member refid="classMR_1_1MoveObjectByMouseImpl_1a1efc181844c96d8927ff6e49ea0139bf" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>~MoveObjectByMouseImpl</name></member>
+      <member refid="group__GeneralGroup_1ga66259d6115ca5e276ea745447817f0ce" prot="protected" virt="virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>calcControlPlane_</name></member>
+      <member refid="group__GeneralGroup_1gaad8cb7773d35560f8b4469f293cbd169" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>cancel</name></member>
+      <member refid="group__GeneralGroup_1gadb167ed72d4e0abf3fd5ebc2bf23acc6" prot="protected" virt="non-virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>currentXf_</name></member>
+      <member refid="group__GeneralGroup_1gada61b8ab8617465251bf6b1f36c1d782" prot="protected" virt="non-virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>deadZonePixelRadius_</name></member>
+      <member refid="group__GeneralGroup_1ga7de4136fb42f0c74d8c8f56b3e7e7254" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>enableHistory</name></member>
+      <member refid="group__GeneralGroup_1ga32b8f295b15b40dffc3f103110e9d1b6" prot="protected" virt="non-virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>getBbox_</name></member>
+      <member refid="group__GeneralGroup_1gaf6ca6c34829bccce1c38a2f30f793b99" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>isHistoryEnabled</name></member>
+      <member refid="group__GeneralGroup_1ga6f7401692f7a4fc4b54c9a588eb04165" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>isMoving</name></member>
+      <member refid="group__GeneralGroup_1ga8ed871e4f43e2c23e6b2cfb9aae9b0ae" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>minDistance</name></member>
+      <member refid="group__GeneralGroup_1ga8d4fb97994485132ccb6214d20ec2041" prot="protected" virt="virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>modeFromPick_</name></member>
+      <member refid="group__GeneralGroup_1gad6ee69c955397bca5bbc207ab542b62c" prot="protected" virt="virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>modeFromPickModifiers_</name></member>
+      <member refid="group__GeneralGroup_1ga931780c01298cc9aceca63cbbaeff334" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>modXfMode</name></member>
+      <member refid="group__GeneralGroup_1ga1c15dd05011e26594ae6bdc1f91aefe4" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>modXfTarget</name></member>
+      <member refid="group__GeneralGroup_1ga38667d92b4c0a5c674ae3984e4887601" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>MoveObjectByMouseImpl</name></member>
+      <member refid="group__GeneralGroup_1ga6ce0bc82b6e4105651d707287c05c7ec" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>onDrawDialog</name></member>
+      <member refid="group__GeneralGroup_1ga540598c4c8004c75d894fa4e63f90694" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>onMouseDown</name></member>
+      <member refid="group__GeneralGroup_1ga3932fa9a5384b09c3fd4b7f7179697c6" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>onMouseMove</name></member>
+      <member refid="group__GeneralGroup_1ga4516bc68a71f976621ce71dff17b7837" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>onMouseUp</name></member>
+      <member refid="group__GeneralGroup_1ga15941d79a2ccc89a4ed223fb4a85cc76" prot="protected" virt="virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>pickObjects_</name></member>
+      <member refid="group__GeneralGroup_1ga0e1c8964e80c006d7432d351d7f71e4d" prot="protected" virt="virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>setCenterPoint_</name></member>
+      <member refid="group__GeneralGroup_1gaa3df927c144669a86b1cbaba22fa36ac" prot="public" virt="non-virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>setMinDistance</name></member>
+      <member refid="group__GeneralGroup_1gac78f92ce2922c13cd873ba0f32c36c9c" prot="protected" virt="virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>setStartPoint_</name></member>
+      <member refid="group__GeneralGroup_1ga4e5180c9fe4f3ff399794c4a640b500a" prot="protected" virt="non-virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>TransformMode</name></member>
+      <member refid="group__GeneralGroup_1ga1efc181844c96d8927ff6e49ea0139bf" prot="public" virt="virtual"><scope>MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</scope><name>~MoveObjectByMouseImpl</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

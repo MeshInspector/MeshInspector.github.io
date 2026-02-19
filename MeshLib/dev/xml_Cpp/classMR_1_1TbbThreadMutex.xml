@@ -5,85 +5,17 @@
     <includes refid="MRTbbThreadMutex_8h" local="no">MRTbbThreadMutex.h</includes>
     <innerclass refid="classMR_1_1TbbThreadMutex_1_1LockGuard" prot="public">MR::TbbThreadMutex::LockGuard</innerclass>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1TbbThreadMutex_1ac2142db03ef7499985da45422ed8023c" prot="private" static="no" mutable="no">
-        <type>std::thread::id</type>
-        <definition>std::thread::id MR::TbbThreadMutex::id_</definition>
-        <argsstring></argsstring>
-        <name>id_</name>
-        <qualifiedname>MR::TbbThreadMutex::id_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTbbThreadMutex.h" line="58" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTbbThreadMutex.h" bodystart="58" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1TbbThreadMutex_1a5ab0ebf352e994936c07826cea204d81" prot="private" static="no" mutable="no">
-        <type>std::atomic_flag</type>
-        <definition>std::atomic_flag MR::TbbThreadMutex::lockFlag_</definition>
-        <argsstring></argsstring>
-        <name>lockFlag_</name>
-        <qualifiedname>MR::TbbThreadMutex::lockFlag_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTbbThreadMutex.h" line="59" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTbbThreadMutex.h" bodystart="59" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gac2142db03ef7499985da45422ed8023c" kind="variable"><name>id_</name></member>
+      <member refid="group__GeneralGroup_1ga5ab0ebf352e994936c07826cea204d81" kind="variable"><name>lockFlag_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1TbbThreadMutex_1a5e5227909627529a3be4a85ba613d565" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
-        <definition>MRMESH_API MR::TbbThreadMutex::TbbThreadMutex</definition>
-        <argsstring>(std::thread::id id=std::this_thread::get_id())</argsstring>
-        <name>TbbThreadMutex</name>
-        <qualifiedname>MR::TbbThreadMutex::TbbThreadMutex</qualifiedname>
-        <param>
-          <type>std::thread::id</type>
-          <declname>id</declname>
-          <defval>std::this_thread::get_id()</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>construct class <parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>id</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>- id of thread allowed to lock the mutex </para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTbbThreadMutex.h" line="36" column="25"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1TbbThreadMutex_1a90d44121dc83fee14538cf016ad521ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::optional&lt; <ref refid="classMR_1_1TbbThreadMutex_1_1LockGuard" kindref="compound">LockGuard</ref> &gt;</type>
-        <definition>MRMESH_API std::optional&lt; LockGuard &gt; MR::TbbThreadMutex::tryLock</definition>
-        <argsstring>()</argsstring>
-        <name>tryLock</name>
-        <qualifiedname>MR::TbbThreadMutex::tryLock</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>try to lock the mutex returns a lock guard if the current thread id is equal to the mutex&apos;s one and the mutex is not locked yet </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTbbThreadMutex.h" line="55" column="30"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga5e5227909627529a3be4a85ba613d565" kind="function"><name>TbbThreadMutex</name></member>
+      <member refid="group__GeneralGroup_1ga90d44121dc83fee14538cf016ad521ee" kind="function"><name>tryLock</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>helper class used to ensure that the specific thread is not re-used by TBB use it if you have nested TBB operations (e.g. parallel_for inside another parallel_for) <programlisting><codeline><highlight class="normal"><ref refid="classMR_1_1TbbThreadMutex_1a5e5227909627529a3be4a85ba613d565" kindref="member">TbbThreadMutex</ref><sp/>reportThreadMutex;</highlight></codeline>
+<para>helper class used to ensure that the specific thread is not re-used by TBB use it if you have nested TBB operations (e.g. parallel_for inside another parallel_for) <programlisting><codeline><highlight class="normal"><ref refid="group__GeneralGroup_1ga5e5227909627529a3be4a85ba613d565" kindref="member">TbbThreadMutex</ref><sp/>reportThreadMutex;</highlight></codeline>
 <codeline><highlight class="normal">tbb::parallel_for(<sp/>range,<sp/>[&amp;]<sp/>(<sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;&amp;<sp/>range<sp/>)</highlight></codeline>
 <codeline><highlight class="normal">{</highlight></codeline>
 <codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>reportThreadLock<sp/>=<sp/>reportThreadMutex.tryLock();</highlight></codeline>
@@ -96,12 +28,12 @@
 <codeline><highlight class="normal">}<sp/>);</highlight></codeline>
 </programlisting> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTbbThreadMutex.h" line="31" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTbbThreadMutex.h" bodystart="32" bodyend="60"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTbbThreadMutex.h" line="34" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTbbThreadMutex.h" bodystart="35" bodyend="63"/>
     <listofallmembers>
-      <member refid="classMR_1_1TbbThreadMutex_1ac2142db03ef7499985da45422ed8023c" prot="private" virt="non-virtual"><scope>MR::TbbThreadMutex</scope><name>id_</name></member>
-      <member refid="classMR_1_1TbbThreadMutex_1a5ab0ebf352e994936c07826cea204d81" prot="private" virt="non-virtual"><scope>MR::TbbThreadMutex</scope><name>lockFlag_</name></member>
-      <member refid="classMR_1_1TbbThreadMutex_1a5e5227909627529a3be4a85ba613d565" prot="public" virt="non-virtual"><scope>MR::TbbThreadMutex</scope><name>TbbThreadMutex</name></member>
-      <member refid="classMR_1_1TbbThreadMutex_1a90d44121dc83fee14538cf016ad521ee" prot="public" virt="non-virtual"><scope>MR::TbbThreadMutex</scope><name>tryLock</name></member>
+      <member refid="group__GeneralGroup_1gac2142db03ef7499985da45422ed8023c" prot="private" virt="non-virtual"><scope>MR::TbbThreadMutex</scope><name>id_</name></member>
+      <member refid="group__GeneralGroup_1ga5ab0ebf352e994936c07826cea204d81" prot="private" virt="non-virtual"><scope>MR::TbbThreadMutex</scope><name>lockFlag_</name></member>
+      <member refid="group__GeneralGroup_1ga5e5227909627529a3be4a85ba613d565" prot="public" virt="non-virtual"><scope>MR::TbbThreadMutex</scope><name>TbbThreadMutex</name></member>
+      <member refid="group__GeneralGroup_1ga90d44121dc83fee14538cf016ad521ee" prot="public" virt="non-virtual"><scope>MR::TbbThreadMutex</scope><name>tryLock</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

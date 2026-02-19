@@ -4,30 +4,15 @@
     <compoundname>MR::VoxelsVolumeCachingAccessor::Parameters</compoundname>
     <includes refid="MRVoxelsVolumeCachingAccessor_8h" local="no">MRVoxelsVolumeCachingAccessor.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1VoxelsVolumeCachingAccessor_1_1Parameters_1af8a829af89a52b2fc7092ffa6f36f3e0" prot="public" static="no" mutable="no">
-        <type>size_t</type>
-        <definition>size_t MR::VoxelsVolumeCachingAccessor&lt; V &gt;::Parameters::preloadedLayerCount</definition>
-        <argsstring></argsstring>
-        <name>preloadedLayerCount</name>
-        <qualifiedname>MR::VoxelsVolumeCachingAccessor::Parameters::preloadedLayerCount</qualifiedname>
-        <initializer>= 1</initializer>
-        <briefdescription>
-<para>amount of layers to be preloaded </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsVolumeCachingAccessor.h" line="22" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsVolumeCachingAccessor.h" bodystart="22" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaf8a829af89a52b2fc7092ffa6f36f3e0" kind="variable"><name>preloadedLayerCount</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsVolumeCachingAccessor.h" line="19" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsVolumeCachingAccessor.h" bodystart="20" bodyend="23"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsVolumeCachingAccessor.h" line="22" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsVolumeCachingAccessor.h" bodystart="23" bodyend="26"/>
     <listofallmembers>
-      <member refid="structMR_1_1VoxelsVolumeCachingAccessor_1_1Parameters_1af8a829af89a52b2fc7092ffa6f36f3e0" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeCachingAccessor::Parameters</scope><name>preloadedLayerCount</name></member>
+      <member refid="group__GeneralGroup_1gaf8a829af89a52b2fc7092ffa6f36f3e0" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeCachingAccessor::Parameters</scope><name>preloadedLayerCount</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

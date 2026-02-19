@@ -4,265 +4,42 @@
     <compoundname>MR::AncillaryPoints</compoundname>
     <includes refid="MRAncillaryPoints_8h" local="no">MRAncillaryPoints.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1AncillaryPoints_1ac4c339d58512495cb88f10f474fb120e" prot="public" static="no" mutable="no">
-        <type>std::shared_ptr&lt; <ref refid="classMR_1_1ObjectPoints" kindref="compound">ObjectPoints</ref> &gt;</type>
-        <definition>std::shared_ptr&lt;ObjectPoints&gt; MR::AncillaryPoints::obj</definition>
-        <argsstring></argsstring>
-        <name>obj</name>
-        <qualifiedname>MR::AncillaryPoints::obj</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryPoints.h" line="13" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryPoints.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gac4c339d58512495cb88f10f474fb120e" kind="variable"><name>obj</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1AncillaryPoints_1af6fa967b33227eb24738dbe16aa90a15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::AncillaryPoints::AncillaryPoints</definition>
-        <argsstring>()=default</argsstring>
-        <name>AncillaryPoints</name>
-        <qualifiedname>MR::AncillaryPoints::AncillaryPoints</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryPoints.h" line="15" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1AncillaryPoints_1a37e968a4fe6703e8890329ac2f83d978" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::AncillaryPoints::AncillaryPoints</definition>
-        <argsstring>(AncillaryPoints &amp;&amp;b) noexcept=default</argsstring>
-        <name>AncillaryPoints</name>
-        <qualifiedname>MR::AncillaryPoints::AncillaryPoints</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1AncillaryPoints" kindref="compound">AncillaryPoints</ref> &amp;&amp;</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-<para>since this uniquely owns an ancillary object, we provide only move operations, not copy </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryPoints.h" line="18" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1AncillaryPoints_1aecec1c034a47b9b7d102ba9bf6366869" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1AncillaryPoints" kindref="compound">AncillaryPoints</ref> &amp;</type>
-        <definition>AncillaryPoints &amp; MR::AncillaryPoints::operator=</definition>
-        <argsstring>(AncillaryPoints &amp;&amp;b)</argsstring>
-        <name>operator=</name>
-        <qualifiedname>MR::AncillaryPoints::operator=</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1AncillaryPoints" kindref="compound">AncillaryPoints</ref> &amp;&amp;</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryPoints.h" line="19" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryPoints.h" bodystart="19" bodyend="19"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1AncillaryPoints_1a1053dde41fe1dfb09838cbc4f556f23b" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::AncillaryPoints::AncillaryPoints</definition>
-        <argsstring>(Object &amp;parent)</argsstring>
-        <name>AncillaryPoints</name>
-        <qualifiedname>MR::AncillaryPoints::AncillaryPoints</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
-          <declname>parent</declname>
-        </param>
-        <briefdescription>
-<para>Make not-pickable object, link it to parent object. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryPoints.h" line="22" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryPoints.h" bodystart="22" bodyend="22"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1AncillaryPoints_1a7bf2502c9af68ddef2828358eedb94b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::AncillaryPoints::make</definition>
-        <argsstring>(Object &amp;parent)</argsstring>
-        <name>make</name>
-        <qualifiedname>MR::AncillaryPoints::make</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
-          <declname>parent</declname>
-        </param>
-        <briefdescription>
-<para>Make not-pickable object, link it to parent object. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryPoints.h" line="25" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1AncillaryPoints_1a19619544546d28e1fe037cd4d39dfab5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::AncillaryPoints::reset</definition>
-        <argsstring>()</argsstring>
-        <name>reset</name>
-        <qualifiedname>MR::AncillaryPoints::reset</qualifiedname>
-        <briefdescription>
-<para>detach owned object from parent, stops owning it </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryPoints.h" line="28" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1AncillaryPoints_1a1ae6091149af08970f521f474ed0cb1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::AncillaryPoints::~AncillaryPoints</definition>
-        <argsstring>()</argsstring>
-        <name>~AncillaryPoints</name>
-        <qualifiedname>MR::AncillaryPoints::~AncillaryPoints</qualifiedname>
-        <briefdescription>
-<para>detach owned object from parent, stops owning it </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryPoints.h" line="31" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryPoints.h" bodystart="31" bodyend="31"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1AncillaryPoints_1a63a0097eb35e67be4a2ea6f2d5f98402" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::AncillaryPoints::addPoint</definition>
-        <argsstring>(const Vector3f &amp;point)</argsstring>
-        <name>addPoint</name>
-        <qualifiedname>MR::AncillaryPoints::addPoint</qualifiedname>
-        <param>
-          <type>const Vector3f &amp;</type>
-          <declname>point</declname>
-        </param>
-        <briefdescription>
-<para>add ancillary point </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryPoints.h" line="34" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1AncillaryPoints_1a0cdf55740b5048f21da661679c6deddc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::AncillaryPoints::addPoint</definition>
-        <argsstring>(const Vector3f &amp;point, const Color &amp;color)</argsstring>
-        <name>addPoint</name>
-        <qualifiedname>MR::AncillaryPoints::addPoint</qualifiedname>
-        <param>
-          <type>const Vector3f &amp;</type>
-          <declname>point</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &amp;</type>
-          <declname>color</declname>
-        </param>
-        <briefdescription>
-<para>add ancillary point with color </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryPoints.h" line="37" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1AncillaryPoints_1a45db8cb79aca2bc0ac79707f498df4c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::AncillaryPoints::addPoints</definition>
-        <argsstring>(const std::vector&lt; Vector3f &gt; &amp;points)</argsstring>
-        <name>addPoints</name>
-        <qualifiedname>MR::AncillaryPoints::addPoints</qualifiedname>
-        <param>
-          <type>const std::vector&lt; Vector3f &gt; &amp;</type>
-          <declname>points</declname>
-        </param>
-        <briefdescription>
-<para>add vector of ancillary points </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryPoints.h" line="40" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1AncillaryPoints_1a176b8c6b96297257540722e2127489d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::AncillaryPoints::addPoints</definition>
-        <argsstring>(const std::vector&lt; Vector3f &gt; &amp;points, const std::vector&lt; Vector4f &gt; &amp;colors)</argsstring>
-        <name>addPoints</name>
-        <qualifiedname>MR::AncillaryPoints::addPoints</qualifiedname>
-        <param>
-          <type>const std::vector&lt; Vector3f &gt; &amp;</type>
-          <declname>points</declname>
-        </param>
-        <param>
-          <type>const std::vector&lt; Vector4f &gt; &amp;</type>
-          <declname>colors</declname>
-        </param>
-        <briefdescription>
-<para>add vector of ancillary points with colors </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryPoints.h" line="43" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1AncillaryPoints_1a537fa4e2293d1858a80b7317ee1f6143" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::AncillaryPoints::setDepthTest</definition>
-        <argsstring>(bool depthTest)</argsstring>
-        <name>setDepthTest</name>
-        <qualifiedname>MR::AncillaryPoints::setDepthTest</qualifiedname>
-        <param>
-          <type>bool</type>
-          <declname>depthTest</declname>
-        </param>
-        <briefdescription>
-<para>Set depth test. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryPoints.h" line="46" column="23"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaf6fa967b33227eb24738dbe16aa90a15" kind="function"><name>AncillaryPoints</name></member>
+      <member refid="group__GeneralGroup_1ga37e968a4fe6703e8890329ac2f83d978" kind="function"><name>AncillaryPoints</name></member>
+      <member refid="group__GeneralGroup_1gaecec1c034a47b9b7d102ba9bf6366869" kind="function"><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga1053dde41fe1dfb09838cbc4f556f23b" kind="function"><name>AncillaryPoints</name></member>
+      <member refid="group__GeneralGroup_1ga7bf2502c9af68ddef2828358eedb94b8" kind="function"><name>make</name></member>
+      <member refid="group__GeneralGroup_1ga19619544546d28e1fe037cd4d39dfab5" kind="function"><name>reset</name></member>
+      <member refid="group__GeneralGroup_1ga1ae6091149af08970f521f474ed0cb1e" kind="function"><name>~AncillaryPoints</name></member>
+      <member refid="group__GeneralGroup_1ga63a0097eb35e67be4a2ea6f2d5f98402" kind="function"><name>addPoint</name></member>
+      <member refid="group__GeneralGroup_1ga0cdf55740b5048f21da661679c6deddc" kind="function"><name>addPoint</name></member>
+      <member refid="group__GeneralGroup_1ga45db8cb79aca2bc0ac79707f498df4c8" kind="function"><name>addPoints</name></member>
+      <member refid="group__GeneralGroup_1ga176b8c6b96297257540722e2127489d5" kind="function"><name>addPoints</name></member>
+      <member refid="group__GeneralGroup_1ga537fa4e2293d1858a80b7317ee1f6143" kind="function"><name>setDepthTest</name></member>
     </sectiondef>
     <briefdescription>
 <para>Helper class to manage ancillary visual points used by plugins. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryPoints.h" line="11" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryPoints.h" bodystart="12" bodyend="47"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryPoints.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryPoints.h" bodystart="15" bodyend="50"/>
     <listofallmembers>
-      <member refid="structMR_1_1AncillaryPoints_1a63a0097eb35e67be4a2ea6f2d5f98402" prot="public" virt="non-virtual"><scope>MR::AncillaryPoints</scope><name>addPoint</name></member>
-      <member refid="structMR_1_1AncillaryPoints_1a0cdf55740b5048f21da661679c6deddc" prot="public" virt="non-virtual"><scope>MR::AncillaryPoints</scope><name>addPoint</name></member>
-      <member refid="structMR_1_1AncillaryPoints_1a45db8cb79aca2bc0ac79707f498df4c8" prot="public" virt="non-virtual"><scope>MR::AncillaryPoints</scope><name>addPoints</name></member>
-      <member refid="structMR_1_1AncillaryPoints_1a176b8c6b96297257540722e2127489d5" prot="public" virt="non-virtual"><scope>MR::AncillaryPoints</scope><name>addPoints</name></member>
-      <member refid="structMR_1_1AncillaryPoints_1af6fa967b33227eb24738dbe16aa90a15" prot="public" virt="non-virtual"><scope>MR::AncillaryPoints</scope><name>AncillaryPoints</name></member>
-      <member refid="structMR_1_1AncillaryPoints_1a37e968a4fe6703e8890329ac2f83d978" prot="public" virt="non-virtual"><scope>MR::AncillaryPoints</scope><name>AncillaryPoints</name></member>
-      <member refid="structMR_1_1AncillaryPoints_1a1053dde41fe1dfb09838cbc4f556f23b" prot="public" virt="non-virtual"><scope>MR::AncillaryPoints</scope><name>AncillaryPoints</name></member>
-      <member refid="structMR_1_1AncillaryPoints_1a7bf2502c9af68ddef2828358eedb94b8" prot="public" virt="non-virtual"><scope>MR::AncillaryPoints</scope><name>make</name></member>
-      <member refid="structMR_1_1AncillaryPoints_1ac4c339d58512495cb88f10f474fb120e" prot="public" virt="non-virtual"><scope>MR::AncillaryPoints</scope><name>obj</name></member>
-      <member refid="structMR_1_1AncillaryPoints_1aecec1c034a47b9b7d102ba9bf6366869" prot="public" virt="non-virtual"><scope>MR::AncillaryPoints</scope><name>operator=</name></member>
-      <member refid="structMR_1_1AncillaryPoints_1a19619544546d28e1fe037cd4d39dfab5" prot="public" virt="non-virtual"><scope>MR::AncillaryPoints</scope><name>reset</name></member>
-      <member refid="structMR_1_1AncillaryPoints_1a537fa4e2293d1858a80b7317ee1f6143" prot="public" virt="non-virtual"><scope>MR::AncillaryPoints</scope><name>setDepthTest</name></member>
-      <member refid="structMR_1_1AncillaryPoints_1a1ae6091149af08970f521f474ed0cb1e" prot="public" virt="non-virtual"><scope>MR::AncillaryPoints</scope><name>~AncillaryPoints</name></member>
+      <member refid="group__GeneralGroup_1ga63a0097eb35e67be4a2ea6f2d5f98402" prot="public" virt="non-virtual"><scope>MR::AncillaryPoints</scope><name>addPoint</name></member>
+      <member refid="group__GeneralGroup_1ga0cdf55740b5048f21da661679c6deddc" prot="public" virt="non-virtual"><scope>MR::AncillaryPoints</scope><name>addPoint</name></member>
+      <member refid="group__GeneralGroup_1ga45db8cb79aca2bc0ac79707f498df4c8" prot="public" virt="non-virtual"><scope>MR::AncillaryPoints</scope><name>addPoints</name></member>
+      <member refid="group__GeneralGroup_1ga176b8c6b96297257540722e2127489d5" prot="public" virt="non-virtual"><scope>MR::AncillaryPoints</scope><name>addPoints</name></member>
+      <member refid="group__GeneralGroup_1gaf6fa967b33227eb24738dbe16aa90a15" prot="public" virt="non-virtual"><scope>MR::AncillaryPoints</scope><name>AncillaryPoints</name></member>
+      <member refid="group__GeneralGroup_1ga37e968a4fe6703e8890329ac2f83d978" prot="public" virt="non-virtual"><scope>MR::AncillaryPoints</scope><name>AncillaryPoints</name></member>
+      <member refid="group__GeneralGroup_1ga1053dde41fe1dfb09838cbc4f556f23b" prot="public" virt="non-virtual"><scope>MR::AncillaryPoints</scope><name>AncillaryPoints</name></member>
+      <member refid="group__GeneralGroup_1ga7bf2502c9af68ddef2828358eedb94b8" prot="public" virt="non-virtual"><scope>MR::AncillaryPoints</scope><name>make</name></member>
+      <member refid="group__GeneralGroup_1gac4c339d58512495cb88f10f474fb120e" prot="public" virt="non-virtual"><scope>MR::AncillaryPoints</scope><name>obj</name></member>
+      <member refid="group__GeneralGroup_1gaecec1c034a47b9b7d102ba9bf6366869" prot="public" virt="non-virtual"><scope>MR::AncillaryPoints</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga19619544546d28e1fe037cd4d39dfab5" prot="public" virt="non-virtual"><scope>MR::AncillaryPoints</scope><name>reset</name></member>
+      <member refid="group__GeneralGroup_1ga537fa4e2293d1858a80b7317ee1f6143" prot="public" virt="non-virtual"><scope>MR::AncillaryPoints</scope><name>setDepthTest</name></member>
+      <member refid="group__GeneralGroup_1ga1ae6091149af08970f521f474ed0cb1e" prot="public" virt="non-virtual"><scope>MR::AncillaryPoints</scope><name>~AncillaryPoints</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

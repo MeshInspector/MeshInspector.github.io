@@ -34,316 +34,29 @@
     <derivedcompoundref refid="classMR_1_1UndoMenuItem" prot="public" virt="non-virtual">MR::UndoMenuItem</derivedcompoundref>
     <includes refid="MRRibbonMenuItem_8h" local="no">MRRibbonMenuItem.h</includes>
     <sectiondef kind="public-type">
-      <memberdef kind="typedef" id="classMR_1_1RibbonMenuItem_1a4799011be3410f46444164d6d00b966e" prot="public" static="no">
-        <type>std::vector&lt; std::shared_ptr&lt; <ref refid="classMR_1_1RibbonMenuItem" kindref="compound">RibbonMenuItem</ref> &gt; &gt;</type>
-        <definition>using MR::RibbonMenuItem::DropItemsList =  std::vector&lt;std::shared_ptr&lt;RibbonMenuItem&gt;&gt;</definition>
-        <argsstring></argsstring>
-        <name>DropItemsList</name>
-        <qualifiedname>MR::RibbonMenuItem::DropItemsList</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuItem.h" line="47" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuItem.h" bodystart="47" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga4799011be3410f46444164d6d00b966e" kind="typedef"><name>DropItemsList</name></member>
     </sectiondef>
     <sectiondef kind="protected-attrib">
-      <memberdef kind="variable" id="classMR_1_1RibbonMenuItem_1a00b402da6dbcec7d6c97b5c6a16e3924" prot="protected" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1a1478e43a90bad95d9ef709807606688a" kindref="member">RibbonItemType</ref></type>
-        <definition>RibbonItemType MR::RibbonMenuItem::type_</definition>
-        <argsstring></argsstring>
-        <name>type_</name>
-        <qualifiedname>MR::RibbonMenuItem::type_</qualifiedname>
-        <initializer>{ <ref refid="namespaceMR_1a1478e43a90bad95d9ef709807606688aa87b7760f14fbff78d8819291f36ab9a0" kindref="member">RibbonItemType::Button</ref> }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuItem.h" line="61" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuItem.h" bodystart="61" bodyend="61"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RibbonMenuItem_1a2f25401d4b94a752bd63b79152673ab5" prot="protected" static="no" mutable="no">
-        <type><ref refid="classMR_1_1RibbonMenuItem_1a4799011be3410f46444164d6d00b966e" kindref="member">DropItemsList</ref></type>
-        <definition>DropItemsList MR::RibbonMenuItem::dropList_</definition>
-        <argsstring></argsstring>
-        <name>dropList_</name>
-        <qualifiedname>MR::RibbonMenuItem::dropList_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuItem.h" line="62" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuItem.h" bodystart="62" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga00b402da6dbcec7d6c97b5c6a16e3924" kind="variable"><name>type_</name></member>
+      <member refid="group__GeneralGroup_1ga2f25401d4b94a752bd63b79152673ab5" kind="variable"><name>dropList_</name></member>
     </sectiondef>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1RibbonMenuItem_1aa2761ae0f93e5eaa003abc2f797fa119" prot="private" static="no" mutable="no">
-        <type>std::string</type>
-        <definition>std::string MR::RibbonMenuItem::name_</definition>
-        <argsstring></argsstring>
-        <name>name_</name>
-        <qualifiedname>MR::RibbonMenuItem::name_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuItem.h" line="65" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuItem.h" bodystart="65" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaa2761ae0f93e5eaa003abc2f797fa119" kind="variable"><name>name_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1RibbonMenuItem_1a957422a15704b2f8854bfd0b2d1ae76d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::RibbonMenuItem::MR_DELETE_MOVE</definition>
-        <argsstring>(RibbonMenuItem)</argsstring>
-        <name>MR_DELETE_MOVE</name>
-        <qualifiedname>MR::RibbonMenuItem::MR_DELETE_MOVE</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1RibbonMenuItem" kindref="compound">RibbonMenuItem</ref></type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuItem.h" line="22" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RibbonMenuItem_1ad3e0eda49eae11a9fba79187c62e07bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API</type>
-        <definition>MRVIEWER_API MR::RibbonMenuItem::RibbonMenuItem</definition>
-        <argsstring>(std::string name)</argsstring>
-        <name>RibbonMenuItem</name>
-        <qualifiedname>MR::RibbonMenuItem::RibbonMenuItem</qualifiedname>
-        <param>
-          <type>std::string</type>
-          <declname>name</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuItem.h" line="24" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RibbonMenuItem_1ac8074b75f1c764d041b11210b5b7541c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type></type>
-        <definition>virtual MR::RibbonMenuItem::~RibbonMenuItem</definition>
-        <argsstring>()=default</argsstring>
-        <name>~RibbonMenuItem</name>
-        <qualifiedname>MR::RibbonMenuItem::~RibbonMenuItem</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuItem.h" line="26" column="13"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RibbonMenuItem_1a4af847e120965263839d2628cf7dd979" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::RibbonMenuItem::action</definition>
-        <argsstring>()=0</argsstring>
-        <name>action</name>
-        <qualifiedname>MR::RibbonMenuItem::action</qualifiedname>
-        <reimplementedby refid="classMR_1_1CaptureScreenshotToClipBoardMenuItem_1aa9768034e77b25ffed92bf08fbe11321">action</reimplementedby>
-        <reimplementedby refid="classMR_1_1CaptureUIScreenshotMenuItem_1af569a69e5cab36addea77d7ad6a5df78">action</reimplementedby>
-        <reimplementedby refid="classMR_1_1DrawViewportWidgetsItem_1a19db2d517f3ac2f31349049b26abc9d3">action</reimplementedby>
-        <reimplementedby refid="classMR_1_1FitDataMenuItem_1a1e842984bba308a1465a05732ef8f5d3">action</reimplementedby>
-        <reimplementedby refid="classMR_1_1FitSelectedObjectsMenuItem_1a65ea98bf6c4002164f246e5d1d92f92d">action</reimplementedby>
-        <reimplementedby refid="classMR_1_1FitSelectedPrimitivesMenuItem_1aeafd0bc4ba15b7678811bfccf87b02fa">action</reimplementedby>
-        <reimplementedby refid="classMR_1_1LambdaRibbonItem_1a596df9f6e3335a7b93dbefdeffcf7b72">action</reimplementedby>
-        <reimplementedby refid="classMR_1_1MeshModifier_1ab75122cf4d5edf460bca35ebaae7f1a4">action</reimplementedby>
-        <reimplementedby refid="classMR_1_1OpenDICOMsMenuItem_1a552788c299eeab9cb93cef6a1454e287">action</reimplementedby>
-        <reimplementedby refid="classMR_1_1OpenDirectoryMenuItem_1a99e13adad0201cd173dae6af6ad6138c">action</reimplementedby>
-        <reimplementedby refid="classMR_1_1OpenFilesMenuItem_1acd1d0b203f477e1a2f307be78c9c6eb8">action</reimplementedby>
-        <reimplementedby refid="classMR_1_1RedoMenuItem_1a36ed5986c45fa790cafed4df8b0d3536">action</reimplementedby>
-        <reimplementedby refid="classMR_1_1ResetSceneMenuItem_1a4d10d54c7e98ad78d11b2b056231d6d8">action</reimplementedby>
-        <reimplementedby refid="classMR_1_1RibbonSceneHideAll_1ac9c90df48cf4b0cdc70b9024c7702297">action</reimplementedby>
-        <reimplementedby refid="classMR_1_1RibbonSceneRemoveSelected_1a29caebde4be3ee15714f1c5698a8edb0">action</reimplementedby>
-        <reimplementedby refid="classMR_1_1RibbonSceneRename_1a0a3ceed28e10a93082b57b82d8488854">action</reimplementedby>
-        <reimplementedby refid="classMR_1_1RibbonSceneSelectAll_1a433311a49af6ba8c055ec3b7aab398e7">action</reimplementedby>
-        <reimplementedby refid="classMR_1_1RibbonSceneShowAll_1a74a74bc34eb2d8efaf8a23d0ef2b1c4a">action</reimplementedby>
-        <reimplementedby refid="classMR_1_1RibbonSceneShowOnlyNext_1a2199b5a9a3cc9f2888ab7acc6262cbb4">action</reimplementedby>
-        <reimplementedby refid="classMR_1_1RibbonSceneShowOnlyPrev_1a4114614fcce10fea7490795f3b8bf72e">action</reimplementedby>
-        <reimplementedby refid="classMR_1_1RibbonSceneSortByName_1abe980ef002e4cc4677b3b8687eb1574f">action</reimplementedby>
-        <reimplementedby refid="classMR_1_1RibbonSceneUnselectAll_1a7e09528a991f78af5a78c035395302ce">action</reimplementedby>
-        <reimplementedby refid="classMR_1_1SaveObjectMenuItem_1a9d4f87039cdb3b22c996766852295894">action</reimplementedby>
-        <reimplementedby refid="classMR_1_1SaveSceneAsMenuItem_1a6870e8bb691b830a00186d9a60d52a3d">action</reimplementedby>
-        <reimplementedby refid="classMR_1_1SaveSceneMenuItem_1a417f49d8c8d7f15f3650c9e0aa881b3d">action</reimplementedby>
-        <reimplementedby refid="classMR_1_1SaveSelectedMenuItem_1ad064ea5ca7d0f438dae71e8a7ec7446c">action</reimplementedby>
-        <reimplementedby refid="classMR_1_1SetViewportConfigPresetMenuItem_1aab1e4ca9d8717e7092bf07b4ff40434a">action</reimplementedby>
-        <reimplementedby refid="classMR_1_1SetViewPresetMenuItem_1a22d459e6dfc41abb30e789e165d22d13">action</reimplementedby>
-        <reimplementedby refid="classMR_1_1StateBasePlugin_1a3e096e6d2e0ecf98e399691bd99c82f7">action</reimplementedby>
-        <reimplementedby refid="classMR_1_1UndoMenuItem_1a7192ae4eb328a96185a7f6b1bc4da2c6">action</reimplementedby>
-        <briefdescription>
-<para>returns true if state of item changed </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuItem.h" line="29" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RibbonMenuItem_1a3b30bb82fe11901e3d971d3b761f5bf2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::RibbonMenuItem::isActive</definition>
-        <argsstring>() const</argsstring>
-        <name>isActive</name>
-        <qualifiedname>MR::RibbonMenuItem::isActive</qualifiedname>
-        <reimplementedby refid="classMR_1_1StateBasePlugin_1a2172655c98b73059ee0bfc8cb3115097">isActive</reimplementedby>
-        <briefdescription>
-<para>for state items returns true if activated </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuItem.h" line="31" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuItem.h" bodystart="31" bodyend="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RibbonMenuItem_1ac9fd2cbdcf5356c6fbb093464568afdc" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::RibbonMenuItem::blocking</definition>
-        <argsstring>() const</argsstring>
-        <name>blocking</name>
-        <qualifiedname>MR::RibbonMenuItem::blocking</qualifiedname>
-        <reimplementedby refid="classMR_1_1CameraOrientation_1aded26055d65895c92ebe389028088749">blocking</reimplementedby>
-        <reimplementedby refid="classMR_1_1CaptureScreenshotMenuItem_1ac4b0cdb8632f4960672d36407fae15e8">blocking</reimplementedby>
-        <reimplementedby refid="classMR_1_1MoveObjectByMouse_1af8619e80df46a41878d35b50d427ef0c">blocking</reimplementedby>
-        <reimplementedby refid="classMR_1_1ResetSceneMenuItem_1af16f8c683f827d933c164d15c68c3ecb">blocking</reimplementedby>
-        <reimplementedby refid="classMR_1_1SelectObjectByClick_1a4e224981a48ecad3ccd0f3644cfeecd5">blocking</reimplementedby>
-        <reimplementedby refid="classMR_1_1StateBasePlugin_1ae7a96edadae63c78192e0f1f6b1f9db9">blocking</reimplementedby>
-        <reimplementedby refid="classMR_1_1ViewerSettingsPlugin_1ac31f0ed7c0847408208b9cd59d7a9c40">blocking</reimplementedby>
-        <briefdescription>
-<para>true if this item is blocking (only one blocking item can be active at once) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuItem.h" line="33" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuItem.h" bodystart="33" bodyend="33"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RibbonMenuItem_1abf4ea13c8983c44214b92a066e8b7659" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const std::string &amp;</type>
-        <definition>const std::string &amp; MR::RibbonMenuItem::name</definition>
-        <argsstring>() const</argsstring>
-        <name>name</name>
-        <qualifiedname>MR::RibbonMenuItem::name</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuItem.h" line="35" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuItem.h" bodystart="35" bodyend="35"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RibbonMenuItem_1a327958b76ec3d044202620beafe67c93" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>const std::string &amp;</type>
-        <definition>virtual const std::string &amp; MR::RibbonMenuItem::uiName</definition>
-        <argsstring>() const</argsstring>
-        <name>uiName</name>
-        <qualifiedname>MR::RibbonMenuItem::uiName</qualifiedname>
-        <reimplementedby refid="classMR_1_1StateBasePlugin_1a56d7b27cd916a3ec2fcf0bcb4b7e3d28">uiName</reimplementedby>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>can be overridden by some plugins with ui it is used for highlighting active and closing plugins by Esc key note that it is not <ref refid="structMR_1_1RibbonSchema" kindref="compound">RibbonSchema</ref> caption </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuItem.h" line="40" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuItem.h" bodystart="40" bodyend="40"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RibbonMenuItem_1ab499c9049737793e6b1994048b99952c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::RibbonMenuItem::setRibbonItemType</definition>
-        <argsstring>(RibbonItemType type)</argsstring>
-        <name>setRibbonItemType</name>
-        <qualifiedname>MR::RibbonMenuItem::setRibbonItemType</qualifiedname>
-        <param>
-          <type><ref refid="namespaceMR_1a1478e43a90bad95d9ef709807606688a" kindref="member">RibbonItemType</ref></type>
-          <declname>type</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuItem.h" line="42" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuItem.h" bodystart="42" bodyend="42"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RibbonMenuItem_1a15b6a4b9f191b8716be1199364bb74e0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type><ref refid="namespaceMR_1a1478e43a90bad95d9ef709807606688a" kindref="member">RibbonItemType</ref></type>
-        <definition>virtual RibbonItemType MR::RibbonMenuItem::type</definition>
-        <argsstring>() const</argsstring>
-        <name>type</name>
-        <qualifiedname>MR::RibbonMenuItem::type</qualifiedname>
-        <briefdescription>
-<para>type of this item, base <ref refid="classMR_1_1RibbonMenuItem" kindref="compound">RibbonMenuItem</ref> can be only button </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuItem.h" line="45" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuItem.h" bodystart="45" bodyend="45"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RibbonMenuItem_1af417cbe66b6559e5df0122377c5a3628" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::RibbonMenuItem::setDropItemsFromItemList</definition>
-        <argsstring>(const MenuItemsList &amp;itemsList)</argsstring>
-        <name>setDropItemsFromItemList</name>
-        <qualifiedname>MR::RibbonMenuItem::setDropItemsFromItemList</qualifiedname>
-        <param>
-          <type>const <ref refid="namespaceMR_1a8201e149aed09ff61bb82c538012fbd1" kindref="member">MenuItemsList</ref> &amp;</type>
-          <declname>itemsList</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>set drop list by found in <ref refid="structMR_1_1RibbonSchema" kindref="compound">RibbonSchema</ref> items !note also set type_ to ButtonWithDrop </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuItem.h" line="51" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RibbonMenuItem_1a1141be44babb4a13201487188c332668" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>const <ref refid="classMR_1_1RibbonMenuItem_1a4799011be3410f46444164d6d00b966e" kindref="member">DropItemsList</ref> &amp;</type>
-        <definition>virtual const DropItemsList &amp; MR::RibbonMenuItem::dropItems</definition>
-        <argsstring>() const</argsstring>
-        <name>dropItems</name>
-        <qualifiedname>MR::RibbonMenuItem::dropItems</qualifiedname>
-        <reimplementedby refid="classMR_1_1OpenFilesMenuItem_1aa5af37cd7a8647dd40cdcf4fb5f57fee">dropItems</reimplementedby>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>returns list of stored ribbon items to drop !note that this function can be called each frame for opened drop list </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuItem.h" line="55" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuItem.h" bodystart="55" bodyend="55"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RibbonMenuItem_1a88f1487695e2012ebb1cacbc1a59775a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>std::string</type>
-        <definition>virtual std::string MR::RibbonMenuItem::getDynamicTooltip</definition>
-        <argsstring>() const</argsstring>
-        <name>getDynamicTooltip</name>
-        <qualifiedname>MR::RibbonMenuItem::getDynamicTooltip</qualifiedname>
-        <reimplementedby refid="classMR_1_1RedoMenuItem_1a8de54e498c94d2adea1613dd73e9a818">getDynamicTooltip</reimplementedby>
-        <reimplementedby refid="classMR_1_1UndoMenuItem_1a9524c582abeb9ae1041550d7adeb56eb">getDynamicTooltip</reimplementedby>
-        <briefdescription>
-<para>return not-empty string with tooltip that shall replace the static tooltip from json </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuItem.h" line="58" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuItem.h" bodystart="58" bodyend="58"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga957422a15704b2f8854bfd0b2d1ae76d" kind="function"><name>MR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1gad3e0eda49eae11a9fba79187c62e07bb" kind="function"><name>RibbonMenuItem</name></member>
+      <member refid="group__GeneralGroup_1gac8074b75f1c764d041b11210b5b7541c" kind="function"><name>~RibbonMenuItem</name></member>
+      <member refid="group__GeneralGroup_1ga4af847e120965263839d2628cf7dd979" kind="function"><name>action</name></member>
+      <member refid="group__GeneralGroup_1ga3b30bb82fe11901e3d971d3b761f5bf2" kind="function"><name>isActive</name></member>
+      <member refid="group__GeneralGroup_1gac9fd2cbdcf5356c6fbb093464568afdc" kind="function"><name>blocking</name></member>
+      <member refid="group__GeneralGroup_1gabf4ea13c8983c44214b92a066e8b7659" kind="function"><name>name</name></member>
+      <member refid="group__GeneralGroup_1ga327958b76ec3d044202620beafe67c93" kind="function"><name>uiName</name></member>
+      <member refid="group__GeneralGroup_1gab499c9049737793e6b1994048b99952c" kind="function"><name>setRibbonItemType</name></member>
+      <member refid="group__GeneralGroup_1ga15b6a4b9f191b8716be1199364bb74e0" kind="function"><name>type</name></member>
+      <member refid="group__GeneralGroup_1gaf417cbe66b6559e5df0122377c5a3628" kind="function"><name>setDropItemsFromItemList</name></member>
+      <member refid="group__GeneralGroup_1ga1141be44babb4a13201487188c332668" kind="function"><name>dropItems</name></member>
+      <member refid="group__GeneralGroup_1ga88f1487695e2012ebb1cacbc1a59775a" kind="function"><name>getDynamicTooltip</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -351,30 +64,6 @@
 <para>class to hold menu items some information stored in json (icons path, tab name, subtab name) </para>
     </detaileddescription>
     <inheritancegraph>
-      <node id="37">
-        <label>MR::AddCustomThemePlugin&lt;&gt;</label>
-        <link refid="classMR_1_1AddCustomThemePlugin"/>
-        <childnode refid="36" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="38">
-        <label>MR::BinaryOperations&lt;&gt;</label>
-        <link refid="classMR_1_1BinaryOperations"/>
-        <childnode refid="36" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="39">
-        <label>MR::CameraOrientation&lt;&gt;</label>
-        <link refid="classMR_1_1CameraOrientation"/>
-        <childnode refid="36" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="40">
-        <label>MR::CaptureScreenshotMenuItem&lt;&gt;</label>
-        <link refid="classMR_1_1CaptureScreenshotMenuItem"/>
-        <childnode refid="36" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="3">
         <label>MR::CaptureScreenshotToClipBoardMenuItem</label>
         <link refid="classMR_1_1CaptureScreenshotToClipBoardMenuItem"/>
@@ -449,12 +138,6 @@
         <label>MR::OpenFilesMenuItem</label>
         <link refid="classMR_1_1OpenFilesMenuItem"/>
         <childnode refid="1" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="41">
-        <label>MR::OpenRawVoxelsPlugin&lt;&gt;</label>
-        <link refid="classMR_1_1OpenRawVoxelsPlugin"/>
-        <childnode refid="36" relation="public-inheritance">
         </childnode>
       </node>
       <node id="14">
@@ -595,16 +278,10 @@
         <childnode refid="31" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="43">
+      <node id="37">
         <label>MR::UndoMenuItem</label>
         <link refid="classMR_1_1UndoMenuItem"/>
         <childnode refid="1" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="42">
-        <label>MR::ViewerSettingsPlugin&lt;&gt;</label>
-        <link refid="classMR_1_1ViewerSettingsPlugin"/>
-        <childnode refid="36" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
@@ -620,27 +297,27 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuItem.h" line="19" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuItem.h" bodystart="20" bodyend="66"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuItem.h" line="22" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuItem.h" bodystart="23" bodyend="69"/>
     <listofallmembers>
-      <member refid="classMR_1_1RibbonMenuItem_1a4af847e120965263839d2628cf7dd979" prot="public" virt="pure-virtual"><scope>MR::RibbonMenuItem</scope><name>action</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1ac9fd2cbdcf5356c6fbb093464568afdc" prot="public" virt="virtual"><scope>MR::RibbonMenuItem</scope><name>blocking</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a1141be44babb4a13201487188c332668" prot="public" virt="virtual"><scope>MR::RibbonMenuItem</scope><name>dropItems</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a4799011be3410f46444164d6d00b966e" prot="public" virt="non-virtual"><scope>MR::RibbonMenuItem</scope><name>DropItemsList</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a2f25401d4b94a752bd63b79152673ab5" prot="protected" virt="non-virtual"><scope>MR::RibbonMenuItem</scope><name>dropList_</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a88f1487695e2012ebb1cacbc1a59775a" prot="public" virt="virtual"><scope>MR::RibbonMenuItem</scope><name>getDynamicTooltip</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a3b30bb82fe11901e3d971d3b761f5bf2" prot="public" virt="virtual"><scope>MR::RibbonMenuItem</scope><name>isActive</name></member>
-      <member refid="classMR_1_1ISceneStateCheck_1adedf10c80ddfebcb456559fa828065c0" prot="public" virt="virtual"><scope>MR::RibbonMenuItem</scope><name>isAvailable</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a957422a15704b2f8854bfd0b2d1ae76d" prot="public" virt="non-virtual"><scope>MR::RibbonMenuItem</scope><name>MR_DELETE_MOVE</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1abf4ea13c8983c44214b92a066e8b7659" prot="public" virt="non-virtual"><scope>MR::RibbonMenuItem</scope><name>name</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1aa2761ae0f93e5eaa003abc2f797fa119" prot="private" virt="non-virtual"><scope>MR::RibbonMenuItem</scope><name>name_</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1ad3e0eda49eae11a9fba79187c62e07bb" prot="public" virt="non-virtual"><scope>MR::RibbonMenuItem</scope><name>RibbonMenuItem</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1af417cbe66b6559e5df0122377c5a3628" prot="public" virt="non-virtual"><scope>MR::RibbonMenuItem</scope><name>setDropItemsFromItemList</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1ab499c9049737793e6b1994048b99952c" prot="public" virt="non-virtual"><scope>MR::RibbonMenuItem</scope><name>setRibbonItemType</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a15b6a4b9f191b8716be1199364bb74e0" prot="public" virt="virtual"><scope>MR::RibbonMenuItem</scope><name>type</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a00b402da6dbcec7d6c97b5c6a16e3924" prot="protected" virt="non-virtual"><scope>MR::RibbonMenuItem</scope><name>type_</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a327958b76ec3d044202620beafe67c93" prot="public" virt="virtual"><scope>MR::RibbonMenuItem</scope><name>uiName</name></member>
-      <member refid="classMR_1_1ISceneStateCheck_1ad6d7bd5bc97dd4a629de5e0a33af3afe" prot="public" virt="virtual"><scope>MR::RibbonMenuItem</scope><name>~ISceneStateCheck</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1ac8074b75f1c764d041b11210b5b7541c" prot="public" virt="virtual"><scope>MR::RibbonMenuItem</scope><name>~RibbonMenuItem</name></member>
+      <member refid="group__GeneralGroup_1ga4af847e120965263839d2628cf7dd979" prot="public" virt="pure-virtual"><scope>MR::RibbonMenuItem</scope><name>action</name></member>
+      <member refid="group__GeneralGroup_1gac9fd2cbdcf5356c6fbb093464568afdc" prot="public" virt="virtual"><scope>MR::RibbonMenuItem</scope><name>blocking</name></member>
+      <member refid="group__GeneralGroup_1ga1141be44babb4a13201487188c332668" prot="public" virt="virtual"><scope>MR::RibbonMenuItem</scope><name>dropItems</name></member>
+      <member refid="group__GeneralGroup_1ga4799011be3410f46444164d6d00b966e" prot="public" virt="non-virtual"><scope>MR::RibbonMenuItem</scope><name>DropItemsList</name></member>
+      <member refid="group__GeneralGroup_1ga2f25401d4b94a752bd63b79152673ab5" prot="protected" virt="non-virtual"><scope>MR::RibbonMenuItem</scope><name>dropList_</name></member>
+      <member refid="group__GeneralGroup_1ga88f1487695e2012ebb1cacbc1a59775a" prot="public" virt="virtual"><scope>MR::RibbonMenuItem</scope><name>getDynamicTooltip</name></member>
+      <member refid="group__GeneralGroup_1ga3b30bb82fe11901e3d971d3b761f5bf2" prot="public" virt="virtual"><scope>MR::RibbonMenuItem</scope><name>isActive</name></member>
+      <member refid="group__GeneralGroup_1gadedf10c80ddfebcb456559fa828065c0" prot="public" virt="virtual"><scope>MR::RibbonMenuItem</scope><name>isAvailable</name></member>
+      <member refid="group__GeneralGroup_1ga957422a15704b2f8854bfd0b2d1ae76d" prot="public" virt="non-virtual"><scope>MR::RibbonMenuItem</scope><name>MR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1gabf4ea13c8983c44214b92a066e8b7659" prot="public" virt="non-virtual"><scope>MR::RibbonMenuItem</scope><name>name</name></member>
+      <member refid="group__GeneralGroup_1gaa2761ae0f93e5eaa003abc2f797fa119" prot="private" virt="non-virtual"><scope>MR::RibbonMenuItem</scope><name>name_</name></member>
+      <member refid="group__GeneralGroup_1gad3e0eda49eae11a9fba79187c62e07bb" prot="public" virt="non-virtual"><scope>MR::RibbonMenuItem</scope><name>RibbonMenuItem</name></member>
+      <member refid="group__GeneralGroup_1gaf417cbe66b6559e5df0122377c5a3628" prot="public" virt="non-virtual"><scope>MR::RibbonMenuItem</scope><name>setDropItemsFromItemList</name></member>
+      <member refid="group__GeneralGroup_1gab499c9049737793e6b1994048b99952c" prot="public" virt="non-virtual"><scope>MR::RibbonMenuItem</scope><name>setRibbonItemType</name></member>
+      <member refid="group__GeneralGroup_1ga15b6a4b9f191b8716be1199364bb74e0" prot="public" virt="virtual"><scope>MR::RibbonMenuItem</scope><name>type</name></member>
+      <member refid="group__GeneralGroup_1ga00b402da6dbcec7d6c97b5c6a16e3924" prot="protected" virt="non-virtual"><scope>MR::RibbonMenuItem</scope><name>type_</name></member>
+      <member refid="group__GeneralGroup_1ga327958b76ec3d044202620beafe67c93" prot="public" virt="virtual"><scope>MR::RibbonMenuItem</scope><name>uiName</name></member>
+      <member refid="group__GeneralGroup_1gad6d7bd5bc97dd4a629de5e0a33af3afe" prot="public" virt="virtual"><scope>MR::RibbonMenuItem</scope><name>~ISceneStateCheck</name></member>
+      <member refid="group__GeneralGroup_1gac8074b75f1c764d041b11210b5b7541c" prot="public" virt="virtual"><scope>MR::RibbonMenuItem</scope><name>~RibbonMenuItem</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

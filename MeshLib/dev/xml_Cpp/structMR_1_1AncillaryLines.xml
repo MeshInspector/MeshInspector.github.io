@@ -4,321 +4,48 @@
     <compoundname>MR::AncillaryLines</compoundname>
     <includes refid="MRAncillaryLines_8h" local="no">MRAncillaryLines.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1AncillaryLines_1a3521624c0384c6ad11a0c3bdf5f1c1ed" prot="public" static="no" mutable="no">
-        <type>std::shared_ptr&lt; <ref refid="classMR_1_1ObjectLines" kindref="compound">ObjectLines</ref> &gt;</type>
-        <definition>std::shared_ptr&lt;ObjectLines&gt; MR::AncillaryLines::obj</definition>
-        <argsstring></argsstring>
-        <name>obj</name>
-        <qualifiedname>MR::AncillaryLines::obj</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLines.h" line="14" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLines.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga3521624c0384c6ad11a0c3bdf5f1c1ed" kind="variable"><name>obj</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1AncillaryLines_1a19beda95a4a3a81962c578366d47ea85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::AncillaryLines::AncillaryLines</definition>
-        <argsstring>()=default</argsstring>
-        <name>AncillaryLines</name>
-        <qualifiedname>MR::AncillaryLines::AncillaryLines</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLines.h" line="16" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1AncillaryLines_1a663141ea1eeeab9d4b542f46a84aa82b" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::AncillaryLines::AncillaryLines</definition>
-        <argsstring>(AncillaryLines &amp;&amp;b) noexcept=default</argsstring>
-        <name>AncillaryLines</name>
-        <qualifiedname>MR::AncillaryLines::AncillaryLines</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1AncillaryLines" kindref="compound">AncillaryLines</ref> &amp;&amp;</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-<para>since this uniquely owns an ancillary object, we provide only move operations, not copy </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLines.h" line="19" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1AncillaryLines_1a5420cacb7b0e5953d10f72c74ca8f91a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1AncillaryLines" kindref="compound">AncillaryLines</ref> &amp;</type>
-        <definition>AncillaryLines &amp; MR::AncillaryLines::operator=</definition>
-        <argsstring>(AncillaryLines &amp;&amp;b)</argsstring>
-        <name>operator=</name>
-        <qualifiedname>MR::AncillaryLines::operator=</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1AncillaryLines" kindref="compound">AncillaryLines</ref> &amp;&amp;</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLines.h" line="20" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLines.h" bodystart="20" bodyend="20"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1AncillaryLines_1a27b7a1ba6dc2d0f6a9f970eceb3bf7d2" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::AncillaryLines::AncillaryLines</definition>
-        <argsstring>(Object &amp;parent)</argsstring>
-        <name>AncillaryLines</name>
-        <qualifiedname>MR::AncillaryLines::AncillaryLines</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
-          <declname>parent</declname>
-        </param>
-        <briefdescription>
-<para>Make not-pickable ancillary object, link it to parent object, and set line geometry. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLines.h" line="23" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLines.h" bodystart="23" bodyend="23"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1AncillaryLines_1a27df408474d83d9c06b47c4b5f344a76" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::AncillaryLines::AncillaryLines</definition>
-        <argsstring>(Object &amp;parent, const Contour3f &amp;contour)</argsstring>
-        <name>AncillaryLines</name>
-        <qualifiedname>MR::AncillaryLines::AncillaryLines</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
-          <declname>parent</declname>
-        </param>
-        <param>
-          <type>const <ref refid="namespaceMR_1a19c0568c2b8f7fe1df67adc9cf370bc0" kindref="member">Contour3f</ref> &amp;</type>
-          <declname>contour</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLines.h" line="24" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLines.h" bodystart="24" bodyend="24"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1AncillaryLines_1a1586a42cec861e0cf8edd26f4d31f3ff" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::AncillaryLines::AncillaryLines</definition>
-        <argsstring>(Object &amp;parent, const Contours3f &amp;contours)</argsstring>
-        <name>AncillaryLines</name>
-        <qualifiedname>MR::AncillaryLines::AncillaryLines</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
-          <declname>parent</declname>
-        </param>
-        <param>
-          <type>const <ref refid="namespaceMR_1a4c444df98a6ef4e28be3eaab462d38a1" kindref="member">Contours3f</ref> &amp;</type>
-          <declname>contours</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLines.h" line="25" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLines.h" bodystart="25" bodyend="25"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1AncillaryLines_1af3281529d1ab8e07ec693f7ffa3072dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::AncillaryLines::make</definition>
-        <argsstring>(Object &amp;parent)</argsstring>
-        <name>make</name>
-        <qualifiedname>MR::AncillaryLines::make</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
-          <declname>parent</declname>
-        </param>
-        <briefdescription>
-<para>Make not-pickable ancillary object, link it to parent object, and set line geometry. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLines.h" line="28" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1AncillaryLines_1a1fd7e0a12343aa6772c5231a36d628d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::AncillaryLines::make</definition>
-        <argsstring>(Object &amp;parent, const Contour3f &amp;contour)</argsstring>
-        <name>make</name>
-        <qualifiedname>MR::AncillaryLines::make</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
-          <declname>parent</declname>
-        </param>
-        <param>
-          <type>const <ref refid="namespaceMR_1a19c0568c2b8f7fe1df67adc9cf370bc0" kindref="member">Contour3f</ref> &amp;</type>
-          <declname>contour</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLines.h" line="29" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1AncillaryLines_1a8130f94500e75fddfc646adf79fc1756" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::AncillaryLines::make</definition>
-        <argsstring>(Object &amp;parent, const Contours3f &amp;contours)</argsstring>
-        <name>make</name>
-        <qualifiedname>MR::AncillaryLines::make</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
-          <declname>parent</declname>
-        </param>
-        <param>
-          <type>const <ref refid="namespaceMR_1a4c444df98a6ef4e28be3eaab462d38a1" kindref="member">Contours3f</ref> &amp;</type>
-          <declname>contours</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLines.h" line="30" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1AncillaryLines_1ac5d131b80f575df708feec3d91a04efd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::AncillaryLines::colorizeAxes</definition>
-        <argsstring>()</argsstring>
-        <name>colorizeAxes</name>
-        <qualifiedname>MR::AncillaryLines::colorizeAxes</qualifiedname>
-        <briefdescription>
-<para>Assign an axis&apos; color from the color theme to each line collinear with the axis. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLines.h" line="33" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1AncillaryLines_1a94079e1bc86fd3a8d3d88ef85a35e727" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::AncillaryLines::reset</definition>
-        <argsstring>()</argsstring>
-        <name>reset</name>
-        <qualifiedname>MR::AncillaryLines::reset</qualifiedname>
-        <briefdescription>
-<para>detach owned object from parent, stops owning it </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLines.h" line="36" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1AncillaryLines_1ac40b43be9d56a0501df43434d19d8cbc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::AncillaryLines::~AncillaryLines</definition>
-        <argsstring>()</argsstring>
-        <name>~AncillaryLines</name>
-        <qualifiedname>MR::AncillaryLines::~AncillaryLines</qualifiedname>
-        <briefdescription>
-<para>detach owned object from parent, stops owning it </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLines.h" line="39" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLines.h" bodystart="39" bodyend="39"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1AncillaryLines_1a9c8cc96eaa02c4f366a99354fc621c6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::AncillaryLines::setContours</definition>
-        <argsstring>(const Contours3f &amp;contours)</argsstring>
-        <name>setContours</name>
-        <qualifiedname>MR::AncillaryLines::setContours</qualifiedname>
-        <param>
-          <type>const <ref refid="namespaceMR_1a4c444df98a6ef4e28be3eaab462d38a1" kindref="member">Contours3f</ref> &amp;</type>
-          <declname>contours</declname>
-        </param>
-        <briefdescription>
-<para>Set line geometry. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLines.h" line="42" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1AncillaryLines_1a927df020362fa03d9ad1e8a2af3b7b3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::AncillaryLines::resetContours</definition>
-        <argsstring>()</argsstring>
-        <name>resetContours</name>
-        <qualifiedname>MR::AncillaryLines::resetContours</qualifiedname>
-        <briefdescription>
-<para>Reset line geometry. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLines.h" line="45" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1AncillaryLines_1a784111585bac595d1a06938e219488e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::AncillaryLines::setDepthTest</definition>
-        <argsstring>(bool depthTest)</argsstring>
-        <name>setDepthTest</name>
-        <qualifiedname>MR::AncillaryLines::setDepthTest</qualifiedname>
-        <param>
-          <type>bool</type>
-          <declname>depthTest</declname>
-        </param>
-        <briefdescription>
-<para>Set depth test. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLines.h" line="48" column="23"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga19beda95a4a3a81962c578366d47ea85" kind="function"><name>AncillaryLines</name></member>
+      <member refid="group__GeneralGroup_1ga663141ea1eeeab9d4b542f46a84aa82b" kind="function"><name>AncillaryLines</name></member>
+      <member refid="group__GeneralGroup_1ga5420cacb7b0e5953d10f72c74ca8f91a" kind="function"><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga27b7a1ba6dc2d0f6a9f970eceb3bf7d2" kind="function"><name>AncillaryLines</name></member>
+      <member refid="group__GeneralGroup_1ga27df408474d83d9c06b47c4b5f344a76" kind="function"><name>AncillaryLines</name></member>
+      <member refid="group__GeneralGroup_1ga1586a42cec861e0cf8edd26f4d31f3ff" kind="function"><name>AncillaryLines</name></member>
+      <member refid="group__GeneralGroup_1gaf3281529d1ab8e07ec693f7ffa3072dd" kind="function"><name>make</name></member>
+      <member refid="group__GeneralGroup_1ga1fd7e0a12343aa6772c5231a36d628d7" kind="function"><name>make</name></member>
+      <member refid="group__GeneralGroup_1ga8130f94500e75fddfc646adf79fc1756" kind="function"><name>make</name></member>
+      <member refid="group__GeneralGroup_1gac5d131b80f575df708feec3d91a04efd" kind="function"><name>colorizeAxes</name></member>
+      <member refid="group__GeneralGroup_1ga94079e1bc86fd3a8d3d88ef85a35e727" kind="function"><name>reset</name></member>
+      <member refid="group__GeneralGroup_1gac40b43be9d56a0501df43434d19d8cbc" kind="function"><name>~AncillaryLines</name></member>
+      <member refid="group__GeneralGroup_1ga9c8cc96eaa02c4f366a99354fc621c6d" kind="function"><name>setContours</name></member>
+      <member refid="group__GeneralGroup_1ga927df020362fa03d9ad1e8a2af3b7b3c" kind="function"><name>resetContours</name></member>
+      <member refid="group__GeneralGroup_1ga784111585bac595d1a06938e219488e2" kind="function"><name>setDepthTest</name></member>
     </sectiondef>
     <briefdescription>
 <para>Helper class to manage ancillary visual lines used by plugins. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLines.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLines.h" bodystart="13" bodyend="49"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLines.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryLines.h" bodystart="16" bodyend="52"/>
     <listofallmembers>
-      <member refid="structMR_1_1AncillaryLines_1a19beda95a4a3a81962c578366d47ea85" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>AncillaryLines</name></member>
-      <member refid="structMR_1_1AncillaryLines_1a663141ea1eeeab9d4b542f46a84aa82b" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>AncillaryLines</name></member>
-      <member refid="structMR_1_1AncillaryLines_1a27b7a1ba6dc2d0f6a9f970eceb3bf7d2" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>AncillaryLines</name></member>
-      <member refid="structMR_1_1AncillaryLines_1a27df408474d83d9c06b47c4b5f344a76" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>AncillaryLines</name></member>
-      <member refid="structMR_1_1AncillaryLines_1a1586a42cec861e0cf8edd26f4d31f3ff" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>AncillaryLines</name></member>
-      <member refid="structMR_1_1AncillaryLines_1ac5d131b80f575df708feec3d91a04efd" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>colorizeAxes</name></member>
-      <member refid="structMR_1_1AncillaryLines_1af3281529d1ab8e07ec693f7ffa3072dd" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>make</name></member>
-      <member refid="structMR_1_1AncillaryLines_1a1fd7e0a12343aa6772c5231a36d628d7" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>make</name></member>
-      <member refid="structMR_1_1AncillaryLines_1a8130f94500e75fddfc646adf79fc1756" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>make</name></member>
-      <member refid="structMR_1_1AncillaryLines_1a3521624c0384c6ad11a0c3bdf5f1c1ed" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>obj</name></member>
-      <member refid="structMR_1_1AncillaryLines_1a5420cacb7b0e5953d10f72c74ca8f91a" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>operator=</name></member>
-      <member refid="structMR_1_1AncillaryLines_1a94079e1bc86fd3a8d3d88ef85a35e727" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>reset</name></member>
-      <member refid="structMR_1_1AncillaryLines_1a927df020362fa03d9ad1e8a2af3b7b3c" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>resetContours</name></member>
-      <member refid="structMR_1_1AncillaryLines_1a9c8cc96eaa02c4f366a99354fc621c6d" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>setContours</name></member>
-      <member refid="structMR_1_1AncillaryLines_1a784111585bac595d1a06938e219488e2" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>setDepthTest</name></member>
-      <member refid="structMR_1_1AncillaryLines_1ac40b43be9d56a0501df43434d19d8cbc" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>~AncillaryLines</name></member>
+      <member refid="group__GeneralGroup_1ga19beda95a4a3a81962c578366d47ea85" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>AncillaryLines</name></member>
+      <member refid="group__GeneralGroup_1ga663141ea1eeeab9d4b542f46a84aa82b" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>AncillaryLines</name></member>
+      <member refid="group__GeneralGroup_1ga27b7a1ba6dc2d0f6a9f970eceb3bf7d2" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>AncillaryLines</name></member>
+      <member refid="group__GeneralGroup_1ga27df408474d83d9c06b47c4b5f344a76" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>AncillaryLines</name></member>
+      <member refid="group__GeneralGroup_1ga1586a42cec861e0cf8edd26f4d31f3ff" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>AncillaryLines</name></member>
+      <member refid="group__GeneralGroup_1gac5d131b80f575df708feec3d91a04efd" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>colorizeAxes</name></member>
+      <member refid="group__GeneralGroup_1gaf3281529d1ab8e07ec693f7ffa3072dd" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>make</name></member>
+      <member refid="group__GeneralGroup_1ga1fd7e0a12343aa6772c5231a36d628d7" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>make</name></member>
+      <member refid="group__GeneralGroup_1ga8130f94500e75fddfc646adf79fc1756" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>make</name></member>
+      <member refid="group__GeneralGroup_1ga3521624c0384c6ad11a0c3bdf5f1c1ed" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>obj</name></member>
+      <member refid="group__GeneralGroup_1ga5420cacb7b0e5953d10f72c74ca8f91a" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga94079e1bc86fd3a8d3d88ef85a35e727" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>reset</name></member>
+      <member refid="group__GeneralGroup_1ga927df020362fa03d9ad1e8a2af3b7b3c" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>resetContours</name></member>
+      <member refid="group__GeneralGroup_1ga9c8cc96eaa02c4f366a99354fc621c6d" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>setContours</name></member>
+      <member refid="group__GeneralGroup_1ga784111585bac595d1a06938e219488e2" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>setDepthTest</name></member>
+      <member refid="group__GeneralGroup_1gac40b43be9d56a0501df43434d19d8cbc" prot="public" virt="non-virtual"><scope>MR::AncillaryLines</scope><name>~AncillaryLines</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

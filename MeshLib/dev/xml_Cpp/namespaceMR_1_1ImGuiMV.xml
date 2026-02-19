@@ -82,13 +82,13 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMultiViewport.h" line="21" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMultiViewport.h" declline="21" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1ImGuiMV_1ab8622fb9dd653781e10cf6afd6642aec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API <ref refid="namespaceMR_1a411f342f0faf2e8fd25230d9f676b5d9" kindref="member">Contour2f</ref></type>
+        <type>MRVIEWER_API Contour2f</type>
         <definition>MRVIEWER_API Contour2f MR::ImGuiMV::Screen2WindowSpaceContour2f</definition>
         <argsstring>(const Contour2f &amp;points)</argsstring>
         <name>Screen2WindowSpaceContour2f</name>
         <qualifiedname>MR::ImGuiMV::Screen2WindowSpaceContour2f</qualifiedname>
         <param>
-          <type>const <ref refid="namespaceMR_1a411f342f0faf2e8fd25230d9f676b5d9" kindref="member">Contour2f</ref> &amp;</type>
+          <type>const Contour2f &amp;</type>
           <declname>points</declname>
         </param>
         <briefdescription>

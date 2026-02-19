@@ -201,7 +201,7 @@
         <argsstring>() const override</argsstring>
         <name>name</name>
         <qualifiedname>MR::ViewportParametersAction::name</qualifiedname>
-        <reimplements refid="classMR_1_1HistoryAction_1a9daa0b79de161f676f6283e3804dc8ce">name</reimplements>
+        <reimplements refid="group__GeneralGroup_1ga9daa0b79de161f676f6283e3804dc8ce">name</reimplements>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -216,7 +216,7 @@
         <argsstring>(HistoryAction::Type) override</argsstring>
         <name>action</name>
         <qualifiedname>MR::ViewportParametersAction::action</qualifiedname>
-        <reimplements refid="classMR_1_1HistoryAction_1aecfce349736beaf17a23a6817c86f3bb">action</reimplements>
+        <reimplements refid="group__GeneralGroup_1gaecfce349736beaf17a23a6817c86f3bb">action</reimplements>
         <param>
           <type>HistoryAction::Type</type>
           <declname>actionType</declname>
@@ -237,7 +237,7 @@
         <argsstring>() const override</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR::ViewportParametersAction::heapBytes</qualifiedname>
-        <reimplements refid="classMR_1_1HistoryAction_1ad6df54da6a63ed83f15053507e8569de">heapBytes</reimplements>
+        <reimplements refid="group__GeneralGroup_1gad6df54da6a63ed83f15053507e8569de">heapBytes</reimplements>
         <briefdescription>
 <para>returns the amount of memory this object occupies on heap </para>
         </briefdescription>
@@ -276,7 +276,7 @@
         <argsstring>() const override</argsstring>
         <name>name</name>
         <qualifiedname>MR::ChangVoxelSelectionAction::name</qualifiedname>
-        <reimplements refid="classMR_1_1HistoryAction_1a9daa0b79de161f676f6283e3804dc8ce">name</reimplements>
+        <reimplements refid="group__GeneralGroup_1ga9daa0b79de161f676f6283e3804dc8ce">name</reimplements>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -291,7 +291,7 @@
         <argsstring>(Type) override</argsstring>
         <name>action</name>
         <qualifiedname>MR::ChangVoxelSelectionAction::action</qualifiedname>
-        <reimplements refid="classMR_1_1HistoryAction_1aecfce349736beaf17a23a6817c86f3bb">action</reimplements>
+        <reimplements refid="group__GeneralGroup_1gaecfce349736beaf17a23a6817c86f3bb">action</reimplements>
         <param>
           <type>Type</type>
           <declname>actionType</declname>
@@ -343,7 +343,7 @@
         <argsstring>() const override</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR::ChangVoxelSelectionAction::heapBytes</qualifiedname>
-        <reimplements refid="classMR_1_1HistoryAction_1ad6df54da6a63ed83f15053507e8569de">heapBytes</reimplements>
+        <reimplements refid="group__GeneralGroup_1gad6df54da6a63ed83f15053507e8569de">heapBytes</reimplements>
         <briefdescription>
 <para>returns the amount of memory this object occupies on heap </para>
         </briefdescription>

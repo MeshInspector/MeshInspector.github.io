@@ -152,7 +152,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" line="36" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" bodystart="36" bodyend="40"/>
       </memberdef>
       <memberdef kind="function" id="group__VolumeIndexerGroup_1ga2b294cbfdf1d13f5bb7babef620b361a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::expandVoxelsMask</definition>
         <argsstring>(VoxelBitSet &amp;mask, const VolumeIndexer &amp;indexer, int expansion=1)</argsstring>
         <name>expandVoxelsMask</name>
@@ -180,7 +180,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" line="161" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" declline="161" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__VolumeIndexerGroup_1gaae181e34db4d5ebb6f2cc68194b69c18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::shrinkVoxelsMask</definition>
         <argsstring>(VoxelBitSet &amp;mask, const VolumeIndexer &amp;indexer, int shrinkage=1)</argsstring>
         <name>shrinkVoxelsMask</name>

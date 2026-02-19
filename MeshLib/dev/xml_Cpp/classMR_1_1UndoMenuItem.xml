@@ -5,113 +5,16 @@
     <basecompoundref refid="classMR_1_1RibbonMenuItem" prot="public" virt="non-virtual">MR::RibbonMenuItem</basecompoundref>
     <includes refid="MRViewer_2MRSceneControlMenuItems_8h" local="no">MRSceneControlMenuItems.h</includes>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1UndoMenuItem_1aa7398f0bbd20f0632bffb15fdd7b9697" prot="private" static="no" mutable="no">
-        <type>boost::signals2::scoped_connection</type>
-        <definition>boost::signals2::scoped_connection MR::UndoMenuItem::historyStoreConnection_</definition>
-        <argsstring></argsstring>
-        <name>historyStoreConnection_</name>
-        <qualifiedname>MR::UndoMenuItem::historyStoreConnection_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneControlMenuItems.h" line="19" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneControlMenuItems.h" bodystart="19" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaa7398f0bbd20f0632bffb15fdd7b9697" kind="variable"><name>historyStoreConnection_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1UndoMenuItem_1a1cf602734a01790f8fd41ea6d726768e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::UndoMenuItem::UndoMenuItem</definition>
-        <argsstring>()</argsstring>
-        <name>UndoMenuItem</name>
-        <qualifiedname>MR::UndoMenuItem::UndoMenuItem</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneControlMenuItems.h" line="11" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1UndoMenuItem_1a7192ae4eb328a96185a7f6b1bc4da2c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::UndoMenuItem::action</definition>
-        <argsstring>() override</argsstring>
-        <name>action</name>
-        <qualifiedname>MR::UndoMenuItem::action</qualifiedname>
-        <reimplements refid="classMR_1_1RibbonMenuItem_1a4af847e120965263839d2628cf7dd979">action</reimplements>
-        <briefdescription>
-<para>returns true if state of item changed </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneControlMenuItems.h" line="12" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1UndoMenuItem_1a9d342a9cc6146313f3141b5732e43f94" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type>std::string</type>
-        <definition>virtual std::string MR::UndoMenuItem::isAvailable</definition>
-        <argsstring>(const std::vector&lt; std::shared_ptr&lt; const Object &gt; &gt; &amp;) const override</argsstring>
-        <name>isAvailable</name>
-        <qualifiedname>MR::UndoMenuItem::isAvailable</qualifiedname>
-        <reimplements refid="classMR_1_1ISceneStateCheck_1adedf10c80ddfebcb456559fa828065c0">isAvailable</reimplements>
-        <param>
-          <type>const std::vector&lt; std::shared_ptr&lt; const <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt; &amp;</type>
-        </param>
-        <briefdescription>
-<para>return empty string if all requirements are satisfied, otherwise return first unsatisfied requirement </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneControlMenuItems.h" line="13" column="25"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1UndoMenuItem_1a9524c582abeb9ae1041550d7adeb56eb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type>std::string</type>
-        <definition>virtual std::string MR::UndoMenuItem::getDynamicTooltip</definition>
-        <argsstring>() const override</argsstring>
-        <name>getDynamicTooltip</name>
-        <qualifiedname>MR::UndoMenuItem::getDynamicTooltip</qualifiedname>
-        <reimplements refid="classMR_1_1RibbonMenuItem_1a88f1487695e2012ebb1cacbc1a59775a">getDynamicTooltip</reimplements>
-        <briefdescription>
-<para>return not-empty string with tooltip that shall replace the static tooltip from json </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneControlMenuItems.h" line="14" column="25"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga1cf602734a01790f8fd41ea6d726768e" kind="function"><name>UndoMenuItem</name></member>
+      <member refid="group__GeneralGroup_1ga7192ae4eb328a96185a7f6b1bc4da2c6" kind="function"><name>action</name></member>
+      <member refid="group__GeneralGroup_1ga9d342a9cc6146313f3141b5732e43f94" kind="function"><name>isAvailable</name></member>
+      <member refid="group__GeneralGroup_1ga9524c582abeb9ae1041550d7adeb56eb" kind="function"><name>getDynamicTooltip</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMR_1_1UndoMenuItem_1a49a0f8dc7d823aae0fcee04ad96d5bc2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::UndoMenuItem::updateUndoListCache_</definition>
-        <argsstring>(const HistoryStore &amp;store, HistoryStore::ChangeType, std::shared_ptr&lt; HistoryAction &gt;)</argsstring>
-        <name>updateUndoListCache_</name>
-        <qualifiedname>MR::UndoMenuItem::updateUndoListCache_</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1HistoryStore" kindref="compound">HistoryStore</ref> &amp;</type>
-          <declname>store</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4" kindref="member">HistoryStore::ChangeType</ref></type>
-        </param>
-        <param>
-          <type>std::shared_ptr&lt; <ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref> &gt;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneControlMenuItems.h" line="17" column="10"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga49a0f8dc7d823aae0fcee04ad96d5bc2" kind="function"><name>updateUndoListCache_</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -153,29 +56,29 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneControlMenuItems.h" line="8" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneControlMenuItems.h" bodystart="9" bodyend="20"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneControlMenuItems.h" line="11" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneControlMenuItems.h" bodystart="12" bodyend="23"/>
     <listofallmembers>
-      <member refid="classMR_1_1UndoMenuItem_1a7192ae4eb328a96185a7f6b1bc4da2c6" prot="public" virt="virtual"><scope>MR::UndoMenuItem</scope><name>action</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1ac9fd2cbdcf5356c6fbb093464568afdc" prot="public" virt="virtual"><scope>MR::UndoMenuItem</scope><name>blocking</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a1141be44babb4a13201487188c332668" prot="public" virt="virtual"><scope>MR::UndoMenuItem</scope><name>dropItems</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a4799011be3410f46444164d6d00b966e" prot="public" virt="non-virtual"><scope>MR::UndoMenuItem</scope><name>DropItemsList</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a2f25401d4b94a752bd63b79152673ab5" prot="protected" virt="non-virtual"><scope>MR::UndoMenuItem</scope><name>dropList_</name></member>
-      <member refid="classMR_1_1UndoMenuItem_1a9524c582abeb9ae1041550d7adeb56eb" prot="public" virt="virtual"><scope>MR::UndoMenuItem</scope><name>getDynamicTooltip</name></member>
-      <member refid="classMR_1_1UndoMenuItem_1aa7398f0bbd20f0632bffb15fdd7b9697" prot="private" virt="non-virtual"><scope>MR::UndoMenuItem</scope><name>historyStoreConnection_</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a3b30bb82fe11901e3d971d3b761f5bf2" prot="public" virt="virtual"><scope>MR::UndoMenuItem</scope><name>isActive</name></member>
-      <member refid="classMR_1_1UndoMenuItem_1a9d342a9cc6146313f3141b5732e43f94" prot="public" virt="virtual"><scope>MR::UndoMenuItem</scope><name>isAvailable</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a957422a15704b2f8854bfd0b2d1ae76d" prot="public" virt="non-virtual"><scope>MR::UndoMenuItem</scope><name>MR_DELETE_MOVE</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1abf4ea13c8983c44214b92a066e8b7659" prot="public" virt="non-virtual"><scope>MR::UndoMenuItem</scope><name>name</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1ad3e0eda49eae11a9fba79187c62e07bb" prot="public" virt="non-virtual"><scope>MR::UndoMenuItem</scope><name>RibbonMenuItem</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1af417cbe66b6559e5df0122377c5a3628" prot="public" virt="non-virtual"><scope>MR::UndoMenuItem</scope><name>setDropItemsFromItemList</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1ab499c9049737793e6b1994048b99952c" prot="public" virt="non-virtual"><scope>MR::UndoMenuItem</scope><name>setRibbonItemType</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a15b6a4b9f191b8716be1199364bb74e0" prot="public" virt="virtual"><scope>MR::UndoMenuItem</scope><name>type</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a00b402da6dbcec7d6c97b5c6a16e3924" prot="protected" virt="non-virtual"><scope>MR::UndoMenuItem</scope><name>type_</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a327958b76ec3d044202620beafe67c93" prot="public" virt="virtual"><scope>MR::UndoMenuItem</scope><name>uiName</name></member>
-      <member refid="classMR_1_1UndoMenuItem_1a1cf602734a01790f8fd41ea6d726768e" prot="public" virt="non-virtual"><scope>MR::UndoMenuItem</scope><name>UndoMenuItem</name></member>
-      <member refid="classMR_1_1UndoMenuItem_1a49a0f8dc7d823aae0fcee04ad96d5bc2" prot="private" virt="non-virtual"><scope>MR::UndoMenuItem</scope><name>updateUndoListCache_</name></member>
-      <member refid="classMR_1_1ISceneStateCheck_1ad6d7bd5bc97dd4a629de5e0a33af3afe" prot="public" virt="virtual"><scope>MR::UndoMenuItem</scope><name>~ISceneStateCheck</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1ac8074b75f1c764d041b11210b5b7541c" prot="public" virt="virtual"><scope>MR::UndoMenuItem</scope><name>~RibbonMenuItem</name></member>
+      <member refid="group__GeneralGroup_1ga7192ae4eb328a96185a7f6b1bc4da2c6" prot="public" virt="virtual"><scope>MR::UndoMenuItem</scope><name>action</name></member>
+      <member refid="group__GeneralGroup_1gac9fd2cbdcf5356c6fbb093464568afdc" prot="public" virt="virtual"><scope>MR::UndoMenuItem</scope><name>blocking</name></member>
+      <member refid="group__GeneralGroup_1ga1141be44babb4a13201487188c332668" prot="public" virt="virtual"><scope>MR::UndoMenuItem</scope><name>dropItems</name></member>
+      <member refid="group__GeneralGroup_1ga4799011be3410f46444164d6d00b966e" prot="public" virt="non-virtual"><scope>MR::UndoMenuItem</scope><name>DropItemsList</name></member>
+      <member refid="group__GeneralGroup_1ga2f25401d4b94a752bd63b79152673ab5" prot="protected" virt="non-virtual"><scope>MR::UndoMenuItem</scope><name>dropList_</name></member>
+      <member refid="group__GeneralGroup_1ga9524c582abeb9ae1041550d7adeb56eb" prot="public" virt="virtual"><scope>MR::UndoMenuItem</scope><name>getDynamicTooltip</name></member>
+      <member refid="group__GeneralGroup_1gaa7398f0bbd20f0632bffb15fdd7b9697" prot="private" virt="non-virtual"><scope>MR::UndoMenuItem</scope><name>historyStoreConnection_</name></member>
+      <member refid="group__GeneralGroup_1ga3b30bb82fe11901e3d971d3b761f5bf2" prot="public" virt="virtual"><scope>MR::UndoMenuItem</scope><name>isActive</name></member>
+      <member refid="group__GeneralGroup_1ga9d342a9cc6146313f3141b5732e43f94" prot="public" virt="virtual"><scope>MR::UndoMenuItem</scope><name>isAvailable</name></member>
+      <member refid="group__GeneralGroup_1ga957422a15704b2f8854bfd0b2d1ae76d" prot="public" virt="non-virtual"><scope>MR::UndoMenuItem</scope><name>MR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1gabf4ea13c8983c44214b92a066e8b7659" prot="public" virt="non-virtual"><scope>MR::UndoMenuItem</scope><name>name</name></member>
+      <member refid="group__GeneralGroup_1gad3e0eda49eae11a9fba79187c62e07bb" prot="public" virt="non-virtual"><scope>MR::UndoMenuItem</scope><name>RibbonMenuItem</name></member>
+      <member refid="group__GeneralGroup_1gaf417cbe66b6559e5df0122377c5a3628" prot="public" virt="non-virtual"><scope>MR::UndoMenuItem</scope><name>setDropItemsFromItemList</name></member>
+      <member refid="group__GeneralGroup_1gab499c9049737793e6b1994048b99952c" prot="public" virt="non-virtual"><scope>MR::UndoMenuItem</scope><name>setRibbonItemType</name></member>
+      <member refid="group__GeneralGroup_1ga15b6a4b9f191b8716be1199364bb74e0" prot="public" virt="virtual"><scope>MR::UndoMenuItem</scope><name>type</name></member>
+      <member refid="group__GeneralGroup_1ga00b402da6dbcec7d6c97b5c6a16e3924" prot="protected" virt="non-virtual"><scope>MR::UndoMenuItem</scope><name>type_</name></member>
+      <member refid="group__GeneralGroup_1ga327958b76ec3d044202620beafe67c93" prot="public" virt="virtual"><scope>MR::UndoMenuItem</scope><name>uiName</name></member>
+      <member refid="group__GeneralGroup_1ga1cf602734a01790f8fd41ea6d726768e" prot="public" virt="non-virtual"><scope>MR::UndoMenuItem</scope><name>UndoMenuItem</name></member>
+      <member refid="group__GeneralGroup_1ga49a0f8dc7d823aae0fcee04ad96d5bc2" prot="private" virt="non-virtual"><scope>MR::UndoMenuItem</scope><name>updateUndoListCache_</name></member>
+      <member refid="group__GeneralGroup_1gad6d7bd5bc97dd4a629de5e0a33af3afe" prot="public" virt="virtual"><scope>MR::UndoMenuItem</scope><name>~ISceneStateCheck</name></member>
+      <member refid="group__GeneralGroup_1gac8074b75f1c764d041b11210b5b7541c" prot="public" virt="virtual"><scope>MR::UndoMenuItem</scope><name>~RibbonMenuItem</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

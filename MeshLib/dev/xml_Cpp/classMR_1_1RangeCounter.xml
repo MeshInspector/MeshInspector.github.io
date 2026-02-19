@@ -9,175 +9,20 @@
       </param>
     </templateparamlist>
     <sectiondef kind="public-type">
-      <memberdef kind="typedef" id="classMR_1_1RangeCounter_1aa8f668ef1c57d1b754807bd662c72f66" prot="public" static="no">
-        <type>typename TreeT::ValueType</type>
-        <definition>using MR::RangeCounter&lt; TreeT &gt;::ValueT =  typename TreeT::ValueType</definition>
-        <argsstring></argsstring>
-        <name>ValueT</name>
-        <qualifiedname>MR::RangeCounter::ValueT</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="367" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="367" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1RangeCounter_1a6348660687ee746c78a3e76ef7565eb8" prot="public" static="no">
-        <type>openvdb::tree::ValueAccessor&lt; const TreeT &gt;</type>
-        <definition>using MR::RangeCounter&lt; TreeT &gt;::TreeAccessor =  openvdb::tree::ValueAccessor&lt;const TreeT&gt;</definition>
-        <argsstring></argsstring>
-        <name>TreeAccessor</name>
-        <qualifiedname>MR::RangeCounter::TreeAccessor</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="368" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="368" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1RangeCounter_1a2843b3697415f694e48b3921d0b244d8" prot="public" static="no">
-        <type>typename TreeT::LeafCIter</type>
-        <definition>using MR::RangeCounter&lt; TreeT &gt;::LeafIterT =  typename TreeT::LeafCIter</definition>
-        <argsstring></argsstring>
-        <name>LeafIterT</name>
-        <qualifiedname>MR::RangeCounter::LeafIterT</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="369" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="369" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1RangeCounter_1a310cccaba672fdf60cd4fd64f7718b2e" prot="public" static="no">
-        <type>typename TreeT::ValueAllCIter</type>
-        <definition>using MR::RangeCounter&lt; TreeT &gt;::TileIterT =  typename TreeT::ValueAllCIter</definition>
-        <argsstring></argsstring>
-        <name>TileIterT</name>
-        <qualifiedname>MR::RangeCounter::TileIterT</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="370" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="370" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaa8f668ef1c57d1b754807bd662c72f66" kind="typedef"><name>ValueT</name></member>
+      <member refid="group__GeneralGroup_1ga6348660687ee746c78a3e76ef7565eb8" kind="typedef"><name>TreeAccessor</name></member>
+      <member refid="group__GeneralGroup_1ga2843b3697415f694e48b3921d0b244d8" kind="typedef"><name>LeafIterT</name></member>
+      <member refid="group__GeneralGroup_1ga310cccaba672fdf60cd4fd64f7718b2e" kind="typedef"><name>TileIterT</name></member>
     </sectiondef>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="classMR_1_1RangeCounter_1afc61426864c7a39dd91df50524681102" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1RangeSize" kindref="compound">RangeSize</ref></type>
-        <definition>RangeSize MR::RangeCounter&lt; TreeT &gt;::size</definition>
-        <argsstring></argsstring>
-        <name>size</name>
-        <qualifiedname>MR::RangeCounter::size</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="394" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="394" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gafc61426864c7a39dd91df50524681102" kind="variable"><name>size</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1RangeCounter_1a9dc75f4140f86f912151eb28d6ed87c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::RangeCounter&lt; TreeT &gt;::RangeCounter</definition>
-        <argsstring>()</argsstring>
-        <name>RangeCounter</name>
-        <qualifiedname>MR::RangeCounter::RangeCounter</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="372" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="372" bodyend="373"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RangeCounter_1adda3a272ca4a16dd6c2c1a4effefa578" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::RangeCounter&lt; TreeT &gt;::RangeCounter</definition>
-        <argsstring>(const RangeCounter &amp;)</argsstring>
-        <name>RangeCounter</name>
-        <qualifiedname>MR::RangeCounter::RangeCounter</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1RangeCounter" kindref="compound">RangeCounter</ref> &amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="375" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="375" bodyend="376"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RangeCounter_1aaa6a0d48919ef234d36534532b95eb6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::RangeCounter&lt; TreeT &gt;::action</definition>
-        <argsstring>(const LeafIterT &amp;, const TreeAccessor &amp;, const openvdb::math::CoordBBox &amp;)</argsstring>
-        <name>action</name>
-        <qualifiedname>MR::RangeCounter::action</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1RangeCounter_1a2843b3697415f694e48b3921d0b244d8" kindref="member">LeafIterT</ref> &amp;</type>
-        </param>
-        <param>
-          <type>const <ref refid="classMR_1_1RangeCounter_1a6348660687ee746c78a3e76ef7565eb8" kindref="member">TreeAccessor</ref> &amp;</type>
-        </param>
-        <param>
-          <type>const openvdb::math::CoordBBox &amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="378" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="378" bodyend="381"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RangeCounter_1a75a111eb51abd100715ed2283d094687" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::RangeCounter&lt; TreeT &gt;::action</definition>
-        <argsstring>(const TileIterT &amp;, const TreeAccessor &amp;, const openvdb::math::CoordBBox &amp;)</argsstring>
-        <name>action</name>
-        <qualifiedname>MR::RangeCounter::action</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1RangeCounter_1a310cccaba672fdf60cd4fd64f7718b2e" kindref="member">TileIterT</ref> &amp;</type>
-        </param>
-        <param>
-          <type>const <ref refid="classMR_1_1RangeCounter_1a6348660687ee746c78a3e76ef7565eb8" kindref="member">TreeAccessor</ref> &amp;</type>
-        </param>
-        <param>
-          <type>const openvdb::math::CoordBBox &amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="383" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="383" bodyend="386"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RangeCounter_1ad2fbbfb496bbf63f5db4608cd5c1ee61" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::RangeCounter&lt; TreeT &gt;::join</definition>
-        <argsstring>(const RangeCounter &amp;other)</argsstring>
-        <name>join</name>
-        <qualifiedname>MR::RangeCounter::join</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1RangeCounter" kindref="compound">RangeCounter</ref> &amp;</type>
-          <declname>other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="388" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="388" bodyend="392"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga9dc75f4140f86f912151eb28d6ed87c1" kind="function"><name>RangeCounter</name></member>
+      <member refid="group__GeneralGroup_1gadda3a272ca4a16dd6c2c1a4effefa578" kind="function"><name>RangeCounter</name></member>
+      <member refid="group__GeneralGroup_1gaaa6a0d48919ef234d36534532b95eb6a" kind="function"><name>action</name></member>
+      <member refid="group__GeneralGroup_1ga75a111eb51abd100715ed2283d094687" kind="function"><name>action</name></member>
+      <member refid="group__GeneralGroup_1gad2fbbfb496bbf63f5db4608cd5c1ee61" kind="function"><name>join</name></member>
     </sectiondef>
     <briefdescription>
 <para>functor to calculate tile and leaf valid nodes count </para>
@@ -198,18 +43,18 @@
         <link refid="structMR_1_1RangeSize"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="364" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="365" bodyend="395"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="367" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="368" bodyend="398"/>
     <listofallmembers>
-      <member refid="classMR_1_1RangeCounter_1aaa6a0d48919ef234d36534532b95eb6a" prot="public" virt="non-virtual"><scope>MR::RangeCounter</scope><name>action</name></member>
-      <member refid="classMR_1_1RangeCounter_1a75a111eb51abd100715ed2283d094687" prot="public" virt="non-virtual"><scope>MR::RangeCounter</scope><name>action</name></member>
-      <member refid="classMR_1_1RangeCounter_1ad2fbbfb496bbf63f5db4608cd5c1ee61" prot="public" virt="non-virtual"><scope>MR::RangeCounter</scope><name>join</name></member>
-      <member refid="classMR_1_1RangeCounter_1a2843b3697415f694e48b3921d0b244d8" prot="public" virt="non-virtual"><scope>MR::RangeCounter</scope><name>LeafIterT</name></member>
-      <member refid="classMR_1_1RangeCounter_1a9dc75f4140f86f912151eb28d6ed87c1" prot="public" virt="non-virtual"><scope>MR::RangeCounter</scope><name>RangeCounter</name></member>
-      <member refid="classMR_1_1RangeCounter_1adda3a272ca4a16dd6c2c1a4effefa578" prot="public" virt="non-virtual"><scope>MR::RangeCounter</scope><name>RangeCounter</name></member>
-      <member refid="classMR_1_1RangeCounter_1afc61426864c7a39dd91df50524681102" prot="public" virt="non-virtual"><scope>MR::RangeCounter</scope><name>size</name></member>
-      <member refid="classMR_1_1RangeCounter_1a310cccaba672fdf60cd4fd64f7718b2e" prot="public" virt="non-virtual"><scope>MR::RangeCounter</scope><name>TileIterT</name></member>
-      <member refid="classMR_1_1RangeCounter_1a6348660687ee746c78a3e76ef7565eb8" prot="public" virt="non-virtual"><scope>MR::RangeCounter</scope><name>TreeAccessor</name></member>
-      <member refid="classMR_1_1RangeCounter_1aa8f668ef1c57d1b754807bd662c72f66" prot="public" virt="non-virtual"><scope>MR::RangeCounter</scope><name>ValueT</name></member>
+      <member refid="group__GeneralGroup_1gaaa6a0d48919ef234d36534532b95eb6a" prot="public" virt="non-virtual"><scope>MR::RangeCounter</scope><name>action</name></member>
+      <member refid="group__GeneralGroup_1ga75a111eb51abd100715ed2283d094687" prot="public" virt="non-virtual"><scope>MR::RangeCounter</scope><name>action</name></member>
+      <member refid="group__GeneralGroup_1gad2fbbfb496bbf63f5db4608cd5c1ee61" prot="public" virt="non-virtual"><scope>MR::RangeCounter</scope><name>join</name></member>
+      <member refid="group__GeneralGroup_1ga2843b3697415f694e48b3921d0b244d8" prot="public" virt="non-virtual"><scope>MR::RangeCounter</scope><name>LeafIterT</name></member>
+      <member refid="group__GeneralGroup_1ga9dc75f4140f86f912151eb28d6ed87c1" prot="public" virt="non-virtual"><scope>MR::RangeCounter</scope><name>RangeCounter</name></member>
+      <member refid="group__GeneralGroup_1gadda3a272ca4a16dd6c2c1a4effefa578" prot="public" virt="non-virtual"><scope>MR::RangeCounter</scope><name>RangeCounter</name></member>
+      <member refid="group__GeneralGroup_1gafc61426864c7a39dd91df50524681102" prot="public" virt="non-virtual"><scope>MR::RangeCounter</scope><name>size</name></member>
+      <member refid="group__GeneralGroup_1ga310cccaba672fdf60cd4fd64f7718b2e" prot="public" virt="non-virtual"><scope>MR::RangeCounter</scope><name>TileIterT</name></member>
+      <member refid="group__GeneralGroup_1ga6348660687ee746c78a3e76ef7565eb8" prot="public" virt="non-virtual"><scope>MR::RangeCounter</scope><name>TreeAccessor</name></member>
+      <member refid="group__GeneralGroup_1gaa8f668ef1c57d1b754807bd662c72f66" prot="public" virt="non-virtual"><scope>MR::RangeCounter</scope><name>ValueT</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

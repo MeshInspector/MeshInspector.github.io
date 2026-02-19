@@ -9,30 +9,24 @@
     <includes local="no">functional</includes>
     <includedby refid="MRWatershedGraph_8h" local="yes">MRWatershedGraph.h</includedby>
     <incdepgraph>
-      <node id="20">
+      <node id="13">
         <label>MRBitSet.h</label>
         <link refid="MRBitSet_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
         <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="23" relation="include">
-        </childnode>
-      </node>
-      <node id="6">
-        <label>MRMesh/MRCanonicalTypedefs.h</label>
-        <link refid="MRCanonicalTypedefs_8h"/>
-        <childnode refid="3" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -40,47 +34,23 @@
         <link refid="MRGraph_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
         </childnode>
       </node>
-      <node id="16">
+      <node id="9">
         <label>MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-      </node>
-      <node id="3">
-        <label>MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
-      </node>
-      <node id="4">
-        <label>MRMeshFwd.h</label>
-        <link refid="MRMeshFwd_8h"/>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
         <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
@@ -88,17 +58,19 @@
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
       </node>
-      <node id="14">
+      <node id="3">
+        <label>MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="5">
         <label>MRResizeNoInit.h</label>
         <link refid="MRResizeNoInit_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -108,58 +80,45 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="5">
-        <label>config.h</label>
-        <link refid="MRMesh_2config_8h"/>
+      <node id="4">
+        <label>MRMeshFwd.h</label>
       </node>
       <node id="7">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="21">
+      <node id="14">
         <label>MRphmap.h</label>
       </node>
       <node id="8">
-        <label>array</label>
-      </node>
-      <node id="13">
         <label>cassert</label>
       </node>
-      <node id="15">
+      <node id="6">
         <label>concepts</label>
       </node>
-      <node id="17">
+      <node id="10">
         <label>cstddef</label>
       </node>
-      <node id="12">
+      <node id="15">
         <label>functional</label>
       </node>
-      <node id="22">
+      <node id="16">
         <label>iosfwd</label>
       </node>
-      <node id="23">
+      <node id="17">
         <label>iterator</label>
       </node>
       <node id="11">
-        <label>parallel_hashmap/phmap_fwd_decl.h</label>
-      </node>
-      <node id="10">
-        <label>string</label>
-      </node>
-      <node id="18">
         <label>type_traits</label>
       </node>
-      <node id="19">
+      <node id="12">
         <label>utility</label>
-      </node>
-      <node id="9">
-        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
@@ -192,77 +151,78 @@
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="10"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="classMR_1_1Graph" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1Graph" kindref="compound">Graph</ref></highlight></codeline>
-<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="16" refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">VertId</ref><sp/>=<sp/>GraphVertId;</highlight></codeline>
-<codeline lineno="17" refid="classMR_1_1Graph_1ab7466409c32ef6a047fedfe19ed28c1b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1Graph_1ab7466409c32ef6a047fedfe19ed28c1b" kindref="member">EdgeId</ref><sp/>=<sp/>GraphEdgeId;</highlight></codeline>
-<codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="classMR_1_1Graph_1ab76aab71a50b47ed582851ecb969920c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1Graph_1ab76aab71a50b47ed582851ecb969920c" kindref="member">VertBitSet</ref><sp/>=<sp/>GraphVertBitSet;</highlight></codeline>
-<codeline lineno="20" refid="classMR_1_1Graph_1a8479c33a6ee26f007a35cab71ba0f2b5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1Graph_1a8479c33a6ee26f007a35cab71ba0f2b5" kindref="member">EdgeBitSet</ref><sp/>=<sp/>GraphEdgeBitSet;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="classMR_1_1Graph" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1Graph" kindref="compound">Graph</ref></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="19" refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">VertId</ref><sp/>=<sp/>GraphVertId;</highlight></codeline>
+<codeline lineno="20" refid="group__GeneralGroup_1gab7466409c32ef6a047fedfe19ed28c1b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gab7466409c32ef6a047fedfe19ed28c1b" kindref="member">EdgeId</ref><sp/>=<sp/>GraphEdgeId;</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22" refid="classMR_1_1Graph_1a77cba04748e7954c18b2aebc282f0d74" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1Graph_1a77cba04748e7954c18b2aebc282f0d74" kindref="member">Neighbours</ref><sp/>=<sp/>std::vector&lt;EdgeId&gt;;<sp/></highlight></codeline>
-<codeline lineno="23" refid="classMR_1_1Graph_1a0f0a516aa03bd6f100040d2696d0c808" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1Vector" kindref="compound">NeighboursPerVertex</ref><sp/>=<sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;Neighbours, VertId&gt;</ref>;</highlight></codeline>
+<codeline lineno="22" refid="group__GeneralGroup_1gab76aab71a50b47ed582851ecb969920c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gab76aab71a50b47ed582851ecb969920c" kindref="member">VertBitSet</ref><sp/>=<sp/>GraphVertBitSet;</highlight></codeline>
+<codeline lineno="23" refid="group__GeneralGroup_1ga8479c33a6ee26f007a35cab71ba0f2b5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga8479c33a6ee26f007a35cab71ba0f2b5" kindref="member">EdgeBitSet</ref><sp/>=<sp/>GraphEdgeBitSet;</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25" refid="structMR_1_1Graph_1_1EndVertices" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Graph_1_1EndVertices" kindref="compound">EndVertices</ref></highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="27" refid="structMR_1_1Graph_1_1EndVertices_1a7b9ed22e987be98753ff8c314a3c7bd4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">VertId</ref><sp/><ref refid="structMR_1_1Graph_1_1EndVertices_1a7b9ed22e987be98753ff8c314a3c7bd4" kindref="member">v0</ref>,<sp/><ref refid="structMR_1_1Graph_1_1EndVertices_1a22b2afa87f3a85ed5e79f351e02b9266" kindref="member">v1</ref>;<sp/></highlight></codeline>
-<codeline lineno="28" refid="structMR_1_1Graph_1_1EndVertices_1a57f201c07d8a9aee027911668d5c9f8b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">VertId</ref><sp/><ref refid="structMR_1_1Graph_1_1EndVertices_1a57f201c07d8a9aee027911668d5c9f8b" kindref="member">otherEnd</ref>(<sp/><ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">VertId</ref><sp/>a<sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
-<codeline lineno="29"><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert(<sp/>a<sp/>==<sp/><ref refid="structMR_1_1Graph_1_1EndVertices_1a7b9ed22e987be98753ff8c314a3c7bd4" kindref="member">v0</ref><sp/>||<sp/>a<sp/>==<sp/><ref refid="structMR_1_1Graph_1_1EndVertices_1a22b2afa87f3a85ed5e79f351e02b9266" kindref="member">v1</ref><sp/>);</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>a<sp/>==<sp/><ref refid="structMR_1_1Graph_1_1EndVertices_1a7b9ed22e987be98753ff8c314a3c7bd4" kindref="member">v0</ref><sp/>?<sp/><ref refid="structMR_1_1Graph_1_1EndVertices_1a22b2afa87f3a85ed5e79f351e02b9266" kindref="member">v1</ref><sp/>:<sp/><ref refid="structMR_1_1Graph_1_1EndVertices_1a7b9ed22e987be98753ff8c314a3c7bd4" kindref="member">v0</ref>;</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="33" refid="structMR_1_1Graph_1_1EndVertices_1acdf8c4e8411247e361733ddd467cd8bb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Graph_1_1EndVertices_1acdf8c4e8411247e361733ddd467cd8bb" kindref="member">replaceEnd</ref>(<sp/><ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">VertId</ref><sp/>what,<sp/><ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">VertId</ref><sp/>with<sp/>)</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert(<sp/>what<sp/>!=<sp/>with<sp/>);</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert(<sp/>(<sp/><ref refid="structMR_1_1Graph_1_1EndVertices_1a7b9ed22e987be98753ff8c314a3c7bd4" kindref="member">v0</ref><sp/>==<sp/>what<sp/>&amp;&amp;<sp/><ref refid="structMR_1_1Graph_1_1EndVertices_1a22b2afa87f3a85ed5e79f351e02b9266" kindref="member">v1</ref><sp/>!=<sp/>with<sp/>)<sp/>||<sp/>(<sp/><ref refid="structMR_1_1Graph_1_1EndVertices_1a22b2afa87f3a85ed5e79f351e02b9266" kindref="member">v1</ref><sp/>==<sp/>what<sp/>&amp;&amp;<sp/><ref refid="structMR_1_1Graph_1_1EndVertices_1a7b9ed22e987be98753ff8c314a3c7bd4" kindref="member">v0</ref><sp/>!=<sp/>with<sp/>)<sp/>);</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/><ref refid="structMR_1_1Graph_1_1EndVertices_1a7b9ed22e987be98753ff8c314a3c7bd4" kindref="member">v0</ref><sp/>==<sp/>what<sp/>)</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Graph_1_1EndVertices_1a7b9ed22e987be98753ff8c314a3c7bd4" kindref="member">v0</ref><sp/>=<sp/>with;</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Graph_1_1EndVertices_1a22b2afa87f3a85ed5e79f351e02b9266" kindref="member">v1</ref><sp/>=<sp/>with;</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/><ref refid="structMR_1_1Graph_1_1EndVertices_1a7b9ed22e987be98753ff8c314a3c7bd4" kindref="member">v0</ref><sp/>&gt;<sp/><ref refid="structMR_1_1Graph_1_1EndVertices_1a22b2afa87f3a85ed5e79f351e02b9266" kindref="member">v1</ref><sp/>)</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::swap(<sp/><ref refid="structMR_1_1Graph_1_1EndVertices_1a7b9ed22e987be98753ff8c314a3c7bd4" kindref="member">v0</ref>,<sp/><ref refid="structMR_1_1Graph_1_1EndVertices_1a22b2afa87f3a85ed5e79f351e02b9266" kindref="member">v1</ref><sp/>);</highlight></codeline>
-<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="44" refid="structMR_1_1Graph_1_1EndVertices_1afe146d825ed418eab8e42d1bdb2f7a43" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Graph_1_1EndVertices_1afe146d825ed418eab8e42d1bdb2f7a43" kindref="member">operator &lt;=&gt;</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Graph_1_1EndVertices" kindref="compound">EndVertices</ref>&amp;<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="46" refid="classMR_1_1Graph_1a429f57208104bd4a3efcceeaa5ba4dce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1Vector" kindref="compound">EndsPerEdge</ref><sp/>=<sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;EndVertices, EdgeId&gt;</ref>;</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="49" refid="classMR_1_1Graph_1a01fe9290eb0140ff0193c6ce4a3ea5b8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Graph_1a01fe9290eb0140ff0193c6ce4a3ea5b8" kindref="member">construct</ref>(<sp/><ref refid="classMR_1_1Vector" kindref="compound">NeighboursPerVertex</ref><sp/>neighboursPerVertex,<sp/><ref refid="classMR_1_1Vector" kindref="compound">EndsPerEdge</ref><sp/>endsPerEdge<sp/>);</highlight></codeline>
+<codeline lineno="25" refid="group__GeneralGroup_1ga77cba04748e7954c18b2aebc282f0d74" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga77cba04748e7954c18b2aebc282f0d74" kindref="member">Neighbours</ref><sp/>=<sp/>std::vector&lt;EdgeId&gt;;<sp/></highlight></codeline>
+<codeline lineno="26" refid="group__GeneralGroup_1ga0f0a516aa03bd6f100040d2696d0c808" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1Vector" kindref="compound">NeighboursPerVertex</ref><sp/>=<sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;Neighbours, VertId&gt;</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="structMR_1_1Graph_1_1EndVertices" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Graph_1_1EndVertices" kindref="compound">EndVertices</ref></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="30" refid="group__GeneralGroup_1ga7b9ed22e987be98753ff8c314a3c7bd4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">VertId</ref><sp/><ref refid="group__GeneralGroup_1ga7b9ed22e987be98753ff8c314a3c7bd4" kindref="member">v0</ref>,<sp/><ref refid="group__GeneralGroup_1ga22b2afa87f3a85ed5e79f351e02b9266" kindref="member">v1</ref>;<sp/></highlight></codeline>
+<codeline lineno="31" refid="group__GeneralGroup_1ga57f201c07d8a9aee027911668d5c9f8b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">VertId</ref><sp/><ref refid="group__GeneralGroup_1ga57f201c07d8a9aee027911668d5c9f8b" kindref="member">otherEnd</ref>(<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">VertId</ref><sp/>a<sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="32"><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert(<sp/>a<sp/>==<sp/><ref refid="group__GeneralGroup_1ga7b9ed22e987be98753ff8c314a3c7bd4" kindref="member">v0</ref><sp/>||<sp/>a<sp/>==<sp/><ref refid="group__GeneralGroup_1ga22b2afa87f3a85ed5e79f351e02b9266" kindref="member">v1</ref><sp/>);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>a<sp/>==<sp/><ref refid="group__GeneralGroup_1ga7b9ed22e987be98753ff8c314a3c7bd4" kindref="member">v0</ref><sp/>?<sp/><ref refid="group__GeneralGroup_1ga22b2afa87f3a85ed5e79f351e02b9266" kindref="member">v1</ref><sp/>:<sp/><ref refid="group__GeneralGroup_1ga7b9ed22e987be98753ff8c314a3c7bd4" kindref="member">v0</ref>;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36" refid="group__GeneralGroup_1gacdf8c4e8411247e361733ddd467cd8bb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gacdf8c4e8411247e361733ddd467cd8bb" kindref="member">replaceEnd</ref>(<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">VertId</ref><sp/>what,<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">VertId</ref><sp/>with<sp/>)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert(<sp/>what<sp/>!=<sp/>with<sp/>);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert(<sp/>(<sp/><ref refid="group__GeneralGroup_1ga7b9ed22e987be98753ff8c314a3c7bd4" kindref="member">v0</ref><sp/>==<sp/>what<sp/>&amp;&amp;<sp/><ref refid="group__GeneralGroup_1ga22b2afa87f3a85ed5e79f351e02b9266" kindref="member">v1</ref><sp/>!=<sp/>with<sp/>)<sp/>||<sp/>(<sp/><ref refid="group__GeneralGroup_1ga22b2afa87f3a85ed5e79f351e02b9266" kindref="member">v1</ref><sp/>==<sp/>what<sp/>&amp;&amp;<sp/><ref refid="group__GeneralGroup_1ga7b9ed22e987be98753ff8c314a3c7bd4" kindref="member">v0</ref><sp/>!=<sp/>with<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/><ref refid="group__GeneralGroup_1ga7b9ed22e987be98753ff8c314a3c7bd4" kindref="member">v0</ref><sp/>==<sp/>what<sp/>)</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga7b9ed22e987be98753ff8c314a3c7bd4" kindref="member">v0</ref><sp/>=<sp/>with;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga22b2afa87f3a85ed5e79f351e02b9266" kindref="member">v1</ref><sp/>=<sp/>with;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/><ref refid="group__GeneralGroup_1ga7b9ed22e987be98753ff8c314a3c7bd4" kindref="member">v0</ref><sp/>&gt;<sp/><ref refid="group__GeneralGroup_1ga22b2afa87f3a85ed5e79f351e02b9266" kindref="member">v1</ref><sp/>)</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::swap(<sp/><ref refid="group__GeneralGroup_1ga7b9ed22e987be98753ff8c314a3c7bd4" kindref="member">v0</ref>,<sp/><ref refid="group__GeneralGroup_1ga22b2afa87f3a85ed5e79f351e02b9266" kindref="member">v1</ref><sp/>);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47" refid="group__GeneralGroup_1gafe146d825ed418eab8e42d1bdb2f7a43" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gafe146d825ed418eab8e42d1bdb2f7a43" kindref="member">operator &lt;=&gt;</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Graph_1_1EndVertices" kindref="compound">EndVertices</ref>&amp;<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="49" refid="group__GeneralGroup_1ga429f57208104bd4a3efcceeaa5ba4dce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1Vector" kindref="compound">EndsPerEdge</ref><sp/>=<sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;EndVertices, EdgeId&gt;</ref>;</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52" refid="classMR_1_1Graph_1ac31feb99fa40a7a7fee0c9806f676b11" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Graph_1ac31feb99fa40a7a7fee0c9806f676b11" kindref="member">vertSize</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>neighboursPerVertex_.<ref refid="classMR_1_1Vector_1a2816ffd002bac70ab04d1bd18e2c5cfd" kindref="member">size</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="52" refid="group__GeneralGroup_1ga01fe9290eb0140ff0193c6ce4a3ea5b8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga01fe9290eb0140ff0193c6ce4a3ea5b8" kindref="member">construct</ref>(<sp/><ref refid="classMR_1_1Vector" kindref="compound">NeighboursPerVertex</ref><sp/>neighboursPerVertex,<sp/><ref refid="classMR_1_1Vector" kindref="compound">EndsPerEdge</ref><sp/>endsPerEdge<sp/>);</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
-<codeline lineno="55" refid="classMR_1_1Graph_1a60bd1c95b46edb238590e59ba2066233" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Graph_1ab76aab71a50b47ed582851ecb969920c" kindref="member">VertBitSet</ref><sp/>&amp;<sp/><ref refid="classMR_1_1Graph_1a60bd1c95b46edb238590e59ba2066233" kindref="member">validVerts</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>validVerts_;<sp/>}</highlight></codeline>
+<codeline lineno="55" refid="group__GeneralGroup_1gac31feb99fa40a7a7fee0c9806f676b11" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac31feb99fa40a7a7fee0c9806f676b11" kindref="member">vertSize</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>neighboursPerVertex_.<ref refid="group__GeneralGroup_1ga2816ffd002bac70ab04d1bd18e2c5cfd" kindref="member">size</ref>();<sp/>}</highlight></codeline>
 <codeline lineno="56"><highlight class="normal"></highlight></codeline>
-<codeline lineno="58" refid="classMR_1_1Graph_1a46ac2204a29916d4c70d8902b0a21868" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Graph_1a46ac2204a29916d4c70d8902b0a21868" kindref="member">valid</ref>(<sp/><ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">VertId</ref><sp/>v<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>validVerts_.test(<sp/>v<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="58" refid="group__GeneralGroup_1ga60bd1c95b46edb238590e59ba2066233" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab76aab71a50b47ed582851ecb969920c" kindref="member">VertBitSet</ref><sp/>&amp;<sp/><ref refid="group__GeneralGroup_1ga60bd1c95b46edb238590e59ba2066233" kindref="member">validVerts</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>validVerts_;<sp/>}</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"></highlight></codeline>
-<codeline lineno="61" refid="classMR_1_1Graph_1a0c5f4eae690cb57f429c9656db0e2dad" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Graph_1a0c5f4eae690cb57f429c9656db0e2dad" kindref="member">edgeSize</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>endsPerEdge_.<ref refid="classMR_1_1Vector_1a2816ffd002bac70ab04d1bd18e2c5cfd" kindref="member">size</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="61" refid="group__GeneralGroup_1ga46ac2204a29916d4c70d8902b0a21868" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga46ac2204a29916d4c70d8902b0a21868" kindref="member">valid</ref>(<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">VertId</ref><sp/>v<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>validVerts_.test(<sp/>v<sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight></codeline>
-<codeline lineno="64" refid="classMR_1_1Graph_1a6dcad1485d86cf7df5af53ddc8dc8592" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Graph_1a8479c33a6ee26f007a35cab71ba0f2b5" kindref="member">EdgeBitSet</ref><sp/>&amp;<sp/><ref refid="classMR_1_1Graph_1a6dcad1485d86cf7df5af53ddc8dc8592" kindref="member">validEdges</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>validEdges_;<sp/>}</highlight></codeline>
+<codeline lineno="64" refid="group__GeneralGroup_1ga0c5f4eae690cb57f429c9656db0e2dad" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0c5f4eae690cb57f429c9656db0e2dad" kindref="member">edgeSize</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>endsPerEdge_.<ref refid="group__GeneralGroup_1ga2816ffd002bac70ab04d1bd18e2c5cfd" kindref="member">size</ref>();<sp/>}</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"></highlight></codeline>
-<codeline lineno="67" refid="classMR_1_1Graph_1a5091e905ddd17f80fb7c3996ce095e58" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Graph_1a5091e905ddd17f80fb7c3996ce095e58" kindref="member">valid</ref>(<sp/><ref refid="classMR_1_1Graph_1ab7466409c32ef6a047fedfe19ed28c1b" kindref="member">EdgeId</ref><sp/>e<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>validEdges_.test(<sp/>e<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="67" refid="group__GeneralGroup_1ga6dcad1485d86cf7df5af53ddc8dc8592" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8479c33a6ee26f007a35cab71ba0f2b5" kindref="member">EdgeBitSet</ref><sp/>&amp;<sp/><ref refid="group__GeneralGroup_1ga6dcad1485d86cf7df5af53ddc8dc8592" kindref="member">validEdges</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>validEdges_;<sp/>}</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"></highlight></codeline>
-<codeline lineno="70" refid="classMR_1_1Graph_1a39fd49331c460c5a968a62a2140d2990" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Graph_1a77cba04748e7954c18b2aebc282f0d74" kindref="member">Neighbours</ref><sp/>&amp;<sp/><ref refid="classMR_1_1Graph_1a39fd49331c460c5a968a62a2140d2990" kindref="member">neighbours</ref>(<sp/><ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">VertId</ref><sp/>v<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>neighboursPerVertex_[v];<sp/>}</highlight></codeline>
+<codeline lineno="70" refid="group__GeneralGroup_1ga5091e905ddd17f80fb7c3996ce095e58" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5091e905ddd17f80fb7c3996ce095e58" kindref="member">valid</ref>(<sp/><ref refid="group__GeneralGroup_1gab7466409c32ef6a047fedfe19ed28c1b" kindref="member">EdgeId</ref><sp/>e<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>validEdges_.test(<sp/>e<sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"></highlight></codeline>
-<codeline lineno="73" refid="classMR_1_1Graph_1a0c37e0844926fa87642bc735718dd643" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Graph_1_1EndVertices" kindref="compound">EndVertices</ref><sp/>&amp;<sp/><ref refid="classMR_1_1Graph_1a0c37e0844926fa87642bc735718dd643" kindref="member">ends</ref>(<sp/><ref refid="classMR_1_1Graph_1ab7466409c32ef6a047fedfe19ed28c1b" kindref="member">EdgeId</ref><sp/>e<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>endsPerEdge_[e];<sp/>}</highlight></codeline>
+<codeline lineno="73" refid="group__GeneralGroup_1ga39fd49331c460c5a968a62a2140d2990" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga77cba04748e7954c18b2aebc282f0d74" kindref="member">Neighbours</ref><sp/>&amp;<sp/><ref refid="group__GeneralGroup_1ga39fd49331c460c5a968a62a2140d2990" kindref="member">neighbours</ref>(<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">VertId</ref><sp/>v<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>neighboursPerVertex_[v];<sp/>}</highlight></codeline>
 <codeline lineno="74"><highlight class="normal"></highlight></codeline>
-<codeline lineno="76" refid="classMR_1_1Graph_1a5de54676ec0131e5355d47e44f31019d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1Graph_1ab7466409c32ef6a047fedfe19ed28c1b" kindref="member">EdgeId</ref><sp/><ref refid="classMR_1_1Graph_1a5de54676ec0131e5355d47e44f31019d" kindref="member">findEdge</ref>(<sp/><ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">VertId</ref><sp/>a,<sp/><ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">VertId</ref><sp/>b<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="76" refid="group__GeneralGroup_1ga0c37e0844926fa87642bc735718dd643" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Graph_1_1EndVertices" kindref="compound">EndVertices</ref><sp/>&amp;<sp/><ref refid="group__GeneralGroup_1ga0c37e0844926fa87642bc735718dd643" kindref="member">ends</ref>(<sp/><ref refid="group__GeneralGroup_1gab7466409c32ef6a047fedfe19ed28c1b" kindref="member">EdgeId</ref><sp/>e<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>endsPerEdge_[e];<sp/>}</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"></highlight></codeline>
-<codeline lineno="79" refid="classMR_1_1Graph_1ac3097672a81dda206c80984a7fdb0806" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Graph_1ac3097672a81dda206c80984a7fdb0806" kindref="member">areNeighbors</ref>(<sp/><ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">VertId</ref><sp/>a,<sp/><ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">VertId</ref><sp/>b<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Graph_1a5de54676ec0131e5355d47e44f31019d" kindref="member">findEdge</ref>(<sp/>a,<sp/>b<sp/>).valid();<sp/>}</highlight></codeline>
+<codeline lineno="79" refid="group__GeneralGroup_1ga5de54676ec0131e5355d47e44f31019d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1gab7466409c32ef6a047fedfe19ed28c1b" kindref="member">EdgeId</ref><sp/><ref refid="group__GeneralGroup_1ga5de54676ec0131e5355d47e44f31019d" kindref="member">findEdge</ref>(<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">VertId</ref><sp/>a,<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">VertId</ref><sp/>b<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="80"><highlight class="normal"></highlight></codeline>
-<codeline lineno="83" refid="classMR_1_1Graph_1a2dab2ce76e4259ff2c5d66ec4c68c98a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Graph_1a2dab2ce76e4259ff2c5d66ec4c68c98a" kindref="member">merge</ref>(<sp/><ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">VertId</ref><sp/>remnant,<sp/><ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">VertId</ref><sp/>dead,<sp/>std::function&lt;</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">(<sp/><ref refid="classMR_1_1Graph_1ab7466409c32ef6a047fedfe19ed28c1b" kindref="member">EdgeId</ref><sp/>remnant,<sp/><ref refid="classMR_1_1Graph_1ab7466409c32ef6a047fedfe19ed28c1b" kindref="member">EdgeId</ref><sp/>dead<sp/>)&gt;<sp/>onMergeEdges<sp/>);</highlight></codeline>
-<codeline lineno="84"><highlight class="normal"></highlight></codeline>
-<codeline lineno="86" refid="classMR_1_1Graph_1a6c46ebc56429665872ef490d8d8674ce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Graph_1a6c46ebc56429665872ef490d8d8674ce" kindref="member">checkValidity</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="82" refid="group__GeneralGroup_1gac3097672a81dda206c80984a7fdb0806" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac3097672a81dda206c80984a7fdb0806" kindref="member">areNeighbors</ref>(<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">VertId</ref><sp/>a,<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">VertId</ref><sp/>b<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5de54676ec0131e5355d47e44f31019d" kindref="member">findEdge</ref>(<sp/>a,<sp/>b<sp/>).valid();<sp/>}</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="group__GeneralGroup_1ga2dab2ce76e4259ff2c5d66ec4c68c98a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2dab2ce76e4259ff2c5d66ec4c68c98a" kindref="member">merge</ref>(<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">VertId</ref><sp/>remnant,<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">VertId</ref><sp/>dead,<sp/>std::function&lt;</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">(<sp/><ref refid="group__GeneralGroup_1gab7466409c32ef6a047fedfe19ed28c1b" kindref="member">EdgeId</ref><sp/>remnant,<sp/><ref refid="group__GeneralGroup_1gab7466409c32ef6a047fedfe19ed28c1b" kindref="member">EdgeId</ref><sp/>dead<sp/>)&gt;<sp/>onMergeEdges<sp/>);</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"></highlight></codeline>
-<codeline lineno="88"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Graph_1ab76aab71a50b47ed582851ecb969920c" kindref="member">VertBitSet</ref><sp/>validVerts_;</highlight></codeline>
-<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Graph_1a8479c33a6ee26f007a35cab71ba0f2b5" kindref="member">EdgeBitSet</ref><sp/>validEdges_;</highlight></codeline>
-<codeline lineno="91"><highlight class="normal"></highlight></codeline>
-<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Vector" kindref="compound">NeighboursPerVertex</ref><sp/>neighboursPerVertex_;</highlight></codeline>
-<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Vector" kindref="compound">EndsPerEdge</ref><sp/>endsPerEdge_;</highlight></codeline>
-<codeline lineno="94"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="95"><highlight class="normal"></highlight></codeline>
-<codeline lineno="96"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="89" refid="group__GeneralGroup_1ga6c46ebc56429665872ef490d8d8674ce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6c46ebc56429665872ef490d8d8674ce" kindref="member">checkValidity</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gab76aab71a50b47ed582851ecb969920c" kindref="member">VertBitSet</ref><sp/>validVerts_;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga8479c33a6ee26f007a35cab71ba0f2b5" kindref="member">EdgeBitSet</ref><sp/>validEdges_;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Vector" kindref="compound">NeighboursPerVertex</ref><sp/>neighboursPerVertex_;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Vector" kindref="compound">EndsPerEdge</ref><sp/>endsPerEdge_;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal">}<sp/></highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h"/>
   </compounddef>

@@ -348,7 +348,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" line="94" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" bodystart="94" bodyend="94"/>
       </memberdef>
       <memberdef kind="function" id="group__VoxelGroup_1gae847dbed512fd911819dbc766c0dc9bf" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <type>MRMESH_API bool</type>
         <definition>MRMESH_API bool MR::VolumeIndexer::hasNeighbour</definition>
         <argsstring>(const Vector3i &amp;pos, OutEdge toNei) const</argsstring>
         <name>hasNeighbour</name>
@@ -496,7 +496,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" line="109" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" bodystart="109" bodyend="109"/>
       </memberdef>
       <memberdef kind="function" id="group__VoxelGroup_1gaaaebc49a422252db86351ce55dc91bef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> Expected&lt; VoxelBitSet &gt;</type>
+        <type>MRVOXELS_API Expected&lt; VoxelBitSet &gt;</type>
         <definition>MRVOXELS_API Expected&lt; VoxelBitSet &gt; MR::segmentVolumeByGraphCut</definition>
         <argsstring>(const SimpleVolume &amp;densityVolume, float k, const VoxelBitSet &amp;sourceSeeds, const VoxelBitSet &amp;sinkSeeds, ProgressCallback cb={})</argsstring>
         <name>segmentVolumeByGraphCut</name>
@@ -558,7 +558,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelGraphCut.h" line="20" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelGraphCut.h" declline="20" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelGraphCut.h" line="23" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelGraphCut.h" declline="23" declcolumn="23"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

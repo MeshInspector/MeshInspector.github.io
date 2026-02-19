@@ -4,122 +4,28 @@
     <compoundname>MR::FaceFaceFace</compoundname>
     <includes refid="MRTripleFaceIntersections_8h" local="no">MRTripleFaceIntersections.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1FaceFaceFace_1acd551d9c00ebe29729a816dec419d8b3" prot="public" static="no" mutable="no">
-        <type>FaceId</type>
-        <definition>FaceId MR::FaceFaceFace::aFace</definition>
-        <argsstring></argsstring>
-        <name>aFace</name>
-        <qualifiedname>MR::FaceFaceFace::aFace</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTripleFaceIntersections.h" line="12" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTripleFaceIntersections.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1FaceFaceFace_1a39681be0c7ab1dc1c15c832197986024" prot="public" static="no" mutable="no">
-        <type>FaceId</type>
-        <definition>FaceId MR::FaceFaceFace::bFace</definition>
-        <argsstring></argsstring>
-        <name>bFace</name>
-        <qualifiedname>MR::FaceFaceFace::bFace</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTripleFaceIntersections.h" line="13" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTripleFaceIntersections.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1FaceFaceFace_1a9c0b3b8d9c8e17c12f60f7feec45c757" prot="public" static="no" mutable="no">
-        <type>FaceId</type>
-        <definition>FaceId MR::FaceFaceFace::cFace</definition>
-        <argsstring></argsstring>
-        <name>cFace</name>
-        <qualifiedname>MR::FaceFaceFace::cFace</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTripleFaceIntersections.h" line="14" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTripleFaceIntersections.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gacd551d9c00ebe29729a816dec419d8b3" kind="variable"><name>aFace</name></member>
+      <member refid="group__GeneralGroup_1ga39681be0c7ab1dc1c15c832197986024" kind="variable"><name>bFace</name></member>
+      <member refid="group__GeneralGroup_1ga9c0b3b8d9c8e17c12f60f7feec45c757" kind="variable"><name>cFace</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1FaceFaceFace_1a0e5733dffb431d23e489ffb540237689" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::FaceFaceFace::FaceFaceFace</definition>
-        <argsstring>(FaceId a, FaceId b, FaceId c)</argsstring>
-        <name>FaceFaceFace</name>
-        <qualifiedname>MR::FaceFaceFace::FaceFaceFace</qualifiedname>
-        <param>
-          <type>FaceId</type>
-          <declname>a</declname>
-        </param>
-        <param>
-          <type>FaceId</type>
-          <declname>b</declname>
-        </param>
-        <param>
-          <type>FaceId</type>
-          <declname>c</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTripleFaceIntersections.h" line="15" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTripleFaceIntersections.h" bodystart="15" bodyend="15"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1FaceFaceFace_1a8a49e27d2dc2b97960798a2ff0ab1dc0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::FaceFaceFace::FaceFaceFace</definition>
-        <argsstring>()</argsstring>
-        <name>FaceFaceFace</name>
-        <qualifiedname>MR::FaceFaceFace::FaceFaceFace</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTripleFaceIntersections.h" line="16" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTripleFaceIntersections.h" bodystart="16" bodyend="16"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1FaceFaceFace_1ae8b8ea6a8fe4113e5a65704d378e0720" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>auto</type>
-        <definition>auto MR::FaceFaceFace::operator&lt;=&gt;</definition>
-        <argsstring>(const FaceFaceFace &amp;rhs) const =default</argsstring>
-        <name>operator&lt;=&gt;</name>
-        <qualifiedname>MR::FaceFaceFace::operator&lt;=&gt;</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1FaceFaceFace" kindref="compound">FaceFaceFace</ref> &amp;</type>
-          <declname>rhs</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTripleFaceIntersections.h" line="17" column="5"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga0e5733dffb431d23e489ffb540237689" kind="function"><name>FaceFaceFace</name></member>
+      <member refid="group__GeneralGroup_1ga8a49e27d2dc2b97960798a2ff0ab1dc0" kind="function"><name>FaceFaceFace</name></member>
+      <member refid="group__GeneralGroup_1gae8b8ea6a8fe4113e5a65704d378e0720" kind="function"><name>operator&lt;=&gt;</name></member>
     </sectiondef>
     <briefdescription>
 <para>a triple of faces </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTripleFaceIntersections.h" line="10" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTripleFaceIntersections.h" bodystart="11" bodyend="18"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTripleFaceIntersections.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTripleFaceIntersections.h" bodystart="14" bodyend="21"/>
     <listofallmembers>
-      <member refid="structMR_1_1FaceFaceFace_1acd551d9c00ebe29729a816dec419d8b3" prot="public" virt="non-virtual"><scope>MR::FaceFaceFace</scope><name>aFace</name></member>
-      <member refid="structMR_1_1FaceFaceFace_1a39681be0c7ab1dc1c15c832197986024" prot="public" virt="non-virtual"><scope>MR::FaceFaceFace</scope><name>bFace</name></member>
-      <member refid="structMR_1_1FaceFaceFace_1a9c0b3b8d9c8e17c12f60f7feec45c757" prot="public" virt="non-virtual"><scope>MR::FaceFaceFace</scope><name>cFace</name></member>
-      <member refid="structMR_1_1FaceFaceFace_1a0e5733dffb431d23e489ffb540237689" prot="public" virt="non-virtual"><scope>MR::FaceFaceFace</scope><name>FaceFaceFace</name></member>
-      <member refid="structMR_1_1FaceFaceFace_1a8a49e27d2dc2b97960798a2ff0ab1dc0" prot="public" virt="non-virtual"><scope>MR::FaceFaceFace</scope><name>FaceFaceFace</name></member>
-      <member refid="structMR_1_1FaceFaceFace_1ae8b8ea6a8fe4113e5a65704d378e0720" prot="public" virt="non-virtual"><scope>MR::FaceFaceFace</scope><name>operator&lt;=&gt;</name></member>
+      <member refid="group__GeneralGroup_1gacd551d9c00ebe29729a816dec419d8b3" prot="public" virt="non-virtual"><scope>MR::FaceFaceFace</scope><name>aFace</name></member>
+      <member refid="group__GeneralGroup_1ga39681be0c7ab1dc1c15c832197986024" prot="public" virt="non-virtual"><scope>MR::FaceFaceFace</scope><name>bFace</name></member>
+      <member refid="group__GeneralGroup_1ga9c0b3b8d9c8e17c12f60f7feec45c757" prot="public" virt="non-virtual"><scope>MR::FaceFaceFace</scope><name>cFace</name></member>
+      <member refid="group__GeneralGroup_1ga0e5733dffb431d23e489ffb540237689" prot="public" virt="non-virtual"><scope>MR::FaceFaceFace</scope><name>FaceFaceFace</name></member>
+      <member refid="group__GeneralGroup_1ga8a49e27d2dc2b97960798a2ff0ab1dc0" prot="public" virt="non-virtual"><scope>MR::FaceFaceFace</scope><name>FaceFaceFace</name></member>
+      <member refid="group__GeneralGroup_1gae8b8ea6a8fe4113e5a65704d378e0720" prot="public" virt="non-virtual"><scope>MR::FaceFaceFace</scope><name>operator&lt;=&gt;</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

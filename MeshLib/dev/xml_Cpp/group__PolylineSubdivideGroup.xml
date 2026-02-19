@@ -6,7 +6,7 @@
     <innerclass refid="structMR_1_1PolylineSubdivideSettings" prot="public">MR::PolylineSubdivideSettings</innerclass>
     <sectiondef kind="func">
       <memberdef kind="function" id="group__PolylineSubdivideGroup_1ga0bbd08d4c425d1f7af74133abd56be58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> int</type>
+        <type>MRMESH_API int</type>
         <definition>MRMESH_API int MR::subdividePolyline</definition>
         <argsstring>(Polyline2 &amp;polyline, const PolylineSubdivideSettings &amp;settings={})</argsstring>
         <name>subdividePolyline</name>
@@ -33,7 +33,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineSubdivide.h" line="38" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineSubdivide.h" declline="38" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="group__PolylineSubdivideGroup_1ga7f91969af2bfe0c0487b2811d32925c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> int</type>
+        <type>MRMESH_API int</type>
         <definition>MRMESH_API int MR::subdividePolyline</definition>
         <argsstring>(Polyline3 &amp;polyline, const PolylineSubdivideSettings &amp;settings={})</argsstring>
         <name>subdividePolyline</name>

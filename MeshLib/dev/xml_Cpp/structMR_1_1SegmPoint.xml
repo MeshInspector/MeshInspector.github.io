@@ -9,215 +9,40 @@
       </param>
     </templateparamlist>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1SegmPoint_1a5473b25338c8b8b27c9d38f2b6bb8f89" prot="public" static="no" mutable="no">
-        <type>T</type>
-        <definition>T MR::SegmPoint&lt; T &gt;::a</definition>
-        <argsstring></argsstring>
-        <name>a</name>
-        <qualifiedname>MR::SegmPoint::a</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-<para>a in [0,1], a=0 =&gt; point is in v0, a=1 =&gt; point is in v1 </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSegmPoint.h" line="15" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSegmPoint.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga5473b25338c8b8b27c9d38f2b6bb8f89" kind="variable"><name>a</name></member>
     </sectiondef>
     <sectiondef kind="public-static-attrib">
-      <memberdef kind="variable" id="structMR_1_1SegmPoint_1a1cd8a648f7ab27b5d40ff1c7b036ba2e" prot="public" static="yes" constexpr="yes" mutable="no">
-        <type>auto</type>
-        <definition>auto MR::SegmPoint&lt; T &gt;::eps</definition>
-        <argsstring></argsstring>
-        <name>eps</name>
-        <qualifiedname>MR::SegmPoint::eps</qualifiedname>
-        <initializer>= 10 * std::numeric_limits&lt;T&gt;::epsilon()</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSegmPoint.h" line="17" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSegmPoint.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga1cd8a648f7ab27b5d40ff1c7b036ba2e" kind="variable"><name>eps</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1SegmPoint_1aa9b427c351c923636029040aa207f718" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::SegmPoint&lt; T &gt;::SegmPoint</definition>
-        <argsstring>()=default</argsstring>
-        <name>SegmPoint</name>
-        <qualifiedname>MR::SegmPoint::SegmPoint</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSegmPoint.h" line="19" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1SegmPoint_1a852616535cc51c188a52c77b3f324a6e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::SegmPoint&lt; T &gt;::SegmPoint</definition>
-        <argsstring>(T a)</argsstring>
-        <name>SegmPoint</name>
-        <qualifiedname>MR::SegmPoint::SegmPoint</qualifiedname>
-        <param>
-          <type>T</type>
-          <declname>a</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSegmPoint.h" line="20" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSegmPoint.h" bodystart="20" bodyend="20"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1SegmPoint_1a87266fccf15374e6dc7587544c028d63" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::SegmPoint&lt; T &gt;::operator T</definition>
-        <argsstring>() const</argsstring>
-        <name>operator T</name>
-        <qualifiedname>MR::SegmPoint::operator T</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSegmPoint.h" line="21" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSegmPoint.h" bodystart="21" bodyend="21"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1SegmPoint_1ad9eb72a4d4775622305ebd86274183c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::SegmPoint&lt; T &gt;::operator T&amp;</definition>
-        <argsstring>()</argsstring>
-        <name>operator T&amp;</name>
-        <qualifiedname>MR::SegmPoint::operator T&amp;</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSegmPoint.h" line="22" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSegmPoint.h" bodystart="22" bodyend="22"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1SegmPoint_1a61b1906606755d16e699a890189ff3f8" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename U</type>
-          </param>
-        </templateparamlist>
-        <type>U</type>
-        <definition>U MR::SegmPoint&lt; T &gt;::interpolate</definition>
-        <argsstring>(const U &amp;v0, const U &amp;v1) const</argsstring>
-        <name>interpolate</name>
-        <qualifiedname>MR::SegmPoint::interpolate</qualifiedname>
-        <param>
-          <type>const U &amp;</type>
-          <declname>v0</declname>
-        </param>
-        <param>
-          <type>const U &amp;</type>
-          <declname>v1</declname>
-        </param>
-        <briefdescription>
-<para>given values in two vertices, computes interpolated value at this point </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSegmPoint.h" line="26" column="8" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSegmPoint.h" bodystart="26" bodyend="29"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1SegmPoint_1a4d16443dbd1634455999b2b461f8a720" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>int</type>
-        <definition>int MR::SegmPoint&lt; T &gt;::inVertex</definition>
-        <argsstring>() const</argsstring>
-        <name>inVertex</name>
-        <qualifiedname>MR::SegmPoint::inVertex</qualifiedname>
-        <briefdescription>
-<para>returns [0,1] if the point is in a vertex or -1 otherwise </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSegmPoint.h" line="32" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSegmPoint.h" bodystart="32" bodyend="39"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1SegmPoint_1aa8dd11ef62ac9009f3b27a0dc5371bcc" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1SegmPoint" kindref="compound">SegmPoint</ref></type>
-        <definition>SegmPoint MR::SegmPoint&lt; T &gt;::sym</definition>
-        <argsstring>() const</argsstring>
-        <name>sym</name>
-        <qualifiedname>MR::SegmPoint::sym</qualifiedname>
-        <briefdescription>
-<para>represents the same point relative to oppositely directed segment </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSegmPoint.h" line="42" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSegmPoint.h" bodystart="42" bodyend="42"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1SegmPoint_1a58b2183bd06afd657f4427bec04ded35" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::SegmPoint&lt; T &gt;::operator==</definition>
-        <argsstring>(const SegmPoint &amp;rhs) const =default</argsstring>
-        <name>operator==</name>
-        <qualifiedname>MR::SegmPoint::operator==</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1SegmPoint" kindref="compound">SegmPoint</ref> &amp;</type>
-          <declname>rhs</declname>
-        </param>
-        <briefdescription>
-<para>returns true if two points have equal (a) representation </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSegmPoint.h" line="44" column="11"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1SegmPoint_1a6dd9ffde5068ad5458d52af3e1c33617" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::SegmPoint&lt; T &gt;::operator==</definition>
-        <argsstring>(T rhs) const</argsstring>
-        <name>operator==</name>
-        <qualifiedname>MR::SegmPoint::operator==</qualifiedname>
-        <param>
-          <type>T</type>
-          <declname>rhs</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSegmPoint.h" line="45" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSegmPoint.h" bodystart="45" bodyend="45"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaa9b427c351c923636029040aa207f718" kind="function"><name>SegmPoint</name></member>
+      <member refid="group__GeneralGroup_1ga852616535cc51c188a52c77b3f324a6e" kind="function"><name>SegmPoint</name></member>
+      <member refid="group__GeneralGroup_1ga87266fccf15374e6dc7587544c028d63" kind="function"><name>operator T</name></member>
+      <member refid="group__GeneralGroup_1gad9eb72a4d4775622305ebd86274183c9" kind="function"><name>operator T&amp;</name></member>
+      <member refid="group__GeneralGroup_1ga61b1906606755d16e699a890189ff3f8" kind="function"><name>interpolate</name></member>
+      <member refid="group__GeneralGroup_1ga4d16443dbd1634455999b2b461f8a720" kind="function"><name>inVertex</name></member>
+      <member refid="group__GeneralGroup_1gaa8dd11ef62ac9009f3b27a0dc5371bcc" kind="function"><name>sym</name></member>
+      <member refid="group__GeneralGroup_1ga58b2183bd06afd657f4427bec04ded35" kind="function"><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga6dd9ffde5068ad5458d52af3e1c33617" kind="function"><name>operator==</name></member>
     </sectiondef>
     <briefdescription>
 <para>encodes a point inside a line segment using relative distance in [0,1] </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSegmPoint.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSegmPoint.h" bodystart="14" bodyend="46"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSegmPoint.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSegmPoint.h" bodystart="17" bodyend="49"/>
     <listofallmembers>
-      <member refid="structMR_1_1SegmPoint_1a5473b25338c8b8b27c9d38f2b6bb8f89" prot="public" virt="non-virtual"><scope>MR::SegmPoint</scope><name>a</name></member>
-      <member refid="structMR_1_1SegmPoint_1a1cd8a648f7ab27b5d40ff1c7b036ba2e" prot="public" virt="non-virtual"><scope>MR::SegmPoint</scope><name>eps</name></member>
-      <member refid="structMR_1_1SegmPoint_1a61b1906606755d16e699a890189ff3f8" prot="public" virt="non-virtual"><scope>MR::SegmPoint</scope><name>interpolate</name></member>
-      <member refid="structMR_1_1SegmPoint_1a4d16443dbd1634455999b2b461f8a720" prot="public" virt="non-virtual"><scope>MR::SegmPoint</scope><name>inVertex</name></member>
-      <member refid="structMR_1_1SegmPoint_1a87266fccf15374e6dc7587544c028d63" prot="public" virt="non-virtual"><scope>MR::SegmPoint</scope><name>operator T</name></member>
-      <member refid="structMR_1_1SegmPoint_1ad9eb72a4d4775622305ebd86274183c9" prot="public" virt="non-virtual"><scope>MR::SegmPoint</scope><name>operator T&amp;</name></member>
-      <member refid="structMR_1_1SegmPoint_1a58b2183bd06afd657f4427bec04ded35" prot="public" virt="non-virtual"><scope>MR::SegmPoint</scope><name>operator==</name></member>
-      <member refid="structMR_1_1SegmPoint_1a6dd9ffde5068ad5458d52af3e1c33617" prot="public" virt="non-virtual"><scope>MR::SegmPoint</scope><name>operator==</name></member>
-      <member refid="structMR_1_1SegmPoint_1aa9b427c351c923636029040aa207f718" prot="public" virt="non-virtual"><scope>MR::SegmPoint</scope><name>SegmPoint</name></member>
-      <member refid="structMR_1_1SegmPoint_1a852616535cc51c188a52c77b3f324a6e" prot="public" virt="non-virtual"><scope>MR::SegmPoint</scope><name>SegmPoint</name></member>
-      <member refid="structMR_1_1SegmPoint_1aa8dd11ef62ac9009f3b27a0dc5371bcc" prot="public" virt="non-virtual"><scope>MR::SegmPoint</scope><name>sym</name></member>
+      <member refid="group__GeneralGroup_1ga5473b25338c8b8b27c9d38f2b6bb8f89" prot="public" virt="non-virtual"><scope>MR::SegmPoint</scope><name>a</name></member>
+      <member refid="group__GeneralGroup_1ga1cd8a648f7ab27b5d40ff1c7b036ba2e" prot="public" virt="non-virtual"><scope>MR::SegmPoint</scope><name>eps</name></member>
+      <member refid="group__GeneralGroup_1ga61b1906606755d16e699a890189ff3f8" prot="public" virt="non-virtual"><scope>MR::SegmPoint</scope><name>interpolate</name></member>
+      <member refid="group__GeneralGroup_1ga4d16443dbd1634455999b2b461f8a720" prot="public" virt="non-virtual"><scope>MR::SegmPoint</scope><name>inVertex</name></member>
+      <member refid="group__GeneralGroup_1ga87266fccf15374e6dc7587544c028d63" prot="public" virt="non-virtual"><scope>MR::SegmPoint</scope><name>operator T</name></member>
+      <member refid="group__GeneralGroup_1gad9eb72a4d4775622305ebd86274183c9" prot="public" virt="non-virtual"><scope>MR::SegmPoint</scope><name>operator T&amp;</name></member>
+      <member refid="group__GeneralGroup_1ga58b2183bd06afd657f4427bec04ded35" prot="public" virt="non-virtual"><scope>MR::SegmPoint</scope><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga6dd9ffde5068ad5458d52af3e1c33617" prot="public" virt="non-virtual"><scope>MR::SegmPoint</scope><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1gaa9b427c351c923636029040aa207f718" prot="public" virt="non-virtual"><scope>MR::SegmPoint</scope><name>SegmPoint</name></member>
+      <member refid="group__GeneralGroup_1ga852616535cc51c188a52c77b3f324a6e" prot="public" virt="non-virtual"><scope>MR::SegmPoint</scope><name>SegmPoint</name></member>
+      <member refid="group__GeneralGroup_1gaa8dd11ef62ac9009f3b27a0dc5371bcc" prot="public" virt="non-virtual"><scope>MR::SegmPoint</scope><name>sym</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

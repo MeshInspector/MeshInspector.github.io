@@ -4,248 +4,42 @@
     <compoundname>MR::File</compoundname>
     <includes refid="MRFile_8h" local="no">MRFile.h</includes>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1File_1aee2e9cc3c9bd652293c52707b1f68f18" prot="private" static="no" mutable="no">
-        <type>FILE *</type>
-        <definition>FILE* MR::File::handle_</definition>
-        <argsstring></argsstring>
-        <name>handle_</name>
-        <qualifiedname>MR::File::handle_</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFile.h" line="38" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFile.h" bodystart="38" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaee2e9cc3c9bd652293c52707b1f68f18" kind="variable"><name>handle_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1File_1ae5ad252a0ab97ff1ee3a263e11199315" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::File::File</definition>
-        <argsstring>()=default</argsstring>
-        <name>File</name>
-        <qualifiedname>MR::File::File</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFile.h" line="18" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1File_1a2e42a0a77bdbaa0ff18b660ff364628a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::File::File</definition>
-        <argsstring>(const File &amp;)=delete</argsstring>
-        <name>File</name>
-        <qualifiedname>MR::File::File</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1File" kindref="compound">File</ref> &amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFile.h" line="19" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1File_1afa9f220f484070486fb77824fd5ec1e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::File::File</definition>
-        <argsstring>(File &amp;&amp;r)</argsstring>
-        <name>File</name>
-        <qualifiedname>MR::File::File</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1File" kindref="compound">File</ref> &amp;&amp;</type>
-          <declname>r</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFile.h" line="20" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFile.h" bodystart="20" bodyend="20"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1File_1addeda448870bf1838a2e6d53d2629d36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::File::File</definition>
-        <argsstring>(const std::filesystem::path &amp;filename, const char *mode)</argsstring>
-        <name>File</name>
-        <qualifiedname>MR::File::File</qualifiedname>
-        <param>
-          <type>const std::filesystem::path &amp;</type>
-          <declname>filename</declname>
-        </param>
-        <param>
-          <type>const char *</type>
-          <declname>mode</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFile.h" line="21" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFile.h" bodystart="21" bodyend="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1File_1a7b134234363eeb5577036a78da07975c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::File::~File</definition>
-        <argsstring>()</argsstring>
-        <name>~File</name>
-        <qualifiedname>MR::File::~File</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFile.h" line="22" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFile.h" bodystart="22" bodyend="22"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1File_1a0e75b59b59d0598284793e8509995bfe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMR_1_1File" kindref="compound">File</ref> &amp;</type>
-        <definition>File &amp; MR::File::operator=</definition>
-        <argsstring>(const File &amp;)=delete</argsstring>
-        <name>operator=</name>
-        <qualifiedname>MR::File::operator=</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1File" kindref="compound">File</ref> &amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFile.h" line="24" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1File_1a9ca34a6881807130cc132c87a37daf12" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="classMR_1_1File" kindref="compound">File</ref> &amp;</type>
-        <definition>File &amp; MR::File::operator=</definition>
-        <argsstring>(File &amp;&amp;r)</argsstring>
-        <name>operator=</name>
-        <qualifiedname>MR::File::operator=</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1File" kindref="compound">File</ref> &amp;&amp;</type>
-          <declname>r</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFile.h" line="25" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFile.h" bodystart="25" bodyend="25"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1File_1a94af7ee95f2e3b7d2f88bbdc71df69a3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::File::operator FILE *</definition>
-        <argsstring>() const</argsstring>
-        <name>operator FILE *</name>
-        <qualifiedname>MR::File::operator FILE *</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFile.h" line="27" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFile.h" bodystart="27" bodyend="27"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1File_1a20254d5bbf7df8159f1c75a0de21f819" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> FILE *</type>
-        <definition>MRMESH_API FILE * MR::File::open</definition>
-        <argsstring>(const std::filesystem::path &amp;filename, const char *mode)</argsstring>
-        <name>open</name>
-        <qualifiedname>MR::File::open</qualifiedname>
-        <param>
-          <type>const std::filesystem::path &amp;</type>
-          <declname>filename</declname>
-        </param>
-        <param>
-          <type>const char *</type>
-          <declname>mode</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFile.h" line="29" column="22"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1File_1a94bc33654229a7cd797fe79baac1faaa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::File::close</definition>
-        <argsstring>()</argsstring>
-        <name>close</name>
-        <qualifiedname>MR::File::close</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFile.h" line="30" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1File_1a46f305b6331088acfe8c1f8bc4076837" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::File::detach</definition>
-        <argsstring>()</argsstring>
-        <name>detach</name>
-        <qualifiedname>MR::File::detach</qualifiedname>
-        <briefdescription>
-<para>the user takes control over the handle </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFile.h" line="33" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFile.h" bodystart="33" bodyend="33"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1File_1a1da05c5461ae76cfb46367697be9f18e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::File::attach</definition>
-        <argsstring>(FILE *h)</argsstring>
-        <name>attach</name>
-        <qualifiedname>MR::File::attach</qualifiedname>
-        <param>
-          <type>FILE *</type>
-          <declname>h</declname>
-        </param>
-        <briefdescription>
-<para>gives control over the handle to this object </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFile.h" line="35" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFile.h" bodystart="35" bodyend="35"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gae5ad252a0ab97ff1ee3a263e11199315" kind="function"><name>File</name></member>
+      <member refid="group__GeneralGroup_1ga2e42a0a77bdbaa0ff18b660ff364628a" kind="function"><name>File</name></member>
+      <member refid="group__GeneralGroup_1gafa9f220f484070486fb77824fd5ec1e5" kind="function"><name>File</name></member>
+      <member refid="group__GeneralGroup_1gaddeda448870bf1838a2e6d53d2629d36" kind="function"><name>File</name></member>
+      <member refid="group__GeneralGroup_1ga7b134234363eeb5577036a78da07975c" kind="function"><name>~File</name></member>
+      <member refid="group__GeneralGroup_1ga0e75b59b59d0598284793e8509995bfe" kind="function"><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga9ca34a6881807130cc132c87a37daf12" kind="function"><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga94af7ee95f2e3b7d2f88bbdc71df69a3" kind="function"><name>operator FILE *</name></member>
+      <member refid="group__GeneralGroup_1ga20254d5bbf7df8159f1c75a0de21f819" kind="function"><name>open</name></member>
+      <member refid="group__GeneralGroup_1ga94bc33654229a7cd797fe79baac1faaa" kind="function"><name>close</name></member>
+      <member refid="group__GeneralGroup_1ga46f305b6331088acfe8c1f8bc4076837" kind="function"><name>detach</name></member>
+      <member refid="group__GeneralGroup_1ga1da05c5461ae76cfb46367697be9f18e" kind="function"><name>attach</name></member>
     </sectiondef>
     <briefdescription>
 <para>the class to open C FILE handle and automatically close it in the destructor </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFile.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFile.h" bodystart="16" bodyend="39"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFile.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFile.h" bodystart="19" bodyend="42"/>
     <listofallmembers>
-      <member refid="classMR_1_1File_1a1da05c5461ae76cfb46367697be9f18e" prot="public" virt="non-virtual"><scope>MR::File</scope><name>attach</name></member>
-      <member refid="classMR_1_1File_1a94bc33654229a7cd797fe79baac1faaa" prot="public" virt="non-virtual"><scope>MR::File</scope><name>close</name></member>
-      <member refid="classMR_1_1File_1a46f305b6331088acfe8c1f8bc4076837" prot="public" virt="non-virtual"><scope>MR::File</scope><name>detach</name></member>
-      <member refid="classMR_1_1File_1ae5ad252a0ab97ff1ee3a263e11199315" prot="public" virt="non-virtual"><scope>MR::File</scope><name>File</name></member>
-      <member refid="classMR_1_1File_1a2e42a0a77bdbaa0ff18b660ff364628a" prot="public" virt="non-virtual"><scope>MR::File</scope><name>File</name></member>
-      <member refid="classMR_1_1File_1afa9f220f484070486fb77824fd5ec1e5" prot="public" virt="non-virtual"><scope>MR::File</scope><name>File</name></member>
-      <member refid="classMR_1_1File_1addeda448870bf1838a2e6d53d2629d36" prot="public" virt="non-virtual"><scope>MR::File</scope><name>File</name></member>
-      <member refid="classMR_1_1File_1aee2e9cc3c9bd652293c52707b1f68f18" prot="private" virt="non-virtual"><scope>MR::File</scope><name>handle_</name></member>
-      <member refid="classMR_1_1File_1a20254d5bbf7df8159f1c75a0de21f819" prot="public" virt="non-virtual"><scope>MR::File</scope><name>open</name></member>
-      <member refid="classMR_1_1File_1a94af7ee95f2e3b7d2f88bbdc71df69a3" prot="public" virt="non-virtual"><scope>MR::File</scope><name>operator FILE *</name></member>
-      <member refid="classMR_1_1File_1a0e75b59b59d0598284793e8509995bfe" prot="public" virt="non-virtual"><scope>MR::File</scope><name>operator=</name></member>
-      <member refid="classMR_1_1File_1a9ca34a6881807130cc132c87a37daf12" prot="public" virt="non-virtual"><scope>MR::File</scope><name>operator=</name></member>
-      <member refid="classMR_1_1File_1a7b134234363eeb5577036a78da07975c" prot="public" virt="non-virtual"><scope>MR::File</scope><name>~File</name></member>
+      <member refid="group__GeneralGroup_1ga1da05c5461ae76cfb46367697be9f18e" prot="public" virt="non-virtual"><scope>MR::File</scope><name>attach</name></member>
+      <member refid="group__GeneralGroup_1ga94bc33654229a7cd797fe79baac1faaa" prot="public" virt="non-virtual"><scope>MR::File</scope><name>close</name></member>
+      <member refid="group__GeneralGroup_1ga46f305b6331088acfe8c1f8bc4076837" prot="public" virt="non-virtual"><scope>MR::File</scope><name>detach</name></member>
+      <member refid="group__GeneralGroup_1gae5ad252a0ab97ff1ee3a263e11199315" prot="public" virt="non-virtual"><scope>MR::File</scope><name>File</name></member>
+      <member refid="group__GeneralGroup_1ga2e42a0a77bdbaa0ff18b660ff364628a" prot="public" virt="non-virtual"><scope>MR::File</scope><name>File</name></member>
+      <member refid="group__GeneralGroup_1gafa9f220f484070486fb77824fd5ec1e5" prot="public" virt="non-virtual"><scope>MR::File</scope><name>File</name></member>
+      <member refid="group__GeneralGroup_1gaddeda448870bf1838a2e6d53d2629d36" prot="public" virt="non-virtual"><scope>MR::File</scope><name>File</name></member>
+      <member refid="group__GeneralGroup_1gaee2e9cc3c9bd652293c52707b1f68f18" prot="private" virt="non-virtual"><scope>MR::File</scope><name>handle_</name></member>
+      <member refid="group__GeneralGroup_1ga20254d5bbf7df8159f1c75a0de21f819" prot="public" virt="non-virtual"><scope>MR::File</scope><name>open</name></member>
+      <member refid="group__GeneralGroup_1ga94af7ee95f2e3b7d2f88bbdc71df69a3" prot="public" virt="non-virtual"><scope>MR::File</scope><name>operator FILE *</name></member>
+      <member refid="group__GeneralGroup_1ga0e75b59b59d0598284793e8509995bfe" prot="public" virt="non-virtual"><scope>MR::File</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga9ca34a6881807130cc132c87a37daf12" prot="public" virt="non-virtual"><scope>MR::File</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga7b134234363eeb5577036a78da07975c" prot="public" virt="non-virtual"><scope>MR::File</scope><name>~File</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

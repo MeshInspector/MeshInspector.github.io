@@ -3,44 +3,18 @@
   <compounddef id="structMR_1_1PickPointManager_1_1ConnectionHolder" kind="struct" language="C++" prot="private">
     <compoundname>MR::PickPointManager::ConnectionHolder</compoundname>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1PickPointManager_1_1ConnectionHolder_1a3a8d9ea3e08f8b49801f1611d4ef25d2" prot="public" static="no" mutable="no">
-        <type>boost::signals2::scoped_connection</type>
-        <definition>boost::signals2::scoped_connection MR::PickPointManager::ConnectionHolder::onMeshChanged</definition>
-        <argsstring></argsstring>
-        <name>onMeshChanged</name>
-        <qualifiedname>MR::PickPointManager::ConnectionHolder::onMeshChanged</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="215" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" bodystart="215" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1PickPointManager_1_1ConnectionHolder_1a22c0325308831c188403d0937c0d7574" prot="public" static="no" mutable="no">
-        <type>boost::signals2::scoped_connection</type>
-        <definition>boost::signals2::scoped_connection MR::PickPointManager::ConnectionHolder::onPointsChanged</definition>
-        <argsstring></argsstring>
-        <name>onPointsChanged</name>
-        <qualifiedname>MR::PickPointManager::ConnectionHolder::onPointsChanged</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="216" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" bodystart="216" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga3a8d9ea3e08f8b49801f1611d4ef25d2" kind="variable"><name>onMeshChanged</name></member>
+      <member refid="group__GeneralGroup_1ga22c0325308831c188403d0937c0d7574" kind="variable"><name>onPointsChanged</name></member>
     </sectiondef>
     <briefdescription>
 <para>for each object with pick points, holds connections to mesh/point changed event </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="213" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" bodystart="214" bodyend="217"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="216" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" bodystart="217" bodyend="220"/>
     <listofallmembers>
-      <member refid="structMR_1_1PickPointManager_1_1ConnectionHolder_1a3a8d9ea3e08f8b49801f1611d4ef25d2" prot="public" virt="non-virtual"><scope>MR::PickPointManager::ConnectionHolder</scope><name>onMeshChanged</name></member>
-      <member refid="structMR_1_1PickPointManager_1_1ConnectionHolder_1a22c0325308831c188403d0937c0d7574" prot="public" virt="non-virtual"><scope>MR::PickPointManager::ConnectionHolder</scope><name>onPointsChanged</name></member>
+      <member refid="group__GeneralGroup_1ga3a8d9ea3e08f8b49801f1611d4ef25d2" prot="public" virt="non-virtual"><scope>MR::PickPointManager::ConnectionHolder</scope><name>onMeshChanged</name></member>
+      <member refid="group__GeneralGroup_1ga22c0325308831c188403d0937c0d7574" prot="public" virt="non-virtual"><scope>MR::PickPointManager::ConnectionHolder</scope><name>onPointsChanged</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

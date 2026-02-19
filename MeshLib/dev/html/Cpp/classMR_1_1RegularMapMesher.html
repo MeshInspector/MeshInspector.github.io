@@ -148,7 +148,7 @@ $(function(){initNavTree('classMR_1_1RegularMapMesher.html',''); initResizable(t
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classMR_1_1RegularMapMesher-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">MR::RegularMapMesher Class Reference<div class="ingroups"><a class="el" href="group__PointCloudGroup.html">PointCloud</a></div></div></div>
+  <div class="headertitle"><div class="title">MR::RegularMapMesher Class Reference<div class="ingroups"><a class="el" href="group__GeneralGroup.html">GeneralGroup</a> &#124; <a class="el" href="group__PointCloudGroup.html">PointCloud</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -159,140 +159,26 @@ $(function(){initNavTree('classMR_1_1RegularMapMesher.html',''); initResizable(t
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a9ed2cde9e77dce74ecb24b16eb4db785" id="r_a9ed2cde9e77dce74ecb24b16eb4db785"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ed2cde9e77dce74ecb24b16eb4db785">setSurfacePC</a> (const std::shared_ptr&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt; &amp;surfacePC)</td></tr>
-<tr class="memdesc:a9ed2cde9e77dce74ecb24b16eb4db785"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets surface Point Cloud.  <br /></td></tr>
-<tr class="separator:a9ed2cde9e77dce74ecb24b16eb4db785"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8556a43fd905bbb2cba1cb5bb5743739" id="r_a8556a43fd905bbb2cba1cb5bb5743739"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8556a43fd905bbb2cba1cb5bb5743739">setDirectionsPC</a> (const std::shared_ptr&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt; &amp;directionsPC)</td></tr>
-<tr class="memdesc:a8556a43fd905bbb2cba1cb5bb5743739"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets directions Point Cloud.  <br /></td></tr>
-<tr class="separator:a8556a43fd905bbb2cba1cb5bb5743739"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a351acfb608cafb88929a69ba41f63bfa" id="r_a351acfb608cafb88929a69ba41f63bfa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a351acfb608cafb88929a69ba41f63bfa">loadDistances</a> (int <a class="el" href="group__BoxGroup.html#ga03ccb991cf0d9c433fd5a054a5d026af">width</a>, int <a class="el" href="group__BoxGroup.html#ga61ed695588449d6c852c0bbe38b273ae">height</a>, const std::filesystem::path &amp;path)</td></tr>
-<tr class="memdesc:a351acfb608cafb88929a69ba41f63bfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads distances form distances file (1/distance)  <br /></td></tr>
-<tr class="separator:a351acfb608cafb88929a69ba41f63bfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a48f6cd19965602a3fb9f4669c22e3c14" id="r_a48f6cd19965602a3fb9f4669c22e3c14"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48f6cd19965602a3fb9f4669c22e3c14">setDistances</a> (int <a class="el" href="group__BoxGroup.html#ga03ccb991cf0d9c433fd5a054a5d026af">width</a>, int <a class="el" href="group__BoxGroup.html#ga61ed695588449d6c852c0bbe38b273ae">height</a>, const std::vector&lt; float &gt; &amp;distances)</td></tr>
-<tr class="memdesc:a48f6cd19965602a3fb9f4669c22e3c14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets distances.  <br /></td></tr>
-<tr class="separator:a48f6cd19965602a3fb9f4669c22e3c14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acdde192d67f89fe363a158f3ee13f499" id="r_acdde192d67f89fe363a158f3ee13f499"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acdde192d67f89fe363a158f3ee13f499">createMesh</a> () const</td></tr>
-<tr class="memdesc:acdde192d67f89fe363a158f3ee13f499"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates mesh if all components were successfully loaded.  <br /></td></tr>
-<tr class="separator:acdde192d67f89fe363a158f3ee13f499"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9ed2cde9e77dce74ecb24b16eb4db785" id="r_ga9ed2cde9e77dce74ecb24b16eb4db785"><td class="memItemLeft" align="right" valign="top">MRMESH_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga9ed2cde9e77dce74ecb24b16eb4db785">setSurfacePC</a> (const std::shared_ptr&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt; &amp;surfacePC)</td></tr>
+<tr class="memdesc:ga9ed2cde9e77dce74ecb24b16eb4db785"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets surface Point Cloud.  <br /></td></tr>
+<tr class="separator:ga9ed2cde9e77dce74ecb24b16eb4db785"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8556a43fd905bbb2cba1cb5bb5743739" id="r_ga8556a43fd905bbb2cba1cb5bb5743739"><td class="memItemLeft" align="right" valign="top">MRMESH_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga8556a43fd905bbb2cba1cb5bb5743739">setDirectionsPC</a> (const std::shared_ptr&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt; &amp;directionsPC)</td></tr>
+<tr class="memdesc:ga8556a43fd905bbb2cba1cb5bb5743739"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets directions Point Cloud.  <br /></td></tr>
+<tr class="separator:ga8556a43fd905bbb2cba1cb5bb5743739"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga351acfb608cafb88929a69ba41f63bfa" id="r_ga351acfb608cafb88929a69ba41f63bfa"><td class="memItemLeft" align="right" valign="top">MRMESH_API <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga351acfb608cafb88929a69ba41f63bfa">loadDistances</a> (int <a class="el" href="group__BoxGroup.html#ga03ccb991cf0d9c433fd5a054a5d026af">width</a>, int <a class="el" href="group__BoxGroup.html#ga61ed695588449d6c852c0bbe38b273ae">height</a>, const std::filesystem::path &amp;path)</td></tr>
+<tr class="memdesc:ga351acfb608cafb88929a69ba41f63bfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads distances form distances file (1/distance)  <br /></td></tr>
+<tr class="separator:ga351acfb608cafb88929a69ba41f63bfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga48f6cd19965602a3fb9f4669c22e3c14" id="r_ga48f6cd19965602a3fb9f4669c22e3c14"><td class="memItemLeft" align="right" valign="top">MRMESH_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga48f6cd19965602a3fb9f4669c22e3c14">setDistances</a> (int <a class="el" href="group__BoxGroup.html#ga03ccb991cf0d9c433fd5a054a5d026af">width</a>, int <a class="el" href="group__BoxGroup.html#ga61ed695588449d6c852c0bbe38b273ae">height</a>, const std::vector&lt; float &gt; &amp;distances)</td></tr>
+<tr class="memdesc:ga48f6cd19965602a3fb9f4669c22e3c14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets distances.  <br /></td></tr>
+<tr class="separator:ga48f6cd19965602a3fb9f4669c22e3c14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacdde192d67f89fe363a158f3ee13f499" id="r_gacdde192d67f89fe363a158f3ee13f499"><td class="memItemLeft" align="right" valign="top">MRMESH_API <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gacdde192d67f89fe363a158f3ee13f499">createMesh</a> () const</td></tr>
+<tr class="memdesc:gacdde192d67f89fe363a158f3ee13f499"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates mesh if all components were successfully loaded.  <br /></td></tr>
+<tr class="separator:gacdde192d67f89fe363a158f3ee13f499"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class for making mesh from regular distance map. </p>
 <p>distance for each lattice of map is defined as point on ray from surface point cloud to direction point cloud, with length equal to 1/distance from distances file (if distance in file == 0 ray had no point) </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="acdde192d67f89fe363a158f3ee13f499" name="acdde192d67f89fe363a158f3ee13f499"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acdde192d67f89fe363a158f3ee13f499">&#9670;&#160;</a></span>createMesh()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; MR::RegularMapMesher::createMesh </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Creates mesh if all components were successfully loaded. </p>
-
-</div>
-</div>
-<a id="a351acfb608cafb88929a69ba41f63bfa" name="a351acfb608cafb88929a69ba41f63bfa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a351acfb608cafb88929a69ba41f63bfa">&#9670;&#160;</a></span>loadDistances()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::RegularMapMesher::loadDistances </td>
-          <td>(</td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>width</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>height</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Loads distances form distances file (1/distance) </p>
-
-</div>
-</div>
-<a id="a8556a43fd905bbb2cba1cb5bb5743739" name="a8556a43fd905bbb2cba1cb5bb5743739"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8556a43fd905bbb2cba1cb5bb5743739">&#9670;&#160;</a></span>setDirectionsPC()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::RegularMapMesher::setDirectionsPC </td>
-          <td>(</td>
-          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>directionsPC</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Sets directions Point Cloud. </p>
-
-</div>
-</div>
-<a id="a48f6cd19965602a3fb9f4669c22e3c14" name="a48f6cd19965602a3fb9f4669c22e3c14"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a48f6cd19965602a3fb9f4669c22e3c14">&#9670;&#160;</a></span>setDistances()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::RegularMapMesher::setDistances </td>
-          <td>(</td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>width</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>height</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::vector&lt; float &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>distances</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Sets distances. </p>
-
-</div>
-</div>
-<a id="a9ed2cde9e77dce74ecb24b16eb4db785" name="a9ed2cde9e77dce74ecb24b16eb4db785"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9ed2cde9e77dce74ecb24b16eb4db785">&#9670;&#160;</a></span>setSurfacePC()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::RegularMapMesher::setSurfacePC </td>
-          <td>(</td>
-          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>surfacePC</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Sets surface Point Cloud. </p>
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+</div><hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="MRRegularMapMesher_8h_source.html">MRRegularMapMesher.h</a></li>
 </ul>
 </div><!-- contents -->

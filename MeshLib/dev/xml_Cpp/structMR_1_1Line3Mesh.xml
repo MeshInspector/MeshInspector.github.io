@@ -10,7 +10,7 @@
     </templateparamlist>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1Line3Mesh_1a0de1e3305b0aa64219ac2de3c2abb2f3" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1a7eef389e2e2dd24fc59576c7ad184eb5" kindref="member">Line3</ref>&lt; T &gt;</type>
+        <type>Line3&lt; T &gt;</type>
         <definition>Line3&lt;T&gt; MR::Line3Mesh&lt; T &gt;::line</definition>
         <argsstring></argsstring>
         <name>line</name>
@@ -94,16 +94,16 @@
     <detaileddescription>
     </detaileddescription>
     <collaborationgraph>
-      <node id="5">
+      <node id="4">
         <label>MR::AABBTree</label>
         <link refid="classMR_1_1AABBTree"/>
-        <childnode refid="6" relation="public-inheritance">
+        <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="6">
+      <node id="5">
         <label>MR::AABBTreeBase&lt; FaceTreeTraits3 &gt;</label>
         <link refid="classMR_1_1AABBTreeBase"/>
-        <childnode refid="7" relation="usage">
+        <childnode refid="6" relation="usage">
           <edgelabel>nodes_</edgelabel>
         </childnode>
       </node>
@@ -111,31 +111,24 @@
         <label>MR::Line3Mesh&lt; T &gt;</label>
         <link refid="structMR_1_1Line3Mesh"/>
         <childnode refid="2" relation="usage">
-          <edgelabel>line</edgelabel>
-        </childnode>
-        <childnode refid="3" relation="usage">
           <edgelabel>mesh</edgelabel>
         </childnode>
-        <childnode refid="5" relation="usage">
+        <childnode refid="4" relation="usage">
           <edgelabel>tree</edgelabel>
         </childnode>
       </node>
       <node id="2">
-        <label>MR::Line&lt; T &gt;</label>
-        <link refid="structMR_1_1Line"/>
-      </node>
-      <node id="3">
         <label>MR::Mesh</label>
         <link refid="structMR_1_1Mesh"/>
-        <childnode refid="4" relation="usage">
+        <childnode refid="3" relation="usage">
           <edgelabel>topology</edgelabel>
         </childnode>
       </node>
-      <node id="4">
+      <node id="3">
         <label>MR::MeshTopology</label>
         <link refid="classMR_1_1MeshTopology"/>
       </node>
-      <node id="7">
+      <node id="6">
         <label>MR::Vector&lt; Node, NodeId &gt;</label>
         <link refid="classMR_1_1Vector"/>
       </node>

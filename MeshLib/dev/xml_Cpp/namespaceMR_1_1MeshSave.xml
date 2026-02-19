@@ -9,7 +9,7 @@
     <innerclass refid="structMR_1_1MeshSave_1_1NamedXfMesh" prot="public">MR::MeshSave::NamedXfMesh</innerclass>
     <sectiondef kind="typedef">
       <memberdef kind="typedef" id="namespaceMR_1_1MeshSave_1a44ae097f41a9722d0110ffb971ba7ce0" prot="public" static="no">
-        <type><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;(*)(const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &amp;, const std::filesystem::path &amp;, const <ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref> &amp;)</type>
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;(*)(const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &amp;, const std::filesystem::path &amp;, const <ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref> &amp;)</type>
         <definition>using MR::MeshSave::MeshFileSaver =  Expected&lt;void&gt;( * )( const Mesh&amp;, const std::filesystem::path&amp;, const SaveSettings&amp; )</definition>
         <argsstring></argsstring>
         <name>MeshFileSaver</name>
@@ -23,7 +23,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="168" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="168" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMR_1_1MeshSave_1a7e16b086c414a0768e241ea5f21ca9b6" prot="public" static="no">
-        <type><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;(*)(const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &amp;, std::ostream &amp;, const <ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref> &amp;)</type>
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;(*)(const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &amp;, std::ostream &amp;, const <ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref> &amp;)</type>
         <definition>using MR::MeshSave::MeshStreamSaver =  Expected&lt;void&gt;( * )( const Mesh&amp;, std::ostream&amp;, const SaveSettings&amp; )</definition>
         <argsstring></argsstring>
         <name>MeshStreamSaver</name>
@@ -38,113 +38,10 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
-      <memberdef kind="function" id="namespaceMR_1_1MeshSave_1a22395c6fe76cfa33bd45c5498865c20e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRIOEXTRAS_API <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
-        <definition>MRIOEXTRAS_API Expected&lt; void &gt; MR::MeshSave::toCtm</definition>
-        <argsstring>(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const CtmSaveOptions &amp;options)</argsstring>
-        <name>toCtm</name>
-        <qualifiedname>MR::MeshSave::toCtm</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &amp;</type>
-          <declname>mesh</declname>
-        </param>
-        <param>
-          <type>const std::filesystem::path &amp;</type>
-          <declname>file</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1MeshSave_1_1CtmSaveOptions" kindref="compound">CtmSaveOptions</ref> &amp;</type>
-          <declname>options</declname>
-        </param>
-        <briefdescription>
-<para>saves in .ctm file </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRCtm.h" line="48" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRCtm.h" declline="48" declcolumn="25"/>
-      </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1MeshSave_1a90c18563acc619bd464bf95f21a400fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRIOEXTRAS_API <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
-        <definition>MRIOEXTRAS_API Expected&lt; void &gt; MR::MeshSave::toCtm</definition>
-        <argsstring>(const Mesh &amp;mesh, std::ostream &amp;out, const CtmSaveOptions &amp;options)</argsstring>
-        <name>toCtm</name>
-        <qualifiedname>MR::MeshSave::toCtm</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &amp;</type>
-          <declname>mesh</declname>
-        </param>
-        <param>
-          <type>std::ostream &amp;</type>
-          <declname>out</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1MeshSave_1_1CtmSaveOptions" kindref="compound">CtmSaveOptions</ref> &amp;</type>
-          <declname>options</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRCtm.h" line="49" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRCtm.h" declline="49" declcolumn="25"/>
-      </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1MeshSave_1a4b1c623e42018fe7527467c88152ec50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRIOEXTRAS_API <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
-        <definition>MRIOEXTRAS_API Expected&lt; void &gt; MR::MeshSave::toCtm</definition>
-        <argsstring>(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</argsstring>
-        <name>toCtm</name>
-        <qualifiedname>MR::MeshSave::toCtm</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &amp;</type>
-          <declname>mesh</declname>
-        </param>
-        <param>
-          <type>const std::filesystem::path &amp;</type>
-          <declname>file</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref> &amp;</type>
-          <declname>settings</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRCtm.h" line="50" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRCtm.h" declline="50" declcolumn="25"/>
-      </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1MeshSave_1aaff4727d142915f75818e3b082a90249" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRIOEXTRAS_API <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
-        <definition>MRIOEXTRAS_API Expected&lt; void &gt; MR::MeshSave::toCtm</definition>
-        <argsstring>(const Mesh &amp;mesh, std::ostream &amp;out, const SaveSettings &amp;settings={})</argsstring>
-        <name>toCtm</name>
-        <qualifiedname>MR::MeshSave::toCtm</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &amp;</type>
-          <declname>mesh</declname>
-        </param>
-        <param>
-          <type>std::ostream &amp;</type>
-          <declname>out</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref> &amp;</type>
-          <declname>settings</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRCtm.h" line="51" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRCtm.h" declline="51" declcolumn="25"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga22395c6fe76cfa33bd45c5498865c20e" kind="function"><name>toCtm</name></member>
+      <member refid="group__GeneralGroup_1ga90c18563acc619bd464bf95f21a400fb" kind="function"><name>toCtm</name></member>
+      <member refid="group__GeneralGroup_1ga4b1c623e42018fe7527467c88152ec50" kind="function"><name>toCtm</name></member>
+      <member refid="group__GeneralGroup_1gaaff4727d142915f75818e3b082a90249" kind="function"><name>toCtm</name></member>
       <member refid="group__MeshSaveGroup_1ga62df62b4aee4263089fc3ef0f91c7405" kind="function"><name>toMrmesh</name></member>
       <member refid="group__MeshSaveGroup_1ga2aee8eeae26cae66b90a61ce4f15aea5" kind="function"><name>toMrmesh</name></member>
       <member refid="group__MeshSaveGroup_1ga307b06c1c3ead50a2d460fa37bc1b409" kind="function"><name>toOff</name></member>
@@ -172,6 +69,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRCtm.h" line="26" column="1"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRCtm.h" line="29" column="1"/>
   </compounddef>
 </doxygen>

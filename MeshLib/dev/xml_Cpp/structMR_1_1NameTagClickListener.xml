@@ -5,88 +5,12 @@
     <basecompoundref refid="structMR_1_1ConnectionHolder" prot="public" virt="non-virtual">MR::ConnectionHolder</basecompoundref>
     <includes refid="MRImGuiMenuListeners_8h" local="no">MRImGuiMenuListeners.h</includes>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1NameTagClickListener_1aa3cab6f28416e27d7628154e93009e31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::NameTagClickListener::MR_ADD_CTOR_DELETE_MOVE</definition>
-        <argsstring>(NameTagClickListener)</argsstring>
-        <name>MR_ADD_CTOR_DELETE_MOVE</name>
-        <qualifiedname>MR::NameTagClickListener::MR_ADD_CTOR_DELETE_MOVE</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1NameTagClickListener" kindref="compound">NameTagClickListener</ref></type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMenuListeners.h" line="13" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1NameTagClickListener_1a4a8c57e5f08a369097b9f8d66a0cb097" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type></type>
-        <definition>virtual MR::NameTagClickListener::~NameTagClickListener</definition>
-        <argsstring>()=default</argsstring>
-        <name>~NameTagClickListener</name>
-        <qualifiedname>MR::NameTagClickListener::~NameTagClickListener</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMenuListeners.h" line="14" column="13"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1NameTagClickListener_1a4c87ad9f9d5bde9a4037d25bdc190cba" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>virtual MRVIEWER_API void MR::NameTagClickListener::connect</definition>
-        <argsstring>(Viewer *viewer, int group, boost::signals2::connect_position pos) override</argsstring>
-        <name>connect</name>
-        <qualifiedname>MR::NameTagClickListener::connect</qualifiedname>
-        <reimplements refid="structMR_1_1IConnectable_1a2212095d3996892cff578320ac2ce746">connect</reimplements>
-        <param>
-          <type><ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref> *</type>
-          <declname>viewer</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>group</declname>
-        </param>
-        <param>
-          <type>boost::signals2::connect_position</type>
-          <declname>pos</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMenuListeners.h" line="15" column="31"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaa3cab6f28416e27d7628154e93009e31" kind="function"><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1ga4a8c57e5f08a369097b9f8d66a0cb097" kind="function"><name>~NameTagClickListener</name></member>
+      <member refid="group__GeneralGroup_1ga4c87ad9f9d5bde9a4037d25bdc190cba" kind="function"><name>connect</name></member>
     </sectiondef>
     <sectiondef kind="protected-func">
-      <memberdef kind="function" id="structMR_1_1NameTagClickListener_1a241455464a68ef410af14f445c6dad6b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::NameTagClickListener::onNameTagClicked_</definition>
-        <argsstring>(Object &amp;object, ImGuiMenu::NameTagSelectionMode mode)=0</argsstring>
-        <name>onNameTagClicked_</name>
-        <qualifiedname>MR::NameTagClickListener::onNameTagClicked_</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
-          <declname>object</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1ImGuiMenu_1acf12d9bbd08c5c2a1b528461e7294587" kindref="member">ImGuiMenu::NameTagSelectionMode</ref></type>
-          <declname>mode</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMenuListeners.h" line="17" column="18"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga241455464a68ef410af14f445c6dad6b" kind="function"><name>onNameTagClicked_</name></member>
     </sectiondef>
     <briefdescription>
 <para>A helper base class to subscribe to <computeroutput>ImGuiMenu::manuallySelectObjectSignal</computeroutput>. </para>
@@ -129,16 +53,16 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMenuListeners.h" line="11" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMenuListeners.h" bodystart="12" bodyend="18"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMenuListeners.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMenuListeners.h" bodystart="15" bodyend="21"/>
     <listofallmembers>
-      <member refid="structMR_1_1NameTagClickListener_1a4c87ad9f9d5bde9a4037d25bdc190cba" prot="public" virt="virtual"><scope>MR::NameTagClickListener</scope><name>connect</name></member>
-      <member refid="structMR_1_1ConnectionHolder_1a56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::NameTagClickListener</scope><name>connection_</name></member>
-      <member refid="structMR_1_1ConnectionHolder_1afe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::NameTagClickListener</scope><name>disconnect</name></member>
-      <member refid="structMR_1_1NameTagClickListener_1aa3cab6f28416e27d7628154e93009e31" prot="public" virt="non-virtual"><scope>MR::NameTagClickListener</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
-      <member refid="structMR_1_1NameTagClickListener_1a241455464a68ef410af14f445c6dad6b" prot="protected" virt="pure-virtual"><scope>MR::NameTagClickListener</scope><name>onNameTagClicked_</name></member>
-      <member refid="structMR_1_1ConnectionHolder_1a99ffc44dd73f73e2e907b7ab5bb38aaf" prot="public" virt="virtual"><scope>MR::NameTagClickListener</scope><name>~ConnectionHolder</name></member>
-      <member refid="structMR_1_1IConnectable_1a28c07761e682b80befbb2d5f91bdd38c" prot="public" virt="virtual"><scope>MR::NameTagClickListener</scope><name>~IConnectable</name></member>
-      <member refid="structMR_1_1NameTagClickListener_1a4a8c57e5f08a369097b9f8d66a0cb097" prot="public" virt="virtual"><scope>MR::NameTagClickListener</scope><name>~NameTagClickListener</name></member>
+      <member refid="group__GeneralGroup_1ga4c87ad9f9d5bde9a4037d25bdc190cba" prot="public" virt="virtual"><scope>MR::NameTagClickListener</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1ga56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::NameTagClickListener</scope><name>connection_</name></member>
+      <member refid="group__GeneralGroup_1gafe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::NameTagClickListener</scope><name>disconnect</name></member>
+      <member refid="group__GeneralGroup_1gaa3cab6f28416e27d7628154e93009e31" prot="public" virt="non-virtual"><scope>MR::NameTagClickListener</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1ga241455464a68ef410af14f445c6dad6b" prot="protected" virt="pure-virtual"><scope>MR::NameTagClickListener</scope><name>onNameTagClicked_</name></member>
+      <member refid="group__GeneralGroup_1ga99ffc44dd73f73e2e907b7ab5bb38aaf" prot="public" virt="virtual"><scope>MR::NameTagClickListener</scope><name>~ConnectionHolder</name></member>
+      <member refid="group__GeneralGroup_1ga28c07761e682b80befbb2d5f91bdd38c" prot="public" virt="virtual"><scope>MR::NameTagClickListener</scope><name>~IConnectable</name></member>
+      <member refid="group__GeneralGroup_1ga4a8c57e5f08a369097b9f8d66a0cb097" prot="public" virt="virtual"><scope>MR::NameTagClickListener</scope><name>~NameTagClickListener</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

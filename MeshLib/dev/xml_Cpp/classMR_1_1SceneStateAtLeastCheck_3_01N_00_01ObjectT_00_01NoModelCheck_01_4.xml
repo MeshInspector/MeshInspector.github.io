@@ -15,39 +15,8 @@
       </param>
     </templateparamlist>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1SceneStateAtLeastCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4_1a7a8e1ee90b1f6cd47ff73d47a6320eb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type></type>
-        <definition>virtual MR::SceneStateAtLeastCheck&lt; N, ObjectT, NoModelCheck &gt;::~SceneStateAtLeastCheck</definition>
-        <argsstring>()=default</argsstring>
-        <name>~SceneStateAtLeastCheck</name>
-        <qualifiedname>MR::SceneStateAtLeastCheck&lt; N, ObjectT, NoModelCheck &gt;::~SceneStateAtLeastCheck</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" line="146" column="13"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SceneStateAtLeastCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4_1ada07dbc40e00184718f0de785d6500e8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>std::string</type>
-        <definition>virtual std::string MR::SceneStateAtLeastCheck&lt; N, ObjectT, NoModelCheck &gt;::isAvailable</definition>
-        <argsstring>(const std::vector&lt; std::shared_ptr&lt; const Object &gt; &gt; &amp;objs) const override</argsstring>
-        <name>isAvailable</name>
-        <qualifiedname>MR::SceneStateAtLeastCheck&lt; N, ObjectT, NoModelCheck &gt;::isAvailable</qualifiedname>
-        <reimplements refid="classMR_1_1ISceneStateCheck_1adedf10c80ddfebcb456559fa828065c0">isAvailable</reimplements>
-        <param>
-          <type>const std::vector&lt; std::shared_ptr&lt; const <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt; &amp;</type>
-        </param>
-        <briefdescription>
-<para>return empty string if all requirements are satisfied, otherwise return first unsatisfied requirement </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" line="147" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" bodystart="147" bodyend="150"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga7a8e1ee90b1f6cd47ff73d47a6320eb9" kind="function"><name>~SceneStateAtLeastCheck</name></member>
+      <member refid="group__GeneralGroup_1gada07dbc40e00184718f0de785d6500e8" kind="function"><name>isAvailable</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -77,11 +46,11 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" line="143" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" bodystart="144" bodyend="151"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" line="146" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" bodystart="147" bodyend="154"/>
     <listofallmembers>
-      <member refid="classMR_1_1SceneStateAtLeastCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4_1ada07dbc40e00184718f0de785d6500e8" prot="public" virt="virtual"><scope>MR::SceneStateAtLeastCheck&lt; N, ObjectT, NoModelCheck &gt;</scope><name>isAvailable</name></member>
-      <member refid="classMR_1_1ISceneStateCheck_1ad6d7bd5bc97dd4a629de5e0a33af3afe" prot="public" virt="virtual"><scope>MR::SceneStateAtLeastCheck&lt; N, ObjectT, NoModelCheck &gt;</scope><name>~ISceneStateCheck</name></member>
-      <member refid="classMR_1_1SceneStateAtLeastCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4_1a7a8e1ee90b1f6cd47ff73d47a6320eb9" prot="public" virt="virtual"><scope>MR::SceneStateAtLeastCheck&lt; N, ObjectT, NoModelCheck &gt;</scope><name>~SceneStateAtLeastCheck</name></member>
+      <member refid="group__GeneralGroup_1gada07dbc40e00184718f0de785d6500e8" prot="public" virt="virtual"><scope>MR::SceneStateAtLeastCheck&lt; N, ObjectT, NoModelCheck &gt;</scope><name>isAvailable</name></member>
+      <member refid="group__GeneralGroup_1gad6d7bd5bc97dd4a629de5e0a33af3afe" prot="public" virt="virtual"><scope>MR::SceneStateAtLeastCheck&lt; N, ObjectT, NoModelCheck &gt;</scope><name>~ISceneStateCheck</name></member>
+      <member refid="group__GeneralGroup_1ga7a8e1ee90b1f6cd47ff73d47a6320eb9" prot="public" virt="virtual"><scope>MR::SceneStateAtLeastCheck&lt; N, ObjectT, NoModelCheck &gt;</scope><name>~SceneStateAtLeastCheck</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

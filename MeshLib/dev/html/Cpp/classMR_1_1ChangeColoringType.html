@@ -150,7 +150,7 @@ $(function(){initNavTree('classMR_1_1ChangeColoringType.html',''); initResizable
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classMR_1_1ChangeColoringType-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">MR::ChangeColoringType Class Reference<div class="ingroups"><a class="el" href="group__HistoryGroup.html">History group</a></div></div></div>
+  <div class="headertitle"><div class="title">MR::ChangeColoringType Class Reference<div class="ingroups"><a class="el" href="group__GeneralGroup.html">GeneralGroup</a> &#124; <a class="el" href="group__HistoryGroup.html">History group</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -169,236 +169,42 @@ $(function(){initNavTree('classMR_1_1ChangeColoringType.html',''); initResizable
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a35b932ef1ea3756de261b79a1a7a7677" id="r_a35b932ef1ea3756de261b79a1a7a7677"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35b932ef1ea3756de261b79a1a7a7677">Obj</a> = <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a></td></tr>
-<tr class="separator:a35b932ef1ea3756de261b79a1a7a7677"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga35b932ef1ea3756de261b79a1a7a7677" id="r_ga35b932ef1ea3756de261b79a1a7a7677"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga35b932ef1ea3756de261b79a1a7a7677">Obj</a> = <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a></td></tr>
+<tr class="separator:ga35b932ef1ea3756de261b79a1a7a7677"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_types_classMR_1_1HistoryAction"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_types_classMR_1_1HistoryAction')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classMR_1_1HistoryAction.html">MR::HistoryAction</a></td></tr>
-<tr class="memitem:ac16eb31dd26d35cfc18bac8a05983aa7 inherit pub_types_classMR_1_1HistoryAction" id="r_ac16eb31dd26d35cfc18bac8a05983aa7"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">Type</a> { <a class="el" href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7a1cdc076b28f70afac5fcedadf99fa119">Undo</a>
-, <a class="el" href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7a5afeaba074ef570dc720caaa855d49f6">Redo</a>
+<tr class="memitem:gac16eb31dd26d35cfc18bac8a05983aa7 inherit pub_types_classMR_1_1HistoryAction" id="r_gac16eb31dd26d35cfc18bac8a05983aa7"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gac16eb31dd26d35cfc18bac8a05983aa7">Type</a> { <a class="el" href="group__GeneralGroup.html#ggac16eb31dd26d35cfc18bac8a05983aa7a1cdc076b28f70afac5fcedadf99fa119">Type::Undo</a>
+, <a class="el" href="group__GeneralGroup.html#ggac16eb31dd26d35cfc18bac8a05983aa7a5afeaba074ef570dc720caaa855d49f6">Type::Redo</a>
  }</td></tr>
-<tr class="separator:ac16eb31dd26d35cfc18bac8a05983aa7 inherit pub_types_classMR_1_1HistoryAction"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:gac16eb31dd26d35cfc18bac8a05983aa7 inherit pub_types_classMR_1_1HistoryAction"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a6129a4154bb8fde03e2dfc8d0e310ad2" id="r_a6129a4154bb8fde03e2dfc8d0e310ad2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6129a4154bb8fde03e2dfc8d0e310ad2">ChangeColoringType</a> (const std::string &amp;<a class="el" href="#a531d559082c32567d685d888d4602ddf">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &amp;obj)</td></tr>
-<tr class="memdesc:a6129a4154bb8fde03e2dfc8d0e310ad2"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's coloring type before making any changes in it  <br /></td></tr>
-<tr class="separator:a6129a4154bb8fde03e2dfc8d0e310ad2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5926f12f23460add64c9ab4b0859f90b" id="r_a5926f12f23460add64c9ab4b0859f90b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5926f12f23460add64c9ab4b0859f90b">ChangeColoringType</a> (const std::string &amp;<a class="el" href="#a531d559082c32567d685d888d4602ddf">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &amp;obj, <a class="el" href="namespaceMR.html#a270a25a8ef13e07e59e7070834efc33f">ColoringType</a> newType)</td></tr>
-<tr class="memdesc:a5926f12f23460add64c9ab4b0859f90b"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's coloring type and immediate set new value  <br /></td></tr>
-<tr class="separator:a5926f12f23460add64c9ab4b0859f90b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a531d559082c32567d685d888d4602ddf" id="r_a531d559082c32567d685d888d4602ddf"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a531d559082c32567d685d888d4602ddf">name</a> () const override</td></tr>
-<tr class="separator:a531d559082c32567d685d888d4602ddf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae42944016a4f6dd2c76e964cfb353bf4" id="r_ae42944016a4f6dd2c76e964cfb353bf4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae42944016a4f6dd2c76e964cfb353bf4">action</a> (<a class="el" href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">HistoryAction::Type</a>) override</td></tr>
-<tr class="memdesc:ae42944016a4f6dd2c76e964cfb353bf4"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is called on history action (undo, redo, etc.)  <br /></td></tr>
-<tr class="separator:ae42944016a4f6dd2c76e964cfb353bf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c9d248392f35a9e929ab4dd107ff7d2" id="r_a4c9d248392f35a9e929ab4dd107ff7d2"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c9d248392f35a9e929ab4dd107ff7d2">heapBytes</a> () const override</td></tr>
-<tr class="memdesc:a4c9d248392f35a9e929ab4dd107ff7d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
-<tr class="separator:a4c9d248392f35a9e929ab4dd107ff7d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6129a4154bb8fde03e2dfc8d0e310ad2" id="r_ga6129a4154bb8fde03e2dfc8d0e310ad2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga6129a4154bb8fde03e2dfc8d0e310ad2">ChangeColoringType</a> (const std::string &amp;<a class="el" href="group__GeneralGroup.html#ga531d559082c32567d685d888d4602ddf">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &amp;obj)</td></tr>
+<tr class="memdesc:ga6129a4154bb8fde03e2dfc8d0e310ad2"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's coloring type before making any changes in it  <br /></td></tr>
+<tr class="separator:ga6129a4154bb8fde03e2dfc8d0e310ad2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5926f12f23460add64c9ab4b0859f90b" id="r_ga5926f12f23460add64c9ab4b0859f90b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga5926f12f23460add64c9ab4b0859f90b">ChangeColoringType</a> (const std::string &amp;<a class="el" href="group__GeneralGroup.html#ga531d559082c32567d685d888d4602ddf">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &amp;obj, <a class="el" href="group__GeneralGroup.html#ga270a25a8ef13e07e59e7070834efc33f">ColoringType</a> newType)</td></tr>
+<tr class="memdesc:ga5926f12f23460add64c9ab4b0859f90b"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's coloring type and immediate set new value  <br /></td></tr>
+<tr class="separator:ga5926f12f23460add64c9ab4b0859f90b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga531d559082c32567d685d888d4602ddf" id="r_ga531d559082c32567d685d888d4602ddf"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga531d559082c32567d685d888d4602ddf">name</a> () const override</td></tr>
+<tr class="separator:ga531d559082c32567d685d888d4602ddf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae42944016a4f6dd2c76e964cfb353bf4" id="r_gae42944016a4f6dd2c76e964cfb353bf4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gae42944016a4f6dd2c76e964cfb353bf4">action</a> (<a class="el" href="group__GeneralGroup.html#gac16eb31dd26d35cfc18bac8a05983aa7">HistoryAction::Type</a>) override</td></tr>
+<tr class="memdesc:gae42944016a4f6dd2c76e964cfb353bf4"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is called on history action (undo, redo, etc.)  <br /></td></tr>
+<tr class="separator:gae42944016a4f6dd2c76e964cfb353bf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4c9d248392f35a9e929ab4dd107ff7d2" id="r_ga4c9d248392f35a9e929ab4dd107ff7d2"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga4c9d248392f35a9e929ab4dd107ff7d2">heapBytes</a> () const override</td></tr>
+<tr class="memdesc:ga4c9d248392f35a9e929ab4dd107ff7d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
+<tr class="separator:ga4c9d248392f35a9e929ab4dd107ff7d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classMR_1_1HistoryAction"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classMR_1_1HistoryAction')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classMR_1_1HistoryAction.html">MR::HistoryAction</a></td></tr>
-<tr class="memitem:a97370459d3645a1169ed426ef4896e5c inherit pub_methods_classMR_1_1HistoryAction" id="r_a97370459d3645a1169ed426ef4896e5c"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1HistoryAction.html#a97370459d3645a1169ed426ef4896e5c">~HistoryAction</a> ()=default</td></tr>
-<tr class="separator:a97370459d3645a1169ed426ef4896e5c inherit pub_methods_classMR_1_1HistoryAction"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga97370459d3645a1169ed426ef4896e5c inherit pub_methods_classMR_1_1HistoryAction" id="r_ga97370459d3645a1169ed426ef4896e5c"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga97370459d3645a1169ed426ef4896e5c">~HistoryAction</a> ()=default</td></tr>
+<tr class="separator:ga97370459d3645a1169ed426ef4896e5c inherit pub_methods_classMR_1_1HistoryAction"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a358cd953d6e5dc8ea2ed1448a1bf7075" id="r_a358cd953d6e5dc8ea2ed1448a1bf7075"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a358cd953d6e5dc8ea2ed1448a1bf7075">setObjectDirty</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &amp;obj)</td></tr>
-<tr class="separator:a358cd953d6e5dc8ea2ed1448a1bf7075"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga358cd953d6e5dc8ea2ed1448a1bf7075" id="r_ga358cd953d6e5dc8ea2ed1448a1bf7075"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga358cd953d6e5dc8ea2ed1448a1bf7075">setObjectDirty</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &amp;obj)</td></tr>
+<tr class="separator:ga358cd953d6e5dc8ea2ed1448a1bf7075"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>History action for ColoringType change </p>
-</div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a35b932ef1ea3756de261b79a1a7a7677" name="a35b932ef1ea3756de261b79a1a7a7677"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a35b932ef1ea3756de261b79a1a7a7677">&#9670;&#160;</a></span>Obj</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#a35b932ef1ea3756de261b79a1a7a7677">MR::ChangeColoringType::Obj</a> = <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a6129a4154bb8fde03e2dfc8d0e310ad2" name="a6129a4154bb8fde03e2dfc8d0e310ad2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6129a4154bb8fde03e2dfc8d0e310ad2">&#9670;&#160;</a></span>ChangeColoringType() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">MR::ChangeColoringType::ChangeColoringType </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>obj</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>use this constructor to remember object's coloring type before making any changes in it </p>
-
-</div>
-</div>
-<a id="a5926f12f23460add64c9ab4b0859f90b" name="a5926f12f23460add64c9ab4b0859f90b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5926f12f23460add64c9ab4b0859f90b">&#9670;&#160;</a></span>ChangeColoringType() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">MR::ChangeColoringType::ChangeColoringType </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>obj</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="namespaceMR.html#a270a25a8ef13e07e59e7070834efc33f">ColoringType</a></td>          <td class="paramname"><span class="paramname"><em>newType</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>use this constructor to remember object's coloring type and immediate set new value </p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="ae42944016a4f6dd2c76e964cfb353bf4" name="ae42944016a4f6dd2c76e964cfb353bf4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae42944016a4f6dd2c76e964cfb353bf4">&#9670;&#160;</a></span>action()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void MR::ChangeColoringType::action </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">HistoryAction::Type</a></td>          <td class="paramname"><span class="paramname"><em>actionType</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>This function is called on history action (undo, redo, etc.) </p>
-
-<p>Implements <a class="el" href="classMR_1_1HistoryAction.html#aecfce349736beaf17a23a6817c86f3bb">MR::HistoryAction</a>.</p>
-
-</div>
-</div>
-<a id="a4c9d248392f35a9e929ab4dd107ff7d2" name="a4c9d248392f35a9e929ab4dd107ff7d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c9d248392f35a9e929ab4dd107ff7d2">&#9670;&#160;</a></span>heapBytes()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual size_t MR::ChangeColoringType::heapBytes </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>returns the amount of memory this object occupies on heap </p>
-
-<p>Implements <a class="el" href="classMR_1_1HistoryAction.html#ad6df54da6a63ed83f15053507e8569de">MR::HistoryAction</a>.</p>
-
-</div>
-</div>
-<a id="a531d559082c32567d685d888d4602ddf" name="a531d559082c32567d685d888d4602ddf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a531d559082c32567d685d888d4602ddf">&#9670;&#160;</a></span>name()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual std::string MR::ChangeColoringType::name </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="classMR_1_1HistoryAction.html#a9daa0b79de161f676f6283e3804dc8ce">MR::HistoryAction</a>.</p>
-
-</div>
-</div>
-<a id="a358cd953d6e5dc8ea2ed1448a1bf7075" name="a358cd953d6e5dc8ea2ed1448a1bf7075"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a358cd953d6e5dc8ea2ed1448a1bf7075">&#9670;&#160;</a></span>setObjectDirty()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void MR::ChangeColoringType::setObjectDirty </td>
-          <td>(</td>
-          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>obj</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+</div><hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="MRChangeColoringType_8h_source.html">MRChangeColoringType.h</a></li>
 </ul>
 </div><!-- contents -->

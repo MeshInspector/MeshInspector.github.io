@@ -4,46 +4,18 @@
     <compoundname>MR::CoordinateConverters2</compoundname>
     <includes refid="MRPrecisePredicates2_8h" local="no">MRPrecisePredicates2.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1CoordinateConverters2_1aec74867bf6fa21b7d48dfabf36194f8c" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1a9966302a175074e0eccc6f6af09819e3" kindref="member">ConvertToIntVector2</ref></type>
-        <definition>ConvertToIntVector2 MR::CoordinateConverters2::toInt</definition>
-        <argsstring></argsstring>
-        <name>toInt</name>
-        <qualifiedname>MR::CoordinateConverters2::toInt</qualifiedname>
-        <initializer>{}</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecisePredicates2.h" line="82" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecisePredicates2.h" bodystart="82" bodyend="82"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1CoordinateConverters2_1a7914d773b759411e23efd36b3c2fcc46" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1a99bc296c2e6fee9ad9798298d3e942ab" kindref="member">ConvertToFloatVector2</ref></type>
-        <definition>ConvertToFloatVector2 MR::CoordinateConverters2::toFloat</definition>
-        <argsstring></argsstring>
-        <name>toFloat</name>
-        <qualifiedname>MR::CoordinateConverters2::toFloat</qualifiedname>
-        <initializer>{}</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecisePredicates2.h" line="83" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecisePredicates2.h" bodystart="83" bodyend="83"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaec74867bf6fa21b7d48dfabf36194f8c" kind="variable"><name>toInt</name></member>
+      <member refid="group__GeneralGroup_1ga7914d773b759411e23efd36b3c2fcc46" kind="variable"><name>toFloat</name></member>
     </sectiondef>
     <briefdescription>
 <para>this struct contains coordinate converters float-int-float </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecisePredicates2.h" line="80" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecisePredicates2.h" bodystart="81" bodyend="84"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecisePredicates2.h" line="83" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecisePredicates2.h" bodystart="84" bodyend="87"/>
     <listofallmembers>
-      <member refid="structMR_1_1CoordinateConverters2_1a7914d773b759411e23efd36b3c2fcc46" prot="public" virt="non-virtual"><scope>MR::CoordinateConverters2</scope><name>toFloat</name></member>
-      <member refid="structMR_1_1CoordinateConverters2_1aec74867bf6fa21b7d48dfabf36194f8c" prot="public" virt="non-virtual"><scope>MR::CoordinateConverters2</scope><name>toInt</name></member>
+      <member refid="group__GeneralGroup_1ga7914d773b759411e23efd36b3c2fcc46" prot="public" virt="non-virtual"><scope>MR::CoordinateConverters2</scope><name>toFloat</name></member>
+      <member refid="group__GeneralGroup_1gaec74867bf6fa21b7d48dfabf36194f8c" prot="public" virt="non-virtual"><scope>MR::CoordinateConverters2</scope><name>toInt</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

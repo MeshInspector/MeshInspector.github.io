@@ -1,78 +1,78 @@
 var group__BasicStructuresGroup =
 [
     [ "MR::Image", "structMR_1_1Image.html", [
-      [ "heapBytes", "structMR_1_1Image.html#aed3087256e14a389e2e32449eb1233d1", null ],
-      [ "operator[]", "structMR_1_1Image.html#a3b6b9b5bd10ab0b951b4049866cb22fb", null ],
-      [ "operator[]", "structMR_1_1Image.html#a6ea7fda3271b8069b31c64acfa61c5d4", null ],
-      [ "sample", "structMR_1_1Image.html#af6176f7d0a558084bda1ff8e2f3f6237", null ],
-      [ "sampleBilinear", "structMR_1_1Image.html#a14c773bc8dd766e49107c4d5c44c41d8", null ],
-      [ "sampleDiscrete", "structMR_1_1Image.html#a872aae100ad383474afd5c9c8468b3d5", null ],
-      [ "pixels", "structMR_1_1Image.html#ac507525682328e3e5fec0b85c131c224", null ],
-      [ "resolution", "structMR_1_1Image.html#a39fed2172fc354aeec92cae5942b7151", null ]
+      [ "heapBytes", "group__GeneralGroup.html#gaed3087256e14a389e2e32449eb1233d1", null ],
+      [ "operator[]", "group__GeneralGroup.html#ga3b6b9b5bd10ab0b951b4049866cb22fb", null ],
+      [ "operator[]", "group__GeneralGroup.html#ga6ea7fda3271b8069b31c64acfa61c5d4", null ],
+      [ "sample", "group__GeneralGroup.html#gaf6176f7d0a558084bda1ff8e2f3f6237", null ],
+      [ "sampleBilinear", "group__GeneralGroup.html#ga14c773bc8dd766e49107c4d5c44c41d8", null ],
+      [ "sampleDiscrete", "group__GeneralGroup.html#ga872aae100ad383474afd5c9c8468b3d5", null ],
+      [ "pixels", "group__GeneralGroup.html#gac507525682328e3e5fec0b85c131c224", null ],
+      [ "resolution", "group__GeneralGroup.html#ga39fed2172fc354aeec92cae5942b7151", null ]
     ] ],
     [ "MR::MeshTexture", "structMR_1_1MeshTexture.html", [
       [ "filter", "structMR_1_1MeshTexture.html#a624eb3f0792caeac64bd958de43405ba", null ],
       [ "wrap", "structMR_1_1MeshTexture.html#ab1d9b311e280516bb81e8749bfb440bc", null ]
     ] ],
     [ "MR::SceneColors", "structMR_1_1SceneColors.html", [
-      [ "Type", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3a", [
-        [ "SelectedObjectMesh", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa17965fcffe887a1ca6981a1818d44f6f", null ],
-        [ "UnselectedObjectMesh", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa736ebf30fa5a88ee5cbede49aecbc3ef", null ],
-        [ "SelectedObjectPoints", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa9f119aa11d1fc9a1e5ed2047fbe7da9c", null ],
-        [ "UnselectedObjectPoints", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa4cd917c98a34d56b402a2c2e3e6e83cb", null ],
-        [ "SelectedObjectLines", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa79464ccf7da71973c3722b243f7da4c4", null ],
-        [ "UnselectedObjectLines", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa67751013dcf075c12bcc178994f75a36", null ],
-        [ "SelectedObjectVoxels", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa02ea243d26ba88b944774b0dd860cca9", null ],
-        [ "UnselectedObjectVoxels", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa815ab0979a59272abd51680de3a55ab0", null ],
-        [ "SelectedObjectDistanceMap", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa5ff4b586e3128dc5c62c8f602ae14a9a", null ],
-        [ "UnselectedObjectDistanceMap", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aad2861ea5be4d6def67d2bf7855296343", null ],
-        [ "BackFaces", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa9a1cde7d2aa80a2631f4925686757e53", null ],
-        [ "Labels", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aab77a9984caf569880644435a85b17f0b", null ],
-        [ "LabelsGood", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aaeb82699de3b3185559737804c6043809", null ],
-        [ "LabelsBad", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa1f22b54e531ba5e49d0a70cb38135582", null ],
-        [ "Edges", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa578fe9b48a17b154dbfd272e206f58d7", null ],
-        [ "Points", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aaa3d1106c4606956fa8bf8f24f9db1486", null ],
-        [ "SelectedFaces", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa9acc3cb3e4646fab501e1b4cac8e867f", null ],
-        [ "SelectedEdges", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aac0df0200072fe04b4bdc85cc051c800f", null ],
-        [ "SelectedPoints", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aaf0e894d9fdff84113b5dd6c028335cce", null ],
-        [ "SelectedFeatures", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aaf7bd459ca67b79ebf307b377bf7a4f55", null ],
-        [ "UnselectedFeatures", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa7214bce26d7d375bcdd8113f5a5351c7", null ],
-        [ "FeatureBackFaces", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa8eb89f8f0a195b58b0d8da7d499cc55a", null ],
-        [ "SelectedFeatureDecorations", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa85606c6e9964bc4f4a6eed6d6739f54e", null ],
-        [ "UnselectedFeatureDecorations", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa86bffffe1afee0a5c1e6b7630965e06c", null ],
-        [ "SelectedMeasurements", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa5ce7a47f380884f1a5739c34299a2eb7", null ],
-        [ "UnselectedMeasurements", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aafa0d84b28915f0828c10e5f1abfcf1ac", null ],
-        [ "UnselectedMeasurementsX", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa5eb712721e8b4a0e870eded356077c79", null ],
-        [ "UnselectedMeasurementsY", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa23e6bacab20e6c73c6eb07093b2d72a7", null ],
-        [ "UnselectedMeasurementsZ", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aae4f723429576e2b535e52168ac94eda2", null ],
-        [ "SelectedTemporaryMeasurements", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa543c0ab476d5490df39cee5d7f8c8834", null ],
-        [ "UnselectedTemporaryMeasurements", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa73c4634de1e83e6666d9cc6293f63326", null ],
-        [ "Count", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa6f08361dd2396f9410852f2b3aedb483", null ]
+      [ "Type", "group__GeneralGroup.html#ga1cacbfc4a30c305f1acb6b5c8d6b3a3a", [
+        [ "SelectedObjectMesh", "group__GeneralGroup.html#gga1cacbfc4a30c305f1acb6b5c8d6b3a3aa17965fcffe887a1ca6981a1818d44f6f", null ],
+        [ "UnselectedObjectMesh", "group__GeneralGroup.html#gga1cacbfc4a30c305f1acb6b5c8d6b3a3aa736ebf30fa5a88ee5cbede49aecbc3ef", null ],
+        [ "SelectedObjectPoints", "group__GeneralGroup.html#gga1cacbfc4a30c305f1acb6b5c8d6b3a3aa9f119aa11d1fc9a1e5ed2047fbe7da9c", null ],
+        [ "UnselectedObjectPoints", "group__GeneralGroup.html#gga1cacbfc4a30c305f1acb6b5c8d6b3a3aa4cd917c98a34d56b402a2c2e3e6e83cb", null ],
+        [ "SelectedObjectLines", "group__GeneralGroup.html#gga1cacbfc4a30c305f1acb6b5c8d6b3a3aa79464ccf7da71973c3722b243f7da4c4", null ],
+        [ "UnselectedObjectLines", "group__GeneralGroup.html#gga1cacbfc4a30c305f1acb6b5c8d6b3a3aa67751013dcf075c12bcc178994f75a36", null ],
+        [ "SelectedObjectVoxels", "group__GeneralGroup.html#gga1cacbfc4a30c305f1acb6b5c8d6b3a3aa02ea243d26ba88b944774b0dd860cca9", null ],
+        [ "UnselectedObjectVoxels", "group__GeneralGroup.html#gga1cacbfc4a30c305f1acb6b5c8d6b3a3aa815ab0979a59272abd51680de3a55ab0", null ],
+        [ "SelectedObjectDistanceMap", "group__GeneralGroup.html#gga1cacbfc4a30c305f1acb6b5c8d6b3a3aa5ff4b586e3128dc5c62c8f602ae14a9a", null ],
+        [ "UnselectedObjectDistanceMap", "group__GeneralGroup.html#gga1cacbfc4a30c305f1acb6b5c8d6b3a3aad2861ea5be4d6def67d2bf7855296343", null ],
+        [ "BackFaces", "group__GeneralGroup.html#gga1cacbfc4a30c305f1acb6b5c8d6b3a3aa9a1cde7d2aa80a2631f4925686757e53", null ],
+        [ "Labels", "group__GeneralGroup.html#gga1cacbfc4a30c305f1acb6b5c8d6b3a3aab77a9984caf569880644435a85b17f0b", null ],
+        [ "LabelsGood", "group__GeneralGroup.html#gga1cacbfc4a30c305f1acb6b5c8d6b3a3aaeb82699de3b3185559737804c6043809", null ],
+        [ "LabelsBad", "group__GeneralGroup.html#gga1cacbfc4a30c305f1acb6b5c8d6b3a3aa1f22b54e531ba5e49d0a70cb38135582", null ],
+        [ "Edges", "group__GeneralGroup.html#gga1cacbfc4a30c305f1acb6b5c8d6b3a3aa578fe9b48a17b154dbfd272e206f58d7", null ],
+        [ "Points", "group__GeneralGroup.html#gga1cacbfc4a30c305f1acb6b5c8d6b3a3aaa3d1106c4606956fa8bf8f24f9db1486", null ],
+        [ "SelectedFaces", "group__GeneralGroup.html#gga1cacbfc4a30c305f1acb6b5c8d6b3a3aa9acc3cb3e4646fab501e1b4cac8e867f", null ],
+        [ "SelectedEdges", "group__GeneralGroup.html#gga1cacbfc4a30c305f1acb6b5c8d6b3a3aac0df0200072fe04b4bdc85cc051c800f", null ],
+        [ "SelectedPoints", "group__GeneralGroup.html#gga1cacbfc4a30c305f1acb6b5c8d6b3a3aaf0e894d9fdff84113b5dd6c028335cce", null ],
+        [ "SelectedFeatures", "group__GeneralGroup.html#gga1cacbfc4a30c305f1acb6b5c8d6b3a3aaf7bd459ca67b79ebf307b377bf7a4f55", null ],
+        [ "UnselectedFeatures", "group__GeneralGroup.html#gga1cacbfc4a30c305f1acb6b5c8d6b3a3aa7214bce26d7d375bcdd8113f5a5351c7", null ],
+        [ "FeatureBackFaces", "group__GeneralGroup.html#gga1cacbfc4a30c305f1acb6b5c8d6b3a3aa8eb89f8f0a195b58b0d8da7d499cc55a", null ],
+        [ "SelectedFeatureDecorations", "group__GeneralGroup.html#gga1cacbfc4a30c305f1acb6b5c8d6b3a3aa85606c6e9964bc4f4a6eed6d6739f54e", null ],
+        [ "UnselectedFeatureDecorations", "group__GeneralGroup.html#gga1cacbfc4a30c305f1acb6b5c8d6b3a3aa86bffffe1afee0a5c1e6b7630965e06c", null ],
+        [ "SelectedMeasurements", "group__GeneralGroup.html#gga1cacbfc4a30c305f1acb6b5c8d6b3a3aa5ce7a47f380884f1a5739c34299a2eb7", null ],
+        [ "UnselectedMeasurements", "group__GeneralGroup.html#gga1cacbfc4a30c305f1acb6b5c8d6b3a3aafa0d84b28915f0828c10e5f1abfcf1ac", null ],
+        [ "UnselectedMeasurementsX", "group__GeneralGroup.html#gga1cacbfc4a30c305f1acb6b5c8d6b3a3aa5eb712721e8b4a0e870eded356077c79", null ],
+        [ "UnselectedMeasurementsY", "group__GeneralGroup.html#gga1cacbfc4a30c305f1acb6b5c8d6b3a3aa23e6bacab20e6c73c6eb07093b2d72a7", null ],
+        [ "UnselectedMeasurementsZ", "group__GeneralGroup.html#gga1cacbfc4a30c305f1acb6b5c8d6b3a3aae4f723429576e2b535e52168ac94eda2", null ],
+        [ "SelectedTemporaryMeasurements", "group__GeneralGroup.html#gga1cacbfc4a30c305f1acb6b5c8d6b3a3aa543c0ab476d5490df39cee5d7f8c8834", null ],
+        [ "UnselectedTemporaryMeasurements", "group__GeneralGroup.html#gga1cacbfc4a30c305f1acb6b5c8d6b3a3aa73c4634de1e83e6666d9cc6293f63326", null ],
+        [ "Count", "group__GeneralGroup.html#gga1cacbfc4a30c305f1acb6b5c8d6b3a3aa6f08361dd2396f9410852f2b3aedb483", null ]
       ] ]
     ] ],
     [ "MR::SceneSettings", "classMR_1_1SceneSettings.html", [
-      [ "BoolType", "classMR_1_1SceneSettings.html#a01216132f55f2f10947b9f6143f1b9b8", [
-        [ "UseDefaultScenePropertiesOnDeserialization", "classMR_1_1SceneSettings.html#a01216132f55f2f10947b9f6143f1b9b8a227e8dc9a98750c5dd23f4ea2da04c7a", null ],
-        [ "Count", "classMR_1_1SceneSettings.html#a01216132f55f2f10947b9f6143f1b9b8ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
+      [ "BoolType", "group__GeneralGroup.html#ga01216132f55f2f10947b9f6143f1b9b8", [
+        [ "UseDefaultScenePropertiesOnDeserialization", "group__GeneralGroup.html#gga01216132f55f2f10947b9f6143f1b9b8a227e8dc9a98750c5dd23f4ea2da04c7a", null ],
+        [ "Count", "group__GeneralGroup.html#gga01216132f55f2f10947b9f6143f1b9b8ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
       ] ],
-      [ "FloatType", "classMR_1_1SceneSettings.html#ad40f8b0bfec68b50393b6e9e021b0261", [
-        [ "FeaturePointsAlpha", "classMR_1_1SceneSettings.html#ad40f8b0bfec68b50393b6e9e021b0261a76f1624926021a8e4a671dd85c3cdc00", null ],
-        [ "FeatureLinesAlpha", "classMR_1_1SceneSettings.html#ad40f8b0bfec68b50393b6e9e021b0261ae3241ff3a6a1c4e22348c34a6ef69904", null ],
-        [ "FeatureMeshAlpha", "classMR_1_1SceneSettings.html#ad40f8b0bfec68b50393b6e9e021b0261a9e62e749ce08f2fc8cb6437f1b409778", null ],
-        [ "FeatureSubPointsAlpha", "classMR_1_1SceneSettings.html#ad40f8b0bfec68b50393b6e9e021b0261a643f1e82cb1a542f73852553cdb88310", null ],
-        [ "FeatureSubLinesAlpha", "classMR_1_1SceneSettings.html#ad40f8b0bfec68b50393b6e9e021b0261aad36d169353d55602524d078a697a16b", null ],
-        [ "FeatureSubMeshAlpha", "classMR_1_1SceneSettings.html#ad40f8b0bfec68b50393b6e9e021b0261afa71df10d1ecadd399ea1c886d42daf3", null ],
-        [ "FeatureLineWidth", "classMR_1_1SceneSettings.html#ad40f8b0bfec68b50393b6e9e021b0261a8a3aad920f8a916d4abf44b25a86ef1e", null ],
-        [ "FeatureSubLineWidth", "classMR_1_1SceneSettings.html#ad40f8b0bfec68b50393b6e9e021b0261afc0611ad1874f59b7e47820b4cdd72e9", null ],
-        [ "FeaturePointSize", "classMR_1_1SceneSettings.html#ad40f8b0bfec68b50393b6e9e021b0261abaca4c96c2c2eb0beb55075d1dfb25ce", null ],
-        [ "FeatureSubPointSize", "classMR_1_1SceneSettings.html#ad40f8b0bfec68b50393b6e9e021b0261a42e73be4e6a3c410002eb381e9575f5b", null ],
-        [ "AmbientCoefSelectedObj", "classMR_1_1SceneSettings.html#ad40f8b0bfec68b50393b6e9e021b0261a8ac314a210ce649b6362765e85106c2a", null ],
-        [ "Count", "classMR_1_1SceneSettings.html#ad40f8b0bfec68b50393b6e9e021b0261ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
+      [ "FloatType", "group__GeneralGroup.html#gad40f8b0bfec68b50393b6e9e021b0261", [
+        [ "FeaturePointsAlpha", "group__GeneralGroup.html#ggad40f8b0bfec68b50393b6e9e021b0261a76f1624926021a8e4a671dd85c3cdc00", null ],
+        [ "FeatureLinesAlpha", "group__GeneralGroup.html#ggad40f8b0bfec68b50393b6e9e021b0261ae3241ff3a6a1c4e22348c34a6ef69904", null ],
+        [ "FeatureMeshAlpha", "group__GeneralGroup.html#ggad40f8b0bfec68b50393b6e9e021b0261a9e62e749ce08f2fc8cb6437f1b409778", null ],
+        [ "FeatureSubPointsAlpha", "group__GeneralGroup.html#ggad40f8b0bfec68b50393b6e9e021b0261a643f1e82cb1a542f73852553cdb88310", null ],
+        [ "FeatureSubLinesAlpha", "group__GeneralGroup.html#ggad40f8b0bfec68b50393b6e9e021b0261aad36d169353d55602524d078a697a16b", null ],
+        [ "FeatureSubMeshAlpha", "group__GeneralGroup.html#ggad40f8b0bfec68b50393b6e9e021b0261afa71df10d1ecadd399ea1c886d42daf3", null ],
+        [ "FeatureLineWidth", "group__GeneralGroup.html#ggad40f8b0bfec68b50393b6e9e021b0261a8a3aad920f8a916d4abf44b25a86ef1e", null ],
+        [ "FeatureSubLineWidth", "group__GeneralGroup.html#ggad40f8b0bfec68b50393b6e9e021b0261afc0611ad1874f59b7e47820b4cdd72e9", null ],
+        [ "FeaturePointSize", "group__GeneralGroup.html#ggad40f8b0bfec68b50393b6e9e021b0261abaca4c96c2c2eb0beb55075d1dfb25ce", null ],
+        [ "FeatureSubPointSize", "group__GeneralGroup.html#ggad40f8b0bfec68b50393b6e9e021b0261a42e73be4e6a3c410002eb381e9575f5b", null ],
+        [ "AmbientCoefSelectedObj", "group__GeneralGroup.html#ggad40f8b0bfec68b50393b6e9e021b0261a8ac314a210ce649b6362765e85106c2a", null ],
+        [ "Count", "group__GeneralGroup.html#ggad40f8b0bfec68b50393b6e9e021b0261ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
       ] ],
-      [ "ShadingMode", "classMR_1_1SceneSettings.html#a308e72dcfc90ae1a9370ca7c7bc3290c", [
-        [ "AutoDetect", "classMR_1_1SceneSettings.html#a308e72dcfc90ae1a9370ca7c7bc3290ca10c84306f5bb51fdad714b1f2f4463cf", null ],
-        [ "Smooth", "classMR_1_1SceneSettings.html#a308e72dcfc90ae1a9370ca7c7bc3290cae510cdf33cd497134b47b9316314d4b4", null ],
-        [ "Flat", "classMR_1_1SceneSettings.html#a308e72dcfc90ae1a9370ca7c7bc3290ca745e3db6a7ffd50e1a72b39482f0882d", null ]
+      [ "ShadingMode", "group__GeneralGroup.html#ga308e72dcfc90ae1a9370ca7c7bc3290c", [
+        [ "AutoDetect", "group__GeneralGroup.html#gga308e72dcfc90ae1a9370ca7c7bc3290ca10c84306f5bb51fdad714b1f2f4463cf", null ],
+        [ "Smooth", "group__GeneralGroup.html#gga308e72dcfc90ae1a9370ca7c7bc3290cae510cdf33cd497134b47b9316314d4b4", null ],
+        [ "Flat", "group__GeneralGroup.html#gga308e72dcfc90ae1a9370ca7c7bc3290ca745e3db6a7ffd50e1a72b39482f0882d", null ]
       ] ]
     ] ],
     [ "MR::FloatGrid", "classMR_1_1FloatGrid.html", [
@@ -91,7 +91,6 @@ var group__BasicStructuresGroup =
       [ "OpenVdbFloatGrid", "structMR_1_1OpenVdbFloatGrid.html#a0773dceddd3bc098112050126cf99f3c", null ],
       [ "heapBytes", "structMR_1_1OpenVdbFloatGrid.html#adb689224a478708a8f7813b0f13ba5a8", null ]
     ] ],
-    [ "MR::ProgressCallback", "group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710", null ],
     [ "MR::countVoxelsWithValueGreater", "group__BasicStructuresGroup.html#ga5712e78d9d4422fcdcd7dfed32c2c17e", null ],
     [ "MR::countVoxelsWithValueLess", "group__BasicStructuresGroup.html#gac9943628cd64b8a75e368ce9d38efd82", null ],
     [ "MR::countVoxelsWithValuePred", "group__BasicStructuresGroup.html#ga770032fe42da0bb15fcc90bf40d219a1", null ],

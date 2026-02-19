@@ -3,75 +3,21 @@
   <compounddef id="classMR_1_1Cylinder3Approximation_1_1BestHemisphereStoredData" kind="class" language="C++" prot="private">
     <compoundname>MR::Cylinder3Approximation::BestHemisphereStoredData</compoundname>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="classMR_1_1Cylinder3Approximation_1_1BestHemisphereStoredData_1a6e64fd84ef26eab2767cd10963f588a7" prot="public" static="no" mutable="no">
-        <type>T</type>
-        <definition>T MR::Cylinder3Approximation&lt; T &gt;::BestHemisphereStoredData::error</definition>
-        <argsstring></argsstring>
-        <name>error</name>
-        <qualifiedname>MR::Cylinder3Approximation::BestHemisphereStoredData::error</qualifiedname>
-        <initializer>= std::numeric_limits&lt;T&gt;::max()</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" line="86" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" bodystart="86" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1Cylinder3Approximation_1_1BestHemisphereStoredData_1a0679734bf147b5f9046f9701a3689424" prot="public" static="no" mutable="no">
-        <type>T</type>
-        <definition>T MR::Cylinder3Approximation&lt; T &gt;::BestHemisphereStoredData::rootSquare</definition>
-        <argsstring></argsstring>
-        <name>rootSquare</name>
-        <qualifiedname>MR::Cylinder3Approximation::BestHemisphereStoredData::rootSquare</qualifiedname>
-        <initializer>= std::numeric_limits&lt;T&gt;::max()</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" line="87" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" bodystart="87" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1Cylinder3Approximation_1_1BestHemisphereStoredData_1a98201fd01ab50cfce70b9e8940f49e16" prot="public" static="no" mutable="no">
-        <type>Eigen::Vector&lt; T, 3 &gt;</type>
-        <definition>Eigen::Vector&lt;T, 3&gt; MR::Cylinder3Approximation&lt; T &gt;::BestHemisphereStoredData::W</definition>
-        <argsstring></argsstring>
-        <name>W</name>
-        <qualifiedname>MR::Cylinder3Approximation::BestHemisphereStoredData::W</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" line="88" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" bodystart="88" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1Cylinder3Approximation_1_1BestHemisphereStoredData_1a33ef7448be85d92ef4e399b2b256fa4f" prot="public" static="no" mutable="no">
-        <type>Eigen::Vector&lt; T, 3 &gt;</type>
-        <definition>Eigen::Vector&lt;T, 3&gt; MR::Cylinder3Approximation&lt; T &gt;::BestHemisphereStoredData::PC</definition>
-        <argsstring></argsstring>
-        <name>PC</name>
-        <qualifiedname>MR::Cylinder3Approximation::BestHemisphereStoredData::PC</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" line="89" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" bodystart="89" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga6e64fd84ef26eab2767cd10963f588a7" kind="variable"><name>error</name></member>
+      <member refid="group__GeneralGroup_1ga0679734bf147b5f9046f9701a3689424" kind="variable"><name>rootSquare</name></member>
+      <member refid="group__GeneralGroup_1ga98201fd01ab50cfce70b9e8940f49e16" kind="variable"><name>W</name></member>
+      <member refid="group__GeneralGroup_1ga33ef7448be85d92ef4e399b2b256fa4f" kind="variable"><name>PC</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" line="83" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" bodystart="84" bodyend="90"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" line="86" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" bodystart="87" bodyend="93"/>
     <listofallmembers>
-      <member refid="classMR_1_1Cylinder3Approximation_1_1BestHemisphereStoredData_1a6e64fd84ef26eab2767cd10963f588a7" prot="public" virt="non-virtual"><scope>MR::Cylinder3Approximation::BestHemisphereStoredData</scope><name>error</name></member>
-      <member refid="classMR_1_1Cylinder3Approximation_1_1BestHemisphereStoredData_1a33ef7448be85d92ef4e399b2b256fa4f" prot="public" virt="non-virtual"><scope>MR::Cylinder3Approximation::BestHemisphereStoredData</scope><name>PC</name></member>
-      <member refid="classMR_1_1Cylinder3Approximation_1_1BestHemisphereStoredData_1a0679734bf147b5f9046f9701a3689424" prot="public" virt="non-virtual"><scope>MR::Cylinder3Approximation::BestHemisphereStoredData</scope><name>rootSquare</name></member>
-      <member refid="classMR_1_1Cylinder3Approximation_1_1BestHemisphereStoredData_1a98201fd01ab50cfce70b9e8940f49e16" prot="public" virt="non-virtual"><scope>MR::Cylinder3Approximation::BestHemisphereStoredData</scope><name>W</name></member>
+      <member refid="group__GeneralGroup_1ga6e64fd84ef26eab2767cd10963f588a7" prot="public" virt="non-virtual"><scope>MR::Cylinder3Approximation::BestHemisphereStoredData</scope><name>error</name></member>
+      <member refid="group__GeneralGroup_1ga33ef7448be85d92ef4e399b2b256fa4f" prot="public" virt="non-virtual"><scope>MR::Cylinder3Approximation::BestHemisphereStoredData</scope><name>PC</name></member>
+      <member refid="group__GeneralGroup_1ga0679734bf147b5f9046f9701a3689424" prot="public" virt="non-virtual"><scope>MR::Cylinder3Approximation::BestHemisphereStoredData</scope><name>rootSquare</name></member>
+      <member refid="group__GeneralGroup_1ga98201fd01ab50cfce70b9e8940f49e16" prot="public" virt="non-virtual"><scope>MR::Cylinder3Approximation::BestHemisphereStoredData</scope><name>W</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

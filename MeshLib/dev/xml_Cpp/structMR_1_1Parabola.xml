@@ -9,182 +9,34 @@
       </param>
     </templateparamlist>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1Parabola_1a34d2109107ef4c428253a8755305114b" prot="public" static="no" mutable="no">
-        <type>T</type>
-        <definition>T MR::Parabola&lt; T &gt;::a</definition>
-        <argsstring></argsstring>
-        <name>a</name>
-        <qualifiedname>MR::Parabola::a</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParabola.h" line="12" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParabola.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1Parabola_1a9753dfacf3e0613b37e554a7f4b63f8a" prot="public" static="no" mutable="no">
-        <type>T</type>
-        <definition>T MR::Parabola&lt; T &gt;::b</definition>
-        <argsstring></argsstring>
-        <name>b</name>
-        <qualifiedname>MR::Parabola::b</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParabola.h" line="13" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParabola.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1Parabola_1a87d6da7f3dba1aa3504784c26b407da3" prot="public" static="no" mutable="no">
-        <type>T</type>
-        <definition>T MR::Parabola&lt; T &gt;::c</definition>
-        <argsstring></argsstring>
-        <name>c</name>
-        <qualifiedname>MR::Parabola::c</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParabola.h" line="14" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParabola.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga34d2109107ef4c428253a8755305114b" kind="variable"><name>a</name></member>
+      <member refid="group__GeneralGroup_1ga9753dfacf3e0613b37e554a7f4b63f8a" kind="variable"><name>b</name></member>
+      <member refid="group__GeneralGroup_1ga87d6da7f3dba1aa3504784c26b407da3" kind="variable"><name>c</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1Parabola_1a0cdfe97a6580c1aaa9b873a6320f0793" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type>constexpr</type>
-        <definition>MR::Parabola&lt; T &gt;::Parabola</definition>
-        <argsstring>() noexcept=default</argsstring>
-        <name>Parabola</name>
-        <qualifiedname>MR::Parabola::Parabola</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParabola.h" line="16" column="15"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Parabola_1aa24552a8fee4499ec38064ef05db41ac" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>constexpr</type>
-        <definition>MR::Parabola&lt; T &gt;::Parabola</definition>
-        <argsstring>(T a, T b, T c)</argsstring>
-        <name>Parabola</name>
-        <qualifiedname>MR::Parabola::Parabola</qualifiedname>
-        <param>
-          <type>T</type>
-          <declname>a</declname>
-        </param>
-        <param>
-          <type>T</type>
-          <declname>b</declname>
-        </param>
-        <param>
-          <type>T</type>
-          <declname>c</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParabola.h" line="17" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParabola.h" bodystart="17" bodyend="17"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Parabola_1a35b32607bcb14a8f5c89da76ea131304" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename U</type>
-          </param>
-        </templateparamlist>
-        <type>constexpr</type>
-        <definition>MR::Parabola&lt; T &gt;::Parabola</definition>
-        <argsstring>(const Parabola&lt; U &gt; &amp;p)</argsstring>
-        <name>Parabola</name>
-        <qualifiedname>MR::Parabola::Parabola</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Parabola" kindref="compound">Parabola</ref>&lt; U &gt; &amp;</type>
-          <declname>p</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParabola.h" line="19" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParabola.h" bodystart="19" bodyend="19"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Parabola_1a45bf9f53f24483c850f914def539451e" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>T</type>
-        <definition>T MR::Parabola&lt; T &gt;::operator()</definition>
-        <argsstring>(T x) const</argsstring>
-        <name>operator()</name>
-        <qualifiedname>MR::Parabola::operator()</qualifiedname>
-        <param>
-          <type>T</type>
-          <declname>x</declname>
-        </param>
-        <briefdescription>
-<para>compute value of quadratic function at any x </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParabola.h" line="22" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParabola.h" bodystart="22" bodyend="22"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Parabola_1a34d2a9ae743816f3e62667dd396479a3" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>T</type>
-        <definition>T MR::Parabola&lt; T &gt;::extremArg</definition>
-        <argsstring>() const</argsstring>
-        <name>extremArg</name>
-        <qualifiedname>MR::Parabola::extremArg</qualifiedname>
-        <briefdescription>
-<para>argument (x) where parabola reaches extremal value: minimum for a &gt; 0, maximum for a &lt; 0 </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParabola.h" line="25" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParabola.h" bodystart="25" bodyend="25"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Parabola_1a3244e04984e6a61cd9243af2af6e178d" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>T</type>
-        <definition>T MR::Parabola&lt; T &gt;::extremVal</definition>
-        <argsstring>() const</argsstring>
-        <name>extremVal</name>
-        <qualifiedname>MR::Parabola::extremVal</qualifiedname>
-        <briefdescription>
-<para>value (y) where parabola reaches extremal value: minimum for a &gt; 0, maximum for a &lt; 0 </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParabola.h" line="28" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParabola.h" bodystart="28" bodyend="28"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga0cdfe97a6580c1aaa9b873a6320f0793" kind="function"><name>Parabola</name></member>
+      <member refid="group__GeneralGroup_1gaa24552a8fee4499ec38064ef05db41ac" kind="function"><name>Parabola</name></member>
+      <member refid="group__GeneralGroup_1ga35b32607bcb14a8f5c89da76ea131304" kind="function"><name>Parabola</name></member>
+      <member refid="group__GeneralGroup_1ga45bf9f53f24483c850f914def539451e" kind="function"><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1ga34d2a9ae743816f3e62667dd396479a3" kind="function"><name>extremArg</name></member>
+      <member refid="group__GeneralGroup_1ga3244e04984e6a61cd9243af2af6e178d" kind="function"><name>extremVal</name></member>
     </sectiondef>
     <briefdescription>
 <para>Represents quadratic function f(x) = a*x*x + b*x + c. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParabola.h" line="10" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParabola.h" bodystart="11" bodyend="29"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParabola.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParabola.h" bodystart="14" bodyend="32"/>
     <listofallmembers>
-      <member refid="structMR_1_1Parabola_1a34d2109107ef4c428253a8755305114b" prot="public" virt="non-virtual"><scope>MR::Parabola</scope><name>a</name></member>
-      <member refid="structMR_1_1Parabola_1a9753dfacf3e0613b37e554a7f4b63f8a" prot="public" virt="non-virtual"><scope>MR::Parabola</scope><name>b</name></member>
-      <member refid="structMR_1_1Parabola_1a87d6da7f3dba1aa3504784c26b407da3" prot="public" virt="non-virtual"><scope>MR::Parabola</scope><name>c</name></member>
-      <member refid="structMR_1_1Parabola_1a34d2a9ae743816f3e62667dd396479a3" prot="public" virt="non-virtual"><scope>MR::Parabola</scope><name>extremArg</name></member>
-      <member refid="structMR_1_1Parabola_1a3244e04984e6a61cd9243af2af6e178d" prot="public" virt="non-virtual"><scope>MR::Parabola</scope><name>extremVal</name></member>
-      <member refid="structMR_1_1Parabola_1a45bf9f53f24483c850f914def539451e" prot="public" virt="non-virtual"><scope>MR::Parabola</scope><name>operator()</name></member>
-      <member refid="structMR_1_1Parabola_1a0cdfe97a6580c1aaa9b873a6320f0793" prot="public" virt="non-virtual"><scope>MR::Parabola</scope><name>Parabola</name></member>
-      <member refid="structMR_1_1Parabola_1aa24552a8fee4499ec38064ef05db41ac" prot="public" virt="non-virtual"><scope>MR::Parabola</scope><name>Parabola</name></member>
-      <member refid="structMR_1_1Parabola_1a35b32607bcb14a8f5c89da76ea131304" prot="public" virt="non-virtual"><scope>MR::Parabola</scope><name>Parabola</name></member>
+      <member refid="group__GeneralGroup_1ga34d2109107ef4c428253a8755305114b" prot="public" virt="non-virtual"><scope>MR::Parabola</scope><name>a</name></member>
+      <member refid="group__GeneralGroup_1ga9753dfacf3e0613b37e554a7f4b63f8a" prot="public" virt="non-virtual"><scope>MR::Parabola</scope><name>b</name></member>
+      <member refid="group__GeneralGroup_1ga87d6da7f3dba1aa3504784c26b407da3" prot="public" virt="non-virtual"><scope>MR::Parabola</scope><name>c</name></member>
+      <member refid="group__GeneralGroup_1ga34d2a9ae743816f3e62667dd396479a3" prot="public" virt="non-virtual"><scope>MR::Parabola</scope><name>extremArg</name></member>
+      <member refid="group__GeneralGroup_1ga3244e04984e6a61cd9243af2af6e178d" prot="public" virt="non-virtual"><scope>MR::Parabola</scope><name>extremVal</name></member>
+      <member refid="group__GeneralGroup_1ga45bf9f53f24483c850f914def539451e" prot="public" virt="non-virtual"><scope>MR::Parabola</scope><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1ga0cdfe97a6580c1aaa9b873a6320f0793" prot="public" virt="non-virtual"><scope>MR::Parabola</scope><name>Parabola</name></member>
+      <member refid="group__GeneralGroup_1gaa24552a8fee4499ec38064ef05db41ac" prot="public" virt="non-virtual"><scope>MR::Parabola</scope><name>Parabola</name></member>
+      <member refid="group__GeneralGroup_1ga35b32607bcb14a8f5c89da76ea131304" prot="public" virt="non-virtual"><scope>MR::Parabola</scope><name>Parabola</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

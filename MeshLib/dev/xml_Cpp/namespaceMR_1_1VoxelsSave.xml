@@ -5,7 +5,7 @@
     <innerclass refid="structMR_1_1VoxelsSave_1_1SavingSettings" prot="public">MR::VoxelsSave::SavingSettings</innerclass>
     <sectiondef kind="typedef">
       <memberdef kind="typedef" id="namespaceMR_1_1VoxelsSave_1a5289196c605171ac3410bbe845a26176" prot="public" static="no">
-        <type><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;(*)(const VdbVolume &amp;, const std::filesystem::path &amp;, <ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref>)</type>
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;(*)(const VdbVolume &amp;, const std::filesystem::path &amp;, ProgressCallback)</type>
         <definition>using MR::VoxelsSave::VoxelsSaver =  Expected&lt;void&gt;( * )( const VdbVolume&amp;, const std::filesystem::path&amp;, ProgressCallback )</definition>
         <argsstring></argsstring>
         <name>VoxelsSaver</name>
@@ -20,102 +20,9 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
-      <memberdef kind="function" id="namespaceMR_1_1VoxelsSave_1a8b7a3d30f9b81594b08a8a90828dd8e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
-        <definition>MRVOXELS_API Expected&lt; void &gt; MR::VoxelsSave::toDicom</definition>
-        <argsstring>(const VdbVolume &amp;vdbVolume, const std::filesystem::path &amp;path, ProgressCallback cb={})</argsstring>
-        <name>toDicom</name>
-        <qualifiedname>MR::VoxelsSave::toDicom</qualifiedname>
-        <param>
-          <type>const VdbVolume &amp;</type>
-          <declname>vdbVolume</declname>
-        </param>
-        <param>
-          <type>const std::filesystem::path &amp;</type>
-          <declname>path</declname>
-        </param>
-        <param>
-          <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
-          <declname>cb</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-<para>Save voxels object to a single 3d DICOM file. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" line="99" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" declline="99" declcolumn="23"/>
-      </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1VoxelsSave_1a0f83445b39c9bf24c4f50d6fe1f4cfe8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename T</type>
-          </param>
-        </templateparamlist>
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
-        <definition>MRVOXELS_API Expected&lt; void &gt; MR::VoxelsSave::toDicom</definition>
-        <argsstring>(const VoxelsVolume&lt; Vector&lt; T, VoxelId &gt; &gt; &amp;volume, const std::filesystem::path &amp;path, const std::optional&lt; MinMaxf &gt; &amp;sourceScale={}, const ProgressCallback &amp;cb={})</argsstring>
-        <name>toDicom</name>
-        <qualifiedname>MR::VoxelsSave::toDicom</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1VoxelsVolume" kindref="compound">VoxelsVolume</ref>&lt; <ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; T, VoxelId &gt; &gt; &amp;</type>
-          <declname>volume</declname>
-        </param>
-        <param>
-          <type>const std::filesystem::path &amp;</type>
-          <declname>path</declname>
-        </param>
-        <param>
-          <type>const std::optional&lt; <ref refid="namespaceMR_1a2bd3b23d498c69cd04c544b6c7068f3a" kindref="member">MinMaxf</ref> &gt; &amp;</type>
-          <declname>sourceScale</declname>
-          <defval>{}</defval>
-        </param>
-        <param>
-          <type>const <ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref> &amp;</type>
-          <declname>cb</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Saves object to a single 3d DICOM file. <computeroutput>sourceScale</computeroutput> specifies the true scale of the voxel data which will be saved with &quot;slope&quot; and &quot;intercept&quot; parameters of the output dicom. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" line="103" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" declline="103" declcolumn="23"/>
-      </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1VoxelsSave_1a06de9ebb71a997d3eec5251dc2a1c1e8" prot="public" static="no" extern="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>template <ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
-        <definition>template MRVOXELS_API Expected&lt; void &gt; MR::VoxelsSave::toDicom</definition>
-        <argsstring>(const VoxelsVolume&lt; Vector&lt; std::uint16_t, VoxelId &gt; &gt; &amp;volume, const std::filesystem::path &amp;path, const std::optional&lt; MinMaxf &gt; &amp;sourceScale, const ProgressCallback &amp;cb)</argsstring>
-        <name>toDicom</name>
-        <qualifiedname>MR::VoxelsSave::toDicom</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1VoxelsVolume" kindref="compound">VoxelsVolume</ref>&lt; <ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; std::uint16_t, VoxelId &gt; &gt; &amp;</type>
-          <declname>volume</declname>
-        </param>
-        <param>
-          <type>const std::filesystem::path &amp;</type>
-          <declname>path</declname>
-        </param>
-        <param>
-          <type>const std::optional&lt; <ref refid="namespaceMR_1a2bd3b23d498c69cd04c544b6c7068f3a" kindref="member">MinMaxf</ref> &gt; &amp;</type>
-          <declname>sourceScale</declname>
-        </param>
-        <param>
-          <type>const <ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref> &amp;</type>
-          <declname>cb</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" line="105" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" declline="105" declcolumn="39"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga8b7a3d30f9b81594b08a8a90828dd8e6" kind="function"><name>toDicom</name></member>
+      <member refid="group__GeneralGroup_1ga0f83445b39c9bf24c4f50d6fe1f4cfe8" kind="function"><name>toDicom</name></member>
+      <member refid="group__GeneralGroup_1ga06de9ebb71a997d3eec5251dc2a1c1e8" kind="function"><name>toDicom</name></member>
       <member refid="group__IOGroup_1gaba5fa9d2b1947f916a3629cde580c30f" kind="function"><name>toRawAutoname</name></member>
       <member refid="group__IOGroup_1gae7faa074ac0a027170b7339a76da566a" kind="function"><name>toRawAutoname</name></member>
       <member refid="group__IOGroup_1gaf3e337da226cefb117434f836e5305cc" kind="function"><name>gridToRawAutoname</name></member>
@@ -141,6 +48,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" line="95" column="1"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" line="98" column="1"/>
   </compounddef>
 </doxygen>

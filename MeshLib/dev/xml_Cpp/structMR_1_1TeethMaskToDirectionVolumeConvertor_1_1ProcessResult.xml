@@ -4,43 +4,17 @@
     <compoundname>MR::TeethMaskToDirectionVolumeConvertor::ProcessResult</compoundname>
     <includes refid="MRTeethMaskToDirectionVolume_8h" local="no">MRTeethMaskToDirectionVolume.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult_1aa8849bb4bffd6166d4ee7359da6b2c31" prot="public" static="no" mutable="no">
-        <type><ref refid="classMR_1_1TeethMaskToDirectionVolumeConvertor_1a4aa7048d9cefc5a963d3583190bea7e1" kindref="member">DirectionVolume</ref></type>
-        <definition>DirectionVolume MR::TeethMaskToDirectionVolumeConvertor::ProcessResult::volume</definition>
-        <argsstring></argsstring>
-        <name>volume</name>
-        <qualifiedname>MR::TeethMaskToDirectionVolumeConvertor::ProcessResult::volume</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRTeethMaskToDirectionVolume.h" line="79" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRTeethMaskToDirectionVolume.h" bodystart="79" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult_1ad47933a9cf1030b769dce59bc9a3d1ab" prot="public" static="no" mutable="no">
-        <type>AffineXf3f</type>
-        <definition>AffineXf3f MR::TeethMaskToDirectionVolumeConvertor::ProcessResult::xf</definition>
-        <argsstring></argsstring>
-        <name>xf</name>
-        <qualifiedname>MR::TeethMaskToDirectionVolumeConvertor::ProcessResult::xf</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRTeethMaskToDirectionVolume.h" line="80" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRTeethMaskToDirectionVolume.h" bodystart="80" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaa8849bb4bffd6166d4ee7359da6b2c31" kind="variable"><name>volume</name></member>
+      <member refid="group__GeneralGroup_1gad47933a9cf1030b769dce59bc9a3d1ab" kind="variable"><name>xf</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRTeethMaskToDirectionVolume.h" line="77" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRTeethMaskToDirectionVolume.h" bodystart="78" bodyend="81"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRTeethMaskToDirectionVolume.h" line="83" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRTeethMaskToDirectionVolume.h" bodystart="84" bodyend="87"/>
     <listofallmembers>
-      <member refid="structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult_1aa8849bb4bffd6166d4ee7359da6b2c31" prot="public" virt="non-virtual"><scope>MR::TeethMaskToDirectionVolumeConvertor::ProcessResult</scope><name>volume</name></member>
-      <member refid="structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult_1ad47933a9cf1030b769dce59bc9a3d1ab" prot="public" virt="non-virtual"><scope>MR::TeethMaskToDirectionVolumeConvertor::ProcessResult</scope><name>xf</name></member>
+      <member refid="group__GeneralGroup_1gaa8849bb4bffd6166d4ee7359da6b2c31" prot="public" virt="non-virtual"><scope>MR::TeethMaskToDirectionVolumeConvertor::ProcessResult</scope><name>volume</name></member>
+      <member refid="group__GeneralGroup_1gad47933a9cf1030b769dce59bc9a3d1ab" prot="public" virt="non-virtual"><scope>MR::TeethMaskToDirectionVolumeConvertor::ProcessResult</scope><name>xf</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

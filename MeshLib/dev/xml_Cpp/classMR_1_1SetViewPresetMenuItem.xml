@@ -5,128 +5,14 @@
     <basecompoundref refid="classMR_1_1RibbonMenuItem" prot="public" virt="non-virtual">MR::RibbonMenuItem</basecompoundref>
     <includes refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h" local="no">MRSceneControlMenuItems.h</includes>
     <sectiondef kind="public-type">
-      <memberdef kind="enum" id="classMR_1_1SetViewPresetMenuItem_1a370683fe5e745d7ea982e94c2ae476dc" prot="public" static="no" strong="yes">
-        <type></type>
-        <name>Type</name>
-        <qualifiedname>MR::SetViewPresetMenuItem::Type</qualifiedname>
-        <enumvalue id="classMR_1_1SetViewPresetMenuItem_1a370683fe5e745d7ea982e94c2ae476dca5835bab1ade0060909e31a06af2e2cde" prot="public">
-          <name>Front</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1SetViewPresetMenuItem_1a370683fe5e745d7ea982e94c2ae476dcaa4ffdcf0dc1f31b9acaf295d75b51d00" prot="public">
-          <name>Top</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1SetViewPresetMenuItem_1a370683fe5e745d7ea982e94c2ae476dca2ad9d63b69c4a10a5cc9cad923133bc4" prot="public">
-          <name>Bottom</name>
-          <initializer>= 3</initializer>
-          <briefdescription>
-<para>2 is skipped </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1SetViewPresetMenuItem_1a370683fe5e745d7ea982e94c2ae476dca945d5e233cf7d6240f6b783b36a374ff" prot="public">
-          <name>Left</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1SetViewPresetMenuItem_1a370683fe5e745d7ea982e94c2ae476dca0557fa923dcee4d0f86b1409f5c2167f" prot="public">
-          <name>Back</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1SetViewPresetMenuItem_1a370683fe5e745d7ea982e94c2ae476dca92b09c7c48c520c3c55e497875da437c" prot="public">
-          <name>Right</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1SetViewPresetMenuItem_1a370683fe5e745d7ea982e94c2ae476dca93fe1f7c5ca2e09af063aca96d0625cc" prot="public">
-          <name>Isometric</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1SetViewPresetMenuItem_1a370683fe5e745d7ea982e94c2ae476dcae93f994f01c537c4e2f7d8528c3eb5e9" prot="public">
-          <name>Count</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" line="50" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" bodystart="51" bodyend="61"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga370683fe5e745d7ea982e94c2ae476dc" kind="enum"><name>Type</name></member>
     </sectiondef>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1SetViewPresetMenuItem_1a164a0f287e6087bc196e1de79c8f2529" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1SetViewPresetMenuItem_1a370683fe5e745d7ea982e94c2ae476dc" kindref="member">Type</ref></type>
-        <definition>Type MR::SetViewPresetMenuItem::type_</definition>
-        <argsstring></argsstring>
-        <name>type_</name>
-        <qualifiedname>MR::SetViewPresetMenuItem::type_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" line="65" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" bodystart="65" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga164a0f287e6087bc196e1de79c8f2529" kind="variable"><name>type_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1SetViewPresetMenuItem_1a51faff0dc6e4224c895240fefd9e06b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::SetViewPresetMenuItem::SetViewPresetMenuItem</definition>
-        <argsstring>(Type type)</argsstring>
-        <name>SetViewPresetMenuItem</name>
-        <qualifiedname>MR::SetViewPresetMenuItem::SetViewPresetMenuItem</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1SetViewPresetMenuItem_1a370683fe5e745d7ea982e94c2ae476dc" kindref="member">Type</ref></type>
-          <declname>type</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" line="62" column="4"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SetViewPresetMenuItem_1a22d459e6dfc41abb30e789e165d22d13" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::SetViewPresetMenuItem::action</definition>
-        <argsstring>() override</argsstring>
-        <name>action</name>
-        <qualifiedname>MR::SetViewPresetMenuItem::action</qualifiedname>
-        <reimplements refid="classMR_1_1RibbonMenuItem_1a4af847e120965263839d2628cf7dd979">action</reimplements>
-        <briefdescription>
-<para>returns true if state of item changed </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" line="63" column="17"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga51faff0dc6e4224c895240fefd9e06b5" kind="function"><name>SetViewPresetMenuItem</name></member>
+      <member refid="group__GeneralGroup_1ga22d459e6dfc41abb30e789e165d22d13" kind="function"><name>action</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -168,28 +54,28 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" line="47" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" bodystart="48" bodyend="66"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" line="50" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" bodystart="51" bodyend="69"/>
     <listofallmembers>
-      <member refid="classMR_1_1SetViewPresetMenuItem_1a22d459e6dfc41abb30e789e165d22d13" prot="public" virt="virtual"><scope>MR::SetViewPresetMenuItem</scope><name>action</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1ac9fd2cbdcf5356c6fbb093464568afdc" prot="public" virt="virtual"><scope>MR::SetViewPresetMenuItem</scope><name>blocking</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a1141be44babb4a13201487188c332668" prot="public" virt="virtual"><scope>MR::SetViewPresetMenuItem</scope><name>dropItems</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a4799011be3410f46444164d6d00b966e" prot="public" virt="non-virtual"><scope>MR::SetViewPresetMenuItem</scope><name>DropItemsList</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a2f25401d4b94a752bd63b79152673ab5" prot="protected" virt="non-virtual"><scope>MR::SetViewPresetMenuItem</scope><name>dropList_</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a88f1487695e2012ebb1cacbc1a59775a" prot="public" virt="virtual"><scope>MR::SetViewPresetMenuItem</scope><name>getDynamicTooltip</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a3b30bb82fe11901e3d971d3b761f5bf2" prot="public" virt="virtual"><scope>MR::SetViewPresetMenuItem</scope><name>isActive</name></member>
-      <member refid="classMR_1_1ISceneStateCheck_1adedf10c80ddfebcb456559fa828065c0" prot="public" virt="virtual"><scope>MR::SetViewPresetMenuItem</scope><name>isAvailable</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a957422a15704b2f8854bfd0b2d1ae76d" prot="public" virt="non-virtual"><scope>MR::SetViewPresetMenuItem</scope><name>MR_DELETE_MOVE</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1abf4ea13c8983c44214b92a066e8b7659" prot="public" virt="non-virtual"><scope>MR::SetViewPresetMenuItem</scope><name>name</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1ad3e0eda49eae11a9fba79187c62e07bb" prot="public" virt="non-virtual"><scope>MR::SetViewPresetMenuItem</scope><name>RibbonMenuItem</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1af417cbe66b6559e5df0122377c5a3628" prot="public" virt="non-virtual"><scope>MR::SetViewPresetMenuItem</scope><name>setDropItemsFromItemList</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1ab499c9049737793e6b1994048b99952c" prot="public" virt="non-virtual"><scope>MR::SetViewPresetMenuItem</scope><name>setRibbonItemType</name></member>
-      <member refid="classMR_1_1SetViewPresetMenuItem_1a51faff0dc6e4224c895240fefd9e06b5" prot="public" virt="non-virtual"><scope>MR::SetViewPresetMenuItem</scope><name>SetViewPresetMenuItem</name></member>
-      <member refid="classMR_1_1SetViewPresetMenuItem_1a370683fe5e745d7ea982e94c2ae476dc" prot="public" virt="non-virtual"><scope>MR::SetViewPresetMenuItem</scope><name>Type</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a15b6a4b9f191b8716be1199364bb74e0" prot="public" virt="virtual"><scope>MR::SetViewPresetMenuItem</scope><name>type</name></member>
-      <member refid="classMR_1_1SetViewPresetMenuItem_1a164a0f287e6087bc196e1de79c8f2529" prot="private" virt="non-virtual"><scope>MR::SetViewPresetMenuItem</scope><name>type_</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a327958b76ec3d044202620beafe67c93" prot="public" virt="virtual"><scope>MR::SetViewPresetMenuItem</scope><name>uiName</name></member>
-      <member refid="classMR_1_1ISceneStateCheck_1ad6d7bd5bc97dd4a629de5e0a33af3afe" prot="public" virt="virtual"><scope>MR::SetViewPresetMenuItem</scope><name>~ISceneStateCheck</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1ac8074b75f1c764d041b11210b5b7541c" prot="public" virt="virtual"><scope>MR::SetViewPresetMenuItem</scope><name>~RibbonMenuItem</name></member>
+      <member refid="group__GeneralGroup_1ga22d459e6dfc41abb30e789e165d22d13" prot="public" virt="virtual"><scope>MR::SetViewPresetMenuItem</scope><name>action</name></member>
+      <member refid="group__GeneralGroup_1gac9fd2cbdcf5356c6fbb093464568afdc" prot="public" virt="virtual"><scope>MR::SetViewPresetMenuItem</scope><name>blocking</name></member>
+      <member refid="group__GeneralGroup_1ga1141be44babb4a13201487188c332668" prot="public" virt="virtual"><scope>MR::SetViewPresetMenuItem</scope><name>dropItems</name></member>
+      <member refid="group__GeneralGroup_1ga4799011be3410f46444164d6d00b966e" prot="public" virt="non-virtual"><scope>MR::SetViewPresetMenuItem</scope><name>DropItemsList</name></member>
+      <member refid="group__GeneralGroup_1ga2f25401d4b94a752bd63b79152673ab5" prot="protected" virt="non-virtual"><scope>MR::SetViewPresetMenuItem</scope><name>dropList_</name></member>
+      <member refid="group__GeneralGroup_1ga88f1487695e2012ebb1cacbc1a59775a" prot="public" virt="virtual"><scope>MR::SetViewPresetMenuItem</scope><name>getDynamicTooltip</name></member>
+      <member refid="group__GeneralGroup_1ga3b30bb82fe11901e3d971d3b761f5bf2" prot="public" virt="virtual"><scope>MR::SetViewPresetMenuItem</scope><name>isActive</name></member>
+      <member refid="group__GeneralGroup_1gadedf10c80ddfebcb456559fa828065c0" prot="public" virt="virtual"><scope>MR::SetViewPresetMenuItem</scope><name>isAvailable</name></member>
+      <member refid="group__GeneralGroup_1ga957422a15704b2f8854bfd0b2d1ae76d" prot="public" virt="non-virtual"><scope>MR::SetViewPresetMenuItem</scope><name>MR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1gabf4ea13c8983c44214b92a066e8b7659" prot="public" virt="non-virtual"><scope>MR::SetViewPresetMenuItem</scope><name>name</name></member>
+      <member refid="group__GeneralGroup_1gad3e0eda49eae11a9fba79187c62e07bb" prot="public" virt="non-virtual"><scope>MR::SetViewPresetMenuItem</scope><name>RibbonMenuItem</name></member>
+      <member refid="group__GeneralGroup_1gaf417cbe66b6559e5df0122377c5a3628" prot="public" virt="non-virtual"><scope>MR::SetViewPresetMenuItem</scope><name>setDropItemsFromItemList</name></member>
+      <member refid="group__GeneralGroup_1gab499c9049737793e6b1994048b99952c" prot="public" virt="non-virtual"><scope>MR::SetViewPresetMenuItem</scope><name>setRibbonItemType</name></member>
+      <member refid="group__GeneralGroup_1ga51faff0dc6e4224c895240fefd9e06b5" prot="public" virt="non-virtual"><scope>MR::SetViewPresetMenuItem</scope><name>SetViewPresetMenuItem</name></member>
+      <member refid="group__GeneralGroup_1ga370683fe5e745d7ea982e94c2ae476dc" prot="public" virt="non-virtual"><scope>MR::SetViewPresetMenuItem</scope><name>Type</name></member>
+      <member refid="group__GeneralGroup_1ga15b6a4b9f191b8716be1199364bb74e0" prot="public" virt="virtual"><scope>MR::SetViewPresetMenuItem</scope><name>type</name></member>
+      <member refid="group__GeneralGroup_1ga164a0f287e6087bc196e1de79c8f2529" prot="private" virt="non-virtual"><scope>MR::SetViewPresetMenuItem</scope><name>type_</name></member>
+      <member refid="group__GeneralGroup_1ga327958b76ec3d044202620beafe67c93" prot="public" virt="virtual"><scope>MR::SetViewPresetMenuItem</scope><name>uiName</name></member>
+      <member refid="group__GeneralGroup_1gad6d7bd5bc97dd4a629de5e0a33af3afe" prot="public" virt="virtual"><scope>MR::SetViewPresetMenuItem</scope><name>~ISceneStateCheck</name></member>
+      <member refid="group__GeneralGroup_1gac8074b75f1c764d041b11210b5b7541c" prot="public" virt="virtual"><scope>MR::SetViewPresetMenuItem</scope><name>~RibbonMenuItem</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

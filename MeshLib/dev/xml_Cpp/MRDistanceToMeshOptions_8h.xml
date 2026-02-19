@@ -8,44 +8,12 @@
     <includedby refid="MRMeshDistance_8h" local="yes">MRMeshDistance.h</includedby>
     <includedby refid="MRPolylineToVoxels_8h" local="yes">MRPolylineToVoxels.h</includedby>
     <incdepgraph>
-      <node id="5">
-        <label>MRMesh/MRCanonicalTypedefs.h</label>
-        <link refid="MRCanonicalTypedefs_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
-      </node>
       <node id="1">
         <label>MRDistanceToMeshOptions.h</label>
         <link refid="MRDistanceToMeshOptions_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-      </node>
-      <node id="6">
-        <label>MRMesh/MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
-      </node>
-      <node id="3">
-        <label>MRMeshFwd.h</label>
-        <link refid="MRMeshFwd_8h"/>
         <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -54,33 +22,11 @@
         <childnode refid="3" relation="include">
         </childnode>
       </node>
+      <node id="3">
+        <label>MRMeshFwd.h</label>
+      </node>
       <node id="4">
-        <label>config.h</label>
-        <link refid="MRMesh_2config_8h"/>
-      </node>
-      <node id="7">
-        <label>MRPch/MRBindingMacros.h</label>
-      </node>
-      <node id="8">
-        <label>array</label>
-      </node>
-      <node id="13">
-        <label>cassert</label>
-      </node>
-      <node id="14">
         <label>cfloat</label>
-      </node>
-      <node id="12">
-        <label>functional</label>
-      </node>
-      <node id="11">
-        <label>parallel_hashmap/phmap_fwd_decl.h</label>
-      </node>
-      <node id="10">
-        <label>string</label>
-      </node>
-      <node id="9">
-        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
@@ -128,26 +74,27 @@
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight></codeline>
-<codeline lineno="10" refid="structMR_1_1DistanceToMeshOptions" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1DistanceToMeshOptions" kindref="compound">DistanceToMeshOptions</ref></highlight></codeline>
-<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="13" refid="structMR_1_1DistanceToMeshOptions_1ae2fa63f37be78f78cc9c0146c30c913f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1DistanceToMeshOptions_1ae2fa63f37be78f78cc9c0146c30c913f" kindref="member">minDistSq</ref>{<sp/>0<sp/>};</highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="structMR_1_1DistanceToMeshOptions_1af424f0c5bd2d65e33086d7e590836580" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1DistanceToMeshOptions_1af424f0c5bd2d65e33086d7e590836580" kindref="member">maxDistSq</ref>{<sp/>FLT_MAX<sp/>};</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="structMR_1_1DistanceToMeshOptions" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1DistanceToMeshOptions" kindref="compound">DistanceToMeshOptions</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16" refid="group__GeneralGroup_1gae2fa63f37be78f78cc9c0146c30c913f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae2fa63f37be78f78cc9c0146c30c913f" kindref="member">minDistSq</ref>{<sp/>0<sp/>};</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23" refid="structMR_1_1DistanceToMeshOptions_1a73856ad91f795ce44772d1494538b46d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1DistanceToMeshOptions_1a73856ad91f795ce44772d1494538b46d" kindref="member">nullOutsideMinMax</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28" refid="structMR_1_1DistanceToMeshOptions_1a32a5670750d3aecf21776f2fe2ad28d9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1DistanceToMeshOptions_1a32a5670750d3aecf21776f2fe2ad28d9" kindref="member">windingNumberThreshold</ref><sp/>=<sp/>0.5f;</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32" refid="structMR_1_1DistanceToMeshOptions_1a760f0917e02d32cbd6a708966ef922a5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1DistanceToMeshOptions_1a760f0917e02d32cbd6a708966ef922a5" kindref="member">windingNumberBeta</ref><sp/>=<sp/>2;</highlight></codeline>
-<codeline lineno="33"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="structMR_1_1SignedDistanceToMeshOptions" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1SignedDistanceToMeshOptions" kindref="compound">SignedDistanceToMeshOptions</ref><sp/>:<sp/><ref refid="structMR_1_1DistanceToMeshOptions" kindref="compound">DistanceToMeshOptions</ref></highlight></codeline>
-<codeline lineno="37"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="39" refid="structMR_1_1SignedDistanceToMeshOptions_1a0cd9e5d7a7828694eccf3cd8a455f47e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a03fba1fe0e5d6fe3c22dc41c9d57d309" kindref="member">SignDetectionMode</ref><sp/><ref refid="structMR_1_1SignedDistanceToMeshOptions_1a0cd9e5d7a7828694eccf3cd8a455f47e" kindref="member">signMode</ref>{<sp/><ref refid="namespaceMR_1a03fba1fe0e5d6fe3c22dc41c9d57d309a17670c4544b47c1acf63b776209440a9" kindref="member">SignDetectionMode::ProjectionNormal</ref><sp/>};</highlight></codeline>
-<codeline lineno="40"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="19" refid="group__GeneralGroup_1gaf424f0c5bd2d65e33086d7e590836580" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf424f0c5bd2d65e33086d7e590836580" kindref="member">maxDistSq</ref>{<sp/>FLT_MAX<sp/>};</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="group__GeneralGroup_1ga73856ad91f795ce44772d1494538b46d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga73856ad91f795ce44772d1494538b46d" kindref="member">nullOutsideMinMax</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="group__GeneralGroup_1ga32a5670750d3aecf21776f2fe2ad28d9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga32a5670750d3aecf21776f2fe2ad28d9" kindref="member">windingNumberThreshold</ref><sp/>=<sp/>0.5f;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="group__GeneralGroup_1ga760f0917e02d32cbd6a708966ef922a5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga760f0917e02d32cbd6a708966ef922a5" kindref="member">windingNumberBeta</ref><sp/>=<sp/>2;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="structMR_1_1SignedDistanceToMeshOptions" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1SignedDistanceToMeshOptions" kindref="compound">SignedDistanceToMeshOptions</ref><sp/>:<sp/><ref refid="structMR_1_1DistanceToMeshOptions" kindref="compound">DistanceToMeshOptions</ref></highlight></codeline>
+<codeline lineno="40"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="42" refid="group__GeneralGroup_1ga0cd9e5d7a7828694eccf3cd8a455f47e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga03fba1fe0e5d6fe3c22dc41c9d57d309" kindref="member">SignDetectionMode</ref><sp/><ref refid="group__GeneralGroup_1ga0cd9e5d7a7828694eccf3cd8a455f47e" kindref="member">signMode</ref>{<sp/><ref refid="group__GeneralGroup_1gga03fba1fe0e5d6fe3c22dc41c9d57d309a17670c4544b47c1acf63b776209440a9" kindref="member">SignDetectionMode::ProjectionNormal</ref><sp/>};</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}<sp/></highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceToMeshOptions.h"/>
   </compounddef>

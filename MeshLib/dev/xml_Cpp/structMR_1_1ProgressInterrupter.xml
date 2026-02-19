@@ -5,106 +5,17 @@
     <basecompoundref prot="public" virt="non-virtual">openvdb::util::NullInterrupter</basecompoundref>
     <includes refid="MRVDBProgressInterrupter_8h" local="no">MRVDBProgressInterrupter.h</includes>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="structMR_1_1ProgressInterrupter_1a6741a2f239c77c48cc98dcc1be451e75" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::ProgressInterrupter::wasInterrupted_</definition>
-        <argsstring></argsstring>
-        <name>wasInterrupted_</name>
-        <qualifiedname>MR::ProgressInterrupter::wasInterrupted_</qualifiedname>
-        <initializer>{ false }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBProgressInterrupter.h" line="29" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBProgressInterrupter.h" bodystart="29" bodyend="29"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ProgressInterrupter_1a0bfad00f21a4543393c77f032c8d42a5" prot="private" static="no" mutable="no">
-        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
-        <definition>ProgressCallback MR::ProgressInterrupter::cb_</definition>
-        <argsstring></argsstring>
-        <name>cb_</name>
-        <qualifiedname>MR::ProgressInterrupter::cb_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBProgressInterrupter.h" line="30" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBProgressInterrupter.h" bodystart="30" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ProgressInterrupter_1a92e306ef03effb1a14d27dd4027a65b2" prot="private" static="no" mutable="no">
-        <type>std::thread::id</type>
-        <definition>std::thread::id MR::ProgressInterrupter::progressThreadId_</definition>
-        <argsstring></argsstring>
-        <name>progressThreadId_</name>
-        <qualifiedname>MR::ProgressInterrupter::progressThreadId_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBProgressInterrupter.h" line="31" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBProgressInterrupter.h" bodystart="31" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga6741a2f239c77c48cc98dcc1be451e75" kind="variable"><name>wasInterrupted_</name></member>
+      <member refid="group__GeneralGroup_1ga0bfad00f21a4543393c77f032c8d42a5" kind="variable"><name>cb_</name></member>
+      <member refid="group__GeneralGroup_1ga92e306ef03effb1a14d27dd4027a65b2" kind="variable"><name>progressThreadId_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1ProgressInterrupter_1ad4f40f015b6a225a963200f8fced9ea8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::ProgressInterrupter::ProgressInterrupter</definition>
-        <argsstring>(ProgressCallback cb)</argsstring>
-        <name>ProgressInterrupter</name>
-        <qualifiedname>MR::ProgressInterrupter::ProgressInterrupter</qualifiedname>
-        <param>
-          <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
-          <declname>cb</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBProgressInterrupter.h" line="16" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBProgressInterrupter.h" bodystart="16" bodyend="17"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1ProgressInterrupter_1aa7c319b39d9ff06438f19d5c5306139e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::ProgressInterrupter::wasInterrupted</definition>
-        <argsstring>(int percent=-1) override</argsstring>
-        <name>wasInterrupted</name>
-        <qualifiedname>MR::ProgressInterrupter::wasInterrupted</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>percent</declname>
-          <defval>-1</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-<para>OpenVdb uses worker threads from pool, in addition to the caller thread. It is assumed that the callback is periodically called in the caller thread.</para>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBProgressInterrupter.h" line="18" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBProgressInterrupter.h" bodystart="18" bodyend="25"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1ProgressInterrupter_1a448f23c735ae1b223b8b928ff4a2deb3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::ProgressInterrupter::getWasInterrupted</definition>
-        <argsstring>() const</argsstring>
-        <name>getWasInterrupted</name>
-        <qualifiedname>MR::ProgressInterrupter::getWasInterrupted</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBProgressInterrupter.h" line="26" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBProgressInterrupter.h" bodystart="26" bodyend="26"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gad4f40f015b6a225a963200f8fced9ea8" kind="function"><name>ProgressInterrupter</name></member>
+      <member refid="group__GeneralGroup_1gaa7c319b39d9ff06438f19d5c5306139e" kind="function"><name>wasInterrupted</name></member>
+      <member refid="group__GeneralGroup_1ga448f23c735ae1b223b8b928ff4a2deb3" kind="function"><name>getWasInterrupted</name></member>
     </sectiondef>
     <briefdescription>
-<para>This class implements OpenVdb interrupter interface and provides ability to use <ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">MR::ProgressCallback</ref> in some OpenVdb operations. </para>
+<para>This class implements OpenVdb interrupter interface and provides ability to use MR::ProgressCallback in some OpenVdb operations. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -130,14 +41,14 @@
         <label>openvdb::util::NullInterrupter</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBProgressInterrupter.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBProgressInterrupter.h" bodystart="15" bodyend="32"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBProgressInterrupter.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBProgressInterrupter.h" bodystart="18" bodyend="35"/>
     <listofallmembers>
-      <member refid="structMR_1_1ProgressInterrupter_1a0bfad00f21a4543393c77f032c8d42a5" prot="private" virt="non-virtual"><scope>MR::ProgressInterrupter</scope><name>cb_</name></member>
-      <member refid="structMR_1_1ProgressInterrupter_1a448f23c735ae1b223b8b928ff4a2deb3" prot="public" virt="non-virtual"><scope>MR::ProgressInterrupter</scope><name>getWasInterrupted</name></member>
-      <member refid="structMR_1_1ProgressInterrupter_1ad4f40f015b6a225a963200f8fced9ea8" prot="public" virt="non-virtual"><scope>MR::ProgressInterrupter</scope><name>ProgressInterrupter</name></member>
-      <member refid="structMR_1_1ProgressInterrupter_1a92e306ef03effb1a14d27dd4027a65b2" prot="private" virt="non-virtual"><scope>MR::ProgressInterrupter</scope><name>progressThreadId_</name></member>
-      <member refid="structMR_1_1ProgressInterrupter_1aa7c319b39d9ff06438f19d5c5306139e" prot="public" virt="virtual"><scope>MR::ProgressInterrupter</scope><name>wasInterrupted</name></member>
-      <member refid="structMR_1_1ProgressInterrupter_1a6741a2f239c77c48cc98dcc1be451e75" prot="private" virt="non-virtual"><scope>MR::ProgressInterrupter</scope><name>wasInterrupted_</name></member>
+      <member refid="group__GeneralGroup_1ga0bfad00f21a4543393c77f032c8d42a5" prot="private" virt="non-virtual"><scope>MR::ProgressInterrupter</scope><name>cb_</name></member>
+      <member refid="group__GeneralGroup_1ga448f23c735ae1b223b8b928ff4a2deb3" prot="public" virt="non-virtual"><scope>MR::ProgressInterrupter</scope><name>getWasInterrupted</name></member>
+      <member refid="group__GeneralGroup_1gad4f40f015b6a225a963200f8fced9ea8" prot="public" virt="non-virtual"><scope>MR::ProgressInterrupter</scope><name>ProgressInterrupter</name></member>
+      <member refid="group__GeneralGroup_1ga92e306ef03effb1a14d27dd4027a65b2" prot="private" virt="non-virtual"><scope>MR::ProgressInterrupter</scope><name>progressThreadId_</name></member>
+      <member refid="group__GeneralGroup_1gaa7c319b39d9ff06438f19d5c5306139e" prot="public" virt="virtual"><scope>MR::ProgressInterrupter</scope><name>wasInterrupted</name></member>
+      <member refid="group__GeneralGroup_1ga6741a2f239c77c48cc98dcc1be451e75" prot="private" virt="non-virtual"><scope>MR::ProgressInterrupter</scope><name>wasInterrupted_</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

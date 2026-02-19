@@ -4,62 +4,20 @@
     <compoundname>MR::RibbonMenu::DrawGroupConfig</compoundname>
     <includes refid="MRRibbonMenu_8h" local="no">MRRibbonMenu.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1RibbonMenu_1_1DrawGroupConfig_1acb4f5276bb05eca21c715df15a42b6e5" prot="public" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::RibbonMenu::DrawGroupConfig::numBig</definition>
-        <argsstring></argsstring>
-        <name>numBig</name>
-        <qualifiedname>MR::RibbonMenu::DrawGroupConfig::numBig</qualifiedname>
-        <initializer>{ 0 }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="153" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="153" bodyend="153"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1RibbonMenu_1_1DrawGroupConfig_1a2c5115679d5b077be3479e377e7951b1" prot="public" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::RibbonMenu::DrawGroupConfig::numSmallText</definition>
-        <argsstring></argsstring>
-        <name>numSmallText</name>
-        <qualifiedname>MR::RibbonMenu::DrawGroupConfig::numSmallText</qualifiedname>
-        <initializer>{ 0 }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="154" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="154" bodyend="154"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1RibbonMenu_1_1DrawGroupConfig_1a0b1bb44ee2f0cfdbab7b516b3ce2a6f8" prot="public" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::RibbonMenu::DrawGroupConfig::numSmall</definition>
-        <argsstring></argsstring>
-        <name>numSmall</name>
-        <qualifiedname>MR::RibbonMenu::DrawGroupConfig::numSmall</qualifiedname>
-        <initializer>{ 0 }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="155" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="155" bodyend="155"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gacb4f5276bb05eca21c715df15a42b6e5" kind="variable"><name>numBig</name></member>
+      <member refid="group__GeneralGroup_1ga2c5115679d5b077be3479e377e7951b1" kind="variable"><name>numSmallText</name></member>
+      <member refid="group__GeneralGroup_1ga0b1bb44ee2f0cfdbab7b516b3ce2a6f8" kind="variable"><name>numSmall</name></member>
     </sectiondef>
     <briefdescription>
 <para>Configuration of ribbon group. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="151" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="152" bodyend="156"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="154" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="155" bodyend="159"/>
     <listofallmembers>
-      <member refid="structMR_1_1RibbonMenu_1_1DrawGroupConfig_1acb4f5276bb05eca21c715df15a42b6e5" prot="public" virt="non-virtual"><scope>MR::RibbonMenu::DrawGroupConfig</scope><name>numBig</name></member>
-      <member refid="structMR_1_1RibbonMenu_1_1DrawGroupConfig_1a0b1bb44ee2f0cfdbab7b516b3ce2a6f8" prot="public" virt="non-virtual"><scope>MR::RibbonMenu::DrawGroupConfig</scope><name>numSmall</name></member>
-      <member refid="structMR_1_1RibbonMenu_1_1DrawGroupConfig_1a2c5115679d5b077be3479e377e7951b1" prot="public" virt="non-virtual"><scope>MR::RibbonMenu::DrawGroupConfig</scope><name>numSmallText</name></member>
+      <member refid="group__GeneralGroup_1gacb4f5276bb05eca21c715df15a42b6e5" prot="public" virt="non-virtual"><scope>MR::RibbonMenu::DrawGroupConfig</scope><name>numBig</name></member>
+      <member refid="group__GeneralGroup_1ga0b1bb44ee2f0cfdbab7b516b3ce2a6f8" prot="public" virt="non-virtual"><scope>MR::RibbonMenu::DrawGroupConfig</scope><name>numSmall</name></member>
+      <member refid="group__GeneralGroup_1ga2c5115679d5b077be3479e377e7951b1" prot="public" virt="non-virtual"><scope>MR::RibbonMenu::DrawGroupConfig</scope><name>numSmallText</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

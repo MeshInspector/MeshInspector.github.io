@@ -6,7 +6,7 @@
     <innerclass refid="structMR_1_1MeshSave_1_1NamedXfMesh" prot="public">MR::MeshSave::NamedXfMesh</innerclass>
     <sectiondef kind="func">
       <memberdef kind="function" id="group__MeshSaveObjGroup_1gae3dd1ca3146e809db153793012e27d06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; void &gt;</type>
+        <type>MRMESH_API Expected&lt; void &gt;</type>
         <definition>MRMESH_API Expected&lt; void &gt; MR::MeshSave::sceneToObj</definition>
         <argsstring>(const std::vector&lt; NamedXfMesh &gt; &amp;objects, const std::filesystem::path &amp;file, VertColors *colors=nullptr)</argsstring>
         <name>sceneToObj</name>
@@ -33,7 +33,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSaveObj.h" line="27" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSaveObj.h" declline="27" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshSaveObjGroup_1ga900edeee86233fa89b5303ab4ea9fdcd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; void &gt;</type>
+        <type>MRMESH_API Expected&lt; void &gt;</type>
         <definition>MRMESH_API Expected&lt; void &gt; MR::MeshSave::sceneToObj</definition>
         <argsstring>(const std::vector&lt; NamedXfMesh &gt; &amp;objects, std::ostream &amp;out, VertColors *colors=nullptr)</argsstring>
         <name>sceneToObj</name>

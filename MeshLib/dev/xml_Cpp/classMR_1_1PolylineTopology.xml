@@ -5,1255 +5,138 @@
     <includes refid="MRPolylineTopology_8h" local="no">MRPolylineTopology.h</includes>
     <innerclass refid="structMR_1_1PolylineTopology_1_1HalfEdgeRecord" prot="private">MR::PolylineTopology::HalfEdgeRecord</innerclass>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1PolylineTopology_1a2607d8887f6044755fdbf22e2fb5e8d8" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; HalfEdgeRecord, EdgeId &gt;</type>
-        <definition>Vector&lt;HalfEdgeRecord, EdgeId&gt; MR::PolylineTopology::edges_</definition>
-        <argsstring></argsstring>
-        <name>edges_</name>
-        <qualifiedname>MR::PolylineTopology::edges_</qualifiedname>
-        <briefdescription>
-<para>edges_: EdgeId -&gt; edge data </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="225" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" bodystart="225" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1PolylineTopology_1a1cb7e2ad01e871018356fd2fb3fbe264" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; EdgeId, VertId &gt;</type>
-        <definition>Vector&lt;EdgeId, VertId&gt; MR::PolylineTopology::edgePerVertex_</definition>
-        <argsstring></argsstring>
-        <name>edgePerVertex_</name>
-        <qualifiedname>MR::PolylineTopology::edgePerVertex_</qualifiedname>
-        <briefdescription>
-<para>edgePerVertex_: VertId -&gt; one edge id of one of edges with origin there </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="228" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" bodystart="228" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1PolylineTopology_1a9d384fcc8bc38ec3d2460b47823cab22" prot="private" static="no" mutable="no">
-        <type>VertBitSet</type>
-        <definition>VertBitSet MR::PolylineTopology::validVerts_</definition>
-        <argsstring></argsstring>
-        <name>validVerts_</name>
-        <qualifiedname>MR::PolylineTopology::validVerts_</qualifiedname>
-        <briefdescription>
-<para>each true bit here corresponds to valid element in edgePerVertex_ </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="229" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" bodystart="229" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1PolylineTopology_1a8ae49dd8deaa3ed4c31c374c81d80e44" prot="private" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::PolylineTopology::numValidVerts_</definition>
-        <argsstring></argsstring>
-        <name>numValidVerts_</name>
-        <qualifiedname>MR::PolylineTopology::numValidVerts_</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-<para>the number of valid elements in edgePerVertex_ or set bits in validVerts_ </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="230" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" bodystart="230" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga2607d8887f6044755fdbf22e2fb5e8d8" kind="variable"><name>edges_</name></member>
+      <member refid="group__GeneralGroup_1ga1cb7e2ad01e871018356fd2fb3fbe264" kind="variable"><name>edgePerVertex_</name></member>
+      <member refid="group__GeneralGroup_1ga9d384fcc8bc38ec3d2460b47823cab22" kind="variable"><name>validVerts_</name></member>
+      <member refid="group__GeneralGroup_1ga8ae49dd8deaa3ed4c31c374c81d80e44" kind="variable"><name>numValidVerts_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1aab7fc1ff330a8a3945824279673d2311" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename T</type>
-          </param>
-          <param>
-            <type>typename F1</type>
-          </param>
-          <param>
-            <type>typename F2</type>
-          </param>
-        </templateparamlist>
-        <type>void</type>
-        <definition>void MR::PolylineTopology::buildFromContours</definition>
-        <argsstring>(const std::vector&lt; std::vector&lt; T &gt; &gt; &amp;contours, F1 &amp;&amp;reservePoints, F2 &amp;&amp;addPoint)</argsstring>
-        <name>buildFromContours</name>
-        <qualifiedname>MR::PolylineTopology::buildFromContours</qualifiedname>
-        <param>
-          <type>const std::vector&lt; std::vector&lt; T &gt; &gt; &amp;</type>
-          <declname>contours</declname>
-        </param>
-        <param>
-          <type>F1 &amp;&amp;</type>
-          <declname>reservePoints</declname>
-        </param>
-        <param>
-          <type>F2 &amp;&amp;</type>
-          <declname>addPoint</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>builds this topology from given contours</para>
-<para>also builds the vector of referenced points using two functors: reserve and add <linebreak/>
-if all even edges are consistently oriented, then the output contours will be oriented the same </para>
-        </detaileddescription>
-        <inbodydescription>
-<para>ignore contours with 0 or 1 points because of no edges in them</para>
-<para>ignore contours with 0 or 1 points because of no edges in them</para>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="21" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" bodystart="234" bodyend="291"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1a79f6690f59e171ae1b4173dad9c57c5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::PolylineTopology::buildOpenLines</definition>
-        <argsstring>(const std::vector&lt; VertId &gt; &amp;comp2firstVert)</argsstring>
-        <name>buildOpenLines</name>
-        <qualifiedname>MR::PolylineTopology::buildOpenLines</qualifiedname>
-        <param>
-          <type>const std::vector&lt; VertId &gt; &amp;</type>
-          <declname>comp2firstVert</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>build topology of comp2firstVert.size()-1 not-closed polylines each pair (a,b) of indices in<parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>comp2firstVert</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>defines vertex range of a polyline [a,b) </para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="25" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1adc8d16b6b6bf938f6dbe4f96fc768825" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename T</type>
-          </param>
-          <param>
-            <type>typename F</type>
-          </param>
-        </templateparamlist>
-        <type>std::vector&lt; std::vector&lt; T &gt; &gt;</type>
-        <definition>std::vector&lt; std::vector&lt; T &gt; &gt; MR::PolylineTopology::convertToContours</definition>
-        <argsstring>(F &amp;&amp;getPoint, std::vector&lt; std::vector&lt; VertId &gt; &gt; *vertMap=nullptr) const</argsstring>
-        <name>convertToContours</name>
-        <qualifiedname>MR::PolylineTopology::convertToContours</qualifiedname>
-        <param>
-          <type>F &amp;&amp;</type>
-          <declname>getPoint</declname>
-        </param>
-        <param>
-          <type>std::vector&lt; std::vector&lt; VertId &gt; &gt; *</type>
-          <declname>vertMap</declname>
-          <defval>nullptr</defval>
-        </param>
-        <briefdescription>
-<para>converts this topology into contours of given type using the functor returning point by its <ref refid="classMR_1_1Id" kindref="compound">Id</ref> </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-<para>until contour start is reached</para>
-<para>the contour is closed</para>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="29" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" bodystart="294" bodyend="337"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1a45f9c4c6c22c11a8dc7eae9eefc3e265" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> EdgeId</type>
-        <definition>MRMESH_API EdgeId MR::PolylineTopology::makeEdge</definition>
-        <argsstring>()</argsstring>
-        <name>makeEdge</name>
-        <qualifiedname>MR::PolylineTopology::makeEdge</qualifiedname>
-        <briefdescription>
-<para>creates an edge not associated with any vertex </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="32" column="24"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1a4543a9f8d087efb6b31004efd75ca825" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> EdgeId</type>
-        <definition>MRMESH_API EdgeId MR::PolylineTopology::makeEdge</definition>
-        <argsstring>(VertId a, VertId b, EdgeId e={})</argsstring>
-        <name>makeEdge</name>
-        <qualifiedname>MR::PolylineTopology::makeEdge</qualifiedname>
-        <param>
-          <type>VertId</type>
-          <declname>a</declname>
-        </param>
-        <param>
-          <type>VertId</type>
-          <declname>b</declname>
-        </param>
-        <param>
-          <type>EdgeId</type>
-          <declname>e</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>makes an edge connecting vertices a and b <parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>e</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>if valid then the function does not make new edge, but connects the vertices using given one (and returns it)</para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-if 1) any of the vertices is invalid or not within the <ref refid="classMR_1_1PolylineTopology_1a9574f81615523ac5fe203e1648765942" kindref="member">vertSize()</ref>, 2) or a==b, 3) or either a or b already has 2 incident edges, 4) given edge e is not lone or not within the <ref refid="classMR_1_1PolylineTopology_1a7308421016a4a943460946176b524bc8" kindref="member">edgeSize()</ref> then makeEdge(a,b) does nothing and returns invalid edge </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="42" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1a1373fb92a0666b9654be8a4930bf66c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> int</type>
-        <definition>MRMESH_API int MR::PolylineTopology::makeEdges</definition>
-        <argsstring>(const Edges &amp;edges)</argsstring>
-        <name>makeEdges</name>
-        <qualifiedname>MR::PolylineTopology::makeEdges</qualifiedname>
-        <param>
-          <type>const <ref refid="MRObjectMeshHolder_8h_1a29d14b75d26970bc256e90bf11c3f0e5" kindref="member">Edges</ref> &amp;</type>
-          <declname>edges</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>for every given edge[ue] calls makeEdge( edge[ue][0], edge[ue][1], ue ), making new edges so that edges.size() &lt;= <ref refid="classMR_1_1PolylineTopology_1a061dd907ada10af2d8ed533c49f4b0ab" kindref="member">undirectedEdgeSize()</ref> at the end <simplesect kind="return"><para>the total number of edges created </para>
-</simplesect>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="46" column="20"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1a0a9412a90e63fc7a356cd7098e1f8ad6" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
-        <definition>MRMESH_API bool MR::PolylineTopology::isLoneEdge</definition>
-        <argsstring>(EdgeId a) const</argsstring>
-        <name>isLoneEdge</name>
-        <qualifiedname>MR::PolylineTopology::isLoneEdge</qualifiedname>
-        <param>
-          <type>EdgeId</type>
-          <declname>a</declname>
-        </param>
-        <briefdescription>
-<para>checks whether the edge is disconnected from all other edges and disassociated from all vertices (as if after makeEdge) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="49" column="22"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1a8438991d4426ef42af59252baf922b54" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> UndirectedEdgeId</type>
-        <definition>MRMESH_API UndirectedEdgeId MR::PolylineTopology::lastNotLoneUndirectedEdge</definition>
-        <argsstring>() const</argsstring>
-        <name>lastNotLoneUndirectedEdge</name>
-        <qualifiedname>MR::PolylineTopology::lastNotLoneUndirectedEdge</qualifiedname>
-        <briefdescription>
-<para>returns last not lone undirected edge id, or invalid id if no such edge exists </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="52" column="34"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1a33c3aacafb6ce19a620996cd32878639" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>EdgeId</type>
-        <definition>EdgeId MR::PolylineTopology::lastNotLoneEdge</definition>
-        <argsstring>() const</argsstring>
-        <name>lastNotLoneEdge</name>
-        <qualifiedname>MR::PolylineTopology::lastNotLoneEdge</qualifiedname>
-        <briefdescription>
-<para>returns last not lone edge id, or invalid id if no such edge exists </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="55" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" bodystart="55" bodyend="55"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1a7308421016a4a943460946176b524bc8" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>size_t</type>
-        <definition>size_t MR::PolylineTopology::edgeSize</definition>
-        <argsstring>() const</argsstring>
-        <name>edgeSize</name>
-        <qualifiedname>MR::PolylineTopology::edgeSize</qualifiedname>
-        <briefdescription>
-<para>returns the number of half-edge records including lone ones </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="58" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" bodystart="58" bodyend="58"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1ac0ebbe561720059f815c339a5a2d7607" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>size_t</type>
-        <definition>size_t MR::PolylineTopology::edgeCapacity</definition>
-        <argsstring>() const</argsstring>
-        <name>edgeCapacity</name>
-        <qualifiedname>MR::PolylineTopology::edgeCapacity</qualifiedname>
-        <briefdescription>
-<para>returns the number of allocated edge records </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="61" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" bodystart="61" bodyend="61"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1a061dd907ada10af2d8ed533c49f4b0ab" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>size_t</type>
-        <definition>size_t MR::PolylineTopology::undirectedEdgeSize</definition>
-        <argsstring>() const</argsstring>
-        <name>undirectedEdgeSize</name>
-        <qualifiedname>MR::PolylineTopology::undirectedEdgeSize</qualifiedname>
-        <briefdescription>
-<para>returns the number of undirected edges (pairs of half-edges) including lone ones </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="64" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" bodystart="64" bodyend="64"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1af60df47c2413fe61618210b292dde6c0" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>size_t</type>
-        <definition>size_t MR::PolylineTopology::undirectedEdgeCapacity</definition>
-        <argsstring>() const</argsstring>
-        <name>undirectedEdgeCapacity</name>
-        <qualifiedname>MR::PolylineTopology::undirectedEdgeCapacity</qualifiedname>
-        <briefdescription>
-<para>returns the number of allocated undirected edges (pairs of half-edges) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="67" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" bodystart="67" bodyend="67"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1a300d2568ddd2b3174c3fb76468f8b508" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> size_t</type>
-        <definition>MRMESH_API size_t MR::PolylineTopology::computeNotLoneUndirectedEdges</definition>
-        <argsstring>() const</argsstring>
-        <name>computeNotLoneUndirectedEdges</name>
-        <qualifiedname>MR::PolylineTopology::computeNotLoneUndirectedEdges</qualifiedname>
-        <briefdescription>
-<para>computes the number of not-lone (valid) undirected edges </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="70" column="24"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1aa5cb50f06372f350dcdd3dbc747a0615" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::PolylineTopology::edgeReserve</definition>
-        <argsstring>(size_t newCapacity)</argsstring>
-        <name>edgeReserve</name>
-        <qualifiedname>MR::PolylineTopology::edgeReserve</qualifiedname>
-        <param>
-          <type>size_t</type>
-          <declname>newCapacity</declname>
-        </param>
-        <briefdescription>
-<para>sets the capacity of half-edges vector </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="73" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" bodystart="73" bodyend="73"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1ae20a806936450b9f38d28938a2721f47" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::PolylineTopology::hasEdge</definition>
-        <argsstring>(EdgeId e) const</argsstring>
-        <name>hasEdge</name>
-        <qualifiedname>MR::PolylineTopology::hasEdge</qualifiedname>
-        <param>
-          <type>EdgeId</type>
-          <declname>e</declname>
-        </param>
-        <briefdescription>
-<para>returns true if given edge is within valid range and not-lone </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="76" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" bodystart="76" bodyend="76"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1accfc9bf6f65ba9970b56e62b12d0a137" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::PolylineTopology::deleteEdge</definition>
-        <argsstring>(UndirectedEdgeId ue)</argsstring>
-        <name>deleteEdge</name>
-        <qualifiedname>MR::PolylineTopology::deleteEdge</qualifiedname>
-        <param>
-          <type>UndirectedEdgeId</type>
-          <declname>ue</declname>
-        </param>
-        <briefdescription>
-<para>given edge becomes lone after the call, so it is un-spliced from connected edges, and if it was not connected at origin or destination, then that vertex is deleted as well </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="79" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1a05522cda7542b9f691746c69df58166d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::PolylineTopology::deleteEdges</definition>
-        <argsstring>(const UndirectedEdgeBitSet &amp;es)</argsstring>
-        <name>deleteEdges</name>
-        <qualifiedname>MR::PolylineTopology::deleteEdges</qualifiedname>
-        <param>
-          <type>const UndirectedEdgeBitSet &amp;</type>
-          <declname>es</declname>
-        </param>
-        <briefdescription>
-<para>calls deleteEdge for every set bit </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="82" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1a6963aa721648b337a9389e17079da6fb" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> size_t</type>
-        <definition>MRMESH_API size_t MR::PolylineTopology::heapBytes</definition>
-        <argsstring>() const</argsstring>
-        <name>heapBytes</name>
-        <qualifiedname>MR::PolylineTopology::heapBytes</qualifiedname>
-        <briefdescription>
-<para>returns the amount of memory this object occupies on heap </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="85" column="24"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1a8f29ab7ae897a36090147354d08f7838" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::PolylineTopology::splice</definition>
-        <argsstring>(EdgeId a, EdgeId b)</argsstring>
-        <name>splice</name>
-        <qualifiedname>MR::PolylineTopology::splice</qualifiedname>
-        <param>
-          <type>EdgeId</type>
-          <declname>a</declname>
-        </param>
-        <param>
-          <type>EdgeId</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>given two half edges do either of two: <linebreak/>
-1) if a and b were from distinct rings, puts them in one ring; <linebreak/>
-2) if a and b were from the same ring, puts them in separate rings;</para>
-<para>the cut in rings in both cases is made after a and b </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="91" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1a2f084506ce79585cbe3b2ae0a1339181" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>EdgeId</type>
-        <definition>EdgeId MR::PolylineTopology::next</definition>
-        <argsstring>(EdgeId he) const</argsstring>
-        <name>next</name>
-        <qualifiedname>MR::PolylineTopology::next</qualifiedname>
-        <param>
-          <type>EdgeId</type>
-          <declname>he</declname>
-        </param>
-        <briefdescription>
-<para>next (counter clock wise) half-edge in the origin ring </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="94" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" bodystart="94" bodyend="94"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1a83ae0dea7e79cff8a04e1b543091b1a2" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>VertId</type>
-        <definition>VertId MR::PolylineTopology::org</definition>
-        <argsstring>(EdgeId he) const</argsstring>
-        <name>org</name>
-        <qualifiedname>MR::PolylineTopology::org</qualifiedname>
-        <param>
-          <type>EdgeId</type>
-          <declname>he</declname>
-        </param>
-        <briefdescription>
-<para>returns origin vertex of half-edge </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="97" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" bodystart="97" bodyend="97"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1abd4c389cdede17b6366df788ab591739" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>VertId</type>
-        <definition>VertId MR::PolylineTopology::dest</definition>
-        <argsstring>(EdgeId he) const</argsstring>
-        <name>dest</name>
-        <qualifiedname>MR::PolylineTopology::dest</qualifiedname>
-        <param>
-          <type>EdgeId</type>
-          <declname>he</declname>
-        </param>
-        <briefdescription>
-<para>returns destination vertex of half-edge </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="100" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" bodystart="100" bodyend="100"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1a3ea5840c83dc66df34991a904b767843" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::PolylineTopology::setOrg</definition>
-        <argsstring>(EdgeId a, VertId v)</argsstring>
-        <name>setOrg</name>
-        <qualifiedname>MR::PolylineTopology::setOrg</qualifiedname>
-        <param>
-          <type>EdgeId</type>
-          <declname>a</declname>
-        </param>
-        <param>
-          <type>VertId</type>
-          <declname>v</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>sets new origin to the full origin ring including this edge</para>
-<para>edgePerVertex_ table is updated accordingly </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="104" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1a838e6a01b85575bf999c154f00ba9a90" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const <ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; EdgeId, VertId &gt; &amp;</type>
-        <definition>const Vector&lt; EdgeId, VertId &gt; &amp; MR::PolylineTopology::edgePerVertex</definition>
-        <argsstring>() const</argsstring>
-        <name>edgePerVertex</name>
-        <qualifiedname>MR::PolylineTopology::edgePerVertex</qualifiedname>
-        <briefdescription>
-<para>for all valid vertices this vector contains an edge with the origin there </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="107" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" bodystart="107" bodyend="107"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1aac8bb7a1725feb34f6a12bf8e0cb0acb" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; VertId, EdgeId &gt;</type>
-        <definition>MRMESH_API Vector&lt; VertId, EdgeId &gt; MR::PolylineTopology::getOrgs</definition>
-        <argsstring>() const</argsstring>
-        <name>getOrgs</name>
-        <qualifiedname>MR::PolylineTopology::getOrgs</qualifiedname>
-        <briefdescription>
-<para>for all edges this vector contains its origin </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="110" column="24"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1a2ebdc3893e2fbb0963c302c1361dfe3b" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>EdgeId</type>
-        <definition>EdgeId MR::PolylineTopology::edgeWithOrg</definition>
-        <argsstring>(VertId a) const</argsstring>
-        <name>edgeWithOrg</name>
-        <qualifiedname>MR::PolylineTopology::edgeWithOrg</qualifiedname>
-        <param>
-          <type>VertId</type>
-          <declname>a</declname>
-        </param>
-        <briefdescription>
-<para>returns valid edge if given vertex is present in the mesh </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="113" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" bodystart="113" bodyend="113"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1a2b966e998f03cd7ed4d30898f4542284" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::PolylineTopology::hasVert</definition>
-        <argsstring>(VertId a) const</argsstring>
-        <name>hasVert</name>
-        <qualifiedname>MR::PolylineTopology::hasVert</qualifiedname>
-        <param>
-          <type>VertId</type>
-          <declname>a</declname>
-        </param>
-        <briefdescription>
-<para>returns true if given vertex is present in the mesh </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="116" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" bodystart="116" bodyend="116"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1a00b86f230a493bc0dcb16c0ce361c5d0" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> int</type>
-        <definition>MRMESH_API int MR::PolylineTopology::getVertDegree</definition>
-        <argsstring>(VertId a) const</argsstring>
-        <name>getVertDegree</name>
-        <qualifiedname>MR::PolylineTopology::getVertDegree</qualifiedname>
-        <param>
-          <type>VertId</type>
-          <declname>a</declname>
-        </param>
-        <briefdescription>
-<para>returns 0 if given vertex does not exist, 1 if it has one incident edge, and 2 if it has two incident edges </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="119" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1aaee85cff1aa5cf38699daeb3669b0cf7" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>int</type>
-        <definition>int MR::PolylineTopology::numValidVerts</definition>
-        <argsstring>() const</argsstring>
-        <name>numValidVerts</name>
-        <qualifiedname>MR::PolylineTopology::numValidVerts</qualifiedname>
-        <briefdescription>
-<para>returns the number of valid vertices </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="122" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" bodystart="122" bodyend="122"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1a0bf12143aa54becf163e3597b2516010" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> VertId</type>
-        <definition>MRMESH_API VertId MR::PolylineTopology::lastValidVert</definition>
-        <argsstring>() const</argsstring>
-        <name>lastValidVert</name>
-        <qualifiedname>MR::PolylineTopology::lastValidVert</qualifiedname>
-        <briefdescription>
-<para>returns last valid vertex id, or invalid id if no single valid vertex exists </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="125" column="24"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1abfb6e0044fbe8c29dd9114c691a687a7" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>VertId</type>
-        <definition>VertId MR::PolylineTopology::addVertId</definition>
-        <argsstring>()</argsstring>
-        <name>addVertId</name>
-        <qualifiedname>MR::PolylineTopology::addVertId</qualifiedname>
-        <briefdescription>
-<para>creates new vert-id not associated with any edge yet </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="128" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" bodystart="128" bodyend="128"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1a447fd988db6a06ad5dc3f52599bf4924" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::PolylineTopology::vertResize</definition>
-        <argsstring>(size_t newSize)</argsstring>
-        <name>vertResize</name>
-        <qualifiedname>MR::PolylineTopology::vertResize</qualifiedname>
-        <param>
-          <type>size_t</type>
-          <declname>newSize</declname>
-        </param>
-        <briefdescription>
-<para>explicitly increases the size of vertices vector </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="131" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1af5cc7998d7a0f82562b74552b26163f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::PolylineTopology::vertResizeWithReserve</definition>
-        <argsstring>(size_t newSize)</argsstring>
-        <name>vertResizeWithReserve</name>
-        <qualifiedname>MR::PolylineTopology::vertResizeWithReserve</qualifiedname>
-        <param>
-          <type>size_t</type>
-          <declname>newSize</declname>
-        </param>
-        <briefdescription>
-<para>explicitly increases the size of vertices vector, doubling the current capacity if it was not enough </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="134" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1a269967fe44b9296f578fb65a74733bc4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::PolylineTopology::vertReserve</definition>
-        <argsstring>(size_t newCapacity)</argsstring>
-        <name>vertReserve</name>
-        <qualifiedname>MR::PolylineTopology::vertReserve</qualifiedname>
-        <param>
-          <type>size_t</type>
-          <declname>newCapacity</declname>
-        </param>
-        <briefdescription>
-<para>sets the capacity of vertices vector </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="137" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" bodystart="137" bodyend="137"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1a9574f81615523ac5fe203e1648765942" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>size_t</type>
-        <definition>size_t MR::PolylineTopology::vertSize</definition>
-        <argsstring>() const</argsstring>
-        <name>vertSize</name>
-        <qualifiedname>MR::PolylineTopology::vertSize</qualifiedname>
-        <briefdescription>
-<para>returns the number of vertex records including invalid ones </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="140" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" bodystart="140" bodyend="140"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1a726c75e6aeb80d5a75500cc50275a477" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>size_t</type>
-        <definition>size_t MR::PolylineTopology::vertCapacity</definition>
-        <argsstring>() const</argsstring>
-        <name>vertCapacity</name>
-        <qualifiedname>MR::PolylineTopology::vertCapacity</qualifiedname>
-        <briefdescription>
-<para>returns the number of allocated vert records </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="143" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" bodystart="143" bodyend="143"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1a3ec7d95cc6120617767536b8705d3ee6" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const VertBitSet &amp;</type>
-        <definition>const VertBitSet &amp; MR::PolylineTopology::getValidVerts</definition>
-        <argsstring>() const</argsstring>
-        <name>getValidVerts</name>
-        <qualifiedname>MR::PolylineTopology::getValidVerts</qualifiedname>
-        <briefdescription>
-<para>returns cached set of all valid vertices </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="146" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" bodystart="146" bodyend="146"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1a935054375c8e68e3e708b38a91b1260a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const VertBitSet &amp;</type>
-        <definition>const VertBitSet &amp; MR::PolylineTopology::getVertIds</definition>
-        <argsstring>(const VertBitSet *region) const</argsstring>
-        <name>getVertIds</name>
-        <qualifiedname>MR::PolylineTopology::getVertIds</qualifiedname>
-        <param>
-          <type>const VertBitSet *</type>
-          <declname>region</declname>
-        </param>
-        <briefdescription>
-<para>if region pointer is not null then converts it in reference, otherwise returns all valid vertices in the mesh </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="149" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" bodystart="149" bodyend="149"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1a545252ec8468378f5bc6f71e18ccaad9" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> EdgeId</type>
-        <definition>MRMESH_API EdgeId MR::PolylineTopology::findEdge</definition>
-        <argsstring>(VertId o, VertId d) const</argsstring>
-        <name>findEdge</name>
-        <qualifiedname>MR::PolylineTopology::findEdge</qualifiedname>
-        <param>
-          <type>VertId</type>
-          <declname>o</declname>
-        </param>
-        <param>
-          <type>VertId</type>
-          <declname>d</declname>
-        </param>
-        <briefdescription>
-<para>finds and returns edge from o to d in the mesh; returns invalid edge otherwise </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="152" column="24"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1ab361c486e12e092c48559ed3d5a079db" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> VertBitSet</type>
-        <definition>MRMESH_API VertBitSet MR::PolylineTopology::getPathVertices</definition>
-        <argsstring>(const EdgePath &amp;path) const</argsstring>
-        <name>getPathVertices</name>
-        <qualifiedname>MR::PolylineTopology::getPathVertices</qualifiedname>
-        <param>
-          <type>const <ref refid="namespaceMR_1a9f6c1e614e45e332d4cecfc5e77bc07e" kindref="member">EdgePath</ref> &amp;</type>
-          <declname>path</declname>
-        </param>
-        <briefdescription>
-<para>returns all vertices incident to path edges </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="155" column="28"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1a30f450b48cac26ab210e6fadc7f413f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> EdgeId</type>
-        <definition>MRMESH_API EdgeId MR::PolylineTopology::splitEdge</definition>
-        <argsstring>(EdgeId e)</argsstring>
-        <name>splitEdge</name>
-        <qualifiedname>MR::PolylineTopology::splitEdge</qualifiedname>
-        <param>
-          <type>EdgeId</type>
-          <declname>e</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>split given edge on two parts: dest(returned-edge) = org(e) - newly created vertex, org(returned-edge) = org(e-before-split), dest(e) = dest(e-before-split) </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="161" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1a22e5f6c91eac5ca4d57589194a860d10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> EdgeId</type>
-        <definition>MRMESH_API EdgeId MR::PolylineTopology::makePolyline</definition>
-        <argsstring>(const VertId *vs, size_t num)</argsstring>
-        <name>makePolyline</name>
-        <qualifiedname>MR::PolylineTopology::makePolyline</qualifiedname>
-        <param>
-          <type>const VertId *</type>
-          <declname>vs</declname>
-        </param>
-        <param>
-          <type>size_t</type>
-          <declname>num</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>adds polyline in this topology passing progressively via vertices *[vs, vs+num); if vs[0] == vs[num-1] then a closed polyline is created; return the edge from first to second vertex </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="166" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1a05eeb54bc7a9843ce0cd5a63aff0cbca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::PolylineTopology::addPart</definition>
-        <argsstring>(const PolylineTopology &amp;from, VertMap *outVmap=nullptr, WholeEdgeMap *outEmap=nullptr)</argsstring>
-        <name>addPart</name>
-        <qualifiedname>MR::PolylineTopology::addPart</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1PolylineTopology" kindref="compound">PolylineTopology</ref> &amp;</type>
-          <declname>from</declname>
-        </param>
-        <param>
-          <type>VertMap *</type>
-          <declname>outVmap</declname>
-          <defval>nullptr</defval>
-        </param>
-        <param>
-          <type>WholeEdgeMap *</type>
-          <declname>outEmap</declname>
-          <defval>nullptr</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>appends polyline topology (from) in addition to the current topology: creates new edges, verts; <parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>outVmap</parametername>
-<parametername>outEmap</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>(optionally) returns mappings: from.id -&gt; this.id </para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="170" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1acd964eb898eab563867d4b84cc4af69d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::PolylineTopology::addPartByMask</definition>
-        <argsstring>(const PolylineTopology &amp;from, const UndirectedEdgeBitSet &amp;mask, VertMap *outVmap=nullptr, EdgeMap *outEmap=nullptr)</argsstring>
-        <name>addPartByMask</name>
-        <qualifiedname>MR::PolylineTopology::addPartByMask</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1PolylineTopology" kindref="compound">PolylineTopology</ref> &amp;</type>
-          <declname>from</declname>
-        </param>
-        <param>
-          <type>const UndirectedEdgeBitSet &amp;</type>
-          <declname>mask</declname>
-        </param>
-        <param>
-          <type>VertMap *</type>
-          <declname>outVmap</declname>
-          <defval>nullptr</defval>
-        </param>
-        <param>
-          <type>EdgeMap *</type>
-          <declname>outEmap</declname>
-          <defval>nullptr</defval>
-        </param>
-        <briefdescription>
-<para>appends polyline topology (from) in addition to the current topology: creates new edges, verts; </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="174" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1a6c67e7b3c6e1ae6967dc7b66a6c5ab6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::PolylineTopology::pack</definition>
-        <argsstring>(VertMap *outVmap=nullptr, WholeEdgeMap *outEmap=nullptr)</argsstring>
-        <name>pack</name>
-        <qualifiedname>MR::PolylineTopology::pack</qualifiedname>
-        <param>
-          <type>VertMap *</type>
-          <declname>outVmap</declname>
-          <defval>nullptr</defval>
-        </param>
-        <param>
-          <type>WholeEdgeMap *</type>
-          <declname>outEmap</declname>
-          <defval>nullptr</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>tightly packs all arrays eliminating lone edges and invalid vertices <parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>outVmap</parametername>
-<parametername>outEmap</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>if given returns mappings: old.id -&gt; new.id; </para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="179" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1afeacaa2685ac05679afb0b6675a1ff4b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::PolylineTopology::write</definition>
-        <argsstring>(std::ostream &amp;s) const</argsstring>
-        <name>write</name>
-        <qualifiedname>MR::PolylineTopology::write</qualifiedname>
-        <param>
-          <type>std::ostream &amp;</type>
-          <declname>s</declname>
-        </param>
-        <briefdescription>
-<para>saves this in binary stream </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="182" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1a642a8c374781bd45adb78ea77dc31bf0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
-        <definition>MRMESH_API bool MR::PolylineTopology::read</definition>
-        <argsstring>(std::istream &amp;s)</argsstring>
-        <name>read</name>
-        <qualifiedname>MR::PolylineTopology::read</qualifiedname>
-        <param>
-          <type>std::istream &amp;</type>
-          <declname>s</declname>
-        </param>
-        <briefdescription>
-<para>loads this from binary stream </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="185" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1af1878c347e52b88e1e86d50a9f38264b" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::PolylineTopology::operator==</definition>
-        <argsstring>(const PolylineTopology &amp;b) const</argsstring>
-        <name>operator==</name>
-        <qualifiedname>MR::PolylineTopology::operator==</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1PolylineTopology" kindref="compound">PolylineTopology</ref> &amp;</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-<para>comparison via edges (all other members are considered as not important caches) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="188" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" bodystart="188" bodyend="188"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1aee474c1238238690bc19c125fa62b857" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::PolylineTopology::operator!=</definition>
-        <argsstring>(const PolylineTopology &amp;b) const</argsstring>
-        <name>operator!=</name>
-        <qualifiedname>MR::PolylineTopology::operator!=</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1PolylineTopology" kindref="compound">PolylineTopology</ref> &amp;</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="189" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" bodystart="189" bodyend="189"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1a3a8e8e933ae69de8cd01c7f60a1e6e87" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
-        <definition>MRMESH_API bool MR::PolylineTopology::isConsistentlyOriented</definition>
-        <argsstring>() const</argsstring>
-        <name>isConsistentlyOriented</name>
-        <qualifiedname>MR::PolylineTopology::isConsistentlyOriented</qualifiedname>
-        <briefdescription>
-<para>returns true if for each edge e: e == e.next() || e.odd() == next( e ).sym().odd() </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="192" column="22"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1a712f0d64d5d5c5700ab29936be4bf517" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::PolylineTopology::flip</definition>
-        <argsstring>()</argsstring>
-        <name>flip</name>
-        <qualifiedname>MR::PolylineTopology::flip</qualifiedname>
-        <briefdescription>
-<para>changes the orientation of all edges: every edge e is replaced with e.sym() </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="195" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1a84bb5e00b49548f555d22c95a849a62a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
-        <definition>MRMESH_API bool MR::PolylineTopology::checkValidity</definition>
-        <argsstring>() const</argsstring>
-        <name>checkValidity</name>
-        <qualifiedname>MR::PolylineTopology::checkValidity</qualifiedname>
-        <briefdescription>
-<para>verifies that all internal data structures are valid </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="198" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1a32341828b752c082736b7e19c7f80ce5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::PolylineTopology::computeValidsFromEdges</definition>
-        <argsstring>()</argsstring>
-        <name>computeValidsFromEdges</name>
-        <qualifiedname>MR::PolylineTopology::computeValidsFromEdges</qualifiedname>
-        <briefdescription>
-<para>computes numValidVerts_ and validVerts_ from edgePerVertex_ </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="201" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1ae17cec60bbb52533d23d162f050ed1f8" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
-        <definition>MRMESH_API bool MR::PolylineTopology::isClosed</definition>
-        <argsstring>() const</argsstring>
-        <name>isClosed</name>
-        <qualifiedname>MR::PolylineTopology::isClosed</qualifiedname>
-        <briefdescription>
-<para>returns true if the polyline does not have any holes </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="204" column="22"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaab7fc1ff330a8a3945824279673d2311" kind="function"><name>buildFromContours</name></member>
+      <member refid="group__GeneralGroup_1ga79f6690f59e171ae1b4173dad9c57c5e" kind="function"><name>buildOpenLines</name></member>
+      <member refid="group__GeneralGroup_1gadc8d16b6b6bf938f6dbe4f96fc768825" kind="function"><name>convertToContours</name></member>
+      <member refid="group__GeneralGroup_1ga45f9c4c6c22c11a8dc7eae9eefc3e265" kind="function"><name>makeEdge</name></member>
+      <member refid="group__GeneralGroup_1ga4543a9f8d087efb6b31004efd75ca825" kind="function"><name>makeEdge</name></member>
+      <member refid="group__GeneralGroup_1ga1373fb92a0666b9654be8a4930bf66c3" kind="function"><name>makeEdges</name></member>
+      <member refid="group__GeneralGroup_1ga0a9412a90e63fc7a356cd7098e1f8ad6" kind="function"><name>isLoneEdge</name></member>
+      <member refid="group__GeneralGroup_1ga8438991d4426ef42af59252baf922b54" kind="function"><name>lastNotLoneUndirectedEdge</name></member>
+      <member refid="group__GeneralGroup_1ga33c3aacafb6ce19a620996cd32878639" kind="function"><name>lastNotLoneEdge</name></member>
+      <member refid="group__GeneralGroup_1ga7308421016a4a943460946176b524bc8" kind="function"><name>edgeSize</name></member>
+      <member refid="group__GeneralGroup_1gac0ebbe561720059f815c339a5a2d7607" kind="function"><name>edgeCapacity</name></member>
+      <member refid="group__GeneralGroup_1ga061dd907ada10af2d8ed533c49f4b0ab" kind="function"><name>undirectedEdgeSize</name></member>
+      <member refid="group__GeneralGroup_1gaf60df47c2413fe61618210b292dde6c0" kind="function"><name>undirectedEdgeCapacity</name></member>
+      <member refid="group__GeneralGroup_1ga300d2568ddd2b3174c3fb76468f8b508" kind="function"><name>computeNotLoneUndirectedEdges</name></member>
+      <member refid="group__GeneralGroup_1gaa5cb50f06372f350dcdd3dbc747a0615" kind="function"><name>edgeReserve</name></member>
+      <member refid="group__GeneralGroup_1gae20a806936450b9f38d28938a2721f47" kind="function"><name>hasEdge</name></member>
+      <member refid="group__GeneralGroup_1gaccfc9bf6f65ba9970b56e62b12d0a137" kind="function"><name>deleteEdge</name></member>
+      <member refid="group__GeneralGroup_1ga05522cda7542b9f691746c69df58166d" kind="function"><name>deleteEdges</name></member>
+      <member refid="group__GeneralGroup_1ga6963aa721648b337a9389e17079da6fb" kind="function"><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1ga8f29ab7ae897a36090147354d08f7838" kind="function"><name>splice</name></member>
+      <member refid="group__GeneralGroup_1ga2f084506ce79585cbe3b2ae0a1339181" kind="function"><name>next</name></member>
+      <member refid="group__GeneralGroup_1ga83ae0dea7e79cff8a04e1b543091b1a2" kind="function"><name>org</name></member>
+      <member refid="group__GeneralGroup_1gabd4c389cdede17b6366df788ab591739" kind="function"><name>dest</name></member>
+      <member refid="group__GeneralGroup_1ga3ea5840c83dc66df34991a904b767843" kind="function"><name>setOrg</name></member>
+      <member refid="group__GeneralGroup_1ga838e6a01b85575bf999c154f00ba9a90" kind="function"><name>edgePerVertex</name></member>
+      <member refid="group__GeneralGroup_1gaac8bb7a1725feb34f6a12bf8e0cb0acb" kind="function"><name>getOrgs</name></member>
+      <member refid="group__GeneralGroup_1ga2ebdc3893e2fbb0963c302c1361dfe3b" kind="function"><name>edgeWithOrg</name></member>
+      <member refid="group__GeneralGroup_1ga2b966e998f03cd7ed4d30898f4542284" kind="function"><name>hasVert</name></member>
+      <member refid="group__GeneralGroup_1ga00b86f230a493bc0dcb16c0ce361c5d0" kind="function"><name>getVertDegree</name></member>
+      <member refid="group__GeneralGroup_1gaaee85cff1aa5cf38699daeb3669b0cf7" kind="function"><name>numValidVerts</name></member>
+      <member refid="group__GeneralGroup_1ga0bf12143aa54becf163e3597b2516010" kind="function"><name>lastValidVert</name></member>
+      <member refid="group__GeneralGroup_1gabfb6e0044fbe8c29dd9114c691a687a7" kind="function"><name>addVertId</name></member>
+      <member refid="group__GeneralGroup_1ga447fd988db6a06ad5dc3f52599bf4924" kind="function"><name>vertResize</name></member>
+      <member refid="group__GeneralGroup_1gaf5cc7998d7a0f82562b74552b26163f4" kind="function"><name>vertResizeWithReserve</name></member>
+      <member refid="group__GeneralGroup_1ga269967fe44b9296f578fb65a74733bc4" kind="function"><name>vertReserve</name></member>
+      <member refid="group__GeneralGroup_1ga9574f81615523ac5fe203e1648765942" kind="function"><name>vertSize</name></member>
+      <member refid="group__GeneralGroup_1ga726c75e6aeb80d5a75500cc50275a477" kind="function"><name>vertCapacity</name></member>
+      <member refid="group__GeneralGroup_1ga3ec7d95cc6120617767536b8705d3ee6" kind="function"><name>getValidVerts</name></member>
+      <member refid="group__GeneralGroup_1ga935054375c8e68e3e708b38a91b1260a" kind="function"><name>getVertIds</name></member>
+      <member refid="group__GeneralGroup_1ga545252ec8468378f5bc6f71e18ccaad9" kind="function"><name>findEdge</name></member>
+      <member refid="group__GeneralGroup_1gab361c486e12e092c48559ed3d5a079db" kind="function"><name>getPathVertices</name></member>
+      <member refid="group__GeneralGroup_1ga30f450b48cac26ab210e6fadc7f413f1" kind="function"><name>splitEdge</name></member>
+      <member refid="group__GeneralGroup_1ga22e5f6c91eac5ca4d57589194a860d10" kind="function"><name>makePolyline</name></member>
+      <member refid="group__GeneralGroup_1ga05eeb54bc7a9843ce0cd5a63aff0cbca" kind="function"><name>addPart</name></member>
+      <member refid="group__GeneralGroup_1gacd964eb898eab563867d4b84cc4af69d" kind="function"><name>addPartByMask</name></member>
+      <member refid="group__GeneralGroup_1ga6c67e7b3c6e1ae6967dc7b66a6c5ab6d" kind="function"><name>pack</name></member>
+      <member refid="group__GeneralGroup_1gafeacaa2685ac05679afb0b6675a1ff4b" kind="function"><name>write</name></member>
+      <member refid="group__GeneralGroup_1ga642a8c374781bd45adb78ea77dc31bf0" kind="function"><name>read</name></member>
+      <member refid="group__GeneralGroup_1gaf1878c347e52b88e1e86d50a9f38264b" kind="function"><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1gaee474c1238238690bc19c125fa62b857" kind="function"><name>operator!=</name></member>
+      <member refid="group__GeneralGroup_1ga3a8e8e933ae69de8cd01c7f60a1e6e87" kind="function"><name>isConsistentlyOriented</name></member>
+      <member refid="group__GeneralGroup_1ga712f0d64d5d5c5700ab29936be4bf517" kind="function"><name>flip</name></member>
+      <member refid="group__GeneralGroup_1ga84bb5e00b49548f555d22c95a849a62a" kind="function"><name>checkValidity</name></member>
+      <member refid="group__GeneralGroup_1ga32341828b752c082736b7e19c7f80ce5" kind="function"><name>computeValidsFromEdges</name></member>
+      <member refid="group__GeneralGroup_1gae17cec60bbb52533d23d162f050ed1f8" kind="function"><name>isClosed</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMR_1_1PolylineTopology_1a1bd5ecbd06df300c819995d5f3487b7b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::PolylineTopology::setOrg_</definition>
-        <argsstring>(EdgeId a, VertId v)</argsstring>
-        <name>setOrg_</name>
-        <qualifiedname>MR::PolylineTopology::setOrg_</qualifiedname>
-        <param>
-          <type>EdgeId</type>
-          <declname>a</declname>
-        </param>
-        <param>
-          <type>VertId</type>
-          <declname>v</declname>
-        </param>
-        <briefdescription>
-<para>sets new origin to the full origin ring including this edge, without updating edgePerVertex_ table </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="208" column="10"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga1bd5ecbd06df300c819995d5f3487b7b" kind="function"><name>setOrg_</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
 <para>topology of one or several polylines (how line segments are connected in lines) common for 2D and 3D polylines </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" bodystart="15" bodyend="231"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" bodystart="18" bodyend="234"/>
     <listofallmembers>
-      <member refid="classMR_1_1PolylineTopology_1a05eeb54bc7a9843ce0cd5a63aff0cbca" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>addPart</name></member>
-      <member refid="classMR_1_1PolylineTopology_1acd964eb898eab563867d4b84cc4af69d" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>addPartByMask</name></member>
-      <member refid="classMR_1_1PolylineTopology_1abfb6e0044fbe8c29dd9114c691a687a7" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>addVertId</name></member>
-      <member refid="classMR_1_1PolylineTopology_1aab7fc1ff330a8a3945824279673d2311" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>buildFromContours</name></member>
-      <member refid="classMR_1_1PolylineTopology_1a79f6690f59e171ae1b4173dad9c57c5e" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>buildOpenLines</name></member>
-      <member refid="classMR_1_1PolylineTopology_1a84bb5e00b49548f555d22c95a849a62a" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>checkValidity</name></member>
-      <member refid="classMR_1_1PolylineTopology_1a300d2568ddd2b3174c3fb76468f8b508" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>computeNotLoneUndirectedEdges</name></member>
-      <member refid="classMR_1_1PolylineTopology_1a32341828b752c082736b7e19c7f80ce5" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>computeValidsFromEdges</name></member>
-      <member refid="classMR_1_1PolylineTopology_1adc8d16b6b6bf938f6dbe4f96fc768825" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>convertToContours</name></member>
-      <member refid="classMR_1_1PolylineTopology_1accfc9bf6f65ba9970b56e62b12d0a137" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>deleteEdge</name></member>
-      <member refid="classMR_1_1PolylineTopology_1a05522cda7542b9f691746c69df58166d" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>deleteEdges</name></member>
-      <member refid="classMR_1_1PolylineTopology_1abd4c389cdede17b6366df788ab591739" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>dest</name></member>
-      <member refid="classMR_1_1PolylineTopology_1ac0ebbe561720059f815c339a5a2d7607" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>edgeCapacity</name></member>
-      <member refid="classMR_1_1PolylineTopology_1a838e6a01b85575bf999c154f00ba9a90" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>edgePerVertex</name></member>
-      <member refid="classMR_1_1PolylineTopology_1a1cb7e2ad01e871018356fd2fb3fbe264" prot="private" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>edgePerVertex_</name></member>
-      <member refid="classMR_1_1PolylineTopology_1aa5cb50f06372f350dcdd3dbc747a0615" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>edgeReserve</name></member>
-      <member refid="classMR_1_1PolylineTopology_1a2607d8887f6044755fdbf22e2fb5e8d8" prot="private" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>edges_</name></member>
-      <member refid="classMR_1_1PolylineTopology_1a7308421016a4a943460946176b524bc8" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>edgeSize</name></member>
-      <member refid="classMR_1_1PolylineTopology_1a2ebdc3893e2fbb0963c302c1361dfe3b" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>edgeWithOrg</name></member>
-      <member refid="classMR_1_1PolylineTopology_1a545252ec8468378f5bc6f71e18ccaad9" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>findEdge</name></member>
-      <member refid="classMR_1_1PolylineTopology_1a712f0d64d5d5c5700ab29936be4bf517" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>flip</name></member>
-      <member refid="classMR_1_1PolylineTopology_1aac8bb7a1725feb34f6a12bf8e0cb0acb" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>getOrgs</name></member>
-      <member refid="classMR_1_1PolylineTopology_1ab361c486e12e092c48559ed3d5a079db" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>getPathVertices</name></member>
-      <member refid="classMR_1_1PolylineTopology_1a3ec7d95cc6120617767536b8705d3ee6" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>getValidVerts</name></member>
-      <member refid="classMR_1_1PolylineTopology_1a00b86f230a493bc0dcb16c0ce361c5d0" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>getVertDegree</name></member>
-      <member refid="classMR_1_1PolylineTopology_1a935054375c8e68e3e708b38a91b1260a" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>getVertIds</name></member>
-      <member refid="classMR_1_1PolylineTopology_1ae20a806936450b9f38d28938a2721f47" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>hasEdge</name></member>
-      <member refid="classMR_1_1PolylineTopology_1a2b966e998f03cd7ed4d30898f4542284" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>hasVert</name></member>
-      <member refid="classMR_1_1PolylineTopology_1a6963aa721648b337a9389e17079da6fb" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1PolylineTopology_1ae17cec60bbb52533d23d162f050ed1f8" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>isClosed</name></member>
-      <member refid="classMR_1_1PolylineTopology_1a3a8e8e933ae69de8cd01c7f60a1e6e87" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>isConsistentlyOriented</name></member>
-      <member refid="classMR_1_1PolylineTopology_1a0a9412a90e63fc7a356cd7098e1f8ad6" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>isLoneEdge</name></member>
-      <member refid="classMR_1_1PolylineTopology_1a33c3aacafb6ce19a620996cd32878639" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>lastNotLoneEdge</name></member>
-      <member refid="classMR_1_1PolylineTopology_1a8438991d4426ef42af59252baf922b54" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>lastNotLoneUndirectedEdge</name></member>
-      <member refid="classMR_1_1PolylineTopology_1a0bf12143aa54becf163e3597b2516010" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>lastValidVert</name></member>
-      <member refid="classMR_1_1PolylineTopology_1a45f9c4c6c22c11a8dc7eae9eefc3e265" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>makeEdge</name></member>
-      <member refid="classMR_1_1PolylineTopology_1a4543a9f8d087efb6b31004efd75ca825" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>makeEdge</name></member>
-      <member refid="classMR_1_1PolylineTopology_1a1373fb92a0666b9654be8a4930bf66c3" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>makeEdges</name></member>
-      <member refid="classMR_1_1PolylineTopology_1a22e5f6c91eac5ca4d57589194a860d10" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>makePolyline</name></member>
-      <member refid="classMR_1_1PolylineTopology_1a2f084506ce79585cbe3b2ae0a1339181" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>next</name></member>
-      <member refid="classMR_1_1PolylineTopology_1aaee85cff1aa5cf38699daeb3669b0cf7" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>numValidVerts</name></member>
-      <member refid="classMR_1_1PolylineTopology_1a8ae49dd8deaa3ed4c31c374c81d80e44" prot="private" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>numValidVerts_</name></member>
-      <member refid="classMR_1_1PolylineTopology_1aee474c1238238690bc19c125fa62b857" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>operator!=</name></member>
-      <member refid="classMR_1_1PolylineTopology_1af1878c347e52b88e1e86d50a9f38264b" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>operator==</name></member>
-      <member refid="classMR_1_1PolylineTopology_1a83ae0dea7e79cff8a04e1b543091b1a2" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>org</name></member>
-      <member refid="classMR_1_1PolylineTopology_1a6c67e7b3c6e1ae6967dc7b66a6c5ab6d" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>pack</name></member>
-      <member refid="classMR_1_1PolylineTopology_1a642a8c374781bd45adb78ea77dc31bf0" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>read</name></member>
-      <member refid="classMR_1_1PolylineTopology_1a3ea5840c83dc66df34991a904b767843" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>setOrg</name></member>
-      <member refid="classMR_1_1PolylineTopology_1a1bd5ecbd06df300c819995d5f3487b7b" prot="private" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>setOrg_</name></member>
-      <member refid="classMR_1_1PolylineTopology_1a8f29ab7ae897a36090147354d08f7838" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>splice</name></member>
-      <member refid="classMR_1_1PolylineTopology_1a30f450b48cac26ab210e6fadc7f413f1" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>splitEdge</name></member>
-      <member refid="classMR_1_1PolylineTopology_1af60df47c2413fe61618210b292dde6c0" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>undirectedEdgeCapacity</name></member>
-      <member refid="classMR_1_1PolylineTopology_1a061dd907ada10af2d8ed533c49f4b0ab" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>undirectedEdgeSize</name></member>
-      <member refid="classMR_1_1PolylineTopology_1a9d384fcc8bc38ec3d2460b47823cab22" prot="private" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>validVerts_</name></member>
-      <member refid="classMR_1_1PolylineTopology_1a726c75e6aeb80d5a75500cc50275a477" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>vertCapacity</name></member>
-      <member refid="classMR_1_1PolylineTopology_1a269967fe44b9296f578fb65a74733bc4" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>vertReserve</name></member>
-      <member refid="classMR_1_1PolylineTopology_1a447fd988db6a06ad5dc3f52599bf4924" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>vertResize</name></member>
-      <member refid="classMR_1_1PolylineTopology_1af5cc7998d7a0f82562b74552b26163f4" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>vertResizeWithReserve</name></member>
-      <member refid="classMR_1_1PolylineTopology_1a9574f81615523ac5fe203e1648765942" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>vertSize</name></member>
-      <member refid="classMR_1_1PolylineTopology_1afeacaa2685ac05679afb0b6675a1ff4b" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>write</name></member>
+      <member refid="group__GeneralGroup_1ga05eeb54bc7a9843ce0cd5a63aff0cbca" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>addPart</name></member>
+      <member refid="group__GeneralGroup_1gacd964eb898eab563867d4b84cc4af69d" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>addPartByMask</name></member>
+      <member refid="group__GeneralGroup_1gabfb6e0044fbe8c29dd9114c691a687a7" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>addVertId</name></member>
+      <member refid="group__GeneralGroup_1gaab7fc1ff330a8a3945824279673d2311" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>buildFromContours</name></member>
+      <member refid="group__GeneralGroup_1ga79f6690f59e171ae1b4173dad9c57c5e" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>buildOpenLines</name></member>
+      <member refid="group__GeneralGroup_1ga84bb5e00b49548f555d22c95a849a62a" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>checkValidity</name></member>
+      <member refid="group__GeneralGroup_1ga300d2568ddd2b3174c3fb76468f8b508" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>computeNotLoneUndirectedEdges</name></member>
+      <member refid="group__GeneralGroup_1ga32341828b752c082736b7e19c7f80ce5" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>computeValidsFromEdges</name></member>
+      <member refid="group__GeneralGroup_1gadc8d16b6b6bf938f6dbe4f96fc768825" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>convertToContours</name></member>
+      <member refid="group__GeneralGroup_1gaccfc9bf6f65ba9970b56e62b12d0a137" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>deleteEdge</name></member>
+      <member refid="group__GeneralGroup_1ga05522cda7542b9f691746c69df58166d" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>deleteEdges</name></member>
+      <member refid="group__GeneralGroup_1gabd4c389cdede17b6366df788ab591739" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>dest</name></member>
+      <member refid="group__GeneralGroup_1gac0ebbe561720059f815c339a5a2d7607" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>edgeCapacity</name></member>
+      <member refid="group__GeneralGroup_1ga838e6a01b85575bf999c154f00ba9a90" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>edgePerVertex</name></member>
+      <member refid="group__GeneralGroup_1ga1cb7e2ad01e871018356fd2fb3fbe264" prot="private" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>edgePerVertex_</name></member>
+      <member refid="group__GeneralGroup_1gaa5cb50f06372f350dcdd3dbc747a0615" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>edgeReserve</name></member>
+      <member refid="group__GeneralGroup_1ga2607d8887f6044755fdbf22e2fb5e8d8" prot="private" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>edges_</name></member>
+      <member refid="group__GeneralGroup_1ga7308421016a4a943460946176b524bc8" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>edgeSize</name></member>
+      <member refid="group__GeneralGroup_1ga2ebdc3893e2fbb0963c302c1361dfe3b" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>edgeWithOrg</name></member>
+      <member refid="group__GeneralGroup_1ga545252ec8468378f5bc6f71e18ccaad9" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>findEdge</name></member>
+      <member refid="group__GeneralGroup_1ga712f0d64d5d5c5700ab29936be4bf517" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>flip</name></member>
+      <member refid="group__GeneralGroup_1gaac8bb7a1725feb34f6a12bf8e0cb0acb" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>getOrgs</name></member>
+      <member refid="group__GeneralGroup_1gab361c486e12e092c48559ed3d5a079db" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>getPathVertices</name></member>
+      <member refid="group__GeneralGroup_1ga3ec7d95cc6120617767536b8705d3ee6" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>getValidVerts</name></member>
+      <member refid="group__GeneralGroup_1ga00b86f230a493bc0dcb16c0ce361c5d0" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>getVertDegree</name></member>
+      <member refid="group__GeneralGroup_1ga935054375c8e68e3e708b38a91b1260a" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>getVertIds</name></member>
+      <member refid="group__GeneralGroup_1gae20a806936450b9f38d28938a2721f47" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>hasEdge</name></member>
+      <member refid="group__GeneralGroup_1ga2b966e998f03cd7ed4d30898f4542284" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>hasVert</name></member>
+      <member refid="group__GeneralGroup_1ga6963aa721648b337a9389e17079da6fb" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1gae17cec60bbb52533d23d162f050ed1f8" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>isClosed</name></member>
+      <member refid="group__GeneralGroup_1ga3a8e8e933ae69de8cd01c7f60a1e6e87" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>isConsistentlyOriented</name></member>
+      <member refid="group__GeneralGroup_1ga0a9412a90e63fc7a356cd7098e1f8ad6" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>isLoneEdge</name></member>
+      <member refid="group__GeneralGroup_1ga33c3aacafb6ce19a620996cd32878639" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>lastNotLoneEdge</name></member>
+      <member refid="group__GeneralGroup_1ga8438991d4426ef42af59252baf922b54" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>lastNotLoneUndirectedEdge</name></member>
+      <member refid="group__GeneralGroup_1ga0bf12143aa54becf163e3597b2516010" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>lastValidVert</name></member>
+      <member refid="group__GeneralGroup_1ga45f9c4c6c22c11a8dc7eae9eefc3e265" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>makeEdge</name></member>
+      <member refid="group__GeneralGroup_1ga4543a9f8d087efb6b31004efd75ca825" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>makeEdge</name></member>
+      <member refid="group__GeneralGroup_1ga1373fb92a0666b9654be8a4930bf66c3" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>makeEdges</name></member>
+      <member refid="group__GeneralGroup_1ga22e5f6c91eac5ca4d57589194a860d10" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>makePolyline</name></member>
+      <member refid="group__GeneralGroup_1ga2f084506ce79585cbe3b2ae0a1339181" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>next</name></member>
+      <member refid="group__GeneralGroup_1gaaee85cff1aa5cf38699daeb3669b0cf7" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>numValidVerts</name></member>
+      <member refid="group__GeneralGroup_1ga8ae49dd8deaa3ed4c31c374c81d80e44" prot="private" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>numValidVerts_</name></member>
+      <member refid="group__GeneralGroup_1gaee474c1238238690bc19c125fa62b857" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>operator!=</name></member>
+      <member refid="group__GeneralGroup_1gaf1878c347e52b88e1e86d50a9f38264b" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga83ae0dea7e79cff8a04e1b543091b1a2" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>org</name></member>
+      <member refid="group__GeneralGroup_1ga6c67e7b3c6e1ae6967dc7b66a6c5ab6d" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>pack</name></member>
+      <member refid="group__GeneralGroup_1ga642a8c374781bd45adb78ea77dc31bf0" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>read</name></member>
+      <member refid="group__GeneralGroup_1ga3ea5840c83dc66df34991a904b767843" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>setOrg</name></member>
+      <member refid="group__GeneralGroup_1ga1bd5ecbd06df300c819995d5f3487b7b" prot="private" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>setOrg_</name></member>
+      <member refid="group__GeneralGroup_1ga8f29ab7ae897a36090147354d08f7838" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>splice</name></member>
+      <member refid="group__GeneralGroup_1ga30f450b48cac26ab210e6fadc7f413f1" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>splitEdge</name></member>
+      <member refid="group__GeneralGroup_1gaf60df47c2413fe61618210b292dde6c0" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>undirectedEdgeCapacity</name></member>
+      <member refid="group__GeneralGroup_1ga061dd907ada10af2d8ed533c49f4b0ab" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>undirectedEdgeSize</name></member>
+      <member refid="group__GeneralGroup_1ga9d384fcc8bc38ec3d2460b47823cab22" prot="private" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>validVerts_</name></member>
+      <member refid="group__GeneralGroup_1ga726c75e6aeb80d5a75500cc50275a477" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>vertCapacity</name></member>
+      <member refid="group__GeneralGroup_1ga269967fe44b9296f578fb65a74733bc4" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>vertReserve</name></member>
+      <member refid="group__GeneralGroup_1ga447fd988db6a06ad5dc3f52599bf4924" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>vertResize</name></member>
+      <member refid="group__GeneralGroup_1gaf5cc7998d7a0f82562b74552b26163f4" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>vertResizeWithReserve</name></member>
+      <member refid="group__GeneralGroup_1ga9574f81615523ac5fe203e1648765942" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>vertSize</name></member>
+      <member refid="group__GeneralGroup_1gafeacaa2685ac05679afb0b6675a1ff4b" prot="public" virt="non-virtual"><scope>MR::PolylineTopology</scope><name>write</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

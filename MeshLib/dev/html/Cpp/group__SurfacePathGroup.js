@@ -6,9 +6,9 @@ var group__SurfacePathGroup =
     [ "Surface Path", "group__SurfacePathSubgroup.html", "group__SurfacePathSubgroup" ],
     [ "Tunnel Detector", "group__TunnelDetectorGroup.html", "group__TunnelDetectorGroup" ],
     [ "MR::VertPathInfo", "structMR_1_1VertPathInfo.html", [
-      [ "isStart", "structMR_1_1VertPathInfo.html#aac45d884489c1a6b158869ce2fa4e940", null ],
-      [ "back", "structMR_1_1VertPathInfo.html#a7a3153da84d3b829b564f595cd7d7a7e", null ],
-      [ "metric", "structMR_1_1VertPathInfo.html#a2530c5bd3051baea96398e09ade9e59e", null ]
+      [ "isStart", "group__GeneralGroup.html#gaac45d884489c1a6b158869ce2fa4e940", null ],
+      [ "back", "group__GeneralGroup.html#ga7a3153da84d3b829b564f595cd7d7a7e", null ],
+      [ "metric", "group__GeneralGroup.html#ga2530c5bd3051baea96398e09ade9e59e", null ]
     ] ],
     [ "MR::addLeftBand", "group__SurfacePathGroup.html#gab0db7342678536825cb6b3bff51d832d", null ],
     [ "MR::buildShortestPath", "group__SurfacePathGroup.html#gadb0985d5186608aa8786111eead3c759", null ],

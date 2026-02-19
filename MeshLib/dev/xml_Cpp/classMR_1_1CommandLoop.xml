@@ -5,394 +5,60 @@
     <includes refid="MRCommandLoop_8h" local="no">MRCommandLoop.h</includes>
     <innerclass refid="structMR_1_1CommandLoop_1_1Command" prot="private">MR::CommandLoop::Command</innerclass>
     <sectiondef kind="public-type">
-      <memberdef kind="enum" id="classMR_1_1CommandLoop_1a2e4318196fd48b27b617c07eb35bbe39" prot="public" static="no" strong="yes">
-        <type></type>
-        <name>StartPosition</name>
-        <qualifiedname>MR::CommandLoop::StartPosition</qualifiedname>
-        <enumvalue id="classMR_1_1CommandLoop_1a2e4318196fd48b27b617c07eb35bbe39af86d54fce93fffda37739a9dbfc37c4c" prot="public">
-          <name>AfterWindowInit</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1CommandLoop_1a2e4318196fd48b27b617c07eb35bbe39aefac199d2823f9d78123a8ffb79b7b42" prot="public">
-          <name>AfterSplashAppear</name>
-          <briefdescription>
-<para>executes right after window is initialized </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1CommandLoop_1a2e4318196fd48b27b617c07eb35bbe39a06431eb0f93d82e51c38a39e608780a0" prot="public">
-          <name>AfterPluginInit</name>
-          <briefdescription>
-<para>executes after splash appeared </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1CommandLoop_1a2e4318196fd48b27b617c07eb35bbe39a336fdcdf66db98b7bcd1fd9c7c2dbeba" prot="public">
-          <name>BeforeWindowAppear</name>
-          <briefdescription>
-<para>executes during splash, after plugins init) </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1CommandLoop_1a2e4318196fd48b27b617c07eb35bbe39a626474288d65a719abc0bb3d279c2d7a" prot="public">
-          <name>AfterWindowAppear</name>
-          <briefdescription>
-<para>executes after splash is going to close, and just before main window is shown and have valid main window context </para>
-          </briefdescription>
-          <detaileddescription>
-<para>executes after window appeared to have valid opengl context </para>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-<para>Specify execution in specific time of application start. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCommandLoop.h" line="19" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCommandLoop.h" bodystart="20" bodyend="26"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1CommandLoop_1a517bdd4c876165f0896a0780d5fea918" prot="public" static="no">
-        <type>std::function&lt; void()&gt;</type>
-        <definition>using MR::CommandLoop::CommandFunc =  std::function&lt;void()&gt;</definition>
-        <argsstring></argsstring>
-        <name>CommandFunc</name>
-        <qualifiedname>MR::CommandLoop::CommandFunc</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCommandLoop.h" line="16" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCommandLoop.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga2e4318196fd48b27b617c07eb35bbe39" kind="enum"><name>StartPosition</name></member>
+      <member refid="group__GeneralGroup_1ga517bdd4c876165f0896a0780d5fea918" kind="typedef"><name>CommandFunc</name></member>
     </sectiondef>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1CommandLoop_1aae9d2900dc96e5066d7e3cd8c11db7ec" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1CommandLoop_1a2e4318196fd48b27b617c07eb35bbe39" kindref="member">StartPosition</ref></type>
-        <definition>StartPosition MR::CommandLoop::state_</definition>
-        <argsstring></argsstring>
-        <name>state_</name>
-        <qualifiedname>MR::CommandLoop::state_</qualifiedname>
-        <initializer>{ <ref refid="classMR_1_1CommandLoop_1a2e4318196fd48b27b617c07eb35bbe39af86d54fce93fffda37739a9dbfc37c4c" kindref="member">StartPosition::AfterWindowInit</ref> }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCommandLoop.h" line="69" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCommandLoop.h" bodystart="69" bodyend="69"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1CommandLoop_1aa3467ab398f96c65ed9621abdb8e5438" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::CommandLoop::queueClosed_</definition>
-        <argsstring></argsstring>
-        <name>queueClosed_</name>
-        <qualifiedname>MR::CommandLoop::queueClosed_</qualifiedname>
-        <initializer>{ false }</initializer>
-        <briefdescription>
-<para>if set then cannot accept new commands </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCommandLoop.h" line="72" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCommandLoop.h" bodystart="72" bodyend="72"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1CommandLoop_1a49f8164b9d23200b50227b620344917c" prot="private" static="no" mutable="no">
-        <type>std::thread::id</type>
-        <definition>std::thread::id MR::CommandLoop::mainThreadId_</definition>
-        <argsstring></argsstring>
-        <name>mainThreadId_</name>
-        <qualifiedname>MR::CommandLoop::mainThreadId_</qualifiedname>
-        <briefdescription>
-<para>marked true in <computeroutput>removeCommands</computeroutput> </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCommandLoop.h" line="73" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCommandLoop.h" bodystart="73" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1CommandLoop_1acfda35989377d6cd24d55b26e21500db" prot="private" static="no" mutable="no">
-        <type>std::queue&lt; std::shared_ptr&lt; Command &gt; &gt;</type>
-        <definition>std::queue&lt;std::shared_ptr&lt;Command&gt; &gt; MR::CommandLoop::commands_</definition>
-        <argsstring></argsstring>
-        <name>commands_</name>
-        <qualifiedname>MR::CommandLoop::commands_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCommandLoop.h" line="74" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCommandLoop.h" bodystart="74" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1CommandLoop_1aa75ce33740e9bd281f5633e11c989129" prot="private" static="no" mutable="no">
-        <type>std::mutex</type>
-        <definition>std::mutex MR::CommandLoop::mutex_</definition>
-        <argsstring></argsstring>
-        <name>mutex_</name>
-        <qualifiedname>MR::CommandLoop::mutex_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCommandLoop.h" line="75" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCommandLoop.h" bodystart="75" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaae9d2900dc96e5066d7e3cd8c11db7ec" kind="variable"><name>state_</name></member>
+      <member refid="group__GeneralGroup_1gaa3467ab398f96c65ed9621abdb8e5438" kind="variable"><name>queueClosed_</name></member>
+      <member refid="group__GeneralGroup_1ga49f8164b9d23200b50227b620344917c" kind="variable"><name>mainThreadId_</name></member>
+      <member refid="group__GeneralGroup_1gacfda35989377d6cd24d55b26e21500db" kind="variable"><name>commands_</name></member>
+      <member refid="group__GeneralGroup_1gaa75ce33740e9bd281f5633e11c989129" kind="variable"><name>mutex_</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1CommandLoop_1a6ae7e4c5020652a1dda97dc3664b2bbf" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>static MRVIEWER_API void MR::CommandLoop::setMainThreadId</definition>
-        <argsstring>(const std::thread::id &amp;id)</argsstring>
-        <name>setMainThreadId</name>
-        <qualifiedname>MR::CommandLoop::setMainThreadId</qualifiedname>
-        <param>
-          <type>const std::thread::id &amp;</type>
-          <declname>id</declname>
-        </param>
-        <briefdescription>
-<para>This function setups main thread id, it should be called before any command. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCommandLoop.h" line="29" column="30"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1CommandLoop_1aa3d66df8666058e293e9daa4b8f68928" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API std::thread::id</type>
-        <definition>static MRVIEWER_API std::thread::id MR::CommandLoop::getMainThreadId</definition>
-        <argsstring>()</argsstring>
-        <name>getMainThreadId</name>
-        <qualifiedname>MR::CommandLoop::getMainThreadId</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCommandLoop.h" line="30" column="41"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1CommandLoop_1a90822eccec894fc827de4d60e5b6285b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>static MRVIEWER_API void MR::CommandLoop::setState</definition>
-        <argsstring>(StartPosition state)</argsstring>
-        <name>setState</name>
-        <qualifiedname>MR::CommandLoop::setState</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1CommandLoop_1a2e4318196fd48b27b617c07eb35bbe39" kindref="member">StartPosition</ref></type>
-          <declname>state</declname>
-        </param>
-        <briefdescription>
-<para>Update state of command loop, only can rise. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCommandLoop.h" line="32" column="30"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1CommandLoop_1ac2c51a1238c31d646cfb988bb335188b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>static MRVIEWER_API void MR::CommandLoop::appendCommand</definition>
-        <argsstring>(CommandFunc func, StartPosition state=StartPosition::BeforeWindowAppear)</argsstring>
-        <name>appendCommand</name>
-        <qualifiedname>MR::CommandLoop::appendCommand</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1CommandLoop_1a517bdd4c876165f0896a0780d5fea918" kindref="member">CommandFunc</ref></type>
-          <declname>func</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1CommandLoop_1a2e4318196fd48b27b617c07eb35bbe39" kindref="member">StartPosition</ref></type>
-          <declname>state</declname>
-          <defval><ref refid="classMR_1_1CommandLoop_1a2e4318196fd48b27b617c07eb35bbe39a336fdcdf66db98b7bcd1fd9c7c2dbeba" kindref="member">StartPosition::BeforeWindowAppear</ref></defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Adds command to the end of command loop, can be performed from any thread do not block, so be careful with lambda captures note: state - specify execution in specific time of application start </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCommandLoop.h" line="37" column="30"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1CommandLoop_1a10e006b28fa9dbd3572e3b43c8037640" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>static MRVIEWER_API void MR::CommandLoop::runCommandFromGUIThread</definition>
-        <argsstring>(CommandFunc func)</argsstring>
-        <name>runCommandFromGUIThread</name>
-        <qualifiedname>MR::CommandLoop::runCommandFromGUIThread</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1CommandLoop_1a517bdd4c876165f0896a0780d5fea918" kindref="member">CommandFunc</ref></type>
-          <declname>func</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>If caller thread is main - instantly run command, otherwise add command to the end of loop with StartPosition state = StartPosition::AfterSplash and blocks caller thread until command is done </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCommandLoop.h" line="41" column="30"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1CommandLoop_1a2f948b137288b0e6e94ca32809166869" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>static MRVIEWER_API void MR::CommandLoop::processCommands</definition>
-        <argsstring>()</argsstring>
-        <name>processCommands</name>
-        <qualifiedname>MR::CommandLoop::processCommands</qualifiedname>
-        <briefdescription>
-<para>Execute all commands from loop. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCommandLoop.h" line="44" column="30"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1CommandLoop_1a49b2698f52cf9c94be1af74fa75bf354" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>static MRVIEWER_API bool MR::CommandLoop::empty</definition>
-        <argsstring>()</argsstring>
-        <name>empty</name>
-        <qualifiedname>MR::CommandLoop::empty</qualifiedname>
-        <briefdescription>
-<para>Return true if loop is empty. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCommandLoop.h" line="47" column="30"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1CommandLoop_1af9d0a6f381407e79b5ee8eac0cd2fda2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>static MRVIEWER_API void MR::CommandLoop::removeCommands</definition>
-        <argsstring>(bool closeLoop)</argsstring>
-        <name>removeCommands</name>
-        <qualifiedname>MR::CommandLoop::removeCommands</qualifiedname>
-        <param>
-          <type>bool</type>
-          <declname>closeLoop</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Clears the queue without executing the commands if closeLoop is true, does not accept any new commands </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCommandLoop.h" line="51" column="30"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga6ae7e4c5020652a1dda97dc3664b2bbf" kind="function"><name>setMainThreadId</name></member>
+      <member refid="group__GeneralGroup_1gaa3d66df8666058e293e9daa4b8f68928" kind="function"><name>getMainThreadId</name></member>
+      <member refid="group__GeneralGroup_1ga90822eccec894fc827de4d60e5b6285b" kind="function"><name>setState</name></member>
+      <member refid="group__GeneralGroup_1gac2c51a1238c31d646cfb988bb335188b" kind="function"><name>appendCommand</name></member>
+      <member refid="group__GeneralGroup_1ga10e006b28fa9dbd3572e3b43c8037640" kind="function"><name>runCommandFromGUIThread</name></member>
+      <member refid="group__GeneralGroup_1ga2f948b137288b0e6e94ca32809166869" kind="function"><name>processCommands</name></member>
+      <member refid="group__GeneralGroup_1ga49b2698f52cf9c94be1af74fa75bf354" kind="function"><name>empty</name></member>
+      <member refid="group__GeneralGroup_1gaf9d0a6f381407e79b5ee8eac0cd2fda2" kind="function"><name>removeCommands</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMR_1_1CommandLoop_1a288afe8a082b19308c5d65f932d437bf" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::CommandLoop::CommandLoop</definition>
-        <argsstring>()=default</argsstring>
-        <name>CommandLoop</name>
-        <qualifiedname>MR::CommandLoop::CommandLoop</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCommandLoop.h" line="54" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1CommandLoop_1a0dfec26150ccd6fa2c5b9fbad975b21f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::CommandLoop::~CommandLoop</definition>
-        <argsstring>()</argsstring>
-        <name>~CommandLoop</name>
-        <qualifiedname>MR::CommandLoop::~CommandLoop</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCommandLoop.h" line="55" column="5"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga288afe8a082b19308c5d65f932d437bf" kind="function"><name>CommandLoop</name></member>
+      <member refid="group__GeneralGroup_1ga0dfec26150ccd6fa2c5b9fbad975b21f" kind="function"><name>~CommandLoop</name></member>
     </sectiondef>
     <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1CommandLoop_1a934555dfbff1cadb9be70f8b7ae87f34" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMR_1_1CommandLoop" kindref="compound">CommandLoop</ref> &amp;</type>
-        <definition>static CommandLoop &amp; MR::CommandLoop::instance_</definition>
-        <argsstring>()</argsstring>
-        <name>instance_</name>
-        <qualifiedname>MR::CommandLoop::instance_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCommandLoop.h" line="57" column="24"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1CommandLoop_1a06e8d4a28f020068f5b0520acfada256" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>static void MR::CommandLoop::addCommand_</definition>
-        <argsstring>(CommandFunc func, bool blockThread, StartPosition state)</argsstring>
-        <name>addCommand_</name>
-        <qualifiedname>MR::CommandLoop::addCommand_</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1CommandLoop_1a517bdd4c876165f0896a0780d5fea918" kindref="member">CommandFunc</ref></type>
-          <declname>func</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>blockThread</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1CommandLoop_1a2e4318196fd48b27b617c07eb35bbe39" kindref="member">StartPosition</ref></type>
-          <declname>state</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCommandLoop.h" line="59" column="17"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga934555dfbff1cadb9be70f8b7ae87f34" kind="function"><name>instance_</name></member>
+      <member refid="group__GeneralGroup_1ga06e8d4a28f020068f5b0520acfada256" kind="function"><name>addCommand_</name></member>
     </sectiondef>
     <briefdescription>
 <para>Additional command loop for external app control. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCommandLoop.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCommandLoop.h" bodystart="14" bodyend="76"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCommandLoop.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCommandLoop.h" bodystart="17" bodyend="79"/>
     <listofallmembers>
-      <member refid="classMR_1_1CommandLoop_1a06e8d4a28f020068f5b0520acfada256" prot="private" virt="non-virtual"><scope>MR::CommandLoop</scope><name>addCommand_</name></member>
-      <member refid="classMR_1_1CommandLoop_1ac2c51a1238c31d646cfb988bb335188b" prot="public" virt="non-virtual"><scope>MR::CommandLoop</scope><name>appendCommand</name></member>
-      <member refid="classMR_1_1CommandLoop_1a517bdd4c876165f0896a0780d5fea918" prot="public" virt="non-virtual"><scope>MR::CommandLoop</scope><name>CommandFunc</name></member>
-      <member refid="classMR_1_1CommandLoop_1a288afe8a082b19308c5d65f932d437bf" prot="private" virt="non-virtual"><scope>MR::CommandLoop</scope><name>CommandLoop</name></member>
-      <member refid="classMR_1_1CommandLoop_1acfda35989377d6cd24d55b26e21500db" prot="private" virt="non-virtual"><scope>MR::CommandLoop</scope><name>commands_</name></member>
-      <member refid="classMR_1_1CommandLoop_1a49b2698f52cf9c94be1af74fa75bf354" prot="public" virt="non-virtual"><scope>MR::CommandLoop</scope><name>empty</name></member>
-      <member refid="classMR_1_1CommandLoop_1aa3d66df8666058e293e9daa4b8f68928" prot="public" virt="non-virtual"><scope>MR::CommandLoop</scope><name>getMainThreadId</name></member>
-      <member refid="classMR_1_1CommandLoop_1a934555dfbff1cadb9be70f8b7ae87f34" prot="private" virt="non-virtual"><scope>MR::CommandLoop</scope><name>instance_</name></member>
-      <member refid="classMR_1_1CommandLoop_1a49f8164b9d23200b50227b620344917c" prot="private" virt="non-virtual"><scope>MR::CommandLoop</scope><name>mainThreadId_</name></member>
-      <member refid="classMR_1_1CommandLoop_1aa75ce33740e9bd281f5633e11c989129" prot="private" virt="non-virtual"><scope>MR::CommandLoop</scope><name>mutex_</name></member>
-      <member refid="classMR_1_1CommandLoop_1a2f948b137288b0e6e94ca32809166869" prot="public" virt="non-virtual"><scope>MR::CommandLoop</scope><name>processCommands</name></member>
-      <member refid="classMR_1_1CommandLoop_1aa3467ab398f96c65ed9621abdb8e5438" prot="private" virt="non-virtual"><scope>MR::CommandLoop</scope><name>queueClosed_</name></member>
-      <member refid="classMR_1_1CommandLoop_1af9d0a6f381407e79b5ee8eac0cd2fda2" prot="public" virt="non-virtual"><scope>MR::CommandLoop</scope><name>removeCommands</name></member>
-      <member refid="classMR_1_1CommandLoop_1a10e006b28fa9dbd3572e3b43c8037640" prot="public" virt="non-virtual"><scope>MR::CommandLoop</scope><name>runCommandFromGUIThread</name></member>
-      <member refid="classMR_1_1CommandLoop_1a6ae7e4c5020652a1dda97dc3664b2bbf" prot="public" virt="non-virtual"><scope>MR::CommandLoop</scope><name>setMainThreadId</name></member>
-      <member refid="classMR_1_1CommandLoop_1a90822eccec894fc827de4d60e5b6285b" prot="public" virt="non-virtual"><scope>MR::CommandLoop</scope><name>setState</name></member>
-      <member refid="classMR_1_1CommandLoop_1a2e4318196fd48b27b617c07eb35bbe39" prot="public" virt="non-virtual"><scope>MR::CommandLoop</scope><name>StartPosition</name></member>
-      <member refid="classMR_1_1CommandLoop_1aae9d2900dc96e5066d7e3cd8c11db7ec" prot="private" virt="non-virtual"><scope>MR::CommandLoop</scope><name>state_</name></member>
-      <member refid="classMR_1_1CommandLoop_1a0dfec26150ccd6fa2c5b9fbad975b21f" prot="private" virt="non-virtual"><scope>MR::CommandLoop</scope><name>~CommandLoop</name></member>
+      <member refid="group__GeneralGroup_1ga06e8d4a28f020068f5b0520acfada256" prot="private" virt="non-virtual"><scope>MR::CommandLoop</scope><name>addCommand_</name></member>
+      <member refid="group__GeneralGroup_1gac2c51a1238c31d646cfb988bb335188b" prot="public" virt="non-virtual"><scope>MR::CommandLoop</scope><name>appendCommand</name></member>
+      <member refid="group__GeneralGroup_1ga517bdd4c876165f0896a0780d5fea918" prot="public" virt="non-virtual"><scope>MR::CommandLoop</scope><name>CommandFunc</name></member>
+      <member refid="group__GeneralGroup_1ga288afe8a082b19308c5d65f932d437bf" prot="private" virt="non-virtual"><scope>MR::CommandLoop</scope><name>CommandLoop</name></member>
+      <member refid="group__GeneralGroup_1gacfda35989377d6cd24d55b26e21500db" prot="private" virt="non-virtual"><scope>MR::CommandLoop</scope><name>commands_</name></member>
+      <member refid="group__GeneralGroup_1ga49b2698f52cf9c94be1af74fa75bf354" prot="public" virt="non-virtual"><scope>MR::CommandLoop</scope><name>empty</name></member>
+      <member refid="group__GeneralGroup_1gaa3d66df8666058e293e9daa4b8f68928" prot="public" virt="non-virtual"><scope>MR::CommandLoop</scope><name>getMainThreadId</name></member>
+      <member refid="group__GeneralGroup_1ga934555dfbff1cadb9be70f8b7ae87f34" prot="private" virt="non-virtual"><scope>MR::CommandLoop</scope><name>instance_</name></member>
+      <member refid="group__GeneralGroup_1ga49f8164b9d23200b50227b620344917c" prot="private" virt="non-virtual"><scope>MR::CommandLoop</scope><name>mainThreadId_</name></member>
+      <member refid="group__GeneralGroup_1gaa75ce33740e9bd281f5633e11c989129" prot="private" virt="non-virtual"><scope>MR::CommandLoop</scope><name>mutex_</name></member>
+      <member refid="group__GeneralGroup_1ga2f948b137288b0e6e94ca32809166869" prot="public" virt="non-virtual"><scope>MR::CommandLoop</scope><name>processCommands</name></member>
+      <member refid="group__GeneralGroup_1gaa3467ab398f96c65ed9621abdb8e5438" prot="private" virt="non-virtual"><scope>MR::CommandLoop</scope><name>queueClosed_</name></member>
+      <member refid="group__GeneralGroup_1gaf9d0a6f381407e79b5ee8eac0cd2fda2" prot="public" virt="non-virtual"><scope>MR::CommandLoop</scope><name>removeCommands</name></member>
+      <member refid="group__GeneralGroup_1ga10e006b28fa9dbd3572e3b43c8037640" prot="public" virt="non-virtual"><scope>MR::CommandLoop</scope><name>runCommandFromGUIThread</name></member>
+      <member refid="group__GeneralGroup_1ga6ae7e4c5020652a1dda97dc3664b2bbf" prot="public" virt="non-virtual"><scope>MR::CommandLoop</scope><name>setMainThreadId</name></member>
+      <member refid="group__GeneralGroup_1ga90822eccec894fc827de4d60e5b6285b" prot="public" virt="non-virtual"><scope>MR::CommandLoop</scope><name>setState</name></member>
+      <member refid="group__GeneralGroup_1ga2e4318196fd48b27b617c07eb35bbe39" prot="public" virt="non-virtual"><scope>MR::CommandLoop</scope><name>StartPosition</name></member>
+      <member refid="group__GeneralGroup_1gaae9d2900dc96e5066d7e3cd8c11db7ec" prot="private" virt="non-virtual"><scope>MR::CommandLoop</scope><name>state_</name></member>
+      <member refid="group__GeneralGroup_1ga0dfec26150ccd6fa2c5b9fbad975b21f" prot="private" virt="non-virtual"><scope>MR::CommandLoop</scope><name>~CommandLoop</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

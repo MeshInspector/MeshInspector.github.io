@@ -5,88 +5,12 @@
     <basecompoundref refid="structMR_1_1ConnectionHolder" prot="public" virt="non-virtual">MR::ConnectionHolder</basecompoundref>
     <includes refid="MRViewerEventsListener_8h" local="no">MRViewerEventsListener.h</includes>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1KeyUpListener_1a2db764fb2f6f70d35af7ba147ed7fbaa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::KeyUpListener::MR_ADD_CTOR_DELETE_MOVE</definition>
-        <argsstring>(KeyUpListener)</argsstring>
-        <name>MR_ADD_CTOR_DELETE_MOVE</name>
-        <qualifiedname>MR::KeyUpListener::MR_ADD_CTOR_DELETE_MOVE</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1KeyUpListener" kindref="compound">KeyUpListener</ref></type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="133" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1KeyUpListener_1a07cd66972e7837c59e9d7e0db46c988b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type></type>
-        <definition>virtual MR::KeyUpListener::~KeyUpListener</definition>
-        <argsstring>()=default</argsstring>
-        <name>~KeyUpListener</name>
-        <qualifiedname>MR::KeyUpListener::~KeyUpListener</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="134" column="13"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1KeyUpListener_1a3a9eae9f62c6a62f27a12423188665a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>virtual MRVIEWER_API void MR::KeyUpListener::connect</definition>
-        <argsstring>(Viewer *viewer, int group, boost::signals2::connect_position pos) override</argsstring>
-        <name>connect</name>
-        <qualifiedname>MR::KeyUpListener::connect</qualifiedname>
-        <reimplements refid="structMR_1_1IConnectable_1a2212095d3996892cff578320ac2ce746">connect</reimplements>
-        <param>
-          <type><ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref> *</type>
-          <declname>viewer</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>group</declname>
-        </param>
-        <param>
-          <type>boost::signals2::connect_position</type>
-          <declname>pos</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="135" column="31"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga2db764fb2f6f70d35af7ba147ed7fbaa" kind="function"><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1ga07cd66972e7837c59e9d7e0db46c988b" kind="function"><name>~KeyUpListener</name></member>
+      <member refid="group__GeneralGroup_1ga3a9eae9f62c6a62f27a12423188665a7" kind="function"><name>connect</name></member>
     </sectiondef>
     <sectiondef kind="protected-func">
-      <memberdef kind="function" id="structMR_1_1KeyUpListener_1abd5bf532b5f8a6b362e491fbdfb05719" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::KeyUpListener::onKeyUp_</definition>
-        <argsstring>(int key, int modifier)=0</argsstring>
-        <name>onKeyUp_</name>
-        <qualifiedname>MR::KeyUpListener::onKeyUp_</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>key</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>modifier</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="137" column="18"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gabd5bf532b5f8a6b362e491fbdfb05719" kind="function"><name>onKeyUp_</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -128,16 +52,16 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="131" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="132" bodyend="138"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="134" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="135" bodyend="141"/>
     <listofallmembers>
-      <member refid="structMR_1_1KeyUpListener_1a3a9eae9f62c6a62f27a12423188665a7" prot="public" virt="virtual"><scope>MR::KeyUpListener</scope><name>connect</name></member>
-      <member refid="structMR_1_1ConnectionHolder_1a56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::KeyUpListener</scope><name>connection_</name></member>
-      <member refid="structMR_1_1ConnectionHolder_1afe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::KeyUpListener</scope><name>disconnect</name></member>
-      <member refid="structMR_1_1KeyUpListener_1a2db764fb2f6f70d35af7ba147ed7fbaa" prot="public" virt="non-virtual"><scope>MR::KeyUpListener</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
-      <member refid="structMR_1_1KeyUpListener_1abd5bf532b5f8a6b362e491fbdfb05719" prot="protected" virt="pure-virtual"><scope>MR::KeyUpListener</scope><name>onKeyUp_</name></member>
-      <member refid="structMR_1_1ConnectionHolder_1a99ffc44dd73f73e2e907b7ab5bb38aaf" prot="public" virt="virtual"><scope>MR::KeyUpListener</scope><name>~ConnectionHolder</name></member>
-      <member refid="structMR_1_1IConnectable_1a28c07761e682b80befbb2d5f91bdd38c" prot="public" virt="virtual"><scope>MR::KeyUpListener</scope><name>~IConnectable</name></member>
-      <member refid="structMR_1_1KeyUpListener_1a07cd66972e7837c59e9d7e0db46c988b" prot="public" virt="virtual"><scope>MR::KeyUpListener</scope><name>~KeyUpListener</name></member>
+      <member refid="group__GeneralGroup_1ga3a9eae9f62c6a62f27a12423188665a7" prot="public" virt="virtual"><scope>MR::KeyUpListener</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1ga56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::KeyUpListener</scope><name>connection_</name></member>
+      <member refid="group__GeneralGroup_1gafe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::KeyUpListener</scope><name>disconnect</name></member>
+      <member refid="group__GeneralGroup_1ga2db764fb2f6f70d35af7ba147ed7fbaa" prot="public" virt="non-virtual"><scope>MR::KeyUpListener</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1gabd5bf532b5f8a6b362e491fbdfb05719" prot="protected" virt="pure-virtual"><scope>MR::KeyUpListener</scope><name>onKeyUp_</name></member>
+      <member refid="group__GeneralGroup_1ga99ffc44dd73f73e2e907b7ab5bb38aaf" prot="public" virt="virtual"><scope>MR::KeyUpListener</scope><name>~ConnectionHolder</name></member>
+      <member refid="group__GeneralGroup_1ga28c07761e682b80befbb2d5f91bdd38c" prot="public" virt="virtual"><scope>MR::KeyUpListener</scope><name>~IConnectable</name></member>
+      <member refid="group__GeneralGroup_1ga07cd66972e7837c59e9d7e0db46c988b" prot="public" virt="virtual"><scope>MR::KeyUpListener</scope><name>~KeyUpListener</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

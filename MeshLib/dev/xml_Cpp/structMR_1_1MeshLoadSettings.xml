@@ -4,181 +4,17 @@
     <compoundname>MR::MeshLoadSettings</compoundname>
     <includes refid="MRMeshLoadSettings_8h" local="no">MRMeshLoadSettings.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1MeshLoadSettings_1a49a42dcc4e94c7c1824987b168d150b9" prot="public" static="no" mutable="no">
-        <type>std::optional&lt; <ref refid="MRObjectMeshHolder_8h_1a29d14b75d26970bc256e90bf11c3f0e5" kindref="member">Edges</ref> &gt; *</type>
-        <definition>std::optional&lt;Edges&gt;* MR::MeshLoadSettings::edges</definition>
-        <argsstring></argsstring>
-        <name>edges</name>
-        <qualifiedname>MR::MeshLoadSettings::edges</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-<para>optional load artifact: polyline edges </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadSettings.h" line="12" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadSettings.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MeshLoadSettings_1a3d2dec2482a716804af51ed748ebcebc" prot="public" static="no" mutable="no">
-        <type>VertColors *</type>
-        <definition>VertColors* MR::MeshLoadSettings::colors</definition>
-        <argsstring></argsstring>
-        <name>colors</name>
-        <qualifiedname>MR::MeshLoadSettings::colors</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-<para>optional load artifact: per-vertex color map </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadSettings.h" line="13" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadSettings.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MeshLoadSettings_1a7dbfff2eb5c5cb545df805be2ba90d72" prot="public" static="no" mutable="no">
-        <type>FaceColors *</type>
-        <definition>FaceColors* MR::MeshLoadSettings::faceColors</definition>
-        <argsstring></argsstring>
-        <name>faceColors</name>
-        <qualifiedname>MR::MeshLoadSettings::faceColors</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-<para>optional load artifact: per-face color map </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadSettings.h" line="14" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadSettings.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MeshLoadSettings_1a230e016c84aafc3886deeb6fd2b33455" prot="public" static="no" mutable="no">
-        <type>VertUVCoords *</type>
-        <definition>VertUVCoords* MR::MeshLoadSettings::uvCoords</definition>
-        <argsstring></argsstring>
-        <name>uvCoords</name>
-        <qualifiedname>MR::MeshLoadSettings::uvCoords</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-<para>optional load artifact: per-vertex uv-coordinates </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadSettings.h" line="15" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadSettings.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MeshLoadSettings_1aeb2eb22ddf375f8cac7a36b6ec756c94" prot="public" static="no" mutable="no">
-        <type>VertNormals *</type>
-        <definition>VertNormals* MR::MeshLoadSettings::normals</definition>
-        <argsstring></argsstring>
-        <name>normals</name>
-        <qualifiedname>MR::MeshLoadSettings::normals</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-<para>optional load artifact: per-vertex normals </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadSettings.h" line="16" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadSettings.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MeshLoadSettings_1aea5bd8460c5fbf0c62840a46e0eb2011" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1MeshTexture" kindref="compound">MeshTexture</ref> *</type>
-        <definition>MeshTexture* MR::MeshLoadSettings::texture</definition>
-        <argsstring></argsstring>
-        <name>texture</name>
-        <qualifiedname>MR::MeshLoadSettings::texture</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-<para>optional load artifact: texture image </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadSettings.h" line="17" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadSettings.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MeshLoadSettings_1a6fdcf8fdd76f70d7403ea886ed944019" prot="public" static="no" mutable="no">
-        <type>int *</type>
-        <definition>int* MR::MeshLoadSettings::skippedFaceCount</definition>
-        <argsstring></argsstring>
-        <name>skippedFaceCount</name>
-        <qualifiedname>MR::MeshLoadSettings::skippedFaceCount</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-<para>optional output: counter of skipped faces during mesh creation </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadSettings.h" line="18" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadSettings.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MeshLoadSettings_1a1fdd9db8e441e5ff1bcee3e9d4b664a7" prot="public" static="no" mutable="no">
-        <type>int *</type>
-        <definition>int* MR::MeshLoadSettings::duplicatedVertexCount</definition>
-        <argsstring></argsstring>
-        <name>duplicatedVertexCount</name>
-        <qualifiedname>MR::MeshLoadSettings::duplicatedVertexCount</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-<para>optional output: counter of duplicated vertices (that created for resolve non-manifold geometry) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadSettings.h" line="19" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadSettings.h" bodystart="19" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MeshLoadSettings_1ae3778a9ff6574570228d2a4ae6b546c0" prot="public" static="no" mutable="no">
-        <type>AffineXf3f *</type>
-        <definition>AffineXf3f* MR::MeshLoadSettings::xf</definition>
-        <argsstring></argsstring>
-        <name>xf</name>
-        <qualifiedname>MR::MeshLoadSettings::xf</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-<para>optional output: transform for the loaded mesh to improve precision of vertex coordinates </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadSettings.h" line="20" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadSettings.h" bodystart="20" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MeshLoadSettings_1a60b5f4bc63d35b0ef8261da4de65917d" prot="public" static="no" mutable="no">
-        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
-        <definition>ProgressCallback MR::MeshLoadSettings::callback</definition>
-        <argsstring></argsstring>
-        <name>callback</name>
-        <qualifiedname>MR::MeshLoadSettings::callback</qualifiedname>
-        <briefdescription>
-<para>callback for set progress and stop process </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadSettings.h" line="21" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadSettings.h" bodystart="21" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MeshLoadSettings_1adf9210a3db4a2bdb4ccfb7e14f428246" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::MeshLoadSettings::telemetrySignal</definition>
-        <argsstring></argsstring>
-        <name>telemetrySignal</name>
-        <qualifiedname>MR::MeshLoadSettings::telemetrySignal</qualifiedname>
-        <initializer>= true</initializer>
-        <briefdescription>
-<para>permit telemetry signal about loading </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadSettings.h" line="22" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadSettings.h" bodystart="22" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga49a42dcc4e94c7c1824987b168d150b9" kind="variable"><name>edges</name></member>
+      <member refid="group__GeneralGroup_1ga3d2dec2482a716804af51ed748ebcebc" kind="variable"><name>colors</name></member>
+      <member refid="group__GeneralGroup_1ga7dbfff2eb5c5cb545df805be2ba90d72" kind="variable"><name>faceColors</name></member>
+      <member refid="group__GeneralGroup_1ga230e016c84aafc3886deeb6fd2b33455" kind="variable"><name>uvCoords</name></member>
+      <member refid="group__GeneralGroup_1gaeb2eb22ddf375f8cac7a36b6ec756c94" kind="variable"><name>normals</name></member>
+      <member refid="group__GeneralGroup_1gaea5bd8460c5fbf0c62840a46e0eb2011" kind="variable"><name>texture</name></member>
+      <member refid="group__GeneralGroup_1ga6fdcf8fdd76f70d7403ea886ed944019" kind="variable"><name>skippedFaceCount</name></member>
+      <member refid="group__GeneralGroup_1ga1fdd9db8e441e5ff1bcee3e9d4b664a7" kind="variable"><name>duplicatedVertexCount</name></member>
+      <member refid="group__GeneralGroup_1gae3778a9ff6574570228d2a4ae6b546c0" kind="variable"><name>xf</name></member>
+      <member refid="group__GeneralGroup_1ga60b5f4bc63d35b0ef8261da4de65917d" kind="variable"><name>callback</name></member>
+      <member refid="group__GeneralGroup_1gadf9210a3db4a2bdb4ccfb7e14f428246" kind="variable"><name>telemetrySignal</name></member>
     </sectiondef>
     <briefdescription>
 <para>setting for mesh loading from external format, and locations of optional output data </para>
@@ -204,19 +40,19 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadSettings.h" line="10" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadSettings.h" bodystart="11" bodyend="23"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadSettings.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadSettings.h" bodystart="14" bodyend="26"/>
     <listofallmembers>
-      <member refid="structMR_1_1MeshLoadSettings_1a60b5f4bc63d35b0ef8261da4de65917d" prot="public" virt="non-virtual"><scope>MR::MeshLoadSettings</scope><name>callback</name></member>
-      <member refid="structMR_1_1MeshLoadSettings_1a3d2dec2482a716804af51ed748ebcebc" prot="public" virt="non-virtual"><scope>MR::MeshLoadSettings</scope><name>colors</name></member>
-      <member refid="structMR_1_1MeshLoadSettings_1a1fdd9db8e441e5ff1bcee3e9d4b664a7" prot="public" virt="non-virtual"><scope>MR::MeshLoadSettings</scope><name>duplicatedVertexCount</name></member>
-      <member refid="structMR_1_1MeshLoadSettings_1a49a42dcc4e94c7c1824987b168d150b9" prot="public" virt="non-virtual"><scope>MR::MeshLoadSettings</scope><name>edges</name></member>
-      <member refid="structMR_1_1MeshLoadSettings_1a7dbfff2eb5c5cb545df805be2ba90d72" prot="public" virt="non-virtual"><scope>MR::MeshLoadSettings</scope><name>faceColors</name></member>
-      <member refid="structMR_1_1MeshLoadSettings_1aeb2eb22ddf375f8cac7a36b6ec756c94" prot="public" virt="non-virtual"><scope>MR::MeshLoadSettings</scope><name>normals</name></member>
-      <member refid="structMR_1_1MeshLoadSettings_1a6fdcf8fdd76f70d7403ea886ed944019" prot="public" virt="non-virtual"><scope>MR::MeshLoadSettings</scope><name>skippedFaceCount</name></member>
-      <member refid="structMR_1_1MeshLoadSettings_1adf9210a3db4a2bdb4ccfb7e14f428246" prot="public" virt="non-virtual"><scope>MR::MeshLoadSettings</scope><name>telemetrySignal</name></member>
-      <member refid="structMR_1_1MeshLoadSettings_1aea5bd8460c5fbf0c62840a46e0eb2011" prot="public" virt="non-virtual"><scope>MR::MeshLoadSettings</scope><name>texture</name></member>
-      <member refid="structMR_1_1MeshLoadSettings_1a230e016c84aafc3886deeb6fd2b33455" prot="public" virt="non-virtual"><scope>MR::MeshLoadSettings</scope><name>uvCoords</name></member>
-      <member refid="structMR_1_1MeshLoadSettings_1ae3778a9ff6574570228d2a4ae6b546c0" prot="public" virt="non-virtual"><scope>MR::MeshLoadSettings</scope><name>xf</name></member>
+      <member refid="group__GeneralGroup_1ga60b5f4bc63d35b0ef8261da4de65917d" prot="public" virt="non-virtual"><scope>MR::MeshLoadSettings</scope><name>callback</name></member>
+      <member refid="group__GeneralGroup_1ga3d2dec2482a716804af51ed748ebcebc" prot="public" virt="non-virtual"><scope>MR::MeshLoadSettings</scope><name>colors</name></member>
+      <member refid="group__GeneralGroup_1ga1fdd9db8e441e5ff1bcee3e9d4b664a7" prot="public" virt="non-virtual"><scope>MR::MeshLoadSettings</scope><name>duplicatedVertexCount</name></member>
+      <member refid="group__GeneralGroup_1ga49a42dcc4e94c7c1824987b168d150b9" prot="public" virt="non-virtual"><scope>MR::MeshLoadSettings</scope><name>edges</name></member>
+      <member refid="group__GeneralGroup_1ga7dbfff2eb5c5cb545df805be2ba90d72" prot="public" virt="non-virtual"><scope>MR::MeshLoadSettings</scope><name>faceColors</name></member>
+      <member refid="group__GeneralGroup_1gaeb2eb22ddf375f8cac7a36b6ec756c94" prot="public" virt="non-virtual"><scope>MR::MeshLoadSettings</scope><name>normals</name></member>
+      <member refid="group__GeneralGroup_1ga6fdcf8fdd76f70d7403ea886ed944019" prot="public" virt="non-virtual"><scope>MR::MeshLoadSettings</scope><name>skippedFaceCount</name></member>
+      <member refid="group__GeneralGroup_1gadf9210a3db4a2bdb4ccfb7e14f428246" prot="public" virt="non-virtual"><scope>MR::MeshLoadSettings</scope><name>telemetrySignal</name></member>
+      <member refid="group__GeneralGroup_1gaea5bd8460c5fbf0c62840a46e0eb2011" prot="public" virt="non-virtual"><scope>MR::MeshLoadSettings</scope><name>texture</name></member>
+      <member refid="group__GeneralGroup_1ga230e016c84aafc3886deeb6fd2b33455" prot="public" virt="non-virtual"><scope>MR::MeshLoadSettings</scope><name>uvCoords</name></member>
+      <member refid="group__GeneralGroup_1gae3778a9ff6574570228d2a4ae6b546c0" prot="public" virt="non-virtual"><scope>MR::MeshLoadSettings</scope><name>xf</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

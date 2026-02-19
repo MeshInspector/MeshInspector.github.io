@@ -4,66 +4,12 @@
     <compoundname>MR::MeshOrPointsXf</compoundname>
     <includes refid="MRMeshOrPoints_8h" local="no">MRMeshOrPoints.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1MeshOrPointsXf_1a64a929bd548c696b451590ec6b2465bb" prot="public" static="no" mutable="no">
-        <type><ref refid="classMR_1_1MeshOrPoints" kindref="compound">MeshOrPoints</ref></type>
-        <definition>MeshOrPoints MR::MeshOrPointsXf::obj</definition>
-        <argsstring></argsstring>
-        <name>obj</name>
-        <qualifiedname>MR::MeshOrPointsXf::obj</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" line="107" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" bodystart="107" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MeshOrPointsXf_1afea52861c699700de59ff6307740c6b7" prot="public" static="no" mutable="no">
-        <type>AffineXf3f</type>
-        <definition>AffineXf3f MR::MeshOrPointsXf::xf</definition>
-        <argsstring></argsstring>
-        <name>xf</name>
-        <qualifiedname>MR::MeshOrPointsXf::xf</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" line="108" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" bodystart="108" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga64a929bd548c696b451590ec6b2465bb" kind="variable"><name>obj</name></member>
+      <member refid="group__GeneralGroup_1gafea52861c699700de59ff6307740c6b7" kind="variable"><name>xf</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1MeshOrPointsXf_1a2932a85f5de8279bac268cd46556006e" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::function&lt; <ref refid="structMR_1_1MeshOrPoints_1_1ProjectionResult" kindref="compound">MeshOrPoints::ProjectionResult</ref>(const Vector3f &amp;)&gt;</type>
-        <definition>MRMESH_API std::function&lt; MeshOrPoints::ProjectionResult(const Vector3f &amp;)&gt; MR::MeshOrPointsXf::projector</definition>
-        <argsstring>() const</argsstring>
-        <name>projector</name>
-        <qualifiedname>MR::MeshOrPointsXf::projector</qualifiedname>
-        <briefdescription>
-<para>returns a function that finds projection (closest) points on this: Vector3f-&gt;ProjectionResult </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" line="111" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1MeshOrPointsXf_1afa81494e75a2ec0f3f9cf3e03a2880d0" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="classMR_1_1MeshOrPoints_1a0a57020e6aaf506fbbd6c3ce60c21412" kindref="member">MeshOrPoints::LimitedProjectorFunc</ref></type>
-        <definition>MRMESH_API MeshOrPoints::LimitedProjectorFunc MR::MeshOrPointsXf::limitedProjector</definition>
-        <argsstring>() const</argsstring>
-        <name>limitedProjector</name>
-        <qualifiedname>MR::MeshOrPointsXf::limitedProjector</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>returns a function that updates previously known projection (closest) points on this, the update takes place only if newly found closest point is closer to p than sqrt(res.distSq) given on input </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" line="115" column="52"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga2932a85f5de8279bac268cd46556006e" kind="function"><name>projector</name></member>
+      <member refid="group__GeneralGroup_1gafa81494e75a2ec0f3f9cf3e03a2880d0" kind="function"><name>limitedProjector</name></member>
     </sectiondef>
     <briefdescription>
 <para>an object and its transformation to global space with other objects </para>
@@ -83,12 +29,12 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" line="105" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" bodystart="106" bodyend="116"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" line="108" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" bodystart="109" bodyend="119"/>
     <listofallmembers>
-      <member refid="structMR_1_1MeshOrPointsXf_1afa81494e75a2ec0f3f9cf3e03a2880d0" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsXf</scope><name>limitedProjector</name></member>
-      <member refid="structMR_1_1MeshOrPointsXf_1a64a929bd548c696b451590ec6b2465bb" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsXf</scope><name>obj</name></member>
-      <member refid="structMR_1_1MeshOrPointsXf_1a2932a85f5de8279bac268cd46556006e" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsXf</scope><name>projector</name></member>
-      <member refid="structMR_1_1MeshOrPointsXf_1afea52861c699700de59ff6307740c6b7" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsXf</scope><name>xf</name></member>
+      <member refid="group__GeneralGroup_1gafa81494e75a2ec0f3f9cf3e03a2880d0" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsXf</scope><name>limitedProjector</name></member>
+      <member refid="group__GeneralGroup_1ga64a929bd548c696b451590ec6b2465bb" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsXf</scope><name>obj</name></member>
+      <member refid="group__GeneralGroup_1ga2932a85f5de8279bac268cd46556006e" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsXf</scope><name>projector</name></member>
+      <member refid="group__GeneralGroup_1gafea52861c699700de59ff6307740c6b7" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsXf</scope><name>xf</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

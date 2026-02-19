@@ -4,126 +4,29 @@
     <compoundname>MR::GlTexture::Settings</compoundname>
     <includes refid="MRGLTexture_8h" local="no">MRGLTexture.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1GlTexture_1_1Settings_1afac6caf438f2fe584e2e968364cfbd8a" prot="public" static="no" mutable="no">
-        <type>Vector3i</type>
-        <definition>Vector3i MR::GlTexture::Settings::resolution</definition>
-        <argsstring></argsstring>
-        <name>resolution</name>
-        <qualifiedname>MR::GlTexture::Settings::resolution</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>the X and Y components are the dimensions of the target texture Z - 1 for texture2d Z - number of textures for texture2d array Z - Z dimensions for texture3d </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" line="53" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" bodystart="53" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1GlTexture_1_1Settings_1a3b834f386d4f814d5f03b43e229d4adb" prot="public" static="no" mutable="no">
-        <type>GLint</type>
-        <definition>GLint MR::GlTexture::Settings::internalFormat</definition>
-        <argsstring></argsstring>
-        <name>internalFormat</name>
-        <qualifiedname>MR::GlTexture::Settings::internalFormat</qualifiedname>
-        <initializer>= GL_RGBA</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" line="59" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" bodystart="59" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1GlTexture_1_1Settings_1a43504dbf4a7fab179ae9e99940385273" prot="public" static="no" mutable="no">
-        <type>GLint</type>
-        <definition>GLint MR::GlTexture::Settings::format</definition>
-        <argsstring></argsstring>
-        <name>format</name>
-        <qualifiedname>MR::GlTexture::Settings::format</qualifiedname>
-        <initializer>= GL_RGBA</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" line="60" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" bodystart="60" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1GlTexture_1_1Settings_1ad39830e427a6b30fbd800ad366bd89f4" prot="public" static="no" mutable="no">
-        <type>GLint</type>
-        <definition>GLint MR::GlTexture::Settings::type</definition>
-        <argsstring></argsstring>
-        <name>type</name>
-        <qualifiedname>MR::GlTexture::Settings::type</qualifiedname>
-        <initializer>= GL_UNSIGNED_BYTE</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" line="61" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" bodystart="61" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1GlTexture_1_1Settings_1a622af16b47b77e020bec6dced9f55f65" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1a0e519d6a7c053c5d86dac33ecd0fa00c" kindref="member">WrapType</ref></type>
-        <definition>WrapType MR::GlTexture::Settings::wrap</definition>
-        <argsstring></argsstring>
-        <name>wrap</name>
-        <qualifiedname>MR::GlTexture::Settings::wrap</qualifiedname>
-        <initializer>= <ref refid="namespaceMR_1a0e519d6a7c053c5d86dac33ecd0fa00ca2403def5083f02105e7802b3b315681e" kindref="member">WrapType::Mirror</ref></initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" line="62" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" bodystart="62" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1GlTexture_1_1Settings_1a877a27fbb560e4c2b894f410f8d07eaf" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1a6b6dd7eadc1056fc5ffd8af1810d925a" kindref="member">FilterType</ref></type>
-        <definition>FilterType MR::GlTexture::Settings::filter</definition>
-        <argsstring></argsstring>
-        <name>filter</name>
-        <qualifiedname>MR::GlTexture::Settings::filter</qualifiedname>
-        <initializer>= <ref refid="namespaceMR_1a6b6dd7eadc1056fc5ffd8af1810d925aa4984667940802dedc139aa7a430a6553" kindref="member">FilterType::Discrete</ref></initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" line="63" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" bodystart="63" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gafac6caf438f2fe584e2e968364cfbd8a" kind="variable"><name>resolution</name></member>
+      <member refid="group__GeneralGroup_1ga3b834f386d4f814d5f03b43e229d4adb" kind="variable"><name>internalFormat</name></member>
+      <member refid="group__GeneralGroup_1ga43504dbf4a7fab179ae9e99940385273" kind="variable"><name>format</name></member>
+      <member refid="group__GeneralGroup_1gad39830e427a6b30fbd800ad366bd89f4" kind="variable"><name>type</name></member>
+      <member refid="group__GeneralGroup_1ga622af16b47b77e020bec6dced9f55f65" kind="variable"><name>wrap</name></member>
+      <member refid="group__GeneralGroup_1ga877a27fbb560e4c2b894f410f8d07eaf" kind="variable"><name>filter</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1GlTexture_1_1Settings_1a3943dc4f528bc49722114379614e4c2e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>size_t</type>
-        <definition>size_t MR::GlTexture::Settings::size</definition>
-        <argsstring>() const</argsstring>
-        <name>size</name>
-        <qualifiedname>MR::GlTexture::Settings::size</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" line="54" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" bodystart="54" bodyend="57"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga3943dc4f528bc49722114379614e4c2e" kind="function"><name>size</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" line="47" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" bodystart="48" bodyend="64"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" line="50" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" bodystart="51" bodyend="67"/>
     <listofallmembers>
-      <member refid="structMR_1_1GlTexture_1_1Settings_1a877a27fbb560e4c2b894f410f8d07eaf" prot="public" virt="non-virtual"><scope>MR::GlTexture::Settings</scope><name>filter</name></member>
-      <member refid="structMR_1_1GlTexture_1_1Settings_1a43504dbf4a7fab179ae9e99940385273" prot="public" virt="non-virtual"><scope>MR::GlTexture::Settings</scope><name>format</name></member>
-      <member refid="structMR_1_1GlTexture_1_1Settings_1a3b834f386d4f814d5f03b43e229d4adb" prot="public" virt="non-virtual"><scope>MR::GlTexture::Settings</scope><name>internalFormat</name></member>
-      <member refid="structMR_1_1GlTexture_1_1Settings_1afac6caf438f2fe584e2e968364cfbd8a" prot="public" virt="non-virtual"><scope>MR::GlTexture::Settings</scope><name>resolution</name></member>
-      <member refid="structMR_1_1GlTexture_1_1Settings_1a3943dc4f528bc49722114379614e4c2e" prot="public" virt="non-virtual"><scope>MR::GlTexture::Settings</scope><name>size</name></member>
-      <member refid="structMR_1_1GlTexture_1_1Settings_1ad39830e427a6b30fbd800ad366bd89f4" prot="public" virt="non-virtual"><scope>MR::GlTexture::Settings</scope><name>type</name></member>
-      <member refid="structMR_1_1GlTexture_1_1Settings_1a622af16b47b77e020bec6dced9f55f65" prot="public" virt="non-virtual"><scope>MR::GlTexture::Settings</scope><name>wrap</name></member>
+      <member refid="group__GeneralGroup_1ga877a27fbb560e4c2b894f410f8d07eaf" prot="public" virt="non-virtual"><scope>MR::GlTexture::Settings</scope><name>filter</name></member>
+      <member refid="group__GeneralGroup_1ga43504dbf4a7fab179ae9e99940385273" prot="public" virt="non-virtual"><scope>MR::GlTexture::Settings</scope><name>format</name></member>
+      <member refid="group__GeneralGroup_1ga3b834f386d4f814d5f03b43e229d4adb" prot="public" virt="non-virtual"><scope>MR::GlTexture::Settings</scope><name>internalFormat</name></member>
+      <member refid="group__GeneralGroup_1gafac6caf438f2fe584e2e968364cfbd8a" prot="public" virt="non-virtual"><scope>MR::GlTexture::Settings</scope><name>resolution</name></member>
+      <member refid="group__GeneralGroup_1ga3943dc4f528bc49722114379614e4c2e" prot="public" virt="non-virtual"><scope>MR::GlTexture::Settings</scope><name>size</name></member>
+      <member refid="group__GeneralGroup_1gad39830e427a6b30fbd800ad366bd89f4" prot="public" virt="non-virtual"><scope>MR::GlTexture::Settings</scope><name>type</name></member>
+      <member refid="group__GeneralGroup_1ga622af16b47b77e020bec6dced9f55f65" prot="public" virt="non-virtual"><scope>MR::GlTexture::Settings</scope><name>wrap</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

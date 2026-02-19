@@ -6,1059 +6,72 @@
     <includes refid="MRObjectTransformWidget_8h" local="no">MRObjectTransformWidget.h</includes>
     <innerclass refid="classMR_1_1ObjectTransformWidget_1_1ChangeXfAction" prot="public">MR::ObjectTransformWidget::ChangeXfAction</innerclass>
     <sectiondef kind="public-type">
-      <memberdef kind="enum" id="classMR_1_1ObjectTransformWidget_1ae637cb1b88edaa19f6495ccbb94d8ca8" prot="public" static="no" strong="no">
-        <type></type>
-        <name>AxisTransformMode</name>
-        <qualifiedname>MR::ObjectTransformWidget::AxisTransformMode</qualifiedname>
-        <enumvalue id="classMR_1_1ObjectTransformWidget_1ae637cb1b88edaa19f6495ccbb94d8ca8a14c17361812a82688e147e013b358510" prot="public">
-          <name>AxisTranslation</name>
-          <briefdescription>
-<para>object moves along an axis </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1ObjectTransformWidget_1ae637cb1b88edaa19f6495ccbb94d8ca8a031ebfe11f33b7e097e349ea1ea93935" prot="public">
-          <name>AxisScaling</name>
-          <briefdescription>
-<para>object inflates or deflates along an axis depending on drag direction (away from center or toward center respectively) </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1ObjectTransformWidget_1ae637cb1b88edaa19f6495ccbb94d8ca8ae3086e312b06e7d525b05c5fe88c3454" prot="public">
-          <name>UniformScaling</name>
-          <briefdescription>
-<para>object inflates or deflates along all axes depending on drag direction (away from center or toward center respectively) </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-<para>Transform operation applying to object while dragging an axis. This parameter does not apply to active operation. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="238" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="239" bodyend="246"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gae637cb1b88edaa19f6495ccbb94d8ca8" kind="enum"><name>AxisTransformMode</name></member>
     </sectiondef>
     <sectiondef kind="private-type">
-      <memberdef kind="enum" id="classMR_1_1ObjectTransformWidget_1a4915966f289a83c27ddaa64bbb7d1f0c" prot="private" static="no" strong="no">
-        <type></type>
-        <name>ActiveEditMode</name>
-        <qualifiedname>MR::ObjectTransformWidget::ActiveEditMode</qualifiedname>
-        <enumvalue id="classMR_1_1ObjectTransformWidget_1a4915966f289a83c27ddaa64bbb7d1f0ca4e2a29ad1f56ff01e076be12865d949d" prot="private">
-          <name>TranslationMode</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1ObjectTransformWidget_1a4915966f289a83c27ddaa64bbb7d1f0cac07ce2e8d4b5927b7c926a9761b4ea5e" prot="private">
-          <name>ScalingMode</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1ObjectTransformWidget_1a4915966f289a83c27ddaa64bbb7d1f0cac90e325933fe46fe996af5bad3cf2d63" prot="private">
-          <name>UniformScalingMode</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1ObjectTransformWidget_1a4915966f289a83c27ddaa64bbb7d1f0ca3729a0cc8c62739af1c384af087e3bd0" prot="private">
-          <name>RotationMode</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="356" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="357" bodyend="362"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga4915966f289a83c27ddaa64bbb7d1f0c" kind="enum"><name>ActiveEditMode</name></member>
     </sectiondef>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1ObjectTransformWidget_1aaf8498d53e8aa906466e136018fc26f5" prot="private" static="no" mutable="no">
-        <type>std::weak_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
-        <definition>std::weak_ptr&lt;Object&gt; MR::ObjectTransformWidget::visibilityParent_</definition>
-        <argsstring></argsstring>
-        <name>visibilityParent_</name>
-        <qualifiedname>MR::ObjectTransformWidget::visibilityParent_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="344" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="344" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ObjectTransformWidget_1a49b1281ca7d736bd6ab859b17d2ca172" prot="private" static="no" mutable="no">
-        <type>std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
-        <definition>std::shared_ptr&lt;Object&gt; MR::ObjectTransformWidget::controlsRoot_</definition>
-        <argsstring></argsstring>
-        <name>controlsRoot_</name>
-        <qualifiedname>MR::ObjectTransformWidget::controlsRoot_</qualifiedname>
-        <briefdescription>
-<para>main object that holds all other controls </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="351" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="351" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ObjectTransformWidget_1af3713eb8bffcbf48350e72f0e2c89440" prot="private" static="no" mutable="no">
-        <type>std::shared_ptr&lt; <ref refid="classMR_1_1ITransformControls" kindref="compound">ITransformControls</ref> &gt;</type>
-        <definition>std::shared_ptr&lt;ITransformControls&gt; MR::ObjectTransformWidget::controls_</definition>
-        <argsstring></argsstring>
-        <name>controls_</name>
-        <qualifiedname>MR::ObjectTransformWidget::controls_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="352" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="352" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ObjectTransformWidget_1a1fd9f578bf5be56f217ab2b905518607" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1ObjectTransformWidget_1ae637cb1b88edaa19f6495ccbb94d8ca8" kindref="member">AxisTransformMode</ref></type>
-        <definition>AxisTransformMode MR::ObjectTransformWidget::axisTransformMode_</definition>
-        <argsstring></argsstring>
-        <name>axisTransformMode_</name>
-        <qualifiedname>MR::ObjectTransformWidget::axisTransformMode_</qualifiedname>
-        <initializer>{ <ref refid="classMR_1_1ObjectTransformWidget_1ae637cb1b88edaa19f6495ccbb94d8ca8a14c17361812a82688e147e013b358510" kindref="member">AxisTranslation</ref> }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="354" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="354" bodyend="354"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ObjectTransformWidget_1acbfca7a5c09800ab0129575797e9156b" prot="private" static="no" mutable="no">
-        <type>ActiveEditMode</type>
-        <definition>ActiveEditMode MR::ObjectTransformWidget::activeEditMode_</definition>
-        <argsstring></argsstring>
-        <name>activeEditMode_</name>
-        <qualifiedname>MR::ObjectTransformWidget::activeEditMode_</qualifiedname>
-        <initializer>{ TranslationMode }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="363" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="363" bodyend="363"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ObjectTransformWidget_1ae1a1969c7895b6e8c4333b7e56c43dbd" prot="private" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::ObjectTransformWidget::boxDiagonal_</definition>
-        <argsstring></argsstring>
-        <name>boxDiagonal_</name>
-        <qualifiedname>MR::ObjectTransformWidget::boxDiagonal_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Initial box diagonal vector (before transformation), it is needed to correctly convert non-uniform scaling to uniform one and apply it to this widget </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="367" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="367" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ObjectTransformWidget_1abe18e0ac8f37a1e3ffebfb2c9c603184" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1ViewportProperty" kindref="compound">ViewportProperty</ref>&lt; AffineXf3f &gt;</type>
-        <definition>ViewportProperty&lt;AffineXf3f&gt; MR::ObjectTransformWidget::scaledXf_</definition>
-        <argsstring></argsstring>
-        <name>scaledXf_</name>
-        <qualifiedname>MR::ObjectTransformWidget::scaledXf_</qualifiedname>
-        <briefdescription>
-<para>same as controlsRoot_-&gt;xf() but with non uniform scaling applied </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="369" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="369" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ObjectTransformWidget_1a35449e1ae8d7cbf3fd2419e1bbf163c1" prot="private" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::ObjectTransformWidget::currentScaling_</definition>
-        <argsstring></argsstring>
-        <name>currentScaling_</name>
-        <qualifiedname>MR::ObjectTransformWidget::currentScaling_</qualifiedname>
-        <initializer>= 1.0f</initializer>
-        <briefdescription>
-<para>this is needed for tooltip only </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="371" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="371" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ObjectTransformWidget_1a82097451e3598a34c7d84efcc2f779c8" prot="private" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::ObjectTransformWidget::prevScaling_</definition>
-        <argsstring></argsstring>
-        <name>prevScaling_</name>
-        <qualifiedname>MR::ObjectTransformWidget::prevScaling_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="373" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="373" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ObjectTransformWidget_1ab615082a0bd88551d84d82fa8da933fc" prot="private" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::ObjectTransformWidget::startTranslation_</definition>
-        <argsstring></argsstring>
-        <name>startTranslation_</name>
-        <qualifiedname>MR::ObjectTransformWidget::startTranslation_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="374" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="374" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ObjectTransformWidget_1ad0e4a61b9fb0cd1063ea22b78fbe3dbd" prot="private" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::ObjectTransformWidget::prevTranslation_</definition>
-        <argsstring></argsstring>
-        <name>prevTranslation_</name>
-        <qualifiedname>MR::ObjectTransformWidget::prevTranslation_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="375" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="375" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ObjectTransformWidget_1adf7dda2a6ad3aec260c818b17abb25ec" prot="private" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::ObjectTransformWidget::accumShift_</definition>
-        <argsstring></argsstring>
-        <name>accumShift_</name>
-        <qualifiedname>MR::ObjectTransformWidget::accumShift_</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="376" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="376" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ObjectTransformWidget_1a91b5667a2d913bc544b962b3798f8985" prot="private" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::ObjectTransformWidget::startAngle_</definition>
-        <argsstring></argsstring>
-        <name>startAngle_</name>
-        <qualifiedname>MR::ObjectTransformWidget::startAngle_</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="378" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="378" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ObjectTransformWidget_1abfce02c63c40c156d75f3cfdb295cd35" prot="private" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::ObjectTransformWidget::accumAngle_</definition>
-        <argsstring></argsstring>
-        <name>accumAngle_</name>
-        <qualifiedname>MR::ObjectTransformWidget::accumAngle_</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="379" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="379" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ObjectTransformWidget_1a44a256050e73050c44c3558a174aeb7e" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1ViewportProperty" kindref="compound">ViewportProperty</ref>&lt; <ref refid="namespaceMR_1a83b450495cc5fde2cb5539447eb20dc6" kindref="member">ControlBit</ref> &gt;</type>
-        <definition>ViewportProperty&lt;ControlBit&gt; MR::ObjectTransformWidget::transformModeMask_</definition>
-        <argsstring></argsstring>
-        <name>transformModeMask_</name>
-        <qualifiedname>MR::ObjectTransformWidget::transformModeMask_</qualifiedname>
-        <initializer>{ <ref refid="namespaceMR_1a83b450495cc5fde2cb5539447eb20dc6a32950741c2a4db230a8af70867adc378" kindref="member">ControlBit::FullMask</ref> }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="381" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="381" bodyend="381"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ObjectTransformWidget_1ac66fe60bff702eade31596995472d6b3" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::ObjectTransformWidget::picked_</definition>
-        <argsstring></argsstring>
-        <name>picked_</name>
-        <qualifiedname>MR::ObjectTransformWidget::picked_</qualifiedname>
-        <initializer>{ false }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="382" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="382" bodyend="382"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ObjectTransformWidget_1ab343c24f93a3d7c85ee4d4f570dc4536" prot="private" static="no" mutable="no">
-        <type>std::function&lt; void(float)&gt;</type>
-        <definition>std::function&lt;void( float )&gt; MR::ObjectTransformWidget::scaleTooltipCallback_</definition>
-        <argsstring></argsstring>
-        <name>scaleTooltipCallback_</name>
-        <qualifiedname>MR::ObjectTransformWidget::scaleTooltipCallback_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="384" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="384" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ObjectTransformWidget_1a148885b4f7d72c11393ae2cecd976999" prot="private" static="no" mutable="no">
-        <type>std::function&lt; void(float)&gt;</type>
-        <definition>std::function&lt;void( float )&gt; MR::ObjectTransformWidget::translateTooltipCallback_</definition>
-        <argsstring></argsstring>
-        <name>translateTooltipCallback_</name>
-        <qualifiedname>MR::ObjectTransformWidget::translateTooltipCallback_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="385" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="385" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ObjectTransformWidget_1a8e8f79a7d0d2a02abfdc44abc778691f" prot="private" static="no" mutable="no">
-        <type>std::function&lt; void(float)&gt;</type>
-        <definition>std::function&lt;void( float )&gt; MR::ObjectTransformWidget::rotateTooltipCallback_</definition>
-        <argsstring></argsstring>
-        <name>rotateTooltipCallback_</name>
-        <qualifiedname>MR::ObjectTransformWidget::rotateTooltipCallback_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="386" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="386" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ObjectTransformWidget_1a69f3a191ae55ced7ae54487348db3887" prot="private" static="no" mutable="no">
-        <type>std::function&lt; void()&gt;</type>
-        <definition>std::function&lt;void()&gt; MR::ObjectTransformWidget::startModifyCallback_</definition>
-        <argsstring></argsstring>
-        <name>startModifyCallback_</name>
-        <qualifiedname>MR::ObjectTransformWidget::startModifyCallback_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="388" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="388" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ObjectTransformWidget_1a902c322f7c7a5c8e98e447287f34a1ec" prot="private" static="no" mutable="no">
-        <type>std::function&lt; void()&gt;</type>
-        <definition>std::function&lt;void()&gt; MR::ObjectTransformWidget::stopModifyCallback_</definition>
-        <argsstring></argsstring>
-        <name>stopModifyCallback_</name>
-        <qualifiedname>MR::ObjectTransformWidget::stopModifyCallback_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="389" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="389" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ObjectTransformWidget_1a834f9cca46fc639f71fbe4a8b377d150" prot="private" static="no" mutable="no">
-        <type>std::function&lt; void(const AffineXf3f &amp;)&gt;</type>
-        <definition>std::function&lt;void( const AffineXf3f&amp; )&gt; MR::ObjectTransformWidget::addXfCallback_</definition>
-        <argsstring></argsstring>
-        <name>addXfCallback_</name>
-        <qualifiedname>MR::ObjectTransformWidget::addXfCallback_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="390" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="390" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ObjectTransformWidget_1aba0f86ad6a6f8fcc1c6a5fc6e6b33843" prot="private" static="no" mutable="no">
-        <type>std::function&lt; bool(const AffineXf3f &amp;)&gt;</type>
-        <definition>std::function&lt;bool( const AffineXf3f&amp; )&gt; MR::ObjectTransformWidget::approveXfCallback_</definition>
-        <argsstring></argsstring>
-        <name>approveXfCallback_</name>
-        <qualifiedname>MR::ObjectTransformWidget::approveXfCallback_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="391" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="391" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ObjectTransformWidget_1a68fdf0b9d8a5d7874ab5830e628a4335" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::ObjectTransformWidget::approvedChange_</definition>
-        <argsstring></argsstring>
-        <name>approvedChange_</name>
-        <qualifiedname>MR::ObjectTransformWidget::approvedChange_</qualifiedname>
-        <initializer>= true</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="392" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="392" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ObjectTransformWidget_1a120cfc7a4650cdec1d67064c2420614f" prot="private" static="no" mutable="no">
-        <type>boost::signals2::connection</type>
-        <definition>boost::signals2::connection MR::ObjectTransformWidget::xfValidatorConnection_</definition>
-        <argsstring></argsstring>
-        <name>xfValidatorConnection_</name>
-        <qualifiedname>MR::ObjectTransformWidget::xfValidatorConnection_</qualifiedname>
-        <briefdescription>
-<para>if controlsRoot_ xf changed without approve, user modification stops </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="393" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="393" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaaf8498d53e8aa906466e136018fc26f5" kind="variable"><name>visibilityParent_</name></member>
+      <member refid="group__GeneralGroup_1ga49b1281ca7d736bd6ab859b17d2ca172" kind="variable"><name>controlsRoot_</name></member>
+      <member refid="group__GeneralGroup_1gaf3713eb8bffcbf48350e72f0e2c89440" kind="variable"><name>controls_</name></member>
+      <member refid="group__GeneralGroup_1ga1fd9f578bf5be56f217ab2b905518607" kind="variable"><name>axisTransformMode_</name></member>
+      <member refid="group__GeneralGroup_1gacbfca7a5c09800ab0129575797e9156b" kind="variable"><name>activeEditMode_</name></member>
+      <member refid="group__GeneralGroup_1gae1a1969c7895b6e8c4333b7e56c43dbd" kind="variable"><name>boxDiagonal_</name></member>
+      <member refid="group__GeneralGroup_1gabe18e0ac8f37a1e3ffebfb2c9c603184" kind="variable"><name>scaledXf_</name></member>
+      <member refid="group__GeneralGroup_1ga35449e1ae8d7cbf3fd2419e1bbf163c1" kind="variable"><name>currentScaling_</name></member>
+      <member refid="group__GeneralGroup_1ga82097451e3598a34c7d84efcc2f779c8" kind="variable"><name>prevScaling_</name></member>
+      <member refid="group__GeneralGroup_1gab615082a0bd88551d84d82fa8da933fc" kind="variable"><name>startTranslation_</name></member>
+      <member refid="group__GeneralGroup_1gad0e4a61b9fb0cd1063ea22b78fbe3dbd" kind="variable"><name>prevTranslation_</name></member>
+      <member refid="group__GeneralGroup_1gadf7dda2a6ad3aec260c818b17abb25ec" kind="variable"><name>accumShift_</name></member>
+      <member refid="group__GeneralGroup_1ga91b5667a2d913bc544b962b3798f8985" kind="variable"><name>startAngle_</name></member>
+      <member refid="group__GeneralGroup_1gabfce02c63c40c156d75f3cfdb295cd35" kind="variable"><name>accumAngle_</name></member>
+      <member refid="group__GeneralGroup_1ga44a256050e73050c44c3558a174aeb7e" kind="variable"><name>transformModeMask_</name></member>
+      <member refid="group__GeneralGroup_1gac66fe60bff702eade31596995472d6b3" kind="variable"><name>picked_</name></member>
+      <member refid="group__GeneralGroup_1gab343c24f93a3d7c85ee4d4f570dc4536" kind="variable"><name>scaleTooltipCallback_</name></member>
+      <member refid="group__GeneralGroup_1ga148885b4f7d72c11393ae2cecd976999" kind="variable"><name>translateTooltipCallback_</name></member>
+      <member refid="group__GeneralGroup_1ga8e8f79a7d0d2a02abfdc44abc778691f" kind="variable"><name>rotateTooltipCallback_</name></member>
+      <member refid="group__GeneralGroup_1ga69f3a191ae55ced7ae54487348db3887" kind="variable"><name>startModifyCallback_</name></member>
+      <member refid="group__GeneralGroup_1ga902c322f7c7a5c8e98e447287f34a1ec" kind="variable"><name>stopModifyCallback_</name></member>
+      <member refid="group__GeneralGroup_1ga834f9cca46fc639f71fbe4a8b377d150" kind="variable"><name>addXfCallback_</name></member>
+      <member refid="group__GeneralGroup_1gaba0f86ad6a6f8fcc1c6a5fc6e6b33843" kind="variable"><name>approveXfCallback_</name></member>
+      <member refid="group__GeneralGroup_1ga68fdf0b9d8a5d7874ab5830e628a4335" kind="variable"><name>approvedChange_</name></member>
+      <member refid="group__GeneralGroup_1ga120cfc7a4650cdec1d67064c2420614f" kind="variable"><name>xfValidatorConnection_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1ObjectTransformWidget_1af79205647930755e882de85d4796b7e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::ObjectTransformWidget::create</definition>
-        <argsstring>(const Box3f &amp;box, const AffineXf3f &amp;xf, std::shared_ptr&lt; ITransformControls &gt; controls={})</argsstring>
-        <name>create</name>
-        <qualifiedname>MR::ObjectTransformWidget::create</qualifiedname>
-        <param>
-          <type>const Box3f &amp;</type>
-          <declname>box</declname>
-        </param>
-        <param>
-          <type>const AffineXf3f &amp;</type>
-          <declname>xf</declname>
-        </param>
-        <param>
-          <type>std::shared_ptr&lt; <ref refid="classMR_1_1ITransformControls" kindref="compound">ITransformControls</ref> &gt;</type>
-          <declname>controls</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Creates transform widget around given box and applies given xf subscribes to viewer events controls: class that is responsible for visualization if controls is empty default <ref refid="classMR_1_1TransformControls" kindref="compound">TransformControls</ref> is used </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="227" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectTransformWidget_1ac815cb12bfdb99a8a650143d34de17ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::ObjectTransformWidget::reset</definition>
-        <argsstring>()</argsstring>
-        <name>reset</name>
-        <qualifiedname>MR::ObjectTransformWidget::reset</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Removes widget from scene and clears all widget objects unsubscribes from viewer events </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="230" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectTransformWidget_1ab0823ffe9059c2fb1d57757cb82579a6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="namespaceMR_1a83b450495cc5fde2cb5539447eb20dc6" kindref="member">ControlBit</ref></type>
-        <definition>ControlBit MR::ObjectTransformWidget::getTransformModeMask</definition>
-        <argsstring>(ViewportId id={}) const</argsstring>
-        <name>getTransformModeMask</name>
-        <qualifiedname>MR::ObjectTransformWidget::getTransformModeMask</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
-          <declname>id</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-<para>Returns current transform mode mask. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="233" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="233" bodyend="233"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectTransformWidget_1afcaee844badd2f2b918d558053da6e7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::ObjectTransformWidget::setTransformMode</definition>
-        <argsstring>(ControlBit mask, ViewportId id={})</argsstring>
-        <name>setTransformMode</name>
-        <qualifiedname>MR::ObjectTransformWidget::setTransformMode</qualifiedname>
-        <param>
-          <type><ref refid="namespaceMR_1a83b450495cc5fde2cb5539447eb20dc6" kindref="member">ControlBit</ref></type>
-          <declname>mask</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
-          <declname>id</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-<para>Sets transform mode mask (enabling or disabling corresponding widget controls) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="235" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectTransformWidget_1a80fb43258823d107074fb68a3f1c411d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="classMR_1_1ObjectTransformWidget_1ae637cb1b88edaa19f6495ccbb94d8ca8" kindref="member">AxisTransformMode</ref></type>
-        <definition>AxisTransformMode MR::ObjectTransformWidget::getAxisTransformMode</definition>
-        <argsstring>() const</argsstring>
-        <name>getAxisTransformMode</name>
-        <qualifiedname>MR::ObjectTransformWidget::getAxisTransformMode</qualifiedname>
-        <briefdescription>
-<para>Returns current axis transform mode (translate/scale object while dragging an axis) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="248" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="248" bodyend="248"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectTransformWidget_1aec0ff434beabde629460e566c23beb5c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ObjectTransformWidget::setAxisTransformMode</definition>
-        <argsstring>(AxisTransformMode mode)</argsstring>
-        <name>setAxisTransformMode</name>
-        <qualifiedname>MR::ObjectTransformWidget::setAxisTransformMode</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1ObjectTransformWidget_1ae637cb1b88edaa19f6495ccbb94d8ca8" kindref="member">AxisTransformMode</ref></type>
-          <declname>mode</declname>
-        </param>
-        <briefdescription>
-<para>Sets current axis transform mode (translate/scale object while dragging an axis) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="250" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="250" bodyend="250"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectTransformWidget_1aaaadf59451391760eaa2882c90d79f5b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
-        <definition>std::shared_ptr&lt; Object &gt; MR::ObjectTransformWidget::getRootObject</definition>
-        <argsstring>() const</argsstring>
-        <name>getRootObject</name>
-        <qualifiedname>MR::ObjectTransformWidget::getRootObject</qualifiedname>
-        <briefdescription>
-<para>Returns root object of widget. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="253" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="253" bodyend="253"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectTransformWidget_1aebfb068e75e8789d13365be5f6185026" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>std::shared_ptr&lt; <ref refid="classMR_1_1ITransformControls" kindref="compound">ITransformControls</ref> &gt;</type>
-        <definition>std::shared_ptr&lt; ITransformControls &gt; MR::ObjectTransformWidget::getControls</definition>
-        <argsstring>() const</argsstring>
-        <name>getControls</name>
-        <qualifiedname>MR::ObjectTransformWidget::getControls</qualifiedname>
-        <briefdescription>
-<para>Returns controls object, that visualize widget. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="256" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="256" bodyend="256"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectTransformWidget_1ae9585eb2995d4b43669cb86533fecf4c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename T</type>
-          </param>
-        </templateparamlist>
-        <type>std::shared_ptr&lt; T &gt;</type>
-        <definition>std::shared_ptr&lt; T &gt; MR::ObjectTransformWidget::getControlsAs</definition>
-        <argsstring>() const</argsstring>
-        <name>getControlsAs</name>
-        <qualifiedname>MR::ObjectTransformWidget::getControlsAs</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="258" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="258" bodyend="258"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectTransformWidget_1ab22daeb26cd1e936593d97d63cc407b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::ObjectTransformWidget::setControlsXf</definition>
-        <argsstring>(const AffineXf3f &amp;xf, ViewportId id={})</argsstring>
-        <name>setControlsXf</name>
-        <qualifiedname>MR::ObjectTransformWidget::setControlsXf</qualifiedname>
-        <param>
-          <type>const AffineXf3f &amp;</type>
-          <declname>xf</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
-          <declname>id</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Changes controls xf (controls will affect object in basis of new xf) note that rotation is applied around 0 coordinate in world space, so use xfAround to process rotation around user defined center non-uniform scale will be converted to uniform one based on initial box diagonal </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="263" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectTransformWidget_1a1010ca302a266f98b14450145b726efe" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API AffineXf3f</type>
-        <definition>MRVIEWER_API AffineXf3f MR::ObjectTransformWidget::getControlsXf</definition>
-        <argsstring>(ViewportId id={}) const</argsstring>
-        <name>getControlsXf</name>
-        <qualifiedname>MR::ObjectTransformWidget::getControlsXf</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
-          <declname>id</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="264" column="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectTransformWidget_1ae251d733beed21672b8754f369937dca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::ObjectTransformWidget::followObjVisibility</definition>
-        <argsstring>(const std::weak_ptr&lt; Object &gt; &amp;obj)</argsstring>
-        <name>followObjVisibility</name>
-        <qualifiedname>MR::ObjectTransformWidget::followObjVisibility</qualifiedname>
-        <param>
-          <type>const std::weak_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &amp;</type>
-          <declname>obj</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Subscribes to object visibility, and behave like its child if obj argument is null, stop following </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="268" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectTransformWidget_1af0815d7c982b35b0dbe7f2e0abc9d583" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ObjectTransformWidget::setScaleTooltipCallback</definition>
-        <argsstring>(std::function&lt; void(float)&gt; callback)</argsstring>
-        <name>setScaleTooltipCallback</name>
-        <qualifiedname>MR::ObjectTransformWidget::setScaleTooltipCallback</qualifiedname>
-        <param>
-          <type>std::function&lt; void(float)&gt;</type>
-          <declname>callback</declname>
-        </param>
-        <briefdescription>
-<para>Sets callback that will be called in draw function during scaling with current scale arg. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="271" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="271" bodyend="271"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectTransformWidget_1acd0c05bb93bc949b222c2721ad1d4b70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ObjectTransformWidget::setTranslateTooltipCallback</definition>
-        <argsstring>(std::function&lt; void(float)&gt; callback)</argsstring>
-        <name>setTranslateTooltipCallback</name>
-        <qualifiedname>MR::ObjectTransformWidget::setTranslateTooltipCallback</qualifiedname>
-        <param>
-          <type>std::function&lt; void(float)&gt;</type>
-          <declname>callback</declname>
-        </param>
-        <briefdescription>
-<para>Sets callback that will be called in draw function during translation with current shift arg. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="273" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="273" bodyend="273"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectTransformWidget_1a3582cec258b537faa908e62e50ca0eb8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ObjectTransformWidget::setRotateTooltipCallback</definition>
-        <argsstring>(std::function&lt; void(float)&gt; callback)</argsstring>
-        <name>setRotateTooltipCallback</name>
-        <qualifiedname>MR::ObjectTransformWidget::setRotateTooltipCallback</qualifiedname>
-        <param>
-          <type>std::function&lt; void(float)&gt;</type>
-          <declname>callback</declname>
-        </param>
-        <briefdescription>
-<para>Sets callback that will be called in draw function during rotation with current angle in rad. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="275" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="275" bodyend="275"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectTransformWidget_1a955e4e19a2da3a72cc42d41baaa73ad2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ObjectTransformWidget::setStopModifyCallback</definition>
-        <argsstring>(std::function&lt; void()&gt; callback)</argsstring>
-        <name>setStopModifyCallback</name>
-        <qualifiedname>MR::ObjectTransformWidget::setStopModifyCallback</qualifiedname>
-        <param>
-          <type>std::function&lt; void()&gt;</type>
-          <declname>callback</declname>
-        </param>
-        <briefdescription>
-<para>Sets callback that will be called when modification of widget stops. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="278" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="278" bodyend="278"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectTransformWidget_1a2d16d1f66d6e6a84e9ca9d18e68d2a03" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ObjectTransformWidget::setStartModifyCallback</definition>
-        <argsstring>(std::function&lt; void()&gt; callback)</argsstring>
-        <name>setStartModifyCallback</name>
-        <qualifiedname>MR::ObjectTransformWidget::setStartModifyCallback</qualifiedname>
-        <param>
-          <type>std::function&lt; void()&gt;</type>
-          <declname>callback</declname>
-        </param>
-        <briefdescription>
-<para>Sets callback that will be called when modification of widget starts. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="280" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="280" bodyend="280"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectTransformWidget_1a3134eccba5998667c2b96764ceb6d88f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ObjectTransformWidget::setAddXfCallback</definition>
-        <argsstring>(std::function&lt; void(const AffineXf3f &amp;)&gt; callback)</argsstring>
-        <name>setAddXfCallback</name>
-        <qualifiedname>MR::ObjectTransformWidget::setAddXfCallback</qualifiedname>
-        <param>
-          <type>std::function&lt; void(const AffineXf3f &amp;)&gt;</type>
-          <declname>callback</declname>
-        </param>
-        <briefdescription>
-<para>Sets callback that will be called when widget gets additive transform. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="282" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="282" bodyend="282"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectTransformWidget_1af009bd74e0f49b4a2efc1ddcf659e58a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ObjectTransformWidget::setApproveXfCallback</definition>
-        <argsstring>(std::function&lt; bool(const AffineXf3f &amp;)&gt; callback)</argsstring>
-        <name>setApproveXfCallback</name>
-        <qualifiedname>MR::ObjectTransformWidget::setApproveXfCallback</qualifiedname>
-        <param>
-          <type>std::function&lt; bool(const AffineXf3f &amp;)&gt;</type>
-          <declname>callback</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Sets callback that will be called when widget gets additive transform The callback should return true to approve transform and false to reject it </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="285" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="285" bodyend="285"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaf79205647930755e882de85d4796b7e8" kind="function"><name>create</name></member>
+      <member refid="group__GeneralGroup_1gac815cb12bfdb99a8a650143d34de17ad" kind="function"><name>reset</name></member>
+      <member refid="group__GeneralGroup_1gab0823ffe9059c2fb1d57757cb82579a6" kind="function"><name>getTransformModeMask</name></member>
+      <member refid="group__GeneralGroup_1gafcaee844badd2f2b918d558053da6e7e" kind="function"><name>setTransformMode</name></member>
+      <member refid="group__GeneralGroup_1ga80fb43258823d107074fb68a3f1c411d" kind="function"><name>getAxisTransformMode</name></member>
+      <member refid="group__GeneralGroup_1gaec0ff434beabde629460e566c23beb5c" kind="function"><name>setAxisTransformMode</name></member>
+      <member refid="group__GeneralGroup_1gaaaadf59451391760eaa2882c90d79f5b" kind="function"><name>getRootObject</name></member>
+      <member refid="group__GeneralGroup_1gaebfb068e75e8789d13365be5f6185026" kind="function"><name>getControls</name></member>
+      <member refid="group__GeneralGroup_1gae9585eb2995d4b43669cb86533fecf4c" kind="function"><name>getControlsAs</name></member>
+      <member refid="group__GeneralGroup_1gab22daeb26cd1e936593d97d63cc407b5" kind="function"><name>setControlsXf</name></member>
+      <member refid="group__GeneralGroup_1ga1010ca302a266f98b14450145b726efe" kind="function"><name>getControlsXf</name></member>
+      <member refid="group__GeneralGroup_1gae251d733beed21672b8754f369937dca" kind="function"><name>followObjVisibility</name></member>
+      <member refid="group__GeneralGroup_1gaf0815d7c982b35b0dbe7f2e0abc9d583" kind="function"><name>setScaleTooltipCallback</name></member>
+      <member refid="group__GeneralGroup_1gacd0c05bb93bc949b222c2721ad1d4b70" kind="function"><name>setTranslateTooltipCallback</name></member>
+      <member refid="group__GeneralGroup_1ga3582cec258b537faa908e62e50ca0eb8" kind="function"><name>setRotateTooltipCallback</name></member>
+      <member refid="group__GeneralGroup_1ga955e4e19a2da3a72cc42d41baaa73ad2" kind="function"><name>setStopModifyCallback</name></member>
+      <member refid="group__GeneralGroup_1ga2d16d1f66d6e6a84e9ca9d18e68d2a03" kind="function"><name>setStartModifyCallback</name></member>
+      <member refid="group__GeneralGroup_1ga3134eccba5998667c2b96764ceb6d88f" kind="function"><name>setAddXfCallback</name></member>
+      <member refid="group__GeneralGroup_1gaf009bd74e0f49b4a2efc1ddcf659e58a" kind="function"><name>setApproveXfCallback</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMR_1_1ObjectTransformWidget_1a18e73f8285fb05c1d747d2fbc0f469f7" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>virtual MRVIEWER_API bool MR::ObjectTransformWidget::onMouseDown_</definition>
-        <argsstring>(MouseButton button, int modifier) override</argsstring>
-        <name>onMouseDown_</name>
-        <qualifiedname>MR::ObjectTransformWidget::onMouseDown_</qualifiedname>
-        <param>
-          <type><ref refid="namespaceMR_1a13f98b7840e7298925ef1770b7cdb62d" kindref="member">MouseButton</ref></type>
-          <declname>button</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>modifier</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="330" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectTransformWidget_1a88f6ad760bce997f3cd4a28df6584510" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>virtual MRVIEWER_API bool MR::ObjectTransformWidget::onMouseUp_</definition>
-        <argsstring>(MouseButton button, int modifier) override</argsstring>
-        <name>onMouseUp_</name>
-        <qualifiedname>MR::ObjectTransformWidget::onMouseUp_</qualifiedname>
-        <param>
-          <type><ref refid="namespaceMR_1a13f98b7840e7298925ef1770b7cdb62d" kindref="member">MouseButton</ref></type>
-          <declname>button</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>modifier</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="331" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectTransformWidget_1a7e80b0a2bd72f8cc9b90e8302c87f146" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>virtual MRVIEWER_API bool MR::ObjectTransformWidget::onMouseMove_</definition>
-        <argsstring>(int mouse_x, int mouse_y) override</argsstring>
-        <name>onMouseMove_</name>
-        <qualifiedname>MR::ObjectTransformWidget::onMouseMove_</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>mouse_x</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>mouse_y</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="332" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectTransformWidget_1ab781984d15397602878f43de93d2e677" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>virtual MRVIEWER_API void MR::ObjectTransformWidget::preDraw_</definition>
-        <argsstring>() override</argsstring>
-        <name>preDraw_</name>
-        <qualifiedname>MR::ObjectTransformWidget::preDraw_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="333" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectTransformWidget_1a476364330441292e139e0d0530f36625" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>virtual MRVIEWER_API void MR::ObjectTransformWidget::postDraw_</definition>
-        <argsstring>() override</argsstring>
-        <name>postDraw_</name>
-        <qualifiedname>MR::ObjectTransformWidget::postDraw_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="334" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectTransformWidget_1a14aababe89652a39b0c5b29041efc2c5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ObjectTransformWidget::activeMove_</definition>
-        <argsstring>(bool press=false)</argsstring>
-        <name>activeMove_</name>
-        <qualifiedname>MR::ObjectTransformWidget::activeMove_</qualifiedname>
-        <param>
-          <type>bool</type>
-          <declname>press</declname>
-          <defval>false</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="336" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectTransformWidget_1abc7e86a9c0e17ce976e6c7a432eccfea" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ObjectTransformWidget::processScaling_</definition>
-        <argsstring>(Axis ax, bool press)</argsstring>
-        <name>processScaling_</name>
-        <qualifiedname>MR::ObjectTransformWidget::processScaling_</qualifiedname>
-        <param>
-          <type><ref refid="namespaceMR_1a05195fdcf0d1d90b73a5d24b11150005" kindref="member">Axis</ref></type>
-          <declname>ax</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>press</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="338" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectTransformWidget_1a6fec4b2c1674712117c0b664b18974c1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ObjectTransformWidget::processTranslation_</definition>
-        <argsstring>(Axis ax, bool press)</argsstring>
-        <name>processTranslation_</name>
-        <qualifiedname>MR::ObjectTransformWidget::processTranslation_</qualifiedname>
-        <param>
-          <type><ref refid="namespaceMR_1a05195fdcf0d1d90b73a5d24b11150005" kindref="member">Axis</ref></type>
-          <declname>ax</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>press</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="339" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectTransformWidget_1a57cd9b45ce2d7510bfe5ba803bfb295f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ObjectTransformWidget::processRotation_</definition>
-        <argsstring>(Axis ax, bool press)</argsstring>
-        <name>processRotation_</name>
-        <qualifiedname>MR::ObjectTransformWidget::processRotation_</qualifiedname>
-        <param>
-          <type><ref refid="namespaceMR_1a05195fdcf0d1d90b73a5d24b11150005" kindref="member">Axis</ref></type>
-          <declname>ax</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>press</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="340" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectTransformWidget_1ab5532c1d01a39c62fd0e2aadaafa3e16" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ObjectTransformWidget::setControlsXf_</definition>
-        <argsstring>(const AffineXf3f &amp;xf, bool updateScaled, ViewportId id={})</argsstring>
-        <name>setControlsXf_</name>
-        <qualifiedname>MR::ObjectTransformWidget::setControlsXf_</qualifiedname>
-        <param>
-          <type>const AffineXf3f &amp;</type>
-          <declname>xf</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>updateScaled</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
-          <declname>id</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="342" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectTransformWidget_1a09f25aa1c06cec83387d270cbd72d3ea" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ObjectTransformWidget::addXf_</definition>
-        <argsstring>(const AffineXf3f &amp;addXf)</argsstring>
-        <name>addXf_</name>
-        <qualifiedname>MR::ObjectTransformWidget::addXf_</qualifiedname>
-        <param>
-          <type>const AffineXf3f &amp;</type>
-          <declname>addXf</declname>
-        </param>
-        <briefdescription>
-<para>undiformAddXf - for ActiveEditMode::ScalingMode only, to scale widget uniformly </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="347" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectTransformWidget_1acd15c53d1b1e7d47caa576ab32dab2db" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ObjectTransformWidget::stopModify_</definition>
-        <argsstring>()</argsstring>
-        <name>stopModify_</name>
-        <qualifiedname>MR::ObjectTransformWidget::stopModify_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="348" column="10"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga18e73f8285fb05c1d747d2fbc0f469f7" kind="function"><name>onMouseDown_</name></member>
+      <member refid="group__GeneralGroup_1ga88f6ad760bce997f3cd4a28df6584510" kind="function"><name>onMouseUp_</name></member>
+      <member refid="group__GeneralGroup_1ga7e80b0a2bd72f8cc9b90e8302c87f146" kind="function"><name>onMouseMove_</name></member>
+      <member refid="group__GeneralGroup_1gab781984d15397602878f43de93d2e677" kind="function"><name>preDraw_</name></member>
+      <member refid="group__GeneralGroup_1ga476364330441292e139e0d0530f36625" kind="function"><name>postDraw_</name></member>
+      <member refid="group__GeneralGroup_1ga14aababe89652a39b0c5b29041efc2c5" kind="function"><name>activeMove_</name></member>
+      <member refid="group__GeneralGroup_1gabc7e86a9c0e17ce976e6c7a432eccfea" kind="function"><name>processScaling_</name></member>
+      <member refid="group__GeneralGroup_1ga6fec4b2c1674712117c0b664b18974c1" kind="function"><name>processTranslation_</name></member>
+      <member refid="group__GeneralGroup_1ga57cd9b45ce2d7510bfe5ba803bfb295f" kind="function"><name>processRotation_</name></member>
+      <member refid="group__GeneralGroup_1gab5532c1d01a39c62fd0e2aadaafa3e16" kind="function"><name>setControlsXf_</name></member>
+      <member refid="group__GeneralGroup_1ga09f25aa1c06cec83387d270cbd72d3ea" kind="function"><name>addXf_</name></member>
+      <member refid="group__GeneralGroup_1gacd15c53d1b1e7d47caa576ab32dab2db" kind="function"><name>stopModify_</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -1099,76 +112,76 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="220" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="221" bodyend="394"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="223" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="224" bodyend="397"/>
     <listofallmembers>
-      <member refid="classMR_1_1ObjectTransformWidget_1abfce02c63c40c156d75f3cfdb295cd35" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>accumAngle_</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1adf7dda2a6ad3aec260c818b17abb25ec" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>accumShift_</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1a4915966f289a83c27ddaa64bbb7d1f0c" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>ActiveEditMode</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1acbfca7a5c09800ab0129575797e9156b" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>activeEditMode_</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1a14aababe89652a39b0c5b29041efc2c5" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>activeMove_</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1a09f25aa1c06cec83387d270cbd72d3ea" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>addXf_</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1a834f9cca46fc639f71fbe4a8b377d150" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>addXfCallback_</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1a68fdf0b9d8a5d7874ab5830e628a4335" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>approvedChange_</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1aba0f86ad6a6f8fcc1c6a5fc6e6b33843" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>approveXfCallback_</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1ae637cb1b88edaa19f6495ccbb94d8ca8a031ebfe11f33b7e097e349ea1ea93935" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>AxisScaling</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1ae637cb1b88edaa19f6495ccbb94d8ca8" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>AxisTransformMode</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1a1fd9f578bf5be56f217ab2b905518607" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>axisTransformMode_</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1ae637cb1b88edaa19f6495ccbb94d8ca8a14c17361812a82688e147e013b358510" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>AxisTranslation</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1ae1a1969c7895b6e8c4333b7e56c43dbd" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>boxDiagonal_</name></member>
-      <member refid="structMR_1_1MultiListener_1af3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::ObjectTransformWidget</scope><name>connect</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1af3713eb8bffcbf48350e72f0e2c89440" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>controls_</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1a49b1281ca7d736bd6ab859b17d2ca172" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>controlsRoot_</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1af79205647930755e882de85d4796b7e8" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>create</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1a35449e1ae8d7cbf3fd2419e1bbf163c1" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>currentScaling_</name></member>
-      <member refid="structMR_1_1MultiListener_1acfa598489bfbc3b88c84b029213d042c" prot="public" virt="virtual"><scope>MR::ObjectTransformWidget</scope><name>disconnect</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1ae251d733beed21672b8754f369937dca" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>followObjVisibility</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1a80fb43258823d107074fb68a3f1c411d" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>getAxisTransformMode</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1aebfb068e75e8789d13365be5f6185026" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>getControls</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1ae9585eb2995d4b43669cb86533fecf4c" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>getControlsAs</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1a1010ca302a266f98b14450145b726efe" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>getControlsXf</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1aaaadf59451391760eaa2882c90d79f5b" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>getRootObject</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1ab0823ffe9059c2fb1d57757cb82579a6" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>getTransformModeMask</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1a18e73f8285fb05c1d747d2fbc0f469f7" prot="private" virt="virtual"><scope>MR::ObjectTransformWidget</scope><name>onMouseDown_</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1a7e80b0a2bd72f8cc9b90e8302c87f146" prot="private" virt="virtual"><scope>MR::ObjectTransformWidget</scope><name>onMouseMove_</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1a88f6ad760bce997f3cd4a28df6584510" prot="private" virt="virtual"><scope>MR::ObjectTransformWidget</scope><name>onMouseUp_</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1ac66fe60bff702eade31596995472d6b3" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>picked_</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1a476364330441292e139e0d0530f36625" prot="private" virt="virtual"><scope>MR::ObjectTransformWidget</scope><name>postDraw_</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1ab781984d15397602878f43de93d2e677" prot="private" virt="virtual"><scope>MR::ObjectTransformWidget</scope><name>preDraw_</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1a82097451e3598a34c7d84efcc2f779c8" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>prevScaling_</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1ad0e4a61b9fb0cd1063ea22b78fbe3dbd" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>prevTranslation_</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1a57cd9b45ce2d7510bfe5ba803bfb295f" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>processRotation_</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1abc7e86a9c0e17ce976e6c7a432eccfea" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>processScaling_</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1a6fec4b2c1674712117c0b664b18974c1" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>processTranslation_</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1ac815cb12bfdb99a8a650143d34de17ad" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>reset</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1a8e8f79a7d0d2a02abfdc44abc778691f" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>rotateTooltipCallback_</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1a4915966f289a83c27ddaa64bbb7d1f0ca3729a0cc8c62739af1c384af087e3bd0" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>RotationMode</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1abe18e0ac8f37a1e3ffebfb2c9c603184" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>scaledXf_</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1ab343c24f93a3d7c85ee4d4f570dc4536" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>scaleTooltipCallback_</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1a4915966f289a83c27ddaa64bbb7d1f0cac07ce2e8d4b5927b7c926a9761b4ea5e" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>ScalingMode</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1a3134eccba5998667c2b96764ceb6d88f" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>setAddXfCallback</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1af009bd74e0f49b4a2efc1ddcf659e58a" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>setApproveXfCallback</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1aec0ff434beabde629460e566c23beb5c" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>setAxisTransformMode</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1ab22daeb26cd1e936593d97d63cc407b5" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>setControlsXf</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1ab5532c1d01a39c62fd0e2aadaafa3e16" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>setControlsXf_</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1a3582cec258b537faa908e62e50ca0eb8" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>setRotateTooltipCallback</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1af0815d7c982b35b0dbe7f2e0abc9d583" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>setScaleTooltipCallback</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1a2d16d1f66d6e6a84e9ca9d18e68d2a03" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>setStartModifyCallback</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1a955e4e19a2da3a72cc42d41baaa73ad2" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>setStopModifyCallback</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1afcaee844badd2f2b918d558053da6e7e" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>setTransformMode</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1acd0c05bb93bc949b222c2721ad1d4b70" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>setTranslateTooltipCallback</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1a91b5667a2d913bc544b962b3798f8985" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>startAngle_</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1a69f3a191ae55ced7ae54487348db3887" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>startModifyCallback_</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1ab615082a0bd88551d84d82fa8da933fc" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>startTranslation_</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1acd15c53d1b1e7d47caa576ab32dab2db" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>stopModify_</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1a902c322f7c7a5c8e98e447287f34a1ec" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>stopModifyCallback_</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1a44a256050e73050c44c3558a174aeb7e" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>transformModeMask_</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1a148885b4f7d72c11393ae2cecd976999" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>translateTooltipCallback_</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1a4915966f289a83c27ddaa64bbb7d1f0ca4e2a29ad1f56ff01e076be12865d949d" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>TranslationMode</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1ae637cb1b88edaa19f6495ccbb94d8ca8ae3086e312b06e7d525b05c5fe88c3454" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>UniformScaling</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1a4915966f289a83c27ddaa64bbb7d1f0cac90e325933fe46fe996af5bad3cf2d63" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>UniformScalingMode</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1aaf8498d53e8aa906466e136018fc26f5" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>visibilityParent_</name></member>
-      <member refid="classMR_1_1ObjectTransformWidget_1a120cfc7a4650cdec1d67064c2420614f" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>xfValidatorConnection_</name></member>
-      <member refid="structMR_1_1MultiListener_1a726f5e2601b7f25e31824a0cac630fb2" prot="public" virt="virtual"><scope>MR::ObjectTransformWidget</scope><name>~MultiListener</name></member>
+      <member refid="group__GeneralGroup_1gabfce02c63c40c156d75f3cfdb295cd35" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>accumAngle_</name></member>
+      <member refid="group__GeneralGroup_1gadf7dda2a6ad3aec260c818b17abb25ec" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>accumShift_</name></member>
+      <member refid="group__GeneralGroup_1ga4915966f289a83c27ddaa64bbb7d1f0c" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>ActiveEditMode</name></member>
+      <member refid="group__GeneralGroup_1gacbfca7a5c09800ab0129575797e9156b" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>activeEditMode_</name></member>
+      <member refid="group__GeneralGroup_1ga14aababe89652a39b0c5b29041efc2c5" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>activeMove_</name></member>
+      <member refid="group__GeneralGroup_1ga09f25aa1c06cec83387d270cbd72d3ea" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>addXf_</name></member>
+      <member refid="group__GeneralGroup_1ga834f9cca46fc639f71fbe4a8b377d150" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>addXfCallback_</name></member>
+      <member refid="group__GeneralGroup_1ga68fdf0b9d8a5d7874ab5830e628a4335" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>approvedChange_</name></member>
+      <member refid="group__GeneralGroup_1gaba0f86ad6a6f8fcc1c6a5fc6e6b33843" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>approveXfCallback_</name></member>
+      <member refid="group__GeneralGroup_1ggae637cb1b88edaa19f6495ccbb94d8ca8a031ebfe11f33b7e097e349ea1ea93935" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>AxisScaling</name></member>
+      <member refid="group__GeneralGroup_1gae637cb1b88edaa19f6495ccbb94d8ca8" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>AxisTransformMode</name></member>
+      <member refid="group__GeneralGroup_1ga1fd9f578bf5be56f217ab2b905518607" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>axisTransformMode_</name></member>
+      <member refid="group__GeneralGroup_1ggae637cb1b88edaa19f6495ccbb94d8ca8a14c17361812a82688e147e013b358510" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>AxisTranslation</name></member>
+      <member refid="group__GeneralGroup_1gae1a1969c7895b6e8c4333b7e56c43dbd" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>boxDiagonal_</name></member>
+      <member refid="group__GeneralGroup_1gaf3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::ObjectTransformWidget</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1gaf3713eb8bffcbf48350e72f0e2c89440" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>controls_</name></member>
+      <member refid="group__GeneralGroup_1ga49b1281ca7d736bd6ab859b17d2ca172" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>controlsRoot_</name></member>
+      <member refid="group__GeneralGroup_1gaf79205647930755e882de85d4796b7e8" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>create</name></member>
+      <member refid="group__GeneralGroup_1ga35449e1ae8d7cbf3fd2419e1bbf163c1" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>currentScaling_</name></member>
+      <member refid="group__GeneralGroup_1gacfa598489bfbc3b88c84b029213d042c" prot="public" virt="virtual"><scope>MR::ObjectTransformWidget</scope><name>disconnect</name></member>
+      <member refid="group__GeneralGroup_1gae251d733beed21672b8754f369937dca" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>followObjVisibility</name></member>
+      <member refid="group__GeneralGroup_1ga80fb43258823d107074fb68a3f1c411d" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>getAxisTransformMode</name></member>
+      <member refid="group__GeneralGroup_1gaebfb068e75e8789d13365be5f6185026" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>getControls</name></member>
+      <member refid="group__GeneralGroup_1gae9585eb2995d4b43669cb86533fecf4c" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>getControlsAs</name></member>
+      <member refid="group__GeneralGroup_1ga1010ca302a266f98b14450145b726efe" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>getControlsXf</name></member>
+      <member refid="group__GeneralGroup_1gaaaadf59451391760eaa2882c90d79f5b" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>getRootObject</name></member>
+      <member refid="group__GeneralGroup_1gab0823ffe9059c2fb1d57757cb82579a6" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>getTransformModeMask</name></member>
+      <member refid="group__GeneralGroup_1ga18e73f8285fb05c1d747d2fbc0f469f7" prot="private" virt="virtual"><scope>MR::ObjectTransformWidget</scope><name>onMouseDown_</name></member>
+      <member refid="group__GeneralGroup_1ga7e80b0a2bd72f8cc9b90e8302c87f146" prot="private" virt="virtual"><scope>MR::ObjectTransformWidget</scope><name>onMouseMove_</name></member>
+      <member refid="group__GeneralGroup_1ga88f6ad760bce997f3cd4a28df6584510" prot="private" virt="virtual"><scope>MR::ObjectTransformWidget</scope><name>onMouseUp_</name></member>
+      <member refid="group__GeneralGroup_1gac66fe60bff702eade31596995472d6b3" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>picked_</name></member>
+      <member refid="group__GeneralGroup_1ga476364330441292e139e0d0530f36625" prot="private" virt="virtual"><scope>MR::ObjectTransformWidget</scope><name>postDraw_</name></member>
+      <member refid="group__GeneralGroup_1gab781984d15397602878f43de93d2e677" prot="private" virt="virtual"><scope>MR::ObjectTransformWidget</scope><name>preDraw_</name></member>
+      <member refid="group__GeneralGroup_1ga82097451e3598a34c7d84efcc2f779c8" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>prevScaling_</name></member>
+      <member refid="group__GeneralGroup_1gad0e4a61b9fb0cd1063ea22b78fbe3dbd" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>prevTranslation_</name></member>
+      <member refid="group__GeneralGroup_1ga57cd9b45ce2d7510bfe5ba803bfb295f" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>processRotation_</name></member>
+      <member refid="group__GeneralGroup_1gabc7e86a9c0e17ce976e6c7a432eccfea" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>processScaling_</name></member>
+      <member refid="group__GeneralGroup_1ga6fec4b2c1674712117c0b664b18974c1" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>processTranslation_</name></member>
+      <member refid="group__GeneralGroup_1gac815cb12bfdb99a8a650143d34de17ad" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>reset</name></member>
+      <member refid="group__GeneralGroup_1ga8e8f79a7d0d2a02abfdc44abc778691f" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>rotateTooltipCallback_</name></member>
+      <member refid="group__GeneralGroup_1gga4915966f289a83c27ddaa64bbb7d1f0ca3729a0cc8c62739af1c384af087e3bd0" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>RotationMode</name></member>
+      <member refid="group__GeneralGroup_1gabe18e0ac8f37a1e3ffebfb2c9c603184" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>scaledXf_</name></member>
+      <member refid="group__GeneralGroup_1gab343c24f93a3d7c85ee4d4f570dc4536" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>scaleTooltipCallback_</name></member>
+      <member refid="group__GeneralGroup_1gga4915966f289a83c27ddaa64bbb7d1f0cac07ce2e8d4b5927b7c926a9761b4ea5e" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>ScalingMode</name></member>
+      <member refid="group__GeneralGroup_1ga3134eccba5998667c2b96764ceb6d88f" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>setAddXfCallback</name></member>
+      <member refid="group__GeneralGroup_1gaf009bd74e0f49b4a2efc1ddcf659e58a" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>setApproveXfCallback</name></member>
+      <member refid="group__GeneralGroup_1gaec0ff434beabde629460e566c23beb5c" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>setAxisTransformMode</name></member>
+      <member refid="group__GeneralGroup_1gab22daeb26cd1e936593d97d63cc407b5" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>setControlsXf</name></member>
+      <member refid="group__GeneralGroup_1gab5532c1d01a39c62fd0e2aadaafa3e16" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>setControlsXf_</name></member>
+      <member refid="group__GeneralGroup_1ga3582cec258b537faa908e62e50ca0eb8" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>setRotateTooltipCallback</name></member>
+      <member refid="group__GeneralGroup_1gaf0815d7c982b35b0dbe7f2e0abc9d583" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>setScaleTooltipCallback</name></member>
+      <member refid="group__GeneralGroup_1ga2d16d1f66d6e6a84e9ca9d18e68d2a03" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>setStartModifyCallback</name></member>
+      <member refid="group__GeneralGroup_1ga955e4e19a2da3a72cc42d41baaa73ad2" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>setStopModifyCallback</name></member>
+      <member refid="group__GeneralGroup_1gafcaee844badd2f2b918d558053da6e7e" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>setTransformMode</name></member>
+      <member refid="group__GeneralGroup_1gacd0c05bb93bc949b222c2721ad1d4b70" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>setTranslateTooltipCallback</name></member>
+      <member refid="group__GeneralGroup_1ga91b5667a2d913bc544b962b3798f8985" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>startAngle_</name></member>
+      <member refid="group__GeneralGroup_1ga69f3a191ae55ced7ae54487348db3887" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>startModifyCallback_</name></member>
+      <member refid="group__GeneralGroup_1gab615082a0bd88551d84d82fa8da933fc" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>startTranslation_</name></member>
+      <member refid="group__GeneralGroup_1gacd15c53d1b1e7d47caa576ab32dab2db" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>stopModify_</name></member>
+      <member refid="group__GeneralGroup_1ga902c322f7c7a5c8e98e447287f34a1ec" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>stopModifyCallback_</name></member>
+      <member refid="group__GeneralGroup_1ga44a256050e73050c44c3558a174aeb7e" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>transformModeMask_</name></member>
+      <member refid="group__GeneralGroup_1ga148885b4f7d72c11393ae2cecd976999" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>translateTooltipCallback_</name></member>
+      <member refid="group__GeneralGroup_1gga4915966f289a83c27ddaa64bbb7d1f0ca4e2a29ad1f56ff01e076be12865d949d" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>TranslationMode</name></member>
+      <member refid="group__GeneralGroup_1ggae637cb1b88edaa19f6495ccbb94d8ca8ae3086e312b06e7d525b05c5fe88c3454" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>UniformScaling</name></member>
+      <member refid="group__GeneralGroup_1gga4915966f289a83c27ddaa64bbb7d1f0cac90e325933fe46fe996af5bad3cf2d63" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>UniformScalingMode</name></member>
+      <member refid="group__GeneralGroup_1gaaf8498d53e8aa906466e136018fc26f5" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>visibilityParent_</name></member>
+      <member refid="group__GeneralGroup_1ga120cfc7a4650cdec1d67064c2420614f" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>xfValidatorConnection_</name></member>
+      <member refid="group__GeneralGroup_1ga726f5e2601b7f25e31824a0cac630fb2" prot="public" virt="virtual"><scope>MR::ObjectTransformWidget</scope><name>~MultiListener</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

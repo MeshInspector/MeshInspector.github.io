@@ -7,63 +7,10 @@
     <derivedcompoundref refid="structMR_1_1Viewport_1_1LinePointImmediateRenderParams" prot="public" virt="non-virtual">MR::Viewport::LinePointImmediateRenderParams</derivedcompoundref>
     <includes refid="MRIRenderObject_8h" local="no">MRIRenderObject.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1BaseRenderParams_1a564bcf6e1925912d15fa1cb20a3b0a3c" prot="public" static="no" mutable="no">
-        <type>const Matrix4f &amp;</type>
-        <definition>const Matrix4f&amp; MR::BaseRenderParams::viewMatrix</definition>
-        <argsstring></argsstring>
-        <name>viewMatrix</name>
-        <qualifiedname>MR::BaseRenderParams::viewMatrix</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="34" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="34" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1BaseRenderParams_1ab108063540156c1b73540c07c48e6d01" prot="public" static="no" mutable="no">
-        <type>const Matrix4f &amp;</type>
-        <definition>const Matrix4f&amp; MR::BaseRenderParams::projMatrix</definition>
-        <argsstring></argsstring>
-        <name>projMatrix</name>
-        <qualifiedname>MR::BaseRenderParams::projMatrix</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="35" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="35" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1BaseRenderParams_1adf952473500110be7f693c5d725f6fde" prot="public" static="no" mutable="no">
-        <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
-        <definition>ViewportId MR::BaseRenderParams::viewportId</definition>
-        <argsstring></argsstring>
-        <name>viewportId</name>
-        <qualifiedname>MR::BaseRenderParams::viewportId</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="36" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="36" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1BaseRenderParams_1aabb1d7dfa544bd6cb1d98a79a8d036a9" prot="public" static="no" mutable="no">
-        <type>Vector4i</type>
-        <definition>Vector4i MR::BaseRenderParams::viewport</definition>
-        <argsstring></argsstring>
-        <name>viewport</name>
-        <qualifiedname>MR::BaseRenderParams::viewport</qualifiedname>
-        <briefdescription>
-<para>id of the viewport </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="37" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="37" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga564bcf6e1925912d15fa1cb20a3b0a3c" kind="variable"><name>viewMatrix</name></member>
+      <member refid="group__GeneralGroup_1gab108063540156c1b73540c07c48e6d01" kind="variable"><name>projMatrix</name></member>
+      <member refid="group__GeneralGroup_1gadf952473500110be7f693c5d725f6fde" kind="variable"><name>viewportId</name></member>
+      <member refid="group__GeneralGroup_1gaabb1d7dfa544bd6cb1d98a79a8d036a9" kind="variable"><name>viewport</name></member>
     </sectiondef>
     <briefdescription>
 <para>Common rendering parameters for meshes and <ref refid="namespaceMR_1_1UI" kindref="compound">UI</ref>. </para>
@@ -113,12 +60,12 @@
         <link refid="classMR_1_1ViewportId"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="32" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="33" bodyend="38"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="35" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="36" bodyend="41"/>
     <listofallmembers>
-      <member refid="structMR_1_1BaseRenderParams_1ab108063540156c1b73540c07c48e6d01" prot="public" virt="non-virtual"><scope>MR::BaseRenderParams</scope><name>projMatrix</name></member>
-      <member refid="structMR_1_1BaseRenderParams_1a564bcf6e1925912d15fa1cb20a3b0a3c" prot="public" virt="non-virtual"><scope>MR::BaseRenderParams</scope><name>viewMatrix</name></member>
-      <member refid="structMR_1_1BaseRenderParams_1aabb1d7dfa544bd6cb1d98a79a8d036a9" prot="public" virt="non-virtual"><scope>MR::BaseRenderParams</scope><name>viewport</name></member>
-      <member refid="structMR_1_1BaseRenderParams_1adf952473500110be7f693c5d725f6fde" prot="public" virt="non-virtual"><scope>MR::BaseRenderParams</scope><name>viewportId</name></member>
+      <member refid="group__GeneralGroup_1gab108063540156c1b73540c07c48e6d01" prot="public" virt="non-virtual"><scope>MR::BaseRenderParams</scope><name>projMatrix</name></member>
+      <member refid="group__GeneralGroup_1ga564bcf6e1925912d15fa1cb20a3b0a3c" prot="public" virt="non-virtual"><scope>MR::BaseRenderParams</scope><name>viewMatrix</name></member>
+      <member refid="group__GeneralGroup_1gaabb1d7dfa544bd6cb1d98a79a8d036a9" prot="public" virt="non-virtual"><scope>MR::BaseRenderParams</scope><name>viewport</name></member>
+      <member refid="group__GeneralGroup_1gadf952473500110be7f693c5d725f6fde" prot="public" virt="non-virtual"><scope>MR::BaseRenderParams</scope><name>viewportId</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

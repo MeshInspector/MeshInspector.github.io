@@ -5,143 +5,30 @@
     <includes refid="MRViewerEventQueue_8h" local="no">MRViewerEventQueue.h</includes>
     <innerclass refid="structMR_1_1ViewerEventQueue_1_1NamedEvent" prot="private">MR::ViewerEventQueue::NamedEvent</innerclass>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1ViewerEventQueue_1a4b350e43d76bbddf25701779743f4f3c" prot="private" static="no" mutable="yes">
-        <type>std::recursive_mutex</type>
-        <definition>std::recursive_mutex MR::ViewerEventQueue::mutex_</definition>
-        <argsstring></argsstring>
-        <name>mutex_</name>
-        <qualifiedname>MR::ViewerEventQueue::mutex_</qualifiedname>
-        <briefdescription>
-<para>important for wasm to be recursive </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventQueue.h" line="32" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventQueue.h" bodystart="32" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ViewerEventQueue_1af5c5cc04876639e516cbe4631da4f84b" prot="private" static="no" mutable="no">
-        <type>std::queue&lt; NamedEvent &gt;</type>
-        <definition>std::queue&lt;NamedEvent&gt; MR::ViewerEventQueue::queue_</definition>
-        <argsstring></argsstring>
-        <name>queue_</name>
-        <qualifiedname>MR::ViewerEventQueue::queue_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventQueue.h" line="33" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventQueue.h" bodystart="33" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ViewerEventQueue_1ae29443d3ddb7a18618c8bcd645c96b03" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::ViewerEventQueue::lastSkipable_</definition>
-        <argsstring></argsstring>
-        <name>lastSkipable_</name>
-        <qualifiedname>MR::ViewerEventQueue::lastSkipable_</qualifiedname>
-        <initializer>{false}</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventQueue.h" line="34" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventQueue.h" bodystart="34" bodyend="34"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga4b350e43d76bbddf25701779743f4f3c" kind="variable"><name>mutex_</name></member>
+      <member refid="group__GeneralGroup_1gaf5c5cc04876639e516cbe4631da4f84b" kind="variable"><name>queue_</name></member>
+      <member refid="group__GeneralGroup_1gae29443d3ddb7a18618c8bcd645c96b03" kind="variable"><name>lastSkipable_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1ViewerEventQueue_1a0ac964ec690237b3791e95a800bfff16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::ViewerEventQueue::emplace</definition>
-        <argsstring>(std::string name, ViewerEventCallback cb, bool skipable=false)</argsstring>
-        <name>emplace</name>
-        <qualifiedname>MR::ViewerEventQueue::emplace</qualifiedname>
-        <param>
-          <type>std::string</type>
-          <declname>name</declname>
-        </param>
-        <param>
-          <type><ref refid="namespaceMR_1af677bfbbed9f6c283d0a3101b5e91aea" kindref="member">ViewerEventCallback</ref></type>
-          <declname>cb</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>skipable</declname>
-          <defval>false</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>emplace event at the end of the queue replace last skipable with new skipable </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventQueue.h" line="18" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerEventQueue_1a7786b393619359bbf34f212c51d10847" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::ViewerEventQueue::execute</definition>
-        <argsstring>()</argsstring>
-        <name>execute</name>
-        <qualifiedname>MR::ViewerEventQueue::execute</qualifiedname>
-        <briefdescription>
-<para>execute all events in queue </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventQueue.h" line="20" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerEventQueue_1aaacbdee8b3cf4b94fa853c60dee77504" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::ViewerEventQueue::popByName</definition>
-        <argsstring>(const std::string &amp;name)</argsstring>
-        <name>popByName</name>
-        <qualifiedname>MR::ViewerEventQueue::popByName</qualifiedname>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>name</declname>
-        </param>
-        <briefdescription>
-<para>pop all events while they have this name </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventQueue.h" line="22" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerEventQueue_1a011b2b74f1d6d279fe0e49dd1f4edba9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>MRVIEWER_API bool MR::ViewerEventQueue::empty</definition>
-        <argsstring>() const</argsstring>
-        <name>empty</name>
-        <qualifiedname>MR::ViewerEventQueue::empty</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventQueue.h" line="23" column="23"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga0ac964ec690237b3791e95a800bfff16" kind="function"><name>emplace</name></member>
+      <member refid="group__GeneralGroup_1ga7786b393619359bbf34f212c51d10847" kind="function"><name>execute</name></member>
+      <member refid="group__GeneralGroup_1gaaacbdee8b3cf4b94fa853c60dee77504" kind="function"><name>popByName</name></member>
+      <member refid="group__GeneralGroup_1ga011b2b74f1d6d279fe0e49dd1f4edba9" kind="function"><name>empty</name></member>
     </sectiondef>
     <briefdescription>
 <para>queue to ignore multiple mouse moves in one frame </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventQueue.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventQueue.h" bodystart="14" bodyend="35"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventQueue.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventQueue.h" bodystart="17" bodyend="38"/>
     <listofallmembers>
-      <member refid="classMR_1_1ViewerEventQueue_1a0ac964ec690237b3791e95a800bfff16" prot="public" virt="non-virtual"><scope>MR::ViewerEventQueue</scope><name>emplace</name></member>
-      <member refid="classMR_1_1ViewerEventQueue_1a011b2b74f1d6d279fe0e49dd1f4edba9" prot="public" virt="non-virtual"><scope>MR::ViewerEventQueue</scope><name>empty</name></member>
-      <member refid="classMR_1_1ViewerEventQueue_1a7786b393619359bbf34f212c51d10847" prot="public" virt="non-virtual"><scope>MR::ViewerEventQueue</scope><name>execute</name></member>
-      <member refid="classMR_1_1ViewerEventQueue_1ae29443d3ddb7a18618c8bcd645c96b03" prot="private" virt="non-virtual"><scope>MR::ViewerEventQueue</scope><name>lastSkipable_</name></member>
-      <member refid="classMR_1_1ViewerEventQueue_1a4b350e43d76bbddf25701779743f4f3c" prot="private" virt="non-virtual"><scope>MR::ViewerEventQueue</scope><name>mutex_</name></member>
-      <member refid="classMR_1_1ViewerEventQueue_1aaacbdee8b3cf4b94fa853c60dee77504" prot="public" virt="non-virtual"><scope>MR::ViewerEventQueue</scope><name>popByName</name></member>
-      <member refid="classMR_1_1ViewerEventQueue_1af5c5cc04876639e516cbe4631da4f84b" prot="private" virt="non-virtual"><scope>MR::ViewerEventQueue</scope><name>queue_</name></member>
+      <member refid="group__GeneralGroup_1ga0ac964ec690237b3791e95a800bfff16" prot="public" virt="non-virtual"><scope>MR::ViewerEventQueue</scope><name>emplace</name></member>
+      <member refid="group__GeneralGroup_1ga011b2b74f1d6d279fe0e49dd1f4edba9" prot="public" virt="non-virtual"><scope>MR::ViewerEventQueue</scope><name>empty</name></member>
+      <member refid="group__GeneralGroup_1ga7786b393619359bbf34f212c51d10847" prot="public" virt="non-virtual"><scope>MR::ViewerEventQueue</scope><name>execute</name></member>
+      <member refid="group__GeneralGroup_1gae29443d3ddb7a18618c8bcd645c96b03" prot="private" virt="non-virtual"><scope>MR::ViewerEventQueue</scope><name>lastSkipable_</name></member>
+      <member refid="group__GeneralGroup_1ga4b350e43d76bbddf25701779743f4f3c" prot="private" virt="non-virtual"><scope>MR::ViewerEventQueue</scope><name>mutex_</name></member>
+      <member refid="group__GeneralGroup_1gaaacbdee8b3cf4b94fa853c60dee77504" prot="public" virt="non-virtual"><scope>MR::ViewerEventQueue</scope><name>popByName</name></member>
+      <member refid="group__GeneralGroup_1gaf5c5cc04876639e516cbe4631da4f84b" prot="private" virt="non-virtual"><scope>MR::ViewerEventQueue</scope><name>queue_</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

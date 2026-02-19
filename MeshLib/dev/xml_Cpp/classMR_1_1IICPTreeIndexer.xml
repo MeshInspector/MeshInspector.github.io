@@ -4,140 +4,26 @@
     <compoundname>MR::IICPTreeIndexer</compoundname>
     <includes refid="MRMultiwayICP_8h" local="no">MRMultiwayICP.h</includes>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1IICPTreeIndexer_1a68616944ac0168797fb2fece7d28f477" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type></type>
-        <definition>virtual MR::IICPTreeIndexer::~IICPTreeIndexer</definition>
-        <argsstring>()=default</argsstring>
-        <name>~IICPTreeIndexer</name>
-        <qualifiedname>MR::IICPTreeIndexer::~IICPTreeIndexer</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="40" column="13"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1IICPTreeIndexer_1a1f778d40d47e51211af6dc767319487a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::IICPTreeIndexer::fromSameNode</definition>
-        <argsstring>(ICPLayer l, ICPElementId eI, ICPElementId eJ) const =0</argsstring>
-        <name>fromSameNode</name>
-        <qualifiedname>MR::IICPTreeIndexer::fromSameNode</qualifiedname>
-        <param>
-          <type><ref refid="namespaceMR_1add4fa046bbf16a56e7eae86658185885" kindref="member">ICPLayer</ref></type>
-          <declname>l</declname>
-        </param>
-        <param>
-          <type><ref refid="namespaceMR_1ab448f2e256aabf3e97eaaef010380fb1" kindref="member">ICPElementId</ref></type>
-          <declname>eI</declname>
-        </param>
-        <param>
-          <type><ref refid="namespaceMR_1ab448f2e256aabf3e97eaaef010380fb1" kindref="member">ICPElementId</ref></type>
-          <declname>eJ</declname>
-        </param>
-        <briefdescription>
-<para>returns true if eI and eJ are from same node </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="42" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1IICPTreeIndexer_1ae9d6c57f127d30e14ec9ce539bb2b0f7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
-        <type>ObjBitSet</type>
-        <definition>virtual ObjBitSet MR::IICPTreeIndexer::getElementLeaves</definition>
-        <argsstring>(ICPLayer l, ICPElementId eId) const =0</argsstring>
-        <name>getElementLeaves</name>
-        <qualifiedname>MR::IICPTreeIndexer::getElementLeaves</qualifiedname>
-        <param>
-          <type><ref refid="namespaceMR_1add4fa046bbf16a56e7eae86658185885" kindref="member">ICPLayer</ref></type>
-          <declname>l</declname>
-        </param>
-        <param>
-          <type><ref refid="namespaceMR_1ab448f2e256aabf3e97eaaef010380fb1" kindref="member">ICPElementId</ref></type>
-          <declname>eId</declname>
-        </param>
-        <briefdescription>
-<para>returns bitset of leaves of given node </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="45" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1IICPTreeIndexer_1a114f0247a1d8233737cefa12708f75dc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
-        <type><ref refid="namespaceMR_1ae9eff2bf5026577153e17f3ff0ae801c" kindref="member">ICPElementBitSet</ref></type>
-        <definition>virtual ICPElementBitSet MR::IICPTreeIndexer::getElementNodes</definition>
-        <argsstring>(ICPLayer l, ICPElementId eId) const =0</argsstring>
-        <name>getElementNodes</name>
-        <qualifiedname>MR::IICPTreeIndexer::getElementNodes</qualifiedname>
-        <param>
-          <type><ref refid="namespaceMR_1add4fa046bbf16a56e7eae86658185885" kindref="member">ICPLayer</ref></type>
-          <declname>l</declname>
-        </param>
-        <param>
-          <type><ref refid="namespaceMR_1ab448f2e256aabf3e97eaaef010380fb1" kindref="member">ICPElementId</ref></type>
-          <declname>eId</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>valid for l &gt; 0, returns bitset of subnodes that is associated with eId should be valid for l == <computeroutput>getNumLayers</computeroutput> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="48" column="30"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1IICPTreeIndexer_1a1134ae002061a65428a6900901a9df6f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
-        <type>size_t</type>
-        <definition>virtual size_t MR::IICPTreeIndexer::getNumElements</definition>
-        <argsstring>(ICPLayer l) const =0</argsstring>
-        <name>getNumElements</name>
-        <qualifiedname>MR::IICPTreeIndexer::getNumElements</qualifiedname>
-        <param>
-          <type><ref refid="namespaceMR_1add4fa046bbf16a56e7eae86658185885" kindref="member">ICPLayer</ref></type>
-          <declname>l</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>l == 0 - objs_.size() l == 1 - number of nodes one layer above objects l == 2 - number of nodes one layer above nodes lvl1 ... l == <computeroutput>getNumLayers</computeroutput> - 1 </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="55" column="20"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1IICPTreeIndexer_1a35a9128e72ddf5647128d63b87bcf209" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
-        <type>size_t</type>
-        <definition>virtual size_t MR::IICPTreeIndexer::getNumLayers</definition>
-        <argsstring>() const =0</argsstring>
-        <name>getNumLayers</name>
-        <qualifiedname>MR::IICPTreeIndexer::getNumLayers</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="56" column="20"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga68616944ac0168797fb2fece7d28f477" kind="function"><name>~IICPTreeIndexer</name></member>
+      <member refid="group__GeneralGroup_1ga1f778d40d47e51211af6dc767319487a" kind="function"><name>fromSameNode</name></member>
+      <member refid="group__GeneralGroup_1gae9d6c57f127d30e14ec9ce539bb2b0f7" kind="function"><name>getElementLeaves</name></member>
+      <member refid="group__GeneralGroup_1ga114f0247a1d8233737cefa12708f75dc" kind="function"><name>getElementNodes</name></member>
+      <member refid="group__GeneralGroup_1ga1134ae002061a65428a6900901a9df6f" kind="function"><name>getNumElements</name></member>
+      <member refid="group__GeneralGroup_1ga35a9128e72ddf5647128d63b87bcf209" kind="function"><name>getNumLayers</name></member>
     </sectiondef>
     <briefdescription>
 <para>structure to find leafs and groups of each in cascade mode </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="37" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" bodystart="38" bodyend="57"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="40" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" bodystart="41" bodyend="60"/>
     <listofallmembers>
-      <member refid="classMR_1_1IICPTreeIndexer_1a1f778d40d47e51211af6dc767319487a" prot="public" virt="pure-virtual"><scope>MR::IICPTreeIndexer</scope><name>fromSameNode</name></member>
-      <member refid="classMR_1_1IICPTreeIndexer_1ae9d6c57f127d30e14ec9ce539bb2b0f7" prot="public" virt="pure-virtual"><scope>MR::IICPTreeIndexer</scope><name>getElementLeaves</name></member>
-      <member refid="classMR_1_1IICPTreeIndexer_1a114f0247a1d8233737cefa12708f75dc" prot="public" virt="pure-virtual"><scope>MR::IICPTreeIndexer</scope><name>getElementNodes</name></member>
-      <member refid="classMR_1_1IICPTreeIndexer_1a1134ae002061a65428a6900901a9df6f" prot="public" virt="pure-virtual"><scope>MR::IICPTreeIndexer</scope><name>getNumElements</name></member>
-      <member refid="classMR_1_1IICPTreeIndexer_1a35a9128e72ddf5647128d63b87bcf209" prot="public" virt="pure-virtual"><scope>MR::IICPTreeIndexer</scope><name>getNumLayers</name></member>
-      <member refid="classMR_1_1IICPTreeIndexer_1a68616944ac0168797fb2fece7d28f477" prot="public" virt="virtual"><scope>MR::IICPTreeIndexer</scope><name>~IICPTreeIndexer</name></member>
+      <member refid="group__GeneralGroup_1ga1f778d40d47e51211af6dc767319487a" prot="public" virt="pure-virtual"><scope>MR::IICPTreeIndexer</scope><name>fromSameNode</name></member>
+      <member refid="group__GeneralGroup_1gae9d6c57f127d30e14ec9ce539bb2b0f7" prot="public" virt="pure-virtual"><scope>MR::IICPTreeIndexer</scope><name>getElementLeaves</name></member>
+      <member refid="group__GeneralGroup_1ga114f0247a1d8233737cefa12708f75dc" prot="public" virt="pure-virtual"><scope>MR::IICPTreeIndexer</scope><name>getElementNodes</name></member>
+      <member refid="group__GeneralGroup_1ga1134ae002061a65428a6900901a9df6f" prot="public" virt="pure-virtual"><scope>MR::IICPTreeIndexer</scope><name>getNumElements</name></member>
+      <member refid="group__GeneralGroup_1ga35a9128e72ddf5647128d63b87bcf209" prot="public" virt="pure-virtual"><scope>MR::IICPTreeIndexer</scope><name>getNumLayers</name></member>
+      <member refid="group__GeneralGroup_1ga68616944ac0168797fb2fece7d28f477" prot="public" virt="virtual"><scope>MR::IICPTreeIndexer</scope><name>~IICPTreeIndexer</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -4,47 +4,17 @@
     <compoundname>MR::PlanarTriangulation::BaseOutlineParameters</compoundname>
     <includes refid="MR2DContoursTriangulation_8h" local="no">MR2DContoursTriangulation.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters_1a6f9aeb8021200fb928ae34fe6ab4c932" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::PlanarTriangulation::BaseOutlineParameters::allowMerge</definition>
-        <argsstring></argsstring>
-        <name>allowMerge</name>
-        <qualifiedname>MR::PlanarTriangulation::BaseOutlineParameters::allowMerge</qualifiedname>
-        <initializer>{ false }</initializer>
-        <briefdescription>
-<para>allow to merge vertices with same coordinates </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2DContoursTriangulation.h" line="59" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2DContoursTriangulation.h" bodystart="59" bodyend="59"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters_1a96cc494dbae32854400a1fc481ea09b4" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1_1PlanarTriangulation_1a41b088a697624ae295c7b3a7b137bca9" kindref="member">WindingMode</ref></type>
-        <definition>WindingMode MR::PlanarTriangulation::BaseOutlineParameters::innerType</definition>
-        <argsstring></argsstring>
-        <name>innerType</name>
-        <qualifiedname>MR::PlanarTriangulation::BaseOutlineParameters::innerType</qualifiedname>
-        <initializer>{ <ref refid="namespaceMR_1_1PlanarTriangulation_1a41b088a697624ae295c7b3a7b137bca9affb9356ff2b7da85c75c92fa7ea03b8b" kindref="member">WindingMode::Negative</ref> }</initializer>
-        <briefdescription>
-<para>what to mark as inner part </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2DContoursTriangulation.h" line="60" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2DContoursTriangulation.h" bodystart="60" bodyend="60"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga6f9aeb8021200fb928ae34fe6ab4c932" kind="variable"><name>allowMerge</name></member>
+      <member refid="group__GeneralGroup_1ga96cc494dbae32854400a1fc481ea09b4" kind="variable"><name>innerType</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2DContoursTriangulation.h" line="57" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2DContoursTriangulation.h" bodystart="58" bodyend="61"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2DContoursTriangulation.h" line="60" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2DContoursTriangulation.h" bodystart="61" bodyend="64"/>
     <listofallmembers>
-      <member refid="structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters_1a6f9aeb8021200fb928ae34fe6ab4c932" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::BaseOutlineParameters</scope><name>allowMerge</name></member>
-      <member refid="structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters_1a96cc494dbae32854400a1fc481ea09b4" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::BaseOutlineParameters</scope><name>innerType</name></member>
+      <member refid="group__GeneralGroup_1ga6f9aeb8021200fb928ae34fe6ab4c932" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::BaseOutlineParameters</scope><name>allowMerge</name></member>
+      <member refid="group__GeneralGroup_1ga96cc494dbae32854400a1fc481ea09b4" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::BaseOutlineParameters</scope><name>innerType</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

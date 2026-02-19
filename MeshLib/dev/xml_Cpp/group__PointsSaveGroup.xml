@@ -5,7 +5,7 @@
     <title>Points Save</title>
     <sectiondef kind="func">
       <memberdef kind="function" id="group__PointsSaveGroup_1ga94002b7226a354d4ed16c373abe30200" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; void &gt;</type>
+        <type>MRMESH_API Expected&lt; void &gt;</type>
         <definition>MRMESH_API Expected&lt; void &gt; MR::PointsSave::toXyz</definition>
         <argsstring>(const PointCloud &amp;points, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</argsstring>
         <name>toXyz</name>
@@ -33,7 +33,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsSave.h" line="23" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsSave.h" declline="23" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__PointsSaveGroup_1ga1cda44c459bb9985cbe588c06eaf5b32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; void &gt;</type>
+        <type>MRMESH_API Expected&lt; void &gt;</type>
         <definition>MRMESH_API Expected&lt; void &gt; MR::PointsSave::toXyz</definition>
         <argsstring>(const PointCloud &amp;points, std::ostream &amp;out, const SaveSettings &amp;settings={})</argsstring>
         <name>toXyz</name>
@@ -60,7 +60,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsSave.h" line="24" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsSave.h" declline="24" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__PointsSaveGroup_1gaef7fbffead1d7db6959ce064667d0644" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; void &gt;</type>
+        <type>MRMESH_API Expected&lt; void &gt;</type>
         <definition>MRMESH_API Expected&lt; void &gt; MR::PointsSave::toXyzn</definition>
         <argsstring>(const PointCloud &amp;points, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</argsstring>
         <name>toXyzn</name>
@@ -88,7 +88,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsSave.h" line="28" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsSave.h" declline="28" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__PointsSaveGroup_1gac312a015d428306e9cd7f0d7f35598ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; void &gt;</type>
+        <type>MRMESH_API Expected&lt; void &gt;</type>
         <definition>MRMESH_API Expected&lt; void &gt; MR::PointsSave::toXyzn</definition>
         <argsstring>(const PointCloud &amp;points, std::ostream &amp;out, const SaveSettings &amp;settings={})</argsstring>
         <name>toXyzn</name>
@@ -115,7 +115,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsSave.h" line="29" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsSave.h" declline="29" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__PointsSaveGroup_1gaac66378aea59c039d4d6f10abc88e0c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; void &gt;</type>
+        <type>MRMESH_API Expected&lt; void &gt;</type>
         <definition>MRMESH_API Expected&lt; void &gt; MR::PointsSave::toAsc</definition>
         <argsstring>(const PointCloud &amp;points, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</argsstring>
         <name>toAsc</name>
@@ -143,7 +143,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsSave.h" line="32" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsSave.h" declline="32" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__PointsSaveGroup_1ga58b1b79208930b911c4953c1cd70bf48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; void &gt;</type>
+        <type>MRMESH_API Expected&lt; void &gt;</type>
         <definition>MRMESH_API Expected&lt; void &gt; MR::PointsSave::toAsc</definition>
         <argsstring>(const PointCloud &amp;points, std::ostream &amp;out, const SaveSettings &amp;settings={})</argsstring>
         <name>toAsc</name>
@@ -170,7 +170,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsSave.h" line="33" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsSave.h" declline="33" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__PointsSaveGroup_1gaf05b1fb23e1b89b10750e721301bd4e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; void &gt;</type>
+        <type>MRMESH_API Expected&lt; void &gt;</type>
         <definition>MRMESH_API Expected&lt; void &gt; MR::PointsSave::toPly</definition>
         <argsstring>(const PointCloud &amp;points, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</argsstring>
         <name>toPly</name>
@@ -198,7 +198,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsSave.h" line="36" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsSave.h" declline="36" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__PointsSaveGroup_1ga74463b5ee9c7ec9c927c775ea3d5abe7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; void &gt;</type>
+        <type>MRMESH_API Expected&lt; void &gt;</type>
         <definition>MRMESH_API Expected&lt; void &gt; MR::PointsSave::toPly</definition>
         <argsstring>(const PointCloud &amp;points, std::ostream &amp;out, const SaveSettings &amp;settings={})</argsstring>
         <name>toPly</name>
@@ -225,7 +225,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsSave.h" line="37" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsSave.h" declline="37" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__PointsSaveGroup_1ga3c8f83fa34faa244672c9f70f436659d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; void &gt;</type>
+        <type>MRMESH_API Expected&lt; void &gt;</type>
         <definition>MRMESH_API Expected&lt; void &gt; MR::PointsSave::toAnySupportedFormat</definition>
         <argsstring>(const PointCloud &amp;points, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</argsstring>
         <name>toAnySupportedFormat</name>
@@ -253,7 +253,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsSave.h" line="40" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsSave.h" declline="40" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__PointsSaveGroup_1gaf483fe48c6b9e28ef2cd22358d099b82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; void &gt;</type>
+        <type>MRMESH_API Expected&lt; void &gt;</type>
         <definition>MRMESH_API Expected&lt; void &gt; MR::PointsSave::toAnySupportedFormat</definition>
         <argsstring>(const PointCloud &amp;points, const std::string &amp;extension, std::ostream &amp;out, const SaveSettings &amp;settings={})</argsstring>
         <name>toAnySupportedFormat</name>

@@ -5,119 +5,15 @@
     <derivedcompoundref refid="structMR_1_1TextMeshAlignParams" prot="public" virt="non-virtual">MR::TextMeshAlignParams</derivedcompoundref>
     <includes refid="MRSymbolMesh_8h" local="no">MRSymbolMesh.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1SymbolMeshParams_1acb1fbf339bac28e29347e8a59589b28b" prot="public" static="no" mutable="no">
-        <type>std::string</type>
-        <definition>std::string MR::SymbolMeshParams::text</definition>
-        <argsstring></argsstring>
-        <name>text</name>
-        <qualifiedname>MR::SymbolMeshParams::text</qualifiedname>
-        <briefdescription>
-<para>Text that will be made mesh. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRSymbolMesh.h" line="24" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRSymbolMesh.h" bodystart="24" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1SymbolMeshParams_1a862ff23debfa432cd8025d0d39a00868" prot="public" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::SymbolMeshParams::fontDetalization</definition>
-        <argsstring></argsstring>
-        <name>fontDetalization</name>
-        <qualifiedname>MR::SymbolMeshParams::fontDetalization</qualifiedname>
-        <initializer>{5}</initializer>
-        <briefdescription>
-<para>Detailization of Bezier curves on font glyphs. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRSymbolMesh.h" line="26" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRSymbolMesh.h" bodystart="26" bodyend="26"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1SymbolMeshParams_1a13308560203bfeb849317043fdd1957a" prot="public" static="no" mutable="no">
-        <type>Vector2f</type>
-        <definition>Vector2f MR::SymbolMeshParams::symbolsDistanceAdditionalOffset</definition>
-        <argsstring></argsstring>
-        <name>symbolsDistanceAdditionalOffset</name>
-        <qualifiedname>MR::SymbolMeshParams::symbolsDistanceAdditionalOffset</qualifiedname>
-        <initializer>{ 0.0f, 0.0f }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Additional offset between symbols X: In symbol size: 1.0f adds one &quot;space&quot;, 0.5 adds half &quot;space&quot;. Y: In symbol size: 1.0f adds one base height, 0.5 adds half base height </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRSymbolMesh.h" line="30" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRSymbolMesh.h" bodystart="30" bodyend="30"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1SymbolMeshParams_1a41e3e2a0fe3747d584ee52635c67c307" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::SymbolMeshParams::symbolsThicknessOffsetModifier</definition>
-        <argsstring></argsstring>
-        <name>symbolsThicknessOffsetModifier</name>
-        <qualifiedname>MR::SymbolMeshParams::symbolsThicknessOffsetModifier</qualifiedname>
-        <initializer>{ 0.0f }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Symbols thickness will be modified by this value (newThickness = modifier*baseSymbolHeight + defaultThickness) note: changing this to non-zero values cause costly calculations </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRSymbolMesh.h" line="33" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRSymbolMesh.h" bodystart="33" bodyend="33"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1SymbolMeshParams_1afd1a0869903aae7b0b8c5df8492a936b" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1a78218d9e8bdad31c92f563f91f5d470a" kindref="member">AlignType</ref></type>
-        <definition>AlignType MR::SymbolMeshParams::align</definition>
-        <argsstring></argsstring>
-        <name>align</name>
-        <qualifiedname>MR::SymbolMeshParams::align</qualifiedname>
-        <initializer>{<ref refid="namespaceMR_1a78218d9e8bdad31c92f563f91f5d470aaf275ae8072936015841ec53b58693aaf" kindref="member">AlignType::Left</ref>}</initializer>
-        <briefdescription>
-<para>alignment of the text inside bbox </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRSymbolMesh.h" line="35" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRSymbolMesh.h" bodystart="35" bodyend="35"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1SymbolMeshParams_1a91479aefd75dc365ef6b39108ea22fcf" prot="public" static="no" mutable="no">
-        <type>std::filesystem::path</type>
-        <definition>std::filesystem::path MR::SymbolMeshParams::pathToFontFile</definition>
-        <argsstring></argsstring>
-        <name>pathToFontFile</name>
-        <qualifiedname>MR::SymbolMeshParams::pathToFontFile</qualifiedname>
-        <briefdescription>
-<para>Path to font file. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRSymbolMesh.h" line="41" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRSymbolMesh.h" bodystart="41" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gacb1fbf339bac28e29347e8a59589b28b" kind="variable"><name>text</name></member>
+      <member refid="group__GeneralGroup_1ga862ff23debfa432cd8025d0d39a00868" kind="variable"><name>fontDetalization</name></member>
+      <member refid="group__GeneralGroup_1ga13308560203bfeb849317043fdd1957a" kind="variable"><name>symbolsDistanceAdditionalOffset</name></member>
+      <member refid="group__GeneralGroup_1ga41e3e2a0fe3747d584ee52635c67c307" kind="variable"><name>symbolsThicknessOffsetModifier</name></member>
+      <member refid="group__GeneralGroup_1gafd1a0869903aae7b0b8c5df8492a936b" kind="variable"><name>align</name></member>
+      <member refid="group__GeneralGroup_1ga91479aefd75dc365ef6b39108ea22fcf" kind="variable"><name>pathToFontFile</name></member>
     </sectiondef>
     <sectiondef kind="public-static-attrib">
-      <memberdef kind="variable" id="structMR_1_1SymbolMeshParams_1a06383c90b2966a74b8076c74c310a45f" prot="public" static="yes" constexpr="yes" mutable="no">
-        <type>float</type>
-        <definition>float MR::SymbolMeshParams::MaxGeneratedFontHeight</definition>
-        <argsstring></argsstring>
-        <name>MaxGeneratedFontHeight</name>
-        <qualifiedname>MR::SymbolMeshParams::MaxGeneratedFontHeight</qualifiedname>
-        <initializer>= 5826.0f * 1e-3f</initializer>
-        <briefdescription>
-<para>_WIN32 </para>
-        </briefdescription>
-        <detaileddescription>
-<para>max font size with 128 &lt;&lt; 6 FT_F26Dot6 font size </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRSymbolMesh.h" line="45" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRSymbolMesh.h" bodystart="45" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga06383c90b2966a74b8076c74c310a45f" kind="variable"><name>MaxGeneratedFontHeight</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -135,15 +31,15 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRSymbolMesh.h" line="21" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRSymbolMesh.h" bodystart="22" bodyend="46"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRSymbolMesh.h" line="24" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRSymbolMesh.h" bodystart="25" bodyend="49"/>
     <listofallmembers>
-      <member refid="structMR_1_1SymbolMeshParams_1afd1a0869903aae7b0b8c5df8492a936b" prot="public" virt="non-virtual"><scope>MR::SymbolMeshParams</scope><name>align</name></member>
-      <member refid="structMR_1_1SymbolMeshParams_1a862ff23debfa432cd8025d0d39a00868" prot="public" virt="non-virtual"><scope>MR::SymbolMeshParams</scope><name>fontDetalization</name></member>
-      <member refid="structMR_1_1SymbolMeshParams_1a06383c90b2966a74b8076c74c310a45f" prot="public" virt="non-virtual"><scope>MR::SymbolMeshParams</scope><name>MaxGeneratedFontHeight</name></member>
-      <member refid="structMR_1_1SymbolMeshParams_1a91479aefd75dc365ef6b39108ea22fcf" prot="public" virt="non-virtual"><scope>MR::SymbolMeshParams</scope><name>pathToFontFile</name></member>
-      <member refid="structMR_1_1SymbolMeshParams_1a13308560203bfeb849317043fdd1957a" prot="public" virt="non-virtual"><scope>MR::SymbolMeshParams</scope><name>symbolsDistanceAdditionalOffset</name></member>
-      <member refid="structMR_1_1SymbolMeshParams_1a41e3e2a0fe3747d584ee52635c67c307" prot="public" virt="non-virtual"><scope>MR::SymbolMeshParams</scope><name>symbolsThicknessOffsetModifier</name></member>
-      <member refid="structMR_1_1SymbolMeshParams_1acb1fbf339bac28e29347e8a59589b28b" prot="public" virt="non-virtual"><scope>MR::SymbolMeshParams</scope><name>text</name></member>
+      <member refid="group__GeneralGroup_1gafd1a0869903aae7b0b8c5df8492a936b" prot="public" virt="non-virtual"><scope>MR::SymbolMeshParams</scope><name>align</name></member>
+      <member refid="group__GeneralGroup_1ga862ff23debfa432cd8025d0d39a00868" prot="public" virt="non-virtual"><scope>MR::SymbolMeshParams</scope><name>fontDetalization</name></member>
+      <member refid="group__GeneralGroup_1ga06383c90b2966a74b8076c74c310a45f" prot="public" virt="non-virtual"><scope>MR::SymbolMeshParams</scope><name>MaxGeneratedFontHeight</name></member>
+      <member refid="group__GeneralGroup_1ga91479aefd75dc365ef6b39108ea22fcf" prot="public" virt="non-virtual"><scope>MR::SymbolMeshParams</scope><name>pathToFontFile</name></member>
+      <member refid="group__GeneralGroup_1ga13308560203bfeb849317043fdd1957a" prot="public" virt="non-virtual"><scope>MR::SymbolMeshParams</scope><name>symbolsDistanceAdditionalOffset</name></member>
+      <member refid="group__GeneralGroup_1ga41e3e2a0fe3747d584ee52635c67c307" prot="public" virt="non-virtual"><scope>MR::SymbolMeshParams</scope><name>symbolsThicknessOffsetModifier</name></member>
+      <member refid="group__GeneralGroup_1gacb1fbf339bac28e29347e8a59589b28b" prot="public" virt="non-virtual"><scope>MR::SymbolMeshParams</scope><name>text</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

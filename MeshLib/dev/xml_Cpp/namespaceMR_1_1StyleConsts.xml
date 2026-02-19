@@ -7,26 +7,12 @@
     <innernamespace refid="namespaceMR_1_1StyleConsts_1_1Notification">MR::StyleConsts::Notification</innernamespace>
     <innernamespace refid="namespaceMR_1_1StyleConsts_1_1ProgressBar">MR::StyleConsts::ProgressBar</innernamespace>
     <sectiondef kind="var">
-      <memberdef kind="variable" id="namespaceMR_1_1StyleConsts_1a4d6326d10565774441d1db3512941c0d" prot="public" static="no" constexpr="yes" mutable="no">
-        <type>Vector2f</type>
-        <definition>Vector2f MR::StyleConsts::pluginItemSpacing</definition>
-        <argsstring></argsstring>
-        <name>pluginItemSpacing</name>
-        <qualifiedname>MR::StyleConsts::pluginItemSpacing</qualifiedname>
-        <initializer>{ 8, 10 }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonConstants.h" line="72" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonConstants.h" bodystart="72" bodyend="72"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga4d6326d10565774441d1db3512941c0d" kind="variable"><name>pluginItemSpacing</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonConstants.h" line="69" column="1"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonConstants.h" line="72" column="1"/>
   </compounddef>
 </doxygen>

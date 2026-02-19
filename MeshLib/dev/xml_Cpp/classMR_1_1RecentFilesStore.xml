@@ -4,179 +4,34 @@
     <compoundname>MR::RecentFilesStore</compoundname>
     <includes refid="MRRecentFilesStore_8h" local="no">MRRecentFilesStore.h</includes>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1RecentFilesStore_1a79680c946de4a22ddf9715faff78e150" prot="private" static="no" mutable="no">
-        <type>std::string</type>
-        <definition>std::string MR::RecentFilesStore::appName_</definition>
-        <argsstring></argsstring>
-        <name>appName_</name>
-        <qualifiedname>MR::RecentFilesStore::appName_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRecentFilesStore.h" line="39" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRecentFilesStore.h" bodystart="39" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RecentFilesStore_1ad4ad64e7a274e03c22c321fe80f77f9c" prot="private" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::RecentFilesStore::capacity_</definition>
-        <argsstring></argsstring>
-        <name>capacity_</name>
-        <qualifiedname>MR::RecentFilesStore::capacity_</qualifiedname>
-        <initializer>{5}</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRecentFilesStore.h" line="40" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRecentFilesStore.h" bodystart="40" bodyend="40"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RecentFilesStore_1a9f9d1fe969fc9cbdac378c46228936d8" prot="private" static="no" mutable="no">
-        <type>boost::signals2::signal&lt; void(const <ref refid="namespaceMR_1abf9e7451b5087b4485b6207161438dc3" kindref="member">FileNamesStack</ref> &amp;files)&gt;</type>
-        <definition>boost::signals2::signal&lt;void( const FileNamesStack&amp; files )&gt; MR::RecentFilesStore::updateSignal_</definition>
-        <argsstring></argsstring>
-        <name>updateSignal_</name>
-        <qualifiedname>MR::RecentFilesStore::updateSignal_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRecentFilesStore.h" line="41" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRecentFilesStore.h" bodystart="41" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga79680c946de4a22ddf9715faff78e150" kind="variable"><name>appName_</name></member>
+      <member refid="group__GeneralGroup_1gad4ad64e7a274e03c22c321fe80f77f9c" kind="variable"><name>capacity_</name></member>
+      <member refid="group__GeneralGroup_1ga9f9d1fe969fc9cbdac378c46228936d8" kind="variable"><name>updateSignal_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1RecentFilesStore_1ab3bdf57745bbf11b5ac6fd1b27edcb68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::RecentFilesStore::RecentFilesStore</definition>
-        <argsstring>()=default</argsstring>
-        <name>RecentFilesStore</name>
-        <qualifiedname>MR::RecentFilesStore::RecentFilesStore</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRecentFilesStore.h" line="19" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RecentFilesStore_1a230eadaf39638e9cec8fb6d95f662964" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::RecentFilesStore::RecentFilesStore</definition>
-        <argsstring>(std::string appName, int capacity=10)</argsstring>
-        <name>RecentFilesStore</name>
-        <qualifiedname>MR::RecentFilesStore::RecentFilesStore</qualifiedname>
-        <param>
-          <type>std::string</type>
-          <declname>appName</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>capacity</declname>
-          <defval>10</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Capacity is maximum stored filenames, it needs app name to store data to correct place in system storage </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRecentFilesStore.h" line="22" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRecentFilesStore.h" bodystart="22" bodyend="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RecentFilesStore_1a91c0cee2c949bedab99c902e62d77a9f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::RecentFilesStore::storeFile</definition>
-        <argsstring>(const std::filesystem::path &amp;file) const</argsstring>
-        <name>storeFile</name>
-        <qualifiedname>MR::RecentFilesStore::storeFile</qualifiedname>
-        <param>
-          <type>const std::filesystem::path &amp;</type>
-          <declname>file</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Saves filename on top of recently opened stack, if file is already in the storage put it on top </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRecentFilesStore.h" line="27" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RecentFilesStore_1a8eb2308612fd7822086319b3609a28cf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API std::vector&lt; std::filesystem::path &gt;</type>
-        <definition>MRVIEWER_API std::vector&lt; std::filesystem::path &gt; MR::RecentFilesStore::getStoredFiles</definition>
-        <argsstring>() const</argsstring>
-        <name>getStoredFiles</name>
-        <qualifiedname>MR::RecentFilesStore::getStoredFiles</qualifiedname>
-        <briefdescription>
-<para>Returns filenames from storage. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRecentFilesStore.h" line="30" column="30"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RecentFilesStore_1a1f48973b157bca4ee2c0e34407310654" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>int</type>
-        <definition>int MR::RecentFilesStore::getCapacity</definition>
-        <argsstring>() const</argsstring>
-        <name>getCapacity</name>
-        <qualifiedname>MR::RecentFilesStore::getCapacity</qualifiedname>
-        <briefdescription>
-<para>Returns maximum size of recently opened files stack. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRecentFilesStore.h" line="33" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRecentFilesStore.h" bodystart="33" bodyend="33"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RecentFilesStore_1a1875cd68c58a0a3c20766750d0768342" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API boost::signals2::connection</type>
-        <definition>MRVIEWER_API boost::signals2::connection MR::RecentFilesStore::onUpdate</definition>
-        <argsstring>(const boost::function&lt; void(const FileNamesStack &amp;files)&gt; &amp;slot, boost::signals2::connect_position position=boost::signals2::at_back)</argsstring>
-        <name>onUpdate</name>
-        <qualifiedname>MR::RecentFilesStore::onUpdate</qualifiedname>
-        <param>
-          <type>const boost::function&lt; void(const <ref refid="namespaceMR_1abf9e7451b5087b4485b6207161438dc3" kindref="member">FileNamesStack</ref> &amp;files)&gt; &amp;</type>
-          <declname>slot</declname>
-        </param>
-        <param>
-          <type>boost::signals2::connect_position</type>
-          <declname>position</declname>
-          <defval>boost::signals2::at_back</defval>
-        </param>
-        <briefdescription>
-<para>Connects given slot to receive signal on every update of this store. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRecentFilesStore.h" line="36" column="46"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gab3bdf57745bbf11b5ac6fd1b27edcb68" kind="function"><name>RecentFilesStore</name></member>
+      <member refid="group__GeneralGroup_1ga230eadaf39638e9cec8fb6d95f662964" kind="function"><name>RecentFilesStore</name></member>
+      <member refid="group__GeneralGroup_1ga91c0cee2c949bedab99c902e62d77a9f" kind="function"><name>storeFile</name></member>
+      <member refid="group__GeneralGroup_1ga8eb2308612fd7822086319b3609a28cf" kind="function"><name>getStoredFiles</name></member>
+      <member refid="group__GeneralGroup_1ga1f48973b157bca4ee2c0e34407310654" kind="function"><name>getCapacity</name></member>
+      <member refid="group__GeneralGroup_1ga1875cd68c58a0a3c20766750d0768342" kind="function"><name>onUpdate</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
 <para>This class exists to store and load recently opened files from system storage (registry for Windows) </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRecentFilesStore.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRecentFilesStore.h" bodystart="17" bodyend="42"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRecentFilesStore.h" line="19" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRecentFilesStore.h" bodystart="20" bodyend="45"/>
     <listofallmembers>
-      <member refid="classMR_1_1RecentFilesStore_1a79680c946de4a22ddf9715faff78e150" prot="private" virt="non-virtual"><scope>MR::RecentFilesStore</scope><name>appName_</name></member>
-      <member refid="classMR_1_1RecentFilesStore_1ad4ad64e7a274e03c22c321fe80f77f9c" prot="private" virt="non-virtual"><scope>MR::RecentFilesStore</scope><name>capacity_</name></member>
-      <member refid="classMR_1_1RecentFilesStore_1a1f48973b157bca4ee2c0e34407310654" prot="public" virt="non-virtual"><scope>MR::RecentFilesStore</scope><name>getCapacity</name></member>
-      <member refid="classMR_1_1RecentFilesStore_1a8eb2308612fd7822086319b3609a28cf" prot="public" virt="non-virtual"><scope>MR::RecentFilesStore</scope><name>getStoredFiles</name></member>
-      <member refid="classMR_1_1RecentFilesStore_1a1875cd68c58a0a3c20766750d0768342" prot="public" virt="non-virtual"><scope>MR::RecentFilesStore</scope><name>onUpdate</name></member>
-      <member refid="classMR_1_1RecentFilesStore_1ab3bdf57745bbf11b5ac6fd1b27edcb68" prot="public" virt="non-virtual"><scope>MR::RecentFilesStore</scope><name>RecentFilesStore</name></member>
-      <member refid="classMR_1_1RecentFilesStore_1a230eadaf39638e9cec8fb6d95f662964" prot="public" virt="non-virtual"><scope>MR::RecentFilesStore</scope><name>RecentFilesStore</name></member>
-      <member refid="classMR_1_1RecentFilesStore_1a91c0cee2c949bedab99c902e62d77a9f" prot="public" virt="non-virtual"><scope>MR::RecentFilesStore</scope><name>storeFile</name></member>
-      <member refid="classMR_1_1RecentFilesStore_1a9f9d1fe969fc9cbdac378c46228936d8" prot="private" virt="non-virtual"><scope>MR::RecentFilesStore</scope><name>updateSignal_</name></member>
+      <member refid="group__GeneralGroup_1ga79680c946de4a22ddf9715faff78e150" prot="private" virt="non-virtual"><scope>MR::RecentFilesStore</scope><name>appName_</name></member>
+      <member refid="group__GeneralGroup_1gad4ad64e7a274e03c22c321fe80f77f9c" prot="private" virt="non-virtual"><scope>MR::RecentFilesStore</scope><name>capacity_</name></member>
+      <member refid="group__GeneralGroup_1ga1f48973b157bca4ee2c0e34407310654" prot="public" virt="non-virtual"><scope>MR::RecentFilesStore</scope><name>getCapacity</name></member>
+      <member refid="group__GeneralGroup_1ga8eb2308612fd7822086319b3609a28cf" prot="public" virt="non-virtual"><scope>MR::RecentFilesStore</scope><name>getStoredFiles</name></member>
+      <member refid="group__GeneralGroup_1ga1875cd68c58a0a3c20766750d0768342" prot="public" virt="non-virtual"><scope>MR::RecentFilesStore</scope><name>onUpdate</name></member>
+      <member refid="group__GeneralGroup_1gab3bdf57745bbf11b5ac6fd1b27edcb68" prot="public" virt="non-virtual"><scope>MR::RecentFilesStore</scope><name>RecentFilesStore</name></member>
+      <member refid="group__GeneralGroup_1ga230eadaf39638e9cec8fb6d95f662964" prot="public" virt="non-virtual"><scope>MR::RecentFilesStore</scope><name>RecentFilesStore</name></member>
+      <member refid="group__GeneralGroup_1ga91c0cee2c949bedab99c902e62d77a9f" prot="public" virt="non-virtual"><scope>MR::RecentFilesStore</scope><name>storeFile</name></member>
+      <member refid="group__GeneralGroup_1ga9f9d1fe969fc9cbdac378c46228936d8" prot="private" virt="non-virtual"><scope>MR::RecentFilesStore</scope><name>updateSignal_</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

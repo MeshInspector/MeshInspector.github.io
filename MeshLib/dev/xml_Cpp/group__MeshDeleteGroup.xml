@@ -5,7 +5,7 @@
     <title>Mesh Delete</title>
     <sectiondef kind="func">
       <memberdef kind="function" id="group__MeshDeleteGroup_1gac3468d8961b17a859a730ed22897a331" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::deleteTargetFaces</definition>
         <argsstring>(Mesh &amp;obj, const Vector3f &amp;targetCenter)</argsstring>
         <name>deleteTargetFaces</name>
@@ -28,7 +28,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDelete.h" line="13" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDelete.h" declline="13" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshDeleteGroup_1ga71a058b3ccf7446b5d7f0475e1fc5d32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::deleteTargetFaces</definition>
         <argsstring>(Mesh &amp;obj, const Mesh &amp;target)</argsstring>
         <name>deleteTargetFaces</name>

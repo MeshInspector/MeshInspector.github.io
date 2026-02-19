@@ -9,798 +9,92 @@
       </param>
     </templateparamlist>
     <sectiondef kind="user-defined">
-      <memberdef kind="function" id="structMR_1_1Quaternion_1a24a478c9463275d440061899c3630a32" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename T</type>
-          </param>
-        </templateparamlist>
-        <type>T</type>
-        <definition>T dot</definition>
-        <argsstring>(const Quaternion&lt; T &gt; &amp;a, const Quaternion&lt; T &gt; &amp;b)</argsstring>
-        <name>dot</name>
-        <qualifiedname>MR::Quaternion::dot</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Quaternion" kindref="compound">Quaternion</ref>&lt; T &gt; &amp;</type>
-          <declname>a</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1Quaternion" kindref="compound">Quaternion</ref>&lt; T &gt; &amp;</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-<para>dot product </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" line="229" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" bodystart="229" bodyend="232"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Quaternion_1a0267d5aee3f765c24fb3f40ad811f9b4" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename T</type>
-          </param>
-        </templateparamlist>
-        <type><ref refid="structMR_1_1Quaternion" kindref="compound">Quaternion</ref>&lt; T &gt;</type>
-        <definition>Quaternion&lt; T &gt; operator*</definition>
-        <argsstring>(const Quaternion&lt; T &gt; &amp;q1, const Quaternion&lt; T &gt; &amp;q2)</argsstring>
-        <name>operator*</name>
-        <qualifiedname>MR::Quaternion::operator*</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Quaternion" kindref="compound">Quaternion</ref>&lt; T &gt; &amp;</type>
-          <declname>q1</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1Quaternion" kindref="compound">Quaternion</ref>&lt; T &gt; &amp;</type>
-          <declname>q2</declname>
-        </param>
-        <briefdescription>
-<para>Hamilton product. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" line="236" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" bodystart="236" bodyend="245"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Quaternion_1a7e3a85611c622741c25fb2e88d485908" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename T</type>
-          </param>
-        </templateparamlist>
-        <type>const <ref refid="structMR_1_1Quaternion" kindref="compound">Quaternion</ref>&lt; T &gt; *</type>
-        <definition>const Quaternion&lt; T &gt; * getCanonicalQuaternions</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>getCanonicalQuaternions</name>
-        <qualifiedname>MR::Quaternion::getCanonicalQuaternions</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" line="255" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" bodystart="255" bodyend="288"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Quaternion_1ab2b1ae64873308ff0f9efd8dbcffcde6" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename T</type>
-          </param>
-        </templateparamlist>
-        <type><ref refid="structMR_1_1Quaternion" kindref="compound">Quaternion</ref>&lt; T &gt;</type>
-        <definition>Quaternion&lt; T &gt; getClosestCanonicalQuaternion</definition>
-        <argsstring>(const Quaternion&lt; T &gt; &amp;base) noexcept</argsstring>
-        <name>getClosestCanonicalQuaternion</name>
-        <qualifiedname>MR::Quaternion::getClosestCanonicalQuaternion</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Quaternion" kindref="compound">Quaternion</ref>&lt; T &gt; &amp;</type>
-          <declname>base</declname>
-        </param>
-        <briefdescription>
-<para>returns closest to base canonical quaternion </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" line="292" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" bodystart="292" bodyend="311"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Quaternion_1a5b71c529c0724694aa58ca8f01246b4d" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename T</type>
-          </param>
-        </templateparamlist>
-        <type><ref refid="structMR_1_1Matrix3" kindref="compound">Matrix3</ref>&lt; T &gt;</type>
-        <definition>Matrix3&lt; T &gt; slerp</definition>
-        <argsstring>(const Matrix3&lt; T &gt; &amp;m0, const Matrix3&lt; T &gt; &amp;m1, T t)</argsstring>
-        <name>slerp</name>
-        <qualifiedname>MR::Quaternion::slerp</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Matrix3" kindref="compound">Matrix3</ref>&lt; T &gt; &amp;</type>
-          <declname>m0</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1Matrix3" kindref="compound">Matrix3</ref>&lt; T &gt; &amp;</type>
-          <declname>m1</declname>
-        </param>
-        <param>
-          <type>T</type>
-          <declname>t</declname>
-        </param>
-        <briefdescription>
-<para>given t in [0,1] and two rotation matrices, interpolates them spherically and produces another rotation matrix </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" line="322" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" bodystart="322" bodyend="325"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Quaternion_1adb5df4281ceff5b0f0e031a7102a9a9e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename T</type>
-          </param>
-        </templateparamlist>
-        <type><ref refid="namespaceMR_1ac964d34e63e2bd23c8ab1e4cea68ae71" kindref="member">AffineXf3</ref>&lt; T &gt;</type>
-        <definition>AffineXf3&lt; T &gt; slerp</definition>
-        <argsstring>(const AffineXf3&lt; T &gt; &amp;xf0, const AffineXf3&lt; T &gt; &amp;xf1, T t, const Vector3&lt; T &gt; &amp;p={})</argsstring>
-        <name>slerp</name>
-        <qualifiedname>MR::Quaternion::slerp</qualifiedname>
-        <param>
-          <type>const <ref refid="namespaceMR_1ac964d34e63e2bd23c8ab1e4cea68ae71" kindref="member">AffineXf3</ref>&lt; T &gt; &amp;</type>
-          <declname>xf0</declname>
-        </param>
-        <param>
-          <type>const <ref refid="namespaceMR_1ac964d34e63e2bd23c8ab1e4cea68ae71" kindref="member">AffineXf3</ref>&lt; T &gt; &amp;</type>
-          <declname>xf1</declname>
-        </param>
-        <param>
-          <type>T</type>
-          <declname>t</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
-          <declname>p</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>given t in [0,1] and rigid transformations, interpolates them spherically and produces another rigid transformation; p is the only point that will have straight line movement during interpolation </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" line="330" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" bodystart="330" bodyend="333"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Quaternion_1a30209c5b86e5874a13aef73306c7c037" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename T</type>
-          </param>
-        </templateparamlist>
-        <type><ref refid="structMR_1_1Matrix3" kindref="compound">Matrix3</ref>&lt; T &gt;</type>
-        <definition>Matrix3&lt; T &gt; orthonormalized</definition>
-        <argsstring>(const Matrix3&lt; T &gt; &amp;m)</argsstring>
-        <name>orthonormalized</name>
-        <qualifiedname>MR::Quaternion::orthonormalized</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Matrix3" kindref="compound">Matrix3</ref>&lt; T &gt; &amp;</type>
-          <declname>m</declname>
-        </param>
-        <briefdescription>
-<para>given any matrix, returns a close rotation matrix </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" line="337" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" bodystart="337" bodyend="340"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Quaternion_1a425f39c2e989a446889597e5692a0416" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename T</type>
-          </param>
-        </templateparamlist>
-        <type><ref refid="namespaceMR_1ac964d34e63e2bd23c8ab1e4cea68ae71" kindref="member">AffineXf3</ref>&lt; T &gt;</type>
-        <definition>AffineXf3&lt; T &gt; orthonormalized</definition>
-        <argsstring>(const AffineXf3&lt; T &gt; &amp;xf, const Vector3&lt; T &gt; &amp;center={})</argsstring>
-        <name>orthonormalized</name>
-        <qualifiedname>MR::Quaternion::orthonormalized</qualifiedname>
-        <param>
-          <type>const <ref refid="namespaceMR_1ac964d34e63e2bd23c8ab1e4cea68ae71" kindref="member">AffineXf3</ref>&lt; T &gt; &amp;</type>
-          <declname>xf</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
-          <declname>center</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>given any affine transformation, returns a close rigid transformation; center point will be transformed to same point by both input and output transformations </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" line="345" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" bodystart="345" bodyend="351"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga24a478c9463275d440061899c3630a32" kind="function"><name>dot</name></member>
+      <member refid="group__GeneralGroup_1ga0267d5aee3f765c24fb3f40ad811f9b4" kind="function"><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1ga7e3a85611c622741c25fb2e88d485908" kind="function"><name>getCanonicalQuaternions</name></member>
+      <member refid="group__GeneralGroup_1gab2b1ae64873308ff0f9efd8dbcffcde6" kind="function"><name>getClosestCanonicalQuaternion</name></member>
+      <member refid="group__GeneralGroup_1ga5b71c529c0724694aa58ca8f01246b4d" kind="function"><name>slerp</name></member>
+      <member refid="group__GeneralGroup_1gadb5df4281ceff5b0f0e031a7102a9a9e" kind="function"><name>slerp</name></member>
+      <member refid="group__GeneralGroup_1ga30209c5b86e5874a13aef73306c7c037" kind="function"><name>orthonormalized</name></member>
+      <member refid="group__GeneralGroup_1ga425f39c2e989a446889597e5692a0416" kind="function"><name>orthonormalized</name></member>
     </sectiondef>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1Quaternion_1a99d6bff08a40df6a9873566e597b029e" prot="public" static="no" mutable="no">
-        <type>T</type>
-        <definition>T MR::Quaternion&lt; T &gt;::a</definition>
-        <argsstring></argsstring>
-        <name>a</name>
-        <qualifiedname>MR::Quaternion::a</qualifiedname>
-        <initializer>= 1</initializer>
-        <briefdescription>
-<para>real part of the quaternion </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" line="14" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1Quaternion_1a9c92b4bc72a2fd317f159c70c50e441c" prot="public" static="no" mutable="no">
-        <type>T</type>
-        <definition>T MR::Quaternion&lt; T &gt;::b</definition>
-        <argsstring></argsstring>
-        <name>b</name>
-        <qualifiedname>MR::Quaternion::b</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" line="15" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1Quaternion_1a3408cac17b0213d5213b299ad98f12c3" prot="public" static="no" mutable="no">
-        <type>T</type>
-        <definition>T MR::Quaternion&lt; T &gt;::c</definition>
-        <argsstring></argsstring>
-        <name>c</name>
-        <qualifiedname>MR::Quaternion::c</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" line="15" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1Quaternion_1a14d0a626cbd31413d550eea26b9e3303" prot="public" static="no" mutable="no">
-        <type>T</type>
-        <definition>T MR::Quaternion&lt; T &gt;::d</definition>
-        <argsstring></argsstring>
-        <name>d</name>
-        <qualifiedname>MR::Quaternion::d</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-<para>imaginary part: b*i + c*j + d*k </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" line="15" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga99d6bff08a40df6a9873566e597b029e" kind="variable"><name>a</name></member>
+      <member refid="group__GeneralGroup_1ga9c92b4bc72a2fd317f159c70c50e441c" kind="variable"><name>b</name></member>
+      <member refid="group__GeneralGroup_1ga3408cac17b0213d5213b299ad98f12c3" kind="variable"><name>c</name></member>
+      <member refid="group__GeneralGroup_1ga14d0a626cbd31413d550eea26b9e3303" kind="variable"><name>d</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1Quaternion_1a91ef98ec55d8f152434350ec44a1c9ea" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type>constexpr</type>
-        <definition>MR::Quaternion&lt; T &gt;::Quaternion</definition>
-        <argsstring>() noexcept=default</argsstring>
-        <name>Quaternion</name>
-        <qualifiedname>MR::Quaternion::Quaternion</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" line="17" column="15"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Quaternion_1a22a3efafffa70cc53f2d16561d172864" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>constexpr</type>
-        <definition>MR::Quaternion&lt; T &gt;::Quaternion</definition>
-        <argsstring>(T a, T b, T c, T d) noexcept</argsstring>
-        <name>Quaternion</name>
-        <qualifiedname>MR::Quaternion::Quaternion</qualifiedname>
-        <param>
-          <type>T</type>
-          <declname>a</declname>
-        </param>
-        <param>
-          <type>T</type>
-          <declname>b</declname>
-        </param>
-        <param>
-          <type>T</type>
-          <declname>c</declname>
-        </param>
-        <param>
-          <type>T</type>
-          <declname>d</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" line="18" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" bodystart="18" bodyend="18"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Quaternion_1a3026768bf8bbbabf23568fd3087d14ab" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type>constexpr</type>
-        <definition>MR::Quaternion&lt; T &gt;::Quaternion</definition>
-        <argsstring>(const Vector3&lt; T &gt; &amp;axis, T angle) noexcept</argsstring>
-        <name>Quaternion</name>
-        <qualifiedname>MR::Quaternion::Quaternion</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
-          <declname>axis</declname>
-        </param>
-        <param>
-          <type>T</type>
-          <declname>angle</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" line="19" column="15"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Quaternion_1a564f96b2b71f1dd6006484fc6733f2fa" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>constexpr</type>
-        <definition>MR::Quaternion&lt; T &gt;::Quaternion</definition>
-        <argsstring>(T real, const Vector3&lt; T &gt; &amp;im) noexcept</argsstring>
-        <name>Quaternion</name>
-        <qualifiedname>MR::Quaternion::Quaternion</qualifiedname>
-        <param>
-          <type>T</type>
-          <declname>real</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
-          <declname>im</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" line="20" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" bodystart="20" bodyend="20"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Quaternion_1a4c85af29d33ee04d5ca4473e7b840510" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>constexpr</type>
-        <definition>MR::Quaternion&lt; T &gt;::Quaternion</definition>
-        <argsstring>(const Matrix3&lt; T &gt; &amp;m)</argsstring>
-        <name>Quaternion</name>
-        <qualifiedname>MR::Quaternion::Quaternion</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Matrix3" kindref="compound">Matrix3</ref>&lt; T &gt; &amp;</type>
-          <declname>m</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" line="21" column="15"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Quaternion_1a1265e8d1076efd17d1c3b70cb310480e" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type>constexpr</type>
-        <definition>MR::Quaternion&lt; T &gt;::Quaternion</definition>
-        <argsstring>(const Vector3&lt; T &gt; &amp;from, const Vector3&lt; T &gt; &amp;to) noexcept</argsstring>
-        <name>Quaternion</name>
-        <qualifiedname>MR::Quaternion::Quaternion</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
-          <declname>from</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
-          <declname>to</declname>
-        </param>
-        <briefdescription>
-<para>finds shorter arc rotation quaternion from one vector to another </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" line="23" column="15"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Quaternion_1aad473c0a9b108bfc4963dc7f279ff9e8" prot="public" static="no" nodiscard="yes" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt;</type>
-        <definition>Vector3&lt; T &gt; MR::Quaternion&lt; T &gt;::im</definition>
-        <argsstring>() const noexcept</argsstring>
-        <name>im</name>
-        <qualifiedname>MR::Quaternion::im</qualifiedname>
-        <briefdescription>
-<para>returns imaginary part of the quaternion as a vector </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" line="26" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" bodystart="26" bodyend="26"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Quaternion_1abfbf2dd877c3cf929788c7f24710328b" prot="public" static="no" nodiscard="yes" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>T</type>
-        <definition>T MR::Quaternion&lt; T &gt;::angle</definition>
-        <argsstring>() const noexcept</argsstring>
-        <name>angle</name>
-        <qualifiedname>MR::Quaternion::angle</qualifiedname>
-        <briefdescription>
-<para>returns angle of rotation encoded in this quaternion </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" line="29" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" bodystart="29" bodyend="29"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Quaternion_1a4c3f74509e12b10d84316ce54058bd05" prot="public" static="no" nodiscard="yes" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt;</type>
-        <definition>Vector3&lt; T &gt; MR::Quaternion&lt; T &gt;::axis</definition>
-        <argsstring>() const noexcept</argsstring>
-        <name>axis</name>
-        <qualifiedname>MR::Quaternion::axis</qualifiedname>
-        <briefdescription>
-<para>returns axis of rotation encoded in this quaternion </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" line="31" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" bodystart="31" bodyend="31"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Quaternion_1ad9b251ccd51dd9ea86e791f559ba00b1" prot="public" static="no" nodiscard="yes" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>T</type>
-        <definition>T MR::Quaternion&lt; T &gt;::normSq</definition>
-        <argsstring>() const</argsstring>
-        <name>normSq</name>
-        <qualifiedname>MR::Quaternion::normSq</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" line="33" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" bodystart="33" bodyend="33"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Quaternion_1a2200fc8f1ce0aa43f8fa4b4eb01786e7" prot="public" static="no" nodiscard="yes" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>T</type>
-        <definition>T MR::Quaternion&lt; T &gt;::norm</definition>
-        <argsstring>() const</argsstring>
-        <name>norm</name>
-        <qualifiedname>MR::Quaternion::norm</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" line="34" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" bodystart="34" bodyend="34"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Quaternion_1a6bcd112f89bf5f4ce825eb989ce05c59" prot="public" static="no" nodiscard="yes" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Quaternion" kindref="compound">Quaternion</ref></type>
-        <definition>Quaternion MR::Quaternion&lt; T &gt;::operator-</definition>
-        <argsstring>() const</argsstring>
-        <name>operator-</name>
-        <qualifiedname>MR::Quaternion::operator-</qualifiedname>
-        <briefdescription>
-<para>returns quaternion representing the same rotation, using the opposite rotation direction and opposite angle </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" line="36" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" bodystart="36" bodyend="36"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Quaternion_1ac98a801cf03ee64da5665501c8e7b7d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::Quaternion&lt; T &gt;::normalize</definition>
-        <argsstring>()</argsstring>
-        <name>normalize</name>
-        <qualifiedname>MR::Quaternion::normalize</qualifiedname>
-        <briefdescription>
-<para>scales this quaternion to make its norm unit </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" line="39" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" bodystart="39" bodyend="39"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Quaternion_1a9289095d6e22b4cd004efca4166197d5" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Quaternion" kindref="compound">Quaternion</ref></type>
-        <definition>Quaternion MR::Quaternion&lt; T &gt;::normalized</definition>
-        <argsstring>() const</argsstring>
-        <name>normalized</name>
-        <qualifiedname>MR::Quaternion::normalized</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" line="40" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" bodystart="40" bodyend="40"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Quaternion_1a87e72ac743e6f7ae59790cb02ba7b071" prot="public" static="no" nodiscard="yes" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Quaternion" kindref="compound">Quaternion</ref></type>
-        <definition>Quaternion MR::Quaternion&lt; T &gt;::conjugate</definition>
-        <argsstring>() const noexcept</argsstring>
-        <name>conjugate</name>
-        <qualifiedname>MR::Quaternion::conjugate</qualifiedname>
-        <briefdescription>
-<para>computes conjugate quaternion, which for unit quaternions encodes the opposite rotation </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" line="43" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" bodystart="43" bodyend="43"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Quaternion_1a238423391f644b566ecdb0f0623998b5" prot="public" static="no" nodiscard="yes" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Quaternion" kindref="compound">Quaternion</ref></type>
-        <definition>Quaternion MR::Quaternion&lt; T &gt;::inverse</definition>
-        <argsstring>() const noexcept</argsstring>
-        <name>inverse</name>
-        <qualifiedname>MR::Quaternion::inverse</qualifiedname>
-        <briefdescription>
-<para>computes reciprocal quaternion </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" line="45" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" bodystart="45" bodyend="45"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Quaternion_1afde85af8bb0b46b18e7c0b7f9ab0a2be" prot="public" static="no" nodiscard="yes" constexpr="yes" const="yes" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt;</type>
-        <definition>Vector3&lt; T &gt; MR::Quaternion&lt; T &gt;::operator()</definition>
-        <argsstring>(const Vector3&lt; T &gt; &amp;p) const noexcept</argsstring>
-        <name>operator()</name>
-        <qualifiedname>MR::Quaternion::operator()</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
-          <declname>p</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>for unit quaternion returns the rotation of point p, which is faster to compute for single point; for multiple points it is faster to create matrix representation and apply it to the points </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" line="48" column="24"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Quaternion_1ac419a0f315e99dc10b1827824e09cddf" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::Quaternion&lt; T &gt;::operator Matrix3&lt; T &gt;</definition>
-        <argsstring>() const</argsstring>
-        <name>operator Matrix3&lt; T &gt;</name>
-        <qualifiedname>MR::Quaternion::operator Matrix3&lt; T &gt;</qualifiedname>
-        <briefdescription>
-<para>converts this into 3x3 rotation matrix </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" line="51" column="6"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Quaternion_1a6bdf64d46e1cf09dc8fe63fcf7153c17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Quaternion" kindref="compound">Quaternion</ref> &amp;</type>
-        <definition>Quaternion &amp; MR::Quaternion&lt; T &gt;::operator*=</definition>
-        <argsstring>(T s)</argsstring>
-        <name>operator*=</name>
-        <qualifiedname>MR::Quaternion::operator*=</qualifiedname>
-        <param>
-          <type>T</type>
-          <declname>s</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" line="67" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" bodystart="67" bodyend="67"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Quaternion_1a7a8a7853bf5bb6ec9a6c108009d9a8e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Quaternion" kindref="compound">Quaternion</ref> &amp;</type>
-        <definition>Quaternion &amp; MR::Quaternion&lt; T &gt;::operator/=</definition>
-        <argsstring>(T s)</argsstring>
-        <name>operator/=</name>
-        <qualifiedname>MR::Quaternion::operator/=</qualifiedname>
-        <param>
-          <type>T</type>
-          <declname>s</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" line="68" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" bodystart="68" bodyend="68"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga91ef98ec55d8f152434350ec44a1c9ea" kind="function"><name>Quaternion</name></member>
+      <member refid="group__GeneralGroup_1ga22a3efafffa70cc53f2d16561d172864" kind="function"><name>Quaternion</name></member>
+      <member refid="group__GeneralGroup_1ga3026768bf8bbbabf23568fd3087d14ab" kind="function"><name>Quaternion</name></member>
+      <member refid="group__GeneralGroup_1ga564f96b2b71f1dd6006484fc6733f2fa" kind="function"><name>Quaternion</name></member>
+      <member refid="group__GeneralGroup_1ga4c85af29d33ee04d5ca4473e7b840510" kind="function"><name>Quaternion</name></member>
+      <member refid="group__GeneralGroup_1ga1265e8d1076efd17d1c3b70cb310480e" kind="function"><name>Quaternion</name></member>
+      <member refid="group__GeneralGroup_1gaad473c0a9b108bfc4963dc7f279ff9e8" kind="function"><name>im</name></member>
+      <member refid="group__GeneralGroup_1gabfbf2dd877c3cf929788c7f24710328b" kind="function"><name>angle</name></member>
+      <member refid="group__GeneralGroup_1ga4c3f74509e12b10d84316ce54058bd05" kind="function"><name>axis</name></member>
+      <member refid="group__GeneralGroup_1gad9b251ccd51dd9ea86e791f559ba00b1" kind="function"><name>normSq</name></member>
+      <member refid="group__GeneralGroup_1ga2200fc8f1ce0aa43f8fa4b4eb01786e7" kind="function"><name>norm</name></member>
+      <member refid="group__GeneralGroup_1ga6bcd112f89bf5f4ce825eb989ce05c59" kind="function"><name>operator-</name></member>
+      <member refid="group__GeneralGroup_1gac98a801cf03ee64da5665501c8e7b7d8" kind="function"><name>normalize</name></member>
+      <member refid="group__GeneralGroup_1ga9289095d6e22b4cd004efca4166197d5" kind="function"><name>normalized</name></member>
+      <member refid="group__GeneralGroup_1ga87e72ac743e6f7ae59790cb02ba7b071" kind="function"><name>conjugate</name></member>
+      <member refid="group__GeneralGroup_1ga238423391f644b566ecdb0f0623998b5" kind="function"><name>inverse</name></member>
+      <member refid="group__GeneralGroup_1gafde85af8bb0b46b18e7c0b7f9ab0a2be" kind="function"><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1gac419a0f315e99dc10b1827824e09cddf" kind="function"><name>operator Matrix3&lt; T &gt;</name></member>
+      <member refid="group__GeneralGroup_1ga6bdf64d46e1cf09dc8fe63fcf7153c17" kind="function"><name>operator*=</name></member>
+      <member refid="group__GeneralGroup_1ga7a8a7853bf5bb6ec9a6c108009d9a8e3" kind="function"><name>operator/=</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="structMR_1_1Quaternion_1a4a587dac42e27e66b5d29b7a9d637a18" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Quaternion" kindref="compound">Quaternion</ref></type>
-        <definition>static Quaternion MR::Quaternion&lt; T &gt;::lerp</definition>
-        <argsstring>(const Quaternion &amp;q0, const Quaternion &amp;q1, T t)</argsstring>
-        <name>lerp</name>
-        <qualifiedname>MR::Quaternion::lerp</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Quaternion" kindref="compound">Quaternion</ref> &amp;</type>
-          <declname>q0</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1Quaternion" kindref="compound">Quaternion</ref> &amp;</type>
-          <declname>q1</declname>
-        </param>
-        <param>
-          <type>T</type>
-          <declname>t</declname>
-        </param>
-        <briefdescription>
-<para>given t in [0,1], interpolates linearly two quaternions giving in general not-unit quaternion </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" line="54" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" bodystart="54" bodyend="54"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Quaternion_1a08ec5071c6a6916ee82a7a8f13366e71" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="structMR_1_1Quaternion" kindref="compound">Quaternion</ref></type>
-        <definition>static Quaternion MR::Quaternion&lt; T &gt;::slerp</definition>
-        <argsstring>(Quaternion q0, Quaternion q1, T t)</argsstring>
-        <name>slerp</name>
-        <qualifiedname>MR::Quaternion::slerp</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1Quaternion" kindref="compound">Quaternion</ref></type>
-          <declname>q0</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1Quaternion" kindref="compound">Quaternion</ref></type>
-          <declname>q1</declname>
-        </param>
-        <param>
-          <type>T</type>
-          <declname>t</declname>
-        </param>
-        <briefdescription>
-<para>given t in [0,1] and two unit quaternions, interpolates them spherically and produces another unit quaternion </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" line="56" column="24"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Quaternion_1a2ac16cf205a618aa269d0e7394aa383e" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Matrix3" kindref="compound">Matrix3</ref>&lt; T &gt;</type>
-        <definition>static Matrix3&lt; T &gt; MR::Quaternion&lt; T &gt;::slerp</definition>
-        <argsstring>(const Matrix3&lt; T &gt; &amp;m0, const Matrix3&lt; T &gt; &amp;m1, T t)</argsstring>
-        <name>slerp</name>
-        <qualifiedname>MR::Quaternion::slerp</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Matrix3" kindref="compound">Matrix3</ref>&lt; T &gt; &amp;</type>
-          <declname>m0</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1Matrix3" kindref="compound">Matrix3</ref>&lt; T &gt; &amp;</type>
-          <declname>m1</declname>
-        </param>
-        <param>
-          <type>T</type>
-          <declname>t</declname>
-        </param>
-        <briefdescription>
-<para>given t in [0,1] and two rotation matrices, interpolates them spherically and produces another rotation matrix </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" line="58" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" bodystart="58" bodyend="58"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Quaternion_1ab982ee301028dfa3677f0f55da211868" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="namespaceMR_1ac964d34e63e2bd23c8ab1e4cea68ae71" kindref="member">AffineXf3</ref>&lt; T &gt;</type>
-        <definition>static AffineXf3&lt; T &gt; MR::Quaternion&lt; T &gt;::slerp</definition>
-        <argsstring>(const AffineXf3&lt; T &gt; &amp;xf0, const AffineXf3&lt; T &gt; &amp;xf1, T t, const Vector3&lt; T &gt; &amp;p={})</argsstring>
-        <name>slerp</name>
-        <qualifiedname>MR::Quaternion::slerp</qualifiedname>
-        <param>
-          <type>const <ref refid="namespaceMR_1ac964d34e63e2bd23c8ab1e4cea68ae71" kindref="member">AffineXf3</ref>&lt; T &gt; &amp;</type>
-          <declname>xf0</declname>
-        </param>
-        <param>
-          <type>const <ref refid="namespaceMR_1ac964d34e63e2bd23c8ab1e4cea68ae71" kindref="member">AffineXf3</ref>&lt; T &gt; &amp;</type>
-          <declname>xf1</declname>
-        </param>
-        <param>
-          <type>T</type>
-          <declname>t</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
-          <declname>p</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>given t in [0,1] and rigid transformations, interpolates them spherically and produces another rigid transformation; p is the only point that will have straight line movement during interpolation </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" line="61" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" bodystart="61" bodyend="65"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga4a587dac42e27e66b5d29b7a9d637a18" kind="function"><name>lerp</name></member>
+      <member refid="group__GeneralGroup_1ga08ec5071c6a6916ee82a7a8f13366e71" kind="function"><name>slerp</name></member>
+      <member refid="group__GeneralGroup_1ga2ac16cf205a618aa269d0e7394aa383e" kind="function"><name>slerp</name></member>
+      <member refid="group__GeneralGroup_1gab982ee301028dfa3677f0f55da211868" kind="function"><name>slerp</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
 <para>Represents a quaternion following the notations from <ulink url="https:///">https:///</ulink> en.wikipedia.org/wiki/Quaternion </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" bodystart="13" bodyend="69"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" bodystart="16" bodyend="72"/>
     <listofallmembers>
-      <member refid="structMR_1_1Quaternion_1a99d6bff08a40df6a9873566e597b029e" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>a</name></member>
-      <member refid="structMR_1_1Quaternion_1abfbf2dd877c3cf929788c7f24710328b" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>angle</name></member>
-      <member refid="structMR_1_1Quaternion_1a4c3f74509e12b10d84316ce54058bd05" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>axis</name></member>
-      <member refid="structMR_1_1Quaternion_1a9c92b4bc72a2fd317f159c70c50e441c" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>b</name></member>
-      <member refid="structMR_1_1Quaternion_1a3408cac17b0213d5213b299ad98f12c3" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>c</name></member>
-      <member refid="structMR_1_1Quaternion_1a87e72ac743e6f7ae59790cb02ba7b071" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>conjugate</name></member>
-      <member refid="structMR_1_1Quaternion_1a14d0a626cbd31413d550eea26b9e3303" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>d</name></member>
-      <member refid="structMR_1_1Quaternion_1a24a478c9463275d440061899c3630a32" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>dot</name></member>
-      <member refid="structMR_1_1Quaternion_1a7e3a85611c622741c25fb2e88d485908" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>getCanonicalQuaternions</name></member>
-      <member refid="structMR_1_1Quaternion_1ab2b1ae64873308ff0f9efd8dbcffcde6" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>getClosestCanonicalQuaternion</name></member>
-      <member refid="structMR_1_1Quaternion_1aad473c0a9b108bfc4963dc7f279ff9e8" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>im</name></member>
-      <member refid="structMR_1_1Quaternion_1a238423391f644b566ecdb0f0623998b5" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>inverse</name></member>
-      <member refid="structMR_1_1Quaternion_1a4a587dac42e27e66b5d29b7a9d637a18" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>lerp</name></member>
-      <member refid="structMR_1_1Quaternion_1a2200fc8f1ce0aa43f8fa4b4eb01786e7" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>norm</name></member>
-      <member refid="structMR_1_1Quaternion_1ac98a801cf03ee64da5665501c8e7b7d8" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>normalize</name></member>
-      <member refid="structMR_1_1Quaternion_1a9289095d6e22b4cd004efca4166197d5" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>normalized</name></member>
-      <member refid="structMR_1_1Quaternion_1ad9b251ccd51dd9ea86e791f559ba00b1" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>normSq</name></member>
-      <member refid="structMR_1_1Quaternion_1ac419a0f315e99dc10b1827824e09cddf" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>operator Matrix3&lt; T &gt;</name></member>
-      <member refid="structMR_1_1Quaternion_1afde85af8bb0b46b18e7c0b7f9ab0a2be" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>operator()</name></member>
-      <member refid="structMR_1_1Quaternion_1a0267d5aee3f765c24fb3f40ad811f9b4" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>operator*</name></member>
-      <member refid="structMR_1_1Quaternion_1a6bdf64d46e1cf09dc8fe63fcf7153c17" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>operator*=</name></member>
-      <member refid="structMR_1_1Quaternion_1a6bcd112f89bf5f4ce825eb989ce05c59" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>operator-</name></member>
-      <member refid="structMR_1_1Quaternion_1a7a8a7853bf5bb6ec9a6c108009d9a8e3" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>operator/=</name></member>
-      <member refid="structMR_1_1Quaternion_1a30209c5b86e5874a13aef73306c7c037" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>orthonormalized</name></member>
-      <member refid="structMR_1_1Quaternion_1a425f39c2e989a446889597e5692a0416" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>orthonormalized</name></member>
-      <member refid="structMR_1_1Quaternion_1a91ef98ec55d8f152434350ec44a1c9ea" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>Quaternion</name></member>
-      <member refid="structMR_1_1Quaternion_1a22a3efafffa70cc53f2d16561d172864" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>Quaternion</name></member>
-      <member refid="structMR_1_1Quaternion_1a3026768bf8bbbabf23568fd3087d14ab" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>Quaternion</name></member>
-      <member refid="structMR_1_1Quaternion_1a564f96b2b71f1dd6006484fc6733f2fa" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>Quaternion</name></member>
-      <member refid="structMR_1_1Quaternion_1a4c85af29d33ee04d5ca4473e7b840510" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>Quaternion</name></member>
-      <member refid="structMR_1_1Quaternion_1a1265e8d1076efd17d1c3b70cb310480e" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>Quaternion</name></member>
-      <member refid="structMR_1_1Quaternion_1a08ec5071c6a6916ee82a7a8f13366e71" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>slerp</name></member>
-      <member refid="structMR_1_1Quaternion_1a2ac16cf205a618aa269d0e7394aa383e" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>slerp</name></member>
-      <member refid="structMR_1_1Quaternion_1ab982ee301028dfa3677f0f55da211868" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>slerp</name></member>
-      <member refid="structMR_1_1Quaternion_1a5b71c529c0724694aa58ca8f01246b4d" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>slerp</name></member>
-      <member refid="structMR_1_1Quaternion_1adb5df4281ceff5b0f0e031a7102a9a9e" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>slerp</name></member>
+      <member refid="group__GeneralGroup_1ga99d6bff08a40df6a9873566e597b029e" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>a</name></member>
+      <member refid="group__GeneralGroup_1gabfbf2dd877c3cf929788c7f24710328b" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>angle</name></member>
+      <member refid="group__GeneralGroup_1ga4c3f74509e12b10d84316ce54058bd05" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>axis</name></member>
+      <member refid="group__GeneralGroup_1ga9c92b4bc72a2fd317f159c70c50e441c" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>b</name></member>
+      <member refid="group__GeneralGroup_1ga3408cac17b0213d5213b299ad98f12c3" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>c</name></member>
+      <member refid="group__GeneralGroup_1ga87e72ac743e6f7ae59790cb02ba7b071" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>conjugate</name></member>
+      <member refid="group__GeneralGroup_1ga14d0a626cbd31413d550eea26b9e3303" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>d</name></member>
+      <member refid="group__GeneralGroup_1ga24a478c9463275d440061899c3630a32" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>dot</name></member>
+      <member refid="group__GeneralGroup_1ga7e3a85611c622741c25fb2e88d485908" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>getCanonicalQuaternions</name></member>
+      <member refid="group__GeneralGroup_1gab2b1ae64873308ff0f9efd8dbcffcde6" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>getClosestCanonicalQuaternion</name></member>
+      <member refid="group__GeneralGroup_1gaad473c0a9b108bfc4963dc7f279ff9e8" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>im</name></member>
+      <member refid="group__GeneralGroup_1ga238423391f644b566ecdb0f0623998b5" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>inverse</name></member>
+      <member refid="group__GeneralGroup_1ga4a587dac42e27e66b5d29b7a9d637a18" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>lerp</name></member>
+      <member refid="group__GeneralGroup_1ga2200fc8f1ce0aa43f8fa4b4eb01786e7" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>norm</name></member>
+      <member refid="group__GeneralGroup_1gac98a801cf03ee64da5665501c8e7b7d8" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>normalize</name></member>
+      <member refid="group__GeneralGroup_1ga9289095d6e22b4cd004efca4166197d5" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>normalized</name></member>
+      <member refid="group__GeneralGroup_1gad9b251ccd51dd9ea86e791f559ba00b1" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>normSq</name></member>
+      <member refid="group__GeneralGroup_1gac419a0f315e99dc10b1827824e09cddf" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>operator Matrix3&lt; T &gt;</name></member>
+      <member refid="group__GeneralGroup_1gafde85af8bb0b46b18e7c0b7f9ab0a2be" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1ga0267d5aee3f765c24fb3f40ad811f9b4" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1ga6bdf64d46e1cf09dc8fe63fcf7153c17" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>operator*=</name></member>
+      <member refid="group__GeneralGroup_1ga6bcd112f89bf5f4ce825eb989ce05c59" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>operator-</name></member>
+      <member refid="group__GeneralGroup_1ga7a8a7853bf5bb6ec9a6c108009d9a8e3" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>operator/=</name></member>
+      <member refid="group__GeneralGroup_1ga30209c5b86e5874a13aef73306c7c037" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>orthonormalized</name></member>
+      <member refid="group__GeneralGroup_1ga425f39c2e989a446889597e5692a0416" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>orthonormalized</name></member>
+      <member refid="group__GeneralGroup_1ga91ef98ec55d8f152434350ec44a1c9ea" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>Quaternion</name></member>
+      <member refid="group__GeneralGroup_1ga22a3efafffa70cc53f2d16561d172864" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>Quaternion</name></member>
+      <member refid="group__GeneralGroup_1ga3026768bf8bbbabf23568fd3087d14ab" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>Quaternion</name></member>
+      <member refid="group__GeneralGroup_1ga564f96b2b71f1dd6006484fc6733f2fa" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>Quaternion</name></member>
+      <member refid="group__GeneralGroup_1ga4c85af29d33ee04d5ca4473e7b840510" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>Quaternion</name></member>
+      <member refid="group__GeneralGroup_1ga1265e8d1076efd17d1c3b70cb310480e" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>Quaternion</name></member>
+      <member refid="group__GeneralGroup_1ga08ec5071c6a6916ee82a7a8f13366e71" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>slerp</name></member>
+      <member refid="group__GeneralGroup_1ga2ac16cf205a618aa269d0e7394aa383e" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>slerp</name></member>
+      <member refid="group__GeneralGroup_1gab982ee301028dfa3677f0f55da211868" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>slerp</name></member>
+      <member refid="group__GeneralGroup_1ga5b71c529c0724694aa58ca8f01246b4d" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>slerp</name></member>
+      <member refid="group__GeneralGroup_1gadb5df4281ceff5b0f0e031a7102a9a9e" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>slerp</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

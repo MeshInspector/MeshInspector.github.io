@@ -4,25 +4,7 @@
     <compoundname>MR::PolylineComponents</compoundname>
     <innerclass refid="structMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings" prot="public">MR::PolylineComponents::LargeByLengthComponentsSettings</innerclass>
     <sectiondef kind="func">
-      <memberdef kind="function" id="namespaceMR_1_1PolylineComponents_1a7b49dea5ec0f482893a31e642b0118b6" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> size_t</type>
-        <definition>MRMESH_API size_t MR::PolylineComponents::getNumComponents</definition>
-        <argsstring>(const PolylineTopology &amp;topology)</argsstring>
-        <name>getNumComponents</name>
-        <qualifiedname>MR::PolylineComponents::getNumComponents</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1PolylineTopology" kindref="compound">PolylineTopology</ref> &amp;</type>
-          <declname>topology</declname>
-        </param>
-        <briefdescription>
-<para>returns the number of connected components in polyline </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" line="12" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" declline="12" declcolumn="20"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga7b49dea5ec0f482893a31e642b0118b6" kind="function"><name>getNumComponents</name></member>
       <member refid="group__ComponentsGroup_1gaf31a9bdb0fcd7f0b1ae5f69a4b83415d" kind="function"><name>getComponent</name></member>
       <member refid="group__ComponentsGroup_1ga80e95c2ddcd2a35b79f66a0540d4a152" kind="function"><name>getAllComponents</name></member>
       <member refid="group__ComponentsGroup_1ga2c677b8145a12d5f3bfba158ff3e719d" kind="function"><name>getAllComponents</name></member>
@@ -34,6 +16,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" line="8" column="1"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" line="11" column="1"/>
   </compounddef>
 </doxygen>

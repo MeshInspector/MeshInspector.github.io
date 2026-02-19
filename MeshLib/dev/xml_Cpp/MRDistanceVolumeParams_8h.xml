@@ -9,13 +9,7 @@
     <includedby refid="MRPolylineToVoxels_8h" local="yes">MRPolylineToVoxels.h</includedby>
     <includedby refid="MRWeightedPointsShell_8h" local="yes">MRWeightedPointsShell.h</includedby>
     <incdepgraph>
-      <node id="9">
-        <label>MRMesh/MRCanonicalTypedefs.h</label>
-        <link refid="MRCanonicalTypedefs_8h"/>
-        <childnode refid="3" relation="include">
-        </childnode>
-      </node>
-      <node id="17">
+      <node id="8">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
@@ -23,36 +17,14 @@
         <label>MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
-      <node id="7">
-        <label>MRMeshFwd.h</label>
-        <link refid="MRMeshFwd_8h"/>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-      </node>
-      <node id="23">
+      <node id="15">
         <label>MRMesh/MRProgressCallback.h</label>
         <link refid="MRProgressCallback_8h"/>
         <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
       </node>
       <node id="4">
@@ -72,74 +44,58 @@
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
-      </node>
-      <node id="8">
-        <label>config.h</label>
-        <link refid="MRMesh_2config_8h"/>
       </node>
       <node id="1">
         <label>MRDistanceVolumeParams.h</label>
         <link refid="MRDistanceVolumeParams_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="23" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
       </node>
-      <node id="10">
+      <node id="7">
+        <label>MRMeshFwd.h</label>
+      </node>
+      <node id="9">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="18">
+      <node id="10">
         <label>algorithm</label>
-      </node>
-      <node id="11">
-        <label>array</label>
       </node>
       <node id="16">
         <label>cassert</label>
       </node>
-      <node id="19">
+      <node id="11">
         <label>cmath</label>
       </node>
       <node id="5">
         <label>cstddef</label>
       </node>
-      <node id="20">
+      <node id="12">
         <label>cstring</label>
       </node>
-      <node id="15">
-        <label>functional</label>
-      </node>
-      <node id="21">
-        <label>iosfwd</label>
-      </node>
-      <node id="14">
-        <label>parallel_hashmap/phmap_fwd_decl.h</label>
-      </node>
       <node id="13">
-        <label>string</label>
+        <label>iosfwd</label>
       </node>
       <node id="6">
         <label>type_traits</label>
       </node>
-      <node id="22">
+      <node id="14">
         <label>utility</label>
-      </node>
-      <node id="12">
-        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
@@ -192,19 +148,20 @@
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight></codeline>
-<codeline lineno="9" refid="structMR_1_1DistanceVolumeParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1DistanceVolumeParams" kindref="compound">DistanceVolumeParams</ref></highlight></codeline>
-<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="12" refid="structMR_1_1DistanceVolumeParams_1a57f0f5741fc414817c5c20a26970ec30" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="structMR_1_1DistanceVolumeParams_1a57f0f5741fc414817c5c20a26970ec30" kindref="member">origin</ref>;</highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="structMR_1_1DistanceVolumeParams_1a920081c5dce988d2f087b470ea72803a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/><ref refid="structMR_1_1DistanceVolumeParams_1a920081c5dce988d2f087b470ea72803a" kindref="member">cb</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="structMR_1_1DistanceVolumeParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1DistanceVolumeParams" kindref="compound">DistanceVolumeParams</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15" refid="group__GeneralGroup_1ga57f0f5741fc414817c5c20a26970ec30" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1ga57f0f5741fc414817c5c20a26970ec30" kindref="member">origin</ref>;</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="structMR_1_1DistanceVolumeParams_1a1cb9a2d437a8280082f79d22a1fd1ab4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="structMR_1_1DistanceVolumeParams_1a1cb9a2d437a8280082f79d22a1fd1ab4" kindref="member">voxelSize</ref>{<sp/>1.0f,1.0f,1.0f<sp/>};</highlight></codeline>
+<codeline lineno="18" refid="group__GeneralGroup_1ga920081c5dce988d2f087b470ea72803a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ProgressCallback<sp/><ref refid="group__GeneralGroup_1ga920081c5dce988d2f087b470ea72803a" kindref="member">cb</ref>;</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="structMR_1_1DistanceVolumeParams_1ade7c79fd5b25f3a928fa747f8e6d61d2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3i<sp/><ref refid="structMR_1_1DistanceVolumeParams_1ade7c79fd5b25f3a928fa747f8e6d61d2" kindref="member">dimensions</ref>{<sp/>100,100,100<sp/>};</highlight></codeline>
-<codeline lineno="22"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="21" refid="group__GeneralGroup_1ga1cb9a2d437a8280082f79d22a1fd1ab4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1ga1cb9a2d437a8280082f79d22a1fd1ab4" kindref="member">voxelSize</ref>{<sp/>1.0f,1.0f,1.0f<sp/>};</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="group__GeneralGroup_1gade7c79fd5b25f3a928fa747f8e6d61d2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3i<sp/><ref refid="group__GeneralGroup_1gade7c79fd5b25f3a928fa747f8e6d61d2" kindref="member">dimensions</ref>{<sp/>100,100,100<sp/>};</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}<sp/></highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDistanceVolumeParams.h"/>
   </compounddef>

@@ -286,21 +286,21 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="183" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" bodystart="184" bodyend="189"/>
     <listofallmembers>
       <member refid="classMR_1_1RenderFeatures_1_1RenderFeaturePointsComponent_1a259f23f58bfe5c3291c55569396a56df" prot="private" virt="non-virtual"><scope>MR::RenderFeatures::RenderFeaturePointsComponent</scope><name>Base</name></member>
-      <member refid="classMR_1_1RenderPointsObject_1a84ee58e0127a952e60ebcae7ee3a712a" prot="public" virt="virtual"><scope>MR::RenderFeatures::RenderFeaturePointsComponent</scope><name>forceBindAll</name></member>
+      <member refid="group__GeneralGroup_1ga84ee58e0127a952e60ebcae7ee3a712a" prot="public" virt="virtual"><scope>MR::RenderFeatures::RenderFeaturePointsComponent</scope><name>forceBindAll</name></member>
       <member refid="classMR_1_1RenderFeatures_1_1RenderFeaturePointsComponent_1a142237d698d085d466a1d8c2177ddafe" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderFeaturePointsComponent</scope><name>getPoints</name></member>
-      <member refid="classMR_1_1RenderPointsObject_1ae58d2cc13f9eff9285ade09909b14ec7" prot="public" virt="virtual"><scope>MR::RenderFeatures::RenderFeaturePointsComponent</scope><name>glBytes</name></member>
-      <member refid="classMR_1_1RenderPointsObject_1ac57d8a541df401cff5ddf7566f0b9bb4" prot="public" virt="virtual"><scope>MR::RenderFeatures::RenderFeaturePointsComponent</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1gae58d2cc13f9eff9285ade09909b14ec7" prot="public" virt="virtual"><scope>MR::RenderFeatures::RenderFeaturePointsComponent</scope><name>glBytes</name></member>
+      <member refid="group__GeneralGroup_1gac57d8a541df401cff5ddf7566f0b9bb4" prot="public" virt="virtual"><scope>MR::RenderFeatures::RenderFeaturePointsComponent</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1RenderWrapObject_1_1Wrapper_1ab3a0e53c8d180bbb25650e0ac1544abf" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderFeaturePointsComponent</scope><name>operator=</name></member>
       <member refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent_1aac7d0eb9a73f28680925b75d122b66a4" prot="public" virt="virtual"><scope>MR::RenderFeatures::RenderFeaturePointsComponent</scope><name>render</name></member>
       <member refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent_1a7223265f55a1d01543ece7518bc011ff" prot="public" virt="virtual"><scope>MR::RenderFeatures::RenderFeaturePointsComponent</scope><name>renderPicker</name></member>
-      <member refid="classMR_1_1RenderPointsObject_1ab99ca8621e3c55c14e02d3452bbdd239" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderFeaturePointsComponent</scope><name>RenderPointsObject</name></member>
-      <member refid="classMR_1_1IRenderObject_1a82fb37eb78d6e11f1b41f3fc2a99c5eb" prot="public" virt="virtual"><scope>MR::RenderFeatures::RenderFeaturePointsComponent</scope><name>renderUi</name></member>
+      <member refid="group__GeneralGroup_1gab99ca8621e3c55c14e02d3452bbdd239" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderFeaturePointsComponent</scope><name>RenderPointsObject</name></member>
+      <member refid="group__GeneralGroup_1ga82fb37eb78d6e11f1b41f3fc2a99c5eb" prot="public" virt="virtual"><scope>MR::RenderFeatures::RenderFeaturePointsComponent</scope><name>renderUi</name></member>
       <member refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent_1afbeda6ef29a8b84bed77e748228e20e7" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderFeaturePointsComponent</scope><name>shouldRender</name></member>
       <member refid="structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage_1aefbb8b64a400a9acc5e776111c7ae297" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderFeaturePointsComponent</scope><name>subobject</name></member>
       <member refid="classMR_1_1RenderWrapObject_1_1Wrapper_1a1513e9da308ecba00c67324e0c0cf39b" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderFeaturePointsComponent</scope><name>Wrapper</name></member>
       <member refid="classMR_1_1RenderWrapObject_1_1Wrapper_1ad13b52643d115db231f4501231b97765" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderFeaturePointsComponent</scope><name>Wrapper</name></member>
-      <member refid="classMR_1_1IRenderObject_1acb87b662f59e2d557580f2ad1f38fa7a" prot="public" virt="virtual"><scope>MR::RenderFeatures::RenderFeaturePointsComponent</scope><name>~IRenderObject</name></member>
-      <member refid="classMR_1_1RenderPointsObject_1a15d475f3d61005249719bb402493d9d8" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderFeaturePointsComponent</scope><name>~RenderPointsObject</name></member>
+      <member refid="group__GeneralGroup_1gacb87b662f59e2d557580f2ad1f38fa7a" prot="public" virt="virtual"><scope>MR::RenderFeatures::RenderFeaturePointsComponent</scope><name>~IRenderObject</name></member>
+      <member refid="group__GeneralGroup_1ga15d475f3d61005249719bb402493d9d8" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderFeaturePointsComponent</scope><name>~RenderPointsObject</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

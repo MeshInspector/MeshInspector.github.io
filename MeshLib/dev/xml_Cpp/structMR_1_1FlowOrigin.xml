@@ -4,37 +4,8 @@
     <compoundname>MR::FlowOrigin</compoundname>
     <includes refid="MRAggregateFlow_8h" local="no">MRAggregateFlow.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1FlowOrigin_1a31bfc9564520f8ef69c0c112375278fb" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
-        <definition>MeshTriPoint MR::FlowOrigin::point</definition>
-        <argsstring></argsstring>
-        <name>point</name>
-        <qualifiedname>MR::FlowOrigin::point</qualifiedname>
-        <briefdescription>
-<para>point on the mesh, where this flow starts </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" line="14" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1FlowOrigin_1a640532564293308f481aa69ef1b94062" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::FlowOrigin::amount</definition>
-        <argsstring></argsstring>
-        <name>amount</name>
-        <qualifiedname>MR::FlowOrigin::amount</qualifiedname>
-        <initializer>= 1</initializer>
-        <briefdescription>
-<para>amount of flow, e.g. can be proportional to the horizontal area associated with the start point </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" line="16" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga31bfc9564520f8ef69c0c112375278fb" kind="variable"><name>point</name></member>
+      <member refid="group__GeneralGroup_1ga640532564293308f481aa69ef1b94062" kind="variable"><name>amount</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -53,10 +24,10 @@
         <link refid="structMR_1_1MeshTriPoint"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" line="11" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" bodystart="12" bodyend="17"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" bodystart="15" bodyend="20"/>
     <listofallmembers>
-      <member refid="structMR_1_1FlowOrigin_1a640532564293308f481aa69ef1b94062" prot="public" virt="non-virtual"><scope>MR::FlowOrigin</scope><name>amount</name></member>
-      <member refid="structMR_1_1FlowOrigin_1a31bfc9564520f8ef69c0c112375278fb" prot="public" virt="non-virtual"><scope>MR::FlowOrigin</scope><name>point</name></member>
+      <member refid="group__GeneralGroup_1ga640532564293308f481aa69ef1b94062" prot="public" virt="non-virtual"><scope>MR::FlowOrigin</scope><name>amount</name></member>
+      <member refid="group__GeneralGroup_1ga31bfc9564520f8ef69c0c112375278fb" prot="public" virt="non-virtual"><scope>MR::FlowOrigin</scope><name>point</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

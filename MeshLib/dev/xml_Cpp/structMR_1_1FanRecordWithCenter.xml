@@ -5,69 +5,11 @@
     <basecompoundref refid="structMR_1_1FanRecord" prot="public" virt="non-virtual">MR::FanRecord</basecompoundref>
     <includes refid="MRLocalTriangulations_8h" local="no">MRLocalTriangulations.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1FanRecordWithCenter_1a066cda1cd4ae46c8b3236007bf1033b1" prot="public" static="no" mutable="no">
-        <type>VertId</type>
-        <definition>VertId MR::FanRecordWithCenter::center</definition>
-        <argsstring></argsstring>
-        <name>center</name>
-        <qualifiedname>MR::FanRecordWithCenter::center</qualifiedname>
-        <briefdescription>
-<para>center point in the fan </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLocalTriangulations.h" line="32" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLocalTriangulations.h" bodystart="32" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga066cda1cd4ae46c8b3236007bf1033b1" kind="variable"><name>center</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1FanRecordWithCenter_1a010e9445541af4e90e90d34acc98220e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::FanRecordWithCenter::FanRecordWithCenter</definition>
-        <argsstring>(VertId c={}, VertId b={}, std::uint32_t fn=0)</argsstring>
-        <name>FanRecordWithCenter</name>
-        <qualifiedname>MR::FanRecordWithCenter::FanRecordWithCenter</qualifiedname>
-        <param>
-          <type>VertId</type>
-          <declname>c</declname>
-          <defval>{}</defval>
-        </param>
-        <param>
-          <type>VertId</type>
-          <declname>b</declname>
-          <defval>{}</defval>
-        </param>
-        <param>
-          <type>std::uint32_t</type>
-          <declname>fn</declname>
-          <defval>0</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLocalTriangulations.h" line="34" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLocalTriangulations.h" bodystart="34" bodyend="34"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1FanRecordWithCenter_1ac112017931324f9b12a9af38f28671e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::FanRecordWithCenter::FanRecordWithCenter</definition>
-        <argsstring>(NoInit)</argsstring>
-        <name>FanRecordWithCenter</name>
-        <qualifiedname>MR::FanRecordWithCenter::FanRecordWithCenter</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1NoInit" kindref="compound">NoInit</ref></type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLocalTriangulations.h" line="35" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLocalTriangulations.h" bodystart="35" bodyend="35"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga010e9445541af4e90e90d34acc98220e" kind="function"><name>FanRecordWithCenter</name></member>
+      <member refid="group__GeneralGroup_1gac112017931324f9b12a9af38f28671e2" kind="function"><name>FanRecordWithCenter</name></member>
     </sectiondef>
     <briefdescription>
 <para>describes one fan of triangles around a point including the point </para>
@@ -98,15 +40,15 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLocalTriangulations.h" line="29" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLocalTriangulations.h" bodystart="30" bodyend="36"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLocalTriangulations.h" line="32" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLocalTriangulations.h" bodystart="33" bodyend="39"/>
     <listofallmembers>
-      <member refid="structMR_1_1FanRecord_1ab96acab7dff75b813d869d05ae408ca7" prot="public" virt="non-virtual"><scope>MR::FanRecordWithCenter</scope><name>border</name></member>
-      <member refid="structMR_1_1FanRecordWithCenter_1a066cda1cd4ae46c8b3236007bf1033b1" prot="public" virt="non-virtual"><scope>MR::FanRecordWithCenter</scope><name>center</name></member>
-      <member refid="structMR_1_1FanRecord_1afdf05e8b0d0790c4feea524b2d3cf936" prot="public" virt="non-virtual"><scope>MR::FanRecordWithCenter</scope><name>FanRecord</name></member>
-      <member refid="structMR_1_1FanRecord_1a27df8546e114728c41355bf45b7f4666" prot="public" virt="non-virtual"><scope>MR::FanRecordWithCenter</scope><name>FanRecord</name></member>
-      <member refid="structMR_1_1FanRecordWithCenter_1a010e9445541af4e90e90d34acc98220e" prot="public" virt="non-virtual"><scope>MR::FanRecordWithCenter</scope><name>FanRecordWithCenter</name></member>
-      <member refid="structMR_1_1FanRecordWithCenter_1ac112017931324f9b12a9af38f28671e2" prot="public" virt="non-virtual"><scope>MR::FanRecordWithCenter</scope><name>FanRecordWithCenter</name></member>
-      <member refid="structMR_1_1FanRecord_1ade977d48f2f1f79c9a84ad421a2d5069" prot="public" virt="non-virtual"><scope>MR::FanRecordWithCenter</scope><name>firstNei</name></member>
+      <member refid="group__GeneralGroup_1gab96acab7dff75b813d869d05ae408ca7" prot="public" virt="non-virtual"><scope>MR::FanRecordWithCenter</scope><name>border</name></member>
+      <member refid="group__GeneralGroup_1ga066cda1cd4ae46c8b3236007bf1033b1" prot="public" virt="non-virtual"><scope>MR::FanRecordWithCenter</scope><name>center</name></member>
+      <member refid="group__GeneralGroup_1gafdf05e8b0d0790c4feea524b2d3cf936" prot="public" virt="non-virtual"><scope>MR::FanRecordWithCenter</scope><name>FanRecord</name></member>
+      <member refid="group__GeneralGroup_1ga27df8546e114728c41355bf45b7f4666" prot="public" virt="non-virtual"><scope>MR::FanRecordWithCenter</scope><name>FanRecord</name></member>
+      <member refid="group__GeneralGroup_1ga010e9445541af4e90e90d34acc98220e" prot="public" virt="non-virtual"><scope>MR::FanRecordWithCenter</scope><name>FanRecordWithCenter</name></member>
+      <member refid="group__GeneralGroup_1gac112017931324f9b12a9af38f28671e2" prot="public" virt="non-virtual"><scope>MR::FanRecordWithCenter</scope><name>FanRecordWithCenter</name></member>
+      <member refid="group__GeneralGroup_1gade977d48f2f1f79c9a84ad421a2d5069" prot="public" virt="non-virtual"><scope>MR::FanRecordWithCenter</scope><name>firstNei</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

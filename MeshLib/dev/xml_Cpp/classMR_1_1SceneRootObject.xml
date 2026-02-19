@@ -5,334 +5,29 @@
     <basecompoundref refid="classMR_1_1Object" prot="public" virt="non-virtual">MR::Object</basecompoundref>
     <includes refid="MRSceneRoot_8h" local="no">MRSceneRoot.h</includes>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1SceneRootObject_1aabf2097a61d2a53dc16bb394cf189819" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
-        <definition>MRMESH_API MR::SceneRootObject::SceneRootObject</definition>
-        <argsstring>()</argsstring>
-        <name>SceneRootObject</name>
-        <qualifiedname>MR::SceneRootObject::SceneRootObject</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" line="13" column="16"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SceneRootObject_1a1ab8d75a25ddf033c08c2b9a4b302a9d" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::SceneRootObject::SceneRootObject</definition>
-        <argsstring>(SceneRootObject &amp;&amp;) noexcept=default</argsstring>
-        <name>SceneRootObject</name>
-        <qualifiedname>MR::SceneRootObject::SceneRootObject</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1SceneRootObject" kindref="compound">SceneRootObject</ref> &amp;&amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" line="15" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SceneRootObject_1af5adb3060c521b2e091eff673e8780ce" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type><ref refid="classMR_1_1SceneRootObject" kindref="compound">SceneRootObject</ref> &amp;</type>
-        <definition>SceneRootObject &amp; MR::SceneRootObject::operator=</definition>
-        <argsstring>(SceneRootObject &amp;&amp;) noexcept=default</argsstring>
-        <name>operator=</name>
-        <qualifiedname>MR::SceneRootObject::operator=</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1SceneRootObject" kindref="compound">SceneRootObject</ref> &amp;&amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" line="17" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SceneRootObject_1aad4cb500e812e5cb62aed870ed071f32" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::SceneRootObject::SceneRootObject</definition>
-        <argsstring>(ProtectedStruct, const SceneRootObject &amp;obj)</argsstring>
-        <name>SceneRootObject</name>
-        <qualifiedname>MR::SceneRootObject::SceneRootObject</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1Object_1_1ProtectedStruct" kindref="compound">ProtectedStruct</ref></type>
-        </param>
-        <param>
-          <type>const <ref refid="classMR_1_1SceneRootObject" kindref="compound">SceneRootObject</ref> &amp;</type>
-          <declname>obj</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="note"><para>this ctor is public only for std::make_shared used inside <ref refid="classMR_1_1SceneRootObject_1a1f6fca865f862aaeeb84eb4cd40b77d1" kindref="member">clone()</ref> </para>
-</simplesect>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" line="20" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" bodystart="20" bodyend="20"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SceneRootObject_1a18fd1eac2059efc7aea278bf5b40b117" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>const char *</type>
-        <definition>virtual const char * MR::SceneRootObject::typeName</definition>
-        <argsstring>() const override</argsstring>
-        <name>typeName</name>
-        <qualifiedname>MR::SceneRootObject::typeName</qualifiedname>
-        <reimplements refid="classMR_1_1Object_1a46f7be31befc01e09d18deed96127a02">typeName</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" line="23" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" bodystart="23" bodyend="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SceneRootObject_1ad952f05d8831d2c2c4f23eaf64a7eb2b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>std::string</type>
-        <definition>virtual std::string MR::SceneRootObject::className</definition>
-        <argsstring>() const override</argsstring>
-        <name>className</name>
-        <qualifiedname>MR::SceneRootObject::className</qualifiedname>
-        <reimplements refid="classMR_1_1Object_1affbcbbc7f5e086e26cdb5f7689557c74">className</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" line="26" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" bodystart="26" bodyend="26"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SceneRootObject_1a0365961619ae29084f8a720258c4de70" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>std::string</type>
-        <definition>virtual std::string MR::SceneRootObject::classNameInPlural</definition>
-        <argsstring>() const override</argsstring>
-        <name>classNameInPlural</name>
-        <qualifiedname>MR::SceneRootObject::classNameInPlural</qualifiedname>
-        <reimplements refid="classMR_1_1Object_1a6f75a192e0d9f2bdfecdac79b4a15ae1">classNameInPlural</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" line="29" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" bodystart="29" bodyend="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SceneRootObject_1ac7be5a6d3c8807056129ae71238b9798" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MR::SceneRootObject::setAncillary</definition>
-        <argsstring>(bool) override</argsstring>
-        <name>setAncillary</name>
-        <qualifiedname>MR::SceneRootObject::setAncillary</qualifiedname>
-        <reimplements refid="classMR_1_1Object_1a3758df5e3fe75f83c0449e77770961b3">setAncillary</reimplements>
-        <param>
-          <type>bool</type>
-          <declname>ancillary</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>ancillary object is an object hidden (in scene menu) from a regular user such objects cannot be selected, and if it has been selected, it is unselected when turn ancillary </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" line="33" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" bodystart="33" bodyend="33"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SceneRootObject_1a9ed64e227f3e1aa208193f4cfe051ddc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::SceneRootObject::select</definition>
-        <argsstring>(bool) override</argsstring>
-        <name>select</name>
-        <qualifiedname>MR::SceneRootObject::select</qualifiedname>
-        <reimplements refid="classMR_1_1Object_1a989bd3b98218be00c001e3ee8cb77334">select</reimplements>
-        <param>
-          <type>bool</type>
-          <declname>on</declname>
-        </param>
-        <briefdescription>
-<para>selects the object, returns true if value changed, otherwise returns false </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" line="35" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" bodystart="35" bodyend="35"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SceneRootObject_1a0f1d78f37dfc7faf40bed924c76deca1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MR::SceneRootObject::setName</definition>
-        <argsstring>(std::string) override</argsstring>
-        <name>setName</name>
-        <qualifiedname>MR::SceneRootObject::setName</qualifiedname>
-        <reimplements refid="classMR_1_1Object_1ace89695fb0235bdf97caecfe26390349">setName</reimplements>
-        <param>
-          <type>std::string</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" line="37" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" bodystart="37" bodyend="37"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SceneRootObject_1a1f6fca865f862aaeeb84eb4cd40b77d1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
-        <definition>virtual MRMESH_API std::shared_ptr&lt; Object &gt; MR::SceneRootObject::clone</definition>
-        <argsstring>() const override</argsstring>
-        <name>clone</name>
-        <qualifiedname>MR::SceneRootObject::clone</qualifiedname>
-        <reimplements refid="classMR_1_1Object_1ae0f00298204b65ca49b4daaa9a39f5c5">clone</reimplements>
-        <briefdescription>
-<para>clones current object only, without parent and/or children </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" line="39" column="40"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SceneRootObject_1a4ac41df7a0bcda50ea526a4a72043a7c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::shared_ptr&lt; <ref refid="classMR_1_1SceneRootObject" kindref="compound">SceneRootObject</ref> &gt;</type>
-        <definition>MRMESH_API std::shared_ptr&lt; SceneRootObject &gt; MR::SceneRootObject::cloneRoot</definition>
-        <argsstring>() const</argsstring>
-        <name>cloneRoot</name>
-        <qualifiedname>MR::SceneRootObject::cloneRoot</qualifiedname>
-        <briefdescription>
-<para>same as clone but returns correct type </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" line="42" column="32"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaabf2097a61d2a53dc16bb394cf189819" kind="function"><name>SceneRootObject</name></member>
+      <member refid="group__GeneralGroup_1ga1ab8d75a25ddf033c08c2b9a4b302a9d" kind="function"><name>SceneRootObject</name></member>
+      <member refid="group__GeneralGroup_1gaf5adb3060c521b2e091eff673e8780ce" kind="function"><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1gaad4cb500e812e5cb62aed870ed071f32" kind="function"><name>SceneRootObject</name></member>
+      <member refid="group__GeneralGroup_1ga18fd1eac2059efc7aea278bf5b40b117" kind="function"><name>typeName</name></member>
+      <member refid="group__GeneralGroup_1gad952f05d8831d2c2c4f23eaf64a7eb2b" kind="function"><name>className</name></member>
+      <member refid="group__GeneralGroup_1ga0365961619ae29084f8a720258c4de70" kind="function"><name>classNameInPlural</name></member>
+      <member refid="group__GeneralGroup_1gac7be5a6d3c8807056129ae71238b9798" kind="function"><name>setAncillary</name></member>
+      <member refid="group__GeneralGroup_1ga9ed64e227f3e1aa208193f4cfe051ddc" kind="function"><name>select</name></member>
+      <member refid="group__GeneralGroup_1ga0f1d78f37dfc7faf40bed924c76deca1" kind="function"><name>setName</name></member>
+      <member refid="group__GeneralGroup_1ga1f6fca865f862aaeeb84eb4cd40b77d1" kind="function"><name>clone</name></member>
+      <member refid="group__GeneralGroup_1ga4ac41df7a0bcda50ea526a4a72043a7c" kind="function"><name>cloneRoot</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1SceneRootObject_1a8dd94e3f37cf1c2dc3e53bebcfbd6367" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>const char *</type>
-        <definition>static constexpr const char * MR::SceneRootObject::StaticTypeName</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>StaticTypeName</name>
-        <qualifiedname>MR::SceneRootObject::StaticTypeName</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" line="22" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" bodystart="22" bodyend="22"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SceneRootObject_1a542f738853b9a49786b6ca1e0f50d7d2" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>const char *</type>
-        <definition>static constexpr const char * MR::SceneRootObject::StaticClassName</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>StaticClassName</name>
-        <qualifiedname>MR::SceneRootObject::StaticClassName</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" line="25" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" bodystart="25" bodyend="25"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SceneRootObject_1ac102fa3cd8c6c52e18ab5e996d7c987b" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>const char *</type>
-        <definition>static constexpr const char * MR::SceneRootObject::StaticClassNameInPlural</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>StaticClassNameInPlural</name>
-        <qualifiedname>MR::SceneRootObject::StaticClassNameInPlural</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" line="28" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" bodystart="28" bodyend="28"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SceneRootObject_1a0854728894db7d3f6b701dc8c7b104a7" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>const char *</type>
-        <definition>static constexpr const char * MR::SceneRootObject::RootName</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>RootName</name>
-        <qualifiedname>MR::SceneRootObject::RootName</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" line="31" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" bodystart="31" bodyend="31"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga8dd94e3f37cf1c2dc3e53bebcfbd6367" kind="function"><name>StaticTypeName</name></member>
+      <member refid="group__GeneralGroup_1ga542f738853b9a49786b6ca1e0f50d7d2" kind="function"><name>StaticClassName</name></member>
+      <member refid="group__GeneralGroup_1gac102fa3cd8c6c52e18ab5e996d7c987b" kind="function"><name>StaticClassNameInPlural</name></member>
+      <member refid="group__GeneralGroup_1ga0854728894db7d3f6b701dc8c7b104a7" kind="function"><name>RootName</name></member>
     </sectiondef>
     <sectiondef kind="protected-func">
-      <memberdef kind="function" id="classMR_1_1SceneRootObject_1a08bd8d737b04194abe9ac2c4588eaa11" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::SceneRootObject::SceneRootObject</definition>
-        <argsstring>(const SceneRootObject &amp;other)=default</argsstring>
-        <name>SceneRootObject</name>
-        <qualifiedname>MR::SceneRootObject::SceneRootObject</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1SceneRootObject" kindref="compound">SceneRootObject</ref> &amp;</type>
-          <declname>other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" line="45" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SceneRootObject_1ac54aada747b785885fee9262ca3055a7" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>virtual MRMESH_API void MR::SceneRootObject::serializeFields_</definition>
-        <argsstring>(Json::Value &amp;root) const override</argsstring>
-        <name>serializeFields_</name>
-        <qualifiedname>MR::SceneRootObject::serializeFields_</qualifiedname>
-        <reimplements refid="classMR_1_1Object_1a4b72f2310983a6e40753b5d919d72d35">serializeFields_</reimplements>
-        <param>
-          <type>Json::Value &amp;</type>
-          <declname>root</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Write parameters to given Json::Value, <simplesect kind="note"><para>if you override this method, please call Base::serializeFields_(root) in the beginning </para>
-</simplesect>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" line="47" column="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SceneRootObject_1a7af83e5f6a013118cfc9e837cd5d75c1" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::SceneRootObject::deserializeFields_</definition>
-        <argsstring>(const Json::Value &amp;root) override</argsstring>
-        <name>deserializeFields_</name>
-        <qualifiedname>MR::SceneRootObject::deserializeFields_</qualifiedname>
-        <reimplements refid="classMR_1_1Object_1afa7de2dfba47f9766bfa741f01f73e42">deserializeFields_</reimplements>
-        <param>
-          <type>const Json::Value &amp;</type>
-          <declname>root</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Reads parameters from json value <simplesect kind="note"><para>if you override this method, please call Base::deserializeFields_(root) in the beginning </para>
-</simplesect>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" line="49" column="21"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga08bd8d737b04194abe9ac2c4588eaa11" kind="function"><name>SceneRootObject</name></member>
+      <member refid="group__GeneralGroup_1gac54aada747b785885fee9262ca3055a7" kind="function"><name>serializeFields_</name></member>
+      <member refid="group__GeneralGroup_1ga7af83e5f6a013118cfc9e837cd5d75c1" kind="function"><name>deserializeFields_</name></member>
     </sectiondef>
     <briefdescription>
 <para><ref refid="classMR_1_1Object" kindref="compound">Object</ref> that is parent of all scene. </para>
@@ -404,7 +99,7 @@
         <label>boost::signals2::signal&lt; void() &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" line="10" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" bodystart="11" bodyend="50"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" bodystart="14" bodyend="53"/>
     <listofallmembers>
       <member refid="classMR_1_1Object_1aa6cdc407999b7e829fd23b242cb6346d" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>addChild</name></member>
       <member refid="classMR_1_1Object_1a8eeb1cb21b22db97f20eac75b897f7ae" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>addChildBefore</name></member>
@@ -417,12 +112,12 @@
       <member refid="classMR_1_1Object_1a918f27844d6d9aae269008f0036bc671" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>children</name></member>
       <member refid="classMR_1_1Object_1a2f38b85c4109bb77ad1a49e42085b9fb" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>children</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a20c010d72c82523c01e5de05910eb34c" prot="protected" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>children_</name></member>
-      <member refid="classMR_1_1SceneRootObject_1ad952f05d8831d2c2c4f23eaf64a7eb2b" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>className</name></member>
-      <member refid="classMR_1_1SceneRootObject_1a0365961619ae29084f8a720258c4de70" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>classNameInPlural</name></member>
-      <member refid="classMR_1_1SceneRootObject_1a1f6fca865f862aaeeb84eb4cd40b77d1" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>clone</name></member>
-      <member refid="classMR_1_1SceneRootObject_1a4ac41df7a0bcda50ea526a4a72043a7c" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>cloneRoot</name></member>
+      <member refid="group__GeneralGroup_1gad952f05d8831d2c2c4f23eaf64a7eb2b" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>className</name></member>
+      <member refid="group__GeneralGroup_1ga0365961619ae29084f8a720258c4de70" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>classNameInPlural</name></member>
+      <member refid="group__GeneralGroup_1ga1f6fca865f862aaeeb84eb4cd40b77d1" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>clone</name></member>
+      <member refid="group__GeneralGroup_1ga4ac41df7a0bcda50ea526a4a72043a7c" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>cloneRoot</name></member>
       <member refid="classMR_1_1Object_1a54eb8f6e602368572ffb27af73f87465" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>cloneTree</name></member>
-      <member refid="classMR_1_1SceneRootObject_1a7af83e5f6a013118cfc9e837cd5d75c1" prot="protected" virt="virtual"><scope>MR::SceneRootObject</scope><name>deserializeFields_</name></member>
+      <member refid="group__GeneralGroup_1ga7af83e5f6a013118cfc9e837cd5d75c1" prot="protected" virt="virtual"><scope>MR::SceneRootObject</scope><name>deserializeFields_</name></member>
       <member refid="classMR_1_1Object_1a694bf2e911f3079c872f0dc9c13370c9" prot="protected" virt="virtual"><scope>MR::SceneRootObject</scope><name>deserializeModel_</name></member>
       <member refid="classMR_1_1Object_1ae6602edbad891420dc4dff152e9df603" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>deserializeRecursive</name></member>
       <member refid="classMR_1_1Object_1a80a32a58c497b044d63e5aaa75e77fbe" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>detachFromParent</name></member>
@@ -464,7 +159,7 @@
       <member refid="classMR_1_1ObjectChildrenHolder_1a676c20b6eea355fe68748a8c1ad0b086" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>ObjectChildrenHolder</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a89b1fff6ebde3c5a71a530e3c8cddfb6" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>ObjectChildrenHolder</name></member>
       <member refid="classMR_1_1Object_1ae552548142751ab5d35d446cb5d56fae" prot="protected" virt="virtual"><scope>MR::SceneRootObject</scope><name>onWorldXfChanged_</name></member>
-      <member refid="classMR_1_1SceneRootObject_1af5adb3060c521b2e091eff673e8780ce" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1gaf5adb3060c521b2e091eff673e8780ce" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>operator=</name></member>
       <member refid="classMR_1_1Object_1aaa2378c439796ceb7a28ad41322cb8d7" prot="public" virt="non-virtual" ambiguityscope="MR::Object::"><scope>MR::SceneRootObject</scope><name>operator=</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a44a4427301ae71511f5b3138cdf02e9f" prot="public" virt="non-virtual" ambiguityscope="MR::ObjectChildrenHolder::"><scope>MR::SceneRootObject</scope><name>operator=</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1aca1fa4cd4c9ee1cb2e567623c979b26f" prot="public" virt="non-virtual" ambiguityscope="MR::ObjectChildrenHolder::"><scope>MR::SceneRootObject</scope><name>operator=</name></member>
@@ -478,22 +173,22 @@
       <member refid="classMR_1_1Object_1aba4a6f7731fa48aa3ffcd233f5dfc451" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>removeTag</name></member>
       <member refid="classMR_1_1Object_1a9dc77f3f61430395182e8402e6e6f410" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>resetRedrawFlag</name></member>
       <member refid="classMR_1_1Object_1a0fabfb16f09fd70879a89efbb8df0da6" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>resetXf</name></member>
-      <member refid="classMR_1_1SceneRootObject_1a0854728894db7d3f6b701dc8c7b104a7" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>RootName</name></member>
+      <member refid="group__GeneralGroup_1ga0854728894db7d3f6b701dc8c7b104a7" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>RootName</name></member>
       <member refid="classMR_1_1Object_1ac581a9c74f34770bb727b5168fcfa753" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>sameModels</name></member>
-      <member refid="classMR_1_1SceneRootObject_1aabf2097a61d2a53dc16bb394cf189819" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>SceneRootObject</name></member>
-      <member refid="classMR_1_1SceneRootObject_1a1ab8d75a25ddf033c08c2b9a4b302a9d" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>SceneRootObject</name></member>
-      <member refid="classMR_1_1SceneRootObject_1aad4cb500e812e5cb62aed870ed071f32" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>SceneRootObject</name></member>
-      <member refid="classMR_1_1SceneRootObject_1a08bd8d737b04194abe9ac2c4588eaa11" prot="protected" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>SceneRootObject</name></member>
-      <member refid="classMR_1_1SceneRootObject_1a9ed64e227f3e1aa208193f4cfe051ddc" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>select</name></member>
+      <member refid="group__GeneralGroup_1gaabf2097a61d2a53dc16bb394cf189819" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>SceneRootObject</name></member>
+      <member refid="group__GeneralGroup_1ga1ab8d75a25ddf033c08c2b9a4b302a9d" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>SceneRootObject</name></member>
+      <member refid="group__GeneralGroup_1gaad4cb500e812e5cb62aed870ed071f32" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>SceneRootObject</name></member>
+      <member refid="group__GeneralGroup_1ga08bd8d737b04194abe9ac2c4588eaa11" prot="protected" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>SceneRootObject</name></member>
+      <member refid="group__GeneralGroup_1ga9ed64e227f3e1aa208193f4cfe051ddc" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>select</name></member>
       <member refid="classMR_1_1Object_1a0d8ef27f83b47e000093eaa0df9c36f9" prot="protected" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>selected_</name></member>
       <member refid="classMR_1_1Object_1ab41eb618ef90d9677638173475b2d983" prot="protected" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>sendWorldXfChangedSignal_</name></member>
-      <member refid="classMR_1_1SceneRootObject_1ac54aada747b785885fee9262ca3055a7" prot="protected" virt="virtual"><scope>MR::SceneRootObject</scope><name>serializeFields_</name></member>
+      <member refid="group__GeneralGroup_1gac54aada747b785885fee9262ca3055a7" prot="protected" virt="virtual"><scope>MR::SceneRootObject</scope><name>serializeFields_</name></member>
       <member refid="classMR_1_1Object_1a7bf17e9cdecb511570759169e86bf0e2" prot="protected" virt="virtual"><scope>MR::SceneRootObject</scope><name>serializeModel_</name></member>
       <member refid="classMR_1_1Object_1a9585a709b1b7bd6d35276d099afd0079" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>serializeRecursive</name></member>
-      <member refid="classMR_1_1SceneRootObject_1ac7be5a6d3c8807056129ae71238b9798" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>setAncillary</name></member>
+      <member refid="group__GeneralGroup_1gac7be5a6d3c8807056129ae71238b9798" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>setAncillary</name></member>
       <member refid="classMR_1_1Object_1af61964cafaa7f98e2b14f89fed277368" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>setGlobalVisibility</name></member>
       <member refid="classMR_1_1Object_1ac427b5b1a99a87eac1305683801fc850" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>setLocked</name></member>
-      <member refid="classMR_1_1SceneRootObject_1a0f1d78f37dfc7faf40bed924c76deca1" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>setName</name></member>
+      <member refid="group__GeneralGroup_1ga0f1d78f37dfc7faf40bed924c76deca1" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>setName</name></member>
       <member refid="classMR_1_1Object_1acd0464af4d89730f9a969f997fdcc8ce" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>setParentLocked</name></member>
       <member refid="classMR_1_1Object_1a911d7f54ae21939fe483b0f5caf04a66" prot="protected" virt="virtual"><scope>MR::SceneRootObject</scope><name>setSharedModel_</name></member>
       <member refid="classMR_1_1Object_1a01ca9dab857ceb8e3fad3d04d271ff0e" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>setVisibilityMask</name></member>
@@ -504,15 +199,15 @@
       <member refid="classMR_1_1Object_1a0d35e02c1f43af6741066f893311266f" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>shallowClone</name></member>
       <member refid="classMR_1_1Object_1ac8e64c569d24d04c1dfcfe7cb1511580" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>shallowCloneTree</name></member>
       <member refid="classMR_1_1Object_1a6f67ec7cbe1e69e514d8f0d5286a35da" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>sortChildren</name></member>
-      <member refid="classMR_1_1SceneRootObject_1a542f738853b9a49786b6ca1e0f50d7d2" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>StaticClassName</name></member>
-      <member refid="classMR_1_1SceneRootObject_1ac102fa3cd8c6c52e18ab5e996d7c987b" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>StaticClassNameInPlural</name></member>
-      <member refid="classMR_1_1SceneRootObject_1a8dd94e3f37cf1c2dc3e53bebcfbd6367" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>StaticTypeName</name></member>
+      <member refid="group__GeneralGroup_1ga542f738853b9a49786b6ca1e0f50d7d2" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>StaticClassName</name></member>
+      <member refid="group__GeneralGroup_1gac102fa3cd8c6c52e18ab5e996d7c987b" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>StaticClassNameInPlural</name></member>
+      <member refid="group__GeneralGroup_1ga8dd94e3f37cf1c2dc3e53bebcfbd6367" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>StaticTypeName</name></member>
       <member refid="classMR_1_1Object_1a39e506e0816b1d504e86a2823ee90cf3" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>swap</name></member>
       <member refid="classMR_1_1Object_1a8ff1262849d62c014b87a26f031aee9a" prot="protected" virt="virtual"><scope>MR::SceneRootObject</scope><name>swapBase_</name></member>
       <member refid="classMR_1_1Object_1a82d2749fefb75e38b62dd69a52307680" prot="protected" virt="virtual"><scope>MR::SceneRootObject</scope><name>swapSignals_</name></member>
       <member refid="classMR_1_1Object_1abf2e87d7dd67d22799d82a35ddecc7b3" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>tags</name></member>
       <member refid="classMR_1_1Object_1abf2154dc69866e93f47d7207cdb4abf4" prot="protected" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>tags_</name></member>
-      <member refid="classMR_1_1SceneRootObject_1a18fd1eac2059efc7aea278bf5b40b117" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>typeName</name></member>
+      <member refid="group__GeneralGroup_1ga18fd1eac2059efc7aea278bf5b40b117" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>typeName</name></member>
       <member refid="classMR_1_1Object_1a9363ba86191cc486fa554ea0d6238d05" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>visibilityMask</name></member>
       <member refid="classMR_1_1Object_1ae98466115f6fa8989c8628ff6ec54e9e" prot="protected" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>visibilityMask_</name></member>
       <member refid="classMR_1_1Object_1adf99bf3b0a5a59452a7e4efd6f48b657" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>worldXf</name></member>

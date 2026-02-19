@@ -4,395 +4,56 @@
     <compoundname>MR::EdgePoint</compoundname>
     <includes refid="MREdgePoint_8h" local="no">MREdgePoint.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1EdgePoint_1aa0fb43077718779351b94f5a803498a6" prot="public" static="no" mutable="no">
-        <type>EdgeId</type>
-        <definition>EdgeId MR::EdgePoint::e</definition>
-        <argsstring></argsstring>
-        <name>e</name>
-        <qualifiedname>MR::EdgePoint::e</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" line="12" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" bodystart="12" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1EdgePoint_1aa0e9261e0dcf014db57e19ce882ddcfb" prot="public" static="no" mutable="no">
-        <type>SegmPointf</type>
-        <definition>SegmPointf MR::EdgePoint::a</definition>
-        <argsstring></argsstring>
-        <name>a</name>
-        <qualifiedname>MR::EdgePoint::a</qualifiedname>
-        <briefdescription>
-<para>a in [0,1], a=0 =&gt; point is in org( e ), a=1 =&gt; point is in dest( e ) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" line="13" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaa0fb43077718779351b94f5a803498a6" kind="variable"><name>e</name></member>
+      <member refid="group__GeneralGroup_1gaa0e9261e0dcf014db57e19ce882ddcfb" kind="variable"><name>a</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1EdgePoint_1aad45e724729c2566d956c24d4b0f62ad" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::EdgePoint::EdgePoint</definition>
-        <argsstring>()=default</argsstring>
-        <name>EdgePoint</name>
-        <qualifiedname>MR::EdgePoint::EdgePoint</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" line="15" column="6"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1EdgePoint_1a823872832981f7242927eb2725053bea" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::EdgePoint::EdgePoint</definition>
-        <argsstring>(EdgeId e, float a)</argsstring>
-        <name>EdgePoint</name>
-        <qualifiedname>MR::EdgePoint::EdgePoint</qualifiedname>
-        <param>
-          <type>EdgeId</type>
-          <declname>e</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>a</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" line="16" column="6" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" bodystart="16" bodyend="16"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1EdgePoint_1a78a1e20c8433641c96ee2a30d603a137" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
-        <definition>MRMESH_API MR::EdgePoint::EdgePoint</definition>
-        <argsstring>(const MeshTopology &amp;topology, VertId v)</argsstring>
-        <name>EdgePoint</name>
-        <qualifiedname>MR::EdgePoint::EdgePoint</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref> &amp;</type>
-          <declname>topology</declname>
-        </param>
-        <param>
-          <type>VertId</type>
-          <declname>v</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" line="17" column="17"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1EdgePoint_1ab81774167430d41253fb9bb448ae120d" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
-        <definition>MRMESH_API MR::EdgePoint::EdgePoint</definition>
-        <argsstring>(const PolylineTopology &amp;topology, VertId v)</argsstring>
-        <name>EdgePoint</name>
-        <qualifiedname>MR::EdgePoint::EdgePoint</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1PolylineTopology" kindref="compound">PolylineTopology</ref> &amp;</type>
-          <declname>topology</declname>
-        </param>
-        <param>
-          <type>VertId</type>
-          <declname>v</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" line="18" column="17"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1EdgePoint_1a564ab78e8cb9ad078dc7f1b009c594c4" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> VertId</type>
-        <definition>MRMESH_API VertId MR::EdgePoint::inVertex</definition>
-        <argsstring>(const MeshTopology &amp;topology) const</argsstring>
-        <name>inVertex</name>
-        <qualifiedname>MR::EdgePoint::inVertex</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref> &amp;</type>
-          <declname>topology</declname>
-        </param>
-        <briefdescription>
-<para>returns valid vertex id if the point is in vertex, otherwise returns invalid id </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" line="21" column="24"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1EdgePoint_1a8af6e44f3bf41c0895fbef7ae838a263" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> VertId</type>
-        <definition>MRMESH_API VertId MR::EdgePoint::inVertex</definition>
-        <argsstring>(const PolylineTopology &amp;topology) const</argsstring>
-        <name>inVertex</name>
-        <qualifiedname>MR::EdgePoint::inVertex</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1PolylineTopology" kindref="compound">PolylineTopology</ref> &amp;</type>
-          <declname>topology</declname>
-        </param>
-        <briefdescription>
-<para>returns valid vertex id if the point is in vertex, otherwise returns invalid id </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" line="23" column="24"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1EdgePoint_1a28488f2c0e7f4adcdc3726f65d573682" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> VertId</type>
-        <definition>MRMESH_API VertId MR::EdgePoint::getClosestVertex</definition>
-        <argsstring>(const MeshTopology &amp;topology) const</argsstring>
-        <name>getClosestVertex</name>
-        <qualifiedname>MR::EdgePoint::getClosestVertex</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref> &amp;</type>
-          <declname>topology</declname>
-        </param>
-        <briefdescription>
-<para>returns one of two edge vertices, closest to this point </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" line="25" column="24"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1EdgePoint_1a4d2be6b280e0a7eeb76615b7a1b368d6" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> VertId</type>
-        <definition>MRMESH_API VertId MR::EdgePoint::getClosestVertex</definition>
-        <argsstring>(const PolylineTopology &amp;topology) const</argsstring>
-        <name>getClosestVertex</name>
-        <qualifiedname>MR::EdgePoint::getClosestVertex</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1PolylineTopology" kindref="compound">PolylineTopology</ref> &amp;</type>
-          <declname>topology</declname>
-        </param>
-        <briefdescription>
-<para>returns one of two edge vertices, closest to this point </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" line="27" column="24"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1EdgePoint_1a25f0e8422ec2c8591279616e4f81709a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::EdgePoint::inVertex</definition>
-        <argsstring>() const</argsstring>
-        <name>inVertex</name>
-        <qualifiedname>MR::EdgePoint::inVertex</qualifiedname>
-        <briefdescription>
-<para>returns true if the point is in a vertex </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" line="29" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" bodystart="29" bodyend="29"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1EdgePoint_1acd27d6b536b5412853a94133280b6802" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::EdgePoint::moveToClosestVertex</definition>
-        <argsstring>()</argsstring>
-        <name>moveToClosestVertex</name>
-        <qualifiedname>MR::EdgePoint::moveToClosestVertex</qualifiedname>
-        <briefdescription>
-<para>sets this to the closest end of the edge </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" line="31" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1EdgePoint_1a91ab20425879cb337a77e130ad484350" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
-        <definition>MRMESH_API bool MR::EdgePoint::isBd</definition>
-        <argsstring>(const MeshTopology &amp;topology, const FaceBitSet *region=nullptr) const</argsstring>
-        <name>isBd</name>
-        <qualifiedname>MR::EdgePoint::isBd</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref> &amp;</type>
-          <declname>topology</declname>
-        </param>
-        <param>
-          <type>const FaceBitSet *</type>
-          <declname>region</declname>
-          <defval>nullptr</defval>
-        </param>
-        <briefdescription>
-<para>returns true if the point is on the boundary of the region (or for whole mesh if region is nullptr) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" line="33" column="22"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1EdgePoint_1acea7869523473243ff95a916aa64a7d6" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::EdgePoint::valid</definition>
-        <argsstring>() const</argsstring>
-        <name>valid</name>
-        <qualifiedname>MR::EdgePoint::valid</qualifiedname>
-        <briefdescription>
-<para>consider this valid if the edge ID is valid </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" line="36" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" bodystart="36" bodyend="36"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1EdgePoint_1a544f2a00465ce861508927e122b12ee5" prot="public" static="no" nodiscard="yes" const="yes" explicit="yes" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::EdgePoint::operator bool</definition>
-        <argsstring>() const</argsstring>
-        <name>operator bool</name>
-        <qualifiedname>MR::EdgePoint::operator bool</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" line="37" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" bodystart="37" bodyend="37"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1EdgePoint_1a317789cb353e8dbe9c42661fe7c4f99f" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1EdgePoint" kindref="compound">EdgePoint</ref></type>
-        <definition>EdgePoint MR::EdgePoint::sym</definition>
-        <argsstring>() const</argsstring>
-        <name>sym</name>
-        <qualifiedname>MR::EdgePoint::sym</qualifiedname>
-        <briefdescription>
-<para>represents the same point relative to sym edge in </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" line="40" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" bodystart="40" bodyend="40"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1EdgePoint_1a9348793c688230e4be403fff5ad98741" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::EdgePoint::operator==</definition>
-        <argsstring>(const EdgePoint &amp;rhs) const =default</argsstring>
-        <name>operator==</name>
-        <qualifiedname>MR::EdgePoint::operator==</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1EdgePoint" kindref="compound">EdgePoint</ref> &amp;</type>
-          <declname>rhs</declname>
-        </param>
-        <briefdescription>
-<para>returns true if two edge-points are equal including equal not-unique representation </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" line="42" column="11"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaad45e724729c2566d956c24d4b0f62ad" kind="function"><name>EdgePoint</name></member>
+      <member refid="group__GeneralGroup_1ga823872832981f7242927eb2725053bea" kind="function"><name>EdgePoint</name></member>
+      <member refid="group__GeneralGroup_1ga78a1e20c8433641c96ee2a30d603a137" kind="function"><name>EdgePoint</name></member>
+      <member refid="group__GeneralGroup_1gab81774167430d41253fb9bb448ae120d" kind="function"><name>EdgePoint</name></member>
+      <member refid="group__GeneralGroup_1ga564ab78e8cb9ad078dc7f1b009c594c4" kind="function"><name>inVertex</name></member>
+      <member refid="group__GeneralGroup_1ga8af6e44f3bf41c0895fbef7ae838a263" kind="function"><name>inVertex</name></member>
+      <member refid="group__GeneralGroup_1ga28488f2c0e7f4adcdc3726f65d573682" kind="function"><name>getClosestVertex</name></member>
+      <member refid="group__GeneralGroup_1ga4d2be6b280e0a7eeb76615b7a1b368d6" kind="function"><name>getClosestVertex</name></member>
+      <member refid="group__GeneralGroup_1ga25f0e8422ec2c8591279616e4f81709a" kind="function"><name>inVertex</name></member>
+      <member refid="group__GeneralGroup_1gacd27d6b536b5412853a94133280b6802" kind="function"><name>moveToClosestVertex</name></member>
+      <member refid="group__GeneralGroup_1ga91ab20425879cb337a77e130ad484350" kind="function"><name>isBd</name></member>
+      <member refid="group__GeneralGroup_1gacea7869523473243ff95a916aa64a7d6" kind="function"><name>valid</name></member>
+      <member refid="group__GeneralGroup_1ga544f2a00465ce861508927e122b12ee5" kind="function"><name>operator bool</name></member>
+      <member refid="group__GeneralGroup_1ga317789cb353e8dbe9c42661fe7c4f99f" kind="function"><name>sym</name></member>
+      <member refid="group__GeneralGroup_1ga9348793c688230e4be403fff5ad98741" kind="function"><name>operator==</name></member>
     </sectiondef>
     <sectiondef kind="related">
-      <memberdef kind="function" id="structMR_1_1EdgePoint_1a1b897527d833919c4b3da5c84edd2d23" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
-        <definition>MRMESH_API bool fromSameTriangle</definition>
-        <argsstring>(const MeshTopology &amp;topology, EdgePoint &amp;a, EdgePoint &amp;b)</argsstring>
-        <name>fromSameTriangle</name>
-        <qualifiedname>MR::EdgePoint::fromSameTriangle</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref> &amp;</type>
-          <declname>topology</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1EdgePoint" kindref="compound">EdgePoint</ref> &amp;</type>
-          <declname>a</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1EdgePoint" kindref="compound">EdgePoint</ref> &amp;</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>returns true if points a and b are located on a boundary of the same triangle;</para>
-<para>if true a.e and b.e are updated to have that triangle on the left </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" line="85" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" declline="85" declcolumn="18"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1EdgePoint_1aeadc3f42a8934c969baee0104a2b7de3" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool fromSameTriangle</definition>
-        <argsstring>(const MeshTopology &amp;topology, EdgePoint &amp;&amp;a, EdgePoint &amp;&amp;b)</argsstring>
-        <name>fromSameTriangle</name>
-        <qualifiedname>MR::EdgePoint::fromSameTriangle</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref> &amp;</type>
-          <declname>topology</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1EdgePoint" kindref="compound">EdgePoint</ref> &amp;&amp;</type>
-          <declname>a</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1EdgePoint" kindref="compound">EdgePoint</ref> &amp;&amp;</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>returns true if points a and b are located on a boundary of the same triangle;</para>
-<para>if true a.e and b.e are updated to have that triangle on the left </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" line="89" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" bodystart="89" bodyend="89"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga1b897527d833919c4b3da5c84edd2d23" kind="function"><name>fromSameTriangle</name></member>
+      <member refid="group__GeneralGroup_1gaeadc3f42a8934c969baee0104a2b7de3" kind="function"><name>fromSameTriangle</name></member>
     </sectiondef>
     <briefdescription>
 <para>encodes a point on an edge of mesh or of polyline </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" line="10" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" bodystart="11" bodyend="43"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" bodystart="14" bodyend="46"/>
     <listofallmembers>
-      <member refid="structMR_1_1EdgePoint_1aa0e9261e0dcf014db57e19ce882ddcfb" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>a</name></member>
-      <member refid="structMR_1_1EdgePoint_1aa0fb43077718779351b94f5a803498a6" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>e</name></member>
-      <member refid="structMR_1_1EdgePoint_1aad45e724729c2566d956c24d4b0f62ad" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>EdgePoint</name></member>
-      <member refid="structMR_1_1EdgePoint_1a823872832981f7242927eb2725053bea" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>EdgePoint</name></member>
-      <member refid="structMR_1_1EdgePoint_1a78a1e20c8433641c96ee2a30d603a137" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>EdgePoint</name></member>
-      <member refid="structMR_1_1EdgePoint_1ab81774167430d41253fb9bb448ae120d" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>EdgePoint</name></member>
-      <member refid="structMR_1_1EdgePoint_1a1b897527d833919c4b3da5c84edd2d23" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>fromSameTriangle</name></member>
-      <member refid="structMR_1_1EdgePoint_1aeadc3f42a8934c969baee0104a2b7de3" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>fromSameTriangle</name></member>
-      <member refid="structMR_1_1EdgePoint_1a28488f2c0e7f4adcdc3726f65d573682" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>getClosestVertex</name></member>
-      <member refid="structMR_1_1EdgePoint_1a4d2be6b280e0a7eeb76615b7a1b368d6" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>getClosestVertex</name></member>
-      <member refid="structMR_1_1EdgePoint_1a564ab78e8cb9ad078dc7f1b009c594c4" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>inVertex</name></member>
-      <member refid="structMR_1_1EdgePoint_1a8af6e44f3bf41c0895fbef7ae838a263" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>inVertex</name></member>
-      <member refid="structMR_1_1EdgePoint_1a25f0e8422ec2c8591279616e4f81709a" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>inVertex</name></member>
-      <member refid="structMR_1_1EdgePoint_1a91ab20425879cb337a77e130ad484350" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>isBd</name></member>
-      <member refid="structMR_1_1EdgePoint_1acd27d6b536b5412853a94133280b6802" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>moveToClosestVertex</name></member>
-      <member refid="structMR_1_1EdgePoint_1a544f2a00465ce861508927e122b12ee5" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>operator bool</name></member>
-      <member refid="structMR_1_1EdgePoint_1a9348793c688230e4be403fff5ad98741" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>operator==</name></member>
-      <member refid="structMR_1_1EdgePoint_1a317789cb353e8dbe9c42661fe7c4f99f" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>sym</name></member>
-      <member refid="structMR_1_1EdgePoint_1acea7869523473243ff95a916aa64a7d6" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>valid</name></member>
+      <member refid="group__GeneralGroup_1gaa0e9261e0dcf014db57e19ce882ddcfb" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>a</name></member>
+      <member refid="group__GeneralGroup_1gaa0fb43077718779351b94f5a803498a6" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>e</name></member>
+      <member refid="group__GeneralGroup_1gaad45e724729c2566d956c24d4b0f62ad" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>EdgePoint</name></member>
+      <member refid="group__GeneralGroup_1ga823872832981f7242927eb2725053bea" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>EdgePoint</name></member>
+      <member refid="group__GeneralGroup_1ga78a1e20c8433641c96ee2a30d603a137" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>EdgePoint</name></member>
+      <member refid="group__GeneralGroup_1gab81774167430d41253fb9bb448ae120d" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>EdgePoint</name></member>
+      <member refid="group__GeneralGroup_1ga1b897527d833919c4b3da5c84edd2d23" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>fromSameTriangle</name></member>
+      <member refid="group__GeneralGroup_1gaeadc3f42a8934c969baee0104a2b7de3" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>fromSameTriangle</name></member>
+      <member refid="group__GeneralGroup_1ga28488f2c0e7f4adcdc3726f65d573682" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>getClosestVertex</name></member>
+      <member refid="group__GeneralGroup_1ga4d2be6b280e0a7eeb76615b7a1b368d6" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>getClosestVertex</name></member>
+      <member refid="group__GeneralGroup_1ga564ab78e8cb9ad078dc7f1b009c594c4" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>inVertex</name></member>
+      <member refid="group__GeneralGroup_1ga8af6e44f3bf41c0895fbef7ae838a263" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>inVertex</name></member>
+      <member refid="group__GeneralGroup_1ga25f0e8422ec2c8591279616e4f81709a" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>inVertex</name></member>
+      <member refid="group__GeneralGroup_1ga91ab20425879cb337a77e130ad484350" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>isBd</name></member>
+      <member refid="group__GeneralGroup_1gacd27d6b536b5412853a94133280b6802" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>moveToClosestVertex</name></member>
+      <member refid="group__GeneralGroup_1ga544f2a00465ce861508927e122b12ee5" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>operator bool</name></member>
+      <member refid="group__GeneralGroup_1ga9348793c688230e4be403fff5ad98741" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga317789cb353e8dbe9c42661fe7c4f99f" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>sym</name></member>
+      <member refid="group__GeneralGroup_1gacea7869523473243ff95a916aa64a7d6" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>valid</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

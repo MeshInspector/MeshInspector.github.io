@@ -7,602 +7,46 @@
     <innerclass refid="structMR_1_1Laplacian_1_1Equation" prot="private">MR::Laplacian::Equation</innerclass>
     <innerclass refid="classMR_1_1Laplacian_1_1Solver" prot="private">MR::Laplacian::Solver</innerclass>
     <sectiondef kind="public-type">
-      <memberdef kind="enum" id="classMR_1_1Laplacian_1a67c8dfc7669f41712a92d21d5ec99fed" prot="public" static="no" strong="yes">
-        <type></type>
-        <name>RememberShape</name>
-        <qualifiedname>MR::Laplacian::RememberShape</qualifiedname>
-        <enumvalue id="classMR_1_1Laplacian_1a67c8dfc7669f41712a92d21d5ec99feda93cba07454f06a4a960172bbd6e2a435" prot="public">
-          <name>Yes</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1Laplacian_1a67c8dfc7669f41712a92d21d5ec99fedabafd7322c6e97d25b6299b5d6fe8920b" prot="public">
-          <name>No</name>
-          <briefdescription>
-<para>true <ref refid="classMR_1_1Laplacian" kindref="compound">Laplacian</ref> mode when initial mesh shape is remembered and copied in apply </para>
-          </briefdescription>
-          <detaileddescription>
-<para>ignore initial mesh shape in the region and just position vertices smoothly in the region </para>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" line="23" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" bodystart="24" bodyend="27"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga67c8dfc7669f41712a92d21d5ec99fed" kind="enum"><name>RememberShape</name></member>
     </sectiondef>
     <sectiondef kind="private-type">
-      <memberdef kind="typedef" id="classMR_1_1Laplacian_1a1e93a879eaadfec3d0015f118fa5fc4a" prot="private" static="no">
-        <type>Eigen::SparseMatrix&lt; double, Eigen::RowMajor &gt;</type>
-        <definition>using MR::Laplacian::SparseMatrix =  Eigen::SparseMatrix&lt;double,Eigen::RowMajor&gt;</definition>
-        <argsstring></argsstring>
-        <name>SparseMatrix</name>
-        <qualifiedname>MR::Laplacian::SparseMatrix</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" line="108" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" bodystart="108" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1Laplacian_1a167fefaf482de016d077cd7d54066c53" prot="private" static="no">
-        <type>Eigen::SparseMatrix&lt; double, Eigen::ColMajor &gt;</type>
-        <definition>using MR::Laplacian::SparseMatrixColMajor =  Eigen::SparseMatrix&lt;double,Eigen::ColMajor&gt;</definition>
-        <argsstring></argsstring>
-        <name>SparseMatrixColMajor</name>
-        <qualifiedname>MR::Laplacian::SparseMatrixColMajor</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" line="113" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" bodystart="113" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga1e93a879eaadfec3d0015f118fa5fc4a" kind="typedef"><name>SparseMatrix</name></member>
+      <member refid="group__GeneralGroup_1ga167fefaf482de016d077cd7d54066c53" kind="typedef"><name>SparseMatrixColMajor</name></member>
     </sectiondef>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1Laplacian_1a112a32afcf865c5075765fe27e01b5db" prot="private" static="no" mutable="no">
-        <type>const <ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref> &amp;</type>
-        <definition>const MeshTopology&amp; MR::Laplacian::topology_</definition>
-        <argsstring></argsstring>
-        <name>topology_</name>
-        <qualifiedname>MR::Laplacian::topology_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" line="73" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" bodystart="73" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1Laplacian_1a44e84123023bc3e972f021bc5bacff9a" prot="private" static="no" mutable="no">
-        <type>VertCoords &amp;</type>
-        <definition>VertCoords&amp; MR::Laplacian::points_</definition>
-        <argsstring></argsstring>
-        <name>points_</name>
-        <qualifiedname>MR::Laplacian::points_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" line="74" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" bodystart="74" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1Laplacian_1a89275c83411511907eadafbab493bc78" prot="private" static="no" mutable="no">
-        <type>VertBitSet</type>
-        <definition>VertBitSet MR::Laplacian::region_</definition>
-        <argsstring></argsstring>
-        <name>region_</name>
-        <qualifiedname>MR::Laplacian::region_</qualifiedname>
-        <briefdescription>
-<para>all initially free vertices and the first layer of vertices around them </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" line="77" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" bodystart="77" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1Laplacian_1a0b96cdc6bcf86ca8f5867bfe56b00cf7" prot="private" static="no" mutable="no">
-        <type>VertBitSet</type>
-        <definition>VertBitSet MR::Laplacian::freeVerts_</definition>
-        <argsstring></argsstring>
-        <name>freeVerts_</name>
-        <qualifiedname>MR::Laplacian::freeVerts_</qualifiedname>
-        <briefdescription>
-<para>currently free vertices </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" line="80" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" bodystart="80" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1Laplacian_1a94d87ecc413fa169f7ba71d81fe2beb5" prot="private" static="no" mutable="no">
-        <type>VertBitSet</type>
-        <definition>VertBitSet MR::Laplacian::fixedSharpVertices_</definition>
-        <argsstring></argsstring>
-        <name>fixedSharpVertices_</name>
-        <qualifiedname>MR::Laplacian::fixedSharpVertices_</qualifiedname>
-        <briefdescription>
-<para>fixed vertices where no smoothness is required </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" line="83" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" bodystart="83" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1Laplacian_1af5bec5489bf7788b10653858d4fd9445" prot="private" static="no" mutable="no">
-        <type>VertBitSet</type>
-        <definition>VertBitSet MR::Laplacian::firstLayerFixedVerts_</definition>
-        <argsstring></argsstring>
-        <name>firstLayerFixedVerts_</name>
-        <qualifiedname>MR::Laplacian::firstLayerFixedVerts_</qualifiedname>
-        <briefdescription>
-<para>fixed vertices from the first layer around free vertices </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" line="86" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" bodystart="86" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1Laplacian_1adf4b40a1aa8036ab388aba99053ea46a" prot="private" static="no" mutable="no">
-        <type>std::vector&lt; Equation &gt;</type>
-        <definition>std::vector&lt;Equation&gt; MR::Laplacian::equations_</definition>
-        <argsstring></argsstring>
-        <name>equations_</name>
-        <qualifiedname>MR::Laplacian::equations_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" line="95" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" bodystart="95" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1Laplacian_1ab6ccb98d1f89ee8ada71df4f50a55371" prot="private" static="no" mutable="no">
-        <type>std::vector&lt; Element &gt;</type>
-        <definition>std::vector&lt;Element&gt; MR::Laplacian::nonZeroElements_</definition>
-        <argsstring></argsstring>
-        <name>nonZeroElements_</name>
-        <qualifiedname>MR::Laplacian::nonZeroElements_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" line="102" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" bodystart="102" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1Laplacian_1a370d50bcaff0164140181254769159d3" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; int, VertId &gt;</type>
-        <definition>Vector&lt; int, VertId &gt; MR::Laplacian::regionVert2id_</definition>
-        <argsstring></argsstring>
-        <name>regionVert2id_</name>
-        <qualifiedname>MR::Laplacian::regionVert2id_</qualifiedname>
-        <briefdescription>
-<para>map from vertex index to matrix row/col </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" line="105" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" bodystart="105" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1Laplacian_1a0b3def1240423bd62f55b011b88532b3" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; int, VertId &gt;</type>
-        <definition>Vector&lt; int, VertId &gt; MR::Laplacian::freeVert2id_</definition>
-        <argsstring></argsstring>
-        <name>freeVert2id_</name>
-        <qualifiedname>MR::Laplacian::freeVert2id_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" line="106" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" bodystart="106" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1Laplacian_1abc07a09dfcc8f49d9f1a0c2b985c1e66" prot="private" static="no" mutable="no">
-        <type>SparseMatrix</type>
-        <definition>SparseMatrix MR::Laplacian::M_</definition>
-        <argsstring></argsstring>
-        <name>M_</name>
-        <qualifiedname>MR::Laplacian::M_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" line="109" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" bodystart="109" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1Laplacian_1a1c5b2e08decdb2a6e4685ceea29cae61" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::Laplacian::solverValid_</definition>
-        <argsstring></argsstring>
-        <name>solverValid_</name>
-        <qualifiedname>MR::Laplacian::solverValid_</qualifiedname>
-        <initializer>= false</initializer>
-        <briefdescription>
-<para>if true then we do not need to recompute solver_ in the apply </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" line="112" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" bodystart="112" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1Laplacian_1ade04ad69951c0a7fea994dd296614113" prot="private" static="no" mutable="no">
-        <type>std::unique_ptr&lt; Solver &gt;</type>
-        <definition>std::unique_ptr&lt;Solver&gt; MR::Laplacian::solver_</definition>
-        <argsstring></argsstring>
-        <name>solver_</name>
-        <qualifiedname>MR::Laplacian::solver_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" line="123" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" bodystart="123" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1Laplacian_1a6d44777bdfa7499069c9d45cce1d557c" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::Laplacian::rhsValid_</definition>
-        <argsstring></argsstring>
-        <name>rhsValid_</name>
-        <qualifiedname>MR::Laplacian::rhsValid_</qualifiedname>
-        <initializer>= false</initializer>
-        <briefdescription>
-<para>if true then we do not need to recompute rhs_ in the apply </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" line="126" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" bodystart="126" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1Laplacian_1adb64b7ef76faa31ee82d787ea107dc93" prot="private" static="no" mutable="no">
-        <type>Eigen::VectorXd</type>
-        <definition>Eigen::VectorXd MR::Laplacian::rhs_[3]</definition>
-        <argsstring>[3]</argsstring>
-        <name>rhs_</name>
-        <qualifiedname>MR::Laplacian::rhs_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" line="127" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" bodystart="127" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga112a32afcf865c5075765fe27e01b5db" kind="variable"><name>topology_</name></member>
+      <member refid="group__GeneralGroup_1ga44e84123023bc3e972f021bc5bacff9a" kind="variable"><name>points_</name></member>
+      <member refid="group__GeneralGroup_1ga89275c83411511907eadafbab493bc78" kind="variable"><name>region_</name></member>
+      <member refid="group__GeneralGroup_1ga0b96cdc6bcf86ca8f5867bfe56b00cf7" kind="variable"><name>freeVerts_</name></member>
+      <member refid="group__GeneralGroup_1ga94d87ecc413fa169f7ba71d81fe2beb5" kind="variable"><name>fixedSharpVertices_</name></member>
+      <member refid="group__GeneralGroup_1gaf5bec5489bf7788b10653858d4fd9445" kind="variable"><name>firstLayerFixedVerts_</name></member>
+      <member refid="group__GeneralGroup_1gadf4b40a1aa8036ab388aba99053ea46a" kind="variable"><name>equations_</name></member>
+      <member refid="group__GeneralGroup_1gab6ccb98d1f89ee8ada71df4f50a55371" kind="variable"><name>nonZeroElements_</name></member>
+      <member refid="group__GeneralGroup_1ga370d50bcaff0164140181254769159d3" kind="variable"><name>regionVert2id_</name></member>
+      <member refid="group__GeneralGroup_1ga0b3def1240423bd62f55b011b88532b3" kind="variable"><name>freeVert2id_</name></member>
+      <member refid="group__GeneralGroup_1gabc07a09dfcc8f49d9f1a0c2b985c1e66" kind="variable"><name>M_</name></member>
+      <member refid="group__GeneralGroup_1ga1c5b2e08decdb2a6e4685ceea29cae61" kind="variable"><name>solverValid_</name></member>
+      <member refid="group__GeneralGroup_1gade04ad69951c0a7fea994dd296614113" kind="variable"><name>solver_</name></member>
+      <member refid="group__GeneralGroup_1ga6d44777bdfa7499069c9d45cce1d557c" kind="variable"><name>rhsValid_</name></member>
+      <member refid="group__GeneralGroup_1gadb64b7ef76faa31ee82d787ea107dc93" kind="variable"><name>rhs_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1Laplacian_1a73bfefd11d47ad836834540e5e85f7b3" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
-        <definition>MRMESH_API MR::Laplacian::Laplacian</definition>
-        <argsstring>(Mesh &amp;mesh)</argsstring>
-        <name>Laplacian</name>
-        <qualifiedname>MR::Laplacian::Laplacian</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &amp;</type>
-          <declname>mesh</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" line="29" column="25"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Laplacian_1a76c6a49784d646ffed8a834c10e927df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::Laplacian::Laplacian</definition>
-        <argsstring>(const MeshTopology &amp;topology, VertCoords &amp;points)</argsstring>
-        <name>Laplacian</name>
-        <qualifiedname>MR::Laplacian::Laplacian</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref> &amp;</type>
-          <declname>topology</declname>
-        </param>
-        <param>
-          <type>VertCoords &amp;</type>
-          <declname>points</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" line="30" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" bodystart="30" bodyend="30"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Laplacian_1a9722fea3de00eb2456b5578da15a385a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::Laplacian::init</definition>
-        <argsstring>(const VertBitSet &amp;freeVerts, EdgeWeights weights, VertexMass vmass=VertexMass::Unit, RememberShape rem=Laplacian::RememberShape::Yes)</argsstring>
-        <name>init</name>
-        <qualifiedname>MR::Laplacian::init</qualifiedname>
-        <param>
-          <type>const VertBitSet &amp;</type>
-          <declname>freeVerts</declname>
-        </param>
-        <param>
-          <type><ref refid="namespaceMR_1a5ac9f08cd2ef48394fa1c77a8ebdd6c8" kindref="member">EdgeWeights</ref></type>
-          <declname>weights</declname>
-        </param>
-        <param>
-          <type><ref refid="namespaceMR_1ada281bbc8bccd66b01be1b6d2b99e3cd" kindref="member">VertexMass</ref></type>
-          <declname>vmass</declname>
-          <defval><ref refid="namespaceMR_1ada281bbc8bccd66b01be1b6d2b99e3cda19c562a36aeb455d09534f93b4f5236f" kindref="member">VertexMass::Unit</ref></defval>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1Laplacian_1a67c8dfc7669f41712a92d21d5ec99fed" kindref="member">RememberShape</ref></type>
-          <declname>rem</declname>
-          <defval><ref refid="classMR_1_1Laplacian_1a67c8dfc7669f41712a92d21d5ec99feda93cba07454f06a4a960172bbd6e2a435" kindref="member">Laplacian::RememberShape::Yes</ref></defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>initialize <ref refid="classMR_1_1Laplacian" kindref="compound">Laplacian</ref> for the region being deformed, here region properties are remembered and precomputed; <parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>freeVerts</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>must not include all vertices of a mesh connected component </para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" line="34" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Laplacian_1abde407cebf38b19019235ca25c82309e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::Laplacian::fixVertex</definition>
-        <argsstring>(VertId v, bool smooth=true)</argsstring>
-        <name>fixVertex</name>
-        <qualifiedname>MR::Laplacian::fixVertex</qualifiedname>
-        <param>
-          <type>VertId</type>
-          <declname>v</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>smooth</declname>
-          <defval>true</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>notify <ref refid="classMR_1_1Laplacian" kindref="compound">Laplacian</ref> that given vertex has changed after init and must be fixed during apply; <parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>smooth</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>whether to make the surface smooth in this vertex (sharp otherwise) </para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" line="39" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Laplacian_1a215e845242a349800e84d63d629cd76f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::Laplacian::fixVertex</definition>
-        <argsstring>(VertId v, const Vector3f &amp;fixedPos, bool smooth=true)</argsstring>
-        <name>fixVertex</name>
-        <qualifiedname>MR::Laplacian::fixVertex</qualifiedname>
-        <param>
-          <type>VertId</type>
-          <declname>v</declname>
-        </param>
-        <param>
-          <type>const Vector3f &amp;</type>
-          <declname>fixedPos</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>smooth</declname>
-          <defval>true</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>sets position of given vertex after init and it must be fixed during apply (THIS METHOD CHANGES THE MESH); <parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>smooth</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>whether to make the surface smooth in this vertex (sharp otherwise) </para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" line="43" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Laplacian_1a3e7bb340acaa3ef81fe7ed9f5eaaf226" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::Laplacian::updateSolver</definition>
-        <argsstring>()</argsstring>
-        <name>updateSolver</name>
-        <qualifiedname>MR::Laplacian::updateSolver</qualifiedname>
-        <briefdescription>
-<para>if you manually call this method after initialization and fixing vertices then next apply call will be much faster </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" line="46" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Laplacian_1a1a99ff3fbda2af6c118c5bb00a99d5d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::Laplacian::apply</definition>
-        <argsstring>()</argsstring>
-        <name>apply</name>
-        <qualifiedname>MR::Laplacian::apply</qualifiedname>
-        <briefdescription>
-<para>given fixed vertices, computes positions of remaining region vertices </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" line="49" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Laplacian_1afdf4e4b8b9500077dbd7d806dfc74f54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::Laplacian::applyToScalar</definition>
-        <argsstring>(VertScalars &amp;scalarField)</argsstring>
-        <name>applyToScalar</name>
-        <qualifiedname>MR::Laplacian::applyToScalar</qualifiedname>
-        <param>
-          <type>VertScalars &amp;</type>
-          <declname>scalarField</declname>
-        </param>
-        <briefdescription>
-<para>given a pre-resized scalar field with set values in fixed vertices, computes the values in free vertices </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" line="52" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Laplacian_1a9ad9ba866f86e02979c7ad6b6af3331c" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const VertBitSet &amp;</type>
-        <definition>const VertBitSet &amp; MR::Laplacian::region</definition>
-        <argsstring>() const</argsstring>
-        <name>region</name>
-        <qualifiedname>MR::Laplacian::region</qualifiedname>
-        <briefdescription>
-<para>return all initially free vertices and the first layer of vertices around them </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" line="55" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" bodystart="55" bodyend="55"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Laplacian_1a193dcb7b5ba595a2dad19cf1b4af4ce9" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const VertBitSet &amp;</type>
-        <definition>const VertBitSet &amp; MR::Laplacian::freeVerts</definition>
-        <argsstring>() const</argsstring>
-        <name>freeVerts</name>
-        <qualifiedname>MR::Laplacian::freeVerts</qualifiedname>
-        <briefdescription>
-<para>return currently free vertices </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" line="58" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" bodystart="58" bodyend="58"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Laplacian_1a1d3cc11b268b8962ef51d56d4946b2a8" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const VertBitSet &amp;</type>
-        <definition>const VertBitSet &amp; MR::Laplacian::firstLayerFixedVerts</definition>
-        <argsstring>() const</argsstring>
-        <name>firstLayerFixedVerts</name>
-        <qualifiedname>MR::Laplacian::firstLayerFixedVerts</qualifiedname>
-        <briefdescription>
-<para>return fixed vertices from the first layer around free vertices </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" line="61" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" bodystart="61" bodyend="61"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga73bfefd11d47ad836834540e5e85f7b3" kind="function"><name>Laplacian</name></member>
+      <member refid="group__GeneralGroup_1ga76c6a49784d646ffed8a834c10e927df" kind="function"><name>Laplacian</name></member>
+      <member refid="group__GeneralGroup_1ga9722fea3de00eb2456b5578da15a385a" kind="function"><name>init</name></member>
+      <member refid="group__GeneralGroup_1gabde407cebf38b19019235ca25c82309e" kind="function"><name>fixVertex</name></member>
+      <member refid="group__GeneralGroup_1ga215e845242a349800e84d63d629cd76f" kind="function"><name>fixVertex</name></member>
+      <member refid="group__GeneralGroup_1ga3e7bb340acaa3ef81fe7ed9f5eaaf226" kind="function"><name>updateSolver</name></member>
+      <member refid="group__GeneralGroup_1ga1a99ff3fbda2af6c118c5bb00a99d5d1" kind="function"><name>apply</name></member>
+      <member refid="group__GeneralGroup_1gafdf4e4b8b9500077dbd7d806dfc74f54" kind="function"><name>applyToScalar</name></member>
+      <member refid="group__GeneralGroup_1ga9ad9ba866f86e02979c7ad6b6af3331c" kind="function"><name>region</name></member>
+      <member refid="group__GeneralGroup_1ga193dcb7b5ba595a2dad19cf1b4af4ce9" kind="function"><name>freeVerts</name></member>
+      <member refid="group__GeneralGroup_1ga1d3cc11b268b8962ef51d56d4946b2a8" kind="function"><name>firstLayerFixedVerts</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMR_1_1Laplacian_1aa6b38e190238d2d7f20ec837ffecfb89" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::Laplacian::updateSolver_</definition>
-        <argsstring>()</argsstring>
-        <name>updateSolver_</name>
-        <qualifiedname>MR::Laplacian::updateSolver_</qualifiedname>
-        <briefdescription>
-<para>updates solver_ only </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" line="65" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Laplacian_1a78041bf17776f7649162fdf85075ce35" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::Laplacian::updateRhs_</definition>
-        <argsstring>()</argsstring>
-        <name>updateRhs_</name>
-        <qualifiedname>MR::Laplacian::updateRhs_</qualifiedname>
-        <briefdescription>
-<para>updates rhs_ only </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" line="68" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Laplacian_1a43337cdfbfda33650db592f0c4a1fae3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename <ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref></type>
-          </param>
-          <param>
-            <type>typename G</type>
-          </param>
-          <param>
-            <type>typename S</type>
-          </param>
-        </templateparamlist>
-        <type>void</type>
-        <definition>void MR::Laplacian::prepareRhs_</definition>
-        <argsstring>(I &amp;&amp;iniRhs, G &amp;&amp;g, S &amp;&amp;s)</argsstring>
-        <name>prepareRhs_</name>
-        <qualifiedname>MR::Laplacian::prepareRhs_</qualifiedname>
-        <param>
-          <type><ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref> &amp;&amp;</type>
-          <declname>iniRhs</declname>
-        </param>
-        <param>
-          <type>G &amp;&amp;</type>
-          <declname>g</declname>
-        </param>
-        <param>
-          <type>S &amp;&amp;</type>
-          <declname>s</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" line="71" column="10"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaa6b38e190238d2d7f20ec837ffecfb89" kind="function"><name>updateSolver_</name></member>
+      <member refid="group__GeneralGroup_1ga78041bf17776f7649162fdf85075ce35" kind="function"><name>updateRhs_</name></member>
+      <member refid="group__GeneralGroup_1ga43337cdfbfda33650db592f0c4a1fae3" kind="function"><name>prepareRhs_</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -610,45 +54,45 @@
 <para><ref refid="classMR_1_1Laplacian" kindref="compound">Laplacian</ref> to smoothly deform a region preserving mesh fine details. How to use:<orderedlist>
 <listitem><para>Initialize <ref refid="classMR_1_1Laplacian" kindref="compound">Laplacian</ref> for the region being deformed, here region properties are remembered.</para>
 </listitem><listitem><para>Change positions of some vertices within the region and call fixVertex for them.</para>
-</listitem><listitem><para>Optionally call <ref refid="classMR_1_1Laplacian_1a3e7bb340acaa3ef81fe7ed9f5eaaf226" kindref="member">updateSolver()</ref></para>
-</listitem><listitem><para>Call <ref refid="classMR_1_1Laplacian_1a1a99ff3fbda2af6c118c5bb00a99d5d1" kindref="member">apply()</ref> to change the remaining vertices within the region Then steps 1-4 or 2-4 can be repeated. <programlisting filename="cpp-samples/LaplacianDeformation.cpp"></programlisting> </para>
+</listitem><listitem><para>Optionally call <ref refid="group__GeneralGroup_1ga3e7bb340acaa3ef81fe7ed9f5eaaf226" kindref="member">updateSolver()</ref></para>
+</listitem><listitem><para>Call <ref refid="group__GeneralGroup_1ga1a99ff3fbda2af6c118c5bb00a99d5d1" kindref="member">apply()</ref> to change the remaining vertices within the region Then steps 1-4 or 2-4 can be repeated. <programlisting filename="cpp-samples/LaplacianDeformation.cpp"></programlisting> </para>
 </listitem></orderedlist>
 </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" line="20" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" bodystart="21" bodyend="128"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" line="23" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" bodystart="24" bodyend="131"/>
     <listofallmembers>
-      <member refid="classMR_1_1Laplacian_1a1a99ff3fbda2af6c118c5bb00a99d5d1" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>apply</name></member>
-      <member refid="classMR_1_1Laplacian_1afdf4e4b8b9500077dbd7d806dfc74f54" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>applyToScalar</name></member>
-      <member refid="classMR_1_1Laplacian_1adf4b40a1aa8036ab388aba99053ea46a" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>equations_</name></member>
-      <member refid="classMR_1_1Laplacian_1a1d3cc11b268b8962ef51d56d4946b2a8" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>firstLayerFixedVerts</name></member>
-      <member refid="classMR_1_1Laplacian_1af5bec5489bf7788b10653858d4fd9445" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>firstLayerFixedVerts_</name></member>
-      <member refid="classMR_1_1Laplacian_1a94d87ecc413fa169f7ba71d81fe2beb5" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>fixedSharpVertices_</name></member>
-      <member refid="classMR_1_1Laplacian_1abde407cebf38b19019235ca25c82309e" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>fixVertex</name></member>
-      <member refid="classMR_1_1Laplacian_1a215e845242a349800e84d63d629cd76f" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>fixVertex</name></member>
-      <member refid="classMR_1_1Laplacian_1a0b3def1240423bd62f55b011b88532b3" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>freeVert2id_</name></member>
-      <member refid="classMR_1_1Laplacian_1a193dcb7b5ba595a2dad19cf1b4af4ce9" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>freeVerts</name></member>
-      <member refid="classMR_1_1Laplacian_1a0b96cdc6bcf86ca8f5867bfe56b00cf7" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>freeVerts_</name></member>
-      <member refid="classMR_1_1Laplacian_1a9722fea3de00eb2456b5578da15a385a" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>init</name></member>
-      <member refid="classMR_1_1Laplacian_1a73bfefd11d47ad836834540e5e85f7b3" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>Laplacian</name></member>
-      <member refid="classMR_1_1Laplacian_1a76c6a49784d646ffed8a834c10e927df" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>Laplacian</name></member>
-      <member refid="classMR_1_1Laplacian_1abc07a09dfcc8f49d9f1a0c2b985c1e66" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>M_</name></member>
-      <member refid="classMR_1_1Laplacian_1ab6ccb98d1f89ee8ada71df4f50a55371" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>nonZeroElements_</name></member>
-      <member refid="classMR_1_1Laplacian_1a44e84123023bc3e972f021bc5bacff9a" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>points_</name></member>
-      <member refid="classMR_1_1Laplacian_1a43337cdfbfda33650db592f0c4a1fae3" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>prepareRhs_</name></member>
-      <member refid="classMR_1_1Laplacian_1a9ad9ba866f86e02979c7ad6b6af3331c" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>region</name></member>
-      <member refid="classMR_1_1Laplacian_1a89275c83411511907eadafbab493bc78" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>region_</name></member>
-      <member refid="classMR_1_1Laplacian_1a370d50bcaff0164140181254769159d3" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>regionVert2id_</name></member>
-      <member refid="classMR_1_1Laplacian_1a67c8dfc7669f41712a92d21d5ec99fed" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>RememberShape</name></member>
-      <member refid="classMR_1_1Laplacian_1adb64b7ef76faa31ee82d787ea107dc93" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>rhs_</name></member>
-      <member refid="classMR_1_1Laplacian_1a6d44777bdfa7499069c9d45cce1d557c" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>rhsValid_</name></member>
-      <member refid="classMR_1_1Laplacian_1ade04ad69951c0a7fea994dd296614113" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>solver_</name></member>
-      <member refid="classMR_1_1Laplacian_1a1c5b2e08decdb2a6e4685ceea29cae61" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>solverValid_</name></member>
-      <member refid="classMR_1_1Laplacian_1a1e93a879eaadfec3d0015f118fa5fc4a" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>SparseMatrix</name></member>
-      <member refid="classMR_1_1Laplacian_1a167fefaf482de016d077cd7d54066c53" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>SparseMatrixColMajor</name></member>
-      <member refid="classMR_1_1Laplacian_1a112a32afcf865c5075765fe27e01b5db" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>topology_</name></member>
-      <member refid="classMR_1_1Laplacian_1a78041bf17776f7649162fdf85075ce35" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>updateRhs_</name></member>
-      <member refid="classMR_1_1Laplacian_1a3e7bb340acaa3ef81fe7ed9f5eaaf226" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>updateSolver</name></member>
-      <member refid="classMR_1_1Laplacian_1aa6b38e190238d2d7f20ec837ffecfb89" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>updateSolver_</name></member>
+      <member refid="group__GeneralGroup_1ga1a99ff3fbda2af6c118c5bb00a99d5d1" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>apply</name></member>
+      <member refid="group__GeneralGroup_1gafdf4e4b8b9500077dbd7d806dfc74f54" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>applyToScalar</name></member>
+      <member refid="group__GeneralGroup_1gadf4b40a1aa8036ab388aba99053ea46a" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>equations_</name></member>
+      <member refid="group__GeneralGroup_1ga1d3cc11b268b8962ef51d56d4946b2a8" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>firstLayerFixedVerts</name></member>
+      <member refid="group__GeneralGroup_1gaf5bec5489bf7788b10653858d4fd9445" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>firstLayerFixedVerts_</name></member>
+      <member refid="group__GeneralGroup_1ga94d87ecc413fa169f7ba71d81fe2beb5" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>fixedSharpVertices_</name></member>
+      <member refid="group__GeneralGroup_1gabde407cebf38b19019235ca25c82309e" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>fixVertex</name></member>
+      <member refid="group__GeneralGroup_1ga215e845242a349800e84d63d629cd76f" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>fixVertex</name></member>
+      <member refid="group__GeneralGroup_1ga0b3def1240423bd62f55b011b88532b3" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>freeVert2id_</name></member>
+      <member refid="group__GeneralGroup_1ga193dcb7b5ba595a2dad19cf1b4af4ce9" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>freeVerts</name></member>
+      <member refid="group__GeneralGroup_1ga0b96cdc6bcf86ca8f5867bfe56b00cf7" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>freeVerts_</name></member>
+      <member refid="group__GeneralGroup_1ga9722fea3de00eb2456b5578da15a385a" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>init</name></member>
+      <member refid="group__GeneralGroup_1ga73bfefd11d47ad836834540e5e85f7b3" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>Laplacian</name></member>
+      <member refid="group__GeneralGroup_1ga76c6a49784d646ffed8a834c10e927df" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>Laplacian</name></member>
+      <member refid="group__GeneralGroup_1gabc07a09dfcc8f49d9f1a0c2b985c1e66" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>M_</name></member>
+      <member refid="group__GeneralGroup_1gab6ccb98d1f89ee8ada71df4f50a55371" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>nonZeroElements_</name></member>
+      <member refid="group__GeneralGroup_1ga44e84123023bc3e972f021bc5bacff9a" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>points_</name></member>
+      <member refid="group__GeneralGroup_1ga43337cdfbfda33650db592f0c4a1fae3" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>prepareRhs_</name></member>
+      <member refid="group__GeneralGroup_1ga9ad9ba866f86e02979c7ad6b6af3331c" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>region</name></member>
+      <member refid="group__GeneralGroup_1ga89275c83411511907eadafbab493bc78" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>region_</name></member>
+      <member refid="group__GeneralGroup_1ga370d50bcaff0164140181254769159d3" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>regionVert2id_</name></member>
+      <member refid="group__GeneralGroup_1ga67c8dfc7669f41712a92d21d5ec99fed" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>RememberShape</name></member>
+      <member refid="group__GeneralGroup_1gadb64b7ef76faa31ee82d787ea107dc93" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>rhs_</name></member>
+      <member refid="group__GeneralGroup_1ga6d44777bdfa7499069c9d45cce1d557c" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>rhsValid_</name></member>
+      <member refid="group__GeneralGroup_1gade04ad69951c0a7fea994dd296614113" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>solver_</name></member>
+      <member refid="group__GeneralGroup_1ga1c5b2e08decdb2a6e4685ceea29cae61" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>solverValid_</name></member>
+      <member refid="group__GeneralGroup_1ga1e93a879eaadfec3d0015f118fa5fc4a" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>SparseMatrix</name></member>
+      <member refid="group__GeneralGroup_1ga167fefaf482de016d077cd7d54066c53" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>SparseMatrixColMajor</name></member>
+      <member refid="group__GeneralGroup_1ga112a32afcf865c5075765fe27e01b5db" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>topology_</name></member>
+      <member refid="group__GeneralGroup_1ga78041bf17776f7649162fdf85075ce35" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>updateRhs_</name></member>
+      <member refid="group__GeneralGroup_1ga3e7bb340acaa3ef81fe7ed9f5eaaf226" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>updateSolver</name></member>
+      <member refid="group__GeneralGroup_1gaa6b38e190238d2d7f20ec837ffecfb89" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>updateSolver_</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

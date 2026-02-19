@@ -21,7 +21,7 @@
     </sectiondef>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1Logger_1aac7549309d09f2c9a41818a18c1b0e50" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="classMR_1_1Logger" kindref="compound">Logger</ref> &amp;</type>
+        <type>MRMESH_API <ref refid="classMR_1_1Logger" kindref="compound">Logger</ref> &amp;</type>
         <definition>static MRMESH_API Logger &amp; MR::Logger::instance</definition>
         <argsstring>()</argsstring>
         <name>instance</name>
@@ -37,7 +37,7 @@
     </sectiondef>
     <sectiondef kind="public-func">
       <memberdef kind="function" id="classMR_1_1Logger_1ac5d54247fea49f7312322217b9c8620b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> const std::shared_ptr&lt; spdlog::logger &gt; &amp;</type>
+        <type>MRMESH_API const std::shared_ptr&lt; spdlog::logger &gt; &amp;</type>
         <definition>MRMESH_API const std::shared_ptr&lt; spdlog::logger &gt; &amp; MR::Logger::getSpdLogger</definition>
         <argsstring>() const</argsstring>
         <name>getSpdLogger</name>
@@ -52,7 +52,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLog.h" line="28" column="38"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Logger_1aedaebeb791f1300a121668a8a525ecb1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::string</type>
+        <type>MRMESH_API std::string</type>
         <definition>MRMESH_API std::string MR::Logger::getDefaultPattern</definition>
         <argsstring>() const</argsstring>
         <name>getDefaultPattern</name>
@@ -67,7 +67,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLog.h" line="31" column="28"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Logger_1a07fd961518f48457c8f593cb84b583cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::Logger::addSink</definition>
         <argsstring>(const spdlog::sink_ptr &amp;sink)</argsstring>
         <name>addSink</name>
@@ -86,7 +86,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLog.h" line="34" column="21"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Logger_1a49397b1c0308f3639e914775ba6d0b38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::Logger::removeSink</definition>
         <argsstring>(const spdlog::sink_ptr &amp;sink)</argsstring>
         <name>removeSink</name>
@@ -104,7 +104,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLog.h" line="35" column="21"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Logger_1a36009f2c90bd53d2e844e3c72c21e554" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::filesystem::path</type>
+        <type>MRMESH_API std::filesystem::path</type>
         <definition>MRMESH_API std::filesystem::path MR::Logger::getLogFileName</definition>
         <argsstring>() const</argsstring>
         <name>getLogFileName</name>

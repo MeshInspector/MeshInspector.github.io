@@ -148,7 +148,7 @@ $(function(){initNavTree('structMR_1_1BendTextAlongCurveParams.html',''); initRe
   <div class="summary">
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structMR_1_1BendTextAlongCurveParams-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">MR::BendTextAlongCurveParams Struct Reference</div></div>
+  <div class="headertitle"><div class="title">MR::BendTextAlongCurveParams Struct Reference<div class="ingroups"><a class="el" href="group__GeneralGroup.html">GeneralGroup</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -156,158 +156,30 @@ $(function(){initNavTree('structMR_1_1BendTextAlongCurveParams.html',''); initRe
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a4a9a6eb9636e1af0ef610b64713efa22" id="r_a4a9a6eb9636e1af0ef610b64713efa22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1SymbolMeshParams.html">SymbolMeshParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a9a6eb9636e1af0ef610b64713efa22">symbolMesh</a></td></tr>
-<tr class="memdesc:a4a9a6eb9636e1af0ef610b64713efa22"><td class="mdescLeft">&#160;</td><td class="mdescRight">parameters of contours to mesh conversion  <br /></td></tr>
-<tr class="separator:a4a9a6eb9636e1af0ef610b64713efa22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89e409e3deb6eecf6b00364ed3232f32" id="r_a89e409e3deb6eecf6b00364ed3232f32"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89e409e3deb6eecf6b00364ed3232f32">pivotCurveTime</a> = 0</td></tr>
-<tr class="memdesc:a89e409e3deb6eecf6b00364ed3232f32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Position on the curve, where bounding box's pivot point is mapped.  <br /></td></tr>
-<tr class="separator:a89e409e3deb6eecf6b00364ed3232f32"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11ae334627b1839f30cdfb81d2eb2122" id="r_a11ae334627b1839f30cdfb81d2eb2122"><td class="memItemLeft" align="right" valign="top">Vector2f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11ae334627b1839f30cdfb81d2eb2122">pivotBoxPoint</a> {0.0f, 0.0f}</td></tr>
-<tr class="separator:a11ae334627b1839f30cdfb81d2eb2122"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a467c8429ca87dff767c0ef4ca53a56b9" id="r_a467c8429ca87dff767c0ef4ca53a56b9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a467c8429ca87dff767c0ef4ca53a56b9">fontHeight</a> {1.0f}</td></tr>
-<tr class="memdesc:a467c8429ca87dff767c0ef4ca53a56b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Font height, meters.  <br /></td></tr>
-<tr class="separator:a467c8429ca87dff767c0ef4ca53a56b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa25769e7e2993d6ab9f2a0d7d974c78e" id="r_aa25769e7e2993d6ab9f2a0d7d974c78e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa25769e7e2993d6ab9f2a0d7d974c78e">surfaceOffset</a> {1.0f}</td></tr>
-<tr class="memdesc:aa25769e7e2993d6ab9f2a0d7d974c78e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Text mesh inside and outside offset of curve's surface.  <br /></td></tr>
-<tr class="separator:aa25769e7e2993d6ab9f2a0d7d974c78e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a150d2432577e3c10550d8ac37280d360" id="r_a150d2432577e3c10550d8ac37280d360"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a150d2432577e3c10550d8ac37280d360">fontBasedSizeCalc</a> { false }</td></tr>
-<tr class="memdesc:a150d2432577e3c10550d8ac37280d360"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true then size of each symbol will be calculated from font height, otherwise - on bounding box of the text.  <br /></td></tr>
-<tr class="separator:a150d2432577e3c10550d8ac37280d360"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc50976c15668b5a83ec1be8ed42e136" id="r_afc50976c15668b5a83ec1be8ed42e136"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc50976c15668b5a83ec1be8ed42e136">periodicCurve</a> = false</td></tr>
-<tr class="memdesc:afc50976c15668b5a83ec1be8ed42e136"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true, curve parameter will be always within [0,1) with repetition: xr := x - floor(x)  <br /></td></tr>
-<tr class="separator:afc50976c15668b5a83ec1be8ed42e136"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac50633d84a0a9324663aa20af82f4c61" id="r_ac50633d84a0a9324663aa20af82f4c61"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac50633d84a0a9324663aa20af82f4c61">stretch</a> = true</td></tr>
-<tr class="memdesc:ac50633d84a0a9324663aa20af82f4c61"><td class="mdescLeft">&#160;</td><td class="mdescRight">stretch whole text along curve to fit in unit curve range  <br /></td></tr>
-<tr class="separator:ac50633d84a0a9324663aa20af82f4c61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4a9a6eb9636e1af0ef610b64713efa22" id="r_ga4a9a6eb9636e1af0ef610b64713efa22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1SymbolMeshParams.html">SymbolMeshParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga4a9a6eb9636e1af0ef610b64713efa22">symbolMesh</a></td></tr>
+<tr class="memdesc:ga4a9a6eb9636e1af0ef610b64713efa22"><td class="mdescLeft">&#160;</td><td class="mdescRight">parameters of contours to mesh conversion  <br /></td></tr>
+<tr class="separator:ga4a9a6eb9636e1af0ef610b64713efa22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga89e409e3deb6eecf6b00364ed3232f32" id="r_ga89e409e3deb6eecf6b00364ed3232f32"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga89e409e3deb6eecf6b00364ed3232f32">pivotCurveTime</a> = 0</td></tr>
+<tr class="memdesc:ga89e409e3deb6eecf6b00364ed3232f32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Position on the curve, where bounding box's pivot point is mapped.  <br /></td></tr>
+<tr class="separator:ga89e409e3deb6eecf6b00364ed3232f32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga11ae334627b1839f30cdfb81d2eb2122" id="r_ga11ae334627b1839f30cdfb81d2eb2122"><td class="memItemLeft" align="right" valign="top">Vector2f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga11ae334627b1839f30cdfb81d2eb2122">pivotBoxPoint</a> {0.0f, 0.0f}</td></tr>
+<tr class="separator:ga11ae334627b1839f30cdfb81d2eb2122"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga467c8429ca87dff767c0ef4ca53a56b9" id="r_ga467c8429ca87dff767c0ef4ca53a56b9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga467c8429ca87dff767c0ef4ca53a56b9">fontHeight</a> {1.0f}</td></tr>
+<tr class="memdesc:ga467c8429ca87dff767c0ef4ca53a56b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Font height, meters.  <br /></td></tr>
+<tr class="separator:ga467c8429ca87dff767c0ef4ca53a56b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa25769e7e2993d6ab9f2a0d7d974c78e" id="r_gaa25769e7e2993d6ab9f2a0d7d974c78e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaa25769e7e2993d6ab9f2a0d7d974c78e">surfaceOffset</a> {1.0f}</td></tr>
+<tr class="memdesc:gaa25769e7e2993d6ab9f2a0d7d974c78e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Text mesh inside and outside offset of curve's surface.  <br /></td></tr>
+<tr class="separator:gaa25769e7e2993d6ab9f2a0d7d974c78e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga150d2432577e3c10550d8ac37280d360" id="r_ga150d2432577e3c10550d8ac37280d360"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga150d2432577e3c10550d8ac37280d360">fontBasedSizeCalc</a> { false }</td></tr>
+<tr class="memdesc:ga150d2432577e3c10550d8ac37280d360"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true then size of each symbol will be calculated from font height, otherwise - on bounding box of the text.  <br /></td></tr>
+<tr class="separator:ga150d2432577e3c10550d8ac37280d360"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafc50976c15668b5a83ec1be8ed42e136" id="r_gafc50976c15668b5a83ec1be8ed42e136"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gafc50976c15668b5a83ec1be8ed42e136">periodicCurve</a> = false</td></tr>
+<tr class="memdesc:gafc50976c15668b5a83ec1be8ed42e136"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true, curve parameter will be always within [0,1) with repetition: xr := x - floor(x)  <br /></td></tr>
+<tr class="separator:gafc50976c15668b5a83ec1be8ed42e136"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac50633d84a0a9324663aa20af82f4c61" id="r_gac50633d84a0a9324663aa20af82f4c61"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gac50633d84a0a9324663aa20af82f4c61">stretch</a> = true</td></tr>
+<tr class="memdesc:gac50633d84a0a9324663aa20af82f4c61"><td class="mdescLeft">&#160;</td><td class="mdescRight">stretch whole text along curve to fit in unit curve range  <br /></td></tr>
+<tr class="separator:gac50633d84a0a9324663aa20af82f4c61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a150d2432577e3c10550d8ac37280d360" name="a150d2432577e3c10550d8ac37280d360"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a150d2432577e3c10550d8ac37280d360">&#9670;&#160;</a></span>fontBasedSizeCalc</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool MR::BendTextAlongCurveParams::fontBasedSizeCalc { false }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>If true then size of each symbol will be calculated from font height, otherwise - on bounding box of the text. </p>
-
-</div>
-</div>
-<a id="a467c8429ca87dff767c0ef4ca53a56b9" name="a467c8429ca87dff767c0ef4ca53a56b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a467c8429ca87dff767c0ef4ca53a56b9">&#9670;&#160;</a></span>fontHeight</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float MR::BendTextAlongCurveParams::fontHeight {1.0f}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Font height, meters. </p>
-
-</div>
-</div>
-<a id="afc50976c15668b5a83ec1be8ed42e136" name="afc50976c15668b5a83ec1be8ed42e136"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afc50976c15668b5a83ec1be8ed42e136">&#9670;&#160;</a></span>periodicCurve</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool MR::BendTextAlongCurveParams::periodicCurve = false</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>if true, curve parameter will be always within [0,1) with repetition: xr := x - floor(x) </p>
-
-</div>
-</div>
-<a id="a11ae334627b1839f30cdfb81d2eb2122" name="a11ae334627b1839f30cdfb81d2eb2122"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11ae334627b1839f30cdfb81d2eb2122">&#9670;&#160;</a></span>pivotBoxPoint</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Vector2f MR::BendTextAlongCurveParams::pivotBoxPoint {0.0f, 0.0f}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Position of the curve(pivotCurveTime) in the test' bounding box: (0, 0) - bottom left, (0, 1) - bottom right, (0.5, 0.5) - center, (1, 1) - top right </p>
-
-</div>
-</div>
-<a id="a89e409e3deb6eecf6b00364ed3232f32" name="a89e409e3deb6eecf6b00364ed3232f32"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a89e409e3deb6eecf6b00364ed3232f32">&#9670;&#160;</a></span>pivotCurveTime</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float MR::BendTextAlongCurveParams::pivotCurveTime = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Position on the curve, where bounding box's pivot point is mapped. </p>
-
-</div>
-</div>
-<a id="ac50633d84a0a9324663aa20af82f4c61" name="ac50633d84a0a9324663aa20af82f4c61"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac50633d84a0a9324663aa20af82f4c61">&#9670;&#160;</a></span>stretch</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool MR::BendTextAlongCurveParams::stretch = true</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>stretch whole text along curve to fit in unit curve range </p>
-
-</div>
-</div>
-<a id="aa25769e7e2993d6ab9f2a0d7d974c78e" name="aa25769e7e2993d6ab9f2a0d7d974c78e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa25769e7e2993d6ab9f2a0d7d974c78e">&#9670;&#160;</a></span>surfaceOffset</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float MR::BendTextAlongCurveParams::surfaceOffset {1.0f}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Text mesh inside and outside offset of curve's surface. </p>
-
-</div>
-</div>
-<a id="a4a9a6eb9636e1af0ef610b64713efa22" name="a4a9a6eb9636e1af0ef610b64713efa22"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a9a6eb9636e1af0ef610b64713efa22">&#9670;&#160;</a></span>symbolMesh</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structMR_1_1SymbolMeshParams.html">SymbolMeshParams</a> MR::BendTextAlongCurveParams::symbolMesh</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>parameters of contours to mesh conversion </p>
-
-</div>
-</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="MRAlignTextToMesh_8h_source.html">MRAlignTextToMesh.h</a></li>
 </ul>

@@ -4,130 +4,28 @@
     <compoundname>MR::GridToMeshSettings</compoundname>
     <includes refid="MRVDBConversions_8h" local="no">MRVDBConversions.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1GridToMeshSettings_1acee0af0c67fecb819dabf8238de050fc" prot="public" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::GridToMeshSettings::voxelSize</definition>
-        <argsstring></argsstring>
-        <name>voxelSize</name>
-        <qualifiedname>MR::GridToMeshSettings::voxelSize</qualifiedname>
-        <briefdescription>
-<para>the size of each voxel in the grid </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" line="111" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" bodystart="111" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1GridToMeshSettings_1ad826bf2632bc0f30ff1144fb199ad870" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::GridToMeshSettings::isoValue</definition>
-        <argsstring></argsstring>
-        <name>isoValue</name>
-        <qualifiedname>MR::GridToMeshSettings::isoValue</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-<para>layer of grid with this value would be converted in mesh; isoValue can be negative only in level set grids </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" line="113" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" bodystart="113" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1GridToMeshSettings_1a36f6e01a1f97935440b97e4c1bd3bf12" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::GridToMeshSettings::adaptivity</definition>
-        <argsstring></argsstring>
-        <name>adaptivity</name>
-        <qualifiedname>MR::GridToMeshSettings::adaptivity</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-<para>adaptivity - [0.0;1.0] ratio of combining small triangles into bigger ones (curvature can be lost on high values) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" line="115" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" bodystart="115" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1GridToMeshSettings_1aa2ad751beafe72cd366b5c37d41f6983" prot="public" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::GridToMeshSettings::maxFaces</definition>
-        <argsstring></argsstring>
-        <name>maxFaces</name>
-        <qualifiedname>MR::GridToMeshSettings::maxFaces</qualifiedname>
-        <initializer>= INT_MAX</initializer>
-        <briefdescription>
-<para>if the mesh exceeds this number of faces, an error returns </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" line="117" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" bodystart="117" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1GridToMeshSettings_1a60ec5481dc2216c33c10205f17221fba" prot="public" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::GridToMeshSettings::maxVertices</definition>
-        <argsstring></argsstring>
-        <name>maxVertices</name>
-        <qualifiedname>MR::GridToMeshSettings::maxVertices</qualifiedname>
-        <initializer>= INT_MAX</initializer>
-        <briefdescription>
-<para>if the mesh exceeds this number of vertices, an error returns </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" line="119" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" bodystart="119" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1GridToMeshSettings_1a1b0ad87a91cd5605d3c6c9df23882b43" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::GridToMeshSettings::relaxDisorientedTriangles</definition>
-        <argsstring></argsstring>
-        <name>relaxDisorientedTriangles</name>
-        <qualifiedname>MR::GridToMeshSettings::relaxDisorientedTriangles</qualifiedname>
-        <initializer>= true</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" line="120" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" bodystart="120" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1GridToMeshSettings_1acda3440aa9d507ae98fc2e068e7d41fd" prot="public" static="no" mutable="no">
-        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
-        <definition>ProgressCallback MR::GridToMeshSettings::cb</definition>
-        <argsstring></argsstring>
-        <name>cb</name>
-        <qualifiedname>MR::GridToMeshSettings::cb</qualifiedname>
-        <briefdescription>
-<para>to receive progress and request cancellation </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" line="122" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" bodystart="122" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gacee0af0c67fecb819dabf8238de050fc" kind="variable"><name>voxelSize</name></member>
+      <member refid="group__GeneralGroup_1gad826bf2632bc0f30ff1144fb199ad870" kind="variable"><name>isoValue</name></member>
+      <member refid="group__GeneralGroup_1ga36f6e01a1f97935440b97e4c1bd3bf12" kind="variable"><name>adaptivity</name></member>
+      <member refid="group__GeneralGroup_1gaa2ad751beafe72cd366b5c37d41f6983" kind="variable"><name>maxFaces</name></member>
+      <member refid="group__GeneralGroup_1ga60ec5481dc2216c33c10205f17221fba" kind="variable"><name>maxVertices</name></member>
+      <member refid="group__GeneralGroup_1ga1b0ad87a91cd5605d3c6c9df23882b43" kind="variable"><name>relaxDisorientedTriangles</name></member>
+      <member refid="group__GeneralGroup_1gacda3440aa9d507ae98fc2e068e7d41fd" kind="variable"><name>cb</name></member>
     </sectiondef>
     <briefdescription>
 <para>parameters of OpenVDB Grid to <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> conversion using Dual Marching Cubes algorithm </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" line="108" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" bodystart="109" bodyend="123"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" line="111" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" bodystart="112" bodyend="126"/>
     <listofallmembers>
-      <member refid="structMR_1_1GridToMeshSettings_1a36f6e01a1f97935440b97e4c1bd3bf12" prot="public" virt="non-virtual"><scope>MR::GridToMeshSettings</scope><name>adaptivity</name></member>
-      <member refid="structMR_1_1GridToMeshSettings_1acda3440aa9d507ae98fc2e068e7d41fd" prot="public" virt="non-virtual"><scope>MR::GridToMeshSettings</scope><name>cb</name></member>
-      <member refid="structMR_1_1GridToMeshSettings_1ad826bf2632bc0f30ff1144fb199ad870" prot="public" virt="non-virtual"><scope>MR::GridToMeshSettings</scope><name>isoValue</name></member>
-      <member refid="structMR_1_1GridToMeshSettings_1aa2ad751beafe72cd366b5c37d41f6983" prot="public" virt="non-virtual"><scope>MR::GridToMeshSettings</scope><name>maxFaces</name></member>
-      <member refid="structMR_1_1GridToMeshSettings_1a60ec5481dc2216c33c10205f17221fba" prot="public" virt="non-virtual"><scope>MR::GridToMeshSettings</scope><name>maxVertices</name></member>
-      <member refid="structMR_1_1GridToMeshSettings_1a1b0ad87a91cd5605d3c6c9df23882b43" prot="public" virt="non-virtual"><scope>MR::GridToMeshSettings</scope><name>relaxDisorientedTriangles</name></member>
-      <member refid="structMR_1_1GridToMeshSettings_1acee0af0c67fecb819dabf8238de050fc" prot="public" virt="non-virtual"><scope>MR::GridToMeshSettings</scope><name>voxelSize</name></member>
+      <member refid="group__GeneralGroup_1ga36f6e01a1f97935440b97e4c1bd3bf12" prot="public" virt="non-virtual"><scope>MR::GridToMeshSettings</scope><name>adaptivity</name></member>
+      <member refid="group__GeneralGroup_1gacda3440aa9d507ae98fc2e068e7d41fd" prot="public" virt="non-virtual"><scope>MR::GridToMeshSettings</scope><name>cb</name></member>
+      <member refid="group__GeneralGroup_1gad826bf2632bc0f30ff1144fb199ad870" prot="public" virt="non-virtual"><scope>MR::GridToMeshSettings</scope><name>isoValue</name></member>
+      <member refid="group__GeneralGroup_1gaa2ad751beafe72cd366b5c37d41f6983" prot="public" virt="non-virtual"><scope>MR::GridToMeshSettings</scope><name>maxFaces</name></member>
+      <member refid="group__GeneralGroup_1ga60ec5481dc2216c33c10205f17221fba" prot="public" virt="non-virtual"><scope>MR::GridToMeshSettings</scope><name>maxVertices</name></member>
+      <member refid="group__GeneralGroup_1ga1b0ad87a91cd5605d3c6c9df23882b43" prot="public" virt="non-virtual"><scope>MR::GridToMeshSettings</scope><name>relaxDisorientedTriangles</name></member>
+      <member refid="group__GeneralGroup_1gacee0af0c67fecb819dabf8238de050fc" prot="public" virt="non-virtual"><scope>MR::GridToMeshSettings</scope><name>voxelSize</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

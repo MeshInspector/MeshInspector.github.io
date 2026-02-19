@@ -4,115 +4,13 @@
     <compoundname>MR::UI::SeparatorParams</compoundname>
     <includes refid="MRUIStyle_8h" local="no">MRUIStyle.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1UI_1_1SeparatorParams_1a56193ffd27a298bf344d8ca87e0a41e0" prot="public" static="no" mutable="no">
-        <type>const <ref refid="classMR_1_1ImGuiImage" kindref="compound">ImGuiImage</ref> *</type>
-        <definition>const ImGuiImage* MR::UI::SeparatorParams::icon</definition>
-        <argsstring></argsstring>
-        <name>icon</name>
-        <qualifiedname>MR::UI::SeparatorParams::icon</qualifiedname>
-        <initializer>{ nullptr }</initializer>
-        <briefdescription>
-<para>optional icon in the left part of separator </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="465" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="465" bodyend="465"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1UI_1_1SeparatorParams_1a9566bcbe86e1d94a70ecba64961edb29" prot="public" static="no" mutable="no">
-        <type>Vector2f</type>
-        <definition>Vector2f MR::UI::SeparatorParams::iconSize</definition>
-        <argsstring></argsstring>
-        <name>iconSize</name>
-        <qualifiedname>MR::UI::SeparatorParams::iconSize</qualifiedname>
-        <briefdescription>
-<para>size of icon </para>
-        </briefdescription>
-        <detaileddescription>
-<para>scaling is applied inside <computeroutput>separator</computeroutput> function </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="468" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="468" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1UI_1_1SeparatorParams_1ab960a0faa33b95bf9a9609f31cd35219" prot="public" static="no" mutable="no">
-        <type>std::string</type>
-        <definition>std::string MR::UI::SeparatorParams::label</definition>
-        <argsstring></argsstring>
-        <name>label</name>
-        <qualifiedname>MR::UI::SeparatorParams::label</qualifiedname>
-        <briefdescription>
-<para>label at the left part of separator (drawn after icon if present) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="471" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="471" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1UI_1_1SeparatorParams_1a45d774a2f55193f4952b880261aaa082" prot="public" static="no" mutable="no">
-        <type>std::string</type>
-        <definition>std::string MR::UI::SeparatorParams::suffix</definition>
-        <argsstring></argsstring>
-        <name>suffix</name>
-        <qualifiedname>MR::UI::SeparatorParams::suffix</qualifiedname>
-        <briefdescription>
-<para>framed text after label (might be used for some indications) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="474" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="474" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1UI_1_1SeparatorParams_1a4be657806c20486d8379ad50e45e543d" prot="public" static="no" mutable="no">
-        <type>std::optional&lt; <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &gt;</type>
-        <definition>std::optional&lt;Color&gt; MR::UI::SeparatorParams::suffixFrameColor</definition>
-        <argsstring></argsstring>
-        <name>suffixFrameColor</name>
-        <qualifiedname>MR::UI::SeparatorParams::suffixFrameColor</qualifiedname>
-        <briefdescription>
-<para>color of background frame behind suffix (if not present default ImGuiCol_FrameBg is used) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="477" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="477" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1UI_1_1SeparatorParams_1a9b20fca071888883ff3bf93187e13e24" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::UI::SeparatorParams::forceImGuiSpacing</definition>
-        <argsstring></argsstring>
-        <name>forceImGuiSpacing</name>
-        <qualifiedname>MR::UI::SeparatorParams::forceImGuiSpacing</qualifiedname>
-        <initializer>= false</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>if set - use default spacing from ImGui::GetStyle() otherwise overrides it with ribbon constants </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="481" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="481" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1UI_1_1SeparatorParams_1ab945af46c214f477d623971dd83880f9" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::UI::SeparatorParams::extraScale</definition>
-        <argsstring></argsstring>
-        <name>extraScale</name>
-        <qualifiedname>MR::UI::SeparatorParams::extraScale</qualifiedname>
-        <initializer>= 1</initializer>
-        <briefdescription>
-<para>The spacing is multiplied by this. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="484" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="484" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga56193ffd27a298bf344d8ca87e0a41e0" kind="variable"><name>icon</name></member>
+      <member refid="group__GeneralGroup_1ga9566bcbe86e1d94a70ecba64961edb29" kind="variable"><name>iconSize</name></member>
+      <member refid="group__GeneralGroup_1gab960a0faa33b95bf9a9609f31cd35219" kind="variable"><name>label</name></member>
+      <member refid="group__GeneralGroup_1ga45d774a2f55193f4952b880261aaa082" kind="variable"><name>suffix</name></member>
+      <member refid="group__GeneralGroup_1ga4be657806c20486d8379ad50e45e543d" kind="variable"><name>suffixFrameColor</name></member>
+      <member refid="group__GeneralGroup_1ga9b20fca071888883ff3bf93187e13e24" kind="variable"><name>forceImGuiSpacing</name></member>
+      <member refid="group__GeneralGroup_1gab945af46c214f477d623971dd83880f9" kind="variable"><name>extraScale</name></member>
     </sectiondef>
     <briefdescription>
 <para>Parameters for drawing custom separator. </para>
@@ -132,15 +30,15 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="462" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="463" bodyend="485"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="465" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="466" bodyend="488"/>
     <listofallmembers>
-      <member refid="structMR_1_1UI_1_1SeparatorParams_1ab945af46c214f477d623971dd83880f9" prot="public" virt="non-virtual"><scope>MR::UI::SeparatorParams</scope><name>extraScale</name></member>
-      <member refid="structMR_1_1UI_1_1SeparatorParams_1a9b20fca071888883ff3bf93187e13e24" prot="public" virt="non-virtual"><scope>MR::UI::SeparatorParams</scope><name>forceImGuiSpacing</name></member>
-      <member refid="structMR_1_1UI_1_1SeparatorParams_1a56193ffd27a298bf344d8ca87e0a41e0" prot="public" virt="non-virtual"><scope>MR::UI::SeparatorParams</scope><name>icon</name></member>
-      <member refid="structMR_1_1UI_1_1SeparatorParams_1a9566bcbe86e1d94a70ecba64961edb29" prot="public" virt="non-virtual"><scope>MR::UI::SeparatorParams</scope><name>iconSize</name></member>
-      <member refid="structMR_1_1UI_1_1SeparatorParams_1ab960a0faa33b95bf9a9609f31cd35219" prot="public" virt="non-virtual"><scope>MR::UI::SeparatorParams</scope><name>label</name></member>
-      <member refid="structMR_1_1UI_1_1SeparatorParams_1a45d774a2f55193f4952b880261aaa082" prot="public" virt="non-virtual"><scope>MR::UI::SeparatorParams</scope><name>suffix</name></member>
-      <member refid="structMR_1_1UI_1_1SeparatorParams_1a4be657806c20486d8379ad50e45e543d" prot="public" virt="non-virtual"><scope>MR::UI::SeparatorParams</scope><name>suffixFrameColor</name></member>
+      <member refid="group__GeneralGroup_1gab945af46c214f477d623971dd83880f9" prot="public" virt="non-virtual"><scope>MR::UI::SeparatorParams</scope><name>extraScale</name></member>
+      <member refid="group__GeneralGroup_1ga9b20fca071888883ff3bf93187e13e24" prot="public" virt="non-virtual"><scope>MR::UI::SeparatorParams</scope><name>forceImGuiSpacing</name></member>
+      <member refid="group__GeneralGroup_1ga56193ffd27a298bf344d8ca87e0a41e0" prot="public" virt="non-virtual"><scope>MR::UI::SeparatorParams</scope><name>icon</name></member>
+      <member refid="group__GeneralGroup_1ga9566bcbe86e1d94a70ecba64961edb29" prot="public" virt="non-virtual"><scope>MR::UI::SeparatorParams</scope><name>iconSize</name></member>
+      <member refid="group__GeneralGroup_1gab960a0faa33b95bf9a9609f31cd35219" prot="public" virt="non-virtual"><scope>MR::UI::SeparatorParams</scope><name>label</name></member>
+      <member refid="group__GeneralGroup_1ga45d774a2f55193f4952b880261aaa082" prot="public" virt="non-virtual"><scope>MR::UI::SeparatorParams</scope><name>suffix</name></member>
+      <member refid="group__GeneralGroup_1ga4be657806c20486d8379ad50e45e543d" prot="public" virt="non-virtual"><scope>MR::UI::SeparatorParams</scope><name>suffixFrameColor</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

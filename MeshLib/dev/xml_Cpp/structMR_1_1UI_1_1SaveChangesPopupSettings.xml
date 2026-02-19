@@ -4,128 +4,27 @@
     <compoundname>MR::UI::SaveChangesPopupSettings</compoundname>
     <includes refid="MRUISaveChangesPopup_8h" local="no">MRUISaveChangesPopup.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1UI_1_1SaveChangesPopupSettings_1a6cd2f6a77d991bb28d74320269e1c849" prot="public" static="no" mutable="no">
-        <type>std::string</type>
-        <definition>std::string MR::UI::SaveChangesPopupSettings::shortCloseText</definition>
-        <argsstring></argsstring>
-        <name>shortCloseText</name>
-        <qualifiedname>MR::UI::SaveChangesPopupSettings::shortCloseText</qualifiedname>
-        <initializer>= &quot;Close&quot;</initializer>
-        <briefdescription>
-<para>text that is shown if we have nothing to save </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUISaveChangesPopup.h" line="17" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUISaveChangesPopup.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1UI_1_1SaveChangesPopupSettings_1a1ddd1fee272b8d5ab0de85e419cc5c9c" prot="public" static="no" mutable="no">
-        <type>std::string</type>
-        <definition>std::string MR::UI::SaveChangesPopupSettings::dontSaveText</definition>
-        <argsstring></argsstring>
-        <name>dontSaveText</name>
-        <qualifiedname>MR::UI::SaveChangesPopupSettings::dontSaveText</qualifiedname>
-        <initializer>= &quot;Don&apos;t Save&quot;</initializer>
-        <briefdescription>
-<para>text that is shown if we have changes but don&apos;t want to save them </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUISaveChangesPopup.h" line="19" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUISaveChangesPopup.h" bodystart="19" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1UI_1_1SaveChangesPopupSettings_1a5fb9895320349dc61434ad43c17fd24a" prot="public" static="no" mutable="no">
-        <type>std::string</type>
-        <definition>std::string MR::UI::SaveChangesPopupSettings::saveTooltip</definition>
-        <argsstring></argsstring>
-        <name>saveTooltip</name>
-        <qualifiedname>MR::UI::SaveChangesPopupSettings::saveTooltip</qualifiedname>
-        <initializer>= &quot;Save current scene&quot;</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUISaveChangesPopup.h" line="21" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUISaveChangesPopup.h" bodystart="21" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1UI_1_1SaveChangesPopupSettings_1a970fa69e216b42f681e9af3c57aee477" prot="public" static="no" mutable="no">
-        <type>std::string</type>
-        <definition>std::string MR::UI::SaveChangesPopupSettings::dontSaveTooltip</definition>
-        <argsstring></argsstring>
-        <name>dontSaveTooltip</name>
-        <qualifiedname>MR::UI::SaveChangesPopupSettings::dontSaveTooltip</qualifiedname>
-        <initializer>= &quot;Donh&apos;t save current scene&quot;</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUISaveChangesPopup.h" line="22" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUISaveChangesPopup.h" bodystart="22" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1UI_1_1SaveChangesPopupSettings_1abf35d4bb097cddcc6c3ecb5bb79c1398" prot="public" static="no" mutable="no">
-        <type>std::string</type>
-        <definition>std::string MR::UI::SaveChangesPopupSettings::cancelTooltip</definition>
-        <argsstring></argsstring>
-        <name>cancelTooltip</name>
-        <qualifiedname>MR::UI::SaveChangesPopupSettings::cancelTooltip</qualifiedname>
-        <initializer>= &quot;Cansel&quot;</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUISaveChangesPopup.h" line="23" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUISaveChangesPopup.h" bodystart="23" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1UI_1_1SaveChangesPopupSettings_1a229fd015ed069a04dae134c45b2ed91d" prot="public" static="no" mutable="no">
-        <type>std::string</type>
-        <definition>std::string MR::UI::SaveChangesPopupSettings::header</definition>
-        <argsstring></argsstring>
-        <name>header</name>
-        <qualifiedname>MR::UI::SaveChangesPopupSettings::header</qualifiedname>
-        <briefdescription>
-<para>header that is used in dialog </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUISaveChangesPopup.h" line="25" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUISaveChangesPopup.h" bodystart="25" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1UI_1_1SaveChangesPopupSettings_1ad890dd1aa255baed72ae0c64e0006c66" prot="public" static="no" mutable="no">
-        <type>std::function&lt; void()&gt;</type>
-        <definition>std::function&lt;void()&gt; MR::UI::SaveChangesPopupSettings::onOk</definition>
-        <argsstring></argsstring>
-        <name>onOk</name>
-        <qualifiedname>MR::UI::SaveChangesPopupSettings::onOk</qualifiedname>
-        <initializer>= {}</initializer>
-        <briefdescription>
-<para>if not empty this function is called on &quot;save&quot; and &quot;not save&quot; options( if succeed ) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUISaveChangesPopup.h" line="27" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUISaveChangesPopup.h" bodystart="27" bodyend="27"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga6cd2f6a77d991bb28d74320269e1c849" kind="variable"><name>shortCloseText</name></member>
+      <member refid="group__GeneralGroup_1ga1ddd1fee272b8d5ab0de85e419cc5c9c" kind="variable"><name>dontSaveText</name></member>
+      <member refid="group__GeneralGroup_1ga5fb9895320349dc61434ad43c17fd24a" kind="variable"><name>saveTooltip</name></member>
+      <member refid="group__GeneralGroup_1ga970fa69e216b42f681e9af3c57aee477" kind="variable"><name>dontSaveTooltip</name></member>
+      <member refid="group__GeneralGroup_1gabf35d4bb097cddcc6c3ecb5bb79c1398" kind="variable"><name>cancelTooltip</name></member>
+      <member refid="group__GeneralGroup_1ga229fd015ed069a04dae134c45b2ed91d" kind="variable"><name>header</name></member>
+      <member refid="group__GeneralGroup_1gad890dd1aa255baed72ae0c64e0006c66" kind="variable"><name>onOk</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUISaveChangesPopup.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUISaveChangesPopup.h" bodystart="15" bodyend="28"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUISaveChangesPopup.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUISaveChangesPopup.h" bodystart="18" bodyend="31"/>
     <listofallmembers>
-      <member refid="structMR_1_1UI_1_1SaveChangesPopupSettings_1abf35d4bb097cddcc6c3ecb5bb79c1398" prot="public" virt="non-virtual"><scope>MR::UI::SaveChangesPopupSettings</scope><name>cancelTooltip</name></member>
-      <member refid="structMR_1_1UI_1_1SaveChangesPopupSettings_1a1ddd1fee272b8d5ab0de85e419cc5c9c" prot="public" virt="non-virtual"><scope>MR::UI::SaveChangesPopupSettings</scope><name>dontSaveText</name></member>
-      <member refid="structMR_1_1UI_1_1SaveChangesPopupSettings_1a970fa69e216b42f681e9af3c57aee477" prot="public" virt="non-virtual"><scope>MR::UI::SaveChangesPopupSettings</scope><name>dontSaveTooltip</name></member>
-      <member refid="structMR_1_1UI_1_1SaveChangesPopupSettings_1a229fd015ed069a04dae134c45b2ed91d" prot="public" virt="non-virtual"><scope>MR::UI::SaveChangesPopupSettings</scope><name>header</name></member>
-      <member refid="structMR_1_1UI_1_1SaveChangesPopupSettings_1ad890dd1aa255baed72ae0c64e0006c66" prot="public" virt="non-virtual"><scope>MR::UI::SaveChangesPopupSettings</scope><name>onOk</name></member>
-      <member refid="structMR_1_1UI_1_1SaveChangesPopupSettings_1a5fb9895320349dc61434ad43c17fd24a" prot="public" virt="non-virtual"><scope>MR::UI::SaveChangesPopupSettings</scope><name>saveTooltip</name></member>
-      <member refid="structMR_1_1UI_1_1SaveChangesPopupSettings_1a6cd2f6a77d991bb28d74320269e1c849" prot="public" virt="non-virtual"><scope>MR::UI::SaveChangesPopupSettings</scope><name>shortCloseText</name></member>
+      <member refid="group__GeneralGroup_1gabf35d4bb097cddcc6c3ecb5bb79c1398" prot="public" virt="non-virtual"><scope>MR::UI::SaveChangesPopupSettings</scope><name>cancelTooltip</name></member>
+      <member refid="group__GeneralGroup_1ga1ddd1fee272b8d5ab0de85e419cc5c9c" prot="public" virt="non-virtual"><scope>MR::UI::SaveChangesPopupSettings</scope><name>dontSaveText</name></member>
+      <member refid="group__GeneralGroup_1ga970fa69e216b42f681e9af3c57aee477" prot="public" virt="non-virtual"><scope>MR::UI::SaveChangesPopupSettings</scope><name>dontSaveTooltip</name></member>
+      <member refid="group__GeneralGroup_1ga229fd015ed069a04dae134c45b2ed91d" prot="public" virt="non-virtual"><scope>MR::UI::SaveChangesPopupSettings</scope><name>header</name></member>
+      <member refid="group__GeneralGroup_1gad890dd1aa255baed72ae0c64e0006c66" prot="public" virt="non-virtual"><scope>MR::UI::SaveChangesPopupSettings</scope><name>onOk</name></member>
+      <member refid="group__GeneralGroup_1ga5fb9895320349dc61434ad43c17fd24a" prot="public" virt="non-virtual"><scope>MR::UI::SaveChangesPopupSettings</scope><name>saveTooltip</name></member>
+      <member refid="group__GeneralGroup_1ga6cd2f6a77d991bb28d74320269e1c849" prot="public" virt="non-virtual"><scope>MR::UI::SaveChangesPopupSettings</scope><name>shortCloseText</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

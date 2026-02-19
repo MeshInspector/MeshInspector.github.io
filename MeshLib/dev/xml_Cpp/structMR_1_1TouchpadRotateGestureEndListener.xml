@@ -5,80 +5,12 @@
     <basecompoundref refid="structMR_1_1ConnectionHolder" prot="public" virt="non-virtual">MR::ConnectionHolder</basecompoundref>
     <includes refid="MRViewerEventsListener_8h" local="no">MRViewerEventsListener.h</includes>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1TouchpadRotateGestureEndListener_1a52f630644781016b0f248164721be298" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::TouchpadRotateGestureEndListener::MR_ADD_CTOR_DELETE_MOVE</definition>
-        <argsstring>(TouchpadRotateGestureEndListener)</argsstring>
-        <name>MR_ADD_CTOR_DELETE_MOVE</name>
-        <qualifiedname>MR::TouchpadRotateGestureEndListener::MR_ADD_CTOR_DELETE_MOVE</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1TouchpadRotateGestureEndListener" kindref="compound">TouchpadRotateGestureEndListener</ref></type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="328" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1TouchpadRotateGestureEndListener_1a406202fc3e70d82ed4e3f7912881b613" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type></type>
-        <definition>virtual MR::TouchpadRotateGestureEndListener::~TouchpadRotateGestureEndListener</definition>
-        <argsstring>()=default</argsstring>
-        <name>~TouchpadRotateGestureEndListener</name>
-        <qualifiedname>MR::TouchpadRotateGestureEndListener::~TouchpadRotateGestureEndListener</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="329" column="13"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1TouchpadRotateGestureEndListener_1ad2d7edd1009fed4d6603ae9ce48ca3bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>virtual MRVIEWER_API void MR::TouchpadRotateGestureEndListener::connect</definition>
-        <argsstring>(Viewer *viewer, int group, boost::signals2::connect_position pos) override</argsstring>
-        <name>connect</name>
-        <qualifiedname>MR::TouchpadRotateGestureEndListener::connect</qualifiedname>
-        <reimplements refid="structMR_1_1IConnectable_1a2212095d3996892cff578320ac2ce746">connect</reimplements>
-        <param>
-          <type><ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref> *</type>
-          <declname>viewer</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>group</declname>
-        </param>
-        <param>
-          <type>boost::signals2::connect_position</type>
-          <declname>pos</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="330" column="31"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga52f630644781016b0f248164721be298" kind="function"><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1ga406202fc3e70d82ed4e3f7912881b613" kind="function"><name>~TouchpadRotateGestureEndListener</name></member>
+      <member refid="group__GeneralGroup_1gad2d7edd1009fed4d6603ae9ce48ca3bf" kind="function"><name>connect</name></member>
     </sectiondef>
     <sectiondef kind="protected-func">
-      <memberdef kind="function" id="structMR_1_1TouchpadRotateGestureEndListener_1a720801497b669feae4030ebce11fa3ef" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::TouchpadRotateGestureEndListener::touchpadRotateGestureEnd_</definition>
-        <argsstring>()=0</argsstring>
-        <name>touchpadRotateGestureEnd_</name>
-        <qualifiedname>MR::TouchpadRotateGestureEndListener::touchpadRotateGestureEnd_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="332" column="18"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga720801497b669feae4030ebce11fa3ef" kind="function"><name>touchpadRotateGestureEnd_</name></member>
     </sectiondef>
     <briefdescription>
 <para>class to subscribe on TouchpadRotateGestureEndEvent </para>
@@ -121,16 +53,16 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="326" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="327" bodyend="333"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="329" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="330" bodyend="336"/>
     <listofallmembers>
-      <member refid="structMR_1_1TouchpadRotateGestureEndListener_1ad2d7edd1009fed4d6603ae9ce48ca3bf" prot="public" virt="virtual"><scope>MR::TouchpadRotateGestureEndListener</scope><name>connect</name></member>
-      <member refid="structMR_1_1ConnectionHolder_1a56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::TouchpadRotateGestureEndListener</scope><name>connection_</name></member>
-      <member refid="structMR_1_1ConnectionHolder_1afe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::TouchpadRotateGestureEndListener</scope><name>disconnect</name></member>
-      <member refid="structMR_1_1TouchpadRotateGestureEndListener_1a52f630644781016b0f248164721be298" prot="public" virt="non-virtual"><scope>MR::TouchpadRotateGestureEndListener</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
-      <member refid="structMR_1_1TouchpadRotateGestureEndListener_1a720801497b669feae4030ebce11fa3ef" prot="protected" virt="pure-virtual"><scope>MR::TouchpadRotateGestureEndListener</scope><name>touchpadRotateGestureEnd_</name></member>
-      <member refid="structMR_1_1ConnectionHolder_1a99ffc44dd73f73e2e907b7ab5bb38aaf" prot="public" virt="virtual"><scope>MR::TouchpadRotateGestureEndListener</scope><name>~ConnectionHolder</name></member>
-      <member refid="structMR_1_1IConnectable_1a28c07761e682b80befbb2d5f91bdd38c" prot="public" virt="virtual"><scope>MR::TouchpadRotateGestureEndListener</scope><name>~IConnectable</name></member>
-      <member refid="structMR_1_1TouchpadRotateGestureEndListener_1a406202fc3e70d82ed4e3f7912881b613" prot="public" virt="virtual"><scope>MR::TouchpadRotateGestureEndListener</scope><name>~TouchpadRotateGestureEndListener</name></member>
+      <member refid="group__GeneralGroup_1gad2d7edd1009fed4d6603ae9ce48ca3bf" prot="public" virt="virtual"><scope>MR::TouchpadRotateGestureEndListener</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1ga56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::TouchpadRotateGestureEndListener</scope><name>connection_</name></member>
+      <member refid="group__GeneralGroup_1gafe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::TouchpadRotateGestureEndListener</scope><name>disconnect</name></member>
+      <member refid="group__GeneralGroup_1ga52f630644781016b0f248164721be298" prot="public" virt="non-virtual"><scope>MR::TouchpadRotateGestureEndListener</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1ga720801497b669feae4030ebce11fa3ef" prot="protected" virt="pure-virtual"><scope>MR::TouchpadRotateGestureEndListener</scope><name>touchpadRotateGestureEnd_</name></member>
+      <member refid="group__GeneralGroup_1ga99ffc44dd73f73e2e907b7ab5bb38aaf" prot="public" virt="virtual"><scope>MR::TouchpadRotateGestureEndListener</scope><name>~ConnectionHolder</name></member>
+      <member refid="group__GeneralGroup_1ga28c07761e682b80befbb2d5f91bdd38c" prot="public" virt="virtual"><scope>MR::TouchpadRotateGestureEndListener</scope><name>~IConnectable</name></member>
+      <member refid="group__GeneralGroup_1ga406202fc3e70d82ed4e3f7912881b613" prot="public" virt="virtual"><scope>MR::TouchpadRotateGestureEndListener</scope><name>~TouchpadRotateGestureEndListener</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

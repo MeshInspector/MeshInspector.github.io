@@ -6,701 +6,50 @@
     <basecompoundref refid="classMR_1_1ObjectComparableWithReference" prot="public" virt="non-virtual">MR::ObjectComparableWithReference</basecompoundref>
     <includes refid="MRPointMeasurementObject_8h" local="no">MRPointMeasurementObject.h</includes>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1PointMeasurementObject_1a95facd11fa69b61db27f87fbd737df5d" prot="private" static="no" mutable="no">
-        <type>std::optional&lt; Vector3f &gt;</type>
-        <definition>std::optional&lt;Vector3f&gt; MR::PointMeasurementObject::referencePos_</definition>
-        <argsstring></argsstring>
-        <name>referencePos_</name>
-        <qualifiedname>MR::PointMeasurementObject::referencePos_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" line="79" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" bodystart="79" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1PointMeasurementObject_1aefa853ab1211c443d16dcf16f2f39d84" prot="private" static="no" mutable="no">
-        <type>std::optional&lt; Vector3f &gt;</type>
-        <definition>std::optional&lt;Vector3f&gt; MR::PointMeasurementObject::referenceNormal_</definition>
-        <argsstring></argsstring>
-        <name>referenceNormal_</name>
-        <qualifiedname>MR::PointMeasurementObject::referenceNormal_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" line="80" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" bodystart="80" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1PointMeasurementObject_1a753aa93b3c409afeaf35914046a7f9de" prot="private" static="no" mutable="no">
-        <type>std::optional&lt; <ref refid="structMR_1_1ObjectComparableWithReference_1_1ComparisonTolerance" kindref="compound">ComparisonTolerance</ref> &gt;</type>
-        <definition>std::optional&lt;ComparisonTolerance&gt; MR::PointMeasurementObject::tolerance_</definition>
-        <argsstring></argsstring>
-        <name>tolerance_</name>
-        <qualifiedname>MR::PointMeasurementObject::tolerance_</qualifiedname>
-        <briefdescription>
-<para>Not necessarily normalized. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" line="81" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" bodystart="81" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1PointMeasurementObject_1a14a63fa9680dd72dfbae3a778da36a71" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
-        <definition>ViewportMask MR::PointMeasurementObject::capVisibility_</definition>
-        <argsstring></argsstring>
-        <name>capVisibility_</name>
-        <qualifiedname>MR::PointMeasurementObject::capVisibility_</qualifiedname>
-        <initializer>= <ref refid="classMR_1_1ViewportMask_1a46b7527f0e3a3394b41be2515c171747" kindref="member">ViewportMask::all</ref>()</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" line="83" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" bodystart="83" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga95facd11fa69b61db27f87fbd737df5d" kind="variable"><name>referencePos_</name></member>
+      <member refid="group__GeneralGroup_1gaefa853ab1211c443d16dcf16f2f39d84" kind="variable"><name>referenceNormal_</name></member>
+      <member refid="group__GeneralGroup_1ga753aa93b3c409afeaf35914046a7f9de" kind="variable"><name>tolerance_</name></member>
+      <member refid="group__GeneralGroup_1ga14a63fa9680dd72dfbae3a778da36a71" kind="variable"><name>capVisibility_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a73b013ed6a382ed43da7f3bed9a95edb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::PointMeasurementObject::PointMeasurementObject</definition>
-        <argsstring>()=default</argsstring>
-        <name>PointMeasurementObject</name>
-        <qualifiedname>MR::PointMeasurementObject::PointMeasurementObject</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" line="21" column="6"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a554251a50e58777d160bfccd576090fc" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::PointMeasurementObject::PointMeasurementObject</definition>
-        <argsstring>(PointMeasurementObject &amp;&amp;) noexcept=default</argsstring>
-        <name>PointMeasurementObject</name>
-        <qualifiedname>MR::PointMeasurementObject::PointMeasurementObject</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1PointMeasurementObject" kindref="compound">PointMeasurementObject</ref> &amp;&amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" line="23" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a04651779fcd30d074c04198375b93a5c" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type><ref refid="classMR_1_1PointMeasurementObject" kindref="compound">PointMeasurementObject</ref> &amp;</type>
-        <definition>PointMeasurementObject &amp; MR::PointMeasurementObject::operator=</definition>
-        <argsstring>(PointMeasurementObject &amp;&amp;) noexcept=default</argsstring>
-        <name>operator=</name>
-        <qualifiedname>MR::PointMeasurementObject::operator=</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1PointMeasurementObject" kindref="compound">PointMeasurementObject</ref> &amp;&amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" line="24" column="28"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a34bf1cdc06d67d92c5a859278440c05a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>const char *</type>
-        <definition>const char * MR::PointMeasurementObject::typeName</definition>
-        <argsstring>() const override</argsstring>
-        <name>typeName</name>
-        <qualifiedname>MR::PointMeasurementObject::typeName</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1a6f629cc6822b206ab9232648fa19dcb6">typeName</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" line="27" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" bodystart="27" bodyend="27"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1aceade7c12dff0fd663f1b3863d59eb46" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>std::string</type>
-        <definition>std::string MR::PointMeasurementObject::className</definition>
-        <argsstring>() const override</argsstring>
-        <name>className</name>
-        <qualifiedname>MR::PointMeasurementObject::className</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1a4a9efcd8828d774516f5cd4960359d08">className</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" line="30" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" bodystart="30" bodyend="30"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1af6f6387bd339571f102c4abbab18b0aa" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>std::string</type>
-        <definition>std::string MR::PointMeasurementObject::classNameInPlural</definition>
-        <argsstring>() const override</argsstring>
-        <name>classNameInPlural</name>
-        <qualifiedname>MR::PointMeasurementObject::classNameInPlural</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1a470477a43cc2e761f791623ee732e4b7">classNameInPlural</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" line="33" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" bodystart="33" bodyend="33"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a52c10e2332240b092d2df7a5cc522ff8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::PointMeasurementObject::PointMeasurementObject</definition>
-        <argsstring>(ProtectedStruct, const PointMeasurementObject &amp;obj)</argsstring>
-        <name>PointMeasurementObject</name>
-        <qualifiedname>MR::PointMeasurementObject::PointMeasurementObject</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1Object_1_1ProtectedStruct" kindref="compound">ProtectedStruct</ref></type>
-        </param>
-        <param>
-          <type>const <ref refid="classMR_1_1PointMeasurementObject" kindref="compound">PointMeasurementObject</ref> &amp;</type>
-          <declname>obj</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="note"><para>this ctor is public only for std::make_shared used inside <ref refid="classMR_1_1PointMeasurementObject_1a1028e5d0d684e5b32573488f69798497" kindref="member">clone()</ref> </para>
-</simplesect>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" line="36" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" bodystart="36" bodyend="37"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a1028e5d0d684e5b32573488f69798497" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
-        <definition>MRMESH_API std::shared_ptr&lt; Object &gt; MR::PointMeasurementObject::clone</definition>
-        <argsstring>() const override</argsstring>
-        <name>clone</name>
-        <qualifiedname>MR::PointMeasurementObject::clone</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1a2abf3d3c767a16a584ad513af643feca">clone</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>clones this object only, without its children, making new object the owner of all copied resources </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" line="39" column="32"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a3900b0b2a1c555af5028468829a2ae82" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
-        <definition>MRMESH_API std::shared_ptr&lt; Object &gt; MR::PointMeasurementObject::shallowClone</definition>
-        <argsstring>() const override</argsstring>
-        <name>shallowClone</name>
-        <qualifiedname>MR::PointMeasurementObject::shallowClone</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1adf2d7e16d33d059dbf2bbd0f1c34c8bf">shallowClone</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>clones this object only, without its children, making new object to share resources with this object </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" line="40" column="32"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a0e98fb837af399d0beabc15ccb244735" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
-        <definition>MRMESH_API bool MR::PointMeasurementObject::supportsVisualizeProperty</definition>
-        <argsstring>(AnyVisualizeMaskEnum type) const override</argsstring>
-        <name>supportsVisualizeProperty</name>
-        <qualifiedname>MR::PointMeasurementObject::supportsVisualizeProperty</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1a17a87c846a1caa768c3043ee50bbd966">supportsVisualizeProperty</reimplements>
-        <param>
-          <type><ref refid="classMR_1_1AnyVisualizeMaskEnum" kindref="compound">AnyVisualizeMaskEnum</ref></type>
-          <declname>type</declname>
-        </param>
-        <briefdescription>
-<para>Returns true if this class supports the property <computeroutput>type</computeroutput>. Otherwise passing it to the functions below is illegal. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" line="42" column="22"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1ac44e9caf1510826e5de34c71bd1f421c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="group__VisualObjectGroup_1ga1f6aeed936aa967b17cba0997d30ff7f" kindref="member">AllVisualizeProperties</ref></type>
-        <definition>MRMESH_API AllVisualizeProperties MR::PointMeasurementObject::getAllVisualizeProperties</definition>
-        <argsstring>() const override</argsstring>
-        <name>getAllVisualizeProperties</name>
-        <qualifiedname>MR::PointMeasurementObject::getAllVisualizeProperties</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1ab5a7a842052c24ab9b286eafae1bfb8d">getAllVisualizeProperties</reimplements>
-        <briefdescription>
-<para>get all visualize properties masks </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" line="43" column="39"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1adf8043ed27a7f7991ddbb7da81ed8a09" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> const <ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref> &amp;</type>
-        <definition>MRMESH_API const ViewportMask &amp; MR::PointMeasurementObject::getVisualizePropertyMask</definition>
-        <argsstring>(AnyVisualizeMaskEnum type) const override</argsstring>
-        <name>getVisualizePropertyMask</name>
-        <qualifiedname>MR::PointMeasurementObject::getVisualizePropertyMask</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1a94e84a6aefe10a606f6dbf056049dcee">getVisualizePropertyMask</reimplements>
-        <param>
-          <type><ref refid="classMR_1_1AnyVisualizeMaskEnum" kindref="compound">AnyVisualizeMaskEnum</ref></type>
-          <declname>type</declname>
-        </param>
-        <briefdescription>
-<para>returns mask of viewports where given property is set </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" line="44" column="35"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a4f096d4ff6390ee1cabcf8d8cf0ef611" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Vector3f</type>
-        <definition>MRMESH_API Vector3f MR::PointMeasurementObject::getLocalPoint</definition>
-        <argsstring>(ViewportId id={}) const</argsstring>
-        <name>getLocalPoint</name>
-        <qualifiedname>MR::PointMeasurementObject::getLocalPoint</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
-          <declname>id</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-<para>calculates point from xf </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" line="47" column="26"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a13f8b97fa55a8edf13bc7411d644d805" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Vector3f</type>
-        <definition>MRMESH_API Vector3f MR::PointMeasurementObject::getWorldPoint</definition>
-        <argsstring>(ViewportId id={}) const</argsstring>
-        <name>getWorldPoint</name>
-        <qualifiedname>MR::PointMeasurementObject::getWorldPoint</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
-          <declname>id</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" line="48" column="26"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a71c4ad5ffa51590212c574a6aec07f8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::PointMeasurementObject::setLocalPoint</definition>
-        <argsstring>(const Vector3f &amp;point, ViewportId id={})</argsstring>
-        <name>setLocalPoint</name>
-        <qualifiedname>MR::PointMeasurementObject::setLocalPoint</qualifiedname>
-        <param>
-          <type>const Vector3f &amp;</type>
-          <declname>point</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
-          <declname>id</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-<para>updates xf to fit given point </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" line="50" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1aaae306c4977abf865c6cc08110ef00f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::PointMeasurementObject::setWorldPoint</definition>
-        <argsstring>(const Vector3f &amp;point, ViewportId id={})</argsstring>
-        <name>setWorldPoint</name>
-        <qualifiedname>MR::PointMeasurementObject::setWorldPoint</qualifiedname>
-        <param>
-          <type>const Vector3f &amp;</type>
-          <declname>point</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
-          <declname>id</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" line="51" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1aa1ffcc4fad5546ca7dee26151fb10630" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::size_t</type>
-        <definition>MRMESH_API std::size_t MR::PointMeasurementObject::numComparableProperties</definition>
-        <argsstring>() const override</argsstring>
-        <name>numComparableProperties</name>
-        <qualifiedname>MR::PointMeasurementObject::numComparableProperties</qualifiedname>
-        <reimplements refid="classMR_1_1ObjectComparableWithReference_1a7308ba05352b5ce9d88d9dd0510db0a8">numComparableProperties</reimplements>
-        <briefdescription>
-<para>Implement <computeroutput><ref refid="classMR_1_1ObjectComparableWithReference" kindref="compound">ObjectComparableWithReference</ref></computeroutput>: </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" line="54" column="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a456c050996b14fe38e883c1216b179a7" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::string_view</type>
-        <definition>MRMESH_API std::string_view MR::PointMeasurementObject::getComparablePropertyName</definition>
-        <argsstring>(std::size_t i) const override</argsstring>
-        <name>getComparablePropertyName</name>
-        <qualifiedname>MR::PointMeasurementObject::getComparablePropertyName</qualifiedname>
-        <reimplements refid="classMR_1_1ObjectComparableWithReference_1adf521b4333a73a595da64ed48a3a7076">getComparablePropertyName</reimplements>
-        <param>
-          <type>std::size_t</type>
-          <declname>i</declname>
-        </param>
-        <briefdescription>
-<para><computeroutput>i</computeroutput> goes up to <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1aa1ffcc4fad5546ca7dee26151fb10630" kindref="member">numComparableProperties()</ref></computeroutput>, exclusive. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" line="55" column="34"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a8ce121a7423e6fa308670d48fee0761f" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::optional&lt; <ref refid="structMR_1_1ObjectComparableWithReference_1_1ComparableProperty" kindref="compound">ComparableProperty</ref> &gt;</type>
-        <definition>MRMESH_API std::optional&lt; ComparableProperty &gt; MR::PointMeasurementObject::computeComparableProperty</definition>
-        <argsstring>(std::size_t i) const override</argsstring>
-        <name>computeComparableProperty</name>
-        <qualifiedname>MR::PointMeasurementObject::computeComparableProperty</qualifiedname>
-        <reimplements refid="classMR_1_1ObjectComparableWithReference_1a329df4e0165f775043393c15f51db899">computeComparableProperty</reimplements>
-        <param>
-          <type>std::size_t</type>
-          <declname>i</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Compute a value of a property. Compare <computeroutput>value</computeroutput> and <computeroutput>referenceValue</computeroutput> using the tolerance. This can return null if the value is impossible to compute, e.g. for some types if the reference isn&apos;t set (e.g. if we&apos;re computing the distance to a reference point). <computeroutput>i</computeroutput> goes up to <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1aa1ffcc4fad5546ca7dee26151fb10630" kindref="member">numComparableProperties()</ref></computeroutput>, exclusive. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" line="56" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a93ef05872a9f20c631b26b90e4ab53cc" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::optional&lt; <ref refid="structMR_1_1ObjectComparableWithReference_1_1ComparisonTolerance" kindref="compound">ComparisonTolerance</ref> &gt;</type>
-        <definition>MRMESH_API std::optional&lt; ComparisonTolerance &gt; MR::PointMeasurementObject::getComparisonTolerence</definition>
-        <argsstring>(std::size_t i) const override</argsstring>
-        <name>getComparisonTolerence</name>
-        <qualifiedname>MR::PointMeasurementObject::getComparisonTolerence</qualifiedname>
-        <reimplements refid="classMR_1_1ObjectComparableWithReference_1ae22bf9ebca049eed0868db359a75e855">getComparisonTolerence</reimplements>
-        <param>
-          <type>std::size_t</type>
-          <declname>i</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Returns the tolerance for a specific comparable property. Returns null if not set. <computeroutput>i</computeroutput> goes up to <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1aa1ffcc4fad5546ca7dee26151fb10630" kindref="member">numComparableProperties()</ref></computeroutput>, exclusive. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" line="57" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1ab556527a39bd0b6f01016764e6bd2c66" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::PointMeasurementObject::setComparisonTolerance</definition>
-        <argsstring>(std::size_t i, std::optional&lt; ComparisonTolerance &gt; newTolerance) override</argsstring>
-        <name>setComparisonTolerance</name>
-        <qualifiedname>MR::PointMeasurementObject::setComparisonTolerance</qualifiedname>
-        <reimplements refid="classMR_1_1ObjectComparableWithReference_1a7df2402af378c17572454d7492ba7eec">setComparisonTolerance</reimplements>
-        <param>
-          <type>std::size_t</type>
-          <declname>i</declname>
-        </param>
-        <param>
-          <type>std::optional&lt; <ref refid="structMR_1_1ObjectComparableWithReference_1_1ComparisonTolerance" kindref="compound">ComparisonTolerance</ref> &gt;</type>
-          <declname>newTolerance</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Sets the tolerance for a specific comparable property. <computeroutput>i</computeroutput> goes up to <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1aa1ffcc4fad5546ca7dee26151fb10630" kindref="member">numComparableProperties()</ref></computeroutput>, exclusive. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" line="58" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a637a5b8ccb6f5960bb6cd7f00062ac5d" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
-        <definition>MRMESH_API bool MR::PointMeasurementObject::comparisonToleranceIsAlwaysOnlyPositive</definition>
-        <argsstring>(std::size_t i) const override</argsstring>
-        <name>comparisonToleranceIsAlwaysOnlyPositive</name>
-        <qualifiedname>MR::PointMeasurementObject::comparisonToleranceIsAlwaysOnlyPositive</qualifiedname>
-        <reimplements refid="classMR_1_1ObjectComparableWithReference_1ac27662b0d2266f41b4dfab6844dba1e4">comparisonToleranceIsAlwaysOnlyPositive</reimplements>
-        <param>
-          <type>std::size_t</type>
-          <declname>i</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>If true, indicates that the getter will always return zero negative tolerance, and the setter will ignore the negative tolerance. <computeroutput>i</computeroutput> goes up to <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1aa1ffcc4fad5546ca7dee26151fb10630" kindref="member">numComparableProperties()</ref></computeroutput>, exclusive. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" line="59" column="22"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1afddca9da80584a50508e93a5d4fbd422" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::size_t</type>
-        <definition>MRMESH_API std::size_t MR::PointMeasurementObject::numComparisonReferenceValues</definition>
-        <argsstring>() const override</argsstring>
-        <name>numComparisonReferenceValues</name>
-        <qualifiedname>MR::PointMeasurementObject::numComparisonReferenceValues</qualifiedname>
-        <reimplements refid="classMR_1_1ObjectComparableWithReference_1a7e386df110c9d0fa3c799cf002cbc845">numComparisonReferenceValues</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>This returns 2: the point, and the optional normal direction. The normal doesn&apos;t need to be normalized, its length doesn&apos;t affect calculations. If the normal isn&apos;t specified, the Euclidean distance gets used. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" line="62" column="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a5b3ba57a1c8309e5583843098e4db9df" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::string_view</type>
-        <definition>MRMESH_API std::string_view MR::PointMeasurementObject::getComparisonReferenceValueName</definition>
-        <argsstring>(std::size_t i) const override</argsstring>
-        <name>getComparisonReferenceValueName</name>
-        <qualifiedname>MR::PointMeasurementObject::getComparisonReferenceValueName</qualifiedname>
-        <reimplements refid="classMR_1_1ObjectComparableWithReference_1ac3f2255c124f60526c36eb2cc32be9f9">getComparisonReferenceValueName</reimplements>
-        <param>
-          <type>std::size_t</type>
-          <declname>i</declname>
-        </param>
-        <briefdescription>
-<para><computeroutput>i</computeroutput> goes up to <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1afddca9da80584a50508e93a5d4fbd422" kindref="member">numComparisonReferenceValues()</ref></computeroutput>, exclusive. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" line="63" column="34"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a2502d60be202333d006f03e401e10678" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue" kindref="compound">ComparisonReferenceValue</ref></type>
-        <definition>MRMESH_API ComparisonReferenceValue MR::PointMeasurementObject::getComparisonReferenceValue</definition>
-        <argsstring>(std::size_t i) const override</argsstring>
-        <name>getComparisonReferenceValue</name>
-        <qualifiedname>MR::PointMeasurementObject::getComparisonReferenceValue</qualifiedname>
-        <reimplements refid="classMR_1_1ObjectComparableWithReference_1a0fe95bc93503759817b9966ccebc4b0e">getComparisonReferenceValue</reimplements>
-        <param>
-          <type>std::size_t</type>
-          <declname>i</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Returns the internal reference value. If the value wasn&apos;t set yet (as indicated by <computeroutput>isSet == false</computeroutput>), you can still use the returned variant to get the expected type. <computeroutput>i</computeroutput> goes up to <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1afddca9da80584a50508e93a5d4fbd422" kindref="member">numComparisonReferenceValues()</ref></computeroutput>, exclusive. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" line="64" column="42"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a1e92ccec7660b3d3a54e1442bc3e883f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::PointMeasurementObject::setComparisonReferenceValue</definition>
-        <argsstring>(std::size_t i, std::optional&lt; ComparisonReferenceValue::Var &gt; value) override</argsstring>
-        <name>setComparisonReferenceValue</name>
-        <qualifiedname>MR::PointMeasurementObject::setComparisonReferenceValue</qualifiedname>
-        <reimplements refid="classMR_1_1ObjectComparableWithReference_1acb98cc0c1aa80731b206a983e8e79b0a">setComparisonReferenceValue</reimplements>
-        <param>
-          <type>std::size_t</type>
-          <declname>i</declname>
-        </param>
-        <param>
-          <type>std::optional&lt; ComparisonReferenceValue::Var &gt;</type>
-          <declname>value</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Sets the internal reference value. Makes <computeroutput>hasComparisonReferenceValue()</computeroutput> return true. If you pass nullopt, removes this reference value. Only a certain variant type is legal to pass, depending on the derived class and the index. Use <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1a2502d60be202333d006f03e401e10678" kindref="member">getComparisonReferenceValue()</ref></computeroutput> to determine that type. <computeroutput>i</computeroutput> goes up to <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1afddca9da80584a50508e93a5d4fbd422" kindref="member">numComparisonReferenceValues()</ref></computeroutput>, exclusive. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" line="65" column="21"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga73b013ed6a382ed43da7f3bed9a95edb" kind="function"><name>PointMeasurementObject</name></member>
+      <member refid="group__GeneralGroup_1ga554251a50e58777d160bfccd576090fc" kind="function"><name>PointMeasurementObject</name></member>
+      <member refid="group__GeneralGroup_1ga04651779fcd30d074c04198375b93a5c" kind="function"><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga34bf1cdc06d67d92c5a859278440c05a" kind="function"><name>typeName</name></member>
+      <member refid="group__GeneralGroup_1gaceade7c12dff0fd663f1b3863d59eb46" kind="function"><name>className</name></member>
+      <member refid="group__GeneralGroup_1gaf6f6387bd339571f102c4abbab18b0aa" kind="function"><name>classNameInPlural</name></member>
+      <member refid="group__GeneralGroup_1ga52c10e2332240b092d2df7a5cc522ff8" kind="function"><name>PointMeasurementObject</name></member>
+      <member refid="group__GeneralGroup_1ga1028e5d0d684e5b32573488f69798497" kind="function"><name>clone</name></member>
+      <member refid="group__GeneralGroup_1ga3900b0b2a1c555af5028468829a2ae82" kind="function"><name>shallowClone</name></member>
+      <member refid="group__GeneralGroup_1ga0e98fb837af399d0beabc15ccb244735" kind="function"><name>supportsVisualizeProperty</name></member>
+      <member refid="group__GeneralGroup_1gac44e9caf1510826e5de34c71bd1f421c" kind="function"><name>getAllVisualizeProperties</name></member>
+      <member refid="group__GeneralGroup_1gadf8043ed27a7f7991ddbb7da81ed8a09" kind="function"><name>getVisualizePropertyMask</name></member>
+      <member refid="group__GeneralGroup_1ga4f096d4ff6390ee1cabcf8d8cf0ef611" kind="function"><name>getLocalPoint</name></member>
+      <member refid="group__GeneralGroup_1ga13f8b97fa55a8edf13bc7411d644d805" kind="function"><name>getWorldPoint</name></member>
+      <member refid="group__GeneralGroup_1ga71c4ad5ffa51590212c574a6aec07f8b" kind="function"><name>setLocalPoint</name></member>
+      <member refid="group__GeneralGroup_1gaaae306c4977abf865c6cc08110ef00f9" kind="function"><name>setWorldPoint</name></member>
+      <member refid="group__GeneralGroup_1gaa1ffcc4fad5546ca7dee26151fb10630" kind="function"><name>numComparableProperties</name></member>
+      <member refid="group__GeneralGroup_1ga456c050996b14fe38e883c1216b179a7" kind="function"><name>getComparablePropertyName</name></member>
+      <member refid="group__GeneralGroup_1ga8ce121a7423e6fa308670d48fee0761f" kind="function"><name>computeComparableProperty</name></member>
+      <member refid="group__GeneralGroup_1ga93ef05872a9f20c631b26b90e4ab53cc" kind="function"><name>getComparisonTolerence</name></member>
+      <member refid="group__GeneralGroup_1gab556527a39bd0b6f01016764e6bd2c66" kind="function"><name>setComparisonTolerance</name></member>
+      <member refid="group__GeneralGroup_1ga637a5b8ccb6f5960bb6cd7f00062ac5d" kind="function"><name>comparisonToleranceIsAlwaysOnlyPositive</name></member>
+      <member refid="group__GeneralGroup_1gafddca9da80584a50508e93a5d4fbd422" kind="function"><name>numComparisonReferenceValues</name></member>
+      <member refid="group__GeneralGroup_1ga5b3ba57a1c8309e5583843098e4db9df" kind="function"><name>getComparisonReferenceValueName</name></member>
+      <member refid="group__GeneralGroup_1ga2502d60be202333d006f03e401e10678" kind="function"><name>getComparisonReferenceValue</name></member>
+      <member refid="group__GeneralGroup_1ga1e92ccec7660b3d3a54e1442bc3e883f" kind="function"><name>setComparisonReferenceValue</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a6c45c7dac678e65722fea8dfb42ba757" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>const char *</type>
-        <definition>static constexpr const char * MR::PointMeasurementObject::StaticTypeName</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>StaticTypeName</name>
-        <qualifiedname>MR::PointMeasurementObject::StaticTypeName</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" line="26" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" bodystart="26" bodyend="26"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1ad9364c2a231a11b6e36132b55e6c5bfa" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>const char *</type>
-        <definition>static constexpr const char * MR::PointMeasurementObject::StaticClassName</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>StaticClassName</name>
-        <qualifiedname>MR::PointMeasurementObject::StaticClassName</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" line="29" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" bodystart="29" bodyend="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a6bac7a3895d7806d6ef5fc81c8d1bf85" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>const char *</type>
-        <definition>static constexpr const char * MR::PointMeasurementObject::StaticClassNameInPlural</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>StaticClassNameInPlural</name>
-        <qualifiedname>MR::PointMeasurementObject::StaticClassNameInPlural</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" line="32" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" bodystart="32" bodyend="32"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga6c45c7dac678e65722fea8dfb42ba757" kind="function"><name>StaticTypeName</name></member>
+      <member refid="group__GeneralGroup_1gad9364c2a231a11b6e36132b55e6c5bfa" kind="function"><name>StaticClassName</name></member>
+      <member refid="group__GeneralGroup_1ga6bac7a3895d7806d6ef5fc81c8d1bf85" kind="function"><name>StaticClassNameInPlural</name></member>
     </sectiondef>
     <sectiondef kind="protected-func">
-      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a429c054af979eb58cbcbe556d8ea58a0" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::PointMeasurementObject::PointMeasurementObject</definition>
-        <argsstring>(const PointMeasurementObject &amp;other)=default</argsstring>
-        <name>PointMeasurementObject</name>
-        <qualifiedname>MR::PointMeasurementObject::PointMeasurementObject</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1PointMeasurementObject" kindref="compound">PointMeasurementObject</ref> &amp;</type>
-          <declname>other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" line="68" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1ac48271380b514265ffc50f490fba6aff" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::PointMeasurementObject::swapBase_</definition>
-        <argsstring>(Object &amp;other) override</argsstring>
-        <name>swapBase_</name>
-        <qualifiedname>MR::PointMeasurementObject::swapBase_</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1a76b7b6b3bfd7dac31eb1d150afb761f7">swapBase_</reimplements>
-        <param>
-          <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
-          <declname>other</declname>
-        </param>
-        <briefdescription>
-<para>swaps this object with other </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" line="71" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a8e666bd013d5313ea6db2ff4997e2f25" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::PointMeasurementObject::serializeFields_</definition>
-        <argsstring>(Json::Value &amp;root) const override</argsstring>
-        <name>serializeFields_</name>
-        <qualifiedname>MR::PointMeasurementObject::serializeFields_</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1aa7e5231f013c0e9e1b528c69759cc60d">serializeFields_</reimplements>
-        <param>
-          <type>Json::Value &amp;</type>
-          <declname>root</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Write parameters to given Json::Value, <simplesect kind="note"><para>if you override this method, please call Base::serializeFields_(root) in the beginning </para>
-</simplesect>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" line="73" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1aa9b595f58846314d64145f6224563839" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::PointMeasurementObject::deserializeFields_</definition>
-        <argsstring>(const Json::Value &amp;root) override</argsstring>
-        <name>deserializeFields_</name>
-        <qualifiedname>MR::PointMeasurementObject::deserializeFields_</qualifiedname>
-        <reimplements refid="classMR_1_1Object_1afa7de2dfba47f9766bfa741f01f73e42">deserializeFields_</reimplements>
-        <param>
-          <type>const Json::Value &amp;</type>
-          <declname>root</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Reads parameters from json value <simplesect kind="note"><para>if you override this method, please call Base::deserializeFields_(root) in the beginning </para>
-</simplesect>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" line="74" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a204af2ade8b0b40f0c1233e4c7d2a625" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::PointMeasurementObject::setupRenderObject_</definition>
-        <argsstring>() const override</argsstring>
-        <name>setupRenderObject_</name>
-        <qualifiedname>MR::PointMeasurementObject::setupRenderObject_</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1a8c9ac961e923f7c61ccf3424413be0fb">setupRenderObject_</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>each renderable child of <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> should implement this method and assign renderObj_ inside </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" line="76" column="21"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga429c054af979eb58cbcbe556d8ea58a0" kind="function"><name>PointMeasurementObject</name></member>
+      <member refid="group__GeneralGroup_1gac48271380b514265ffc50f490fba6aff" kind="function"><name>swapBase_</name></member>
+      <member refid="group__GeneralGroup_1ga8e666bd013d5313ea6db2ff4997e2f25" kind="function"><name>serializeFields_</name></member>
+      <member refid="group__GeneralGroup_1gaa9b595f58846314d64145f6224563839" kind="function"><name>deserializeFields_</name></member>
+      <member refid="group__GeneralGroup_1ga204af2ade8b0b40f0c1233e4c7d2a625" kind="function"><name>setupRenderObject_</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -842,7 +191,7 @@
         <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" bodystart="19" bodyend="84"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" line="19" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointMeasurementObject.h" bodystart="22" bodyend="87"/>
     <listofallmembers>
       <member refid="classMR_1_1Object_1aa6cdc407999b7e829fd23b242cb6346d" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>addChild</name></member>
       <member refid="classMR_1_1Object_1a8eeb1cb21b22db97f20eac75b897f7ae" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>addChildBefore</name></member>
@@ -855,22 +204,22 @@
       <member refid="classMR_1_1VisualObject_1ae3a2d142d4abb2283a71caf7395282a4" prot="protected" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>backFacesColor_</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a2ba9302240c85bc5dfd78068e7b2e918" prot="protected" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>bastards_</name></member>
       <member refid="classMR_1_1VisualObject_1af81b9247c457c9dbd36d6bbe4c74b826" prot="protected" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>boundingBoxToInfoLines_</name></member>
-      <member refid="classMR_1_1PointMeasurementObject_1a14a63fa9680dd72dfbae3a778da36a71" prot="private" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>capVisibility_</name></member>
+      <member refid="group__GeneralGroup_1ga14a63fa9680dd72dfbae3a778da36a71" prot="private" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>capVisibility_</name></member>
       <member refid="classMR_1_1Object_1a918f27844d6d9aae269008f0036bc671" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>children</name></member>
       <member refid="classMR_1_1Object_1a2f38b85c4109bb77ad1a49e42085b9fb" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>children</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a20c010d72c82523c01e5de05910eb34c" prot="protected" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>children_</name></member>
-      <member refid="classMR_1_1PointMeasurementObject_1aceade7c12dff0fd663f1b3863d59eb46" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>className</name></member>
-      <member refid="classMR_1_1PointMeasurementObject_1af6f6387bd339571f102c4abbab18b0aa" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>classNameInPlural</name></member>
+      <member refid="group__GeneralGroup_1gaceade7c12dff0fd663f1b3863d59eb46" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>className</name></member>
+      <member refid="group__GeneralGroup_1gaf6f6387bd339571f102c4abbab18b0aa" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>classNameInPlural</name></member>
       <member refid="classMR_1_1VisualObject_1ab87c9fab3f92c38aba589584b5466a98" prot="protected" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>clipByPlane_</name></member>
-      <member refid="classMR_1_1PointMeasurementObject_1a1028e5d0d684e5b32573488f69798497" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>clone</name></member>
+      <member refid="group__GeneralGroup_1ga1028e5d0d684e5b32573488f69798497" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>clone</name></member>
       <member refid="classMR_1_1Object_1a54eb8f6e602368572ffb27af73f87465" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>cloneTree</name></member>
       <member refid="classMR_1_1VisualObject_1a21eb2d0c923e3ca0544e4cf90782e6b1" prot="protected" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>coloringType_</name></member>
-      <member refid="classMR_1_1PointMeasurementObject_1a637a5b8ccb6f5960bb6cd7f00062ac5d" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>comparisonToleranceIsAlwaysOnlyPositive</name></member>
+      <member refid="group__GeneralGroup_1ga637a5b8ccb6f5960bb6cd7f00062ac5d" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>comparisonToleranceIsAlwaysOnlyPositive</name></member>
       <member refid="classMR_1_1VisualObject_1a4e27182996ebf22fc42c7d1ebf6cf02b" prot="protected" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>computeBoundingBox_</name></member>
-      <member refid="classMR_1_1PointMeasurementObject_1a8ce121a7423e6fa308670d48fee0761f" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>computeComparableProperty</name></member>
+      <member refid="group__GeneralGroup_1ga8ce121a7423e6fa308670d48fee0761f" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>computeComparableProperty</name></member>
       <member refid="classMR_1_1VisualObject_1a7857f20b8f16704a46297b95e12524f7" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>copyAllSolidColors</name></member>
       <member refid="classMR_1_1VisualObject_1a3c81a910d1fdd5c1f1b413c185bf750d" prot="protected" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>depthTest_</name></member>
-      <member refid="classMR_1_1PointMeasurementObject_1aa9b595f58846314d64145f6224563839" prot="protected" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>deserializeFields_</name></member>
+      <member refid="group__GeneralGroup_1gaa9b595f58846314d64145f6224563839" prot="protected" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>deserializeFields_</name></member>
       <member refid="classMR_1_1Object_1a694bf2e911f3079c872f0dc9c13370c9" prot="protected" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>deserializeModel_</name></member>
       <member refid="classMR_1_1Object_1ae6602edbad891420dc4dff152e9df603" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>deserializeRecursive</name></member>
       <member refid="classMR_1_1Object_1a80a32a58c497b044d63e5aaa75e77fbe" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>detachFromParent</name></member>
@@ -882,34 +231,34 @@
       <member refid="classMR_1_1Object_1a7dc1382248ea0ff99064282167614a4b" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>find</name></member>
       <member refid="classMR_1_1Object_1aa3e60b6a82814bffff2ba324dcaa7bd2" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>findCommonAncestor</name></member>
       <member refid="classMR_1_1Object_1af3951674c765923b8a024a44bd27342d" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>findCommonAncestor</name></member>
-      <member refid="classMR_1_1PointMeasurementObject_1ac44e9caf1510826e5de34c71bd1f421c" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="group__GeneralGroup_1gac44e9caf1510826e5de34c71bd1f421c" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>getAllVisualizeProperties</name></member>
       <member refid="classMR_1_1VisualObject_1a44359499c4ee0b22074b8f3999d53a6e" prot="protected" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getAllVisualizePropertiesForEnum</name></member>
       <member refid="classMR_1_1VisualObject_1afd16375df437a376f44c3bdea5186b82" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getAmbientStrength</name></member>
       <member refid="classMR_1_1VisualObject_1af49f84e12ea7e21ec8dc39ae8609bc18" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getBackColor</name></member>
       <member refid="classMR_1_1VisualObject_1a714aab4f9110c1072f3147edae51e293" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>getBackColorsForAllViewports</name></member>
       <member refid="classMR_1_1VisualObject_1a8fe84b708cf42b2d73b31e77f02fae6a" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getBoundingBox</name></member>
       <member refid="classMR_1_1VisualObject_1ad526a2645a12621b7742bc66aaf5ad0f" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getColoringType</name></member>
-      <member refid="classMR_1_1PointMeasurementObject_1a456c050996b14fe38e883c1216b179a7" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>getComparablePropertyName</name></member>
-      <member refid="classMR_1_1PointMeasurementObject_1a2502d60be202333d006f03e401e10678" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>getComparisonReferenceValue</name></member>
-      <member refid="classMR_1_1PointMeasurementObject_1a5b3ba57a1c8309e5583843098e4db9df" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>getComparisonReferenceValueName</name></member>
-      <member refid="classMR_1_1PointMeasurementObject_1a93ef05872a9f20c631b26b90e4ab53cc" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>getComparisonTolerence</name></member>
+      <member refid="group__GeneralGroup_1ga456c050996b14fe38e883c1216b179a7" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>getComparablePropertyName</name></member>
+      <member refid="group__GeneralGroup_1ga2502d60be202333d006f03e401e10678" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>getComparisonReferenceValue</name></member>
+      <member refid="group__GeneralGroup_1ga5b3ba57a1c8309e5583843098e4db9df" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>getComparisonReferenceValueName</name></member>
+      <member refid="group__GeneralGroup_1ga93ef05872a9f20c631b26b90e4ab53cc" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>getComparisonTolerence</name></member>
       <member refid="classMR_1_1VisualObject_1a6411458c4cd7d098c12adaea27568db7" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getDirtyFlags</name></member>
       <member refid="classMR_1_1VisualObject_1a70f15c0dc59f3b83a8b8c3e6390f7571" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getFrontColor</name></member>
       <member refid="classMR_1_1VisualObject_1a04e6c3f8219124e3028f7dd8411cfc65" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>getFrontColorsForAllViewports</name></member>
       <member refid="classMR_1_1VisualObject_1afe6426aa46d769e1d6f4cab1e56e0559" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getGlobalAlpha</name></member>
       <member refid="classMR_1_1VisualObject_1a3ef31c439da47a55ca3287bf45a377ad" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>getGlobalAlphaForAllViewports</name></member>
       <member refid="classMR_1_1VisualObject_1a76988bf72aa3be996e864fec3ab47ed2" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>getInfoLines</name></member>
-      <member refid="classMR_1_1PointMeasurementObject_1a4f096d4ff6390ee1cabcf8d8cf0ef611" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getLocalPoint</name></member>
+      <member refid="group__GeneralGroup_1ga4f096d4ff6390ee1cabcf8d8cf0ef611" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getLocalPoint</name></member>
       <member refid="classMR_1_1Object_1a4a0bdbb221822d1b73720712b1488489" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>getModelHash</name></member>
       <member refid="classMR_1_1VisualObject_1a08a44c8bd562c85361950682c997f752" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>getRedrawFlag</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a64c12f40ae3ee9c61ba167319e33f4a8" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getSharedPtr</name></member>
       <member refid="classMR_1_1VisualObject_1a1a152f22b671a1cf98ddcf43db92b1da" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getShininess</name></member>
       <member refid="classMR_1_1VisualObject_1a746d651e584a6df83424853a8777138b" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getSpecularStrength</name></member>
       <member refid="classMR_1_1VisualObject_1a3e21bc521981859584703215ba45f219" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getVisualizeProperty</name></member>
-      <member refid="classMR_1_1PointMeasurementObject_1adf8043ed27a7f7991ddbb7da81ed8a09" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="group__GeneralGroup_1gadf8043ed27a7f7991ddbb7da81ed8a09" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>getVisualizePropertyMask</name></member>
       <member refid="classMR_1_1VisualObject_1a11c8d591aa72e021a946b58349b80bcf" prot="protected" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getVisualizePropertyMask_</name></member>
       <member refid="classMR_1_1VisualObject_1a32cc9bc32e5402ed77f63de53d754314" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>getWorldBox</name></member>
-      <member refid="classMR_1_1PointMeasurementObject_1a13f8b97fa55a8edf13bc7411d644d805" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getWorldPoint</name></member>
+      <member refid="group__GeneralGroup_1ga13f8b97fa55a8edf13bc7411d644d805" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getWorldPoint</name></member>
       <member refid="classMR_1_1Object_1a41924fd6534dc41bfdb6dd30e263109b" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getWorldTreeBox</name></member>
       <member refid="classMR_1_1VisualObject_1a96232055c664463cca20dda327b1c30f" prot="protected" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>globalAlpha_</name></member>
       <member refid="classMR_1_1VisualObject_1a5985106ad6fa7332062d84fdd44b5986" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>globalClippedByPlane</name></member>
@@ -930,12 +279,12 @@
       <member refid="classMR_1_1Object_1a3f649834561a9f246e1d840a0f3080c8" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>isSelected</name></member>
       <member refid="classMR_1_1Object_1a98c9e0d07b736d2b86c4d3d340b77844" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>isVisible</name></member>
       <member refid="classMR_1_1Object_1a958714fb7d616e608cb16223e052052b" prot="protected" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>locked_</name></member>
-      <member refid="classMR_1_1MeasurementObject_1abfa882fd0a9244f24422e3f34dd6a35a" prot="protected" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>MeasurementObject</name></member>
+      <member refid="group__GeneralGroup_1gabfa882fd0a9244f24422e3f34dd6a35a" prot="protected" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>MeasurementObject</name></member>
       <member refid="classMR_1_1Object_1ae813e1ae9ad5cbb71ca45adbdd811679" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>name</name></member>
       <member refid="classMR_1_1Object_1a3d6d27065a13a0a262df4b74ff82e538" prot="protected" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>name_</name></member>
       <member refid="classMR_1_1Object_1a92a390dc7570098981912529e341433d" prot="protected" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>needRedraw_</name></member>
-      <member refid="classMR_1_1PointMeasurementObject_1aa1ffcc4fad5546ca7dee26151fb10630" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>numComparableProperties</name></member>
-      <member refid="classMR_1_1PointMeasurementObject_1afddca9da80584a50508e93a5d4fbd422" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>numComparisonReferenceValues</name></member>
+      <member refid="group__GeneralGroup_1gaa1ffcc4fad5546ca7dee26151fb10630" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>numComparableProperties</name></member>
+      <member refid="group__GeneralGroup_1gafddca9da80584a50508e93a5d4fbd422" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>numComparisonReferenceValues</name></member>
       <member refid="classMR_1_1Object_1ac2ef0a60f0cb9b488534014376ccd38d" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>Object</name></member>
       <member refid="classMR_1_1Object_1abac87686448c89b770d46ab30ad79dc2" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>Object</name></member>
       <member refid="classMR_1_1Object_1a795eb7eeaecc99cf34dabd14ac113e0b" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>Object</name></member>
@@ -943,28 +292,28 @@
       <member refid="classMR_1_1ObjectChildrenHolder_1acad4a073a2e703743e01e2e5cce9e285" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>ObjectChildrenHolder</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a676c20b6eea355fe68748a8c1ad0b086" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>ObjectChildrenHolder</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a89b1fff6ebde3c5a71a530e3c8cddfb6" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>ObjectChildrenHolder</name></member>
-      <member refid="classMR_1_1ObjectComparableWithReference_1a39179dbfa89d894ecf784f2398c9c78b" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>ObjectComparableWithReference</name></member>
-      <member refid="classMR_1_1ObjectComparableWithReference_1ae825a8e0a74fc989c2bcd3147ff8bed2" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>ObjectComparableWithReference</name></member>
-      <member refid="classMR_1_1ObjectComparableWithReference_1aab13b511da066b66c07235be25abce0b" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>ObjectComparableWithReference</name></member>
+      <member refid="group__GeneralGroup_1ga39179dbfa89d894ecf784f2398c9c78b" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>ObjectComparableWithReference</name></member>
+      <member refid="group__GeneralGroup_1gae825a8e0a74fc989c2bcd3147ff8bed2" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>ObjectComparableWithReference</name></member>
+      <member refid="group__GeneralGroup_1gaab13b511da066b66c07235be25abce0b" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>ObjectComparableWithReference</name></member>
       <member refid="classMR_1_1Object_1ae552548142751ab5d35d446cb5d56fae" prot="protected" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>onWorldXfChanged_</name></member>
-      <member refid="classMR_1_1PointMeasurementObject_1a04651779fcd30d074c04198375b93a5c" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga04651779fcd30d074c04198375b93a5c" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>operator=</name></member>
       <member refid="classMR_1_1VisualObject_1ad5bb82fa6b6b0ea77f0137b975c802f6" prot="public" virt="non-virtual" ambiguityscope="MR::MeasurementObject::"><scope>MR::PointMeasurementObject</scope><name>operator=</name></member>
       <member refid="classMR_1_1Object_1aaa2378c439796ceb7a28ad41322cb8d7" prot="public" virt="non-virtual" ambiguityscope="MR::Object::"><scope>MR::PointMeasurementObject</scope><name>operator=</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a44a4427301ae71511f5b3138cdf02e9f" prot="public" virt="non-virtual" ambiguityscope="MR::ObjectChildrenHolder::"><scope>MR::PointMeasurementObject</scope><name>operator=</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1aca1fa4cd4c9ee1cb2e567623c979b26f" prot="public" virt="non-virtual" ambiguityscope="MR::ObjectChildrenHolder::"><scope>MR::PointMeasurementObject</scope><name>operator=</name></member>
-      <member refid="classMR_1_1ObjectComparableWithReference_1ad1905b7160fa76212ab3913f59d132ce" prot="public" virt="non-virtual" ambiguityscope="MR::ObjectComparableWithReference::"><scope>MR::PointMeasurementObject</scope><name>operator=</name></member>
-      <member refid="classMR_1_1ObjectComparableWithReference_1a6079e4aac0a4e04a8055a9f639264096" prot="public" virt="non-virtual" ambiguityscope="MR::ObjectComparableWithReference::"><scope>MR::PointMeasurementObject</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1gad1905b7160fa76212ab3913f59d132ce" prot="public" virt="non-virtual" ambiguityscope="MR::ObjectComparableWithReference::"><scope>MR::PointMeasurementObject</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga6079e4aac0a4e04a8055a9f639264096" prot="public" virt="non-virtual" ambiguityscope="MR::ObjectComparableWithReference::"><scope>MR::PointMeasurementObject</scope><name>operator=</name></member>
       <member refid="classMR_1_1Object_1a68500213a1d6e4f3b7f9fc3806fcacd1" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>parent</name></member>
       <member refid="classMR_1_1Object_1a04aa027ee39ae2bc0f084534a946c9f5" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>parent</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a79a7197e0981d1da1b59f5fa0d858f7d" prot="protected" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>parent_</name></member>
       <member refid="classMR_1_1Object_1a2f679f701887cee54069b81a45cc8ebc" prot="protected" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>parentLocked_</name></member>
       <member refid="classMR_1_1VisualObject_1a43bcd013faf296110ba8cb4a94bbe12f" prot="protected" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>pickable_</name></member>
-      <member refid="classMR_1_1PointMeasurementObject_1a73b013ed6a382ed43da7f3bed9a95edb" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>PointMeasurementObject</name></member>
-      <member refid="classMR_1_1PointMeasurementObject_1a554251a50e58777d160bfccd576090fc" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>PointMeasurementObject</name></member>
-      <member refid="classMR_1_1PointMeasurementObject_1a52c10e2332240b092d2df7a5cc522ff8" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>PointMeasurementObject</name></member>
-      <member refid="classMR_1_1PointMeasurementObject_1a429c054af979eb58cbcbe556d8ea58a0" prot="protected" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>PointMeasurementObject</name></member>
-      <member refid="classMR_1_1PointMeasurementObject_1aefa853ab1211c443d16dcf16f2f39d84" prot="private" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>referenceNormal_</name></member>
-      <member refid="classMR_1_1PointMeasurementObject_1a95facd11fa69b61db27f87fbd737df5d" prot="private" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>referencePos_</name></member>
+      <member refid="group__GeneralGroup_1ga73b013ed6a382ed43da7f3bed9a95edb" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>PointMeasurementObject</name></member>
+      <member refid="group__GeneralGroup_1ga554251a50e58777d160bfccd576090fc" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>PointMeasurementObject</name></member>
+      <member refid="group__GeneralGroup_1ga52c10e2332240b092d2df7a5cc522ff8" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>PointMeasurementObject</name></member>
+      <member refid="group__GeneralGroup_1ga429c054af979eb58cbcbe556d8ea58a0" prot="protected" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>PointMeasurementObject</name></member>
+      <member refid="group__GeneralGroup_1gaefa853ab1211c443d16dcf16f2f39d84" prot="private" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>referenceNormal_</name></member>
+      <member refid="group__GeneralGroup_1ga95facd11fa69b61db27f87fbd737df5d" prot="private" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>referencePos_</name></member>
       <member refid="classMR_1_1Object_1a1b5609ba616723794aea4dda67727865" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>removeAllChildren</name></member>
       <member refid="classMR_1_1Object_1aa988bb552650c9d30e888e456f458d46" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>removeChild</name></member>
       <member refid="classMR_1_1Object_1a291d8e281e83a1199d6da8484e798fd5" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>removeChild</name></member>
@@ -984,7 +333,7 @@
       <member refid="classMR_1_1Object_1a0d8ef27f83b47e000093eaa0df9c36f9" prot="protected" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>selected_</name></member>
       <member refid="classMR_1_1VisualObject_1ac75d179334e336af0672bf0d9c997038" prot="protected" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>selectedColor_</name></member>
       <member refid="classMR_1_1Object_1ab41eb618ef90d9677638173475b2d983" prot="protected" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>sendWorldXfChangedSignal_</name></member>
-      <member refid="classMR_1_1PointMeasurementObject_1a8e666bd013d5313ea6db2ff4997e2f25" prot="protected" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>serializeFields_</name></member>
+      <member refid="group__GeneralGroup_1ga8e666bd013d5313ea6db2ff4997e2f25" prot="protected" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>serializeFields_</name></member>
       <member refid="classMR_1_1Object_1a7bf17e9cdecb511570759169e86bf0e2" prot="protected" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>serializeModel_</name></member>
       <member refid="classMR_1_1Object_1a9585a709b1b7bd6d35276d099afd0079" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>serializeRecursive</name></member>
       <member refid="classMR_1_1VisualObject_1aa19ae518997e365fbfa1ddd81b04eb10" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setAllVisualizeProperties</name></member>
@@ -995,9 +344,9 @@
       <member refid="classMR_1_1VisualObject_1a469ac6da4b8c323e12d0d78943831a4e" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>setBackColor</name></member>
       <member refid="classMR_1_1VisualObject_1a6b7e8cf2909d71a7537a47028f77913a" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>setBackColorsForAllViewports</name></member>
       <member refid="classMR_1_1VisualObject_1a8d339ad1cf1735f90773b4f8b89e9059" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>setColoringType</name></member>
-      <member refid="classMR_1_1ObjectComparableWithReference_1a09b21bda8f6435e0b9c520c31f2607ed" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setComparisonReferenceVal</name></member>
-      <member refid="classMR_1_1PointMeasurementObject_1a1e92ccec7660b3d3a54e1442bc3e883f" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>setComparisonReferenceValue</name></member>
-      <member refid="classMR_1_1PointMeasurementObject_1ab556527a39bd0b6f01016764e6bd2c66" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>setComparisonTolerance</name></member>
+      <member refid="group__GeneralGroup_1ga09b21bda8f6435e0b9c520c31f2607ed" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setComparisonReferenceVal</name></member>
+      <member refid="group__GeneralGroup_1ga1e92ccec7660b3d3a54e1442bc3e883f" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>setComparisonReferenceValue</name></member>
+      <member refid="group__GeneralGroup_1gab556527a39bd0b6f01016764e6bd2c66" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>setComparisonTolerance</name></member>
       <member refid="classMR_1_1VisualObject_1a3e72e4b693ea9b28b46b5928167f0e74" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>setDirtyFlags</name></member>
       <member refid="classMR_1_1VisualObject_1a2261b98d651c586e2bc62a2e1efb902a" prot="protected" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setDirtyFlagsFast_</name></member>
       <member refid="classMR_1_1VisualObject_1a0d1a64b6bed894b4236b06ac732dfd74" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>setFrontColor</name></member>
@@ -1006,7 +355,7 @@
       <member refid="classMR_1_1VisualObject_1a8ae88237f1bd22f03cb5a77d018c6d7c" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>setGlobalAlphaForAllViewports</name></member>
       <member refid="classMR_1_1VisualObject_1a6212504702d0e12528f65b94e270069e" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setGlobalClippedByPlane</name></member>
       <member refid="classMR_1_1Object_1af61964cafaa7f98e2b14f89fed277368" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setGlobalVisibility</name></member>
-      <member refid="classMR_1_1PointMeasurementObject_1a71c4ad5ffa51590212c574a6aec07f8b" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setLocalPoint</name></member>
+      <member refid="group__GeneralGroup_1ga71c4ad5ffa51590212c574a6aec07f8b" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setLocalPoint</name></member>
       <member refid="classMR_1_1Object_1ac427b5b1a99a87eac1305683801fc850" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>setLocked</name></member>
       <member refid="classMR_1_1Object_1ace89695fb0235bdf97caecfe26390349" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>setName</name></member>
       <member refid="classMR_1_1Object_1acd0464af4d89730f9a969f997fdcc8ce" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>setParentLocked</name></member>
@@ -1014,17 +363,17 @@
       <member refid="classMR_1_1Object_1a911d7f54ae21939fe483b0f5caf04a66" prot="protected" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>setSharedModel_</name></member>
       <member refid="classMR_1_1VisualObject_1add52279d4cba695b4fa60d469cb8c1af" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>setShininess</name></member>
       <member refid="classMR_1_1VisualObject_1a455eb4255b591d822d504e0403c5e984" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>setSpecularStrength</name></member>
-      <member refid="classMR_1_1PointMeasurementObject_1a204af2ade8b0b40f0c1233e4c7d2a625" prot="protected" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>setupRenderObject_</name></member>
+      <member refid="group__GeneralGroup_1ga204af2ade8b0b40f0c1233e4c7d2a625" prot="protected" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>setupRenderObject_</name></member>
       <member refid="classMR_1_1VisualObject_1a12fceb01c325ff73eb770fa255cb5ecf" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setUseDefaultScenePropertiesOnDeserialization</name></member>
       <member refid="classMR_1_1Object_1a01ca9dab857ceb8e3fad3d04d271ff0e" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>setVisibilityMask</name></member>
       <member refid="classMR_1_1Object_1a4f9e9d6e328f1eda7944805cf9d52dc0" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setVisible</name></member>
       <member refid="classMR_1_1VisualObject_1a2bbb1d0c58312e6cec629c558dec4eb8" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setVisualizeProperty</name></member>
       <member refid="classMR_1_1VisualObject_1acd4b651e989735ef689f9ed94bbf302d" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>setVisualizePropertyMask</name></member>
-      <member refid="classMR_1_1PointMeasurementObject_1aaae306c4977abf865c6cc08110ef00f9" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setWorldPoint</name></member>
+      <member refid="group__GeneralGroup_1gaaae306c4977abf865c6cc08110ef00f9" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setWorldPoint</name></member>
       <member refid="classMR_1_1Object_1a214e37583ccaa45d92895464c6de685d" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setWorldXf</name></member>
       <member refid="classMR_1_1Object_1a2f9761f33c2e77153389c9b3583e013e" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>setXf</name></member>
       <member refid="classMR_1_1Object_1a6d2214b6fde4d128210f1421cc36176d" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>setXfsForAllViewports</name></member>
-      <member refid="classMR_1_1PointMeasurementObject_1a3900b0b2a1c555af5028468829a2ae82" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>shallowClone</name></member>
+      <member refid="group__GeneralGroup_1ga3900b0b2a1c555af5028468829a2ae82" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>shallowClone</name></member>
       <member refid="classMR_1_1Object_1ac8e64c569d24d04c1dfcfe7cb1511580" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>shallowCloneTree</name></member>
       <member refid="classMR_1_1VisualObject_1a88b3d55070a6a91ed592e80b0f925419" prot="protected" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>shininess_</name></member>
       <member refid="classMR_1_1VisualObject_1aa23cd40dfdaaebc073129fb1ba57dce7" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>showName</name></member>
@@ -1032,18 +381,18 @@
       <member refid="classMR_1_1VisualObject_1a611894e7f98e2633137d75833e361781" prot="protected" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>showName_</name></member>
       <member refid="classMR_1_1Object_1a6f67ec7cbe1e69e514d8f0d5286a35da" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>sortChildren</name></member>
       <member refid="classMR_1_1VisualObject_1ab494630abaaab85d3b4c16929c7e6e83" prot="protected" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>specularStrength_</name></member>
-      <member refid="classMR_1_1PointMeasurementObject_1ad9364c2a231a11b6e36132b55e6c5bfa" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>StaticClassName</name></member>
-      <member refid="classMR_1_1PointMeasurementObject_1a6bac7a3895d7806d6ef5fc81c8d1bf85" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>StaticClassNameInPlural</name></member>
-      <member refid="classMR_1_1PointMeasurementObject_1a6c45c7dac678e65722fea8dfb42ba757" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>StaticTypeName</name></member>
-      <member refid="classMR_1_1PointMeasurementObject_1a0e98fb837af399d0beabc15ccb244735" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>supportsVisualizeProperty</name></member>
+      <member refid="group__GeneralGroup_1gad9364c2a231a11b6e36132b55e6c5bfa" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>StaticClassName</name></member>
+      <member refid="group__GeneralGroup_1ga6bac7a3895d7806d6ef5fc81c8d1bf85" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>StaticClassNameInPlural</name></member>
+      <member refid="group__GeneralGroup_1ga6c45c7dac678e65722fea8dfb42ba757" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>StaticTypeName</name></member>
+      <member refid="group__GeneralGroup_1ga0e98fb837af399d0beabc15ccb244735" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>supportsVisualizeProperty</name></member>
       <member refid="classMR_1_1Object_1a39e506e0816b1d504e86a2823ee90cf3" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>swap</name></member>
-      <member refid="classMR_1_1PointMeasurementObject_1ac48271380b514265ffc50f490fba6aff" prot="protected" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>swapBase_</name></member>
+      <member refid="group__GeneralGroup_1gac48271380b514265ffc50f490fba6aff" prot="protected" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>swapBase_</name></member>
       <member refid="classMR_1_1Object_1a82d2749fefb75e38b62dd69a52307680" prot="protected" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>swapSignals_</name></member>
       <member refid="classMR_1_1Object_1abf2e87d7dd67d22799d82a35ddecc7b3" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>tags</name></member>
       <member refid="classMR_1_1Object_1abf2154dc69866e93f47d7207cdb4abf4" prot="protected" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>tags_</name></member>
       <member refid="classMR_1_1VisualObject_1af63540ac95e6431477166fb4d1c249a3" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>toggleVisualizeProperty</name></member>
-      <member refid="classMR_1_1PointMeasurementObject_1a753aa93b3c409afeaf35914046a7f9de" prot="private" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>tolerance_</name></member>
-      <member refid="classMR_1_1PointMeasurementObject_1a34bf1cdc06d67d92c5a859278440c05a" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>typeName</name></member>
+      <member refid="group__GeneralGroup_1ga753aa93b3c409afeaf35914046a7f9de" prot="private" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>tolerance_</name></member>
+      <member refid="group__GeneralGroup_1ga34bf1cdc06d67d92c5a859278440c05a" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>typeName</name></member>
       <member refid="classMR_1_1VisualObject_1a567b072f1d687c864a8be3d5e68d13a3" prot="protected" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>unselectedColor_</name></member>
       <member refid="classMR_1_1VisualObject_1a0466c6ddefdea403775b5b4fa4a46219" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
       <member refid="classMR_1_1VisualObject_1aeed6d251c7bdbffe0634b0fe96faab35" prot="protected" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>useDefaultScenePropertiesOnDeserialization_</name></member>
@@ -1061,7 +410,7 @@
       <member refid="classMR_1_1Object_1a695ed8027820a6f982adf8a3e393503d" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>xfsForAllViewports</name></member>
       <member refid="classMR_1_1Object_1a89c09f7a1ec5ba173cd21879e3f9953e" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>~Object</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a0d547b2ea371b35b7f6aeb91b0a31ef8" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>~ObjectChildrenHolder</name></member>
-      <member refid="classMR_1_1ObjectComparableWithReference_1a83e6e08749efd393e0a34bdf6804bc2e" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>~ObjectComparableWithReference</name></member>
+      <member refid="group__GeneralGroup_1ga83e6e08749efd393e0a34bdf6804bc2e" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>~ObjectComparableWithReference</name></member>
       <member refid="classMR_1_1VisualObject_1a32d2019eae016848083a25a159b3b058" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>~VisualObject</name></member>
     </listofallmembers>
   </compounddef>

@@ -5,103 +5,16 @@
     <basecompoundref refid="classMR_1_1IPluginUpdate" prot="public" virt="virtual">MR::IPluginUpdate</basecompoundref>
     <includes refid="MRStatePluginUpdate_8h" local="no">MRStatePluginUpdate.h</includes>
     <sectiondef kind="protected-attrib">
-      <memberdef kind="variable" id="classMR_1_1PluginCloseOnChangeMesh_1a7b94773fd2366584812415d8cc83b4c1" prot="protected" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::PluginCloseOnChangeMesh::meshChanged_</definition>
-        <argsstring></argsstring>
-        <name>meshChanged_</name>
-        <qualifiedname>MR::PluginCloseOnChangeMesh::meshChanged_</qualifiedname>
-        <initializer>{ false }</initializer>
-        <briefdescription>
-<para>plugin can return the value to false after mesh change if it changed the mesh by itself and does not want to close </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" line="50" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" bodystart="50" bodyend="50"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga7b94773fd2366584812415d8cc83b4c1" kind="variable"><name>meshChanged_</name></member>
     </sectiondef>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1PluginCloseOnChangeMesh_1a84e6c03197732646789295b475260890" prot="private" static="no" mutable="no">
-        <type>std::vector&lt; boost::signals2::scoped_connection &gt;</type>
-        <definition>std::vector&lt;boost::signals2::scoped_connection&gt; MR::PluginCloseOnChangeMesh::meshChangedConnections_</definition>
-        <argsstring></argsstring>
-        <name>meshChangedConnections_</name>
-        <qualifiedname>MR::PluginCloseOnChangeMesh::meshChangedConnections_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" line="53" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" bodystart="53" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga84e6c03197732646789295b475260890" kind="variable"><name>meshChangedConnections_</name></member>
     </sectiondef>
     <sectiondef kind="protected-func">
-      <memberdef kind="function" id="classMR_1_1PluginCloseOnChangeMesh_1a5790fe8a480493d40913adc3812e1127" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>virtual MRVIEWER_API bool MR::PluginCloseOnChangeMesh::reactOnFaceSelectionChanges_</definition>
-        <argsstring>() const</argsstring>
-        <name>reactOnFaceSelectionChanges_</name>
-        <qualifiedname>MR::PluginCloseOnChangeMesh::reactOnFaceSelectionChanges_</qualifiedname>
-        <briefdescription>
-<para>plugin can override it to make this helper class also react on face selections updates </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" line="44" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" bodystart="44" bodyend="44"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PluginCloseOnChangeMesh_1a2e05f59d67c502229f3a2a2e919886fc" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>virtual MRVIEWER_API void MR::PluginCloseOnChangeMesh::onPluginEnable_</definition>
-        <argsstring>() override</argsstring>
-        <name>onPluginEnable_</name>
-        <qualifiedname>MR::PluginCloseOnChangeMesh::onPluginEnable_</qualifiedname>
-        <reimplements refid="classMR_1_1IPluginUpdate_1ac74a796b15f4842c135a9956d270caa3">onPluginEnable_</reimplements>
-        <briefdescription>
-<para>called when plugin started </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" line="46" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PluginCloseOnChangeMesh_1af521c98fca4b1537e06ebf161605954d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>virtual MRVIEWER_API void MR::PluginCloseOnChangeMesh::onPluginDisable_</definition>
-        <argsstring>() override</argsstring>
-        <name>onPluginDisable_</name>
-        <qualifiedname>MR::PluginCloseOnChangeMesh::onPluginDisable_</qualifiedname>
-        <reimplements refid="classMR_1_1IPluginUpdate_1a0ac2f366f4785c61b991e9d38f1c12d1">onPluginDisable_</reimplements>
-        <briefdescription>
-<para>called when plugin stops </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" line="47" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PluginCloseOnChangeMesh_1a8a6dc440df682b00feb1b9fd10eab31a" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>virtual MRVIEWER_API bool MR::PluginCloseOnChangeMesh::shouldClose_</definition>
-        <argsstring>() const override</argsstring>
-        <name>shouldClose_</name>
-        <qualifiedname>MR::PluginCloseOnChangeMesh::shouldClose_</qualifiedname>
-        <reimplements refid="classMR_1_1IPluginUpdate_1ab6e6e3dcf2ab382434fd967480164324">shouldClose_</reimplements>
-        <briefdescription>
-<para>called each frame, return true to close plugin </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" line="48" column="31"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga5790fe8a480493d40913adc3812e1127" kind="function"><name>reactOnFaceSelectionChanges_</name></member>
+      <member refid="group__GeneralGroup_1ga2e05f59d67c502229f3a2a2e919886fc" kind="function"><name>onPluginEnable_</name></member>
+      <member refid="group__GeneralGroup_1gaf521c98fca4b1537e06ebf161605954d" kind="function"><name>onPluginDisable_</name></member>
+      <member refid="group__GeneralGroup_1ga8a6dc440df682b00feb1b9fd10eab31a" kind="function"><name>shouldClose_</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -132,16 +45,16 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" line="40" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" bodystart="41" bodyend="54"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" line="43" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" bodystart="44" bodyend="57"/>
     <listofallmembers>
-      <member refid="classMR_1_1PluginCloseOnChangeMesh_1a7b94773fd2366584812415d8cc83b4c1" prot="protected" virt="non-virtual"><scope>MR::PluginCloseOnChangeMesh</scope><name>meshChanged_</name></member>
-      <member refid="classMR_1_1PluginCloseOnChangeMesh_1a84e6c03197732646789295b475260890" prot="private" virt="non-virtual"><scope>MR::PluginCloseOnChangeMesh</scope><name>meshChangedConnections_</name></member>
-      <member refid="classMR_1_1PluginCloseOnChangeMesh_1af521c98fca4b1537e06ebf161605954d" prot="protected" virt="virtual"><scope>MR::PluginCloseOnChangeMesh</scope><name>onPluginDisable_</name></member>
-      <member refid="classMR_1_1PluginCloseOnChangeMesh_1a2e05f59d67c502229f3a2a2e919886fc" prot="protected" virt="virtual"><scope>MR::PluginCloseOnChangeMesh</scope><name>onPluginEnable_</name></member>
-      <member refid="classMR_1_1IPluginUpdate_1a6a79d0d76063de2f4947098cc9cb07a8" prot="public" virt="virtual"><scope>MR::PluginCloseOnChangeMesh</scope><name>preDrawUpdate</name></member>
-      <member refid="classMR_1_1PluginCloseOnChangeMesh_1a5790fe8a480493d40913adc3812e1127" prot="protected" virt="virtual"><scope>MR::PluginCloseOnChangeMesh</scope><name>reactOnFaceSelectionChanges_</name></member>
-      <member refid="classMR_1_1PluginCloseOnChangeMesh_1a8a6dc440df682b00feb1b9fd10eab31a" prot="protected" virt="virtual"><scope>MR::PluginCloseOnChangeMesh</scope><name>shouldClose_</name></member>
-      <member refid="classMR_1_1IPluginUpdate_1a3a57e2a35ba84c0bdd2af8a0f162c5f3" prot="public" virt="virtual"><scope>MR::PluginCloseOnChangeMesh</scope><name>~IPluginUpdate</name></member>
+      <member refid="group__GeneralGroup_1ga7b94773fd2366584812415d8cc83b4c1" prot="protected" virt="non-virtual"><scope>MR::PluginCloseOnChangeMesh</scope><name>meshChanged_</name></member>
+      <member refid="group__GeneralGroup_1ga84e6c03197732646789295b475260890" prot="private" virt="non-virtual"><scope>MR::PluginCloseOnChangeMesh</scope><name>meshChangedConnections_</name></member>
+      <member refid="group__GeneralGroup_1gaf521c98fca4b1537e06ebf161605954d" prot="protected" virt="virtual"><scope>MR::PluginCloseOnChangeMesh</scope><name>onPluginDisable_</name></member>
+      <member refid="group__GeneralGroup_1ga2e05f59d67c502229f3a2a2e919886fc" prot="protected" virt="virtual"><scope>MR::PluginCloseOnChangeMesh</scope><name>onPluginEnable_</name></member>
+      <member refid="group__GeneralGroup_1ga6a79d0d76063de2f4947098cc9cb07a8" prot="public" virt="virtual"><scope>MR::PluginCloseOnChangeMesh</scope><name>preDrawUpdate</name></member>
+      <member refid="group__GeneralGroup_1ga5790fe8a480493d40913adc3812e1127" prot="protected" virt="virtual"><scope>MR::PluginCloseOnChangeMesh</scope><name>reactOnFaceSelectionChanges_</name></member>
+      <member refid="group__GeneralGroup_1ga8a6dc440df682b00feb1b9fd10eab31a" prot="protected" virt="virtual"><scope>MR::PluginCloseOnChangeMesh</scope><name>shouldClose_</name></member>
+      <member refid="group__GeneralGroup_1ga3a57e2a35ba84c0bdd2af8a0f162c5f3" prot="public" virt="virtual"><scope>MR::PluginCloseOnChangeMesh</scope><name>~IPluginUpdate</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

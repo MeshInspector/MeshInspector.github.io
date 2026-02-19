@@ -6,359 +6,52 @@
     <innerclass refid="structMR_1_1RibbonIcons_1_1Icons" prot="private">MR::RibbonIcons::Icons</innerclass>
     <innerclass refid="structMR_1_1RibbonIcons_1_1IconTypeData" prot="private">MR::RibbonIcons::IconTypeData</innerclass>
     <sectiondef kind="public-type">
-      <memberdef kind="enum" id="classMR_1_1RibbonIcons_1acd06ecfde8f0637bb01c0d36d8605bef" prot="public" static="no" strong="yes">
-        <type></type>
-        <name>ColorType</name>
-        <qualifiedname>MR::RibbonIcons::ColorType</qualifiedname>
-        <enumvalue id="classMR_1_1RibbonIcons_1acd06ecfde8f0637bb01c0d36d8605befa23aad110ee43b97ef120fbbeb743d81c" prot="public">
-          <name>Colored</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1RibbonIcons_1acd06ecfde8f0637bb01c0d36d8605befa25a81701fbfa4a1efdf660a950c1d006" prot="public">
-          <name>White</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonIcons.h" line="15" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonIcons.h" bodystart="16" bodyend="19"/>
-      </memberdef>
-      <memberdef kind="enum" id="classMR_1_1RibbonIcons_1a2d10e82f8fd5c6cc53279374e9bd3931" prot="public" static="no" strong="yes">
-        <type></type>
-        <name>IconType</name>
-        <qualifiedname>MR::RibbonIcons::IconType</qualifiedname>
-        <enumvalue id="classMR_1_1RibbonIcons_1a2d10e82f8fd5c6cc53279374e9bd3931a35e029f5ff6bcc67b6ecc2e445c498f2" prot="public">
-          <name>RibbonItemIcon</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1RibbonIcons_1a2d10e82f8fd5c6cc53279374e9bd3931af039b462df0cff215dbf650d8b6e3ce9" prot="public">
-          <name>ObjectTypeIcon</name>
-          <briefdescription>
-<para>have four sizes </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1RibbonIcons_1a2d10e82f8fd5c6cc53279374e9bd3931a9343317ce8e6d82b76c743f07e14ed1d" prot="public">
-          <name>IndependentIcons</name>
-          <briefdescription>
-<para>have two sizes </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1RibbonIcons_1a2d10e82f8fd5c6cc53279374e9bd3931a2ada7b483f52be3afc92b8d3b07896d9" prot="public">
-          <name>Logos</name>
-          <briefdescription>
-<para>have two sizes </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1RibbonIcons_1a2d10e82f8fd5c6cc53279374e9bd3931ae93f994f01c537c4e2f7d8528c3eb5e9" prot="public">
-          <name>Count</name>
-          <briefdescription>
-<para>have two sizes </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonIcons.h" line="20" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonIcons.h" bodystart="21" bodyend="27"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gacd06ecfde8f0637bb01c0d36d8605bef" kind="enum"><name>ColorType</name></member>
+      <member refid="group__GeneralGroup_1ga2d10e82f8fd5c6cc53279374e9bd3931" kind="enum"><name>IconType</name></member>
     </sectiondef>
     <sectiondef kind="private-type">
-      <memberdef kind="enum" id="classMR_1_1RibbonIcons_1acb8553a429f9686c8640af6c2c125542" prot="private" static="no" strong="yes">
-        <type></type>
-        <name>Sizes</name>
-        <qualifiedname>MR::RibbonIcons::Sizes</qualifiedname>
-        <enumvalue id="classMR_1_1RibbonIcons_1acb8553a429f9686c8640af6c2c125542ad7778bf415191f8b84777d359c15f914" prot="private">
-          <name>X0_5</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1RibbonIcons_1acb8553a429f9686c8640af6c2c125542a3a5b7e51f1fced6fa9be82791a9d5d6b" prot="private">
-          <name>X0_75</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1RibbonIcons_1acb8553a429f9686c8640af6c2c125542abb7f5ae6220c9828e5ec91faf054197c" prot="private">
-          <name>X1</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1RibbonIcons_1acb8553a429f9686c8640af6c2c125542a0541026d4fa57ca1cc1a6fe30f57fea1" prot="private">
-          <name>X3</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1RibbonIcons_1acb8553a429f9686c8640af6c2c125542ae93f994f01c537c4e2f7d8528c3eb5e9" prot="private">
-          <name>Count</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonIcons.h" line="47" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonIcons.h" bodystart="48" bodyend="54"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1RibbonIcons_1a62a1717386122730a20db87f57d97a86" prot="private" static="no">
-        <type>std::array&lt; Icons, size_t(Sizes::Count)&gt;</type>
-        <definition>using MR::RibbonIcons::SizedIcons =  std::array&lt;Icons, size_t( Sizes::Count )&gt;</definition>
-        <argsstring></argsstring>
-        <name>SizedIcons</name>
-        <qualifiedname>MR::RibbonIcons::SizedIcons</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonIcons.h" line="56" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonIcons.h" bodystart="56" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gacb8553a429f9686c8640af6c2c125542" kind="enum"><name>Sizes</name></member>
+      <member refid="group__GeneralGroup_1ga62a1717386122730a20db87f57d97a86" kind="typedef"><name>SizedIcons</name></member>
     </sectiondef>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1RibbonIcons_1a1bb1ab1a4406b3b5cba83fc05098e8f2" prot="private" static="no" mutable="no">
-        <type>std::array&lt; IconTypeData, size_t(<ref refid="classMR_1_1RibbonIcons_1a2d10e82f8fd5c6cc53279374e9bd3931ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">IconType::Count</ref>)&gt;</type>
-        <definition>std::array&lt;IconTypeData, size_t( IconType::Count )&gt; MR::RibbonIcons::data_</definition>
-        <argsstring></argsstring>
-        <name>data_</name>
-        <qualifiedname>MR::RibbonIcons::data_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonIcons.h" line="80" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonIcons.h" bodystart="80" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga1bb1ab1a4406b3b5cba83fc05098e8f2" kind="variable"><name>data_</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1RibbonIcons_1a9719cda5e63b461becae03d081f6c564" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>static MRVIEWER_API void MR::RibbonIcons::load</definition>
-        <argsstring>()</argsstring>
-        <name>load</name>
-        <qualifiedname>MR::RibbonIcons::load</qualifiedname>
-        <briefdescription>
-<para>this should be called once on start of program (called in <ref refid="classMR_1_1RibbonMenu_1a75ae516e9ba2cc3916a137c3b723da57" kindref="member">RibbonMenu::init</ref>) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonIcons.h" line="29" column="30"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RibbonIcons_1af834f6c83c9f7dd9c55a0a6aa20a8e45" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>static MRVIEWER_API void MR::RibbonIcons::free</definition>
-        <argsstring>()</argsstring>
-        <name>free</name>
-        <qualifiedname>MR::RibbonIcons::free</qualifiedname>
-        <briefdescription>
-<para>this should be called once before program stops (called in <ref refid="classMR_1_1RibbonMenu_1a304f2add3b4e9221b6accdcf46c2bb68" kindref="member">RibbonMenu::shutdown</ref>) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonIcons.h" line="31" column="30"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RibbonIcons_1a679b258211e9754bfe36635ba6a2eca2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API const <ref refid="classMR_1_1ImGuiImage" kindref="compound">ImGuiImage</ref> *</type>
-        <definition>static MRVIEWER_API const ImGuiImage * MR::RibbonIcons::findByName</definition>
-        <argsstring>(const std::string &amp;name, float width, ColorType colorType, IconType iconType)</argsstring>
-        <name>findByName</name>
-        <qualifiedname>MR::RibbonIcons::findByName</qualifiedname>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>name</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>width</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1RibbonIcons_1acd06ecfde8f0637bb01c0d36d8605bef" kindref="member">ColorType</ref></type>
-          <declname>colorType</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1RibbonIcons_1a2d10e82f8fd5c6cc53279374e9bd3931" kindref="member">IconType</ref></type>
-          <declname>iconType</declname>
-        </param>
-        <briefdescription>
-<para>finds icon with best fitting size, if there is no returns nullptr </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonIcons.h" line="33" column="42"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga9719cda5e63b461becae03d081f6c564" kind="function"><name>load</name></member>
+      <member refid="group__GeneralGroup_1gaf834f6c83c9f7dd9c55a0a6aa20a8e45" kind="function"><name>free</name></member>
+      <member refid="group__GeneralGroup_1ga679b258211e9754bfe36635ba6a2eca2" kind="function"><name>findByName</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMR_1_1RibbonIcons_1a9c0e1ddeff54a33609d04589edfa9b39" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::RibbonIcons::RibbonIcons</definition>
-        <argsstring>()</argsstring>
-        <name>RibbonIcons</name>
-        <qualifiedname>MR::RibbonIcons::RibbonIcons</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonIcons.h" line="36" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RibbonIcons_1a603de62481d9bad09f02eb788bfc0423" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::RibbonIcons::~RibbonIcons</definition>
-        <argsstring>()=default</argsstring>
-        <name>~RibbonIcons</name>
-        <qualifiedname>MR::RibbonIcons::~RibbonIcons</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonIcons.h" line="37" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RibbonIcons_1a035b16d20062233be750ef65c484d42b" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>const <ref refid="classMR_1_1ImGuiImage" kindref="compound">ImGuiImage</ref> *</type>
-        <definition>const ImGuiImage * MR::RibbonIcons::findRequiredSize_</definition>
-        <argsstring>(const SizedIcons &amp;icons, float width, ColorType colorType, IconType iconType) const</argsstring>
-        <name>findRequiredSize_</name>
-        <qualifiedname>MR::RibbonIcons::findRequiredSize_</qualifiedname>
-        <param>
-          <type>const SizedIcons &amp;</type>
-          <declname>icons</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>width</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1RibbonIcons_1acd06ecfde8f0637bb01c0d36d8605bef" kindref="member">ColorType</ref></type>
-          <declname>colorType</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1RibbonIcons_1a2d10e82f8fd5c6cc53279374e9bd3931" kindref="member">IconType</ref></type>
-          <declname>iconType</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonIcons.h" line="60" column="22"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RibbonIcons_1a11a41e3bc4dd9a30eccd5e45cfbbad81" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::RibbonIcons::load_</definition>
-        <argsstring>(IconType type)</argsstring>
-        <name>load_</name>
-        <qualifiedname>MR::RibbonIcons::load_</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1RibbonIcons_1a2d10e82f8fd5c6cc53279374e9bd3931" kindref="member">IconType</ref></type>
-          <declname>type</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonIcons.h" line="62" column="10"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga9c0e1ddeff54a33609d04589edfa9b39" kind="function"><name>RibbonIcons</name></member>
+      <member refid="group__GeneralGroup_1ga603de62481d9bad09f02eb788bfc0423" kind="function"><name>~RibbonIcons</name></member>
+      <member refid="group__GeneralGroup_1ga035b16d20062233be750ef65c484d42b" kind="function"><name>findRequiredSize_</name></member>
+      <member refid="group__GeneralGroup_1ga11a41e3bc4dd9a30eccd5e45cfbbad81" kind="function"><name>load_</name></member>
     </sectiondef>
     <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1RibbonIcons_1aaf1e56f223e24c5ff86b4a00f1214f46" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMR_1_1RibbonIcons" kindref="compound">RibbonIcons</ref> &amp;</type>
-        <definition>static RibbonIcons &amp; MR::RibbonIcons::instance_</definition>
-        <argsstring>()</argsstring>
-        <name>instance_</name>
-        <qualifiedname>MR::RibbonIcons::instance_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonIcons.h" line="39" column="24"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RibbonIcons_1ac5ee09887871f765bcc05e147462a850" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>const char *</type>
-        <definition>static const char * MR::RibbonIcons::sizeSubFolder_</definition>
-        <argsstring>(Sizes sz)</argsstring>
-        <name>sizeSubFolder_</name>
-        <qualifiedname>MR::RibbonIcons::sizeSubFolder_</qualifiedname>
-        <param>
-          <type>Sizes</type>
-          <declname>sz</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonIcons.h" line="58" column="23"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaaf1e56f223e24c5ff86b4a00f1214f46" kind="function"><name>instance_</name></member>
+      <member refid="group__GeneralGroup_1gac5ee09887871f765bcc05e147462a850" kind="function"><name>sizeSubFolder_</name></member>
     </sectiondef>
     <briefdescription>
 <para>this class holds icons for ribbon items </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonIcons.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonIcons.h" bodystart="13" bodyend="81"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonIcons.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonIcons.h" bodystart="16" bodyend="84"/>
     <listofallmembers>
-      <member refid="classMR_1_1RibbonIcons_1acd06ecfde8f0637bb01c0d36d8605bef" prot="public" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>ColorType</name></member>
-      <member refid="classMR_1_1RibbonIcons_1a1bb1ab1a4406b3b5cba83fc05098e8f2" prot="private" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>data_</name></member>
-      <member refid="classMR_1_1RibbonIcons_1a679b258211e9754bfe36635ba6a2eca2" prot="public" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>findByName</name></member>
-      <member refid="classMR_1_1RibbonIcons_1a035b16d20062233be750ef65c484d42b" prot="private" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>findRequiredSize_</name></member>
-      <member refid="classMR_1_1RibbonIcons_1af834f6c83c9f7dd9c55a0a6aa20a8e45" prot="public" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>free</name></member>
-      <member refid="classMR_1_1RibbonIcons_1a2d10e82f8fd5c6cc53279374e9bd3931" prot="public" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>IconType</name></member>
-      <member refid="classMR_1_1RibbonIcons_1aaf1e56f223e24c5ff86b4a00f1214f46" prot="private" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>instance_</name></member>
-      <member refid="classMR_1_1RibbonIcons_1a9719cda5e63b461becae03d081f6c564" prot="public" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>load</name></member>
-      <member refid="classMR_1_1RibbonIcons_1a11a41e3bc4dd9a30eccd5e45cfbbad81" prot="private" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>load_</name></member>
-      <member refid="classMR_1_1RibbonIcons_1a9c0e1ddeff54a33609d04589edfa9b39" prot="private" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>RibbonIcons</name></member>
-      <member refid="classMR_1_1RibbonIcons_1a62a1717386122730a20db87f57d97a86" prot="private" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>SizedIcons</name></member>
-      <member refid="classMR_1_1RibbonIcons_1acb8553a429f9686c8640af6c2c125542" prot="private" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>Sizes</name></member>
-      <member refid="classMR_1_1RibbonIcons_1ac5ee09887871f765bcc05e147462a850" prot="private" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>sizeSubFolder_</name></member>
-      <member refid="classMR_1_1RibbonIcons_1a603de62481d9bad09f02eb788bfc0423" prot="private" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>~RibbonIcons</name></member>
+      <member refid="group__GeneralGroup_1gacd06ecfde8f0637bb01c0d36d8605bef" prot="public" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>ColorType</name></member>
+      <member refid="group__GeneralGroup_1ga1bb1ab1a4406b3b5cba83fc05098e8f2" prot="private" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>data_</name></member>
+      <member refid="group__GeneralGroup_1ga679b258211e9754bfe36635ba6a2eca2" prot="public" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>findByName</name></member>
+      <member refid="group__GeneralGroup_1ga035b16d20062233be750ef65c484d42b" prot="private" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>findRequiredSize_</name></member>
+      <member refid="group__GeneralGroup_1gaf834f6c83c9f7dd9c55a0a6aa20a8e45" prot="public" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>free</name></member>
+      <member refid="group__GeneralGroup_1ga2d10e82f8fd5c6cc53279374e9bd3931" prot="public" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>IconType</name></member>
+      <member refid="group__GeneralGroup_1gaaf1e56f223e24c5ff86b4a00f1214f46" prot="private" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>instance_</name></member>
+      <member refid="group__GeneralGroup_1ga9719cda5e63b461becae03d081f6c564" prot="public" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>load</name></member>
+      <member refid="group__GeneralGroup_1ga11a41e3bc4dd9a30eccd5e45cfbbad81" prot="private" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>load_</name></member>
+      <member refid="group__GeneralGroup_1ga9c0e1ddeff54a33609d04589edfa9b39" prot="private" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>RibbonIcons</name></member>
+      <member refid="group__GeneralGroup_1ga62a1717386122730a20db87f57d97a86" prot="private" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>SizedIcons</name></member>
+      <member refid="group__GeneralGroup_1gacb8553a429f9686c8640af6c2c125542" prot="private" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>Sizes</name></member>
+      <member refid="group__GeneralGroup_1gac5ee09887871f765bcc05e147462a850" prot="private" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>sizeSubFolder_</name></member>
+      <member refid="group__GeneralGroup_1ga603de62481d9bad09f02eb788bfc0423" prot="private" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>~RibbonIcons</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

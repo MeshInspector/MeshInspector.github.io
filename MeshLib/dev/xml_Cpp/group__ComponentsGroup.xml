@@ -7,7 +7,7 @@
     <innergroup refid="group__PointCloudComponentsGroup">PointCloudComponents</innergroup>
     <sectiondef kind="func">
       <memberdef kind="function" id="group__ComponentsGroup_1gaf31a9bdb0fcd7f0b1ae5f69a4b83415d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> UndirectedEdgeBitSet</type>
+        <type>MRMESH_API UndirectedEdgeBitSet</type>
         <definition>MRMESH_API UndirectedEdgeBitSet MR::PolylineComponents::getComponent</definition>
         <argsstring>(const PolylineTopology &amp;topology, UndirectedEdgeId id)</argsstring>
         <name>getComponent</name>
@@ -27,10 +27,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" line="17" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" declline="17" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" line="20" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" declline="20" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="group__ComponentsGroup_1ga80e95c2ddcd2a35b79f66a0540d4a152" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::vector&lt; UndirectedEdgeBitSet &gt;</type>
+        <type>MRMESH_API std::vector&lt; UndirectedEdgeBitSet &gt;</type>
         <definition>MRMESH_API std::vector&lt; UndirectedEdgeBitSet &gt; MR::PolylineComponents::getAllComponents</definition>
         <argsstring>(const PolylineTopology &amp;topology)</argsstring>
         <name>getAllComponents</name>
@@ -49,10 +49,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" line="23" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" declline="23" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" line="26" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" declline="26" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="group__ComponentsGroup_1ga2c677b8145a12d5f3bfba158ff3e719d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::pair&lt; std::vector&lt; UndirectedEdgeBitSet &gt;, int &gt;</type>
+        <type>MRMESH_API std::pair&lt; std::vector&lt; UndirectedEdgeBitSet &gt;, int &gt;</type>
         <definition>MRMESH_API std::pair&lt; std::vector&lt; UndirectedEdgeBitSet &gt;, int &gt; MR::PolylineComponents::getAllComponents</definition>
         <argsstring>(const PolylineTopology &amp;topology, int maxComponentCount)</argsstring>
         <name>getAllComponents</name>
@@ -84,7 +84,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" line="30" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" declline="30" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" line="33" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" declline="33" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="group__ComponentsGroup_1gaff8ff9103faf452503ccfda3a3a8def2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -112,10 +112,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" line="47" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" declline="47" declcolumn="13"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" line="50" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" declline="50" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="group__ComponentsGroup_1ga4e45c9f9a413927f7c08c3cd1062d8b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> UnionFind&lt; UndirectedEdgeId &gt;</type>
+        <type>MRMESH_API UnionFind&lt; UndirectedEdgeId &gt;</type>
         <definition>MRMESH_API UnionFind&lt; UndirectedEdgeId &gt; MR::PolylineComponents::getUnionFindStructure</definition>
         <argsstring>(const PolylineTopology &amp;topology)</argsstring>
         <name>getUnionFindStructure</name>
@@ -131,7 +131,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" line="54" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" declline="54" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" line="57" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" declline="57" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="group__ComponentsGroup_1ga0ab7676eb3ec7a769260f636d14c495c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -165,10 +165,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" line="59" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" declline="59" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" line="62" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" declline="62" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="group__ComponentsGroup_1gaf8cb6a4fb4e8de9236165ad0636b9ade" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> std::vector&lt; VoxelBitSet &gt;</type>
+        <type>MRVOXELS_API std::vector&lt; VoxelBitSet &gt;</type>
         <definition>MRVOXELS_API std::vector&lt; VoxelBitSet &gt; MR::FloatGridComponents::getAllComponents</definition>
         <argsstring>(const FloatGrid &amp;grid, float isoValue=0.0f)</argsstring>
         <name>getAllComponents</name>

@@ -11,279 +11,46 @@
       </param>
     </templateparamlist>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1UnitToStringParams_1a7154a0976d68f4cf955516bbd1e8c3db" prot="public" static="no" mutable="no">
-        <type>std::string_view</type>
-        <definition>std::string_view MR::UnitToStringParams&lt; E &gt;::decorationFormatString</definition>
-        <argsstring></argsstring>
-        <name>decorationFormatString</name>
-        <qualifiedname>MR::UnitToStringParams::decorationFormatString</qualifiedname>
-        <initializer>= &quot;{}&quot;</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>The resulting string is wrapped in this. Do NOT use this for custom unit suffixes! Add them as actual units instead. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnits.h" line="71" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnits.h" bodystart="71" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1UnitToStringParams_1a484658a85c5d115a7ced9935b886f6f6" prot="public" static="no" mutable="no">
-        <type>std::optional&lt; E &gt;</type>
-        <definition>std::optional&lt;E&gt; MR::UnitToStringParams&lt; E &gt;::sourceUnit</definition>
-        <argsstring></argsstring>
-        <name>sourceUnit</name>
-        <qualifiedname>MR::UnitToStringParams::sourceUnit</qualifiedname>
-        <initializer>= <ref refid="namespaceMR_1a80607090259b7b45b4ea7809158a48a2" kindref="member">getDefaultUnitParams</ref>&lt;E&gt;().sourceUnit</initializer>
-        <briefdescription>
-<para><mdash/> Units: </para>
-        </briefdescription>
-        <detaileddescription>
-<para>The measurement unit of the input value. If null, no conversion is performed. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnits.h" line="76" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnits.h" bodystart="76" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1UnitToStringParams_1ac1da9d705a2210ae748df1e41d865a2a" prot="public" static="no" mutable="no">
-        <type>std::optional&lt; E &gt;</type>
-        <definition>std::optional&lt;E&gt; MR::UnitToStringParams&lt; E &gt;::targetUnit</definition>
-        <argsstring></argsstring>
-        <name>targetUnit</name>
-        <qualifiedname>MR::UnitToStringParams::targetUnit</qualifiedname>
-        <initializer>= <ref refid="namespaceMR_1a80607090259b7b45b4ea7809158a48a2" kindref="member">getDefaultUnitParams</ref>&lt;E&gt;().targetUnit</initializer>
-        <briefdescription>
-<para>The measurement unit of the resulting string. If null, no conversion is performed, and the unit name is taken from <computeroutput>sourceUnit</computeroutput> if any. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnits.h" line="78" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnits.h" bodystart="78" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1UnitToStringParams_1a946e3167ad791810a532295b6ac6ef8c" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::UnitToStringParams&lt; E &gt;::unitSuffix</definition>
-        <argsstring></argsstring>
-        <name>unitSuffix</name>
-        <qualifiedname>MR::UnitToStringParams::unitSuffix</qualifiedname>
-        <initializer>= <ref refid="namespaceMR_1a80607090259b7b45b4ea7809158a48a2" kindref="member">getDefaultUnitParams</ref>&lt;E&gt;().unitSuffix</initializer>
-        <briefdescription>
-<para>Whether to show the unit suffix. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnits.h" line="81" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnits.h" bodystart="81" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1UnitToStringParams_1a3df844b2da042b64d299fefa1b4dd1e9" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1a09f9590ed4411f71af1c1526458d5dd1" kindref="member">NumberStyle</ref></type>
-        <definition>NumberStyle MR::UnitToStringParams&lt; E &gt;::style</definition>
-        <argsstring></argsstring>
-        <name>style</name>
-        <qualifiedname>MR::UnitToStringParams::style</qualifiedname>
-        <initializer>= <ref refid="namespaceMR_1a80607090259b7b45b4ea7809158a48a2" kindref="member">getDefaultUnitParams</ref>&lt;E&gt;().style</initializer>
-        <briefdescription>
-<para><mdash/> Precision: </para>
-        </briefdescription>
-        <detaileddescription>
-<para>The output style. (Scientific notation or not, fixed-precision or not.) </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnits.h" line="86" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnits.h" bodystart="86" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1UnitToStringParams_1a0f9d2ff9175ae13c5b2fb39d68ec515d" prot="public" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::UnitToStringParams&lt; E &gt;::precision</definition>
-        <argsstring></argsstring>
-        <name>precision</name>
-        <qualifiedname>MR::UnitToStringParams::precision</qualifiedname>
-        <initializer>= <ref refid="namespaceMR_1a80607090259b7b45b4ea7809158a48a2" kindref="member">getDefaultUnitParams</ref>&lt;E&gt;().precision</initializer>
-        <briefdescription>
-<para>How many digits of precision. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnits.h" line="89" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnits.h" bodystart="89" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1UnitToStringParams_1af0658fb5d00066d0553cabc7a7979e8c" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::UnitToStringParams&lt; E &gt;::plusSign</definition>
-        <argsstring></argsstring>
-        <name>plusSign</name>
-        <qualifiedname>MR::UnitToStringParams::plusSign</qualifiedname>
-        <initializer>= <ref refid="namespaceMR_1a80607090259b7b45b4ea7809158a48a2" kindref="member">getDefaultUnitParams</ref>&lt;E&gt;().plusSign</initializer>
-        <briefdescription>
-<para><mdash/> Other: </para>
-        </briefdescription>
-        <detaileddescription>
-<para>Show the <computeroutput>+</computeroutput> sign on positive numbers. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnits.h" line="94" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnits.h" bodystart="94" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1UnitToStringParams_1a6ecdb60e898b38b2adfcc70f54678543" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1aa591847657e546eba90e70acf2185c02" kindref="member">ZeroMode</ref></type>
-        <definition>ZeroMode MR::UnitToStringParams&lt; E &gt;::zeroMode</definition>
-        <argsstring></argsstring>
-        <name>zeroMode</name>
-        <qualifiedname>MR::UnitToStringParams::zeroMode</qualifiedname>
-        <initializer>= <ref refid="namespaceMR_1a80607090259b7b45b4ea7809158a48a2" kindref="member">getDefaultUnitParams</ref>&lt;E&gt;().zeroMode</initializer>
-        <briefdescription>
-<para>How to deal with zeroes. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnits.h" line="97" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnits.h" bodystart="97" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1UnitToStringParams_1af5c03b75a184cdc31e4591f61fddedf9" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::UnitToStringParams&lt; E &gt;::unicodeMinusSign</definition>
-        <argsstring></argsstring>
-        <name>unicodeMinusSign</name>
-        <qualifiedname>MR::UnitToStringParams::unicodeMinusSign</qualifiedname>
-        <initializer>= <ref refid="namespaceMR_1a80607090259b7b45b4ea7809158a48a2" kindref="member">getDefaultUnitParams</ref>&lt;E&gt;().unicodeMinusSign</initializer>
-        <briefdescription>
-<para>Use a pretty Unicode minus sign instead of the ASCII <computeroutput>-</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnits.h" line="100" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnits.h" bodystart="100" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1UnitToStringParams_1a8d8034b7086f9f2abcfdbbcfbc6c8f80" prot="public" static="no" mutable="no">
-        <type>char</type>
-        <definition>char MR::UnitToStringParams&lt; E &gt;::thousandsSeparator</definition>
-        <argsstring></argsstring>
-        <name>thousandsSeparator</name>
-        <qualifiedname>MR::UnitToStringParams::thousandsSeparator</qualifiedname>
-        <initializer>= <ref refid="namespaceMR_1a80607090259b7b45b4ea7809158a48a2" kindref="member">getDefaultUnitParams</ref>&lt;E&gt;().thousandsSeparator</initializer>
-        <briefdescription>
-<para>If non-zero, this character is inserted between every three digits to the left of the decimal point. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnits.h" line="103" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnits.h" bodystart="103" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1UnitToStringParams_1ac05c469a00e9e986895d9f12d7ffd44b" prot="public" static="no" mutable="no">
-        <type>char</type>
-        <definition>char MR::UnitToStringParams&lt; E &gt;::thousandsSeparatorFrac</definition>
-        <argsstring></argsstring>
-        <name>thousandsSeparatorFrac</name>
-        <qualifiedname>MR::UnitToStringParams::thousandsSeparatorFrac</qualifiedname>
-        <initializer>= <ref refid="namespaceMR_1a80607090259b7b45b4ea7809158a48a2" kindref="member">getDefaultUnitParams</ref>&lt;E&gt;().thousandsSeparatorFrac</initializer>
-        <briefdescription>
-<para>If non-zero, this character is inserted between every three digits to the right of the decimal point. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnits.h" line="105" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnits.h" bodystart="105" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1UnitToStringParams_1a09eebb06769bb4dc52058f79fae207bd" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::UnitToStringParams&lt; E &gt;::leadingZero</definition>
-        <argsstring></argsstring>
-        <name>leadingZero</name>
-        <qualifiedname>MR::UnitToStringParams::leadingZero</qualifiedname>
-        <initializer>= <ref refid="namespaceMR_1a80607090259b7b45b4ea7809158a48a2" kindref="member">getDefaultUnitParams</ref>&lt;E&gt;().leadingZero</initializer>
-        <briefdescription>
-<para>If false, remove zero before the fractional point (<computeroutput>.5</computeroutput> instead of <computeroutput>0.5</computeroutput>). </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnits.h" line="108" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnits.h" bodystart="108" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1UnitToStringParams_1ae7b05ea81d83729b2b8510464247942c" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::UnitToStringParams&lt; E &gt;::stripTrailingZeroes</definition>
-        <argsstring></argsstring>
-        <name>stripTrailingZeroes</name>
-        <qualifiedname>MR::UnitToStringParams::stripTrailingZeroes</qualifiedname>
-        <initializer>= <ref refid="namespaceMR_1a80607090259b7b45b4ea7809158a48a2" kindref="member">getDefaultUnitParams</ref>&lt;E&gt;().stripTrailingZeroes</initializer>
-        <briefdescription>
-<para>Remove trailing zeroes after the fractional point. If the point becomes the last symbol, remove the point too. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnits.h" line="111" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnits.h" bodystart="111" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1UnitToStringParams_1a2d95d4ba6210441527d210b9e677228f" prot="public" static="no" mutable="no">
-        <type>std::conditional_t&lt; std::is_same_v&lt; E, <ref refid="namespaceMR_1af673fdef7d01a580ce58c29b84ea9bea" kindref="member">AngleUnit</ref> &gt;, <ref refid="namespaceMR_1aa6b11352e59ca716da2c9d8bf2371424" kindref="member">DegreesMode</ref>, <ref refid="structMR_1_1detail_1_1Units_1_1Empty" kindref="compound">detail::Units::Empty</ref> &gt;</type>
-        <definition>std::conditional_t&lt;std::is_same_v&lt;E, AngleUnit&gt;, DegreesMode, detail::Units::Empty&gt; MR::UnitToStringParams&lt; E &gt;::degreesMode</definition>
-        <argsstring></argsstring>
-        <name>degreesMode</name>
-        <qualifiedname>MR::UnitToStringParams::degreesMode</qualifiedname>
-        <initializer>= <ref refid="namespaceMR_1a80607090259b7b45b4ea7809158a48a2" kindref="member">getDefaultUnitParams</ref>&lt;E&gt;().degreesMode</initializer>
-        <briefdescription>
-<para>When printing degrees, this lets you display arcminutes and possibly arcseconds. Ignored for everything else. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnits.h" line="114" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnits.h" bodystart="114" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga7154a0976d68f4cf955516bbd1e8c3db" kind="variable"><name>decorationFormatString</name></member>
+      <member refid="group__GeneralGroup_1ga484658a85c5d115a7ced9935b886f6f6" kind="variable"><name>sourceUnit</name></member>
+      <member refid="group__GeneralGroup_1gac1da9d705a2210ae748df1e41d865a2a" kind="variable"><name>targetUnit</name></member>
+      <member refid="group__GeneralGroup_1ga946e3167ad791810a532295b6ac6ef8c" kind="variable"><name>unitSuffix</name></member>
+      <member refid="group__GeneralGroup_1ga3df844b2da042b64d299fefa1b4dd1e9" kind="variable"><name>style</name></member>
+      <member refid="group__GeneralGroup_1ga0f9d2ff9175ae13c5b2fb39d68ec515d" kind="variable"><name>precision</name></member>
+      <member refid="group__GeneralGroup_1gaf0658fb5d00066d0553cabc7a7979e8c" kind="variable"><name>plusSign</name></member>
+      <member refid="group__GeneralGroup_1ga6ecdb60e898b38b2adfcc70f54678543" kind="variable"><name>zeroMode</name></member>
+      <member refid="group__GeneralGroup_1gaf5c03b75a184cdc31e4591f61fddedf9" kind="variable"><name>unicodeMinusSign</name></member>
+      <member refid="group__GeneralGroup_1ga8d8034b7086f9f2abcfdbbcfbc6c8f80" kind="variable"><name>thousandsSeparator</name></member>
+      <member refid="group__GeneralGroup_1gac05c469a00e9e986895d9f12d7ffd44b" kind="variable"><name>thousandsSeparatorFrac</name></member>
+      <member refid="group__GeneralGroup_1ga09eebb06769bb4dc52058f79fae207bd" kind="variable"><name>leadingZero</name></member>
+      <member refid="group__GeneralGroup_1gae7b05ea81d83729b2b8510464247942c" kind="variable"><name>stripTrailingZeroes</name></member>
+      <member refid="group__GeneralGroup_1ga2d95d4ba6210441527d210b9e677228f" kind="variable"><name>degreesMode</name></member>
     </sectiondef>
     <sectiondef kind="friend">
-      <memberdef kind="friend" id="structMR_1_1UnitToStringParams_1ae183c6cb52762dc16f91e61c2be6df24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool operator==</definition>
-        <argsstring>(const UnitToStringParams &amp;, const UnitToStringParams &amp;)=default</argsstring>
-        <name>operator==</name>
-        <qualifiedname>MR::UnitToStringParams::operator==</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1UnitToStringParams" kindref="compound">UnitToStringParams</ref> &amp;</type>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1UnitToStringParams" kindref="compound">UnitToStringParams</ref> &amp;</type>
-        </param>
-        <briefdescription>
-<para>If you add new fields there, update the initializer for <computeroutput>defaultUnitToStringParams</computeroutput> in <computeroutput>MRUnits.cpp</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnits.h" line="118" column="17"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gae183c6cb52762dc16f91e61c2be6df24" kind="friend"><name>operator==</name></member>
     </sectiondef>
     <briefdescription>
 <para>Controls how a value with a unit is converted to a string. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnits.h" line="21" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnits.h" bodystart="68" bodyend="119"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnits.h" line="24" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnits.h" bodystart="71" bodyend="122"/>
     <listofallmembers>
-      <member refid="structMR_1_1UnitToStringParams_1a7154a0976d68f4cf955516bbd1e8c3db" prot="public" virt="non-virtual"><scope>MR::UnitToStringParams</scope><name>decorationFormatString</name></member>
-      <member refid="structMR_1_1UnitToStringParams_1a2d95d4ba6210441527d210b9e677228f" prot="public" virt="non-virtual"><scope>MR::UnitToStringParams</scope><name>degreesMode</name></member>
-      <member refid="structMR_1_1UnitToStringParams_1a09eebb06769bb4dc52058f79fae207bd" prot="public" virt="non-virtual"><scope>MR::UnitToStringParams</scope><name>leadingZero</name></member>
-      <member refid="structMR_1_1UnitToStringParams_1ae183c6cb52762dc16f91e61c2be6df24" prot="public" virt="non-virtual"><scope>MR::UnitToStringParams</scope><name>operator==</name></member>
-      <member refid="structMR_1_1UnitToStringParams_1af0658fb5d00066d0553cabc7a7979e8c" prot="public" virt="non-virtual"><scope>MR::UnitToStringParams</scope><name>plusSign</name></member>
-      <member refid="structMR_1_1UnitToStringParams_1a0f9d2ff9175ae13c5b2fb39d68ec515d" prot="public" virt="non-virtual"><scope>MR::UnitToStringParams</scope><name>precision</name></member>
-      <member refid="structMR_1_1UnitToStringParams_1a484658a85c5d115a7ced9935b886f6f6" prot="public" virt="non-virtual"><scope>MR::UnitToStringParams</scope><name>sourceUnit</name></member>
-      <member refid="structMR_1_1UnitToStringParams_1ae7b05ea81d83729b2b8510464247942c" prot="public" virt="non-virtual"><scope>MR::UnitToStringParams</scope><name>stripTrailingZeroes</name></member>
-      <member refid="structMR_1_1UnitToStringParams_1a3df844b2da042b64d299fefa1b4dd1e9" prot="public" virt="non-virtual"><scope>MR::UnitToStringParams</scope><name>style</name></member>
-      <member refid="structMR_1_1UnitToStringParams_1ac1da9d705a2210ae748df1e41d865a2a" prot="public" virt="non-virtual"><scope>MR::UnitToStringParams</scope><name>targetUnit</name></member>
-      <member refid="structMR_1_1UnitToStringParams_1a8d8034b7086f9f2abcfdbbcfbc6c8f80" prot="public" virt="non-virtual"><scope>MR::UnitToStringParams</scope><name>thousandsSeparator</name></member>
-      <member refid="structMR_1_1UnitToStringParams_1ac05c469a00e9e986895d9f12d7ffd44b" prot="public" virt="non-virtual"><scope>MR::UnitToStringParams</scope><name>thousandsSeparatorFrac</name></member>
-      <member refid="structMR_1_1UnitToStringParams_1af5c03b75a184cdc31e4591f61fddedf9" prot="public" virt="non-virtual"><scope>MR::UnitToStringParams</scope><name>unicodeMinusSign</name></member>
-      <member refid="structMR_1_1UnitToStringParams_1a946e3167ad791810a532295b6ac6ef8c" prot="public" virt="non-virtual"><scope>MR::UnitToStringParams</scope><name>unitSuffix</name></member>
-      <member refid="structMR_1_1UnitToStringParams_1a6ecdb60e898b38b2adfcc70f54678543" prot="public" virt="non-virtual"><scope>MR::UnitToStringParams</scope><name>zeroMode</name></member>
+      <member refid="group__GeneralGroup_1ga7154a0976d68f4cf955516bbd1e8c3db" prot="public" virt="non-virtual"><scope>MR::UnitToStringParams</scope><name>decorationFormatString</name></member>
+      <member refid="group__GeneralGroup_1ga2d95d4ba6210441527d210b9e677228f" prot="public" virt="non-virtual"><scope>MR::UnitToStringParams</scope><name>degreesMode</name></member>
+      <member refid="group__GeneralGroup_1ga09eebb06769bb4dc52058f79fae207bd" prot="public" virt="non-virtual"><scope>MR::UnitToStringParams</scope><name>leadingZero</name></member>
+      <member refid="group__GeneralGroup_1gae183c6cb52762dc16f91e61c2be6df24" prot="public" virt="non-virtual"><scope>MR::UnitToStringParams</scope><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1gaf0658fb5d00066d0553cabc7a7979e8c" prot="public" virt="non-virtual"><scope>MR::UnitToStringParams</scope><name>plusSign</name></member>
+      <member refid="group__GeneralGroup_1ga0f9d2ff9175ae13c5b2fb39d68ec515d" prot="public" virt="non-virtual"><scope>MR::UnitToStringParams</scope><name>precision</name></member>
+      <member refid="group__GeneralGroup_1ga484658a85c5d115a7ced9935b886f6f6" prot="public" virt="non-virtual"><scope>MR::UnitToStringParams</scope><name>sourceUnit</name></member>
+      <member refid="group__GeneralGroup_1gae7b05ea81d83729b2b8510464247942c" prot="public" virt="non-virtual"><scope>MR::UnitToStringParams</scope><name>stripTrailingZeroes</name></member>
+      <member refid="group__GeneralGroup_1ga3df844b2da042b64d299fefa1b4dd1e9" prot="public" virt="non-virtual"><scope>MR::UnitToStringParams</scope><name>style</name></member>
+      <member refid="group__GeneralGroup_1gac1da9d705a2210ae748df1e41d865a2a" prot="public" virt="non-virtual"><scope>MR::UnitToStringParams</scope><name>targetUnit</name></member>
+      <member refid="group__GeneralGroup_1ga8d8034b7086f9f2abcfdbbcfbc6c8f80" prot="public" virt="non-virtual"><scope>MR::UnitToStringParams</scope><name>thousandsSeparator</name></member>
+      <member refid="group__GeneralGroup_1gac05c469a00e9e986895d9f12d7ffd44b" prot="public" virt="non-virtual"><scope>MR::UnitToStringParams</scope><name>thousandsSeparatorFrac</name></member>
+      <member refid="group__GeneralGroup_1gaf5c03b75a184cdc31e4591f61fddedf9" prot="public" virt="non-virtual"><scope>MR::UnitToStringParams</scope><name>unicodeMinusSign</name></member>
+      <member refid="group__GeneralGroup_1ga946e3167ad791810a532295b6ac6ef8c" prot="public" virt="non-virtual"><scope>MR::UnitToStringParams</scope><name>unitSuffix</name></member>
+      <member refid="group__GeneralGroup_1ga6ecdb60e898b38b2adfcc70f54678543" prot="public" virt="non-virtual"><scope>MR::UnitToStringParams</scope><name>zeroMode</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -7,1068 +7,130 @@
     <innerclass refid="structMR_1_1GcodeProcessor_1_1Command" prot="public">MR::GcodeProcessor::Command</innerclass>
     <innerclass refid="structMR_1_1GcodeProcessor_1_1MoveAction" prot="public">MR::GcodeProcessor::MoveAction</innerclass>
     <sectiondef kind="private-type">
-      <memberdef kind="enum" id="classMR_1_1GcodeProcessor_1a7ac2ab8e3d2f27b7cdb22ddb1eda182c" prot="private" static="no" strong="yes">
-        <type></type>
-        <name>WorkPlane</name>
-        <qualifiedname>MR::GcodeProcessor::WorkPlane</qualifiedname>
-        <enumvalue id="classMR_1_1GcodeProcessor_1a7ac2ab8e3d2f27b7cdb22ddb1eda182ca3e44107170a520582ade522fa73c1d15" prot="private">
-          <name>xy</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1GcodeProcessor_1a7ac2ab8e3d2f27b7cdb22ddb1eda182cae6c760b3216a51c656c5861d72d5bf62" prot="private">
-          <name>zx</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1GcodeProcessor_1a7ac2ab8e3d2f27b7cdb22ddb1eda182ca2151a2bc77807b81113febbf50c4bc95" prot="private">
-          <name>yz</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="66" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" bodystart="67" bodyend="71"/>
-      </memberdef>
-      <memberdef kind="enum" id="classMR_1_1GcodeProcessor_1a709663cb497cc2f837aee1f5ca4100f2" prot="private" static="no" strong="yes">
-        <type></type>
-        <name>MoveMode</name>
-        <qualifiedname>MR::GcodeProcessor::MoveMode</qualifiedname>
-        <enumvalue id="classMR_1_1GcodeProcessor_1a709663cb497cc2f837aee1f5ca4100f2ae599161956d626eda4cb0a5ffb85271c" prot="private">
-          <name>Idle</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1GcodeProcessor_1a709663cb497cc2f837aee1f5ca4100f2a4803e6b9e63dabf04de980788d6a13c4" prot="private">
-          <name>Line</name>
-          <briefdescription>
-<para>fast idle movement (linear) </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1GcodeProcessor_1a709663cb497cc2f837aee1f5ca4100f2aba360a794737bcc8657a5b6e870d7ba8" prot="private">
-          <name>Clockwise</name>
-          <briefdescription>
-<para>working linear movement </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1GcodeProcessor_1a709663cb497cc2f837aee1f5ca4100f2a2ce0103fdd01ba7831c54103c8a3bb3f" prot="private">
-          <name>Counterclockwise</name>
-          <briefdescription>
-<para>working movement in an arc clockwise </para>
-          </briefdescription>
-          <detaileddescription>
-<para>working movement in an arc counterclockwise </para>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-<para>mode of instrument movement </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="116" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" bodystart="117" bodyend="122"/>
-      </memberdef>
-      <memberdef kind="enum" id="classMR_1_1GcodeProcessor_1a1e91bcba147c679387fb026d4b8e3585" prot="private" static="no" strong="yes">
-        <type></type>
-        <name>CoordType</name>
-        <qualifiedname>MR::GcodeProcessor::CoordType</qualifiedname>
-        <enumvalue id="classMR_1_1GcodeProcessor_1a1e91bcba147c679387fb026d4b8e3585a4642e767f9251fa40afadbc963f80b7a" prot="private">
-          <name>Movement</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1GcodeProcessor_1a1e91bcba147c679387fb026d4b8e3585a3ec2d28176992841659692b4e1d6cc33" prot="private">
-          <name>ReturnToHome</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1GcodeProcessor_1a1e91bcba147c679387fb026d4b8e3585abc967dc2d57e6eff184a821bf7577a80" prot="private">
-          <name>Scaling</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>type of coordinates to be entered. movement - repeatable. other - after execution, it will return to movement </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="126" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" bodystart="127" bodyend="131"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga7ac2ab8e3d2f27b7cdb22ddb1eda182c" kind="enum"><name>WorkPlane</name></member>
+      <member refid="group__GeneralGroup_1ga709663cb497cc2f837aee1f5ca4100f2" kind="enum"><name>MoveMode</name></member>
+      <member refid="group__GeneralGroup_1ga1e91bcba147c679387fb026d4b8e3585" kind="enum"><name>CoordType</name></member>
     </sectiondef>
     <sectiondef kind="public-type">
-      <memberdef kind="typedef" id="classMR_1_1GcodeProcessor_1a02000ae4305a16e7aca1e6e09bb7e25a" prot="public" static="no">
-        <type><ref refid="structMR_1_1GcodeProcessor_1_1BaseAction" kindref="compound">BaseAction</ref>&lt; Vector2f &gt;</type>
-        <definition>using MR::GcodeProcessor::BaseAction2f =  BaseAction&lt;Vector2f&gt;</definition>
-        <argsstring></argsstring>
-        <name>BaseAction2f</name>
-        <qualifiedname>MR::GcodeProcessor::BaseAction2f</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="28" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" bodystart="28" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1GcodeProcessor_1a88ffeb0a2dcab67b585df870268d537d" prot="public" static="no">
-        <type><ref refid="structMR_1_1GcodeProcessor_1_1BaseAction" kindref="compound">BaseAction</ref>&lt; Vector3f &gt;</type>
-        <definition>using MR::GcodeProcessor::BaseAction3f =  BaseAction&lt;Vector3f&gt;</definition>
-        <argsstring></argsstring>
-        <name>BaseAction3f</name>
-        <qualifiedname>MR::GcodeProcessor::BaseAction3f</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="29" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" bodystart="29" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga02000ae4305a16e7aca1e6e09bb7e25a" kind="typedef"><name>BaseAction2f</name></member>
+      <member refid="group__GeneralGroup_1ga88ffeb0a2dcab67b585df870268d537d" kind="typedef"><name>BaseAction3f</name></member>
     </sectiondef>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1GcodeProcessor_1a1305725c82861429c6918a7762b8dd63" prot="private" static="no" mutable="no">
-        <type>CoordType</type>
-        <definition>CoordType MR::GcodeProcessor::coordType_</definition>
-        <argsstring></argsstring>
-        <name>coordType_</name>
-        <qualifiedname>MR::GcodeProcessor::coordType_</qualifiedname>
-        <initializer>= CoordType::Movement</initializer>
-        <briefdescription>
-<para>internal states (such as current position and different work modes) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="134" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" bodystart="134" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1GcodeProcessor_1ad5979fbeb95661f7edd243b824fc50ad" prot="private" static="no" mutable="no">
-        <type>MoveMode</type>
-        <definition>MoveMode MR::GcodeProcessor::moveMode_</definition>
-        <argsstring></argsstring>
-        <name>moveMode_</name>
-        <qualifiedname>MR::GcodeProcessor::moveMode_</qualifiedname>
-        <initializer>= MoveMode::Idle</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="135" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" bodystart="135" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1GcodeProcessor_1afca44e0838624f58bdb381cc8a1b5615" prot="private" static="no" mutable="no">
-        <type>WorkPlane</type>
-        <definition>WorkPlane MR::GcodeProcessor::workPlane_</definition>
-        <argsstring></argsstring>
-        <name>workPlane_</name>
-        <qualifiedname>MR::GcodeProcessor::workPlane_</qualifiedname>
-        <initializer>= WorkPlane::xy</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="136" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" bodystart="136" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1GcodeProcessor_1a10fb586ed5cb13178937ee7bcb9ed2a1" prot="private" static="no" mutable="no">
-        <type>Matrix3f</type>
-        <definition>Matrix3f MR::GcodeProcessor::toWorkPlaneXf_</definition>
-        <argsstring></argsstring>
-        <name>toWorkPlaneXf_</name>
-        <qualifiedname>MR::GcodeProcessor::toWorkPlaneXf_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="137" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" bodystart="137" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1GcodeProcessor_1a67e936d39fcf18ddf090967c63976c66" prot="private" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::GcodeProcessor::translationPos_</definition>
-        <argsstring></argsstring>
-        <name>translationPos_</name>
-        <qualifiedname>MR::GcodeProcessor::translationPos_</qualifiedname>
-        <briefdescription>
-<para>work plane for calculation arc movement </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="138" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" bodystart="138" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1GcodeProcessor_1abc85c77453e5d3ea6914b727f441482e" prot="private" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::GcodeProcessor::rotationAngles_</definition>
-        <argsstring></argsstring>
-        <name>rotationAngles_</name>
-        <qualifiedname>MR::GcodeProcessor::rotationAngles_</qualifiedname>
-        <briefdescription>
-<para>last values of x, y, z (translation. positions of linear movement motors) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="139" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" bodystart="139" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1GcodeProcessor_1ae0d8f26f57c57239ce8ffc3a746b610e" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::GcodeProcessor::absoluteCoordinates_</definition>
-        <argsstring></argsstring>
-        <name>absoluteCoordinates_</name>
-        <qualifiedname>MR::GcodeProcessor::absoluteCoordinates_</qualifiedname>
-        <initializer>= true</initializer>
-        <briefdescription>
-<para>last values of a, b, c (rotation. angles of circular movement motors) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="140" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" bodystart="140" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1GcodeProcessor_1ace5d39e8c0f2c0ecaca25d8b51d66734" prot="private" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::GcodeProcessor::scaling_</definition>
-        <argsstring></argsstring>
-        <name>scaling_</name>
-        <qualifiedname>MR::GcodeProcessor::scaling_</qualifiedname>
-        <initializer>= Vector3f::diagonal( 1.f )</initializer>
-        <briefdescription>
-<para>absolute coordinates or relative coordinates </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="141" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" bodystart="141" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1GcodeProcessor_1a31962447275ea7a9b03725aec93ad61c" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::GcodeProcessor::inches_</definition>
-        <argsstring></argsstring>
-        <name>inches_</name>
-        <qualifiedname>MR::GcodeProcessor::inches_</qualifiedname>
-        <initializer>= false</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="142" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" bodystart="142" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1GcodeProcessor_1a4afa2da80a1517114d550bb224cefd58" prot="private" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::GcodeProcessor::feedrate_</definition>
-        <argsstring></argsstring>
-        <name>feedrate_</name>
-        <qualifiedname>MR::GcodeProcessor::feedrate_</qualifiedname>
-        <initializer>= 100.f</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="143" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" bodystart="143" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1GcodeProcessor_1a57bb2cf433c869f6d733cbe2e1128056" prot="private" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::GcodeProcessor::feedrateMax_</definition>
-        <argsstring></argsstring>
-        <name>feedrateMax_</name>
-        <qualifiedname>MR::GcodeProcessor::feedrateMax_</qualifiedname>
-        <initializer>= 0.f</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="144" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" bodystart="144" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1GcodeProcessor_1a593fc42e8fc59dff3bf125e59972e9ec" prot="private" static="no" mutable="no">
-        <type>std::array&lt; Matrix3f, 3 &gt;</type>
-        <definition>std::array&lt;Matrix3f, 3&gt; MR::GcodeProcessor::cacheRotationMatrix_</definition>
-        <argsstring></argsstring>
-        <name>cacheRotationMatrix_</name>
-        <qualifiedname>MR::GcodeProcessor::cacheRotationMatrix_</qualifiedname>
-        <briefdescription>
-<para>cached data </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="147" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" bodystart="147" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1GcodeProcessor_1ab0c2ffb2e31173f88e1a2302605aff7c" prot="private" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::GcodeProcessor::inputCoords_</definition>
-        <argsstring></argsstring>
-        <name>inputCoords_</name>
-        <qualifiedname>MR::GcodeProcessor::inputCoords_</qualifiedname>
-        <briefdescription>
-<para>cached rotation matrices. to avoid calculating for each line (without rotation) </para>
-        </briefdescription>
-        <detaileddescription>
-<para>input data (data entered in last line) </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="150" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" bodystart="150" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1GcodeProcessor_1a8f342e3086c4bc66b2a77b43b05e0ebb" prot="private" static="no" mutable="no">
-        <type>Vector3b</type>
-        <definition>Vector3b MR::GcodeProcessor::inputCoordsReaded_</definition>
-        <argsstring></argsstring>
-        <name>inputCoordsReaded_</name>
-        <qualifiedname>MR::GcodeProcessor::inputCoordsReaded_</qualifiedname>
-        <briefdescription>
-<para>x, y, z </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="151" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" bodystart="151" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1GcodeProcessor_1a6b1c0d967d1fd8f892b2f9c5b9290cd3" prot="private" static="no" mutable="no">
-        <type>std::optional&lt; float &gt;</type>
-        <definition>std::optional&lt;float&gt; MR::GcodeProcessor::radius_</definition>
-        <argsstring></argsstring>
-        <name>radius_</name>
-        <qualifiedname>MR::GcodeProcessor::radius_</qualifiedname>
-        <briefdescription>
-<para>x, y, z was read </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="152" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" bodystart="152" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1GcodeProcessor_1acadc50869f18f493daee8265459f36a9" prot="private" static="no" mutable="no">
-        <type>std::optional&lt; Vector3f &gt;</type>
-        <definition>std::optional&lt;Vector3f&gt; MR::GcodeProcessor::arcCenter_</definition>
-        <argsstring></argsstring>
-        <name>arcCenter_</name>
-        <qualifiedname>MR::GcodeProcessor::arcCenter_</qualifiedname>
-        <briefdescription>
-<para>r </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="153" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" bodystart="153" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1GcodeProcessor_1ac19bcea919fcc7e09ef5e5e8150a1092" prot="private" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::GcodeProcessor::inputRotation_</definition>
-        <argsstring></argsstring>
-        <name>inputRotation_</name>
-        <qualifiedname>MR::GcodeProcessor::inputRotation_</qualifiedname>
-        <briefdescription>
-<para>i, j, k </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="154" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" bodystart="154" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1GcodeProcessor_1aaba7b9b275d6b262fcd36b03b86f5341" prot="private" static="no" mutable="no">
-        <type>Vector3b</type>
-        <definition>Vector3b MR::GcodeProcessor::inputRotationReaded_</definition>
-        <argsstring></argsstring>
-        <name>inputRotationReaded_</name>
-        <qualifiedname>MR::GcodeProcessor::inputRotationReaded_</qualifiedname>
-        <briefdescription>
-<para>a, b, c </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="155" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" bodystart="155" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1GcodeProcessor_1a583d4a71308dfd2a05ba041466fff415" prot="private" static="no" mutable="no">
-        <type>std::vector&lt; std::string_view &gt;</type>
-        <definition>std::vector&lt;std::string_view&gt; MR::GcodeProcessor::gcodeSource_</definition>
-        <argsstring></argsstring>
-        <name>gcodeSource_</name>
-        <qualifiedname>MR::GcodeProcessor::gcodeSource_</qualifiedname>
-        <briefdescription>
-<para>a, b, c was read </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="157" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" bodystart="157" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1GcodeProcessor_1accf0a47fe2f1443b6d08014952014ce7" prot="private" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::GcodeProcessor::accuracy_</definition>
-        <argsstring></argsstring>
-        <name>accuracy_</name>
-        <qualifiedname>MR::GcodeProcessor::accuracy_</qualifiedname>
-        <initializer>= 1.e-3f</initializer>
-        <briefdescription>
-<para>string list with sets of command (frames) </para>
-        </briefdescription>
-        <detaileddescription>
-<para>internal / machine settings </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="160" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" bodystart="160" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1GcodeProcessor_1afe3c8660cad9376677af01a26204935c" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1CNCMachineSettings" kindref="compound">CNCMachineSettings</ref></type>
-        <definition>CNCMachineSettings MR::GcodeProcessor::cncSettings_</definition>
-        <argsstring></argsstring>
-        <name>cncSettings_</name>
-        <qualifiedname>MR::GcodeProcessor::cncSettings_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="161" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" bodystart="161" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1GcodeProcessor_1a6958642231fb6adb71db79f39cbc0d13" prot="private" static="no" mutable="no">
-        <type>std::vector&lt; int &gt;</type>
-        <definition>std::vector&lt;int&gt; MR::GcodeProcessor::rotationAxesOrderMap_</definition>
-        <argsstring></argsstring>
-        <name>rotationAxesOrderMap_</name>
-        <qualifiedname>MR::GcodeProcessor::rotationAxesOrderMap_</qualifiedname>
-        <initializer>= {0, 1, 2}</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="162" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" bodystart="162" bodyend="162"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga1305725c82861429c6918a7762b8dd63" kind="variable"><name>coordType_</name></member>
+      <member refid="group__GeneralGroup_1gad5979fbeb95661f7edd243b824fc50ad" kind="variable"><name>moveMode_</name></member>
+      <member refid="group__GeneralGroup_1gafca44e0838624f58bdb381cc8a1b5615" kind="variable"><name>workPlane_</name></member>
+      <member refid="group__GeneralGroup_1ga10fb586ed5cb13178937ee7bcb9ed2a1" kind="variable"><name>toWorkPlaneXf_</name></member>
+      <member refid="group__GeneralGroup_1ga67e936d39fcf18ddf090967c63976c66" kind="variable"><name>translationPos_</name></member>
+      <member refid="group__GeneralGroup_1gabc85c77453e5d3ea6914b727f441482e" kind="variable"><name>rotationAngles_</name></member>
+      <member refid="group__GeneralGroup_1gae0d8f26f57c57239ce8ffc3a746b610e" kind="variable"><name>absoluteCoordinates_</name></member>
+      <member refid="group__GeneralGroup_1gace5d39e8c0f2c0ecaca25d8b51d66734" kind="variable"><name>scaling_</name></member>
+      <member refid="group__GeneralGroup_1ga31962447275ea7a9b03725aec93ad61c" kind="variable"><name>inches_</name></member>
+      <member refid="group__GeneralGroup_1ga4afa2da80a1517114d550bb224cefd58" kind="variable"><name>feedrate_</name></member>
+      <member refid="group__GeneralGroup_1ga57bb2cf433c869f6d733cbe2e1128056" kind="variable"><name>feedrateMax_</name></member>
+      <member refid="group__GeneralGroup_1ga593fc42e8fc59dff3bf125e59972e9ec" kind="variable"><name>cacheRotationMatrix_</name></member>
+      <member refid="group__GeneralGroup_1gab0c2ffb2e31173f88e1a2302605aff7c" kind="variable"><name>inputCoords_</name></member>
+      <member refid="group__GeneralGroup_1ga8f342e3086c4bc66b2a77b43b05e0ebb" kind="variable"><name>inputCoordsReaded_</name></member>
+      <member refid="group__GeneralGroup_1ga6b1c0d967d1fd8f892b2f9c5b9290cd3" kind="variable"><name>radius_</name></member>
+      <member refid="group__GeneralGroup_1gacadc50869f18f493daee8265459f36a9" kind="variable"><name>arcCenter_</name></member>
+      <member refid="group__GeneralGroup_1gac19bcea919fcc7e09ef5e5e8150a1092" kind="variable"><name>inputRotation_</name></member>
+      <member refid="group__GeneralGroup_1gaaba7b9b275d6b262fcd36b03b86f5341" kind="variable"><name>inputRotationReaded_</name></member>
+      <member refid="group__GeneralGroup_1ga583d4a71308dfd2a05ba041466fff415" kind="variable"><name>gcodeSource_</name></member>
+      <member refid="group__GeneralGroup_1gaccf0a47fe2f1443b6d08014952014ce7" kind="variable"><name>accuracy_</name></member>
+      <member refid="group__GeneralGroup_1gafe3c8660cad9376677af01a26204935c" kind="variable"><name>cncSettings_</name></member>
+      <member refid="group__GeneralGroup_1ga6958642231fb6adb71db79f39cbc0d13" kind="variable"><name>rotationAxesOrderMap_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1GcodeProcessor_1aab85326426858f8da3d65ca24a5e1a6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::GcodeProcessor::reset</definition>
-        <argsstring>()</argsstring>
-        <name>reset</name>
-        <qualifiedname>MR::GcodeProcessor::reset</qualifiedname>
-        <briefdescription>
-<para>reset internal states </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="43" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1GcodeProcessor_1ace829c3782f4685968c82c32de66a4d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::GcodeProcessor::setGcodeSource</definition>
-        <argsstring>(const GcodeSource &amp;gcodeSource)</argsstring>
-        <name>setGcodeSource</name>
-        <qualifiedname>MR::GcodeProcessor::setGcodeSource</qualifiedname>
-        <param>
-          <type>const <ref refid="namespaceMR_1a0cc9f139078c5c5597f9bb7465fd7fda" kindref="member">GcodeSource</ref> &amp;</type>
-          <declname>gcodeSource</declname>
-        </param>
-        <briefdescription>
-<para>set g-code source </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="46" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1GcodeProcessor_1ac70b156fa41443a361dc92797369d6dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::vector&lt; <ref refid="structMR_1_1GcodeProcessor_1_1MoveAction" kindref="compound">MoveAction</ref> &gt;</type>
-        <definition>MRMESH_API std::vector&lt; MoveAction &gt; MR::GcodeProcessor::processSource</definition>
-        <argsstring>()</argsstring>
-        <name>processSource</name>
-        <qualifiedname>MR::GcodeProcessor::processSource</qualifiedname>
-        <briefdescription>
-<para>process all lines g-code source and generate corresponding move actions </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="49" column="28"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1GcodeProcessor_1a3330329ae3c98ae35d632ae247a6dd4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="structMR_1_1GcodeProcessor_1_1MoveAction" kindref="compound">MoveAction</ref></type>
-        <definition>MRMESH_API MoveAction MR::GcodeProcessor::processLine</definition>
-        <argsstring>(const std::string_view &amp;line, std::vector&lt; Command &gt; &amp;externalStorage)</argsstring>
-        <name>processLine</name>
-        <qualifiedname>MR::GcodeProcessor::processLine</qualifiedname>
-        <param>
-          <type>const std::string_view &amp;</type>
-          <declname>line</declname>
-        </param>
-        <param>
-          <type>std::vector&lt; <ref refid="structMR_1_1GcodeProcessor_1_1Command" kindref="compound">Command</ref> &gt; &amp;</type>
-          <declname>externalStorage</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>process all commands from one line g-code source and generate corresponding move action; <parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>externalStorage</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>to avoid memory allocation on each line </para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="59" column="27"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1GcodeProcessor_1aa7d0067f2ea9fa17e9e56e625539e534" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::GcodeProcessor::setCNCMachineSettings</definition>
-        <argsstring>(const CNCMachineSettings &amp;settings)</argsstring>
-        <name>setCNCMachineSettings</name>
-        <qualifiedname>MR::GcodeProcessor::setCNCMachineSettings</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1CNCMachineSettings" kindref="compound">CNCMachineSettings</ref> &amp;</type>
-          <declname>settings</declname>
-        </param>
-        <briefdescription>
-<para>settings </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="62" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1GcodeProcessor_1a3d142a8122850941639d6ac3b62e425c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>const <ref refid="classMR_1_1CNCMachineSettings" kindref="compound">CNCMachineSettings</ref> &amp;</type>
-        <definition>const CNCMachineSettings &amp; MR::GcodeProcessor::getCNCMachineSettings</definition>
-        <argsstring>()</argsstring>
-        <name>getCNCMachineSettings</name>
-        <qualifiedname>MR::GcodeProcessor::getCNCMachineSettings</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="63" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" bodystart="63" bodyend="63"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaab85326426858f8da3d65ca24a5e1a6e" kind="function"><name>reset</name></member>
+      <member refid="group__GeneralGroup_1gace829c3782f4685968c82c32de66a4d0" kind="function"><name>setGcodeSource</name></member>
+      <member refid="group__GeneralGroup_1gac70b156fa41443a361dc92797369d6dd" kind="function"><name>processSource</name></member>
+      <member refid="group__GeneralGroup_1ga3330329ae3c98ae35d632ae247a6dd4b" kind="function"><name>processLine</name></member>
+      <member refid="group__GeneralGroup_1gaa7d0067f2ea9fa17e9e56e625539e534" kind="function"><name>setCNCMachineSettings</name></member>
+      <member refid="group__GeneralGroup_1ga3d142a8122850941639d6ac3b62e425c" kind="function"><name>getCNCMachineSettings</name></member>
     </sectiondef>
     <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1GcodeProcessor_1a007e0b93251d35fa9eef521871e5c7c1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>static void MR::GcodeProcessor::parseFrame_</definition>
-        <argsstring>(const std::string_view &amp;frame, std::vector&lt; Command &gt; &amp;outCommands)</argsstring>
-        <name>parseFrame_</name>
-        <qualifiedname>MR::GcodeProcessor::parseFrame_</qualifiedname>
-        <param>
-          <type>const std::string_view &amp;</type>
-          <declname>frame</declname>
-        </param>
-        <param>
-          <type>std::vector&lt; <ref refid="structMR_1_1GcodeProcessor_1_1Command" kindref="compound">Command</ref> &gt; &amp;</type>
-          <declname>outCommands</declname>
-        </param>
-        <briefdescription>
-<para>parse program methods </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="74" column="17"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga007e0b93251d35fa9eef521871e5c7c1" kind="function"><name>parseFrame_</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMR_1_1GcodeProcessor_1a355dafb47f0b5cd9b32bb190e423fc79" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::GcodeProcessor::applyCommand_</definition>
-        <argsstring>(const Command &amp;command)</argsstring>
-        <name>applyCommand_</name>
-        <qualifiedname>MR::GcodeProcessor::applyCommand_</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1GcodeProcessor_1_1Command" kindref="compound">Command</ref> &amp;</type>
-          <declname>command</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="75" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1GcodeProcessor_1a07bc44967c227c4f8e812bfaab2d255c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::GcodeProcessor::applyCommandG_</definition>
-        <argsstring>(const Command &amp;command)</argsstring>
-        <name>applyCommandG_</name>
-        <qualifiedname>MR::GcodeProcessor::applyCommandG_</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1GcodeProcessor_1_1Command" kindref="compound">Command</ref> &amp;</type>
-          <declname>command</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="76" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1GcodeProcessor_1a59ff9abb67d5e6d3fc01e3cfebab73cb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="structMR_1_1GcodeProcessor_1_1MoveAction" kindref="compound">MoveAction</ref></type>
-        <definition>MoveAction MR::GcodeProcessor::generateMoveAction_</definition>
-        <argsstring>()</argsstring>
-        <name>generateMoveAction_</name>
-        <qualifiedname>MR::GcodeProcessor::generateMoveAction_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="77" column="16"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1GcodeProcessor_1a9442aade2416570efe60a28f2c90d8fc" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="structMR_1_1GcodeProcessor_1_1MoveAction" kindref="compound">MoveAction</ref></type>
-        <definition>MoveAction MR::GcodeProcessor::generateReturnToHomeAction_</definition>
-        <argsstring>()</argsstring>
-        <name>generateReturnToHomeAction_</name>
-        <qualifiedname>MR::GcodeProcessor::generateReturnToHomeAction_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="78" column="16"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1GcodeProcessor_1ab730b1c37c5541eb84c482a2bf5e7426" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::GcodeProcessor::resetTemporaryStates_</definition>
-        <argsstring>()</argsstring>
-        <name>resetTemporaryStates_</name>
-        <qualifiedname>MR::GcodeProcessor::resetTemporaryStates_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="79" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1GcodeProcessor_1a094dc0d966ff2e332c36958c2ab525b5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="structMR_1_1GcodeProcessor_1_1MoveAction" kindref="compound">MoveAction</ref></type>
-        <definition>MoveAction MR::GcodeProcessor::moveLine_</definition>
-        <argsstring>(const Vector3f &amp;newPoint, const Vector3f &amp;newAngles)</argsstring>
-        <name>moveLine_</name>
-        <qualifiedname>MR::GcodeProcessor::moveLine_</qualifiedname>
-        <param>
-          <type>const Vector3f &amp;</type>
-          <declname>newPoint</declname>
-        </param>
-        <param>
-          <type>const Vector3f &amp;</type>
-          <declname>newAngles</declname>
-        </param>
-        <briefdescription>
-<para>g-command actions </para>
-        </briefdescription>
-        <detaileddescription>
-<para>g0, g1 </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="84" column="16"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1GcodeProcessor_1add6ea41eb644553f0cb8c0423ae29aff" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="structMR_1_1GcodeProcessor_1_1MoveAction" kindref="compound">MoveAction</ref></type>
-        <definition>MoveAction MR::GcodeProcessor::moveArc_</definition>
-        <argsstring>(const Vector3f &amp;newPoint, const Vector3f &amp;newAngles, bool clockwise)</argsstring>
-        <name>moveArc_</name>
-        <qualifiedname>MR::GcodeProcessor::moveArc_</qualifiedname>
-        <param>
-          <type>const Vector3f &amp;</type>
-          <declname>newPoint</declname>
-        </param>
-        <param>
-          <type>const Vector3f &amp;</type>
-          <declname>newAngles</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>clockwise</declname>
-        </param>
-        <briefdescription>
-<para>g2, g3 </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="86" column="16"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1GcodeProcessor_1a6a4685dc317fe1d31bb4636252aefd3f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::GcodeProcessor::updateWorkPlane_</definition>
-        <argsstring>(WorkPlane wp)</argsstring>
-        <name>updateWorkPlane_</name>
-        <qualifiedname>MR::GcodeProcessor::updateWorkPlane_</qualifiedname>
-        <param>
-          <type>WorkPlane</type>
-          <declname>wp</declname>
-        </param>
-        <briefdescription>
-<para>g17, g18, g19 </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="89" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1GcodeProcessor_1a5c263ec7c02d2b920ee5ca73326bdd9f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::GcodeProcessor::updateScaling_</definition>
-        <argsstring>()</argsstring>
-        <name>updateScaling_</name>
-        <qualifiedname>MR::GcodeProcessor::updateScaling_</qualifiedname>
-        <briefdescription>
-<para>g51 </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="92" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1GcodeProcessor_1a75baf1eff6ca071ba44ea0782928b822" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMR_1_1GcodeProcessor_1a02000ae4305a16e7aca1e6e09bb7e25a" kindref="member">BaseAction2f</ref></type>
-        <definition>BaseAction2f MR::GcodeProcessor::getArcPoints2_</definition>
-        <argsstring>(const Vector2f &amp;beginPoint, const Vector2f &amp;endPoint, bool clockwise)</argsstring>
-        <name>getArcPoints2_</name>
-        <qualifiedname>MR::GcodeProcessor::getArcPoints2_</qualifiedname>
-        <param>
-          <type>const Vector2f &amp;</type>
-          <declname>beginPoint</declname>
-        </param>
-        <param>
-          <type>const Vector2f &amp;</type>
-          <declname>endPoint</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>clockwise</declname>
-        </param>
-        <briefdescription>
-<para>g-command helper methods </para>
-        </briefdescription>
-        <detaileddescription>
-<para>sample arc points in 2d by begin point, end point and center in (0, 0) </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="97" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1GcodeProcessor_1aa3b4f69f4e4401fa3f015a17abf161c8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMR_1_1GcodeProcessor_1a88ffeb0a2dcab67b585df870268d537d" kindref="member">BaseAction3f</ref></type>
-        <definition>BaseAction3f MR::GcodeProcessor::getArcPoints3_</definition>
-        <argsstring>(const Vector3f &amp;center, const Vector3f &amp;beginPoint, const Vector3f &amp;endPoint, bool clockwise)</argsstring>
-        <name>getArcPoints3_</name>
-        <qualifiedname>MR::GcodeProcessor::getArcPoints3_</qualifiedname>
-        <param>
-          <type>const Vector3f &amp;</type>
-          <declname>center</declname>
-        </param>
-        <param>
-          <type>const Vector3f &amp;</type>
-          <declname>beginPoint</declname>
-        </param>
-        <param>
-          <type>const Vector3f &amp;</type>
-          <declname>endPoint</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>clockwise</declname>
-        </param>
-        <briefdescription>
-<para>sample arc points in 3d by begin point, end point and center </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="99" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1GcodeProcessor_1ad65a896a9c466e65c8d84fc78db5dca7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMR_1_1GcodeProcessor_1a88ffeb0a2dcab67b585df870268d537d" kindref="member">BaseAction3f</ref></type>
-        <definition>BaseAction3f MR::GcodeProcessor::getArcPoints3_</definition>
-        <argsstring>(float r, const Vector3f &amp;beginPoint, const Vector3f &amp;endPoint, bool clockwise)</argsstring>
-        <name>getArcPoints3_</name>
-        <qualifiedname>MR::GcodeProcessor::getArcPoints3_</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>r</declname>
-        </param>
-        <param>
-          <type>const Vector3f &amp;</type>
-          <declname>beginPoint</declname>
-        </param>
-        <param>
-          <type>const Vector3f &amp;</type>
-          <declname>endPoint</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>clockwise</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>sample arc points in 3d by begin point, end point and radius r &gt; 0 : angle - [0, 180] r &lt; 0 : angle - (0, 360) </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="103" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1GcodeProcessor_1a0ce1edc4b795e556fc3ea8dea806a9e4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="structMR_1_1GcodeProcessor_1_1MoveAction" kindref="compound">MoveAction</ref></type>
-        <definition>MoveAction MR::GcodeProcessor::getToolRotationPoints_</definition>
-        <argsstring>(const Vector3f &amp;newRotationAngles)</argsstring>
-        <name>getToolRotationPoints_</name>
-        <qualifiedname>MR::GcodeProcessor::getToolRotationPoints_</qualifiedname>
-        <param>
-          <type>const Vector3f &amp;</type>
-          <declname>newRotationAngles</declname>
-        </param>
-        <briefdescription>
-<para>sample arc points of tool movement during rotation </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="106" column="16"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1GcodeProcessor_1a46b15ed43d1343c027bb27ccd0f2192d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::GcodeProcessor::calcNewTranslationPos_</definition>
-        <argsstring>()</argsstring>
-        <name>calcNewTranslationPos_</name>
-        <qualifiedname>MR::GcodeProcessor::calcNewTranslationPos_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="108" column="14"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1GcodeProcessor_1a7f65cdebdedc14b5dcc4b9c210998121" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::GcodeProcessor::calcNewRotationAngles_</definition>
-        <argsstring>()</argsstring>
-        <name>calcNewRotationAngles_</name>
-        <qualifiedname>MR::GcodeProcessor::calcNewRotationAngles_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="109" column="14"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1GcodeProcessor_1a07b4d5b3e10c0d3d7b6ade10b4f1955d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::GcodeProcessor::calcRealCoord_</definition>
-        <argsstring>(const Vector3f &amp;translationPos, const Vector3f &amp;rotationAngles)</argsstring>
-        <name>calcRealCoord_</name>
-        <qualifiedname>MR::GcodeProcessor::calcRealCoord_</qualifiedname>
-        <param>
-          <type>const Vector3f &amp;</type>
-          <declname>translationPos</declname>
-        </param>
-        <param>
-          <type>const Vector3f &amp;</type>
-          <declname>rotationAngles</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="110" column="14"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1GcodeProcessor_1a1ba5399a492480aad8a37c6f62b9639c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::GcodeProcessor::updateRotationAngleAndMatrix_</definition>
-        <argsstring>(const Vector3f &amp;rotationAngles)</argsstring>
-        <name>updateRotationAngleAndMatrix_</name>
-        <qualifiedname>MR::GcodeProcessor::updateRotationAngleAndMatrix_</qualifiedname>
-        <param>
-          <type>const Vector3f &amp;</type>
-          <declname>rotationAngles</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="111" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1GcodeProcessor_1a131a9e75f8189071bad3d88ae703d402" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::GcodeProcessor::calcRealCoordCached_</definition>
-        <argsstring>(const Vector3f &amp;translationPos, const Vector3f &amp;rotationAngles)</argsstring>
-        <name>calcRealCoordCached_</name>
-        <qualifiedname>MR::GcodeProcessor::calcRealCoordCached_</qualifiedname>
-        <param>
-          <type>const Vector3f &amp;</type>
-          <declname>translationPos</declname>
-        </param>
-        <param>
-          <type>const Vector3f &amp;</type>
-          <declname>rotationAngles</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="112" column="14"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1GcodeProcessor_1ac7fba68deb0d909e4315dabad0d3e700" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::GcodeProcessor::calcRealCoordCached_</definition>
-        <argsstring>(const Vector3f &amp;translationPos)</argsstring>
-        <name>calcRealCoordCached_</name>
-        <qualifiedname>MR::GcodeProcessor::calcRealCoordCached_</qualifiedname>
-        <param>
-          <type>const Vector3f &amp;</type>
-          <declname>translationPos</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="113" column="14"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga355dafb47f0b5cd9b32bb190e423fc79" kind="function"><name>applyCommand_</name></member>
+      <member refid="group__GeneralGroup_1ga07bc44967c227c4f8e812bfaab2d255c" kind="function"><name>applyCommandG_</name></member>
+      <member refid="group__GeneralGroup_1ga59ff9abb67d5e6d3fc01e3cfebab73cb" kind="function"><name>generateMoveAction_</name></member>
+      <member refid="group__GeneralGroup_1ga9442aade2416570efe60a28f2c90d8fc" kind="function"><name>generateReturnToHomeAction_</name></member>
+      <member refid="group__GeneralGroup_1gab730b1c37c5541eb84c482a2bf5e7426" kind="function"><name>resetTemporaryStates_</name></member>
+      <member refid="group__GeneralGroup_1ga094dc0d966ff2e332c36958c2ab525b5" kind="function"><name>moveLine_</name></member>
+      <member refid="group__GeneralGroup_1gadd6ea41eb644553f0cb8c0423ae29aff" kind="function"><name>moveArc_</name></member>
+      <member refid="group__GeneralGroup_1ga6a4685dc317fe1d31bb4636252aefd3f" kind="function"><name>updateWorkPlane_</name></member>
+      <member refid="group__GeneralGroup_1ga5c263ec7c02d2b920ee5ca73326bdd9f" kind="function"><name>updateScaling_</name></member>
+      <member refid="group__GeneralGroup_1ga75baf1eff6ca071ba44ea0782928b822" kind="function"><name>getArcPoints2_</name></member>
+      <member refid="group__GeneralGroup_1gaa3b4f69f4e4401fa3f015a17abf161c8" kind="function"><name>getArcPoints3_</name></member>
+      <member refid="group__GeneralGroup_1gad65a896a9c466e65c8d84fc78db5dca7" kind="function"><name>getArcPoints3_</name></member>
+      <member refid="group__GeneralGroup_1ga0ce1edc4b795e556fc3ea8dea806a9e4" kind="function"><name>getToolRotationPoints_</name></member>
+      <member refid="group__GeneralGroup_1ga46b15ed43d1343c027bb27ccd0f2192d" kind="function"><name>calcNewTranslationPos_</name></member>
+      <member refid="group__GeneralGroup_1ga7f65cdebdedc14b5dcc4b9c210998121" kind="function"><name>calcNewRotationAngles_</name></member>
+      <member refid="group__GeneralGroup_1ga07b4d5b3e10c0d3d7b6ade10b4f1955d" kind="function"><name>calcRealCoord_</name></member>
+      <member refid="group__GeneralGroup_1ga1ba5399a492480aad8a37c6f62b9639c" kind="function"><name>updateRotationAngleAndMatrix_</name></member>
+      <member refid="group__GeneralGroup_1ga131a9e75f8189071bad3d88ae703d402" kind="function"><name>calcRealCoordCached_</name></member>
+      <member refid="group__GeneralGroup_1gac7fba68deb0d909e4315dabad0d3e700" kind="function"><name>calcRealCoordCached_</name></member>
     </sectiondef>
     <briefdescription>
 <para>class to process g-code source and generate toolpath </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" bodystart="17" bodyend="164"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="19" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" bodystart="20" bodyend="167"/>
     <listofallmembers>
-      <member refid="classMR_1_1GcodeProcessor_1ae0d8f26f57c57239ce8ffc3a746b610e" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>absoluteCoordinates_</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1accf0a47fe2f1443b6d08014952014ce7" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>accuracy_</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1a355dafb47f0b5cd9b32bb190e423fc79" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>applyCommand_</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1a07bc44967c227c4f8e812bfaab2d255c" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>applyCommandG_</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1acadc50869f18f493daee8265459f36a9" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>arcCenter_</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1a02000ae4305a16e7aca1e6e09bb7e25a" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>BaseAction2f</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1a88ffeb0a2dcab67b585df870268d537d" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>BaseAction3f</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1a593fc42e8fc59dff3bf125e59972e9ec" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>cacheRotationMatrix_</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1a7f65cdebdedc14b5dcc4b9c210998121" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>calcNewRotationAngles_</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1a46b15ed43d1343c027bb27ccd0f2192d" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>calcNewTranslationPos_</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1a07b4d5b3e10c0d3d7b6ade10b4f1955d" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>calcRealCoord_</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1a131a9e75f8189071bad3d88ae703d402" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>calcRealCoordCached_</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1ac7fba68deb0d909e4315dabad0d3e700" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>calcRealCoordCached_</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1afe3c8660cad9376677af01a26204935c" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>cncSettings_</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1a1e91bcba147c679387fb026d4b8e3585" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>CoordType</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1a1305725c82861429c6918a7762b8dd63" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>coordType_</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1a4afa2da80a1517114d550bb224cefd58" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>feedrate_</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1a57bb2cf433c869f6d733cbe2e1128056" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>feedrateMax_</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1a583d4a71308dfd2a05ba041466fff415" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>gcodeSource_</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1a59ff9abb67d5e6d3fc01e3cfebab73cb" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>generateMoveAction_</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1a9442aade2416570efe60a28f2c90d8fc" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>generateReturnToHomeAction_</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1a75baf1eff6ca071ba44ea0782928b822" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>getArcPoints2_</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1aa3b4f69f4e4401fa3f015a17abf161c8" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>getArcPoints3_</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1ad65a896a9c466e65c8d84fc78db5dca7" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>getArcPoints3_</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1a3d142a8122850941639d6ac3b62e425c" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>getCNCMachineSettings</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1a0ce1edc4b795e556fc3ea8dea806a9e4" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>getToolRotationPoints_</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1a31962447275ea7a9b03725aec93ad61c" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>inches_</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1ab0c2ffb2e31173f88e1a2302605aff7c" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>inputCoords_</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1a8f342e3086c4bc66b2a77b43b05e0ebb" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>inputCoordsReaded_</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1ac19bcea919fcc7e09ef5e5e8150a1092" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>inputRotation_</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1aaba7b9b275d6b262fcd36b03b86f5341" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>inputRotationReaded_</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1add6ea41eb644553f0cb8c0423ae29aff" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>moveArc_</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1a094dc0d966ff2e332c36958c2ab525b5" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>moveLine_</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1a709663cb497cc2f837aee1f5ca4100f2" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>MoveMode</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1ad5979fbeb95661f7edd243b824fc50ad" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>moveMode_</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1a007e0b93251d35fa9eef521871e5c7c1" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>parseFrame_</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1a3330329ae3c98ae35d632ae247a6dd4b" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>processLine</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1ac70b156fa41443a361dc92797369d6dd" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>processSource</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1a6b1c0d967d1fd8f892b2f9c5b9290cd3" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>radius_</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1aab85326426858f8da3d65ca24a5e1a6e" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>reset</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1ab730b1c37c5541eb84c482a2bf5e7426" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>resetTemporaryStates_</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1abc85c77453e5d3ea6914b727f441482e" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>rotationAngles_</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1a6958642231fb6adb71db79f39cbc0d13" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>rotationAxesOrderMap_</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1ace5d39e8c0f2c0ecaca25d8b51d66734" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>scaling_</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1aa7d0067f2ea9fa17e9e56e625539e534" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>setCNCMachineSettings</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1ace829c3782f4685968c82c32de66a4d0" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>setGcodeSource</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1a10fb586ed5cb13178937ee7bcb9ed2a1" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>toWorkPlaneXf_</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1a67e936d39fcf18ddf090967c63976c66" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>translationPos_</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1a1ba5399a492480aad8a37c6f62b9639c" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>updateRotationAngleAndMatrix_</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1a5c263ec7c02d2b920ee5ca73326bdd9f" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>updateScaling_</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1a6a4685dc317fe1d31bb4636252aefd3f" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>updateWorkPlane_</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1a7ac2ab8e3d2f27b7cdb22ddb1eda182c" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>WorkPlane</name></member>
-      <member refid="classMR_1_1GcodeProcessor_1afca44e0838624f58bdb381cc8a1b5615" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>workPlane_</name></member>
+      <member refid="group__GeneralGroup_1gae0d8f26f57c57239ce8ffc3a746b610e" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>absoluteCoordinates_</name></member>
+      <member refid="group__GeneralGroup_1gaccf0a47fe2f1443b6d08014952014ce7" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>accuracy_</name></member>
+      <member refid="group__GeneralGroup_1ga355dafb47f0b5cd9b32bb190e423fc79" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>applyCommand_</name></member>
+      <member refid="group__GeneralGroup_1ga07bc44967c227c4f8e812bfaab2d255c" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>applyCommandG_</name></member>
+      <member refid="group__GeneralGroup_1gacadc50869f18f493daee8265459f36a9" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>arcCenter_</name></member>
+      <member refid="group__GeneralGroup_1ga02000ae4305a16e7aca1e6e09bb7e25a" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>BaseAction2f</name></member>
+      <member refid="group__GeneralGroup_1ga88ffeb0a2dcab67b585df870268d537d" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>BaseAction3f</name></member>
+      <member refid="group__GeneralGroup_1ga593fc42e8fc59dff3bf125e59972e9ec" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>cacheRotationMatrix_</name></member>
+      <member refid="group__GeneralGroup_1ga7f65cdebdedc14b5dcc4b9c210998121" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>calcNewRotationAngles_</name></member>
+      <member refid="group__GeneralGroup_1ga46b15ed43d1343c027bb27ccd0f2192d" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>calcNewTranslationPos_</name></member>
+      <member refid="group__GeneralGroup_1ga07b4d5b3e10c0d3d7b6ade10b4f1955d" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>calcRealCoord_</name></member>
+      <member refid="group__GeneralGroup_1ga131a9e75f8189071bad3d88ae703d402" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>calcRealCoordCached_</name></member>
+      <member refid="group__GeneralGroup_1gac7fba68deb0d909e4315dabad0d3e700" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>calcRealCoordCached_</name></member>
+      <member refid="group__GeneralGroup_1gafe3c8660cad9376677af01a26204935c" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>cncSettings_</name></member>
+      <member refid="group__GeneralGroup_1ga1e91bcba147c679387fb026d4b8e3585" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>CoordType</name></member>
+      <member refid="group__GeneralGroup_1ga1305725c82861429c6918a7762b8dd63" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>coordType_</name></member>
+      <member refid="group__GeneralGroup_1ga4afa2da80a1517114d550bb224cefd58" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>feedrate_</name></member>
+      <member refid="group__GeneralGroup_1ga57bb2cf433c869f6d733cbe2e1128056" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>feedrateMax_</name></member>
+      <member refid="group__GeneralGroup_1ga583d4a71308dfd2a05ba041466fff415" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>gcodeSource_</name></member>
+      <member refid="group__GeneralGroup_1ga59ff9abb67d5e6d3fc01e3cfebab73cb" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>generateMoveAction_</name></member>
+      <member refid="group__GeneralGroup_1ga9442aade2416570efe60a28f2c90d8fc" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>generateReturnToHomeAction_</name></member>
+      <member refid="group__GeneralGroup_1ga75baf1eff6ca071ba44ea0782928b822" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>getArcPoints2_</name></member>
+      <member refid="group__GeneralGroup_1gaa3b4f69f4e4401fa3f015a17abf161c8" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>getArcPoints3_</name></member>
+      <member refid="group__GeneralGroup_1gad65a896a9c466e65c8d84fc78db5dca7" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>getArcPoints3_</name></member>
+      <member refid="group__GeneralGroup_1ga3d142a8122850941639d6ac3b62e425c" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>getCNCMachineSettings</name></member>
+      <member refid="group__GeneralGroup_1ga0ce1edc4b795e556fc3ea8dea806a9e4" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>getToolRotationPoints_</name></member>
+      <member refid="group__GeneralGroup_1ga31962447275ea7a9b03725aec93ad61c" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>inches_</name></member>
+      <member refid="group__GeneralGroup_1gab0c2ffb2e31173f88e1a2302605aff7c" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>inputCoords_</name></member>
+      <member refid="group__GeneralGroup_1ga8f342e3086c4bc66b2a77b43b05e0ebb" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>inputCoordsReaded_</name></member>
+      <member refid="group__GeneralGroup_1gac19bcea919fcc7e09ef5e5e8150a1092" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>inputRotation_</name></member>
+      <member refid="group__GeneralGroup_1gaaba7b9b275d6b262fcd36b03b86f5341" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>inputRotationReaded_</name></member>
+      <member refid="group__GeneralGroup_1gadd6ea41eb644553f0cb8c0423ae29aff" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>moveArc_</name></member>
+      <member refid="group__GeneralGroup_1ga094dc0d966ff2e332c36958c2ab525b5" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>moveLine_</name></member>
+      <member refid="group__GeneralGroup_1ga709663cb497cc2f837aee1f5ca4100f2" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>MoveMode</name></member>
+      <member refid="group__GeneralGroup_1gad5979fbeb95661f7edd243b824fc50ad" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>moveMode_</name></member>
+      <member refid="group__GeneralGroup_1ga007e0b93251d35fa9eef521871e5c7c1" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>parseFrame_</name></member>
+      <member refid="group__GeneralGroup_1ga3330329ae3c98ae35d632ae247a6dd4b" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>processLine</name></member>
+      <member refid="group__GeneralGroup_1gac70b156fa41443a361dc92797369d6dd" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>processSource</name></member>
+      <member refid="group__GeneralGroup_1ga6b1c0d967d1fd8f892b2f9c5b9290cd3" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>radius_</name></member>
+      <member refid="group__GeneralGroup_1gaab85326426858f8da3d65ca24a5e1a6e" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>reset</name></member>
+      <member refid="group__GeneralGroup_1gab730b1c37c5541eb84c482a2bf5e7426" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>resetTemporaryStates_</name></member>
+      <member refid="group__GeneralGroup_1gabc85c77453e5d3ea6914b727f441482e" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>rotationAngles_</name></member>
+      <member refid="group__GeneralGroup_1ga6958642231fb6adb71db79f39cbc0d13" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>rotationAxesOrderMap_</name></member>
+      <member refid="group__GeneralGroup_1gace5d39e8c0f2c0ecaca25d8b51d66734" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>scaling_</name></member>
+      <member refid="group__GeneralGroup_1gaa7d0067f2ea9fa17e9e56e625539e534" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>setCNCMachineSettings</name></member>
+      <member refid="group__GeneralGroup_1gace829c3782f4685968c82c32de66a4d0" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>setGcodeSource</name></member>
+      <member refid="group__GeneralGroup_1ga10fb586ed5cb13178937ee7bcb9ed2a1" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>toWorkPlaneXf_</name></member>
+      <member refid="group__GeneralGroup_1ga67e936d39fcf18ddf090967c63976c66" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>translationPos_</name></member>
+      <member refid="group__GeneralGroup_1ga1ba5399a492480aad8a37c6f62b9639c" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>updateRotationAngleAndMatrix_</name></member>
+      <member refid="group__GeneralGroup_1ga5c263ec7c02d2b920ee5ca73326bdd9f" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>updateScaling_</name></member>
+      <member refid="group__GeneralGroup_1ga6a4685dc317fe1d31bb4636252aefd3f" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>updateWorkPlane_</name></member>
+      <member refid="group__GeneralGroup_1ga7ac2ab8e3d2f27b7cdb22ddb1eda182c" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>WorkPlane</name></member>
+      <member refid="group__GeneralGroup_1gafca44e0838624f58bdb381cc8a1b5615" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>workPlane_</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

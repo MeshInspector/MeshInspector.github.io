@@ -5,399 +5,36 @@
     <basecompoundref refid="classMR_1_1IRenderObject" prot="public" virt="virtual">MR::IRenderObject</basecompoundref>
     <includes refid="MRRenderVolumeObject_8h" local="no">MRRenderVolumeObject.h</includes>
     <sectiondef kind="private-type">
-      <memberdef kind="typedef" id="classMR_1_1RenderVolumeObject_1a5c2f92f904828afa7e31f3c3af25dae3" prot="private" static="no">
-        <type>unsigned int</type>
-        <definition>typedef unsigned int MR::RenderVolumeObject::GLuint</definition>
-        <argsstring></argsstring>
-        <name>GLuint</name>
-        <qualifiedname>MR::RenderVolumeObject::GLuint</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderVolumeObject.h" line="29" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderVolumeObject.h" bodystart="29" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga5c2f92f904828afa7e31f3c3af25dae3" kind="typedef"><name>GLuint</name></member>
     </sectiondef>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1RenderVolumeObject_1ae1b45551bae575300c3a1c64fff947b4" prot="private" static="no" mutable="no">
-        <type>const <ref refid="classMR_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref> *</type>
-        <definition>const ObjectVoxels* MR::RenderVolumeObject::objVoxels_</definition>
-        <argsstring></argsstring>
-        <name>objVoxels_</name>
-        <qualifiedname>MR::RenderVolumeObject::objVoxels_</qualifiedname>
-        <initializer>{ nullptr }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderVolumeObject.h" line="27" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderVolumeObject.h" bodystart="27" bodyend="27"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RenderVolumeObject_1af2a9e520eb53ff85220250c23375a4c8" prot="private" static="no" mutable="no">
-        <type>GLuint</type>
-        <definition>GLuint MR::RenderVolumeObject::volumeArrayObjId_</definition>
-        <argsstring></argsstring>
-        <name>volumeArrayObjId_</name>
-        <qualifiedname>MR::RenderVolumeObject::volumeArrayObjId_</qualifiedname>
-        <initializer>{ 0 }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderVolumeObject.h" line="30" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderVolumeObject.h" bodystart="30" bodyend="30"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RenderVolumeObject_1a4a338cdf6fab2da9bc7b21a13bf4895c" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1GlBuffer" kindref="compound">GlBuffer</ref></type>
-        <definition>GlBuffer MR::RenderVolumeObject::volumeVertsBuffer_</definition>
-        <argsstring></argsstring>
-        <name>volumeVertsBuffer_</name>
-        <qualifiedname>MR::RenderVolumeObject::volumeVertsBuffer_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderVolumeObject.h" line="31" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderVolumeObject.h" bodystart="31" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RenderVolumeObject_1a53f810aaf05d68d4e9a0d98723e1ad98" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1GlBuffer" kindref="compound">GlBuffer</ref></type>
-        <definition>GlBuffer MR::RenderVolumeObject::volumeIndicesBuffer_</definition>
-        <argsstring></argsstring>
-        <name>volumeIndicesBuffer_</name>
-        <qualifiedname>MR::RenderVolumeObject::volumeIndicesBuffer_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderVolumeObject.h" line="32" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderVolumeObject.h" bodystart="32" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RenderVolumeObject_1a8f79a22151e8a34ff253cf5a35487417" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1GlTexture3" kindref="compound">GlTexture3</ref></type>
-        <definition>GlTexture3 MR::RenderVolumeObject::volume_</definition>
-        <argsstring></argsstring>
-        <name>volume_</name>
-        <qualifiedname>MR::RenderVolumeObject::volume_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderVolumeObject.h" line="34" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderVolumeObject.h" bodystart="34" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RenderVolumeObject_1af53c78621b4fde68c9de7416f9fabf49" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1GlTexture2" kindref="compound">GlTexture2</ref></type>
-        <definition>GlTexture2 MR::RenderVolumeObject::denseMap_</definition>
-        <argsstring></argsstring>
-        <name>denseMap_</name>
-        <qualifiedname>MR::RenderVolumeObject::denseMap_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderVolumeObject.h" line="35" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderVolumeObject.h" bodystart="35" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RenderVolumeObject_1a0ba74ada110e80b54d6a048431c119ee" prot="private" static="no" mutable="no">
-        <type>Vector2i</type>
-        <definition>Vector2i MR::RenderVolumeObject::activeVoxelsTextureSize_</definition>
-        <argsstring></argsstring>
-        <name>activeVoxelsTextureSize_</name>
-        <qualifiedname>MR::RenderVolumeObject::activeVoxelsTextureSize_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderVolumeObject.h" line="37" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderVolumeObject.h" bodystart="37" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RenderVolumeObject_1a0040705a3c685bbc981f4600081823bf" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1GlTexture2" kindref="compound">GlTexture2</ref></type>
-        <definition>GlTexture2 MR::RenderVolumeObject::activeVoxelsTex_</definition>
-        <argsstring></argsstring>
-        <name>activeVoxelsTex_</name>
-        <qualifiedname>MR::RenderVolumeObject::activeVoxelsTex_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderVolumeObject.h" line="38" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderVolumeObject.h" bodystart="38" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RenderVolumeObject_1a043c09264c062afe8d7977a39857626f" prot="private" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::RenderVolumeObject::maxTexSize_</definition>
-        <argsstring></argsstring>
-        <name>maxTexSize_</name>
-        <qualifiedname>MR::RenderVolumeObject::maxTexSize_</qualifiedname>
-        <initializer>{ 0 }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderVolumeObject.h" line="39" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderVolumeObject.h" bodystart="39" bodyend="39"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RenderVolumeObject_1a472aab3824370476b3cf1d1db765e9b9" prot="private" static="no" mutable="no">
-        <type>uint32_t</type>
-        <definition>uint32_t MR::RenderVolumeObject::dirty_</definition>
-        <argsstring></argsstring>
-        <name>dirty_</name>
-        <qualifiedname>MR::RenderVolumeObject::dirty_</qualifiedname>
-        <initializer>{ 0 }</initializer>
-        <briefdescription>
-<para>Marks dirty buffers that need to be uploaded to OpenGL. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderVolumeObject.h" line="56" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderVolumeObject.h" bodystart="56" bodyend="56"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gae1b45551bae575300c3a1c64fff947b4" kind="variable"><name>objVoxels_</name></member>
+      <member refid="group__GeneralGroup_1gaf2a9e520eb53ff85220250c23375a4c8" kind="variable"><name>volumeArrayObjId_</name></member>
+      <member refid="group__GeneralGroup_1ga4a338cdf6fab2da9bc7b21a13bf4895c" kind="variable"><name>volumeVertsBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga53f810aaf05d68d4e9a0d98723e1ad98" kind="variable"><name>volumeIndicesBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga8f79a22151e8a34ff253cf5a35487417" kind="variable"><name>volume_</name></member>
+      <member refid="group__GeneralGroup_1gaf53c78621b4fde68c9de7416f9fabf49" kind="variable"><name>denseMap_</name></member>
+      <member refid="group__GeneralGroup_1ga0ba74ada110e80b54d6a048431c119ee" kind="variable"><name>activeVoxelsTextureSize_</name></member>
+      <member refid="group__GeneralGroup_1ga0040705a3c685bbc981f4600081823bf" kind="variable"><name>activeVoxelsTex_</name></member>
+      <member refid="group__GeneralGroup_1ga043c09264c062afe8d7977a39857626f" kind="variable"><name>maxTexSize_</name></member>
+      <member refid="group__GeneralGroup_1ga472aab3824370476b3cf1d1db765e9b9" kind="variable"><name>dirty_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1RenderVolumeObject_1a58f43a8134adcf9eb4faac27528e88a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::RenderVolumeObject::RenderVolumeObject</definition>
-        <argsstring>(const VisualObject &amp;visObj)</argsstring>
-        <name>RenderVolumeObject</name>
-        <qualifiedname>MR::RenderVolumeObject::RenderVolumeObject</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> &amp;</type>
-          <declname>visObj</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderVolumeObject.h" line="17" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RenderVolumeObject_1ab1f454a901b8112f6fbd98d767edec6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::RenderVolumeObject::~RenderVolumeObject</definition>
-        <argsstring>()</argsstring>
-        <name>~RenderVolumeObject</name>
-        <qualifiedname>MR::RenderVolumeObject::~RenderVolumeObject</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderVolumeObject.h" line="18" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RenderVolumeObject_1aaad07ecd619e787b1708ee13b634297b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::RenderVolumeObject::render</definition>
-        <argsstring>(const ModelRenderParams &amp;params) override</argsstring>
-        <name>render</name>
-        <qualifiedname>MR::RenderVolumeObject::render</qualifiedname>
-        <reimplements refid="classMR_1_1IRenderObject_1a02b8e566ef48df489cddb77a759ec3c4">render</reimplements>
-        <param>
-          <type>const <ref refid="structMR_1_1ModelRenderParams" kindref="compound">ModelRenderParams</ref> &amp;</type>
-          <declname>params</declname>
-        </param>
-        <briefdescription>
-<para>Returns true if something was rendered, or false if nothing to render. </para>
-        </briefdescription>
-        <detaileddescription>
-<para>These functions do: 1) bind data 2) pass shaders arguments 3) draw data</para>
-<para>Those dummy definitions remove undefined references in <computeroutput><ref refid="classMR_1_1RenderObjectCombinator" kindref="compound">RenderObjectCombinator</ref></computeroutput> when it calls non-overridden pure virtual methods. We could check in <computeroutput><ref refid="classMR_1_1RenderObjectCombinator" kindref="compound">RenderObjectCombinator</ref></computeroutput> if they&apos;re overridden or not, but it&apos;s easier to just define them. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderVolumeObject.h" line="20" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RenderVolumeObject_1acbecb6272b1df8bf0c9339d43bc815d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MR::RenderVolumeObject::renderPicker</definition>
-        <argsstring>(const ModelBaseRenderParams &amp;params, unsigned geomId) override</argsstring>
-        <name>renderPicker</name>
-        <qualifiedname>MR::RenderVolumeObject::renderPicker</qualifiedname>
-        <reimplements refid="classMR_1_1IRenderObject_1aa40c8d73952eceb8d676864c3cd30738">renderPicker</reimplements>
-        <param>
-          <type>const <ref refid="structMR_1_1ModelBaseRenderParams" kindref="compound">ModelBaseRenderParams</ref> &amp;</type>
-          <declname>params</declname>
-        </param>
-        <param>
-          <type>unsigned</type>
-          <declname>geomId</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderVolumeObject.h" line="21" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RenderVolumeObject_1a16d2a2fd88ac9b6d7a5f884b3e295c3d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type>size_t</type>
-        <definition>virtual size_t MR::RenderVolumeObject::heapBytes</definition>
-        <argsstring>() const override</argsstring>
-        <name>heapBytes</name>
-        <qualifiedname>MR::RenderVolumeObject::heapBytes</qualifiedname>
-        <reimplements refid="classMR_1_1IRenderObject_1a79569d09a46b696bc119c62ac7faaad8">heapBytes</reimplements>
-        <briefdescription>
-<para>returns the amount of memory this object occupies on heap </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderVolumeObject.h" line="22" column="20"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RenderVolumeObject_1aba4f040c3735664826132a2865866347" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type>size_t</type>
-        <definition>virtual size_t MR::RenderVolumeObject::glBytes</definition>
-        <argsstring>() const override</argsstring>
-        <name>glBytes</name>
-        <qualifiedname>MR::RenderVolumeObject::glBytes</qualifiedname>
-        <reimplements refid="classMR_1_1IRenderObject_1adefa4d9a963e416cc21d7116749cdffe">glBytes</reimplements>
-        <briefdescription>
-<para>returns the amount of memory this object allocated in OpenGL </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderVolumeObject.h" line="23" column="20"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RenderVolumeObject_1a9ca39de41790324525077f7b340c0255" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MR::RenderVolumeObject::forceBindAll</definition>
-        <argsstring>() override</argsstring>
-        <name>forceBindAll</name>
-        <qualifiedname>MR::RenderVolumeObject::forceBindAll</qualifiedname>
-        <reimplements refid="classMR_1_1IRenderObject_1a6cc3204a31145ab371e129da393b7215">forceBindAll</reimplements>
-        <briefdescription>
-<para>binds all data for this render object, not to bind ever again (until object becomes dirty) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderVolumeObject.h" line="24" column="18"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga58f43a8134adcf9eb4faac27528e88a8" kind="function"><name>RenderVolumeObject</name></member>
+      <member refid="group__GeneralGroup_1gab1f454a901b8112f6fbd98d767edec6d" kind="function"><name>~RenderVolumeObject</name></member>
+      <member refid="group__GeneralGroup_1gaaad07ecd619e787b1708ee13b634297b" kind="function"><name>render</name></member>
+      <member refid="group__GeneralGroup_1gacbecb6272b1df8bf0c9339d43bc815d8" kind="function"><name>renderPicker</name></member>
+      <member refid="group__GeneralGroup_1ga16d2a2fd88ac9b6d7a5f884b3e295c3d" kind="function"><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1gaba4f040c3735664826132a2865866347" kind="function"><name>glBytes</name></member>
+      <member refid="group__GeneralGroup_1ga9ca39de41790324525077f7b340c0255" kind="function"><name>forceBindAll</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMR_1_1RenderVolumeObject_1a9162d102016a79de57d926554d6e7af0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::RenderVolumeObject::render_</definition>
-        <argsstring>(const ModelBaseRenderParams &amp;params, const ModelRenderParams *nonPickerParams, unsigned geomId)</argsstring>
-        <name>render_</name>
-        <qualifiedname>MR::RenderVolumeObject::render_</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1ModelBaseRenderParams" kindref="compound">ModelBaseRenderParams</ref> &amp;</type>
-          <declname>params</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1ModelRenderParams" kindref="compound">ModelRenderParams</ref> *</type>
-          <declname>nonPickerParams</declname>
-        </param>
-        <param>
-          <type>unsigned</type>
-          <declname>geomId</declname>
-        </param>
-        <briefdescription>
-<para>When rendering for picker, <computeroutput>nonPickerParams</computeroutput> will be null and <computeroutput>geomId</computeroutput> will be zero. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderVolumeObject.h" line="42" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RenderVolumeObject_1ac6ccc249948f15420c034cacf82f50b0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::RenderVolumeObject::bindVolume_</definition>
-        <argsstring>(bool picker)</argsstring>
-        <name>bindVolume_</name>
-        <qualifiedname>MR::RenderVolumeObject::bindVolume_</qualifiedname>
-        <param>
-          <type>bool</type>
-          <declname>picker</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderVolumeObject.h" line="43" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RenderVolumeObject_1a5b0cd57bb8b2781d90d337db6184794d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::RenderVolumeObject::initBuffers_</definition>
-        <argsstring>()</argsstring>
-        <name>initBuffers_</name>
-        <qualifiedname>MR::RenderVolumeObject::initBuffers_</qualifiedname>
-        <briefdescription>
-<para>Create a new set of OpenGL buffer objects. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderVolumeObject.h" line="46" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RenderVolumeObject_1a8bb429eb5957307c5db2329db1083625" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::RenderVolumeObject::freeBuffers_</definition>
-        <argsstring>()</argsstring>
-        <name>freeBuffers_</name>
-        <qualifiedname>MR::RenderVolumeObject::freeBuffers_</qualifiedname>
-        <briefdescription>
-<para>Release the OpenGL buffer objects. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderVolumeObject.h" line="49" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RenderVolumeObject_1a3220dcf38b985a07a32e0677d698d78b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::RenderVolumeObject::update_</definition>
-        <argsstring>()</argsstring>
-        <name>update_</name>
-        <qualifiedname>MR::RenderVolumeObject::update_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderVolumeObject.h" line="51" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RenderVolumeObject_1aeb4ba48b660d725f0b68cf4f81afa063" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMR_1_1RenderBufferRef" kindref="compound">RenderBufferRef</ref>&lt; unsigned &gt;</type>
-        <definition>RenderBufferRef&lt; unsigned &gt; MR::RenderVolumeObject::loadActiveVoxelsTextureBuffer_</definition>
-        <argsstring>()</argsstring>
-        <name>loadActiveVoxelsTextureBuffer_</name>
-        <qualifiedname>MR::RenderVolumeObject::loadActiveVoxelsTextureBuffer_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderVolumeObject.h" line="53" column="21"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga9162d102016a79de57d926554d6e7af0" kind="function"><name>render_</name></member>
+      <member refid="group__GeneralGroup_1gac6ccc249948f15420c034cacf82f50b0" kind="function"><name>bindVolume_</name></member>
+      <member refid="group__GeneralGroup_1ga5b0cd57bb8b2781d90d337db6184794d" kind="function"><name>initBuffers_</name></member>
+      <member refid="group__GeneralGroup_1ga8bb429eb5957307c5db2329db1083625" kind="function"><name>freeBuffers_</name></member>
+      <member refid="group__GeneralGroup_1ga3220dcf38b985a07a32e0677d698d78b" kind="function"><name>update_</name></member>
+      <member refid="group__GeneralGroup_1gaeb4ba48b660d725f0b68cf4f81afa063" kind="function"><name>loadActiveVoxelsTextureBuffer_</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -427,34 +64,34 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderVolumeObject.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderVolumeObject.h" bodystart="15" bodyend="57"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderVolumeObject.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderVolumeObject.h" bodystart="18" bodyend="60"/>
     <listofallmembers>
-      <member refid="classMR_1_1RenderVolumeObject_1a0040705a3c685bbc981f4600081823bf" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>activeVoxelsTex_</name></member>
-      <member refid="classMR_1_1RenderVolumeObject_1a0ba74ada110e80b54d6a048431c119ee" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>activeVoxelsTextureSize_</name></member>
-      <member refid="classMR_1_1RenderVolumeObject_1ac6ccc249948f15420c034cacf82f50b0" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>bindVolume_</name></member>
-      <member refid="classMR_1_1RenderVolumeObject_1af53c78621b4fde68c9de7416f9fabf49" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>denseMap_</name></member>
-      <member refid="classMR_1_1RenderVolumeObject_1a472aab3824370476b3cf1d1db765e9b9" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>dirty_</name></member>
-      <member refid="classMR_1_1RenderVolumeObject_1a9ca39de41790324525077f7b340c0255" prot="public" virt="virtual"><scope>MR::RenderVolumeObject</scope><name>forceBindAll</name></member>
-      <member refid="classMR_1_1RenderVolumeObject_1a8bb429eb5957307c5db2329db1083625" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>freeBuffers_</name></member>
-      <member refid="classMR_1_1RenderVolumeObject_1aba4f040c3735664826132a2865866347" prot="public" virt="virtual"><scope>MR::RenderVolumeObject</scope><name>glBytes</name></member>
-      <member refid="classMR_1_1RenderVolumeObject_1a5c2f92f904828afa7e31f3c3af25dae3" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>GLuint</name></member>
-      <member refid="classMR_1_1RenderVolumeObject_1a16d2a2fd88ac9b6d7a5f884b3e295c3d" prot="public" virt="virtual"><scope>MR::RenderVolumeObject</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1RenderVolumeObject_1a5b0cd57bb8b2781d90d337db6184794d" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>initBuffers_</name></member>
-      <member refid="classMR_1_1RenderVolumeObject_1aeb4ba48b660d725f0b68cf4f81afa063" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>loadActiveVoxelsTextureBuffer_</name></member>
-      <member refid="classMR_1_1RenderVolumeObject_1a043c09264c062afe8d7977a39857626f" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>maxTexSize_</name></member>
-      <member refid="classMR_1_1RenderVolumeObject_1ae1b45551bae575300c3a1c64fff947b4" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>objVoxels_</name></member>
-      <member refid="classMR_1_1RenderVolumeObject_1aaad07ecd619e787b1708ee13b634297b" prot="public" virt="virtual"><scope>MR::RenderVolumeObject</scope><name>render</name></member>
-      <member refid="classMR_1_1RenderVolumeObject_1a9162d102016a79de57d926554d6e7af0" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>render_</name></member>
-      <member refid="classMR_1_1RenderVolumeObject_1acbecb6272b1df8bf0c9339d43bc815d8" prot="public" virt="virtual"><scope>MR::RenderVolumeObject</scope><name>renderPicker</name></member>
-      <member refid="classMR_1_1IRenderObject_1a82fb37eb78d6e11f1b41f3fc2a99c5eb" prot="public" virt="virtual"><scope>MR::RenderVolumeObject</scope><name>renderUi</name></member>
-      <member refid="classMR_1_1RenderVolumeObject_1a58f43a8134adcf9eb4faac27528e88a8" prot="public" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>RenderVolumeObject</name></member>
-      <member refid="classMR_1_1RenderVolumeObject_1a3220dcf38b985a07a32e0677d698d78b" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>update_</name></member>
-      <member refid="classMR_1_1RenderVolumeObject_1a8f79a22151e8a34ff253cf5a35487417" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>volume_</name></member>
-      <member refid="classMR_1_1RenderVolumeObject_1af2a9e520eb53ff85220250c23375a4c8" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>volumeArrayObjId_</name></member>
-      <member refid="classMR_1_1RenderVolumeObject_1a53f810aaf05d68d4e9a0d98723e1ad98" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>volumeIndicesBuffer_</name></member>
-      <member refid="classMR_1_1RenderVolumeObject_1a4a338cdf6fab2da9bc7b21a13bf4895c" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>volumeVertsBuffer_</name></member>
-      <member refid="classMR_1_1IRenderObject_1acb87b662f59e2d557580f2ad1f38fa7a" prot="public" virt="virtual"><scope>MR::RenderVolumeObject</scope><name>~IRenderObject</name></member>
-      <member refid="classMR_1_1RenderVolumeObject_1ab1f454a901b8112f6fbd98d767edec6d" prot="public" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>~RenderVolumeObject</name></member>
+      <member refid="group__GeneralGroup_1ga0040705a3c685bbc981f4600081823bf" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>activeVoxelsTex_</name></member>
+      <member refid="group__GeneralGroup_1ga0ba74ada110e80b54d6a048431c119ee" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>activeVoxelsTextureSize_</name></member>
+      <member refid="group__GeneralGroup_1gac6ccc249948f15420c034cacf82f50b0" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>bindVolume_</name></member>
+      <member refid="group__GeneralGroup_1gaf53c78621b4fde68c9de7416f9fabf49" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>denseMap_</name></member>
+      <member refid="group__GeneralGroup_1ga472aab3824370476b3cf1d1db765e9b9" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>dirty_</name></member>
+      <member refid="group__GeneralGroup_1ga9ca39de41790324525077f7b340c0255" prot="public" virt="virtual"><scope>MR::RenderVolumeObject</scope><name>forceBindAll</name></member>
+      <member refid="group__GeneralGroup_1ga8bb429eb5957307c5db2329db1083625" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>freeBuffers_</name></member>
+      <member refid="group__GeneralGroup_1gaba4f040c3735664826132a2865866347" prot="public" virt="virtual"><scope>MR::RenderVolumeObject</scope><name>glBytes</name></member>
+      <member refid="group__GeneralGroup_1ga5c2f92f904828afa7e31f3c3af25dae3" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>GLuint</name></member>
+      <member refid="group__GeneralGroup_1ga16d2a2fd88ac9b6d7a5f884b3e295c3d" prot="public" virt="virtual"><scope>MR::RenderVolumeObject</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1ga5b0cd57bb8b2781d90d337db6184794d" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>initBuffers_</name></member>
+      <member refid="group__GeneralGroup_1gaeb4ba48b660d725f0b68cf4f81afa063" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>loadActiveVoxelsTextureBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga043c09264c062afe8d7977a39857626f" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>maxTexSize_</name></member>
+      <member refid="group__GeneralGroup_1gae1b45551bae575300c3a1c64fff947b4" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>objVoxels_</name></member>
+      <member refid="group__GeneralGroup_1gaaad07ecd619e787b1708ee13b634297b" prot="public" virt="virtual"><scope>MR::RenderVolumeObject</scope><name>render</name></member>
+      <member refid="group__GeneralGroup_1ga9162d102016a79de57d926554d6e7af0" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>render_</name></member>
+      <member refid="group__GeneralGroup_1gacbecb6272b1df8bf0c9339d43bc815d8" prot="public" virt="virtual"><scope>MR::RenderVolumeObject</scope><name>renderPicker</name></member>
+      <member refid="group__GeneralGroup_1ga82fb37eb78d6e11f1b41f3fc2a99c5eb" prot="public" virt="virtual"><scope>MR::RenderVolumeObject</scope><name>renderUi</name></member>
+      <member refid="group__GeneralGroup_1ga58f43a8134adcf9eb4faac27528e88a8" prot="public" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>RenderVolumeObject</name></member>
+      <member refid="group__GeneralGroup_1ga3220dcf38b985a07a32e0677d698d78b" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>update_</name></member>
+      <member refid="group__GeneralGroup_1ga8f79a22151e8a34ff253cf5a35487417" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>volume_</name></member>
+      <member refid="group__GeneralGroup_1gaf2a9e520eb53ff85220250c23375a4c8" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>volumeArrayObjId_</name></member>
+      <member refid="group__GeneralGroup_1ga53f810aaf05d68d4e9a0d98723e1ad98" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>volumeIndicesBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga4a338cdf6fab2da9bc7b21a13bf4895c" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>volumeVertsBuffer_</name></member>
+      <member refid="group__GeneralGroup_1gacb87b662f59e2d557580f2ad1f38fa7a" prot="public" virt="virtual"><scope>MR::RenderVolumeObject</scope><name>~IRenderObject</name></member>
+      <member refid="group__GeneralGroup_1gab1f454a901b8112f6fbd98d767edec6d" prot="public" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>~RenderVolumeObject</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

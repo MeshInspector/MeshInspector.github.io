@@ -4,81 +4,11 @@
     <compoundname>MR::Pdf::TextParams</compoundname>
     <includes refid="MRPdf_8h" local="no">MRPdf.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1Pdf_1_1TextParams_1ae37577c1d2cc7fb3e4455bb283a8e4b1" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1a411faa62b143da1682138c9bd622937b" kindref="member">PdfGeneralFont</ref></type>
-        <definition>PdfGeneralFont MR::Pdf::TextParams::fontName</definition>
-        <argsstring></argsstring>
-        <name>fontName</name>
-        <qualifiedname>MR::Pdf::TextParams::fontName</qualifiedname>
-        <initializer>= <ref refid="namespaceMR_1a23e900d0cb79ee7e0562507ab9e9f562a9b846c60f2b2d24b350f55077e4dd894" kindref="member">PdfBuildinFont::Helvetica</ref></initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="87" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="87" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1Pdf_1_1TextParams_1a1aadfe2a66b4a923bc30460ceb9619c7" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::Pdf::TextParams::fontSize</definition>
-        <argsstring></argsstring>
-        <name>fontSize</name>
-        <qualifiedname>MR::Pdf::TextParams::fontSize</qualifiedname>
-        <initializer>= 14.f</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="89" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="89" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1Pdf_1_1TextParams_1adfd5808f6da074893b078d1ad9e386e5" prot="public" static="no" mutable="no">
-        <type><ref refid="classMR_1_1Pdf_1a01f53b3d9e1d43e6470addb360f2e893" kindref="member">AlignmentHorizontal</ref></type>
-        <definition>AlignmentHorizontal MR::Pdf::TextParams::alignment</definition>
-        <argsstring></argsstring>
-        <name>alignment</name>
-        <qualifiedname>MR::Pdf::TextParams::alignment</qualifiedname>
-        <initializer>= <ref refid="classMR_1_1Pdf_1a01f53b3d9e1d43e6470addb360f2e893a945d5e233cf7d6240f6b783b36a374ff" kindref="member">AlignmentHorizontal::Left</ref></initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="91" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="91" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1Pdf_1_1TextParams_1a4af1de87818d3fbdfa3bbc486b6291ec" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1Color" kindref="compound">Color</ref></type>
-        <definition>Color MR::Pdf::TextParams::colorText</definition>
-        <argsstring></argsstring>
-        <name>colorText</name>
-        <qualifiedname>MR::Pdf::TextParams::colorText</qualifiedname>
-        <initializer>= <ref refid="structMR_1_1Color_1a5596c66211faa167983f60fb9c684e0c" kindref="member">Color::black</ref>()</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="92" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="92" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1Pdf_1_1TextParams_1a7d18ee945388f340f174e73ce3ff798a" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::Pdf::TextParams::underline</definition>
-        <argsstring></argsstring>
-        <name>underline</name>
-        <qualifiedname>MR::Pdf::TextParams::underline</qualifiedname>
-        <initializer>= false</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="93" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="93" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gae37577c1d2cc7fb3e4455bb283a8e4b1" kind="variable"><name>fontName</name></member>
+      <member refid="group__GeneralGroup_1ga1aadfe2a66b4a923bc30460ceb9619c7" kind="variable"><name>fontSize</name></member>
+      <member refid="group__GeneralGroup_1gadfd5808f6da074893b078d1ad9e386e5" kind="variable"><name>alignment</name></member>
+      <member refid="group__GeneralGroup_1ga4af1de87818d3fbdfa3bbc486b6291ec" kind="variable"><name>colorText</name></member>
+      <member refid="group__GeneralGroup_1ga7d18ee945388f340f174e73ce3ff798a" kind="variable"><name>underline</name></member>
     </sectiondef>
     <briefdescription>
 <para>parameters to drawing text </para>
@@ -98,13 +28,13 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="85" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="86" bodyend="94"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="88" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="89" bodyend="97"/>
     <listofallmembers>
-      <member refid="structMR_1_1Pdf_1_1TextParams_1adfd5808f6da074893b078d1ad9e386e5" prot="public" virt="non-virtual"><scope>MR::Pdf::TextParams</scope><name>alignment</name></member>
-      <member refid="structMR_1_1Pdf_1_1TextParams_1a4af1de87818d3fbdfa3bbc486b6291ec" prot="public" virt="non-virtual"><scope>MR::Pdf::TextParams</scope><name>colorText</name></member>
-      <member refid="structMR_1_1Pdf_1_1TextParams_1ae37577c1d2cc7fb3e4455bb283a8e4b1" prot="public" virt="non-virtual"><scope>MR::Pdf::TextParams</scope><name>fontName</name></member>
-      <member refid="structMR_1_1Pdf_1_1TextParams_1a1aadfe2a66b4a923bc30460ceb9619c7" prot="public" virt="non-virtual"><scope>MR::Pdf::TextParams</scope><name>fontSize</name></member>
-      <member refid="structMR_1_1Pdf_1_1TextParams_1a7d18ee945388f340f174e73ce3ff798a" prot="public" virt="non-virtual"><scope>MR::Pdf::TextParams</scope><name>underline</name></member>
+      <member refid="group__GeneralGroup_1gadfd5808f6da074893b078d1ad9e386e5" prot="public" virt="non-virtual"><scope>MR::Pdf::TextParams</scope><name>alignment</name></member>
+      <member refid="group__GeneralGroup_1ga4af1de87818d3fbdfa3bbc486b6291ec" prot="public" virt="non-virtual"><scope>MR::Pdf::TextParams</scope><name>colorText</name></member>
+      <member refid="group__GeneralGroup_1gae37577c1d2cc7fb3e4455bb283a8e4b1" prot="public" virt="non-virtual"><scope>MR::Pdf::TextParams</scope><name>fontName</name></member>
+      <member refid="group__GeneralGroup_1ga1aadfe2a66b4a923bc30460ceb9619c7" prot="public" virt="non-virtual"><scope>MR::Pdf::TextParams</scope><name>fontSize</name></member>
+      <member refid="group__GeneralGroup_1ga7d18ee945388f340f174e73ce3ff798a" prot="public" virt="non-virtual"><scope>MR::Pdf::TextParams</scope><name>underline</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

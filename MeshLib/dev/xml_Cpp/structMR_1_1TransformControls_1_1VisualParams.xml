@@ -4,232 +4,23 @@
     <compoundname>MR::TransformControls::VisualParams</compoundname>
     <includes refid="MRObjectTransformWidget_8h" local="no">MRObjectTransformWidget.h</includes>
     <sectiondef kind="public-type">
-      <memberdef kind="enum" id="structMR_1_1TransformControls_1_1VisualParams_1ac5bfae9a55e1ae115c09b2b2364ca037" prot="public" static="no" strong="yes">
-        <type></type>
-        <name>SizeType</name>
-        <qualifiedname>MR::TransformControls::VisualParams::SizeType</qualifiedname>
-        <enumvalue id="structMR_1_1TransformControls_1_1VisualParams_1ac5bfae9a55e1ae115c09b2b2364ca037aae36acbd4827ec18afa3444e42216935" prot="public">
-          <name>LengthUnit</name>
-          <initializer>= 0</initializer>
-          <briefdescription>
-<para>metric units of measurement </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="structMR_1_1TransformControls_1_1VisualParams_1ac5bfae9a55e1ae115c09b2b2364ca037ac3d2f5d37334dc978fd8b17fc77408a1" prot="public">
-          <name>Pixels</name>
-          <briefdescription>
-<para>pixel units of measurement </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-<para>type of length measurement units </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="136" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="137" bodyend="142"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gac5bfae9a55e1ae115c09b2b2364ca037" kind="enum"><name>SizeType</name></member>
     </sectiondef>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1TransformControls_1_1VisualParams_1a1e0d693cf0129f26df13421c207495df" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::TransformControls::VisualParams::radius</definition>
-        <argsstring></argsstring>
-        <name>radius</name>
-        <qualifiedname>MR::TransformControls::VisualParams::radius</qualifiedname>
-        <initializer>{ -1.0f }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>radius in units of measurement, depending on the typeRadius negative radius value means that controls are not setup </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="147" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="147" bodyend="147"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1TransformControls_1_1VisualParams_1a04d8b2be8f4de0ff07797799a68c1697" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::TransformControls::VisualParams::width</definition>
-        <argsstring></argsstring>
-        <name>width</name>
-        <qualifiedname>MR::TransformControls::VisualParams::width</qualifiedname>
-        <initializer>{ -1.0f }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>width in units of measurement, depending on the typeRadius negative width value means that controls are not setup </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="150" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="150" bodyend="150"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1TransformControls_1_1VisualParams_1aad87dab677434851f0fe31bcfb20840d" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1TransformControls_1_1VisualParams_1ac5bfae9a55e1ae115c09b2b2364ca037" kindref="member">SizeType</ref></type>
-        <definition>SizeType MR::TransformControls::VisualParams::sizeType</definition>
-        <argsstring></argsstring>
-        <name>sizeType</name>
-        <qualifiedname>MR::TransformControls::VisualParams::sizeType</qualifiedname>
-        <initializer>= <ref refid="structMR_1_1TransformControls_1_1VisualParams_1ac5bfae9a55e1ae115c09b2b2364ca037aae36acbd4827ec18afa3444e42216935" kindref="member">SizeType::LengthUnit</ref></initializer>
-        <briefdescription>
-<para>sets the type of widget size units (metric length or pixels units) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="152" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="152" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1TransformControls_1_1VisualParams_1acd8740b7982dd1a382270b6374aee8b8" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::TransformControls::VisualParams::coneRadiusFactor</definition>
-        <argsstring></argsstring>
-        <name>coneRadiusFactor</name>
-        <qualifiedname>MR::TransformControls::VisualParams::coneRadiusFactor</qualifiedname>
-        <initializer>{ 1.35f }</initializer>
-        <briefdescription>
-<para>the product of this factor and width gives cone radius of the arrows </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="154" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="154" bodyend="154"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1TransformControls_1_1VisualParams_1ae43b3a461c666eefa1a0f948bd1b4070" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::TransformControls::VisualParams::coneSizeFactor</definition>
-        <argsstring></argsstring>
-        <name>coneSizeFactor</name>
-        <qualifiedname>MR::TransformControls::VisualParams::coneSizeFactor</qualifiedname>
-        <initializer>{ 2.2f }</initializer>
-        <briefdescription>
-<para>the product of this factor and width gives cone size of the arrows </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="156" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="156" bodyend="156"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1TransformControls_1_1VisualParams_1a2000340dcc4b3b42415a4a5113590373" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::TransformControls::VisualParams::negativeLineExtension</definition>
-        <argsstring></argsstring>
-        <name>negativeLineExtension</name>
-        <qualifiedname>MR::TransformControls::VisualParams::negativeLineExtension</qualifiedname>
-        <initializer>{ 1.15f }</initializer>
-        <briefdescription>
-<para>extension of the translation line in the negative direction relative to the radius </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="158" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="158" bodyend="158"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1TransformControls_1_1VisualParams_1ab232521ec4f30e4a605bf3081a838aab" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::TransformControls::VisualParams::positiveLineExtension</definition>
-        <argsstring></argsstring>
-        <name>positiveLineExtension</name>
-        <qualifiedname>MR::TransformControls::VisualParams::positiveLineExtension</qualifiedname>
-        <initializer>{ 1.3f }</initializer>
-        <briefdescription>
-<para>extension of the translation line in the positive direction relative to the radius </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="160" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="160" bodyend="160"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1TransformControls_1_1VisualParams_1a73b98ea29d5b5bd3e934357536430ea4" prot="public" static="no" mutable="no">
-        <type>std::array&lt; <ref refid="structMR_1_1Color" kindref="compound">Color</ref>, size_t(<ref refid="namespaceMR_1a05195fdcf0d1d90b73a5d24b11150005ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Axis::Count</ref>)&gt;</type>
-        <definition>std::array&lt;Color, size_t( Axis::Count )&gt; MR::TransformControls::VisualParams::rotationColors</definition>
-        <argsstring></argsstring>
-        <name>rotationColors</name>
-        <qualifiedname>MR::TransformControls::VisualParams::rotationColors</qualifiedname>
-        <initializer>{ <ref refid="structMR_1_1Color_1a9f743712af5597ae9e55d338143d10c6" kindref="member">Color::red</ref>(),<ref refid="structMR_1_1Color_1a07d25f841350c5a6eeca781f6dcd0fda" kindref="member">Color::green</ref>(),<ref refid="structMR_1_1Color_1acd72366575d0f58c29867044c403e34a" kindref="member">Color::blue</ref>() }</initializer>
-        <briefdescription>
-<para>colors of widget </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="162" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="162" bodyend="162"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1TransformControls_1_1VisualParams_1a263e10cb84fcd843581cc2aeea08d6a2" prot="public" static="no" mutable="no">
-        <type>std::array&lt; <ref refid="structMR_1_1Color" kindref="compound">Color</ref>, size_t(<ref refid="namespaceMR_1a05195fdcf0d1d90b73a5d24b11150005ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Axis::Count</ref>)&gt;</type>
-        <definition>std::array&lt;Color, size_t( Axis::Count )&gt; MR::TransformControls::VisualParams::translationColors</definition>
-        <argsstring></argsstring>
-        <name>translationColors</name>
-        <qualifiedname>MR::TransformControls::VisualParams::translationColors</qualifiedname>
-        <initializer>{ <ref refid="structMR_1_1Color_1a9f743712af5597ae9e55d338143d10c6" kindref="member">Color::red</ref>(),<ref refid="structMR_1_1Color_1a07d25f841350c5a6eeca781f6dcd0fda" kindref="member">Color::green</ref>(),<ref refid="structMR_1_1Color_1acd72366575d0f58c29867044c403e34a" kindref="member">Color::blue</ref>() }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="163" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="163" bodyend="163"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1TransformControls_1_1VisualParams_1a5de0577e4227b12317f5bd798b77fbec" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1Color" kindref="compound">Color</ref></type>
-        <definition>Color MR::TransformControls::VisualParams::helperLineColor</definition>
-        <argsstring></argsstring>
-        <name>helperLineColor</name>
-        <qualifiedname>MR::TransformControls::VisualParams::helperLineColor</qualifiedname>
-        <initializer>{ <ref refid="structMR_1_1Color_1a5596c66211faa167983f60fb9c684e0c" kindref="member">Color::black</ref>() }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="164" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="164" bodyend="164"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1TransformControls_1_1VisualParams_1a45ae30c1c11cd9efdb0c1ffb4e90c2f7" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1Color" kindref="compound">Color</ref></type>
-        <definition>Color MR::TransformControls::VisualParams::activeLineColor</definition>
-        <argsstring></argsstring>
-        <name>activeLineColor</name>
-        <qualifiedname>MR::TransformControls::VisualParams::activeLineColor</qualifiedname>
-        <initializer>{ <ref refid="structMR_1_1Color_1afdf32fadc1e749715ad1911813a76f75" kindref="member">Color::white</ref>() }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="165" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="165" bodyend="165"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga1e0d693cf0129f26df13421c207495df" kind="variable"><name>radius</name></member>
+      <member refid="group__GeneralGroup_1ga04d8b2be8f4de0ff07797799a68c1697" kind="variable"><name>width</name></member>
+      <member refid="group__GeneralGroup_1gaad87dab677434851f0fe31bcfb20840d" kind="variable"><name>sizeType</name></member>
+      <member refid="group__GeneralGroup_1gacd8740b7982dd1a382270b6374aee8b8" kind="variable"><name>coneRadiusFactor</name></member>
+      <member refid="group__GeneralGroup_1gae43b3a461c666eefa1a0f948bd1b4070" kind="variable"><name>coneSizeFactor</name></member>
+      <member refid="group__GeneralGroup_1ga2000340dcc4b3b42415a4a5113590373" kind="variable"><name>negativeLineExtension</name></member>
+      <member refid="group__GeneralGroup_1gab232521ec4f30e4a605bf3081a838aab" kind="variable"><name>positiveLineExtension</name></member>
+      <member refid="group__GeneralGroup_1ga73b98ea29d5b5bd3e934357536430ea4" kind="variable"><name>rotationColors</name></member>
+      <member refid="group__GeneralGroup_1ga263e10cb84fcd843581cc2aeea08d6a2" kind="variable"><name>translationColors</name></member>
+      <member refid="group__GeneralGroup_1ga5de0577e4227b12317f5bd798b77fbec" kind="variable"><name>helperLineColor</name></member>
+      <member refid="group__GeneralGroup_1ga45ae30c1c11cd9efdb0c1ffb4e90c2f7" kind="variable"><name>activeLineColor</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1TransformControls_1_1VisualParams_1a4d1df5643f784225a03cc558c03d81cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::TransformControls::VisualParams::update</definition>
-        <argsstring>(const Box3f &amp;box)</argsstring>
-        <name>update</name>
-        <qualifiedname>MR::TransformControls::VisualParams::update</qualifiedname>
-        <param>
-          <type>const Box3f &amp;</type>
-          <declname>box</declname>
-        </param>
-        <briefdescription>
-<para>updates radius and width with given box </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="144" column="27"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga4d1df5643f784225a03cc558c03d81cf" kind="function"><name>update</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -249,21 +40,21 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="133" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="134" bodyend="166"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="136" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="137" bodyend="169"/>
     <listofallmembers>
-      <member refid="structMR_1_1TransformControls_1_1VisualParams_1a45ae30c1c11cd9efdb0c1ffb4e90c2f7" prot="public" virt="non-virtual"><scope>MR::TransformControls::VisualParams</scope><name>activeLineColor</name></member>
-      <member refid="structMR_1_1TransformControls_1_1VisualParams_1acd8740b7982dd1a382270b6374aee8b8" prot="public" virt="non-virtual"><scope>MR::TransformControls::VisualParams</scope><name>coneRadiusFactor</name></member>
-      <member refid="structMR_1_1TransformControls_1_1VisualParams_1ae43b3a461c666eefa1a0f948bd1b4070" prot="public" virt="non-virtual"><scope>MR::TransformControls::VisualParams</scope><name>coneSizeFactor</name></member>
-      <member refid="structMR_1_1TransformControls_1_1VisualParams_1a5de0577e4227b12317f5bd798b77fbec" prot="public" virt="non-virtual"><scope>MR::TransformControls::VisualParams</scope><name>helperLineColor</name></member>
-      <member refid="structMR_1_1TransformControls_1_1VisualParams_1a2000340dcc4b3b42415a4a5113590373" prot="public" virt="non-virtual"><scope>MR::TransformControls::VisualParams</scope><name>negativeLineExtension</name></member>
-      <member refid="structMR_1_1TransformControls_1_1VisualParams_1ab232521ec4f30e4a605bf3081a838aab" prot="public" virt="non-virtual"><scope>MR::TransformControls::VisualParams</scope><name>positiveLineExtension</name></member>
-      <member refid="structMR_1_1TransformControls_1_1VisualParams_1a1e0d693cf0129f26df13421c207495df" prot="public" virt="non-virtual"><scope>MR::TransformControls::VisualParams</scope><name>radius</name></member>
-      <member refid="structMR_1_1TransformControls_1_1VisualParams_1a73b98ea29d5b5bd3e934357536430ea4" prot="public" virt="non-virtual"><scope>MR::TransformControls::VisualParams</scope><name>rotationColors</name></member>
-      <member refid="structMR_1_1TransformControls_1_1VisualParams_1ac5bfae9a55e1ae115c09b2b2364ca037" prot="public" virt="non-virtual"><scope>MR::TransformControls::VisualParams</scope><name>SizeType</name></member>
-      <member refid="structMR_1_1TransformControls_1_1VisualParams_1aad87dab677434851f0fe31bcfb20840d" prot="public" virt="non-virtual"><scope>MR::TransformControls::VisualParams</scope><name>sizeType</name></member>
-      <member refid="structMR_1_1TransformControls_1_1VisualParams_1a263e10cb84fcd843581cc2aeea08d6a2" prot="public" virt="non-virtual"><scope>MR::TransformControls::VisualParams</scope><name>translationColors</name></member>
-      <member refid="structMR_1_1TransformControls_1_1VisualParams_1a4d1df5643f784225a03cc558c03d81cf" prot="public" virt="non-virtual"><scope>MR::TransformControls::VisualParams</scope><name>update</name></member>
-      <member refid="structMR_1_1TransformControls_1_1VisualParams_1a04d8b2be8f4de0ff07797799a68c1697" prot="public" virt="non-virtual"><scope>MR::TransformControls::VisualParams</scope><name>width</name></member>
+      <member refid="group__GeneralGroup_1ga45ae30c1c11cd9efdb0c1ffb4e90c2f7" prot="public" virt="non-virtual"><scope>MR::TransformControls::VisualParams</scope><name>activeLineColor</name></member>
+      <member refid="group__GeneralGroup_1gacd8740b7982dd1a382270b6374aee8b8" prot="public" virt="non-virtual"><scope>MR::TransformControls::VisualParams</scope><name>coneRadiusFactor</name></member>
+      <member refid="group__GeneralGroup_1gae43b3a461c666eefa1a0f948bd1b4070" prot="public" virt="non-virtual"><scope>MR::TransformControls::VisualParams</scope><name>coneSizeFactor</name></member>
+      <member refid="group__GeneralGroup_1ga5de0577e4227b12317f5bd798b77fbec" prot="public" virt="non-virtual"><scope>MR::TransformControls::VisualParams</scope><name>helperLineColor</name></member>
+      <member refid="group__GeneralGroup_1ga2000340dcc4b3b42415a4a5113590373" prot="public" virt="non-virtual"><scope>MR::TransformControls::VisualParams</scope><name>negativeLineExtension</name></member>
+      <member refid="group__GeneralGroup_1gab232521ec4f30e4a605bf3081a838aab" prot="public" virt="non-virtual"><scope>MR::TransformControls::VisualParams</scope><name>positiveLineExtension</name></member>
+      <member refid="group__GeneralGroup_1ga1e0d693cf0129f26df13421c207495df" prot="public" virt="non-virtual"><scope>MR::TransformControls::VisualParams</scope><name>radius</name></member>
+      <member refid="group__GeneralGroup_1ga73b98ea29d5b5bd3e934357536430ea4" prot="public" virt="non-virtual"><scope>MR::TransformControls::VisualParams</scope><name>rotationColors</name></member>
+      <member refid="group__GeneralGroup_1gac5bfae9a55e1ae115c09b2b2364ca037" prot="public" virt="non-virtual"><scope>MR::TransformControls::VisualParams</scope><name>SizeType</name></member>
+      <member refid="group__GeneralGroup_1gaad87dab677434851f0fe31bcfb20840d" prot="public" virt="non-virtual"><scope>MR::TransformControls::VisualParams</scope><name>sizeType</name></member>
+      <member refid="group__GeneralGroup_1ga263e10cb84fcd843581cc2aeea08d6a2" prot="public" virt="non-virtual"><scope>MR::TransformControls::VisualParams</scope><name>translationColors</name></member>
+      <member refid="group__GeneralGroup_1ga4d1df5643f784225a03cc558c03d81cf" prot="public" virt="non-virtual"><scope>MR::TransformControls::VisualParams</scope><name>update</name></member>
+      <member refid="group__GeneralGroup_1ga04d8b2be8f4de0ff07797799a68c1697" prot="public" virt="non-virtual"><scope>MR::TransformControls::VisualParams</scope><name>width</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -4,127 +4,29 @@
     <compoundname>MR::MeshOrPoints::ProjectionResult</compoundname>
     <includes refid="MRMeshOrPoints_8h" local="no">MRMeshOrPoints.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1MeshOrPoints_1_1ProjectionResult_1a975a5de8766c9ee7093fa82c4620f049" prot="public" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::MeshOrPoints::ProjectionResult::point</definition>
-        <argsstring></argsstring>
-        <name>point</name>
-        <qualifiedname>MR::MeshOrPoints::ProjectionResult::point</qualifiedname>
-        <briefdescription>
-<para>found closest point </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" line="71" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" bodystart="71" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MeshOrPoints_1_1ProjectionResult_1a1da43d795c49a78d26d63c9f1f90bdae" prot="public" static="no" mutable="no">
-        <type>std::optional&lt; Vector3f &gt;</type>
-        <definition>std::optional&lt;Vector3f&gt; MR::MeshOrPoints::ProjectionResult::normal</definition>
-        <argsstring></argsstring>
-        <name>normal</name>
-        <qualifiedname>MR::MeshOrPoints::ProjectionResult::normal</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>normal at the closest point; for meshes it will be pseudonormal with the differentiation depending on closest point location (face/edge/vertex) </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" line="75" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" bodystart="75" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MeshOrPoints_1_1ProjectionResult_1ac1e15a8f200cad28d7b9d7c56757eee4" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::MeshOrPoints::ProjectionResult::isBd</definition>
-        <argsstring></argsstring>
-        <name>isBd</name>
-        <qualifiedname>MR::MeshOrPoints::ProjectionResult::isBd</qualifiedname>
-        <initializer>= false</initializer>
-        <briefdescription>
-<para>can be true only for meshes, if the closest point is located on the boundary of the mesh (or the current region) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" line="78" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" bodystart="78" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MeshOrPoints_1_1ProjectionResult_1ab04e26fe4503fb08898aaeccad548f71" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::MeshOrPoints::ProjectionResult::distSq</definition>
-        <argsstring></argsstring>
-        <name>distSq</name>
-        <qualifiedname>MR::MeshOrPoints::ProjectionResult::distSq</qualifiedname>
-        <initializer>= FLT_MAX</initializer>
-        <briefdescription>
-<para>squared distance from query point to the closest point </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" line="81" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" bodystart="81" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MeshOrPoints_1_1ProjectionResult_1acd151f3c2558f8dc870aa2172d32a00e" prot="public" static="no" mutable="no">
-        <type>VertId</type>
-        <definition>VertId MR::MeshOrPoints::ProjectionResult::closestVert</definition>
-        <argsstring></argsstring>
-        <name>closestVert</name>
-        <qualifiedname>MR::MeshOrPoints::ProjectionResult::closestVert</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>for point clouds it is the closest vertex, for meshes it is the closest vertex of the triangle with the closest point </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" line="85" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" bodystart="85" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga975a5de8766c9ee7093fa82c4620f049" kind="variable"><name>point</name></member>
+      <member refid="group__GeneralGroup_1ga1da43d795c49a78d26d63c9f1f90bdae" kind="variable"><name>normal</name></member>
+      <member refid="group__GeneralGroup_1gac1e15a8f200cad28d7b9d7c56757eee4" kind="variable"><name>isBd</name></member>
+      <member refid="group__GeneralGroup_1gab04e26fe4503fb08898aaeccad548f71" kind="variable"><name>distSq</name></member>
+      <member refid="group__GeneralGroup_1gacd151f3c2558f8dc870aa2172d32a00e" kind="variable"><name>closestVert</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1MeshOrPoints_1_1ProjectionResult_1ad96f5e58f9ab65b5b186ccd7d330c64d" prot="public" static="no" nodiscard="yes" const="yes" explicit="yes" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::MeshOrPoints::ProjectionResult::operator bool</definition>
-        <argsstring>() const</argsstring>
-        <name>operator bool</name>
-        <qualifiedname>MR::MeshOrPoints::ProjectionResult::operator bool</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" line="87" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" bodystart="87" bodyend="87"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1MeshOrPoints_1_1ProjectionResult_1a799a4d75cde699ab800ef755c3201cf6" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::MeshOrPoints::ProjectionResult::valid</definition>
-        <argsstring>() const</argsstring>
-        <name>valid</name>
-        <qualifiedname>MR::MeshOrPoints::ProjectionResult::valid</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" line="88" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" bodystart="88" bodyend="88"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gad96f5e58f9ab65b5b186ccd7d330c64d" kind="function"><name>operator bool</name></member>
+      <member refid="group__GeneralGroup_1ga799a4d75cde699ab800ef755c3201cf6" kind="function"><name>valid</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" line="68" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" bodystart="69" bodyend="89"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" line="71" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" bodystart="72" bodyend="92"/>
     <listofallmembers>
-      <member refid="structMR_1_1MeshOrPoints_1_1ProjectionResult_1acd151f3c2558f8dc870aa2172d32a00e" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints::ProjectionResult</scope><name>closestVert</name></member>
-      <member refid="structMR_1_1MeshOrPoints_1_1ProjectionResult_1ab04e26fe4503fb08898aaeccad548f71" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints::ProjectionResult</scope><name>distSq</name></member>
-      <member refid="structMR_1_1MeshOrPoints_1_1ProjectionResult_1ac1e15a8f200cad28d7b9d7c56757eee4" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints::ProjectionResult</scope><name>isBd</name></member>
-      <member refid="structMR_1_1MeshOrPoints_1_1ProjectionResult_1a1da43d795c49a78d26d63c9f1f90bdae" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints::ProjectionResult</scope><name>normal</name></member>
-      <member refid="structMR_1_1MeshOrPoints_1_1ProjectionResult_1ad96f5e58f9ab65b5b186ccd7d330c64d" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints::ProjectionResult</scope><name>operator bool</name></member>
-      <member refid="structMR_1_1MeshOrPoints_1_1ProjectionResult_1a975a5de8766c9ee7093fa82c4620f049" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints::ProjectionResult</scope><name>point</name></member>
-      <member refid="structMR_1_1MeshOrPoints_1_1ProjectionResult_1a799a4d75cde699ab800ef755c3201cf6" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints::ProjectionResult</scope><name>valid</name></member>
+      <member refid="group__GeneralGroup_1gacd151f3c2558f8dc870aa2172d32a00e" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints::ProjectionResult</scope><name>closestVert</name></member>
+      <member refid="group__GeneralGroup_1gab04e26fe4503fb08898aaeccad548f71" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints::ProjectionResult</scope><name>distSq</name></member>
+      <member refid="group__GeneralGroup_1gac1e15a8f200cad28d7b9d7c56757eee4" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints::ProjectionResult</scope><name>isBd</name></member>
+      <member refid="group__GeneralGroup_1ga1da43d795c49a78d26d63c9f1f90bdae" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints::ProjectionResult</scope><name>normal</name></member>
+      <member refid="group__GeneralGroup_1gad96f5e58f9ab65b5b186ccd7d330c64d" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints::ProjectionResult</scope><name>operator bool</name></member>
+      <member refid="group__GeneralGroup_1ga975a5de8766c9ee7093fa82c4620f049" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints::ProjectionResult</scope><name>point</name></member>
+      <member refid="group__GeneralGroup_1ga799a4d75cde699ab800ef755c3201cf6" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints::ProjectionResult</scope><name>valid</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

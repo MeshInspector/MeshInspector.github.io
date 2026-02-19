@@ -94,7 +94,7 @@
         <argsstring>() const override</argsstring>
         <name>name</name>
         <qualifiedname>MR::ChangePointPointSelectionAction::name</qualifiedname>
-        <reimplements refid="classMR_1_1HistoryAction_1a9daa0b79de161f676f6283e3804dc8ce">name</reimplements>
+        <reimplements refid="group__GeneralGroup_1ga9daa0b79de161f676f6283e3804dc8ce">name</reimplements>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -109,9 +109,9 @@
         <argsstring>(Type) override</argsstring>
         <name>action</name>
         <qualifiedname>MR::ChangePointPointSelectionAction::action</qualifiedname>
-        <reimplements refid="classMR_1_1HistoryAction_1aecfce349736beaf17a23a6817c86f3bb">action</reimplements>
+        <reimplements refid="group__GeneralGroup_1gaecfce349736beaf17a23a6817c86f3bb">action</reimplements>
         <param>
-          <type><ref refid="classMR_1_1HistoryAction_1ac16eb31dd26d35cfc18bac8a05983aa7" kindref="member">Type</ref></type>
+          <type><ref refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" kindref="member">Type</ref></type>
           <declname>actionType</declname>
         </param>
         <briefdescription>
@@ -143,7 +143,7 @@
         <argsstring>() const override</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR::ChangePointPointSelectionAction::heapBytes</qualifiedname>
-        <reimplements refid="classMR_1_1HistoryAction_1ad6df54da6a63ed83f15053507e8569de">heapBytes</reimplements>
+        <reimplements refid="group__GeneralGroup_1gad6df54da6a63ed83f15053507e8569de">heapBytes</reimplements>
         <briefdescription>
 <para>returns the amount of memory this object occupies on heap </para>
         </briefdescription>
@@ -215,8 +215,8 @@
       <member refid="classMR_1_1ChangePointPointSelectionAction_1a3d3f98681572b719c29e2acd8ef99619" prot="public" virt="non-virtual"><scope>MR::ChangePointPointSelectionAction</scope><name>selection</name></member>
       <member refid="classMR_1_1ChangePointPointSelectionAction_1a7a1ecbc19f30b2ef4fb7dc3c3efdb3d7" prot="private" virt="non-virtual"><scope>MR::ChangePointPointSelectionAction</scope><name>selection_</name></member>
       <member refid="classMR_1_1ChangePointPointSelectionAction_1a64d049e75b9021628ffa38466ee36010" prot="public" virt="non-virtual"><scope>MR::ChangePointPointSelectionAction</scope><name>setObjectDirty</name></member>
-      <member refid="classMR_1_1HistoryAction_1ac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::ChangePointPointSelectionAction</scope><name>Type</name></member>
-      <member refid="classMR_1_1HistoryAction_1a97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::ChangePointPointSelectionAction</scope><name>~HistoryAction</name></member>
+      <member refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::ChangePointPointSelectionAction</scope><name>Type</name></member>
+      <member refid="group__GeneralGroup_1ga97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::ChangePointPointSelectionAction</scope><name>~HistoryAction</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

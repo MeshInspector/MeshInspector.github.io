@@ -4,34 +4,8 @@
     <compoundname>MR::AllLocalTriangulations</compoundname>
     <includes refid="MRLocalTriangulations_8h" local="no">MRLocalTriangulations.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1AllLocalTriangulations_1a37b85e8c82a4f3cc21ee54015ba67cbb" prot="public" static="no" mutable="no">
-        <type><ref refid="classMR_1_1Buffer" kindref="compound">Buffer</ref>&lt; VertId &gt;</type>
-        <definition>Buffer&lt;VertId&gt; MR::AllLocalTriangulations::neighbors</definition>
-        <argsstring></argsstring>
-        <name>neighbors</name>
-        <qualifiedname>MR::AllLocalTriangulations::neighbors</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLocalTriangulations.h" line="49" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLocalTriangulations.h" bodystart="49" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1AllLocalTriangulations_1a63033f3b2a1d4be33d6fc4e3d709a2cf" prot="public" static="no" mutable="no">
-        <type><ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; <ref refid="structMR_1_1FanRecord" kindref="compound">FanRecord</ref>, VertId &gt;</type>
-        <definition>Vector&lt;FanRecord, VertId&gt; MR::AllLocalTriangulations::fanRecords</definition>
-        <argsstring></argsstring>
-        <name>fanRecords</name>
-        <qualifiedname>MR::AllLocalTriangulations::fanRecords</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLocalTriangulations.h" line="50" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLocalTriangulations.h" bodystart="50" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga37b85e8c82a4f3cc21ee54015ba67cbb" kind="variable"><name>neighbors</name></member>
+      <member refid="group__GeneralGroup_1ga63033f3b2a1d4be33d6fc4e3d709a2cf" kind="variable"><name>fanRecords</name></member>
     </sectiondef>
     <briefdescription>
 <para>triangulations for all points, with easy access by VertId </para>
@@ -58,10 +32,10 @@
         <link refid="classMR_1_1Vector"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLocalTriangulations.h" line="47" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLocalTriangulations.h" bodystart="48" bodyend="51"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLocalTriangulations.h" line="50" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLocalTriangulations.h" bodystart="51" bodyend="54"/>
     <listofallmembers>
-      <member refid="structMR_1_1AllLocalTriangulations_1a63033f3b2a1d4be33d6fc4e3d709a2cf" prot="public" virt="non-virtual"><scope>MR::AllLocalTriangulations</scope><name>fanRecords</name></member>
-      <member refid="structMR_1_1AllLocalTriangulations_1a37b85e8c82a4f3cc21ee54015ba67cbb" prot="public" virt="non-virtual"><scope>MR::AllLocalTriangulations</scope><name>neighbors</name></member>
+      <member refid="group__GeneralGroup_1ga63033f3b2a1d4be33d6fc4e3d709a2cf" prot="public" virt="non-virtual"><scope>MR::AllLocalTriangulations</scope><name>fanRecords</name></member>
+      <member refid="group__GeneralGroup_1ga37b85e8c82a4f3cc21ee54015ba67cbb" prot="public" virt="non-virtual"><scope>MR::AllLocalTriangulations</scope><name>neighbors</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

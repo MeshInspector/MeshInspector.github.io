@@ -3,111 +3,13 @@
   <compounddef id="structMR_1_1Pdf_1_1TableGeneralParams" kind="struct" language="C++" prot="private">
     <compoundname>MR::Pdf::TableGeneralParams</compoundname>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1Pdf_1_1TableGeneralParams_1a69109853275c8b842b6c7304b9c05909" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1Color" kindref="compound">Color</ref></type>
-        <definition>Color MR::Pdf::TableGeneralParams::colorTitleText</definition>
-        <argsstring></argsstring>
-        <name>colorTitleText</name>
-        <qualifiedname>MR::Pdf::TableGeneralParams::colorTitleText</qualifiedname>
-        <initializer>= <ref refid="structMR_1_1Color_1afdf32fadc1e749715ad1911813a76f75" kindref="member">Color::white</ref>()</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="273" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="273" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1Pdf_1_1TableGeneralParams_1adc768dab8d0b49a5362efa977a8c8af9" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1Color" kindref="compound">Color</ref></type>
-        <definition>Color MR::Pdf::TableGeneralParams::colorTitleBg</definition>
-        <argsstring></argsstring>
-        <name>colorTitleBg</name>
-        <qualifiedname>MR::Pdf::TableGeneralParams::colorTitleBg</qualifiedname>
-        <initializer>{ 42, 102, 246 }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="274" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="274" bodyend="274"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1Pdf_1_1TableGeneralParams_1a4fbf3c458e23203e3509bc44c4d2e624" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1Color" kindref="compound">Color</ref></type>
-        <definition>Color MR::Pdf::TableGeneralParams::colorCellText</definition>
-        <argsstring></argsstring>
-        <name>colorCellText</name>
-        <qualifiedname>MR::Pdf::TableGeneralParams::colorCellText</qualifiedname>
-        <initializer>= <ref refid="structMR_1_1Color_1a5596c66211faa167983f60fb9c684e0c" kindref="member">Color::black</ref>()</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="276" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="276" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1Pdf_1_1TableGeneralParams_1a78106295ab82df5849650f7e49e762ba" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1Color" kindref="compound">Color</ref></type>
-        <definition>Color MR::Pdf::TableGeneralParams::colorCellBg1</definition>
-        <argsstring></argsstring>
-        <name>colorCellBg1</name>
-        <qualifiedname>MR::Pdf::TableGeneralParams::colorCellBg1</qualifiedname>
-        <initializer>{ 170, 194, 251 }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="277" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="277" bodyend="277"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1Pdf_1_1TableGeneralParams_1a3ecacaf9b1df9a068cf28ec9245ebd4e" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1Color" kindref="compound">Color</ref></type>
-        <definition>Color MR::Pdf::TableGeneralParams::colorCellBg2</definition>
-        <argsstring></argsstring>
-        <name>colorCellBg2</name>
-        <qualifiedname>MR::Pdf::TableGeneralParams::colorCellBg2</qualifiedname>
-        <initializer>{ 212, 224, 253 }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="278" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="278" bodyend="278"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1Pdf_1_1TableGeneralParams_1a8ad3bd1fc79040b52327f862e925278f" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1Color" kindref="compound">Color</ref></type>
-        <definition>Color MR::Pdf::TableGeneralParams::colorLines</definition>
-        <argsstring></argsstring>
-        <name>colorLines</name>
-        <qualifiedname>MR::Pdf::TableGeneralParams::colorLines</qualifiedname>
-        <initializer>= <ref refid="structMR_1_1Color_1afdf32fadc1e749715ad1911813a76f75" kindref="member">Color::white</ref>()</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="280" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="280" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1Pdf_1_1TableGeneralParams_1a2e3f2fa34910012c4d09f57c480d85b6" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::Pdf::TableGeneralParams::fontSize</definition>
-        <argsstring></argsstring>
-        <name>fontSize</name>
-        <qualifiedname>MR::Pdf::TableGeneralParams::fontSize</qualifiedname>
-        <initializer>= 12.f</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="282" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="282" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga69109853275c8b842b6c7304b9c05909" kind="variable"><name>colorTitleText</name></member>
+      <member refid="group__GeneralGroup_1gadc768dab8d0b49a5362efa977a8c8af9" kind="variable"><name>colorTitleBg</name></member>
+      <member refid="group__GeneralGroup_1ga4fbf3c458e23203e3509bc44c4d2e624" kind="variable"><name>colorCellText</name></member>
+      <member refid="group__GeneralGroup_1ga78106295ab82df5849650f7e49e762ba" kind="variable"><name>colorCellBg1</name></member>
+      <member refid="group__GeneralGroup_1ga3ecacaf9b1df9a068cf28ec9245ebd4e" kind="variable"><name>colorCellBg2</name></member>
+      <member refid="group__GeneralGroup_1ga8ad3bd1fc79040b52327f862e925278f" kind="variable"><name>colorLines</name></member>
+      <member refid="group__GeneralGroup_1ga2e3f2fa34910012c4d09f57c480d85b6" kind="variable"><name>fontSize</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -130,15 +32,15 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="271" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="272" bodyend="283"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="274" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="275" bodyend="286"/>
     <listofallmembers>
-      <member refid="structMR_1_1Pdf_1_1TableGeneralParams_1a78106295ab82df5849650f7e49e762ba" prot="public" virt="non-virtual"><scope>MR::Pdf::TableGeneralParams</scope><name>colorCellBg1</name></member>
-      <member refid="structMR_1_1Pdf_1_1TableGeneralParams_1a3ecacaf9b1df9a068cf28ec9245ebd4e" prot="public" virt="non-virtual"><scope>MR::Pdf::TableGeneralParams</scope><name>colorCellBg2</name></member>
-      <member refid="structMR_1_1Pdf_1_1TableGeneralParams_1a4fbf3c458e23203e3509bc44c4d2e624" prot="public" virt="non-virtual"><scope>MR::Pdf::TableGeneralParams</scope><name>colorCellText</name></member>
-      <member refid="structMR_1_1Pdf_1_1TableGeneralParams_1a8ad3bd1fc79040b52327f862e925278f" prot="public" virt="non-virtual"><scope>MR::Pdf::TableGeneralParams</scope><name>colorLines</name></member>
-      <member refid="structMR_1_1Pdf_1_1TableGeneralParams_1adc768dab8d0b49a5362efa977a8c8af9" prot="public" virt="non-virtual"><scope>MR::Pdf::TableGeneralParams</scope><name>colorTitleBg</name></member>
-      <member refid="structMR_1_1Pdf_1_1TableGeneralParams_1a69109853275c8b842b6c7304b9c05909" prot="public" virt="non-virtual"><scope>MR::Pdf::TableGeneralParams</scope><name>colorTitleText</name></member>
-      <member refid="structMR_1_1Pdf_1_1TableGeneralParams_1a2e3f2fa34910012c4d09f57c480d85b6" prot="public" virt="non-virtual"><scope>MR::Pdf::TableGeneralParams</scope><name>fontSize</name></member>
+      <member refid="group__GeneralGroup_1ga78106295ab82df5849650f7e49e762ba" prot="public" virt="non-virtual"><scope>MR::Pdf::TableGeneralParams</scope><name>colorCellBg1</name></member>
+      <member refid="group__GeneralGroup_1ga3ecacaf9b1df9a068cf28ec9245ebd4e" prot="public" virt="non-virtual"><scope>MR::Pdf::TableGeneralParams</scope><name>colorCellBg2</name></member>
+      <member refid="group__GeneralGroup_1ga4fbf3c458e23203e3509bc44c4d2e624" prot="public" virt="non-virtual"><scope>MR::Pdf::TableGeneralParams</scope><name>colorCellText</name></member>
+      <member refid="group__GeneralGroup_1ga8ad3bd1fc79040b52327f862e925278f" prot="public" virt="non-virtual"><scope>MR::Pdf::TableGeneralParams</scope><name>colorLines</name></member>
+      <member refid="group__GeneralGroup_1gadc768dab8d0b49a5362efa977a8c8af9" prot="public" virt="non-virtual"><scope>MR::Pdf::TableGeneralParams</scope><name>colorTitleBg</name></member>
+      <member refid="group__GeneralGroup_1ga69109853275c8b842b6c7304b9c05909" prot="public" virt="non-virtual"><scope>MR::Pdf::TableGeneralParams</scope><name>colorTitleText</name></member>
+      <member refid="group__GeneralGroup_1ga2e3f2fa34910012c4d09f57c480d85b6" prot="public" virt="non-virtual"><scope>MR::Pdf::TableGeneralParams</scope><name>fontSize</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

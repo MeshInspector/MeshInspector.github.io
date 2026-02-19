@@ -5,29 +5,7 @@
     <basecompoundref refid="classMR_1_1ChangeXfAction" prot="public" virt="non-virtual">MR::ChangeXfAction</basecompoundref>
     <includes refid="MRDirectionWidget_8h" local="no">MRDirectionWidget.h</includes>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1DirectionWidget_1_1ChangeDirAction_1a1287bb21d1cdb76fe59fd4dcbf6a6ffd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::DirectionWidget::ChangeDirAction::ChangeDirAction</definition>
-        <argsstring>(DirectionWidget &amp;widget, const std::string &amp;name=&quot;Change Direction&quot;)</argsstring>
-        <name>ChangeDirAction</name>
-        <qualifiedname>MR::DirectionWidget::ChangeDirAction::ChangeDirAction</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1DirectionWidget" kindref="compound">DirectionWidget</ref> &amp;</type>
-          <declname>widget</declname>
-        </param>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>name</declname>
-          <defval>&quot;Change Direction&quot;</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="24" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" bodystart="24" bodyend="26"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga1287bb21d1cdb76fe59fd4dcbf6a6ffd" kind="function"><name>ChangeDirAction</name></member>
     </sectiondef>
     <briefdescription>
 <para>This history action must be created before the change in widget&apos;s direction, base or length to make them undo-able. </para>
@@ -70,17 +48,17 @@
         <link refid="classMR_1_1HistoryAction"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="21" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" bodystart="22" bodyend="27"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="24" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" bodystart="25" bodyend="30"/>
     <listofallmembers>
-      <member refid="classMR_1_1ChangeXfAction_1ae0205231d9c1c0389daaa03a05b302e2" prot="public" virt="virtual"><scope>MR::DirectionWidget::ChangeDirAction</scope><name>action</name></member>
-      <member refid="classMR_1_1DirectionWidget_1_1ChangeDirAction_1a1287bb21d1cdb76fe59fd4dcbf6a6ffd" prot="public" virt="non-virtual"><scope>MR::DirectionWidget::ChangeDirAction</scope><name>ChangeDirAction</name></member>
-      <member refid="classMR_1_1ChangeXfAction_1adc90b8207a85c52060b965692645d95b" prot="public" virt="non-virtual"><scope>MR::DirectionWidget::ChangeDirAction</scope><name>ChangeXfAction</name></member>
-      <member refid="classMR_1_1ChangeXfAction_1ac6aa69f1f7afe95ad6453c38ba4fb80e" prot="public" virt="non-virtual"><scope>MR::DirectionWidget::ChangeDirAction</scope><name>ChangeXfAction</name></member>
-      <member refid="classMR_1_1ChangeXfAction_1a92b9d01bccf043de100f19110630ce24" prot="public" virt="virtual"><scope>MR::DirectionWidget::ChangeDirAction</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1ChangeXfAction_1a677bcbff928530a06249b4aa004556bc" prot="public" virt="virtual"><scope>MR::DirectionWidget::ChangeDirAction</scope><name>name</name></member>
-      <member refid="classMR_1_1ChangeXfAction_1a7ca462bf6ff993310a54857dc66ba1ff" prot="public" virt="non-virtual"><scope>MR::DirectionWidget::ChangeDirAction</scope><name>obj</name></member>
-      <member refid="classMR_1_1HistoryAction_1ac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::DirectionWidget::ChangeDirAction</scope><name>Type</name></member>
-      <member refid="classMR_1_1HistoryAction_1a97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::DirectionWidget::ChangeDirAction</scope><name>~HistoryAction</name></member>
+      <member refid="group__GeneralGroup_1gae0205231d9c1c0389daaa03a05b302e2" prot="public" virt="virtual"><scope>MR::DirectionWidget::ChangeDirAction</scope><name>action</name></member>
+      <member refid="group__GeneralGroup_1ga1287bb21d1cdb76fe59fd4dcbf6a6ffd" prot="public" virt="non-virtual"><scope>MR::DirectionWidget::ChangeDirAction</scope><name>ChangeDirAction</name></member>
+      <member refid="group__GeneralGroup_1gadc90b8207a85c52060b965692645d95b" prot="public" virt="non-virtual"><scope>MR::DirectionWidget::ChangeDirAction</scope><name>ChangeXfAction</name></member>
+      <member refid="group__GeneralGroup_1gac6aa69f1f7afe95ad6453c38ba4fb80e" prot="public" virt="non-virtual"><scope>MR::DirectionWidget::ChangeDirAction</scope><name>ChangeXfAction</name></member>
+      <member refid="group__GeneralGroup_1ga92b9d01bccf043de100f19110630ce24" prot="public" virt="virtual"><scope>MR::DirectionWidget::ChangeDirAction</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1ga677bcbff928530a06249b4aa004556bc" prot="public" virt="virtual"><scope>MR::DirectionWidget::ChangeDirAction</scope><name>name</name></member>
+      <member refid="group__GeneralGroup_1ga7ca462bf6ff993310a54857dc66ba1ff" prot="public" virt="non-virtual"><scope>MR::DirectionWidget::ChangeDirAction</scope><name>obj</name></member>
+      <member refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::DirectionWidget::ChangeDirAction</scope><name>Type</name></member>
+      <member refid="group__GeneralGroup_1ga97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::DirectionWidget::ChangeDirAction</scope><name>~HistoryAction</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

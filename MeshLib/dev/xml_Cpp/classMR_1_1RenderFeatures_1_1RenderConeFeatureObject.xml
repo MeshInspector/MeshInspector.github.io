@@ -142,16 +142,16 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="286" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" bodystart="287" bodyend="295"/>
     <listofallmembers>
       <member refid="classMR_1_1RenderFeatures_1_1RenderConeFeatureObject_1a4f954c84dd97196fba82e841567f89ec" prot="private" virt="non-virtual"><scope>MR::RenderFeatures::RenderConeFeatureObject</scope><name>angleTask_</name></member>
-      <member refid="classMR_1_1RenderObjectCombinator_1ab4757762c061347ec2412d44c7b7c443" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderConeFeatureObject</scope><name>forceBindAll</name></member>
-      <member refid="classMR_1_1RenderObjectCombinator_1a119987068e72df89faccb9088a8def44" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderConeFeatureObject</scope><name>glBytes</name></member>
-      <member refid="classMR_1_1RenderObjectCombinator_1a2e7fc28637f457e02fe5dafff8f5d614" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderConeFeatureObject</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1gab4757762c061347ec2412d44c7b7c443" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderConeFeatureObject</scope><name>forceBindAll</name></member>
+      <member refid="group__GeneralGroup_1ga119987068e72df89faccb9088a8def44" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderConeFeatureObject</scope><name>glBytes</name></member>
+      <member refid="group__GeneralGroup_1ga2e7fc28637f457e02fe5dafff8f5d614" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderConeFeatureObject</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1RenderFeatures_1_1RenderConeFeatureObject_1a47798323f9d642c035903722df8725e6" prot="private" virt="non-virtual"><scope>MR::RenderFeatures::RenderConeFeatureObject</scope><name>lengthTask_</name></member>
       <member refid="classMR_1_1RenderFeatures_1_1RenderConeFeatureObject_1a41a10c6fb4f6dd86bfc10b2076f66310" prot="private" virt="non-virtual"><scope>MR::RenderFeatures::RenderConeFeatureObject</scope><name>object_</name></member>
       <member refid="classMR_1_1RenderFeatures_1_1RenderConeFeatureObject_1a078eb9cde1be0fdb83b5a321e3ceab85" prot="private" virt="non-virtual"><scope>MR::RenderFeatures::RenderConeFeatureObject</scope><name>radiusTask_</name></member>
-      <member refid="classMR_1_1RenderObjectCombinator_1a6c8e2b2a990fbdf14835f953090ef542" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderConeFeatureObject</scope><name>render</name></member>
+      <member refid="group__GeneralGroup_1ga6c8e2b2a990fbdf14835f953090ef542" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderConeFeatureObject</scope><name>render</name></member>
       <member refid="classMR_1_1RenderFeatures_1_1RenderConeFeatureObject_1ad655b05975ceda7d952b5547c22bd733" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderConeFeatureObject</scope><name>RenderConeFeatureObject</name></member>
-      <member refid="classMR_1_1RenderObjectCombinator_1aaf9f364da4dd0710603d3ea88860d423" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderConeFeatureObject</scope><name>RenderObjectCombinator</name></member>
-      <member refid="classMR_1_1RenderObjectCombinator_1a8acfcf58dd21cbe8b8fc889a79b8106d" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderConeFeatureObject</scope><name>renderPicker</name></member>
+      <member refid="group__GeneralGroup_1gaaf9f364da4dd0710603d3ea88860d423" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderConeFeatureObject</scope><name>RenderObjectCombinator</name></member>
+      <member refid="group__GeneralGroup_1ga8acfcf58dd21cbe8b8fc889a79b8106d" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderConeFeatureObject</scope><name>renderPicker</name></member>
       <member refid="classMR_1_1RenderFeatures_1_1RenderConeFeatureObject_1aac5a73e456343b3de77158b5858cc64e" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderConeFeatureObject</scope><name>renderUi</name></member>
     </listofallmembers>
   </compounddef>

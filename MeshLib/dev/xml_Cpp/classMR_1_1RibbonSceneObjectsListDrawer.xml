@@ -6,435 +6,34 @@
     <includes refid="MRRibbonSceneObjectsListDrawer_8h" local="no">MRRibbonSceneObjectsListDrawer.h</includes>
     <innerclass refid="structMR_1_1RibbonSceneObjectsListDrawer_1_1LastDepthInfo" prot="private">MR::RibbonSceneObjectsListDrawer::LastDepthInfo</innerclass>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="classMR_1_1RibbonSceneObjectsListDrawer_1aa3fac069d87e7b77317f8987e5a591f0" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1Signal" kindref="compound">Signal</ref>&lt; void()&gt;</type>
-        <definition>Signal&lt;void()&gt; MR::RibbonSceneObjectsListDrawer::onDrawContextSignal</definition>
-        <argsstring></argsstring>
-        <name>onDrawContextSignal</name>
-        <qualifiedname>MR::RibbonSceneObjectsListDrawer::onDrawContextSignal</qualifiedname>
-        <briefdescription>
-<para>this signal is emitted each frame inside scene context window </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSceneObjectsListDrawer.h" line="25" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSceneObjectsListDrawer.h" bodystart="25" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaa3fac069d87e7b77317f8987e5a591f0" kind="variable"><name>onDrawContextSignal</name></member>
     </sectiondef>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1RibbonSceneObjectsListDrawer_1a4aa60a0fed85b407dd61f0ade4b8491d" prot="private" static="no" mutable="no">
-        <type>std::vector&lt; LastDepthInfo &gt;</type>
-        <definition>std::vector&lt;LastDepthInfo&gt; MR::RibbonSceneObjectsListDrawer::lastDrawnSibling_</definition>
-        <argsstring></argsstring>
-        <name>lastDrawnSibling_</name>
-        <qualifiedname>MR::RibbonSceneObjectsListDrawer::lastDrawnSibling_</qualifiedname>
-        <briefdescription>
-<para>depth -&gt; pos Y of last element of this depth </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSceneObjectsListDrawer.h" line="51" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSceneObjectsListDrawer.h" bodystart="51" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RibbonSceneObjectsListDrawer_1a31ea2ed9ee0ff224fddc9ee57a55c8d9" prot="private" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::RibbonSceneObjectsListDrawer::currentElementId_</definition>
-        <argsstring></argsstring>
-        <name>currentElementId_</name>
-        <qualifiedname>MR::RibbonSceneObjectsListDrawer::currentElementId_</qualifiedname>
-        <initializer>{ 0 }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSceneObjectsListDrawer.h" line="52" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSceneObjectsListDrawer.h" bodystart="52" bodyend="52"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RibbonSceneObjectsListDrawer_1ae60cc4399672a3fca957c9666f05cc63" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1RibbonMenu" kindref="compound">RibbonMenu</ref> *</type>
-        <definition>RibbonMenu* MR::RibbonSceneObjectsListDrawer::ribbonMenu_</definition>
-        <argsstring></argsstring>
-        <name>ribbonMenu_</name>
-        <qualifiedname>MR::RibbonSceneObjectsListDrawer::ribbonMenu_</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSceneObjectsListDrawer.h" line="53" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSceneObjectsListDrawer.h" bodystart="53" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RibbonSceneObjectsListDrawer_1afdc5139f352c892655303a7d8f612a4c" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::RibbonSceneObjectsListDrawer::closeContextOnChange_</definition>
-        <argsstring></argsstring>
-        <name>closeContextOnChange_</name>
-        <qualifiedname>MR::RibbonSceneObjectsListDrawer::closeContextOnChange_</qualifiedname>
-        <initializer>= true</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSceneObjectsListDrawer.h" line="54" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSceneObjectsListDrawer.h" bodystart="54" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga4aa60a0fed85b407dd61f0ade4b8491d" kind="variable"><name>lastDrawnSibling_</name></member>
+      <member refid="group__GeneralGroup_1ga31ea2ed9ee0ff224fddc9ee57a55c8d9" kind="variable"><name>currentElementId_</name></member>
+      <member refid="group__GeneralGroup_1gae60cc4399672a3fca957c9666f05cc63" kind="variable"><name>ribbonMenu_</name></member>
+      <member refid="group__GeneralGroup_1gafdc5139f352c892655303a7d8f612a4c" kind="variable"><name>closeContextOnChange_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1RibbonSceneObjectsListDrawer_1aea709a4c7f86169aed34caaf2005e834" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>virtual MRVIEWER_API void MR::RibbonSceneObjectsListDrawer::draw</definition>
-        <argsstring>(float height) override</argsstring>
-        <name>draw</name>
-        <qualifiedname>MR::RibbonSceneObjectsListDrawer::draw</qualifiedname>
-        <reimplements refid="classMR_1_1SceneObjectsListDrawer_1a5d3291f07fa1302e0ac7966824be977d">draw</reimplements>
-        <param>
-          <type>float</type>
-          <declname>height</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Main method for drawing all \detail Not creat window. Use in window block (between ImGui::Begin and ImGui::End) </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSceneObjectsListDrawer.h" line="15" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RibbonSceneObjectsListDrawer_1a6fccd91d7785e8df8425ed250c606137" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::RibbonSceneObjectsListDrawer::initRibbonMenu</definition>
-        <argsstring>(RibbonMenu *ribbonMenu)</argsstring>
-        <name>initRibbonMenu</name>
-        <qualifiedname>MR::RibbonSceneObjectsListDrawer::initRibbonMenu</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1RibbonMenu" kindref="compound">RibbonMenu</ref> *</type>
-          <declname>ribbonMenu</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSceneObjectsListDrawer.h" line="17" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RibbonSceneObjectsListDrawer_1a7b203ae37c12d09d2d98e86766a46fe5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::RibbonSceneObjectsListDrawer::setCloseContextOnChange</definition>
-        <argsstring>(bool deselect)</argsstring>
-        <name>setCloseContextOnChange</name>
-        <qualifiedname>MR::RibbonSceneObjectsListDrawer::setCloseContextOnChange</qualifiedname>
-        <param>
-          <type>bool</type>
-          <declname>deselect</declname>
-        </param>
-        <briefdescription>
-<para>set closing scene context menu on any change </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSceneObjectsListDrawer.h" line="20" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSceneObjectsListDrawer.h" bodystart="20" bodyend="20"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RibbonSceneObjectsListDrawer_1a76b557373659019c5f9ce857d437e84a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::RibbonSceneObjectsListDrawer::getCloseContextOnChange</definition>
-        <argsstring>()</argsstring>
-        <name>getCloseContextOnChange</name>
-        <qualifiedname>MR::RibbonSceneObjectsListDrawer::getCloseContextOnChange</qualifiedname>
-        <briefdescription>
-<para>get flag closing scene context menu on any change </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSceneObjectsListDrawer.h" line="22" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSceneObjectsListDrawer.h" bodystart="22" bodyend="22"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaea709a4c7f86169aed34caaf2005e834" kind="function"><name>draw</name></member>
+      <member refid="group__GeneralGroup_1ga6fccd91d7785e8df8425ed250c606137" kind="function"><name>initRibbonMenu</name></member>
+      <member refid="group__GeneralGroup_1ga7b203ae37c12d09d2d98e86766a46fe5" kind="function"><name>setCloseContextOnChange</name></member>
+      <member refid="group__GeneralGroup_1ga76b557373659019c5f9ce857d437e84a" kind="function"><name>getCloseContextOnChange</name></member>
     </sectiondef>
     <sectiondef kind="protected-func">
-      <memberdef kind="function" id="classMR_1_1RibbonSceneObjectsListDrawer_1a4e8a6cc8c1d5b8b6f4f05011f6887688" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>virtual MRVIEWER_API void MR::RibbonSceneObjectsListDrawer::drawCustomObjectPrefixInScene_</definition>
-        <argsstring>(const Object &amp;obj, bool opened) override</argsstring>
-        <name>drawCustomObjectPrefixInScene_</name>
-        <qualifiedname>MR::RibbonSceneObjectsListDrawer::drawCustomObjectPrefixInScene_</qualifiedname>
-        <reimplements refid="classMR_1_1SceneObjectsListDrawer_1aed66b9726e14eb7c5c105c7d088198f4">drawCustomObjectPrefixInScene_</reimplements>
-        <param>
-          <type>const <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
-        </param>
-        <param>
-          <type>bool</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>override this to customize prefix for objects in scene \detail height should be less or equal ImGui::GetFrameHeight() method should save ImGui::CursorPosY </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSceneObjectsListDrawer.h" line="27" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RibbonSceneObjectsListDrawer_1a1032f9f59d910e1113385182e182986b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>virtual MRVIEWER_API void MR::RibbonSceneObjectsListDrawer::drawSceneContextMenu_</definition>
-        <argsstring>(const std::vector&lt; std::shared_ptr&lt; Object &gt; &gt; &amp;selected, const std::string &amp;uniqueStr) override</argsstring>
-        <name>drawSceneContextMenu_</name>
-        <qualifiedname>MR::RibbonSceneObjectsListDrawer::drawSceneContextMenu_</qualifiedname>
-        <reimplements refid="classMR_1_1SceneObjectsListDrawer_1a2e703a641c0ffc898d9aa4e864ab912a">drawSceneContextMenu_</reimplements>
-        <param>
-          <type>const std::vector&lt; std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt; &amp;</type>
-        </param>
-        <param>
-          <type>const std::string &amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>override this add custom context menu for selected objects uniqueStr need to identify who call context menu </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSceneObjectsListDrawer.h" line="28" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RibbonSceneObjectsListDrawer_1ad86a3587a045aae766a1ba386a398763" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>virtual MRVIEWER_API bool MR::RibbonSceneObjectsListDrawer::collapsingHeader_</definition>
-        <argsstring>(const std::string &amp;uniqueName, ImGuiTreeNodeFlags flags) override</argsstring>
-        <name>collapsingHeader_</name>
-        <qualifiedname>MR::RibbonSceneObjectsListDrawer::collapsingHeader_</qualifiedname>
-        <reimplements refid="classMR_1_1SceneObjectsListDrawer_1a9dc17f3920d20e78cb1eda269c41baa9">collapsingHeader_</reimplements>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>uniqueName</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1SceneObjectsListDrawer_1adef3ad4d7054ccf6e99aba195fc29cf8" kindref="member">ImGuiTreeNodeFlags</ref></type>
-          <declname>flags</declname>
-        </param>
-        <briefdescription>
-<para>override this to customize CollapsingHeader draw </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSceneObjectsListDrawer.h" line="29" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RibbonSceneObjectsListDrawer_1ace8f2d89b5482ae8137036f4d38ed4fa" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API std::string</type>
-        <definition>virtual MRVIEWER_API std::string MR::RibbonSceneObjectsListDrawer::objectLineStrId_</definition>
-        <argsstring>(const Object &amp;object, const std::string &amp;uniqueStr) override</argsstring>
-        <name>objectLineStrId_</name>
-        <qualifiedname>MR::RibbonSceneObjectsListDrawer::objectLineStrId_</qualifiedname>
-        <reimplements refid="classMR_1_1SceneObjectsListDrawer_1a4f267cedf9004a7e433f5c5c04665172">objectLineStrId_</reimplements>
-        <param>
-          <type>const <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
-          <declname>object</declname>
-        </param>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>uniqueStr</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSceneObjectsListDrawer.h" line="31" column="38"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RibbonSceneObjectsListDrawer_1a9edde88675685e22f89f455241fd1eef" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>virtual MRVIEWER_API bool MR::RibbonSceneObjectsListDrawer::drawObject_</definition>
-        <argsstring>(Object &amp;object, const std::string &amp;uniqueStr, int depth) override</argsstring>
-        <name>drawObject_</name>
-        <qualifiedname>MR::RibbonSceneObjectsListDrawer::drawObject_</qualifiedname>
-        <reimplements refid="classMR_1_1SceneObjectsListDrawer_1afdc17907e38df715b38ddbf7dbcfd9f4">drawObject_</reimplements>
-        <param>
-          <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
-          <declname>object</declname>
-        </param>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>uniqueStr</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>depth</declname>
-        </param>
-        <briefdescription>
-<para>override this to customize whole object line </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSceneObjectsListDrawer.h" line="33" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RibbonSceneObjectsListDrawer_1a93c05ad6cbe137ae91506d25d990e5f6" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>virtual MRVIEWER_API bool MR::RibbonSceneObjectsListDrawer::drawSkippedObject_</definition>
-        <argsstring>(Object &amp;object, const std::string &amp;uniqueStr, int depth) override</argsstring>
-        <name>drawSkippedObject_</name>
-        <qualifiedname>MR::RibbonSceneObjectsListDrawer::drawSkippedObject_</qualifiedname>
-        <reimplements refid="classMR_1_1SceneObjectsListDrawer_1a7d2bd6811f26a83ed152c93732753238">drawSkippedObject_</reimplements>
-        <param>
-          <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
-          <declname>object</declname>
-        </param>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>uniqueStr</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>depth</declname>
-        </param>
-        <briefdescription>
-<para>draw dummy container for skipped object </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSceneObjectsListDrawer.h" line="34" column="31"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga4e8a6cc8c1d5b8b6f4f05011f6887688" kind="function"><name>drawCustomObjectPrefixInScene_</name></member>
+      <member refid="group__GeneralGroup_1ga1032f9f59d910e1113385182e182986b" kind="function"><name>drawSceneContextMenu_</name></member>
+      <member refid="group__GeneralGroup_1gad86a3587a045aae766a1ba386a398763" kind="function"><name>collapsingHeader_</name></member>
+      <member refid="group__GeneralGroup_1gace8f2d89b5482ae8137036f4d38ed4fa" kind="function"><name>objectLineStrId_</name></member>
+      <member refid="group__GeneralGroup_1ga9edde88675685e22f89f455241fd1eef" kind="function"><name>drawObject_</name></member>
+      <member refid="group__GeneralGroup_1ga93c05ad6cbe137ae91506d25d990e5f6" kind="function"><name>drawSkippedObject_</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMR_1_1RibbonSceneObjectsListDrawer_1a09903b93dbdddeb1ca77dae00ce32ee8" prot="private" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API const char *</type>
-        <definition>virtual MRVIEWER_API const char * MR::RibbonSceneObjectsListDrawer::getSceneItemIconByTypeName_</definition>
-        <argsstring>(const std::string &amp;typeName) const</argsstring>
-        <name>getSceneItemIconByTypeName_</name>
-        <qualifiedname>MR::RibbonSceneObjectsListDrawer::getSceneItemIconByTypeName_</qualifiedname>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>typeName</declname>
-        </param>
-        <briefdescription>
-<para>return icon (now it is symbol in icons font) based on typename </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSceneObjectsListDrawer.h" line="37" column="37"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RibbonSceneObjectsListDrawer_1aa9c92afb2210045394cdec79a8d43cd6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::RibbonSceneObjectsListDrawer::drawTreeOpenedState_</definition>
-        <argsstring>(Object &amp;object, bool leaf, const std::string &amp;uniqueStr, int depth)</argsstring>
-        <name>drawTreeOpenedState_</name>
-        <qualifiedname>MR::RibbonSceneObjectsListDrawer::drawTreeOpenedState_</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
-          <declname>object</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>leaf</declname>
-        </param>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>uniqueStr</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>depth</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSceneObjectsListDrawer.h" line="39" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RibbonSceneObjectsListDrawer_1abe35ad7bc4c01d1ee7476a2c2e949d4d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::RibbonSceneObjectsListDrawer::drawObjectLine_</definition>
-        <argsstring>(Object &amp;object, const std::string &amp;uniqueStr, bool opened)</argsstring>
-        <name>drawObjectLine_</name>
-        <qualifiedname>MR::RibbonSceneObjectsListDrawer::drawObjectLine_</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
-          <declname>object</declname>
-        </param>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>uniqueStr</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>opened</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSceneObjectsListDrawer.h" line="40" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RibbonSceneObjectsListDrawer_1a002c98ad85b4d3d5a5a69d3bad2c58d3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::RibbonSceneObjectsListDrawer::drawEyeButton_</definition>
-        <argsstring>(Object &amp;object, const std::string &amp;uniqueStr, bool frameHovered)</argsstring>
-        <name>drawEyeButton_</name>
-        <qualifiedname>MR::RibbonSceneObjectsListDrawer::drawEyeButton_</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
-          <declname>object</declname>
-        </param>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>uniqueStr</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>frameHovered</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSceneObjectsListDrawer.h" line="41" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RibbonSceneObjectsListDrawer_1a58e2947b6bce273c814934eed8fdbdf0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::RibbonSceneObjectsListDrawer::drawHierarhyLine_</definition>
-        <argsstring>(const Vector2f &amp;startScreenPos, int depth, bool skipped)</argsstring>
-        <name>drawHierarhyLine_</name>
-        <qualifiedname>MR::RibbonSceneObjectsListDrawer::drawHierarhyLine_</qualifiedname>
-        <param>
-          <type>const Vector2f &amp;</type>
-          <declname>startScreenPos</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>depth</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>skipped</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSceneObjectsListDrawer.h" line="43" column="10"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga09903b93dbdddeb1ca77dae00ce32ee8" kind="function"><name>getSceneItemIconByTypeName_</name></member>
+      <member refid="group__GeneralGroup_1gaa9c92afb2210045394cdec79a8d43cd6" kind="function"><name>drawTreeOpenedState_</name></member>
+      <member refid="group__GeneralGroup_1gabe35ad7bc4c01d1ee7476a2c2e949d4d" kind="function"><name>drawObjectLine_</name></member>
+      <member refid="group__GeneralGroup_1ga002c98ad85b4d3d5a5a69d3bad2c58d3" kind="function"><name>drawEyeButton_</name></member>
+      <member refid="group__GeneralGroup_1ga58e2947b6bce273c814934eed8fdbdf0" kind="function"><name>drawHierarhyLine_</name></member>
     </sectiondef>
     <briefdescription>
 <para>class for drawing a list of scene objects in <ref refid="classMR_1_1RibbonMenu" kindref="compound">RibbonMenu</ref> style </para>
@@ -477,52 +76,52 @@
         <label>boost::signals2::signal&lt; void() &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSceneObjectsListDrawer.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSceneObjectsListDrawer.h" bodystart="13" bodyend="55"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSceneObjectsListDrawer.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSceneObjectsListDrawer.h" bodystart="16" bodyend="58"/>
     <listofallmembers>
-      <member refid="classMR_1_1SceneObjectsListDrawer_1a10c80ec2e0551fe4c73122703e48897e" prot="public" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>allowSceneReorder</name></member>
-      <member refid="classMR_1_1SceneObjectsListDrawer_1a9626d7f29fef80a19bfa08d0389643f4" prot="public" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>changeSelection</name></member>
-      <member refid="classMR_1_1SceneObjectsListDrawer_1af36935c34390d23a46d4c38f182071c9" prot="public" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>changeVisible</name></member>
-      <member refid="classMR_1_1RibbonSceneObjectsListDrawer_1afdc5139f352c892655303a7d8f612a4c" prot="private" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>closeContextOnChange_</name></member>
-      <member refid="classMR_1_1RibbonSceneObjectsListDrawer_1ad86a3587a045aae766a1ba386a398763" prot="protected" virt="virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>collapsingHeader_</name></member>
-      <member refid="classMR_1_1RibbonSceneObjectsListDrawer_1a31ea2ed9ee0ff224fddc9ee57a55c8d9" prot="private" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>currentElementId_</name></member>
-      <member refid="classMR_1_1SceneObjectsListDrawer_1af4b84e5c4ee9c3f4eca9a8e0c73dde3d" prot="protected" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>deselectNewHiddenObjects_</name></member>
-      <member refid="classMR_1_1RibbonSceneObjectsListDrawer_1aea709a4c7f86169aed34caaf2005e834" prot="public" virt="virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>draw</name></member>
-      <member refid="classMR_1_1RibbonSceneObjectsListDrawer_1a4e8a6cc8c1d5b8b6f4f05011f6887688" prot="protected" virt="virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>drawCustomObjectPrefixInScene_</name></member>
-      <member refid="classMR_1_1SceneObjectsListDrawer_1a098e7d25adfb62e62c71451173a29712" prot="protected" virt="virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>drawCustomTreeObjectProperties_</name></member>
-      <member refid="classMR_1_1RibbonSceneObjectsListDrawer_1a002c98ad85b4d3d5a5a69d3bad2c58d3" prot="private" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>drawEyeButton_</name></member>
-      <member refid="classMR_1_1RibbonSceneObjectsListDrawer_1a58e2947b6bce273c814934eed8fdbdf0" prot="private" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>drawHierarhyLine_</name></member>
-      <member refid="classMR_1_1RibbonSceneObjectsListDrawer_1a9edde88675685e22f89f455241fd1eef" prot="protected" virt="virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>drawObject_</name></member>
-      <member refid="classMR_1_1SceneObjectsListDrawer_1acbb4687a61ce7fd76be1f3ecb29e49df" prot="protected" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>drawObjectCollapsingHeader_</name></member>
-      <member refid="classMR_1_1RibbonSceneObjectsListDrawer_1abe35ad7bc4c01d1ee7476a2c2e949d4d" prot="private" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>drawObjectLine_</name></member>
-      <member refid="classMR_1_1SceneObjectsListDrawer_1ae4b604976357cb2d74fa5396c448061d" prot="protected" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>drawObjectVisibilityCheckbox_</name></member>
-      <member refid="classMR_1_1RibbonSceneObjectsListDrawer_1a1032f9f59d910e1113385182e182986b" prot="protected" virt="virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>drawSceneContextMenu_</name></member>
-      <member refid="classMR_1_1RibbonSceneObjectsListDrawer_1a93c05ad6cbe137ae91506d25d990e5f6" prot="protected" virt="virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>drawSkippedObject_</name></member>
-      <member refid="classMR_1_1RibbonSceneObjectsListDrawer_1aa9c92afb2210045394cdec79a8d43cd6" prot="private" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>drawTreeOpenedState_</name></member>
-      <member refid="classMR_1_1SceneObjectsListDrawer_1a10d5b6c1dddb9bfea4d91b3c4e88dbe0" prot="public" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>expandObjectTreeAndScroll</name></member>
-      <member refid="classMR_1_1RibbonSceneObjectsListDrawer_1a76b557373659019c5f9ce857d437e84a" prot="public" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>getCloseContextOnChange</name></member>
-      <member refid="classMR_1_1SceneObjectsListDrawer_1a928e8a018e952ef2b817ba4027203972" prot="public" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>getDeselectNewHiddenObjects</name></member>
-      <member refid="classMR_1_1RibbonSceneObjectsListDrawer_1a09903b93dbdddeb1ca77dae00ce32ee8" prot="private" virt="virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>getSceneItemIconByTypeName_</name></member>
-      <member refid="classMR_1_1SceneObjectsListDrawer_1aaa3af2c0a1a9e4b9486f42a71e2e82d5" prot="public" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>getShowNewSelectedObjects</name></member>
-      <member refid="classMR_1_1SceneObjectsListDrawer_1adef3ad4d7054ccf6e99aba195fc29cf8" prot="protected" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>ImGuiTreeNodeFlags</name></member>
-      <member refid="classMR_1_1RibbonSceneObjectsListDrawer_1a6fccd91d7785e8df8425ed250c606137" prot="public" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>initRibbonMenu</name></member>
-      <member refid="classMR_1_1RibbonSceneObjectsListDrawer_1a4aa60a0fed85b407dd61f0ade4b8491d" prot="private" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>lastDrawnSibling_</name></member>
-      <member refid="classMR_1_1SceneObjectsListDrawer_1a79c0a6de81ce6010a62df31b12a203c7" prot="protected" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>makeDragDropSource_</name></member>
-      <member refid="classMR_1_1SceneObjectsListDrawer_1ab6fb0dc306afc3a0c5f97c7b17389d22" prot="protected" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>makeDragDropTarget_</name></member>
-      <member refid="classMR_1_1SceneObjectsListDrawer_1aa5292b03654cd84d532c634791242da7" prot="protected" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>needDragDropTarget_</name></member>
-      <member refid="classMR_1_1RibbonSceneObjectsListDrawer_1ace8f2d89b5482ae8137036f4d38ed4fa" prot="protected" virt="virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>objectLineStrId_</name></member>
-      <member refid="classMR_1_1RibbonSceneObjectsListDrawer_1aa3fac069d87e7b77317f8987e5a591f0" prot="public" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>onDrawContextSignal</name></member>
-      <member refid="classMR_1_1SceneObjectsListDrawer_1a9384ea577cd19059753bd1e4a31df82c" prot="protected" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>processItemClick_</name></member>
-      <member refid="classMR_1_1RibbonSceneObjectsListDrawer_1ae60cc4399672a3fca957c9666f05cc63" prot="private" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>ribbonMenu_</name></member>
-      <member refid="classMR_1_1SceneObjectsListDrawer_1a35cdb8be56900573df3387f4538a787b" prot="protected" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>sceneOpenCommands_</name></member>
-      <member refid="classMR_1_1SceneObjectsListDrawer_1a062dbdb186840f7e320957f6b752acfc" prot="public" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>selectAllObjects</name></member>
-      <member refid="classMR_1_1RibbonSceneObjectsListDrawer_1a7b203ae37c12d09d2d98e86766a46fe5" prot="public" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>setCloseContextOnChange</name></member>
-      <member refid="classMR_1_1SceneObjectsListDrawer_1ac4822189625ca4c18a2b7c51a696c27e" prot="public" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>setDeselectNewHiddenObjects</name></member>
-      <member refid="classMR_1_1SceneObjectsListDrawer_1a5e3149bb263fd382fd8bf09589dfb149" prot="public" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>setLeavesVisibility</name></member>
-      <member refid="classMR_1_1SceneObjectsListDrawer_1a254275bf99d516202a8d34801d18c971" prot="public" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>setNextFrameFixScroll</name></member>
-      <member refid="classMR_1_1SceneObjectsListDrawer_1a49c5d2ad202cdc4507aed66f508d481a" prot="public" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>setObjectTreeState</name></member>
-      <member refid="classMR_1_1SceneObjectsListDrawer_1a87100a0f8079f7712cae2c150a6a9ed9" prot="public" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>setShowNewSelectedObjects</name></member>
-      <member refid="classMR_1_1SceneObjectsListDrawer_1acead207f8ba93a8da9b77fd9d23770fc" prot="protected" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>showNewSelectedObjects_</name></member>
-      <member refid="classMR_1_1SceneObjectsListDrawer_1affefc47d2b779b451bc3f420ddfdbdf8" prot="public" virt="virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>~SceneObjectsListDrawer</name></member>
+      <member refid="group__GeneralGroup_1ga10c80ec2e0551fe4c73122703e48897e" prot="public" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>allowSceneReorder</name></member>
+      <member refid="group__GeneralGroup_1ga9626d7f29fef80a19bfa08d0389643f4" prot="public" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>changeSelection</name></member>
+      <member refid="group__GeneralGroup_1gaf36935c34390d23a46d4c38f182071c9" prot="public" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>changeVisible</name></member>
+      <member refid="group__GeneralGroup_1gafdc5139f352c892655303a7d8f612a4c" prot="private" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>closeContextOnChange_</name></member>
+      <member refid="group__GeneralGroup_1gad86a3587a045aae766a1ba386a398763" prot="protected" virt="virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>collapsingHeader_</name></member>
+      <member refid="group__GeneralGroup_1ga31ea2ed9ee0ff224fddc9ee57a55c8d9" prot="private" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>currentElementId_</name></member>
+      <member refid="group__GeneralGroup_1gaf4b84e5c4ee9c3f4eca9a8e0c73dde3d" prot="protected" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>deselectNewHiddenObjects_</name></member>
+      <member refid="group__GeneralGroup_1gaea709a4c7f86169aed34caaf2005e834" prot="public" virt="virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>draw</name></member>
+      <member refid="group__GeneralGroup_1ga4e8a6cc8c1d5b8b6f4f05011f6887688" prot="protected" virt="virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>drawCustomObjectPrefixInScene_</name></member>
+      <member refid="group__GeneralGroup_1ga098e7d25adfb62e62c71451173a29712" prot="protected" virt="virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>drawCustomTreeObjectProperties_</name></member>
+      <member refid="group__GeneralGroup_1ga002c98ad85b4d3d5a5a69d3bad2c58d3" prot="private" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>drawEyeButton_</name></member>
+      <member refid="group__GeneralGroup_1ga58e2947b6bce273c814934eed8fdbdf0" prot="private" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>drawHierarhyLine_</name></member>
+      <member refid="group__GeneralGroup_1ga9edde88675685e22f89f455241fd1eef" prot="protected" virt="virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>drawObject_</name></member>
+      <member refid="group__GeneralGroup_1gacbb4687a61ce7fd76be1f3ecb29e49df" prot="protected" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>drawObjectCollapsingHeader_</name></member>
+      <member refid="group__GeneralGroup_1gabe35ad7bc4c01d1ee7476a2c2e949d4d" prot="private" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>drawObjectLine_</name></member>
+      <member refid="group__GeneralGroup_1gae4b604976357cb2d74fa5396c448061d" prot="protected" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>drawObjectVisibilityCheckbox_</name></member>
+      <member refid="group__GeneralGroup_1ga1032f9f59d910e1113385182e182986b" prot="protected" virt="virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>drawSceneContextMenu_</name></member>
+      <member refid="group__GeneralGroup_1ga93c05ad6cbe137ae91506d25d990e5f6" prot="protected" virt="virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>drawSkippedObject_</name></member>
+      <member refid="group__GeneralGroup_1gaa9c92afb2210045394cdec79a8d43cd6" prot="private" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>drawTreeOpenedState_</name></member>
+      <member refid="group__GeneralGroup_1ga10d5b6c1dddb9bfea4d91b3c4e88dbe0" prot="public" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>expandObjectTreeAndScroll</name></member>
+      <member refid="group__GeneralGroup_1ga76b557373659019c5f9ce857d437e84a" prot="public" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>getCloseContextOnChange</name></member>
+      <member refid="group__GeneralGroup_1ga928e8a018e952ef2b817ba4027203972" prot="public" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>getDeselectNewHiddenObjects</name></member>
+      <member refid="group__GeneralGroup_1ga09903b93dbdddeb1ca77dae00ce32ee8" prot="private" virt="virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>getSceneItemIconByTypeName_</name></member>
+      <member refid="group__GeneralGroup_1gaaa3af2c0a1a9e4b9486f42a71e2e82d5" prot="public" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>getShowNewSelectedObjects</name></member>
+      <member refid="group__GeneralGroup_1gadef3ad4d7054ccf6e99aba195fc29cf8" prot="protected" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>ImGuiTreeNodeFlags</name></member>
+      <member refid="group__GeneralGroup_1ga6fccd91d7785e8df8425ed250c606137" prot="public" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>initRibbonMenu</name></member>
+      <member refid="group__GeneralGroup_1ga4aa60a0fed85b407dd61f0ade4b8491d" prot="private" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>lastDrawnSibling_</name></member>
+      <member refid="group__GeneralGroup_1ga79c0a6de81ce6010a62df31b12a203c7" prot="protected" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>makeDragDropSource_</name></member>
+      <member refid="group__GeneralGroup_1gab6fb0dc306afc3a0c5f97c7b17389d22" prot="protected" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>makeDragDropTarget_</name></member>
+      <member refid="group__GeneralGroup_1gaa5292b03654cd84d532c634791242da7" prot="protected" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>needDragDropTarget_</name></member>
+      <member refid="group__GeneralGroup_1gace8f2d89b5482ae8137036f4d38ed4fa" prot="protected" virt="virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>objectLineStrId_</name></member>
+      <member refid="group__GeneralGroup_1gaa3fac069d87e7b77317f8987e5a591f0" prot="public" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>onDrawContextSignal</name></member>
+      <member refid="group__GeneralGroup_1ga9384ea577cd19059753bd1e4a31df82c" prot="protected" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>processItemClick_</name></member>
+      <member refid="group__GeneralGroup_1gae60cc4399672a3fca957c9666f05cc63" prot="private" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>ribbonMenu_</name></member>
+      <member refid="group__GeneralGroup_1ga35cdb8be56900573df3387f4538a787b" prot="protected" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>sceneOpenCommands_</name></member>
+      <member refid="group__GeneralGroup_1ga062dbdb186840f7e320957f6b752acfc" prot="public" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>selectAllObjects</name></member>
+      <member refid="group__GeneralGroup_1ga7b203ae37c12d09d2d98e86766a46fe5" prot="public" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>setCloseContextOnChange</name></member>
+      <member refid="group__GeneralGroup_1gac4822189625ca4c18a2b7c51a696c27e" prot="public" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>setDeselectNewHiddenObjects</name></member>
+      <member refid="group__GeneralGroup_1ga5e3149bb263fd382fd8bf09589dfb149" prot="public" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>setLeavesVisibility</name></member>
+      <member refid="group__GeneralGroup_1ga254275bf99d516202a8d34801d18c971" prot="public" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>setNextFrameFixScroll</name></member>
+      <member refid="group__GeneralGroup_1ga49c5d2ad202cdc4507aed66f508d481a" prot="public" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>setObjectTreeState</name></member>
+      <member refid="group__GeneralGroup_1ga87100a0f8079f7712cae2c150a6a9ed9" prot="public" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>setShowNewSelectedObjects</name></member>
+      <member refid="group__GeneralGroup_1gacead207f8ba93a8da9b77fd9d23770fc" prot="protected" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>showNewSelectedObjects_</name></member>
+      <member refid="group__GeneralGroup_1gaffefc47d2b779b451bc3f420ddfdbdf8" prot="public" virt="virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>~SceneObjectsListDrawer</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

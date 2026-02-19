@@ -5,658 +5,51 @@
     <basecompoundref refid="classMR_1_1MeasurementObject" prot="public" virt="non-virtual">MR::MeasurementObject</basecompoundref>
     <includes refid="MRRadiusMeasurementObject_8h" local="no">MRRadiusMeasurementObject.h</includes>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1RadiusMeasurementObject_1ad6a20d14e4a0d6f0867561c459606c93" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::RadiusMeasurementObject::drawAsDiameter_</definition>
-        <argsstring></argsstring>
-        <name>drawAsDiameter_</name>
-        <qualifiedname>MR::RadiusMeasurementObject::drawAsDiameter_</qualifiedname>
-        <initializer>= false</initializer>
-        <briefdescription>
-<para>Don&apos;t forget to add all the new fields to serialization. </para>
-        </briefdescription>
-        <detaileddescription>
-<para>Whether we should draw this object as a diameter instead of a radius. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" line="89" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" bodystart="89" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RadiusMeasurementObject_1acdc632ba526bf0f3631a99cf8cef5ce7" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::RadiusMeasurementObject::isSpherical_</definition>
-        <argsstring></argsstring>
-        <name>isSpherical_</name>
-        <qualifiedname>MR::RadiusMeasurementObject::isSpherical_</qualifiedname>
-        <initializer>= false</initializer>
-        <briefdescription>
-<para>Whether this is a sphere radius, as opposed to circle/cylinder radius. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" line="91" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" bodystart="91" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RadiusMeasurementObject_1a0aebcc710899afc5d97d79d9b4d42829" prot="private" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::RadiusMeasurementObject::visualLengthMultiplier_</definition>
-        <argsstring></argsstring>
-        <name>visualLengthMultiplier_</name>
-        <qualifiedname>MR::RadiusMeasurementObject::visualLengthMultiplier_</qualifiedname>
-        <initializer>= 2 / 3.f</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>The visual leader line length multiplier, relative to the radius. You&apos;re recommended to set a min absolute value for the resulting length when rendering. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" line="95" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" bodystart="95" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RadiusMeasurementObject_1aa2bf2e5addd5e14efa4e712dffffe8ec" prot="private" static="no" mutable="yes">
-        <type>std::optional&lt; float &gt;</type>
-        <definition>std::optional&lt;float&gt; MR::RadiusMeasurementObject::cachedValue_</definition>
-        <argsstring></argsstring>
-        <name>cachedValue_</name>
-        <qualifiedname>MR::RadiusMeasurementObject::cachedValue_</qualifiedname>
-        <briefdescription>
-<para>The cached value for <computeroutput><ref refid="classMR_1_1RadiusMeasurementObject_1abb52ce1741bbea13111e16aae84dbde5" kindref="member">computeRadiusOrDiameter()</ref></computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" line="98" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" bodystart="98" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gad6a20d14e4a0d6f0867561c459606c93" kind="variable"><name>drawAsDiameter_</name></member>
+      <member refid="group__GeneralGroup_1gacdc632ba526bf0f3631a99cf8cef5ce7" kind="variable"><name>isSpherical_</name></member>
+      <member refid="group__GeneralGroup_1ga0aebcc710899afc5d97d79d9b4d42829" kind="variable"><name>visualLengthMultiplier_</name></member>
+      <member refid="group__GeneralGroup_1gaa2bf2e5addd5e14efa4e712dffffe8ec" kind="variable"><name>cachedValue_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1RadiusMeasurementObject_1afccf6fe9560dab8bface087cf76efc94" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::RadiusMeasurementObject::RadiusMeasurementObject</definition>
-        <argsstring>()</argsstring>
-        <name>RadiusMeasurementObject</name>
-        <qualifiedname>MR::RadiusMeasurementObject::RadiusMeasurementObject</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>The xf encodes the radius: the origin is the center point, and (1,0,0) is the end point. For non-spherical radiuses, (0,0,1) is the circle normal. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" line="14" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" bodystart="14" bodyend="14"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RadiusMeasurementObject_1a21bd1cbee7a50b939e1f8cfce837d477" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::RadiusMeasurementObject::RadiusMeasurementObject</definition>
-        <argsstring>(RadiusMeasurementObject &amp;&amp;) noexcept=default</argsstring>
-        <name>RadiusMeasurementObject</name>
-        <qualifiedname>MR::RadiusMeasurementObject::RadiusMeasurementObject</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1RadiusMeasurementObject" kindref="compound">RadiusMeasurementObject</ref> &amp;&amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" line="16" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RadiusMeasurementObject_1a881370b0a38e287dc6a8ef290f2747e6" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type><ref refid="classMR_1_1RadiusMeasurementObject" kindref="compound">RadiusMeasurementObject</ref> &amp;</type>
-        <definition>RadiusMeasurementObject &amp; MR::RadiusMeasurementObject::operator=</definition>
-        <argsstring>(RadiusMeasurementObject &amp;&amp;) noexcept=default</argsstring>
-        <name>operator=</name>
-        <qualifiedname>MR::RadiusMeasurementObject::operator=</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1RadiusMeasurementObject" kindref="compound">RadiusMeasurementObject</ref> &amp;&amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" line="17" column="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RadiusMeasurementObject_1ac9d73f6782e3918bf0f9b201f13db7af" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>const char *</type>
-        <definition>const char * MR::RadiusMeasurementObject::typeName</definition>
-        <argsstring>() const override</argsstring>
-        <name>typeName</name>
-        <qualifiedname>MR::RadiusMeasurementObject::typeName</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1a6f629cc6822b206ab9232648fa19dcb6">typeName</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" line="20" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" bodystart="20" bodyend="20"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RadiusMeasurementObject_1a97570825bfd28f5a3f4d579a34f813c8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>std::string</type>
-        <definition>virtual std::string MR::RadiusMeasurementObject::className</definition>
-        <argsstring>() const override</argsstring>
-        <name>className</name>
-        <qualifiedname>MR::RadiusMeasurementObject::className</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1a4a9efcd8828d774516f5cd4960359d08">className</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" line="23" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" bodystart="23" bodyend="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RadiusMeasurementObject_1a5378128a8a4fb296172cb5d2ed65bd48" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>std::string</type>
-        <definition>virtual std::string MR::RadiusMeasurementObject::classNameInPlural</definition>
-        <argsstring>() const override</argsstring>
-        <name>classNameInPlural</name>
-        <qualifiedname>MR::RadiusMeasurementObject::classNameInPlural</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1a470477a43cc2e761f791623ee732e4b7">classNameInPlural</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" line="26" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" bodystart="26" bodyend="26"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RadiusMeasurementObject_1a3afae609fa7f9727dbddd5906f442e07" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::RadiusMeasurementObject::RadiusMeasurementObject</definition>
-        <argsstring>(ProtectedStruct, const RadiusMeasurementObject &amp;obj)</argsstring>
-        <name>RadiusMeasurementObject</name>
-        <qualifiedname>MR::RadiusMeasurementObject::RadiusMeasurementObject</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1Object_1_1ProtectedStruct" kindref="compound">ProtectedStruct</ref></type>
-        </param>
-        <param>
-          <type>const <ref refid="classMR_1_1RadiusMeasurementObject" kindref="compound">RadiusMeasurementObject</ref> &amp;</type>
-          <declname>obj</declname>
-        </param>
-        <briefdescription>
-<para>For <computeroutput>std::make_shared()</computeroutput> in <computeroutput><ref refid="classMR_1_1RadiusMeasurementObject_1abf829a28a78153a2114e13a36a46f092" kindref="member">clone()</ref></computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" line="29" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" bodystart="29" bodyend="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RadiusMeasurementObject_1abf829a28a78153a2114e13a36a46f092" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
-        <definition>MRMESH_API std::shared_ptr&lt; Object &gt; MR::RadiusMeasurementObject::clone</definition>
-        <argsstring>() const override</argsstring>
-        <name>clone</name>
-        <qualifiedname>MR::RadiusMeasurementObject::clone</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1a2abf3d3c767a16a584ad513af643feca">clone</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>clones this object only, without its children, making new object the owner of all copied resources </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" line="31" column="32"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RadiusMeasurementObject_1a0a61e373c543440d50c5cb78476cba67" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
-        <definition>MRMESH_API std::shared_ptr&lt; Object &gt; MR::RadiusMeasurementObject::shallowClone</definition>
-        <argsstring>() const override</argsstring>
-        <name>shallowClone</name>
-        <qualifiedname>MR::RadiusMeasurementObject::shallowClone</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1adf2d7e16d33d059dbf2bbd0f1c34c8bf">shallowClone</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>clones this object only, without its children, making new object to share resources with this object </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" line="32" column="32"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RadiusMeasurementObject_1a1b5aa08c8b28e86e8975727bc77f4ace" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Vector3f</type>
-        <definition>MRMESH_API Vector3f MR::RadiusMeasurementObject::getWorldCenter</definition>
-        <argsstring>() const</argsstring>
-        <name>getWorldCenter</name>
-        <qualifiedname>MR::RadiusMeasurementObject::getWorldCenter</qualifiedname>
-        <briefdescription>
-<para>Get the center in world coordinates. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" line="35" column="26"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RadiusMeasurementObject_1a2f3a6dedd89bdd3d84945c24d0a86648" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Vector3f</type>
-        <definition>MRMESH_API Vector3f MR::RadiusMeasurementObject::getLocalCenter</definition>
-        <argsstring>() const</argsstring>
-        <name>getLocalCenter</name>
-        <qualifiedname>MR::RadiusMeasurementObject::getLocalCenter</qualifiedname>
-        <briefdescription>
-<para>Get the center in local coordinates. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" line="37" column="26"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RadiusMeasurementObject_1a9b080f4f3e5e41d9be380906d3acaa7e" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Vector3f</type>
-        <definition>MRMESH_API Vector3f MR::RadiusMeasurementObject::getWorldRadiusAsVector</definition>
-        <argsstring>() const</argsstring>
-        <name>getWorldRadiusAsVector</name>
-        <qualifiedname>MR::RadiusMeasurementObject::getWorldRadiusAsVector</qualifiedname>
-        <briefdescription>
-<para>The length of this vector is the radius, and the direction is the preferred line drawing direction. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" line="40" column="26"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RadiusMeasurementObject_1ab222630cf9cb5f26e2d8f023bc726c3a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Vector3f</type>
-        <definition>MRMESH_API Vector3f MR::RadiusMeasurementObject::getLocalRadiusAsVector</definition>
-        <argsstring>() const</argsstring>
-        <name>getLocalRadiusAsVector</name>
-        <qualifiedname>MR::RadiusMeasurementObject::getLocalRadiusAsVector</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" line="41" column="26"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RadiusMeasurementObject_1a0be49754a007bf700b3ce5e94f689de0" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Vector3f</type>
-        <definition>MRMESH_API Vector3f MR::RadiusMeasurementObject::getWorldNormal</definition>
-        <argsstring>() const</argsstring>
-        <name>getWorldNormal</name>
-        <qualifiedname>MR::RadiusMeasurementObject::getWorldNormal</qualifiedname>
-        <briefdescription>
-<para>The preferred radius normal, for non-spherical radiuses. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" line="44" column="26"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RadiusMeasurementObject_1a69d0ba22a0e3029c9b0e902d1ade30ef" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Vector3f</type>
-        <definition>MRMESH_API Vector3f MR::RadiusMeasurementObject::getLocalNormal</definition>
-        <argsstring>() const</argsstring>
-        <name>getLocalNormal</name>
-        <qualifiedname>MR::RadiusMeasurementObject::getLocalNormal</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" line="45" column="26"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RadiusMeasurementObject_1a7fa9152022fe7361ce348d4d4ad6d36d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>virtual MRMESH_API void MR::RadiusMeasurementObject::setLocalCenter</definition>
-        <argsstring>(const MR::Vector3f &amp;center)</argsstring>
-        <name>setLocalCenter</name>
-        <qualifiedname>MR::RadiusMeasurementObject::setLocalCenter</qualifiedname>
-        <param>
-          <type>const MR::Vector3f &amp;</type>
-          <declname>center</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" line="47" column="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RadiusMeasurementObject_1a20c27fa1febacd50d91412edf55934a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>virtual MRMESH_API void MR::RadiusMeasurementObject::setLocalRadiusAsVector</definition>
-        <argsstring>(const MR::Vector3f &amp;radiusVec, const Vector3f &amp;normal)</argsstring>
-        <name>setLocalRadiusAsVector</name>
-        <qualifiedname>MR::RadiusMeasurementObject::setLocalRadiusAsVector</qualifiedname>
-        <param>
-          <type>const MR::Vector3f &amp;</type>
-          <declname>radiusVec</declname>
-        </param>
-        <param>
-          <type>const Vector3f &amp;</type>
-          <declname>normal</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Sets the local radius vector (the length of which is the radius value), and also the radius normal (which is ignored for spherical radiuses). The normal is automatically normalized and made perpendicular to the <computeroutput>radiusVec</computeroutput>. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" line="51" column="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RadiusMeasurementObject_1a7f6e2a939bc3d396176fdfb2af73501b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::RadiusMeasurementObject::setLocalRadiusAsVector</definition>
-        <argsstring>(const MR::Vector3f &amp;radiusVec)</argsstring>
-        <name>setLocalRadiusAsVector</name>
-        <qualifiedname>MR::RadiusMeasurementObject::setLocalRadiusAsVector</qualifiedname>
-        <param>
-          <type>const MR::Vector3f &amp;</type>
-          <declname>radiusVec</declname>
-        </param>
-        <briefdescription>
-<para>Same, but without a preferred normal. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" line="53" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" bodystart="53" bodyend="53"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RadiusMeasurementObject_1a9a79b85955d16c7ca3c23a0ba8ec605c" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::RadiusMeasurementObject::getDrawAsDiameter</definition>
-        <argsstring>() const</argsstring>
-        <name>getDrawAsDiameter</name>
-        <qualifiedname>MR::RadiusMeasurementObject::getDrawAsDiameter</qualifiedname>
-        <briefdescription>
-<para>Whether we should draw this as a diameter instead of a radius. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" line="56" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" bodystart="56" bodyend="56"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RadiusMeasurementObject_1a1ffb3dd2486ce97b6782022fd5302670" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>virtual MRMESH_API void MR::RadiusMeasurementObject::setDrawAsDiameter</definition>
-        <argsstring>(bool value)</argsstring>
-        <name>setDrawAsDiameter</name>
-        <qualifiedname>MR::RadiusMeasurementObject::setDrawAsDiameter</qualifiedname>
-        <param>
-          <type>bool</type>
-          <declname>value</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" line="57" column="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RadiusMeasurementObject_1a880866dc5c43f3b4c8fb4b7ce6d6472b" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::RadiusMeasurementObject::getIsSpherical</definition>
-        <argsstring>() const</argsstring>
-        <name>getIsSpherical</name>
-        <qualifiedname>MR::RadiusMeasurementObject::getIsSpherical</qualifiedname>
-        <briefdescription>
-<para>Whether this is a sphere radius, as opposed to circle/cylinder radius. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" line="60" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" bodystart="60" bodyend="60"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RadiusMeasurementObject_1a6c5ce7e4b4a07029e63ff8b7edd1b05e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MR::RadiusMeasurementObject::setIsSpherical</definition>
-        <argsstring>(bool value)</argsstring>
-        <name>setIsSpherical</name>
-        <qualifiedname>MR::RadiusMeasurementObject::setIsSpherical</qualifiedname>
-        <param>
-          <type>bool</type>
-          <declname>value</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" line="61" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" bodystart="61" bodyend="61"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RadiusMeasurementObject_1a84caf97ac4a1c45b0a0af928b6693bfe" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>float</type>
-        <definition>float MR::RadiusMeasurementObject::getVisualLengthMultiplier</definition>
-        <argsstring>() const</argsstring>
-        <name>getVisualLengthMultiplier</name>
-        <qualifiedname>MR::RadiusMeasurementObject::getVisualLengthMultiplier</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>The visual leader line length multiplier, relative to the radius. You&apos;re recommended to set a min absolute value for the resulting length when rendering. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" line="65" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" bodystart="65" bodyend="65"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RadiusMeasurementObject_1a109a6f41417efadbe9e21c0a2054c9f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MR::RadiusMeasurementObject::setVisualLengthMultiplier</definition>
-        <argsstring>(float value)</argsstring>
-        <name>setVisualLengthMultiplier</name>
-        <qualifiedname>MR::RadiusMeasurementObject::setVisualLengthMultiplier</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>value</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" line="66" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" bodystart="66" bodyend="66"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RadiusMeasurementObject_1abb52ce1741bbea13111e16aae84dbde5" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> float</type>
-        <definition>MRMESH_API float MR::RadiusMeasurementObject::computeRadiusOrDiameter</definition>
-        <argsstring>() const</argsstring>
-        <name>computeRadiusOrDiameter</name>
-        <qualifiedname>MR::RadiusMeasurementObject::computeRadiusOrDiameter</qualifiedname>
-        <briefdescription>
-<para>Computes the radius/diameter value, as if by <computeroutput><ref refid="classMR_1_1RadiusMeasurementObject_1ab222630cf9cb5f26e2d8f023bc726c3a" kindref="member">getLocalRadiusAsVector()</ref></computeroutput>, possibly multiplied by two if <computeroutput><ref refid="classMR_1_1RadiusMeasurementObject_1a9a79b85955d16c7ca3c23a0ba8ec605c" kindref="member">getDrawAsDiameter()</ref></computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" line="69" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RadiusMeasurementObject_1a896f78dba51a77e27ca06d9a9b9f85a7" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::vector&lt; std::string &gt;</type>
-        <definition>MRMESH_API std::vector&lt; std::string &gt; MR::RadiusMeasurementObject::getInfoLines</definition>
-        <argsstring>() const override</argsstring>
-        <name>getInfoLines</name>
-        <qualifiedname>MR::RadiusMeasurementObject::getInfoLines</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1a76988bf72aa3be996e864fec3ab47ed2">getInfoLines</reimplements>
-        <briefdescription>
-<para>return several info lines that can better describe the object in the <ref refid="namespaceMR_1_1UI" kindref="compound">UI</ref> </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" line="71" column="29"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gafccf6fe9560dab8bface087cf76efc94" kind="function"><name>RadiusMeasurementObject</name></member>
+      <member refid="group__GeneralGroup_1ga21bd1cbee7a50b939e1f8cfce837d477" kind="function"><name>RadiusMeasurementObject</name></member>
+      <member refid="group__GeneralGroup_1ga881370b0a38e287dc6a8ef290f2747e6" kind="function"><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1gac9d73f6782e3918bf0f9b201f13db7af" kind="function"><name>typeName</name></member>
+      <member refid="group__GeneralGroup_1ga97570825bfd28f5a3f4d579a34f813c8" kind="function"><name>className</name></member>
+      <member refid="group__GeneralGroup_1ga5378128a8a4fb296172cb5d2ed65bd48" kind="function"><name>classNameInPlural</name></member>
+      <member refid="group__GeneralGroup_1ga3afae609fa7f9727dbddd5906f442e07" kind="function"><name>RadiusMeasurementObject</name></member>
+      <member refid="group__GeneralGroup_1gabf829a28a78153a2114e13a36a46f092" kind="function"><name>clone</name></member>
+      <member refid="group__GeneralGroup_1ga0a61e373c543440d50c5cb78476cba67" kind="function"><name>shallowClone</name></member>
+      <member refid="group__GeneralGroup_1ga1b5aa08c8b28e86e8975727bc77f4ace" kind="function"><name>getWorldCenter</name></member>
+      <member refid="group__GeneralGroup_1ga2f3a6dedd89bdd3d84945c24d0a86648" kind="function"><name>getLocalCenter</name></member>
+      <member refid="group__GeneralGroup_1ga9b080f4f3e5e41d9be380906d3acaa7e" kind="function"><name>getWorldRadiusAsVector</name></member>
+      <member refid="group__GeneralGroup_1gab222630cf9cb5f26e2d8f023bc726c3a" kind="function"><name>getLocalRadiusAsVector</name></member>
+      <member refid="group__GeneralGroup_1ga0be49754a007bf700b3ce5e94f689de0" kind="function"><name>getWorldNormal</name></member>
+      <member refid="group__GeneralGroup_1ga69d0ba22a0e3029c9b0e902d1ade30ef" kind="function"><name>getLocalNormal</name></member>
+      <member refid="group__GeneralGroup_1ga7fa9152022fe7361ce348d4d4ad6d36d" kind="function"><name>setLocalCenter</name></member>
+      <member refid="group__GeneralGroup_1ga20c27fa1febacd50d91412edf55934a9" kind="function"><name>setLocalRadiusAsVector</name></member>
+      <member refid="group__GeneralGroup_1ga7f6e2a939bc3d396176fdfb2af73501b" kind="function"><name>setLocalRadiusAsVector</name></member>
+      <member refid="group__GeneralGroup_1ga9a79b85955d16c7ca3c23a0ba8ec605c" kind="function"><name>getDrawAsDiameter</name></member>
+      <member refid="group__GeneralGroup_1ga1ffb3dd2486ce97b6782022fd5302670" kind="function"><name>setDrawAsDiameter</name></member>
+      <member refid="group__GeneralGroup_1ga880866dc5c43f3b4c8fb4b7ce6d6472b" kind="function"><name>getIsSpherical</name></member>
+      <member refid="group__GeneralGroup_1ga6c5ce7e4b4a07029e63ff8b7edd1b05e" kind="function"><name>setIsSpherical</name></member>
+      <member refid="group__GeneralGroup_1ga84caf97ac4a1c45b0a0af928b6693bfe" kind="function"><name>getVisualLengthMultiplier</name></member>
+      <member refid="group__GeneralGroup_1ga109a6f41417efadbe9e21c0a2054c9f5" kind="function"><name>setVisualLengthMultiplier</name></member>
+      <member refid="group__GeneralGroup_1gabb52ce1741bbea13111e16aae84dbde5" kind="function"><name>computeRadiusOrDiameter</name></member>
+      <member refid="group__GeneralGroup_1ga896f78dba51a77e27ca06d9a9b9f85a7" kind="function"><name>getInfoLines</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1RadiusMeasurementObject_1a8e1bc5a5a8df9fe4e5232502abb77647" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>const char *</type>
-        <definition>static constexpr const char * MR::RadiusMeasurementObject::StaticTypeName</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>StaticTypeName</name>
-        <qualifiedname>MR::RadiusMeasurementObject::StaticTypeName</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" line="19" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" bodystart="19" bodyend="19"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RadiusMeasurementObject_1a1b31ef3d9ac06ac34606e827af83e73e" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>const char *</type>
-        <definition>static constexpr const char * MR::RadiusMeasurementObject::StaticClassName</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>StaticClassName</name>
-        <qualifiedname>MR::RadiusMeasurementObject::StaticClassName</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" line="22" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" bodystart="22" bodyend="22"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RadiusMeasurementObject_1ad34edafa6b258294076b7cdd69f1458a" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>const char *</type>
-        <definition>static constexpr const char * MR::RadiusMeasurementObject::StaticClassNameInPlural</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>StaticClassNameInPlural</name>
-        <qualifiedname>MR::RadiusMeasurementObject::StaticClassNameInPlural</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" line="25" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" bodystart="25" bodyend="25"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga8e1bc5a5a8df9fe4e5232502abb77647" kind="function"><name>StaticTypeName</name></member>
+      <member refid="group__GeneralGroup_1ga1b31ef3d9ac06ac34606e827af83e73e" kind="function"><name>StaticClassName</name></member>
+      <member refid="group__GeneralGroup_1gad34edafa6b258294076b7cdd69f1458a" kind="function"><name>StaticClassNameInPlural</name></member>
     </sectiondef>
     <sectiondef kind="protected-func">
-      <memberdef kind="function" id="classMR_1_1RadiusMeasurementObject_1af6ed0088150cdf029ec712982ec5df1c" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::RadiusMeasurementObject::RadiusMeasurementObject</definition>
-        <argsstring>(const RadiusMeasurementObject &amp;other)=default</argsstring>
-        <name>RadiusMeasurementObject</name>
-        <qualifiedname>MR::RadiusMeasurementObject::RadiusMeasurementObject</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1RadiusMeasurementObject" kindref="compound">RadiusMeasurementObject</ref> &amp;</type>
-          <declname>other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" line="74" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RadiusMeasurementObject_1a144d0e6bad6b4589084b64ca9cdb9dea" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::RadiusMeasurementObject::swapBase_</definition>
-        <argsstring>(Object &amp;other) override</argsstring>
-        <name>swapBase_</name>
-        <qualifiedname>MR::RadiusMeasurementObject::swapBase_</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1a76b7b6b3bfd7dac31eb1d150afb761f7">swapBase_</reimplements>
-        <param>
-          <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
-          <declname>other</declname>
-        </param>
-        <briefdescription>
-<para>swaps this object with other </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" line="76" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RadiusMeasurementObject_1ae8bbd998f229f7b6ee72635d8aeca1bb" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::RadiusMeasurementObject::serializeFields_</definition>
-        <argsstring>(Json::Value &amp;root) const override</argsstring>
-        <name>serializeFields_</name>
-        <qualifiedname>MR::RadiusMeasurementObject::serializeFields_</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1aa7e5231f013c0e9e1b528c69759cc60d">serializeFields_</reimplements>
-        <param>
-          <type>Json::Value &amp;</type>
-          <declname>root</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Write parameters to given Json::Value, <simplesect kind="note"><para>if you override this method, please call Base::serializeFields_(root) in the beginning </para>
-</simplesect>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" line="78" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RadiusMeasurementObject_1ac21964aa2c3fa5b24daf6659c6abe091" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::RadiusMeasurementObject::deserializeFields_</definition>
-        <argsstring>(const Json::Value &amp;root) override</argsstring>
-        <name>deserializeFields_</name>
-        <qualifiedname>MR::RadiusMeasurementObject::deserializeFields_</qualifiedname>
-        <reimplements refid="classMR_1_1Object_1afa7de2dfba47f9766bfa741f01f73e42">deserializeFields_</reimplements>
-        <param>
-          <type>const Json::Value &amp;</type>
-          <declname>root</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Reads parameters from json value <simplesect kind="note"><para>if you override this method, please call Base::deserializeFields_(root) in the beginning </para>
-</simplesect>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" line="79" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RadiusMeasurementObject_1a42db597cf6c86264265ae90f066d8b6b" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::RadiusMeasurementObject::setupRenderObject_</definition>
-        <argsstring>() const override</argsstring>
-        <name>setupRenderObject_</name>
-        <qualifiedname>MR::RadiusMeasurementObject::setupRenderObject_</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1a8c9ac961e923f7c61ccf3424413be0fb">setupRenderObject_</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>each renderable child of <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> should implement this method and assign renderObj_ inside </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" line="81" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RadiusMeasurementObject_1afd09bfdf435a2c589bea011e532c6ecc" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::RadiusMeasurementObject::onWorldXfChanged_</definition>
-        <argsstring>() override</argsstring>
-        <name>onWorldXfChanged_</name>
-        <qualifiedname>MR::RadiusMeasurementObject::onWorldXfChanged_</qualifiedname>
-        <reimplements refid="classMR_1_1Object_1ae552548142751ab5d35d446cb5d56fae">onWorldXfChanged_</reimplements>
-        <briefdescription>
-<para>Emits <computeroutput>worldXfChangedSignal</computeroutput>, but derived classes can add additional behavior to it. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" line="83" column="21"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaf6ed0088150cdf029ec712982ec5df1c" kind="function"><name>RadiusMeasurementObject</name></member>
+      <member refid="group__GeneralGroup_1ga144d0e6bad6b4589084b64ca9cdb9dea" kind="function"><name>swapBase_</name></member>
+      <member refid="group__GeneralGroup_1gae8bbd998f229f7b6ee72635d8aeca1bb" kind="function"><name>serializeFields_</name></member>
+      <member refid="group__GeneralGroup_1gac21964aa2c3fa5b24daf6659c6abe091" kind="function"><name>deserializeFields_</name></member>
+      <member refid="group__GeneralGroup_1ga42db597cf6c86264265ae90f066d8b6b" kind="function"><name>setupRenderObject_</name></member>
+      <member refid="group__GeneralGroup_1gafd09bfdf435a2c589bea011e532c6ecc" kind="function"><name>onWorldXfChanged_</name></member>
     </sectiondef>
     <briefdescription>
 <para>Represents a radius measurement. </para>
@@ -787,7 +180,7 @@
         <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" line="9" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" bodystart="10" bodyend="99"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusMeasurementObject.h" bodystart="13" bodyend="102"/>
     <listofallmembers>
       <member refid="classMR_1_1Object_1aa6cdc407999b7e829fd23b242cb6346d" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>addChild</name></member>
       <member refid="classMR_1_1Object_1a8eeb1cb21b22db97f20eac75b897f7ae" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>addChildBefore</name></member>
@@ -800,25 +193,25 @@
       <member refid="classMR_1_1VisualObject_1ae3a2d142d4abb2283a71caf7395282a4" prot="protected" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>backFacesColor_</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a2ba9302240c85bc5dfd78068e7b2e918" prot="protected" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>bastards_</name></member>
       <member refid="classMR_1_1VisualObject_1af81b9247c457c9dbd36d6bbe4c74b826" prot="protected" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>boundingBoxToInfoLines_</name></member>
-      <member refid="classMR_1_1RadiusMeasurementObject_1aa2bf2e5addd5e14efa4e712dffffe8ec" prot="private" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>cachedValue_</name></member>
+      <member refid="group__GeneralGroup_1gaa2bf2e5addd5e14efa4e712dffffe8ec" prot="private" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>cachedValue_</name></member>
       <member refid="classMR_1_1Object_1a918f27844d6d9aae269008f0036bc671" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>children</name></member>
       <member refid="classMR_1_1Object_1a2f38b85c4109bb77ad1a49e42085b9fb" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>children</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a20c010d72c82523c01e5de05910eb34c" prot="protected" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>children_</name></member>
-      <member refid="classMR_1_1RadiusMeasurementObject_1a97570825bfd28f5a3f4d579a34f813c8" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>className</name></member>
-      <member refid="classMR_1_1RadiusMeasurementObject_1a5378128a8a4fb296172cb5d2ed65bd48" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>classNameInPlural</name></member>
+      <member refid="group__GeneralGroup_1ga97570825bfd28f5a3f4d579a34f813c8" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>className</name></member>
+      <member refid="group__GeneralGroup_1ga5378128a8a4fb296172cb5d2ed65bd48" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>classNameInPlural</name></member>
       <member refid="classMR_1_1VisualObject_1ab87c9fab3f92c38aba589584b5466a98" prot="protected" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>clipByPlane_</name></member>
-      <member refid="classMR_1_1RadiusMeasurementObject_1abf829a28a78153a2114e13a36a46f092" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>clone</name></member>
+      <member refid="group__GeneralGroup_1gabf829a28a78153a2114e13a36a46f092" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>clone</name></member>
       <member refid="classMR_1_1Object_1a54eb8f6e602368572ffb27af73f87465" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>cloneTree</name></member>
       <member refid="classMR_1_1VisualObject_1a21eb2d0c923e3ca0544e4cf90782e6b1" prot="protected" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>coloringType_</name></member>
       <member refid="classMR_1_1VisualObject_1a4e27182996ebf22fc42c7d1ebf6cf02b" prot="protected" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>computeBoundingBox_</name></member>
-      <member refid="classMR_1_1RadiusMeasurementObject_1abb52ce1741bbea13111e16aae84dbde5" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>computeRadiusOrDiameter</name></member>
+      <member refid="group__GeneralGroup_1gabb52ce1741bbea13111e16aae84dbde5" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>computeRadiusOrDiameter</name></member>
       <member refid="classMR_1_1VisualObject_1a7857f20b8f16704a46297b95e12524f7" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>copyAllSolidColors</name></member>
       <member refid="classMR_1_1VisualObject_1a3c81a910d1fdd5c1f1b413c185bf750d" prot="protected" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>depthTest_</name></member>
-      <member refid="classMR_1_1RadiusMeasurementObject_1ac21964aa2c3fa5b24daf6659c6abe091" prot="protected" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>deserializeFields_</name></member>
+      <member refid="group__GeneralGroup_1gac21964aa2c3fa5b24daf6659c6abe091" prot="protected" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>deserializeFields_</name></member>
       <member refid="classMR_1_1Object_1a694bf2e911f3079c872f0dc9c13370c9" prot="protected" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>deserializeModel_</name></member>
       <member refid="classMR_1_1Object_1ae6602edbad891420dc4dff152e9df603" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>deserializeRecursive</name></member>
       <member refid="classMR_1_1Object_1a80a32a58c497b044d63e5aaa75e77fbe" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>detachFromParent</name></member>
-      <member refid="classMR_1_1RadiusMeasurementObject_1ad6a20d14e4a0d6f0867561c459606c93" prot="private" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>drawAsDiameter_</name></member>
+      <member refid="group__GeneralGroup_1gad6a20d14e4a0d6f0867561c459606c93" prot="private" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>drawAsDiameter_</name></member>
       <member refid="classMR_1_1Object_1abcc984d346790cbe1a13d6ee87daffd0" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>find</name></member>
       <member refid="classMR_1_1Object_1a639d2e0d72c82c1efd9dc00ecaa0d3da" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>find</name></member>
       <member refid="group__DataModelGroup_1gaa9133d1e63e15eb09f7f902afe2abd3a" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>find</name></member>
@@ -835,16 +228,16 @@
       <member refid="classMR_1_1VisualObject_1a8fe84b708cf42b2d73b31e77f02fae6a" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getBoundingBox</name></member>
       <member refid="classMR_1_1VisualObject_1ad526a2645a12621b7742bc66aaf5ad0f" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getColoringType</name></member>
       <member refid="classMR_1_1VisualObject_1a6411458c4cd7d098c12adaea27568db7" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getDirtyFlags</name></member>
-      <member refid="classMR_1_1RadiusMeasurementObject_1a9a79b85955d16c7ca3c23a0ba8ec605c" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getDrawAsDiameter</name></member>
+      <member refid="group__GeneralGroup_1ga9a79b85955d16c7ca3c23a0ba8ec605c" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getDrawAsDiameter</name></member>
       <member refid="classMR_1_1VisualObject_1a70f15c0dc59f3b83a8b8c3e6390f7571" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getFrontColor</name></member>
       <member refid="classMR_1_1VisualObject_1a04e6c3f8219124e3028f7dd8411cfc65" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>getFrontColorsForAllViewports</name></member>
       <member refid="classMR_1_1VisualObject_1afe6426aa46d769e1d6f4cab1e56e0559" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getGlobalAlpha</name></member>
       <member refid="classMR_1_1VisualObject_1a3ef31c439da47a55ca3287bf45a377ad" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>getGlobalAlphaForAllViewports</name></member>
-      <member refid="classMR_1_1RadiusMeasurementObject_1a896f78dba51a77e27ca06d9a9b9f85a7" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>getInfoLines</name></member>
-      <member refid="classMR_1_1RadiusMeasurementObject_1a880866dc5c43f3b4c8fb4b7ce6d6472b" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getIsSpherical</name></member>
-      <member refid="classMR_1_1RadiusMeasurementObject_1a2f3a6dedd89bdd3d84945c24d0a86648" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getLocalCenter</name></member>
-      <member refid="classMR_1_1RadiusMeasurementObject_1a69d0ba22a0e3029c9b0e902d1ade30ef" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getLocalNormal</name></member>
-      <member refid="classMR_1_1RadiusMeasurementObject_1ab222630cf9cb5f26e2d8f023bc726c3a" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getLocalRadiusAsVector</name></member>
+      <member refid="group__GeneralGroup_1ga896f78dba51a77e27ca06d9a9b9f85a7" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>getInfoLines</name></member>
+      <member refid="group__GeneralGroup_1ga880866dc5c43f3b4c8fb4b7ce6d6472b" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getIsSpherical</name></member>
+      <member refid="group__GeneralGroup_1ga2f3a6dedd89bdd3d84945c24d0a86648" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getLocalCenter</name></member>
+      <member refid="group__GeneralGroup_1ga69d0ba22a0e3029c9b0e902d1ade30ef" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getLocalNormal</name></member>
+      <member refid="group__GeneralGroup_1gab222630cf9cb5f26e2d8f023bc726c3a" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getLocalRadiusAsVector</name></member>
       <member refid="classMR_1_1Object_1a4a0bdbb221822d1b73720712b1488489" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>getModelHash</name></member>
       <member refid="classMR_1_1VisualObject_1a08a44c8bd562c85361950682c997f752" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>getRedrawFlag</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a64c12f40ae3ee9c61ba167319e33f4a8" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getSharedPtr</name></member>
@@ -853,11 +246,11 @@
       <member refid="classMR_1_1VisualObject_1a3e21bc521981859584703215ba45f219" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getVisualizeProperty</name></member>
       <member refid="classMR_1_1VisualObject_1a94e84a6aefe10a606f6dbf056049dcee" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>getVisualizePropertyMask</name></member>
       <member refid="classMR_1_1VisualObject_1a11c8d591aa72e021a946b58349b80bcf" prot="protected" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getVisualizePropertyMask_</name></member>
-      <member refid="classMR_1_1RadiusMeasurementObject_1a84caf97ac4a1c45b0a0af928b6693bfe" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getVisualLengthMultiplier</name></member>
+      <member refid="group__GeneralGroup_1ga84caf97ac4a1c45b0a0af928b6693bfe" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getVisualLengthMultiplier</name></member>
       <member refid="classMR_1_1VisualObject_1a32cc9bc32e5402ed77f63de53d754314" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>getWorldBox</name></member>
-      <member refid="classMR_1_1RadiusMeasurementObject_1a1b5aa08c8b28e86e8975727bc77f4ace" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getWorldCenter</name></member>
-      <member refid="classMR_1_1RadiusMeasurementObject_1a0be49754a007bf700b3ce5e94f689de0" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getWorldNormal</name></member>
-      <member refid="classMR_1_1RadiusMeasurementObject_1a9b080f4f3e5e41d9be380906d3acaa7e" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getWorldRadiusAsVector</name></member>
+      <member refid="group__GeneralGroup_1ga1b5aa08c8b28e86e8975727bc77f4ace" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getWorldCenter</name></member>
+      <member refid="group__GeneralGroup_1ga0be49754a007bf700b3ce5e94f689de0" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getWorldNormal</name></member>
+      <member refid="group__GeneralGroup_1ga9b080f4f3e5e41d9be380906d3acaa7e" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getWorldRadiusAsVector</name></member>
       <member refid="classMR_1_1Object_1a41924fd6534dc41bfdb6dd30e263109b" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getWorldTreeBox</name></member>
       <member refid="classMR_1_1VisualObject_1a96232055c664463cca20dda327b1c30f" prot="protected" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>globalAlpha_</name></member>
       <member refid="classMR_1_1VisualObject_1a5985106ad6fa7332062d84fdd44b5986" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>globalClippedByPlane</name></member>
@@ -876,10 +269,10 @@
       <member refid="classMR_1_1Object_1ae6f5f78500e8c1342b7f4d7d98b03928" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>isParentLocked</name></member>
       <member refid="classMR_1_1VisualObject_1a938a64da82232f07dec418b944f5bc8b" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>isPickable</name></member>
       <member refid="classMR_1_1Object_1a3f649834561a9f246e1d840a0f3080c8" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>isSelected</name></member>
-      <member refid="classMR_1_1RadiusMeasurementObject_1acdc632ba526bf0f3631a99cf8cef5ce7" prot="private" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>isSpherical_</name></member>
+      <member refid="group__GeneralGroup_1gacdc632ba526bf0f3631a99cf8cef5ce7" prot="private" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>isSpherical_</name></member>
       <member refid="classMR_1_1Object_1a98c9e0d07b736d2b86c4d3d340b77844" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>isVisible</name></member>
       <member refid="classMR_1_1Object_1a958714fb7d616e608cb16223e052052b" prot="protected" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>locked_</name></member>
-      <member refid="classMR_1_1MeasurementObject_1abfa882fd0a9244f24422e3f34dd6a35a" prot="protected" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>MeasurementObject</name></member>
+      <member refid="group__GeneralGroup_1gabfa882fd0a9244f24422e3f34dd6a35a" prot="protected" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>MeasurementObject</name></member>
       <member refid="classMR_1_1Object_1ae813e1ae9ad5cbb71ca45adbdd811679" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>name</name></member>
       <member refid="classMR_1_1Object_1a3d6d27065a13a0a262df4b74ff82e538" prot="protected" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>name_</name></member>
       <member refid="classMR_1_1Object_1a92a390dc7570098981912529e341433d" prot="protected" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>needRedraw_</name></member>
@@ -890,8 +283,8 @@
       <member refid="classMR_1_1ObjectChildrenHolder_1acad4a073a2e703743e01e2e5cce9e285" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>ObjectChildrenHolder</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a676c20b6eea355fe68748a8c1ad0b086" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>ObjectChildrenHolder</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a89b1fff6ebde3c5a71a530e3c8cddfb6" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>ObjectChildrenHolder</name></member>
-      <member refid="classMR_1_1RadiusMeasurementObject_1afd09bfdf435a2c589bea011e532c6ecc" prot="protected" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>onWorldXfChanged_</name></member>
-      <member refid="classMR_1_1RadiusMeasurementObject_1a881370b0a38e287dc6a8ef290f2747e6" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1gafd09bfdf435a2c589bea011e532c6ecc" prot="protected" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>onWorldXfChanged_</name></member>
+      <member refid="group__GeneralGroup_1ga881370b0a38e287dc6a8ef290f2747e6" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>operator=</name></member>
       <member refid="classMR_1_1VisualObject_1ad5bb82fa6b6b0ea77f0137b975c802f6" prot="public" virt="non-virtual" ambiguityscope="MR::MeasurementObject::"><scope>MR::RadiusMeasurementObject</scope><name>operator=</name></member>
       <member refid="classMR_1_1Object_1aaa2378c439796ceb7a28ad41322cb8d7" prot="public" virt="non-virtual" ambiguityscope="MR::Object::"><scope>MR::RadiusMeasurementObject</scope><name>operator=</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a44a4427301ae71511f5b3138cdf02e9f" prot="public" virt="non-virtual" ambiguityscope="MR::ObjectChildrenHolder::"><scope>MR::RadiusMeasurementObject</scope><name>operator=</name></member>
@@ -901,10 +294,10 @@
       <member refid="classMR_1_1ObjectChildrenHolder_1a79a7197e0981d1da1b59f5fa0d858f7d" prot="protected" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>parent_</name></member>
       <member refid="classMR_1_1Object_1a2f679f701887cee54069b81a45cc8ebc" prot="protected" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>parentLocked_</name></member>
       <member refid="classMR_1_1VisualObject_1a43bcd013faf296110ba8cb4a94bbe12f" prot="protected" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>pickable_</name></member>
-      <member refid="classMR_1_1RadiusMeasurementObject_1afccf6fe9560dab8bface087cf76efc94" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>RadiusMeasurementObject</name></member>
-      <member refid="classMR_1_1RadiusMeasurementObject_1a21bd1cbee7a50b939e1f8cfce837d477" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>RadiusMeasurementObject</name></member>
-      <member refid="classMR_1_1RadiusMeasurementObject_1a3afae609fa7f9727dbddd5906f442e07" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>RadiusMeasurementObject</name></member>
-      <member refid="classMR_1_1RadiusMeasurementObject_1af6ed0088150cdf029ec712982ec5df1c" prot="protected" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>RadiusMeasurementObject</name></member>
+      <member refid="group__GeneralGroup_1gafccf6fe9560dab8bface087cf76efc94" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>RadiusMeasurementObject</name></member>
+      <member refid="group__GeneralGroup_1ga21bd1cbee7a50b939e1f8cfce837d477" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>RadiusMeasurementObject</name></member>
+      <member refid="group__GeneralGroup_1ga3afae609fa7f9727dbddd5906f442e07" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>RadiusMeasurementObject</name></member>
+      <member refid="group__GeneralGroup_1gaf6ed0088150cdf029ec712982ec5df1c" prot="protected" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>RadiusMeasurementObject</name></member>
       <member refid="classMR_1_1Object_1a1b5609ba616723794aea4dda67727865" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>removeAllChildren</name></member>
       <member refid="classMR_1_1Object_1aa988bb552650c9d30e888e456f458d46" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>removeChild</name></member>
       <member refid="classMR_1_1Object_1a291d8e281e83a1199d6da8484e798fd5" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>removeChild</name></member>
@@ -924,7 +317,7 @@
       <member refid="classMR_1_1Object_1a0d8ef27f83b47e000093eaa0df9c36f9" prot="protected" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>selected_</name></member>
       <member refid="classMR_1_1VisualObject_1ac75d179334e336af0672bf0d9c997038" prot="protected" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>selectedColor_</name></member>
       <member refid="classMR_1_1Object_1ab41eb618ef90d9677638173475b2d983" prot="protected" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>sendWorldXfChangedSignal_</name></member>
-      <member refid="classMR_1_1RadiusMeasurementObject_1ae8bbd998f229f7b6ee72635d8aeca1bb" prot="protected" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>serializeFields_</name></member>
+      <member refid="group__GeneralGroup_1gae8bbd998f229f7b6ee72635d8aeca1bb" prot="protected" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>serializeFields_</name></member>
       <member refid="classMR_1_1Object_1a7bf17e9cdecb511570759169e86bf0e2" prot="protected" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>serializeModel_</name></member>
       <member refid="classMR_1_1Object_1a9585a709b1b7bd6d35276d099afd0079" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>serializeRecursive</name></member>
       <member refid="classMR_1_1VisualObject_1aa19ae518997e365fbfa1ddd81b04eb10" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>setAllVisualizeProperties</name></member>
@@ -937,17 +330,17 @@
       <member refid="classMR_1_1VisualObject_1a8d339ad1cf1735f90773b4f8b89e9059" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>setColoringType</name></member>
       <member refid="classMR_1_1VisualObject_1a3e72e4b693ea9b28b46b5928167f0e74" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>setDirtyFlags</name></member>
       <member refid="classMR_1_1VisualObject_1a2261b98d651c586e2bc62a2e1efb902a" prot="protected" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>setDirtyFlagsFast_</name></member>
-      <member refid="classMR_1_1RadiusMeasurementObject_1a1ffb3dd2486ce97b6782022fd5302670" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>setDrawAsDiameter</name></member>
+      <member refid="group__GeneralGroup_1ga1ffb3dd2486ce97b6782022fd5302670" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>setDrawAsDiameter</name></member>
       <member refid="classMR_1_1VisualObject_1a0d1a64b6bed894b4236b06ac732dfd74" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>setFrontColor</name></member>
       <member refid="classMR_1_1VisualObject_1ac8fd310ffa1926e733e28b521f658778" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>setFrontColorsForAllViewports</name></member>
       <member refid="classMR_1_1VisualObject_1a985084dc83b837ab048114f5f4bacae2" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>setGlobalAlpha</name></member>
       <member refid="classMR_1_1VisualObject_1a8ae88237f1bd22f03cb5a77d018c6d7c" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>setGlobalAlphaForAllViewports</name></member>
       <member refid="classMR_1_1VisualObject_1a6212504702d0e12528f65b94e270069e" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>setGlobalClippedByPlane</name></member>
       <member refid="classMR_1_1Object_1af61964cafaa7f98e2b14f89fed277368" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>setGlobalVisibility</name></member>
-      <member refid="classMR_1_1RadiusMeasurementObject_1a6c5ce7e4b4a07029e63ff8b7edd1b05e" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>setIsSpherical</name></member>
-      <member refid="classMR_1_1RadiusMeasurementObject_1a7fa9152022fe7361ce348d4d4ad6d36d" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>setLocalCenter</name></member>
-      <member refid="classMR_1_1RadiusMeasurementObject_1a20c27fa1febacd50d91412edf55934a9" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>setLocalRadiusAsVector</name></member>
-      <member refid="classMR_1_1RadiusMeasurementObject_1a7f6e2a939bc3d396176fdfb2af73501b" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>setLocalRadiusAsVector</name></member>
+      <member refid="group__GeneralGroup_1ga6c5ce7e4b4a07029e63ff8b7edd1b05e" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>setIsSpherical</name></member>
+      <member refid="group__GeneralGroup_1ga7fa9152022fe7361ce348d4d4ad6d36d" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>setLocalCenter</name></member>
+      <member refid="group__GeneralGroup_1ga20c27fa1febacd50d91412edf55934a9" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>setLocalRadiusAsVector</name></member>
+      <member refid="group__GeneralGroup_1ga7f6e2a939bc3d396176fdfb2af73501b" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>setLocalRadiusAsVector</name></member>
       <member refid="classMR_1_1Object_1ac427b5b1a99a87eac1305683801fc850" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>setLocked</name></member>
       <member refid="classMR_1_1Object_1ace89695fb0235bdf97caecfe26390349" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>setName</name></member>
       <member refid="classMR_1_1Object_1acd0464af4d89730f9a969f997fdcc8ce" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>setParentLocked</name></member>
@@ -955,17 +348,17 @@
       <member refid="classMR_1_1Object_1a911d7f54ae21939fe483b0f5caf04a66" prot="protected" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>setSharedModel_</name></member>
       <member refid="classMR_1_1VisualObject_1add52279d4cba695b4fa60d469cb8c1af" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>setShininess</name></member>
       <member refid="classMR_1_1VisualObject_1a455eb4255b591d822d504e0403c5e984" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>setSpecularStrength</name></member>
-      <member refid="classMR_1_1RadiusMeasurementObject_1a42db597cf6c86264265ae90f066d8b6b" prot="protected" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>setupRenderObject_</name></member>
+      <member refid="group__GeneralGroup_1ga42db597cf6c86264265ae90f066d8b6b" prot="protected" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>setupRenderObject_</name></member>
       <member refid="classMR_1_1VisualObject_1a12fceb01c325ff73eb770fa255cb5ecf" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>setUseDefaultScenePropertiesOnDeserialization</name></member>
       <member refid="classMR_1_1Object_1a01ca9dab857ceb8e3fad3d04d271ff0e" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>setVisibilityMask</name></member>
       <member refid="classMR_1_1Object_1a4f9e9d6e328f1eda7944805cf9d52dc0" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>setVisible</name></member>
       <member refid="classMR_1_1VisualObject_1a2bbb1d0c58312e6cec629c558dec4eb8" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>setVisualizeProperty</name></member>
       <member refid="classMR_1_1VisualObject_1acd4b651e989735ef689f9ed94bbf302d" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>setVisualizePropertyMask</name></member>
-      <member refid="classMR_1_1RadiusMeasurementObject_1a109a6f41417efadbe9e21c0a2054c9f5" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>setVisualLengthMultiplier</name></member>
+      <member refid="group__GeneralGroup_1ga109a6f41417efadbe9e21c0a2054c9f5" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>setVisualLengthMultiplier</name></member>
       <member refid="classMR_1_1Object_1a214e37583ccaa45d92895464c6de685d" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>setWorldXf</name></member>
       <member refid="classMR_1_1Object_1a2f9761f33c2e77153389c9b3583e013e" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>setXf</name></member>
       <member refid="classMR_1_1Object_1a6d2214b6fde4d128210f1421cc36176d" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>setXfsForAllViewports</name></member>
-      <member refid="classMR_1_1RadiusMeasurementObject_1a0a61e373c543440d50c5cb78476cba67" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>shallowClone</name></member>
+      <member refid="group__GeneralGroup_1ga0a61e373c543440d50c5cb78476cba67" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>shallowClone</name></member>
       <member refid="classMR_1_1Object_1ac8e64c569d24d04c1dfcfe7cb1511580" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>shallowCloneTree</name></member>
       <member refid="classMR_1_1VisualObject_1a88b3d55070a6a91ed592e80b0f925419" prot="protected" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>shininess_</name></member>
       <member refid="classMR_1_1VisualObject_1aa23cd40dfdaaebc073129fb1ba57dce7" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>showName</name></member>
@@ -973,23 +366,23 @@
       <member refid="classMR_1_1VisualObject_1a611894e7f98e2633137d75833e361781" prot="protected" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>showName_</name></member>
       <member refid="classMR_1_1Object_1a6f67ec7cbe1e69e514d8f0d5286a35da" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>sortChildren</name></member>
       <member refid="classMR_1_1VisualObject_1ab494630abaaab85d3b4c16929c7e6e83" prot="protected" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>specularStrength_</name></member>
-      <member refid="classMR_1_1RadiusMeasurementObject_1a1b31ef3d9ac06ac34606e827af83e73e" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>StaticClassName</name></member>
-      <member refid="classMR_1_1RadiusMeasurementObject_1ad34edafa6b258294076b7cdd69f1458a" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>StaticClassNameInPlural</name></member>
-      <member refid="classMR_1_1RadiusMeasurementObject_1a8e1bc5a5a8df9fe4e5232502abb77647" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>StaticTypeName</name></member>
+      <member refid="group__GeneralGroup_1ga1b31ef3d9ac06ac34606e827af83e73e" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>StaticClassName</name></member>
+      <member refid="group__GeneralGroup_1gad34edafa6b258294076b7cdd69f1458a" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>StaticClassNameInPlural</name></member>
+      <member refid="group__GeneralGroup_1ga8e1bc5a5a8df9fe4e5232502abb77647" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>StaticTypeName</name></member>
       <member refid="classMR_1_1VisualObject_1a17a87c846a1caa768c3043ee50bbd966" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>supportsVisualizeProperty</name></member>
       <member refid="classMR_1_1Object_1a39e506e0816b1d504e86a2823ee90cf3" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>swap</name></member>
-      <member refid="classMR_1_1RadiusMeasurementObject_1a144d0e6bad6b4589084b64ca9cdb9dea" prot="protected" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>swapBase_</name></member>
+      <member refid="group__GeneralGroup_1ga144d0e6bad6b4589084b64ca9cdb9dea" prot="protected" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>swapBase_</name></member>
       <member refid="classMR_1_1Object_1a82d2749fefb75e38b62dd69a52307680" prot="protected" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>swapSignals_</name></member>
       <member refid="classMR_1_1Object_1abf2e87d7dd67d22799d82a35ddecc7b3" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>tags</name></member>
       <member refid="classMR_1_1Object_1abf2154dc69866e93f47d7207cdb4abf4" prot="protected" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>tags_</name></member>
       <member refid="classMR_1_1VisualObject_1af63540ac95e6431477166fb4d1c249a3" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>toggleVisualizeProperty</name></member>
-      <member refid="classMR_1_1RadiusMeasurementObject_1ac9d73f6782e3918bf0f9b201f13db7af" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>typeName</name></member>
+      <member refid="group__GeneralGroup_1gac9d73f6782e3918bf0f9b201f13db7af" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>typeName</name></member>
       <member refid="classMR_1_1VisualObject_1a567b072f1d687c864a8be3d5e68d13a3" prot="protected" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>unselectedColor_</name></member>
       <member refid="classMR_1_1VisualObject_1a0466c6ddefdea403775b5b4fa4a46219" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
       <member refid="classMR_1_1VisualObject_1aeed6d251c7bdbffe0634b0fe96faab35" prot="protected" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>useDefaultScenePropertiesOnDeserialization_</name></member>
       <member refid="classMR_1_1Object_1a9363ba86191cc486fa554ea0d6238d05" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>visibilityMask</name></member>
       <member refid="classMR_1_1Object_1ae98466115f6fa8989c8628ff6ec54e9e" prot="protected" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>visibilityMask_</name></member>
-      <member refid="classMR_1_1RadiusMeasurementObject_1a0aebcc710899afc5d97d79d9b4d42829" prot="private" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>visualLengthMultiplier_</name></member>
+      <member refid="group__GeneralGroup_1ga0aebcc710899afc5d97d79d9b4d42829" prot="private" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>visualLengthMultiplier_</name></member>
       <member refid="classMR_1_1VisualObject_1a248a0efabc82874bd29ca605c2fb7481" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>VisualObject</name></member>
       <member refid="classMR_1_1VisualObject_1a95016bb1aefebfa8952ac3457cc57ee4" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>VisualObject</name></member>
       <member refid="classMR_1_1VisualObject_1a132f300dcd5614eaaa237b865dc79763" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>VisualObject</name></member>

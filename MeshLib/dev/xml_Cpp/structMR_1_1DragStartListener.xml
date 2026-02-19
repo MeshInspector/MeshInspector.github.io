@@ -5,88 +5,12 @@
     <basecompoundref refid="structMR_1_1ConnectionHolder" prot="public" virt="non-virtual">MR::ConnectionHolder</basecompoundref>
     <includes refid="MRViewerEventsListener_8h" local="no">MRViewerEventsListener.h</includes>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1DragStartListener_1ac6a6bacd8b05323ffb25b84889e75752" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::DragStartListener::MR_ADD_CTOR_DELETE_MOVE</definition>
-        <argsstring>(DragStartListener)</argsstring>
-        <name>MR_ADD_CTOR_DELETE_MOVE</name>
-        <qualifiedname>MR::DragStartListener::MR_ADD_CTOR_DELETE_MOVE</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1DragStartListener" kindref="compound">DragStartListener</ref></type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="97" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1DragStartListener_1a0e1547956da2a8144aa7d7e9a5d2a699" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type></type>
-        <definition>virtual MR::DragStartListener::~DragStartListener</definition>
-        <argsstring>()=default</argsstring>
-        <name>~DragStartListener</name>
-        <qualifiedname>MR::DragStartListener::~DragStartListener</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="98" column="13"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1DragStartListener_1a98c332040cb92fd08b5cad7223f9f97e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>virtual MRVIEWER_API void MR::DragStartListener::connect</definition>
-        <argsstring>(Viewer *viewer, int group, boost::signals2::connect_position pos) override</argsstring>
-        <name>connect</name>
-        <qualifiedname>MR::DragStartListener::connect</qualifiedname>
-        <reimplements refid="structMR_1_1IConnectable_1a2212095d3996892cff578320ac2ce746">connect</reimplements>
-        <param>
-          <type><ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref> *</type>
-          <declname>viewer</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>group</declname>
-        </param>
-        <param>
-          <type>boost::signals2::connect_position</type>
-          <declname>pos</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="99" column="31"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gac6a6bacd8b05323ffb25b84889e75752" kind="function"><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1ga0e1547956da2a8144aa7d7e9a5d2a699" kind="function"><name>~DragStartListener</name></member>
+      <member refid="group__GeneralGroup_1ga98c332040cb92fd08b5cad7223f9f97e" kind="function"><name>connect</name></member>
     </sectiondef>
     <sectiondef kind="protected-func">
-      <memberdef kind="function" id="structMR_1_1DragStartListener_1ade7bc14ccb341a505dccf4150a046bb3" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::DragStartListener::onDragStart_</definition>
-        <argsstring>(MouseButton btn, int modifiers)=0</argsstring>
-        <name>onDragStart_</name>
-        <qualifiedname>MR::DragStartListener::onDragStart_</qualifiedname>
-        <param>
-          <type><ref refid="namespaceMR_1a13f98b7840e7298925ef1770b7cdb62d" kindref="member">MouseButton</ref></type>
-          <declname>btn</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>modifiers</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="101" column="18"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gade7bc14ccb341a505dccf4150a046bb3" kind="function"><name>onDragStart_</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -128,16 +52,16 @@
         <link refid="structMR_1_1IConnectable"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="95" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="96" bodyend="102"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="98" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="99" bodyend="105"/>
     <listofallmembers>
-      <member refid="structMR_1_1DragStartListener_1a98c332040cb92fd08b5cad7223f9f97e" prot="public" virt="virtual"><scope>MR::DragStartListener</scope><name>connect</name></member>
-      <member refid="structMR_1_1ConnectionHolder_1a56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::DragStartListener</scope><name>connection_</name></member>
-      <member refid="structMR_1_1ConnectionHolder_1afe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::DragStartListener</scope><name>disconnect</name></member>
-      <member refid="structMR_1_1DragStartListener_1ac6a6bacd8b05323ffb25b84889e75752" prot="public" virt="non-virtual"><scope>MR::DragStartListener</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
-      <member refid="structMR_1_1DragStartListener_1ade7bc14ccb341a505dccf4150a046bb3" prot="protected" virt="pure-virtual"><scope>MR::DragStartListener</scope><name>onDragStart_</name></member>
-      <member refid="structMR_1_1ConnectionHolder_1a99ffc44dd73f73e2e907b7ab5bb38aaf" prot="public" virt="virtual"><scope>MR::DragStartListener</scope><name>~ConnectionHolder</name></member>
-      <member refid="structMR_1_1DragStartListener_1a0e1547956da2a8144aa7d7e9a5d2a699" prot="public" virt="virtual"><scope>MR::DragStartListener</scope><name>~DragStartListener</name></member>
-      <member refid="structMR_1_1IConnectable_1a28c07761e682b80befbb2d5f91bdd38c" prot="public" virt="virtual"><scope>MR::DragStartListener</scope><name>~IConnectable</name></member>
+      <member refid="group__GeneralGroup_1ga98c332040cb92fd08b5cad7223f9f97e" prot="public" virt="virtual"><scope>MR::DragStartListener</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1ga56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::DragStartListener</scope><name>connection_</name></member>
+      <member refid="group__GeneralGroup_1gafe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::DragStartListener</scope><name>disconnect</name></member>
+      <member refid="group__GeneralGroup_1gac6a6bacd8b05323ffb25b84889e75752" prot="public" virt="non-virtual"><scope>MR::DragStartListener</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1gade7bc14ccb341a505dccf4150a046bb3" prot="protected" virt="pure-virtual"><scope>MR::DragStartListener</scope><name>onDragStart_</name></member>
+      <member refid="group__GeneralGroup_1ga99ffc44dd73f73e2e907b7ab5bb38aaf" prot="public" virt="virtual"><scope>MR::DragStartListener</scope><name>~ConnectionHolder</name></member>
+      <member refid="group__GeneralGroup_1ga0e1547956da2a8144aa7d7e9a5d2a699" prot="public" virt="virtual"><scope>MR::DragStartListener</scope><name>~DragStartListener</name></member>
+      <member refid="group__GeneralGroup_1ga28c07761e682b80befbb2d5f91bdd38c" prot="public" virt="virtual"><scope>MR::DragStartListener</scope><name>~IConnectable</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -56,7 +56,7 @@
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="namespaceMR_1_1FillingSurface_1_1TPMS_1afb2c96162c63b5ca2d5a82db8fdb91ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> std::vector&lt; std::string &gt;</type>
+        <type>MRVOXELS_API std::vector&lt; std::string &gt;</type>
         <definition>MRVOXELS_API std::vector&lt; std::string &gt; MR::FillingSurface::TPMS::getTypeNames</definition>
         <argsstring>()</argsstring>
         <name>getTypeNames</name>
@@ -71,7 +71,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFillingSurface.h" line="30" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFillingSurface.h" declline="30" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1FillingSurface_1_1TPMS_1a576e36c9ce6915d80e9d42b035c6bd84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> std::vector&lt; std::string &gt;</type>
+        <type>MRVOXELS_API std::vector&lt; std::string &gt;</type>
         <definition>MRVOXELS_API std::vector&lt; std::string &gt; MR::FillingSurface::TPMS::getTypeTooltips</definition>
         <argsstring>()</argsstring>
         <name>getTypeTooltips</name>
@@ -86,7 +86,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFillingSurface.h" line="33" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFillingSurface.h" declline="33" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1FillingSurface_1_1TPMS_1a6b3110f95a9c1eac399d99ef7e699658" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> bool</type>
+        <type>MRVOXELS_API bool</type>
         <definition>MRVOXELS_API bool MR::FillingSurface::TPMS::isThick</definition>
         <argsstring>(Type type)</argsstring>
         <name>isThick</name>
@@ -105,7 +105,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFillingSurface.h" line="36" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFillingSurface.h" declline="36" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1FillingSurface_1_1TPMS_1af995ecaf283d8df86fa127d17b0509b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> FunctionVolume</type>
+        <type>MRVOXELS_API FunctionVolume</type>
         <definition>MRVOXELS_API FunctionVolume MR::FillingSurface::TPMS::buildVolume</definition>
         <argsstring>(const Vector3f &amp;size, const VolumeParams &amp;params)</argsstring>
         <name>buildVolume</name>
@@ -139,7 +139,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFillingSurface.h" line="55" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFillingSurface.h" declline="55" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1FillingSurface_1_1TPMS_1ac279f46943c72b996f09709527a23b94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
+        <type>MRVOXELS_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
         <definition>MRVOXELS_API Expected&lt; Mesh &gt; MR::FillingSurface::TPMS::build</definition>
         <argsstring>(const Vector3f &amp;size, const MeshParams &amp;params, ProgressCallback cb={})</argsstring>
         <name>build</name>
@@ -153,7 +153,7 @@
           <declname>params</declname>
         </param>
         <param>
-          <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+          <type>ProgressCallback</type>
           <declname>cb</declname>
           <defval>{}</defval>
         </param>
@@ -167,7 +167,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFillingSurface.h" line="58" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFillingSurface.h" declline="58" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1FillingSurface_1_1TPMS_1ac2d8b5eeae913a1894e1d976fc058189" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
+        <type>MRVOXELS_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
         <definition>MRVOXELS_API Expected&lt; Mesh &gt; MR::FillingSurface::TPMS::fill</definition>
         <argsstring>(const Mesh &amp;mesh, const MeshParams &amp;params, ProgressCallback cb={})</argsstring>
         <name>fill</name>
@@ -181,7 +181,7 @@
           <declname>params</declname>
         </param>
         <param>
-          <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+          <type>ProgressCallback</type>
           <declname>cb</declname>
           <defval>{}</defval>
         </param>
@@ -195,7 +195,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFillingSurface.h" line="61" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFillingSurface.h" declline="61" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1FillingSurface_1_1TPMS_1a98a6ccc16ae5ee2e79ea749544cb3207" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> size_t</type>
+        <type>MRVOXELS_API size_t</type>
         <definition>MRVOXELS_API size_t MR::FillingSurface::TPMS::getNumberOfVoxels</definition>
         <argsstring>(const Mesh &amp;mesh, float frequency, float resolution)</argsstring>
         <name>getNumberOfVoxels</name>
@@ -222,7 +222,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFillingSurface.h" line="64" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFillingSurface.h" declline="64" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1FillingSurface_1_1TPMS_1a402faa69d015cbefe93eda12fccde96c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> size_t</type>
+        <type>MRVOXELS_API size_t</type>
         <definition>MRVOXELS_API size_t MR::FillingSurface::TPMS::getNumberOfVoxels</definition>
         <argsstring>(const Vector3f &amp;size, float frequency, float resolution)</argsstring>
         <name>getNumberOfVoxels</name>
@@ -249,7 +249,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFillingSurface.h" line="67" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFillingSurface.h" declline="67" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1FillingSurface_1_1TPMS_1a4f46e2d5cd288b554840b44e8cb0976c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> float</type>
+        <type>MRVOXELS_API float</type>
         <definition>MRVOXELS_API float MR::FillingSurface::TPMS::estimateIso</definition>
         <argsstring>(Type type, float targetDensity)</argsstring>
         <name>estimateIso</name>
@@ -283,7 +283,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFillingSurface.h" line="72" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFillingSurface.h" declline="72" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1FillingSurface_1_1TPMS_1af9a30229292b2ad95c3660d9960c6184" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> float</type>
+        <type>MRVOXELS_API float</type>
         <definition>MRVOXELS_API float MR::FillingSurface::TPMS::estimateDensity</definition>
         <argsstring>(Type type, float targetIso)</argsstring>
         <name>estimateDensity</name>
@@ -317,7 +317,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFillingSurface.h" line="77" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFillingSurface.h" declline="77" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1FillingSurface_1_1TPMS_1ab0d1aebd6cc73b3069dce7896b8a8ce4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> float</type>
+        <type>MRVOXELS_API float</type>
         <definition>MRVOXELS_API float MR::FillingSurface::TPMS::getMinimalResolution</definition>
         <argsstring>(Type type, float iso)</argsstring>
         <name>getMinimalResolution</name>

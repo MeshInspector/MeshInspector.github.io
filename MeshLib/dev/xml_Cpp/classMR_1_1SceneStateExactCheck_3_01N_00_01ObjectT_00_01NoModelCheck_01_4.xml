@@ -15,39 +15,8 @@
       </param>
     </templateparamlist>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4_1a188ad7b9cba3b6b3dfe51322b6cc4d57" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type></type>
-        <definition>virtual MR::SceneStateExactCheck&lt; N, ObjectT, NoModelCheck &gt;::~SceneStateExactCheck</definition>
-        <argsstring>()=default</argsstring>
-        <name>~SceneStateExactCheck</name>
-        <qualifiedname>MR::SceneStateExactCheck&lt; N, ObjectT, NoModelCheck &gt;::~SceneStateExactCheck</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" line="112" column="13"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4_1a9bad11c660c059c865bbaa6a8285ab04" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>std::string</type>
-        <definition>virtual std::string MR::SceneStateExactCheck&lt; N, ObjectT, NoModelCheck &gt;::isAvailable</definition>
-        <argsstring>(const std::vector&lt; std::shared_ptr&lt; const Object &gt; &gt; &amp;objs) const override</argsstring>
-        <name>isAvailable</name>
-        <qualifiedname>MR::SceneStateExactCheck&lt; N, ObjectT, NoModelCheck &gt;::isAvailable</qualifiedname>
-        <reimplements refid="classMR_1_1ISceneStateCheck_1adedf10c80ddfebcb456559fa828065c0">isAvailable</reimplements>
-        <param>
-          <type>const std::vector&lt; std::shared_ptr&lt; const <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt; &amp;</type>
-        </param>
-        <briefdescription>
-<para>return empty string if all requirements are satisfied, otherwise return first unsatisfied requirement </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" line="113" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" bodystart="113" bodyend="116"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga188ad7b9cba3b6b3dfe51322b6cc4d57" kind="function"><name>~SceneStateExactCheck</name></member>
+      <member refid="group__GeneralGroup_1ga9bad11c660c059c865bbaa6a8285ab04" kind="function"><name>isAvailable</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -77,11 +46,11 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" line="109" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" bodystart="110" bodyend="117"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" line="112" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" bodystart="113" bodyend="120"/>
     <listofallmembers>
-      <member refid="classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4_1a9bad11c660c059c865bbaa6a8285ab04" prot="public" virt="virtual"><scope>MR::SceneStateExactCheck&lt; N, ObjectT, NoModelCheck &gt;</scope><name>isAvailable</name></member>
-      <member refid="classMR_1_1ISceneStateCheck_1ad6d7bd5bc97dd4a629de5e0a33af3afe" prot="public" virt="virtual"><scope>MR::SceneStateExactCheck&lt; N, ObjectT, NoModelCheck &gt;</scope><name>~ISceneStateCheck</name></member>
-      <member refid="classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4_1a188ad7b9cba3b6b3dfe51322b6cc4d57" prot="public" virt="virtual"><scope>MR::SceneStateExactCheck&lt; N, ObjectT, NoModelCheck &gt;</scope><name>~SceneStateExactCheck</name></member>
+      <member refid="group__GeneralGroup_1ga9bad11c660c059c865bbaa6a8285ab04" prot="public" virt="virtual"><scope>MR::SceneStateExactCheck&lt; N, ObjectT, NoModelCheck &gt;</scope><name>isAvailable</name></member>
+      <member refid="group__GeneralGroup_1gad6d7bd5bc97dd4a629de5e0a33af3afe" prot="public" virt="virtual"><scope>MR::SceneStateExactCheck&lt; N, ObjectT, NoModelCheck &gt;</scope><name>~ISceneStateCheck</name></member>
+      <member refid="group__GeneralGroup_1ga188ad7b9cba3b6b3dfe51322b6cc4d57" prot="public" virt="virtual"><scope>MR::SceneStateExactCheck&lt; N, ObjectT, NoModelCheck &gt;</scope><name>~SceneStateExactCheck</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

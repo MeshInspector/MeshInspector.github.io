@@ -9,263 +9,40 @@
       </param>
     </templateparamlist>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="classMR_1_1Cone3_1a18ef80872ba6b6384ae2944f85f8b214" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1a7eef389e2e2dd24fc59576c7ad184eb5" kindref="member">Line3</ref>&lt; T &gt;</type>
-        <definition>Line3&lt;T&gt; MR::Cone3&lt; T &gt;::axis</definition>
-        <argsstring></argsstring>
-        <name>axis</name>
-        <qualifiedname>MR::Cone3::axis</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCone3.h" line="88" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCone3.h" bodystart="88" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1Cone3_1a17cbe4ac01d2a5bacfd1909eeccb9488" prot="public" static="no" mutable="no">
-        <type>T</type>
-        <definition>T MR::Cone3&lt; T &gt;::angle</definition>
-        <argsstring></argsstring>
-        <name>angle</name>
-        <qualifiedname>MR::Cone3::angle</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-<para>for any cone point dot( point , direction ) &gt;=0 </para>
-        </briefdescription>
-        <detaileddescription>
-<para>the combination of the apex of the cone and the direction of its main axis in space. <linebreak/>
- </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCone3.h" line="90" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCone3.h" bodystart="90" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1Cone3_1a1837f049b2e30d91b8cc20a4109d7e87" prot="public" static="no" mutable="no">
-        <type>T</type>
-        <definition>T MR::Cone3&lt; T &gt;::height</definition>
-        <argsstring></argsstring>
-        <name>height</name>
-        <qualifiedname>MR::Cone3::height</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-<para>cone angle, main axis vs side </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCone3.h" line="91" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCone3.h" bodystart="91" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga18ef80872ba6b6384ae2944f85f8b214" kind="variable"><name>axis</name></member>
+      <member refid="group__GeneralGroup_1ga17cbe4ac01d2a5bacfd1909eeccb9488" kind="variable"><name>angle</name></member>
+      <member refid="group__GeneralGroup_1ga1837f049b2e30d91b8cc20a4109d7e87" kind="variable"><name>height</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1Cone3_1a3b72d0a9806c94f23088c93a9194c0a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::Cone3&lt; T &gt;::Cone3</definition>
-        <argsstring>()</argsstring>
-        <name>Cone3</name>
-        <qualifiedname>MR::Cone3::Cone3</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCone3.h" line="13" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCone3.h" bodystart="13" bodyend="14"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Cone3_1a9817b87c594215632a78e6650fa88d0a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::Cone3&lt; T &gt;::Cone3</definition>
-        <argsstring>(const Line3&lt; T &gt; &amp;inAxis, T inAngle, T inHeight)</argsstring>
-        <name>Cone3</name>
-        <qualifiedname>MR::Cone3::Cone3</qualifiedname>
-        <param>
-          <type>const <ref refid="namespaceMR_1a7eef389e2e2dd24fc59576c7ad184eb5" kindref="member">Line3</ref>&lt; T &gt; &amp;</type>
-          <declname>inAxis</declname>
-        </param>
-        <param>
-          <type>T</type>
-          <declname>inAngle</declname>
-        </param>
-        <param>
-          <type>T</type>
-          <declname>inHeight</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>inAxis <ndash/> apex position and main axis direction. For any cone point dot( point , direction ) &gt;=0 inAngle <ndash/> cone angle, main axis vs side inHeight <ndash/> cone inHeight main axis direction could be non normalized. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCone3.h" line="20" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCone3.h" bodystart="20" bodyend="25"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Cone3_1a9d99981f78f15a799d2d967ef61952e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
-        <definition>Vector3&lt; T &gt; &amp; MR::Cone3&lt; T &gt;::center</definition>
-        <argsstring>(void)</argsstring>
-        <name>center</name>
-        <qualifiedname>MR::Cone3::center</qualifiedname>
-        <param>
-          <type>void</type>
-        </param>
-        <briefdescription>
-<para>now we use an apex as center of the cone. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCone3.h" line="28" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCone3.h" bodystart="28" bodyend="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Cone3_1a71e24f8cd64c8b295a0728e1fe3cd89b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
-        <definition>const Vector3&lt; T &gt; &amp; MR::Cone3&lt; T &gt;::center</definition>
-        <argsstring>(void) const</argsstring>
-        <name>center</name>
-        <qualifiedname>MR::Cone3::center</qualifiedname>
-        <param>
-          <type>void</type>
-        </param>
-        <briefdescription>
-<para>now we use an apex as center of the cone. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCone3.h" line="33" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCone3.h" bodystart="33" bodyend="36"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Cone3_1aaac517326bd964d483c9f408a07f10c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
-        <definition>Vector3&lt; T &gt; &amp; MR::Cone3&lt; T &gt;::direction</definition>
-        <argsstring>(void)</argsstring>
-        <name>direction</name>
-        <qualifiedname>MR::Cone3::direction</qualifiedname>
-        <param>
-          <type>void</type>
-        </param>
-        <briefdescription>
-<para>main axis direction. It could be non normalized. For any cone point dot( point , direction ) &gt;=0 </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCone3.h" line="38" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCone3.h" bodystart="38" bodyend="41"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Cone3_1a030ac5683486a3d6996e231d7aca3fc8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
-        <definition>const Vector3&lt; T &gt; &amp; MR::Cone3&lt; T &gt;::direction</definition>
-        <argsstring>(void) const</argsstring>
-        <name>direction</name>
-        <qualifiedname>MR::Cone3::direction</qualifiedname>
-        <param>
-          <type>void</type>
-        </param>
-        <briefdescription>
-<para>main axis direction. It could be non normalized. For any cone point dot( point , direction ) &gt;=0 </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCone3.h" line="43" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCone3.h" bodystart="43" bodyend="46"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Cone3_1a8cae3c41514d0e93897e1565c8e41c84" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
-        <definition>Vector3&lt; T &gt; &amp; MR::Cone3&lt; T &gt;::apex</definition>
-        <argsstring>(void)</argsstring>
-        <name>apex</name>
-        <qualifiedname>MR::Cone3::apex</qualifiedname>
-        <param>
-          <type>void</type>
-        </param>
-        <briefdescription>
-<para>return cone apex position </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCone3.h" line="48" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCone3.h" bodystart="48" bodyend="51"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Cone3_1ac3882ccfb731b365aa800f7fd49c51ef" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
-        <definition>const Vector3&lt; T &gt; &amp; MR::Cone3&lt; T &gt;::apex</definition>
-        <argsstring>(void) const</argsstring>
-        <name>apex</name>
-        <qualifiedname>MR::Cone3::apex</qualifiedname>
-        <param>
-          <type>void</type>
-        </param>
-        <briefdescription>
-<para>return cone apex position </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCone3.h" line="53" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCone3.h" bodystart="53" bodyend="56"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Cone3_1ac88828ed52ec42c8758c744ff1fdaf20" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt;</type>
-        <definition>Vector3&lt; T &gt; MR::Cone3&lt; T &gt;::projectPoint</definition>
-        <argsstring>(const Vector3&lt; T &gt; &amp;point) const</argsstring>
-        <name>projectPoint</name>
-        <qualifiedname>MR::Cone3::projectPoint</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
-          <declname>point</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-<para>Get direction, center, and angle of the cone from the specified viewport</para>
-<para>Calculate vector X as the difference between the point and the center of the cone</para>
-<para>Calculate the angle between vectors n (cone main axis) and X (center normalyzed source point)</para>
-<para>This means the projection will fall on the apex of the cone.</para>
-<para>Project vector X onto the cone main axis</para>
-<para>We find the point of intersection of the vector XK with the surface of the cone and find a guide ventor along the surface of the cone to the projection point</para>
-<para>Calculate the projected point on the conical surface</para>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCone3.h" line="58" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCone3.h" bodystart="58" bodyend="85"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga3b72d0a9806c94f23088c93a9194c0a6" kind="function"><name>Cone3</name></member>
+      <member refid="group__GeneralGroup_1ga9817b87c594215632a78e6650fa88d0a" kind="function"><name>Cone3</name></member>
+      <member refid="group__GeneralGroup_1ga9d99981f78f15a799d2d967ef61952e9" kind="function"><name>center</name></member>
+      <member refid="group__GeneralGroup_1ga71e24f8cd64c8b295a0728e1fe3cd89b" kind="function"><name>center</name></member>
+      <member refid="group__GeneralGroup_1gaaac517326bd964d483c9f408a07f10c6" kind="function"><name>direction</name></member>
+      <member refid="group__GeneralGroup_1ga030ac5683486a3d6996e231d7aca3fc8" kind="function"><name>direction</name></member>
+      <member refid="group__GeneralGroup_1ga8cae3c41514d0e93897e1565c8e41c84" kind="function"><name>apex</name></member>
+      <member refid="group__GeneralGroup_1gac3882ccfb731b365aa800f7fd49c51ef" kind="function"><name>apex</name></member>
+      <member refid="group__GeneralGroup_1gac88828ed52ec42c8758c744ff1fdaf20" kind="function"><name>projectPoint</name></member>
     </sectiondef>
     <briefdescription>
 <para>Base class for cone parameterization. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="1">
-        <label>MR::Cone3&lt; T &gt;</label>
-        <link refid="classMR_1_1Cone3"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>axis</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
-        <label>MR::Line&lt; T &gt;</label>
-        <link refid="structMR_1_1Line"/>
-      </node>
-    </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCone3.h" line="10" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCone3.h" bodystart="11" bodyend="92"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCone3.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCone3.h" bodystart="14" bodyend="95"/>
     <listofallmembers>
-      <member refid="classMR_1_1Cone3_1a17cbe4ac01d2a5bacfd1909eeccb9488" prot="public" virt="non-virtual"><scope>MR::Cone3</scope><name>angle</name></member>
-      <member refid="classMR_1_1Cone3_1a8cae3c41514d0e93897e1565c8e41c84" prot="public" virt="non-virtual"><scope>MR::Cone3</scope><name>apex</name></member>
-      <member refid="classMR_1_1Cone3_1ac3882ccfb731b365aa800f7fd49c51ef" prot="public" virt="non-virtual"><scope>MR::Cone3</scope><name>apex</name></member>
-      <member refid="classMR_1_1Cone3_1a18ef80872ba6b6384ae2944f85f8b214" prot="public" virt="non-virtual"><scope>MR::Cone3</scope><name>axis</name></member>
-      <member refid="classMR_1_1Cone3_1a9d99981f78f15a799d2d967ef61952e9" prot="public" virt="non-virtual"><scope>MR::Cone3</scope><name>center</name></member>
-      <member refid="classMR_1_1Cone3_1a71e24f8cd64c8b295a0728e1fe3cd89b" prot="public" virt="non-virtual"><scope>MR::Cone3</scope><name>center</name></member>
-      <member refid="classMR_1_1Cone3_1a3b72d0a9806c94f23088c93a9194c0a6" prot="public" virt="non-virtual"><scope>MR::Cone3</scope><name>Cone3</name></member>
-      <member refid="classMR_1_1Cone3_1a9817b87c594215632a78e6650fa88d0a" prot="public" virt="non-virtual"><scope>MR::Cone3</scope><name>Cone3</name></member>
-      <member refid="classMR_1_1Cone3_1aaac517326bd964d483c9f408a07f10c6" prot="public" virt="non-virtual"><scope>MR::Cone3</scope><name>direction</name></member>
-      <member refid="classMR_1_1Cone3_1a030ac5683486a3d6996e231d7aca3fc8" prot="public" virt="non-virtual"><scope>MR::Cone3</scope><name>direction</name></member>
-      <member refid="classMR_1_1Cone3_1a1837f049b2e30d91b8cc20a4109d7e87" prot="public" virt="non-virtual"><scope>MR::Cone3</scope><name>height</name></member>
-      <member refid="classMR_1_1Cone3_1ac88828ed52ec42c8758c744ff1fdaf20" prot="public" virt="non-virtual"><scope>MR::Cone3</scope><name>projectPoint</name></member>
+      <member refid="group__GeneralGroup_1ga17cbe4ac01d2a5bacfd1909eeccb9488" prot="public" virt="non-virtual"><scope>MR::Cone3</scope><name>angle</name></member>
+      <member refid="group__GeneralGroup_1ga8cae3c41514d0e93897e1565c8e41c84" prot="public" virt="non-virtual"><scope>MR::Cone3</scope><name>apex</name></member>
+      <member refid="group__GeneralGroup_1gac3882ccfb731b365aa800f7fd49c51ef" prot="public" virt="non-virtual"><scope>MR::Cone3</scope><name>apex</name></member>
+      <member refid="group__GeneralGroup_1ga18ef80872ba6b6384ae2944f85f8b214" prot="public" virt="non-virtual"><scope>MR::Cone3</scope><name>axis</name></member>
+      <member refid="group__GeneralGroup_1ga9d99981f78f15a799d2d967ef61952e9" prot="public" virt="non-virtual"><scope>MR::Cone3</scope><name>center</name></member>
+      <member refid="group__GeneralGroup_1ga71e24f8cd64c8b295a0728e1fe3cd89b" prot="public" virt="non-virtual"><scope>MR::Cone3</scope><name>center</name></member>
+      <member refid="group__GeneralGroup_1ga3b72d0a9806c94f23088c93a9194c0a6" prot="public" virt="non-virtual"><scope>MR::Cone3</scope><name>Cone3</name></member>
+      <member refid="group__GeneralGroup_1ga9817b87c594215632a78e6650fa88d0a" prot="public" virt="non-virtual"><scope>MR::Cone3</scope><name>Cone3</name></member>
+      <member refid="group__GeneralGroup_1gaaac517326bd964d483c9f408a07f10c6" prot="public" virt="non-virtual"><scope>MR::Cone3</scope><name>direction</name></member>
+      <member refid="group__GeneralGroup_1ga030ac5683486a3d6996e231d7aca3fc8" prot="public" virt="non-virtual"><scope>MR::Cone3</scope><name>direction</name></member>
+      <member refid="group__GeneralGroup_1ga1837f049b2e30d91b8cc20a4109d7e87" prot="public" virt="non-virtual"><scope>MR::Cone3</scope><name>height</name></member>
+      <member refid="group__GeneralGroup_1gac88828ed52ec42c8758c744ff1fdaf20" prot="public" virt="non-virtual"><scope>MR::Cone3</scope><name>projectPoint</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

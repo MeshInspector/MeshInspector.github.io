@@ -10,377 +10,31 @@
       </param>
     </templateparamlist>
     <sectiondef kind="public-type">
-      <memberdef kind="typedef" id="classMR_1_1Id_1ac2e242e118fdd8b3a6309347d48a6c84" prot="public" static="no">
-        <type>int</type>
-        <definition>using MR::Id&lt; T &gt;::ValueType =  int</definition>
-        <argsstring></argsstring>
-        <name>ValueType</name>
-        <qualifiedname>MR::Id::ValueType</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="18" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gac2e242e118fdd8b3a6309347d48a6c84" kind="typedef"><name>ValueType</name></member>
     </sectiondef>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1Id_1ab442087e0c922ef9c3246e9c1bd35bec" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1Id_1ac2e242e118fdd8b3a6309347d48a6c84" kindref="member">ValueType</ref></type>
-        <definition>ValueType MR::Id&lt; T &gt;::id_</definition>
-        <argsstring></argsstring>
-        <name>id_</name>
-        <qualifiedname>MR::Id::id_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Allocating IDs on the heap in C is insufferable, so instead we bind them as single-member structs (via <computeroutput>--expose-as-struct</computeroutput>). But since our parser only tracks public members, we have to make it public for C. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="71" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="71" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gab442087e0c922ef9c3246e9c1bd35bec" kind="variable"><name>id_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1Id_1ab0e4ef6dbed8084af5b947ea4f8152e4" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>constexpr</type>
-        <definition>MR::Id&lt; T &gt;::Id</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>Id</name>
-        <qualifiedname>MR::Id::Id</qualifiedname>
-        <briefdescription>
-<para>the type used for internal representation of <ref refid="classMR_1_1Id" kindref="compound">Id</ref> </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="20" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="20" bodyend="20"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Id_1a626cffc98ec4b785d986aca365ed6ce2" prot="public" static="no" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::Id&lt; T &gt;::Id</definition>
-        <argsstring>(NoInit) noexcept</argsstring>
-        <name>Id</name>
-        <qualifiedname>MR::Id::Id</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1NoInit" kindref="compound">NoInit</ref></type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="21" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="21" bodyend="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Id_1ac573497158345a22e16a44734a469638" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename U</type>
-            <defval>int</defval>
-          </param>
-          <param>
-            <type>std::enable_if_t&lt; std::is_integral_v&lt; U &gt;, std::nullptr_t &gt;</type>
-            <defval>nullptr</defval>
-          </param>
-        </templateparamlist>
-        <type>constexpr</type>
-        <definition>MR::Id&lt; T &gt;::Id</definition>
-        <argsstring>(U i) noexcept</argsstring>
-        <name>Id</name>
-        <qualifiedname>MR::Id::Id</qualifiedname>
-        <param>
-          <type>U</type>
-          <declname>i</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Allow constructing from <computeroutput>int</computeroutput> and other integral types. This constructor is written like this instead of a plain <computeroutput>Id(int)</computeroutput>, because we also wish to disable construction from other unrelated <computeroutput><ref refid="classMR_1_1Id" kindref="compound">Id</ref>&lt;U&gt;</computeroutput> specializations, which themselves have implicit conversions to <computeroutput>int</computeroutput>. We could also achieve that using <computeroutput>template &lt;typename U&gt; <ref refid="classMR_1_1Id" kindref="compound">Id</ref>(<ref refid="classMR_1_1Id" kindref="compound">Id</ref>&lt;U&gt;) = delete;</computeroutput>, but it turns out that that causes issues for the <computeroutput>EdgeId::operator UndirectedEdgeId</computeroutput> below. There, while <computeroutput>UndirectedEdgeId x = EdgeId{};</computeroutput> compiles with this approach, but <computeroutput>UndirectedEdgeId x(EdgeId{});</computeroutput> doesn&apos;t. So to allow both forms, this constructor must be written this way, as a template. The <computeroutput>= int</computeroutput> is there only to make the bindings emit this constructor, I don&apos;t think it affects anything else. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="38" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="38" bodyend="38"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Id_1a2934bfe0258901c3de2c82cbfb95649f" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>constexpr</type>
-        <definition>MR::Id&lt; T &gt;::operator ValueType</definition>
-        <argsstring>() const</argsstring>
-        <name>operator ValueType</name>
-        <qualifiedname>MR::Id::operator ValueType</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="40" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="40" bodyend="40"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Id_1a7a52efda314a702396938241eecfd7c6" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::Id&lt; T &gt;::valid</definition>
-        <argsstring>() const</argsstring>
-        <name>valid</name>
-        <qualifiedname>MR::Id::valid</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="41" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="41" bodyend="41"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Id_1a4a60520ea485fc36672fcc617904ec8b" prot="public" static="no" constexpr="yes" const="yes" explicit="yes" inline="yes" virt="non-virtual">
-        <type>constexpr</type>
-        <definition>MR::Id&lt; T &gt;::operator bool</definition>
-        <argsstring>() const</argsstring>
-        <name>operator bool</name>
-        <qualifiedname>MR::Id::operator bool</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="42" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="42" bodyend="42"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Id_1aba62ab281df54c9782b7668d99d28d1e" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type><ref refid="classMR_1_1Id_1ac2e242e118fdd8b3a6309347d48a6c84" kindref="member">ValueType</ref> &amp;</type>
-        <definition>ValueType &amp; MR::Id&lt; T &gt;::get</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>get</name>
-        <qualifiedname>MR::Id::get</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="43" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="43" bodyend="43"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Id_1a69e71f7eccd4394df5270d18ba65d9fa" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::Id&lt; T &gt;::operator==</definition>
-        <argsstring>(Id b) const</argsstring>
-        <name>operator==</name>
-        <qualifiedname>MR::Id::operator==</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Id" kindref="compound">Id</ref></type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="45" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="45" bodyend="45"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Id_1a4520e77218d93f5eab7d6c96d1063928" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::Id&lt; T &gt;::operator!=</definition>
-        <argsstring>(Id b) const</argsstring>
-        <name>operator!=</name>
-        <qualifiedname>MR::Id::operator!=</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Id" kindref="compound">Id</ref></type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="46" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="46" bodyend="46"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Id_1ab8ef9b37a66b62f818ad27e9c7254639" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::Id&lt; T &gt;::operator&lt;</definition>
-        <argsstring>(Id b) const</argsstring>
-        <name>operator&lt;</name>
-        <qualifiedname>MR::Id::operator&lt;</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Id" kindref="compound">Id</ref></type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="47" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="47" bodyend="47"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Id_1a7c7043e20a8cf042d1226981a110f20a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename U</type>
-          </param>
-        </templateparamlist>
-        <type>bool</type>
-        <definition>bool MR::Id&lt; T &gt;::operator==</definition>
-        <argsstring>(Id&lt; U &gt; b) const =delete</argsstring>
-        <name>operator==</name>
-        <qualifiedname>MR::Id::operator==</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Id" kindref="compound">Id</ref>&lt; U &gt;</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="50" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Id_1ab7126489241766dc9ca77ef7cee5e59e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename U</type>
-          </param>
-        </templateparamlist>
-        <type>bool</type>
-        <definition>bool MR::Id&lt; T &gt;::operator!=</definition>
-        <argsstring>(Id&lt; U &gt; b) const =delete</argsstring>
-        <name>operator!=</name>
-        <qualifiedname>MR::Id::operator!=</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Id" kindref="compound">Id</ref>&lt; U &gt;</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="52" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Id_1a37c3298137bb0d2cff18a941a11ccb95" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename U</type>
-          </param>
-        </templateparamlist>
-        <type>bool</type>
-        <definition>bool MR::Id&lt; T &gt;::operator&lt;</definition>
-        <argsstring>(Id&lt; U &gt; b) const =delete</argsstring>
-        <name>operator&lt;</name>
-        <qualifiedname>MR::Id::operator&lt;</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Id" kindref="compound">Id</ref>&lt; U &gt;</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="54" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Id_1aa025a93f59608fa768e6c67c2ed2d930" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="classMR_1_1Id" kindref="compound">Id</ref> &amp;</type>
-        <definition>Id &amp; MR::Id&lt; T &gt;::operator--</definition>
-        <argsstring>()</argsstring>
-        <name>operator--</name>
-        <qualifiedname>MR::Id::operator--</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="56" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="56" bodyend="56"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Id_1a486ff99f7b871f6fabf9e89f788f418d" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="classMR_1_1Id" kindref="compound">Id</ref> &amp;</type>
-        <definition>Id &amp; MR::Id&lt; T &gt;::operator++</definition>
-        <argsstring>()</argsstring>
-        <name>operator++</name>
-        <qualifiedname>MR::Id::operator++</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="57" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="57" bodyend="57"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Id_1ae510e5ee2184f084298cf60b0534fa8a" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="classMR_1_1Id" kindref="compound">Id</ref></type>
-        <definition>Id MR::Id&lt; T &gt;::operator--</definition>
-        <argsstring>(int)</argsstring>
-        <name>operator--</name>
-        <qualifiedname>MR::Id::operator--</qualifiedname>
-        <param>
-          <type>int</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="59" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="59" bodyend="59"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Id_1ab6025e536fd0e2acef2e45acabdd06a8" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="classMR_1_1Id" kindref="compound">Id</ref></type>
-        <definition>Id MR::Id&lt; T &gt;::operator++</definition>
-        <argsstring>(int)</argsstring>
-        <name>operator++</name>
-        <qualifiedname>MR::Id::operator++</qualifiedname>
-        <param>
-          <type>int</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="60" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="60" bodyend="60"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Id_1a9f1c6c1a6ac1dddecdf4bbe06a88e0f6" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="classMR_1_1Id" kindref="compound">Id</ref> &amp;</type>
-        <definition>Id &amp; MR::Id&lt; T &gt;::operator-=</definition>
-        <argsstring>(ValueType a)</argsstring>
-        <name>operator-=</name>
-        <qualifiedname>MR::Id::operator-=</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Id_1ac2e242e118fdd8b3a6309347d48a6c84" kindref="member">ValueType</ref></type>
-          <declname>a</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="62" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="62" bodyend="62"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Id_1a45a07dcbe1b8b9ac4949d19e26fecc99" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="classMR_1_1Id" kindref="compound">Id</ref> &amp;</type>
-        <definition>Id &amp; MR::Id&lt; T &gt;::operator+=</definition>
-        <argsstring>(ValueType a)</argsstring>
-        <name>operator+=</name>
-        <qualifiedname>MR::Id::operator+=</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Id_1ac2e242e118fdd8b3a6309347d48a6c84" kindref="member">ValueType</ref></type>
-          <declname>a</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="63" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="63" bodyend="63"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gab0e4ef6dbed8084af5b947ea4f8152e4" kind="function"><name>Id</name></member>
+      <member refid="group__GeneralGroup_1ga626cffc98ec4b785d986aca365ed6ce2" kind="function"><name>Id</name></member>
+      <member refid="group__GeneralGroup_1gac573497158345a22e16a44734a469638" kind="function"><name>Id</name></member>
+      <member refid="group__GeneralGroup_1ga2934bfe0258901c3de2c82cbfb95649f" kind="function"><name>operator ValueType</name></member>
+      <member refid="group__GeneralGroup_1ga7a52efda314a702396938241eecfd7c6" kind="function"><name>valid</name></member>
+      <member refid="group__GeneralGroup_1ga4a60520ea485fc36672fcc617904ec8b" kind="function"><name>operator bool</name></member>
+      <member refid="group__GeneralGroup_1gaba62ab281df54c9782b7668d99d28d1e" kind="function"><name>get</name></member>
+      <member refid="group__GeneralGroup_1ga69e71f7eccd4394df5270d18ba65d9fa" kind="function"><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga4520e77218d93f5eab7d6c96d1063928" kind="function"><name>operator!=</name></member>
+      <member refid="group__GeneralGroup_1gab8ef9b37a66b62f818ad27e9c7254639" kind="function"><name>operator&lt;</name></member>
+      <member refid="group__GeneralGroup_1ga7c7043e20a8cf042d1226981a110f20a" kind="function"><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1gab7126489241766dc9ca77ef7cee5e59e" kind="function"><name>operator!=</name></member>
+      <member refid="group__GeneralGroup_1ga37c3298137bb0d2cff18a941a11ccb95" kind="function"><name>operator&lt;</name></member>
+      <member refid="group__GeneralGroup_1gaa025a93f59608fa768e6c67c2ed2d930" kind="function"><name>operator--</name></member>
+      <member refid="group__GeneralGroup_1ga486ff99f7b871f6fabf9e89f788f418d" kind="function"><name>operator++</name></member>
+      <member refid="group__GeneralGroup_1gae510e5ee2184f084298cf60b0534fa8a" kind="function"><name>operator--</name></member>
+      <member refid="group__GeneralGroup_1gab6025e536fd0e2acef2e45acabdd06a8" kind="function"><name>operator++</name></member>
+      <member refid="group__GeneralGroup_1ga9f1c6c1a6ac1dddecdf4bbe06a88e0f6" kind="function"><name>operator-=</name></member>
+      <member refid="group__GeneralGroup_1ga45a07dcbe1b8b9ac4949d19e26fecc99" kind="function"><name>operator+=</name></member>
     </sectiondef>
     <briefdescription>
 <para>stores index of some element, it is made as template class to avoid mixing faces, edges and vertices </para>
@@ -399,29 +53,29 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="16" bodyend="72"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="19" bodyend="75"/>
     <listofallmembers>
-      <member refid="classMR_1_1Id_1aba62ab281df54c9782b7668d99d28d1e" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>get</name></member>
-      <member refid="classMR_1_1Id_1ab0e4ef6dbed8084af5b947ea4f8152e4" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>Id</name></member>
-      <member refid="classMR_1_1Id_1a626cffc98ec4b785d986aca365ed6ce2" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>Id</name></member>
-      <member refid="classMR_1_1Id_1ac573497158345a22e16a44734a469638" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>Id</name></member>
-      <member refid="classMR_1_1Id_1ab442087e0c922ef9c3246e9c1bd35bec" prot="private" virt="non-virtual"><scope>MR::Id</scope><name>id_</name></member>
-      <member refid="classMR_1_1Id_1a4a60520ea485fc36672fcc617904ec8b" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>operator bool</name></member>
-      <member refid="classMR_1_1Id_1a2934bfe0258901c3de2c82cbfb95649f" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>operator ValueType</name></member>
-      <member refid="classMR_1_1Id_1a4520e77218d93f5eab7d6c96d1063928" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>operator!=</name></member>
-      <member refid="classMR_1_1Id_1ab7126489241766dc9ca77ef7cee5e59e" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>operator!=</name></member>
-      <member refid="classMR_1_1Id_1a486ff99f7b871f6fabf9e89f788f418d" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>operator++</name></member>
-      <member refid="classMR_1_1Id_1ab6025e536fd0e2acef2e45acabdd06a8" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>operator++</name></member>
-      <member refid="classMR_1_1Id_1a45a07dcbe1b8b9ac4949d19e26fecc99" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>operator+=</name></member>
-      <member refid="classMR_1_1Id_1aa025a93f59608fa768e6c67c2ed2d930" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>operator--</name></member>
-      <member refid="classMR_1_1Id_1ae510e5ee2184f084298cf60b0534fa8a" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>operator--</name></member>
-      <member refid="classMR_1_1Id_1a9f1c6c1a6ac1dddecdf4bbe06a88e0f6" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>operator-=</name></member>
-      <member refid="classMR_1_1Id_1ab8ef9b37a66b62f818ad27e9c7254639" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>operator&lt;</name></member>
-      <member refid="classMR_1_1Id_1a37c3298137bb0d2cff18a941a11ccb95" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>operator&lt;</name></member>
-      <member refid="classMR_1_1Id_1a69e71f7eccd4394df5270d18ba65d9fa" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>operator==</name></member>
-      <member refid="classMR_1_1Id_1a7c7043e20a8cf042d1226981a110f20a" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>operator==</name></member>
-      <member refid="classMR_1_1Id_1a7a52efda314a702396938241eecfd7c6" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>valid</name></member>
-      <member refid="classMR_1_1Id_1ac2e242e118fdd8b3a6309347d48a6c84" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>ValueType</name></member>
+      <member refid="group__GeneralGroup_1gaba62ab281df54c9782b7668d99d28d1e" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>get</name></member>
+      <member refid="group__GeneralGroup_1gab0e4ef6dbed8084af5b947ea4f8152e4" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>Id</name></member>
+      <member refid="group__GeneralGroup_1ga626cffc98ec4b785d986aca365ed6ce2" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>Id</name></member>
+      <member refid="group__GeneralGroup_1gac573497158345a22e16a44734a469638" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>Id</name></member>
+      <member refid="group__GeneralGroup_1gab442087e0c922ef9c3246e9c1bd35bec" prot="private" virt="non-virtual"><scope>MR::Id</scope><name>id_</name></member>
+      <member refid="group__GeneralGroup_1ga4a60520ea485fc36672fcc617904ec8b" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>operator bool</name></member>
+      <member refid="group__GeneralGroup_1ga2934bfe0258901c3de2c82cbfb95649f" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>operator ValueType</name></member>
+      <member refid="group__GeneralGroup_1ga4520e77218d93f5eab7d6c96d1063928" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>operator!=</name></member>
+      <member refid="group__GeneralGroup_1gab7126489241766dc9ca77ef7cee5e59e" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>operator!=</name></member>
+      <member refid="group__GeneralGroup_1ga486ff99f7b871f6fabf9e89f788f418d" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>operator++</name></member>
+      <member refid="group__GeneralGroup_1gab6025e536fd0e2acef2e45acabdd06a8" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>operator++</name></member>
+      <member refid="group__GeneralGroup_1ga45a07dcbe1b8b9ac4949d19e26fecc99" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>operator+=</name></member>
+      <member refid="group__GeneralGroup_1gaa025a93f59608fa768e6c67c2ed2d930" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>operator--</name></member>
+      <member refid="group__GeneralGroup_1gae510e5ee2184f084298cf60b0534fa8a" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>operator--</name></member>
+      <member refid="group__GeneralGroup_1ga9f1c6c1a6ac1dddecdf4bbe06a88e0f6" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>operator-=</name></member>
+      <member refid="group__GeneralGroup_1gab8ef9b37a66b62f818ad27e9c7254639" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>operator&lt;</name></member>
+      <member refid="group__GeneralGroup_1ga37c3298137bb0d2cff18a941a11ccb95" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>operator&lt;</name></member>
+      <member refid="group__GeneralGroup_1ga69e71f7eccd4394df5270d18ba65d9fa" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga7c7043e20a8cf042d1226981a110f20a" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga7a52efda314a702396938241eecfd7c6" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>valid</name></member>
+      <member refid="group__GeneralGroup_1gac2e242e118fdd8b3a6309347d48a6c84" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>ValueType</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

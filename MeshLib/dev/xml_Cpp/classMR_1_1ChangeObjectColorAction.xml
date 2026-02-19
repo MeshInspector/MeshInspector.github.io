@@ -5,210 +5,23 @@
     <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
     <includes refid="MRChangeColoringActions_8h" local="no">MRChangeColoringActions.h</includes>
     <sectiondef kind="public-type">
-      <memberdef kind="enum" id="classMR_1_1ChangeObjectColorAction_1aadf478d3d29a773bd02b96beae263a51" prot="public" static="no" strong="yes">
-        <type></type>
-        <name>Type</name>
-        <qualifiedname>MR::ChangeObjectColorAction::Type</qualifiedname>
-        <enumvalue id="classMR_1_1ChangeObjectColorAction_1aadf478d3d29a773bd02b96beae263a51a810460332a38c9ade69a49b057494cad" prot="public">
-          <name>Unselected</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1ChangeObjectColorAction_1aadf478d3d29a773bd02b96beae263a51a91b442d385b54e1418d81adc34871053" prot="public">
-          <name>Selected</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1ChangeObjectColorAction_1aadf478d3d29a773bd02b96beae263a51a0557fa923dcee4d0f86b1409f5c2167f" prot="public">
-          <name>Back</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeColoringActions.h" line="19" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeColoringActions.h" bodystart="20" bodyend="24"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1ChangeObjectColorAction_1a5474abe2fe0d35caaf558c71cb6847d3" prot="public" static="no">
-        <type><ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref></type>
-        <definition>using MR::ChangeObjectColorAction::Obj =  VisualObject</definition>
-        <argsstring></argsstring>
-        <name>Obj</name>
-        <qualifiedname>MR::ChangeObjectColorAction::Obj</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeColoringActions.h" line="17" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeColoringActions.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaadf478d3d29a773bd02b96beae263a51" kind="enum"><name>Type</name></member>
+      <member refid="group__GeneralGroup_1ga5474abe2fe0d35caaf558c71cb6847d3" kind="typedef"><name>Obj</name></member>
     </sectiondef>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1ChangeObjectColorAction_1acc8589e249e872fd671d3e6bda89f90e" prot="private" static="no" mutable="no">
-        <type>std::shared_ptr&lt; <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> &gt;</type>
-        <definition>std::shared_ptr&lt;VisualObject&gt; MR::ChangeObjectColorAction::obj_</definition>
-        <argsstring></argsstring>
-        <name>obj_</name>
-        <qualifiedname>MR::ChangeObjectColorAction::obj_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeColoringActions.h" line="66" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeColoringActions.h" bodystart="66" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ChangeObjectColorAction_1a9ceddbae75615ccd4de4e08c89bc6804" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1ChangeObjectColorAction_1aadf478d3d29a773bd02b96beae263a51" kindref="member">Type</ref></type>
-        <definition>Type MR::ChangeObjectColorAction::type_</definition>
-        <argsstring></argsstring>
-        <name>type_</name>
-        <qualifiedname>MR::ChangeObjectColorAction::type_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeColoringActions.h" line="67" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeColoringActions.h" bodystart="67" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ChangeObjectColorAction_1af535b50d7d5f119801de7487d5185b6f" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1ViewportProperty" kindref="compound">ViewportProperty</ref>&lt; <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &gt;</type>
-        <definition>ViewportProperty&lt;Color&gt; MR::ChangeObjectColorAction::colors_</definition>
-        <argsstring></argsstring>
-        <name>colors_</name>
-        <qualifiedname>MR::ChangeObjectColorAction::colors_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeColoringActions.h" line="68" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeColoringActions.h" bodystart="68" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ChangeObjectColorAction_1a0441f722f407cac7bd2f53829a053bde" prot="private" static="no" mutable="no">
-        <type>std::string</type>
-        <definition>std::string MR::ChangeObjectColorAction::name_</definition>
-        <argsstring></argsstring>
-        <name>name_</name>
-        <qualifiedname>MR::ChangeObjectColorAction::name_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeColoringActions.h" line="69" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeColoringActions.h" bodystart="69" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gacc8589e249e872fd671d3e6bda89f90e" kind="variable"><name>obj_</name></member>
+      <member refid="group__GeneralGroup_1ga9ceddbae75615ccd4de4e08c89bc6804" kind="variable"><name>type_</name></member>
+      <member refid="group__GeneralGroup_1gaf535b50d7d5f119801de7487d5185b6f" kind="variable"><name>colors_</name></member>
+      <member refid="group__GeneralGroup_1ga0441f722f407cac7bd2f53829a053bde" kind="variable"><name>name_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1ChangeObjectColorAction_1a0a70aa0463c05950aea6686ecc817d30" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::ChangeObjectColorAction::ChangeObjectColorAction</definition>
-        <argsstring>(const std::string &amp;name, const std::shared_ptr&lt; VisualObject &gt; &amp;obj, Type type)</argsstring>
-        <name>ChangeObjectColorAction</name>
-        <qualifiedname>MR::ChangeObjectColorAction::ChangeObjectColorAction</qualifiedname>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>name</declname>
-        </param>
-        <param>
-          <type>const std::shared_ptr&lt; <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> &gt; &amp;</type>
-          <declname>obj</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1ChangeObjectColorAction_1aadf478d3d29a773bd02b96beae263a51" kindref="member">Type</ref></type>
-          <declname>type</declname>
-        </param>
-        <briefdescription>
-<para>Constructed from original obj. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeColoringActions.h" line="27" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeColoringActions.h" bodystart="27" bodyend="35"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ChangeObjectColorAction_1ada33e7dca54e7e04d9815765bed5fdfe" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>std::string</type>
-        <definition>virtual std::string MR::ChangeObjectColorAction::name</definition>
-        <argsstring>() const override</argsstring>
-        <name>name</name>
-        <qualifiedname>MR::ChangeObjectColorAction::name</qualifiedname>
-        <reimplements refid="classMR_1_1HistoryAction_1a9daa0b79de161f676f6283e3804dc8ce">name</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeColoringActions.h" line="37" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeColoringActions.h" bodystart="37" bodyend="40"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ChangeObjectColorAction_1afe3b10ca2078780fe08c4e06a3cb8eb3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MR::ChangeObjectColorAction::action</definition>
-        <argsstring>(HistoryAction::Type) override</argsstring>
-        <name>action</name>
-        <qualifiedname>MR::ChangeObjectColorAction::action</qualifiedname>
-        <reimplements refid="classMR_1_1HistoryAction_1aecfce349736beaf17a23a6817c86f3bb">action</reimplements>
-        <param>
-          <type><ref refid="classMR_1_1HistoryAction_1ac16eb31dd26d35cfc18bac8a05983aa7" kindref="member">HistoryAction::Type</ref></type>
-          <declname>actionType</declname>
-        </param>
-        <briefdescription>
-<para>This function is called on history action (undo, redo, etc.) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeColoringActions.h" line="42" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeColoringActions.h" bodystart="42" bodyend="54"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ChangeObjectColorAction_1a8b2119cba575337b8ff6ef6ed838ddad" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>size_t</type>
-        <definition>virtual size_t MR::ChangeObjectColorAction::heapBytes</definition>
-        <argsstring>() const override</argsstring>
-        <name>heapBytes</name>
-        <qualifiedname>MR::ChangeObjectColorAction::heapBytes</qualifiedname>
-        <reimplements refid="classMR_1_1HistoryAction_1ad6df54da6a63ed83f15053507e8569de">heapBytes</reimplements>
-        <briefdescription>
-<para>returns the amount of memory this object occupies on heap </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeColoringActions.h" line="60" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeColoringActions.h" bodystart="60" bodyend="63"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga0a70aa0463c05950aea6686ecc817d30" kind="function"><name>ChangeObjectColorAction</name></member>
+      <member refid="group__GeneralGroup_1gada33e7dca54e7e04d9815765bed5fdfe" kind="function"><name>name</name></member>
+      <member refid="group__GeneralGroup_1gafe3b10ca2078780fe08c4e06a3cb8eb3" kind="function"><name>action</name></member>
+      <member refid="group__GeneralGroup_1ga8b2119cba575337b8ff6ef6ed838ddad" kind="function"><name>heapBytes</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1ChangeObjectColorAction_1ad9d9e4f0637a4624e53532215539aaa9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>static void MR::ChangeObjectColorAction::setObjectDirty</definition>
-        <argsstring>(const std::shared_ptr&lt; VisualObject &gt; &amp;)</argsstring>
-        <name>setObjectDirty</name>
-        <qualifiedname>MR::ChangeObjectColorAction::setObjectDirty</qualifiedname>
-        <param>
-          <type>const std::shared_ptr&lt; <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> &gt; &amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeColoringActions.h" line="56" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeColoringActions.h" bodystart="56" bodyend="58"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gad9d9e4f0637a4624e53532215539aaa9" kind="function"><name>setObjectDirty</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -239,20 +52,20 @@
         <link refid="classMR_1_1HistoryAction"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeColoringActions.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeColoringActions.h" bodystart="15" bodyend="70"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeColoringActions.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeColoringActions.h" bodystart="18" bodyend="73"/>
     <listofallmembers>
-      <member refid="classMR_1_1ChangeObjectColorAction_1afe3b10ca2078780fe08c4e06a3cb8eb3" prot="public" virt="virtual"><scope>MR::ChangeObjectColorAction</scope><name>action</name></member>
-      <member refid="classMR_1_1ChangeObjectColorAction_1a0a70aa0463c05950aea6686ecc817d30" prot="public" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>ChangeObjectColorAction</name></member>
-      <member refid="classMR_1_1ChangeObjectColorAction_1af535b50d7d5f119801de7487d5185b6f" prot="private" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>colors_</name></member>
-      <member refid="classMR_1_1ChangeObjectColorAction_1a8b2119cba575337b8ff6ef6ed838ddad" prot="public" virt="virtual"><scope>MR::ChangeObjectColorAction</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1ChangeObjectColorAction_1ada33e7dca54e7e04d9815765bed5fdfe" prot="public" virt="virtual"><scope>MR::ChangeObjectColorAction</scope><name>name</name></member>
-      <member refid="classMR_1_1ChangeObjectColorAction_1a0441f722f407cac7bd2f53829a053bde" prot="private" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>name_</name></member>
-      <member refid="classMR_1_1ChangeObjectColorAction_1a5474abe2fe0d35caaf558c71cb6847d3" prot="public" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>Obj</name></member>
-      <member refid="classMR_1_1ChangeObjectColorAction_1acc8589e249e872fd671d3e6bda89f90e" prot="private" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>obj_</name></member>
-      <member refid="classMR_1_1ChangeObjectColorAction_1ad9d9e4f0637a4624e53532215539aaa9" prot="public" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>setObjectDirty</name></member>
-      <member refid="classMR_1_1ChangeObjectColorAction_1aadf478d3d29a773bd02b96beae263a51" prot="public" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>Type</name></member>
-      <member refid="classMR_1_1ChangeObjectColorAction_1a9ceddbae75615ccd4de4e08c89bc6804" prot="private" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>type_</name></member>
-      <member refid="classMR_1_1HistoryAction_1a97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::ChangeObjectColorAction</scope><name>~HistoryAction</name></member>
+      <member refid="group__GeneralGroup_1gafe3b10ca2078780fe08c4e06a3cb8eb3" prot="public" virt="virtual"><scope>MR::ChangeObjectColorAction</scope><name>action</name></member>
+      <member refid="group__GeneralGroup_1ga0a70aa0463c05950aea6686ecc817d30" prot="public" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>ChangeObjectColorAction</name></member>
+      <member refid="group__GeneralGroup_1gaf535b50d7d5f119801de7487d5185b6f" prot="private" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>colors_</name></member>
+      <member refid="group__GeneralGroup_1ga8b2119cba575337b8ff6ef6ed838ddad" prot="public" virt="virtual"><scope>MR::ChangeObjectColorAction</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1gada33e7dca54e7e04d9815765bed5fdfe" prot="public" virt="virtual"><scope>MR::ChangeObjectColorAction</scope><name>name</name></member>
+      <member refid="group__GeneralGroup_1ga0441f722f407cac7bd2f53829a053bde" prot="private" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>name_</name></member>
+      <member refid="group__GeneralGroup_1ga5474abe2fe0d35caaf558c71cb6847d3" prot="public" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>Obj</name></member>
+      <member refid="group__GeneralGroup_1gacc8589e249e872fd671d3e6bda89f90e" prot="private" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>obj_</name></member>
+      <member refid="group__GeneralGroup_1gad9d9e4f0637a4624e53532215539aaa9" prot="public" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>setObjectDirty</name></member>
+      <member refid="group__GeneralGroup_1gaadf478d3d29a773bd02b96beae263a51" prot="public" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>Type</name></member>
+      <member refid="group__GeneralGroup_1ga9ceddbae75615ccd4de4e08c89bc6804" prot="private" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>type_</name></member>
+      <member refid="group__GeneralGroup_1ga97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::ChangeObjectColorAction</scope><name>~HistoryAction</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

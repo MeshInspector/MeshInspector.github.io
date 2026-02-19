@@ -13,90 +13,60 @@
     <includes local="no">optional</includes>
     <includes local="no">queue</includes>
     <incdepgraph>
-      <node id="21">
+      <node id="14">
         <label>MRBuffer.h</label>
         <link refid="MRBuffer_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
-        <childnode refid="23" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
       </node>
-      <node id="7">
-        <label>MRMesh/MRCanonicalTypedefs.h</label>
-        <link refid="MRCanonicalTypedefs_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-      </node>
-      <node id="20">
+      <node id="13">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
-      <node id="25">
+      <node id="18">
         <label>MRExpected.h</label>
         <link refid="MRExpected_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="26" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
       </node>
-      <node id="29">
+      <node id="23">
         <label>MRFewSmallest.h</label>
         <link refid="MRFewSmallest_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="30" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="25" relation="include">
         </childnode>
       </node>
-      <node id="16">
+      <node id="9">
         <label>MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-      </node>
-      <node id="4">
-        <label>MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
-      </node>
-      <node id="5">
-        <label>MRMeshFwd.h</label>
-        <link refid="MRMeshFwd_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="2" relation="include">
-        </childnode>
         <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
@@ -104,16 +74,18 @@
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
       </node>
-      <node id="22">
+      <node id="4">
+        <label>MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="15">
         <label>MRNoDefInit.h</label>
         <link refid="MRNoDefInit_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="27">
+      <node id="21">
         <label>MRPointCloudPart.h</label>
         <link refid="MRPointCloudPart_8h"/>
         <childnode refid="5" relation="include">
@@ -126,45 +98,45 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="24" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="29" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
-        <childnode refid="31" relation="include">
-        </childnode>
-        <childnode refid="32" relation="include">
-        </childnode>
-        <childnode refid="33" relation="include">
-        </childnode>
-      </node>
-      <node id="24">
-        <label>MRPointsProject.h</label>
-        <link refid="MRPointsProject_8h"/>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="25" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="26" relation="include">
         </childnode>
         <childnode refid="27" relation="include">
         </childnode>
         <childnode refid="28" relation="include">
         </childnode>
       </node>
-      <node id="14">
+      <node id="17">
+        <label>MRPointsProject.h</label>
+        <link refid="MRPointsProject_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
         <label>MRResizeNoInit.h</label>
         <link refid="MRResizeNoInit_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
       <node id="3">
@@ -174,69 +146,59 @@
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="6">
-        <label>config.h</label>
-        <link refid="MRMesh_2config_8h"/>
+      <node id="5">
+        <label>MRMeshFwd.h</label>
       </node>
       <node id="2">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="26">
+      <node id="19">
         <label>MRPch/MRExpected.h</label>
       </node>
-      <node id="30">
+      <node id="24">
         <label>algorithm</label>
       </node>
       <node id="8">
-        <label>array</label>
-      </node>
-      <node id="13">
         <label>cassert</label>
       </node>
-      <node id="28">
+      <node id="22">
         <label>cfloat</label>
       </node>
-      <node id="31">
+      <node id="26">
         <label>climits</label>
       </node>
-      <node id="15">
+      <node id="7">
         <label>concepts</label>
       </node>
-      <node id="17">
+      <node id="10">
         <label>cstddef</label>
       </node>
-      <node id="12">
-        <label>functional</label>
-      </node>
-      <node id="23">
+      <node id="16">
         <label>memory</label>
       </node>
-      <node id="32">
+      <node id="27">
         <label>optional</label>
       </node>
-      <node id="11">
-        <label>parallel_hashmap/phmap_fwd_decl.h</label>
-      </node>
-      <node id="33">
+      <node id="28">
         <label>queue</label>
       </node>
-      <node id="10">
+      <node id="20">
         <label>string</label>
       </node>
-      <node id="18">
+      <node id="11">
         <label>type_traits</label>
       </node>
-      <node id="19">
+      <node id="12">
         <label>utility</label>
       </node>
-      <node id="9">
+      <node id="25">
         <label>vector</label>
       </node>
     </incdepgraph>
@@ -268,15 +230,15 @@
 <codeline lineno="21" refid="namespaceMR_1_1TriangulationHelpers" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">TriangulationHelpers</highlight></codeline>
 <codeline lineno="22"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29" refid="group__TriangulationHelpersGroup_1ga239d61601b826c9241ca50d59821b545" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__TriangulationHelpersGroup_1ga239d61601b826c9241ca50d59821b545" kindref="member">updateNeighborsRadius</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords&amp;<sp/>points,<sp/>VertId<sp/>v,<sp/>VertId<sp/>boundaryV,</highlight></codeline>
+<codeline lineno="29" refid="group__TriangulationHelpersGroup_1ga239d61601b826c9241ca50d59821b545" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__TriangulationHelpersGroup_1ga239d61601b826c9241ca50d59821b545" kindref="member">updateNeighborsRadius</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords&amp;<sp/>points,<sp/>VertId<sp/>v,<sp/>VertId<sp/>boundaryV,</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;VertId&gt;&amp;<sp/>fan,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>baseRadius<sp/>);</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="group__TriangulationHelpersGroup_1ga1b730fbcddd0678ad119e9abc6d797c0" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__TriangulationHelpersGroup_1ga1b730fbcddd0678ad119e9abc6d797c0" kindref="member">findNeighborsInBall</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>pointCloud,<sp/>VertId<sp/>v,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,<sp/>std::vector&lt;VertId&gt;&amp;<sp/>neighbors<sp/>);</highlight></codeline>
+<codeline lineno="36" refid="group__TriangulationHelpersGroup_1ga1b730fbcddd0678ad119e9abc6d797c0" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__TriangulationHelpersGroup_1ga1b730fbcddd0678ad119e9abc6d797c0" kindref="member">findNeighborsInBall</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>pointCloud,<sp/>VertId<sp/>v,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,<sp/>std::vector&lt;VertId&gt;&amp;<sp/>neighbors<sp/>);</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45" refid="group__TriangulationHelpersGroup_1gaf71ad211f7cae4bc648807774f9b3758" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__TriangulationHelpersGroup_1gaf71ad211f7cae4bc648807774f9b3758" kindref="member">findNumNeighbors</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>pointCloud,<sp/>VertId<sp/>v,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numNeis,<sp/>std::vector&lt;VertId&gt;&amp;<sp/>neighbors,</highlight></codeline>
+<codeline lineno="45" refid="group__TriangulationHelpersGroup_1gaf71ad211f7cae4bc648807774f9b3758" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__TriangulationHelpersGroup_1gaf71ad211f7cae4bc648807774f9b3758" kindref="member">findNumNeighbors</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>pointCloud,<sp/>VertId<sp/>v,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numNeis,<sp/>std::vector&lt;VertId&gt;&amp;<sp/>neighbors,</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1FewSmallest" kindref="compound">FewSmallest&lt;PointsProjectionResult&gt;</ref><sp/>&amp;<sp/>tmp,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>upDistLimitSq<sp/>=<sp/>FLT_MAX<sp/>);</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52" refid="group__TriangulationHelpersGroup_1gae34e6824af064eefccf01c8f241bb11d" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__TriangulationHelpersGroup_1gae34e6824af064eefccf01c8f241bb11d" kindref="member">filterNeighbors</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertNormals&amp;<sp/>orientedNormals,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet*<sp/>untrustedNormals,<sp/>VertId<sp/>v,<sp/>std::vector&lt;VertId&gt;&amp;<sp/>neighbors<sp/>);</highlight></codeline>
+<codeline lineno="52" refid="group__TriangulationHelpersGroup_1gae34e6824af064eefccf01c8f241bb11d" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__TriangulationHelpersGroup_1gae34e6824af064eefccf01c8f241bb11d" kindref="member">filterNeighbors</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertNormals&amp;<sp/>orientedNormals,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet*<sp/>untrustedNormals,<sp/>VertId<sp/>v,<sp/>std::vector&lt;VertId&gt;&amp;<sp/>neighbors<sp/>);</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
 <codeline lineno="54" refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement" kindref="compound">FanOptimizerQueueElement</ref></highlight></codeline>
 <codeline lineno="55"><highlight class="normal">{</highlight></codeline>
@@ -287,13 +249,13 @@
 <codeline lineno="61" refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a70e5a14562ca242e53474e9e75df8ed6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a70e5a14562ca242e53474e9e75df8ed6" kindref="member">nextId</ref>{<sp/>-1<sp/>};<sp/></highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight></codeline>
 <codeline lineno="63" refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a0bb7d70e695f6c8fb8806cf07f90bb9e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a0bb7d70e695f6c8fb8806cf07f90bb9e" kindref="member">stable</ref>{<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>};<sp/></highlight></codeline>
-<codeline lineno="64" refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1ae5bad17915c09a1143471d69b34a3436" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1ae5bad17915c09a1143471d69b34a3436" kindref="member">operator &lt; </ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement" kindref="compound">FanOptimizerQueueElement</ref>&amp;<sp/><ref refid="namespaceMR_1a24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf" kindref="member">other</ref><sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="64" refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1ae5bad17915c09a1143471d69b34a3436" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1ae5bad17915c09a1143471d69b34a3436" kindref="member">operator &lt; </ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement" kindref="compound">FanOptimizerQueueElement</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf" kindref="member">other</ref><sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="65"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/><ref refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a0bb7d70e695f6c8fb8806cf07f90bb9e" kindref="member">stable</ref><sp/>==<sp/><ref refid="namespaceMR_1a24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf" kindref="member">other</ref>.stable<sp/>)</highlight></codeline>
-<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a5c3e6b9bc3389cb66a4ecf6adb3f6091" kindref="member">weight</ref><sp/>&lt;<sp/><ref refid="namespaceMR_1a24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf" kindref="member">other</ref>.<ref refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a5c3e6b9bc3389cb66a4ecf6adb3f6091" kindref="member">weight</ref>;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/><ref refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a0bb7d70e695f6c8fb8806cf07f90bb9e" kindref="member">stable</ref><sp/>==<sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf" kindref="member">other</ref>.stable<sp/>)</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a5c3e6b9bc3389cb66a4ecf6adb3f6091" kindref="member">weight</ref><sp/>&lt;<sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf" kindref="member">other</ref>.<ref refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a5c3e6b9bc3389cb66a4ecf6adb3f6091" kindref="member">weight</ref>;</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a0bb7d70e695f6c8fb8806cf07f90bb9e" kindref="member">stable</ref>;</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="70" refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a259f0dc748bf189fe876ca658509642e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a259f0dc748bf189fe876ca658509642e" kindref="member">operator==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement" kindref="compound">FanOptimizerQueueElement</ref>&amp;<sp/><ref refid="namespaceMR_1a24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf" kindref="member">other</ref><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="70" refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a259f0dc748bf189fe876ca658509642e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a259f0dc748bf189fe876ca658509642e" kindref="member">operator==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement" kindref="compound">FanOptimizerQueueElement</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf" kindref="member">other</ref><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"></highlight></codeline>
 <codeline lineno="72" refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1af10835a24d386208aebf0562ee285ddd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1af10835a24d386208aebf0562ee285ddd" kindref="member">isOutdated</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;VertId&gt;&amp;<sp/>neighbors<sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="73"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
@@ -311,7 +273,7 @@
 <codeline lineno="94"><highlight class="normal"></highlight></codeline>
 <codeline lineno="96" refid="structMR_1_1TriangulationHelpers_1_1TriangulatedFanData_1a5415b188e466c2295bb082600f25f64b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1FewSmallest" kindref="compound">FewSmallest&lt;PointsProjectionResult&gt;</ref><sp/><ref refid="structMR_1_1TriangulationHelpers_1_1TriangulatedFanData_1a5415b188e466c2295bb082600f25f64b" kindref="member">nearesetPoints</ref>;</highlight></codeline>
 <codeline lineno="97"><highlight class="normal"></highlight></codeline>
-<codeline lineno="100" refid="structMR_1_1TriangulationHelpers_1_1TriangulatedFanData_1ac92e70e1a5084a5ab9f62287e8041e95" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1ac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/>std::priority_queue&lt;FanOptimizerQueueElement&gt;<sp/><ref refid="structMR_1_1TriangulationHelpers_1_1TriangulatedFanData_1ac92e70e1a5084a5ab9f62287e8041e95" kindref="member">queue</ref>;</highlight></codeline>
+<codeline lineno="100" refid="structMR_1_1TriangulationHelpers_1_1TriangulatedFanData_1ac92e70e1a5084a5ab9f62287e8041e95" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/>std::priority_queue&lt;FanOptimizerQueueElement&gt;<sp/><ref refid="structMR_1_1TriangulationHelpers_1_1TriangulatedFanData_1ac92e70e1a5084a5ab9f62287e8041e95" kindref="member">queue</ref>;</highlight></codeline>
 <codeline lineno="101"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="102"><highlight class="normal"></highlight></codeline>
 <codeline lineno="103" refid="structMR_1_1TriangulationHelpers_1_1Settings" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1TriangulationHelpers_1_1Settings" kindref="compound">Settings</ref></highlight></codeline>
@@ -338,20 +300,20 @@
 <codeline lineno="137" refid="structMR_1_1TriangulationHelpers_1_1Settings_1a97127b609f58b4ac11085781558f55f6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/>*<sp/><ref refid="structMR_1_1TriangulationHelpers_1_1Settings_1a97127b609f58b4ac11085781558f55f6" kindref="member">searchNeighbors</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="138"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="139"><highlight class="normal"></highlight></codeline>
-<codeline lineno="141" refid="namespaceMR_1_1TriangulationHelpers_1a7bac13257412606ce60799f214894488" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1TriangulationHelpers_1a7bac13257412606ce60799f214894488" kindref="member">buildLocalTriangulation</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>cloud,<sp/>VertId<sp/>v,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TriangulationHelpers_1_1Settings" kindref="compound">Settings</ref><sp/>&amp;<sp/>settings,</highlight></codeline>
+<codeline lineno="141" refid="namespaceMR_1_1TriangulationHelpers_1a7bac13257412606ce60799f214894488" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1TriangulationHelpers_1a7bac13257412606ce60799f214894488" kindref="member">buildLocalTriangulation</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>cloud,<sp/>VertId<sp/>v,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TriangulationHelpers_1_1Settings" kindref="compound">Settings</ref><sp/>&amp;<sp/>settings,</highlight></codeline>
 <codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1TriangulationHelpers_1_1TriangulatedFanData" kindref="compound">TriangulatedFanData</ref><sp/>&amp;<sp/>fanData<sp/>);</highlight></codeline>
 <codeline lineno="143"><highlight class="normal"></highlight></codeline>
-<codeline lineno="146" refid="namespaceMR_1_1TriangulationHelpers_1a0e54822d80eff541695984d7a72a2ac9" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;std::vector&lt;SomeLocalTriangulations&gt;&gt;<sp/><ref refid="namespaceMR_1_1TriangulationHelpers_1a0e54822d80eff541695984d7a72a2ac9" kindref="member">buildLocalTriangulations</ref>(</highlight></codeline>
-<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TriangulationHelpers_1_1Settings" kindref="compound">Settings</ref><sp/>&amp;<sp/>settings,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>&amp;<sp/>progress<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="146" refid="namespaceMR_1_1TriangulationHelpers_1a0e54822d80eff541695984d7a72a2ac9" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>std::optional&lt;std::vector&lt;SomeLocalTriangulations&gt;&gt;<sp/><ref refid="namespaceMR_1_1TriangulationHelpers_1a0e54822d80eff541695984d7a72a2ac9" kindref="member">buildLocalTriangulations</ref>(</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TriangulationHelpers_1_1Settings" kindref="compound">Settings</ref><sp/>&amp;<sp/>settings,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ProgressCallback<sp/>&amp;<sp/>progress<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="148"><highlight class="normal"></highlight></codeline>
-<codeline lineno="150" refid="namespaceMR_1_1TriangulationHelpers_1aaaaea439dd161b8d9bb9fa504ec2c384" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;AllLocalTriangulations&gt;<sp/><ref refid="namespaceMR_1_1TriangulationHelpers_1aaaaea439dd161b8d9bb9fa504ec2c384" kindref="member">buildUnitedLocalTriangulations</ref>(</highlight></codeline>
-<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TriangulationHelpers_1_1Settings" kindref="compound">Settings</ref><sp/>&amp;<sp/>settings,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>&amp;<sp/>progress<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="150" refid="namespaceMR_1_1TriangulationHelpers_1aaaaea439dd161b8d9bb9fa504ec2c384" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>std::optional&lt;AllLocalTriangulations&gt;<sp/><ref refid="namespaceMR_1_1TriangulationHelpers_1aaaaea439dd161b8d9bb9fa504ec2c384" kindref="member">buildUnitedLocalTriangulations</ref>(</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TriangulationHelpers_1_1Settings" kindref="compound">Settings</ref><sp/>&amp;<sp/>settings,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ProgressCallback<sp/>&amp;<sp/>progress<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="152"><highlight class="normal"></highlight></codeline>
-<codeline lineno="162" refid="group__TriangulationHelpersGroup_1gad0f4036eebdcc507b1d8314ee455eef9" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__TriangulationHelpersGroup_1gad0f4036eebdcc507b1d8314ee455eef9" kindref="member">isBoundaryPoint</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>cloud,<sp/>VertId<sp/>v,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TriangulationHelpers_1_1Settings" kindref="compound">Settings</ref><sp/>&amp;<sp/>settings,</highlight></codeline>
+<codeline lineno="162" refid="group__TriangulationHelpersGroup_1gad0f4036eebdcc507b1d8314ee455eef9" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__TriangulationHelpersGroup_1gad0f4036eebdcc507b1d8314ee455eef9" kindref="member">isBoundaryPoint</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>cloud,<sp/>VertId<sp/>v,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TriangulationHelpers_1_1Settings" kindref="compound">Settings</ref><sp/>&amp;<sp/>settings,</highlight></codeline>
 <codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1TriangulationHelpers_1_1TriangulatedFanData" kindref="compound">TriangulatedFanData</ref><sp/>&amp;<sp/>fanData<sp/>);</highlight></codeline>
 <codeline lineno="164"><highlight class="normal"></highlight></codeline>
-<codeline lineno="166" refid="namespaceMR_1_1TriangulationHelpers_1a691dadc49fb6346b701545653e8e1dcf" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;VertBitSet&gt;<sp/><ref refid="namespaceMR_1_1TriangulationHelpers_1a691dadc49fb6346b701545653e8e1dcf" kindref="member">findBoundaryPoints</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>pointCloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TriangulationHelpers_1_1Settings" kindref="compound">Settings</ref><sp/>&amp;<sp/>settings,</highlight></codeline>
-<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="166" refid="namespaceMR_1_1TriangulationHelpers_1a691dadc49fb6346b701545653e8e1dcf" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>std::optional&lt;VertBitSet&gt;<sp/><ref refid="namespaceMR_1_1TriangulationHelpers_1a691dadc49fb6346b701545653e8e1dcf" kindref="member">findBoundaryPoints</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>pointCloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1TriangulationHelpers_1_1Settings" kindref="compound">Settings</ref><sp/>&amp;<sp/>settings,</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/>ProgressCallback<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="168"><highlight class="normal"></highlight></codeline>
 <codeline lineno="169"><highlight class="normal"></highlight></codeline>
 <codeline lineno="170"><highlight class="normal">}<sp/></highlight></codeline>

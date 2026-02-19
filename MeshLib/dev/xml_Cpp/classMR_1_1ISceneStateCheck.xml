@@ -15,65 +15,8 @@
     <derivedcompoundref refid="classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4" prot="public" virt="virtual">MR::SceneStateExactCheck&lt; N, ObjectT, NoVisualRepresentationCheck &gt;</derivedcompoundref>
     <includes refid="MRISceneStateCheck_8h" local="no">MRISceneStateCheck.h</includes>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1ISceneStateCheck_1ad6d7bd5bc97dd4a629de5e0a33af3afe" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type></type>
-        <definition>virtual MR::ISceneStateCheck::~ISceneStateCheck</definition>
-        <argsstring>()=default</argsstring>
-        <name>~ISceneStateCheck</name>
-        <qualifiedname>MR::ISceneStateCheck::~ISceneStateCheck</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRISceneStateCheck.h" line="16" column="13"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ISceneStateCheck_1adedf10c80ddfebcb456559fa828065c0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>std::string</type>
-        <definition>virtual std::string MR::ISceneStateCheck::isAvailable</definition>
-        <argsstring>(const std::vector&lt; std::shared_ptr&lt; const Object &gt; &gt; &amp;) const</argsstring>
-        <name>isAvailable</name>
-        <qualifiedname>MR::ISceneStateCheck::isAvailable</qualifiedname>
-        <reimplementedby refid="classMR_1_1AddCustomThemePlugin_1aecd13931098f53d9079f2db0d9375677">isAvailable</reimplementedby>
-        <reimplementedby refid="classMR_1_1CaptureScreenshotToClipBoardMenuItem_1ab5b55d341a1d4daeb4b334eff9b98614">isAvailable</reimplementedby>
-        <reimplementedby refid="classMR_1_1FitDataMenuItem_1a18e396a118622b2e22e8b84924b92997">isAvailable</reimplementedby>
-        <reimplementedby refid="classMR_1_1FitSelectedObjectsMenuItem_1a71ffd5f13c26669d5f0e862ff583cc9c">isAvailable</reimplementedby>
-        <reimplementedby refid="classMR_1_1FitSelectedPrimitivesMenuItem_1a473a077749a7ae222506d442c8c44172">isAvailable</reimplementedby>
-        <reimplementedby refid="classMR_1_1OpenDirectoryMenuItem_1a4823452a80e9a83ccd30f93c77a7e233">isAvailable</reimplementedby>
-        <reimplementedby refid="classMR_1_1RedoMenuItem_1a7f4b5aa48593d39bfb57474d6fcc2ad5">isAvailable</reimplementedby>
-        <reimplementedby refid="classMR_1_1RibbonSceneHideAll_1a0def4f1bcd0f4172df41c9b8b2858f40">isAvailable</reimplementedby>
-        <reimplementedby refid="classMR_1_1RibbonSceneRemoveSelected_1ad163bea4fd969e36923bd710b0e9bbd5">isAvailable</reimplementedby>
-        <reimplementedby refid="classMR_1_1RibbonSceneSelectAll_1a7a4bf9ff0c157b69c613ea0cc340c5ff">isAvailable</reimplementedby>
-        <reimplementedby refid="classMR_1_1RibbonSceneShowAll_1a948b94f7dba6645b0f30644a1bfd835d">isAvailable</reimplementedby>
-        <reimplementedby refid="classMR_1_1RibbonSceneShowOnlyNext_1a91abe5224df3d02efdba386b1954ed51">isAvailable</reimplementedby>
-        <reimplementedby refid="classMR_1_1RibbonSceneShowOnlyPrev_1ae4e1f1e44034fa821efbf7de47d83411">isAvailable</reimplementedby>
-        <reimplementedby refid="classMR_1_1RibbonSceneSortByName_1a78f3688dca9bddc169d79976c6ccfdad">isAvailable</reimplementedby>
-        <reimplementedby refid="classMR_1_1SaveObjectMenuItem_1ab83c8b24422ca3c034cb679586248b93">isAvailable</reimplementedby>
-        <reimplementedby refid="classMR_1_1SaveSceneAsMenuItem_1a41627a7bfcc714127ad6906c9d4da3a9">isAvailable</reimplementedby>
-        <reimplementedby refid="classMR_1_1SceneStateAtLeastCheck_1a86c6e5277a77801a52a1051b0439ab0b">isAvailable</reimplementedby>
-        <reimplementedby refid="classMR_1_1SceneStateAtLeastCheck_1a86c6e5277a77801a52a1051b0439ab0b">isAvailable</reimplementedby>
-        <reimplementedby refid="classMR_1_1SceneStateAtLeastCheck_1a86c6e5277a77801a52a1051b0439ab0b">isAvailable</reimplementedby>
-        <reimplementedby refid="classMR_1_1SceneStateAtLeastCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4_1ada07dbc40e00184718f0de785d6500e8">isAvailable</reimplementedby>
-        <reimplementedby refid="classMR_1_1SceneStateAtLeastCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4_1abe007b31985f6c48d0a48ff8e67f0a20">isAvailable</reimplementedby>
-        <reimplementedby refid="classMR_1_1SceneStateExactCheck_1abcdaa2e32bc223876a3043e83eb591e8">isAvailable</reimplementedby>
-        <reimplementedby refid="classMR_1_1SceneStateExactCheck_1abcdaa2e32bc223876a3043e83eb591e8">isAvailable</reimplementedby>
-        <reimplementedby refid="classMR_1_1SceneStateExactCheck_1abcdaa2e32bc223876a3043e83eb591e8">isAvailable</reimplementedby>
-        <reimplementedby refid="classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4_1a9bad11c660c059c865bbaa6a8285ab04">isAvailable</reimplementedby>
-        <reimplementedby refid="classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4_1a8119757962c12e1b44b3b9b96c6fee98">isAvailable</reimplementedby>
-        <reimplementedby refid="classMR_1_1UndoMenuItem_1a9d342a9cc6146313f3141b5732e43f94">isAvailable</reimplementedby>
-        <param>
-          <type>const std::vector&lt; std::shared_ptr&lt; const <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt; &amp;</type>
-        </param>
-        <briefdescription>
-<para>return empty string if all requirements are satisfied, otherwise return first unsatisfied requirement </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRISceneStateCheck.h" line="18" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRISceneStateCheck.h" bodystart="18" bodyend="18"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gad6d7bd5bc97dd4a629de5e0a33af3afe" kind="function"><name>~ISceneStateCheck</name></member>
+      <member refid="group__GeneralGroup_1gadedf10c80ddfebcb456559fa828065c0" kind="function"><name>isAvailable</name></member>
     </sectiondef>
     <briefdescription>
 <para>Interface for checking scene state, to determine availability, also can return string with requirements. </para>
@@ -81,34 +24,10 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="42">
-        <label>MR::AddCustomThemePlugin&lt;&gt;</label>
-        <link refid="classMR_1_1AddCustomThemePlugin"/>
-        <childnode refid="41" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="8">
         <label>MR::BinaryOperations</label>
         <link refid="classMR_1_1BinaryOperations"/>
         <childnode refid="7" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="43">
-        <label>MR::BinaryOperations&lt;&gt;</label>
-        <link refid="classMR_1_1BinaryOperations"/>
-        <childnode refid="41" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="44">
-        <label>MR::CameraOrientation&lt;&gt;</label>
-        <link refid="classMR_1_1CameraOrientation"/>
-        <childnode refid="41" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="45">
-        <label>MR::CaptureScreenshotMenuItem&lt;&gt;</label>
-        <link refid="classMR_1_1CaptureScreenshotMenuItem"/>
-        <childnode refid="41" relation="public-inheritance">
         </childnode>
       </node>
       <node id="12">
@@ -185,12 +104,6 @@
         <label>MR::OpenFilesMenuItem</label>
         <link refid="classMR_1_1OpenFilesMenuItem"/>
         <childnode refid="11" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="46">
-        <label>MR::OpenRawVoxelsPlugin&lt;&gt;</label>
-        <link refid="classMR_1_1OpenRawVoxelsPlugin"/>
-        <childnode refid="41" relation="public-inheritance">
         </childnode>
       </node>
       <node id="23">
@@ -297,7 +210,7 @@
         <childnode refid="11" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="49">
+      <node id="43">
         <label>MR::SceneStateAtLeastCheck&lt; N, ObjectT, typename &gt;</label>
         <link refid="classMR_1_1SceneStateAtLeastCheck"/>
         <childnode refid="1" relation="public-inheritance">
@@ -315,19 +228,19 @@
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="50">
+      <node id="44">
         <label>MR::SceneStateAtLeastCheck&lt; N, ObjectT, NoModelCheck &gt;</label>
         <link refid="classMR_1_1SceneStateAtLeastCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4"/>
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="51">
+      <node id="45">
         <label>MR::SceneStateAtLeastCheck&lt; N, ObjectT, NoVisualRepresentationCheck &gt;</label>
         <link refid="classMR_1_1SceneStateAtLeastCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4"/>
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="52">
+      <node id="46">
         <label>MR::SceneStateExactCheck&lt; N, ObjectT, typename &gt;</label>
         <link refid="classMR_1_1SceneStateExactCheck"/>
         <childnode refid="1" relation="public-inheritance">
@@ -345,13 +258,13 @@
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="53">
+      <node id="47">
         <label>MR::SceneStateExactCheck&lt; N, ObjectT, NoModelCheck &gt;</label>
         <link refid="classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4"/>
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="54">
+      <node id="48">
         <label>MR::SceneStateExactCheck&lt; N, ObjectT, NoVisualRepresentationCheck &gt;</label>
         <link refid="classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4"/>
         <childnode refid="1" relation="public-inheritance">
@@ -399,23 +312,17 @@
         <childnode refid="36" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="48">
+      <node id="42">
         <label>MR::UndoMenuItem</label>
         <link refid="classMR_1_1UndoMenuItem"/>
         <childnode refid="11" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="47">
-        <label>MR::ViewerSettingsPlugin&lt;&gt;</label>
-        <link refid="classMR_1_1ViewerSettingsPlugin"/>
-        <childnode refid="41" relation="public-inheritance">
-        </childnode>
-      </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRISceneStateCheck.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRISceneStateCheck.h" bodystart="14" bodyend="19"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRISceneStateCheck.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRISceneStateCheck.h" bodystart="17" bodyend="22"/>
     <listofallmembers>
-      <member refid="classMR_1_1ISceneStateCheck_1adedf10c80ddfebcb456559fa828065c0" prot="public" virt="virtual"><scope>MR::ISceneStateCheck</scope><name>isAvailable</name></member>
-      <member refid="classMR_1_1ISceneStateCheck_1ad6d7bd5bc97dd4a629de5e0a33af3afe" prot="public" virt="virtual"><scope>MR::ISceneStateCheck</scope><name>~ISceneStateCheck</name></member>
+      <member refid="group__GeneralGroup_1gadedf10c80ddfebcb456559fa828065c0" prot="public" virt="virtual"><scope>MR::ISceneStateCheck</scope><name>isAvailable</name></member>
+      <member refid="group__GeneralGroup_1gad6d7bd5bc97dd4a629de5e0a33af3afe" prot="public" virt="virtual"><scope>MR::ISceneStateCheck</scope><name>~ISceneStateCheck</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

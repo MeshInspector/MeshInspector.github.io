@@ -5,44 +5,8 @@
     <includes local="yes">exports.h</includes>
     <includes refid="MRImGui_8h" local="yes">MRImGui.h</includes>
     <includes refid="MRImGuiVectorOperators_8h" local="yes">MRImGuiVectorOperators.h</includes>
-    <includes refid="MRMeshFwd_8h" local="yes">MRMesh/MRMeshFwd.h</includes>
+    <includes local="yes">MRMesh/MRMeshFwd.h</includes>
     <incdepgraph>
-      <node id="11">
-        <label>MRMesh/MRCanonicalTypedefs.h</label>
-        <link refid="MRCanonicalTypedefs_8h"/>
-        <childnode refid="12" relation="include">
-        </childnode>
-      </node>
-      <node id="12">
-        <label>MRMesh/MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
-      </node>
-      <node id="9">
-        <label>MRMesh/MRMeshFwd.h</label>
-        <link refid="MRMeshFwd_8h"/>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-      </node>
-      <node id="10">
-        <label>config.h</label>
-        <link refid="MRMesh_2config_8h"/>
-      </node>
       <node id="3">
         <label>MRImGui.h</label>
         <link refid="MRImGui_8h"/>
@@ -73,17 +37,11 @@
         <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="13">
-        <label>MRPch/MRBindingMacros.h</label>
+      <node id="9">
+        <label>MRMesh/MRMeshFwd.h</label>
       </node>
       <node id="4">
         <label>MRPch/MRSuppressWarning.h</label>
-      </node>
-      <node id="14">
-        <label>array</label>
-      </node>
-      <node id="19">
-        <label>cassert</label>
       </node>
       <node id="7">
         <label>concepts</label>
@@ -91,23 +49,11 @@
       <node id="2">
         <label>exports.h</label>
       </node>
-      <node id="18">
-        <label>functional</label>
-      </node>
       <node id="5">
         <label>imgui.h</label>
       </node>
-      <node id="17">
-        <label>parallel_hashmap/phmap_fwd_decl.h</label>
-      </node>
-      <node id="16">
-        <label>string</label>
-      </node>
       <node id="8">
         <label>type_traits</label>
-      </node>
-      <node id="15">
-        <label>vector</label>
       </node>
     </incdepgraph>
     <innernamespace refid="namespaceMR">MR</innernamespace>
@@ -121,7 +67,7 @@
 <codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;exports.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRImGui_8h" kindref="compound">MRImGui.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRImGuiVectorOperators_8h" kindref="compound">MRImGuiVectorOperators.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMesh/MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMesh/MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
 <codeline lineno="8" refid="namespaceMR_1_1ImGuiMV" refkind="compound"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1ImGuiMV" kindref="compound">MR::ImGuiMV</ref></highlight></codeline>
 <codeline lineno="9"><highlight class="normal">{</highlight></codeline>
@@ -133,7 +79,7 @@
 <codeline lineno="18" refid="namespaceMR_1_1ImGuiMV_1ad31ae44c5b30fd718d2ad406d1bd4413" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>ImVec2<sp/><ref refid="namespaceMR_1_1ImGuiMV_1ad31ae44c5b30fd718d2ad406d1bd4413" kindref="member">GetMainViewportShift</ref>();</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
 <codeline lineno="21" refid="namespaceMR_1_1ImGuiMV_1ac1ea446578b10ff52597a11b5c1d6c74" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>ImVec2<sp/><ref refid="namespaceMR_1_1ImGuiMV_1ac1ea446578b10ff52597a11b5c1d6c74" kindref="member">Screen2WindowSpaceImVec2</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ImVec2&amp;<sp/>point<sp/>);</highlight></codeline>
-<codeline lineno="22" refid="namespaceMR_1_1ImGuiMV_1ab8622fb9dd653781e10cf6afd6642aec" refkind="member"><highlight class="normal">MRVIEWER_API<sp/><ref refid="namespaceMR_1a411f342f0faf2e8fd25230d9f676b5d9" kindref="member">Contour2f</ref><sp/><ref refid="namespaceMR_1_1ImGuiMV_1ab8622fb9dd653781e10cf6afd6642aec" kindref="member">Screen2WindowSpaceContour2f</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a411f342f0faf2e8fd25230d9f676b5d9" kindref="member">Contour2f</ref>&amp;<sp/>points<sp/>);</highlight></codeline>
+<codeline lineno="22" refid="namespaceMR_1_1ImGuiMV_1ab8622fb9dd653781e10cf6afd6642aec" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>Contour2f<sp/><ref refid="namespaceMR_1_1ImGuiMV_1ab8622fb9dd653781e10cf6afd6642aec" kindref="member">Screen2WindowSpaceContour2f</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Contour2f&amp;<sp/>points<sp/>);</highlight></codeline>
 <codeline lineno="24" refid="namespaceMR_1_1ImGuiMV_1a6644c5f0be375e56445b0670ad398f19" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>ImVec2<sp/><ref refid="namespaceMR_1_1ImGuiMV_1a6644c5f0be375e56445b0670ad398f19" kindref="member">Window2ScreenSpaceImVec2</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ImVec2&amp;<sp/>point<sp/>);</highlight></codeline>
 <codeline lineno="25" refid="namespaceMR_1_1ImGuiMV_1ac3d745327d6cc0c9764180940364a5e8" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>Vector2f<sp/><ref refid="namespaceMR_1_1ImGuiMV_1ac3d745327d6cc0c9764180940364a5e8" kindref="member">Window2ScreenSpaceVector2f</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>point<sp/>);</highlight></codeline>
 <codeline lineno="26"><highlight class="normal">}</highlight></codeline>

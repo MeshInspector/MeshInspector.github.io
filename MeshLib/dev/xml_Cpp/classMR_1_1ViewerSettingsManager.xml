@@ -5,327 +5,24 @@
     <basecompoundref refid="classMR_1_1IViewerSettingsManager" prot="public" virt="non-virtual">MR::IViewerSettingsManager</basecompoundref>
     <includes refid="MRViewerSettingsManager_8h" local="no">MRViewerSettingsManager.h</includes>
     <sectiondef kind="public-type">
-      <memberdef kind="enum" id="classMR_1_1ViewerSettingsManager_1a0467e77cf6f92e5f94c8d1d75eef8a76" prot="public" static="no" strong="yes">
-        <type></type>
-        <name>ObjType</name>
-        <qualifiedname>MR::ViewerSettingsManager::ObjType</qualifiedname>
-        <enumvalue id="classMR_1_1ViewerSettingsManager_1a0467e77cf6f92e5f94c8d1d75eef8a76a710fdb6adb881b408116ef95335e1961" prot="public">
-          <name>Mesh</name>
-          <initializer>= 0</initializer>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1ViewerSettingsManager_1a0467e77cf6f92e5f94c8d1d75eef8a76aa0b0293a2db49f5f93c15a62e095c819" prot="public">
-          <name>Lines</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1ViewerSettingsManager_1a0467e77cf6f92e5f94c8d1d75eef8a76a75dd5f1160a3f02b6fae89c54361a1b3" prot="public">
-          <name>Points</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1ViewerSettingsManager_1a0467e77cf6f92e5f94c8d1d75eef8a76a59637ce14182065617d85623a588b6f0" prot="public">
-          <name>Voxels</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1ViewerSettingsManager_1a0467e77cf6f92e5f94c8d1d75eef8a76ae76139f4dbe2f91f14577bcccc1baf77" prot="public">
-          <name>DistanceMap</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1ViewerSettingsManager_1a0467e77cf6f92e5f94c8d1d75eef8a76ae93f994f01c537c4e2f7d8528c3eb5e9" prot="public">
-          <name>Count</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsManager.h" line="47" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsManager.h" bodystart="48" bodyend="55"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga0467e77cf6f92e5f94c8d1d75eef8a76" kind="enum"><name>ObjType</name></member>
     </sectiondef>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1ViewerSettingsManager_1a90a7d78d290a3fb47d55b7241f88e075" prot="private" static="no" mutable="no">
-        <type>std::vector&lt; std::string &gt;</type>
-        <definition>std::vector&lt;std::string&gt; MR::ViewerSettingsManager::lastExtentions_</definition>
-        <argsstring></argsstring>
-        <name>lastExtentions_</name>
-        <qualifiedname>MR::ViewerSettingsManager::lastExtentions_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsManager.h" line="59" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsManager.h" bodystart="59" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga90a7d78d290a3fb47d55b7241f88e075" kind="variable"><name>lastExtentions_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsManager_1a73a1b054bbf40224c9f01e6aff8af7af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API</type>
-        <definition>MRVIEWER_API MR::ViewerSettingsManager::ViewerSettingsManager</definition>
-        <argsstring>()</argsstring>
-        <name>ViewerSettingsManager</name>
-        <qualifiedname>MR::ViewerSettingsManager::ViewerSettingsManager</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsManager.h" line="34" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsManager_1a0dca5c0c64723897642af29dc8fef964" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API int</type>
-        <definition>virtual MRVIEWER_API int MR::ViewerSettingsManager::loadInt</definition>
-        <argsstring>(const std::string &amp;name, int def) override</argsstring>
-        <name>loadInt</name>
-        <qualifiedname>MR::ViewerSettingsManager::loadInt</qualifiedname>
-        <reimplements refid="classMR_1_1IViewerSettingsManager_1ab9f733189fccd3f42fdaf8a567be0b21">loadInt</reimplements>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>name</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>def</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsManager.h" line="36" column="30"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsManager_1a51cede7ab3c024e08577094a584e7512" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>virtual MRVIEWER_API void MR::ViewerSettingsManager::saveInt</definition>
-        <argsstring>(const std::string &amp;name, int value) override</argsstring>
-        <name>saveInt</name>
-        <qualifiedname>MR::ViewerSettingsManager::saveInt</qualifiedname>
-        <reimplements refid="classMR_1_1IViewerSettingsManager_1af168e749a6c59588feb5c727fbe61f5e">saveInt</reimplements>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>name</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>value</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsManager.h" line="37" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsManager_1a9ca002ebe5eebbe8133cc6bce3264b1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API std::string</type>
-        <definition>virtual MRVIEWER_API std::string MR::ViewerSettingsManager::loadString</definition>
-        <argsstring>(const std::string &amp;name, const std::string &amp;def) override</argsstring>
-        <name>loadString</name>
-        <qualifiedname>MR::ViewerSettingsManager::loadString</qualifiedname>
-        <reimplements refid="classMR_1_1IViewerSettingsManager_1ac98d55ecfa50e04e63dfedf7493bb801">loadString</reimplements>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>name</declname>
-        </param>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>def</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsManager.h" line="38" column="38"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsManager_1a29f9662501e741d7d1fc74ed9c625795" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>virtual MRVIEWER_API void MR::ViewerSettingsManager::saveString</definition>
-        <argsstring>(const std::string &amp;name, const std::string &amp;value) override</argsstring>
-        <name>saveString</name>
-        <qualifiedname>MR::ViewerSettingsManager::saveString</qualifiedname>
-        <reimplements refid="classMR_1_1IViewerSettingsManager_1a9102818977eba48ae6d32a50ec265530">saveString</reimplements>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>name</declname>
-        </param>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>value</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsManager.h" line="39" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsManager_1a75e0d8257f6b959f21a0572a5cad981a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>virtual MRVIEWER_API bool MR::ViewerSettingsManager::loadBool</definition>
-        <argsstring>(const std::string &amp;name, bool def) override</argsstring>
-        <name>loadBool</name>
-        <qualifiedname>MR::ViewerSettingsManager::loadBool</qualifiedname>
-        <reimplements refid="classMR_1_1IViewerSettingsManager_1a06f9dd76c37cf576cfd31923c38dfcd0">loadBool</reimplements>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>name</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>def</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsManager.h" line="40" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsManager_1a042d3ed32be3a4c2a05955e2ff522edb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>virtual MRVIEWER_API void MR::ViewerSettingsManager::saveBool</definition>
-        <argsstring>(const std::string &amp;name, bool value) override</argsstring>
-        <name>saveBool</name>
-        <qualifiedname>MR::ViewerSettingsManager::saveBool</qualifiedname>
-        <reimplements refid="classMR_1_1IViewerSettingsManager_1aa41a37036651e7f0cb04a0d4b65d106d">saveBool</reimplements>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>name</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>value</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsManager.h" line="41" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsManager_1a44434b6d527c61c052707e63cba1a32a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>virtual MRVIEWER_API void MR::ViewerSettingsManager::resetSettings</definition>
-        <argsstring>(Viewer &amp;) override</argsstring>
-        <name>resetSettings</name>
-        <qualifiedname>MR::ViewerSettingsManager::resetSettings</qualifiedname>
-        <reimplements refid="classMR_1_1IViewerSettingsManager_1aa9efd64388f302d29af0b3f52e02e1b9">resetSettings</reimplements>
-        <param>
-          <type><ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref> &amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsManager.h" line="43" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsManager_1aae039b8200dd053aec8632ae57be5880" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>virtual MRVIEWER_API void MR::ViewerSettingsManager::loadSettings</definition>
-        <argsstring>(Viewer &amp;viewer) override</argsstring>
-        <name>loadSettings</name>
-        <qualifiedname>MR::ViewerSettingsManager::loadSettings</qualifiedname>
-        <reimplements refid="classMR_1_1IViewerSettingsManager_1a7bd0929348c284a027cc6bed035f2b84">loadSettings</reimplements>
-        <param>
-          <type><ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref> &amp;</type>
-          <declname>viewer</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsManager.h" line="44" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsManager_1a770118627bfaf87c25ea5054d8accd6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>virtual MRVIEWER_API void MR::ViewerSettingsManager::saveSettings</definition>
-        <argsstring>(const Viewer &amp;viewer) override</argsstring>
-        <name>saveSettings</name>
-        <qualifiedname>MR::ViewerSettingsManager::saveSettings</qualifiedname>
-        <reimplements refid="classMR_1_1IViewerSettingsManager_1ae67af1a0e658385f3cdc6e77271e8a4d">saveSettings</reimplements>
-        <param>
-          <type>const <ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref> &amp;</type>
-          <declname>viewer</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsManager.h" line="45" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsManager_1aec65e015620e9455787fd7da4496b654" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API const std::string &amp;</type>
-        <definition>MRVIEWER_API const std::string &amp; MR::ViewerSettingsManager::getLastExtention</definition>
-        <argsstring>(ObjType objType)</argsstring>
-        <name>getLastExtention</name>
-        <qualifiedname>MR::ViewerSettingsManager::getLastExtention</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1ViewerSettingsManager_1a0467e77cf6f92e5f94c8d1d75eef8a76" kindref="member">ObjType</ref></type>
-          <declname>objType</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsManager.h" line="56" column="37"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsManager_1ae34d29d931ee10c81966d705130f7490" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::ViewerSettingsManager::setLastExtention</definition>
-        <argsstring>(ObjType objType, std::string ext)</argsstring>
-        <name>setLastExtention</name>
-        <qualifiedname>MR::ViewerSettingsManager::setLastExtention</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1ViewerSettingsManager_1a0467e77cf6f92e5f94c8d1d75eef8a76" kindref="member">ObjType</ref></type>
-          <declname>objType</declname>
-        </param>
-        <param>
-          <type>std::string</type>
-          <declname>ext</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsManager.h" line="57" column="23"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga73a1b054bbf40224c9f01e6aff8af7af" kind="function"><name>ViewerSettingsManager</name></member>
+      <member refid="group__GeneralGroup_1ga0dca5c0c64723897642af29dc8fef964" kind="function"><name>loadInt</name></member>
+      <member refid="group__GeneralGroup_1ga51cede7ab3c024e08577094a584e7512" kind="function"><name>saveInt</name></member>
+      <member refid="group__GeneralGroup_1ga9ca002ebe5eebbe8133cc6bce3264b1f" kind="function"><name>loadString</name></member>
+      <member refid="group__GeneralGroup_1ga29f9662501e741d7d1fc74ed9c625795" kind="function"><name>saveString</name></member>
+      <member refid="group__GeneralGroup_1ga75e0d8257f6b959f21a0572a5cad981a" kind="function"><name>loadBool</name></member>
+      <member refid="group__GeneralGroup_1ga042d3ed32be3a4c2a05955e2ff522edb" kind="function"><name>saveBool</name></member>
+      <member refid="group__GeneralGroup_1ga44434b6d527c61c052707e63cba1a32a" kind="function"><name>resetSettings</name></member>
+      <member refid="group__GeneralGroup_1gaae039b8200dd053aec8632ae57be5880" kind="function"><name>loadSettings</name></member>
+      <member refid="group__GeneralGroup_1ga770118627bfaf87c25ea5054d8accd6b" kind="function"><name>saveSettings</name></member>
+      <member refid="group__GeneralGroup_1gaec65e015620e9455787fd7da4496b654" kind="function"><name>getLastExtention</name></member>
+      <member refid="group__GeneralGroup_1gae34d29d931ee10c81966d705130f7490" kind="function"><name>setLastExtention</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -355,23 +52,23 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsManager.h" line="31" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsManager.h" bodystart="32" bodyend="60"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsManager.h" line="34" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsManager.h" bodystart="35" bodyend="63"/>
     <listofallmembers>
-      <member refid="classMR_1_1ViewerSettingsManager_1aec65e015620e9455787fd7da4496b654" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsManager</scope><name>getLastExtention</name></member>
-      <member refid="classMR_1_1ViewerSettingsManager_1a90a7d78d290a3fb47d55b7241f88e075" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsManager</scope><name>lastExtentions_</name></member>
-      <member refid="classMR_1_1ViewerSettingsManager_1a75e0d8257f6b959f21a0572a5cad981a" prot="public" virt="virtual"><scope>MR::ViewerSettingsManager</scope><name>loadBool</name></member>
-      <member refid="classMR_1_1ViewerSettingsManager_1a0dca5c0c64723897642af29dc8fef964" prot="public" virt="virtual"><scope>MR::ViewerSettingsManager</scope><name>loadInt</name></member>
-      <member refid="classMR_1_1ViewerSettingsManager_1aae039b8200dd053aec8632ae57be5880" prot="public" virt="virtual"><scope>MR::ViewerSettingsManager</scope><name>loadSettings</name></member>
-      <member refid="classMR_1_1ViewerSettingsManager_1a9ca002ebe5eebbe8133cc6bce3264b1f" prot="public" virt="virtual"><scope>MR::ViewerSettingsManager</scope><name>loadString</name></member>
-      <member refid="classMR_1_1ViewerSettingsManager_1a0467e77cf6f92e5f94c8d1d75eef8a76" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsManager</scope><name>ObjType</name></member>
-      <member refid="classMR_1_1ViewerSettingsManager_1a44434b6d527c61c052707e63cba1a32a" prot="public" virt="virtual"><scope>MR::ViewerSettingsManager</scope><name>resetSettings</name></member>
-      <member refid="classMR_1_1ViewerSettingsManager_1a042d3ed32be3a4c2a05955e2ff522edb" prot="public" virt="virtual"><scope>MR::ViewerSettingsManager</scope><name>saveBool</name></member>
-      <member refid="classMR_1_1ViewerSettingsManager_1a51cede7ab3c024e08577094a584e7512" prot="public" virt="virtual"><scope>MR::ViewerSettingsManager</scope><name>saveInt</name></member>
-      <member refid="classMR_1_1ViewerSettingsManager_1a770118627bfaf87c25ea5054d8accd6b" prot="public" virt="virtual"><scope>MR::ViewerSettingsManager</scope><name>saveSettings</name></member>
-      <member refid="classMR_1_1ViewerSettingsManager_1a29f9662501e741d7d1fc74ed9c625795" prot="public" virt="virtual"><scope>MR::ViewerSettingsManager</scope><name>saveString</name></member>
-      <member refid="classMR_1_1ViewerSettingsManager_1ae34d29d931ee10c81966d705130f7490" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsManager</scope><name>setLastExtention</name></member>
-      <member refid="classMR_1_1ViewerSettingsManager_1a73a1b054bbf40224c9f01e6aff8af7af" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsManager</scope><name>ViewerSettingsManager</name></member>
-      <member refid="classMR_1_1IViewerSettingsManager_1a5fa6959a71ea16d2cd2ca4e276a04665" prot="public" virt="virtual"><scope>MR::ViewerSettingsManager</scope><name>~IViewerSettingsManager</name></member>
+      <member refid="group__GeneralGroup_1gaec65e015620e9455787fd7da4496b654" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsManager</scope><name>getLastExtention</name></member>
+      <member refid="group__GeneralGroup_1ga90a7d78d290a3fb47d55b7241f88e075" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsManager</scope><name>lastExtentions_</name></member>
+      <member refid="group__GeneralGroup_1ga75e0d8257f6b959f21a0572a5cad981a" prot="public" virt="virtual"><scope>MR::ViewerSettingsManager</scope><name>loadBool</name></member>
+      <member refid="group__GeneralGroup_1ga0dca5c0c64723897642af29dc8fef964" prot="public" virt="virtual"><scope>MR::ViewerSettingsManager</scope><name>loadInt</name></member>
+      <member refid="group__GeneralGroup_1gaae039b8200dd053aec8632ae57be5880" prot="public" virt="virtual"><scope>MR::ViewerSettingsManager</scope><name>loadSettings</name></member>
+      <member refid="group__GeneralGroup_1ga9ca002ebe5eebbe8133cc6bce3264b1f" prot="public" virt="virtual"><scope>MR::ViewerSettingsManager</scope><name>loadString</name></member>
+      <member refid="group__GeneralGroup_1ga0467e77cf6f92e5f94c8d1d75eef8a76" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsManager</scope><name>ObjType</name></member>
+      <member refid="group__GeneralGroup_1ga44434b6d527c61c052707e63cba1a32a" prot="public" virt="virtual"><scope>MR::ViewerSettingsManager</scope><name>resetSettings</name></member>
+      <member refid="group__GeneralGroup_1ga042d3ed32be3a4c2a05955e2ff522edb" prot="public" virt="virtual"><scope>MR::ViewerSettingsManager</scope><name>saveBool</name></member>
+      <member refid="group__GeneralGroup_1ga51cede7ab3c024e08577094a584e7512" prot="public" virt="virtual"><scope>MR::ViewerSettingsManager</scope><name>saveInt</name></member>
+      <member refid="group__GeneralGroup_1ga770118627bfaf87c25ea5054d8accd6b" prot="public" virt="virtual"><scope>MR::ViewerSettingsManager</scope><name>saveSettings</name></member>
+      <member refid="group__GeneralGroup_1ga29f9662501e741d7d1fc74ed9c625795" prot="public" virt="virtual"><scope>MR::ViewerSettingsManager</scope><name>saveString</name></member>
+      <member refid="group__GeneralGroup_1gae34d29d931ee10c81966d705130f7490" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsManager</scope><name>setLastExtention</name></member>
+      <member refid="group__GeneralGroup_1ga73a1b054bbf40224c9f01e6aff8af7af" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsManager</scope><name>ViewerSettingsManager</name></member>
+      <member refid="group__GeneralGroup_1ga5fa6959a71ea16d2cd2ca4e276a04665" prot="public" virt="virtual"><scope>MR::ViewerSettingsManager</scope><name>~IViewerSettingsManager</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

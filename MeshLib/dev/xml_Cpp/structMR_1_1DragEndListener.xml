@@ -5,88 +5,12 @@
     <basecompoundref refid="structMR_1_1ConnectionHolder" prot="public" virt="non-virtual">MR::ConnectionHolder</basecompoundref>
     <includes refid="MRViewerEventsListener_8h" local="no">MRViewerEventsListener.h</includes>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1DragEndListener_1a4a89ee1a6b65d9640fe22c0bd4ddb5b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::DragEndListener::MR_ADD_CTOR_DELETE_MOVE</definition>
-        <argsstring>(DragEndListener)</argsstring>
-        <name>MR_ADD_CTOR_DELETE_MOVE</name>
-        <qualifiedname>MR::DragEndListener::MR_ADD_CTOR_DELETE_MOVE</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1DragEndListener" kindref="compound">DragEndListener</ref></type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="106" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1DragEndListener_1a2768a8c22456638cfdef0c641b35167f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type></type>
-        <definition>virtual MR::DragEndListener::~DragEndListener</definition>
-        <argsstring>()=default</argsstring>
-        <name>~DragEndListener</name>
-        <qualifiedname>MR::DragEndListener::~DragEndListener</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="107" column="13"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1DragEndListener_1a777e34508899f28f3eeb8aa3fec9a078" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>virtual MRVIEWER_API void MR::DragEndListener::connect</definition>
-        <argsstring>(Viewer *viewer, int group, boost::signals2::connect_position pos) override</argsstring>
-        <name>connect</name>
-        <qualifiedname>MR::DragEndListener::connect</qualifiedname>
-        <reimplements refid="structMR_1_1IConnectable_1a2212095d3996892cff578320ac2ce746">connect</reimplements>
-        <param>
-          <type><ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref> *</type>
-          <declname>viewer</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>group</declname>
-        </param>
-        <param>
-          <type>boost::signals2::connect_position</type>
-          <declname>pos</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="108" column="31"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga4a89ee1a6b65d9640fe22c0bd4ddb5b4" kind="function"><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1ga2768a8c22456638cfdef0c641b35167f" kind="function"><name>~DragEndListener</name></member>
+      <member refid="group__GeneralGroup_1ga777e34508899f28f3eeb8aa3fec9a078" kind="function"><name>connect</name></member>
     </sectiondef>
     <sectiondef kind="protected-func">
-      <memberdef kind="function" id="structMR_1_1DragEndListener_1ad5de99209a6dbbd5c32371c8e65bed9d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::DragEndListener::onDragEnd_</definition>
-        <argsstring>(MouseButton btn, int modifiers)=0</argsstring>
-        <name>onDragEnd_</name>
-        <qualifiedname>MR::DragEndListener::onDragEnd_</qualifiedname>
-        <param>
-          <type><ref refid="namespaceMR_1a13f98b7840e7298925ef1770b7cdb62d" kindref="member">MouseButton</ref></type>
-          <declname>btn</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>modifiers</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="110" column="18"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gad5de99209a6dbbd5c32371c8e65bed9d" kind="function"><name>onDragEnd_</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -128,16 +52,16 @@
         <link refid="structMR_1_1IConnectable"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="104" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="105" bodyend="111"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="107" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="108" bodyend="114"/>
     <listofallmembers>
-      <member refid="structMR_1_1DragEndListener_1a777e34508899f28f3eeb8aa3fec9a078" prot="public" virt="virtual"><scope>MR::DragEndListener</scope><name>connect</name></member>
-      <member refid="structMR_1_1ConnectionHolder_1a56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::DragEndListener</scope><name>connection_</name></member>
-      <member refid="structMR_1_1ConnectionHolder_1afe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::DragEndListener</scope><name>disconnect</name></member>
-      <member refid="structMR_1_1DragEndListener_1a4a89ee1a6b65d9640fe22c0bd4ddb5b4" prot="public" virt="non-virtual"><scope>MR::DragEndListener</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
-      <member refid="structMR_1_1DragEndListener_1ad5de99209a6dbbd5c32371c8e65bed9d" prot="protected" virt="pure-virtual"><scope>MR::DragEndListener</scope><name>onDragEnd_</name></member>
-      <member refid="structMR_1_1ConnectionHolder_1a99ffc44dd73f73e2e907b7ab5bb38aaf" prot="public" virt="virtual"><scope>MR::DragEndListener</scope><name>~ConnectionHolder</name></member>
-      <member refid="structMR_1_1DragEndListener_1a2768a8c22456638cfdef0c641b35167f" prot="public" virt="virtual"><scope>MR::DragEndListener</scope><name>~DragEndListener</name></member>
-      <member refid="structMR_1_1IConnectable_1a28c07761e682b80befbb2d5f91bdd38c" prot="public" virt="virtual"><scope>MR::DragEndListener</scope><name>~IConnectable</name></member>
+      <member refid="group__GeneralGroup_1ga777e34508899f28f3eeb8aa3fec9a078" prot="public" virt="virtual"><scope>MR::DragEndListener</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1ga56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::DragEndListener</scope><name>connection_</name></member>
+      <member refid="group__GeneralGroup_1gafe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::DragEndListener</scope><name>disconnect</name></member>
+      <member refid="group__GeneralGroup_1ga4a89ee1a6b65d9640fe22c0bd4ddb5b4" prot="public" virt="non-virtual"><scope>MR::DragEndListener</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1gad5de99209a6dbbd5c32371c8e65bed9d" prot="protected" virt="pure-virtual"><scope>MR::DragEndListener</scope><name>onDragEnd_</name></member>
+      <member refid="group__GeneralGroup_1ga99ffc44dd73f73e2e907b7ab5bb38aaf" prot="public" virt="virtual"><scope>MR::DragEndListener</scope><name>~ConnectionHolder</name></member>
+      <member refid="group__GeneralGroup_1ga2768a8c22456638cfdef0c641b35167f" prot="public" virt="virtual"><scope>MR::DragEndListener</scope><name>~DragEndListener</name></member>
+      <member refid="group__GeneralGroup_1ga28c07761e682b80befbb2d5f91bdd38c" prot="public" virt="virtual"><scope>MR::DragEndListener</scope><name>~IConnectable</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

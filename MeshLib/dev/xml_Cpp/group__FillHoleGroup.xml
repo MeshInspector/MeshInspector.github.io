@@ -58,7 +58,7 @@
     </sectiondef>
     <sectiondef kind="var">
       <memberdef kind="variable" id="group__FillHoleGroup_1gac632bf42924389cba000b725ef53d7bc" prot="public" static="no" extern="yes" mutable="no">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> const double</type>
+        <type>MRMESH_API const double</type>
         <definition>MRMESH_API const double MR::BadTriangulationMetric</definition>
         <argsstring></argsstring>
         <name>BadTriangulationMetric</name>
@@ -75,7 +75,7 @@
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="group__FillHoleGroup_1gaa096c69aa6c5cf97a783e92aa3a70157" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::buildCylinderBetweenTwoHoles</definition>
         <argsstring>(Mesh &amp;mesh, EdgeId a, EdgeId b, const StitchHolesParams &amp;params={})</argsstring>
         <name>buildCylinderBetweenTwoHoles</name>
@@ -107,7 +107,7 @@ default metric: ComplexStitchMetric</para>
 <para><image type="html" name="before_stitch.png" width="250cm">Before</image>
  <image type="html" name="stitch.png" width="250cm">After</image>
 </para>
-<para>Next picture show, how newly generated faces can be smoothed <ref refid="namespaceMR_1ae86354c05ad9fa894a5dd8c50099d7a9" kindref="member">MR::positionVertsSmoothly</ref> <ref refid="group__MeshSubdivideGroup_1ga8e8a41112544b99ef8f20e3e6b61fab7" kindref="member">MR::subdivideMesh</ref> <image type="html" name="stitch_smooth.png" width="250cm">Stitch with smooth</image>
+<para>Next picture show, how newly generated faces can be smoothed <ref refid="group__GeneralGroup_1gae86354c05ad9fa894a5dd8c50099d7a9" kindref="member">MR::positionVertsSmoothly</ref> <ref refid="group__MeshSubdivideGroup_1ga8e8a41112544b99ef8f20e3e6b61fab7" kindref="member">MR::subdivideMesh</ref> <image type="html" name="stitch_smooth.png" width="250cm">Stitch with smooth</image>
 </para>
 <para><programlisting filename="cpp-examples/MeshStitchHole.dox.cpp"></programlisting></para>
 <para><parameterlist kind="param"><parameteritem>
@@ -154,7 +154,7 @@ default metric: ComplexStitchMetric</para>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="117" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="117" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1gaf61677f65331b42d3022a70d4b550a13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <type>MRMESH_API bool</type>
         <definition>MRMESH_API bool MR::buildCylinderBetweenTwoHoles</definition>
         <argsstring>(Mesh &amp;mesh, const StitchHolesParams &amp;params={})</argsstring>
         <name>buildCylinderBetweenTwoHoles</name>
@@ -178,7 +178,7 @@ default metric: ComplexStitchMetric</para>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="120" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="120" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1gac972786878ec37756f5a95814b657a05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::fillHole</definition>
         <argsstring>(Mesh &amp;mesh, EdgeId a, const FillHoleParams &amp;params={})</argsstring>
         <name>fillHole</name>
@@ -207,7 +207,7 @@ default metric: CircumscribedFillMetric</para>
 <para><image type="html" name="before_fill.png" width="250cm">Before</image>
  <image type="html" name="fill.png" width="250cm">After</image>
 </para>
-<para>Next picture show, how newly generated faces can be smoothed <ref refid="namespaceMR_1ae86354c05ad9fa894a5dd8c50099d7a9" kindref="member">MR::positionVertsSmoothly</ref> <ref refid="group__MeshSubdivideGroup_1ga8e8a41112544b99ef8f20e3e6b61fab7" kindref="member">MR::subdivideMesh</ref> <image type="html" name="fill_smooth.png" width="250cm">Fill with smooth</image>
+<para>Next picture show, how newly generated faces can be smoothed <ref refid="group__GeneralGroup_1gae86354c05ad9fa894a5dd8c50099d7a9" kindref="member">MR::positionVertsSmoothly</ref> <ref refid="group__MeshSubdivideGroup_1ga8e8a41112544b99ef8f20e3e6b61fab7" kindref="member">MR::subdivideMesh</ref> <image type="html" name="fill_smooth.png" width="250cm">Fill with smooth</image>
 </para>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
@@ -247,7 +247,7 @@ default metric: CircumscribedFillMetric</para>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="145" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="145" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga826414470e5289e2dfba2496f06d98ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::fillHoles</definition>
         <argsstring>(Mesh &amp;mesh, const std::vector&lt; EdgeId &gt; &amp;as, const FillHoleParams &amp;params={})</argsstring>
         <name>fillHoles</name>
@@ -285,7 +285,7 @@ default metric: CircumscribedFillMetric</para>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="148" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="148" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga7b7b07510d4a7d74b02ef6890db04a9d" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <type>MRMESH_API bool</type>
         <definition>MRMESH_API bool MR::isHoleBd</definition>
         <argsstring>(const MeshTopology &amp;topology, const EdgeLoop &amp;loop)</argsstring>
         <name>isHoleBd</name>
@@ -312,7 +312,7 @@ default metric: CircumscribedFillMetric</para>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="154" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="154" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1gaa3256109cd439a9801f179661c65c7e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> HoleFillPlan</type>
+        <type>MRMESH_API HoleFillPlan</type>
         <definition>MRMESH_API HoleFillPlan MR::getHoleFillPlan</definition>
         <argsstring>(const Mesh &amp;mesh, EdgeId e, const FillHoleParams &amp;params={})</argsstring>
         <name>getHoleFillPlan</name>
@@ -340,7 +340,7 @@ default metric: CircumscribedFillMetric</para>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="172" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="172" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga774fddcb7bb0ac330a1e034edfd94db6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::vector&lt; HoleFillPlan &gt;</type>
+        <type>MRMESH_API std::vector&lt; HoleFillPlan &gt;</type>
         <definition>MRMESH_API std::vector&lt; HoleFillPlan &gt; MR::getHoleFillPlans</definition>
         <argsstring>(const Mesh &amp;mesh, const std::vector&lt; EdgeId &gt; &amp;holeRepresentativeEdges, const FillHoleParams &amp;params={})</argsstring>
         <name>getHoleFillPlans</name>
@@ -368,7 +368,7 @@ default metric: CircumscribedFillMetric</para>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="176" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="176" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga1dbbac5f3d5dfdebbb1790578aed11d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> HoleFillPlan</type>
+        <type>MRMESH_API HoleFillPlan</type>
         <definition>MRMESH_API HoleFillPlan MR::getPlanarHoleFillPlan</definition>
         <argsstring>(const Mesh &amp;mesh, EdgeId e)</argsstring>
         <name>getPlanarHoleFillPlan</name>
@@ -391,7 +391,7 @@ default metric: CircumscribedFillMetric</para>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="180" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="180" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga2dd8633650b066fde22814493231dc04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::vector&lt; HoleFillPlan &gt;</type>
+        <type>MRMESH_API std::vector&lt; HoleFillPlan &gt;</type>
         <definition>MRMESH_API std::vector&lt; HoleFillPlan &gt; MR::getPlanarHoleFillPlans</definition>
         <argsstring>(const Mesh &amp;mesh, const std::vector&lt; EdgeId &gt; &amp;holeRepresentativeEdges)</argsstring>
         <name>getPlanarHoleFillPlans</name>
@@ -414,7 +414,7 @@ default metric: CircumscribedFillMetric</para>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="184" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="184" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1gac65388f63712128d8af8e1b81054f779" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::executeHoleFillPlan</definition>
         <argsstring>(Mesh &amp;mesh, EdgeId a0, HoleFillPlan &amp;plan, FaceBitSet *outNewFaces=nullptr)</argsstring>
         <name>executeHoleFillPlan</name>
@@ -446,7 +446,7 @@ default metric: CircumscribedFillMetric</para>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="187" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="187" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga0241a36cc2b1016fd0cf66e9ae71f722" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> VertId</type>
+        <type>MRMESH_API VertId</type>
         <definition>MRMESH_API VertId MR::fillHoleTrivially</definition>
         <argsstring>(Mesh &amp;mesh, EdgeId a, FaceBitSet *outNewFaces=nullptr)</argsstring>
         <name>fillHoleTrivially</name>
@@ -474,7 +474,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
 <para><image type="html" name="before_fill.png" width="250cm">Before</image>
  <image type="html" name="fill_triv.png" width="250cm">After</image>
 </para>
-<para>Next picture show, how newly generated faces can be smoothed <ref refid="namespaceMR_1ae86354c05ad9fa894a5dd8c50099d7a9" kindref="member">MR::positionVertsSmoothly</ref> <ref refid="group__MeshSubdivideGroup_1ga8e8a41112544b99ef8f20e3e6b61fab7" kindref="member">MR::subdivideMesh</ref> <image type="html" name="fill_triv_smooth.png" width="250cm">Trivial fill with smooth</image>
+<para>Next picture show, how newly generated faces can be smoothed <ref refid="group__GeneralGroup_1gae86354c05ad9fa894a5dd8c50099d7a9" kindref="member">MR::positionVertsSmoothly</ref> <ref refid="group__MeshSubdivideGroup_1ga8e8a41112544b99ef8f20e3e6b61fab7" kindref="member">MR::subdivideMesh</ref> <image type="html" name="fill_triv_smooth.png" width="250cm">Trivial fill with smooth</image>
 </para>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
@@ -512,7 +512,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="210" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="210" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga3c7779fd4cc2d941f67da4462b2d0121" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> EdgeId</type>
+        <type>MRMESH_API EdgeId</type>
         <definition>MRMESH_API EdgeId MR::extendHole</definition>
         <argsstring>(Mesh &amp;mesh, EdgeId a, const Plane3f &amp;plane, FaceBitSet *outNewFaces=nullptr)</argsstring>
         <name>extendHole</name>
@@ -546,7 +546,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="215" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="215" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga98bec93b947e8017b7443801e20bc79b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::vector&lt; EdgeId &gt;</type>
+        <type>MRMESH_API std::vector&lt; EdgeId &gt;</type>
         <definition>MRMESH_API std::vector&lt; EdgeId &gt; MR::extendAllHoles</definition>
         <argsstring>(Mesh &amp;mesh, const Plane3f &amp;plane, FaceBitSet *outNewFaces=nullptr)</argsstring>
         <name>extendAllHoles</name>
@@ -576,7 +576,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="219" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="219" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga067cc1eda81ae410fdf9299ca802738a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> EdgeId</type>
+        <type>MRMESH_API EdgeId</type>
         <definition>MRMESH_API EdgeId MR::extendHole</definition>
         <argsstring>(Mesh &amp;mesh, EdgeId a, std::function&lt; Vector3f(const Vector3f &amp;)&gt; getVertPos, FaceBitSet *outNewFaces=nullptr)</argsstring>
         <name>extendHole</name>
@@ -610,7 +610,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="224" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="224" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga7bee2d636a1f5f931ac54f6f841c07f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> EdgeId</type>
+        <type>MRMESH_API EdgeId</type>
         <definition>MRMESH_API EdgeId MR::buildBottom</definition>
         <argsstring>(Mesh &amp;mesh, EdgeId a, Vector3f dir, float holeExtension, FaceBitSet *outNewFaces=nullptr)</argsstring>
         <name>buildBottom</name>
@@ -648,7 +648,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="229" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="229" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga10d97d0e9b001fe0d4915154d1945e77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> EdgeId</type>
+        <type>MRMESH_API EdgeId</type>
         <definition>MRMESH_API EdgeId MR::makeDegenerateBandAroundHole</definition>
         <argsstring>(Mesh &amp;mesh, EdgeId a, FaceBitSet *outNewFaces=nullptr)</argsstring>
         <name>makeDegenerateBandAroundHole</name>
@@ -678,7 +678,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="233" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="233" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga2d4d7960f97e0c640fa2d62c25514c2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> MakeBridgeResult</type>
+        <type>MRMESH_API MakeBridgeResult</type>
         <definition>MRMESH_API MakeBridgeResult MR::makeQuadBridge</definition>
         <argsstring>(MeshTopology &amp;topology, EdgeId a, EdgeId b, FaceBitSet *outNewFaces=nullptr)</argsstring>
         <name>makeQuadBridge</name>
@@ -712,7 +712,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="251" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="251" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1gad16b63618dae72a30c787fcd1d7b8200" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> MakeBridgeResult</type>
+        <type>MRMESH_API MakeBridgeResult</type>
         <definition>MRMESH_API MakeBridgeResult MR::makeBridge</definition>
         <argsstring>(MeshTopology &amp;topology, EdgeId a, EdgeId b, FaceBitSet *outNewFaces=nullptr)</argsstring>
         <name>makeBridge</name>
@@ -746,7 +746,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="256" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="256" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1gae081fd1e2bfcbf6522b3c28a35ebced2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> MakeBridgeResult</type>
+        <type>MRMESH_API MakeBridgeResult</type>
         <definition>MRMESH_API MakeBridgeResult MR::makeSmoothBridge</definition>
         <argsstring>(Mesh &amp;mesh, EdgeId a, EdgeId b, float samplingStep, FaceBitSet *outNewFaces=nullptr)</argsstring>
         <name>makeSmoothBridge</name>
@@ -793,7 +793,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="263" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="263" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga86668640c827d61e8ee92b7a74dc558d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> EdgeId</type>
+        <type>MRMESH_API EdgeId</type>
         <definition>MRMESH_API EdgeId MR::makeBridgeEdge</definition>
         <argsstring>(MeshTopology &amp;topology, EdgeId a, EdgeId b)</argsstring>
         <name>makeBridgeEdge</name>
@@ -822,7 +822,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="267" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="267" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1gad76a068dd3fae29c30797157fd646667" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::splitQuad</definition>
         <argsstring>(MeshTopology &amp;topology, EdgeId a, FaceBitSet *outNewFaces=nullptr)</argsstring>
         <name>splitQuad</name>
@@ -850,7 +850,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="270" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" declline="270" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga42f6ba6ec6bdfa6f27d1045e79b9346e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> double</type>
+        <type>MRMESH_API double</type>
         <definition>MRMESH_API double MR::calcCombinedFillMetric</definition>
         <argsstring>(const Mesh &amp;mesh, const FaceBitSet &amp;filledRegion, const FillHoleMetric &amp;metric)</argsstring>
         <name>calcCombinedFillMetric</name>
@@ -877,7 +877,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMetrics.h" line="50" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMetrics.h" declline="50" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga1f8991ed600a3fc8cec5258a75d5edb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> FillHoleMetric</type>
+        <type>MRMESH_API FillHoleMetric</type>
         <definition>MRMESH_API FillHoleMetric MR::getCircumscribedMetric</definition>
         <argsstring>(const Mesh &amp;mesh)</argsstring>
         <name>getCircumscribedMetric</name>
@@ -896,7 +896,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMetrics.h" line="54" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMetrics.h" declline="54" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1gaa490c6225ad37e5491af1ed61365e774" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> FillHoleMetric</type>
+        <type>MRMESH_API FillHoleMetric</type>
         <definition>MRMESH_API FillHoleMetric MR::getPlaneFillMetric</definition>
         <argsstring>(const Mesh &amp;mesh, EdgeId e)</argsstring>
         <name>getPlaneFillMetric</name>
@@ -919,7 +919,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMetrics.h" line="58" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMetrics.h" declline="58" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga57ca3e797d9308a5db4461b06d773c01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> FillHoleMetric</type>
+        <type>MRMESH_API FillHoleMetric</type>
         <definition>MRMESH_API FillHoleMetric MR::getPlaneNormalizedFillMetric</definition>
         <argsstring>(const Mesh &amp;mesh, EdgeId e)</argsstring>
         <name>getPlaneNormalizedFillMetric</name>
@@ -942,7 +942,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMetrics.h" line="63" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMetrics.h" declline="63" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga254a08307d5300b9bc3843d7c8acf653" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> FillHoleMetric</type>
+        <type>MRMESH_API FillHoleMetric</type>
         <definition>MRMESH_API FillHoleMetric MR::getComplexStitchMetric</definition>
         <argsstring>(const Mesh &amp;mesh)</argsstring>
         <name>getComplexStitchMetric</name>
@@ -964,7 +964,7 @@ edgeMetric is proportional to ( 1 - dihedralAngleCos ) </para>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMetrics.h" line="70" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMetrics.h" declline="70" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga2bc1cb5bc1aba5dea400fb1ea6cc8a63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> FillHoleMetric</type>
+        <type>MRMESH_API FillHoleMetric</type>
         <definition>MRMESH_API FillHoleMetric MR::getEdgeLengthFillMetric</definition>
         <argsstring>(const Mesh &amp;mesh)</argsstring>
         <name>getEdgeLengthFillMetric</name>
@@ -983,7 +983,7 @@ edgeMetric is proportional to ( 1 - dihedralAngleCos ) </para>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMetrics.h" line="73" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMetrics.h" declline="73" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga21177488c5c69bed8eba38677306be0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> FillHoleMetric</type>
+        <type>MRMESH_API FillHoleMetric</type>
         <definition>MRMESH_API FillHoleMetric MR::getEdgeLengthStitchMetric</definition>
         <argsstring>(const Mesh &amp;mesh)</argsstring>
         <name>getEdgeLengthStitchMetric</name>
@@ -1003,7 +1003,7 @@ Simple metric minimizing edge length </para>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMetrics.h" line="77" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMetrics.h" declline="77" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1gaf5fc59fe1db6fed34f037ff6dad6bc44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> FillHoleMetric</type>
+        <type>MRMESH_API FillHoleMetric</type>
         <definition>MRMESH_API FillHoleMetric MR::getVerticalStitchMetric</definition>
         <argsstring>(const Mesh &amp;mesh, const Vector3f &amp;upDir)</argsstring>
         <name>getVerticalStitchMetric</name>
@@ -1028,7 +1028,7 @@ All new faces should be parallel to given direction </para>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMetrics.h" line="82" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMetrics.h" declline="82" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1gafdcdacfd248aae959e082574edb6dcb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> FillHoleMetric</type>
+        <type>MRMESH_API FillHoleMetric</type>
         <definition>MRMESH_API FillHoleMetric MR::getVerticalStitchMetricEdgeBased</definition>
         <argsstring>(const Mesh &amp;mesh, const Vector3f &amp;upDir)</argsstring>
         <name>getVerticalStitchMetricEdgeBased</name>
@@ -1053,7 +1053,7 @@ All new faces should be parallel to given direction </para>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMetrics.h" line="87" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMetrics.h" declline="87" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1gaa01960d0a269898638030197df262046" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> FillHoleMetric</type>
+        <type>MRMESH_API FillHoleMetric</type>
         <definition>MRMESH_API FillHoleMetric MR::getComplexFillMetric</definition>
         <argsstring>(const Mesh &amp;mesh, EdgeId e)</argsstring>
         <name>getComplexFillMetric</name>
@@ -1079,7 +1079,7 @@ edgeMetric grows with angle between triangles as ( ( 1 - cos( x ) ) / ( 1 + cos(
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMetrics.h" line="94" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMetrics.h" declline="94" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga9a4b77571e011a0b74c0a419e76ef332" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> FillHoleMetric</type>
+        <type>MRMESH_API FillHoleMetric</type>
         <definition>MRMESH_API FillHoleMetric MR::getParallelPlaneFillMetric</definition>
         <argsstring>(const Mesh &amp;mesh, EdgeId e, const Plane3f *plane=nullptr)</argsstring>
         <name>getParallelPlaneFillMetric</name>
@@ -1107,7 +1107,7 @@ edgeMetric grows with angle between triangles as ( ( 1 - cos( x ) ) / ( 1 + cos(
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMetrics.h" line="97" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMetrics.h" declline="97" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1gab35620a56c8b1a4eb772c84e4dd9907b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> FillHoleMetric</type>
+        <type>MRMESH_API FillHoleMetric</type>
         <definition>MRMESH_API FillHoleMetric MR::getMaxDihedralAngleMetric</definition>
         <argsstring>(const Mesh &amp;mesh)</argsstring>
         <name>getMaxDihedralAngleMetric</name>
@@ -1126,7 +1126,7 @@ edgeMetric grows with angle between triangles as ( ( 1 - cos( x ) ) / ( 1 + cos(
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMetrics.h" line="101" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMetrics.h" declline="101" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga16a9d70b647d9b9f745ab650b21a975e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> FillHoleMetric</type>
+        <type>MRMESH_API FillHoleMetric</type>
         <definition>MRMESH_API FillHoleMetric MR::getUniversalMetric</definition>
         <argsstring>(const Mesh &amp;mesh)</argsstring>
         <name>getUniversalMetric</name>
@@ -1145,7 +1145,7 @@ edgeMetric grows with angle between triangles as ( ( 1 - cos( x ) ) / ( 1 + cos(
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMetrics.h" line="110" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMetrics.h" declline="110" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga338fbef1b80c5730fcdc31a93c980781" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> FillHoleMetric</type>
+        <type>MRMESH_API FillHoleMetric</type>
         <definition>MRMESH_API FillHoleMetric MR::getMinTriAngleMetric</definition>
         <argsstring>(const Mesh &amp;mesh)</argsstring>
         <name>getMinTriAngleMetric</name>
@@ -1164,7 +1164,7 @@ edgeMetric grows with angle between triangles as ( ( 1 - cos( x ) ) / ( 1 + cos(
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMetrics.h" line="113" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshMetrics.h" declline="113" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1gac98959b47ab6fdfe548671b1416e6043" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> FillHoleMetric</type>
+        <type>MRMESH_API FillHoleMetric</type>
         <definition>MRMESH_API FillHoleMetric MR::getMinAreaMetric</definition>
         <argsstring>(const Mesh &amp;mesh)</argsstring>
         <name>getMinAreaMetric</name>

@@ -14,20 +14,7 @@
       </param>
     </templateparamlist>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1SceneCache_1_1VectorHolder_1a298b1987dbe5d8d598ab8a165c6c6e61" prot="public" static="no" mutable="no">
-        <type><ref refid="classMR_1_1SceneCache_1a9d132145ed6e28c339f8a129698217d6" kindref="member">ObjectList</ref>&lt; ObjectType &gt;</type>
-        <definition>ObjectList&lt;ObjectType&gt; MR::SceneCache::VectorHolder&lt; ObjectType, SelectivityType &gt;::value</definition>
-        <argsstring></argsstring>
-        <name>value</name>
-        <qualifiedname>MR::SceneCache::VectorHolder::value</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneCache.h" line="41" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneCache.h" bodystart="41" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga298b1987dbe5d8d598ab8a165c6c6e61" kind="variable"><name>value</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -53,13 +40,13 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneCache.h" line="39" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneCache.h" bodystart="40" bodyend="42"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneCache.h" line="42" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneCache.h" bodystart="43" bodyend="45"/>
     <listofallmembers>
-      <member refid="structMR_1_1SceneCache_1_1BasicVectorHolder_1a51511322a9bddec9642def76493870ca" prot="public" virt="non-virtual"><scope>MR::SceneCache::VectorHolder</scope><name>BasicVectorHolder</name></member>
-      <member refid="structMR_1_1SceneCache_1_1BasicVectorHolder_1af4d86ad80c963f4417cfbc39e70101be" prot="public" virt="non-virtual"><scope>MR::SceneCache::VectorHolder</scope><name>BasicVectorHolder</name></member>
-      <member refid="structMR_1_1SceneCache_1_1BasicVectorHolder_1abc41b1d52dc166a328a71e832dfc8bc4" prot="public" virt="non-virtual"><scope>MR::SceneCache::VectorHolder</scope><name>BasicVectorHolder</name></member>
-      <member refid="structMR_1_1SceneCache_1_1VectorHolder_1a298b1987dbe5d8d598ab8a165c6c6e61" prot="public" virt="non-virtual"><scope>MR::SceneCache::VectorHolder</scope><name>value</name></member>
-      <member refid="structMR_1_1SceneCache_1_1BasicVectorHolder_1a078475b1e162429a1e0c92ffe8c7cdc1" prot="public" virt="virtual"><scope>MR::SceneCache::VectorHolder</scope><name>~BasicVectorHolder</name></member>
+      <member refid="group__GeneralGroup_1ga51511322a9bddec9642def76493870ca" prot="public" virt="non-virtual"><scope>MR::SceneCache::VectorHolder</scope><name>BasicVectorHolder</name></member>
+      <member refid="group__GeneralGroup_1gaf4d86ad80c963f4417cfbc39e70101be" prot="public" virt="non-virtual"><scope>MR::SceneCache::VectorHolder</scope><name>BasicVectorHolder</name></member>
+      <member refid="group__GeneralGroup_1gabc41b1d52dc166a328a71e832dfc8bc4" prot="public" virt="non-virtual"><scope>MR::SceneCache::VectorHolder</scope><name>BasicVectorHolder</name></member>
+      <member refid="group__GeneralGroup_1ga298b1987dbe5d8d598ab8a165c6c6e61" prot="public" virt="non-virtual"><scope>MR::SceneCache::VectorHolder</scope><name>value</name></member>
+      <member refid="group__GeneralGroup_1ga078475b1e162429a1e0c92ffe8c7cdc1" prot="public" virt="virtual"><scope>MR::SceneCache::VectorHolder</scope><name>~BasicVectorHolder</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

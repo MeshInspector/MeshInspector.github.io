@@ -5,218 +5,12 @@
     <derivedcompoundref refid="classMR_1_1Cuda_1_1FastWindingNumber" prot="public" virt="non-virtual">MR::Cuda::FastWindingNumber</derivedcompoundref>
     <includes refid="MRFastWindingNumber_8h" local="no">MRFastWindingNumber.h</includes>
     <sectiondef kind="public-type">
-      <memberdef kind="typedef" id="classMR_1_1IFastWindingNumberByParts_1a54e74708f7b97596d00a59029266cc0f" prot="public" static="no">
-        <type>std::function&lt; <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;(std::vector&lt; float &gt; &amp;&amp;data, const Vector3i &amp;dims, int zOffset)&gt;</type>
-        <definition>using MR::IFastWindingNumberByParts::GridByPartsFunc =  std::function&lt;Expected&lt;void&gt; ( std::vector&lt;float&gt;&amp;&amp; data, const Vector3i&amp; dims, int zOffset )&gt;</definition>
-        <argsstring></argsstring>
-        <name>GridByPartsFunc</name>
-        <qualifiedname>MR::IFastWindingNumberByParts::GridByPartsFunc</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>callback that gets a block of resulting winding numbers <parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>data</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>- block data </para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>dims</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>- block dimensions </para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>zOffset</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>- block offset in XY dimension </para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFastWindingNumber.h" line="86" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFastWindingNumber.h" bodystart="86" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga54e74708f7b97596d00a59029266cc0f" kind="typedef"><name>GridByPartsFunc</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1IFastWindingNumberByParts_1af7e578881fbad35e93b36ab0a2697c1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type></type>
-        <definition>virtual MR::IFastWindingNumberByParts::~IFastWindingNumberByParts</definition>
-        <argsstring>()=default</argsstring>
-        <name>~IFastWindingNumberByParts</name>
-        <qualifiedname>MR::IFastWindingNumberByParts::~IFastWindingNumberByParts</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFastWindingNumber.h" line="80" column="13"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1IFastWindingNumberByParts_1a3cd5d444973254e7b31ab81917f07329" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
-        <type><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
-        <definition>virtual Expected&lt; void &gt; MR::IFastWindingNumberByParts::calcFromGridByParts</definition>
-        <argsstring>(GridByPartsFunc resFunc, const Vector3i &amp;dims, const AffineXf3f &amp;gridToMeshXf, float beta, int layerOverlap, const ProgressCallback &amp;cb)=0</argsstring>
-        <name>calcFromGridByParts</name>
-        <qualifiedname>MR::IFastWindingNumberByParts::calcFromGridByParts</qualifiedname>
-        <reimplementedby refid="classMR_1_1Cuda_1_1FastWindingNumber_1a2a62210342991fb5c15a7f7627fbbd45">calcFromGridByParts</reimplementedby>
-        <param>
-          <type><ref refid="classMR_1_1IFastWindingNumberByParts_1a54e74708f7b97596d00a59029266cc0f" kindref="member">GridByPartsFunc</ref></type>
-          <declname>resFunc</declname>
-        </param>
-        <param>
-          <type>const Vector3i &amp;</type>
-          <declname>dims</declname>
-        </param>
-        <param>
-          <type>const AffineXf3f &amp;</type>
-          <declname>gridToMeshXf</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>beta</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>layerOverlap</declname>
-        </param>
-        <param>
-          <type>const <ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref> &amp;</type>
-          <declname>cb</declname>
-        </param>
-        <briefdescription>
-<para>calculates winding numbers in each point from a three-dimensional grid </para>
-        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>resFunc</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>callback that gets a block of resulting winding numbers</para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>dims</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>dimensions of the grid</para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>gridToMeshXf</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>transform from integer grid locations to voxel&apos;s centers in mesh reference frame</para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>beta</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>determines the precision of the approximation: the more the better, recommended value 2 or more</para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>layerOverlap</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>overlap between two blocks of the grid, set as XY layer count</para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFastWindingNumber.h" line="96" column="22"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1IFastWindingNumberByParts_1a91d50343ae8805a878c0dac2b8ff0802" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
-        <type><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
-        <definition>virtual Expected&lt; void &gt; MR::IFastWindingNumberByParts::calcFromGridWithDistancesByParts</definition>
-        <argsstring>(GridByPartsFunc resFunc, const Vector3i &amp;dims, const AffineXf3f &amp;gridToMeshXf, const DistanceToMeshOptions &amp;options, int layerOverlap, const ProgressCallback &amp;cb)=0</argsstring>
-        <name>calcFromGridWithDistancesByParts</name>
-        <qualifiedname>MR::IFastWindingNumberByParts::calcFromGridWithDistancesByParts</qualifiedname>
-        <reimplementedby refid="classMR_1_1Cuda_1_1FastWindingNumber_1aa58e46d5a0d4b887dfc6f4edddafa860">calcFromGridWithDistancesByParts</reimplementedby>
-        <param>
-          <type><ref refid="classMR_1_1IFastWindingNumberByParts_1a54e74708f7b97596d00a59029266cc0f" kindref="member">GridByPartsFunc</ref></type>
-          <declname>resFunc</declname>
-        </param>
-        <param>
-          <type>const Vector3i &amp;</type>
-          <declname>dims</declname>
-        </param>
-        <param>
-          <type>const AffineXf3f &amp;</type>
-          <declname>gridToMeshXf</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1DistanceToMeshOptions" kindref="compound">DistanceToMeshOptions</ref> &amp;</type>
-          <declname>options</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>layerOverlap</declname>
-        </param>
-        <param>
-          <type>const <ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref> &amp;</type>
-          <declname>cb</declname>
-        </param>
-        <briefdescription>
-<para>calculates distances with the sign obtained from generalized winding number in each point from a three-dimensional grid; if sqr(res) &lt; minDistSq or sqr(res) &gt;= maxDistSq, then NaN is returned for such point </para>
-        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>resFunc</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>callback that gets a block of resulting winding numbers</para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>dims</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>dimensions of the grid</para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>gridToMeshXf</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>transform from integer grid locations to voxel&apos;s centers in mesh reference frame</para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>layerOverlap</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>overlap between two blocks of the grid, set as XY layer count</para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFastWindingNumber.h" line="107" column="22"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaf7e578881fbad35e93b36ab0a2697c1c" kind="function"><name>~IFastWindingNumberByParts</name></member>
+      <member refid="group__GeneralGroup_1ga3cd5d444973254e7b31ab81917f07329" kind="function"><name>calcFromGridByParts</name></member>
+      <member refid="group__GeneralGroup_1ga91d50343ae8805a878c0dac2b8ff0802" kind="function"><name>calcFromGridWithDistancesByParts</name></member>
     </sectiondef>
     <briefdescription>
 <para>Abstract class that complements <ref refid="classMR_1_1IFastWindingNumber" kindref="compound">IFastWindingNumber</ref> with chunked processing variants of its methods. </para>
@@ -235,12 +29,12 @@
         <link refid="classMR_1_1IFastWindingNumberByParts"/>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFastWindingNumber.h" line="77" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFastWindingNumber.h" bodystart="78" bodyend="109"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFastWindingNumber.h" line="80" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFastWindingNumber.h" bodystart="81" bodyend="112"/>
     <listofallmembers>
-      <member refid="classMR_1_1IFastWindingNumberByParts_1a3cd5d444973254e7b31ab81917f07329" prot="public" virt="pure-virtual"><scope>MR::IFastWindingNumberByParts</scope><name>calcFromGridByParts</name></member>
-      <member refid="classMR_1_1IFastWindingNumberByParts_1a91d50343ae8805a878c0dac2b8ff0802" prot="public" virt="pure-virtual"><scope>MR::IFastWindingNumberByParts</scope><name>calcFromGridWithDistancesByParts</name></member>
-      <member refid="classMR_1_1IFastWindingNumberByParts_1a54e74708f7b97596d00a59029266cc0f" prot="public" virt="non-virtual"><scope>MR::IFastWindingNumberByParts</scope><name>GridByPartsFunc</name></member>
-      <member refid="classMR_1_1IFastWindingNumberByParts_1af7e578881fbad35e93b36ab0a2697c1c" prot="public" virt="virtual"><scope>MR::IFastWindingNumberByParts</scope><name>~IFastWindingNumberByParts</name></member>
+      <member refid="group__GeneralGroup_1ga3cd5d444973254e7b31ab81917f07329" prot="public" virt="pure-virtual"><scope>MR::IFastWindingNumberByParts</scope><name>calcFromGridByParts</name></member>
+      <member refid="group__GeneralGroup_1ga91d50343ae8805a878c0dac2b8ff0802" prot="public" virt="pure-virtual"><scope>MR::IFastWindingNumberByParts</scope><name>calcFromGridWithDistancesByParts</name></member>
+      <member refid="group__GeneralGroup_1ga54e74708f7b97596d00a59029266cc0f" prot="public" virt="non-virtual"><scope>MR::IFastWindingNumberByParts</scope><name>GridByPartsFunc</name></member>
+      <member refid="group__GeneralGroup_1gaf7e578881fbad35e93b36ab0a2697c1c" prot="public" virt="virtual"><scope>MR::IFastWindingNumberByParts</scope><name>~IFastWindingNumberByParts</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

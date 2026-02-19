@@ -5,86 +5,11 @@
     <derivedcompoundref refid="structMR_1_1SignedDistanceToMeshOptions" prot="public" virt="non-virtual">MR::SignedDistanceToMeshOptions</derivedcompoundref>
     <includes refid="MRDistanceToMeshOptions_8h" local="no">MRDistanceToMeshOptions.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1DistanceToMeshOptions_1ae2fa63f37be78f78cc9c0146c30c913f" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::DistanceToMeshOptions::minDistSq</definition>
-        <argsstring></argsstring>
-        <name>minDistSq</name>
-        <qualifiedname>MR::DistanceToMeshOptions::minDistSq</qualifiedname>
-        <initializer>{ 0 }</initializer>
-        <briefdescription>
-<para>minimum squared distance from a point to mesh to be computed precisely </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceToMeshOptions.h" line="13" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceToMeshOptions.h" bodystart="13" bodyend="13"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1DistanceToMeshOptions_1af424f0c5bd2d65e33086d7e590836580" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::DistanceToMeshOptions::maxDistSq</definition>
-        <argsstring></argsstring>
-        <name>maxDistSq</name>
-        <qualifiedname>MR::DistanceToMeshOptions::maxDistSq</qualifiedname>
-        <initializer>{ FLT_MAX }</initializer>
-        <briefdescription>
-<para>maximum squared distance from a point to mesh to be computed precisely </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceToMeshOptions.h" line="16" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceToMeshOptions.h" bodystart="16" bodyend="16"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1DistanceToMeshOptions_1a73856ad91f795ce44772d1494538b46d" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::DistanceToMeshOptions::nullOutsideMinMax</definition>
-        <argsstring></argsstring>
-        <name>nullOutsideMinMax</name>
-        <qualifiedname>MR::DistanceToMeshOptions::nullOutsideMinMax</qualifiedname>
-        <initializer>= true</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>what to do if actual distance is outside [min, max) range: true - return std::nullopt for std::optional&lt;float&gt; or NaN for float, false - return approximate value of the distance (with correct sign in case of <ref refid="namespaceMR_1a03fba1fe0e5d6fe3c22dc41c9d57d309a3065abc09e5d4edae66468fee91282e4" kindref="member">SignDetectionMode::HoleWindingRule</ref>); please note that in HoleWindingRule the sign can change even for too small or too large distances, so if you would like to get closed mesh from marching cubes, set false here </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceToMeshOptions.h" line="23" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceToMeshOptions.h" bodystart="23" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1DistanceToMeshOptions_1a32a5670750d3aecf21776f2fe2ad28d9" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::DistanceToMeshOptions::windingNumberThreshold</definition>
-        <argsstring></argsstring>
-        <name>windingNumberThreshold</name>
-        <qualifiedname>MR::DistanceToMeshOptions::windingNumberThreshold</qualifiedname>
-        <initializer>= 0.5f</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>only for <ref refid="namespaceMR_1a03fba1fe0e5d6fe3c22dc41c9d57d309a3065abc09e5d4edae66468fee91282e4" kindref="member">SignDetectionMode::HoleWindingRule</ref>: positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceToMeshOptions.h" line="28" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceToMeshOptions.h" bodystart="28" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1DistanceToMeshOptions_1a760f0917e02d32cbd6a708966ef922a5" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::DistanceToMeshOptions::windingNumberBeta</definition>
-        <argsstring></argsstring>
-        <name>windingNumberBeta</name>
-        <qualifiedname>MR::DistanceToMeshOptions::windingNumberBeta</qualifiedname>
-        <initializer>= 2</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>only for <ref refid="namespaceMR_1a03fba1fe0e5d6fe3c22dc41c9d57d309a3065abc09e5d4edae66468fee91282e4" kindref="member">SignDetectionMode::HoleWindingRule</ref>: determines the precision of fast approximation: the more the better, minimum value is 1 </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceToMeshOptions.h" line="32" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceToMeshOptions.h" bodystart="32" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gae2fa63f37be78f78cc9c0146c30c913f" kind="variable"><name>minDistSq</name></member>
+      <member refid="group__GeneralGroup_1gaf424f0c5bd2d65e33086d7e590836580" kind="variable"><name>maxDistSq</name></member>
+      <member refid="group__GeneralGroup_1ga73856ad91f795ce44772d1494538b46d" kind="variable"><name>nullOutsideMinMax</name></member>
+      <member refid="group__GeneralGroup_1ga32a5670750d3aecf21776f2fe2ad28d9" kind="variable"><name>windingNumberThreshold</name></member>
+      <member refid="group__GeneralGroup_1ga760f0917e02d32cbd6a708966ef922a5" kind="variable"><name>windingNumberBeta</name></member>
     </sectiondef>
     <briefdescription>
 <para>options determining computation of distance from a point to a mesh </para>
@@ -103,13 +28,13 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceToMeshOptions.h" line="10" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceToMeshOptions.h" bodystart="11" bodyend="33"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceToMeshOptions.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceToMeshOptions.h" bodystart="14" bodyend="36"/>
     <listofallmembers>
-      <member refid="structMR_1_1DistanceToMeshOptions_1af424f0c5bd2d65e33086d7e590836580" prot="public" virt="non-virtual"><scope>MR::DistanceToMeshOptions</scope><name>maxDistSq</name></member>
-      <member refid="structMR_1_1DistanceToMeshOptions_1ae2fa63f37be78f78cc9c0146c30c913f" prot="public" virt="non-virtual"><scope>MR::DistanceToMeshOptions</scope><name>minDistSq</name></member>
-      <member refid="structMR_1_1DistanceToMeshOptions_1a73856ad91f795ce44772d1494538b46d" prot="public" virt="non-virtual"><scope>MR::DistanceToMeshOptions</scope><name>nullOutsideMinMax</name></member>
-      <member refid="structMR_1_1DistanceToMeshOptions_1a760f0917e02d32cbd6a708966ef922a5" prot="public" virt="non-virtual"><scope>MR::DistanceToMeshOptions</scope><name>windingNumberBeta</name></member>
-      <member refid="structMR_1_1DistanceToMeshOptions_1a32a5670750d3aecf21776f2fe2ad28d9" prot="public" virt="non-virtual"><scope>MR::DistanceToMeshOptions</scope><name>windingNumberThreshold</name></member>
+      <member refid="group__GeneralGroup_1gaf424f0c5bd2d65e33086d7e590836580" prot="public" virt="non-virtual"><scope>MR::DistanceToMeshOptions</scope><name>maxDistSq</name></member>
+      <member refid="group__GeneralGroup_1gae2fa63f37be78f78cc9c0146c30c913f" prot="public" virt="non-virtual"><scope>MR::DistanceToMeshOptions</scope><name>minDistSq</name></member>
+      <member refid="group__GeneralGroup_1ga73856ad91f795ce44772d1494538b46d" prot="public" virt="non-virtual"><scope>MR::DistanceToMeshOptions</scope><name>nullOutsideMinMax</name></member>
+      <member refid="group__GeneralGroup_1ga760f0917e02d32cbd6a708966ef922a5" prot="public" virt="non-virtual"><scope>MR::DistanceToMeshOptions</scope><name>windingNumberBeta</name></member>
+      <member refid="group__GeneralGroup_1ga32a5670750d3aecf21776f2fe2ad28d9" prot="public" virt="non-virtual"><scope>MR::DistanceToMeshOptions</scope><name>windingNumberThreshold</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

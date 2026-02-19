@@ -5,121 +5,28 @@
     <includes refid="MRPrecipitationSimulator_8h" local="no">MRPrecipitationSimulator.h</includes>
     <innerclass refid="structMR_1_1PrecipitationSimulator_1_1SimulationStep" prot="public">MR::PrecipitationSimulator::SimulationStep</innerclass>
     <sectiondef kind="public-type">
-      <memberdef kind="enum" id="classMR_1_1PrecipitationSimulator_1a1ff436805e728c27089cf75e5d98c90f" prot="public" static="no" strong="yes">
-        <type></type>
-        <name>Event</name>
-        <qualifiedname>MR::PrecipitationSimulator::Event</qualifiedname>
-        <enumvalue id="classMR_1_1PrecipitationSimulator_1a1ff436805e728c27089cf75e5d98c90faa20ddccbb6f808ec42cd66323e6c6061" prot="public">
-          <name>Finish</name>
-          <briefdescription>
-<para>all basins are full and water goes outside </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1PrecipitationSimulator_1a1ff436805e728c27089cf75e5d98c90fa72a8744509ab6e486c5019b1175f2e9b" prot="public">
-          <name>BasinFull</name>
-          <briefdescription>
-<para>one basin just became full </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1PrecipitationSimulator_1a1ff436805e728c27089cf75e5d98c90fa68be4837f6c739877233e527a996dd00" prot="public">
-          <name>Merge</name>
-          <briefdescription>
-<para>two basins just merged </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecipitationSimulator.h" line="17" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecipitationSimulator.h" bodystart="18" bodyend="22"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga1ff436805e728c27089cf75e5d98c90f" kind="enum"><name>Event</name></member>
     </sectiondef>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1PrecipitationSimulator_1a344c2cbe7f972c0c54ed7429d7a14ae4" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1WatershedGraph" kindref="compound">WatershedGraph</ref> &amp;</type>
-        <definition>WatershedGraph&amp; MR::PrecipitationSimulator::wg_</definition>
-        <argsstring></argsstring>
-        <name>wg_</name>
-        <qualifiedname>MR::PrecipitationSimulator::wg_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecipitationSimulator.h" line="38" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecipitationSimulator.h" bodystart="38" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1PrecipitationSimulator_1a40d83f299265b6f68e4560c1841eaeca" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1Heap" kindref="compound">Heap</ref>&lt; float, GraphVertId, std::greater&lt; float &gt; &gt;</type>
-        <definition>Heap&lt;float, GraphVertId, std::greater&lt;float&gt; &gt; MR::PrecipitationSimulator::heap_</definition>
-        <argsstring></argsstring>
-        <name>heap_</name>
-        <qualifiedname>MR::PrecipitationSimulator::heap_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecipitationSimulator.h" line="39" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecipitationSimulator.h" bodystart="39" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga344c2cbe7f972c0c54ed7429d7a14ae4" kind="variable"><name>wg_</name></member>
+      <member refid="group__GeneralGroup_1ga40d83f299265b6f68e4560c1841eaeca" kind="variable"><name>heap_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1PrecipitationSimulator_1a868e5e5616edae5787beab77d64681a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
-        <definition>MRMESH_API MR::PrecipitationSimulator::PrecipitationSimulator</definition>
-        <argsstring>(WatershedGraph &amp;wg)</argsstring>
-        <name>PrecipitationSimulator</name>
-        <qualifiedname>MR::PrecipitationSimulator::PrecipitationSimulator</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1WatershedGraph" kindref="compound">WatershedGraph</ref> &amp;</type>
-          <declname>wg</declname>
-        </param>
-        <briefdescription>
-<para>initializes modeling from the initial subdivision of the terrain </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecipitationSimulator.h" line="15" column="16"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PrecipitationSimulator_1a0ae04f850be8f1baf7203566c8071eee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="structMR_1_1PrecipitationSimulator_1_1SimulationStep" kindref="compound">SimulationStep</ref></type>
-        <definition>MRMESH_API SimulationStep MR::PrecipitationSimulator::simulateOne</definition>
-        <argsstring>()</argsstring>
-        <name>simulateOne</name>
-        <qualifiedname>MR::PrecipitationSimulator::simulateOne</qualifiedname>
-        <briefdescription>
-<para>processes the next event happened with the terrain basins </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecipitationSimulator.h" line="35" column="31"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga868e5e5616edae5787beab77d64681a4" kind="function"><name>PrecipitationSimulator</name></member>
+      <member refid="group__GeneralGroup_1ga0ae04f850be8f1baf7203566c8071eee" kind="function"><name>simulateOne</name></member>
     </sectiondef>
     <briefdescription>
 <para>the class models water increase in the terrain under the rain with constant precipitation </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecipitationSimulator.h" line="11" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecipitationSimulator.h" bodystart="12" bodyend="40"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecipitationSimulator.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecipitationSimulator.h" bodystart="15" bodyend="43"/>
     <listofallmembers>
-      <member refid="classMR_1_1PrecipitationSimulator_1a1ff436805e728c27089cf75e5d98c90f" prot="public" virt="non-virtual"><scope>MR::PrecipitationSimulator</scope><name>Event</name></member>
-      <member refid="classMR_1_1PrecipitationSimulator_1a40d83f299265b6f68e4560c1841eaeca" prot="private" virt="non-virtual"><scope>MR::PrecipitationSimulator</scope><name>heap_</name></member>
-      <member refid="classMR_1_1PrecipitationSimulator_1a868e5e5616edae5787beab77d64681a4" prot="public" virt="non-virtual"><scope>MR::PrecipitationSimulator</scope><name>PrecipitationSimulator</name></member>
-      <member refid="classMR_1_1PrecipitationSimulator_1a0ae04f850be8f1baf7203566c8071eee" prot="public" virt="non-virtual"><scope>MR::PrecipitationSimulator</scope><name>simulateOne</name></member>
-      <member refid="classMR_1_1PrecipitationSimulator_1a344c2cbe7f972c0c54ed7429d7a14ae4" prot="private" virt="non-virtual"><scope>MR::PrecipitationSimulator</scope><name>wg_</name></member>
+      <member refid="group__GeneralGroup_1ga1ff436805e728c27089cf75e5d98c90f" prot="public" virt="non-virtual"><scope>MR::PrecipitationSimulator</scope><name>Event</name></member>
+      <member refid="group__GeneralGroup_1ga40d83f299265b6f68e4560c1841eaeca" prot="private" virt="non-virtual"><scope>MR::PrecipitationSimulator</scope><name>heap_</name></member>
+      <member refid="group__GeneralGroup_1ga868e5e5616edae5787beab77d64681a4" prot="public" virt="non-virtual"><scope>MR::PrecipitationSimulator</scope><name>PrecipitationSimulator</name></member>
+      <member refid="group__GeneralGroup_1ga0ae04f850be8f1baf7203566c8071eee" prot="public" virt="non-virtual"><scope>MR::PrecipitationSimulator</scope><name>simulateOne</name></member>
+      <member refid="group__GeneralGroup_1ga344c2cbe7f972c0c54ed7429d7a14ae4" prot="private" virt="non-virtual"><scope>MR::PrecipitationSimulator</scope><name>wg_</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

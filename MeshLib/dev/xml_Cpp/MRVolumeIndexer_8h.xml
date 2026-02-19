@@ -2,53 +2,53 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="MRVolumeIndexer_8h" kind="file" language="C++">
     <compoundname>MRVolumeIndexer.h</compoundname>
-    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
+    <includes local="yes">MRMeshFwd.h</includes>
     <includes refid="MRVector3_8h" local="yes">MRVector3.h</includes>
     <includes refid="MRId_8h" local="yes">MRId.h</includes>
     <includes local="no">array</includes>
     <includedby refid="MRObjectVoxels_8h" local="yes">MRObjectVoxels.h</includedby>
     <includedby refid="MRVoxelsVolumeAccess_8h" local="yes">MRVoxelsVolumeAccess.h</includedby>
     <incdepgraph>
-      <node id="4">
-        <label>MRMesh/MRCanonicalTypedefs.h</label>
-        <link refid="MRCanonicalTypedefs_8h"/>
-        <childnode refid="5" relation="include">
-        </childnode>
-      </node>
-      <node id="17">
+      <node id="8">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
-      <node id="23">
+      <node id="15">
         <label>MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
-      </node>
-      <node id="5">
-        <label>MRMesh/MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
-      </node>
-      <node id="2">
-        <label>MRMeshFwd.h</label>
-        <link refid="MRMeshFwd_8h"/>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
@@ -60,37 +60,9 @@
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
-      </node>
-      <node id="14">
-        <label>MRMesh/MRUnsigned.h</label>
-        <link refid="MRUnsigned_8h"/>
-        <childnode refid="15" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-      </node>
-      <node id="13">
-        <label>MRVector3.h</label>
-        <link refid="MRVector3_8h"/>
-        <childnode refid="5" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-        <childnode refid="22" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -98,58 +70,45 @@
         <link refid="MRVolumeIndexer_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="23" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
       </node>
-      <node id="3">
-        <label>config.h</label>
-        <link refid="MRMesh_2config_8h"/>
-      </node>
-      <node id="6">
-        <label>MRPch/MRBindingMacros.h</label>
-      </node>
-      <node id="18">
-        <label>algorithm</label>
-      </node>
-      <node id="7">
-        <label>array</label>
-      </node>
-      <node id="12">
-        <label>cassert</label>
-      </node>
-      <node id="19">
-        <label>cmath</label>
-      </node>
-      <node id="15">
-        <label>cstddef</label>
-      </node>
-      <node id="20">
-        <label>cstring</label>
-      </node>
-      <node id="11">
-        <label>functional</label>
-      </node>
-      <node id="21">
-        <label>iosfwd</label>
-      </node>
-      <node id="10">
-        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
       </node>
       <node id="9">
-        <label>string</label>
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="10">
+        <label>algorithm</label>
+      </node>
+      <node id="17">
+        <label>array</label>
       </node>
       <node id="16">
+        <label>cassert</label>
+      </node>
+      <node id="11">
+        <label>cmath</label>
+      </node>
+      <node id="6">
+        <label>cstddef</label>
+      </node>
+      <node id="12">
+        <label>cstring</label>
+      </node>
+      <node id="13">
+        <label>iosfwd</label>
+      </node>
+      <node id="7">
         <label>type_traits</label>
       </node>
-      <node id="22">
+      <node id="14">
         <label>utility</label>
-      </node>
-      <node id="8">
-        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
@@ -218,7 +177,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVector3_8h" kindref="compound">MRVector3.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRId_8h" kindref="compound">MRId.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
@@ -238,7 +197,7 @@
 <codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__DistanceMapGroup_1ggab7acb4543154d042c297e5823fb633b6a9cc816b8a2117db796c073f012e78565" kindref="member">MinusY</ref>,</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__DistanceMapGroup_1ggab7acb4543154d042c297e5823fb633b6aac53fa7ccf60e6f59512da11975eb8a7" kindref="member">PlusX</ref>,</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__DistanceMapGroup_1ggab7acb4543154d042c297e5823fb633b6a6ee0807f5bf1b3e0a4d52919eb298454" kindref="member">MinusX</ref>,</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a23e900d0cb79ee7e0562507ab9e9f562ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Count</ref></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga23e900d0cb79ee7e0562507ab9e9f562ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Count</ref></highlight></codeline>
 <codeline lineno="30"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">static_assert</highlight><highlight class="normal">(<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<sp/><ref refid="group__VolumeIndexerGroup_1gaa7203f0917dc651aa1261d90d266752e" kindref="member">OutEdge</ref><sp/>)<sp/>==<sp/>1<sp/>);</highlight></codeline>
@@ -298,7 +257,7 @@
 <codeline lineno="93" refid="group__VoxelGroup_1gad83baf7155c4c4be0ffa42c4de418e6b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__VoxelGroup_1gad83baf7155c4c4be0ffa42c4de418e6b" kindref="member">areNeigbors</ref>(<sp/>VoxelId<sp/>v0,<sp/>VoxelId<sp/>v1<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__VoxelGroup_1gad83baf7155c4c4be0ffa42c4de418e6b" kindref="member">areNeigbors</ref>(<sp/><ref refid="group__VoxelGroup_1gaf972ceaa48b72a552781412be0e49eb6" kindref="member">toPos</ref>(<sp/>v0<sp/>),<sp/><ref refid="group__VoxelGroup_1gaf972ceaa48b72a552781412be0e49eb6" kindref="member">toPos</ref>(<sp/>v1<sp/>)<sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="94" refid="group__VoxelGroup_1ga991a1f3d21cb03e21402be655ba7c06c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__VoxelGroup_1ga991a1f3d21cb03e21402be655ba7c06c" kindref="member">areNeigbors</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i<sp/>&amp;<sp/>pos0,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i<sp/>&amp;<sp/>pos1<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<sp/>pos0<sp/>-<sp/>pos1<sp/>).lengthSq()<sp/>==<sp/>1;<sp/>}</highlight></codeline>
 <codeline lineno="95"><highlight class="normal"></highlight></codeline>
-<codeline lineno="97" refid="group__VoxelGroup_1gae847dbed512fd911819dbc766c0dc9bf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__VoxelGroup_1gae847dbed512fd911819dbc766c0dc9bf" kindref="member">hasNeighbour</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i<sp/>&amp;<sp/>pos,<sp/><ref refid="group__VolumeIndexerGroup_1gaa7203f0917dc651aa1261d90d266752e" kindref="member">OutEdge</ref><sp/>toNei<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="97" refid="group__VoxelGroup_1gae847dbed512fd911819dbc766c0dc9bf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__VoxelGroup_1gae847dbed512fd911819dbc766c0dc9bf" kindref="member">hasNeighbour</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i<sp/>&amp;<sp/>pos,<sp/><ref refid="group__VolumeIndexerGroup_1gaa7203f0917dc651aa1261d90d266752e" kindref="member">OutEdge</ref><sp/>toNei<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="98"><highlight class="normal"></highlight></codeline>
 <codeline lineno="100" refid="group__VoxelGroup_1ga70480624af713d6c33abe8a12d5fa6ef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>VoxelId<sp/><ref refid="group__VoxelGroup_1ga70480624af713d6c33abe8a12d5fa6ef" kindref="member">getNeighbor</ref>(<sp/>VoxelId<sp/>v,<sp/><ref refid="group__VolumeIndexerGroup_1gaa7203f0917dc651aa1261d90d266752e" kindref="member">OutEdge</ref><sp/>toNei<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__VoxelGroup_1ga70480624af713d6c33abe8a12d5fa6ef" kindref="member">getNeighbor</ref>(<sp/>v,<sp/><ref refid="group__VoxelGroup_1gaf972ceaa48b72a552781412be0e49eb6" kindref="member">toPos</ref>(<sp/>v<sp/>),<sp/>toNei<sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="101" refid="group__VoxelGroup_1gafe8987c6754acf0b39a5d12c2a7d0da9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>VoxelId<sp/><ref refid="group__VoxelGroup_1gafe8987c6754acf0b39a5d12c2a7d0da9" kindref="member">getNeighbor</ref>(<sp/>VoxelId<sp/>v,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i<sp/>&amp;<sp/>pos,<sp/><ref refid="group__VolumeIndexerGroup_1gaa7203f0917dc651aa1261d90d266752e" kindref="member">OutEdge</ref><sp/>toNei<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__VoxelGroup_1gae847dbed512fd911819dbc766c0dc9bf" kindref="member">hasNeighbour</ref>(<sp/>pos,<sp/>toNei<sp/>)<sp/>?<sp/><ref refid="group__VoxelGroup_1ga9278508392604ed5b02779e63a573555" kindref="member">getExistingNeighbor</ref>(<sp/>v,<sp/>toNei<sp/>)<sp/>:<sp/>VoxelId{};<sp/>}</highlight></codeline>
@@ -357,9 +316,9 @@
 <codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1VoxelLocation" kindref="compound">VoxelLocation</ref>{};</highlight></codeline>
 <codeline lineno="158"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="159"><highlight class="normal"></highlight></codeline>
-<codeline lineno="161" refid="group__VolumeIndexerGroup_1ga2b294cbfdf1d13f5bb7babef620b361a" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__VolumeIndexerGroup_1ga2b294cbfdf1d13f5bb7babef620b361a" kindref="member">expandVoxelsMask</ref>(<sp/>VoxelBitSet&amp;<sp/>mask,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1VolumeIndexer" kindref="compound">VolumeIndexer</ref>&amp;<sp/>indexer,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>expansion<sp/>=<sp/>1<sp/>);</highlight></codeline>
+<codeline lineno="161" refid="group__VolumeIndexerGroup_1ga2b294cbfdf1d13f5bb7babef620b361a" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__VolumeIndexerGroup_1ga2b294cbfdf1d13f5bb7babef620b361a" kindref="member">expandVoxelsMask</ref>(<sp/>VoxelBitSet&amp;<sp/>mask,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1VolumeIndexer" kindref="compound">VolumeIndexer</ref>&amp;<sp/>indexer,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>expansion<sp/>=<sp/>1<sp/>);</highlight></codeline>
 <codeline lineno="162"><highlight class="normal"></highlight></codeline>
-<codeline lineno="164" refid="group__VolumeIndexerGroup_1gaae181e34db4d5ebb6f2cc68194b69c18" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__VolumeIndexerGroup_1gaae181e34db4d5ebb6f2cc68194b69c18" kindref="member">shrinkVoxelsMask</ref>(<sp/>VoxelBitSet&amp;<sp/>mask,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1VolumeIndexer" kindref="compound">VolumeIndexer</ref>&amp;<sp/>indexer,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>shrinkage<sp/>=<sp/>1<sp/>);</highlight></codeline>
+<codeline lineno="164" refid="group__VolumeIndexerGroup_1gaae181e34db4d5ebb6f2cc68194b69c18" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__VolumeIndexerGroup_1gaae181e34db4d5ebb6f2cc68194b69c18" kindref="member">shrinkVoxelsMask</ref>(<sp/>VoxelBitSet&amp;<sp/>mask,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1VolumeIndexer" kindref="compound">VolumeIndexer</ref>&amp;<sp/>indexer,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>shrinkage<sp/>=<sp/>1<sp/>);</highlight></codeline>
 <codeline lineno="165"><highlight class="normal"></highlight></codeline>
 <codeline lineno="167"><highlight class="normal"></highlight></codeline>
 <codeline lineno="168"><highlight class="normal">}<sp/></highlight></codeline>

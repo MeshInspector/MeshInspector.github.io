@@ -83,7 +83,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" line="34" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" bodystart="34" bodyend="42"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathSubgroup_1ga446cf8a4654ec1a589f1ffd89762aa29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; SurfacePath, PathError &gt;</type>
+        <type>MRMESH_API Expected&lt; SurfacePath, PathError &gt;</type>
         <definition>MRMESH_API Expected&lt; SurfacePath, PathError &gt; MR::computeSurfacePath</definition>
         <argsstring>(const MeshPart &amp;mp, const MeshTriPoint &amp;start, const MeshTriPoint &amp;end, int maxGeodesicIters=5, const VertBitSet *vertRegion=nullptr, VertScalars *outSurfaceDistances=nullptr)</argsstring>
         <name>computeSurfacePath</name>
@@ -127,7 +127,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" line="47" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" declline="47" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathSubgroup_1ga8359c707ab87c6591777e5c2809c7468" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; SurfacePath, PathError &gt;</type>
+        <type>MRMESH_API Expected&lt; SurfacePath, PathError &gt;</type>
         <definition>MRMESH_API Expected&lt; SurfacePath, PathError &gt; MR::computeGeodesicPath</definition>
         <argsstring>(const Mesh &amp;mesh, const MeshTriPoint &amp;start, const MeshTriPoint &amp;end, GeodesicPathApprox atype=GeodesicPathApprox::FastMarching, int maxGeodesicIters=100)</argsstring>
         <name>computeGeodesicPath</name>
@@ -165,7 +165,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" line="54" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" declline="54" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathSubgroup_1ga8d44e12ec3a4b21e1ebb753c0a84b8ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; SurfacePath, PathError &gt;</type>
+        <type>MRMESH_API Expected&lt; SurfacePath, PathError &gt;</type>
         <definition>MRMESH_API Expected&lt; SurfacePath, PathError &gt; MR::computeGeodesicPathApprox</definition>
         <argsstring>(const Mesh &amp;mesh, const MeshTriPoint &amp;start, const MeshTriPoint &amp;end, GeodesicPathApprox atype)</argsstring>
         <name>computeGeodesicPathApprox</name>
@@ -196,7 +196,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" line="60" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" declline="60" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathSubgroup_1ga52601966a3d67cfd9b26ad1e586cd6f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; SurfacePath, PathError &gt;</type>
+        <type>MRMESH_API Expected&lt; SurfacePath, PathError &gt;</type>
         <definition>MRMESH_API Expected&lt; SurfacePath, PathError &gt; MR::computeFastMarchingPath</definition>
         <argsstring>(const MeshPart &amp;mp, const MeshTriPoint &amp;start, const MeshTriPoint &amp;end, const VertBitSet *vertRegion=nullptr, VertScalars *outSurfaceDistances=nullptr)</argsstring>
         <name>computeFastMarchingPath</name>
@@ -233,7 +233,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" line="65" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" declline="65" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathSubgroup_1ga563ea0f701cd05e6995193631495466e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> SurfacePath</type>
+        <type>MRMESH_API SurfacePath</type>
         <definition>MRMESH_API SurfacePath MR::computeSteepestDescentPath</definition>
         <argsstring>(const MeshPart &amp;mp, const VertScalars &amp;field, const MeshTriPoint &amp;start, const ComputeSteepestDescentPathSettings &amp;settings={})</argsstring>
         <name>computeSteepestDescentPath</name>
@@ -265,7 +265,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" line="82" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" declline="82" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathSubgroup_1ga30a8af69c2b3595b324d9f12a008c9cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::computeSteepestDescentPath</definition>
         <argsstring>(const MeshPart &amp;mp, const VertScalars &amp;field, const MeshTriPoint &amp;start, SurfacePath *outPath, const ComputeSteepestDescentPathSettings &amp;settings={})</argsstring>
         <name>computeSteepestDescentPath</name>
@@ -310,7 +310,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" line="89" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" declline="89" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathSubgroup_1gaa46e9820d021f3412af4f1c59c14aaa2" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> MeshEdgePoint</type>
+        <type>MRMESH_API MeshEdgePoint</type>
         <definition>MRMESH_API MeshEdgePoint MR::findSteepestDescentPoint</definition>
         <argsstring>(const MeshPart &amp;mp, const VertScalars &amp;field, VertId v)</argsstring>
         <name>findSteepestDescentPoint</name>
@@ -337,7 +337,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" line="93" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" declline="93" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathSubgroup_1ga03317f13dce667de5ec4fce7626aa415" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> MeshEdgePoint</type>
+        <type>MRMESH_API MeshEdgePoint</type>
         <definition>MRMESH_API MeshEdgePoint MR::findSteepestDescentPoint</definition>
         <argsstring>(const MeshPart &amp;mp, const VertScalars &amp;field, const MeshEdgePoint &amp;ep)</argsstring>
         <name>findSteepestDescentPoint</name>
@@ -364,7 +364,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" line="96" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" declline="96" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathSubgroup_1ga316d288d92ba2fc460dcc7d29398e084" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> MeshEdgePoint</type>
+        <type>MRMESH_API MeshEdgePoint</type>
         <definition>MRMESH_API MeshEdgePoint MR::findSteepestDescentPoint</definition>
         <argsstring>(const MeshPart &amp;mp, const VertScalars &amp;field, const MeshTriPoint &amp;tp)</argsstring>
         <name>findSteepestDescentPoint</name>
@@ -391,7 +391,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" line="99" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" declline="99" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathSubgroup_1ga0bd366cd8b4e0bb2f8754392be22cb12" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> UndirectedEdgeBitSet</type>
+        <type>MRMESH_API UndirectedEdgeBitSet</type>
         <definition>MRMESH_API UndirectedEdgeBitSet MR::findExtremeEdges</definition>
         <argsstring>(const Mesh &amp;mesh, const VertScalars &amp;field, ExtremeEdgeType type)</argsstring>
         <name>findExtremeEdges</name>
@@ -418,7 +418,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" line="108" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" declline="108" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathSubgroup_1ga2ea9a6428c9bbd3ec9d9f96cc66bd1d5" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> HashMap&lt; VertId, VertId &gt;</type>
+        <type>MRMESH_API HashMap&lt; VertId, VertId &gt;</type>
         <definition>MRMESH_API HashMap&lt; VertId, VertId &gt; MR::computeClosestSurfacePathTargets</definition>
         <argsstring>(const Mesh &amp;mesh, const VertBitSet &amp;starts, const VertBitSet &amp;ends, const VertBitSet *vertRegion=nullptr, VertScalars *outSurfaceDistances=nullptr)</argsstring>
         <name>computeClosestSurfacePathTargets</name>
@@ -464,7 +464,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" line="112" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" declline="112" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathSubgroup_1gaaa4dc30756e93cfc4cd2f88758193360" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> SurfacePaths</type>
+        <type>MRMESH_API SurfacePaths</type>
         <definition>MRMESH_API SurfacePaths MR::getSurfacePathsViaVertices</definition>
         <argsstring>(const Mesh &amp;mesh, const VertBitSet &amp;vs)</argsstring>
         <name>getSurfacePathsViaVertices</name>
@@ -487,7 +487,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" line="118" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" declline="118" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathSubgroup_1gacebe3b7371a72e49ddfbabc14fd008b4" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> float</type>
+        <type>MRMESH_API float</type>
         <definition>MRMESH_API float MR::surfacePathLength</definition>
         <argsstring>(const Mesh &amp;mesh, const SurfacePath &amp;surfacePath)</argsstring>
         <name>surfacePathLength</name>
@@ -510,7 +510,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" line="121" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" declline="121" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathSubgroup_1gaa32bef2e775ccf6172324f9718b2089f" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> float</type>
+        <type>MRMESH_API float</type>
         <definition>MRMESH_API float MR::geodesicPathLength</definition>
         <argsstring>(const Mesh &amp;mesh, const GeodesicPath &amp;path)</argsstring>
         <name>geodesicPathLength</name>
@@ -533,7 +533,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" line="124" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" declline="124" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathSubgroup_1ga874e90d25d0cf437f34834d739fa588c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Contour3f</type>
+        <type>MRMESH_API Contour3f</type>
         <definition>MRMESH_API Contour3f MR::surfacePathToContour3f</definition>
         <argsstring>(const Mesh &amp;mesh, const SurfacePath &amp;line)</argsstring>
         <name>surfacePathToContour3f</name>
@@ -556,7 +556,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" line="127" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" declline="127" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathSubgroup_1ga8dbc7e2393ed3d315467293b5b2ba1e2" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Contours3f</type>
+        <type>MRMESH_API Contours3f</type>
         <definition>MRMESH_API Contours3f MR::surfacePathsToContours3f</definition>
         <argsstring>(const Mesh &amp;mesh, const SurfacePaths &amp;lines)</argsstring>
         <name>surfacePathsToContours3f</name>
@@ -578,7 +578,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" line="128" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" declline="128" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathSubgroup_1ga8a5e36542111a308691e110f60e7f364" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Contour3f</type>
+        <type>MRMESH_API Contour3f</type>
         <definition>MRMESH_API Contour3f MR::geodesicPathToContour3f</definition>
         <argsstring>(const Mesh &amp;mesh, const GeodesicPath &amp;path)</argsstring>
         <name>geodesicPathToContour3f</name>

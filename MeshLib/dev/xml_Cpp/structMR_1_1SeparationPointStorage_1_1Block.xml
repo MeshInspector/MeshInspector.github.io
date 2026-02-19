@@ -4,94 +4,14 @@
     <compoundname>MR::SeparationPointStorage::Block</compoundname>
     <includes refid="MRSeparationPoint_8h" local="no">MRSeparationPoint.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1SeparationPointStorage_1_1Block_1a171fe956486e01cdfdddedaedd905ca4" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1abe4fc717ac175a150ec372e71e5d0ba1" kindref="member">SeparationPointMap</ref></type>
-        <definition>SeparationPointMap MR::SeparationPointStorage::Block::smap</definition>
-        <argsstring></argsstring>
-        <name>smap</name>
-        <qualifiedname>MR::SeparationPointStorage::Block::smap</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSeparationPoint.h" line="26" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSeparationPoint.h" bodystart="26" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1SeparationPointStorage_1_1Block_1a58df13a2b6e26ec0a73b3883451f7c27" prot="public" static="no" mutable="no">
-        <type>std::vector&lt; Vector3f &gt;</type>
-        <definition>std::vector&lt;Vector3f&gt; MR::SeparationPointStorage::Block::coords</definition>
-        <argsstring></argsstring>
-        <name>coords</name>
-        <qualifiedname>MR::SeparationPointStorage::Block::coords</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSeparationPoint.h" line="27" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSeparationPoint.h" bodystart="27" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1SeparationPointStorage_1_1Block_1ab2e39467c0dd89a73144f53515aaeedb" prot="public" static="no" mutable="no">
-        <type>VertId</type>
-        <definition>VertId MR::SeparationPointStorage::Block::shift</definition>
-        <argsstring></argsstring>
-        <name>shift</name>
-        <qualifiedname>MR::SeparationPointStorage::Block::shift</qualifiedname>
-        <briefdescription>
-<para>after <ref refid="classMR_1_1SeparationPointStorage_1a99db5fa322a3860d51db5e4292a83786" kindref="member">makeUniqueVids()</ref>, it is the unique id of first point in coords </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSeparationPoint.h" line="29" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSeparationPoint.h" bodystart="29" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1SeparationPointStorage_1_1Block_1a846d3bc158a03f5fd24580dc8b40e085" prot="public" static="no" mutable="no">
-        <type>Triangulation</type>
-        <definition>Triangulation MR::SeparationPointStorage::Block::tris</definition>
-        <argsstring></argsstring>
-        <name>tris</name>
-        <qualifiedname>MR::SeparationPointStorage::Block::tris</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSeparationPoint.h" line="34" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSeparationPoint.h" bodystart="34" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1SeparationPointStorage_1_1Block_1a3bb9eb5b60d6dcb38389506da2cb6a0e" prot="public" static="no" mutable="no">
-        <type><ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; VoxelId, FaceId &gt;</type>
-        <definition>Vector&lt;VoxelId, FaceId&gt; MR::SeparationPointStorage::Block::faceMap</definition>
-        <argsstring></argsstring>
-        <name>faceMap</name>
-        <qualifiedname>MR::SeparationPointStorage::Block::faceMap</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSeparationPoint.h" line="35" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSeparationPoint.h" bodystart="35" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga171fe956486e01cdfdddedaedd905ca4" kind="variable"><name>smap</name></member>
+      <member refid="group__GeneralGroup_1ga58df13a2b6e26ec0a73b3883451f7c27" kind="variable"><name>coords</name></member>
+      <member refid="group__GeneralGroup_1gab2e39467c0dd89a73144f53515aaeedb" kind="variable"><name>shift</name></member>
+      <member refid="group__GeneralGroup_1ga846d3bc158a03f5fd24580dc8b40e085" kind="variable"><name>tris</name></member>
+      <member refid="group__GeneralGroup_1ga3bb9eb5b60d6dcb38389506da2cb6a0e" kind="variable"><name>faceMap</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1SeparationPointStorage_1_1Block_1a2ef8d933c08326819afd1d2681a5446c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>VertId</type>
-        <definition>VertId MR::SeparationPointStorage::Block::nextVid</definition>
-        <argsstring>() const</argsstring>
-        <name>nextVid</name>
-        <qualifiedname>MR::SeparationPointStorage::Block::nextVid</qualifiedname>
-        <briefdescription>
-<para>during filling, it is the id of next valid point; </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSeparationPoint.h" line="32" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSeparationPoint.h" bodystart="32" bodyend="32"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga2ef8d933c08326819afd1d2681a5446c" kind="function"><name>nextVid</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -110,14 +30,14 @@
         <link refid="classMR_1_1Vector"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSeparationPoint.h" line="24" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSeparationPoint.h" bodystart="25" bodyend="36"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSeparationPoint.h" line="27" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSeparationPoint.h" bodystart="28" bodyend="39"/>
     <listofallmembers>
-      <member refid="structMR_1_1SeparationPointStorage_1_1Block_1a58df13a2b6e26ec0a73b3883451f7c27" prot="public" virt="non-virtual"><scope>MR::SeparationPointStorage::Block</scope><name>coords</name></member>
-      <member refid="structMR_1_1SeparationPointStorage_1_1Block_1a3bb9eb5b60d6dcb38389506da2cb6a0e" prot="public" virt="non-virtual"><scope>MR::SeparationPointStorage::Block</scope><name>faceMap</name></member>
-      <member refid="structMR_1_1SeparationPointStorage_1_1Block_1a2ef8d933c08326819afd1d2681a5446c" prot="public" virt="non-virtual"><scope>MR::SeparationPointStorage::Block</scope><name>nextVid</name></member>
-      <member refid="structMR_1_1SeparationPointStorage_1_1Block_1ab2e39467c0dd89a73144f53515aaeedb" prot="public" virt="non-virtual"><scope>MR::SeparationPointStorage::Block</scope><name>shift</name></member>
-      <member refid="structMR_1_1SeparationPointStorage_1_1Block_1a171fe956486e01cdfdddedaedd905ca4" prot="public" virt="non-virtual"><scope>MR::SeparationPointStorage::Block</scope><name>smap</name></member>
-      <member refid="structMR_1_1SeparationPointStorage_1_1Block_1a846d3bc158a03f5fd24580dc8b40e085" prot="public" virt="non-virtual"><scope>MR::SeparationPointStorage::Block</scope><name>tris</name></member>
+      <member refid="group__GeneralGroup_1ga58df13a2b6e26ec0a73b3883451f7c27" prot="public" virt="non-virtual"><scope>MR::SeparationPointStorage::Block</scope><name>coords</name></member>
+      <member refid="group__GeneralGroup_1ga3bb9eb5b60d6dcb38389506da2cb6a0e" prot="public" virt="non-virtual"><scope>MR::SeparationPointStorage::Block</scope><name>faceMap</name></member>
+      <member refid="group__GeneralGroup_1ga2ef8d933c08326819afd1d2681a5446c" prot="public" virt="non-virtual"><scope>MR::SeparationPointStorage::Block</scope><name>nextVid</name></member>
+      <member refid="group__GeneralGroup_1gab2e39467c0dd89a73144f53515aaeedb" prot="public" virt="non-virtual"><scope>MR::SeparationPointStorage::Block</scope><name>shift</name></member>
+      <member refid="group__GeneralGroup_1ga171fe956486e01cdfdddedaedd905ca4" prot="public" virt="non-virtual"><scope>MR::SeparationPointStorage::Block</scope><name>smap</name></member>
+      <member refid="group__GeneralGroup_1ga846d3bc158a03f5fd24580dc8b40e085" prot="public" virt="non-virtual"><scope>MR::SeparationPointStorage::Block</scope><name>tris</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

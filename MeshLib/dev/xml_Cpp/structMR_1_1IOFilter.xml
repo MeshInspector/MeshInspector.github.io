@@ -89,7 +89,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFilters.h" line="27" column="5"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1IOFilter_1a608730d6a06e28828607af1531f9a765" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <type>MRMESH_API bool</type>
         <definition>MRMESH_API bool MR::IOFilter::isSupportedExtension</definition>
         <argsstring>(const std::string &amp;ext) const</argsstring>
         <name>isSupportedExtension</name>

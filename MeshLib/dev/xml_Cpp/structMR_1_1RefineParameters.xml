@@ -4,115 +4,26 @@
     <compoundname>MR::RefineParameters</compoundname>
     <includes refid="MRFeatureRefine_8h" local="no">MRFeatureRefine.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1RefineParameters_1a486a6518c80e8dcbf53b70b8870eaa6f" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::RefineParameters::distanceLimit</definition>
-        <argsstring></argsstring>
-        <name>distanceLimit</name>
-        <qualifiedname>MR::RefineParameters::distanceLimit</qualifiedname>
-        <initializer>{ 0.1f }</initializer>
-        <briefdescription>
-<para>Maximum distance from the source model to the feature. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureRefine.h" line="12" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureRefine.h" bodystart="12" bodyend="12"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1RefineParameters_1a0550c06323ac687236b8994cbdef837c" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::RefineParameters::normalTolerance</definition>
-        <argsstring></argsstring>
-        <name>normalTolerance</name>
-        <qualifiedname>MR::RefineParameters::normalTolerance</qualifiedname>
-        <initializer>{ 30.f }</initializer>
-        <briefdescription>
-<para>Maximum angle between the source model&apos;s normal and the feature&apos;s normal. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureRefine.h" line="14" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureRefine.h" bodystart="14" bodyend="14"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1RefineParameters_1ac994e7450108ddf9d7a3e4a5973de92e" prot="public" static="no" mutable="no">
-        <type>const FaceBitSet *</type>
-        <definition>const FaceBitSet* MR::RefineParameters::faceRegion</definition>
-        <argsstring></argsstring>
-        <name>faceRegion</name>
-        <qualifiedname>MR::RefineParameters::faceRegion</qualifiedname>
-        <initializer>{}</initializer>
-        <briefdescription>
-<para>(for meshes only) Reference faces used for filtering intermediate results that are too far from it </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureRefine.h" line="16" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureRefine.h" bodystart="16" bodyend="16"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1RefineParameters_1a528671040882a5d5982efd35a695f752" prot="public" static="no" mutable="no">
-        <type>const VertBitSet *</type>
-        <definition>const VertBitSet* MR::RefineParameters::vertRegion</definition>
-        <argsstring></argsstring>
-        <name>vertRegion</name>
-        <qualifiedname>MR::RefineParameters::vertRegion</qualifiedname>
-        <initializer>{}</initializer>
-        <briefdescription>
-<para>(for meshes only) Reference vertices used for filtering intermediate results that are too far from it </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureRefine.h" line="18" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureRefine.h" bodystart="18" bodyend="18"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1RefineParameters_1a808c9f463fc7c33c8d774a3638ebca29" prot="public" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::RefineParameters::maxIterations</definition>
-        <argsstring></argsstring>
-        <name>maxIterations</name>
-        <qualifiedname>MR::RefineParameters::maxIterations</qualifiedname>
-        <initializer>{ 10 }</initializer>
-        <briefdescription>
-<para>Maximum amount of iterations performed until a stable set of points is found. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureRefine.h" line="20" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureRefine.h" bodystart="20" bodyend="20"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1RefineParameters_1a40ca7824e8be55ed988710074a82c8ac" prot="public" static="no" mutable="no">
-        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
-        <definition>ProgressCallback MR::RefineParameters::callback</definition>
-        <argsstring></argsstring>
-        <name>callback</name>
-        <qualifiedname>MR::RefineParameters::callback</qualifiedname>
-        <briefdescription>
-<para>Progress callback. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureRefine.h" line="22" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureRefine.h" bodystart="22" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga486a6518c80e8dcbf53b70b8870eaa6f" kind="variable"><name>distanceLimit</name></member>
+      <member refid="group__GeneralGroup_1ga0550c06323ac687236b8994cbdef837c" kind="variable"><name>normalTolerance</name></member>
+      <member refid="group__GeneralGroup_1gac994e7450108ddf9d7a3e4a5973de92e" kind="variable"><name>faceRegion</name></member>
+      <member refid="group__GeneralGroup_1ga528671040882a5d5982efd35a695f752" kind="variable"><name>vertRegion</name></member>
+      <member refid="group__GeneralGroup_1ga808c9f463fc7c33c8d774a3638ebca29" kind="variable"><name>maxIterations</name></member>
+      <member refid="group__GeneralGroup_1ga40ca7824e8be55ed988710074a82c8ac" kind="variable"><name>callback</name></member>
     </sectiondef>
     <briefdescription>
-<para>Optional parameters for <ref refid="namespaceMR_1a16a67b9795647403f6d88310ec5b9399" kindref="member">refineFeatureObject</ref>. </para>
+<para>Optional parameters for <ref refid="group__GeneralGroup_1ga16a67b9795647403f6d88310ec5b9399" kindref="member">refineFeatureObject</ref>. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureRefine.h" line="9" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureRefine.h" bodystart="10" bodyend="23"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureRefine.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureRefine.h" bodystart="13" bodyend="26"/>
     <listofallmembers>
-      <member refid="structMR_1_1RefineParameters_1a40ca7824e8be55ed988710074a82c8ac" prot="public" virt="non-virtual"><scope>MR::RefineParameters</scope><name>callback</name></member>
-      <member refid="structMR_1_1RefineParameters_1a486a6518c80e8dcbf53b70b8870eaa6f" prot="public" virt="non-virtual"><scope>MR::RefineParameters</scope><name>distanceLimit</name></member>
-      <member refid="structMR_1_1RefineParameters_1ac994e7450108ddf9d7a3e4a5973de92e" prot="public" virt="non-virtual"><scope>MR::RefineParameters</scope><name>faceRegion</name></member>
-      <member refid="structMR_1_1RefineParameters_1a808c9f463fc7c33c8d774a3638ebca29" prot="public" virt="non-virtual"><scope>MR::RefineParameters</scope><name>maxIterations</name></member>
-      <member refid="structMR_1_1RefineParameters_1a0550c06323ac687236b8994cbdef837c" prot="public" virt="non-virtual"><scope>MR::RefineParameters</scope><name>normalTolerance</name></member>
-      <member refid="structMR_1_1RefineParameters_1a528671040882a5d5982efd35a695f752" prot="public" virt="non-virtual"><scope>MR::RefineParameters</scope><name>vertRegion</name></member>
+      <member refid="group__GeneralGroup_1ga40ca7824e8be55ed988710074a82c8ac" prot="public" virt="non-virtual"><scope>MR::RefineParameters</scope><name>callback</name></member>
+      <member refid="group__GeneralGroup_1ga486a6518c80e8dcbf53b70b8870eaa6f" prot="public" virt="non-virtual"><scope>MR::RefineParameters</scope><name>distanceLimit</name></member>
+      <member refid="group__GeneralGroup_1gac994e7450108ddf9d7a3e4a5973de92e" prot="public" virt="non-virtual"><scope>MR::RefineParameters</scope><name>faceRegion</name></member>
+      <member refid="group__GeneralGroup_1ga808c9f463fc7c33c8d774a3638ebca29" prot="public" virt="non-virtual"><scope>MR::RefineParameters</scope><name>maxIterations</name></member>
+      <member refid="group__GeneralGroup_1ga0550c06323ac687236b8994cbdef837c" prot="public" virt="non-virtual"><scope>MR::RefineParameters</scope><name>normalTolerance</name></member>
+      <member refid="group__GeneralGroup_1ga528671040882a5d5982efd35a695f752" prot="public" virt="non-virtual"><scope>MR::RefineParameters</scope><name>vertRegion</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

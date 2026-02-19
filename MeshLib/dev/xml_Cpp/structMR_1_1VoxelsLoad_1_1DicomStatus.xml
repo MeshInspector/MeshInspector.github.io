@@ -4,105 +4,25 @@
     <compoundname>MR::VoxelsLoad::DicomStatus</compoundname>
     <includes refid="MRDicom_8h" local="no">MRDicom.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1VoxelsLoad_1_1DicomStatus_1a69fabaf9380693815d99277fda43022f" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1_1VoxelsLoad_1a4877b5ea79a241234ef88b527edc08e6" kindref="member">DicomStatusEnum</ref></type>
-        <definition>DicomStatusEnum MR::VoxelsLoad::DicomStatus::status</definition>
-        <argsstring></argsstring>
-        <name>status</name>
-        <qualifiedname>MR::VoxelsLoad::DicomStatus::status</qualifiedname>
-        <initializer>= <ref refid="namespaceMR_1_1VoxelsLoad_1a4877b5ea79a241234ef88b527edc08e6a4bbb8f967da6d1a610596d7257179c2b" kindref="member">DicomStatusEnum::Invalid</ref></initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" line="42" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" bodystart="42" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1VoxelsLoad_1_1DicomStatus_1a397021c2f11cc76a8178e525bd2bed86" prot="public" static="no" mutable="no">
-        <type>std::string</type>
-        <definition>std::string MR::VoxelsLoad::DicomStatus::reason</definition>
-        <argsstring></argsstring>
-        <name>reason</name>
-        <qualifiedname>MR::VoxelsLoad::DicomStatus::reason</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" line="43" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" bodystart="43" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga69fabaf9380693815d99277fda43022f" kind="variable"><name>status</name></member>
+      <member refid="group__GeneralGroup_1ga397021c2f11cc76a8178e525bd2bed86" kind="variable"><name>reason</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1VoxelsLoad_1_1DicomStatus_1a780a5ecc96a3b09773f7fc297c5c4958" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::VoxelsLoad::DicomStatus::DicomStatus</definition>
-        <argsstring>(DicomStatusEnum st, std::string_view rs=&quot;&quot;)</argsstring>
-        <name>DicomStatus</name>
-        <qualifiedname>MR::VoxelsLoad::DicomStatus::DicomStatus</qualifiedname>
-        <param>
-          <type><ref refid="namespaceMR_1_1VoxelsLoad_1a4877b5ea79a241234ef88b527edc08e6" kindref="member">DicomStatusEnum</ref></type>
-          <declname>st</declname>
-        </param>
-        <param>
-          <type>std::string_view</type>
-          <declname>rs</declname>
-          <defval>&quot;&quot;</defval>
-        </param>
-        <briefdescription>
-<para>implicit by design </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" line="31" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" bodystart="31" bodyend="34"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1VoxelsLoad_1_1DicomStatus_1a8152065aa9150e9c3a5dd1e0ce064abb" prot="public" static="no" const="yes" explicit="yes" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::VoxelsLoad::DicomStatus::operator bool</definition>
-        <argsstring>() const</argsstring>
-        <name>operator bool</name>
-        <qualifiedname>MR::VoxelsLoad::DicomStatus::operator bool</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" line="36" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" bodystart="36" bodyend="37"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1VoxelsLoad_1_1DicomStatus_1a9d58008a01c9a02bc872fb06b4dfe30f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::VoxelsLoad::DicomStatus::operator==</definition>
-        <argsstring>(DicomStatusEnum s) const</argsstring>
-        <name>operator==</name>
-        <qualifiedname>MR::VoxelsLoad::DicomStatus::operator==</qualifiedname>
-        <param>
-          <type><ref refid="namespaceMR_1_1VoxelsLoad_1a4877b5ea79a241234ef88b527edc08e6" kindref="member">DicomStatusEnum</ref></type>
-          <declname>s</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" line="39" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" bodystart="39" bodyend="40"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga780a5ecc96a3b09773f7fc297c5c4958" kind="function"><name>DicomStatus</name></member>
+      <member refid="group__GeneralGroup_1ga8152065aa9150e9c3a5dd1e0ce064abb" kind="function"><name>operator bool</name></member>
+      <member refid="group__GeneralGroup_1ga9d58008a01c9a02bc872fb06b4dfe30f" kind="function"><name>operator==</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" line="28" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" bodystart="29" bodyend="44"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" line="31" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" bodystart="32" bodyend="47"/>
     <listofallmembers>
-      <member refid="structMR_1_1VoxelsLoad_1_1DicomStatus_1a780a5ecc96a3b09773f7fc297c5c4958" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::DicomStatus</scope><name>DicomStatus</name></member>
-      <member refid="structMR_1_1VoxelsLoad_1_1DicomStatus_1a8152065aa9150e9c3a5dd1e0ce064abb" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::DicomStatus</scope><name>operator bool</name></member>
-      <member refid="structMR_1_1VoxelsLoad_1_1DicomStatus_1a9d58008a01c9a02bc872fb06b4dfe30f" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::DicomStatus</scope><name>operator==</name></member>
-      <member refid="structMR_1_1VoxelsLoad_1_1DicomStatus_1a397021c2f11cc76a8178e525bd2bed86" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::DicomStatus</scope><name>reason</name></member>
-      <member refid="structMR_1_1VoxelsLoad_1_1DicomStatus_1a69fabaf9380693815d99277fda43022f" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::DicomStatus</scope><name>status</name></member>
+      <member refid="group__GeneralGroup_1ga780a5ecc96a3b09773f7fc297c5c4958" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::DicomStatus</scope><name>DicomStatus</name></member>
+      <member refid="group__GeneralGroup_1ga8152065aa9150e9c3a5dd1e0ce064abb" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::DicomStatus</scope><name>operator bool</name></member>
+      <member refid="group__GeneralGroup_1ga9d58008a01c9a02bc872fb06b4dfe30f" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::DicomStatus</scope><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga397021c2f11cc76a8178e525bd2bed86" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::DicomStatus</scope><name>reason</name></member>
+      <member refid="group__GeneralGroup_1ga69fabaf9380693815d99277fda43022f" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::DicomStatus</scope><name>status</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

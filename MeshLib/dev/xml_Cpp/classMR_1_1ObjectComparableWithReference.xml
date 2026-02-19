@@ -9,335 +9,23 @@
     <innerclass refid="structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue" prot="public">MR::ObjectComparableWithReference::ComparisonReferenceValue</innerclass>
     <innerclass refid="structMR_1_1ObjectComparableWithReference_1_1ComparisonTolerance" prot="public">MR::ObjectComparableWithReference::ComparisonTolerance</innerclass>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1ObjectComparableWithReference_1a83e6e08749efd393e0a34bdf6804bc2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type></type>
-        <definition>virtual MR::ObjectComparableWithReference::~ObjectComparableWithReference</definition>
-        <argsstring>()=default</argsstring>
-        <name>~ObjectComparableWithReference</name>
-        <qualifiedname>MR::ObjectComparableWithReference::~ObjectComparableWithReference</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h" line="16" column="13"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectComparableWithReference_1a39179dbfa89d894ecf784f2398c9c78b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::ObjectComparableWithReference::ObjectComparableWithReference</definition>
-        <argsstring>()=default</argsstring>
-        <name>ObjectComparableWithReference</name>
-        <qualifiedname>MR::ObjectComparableWithReference::ObjectComparableWithReference</qualifiedname>
-        <briefdescription>
-<para>We have no member variables, so lack of the implicit copy operations wouldn&apos;t matter, but MSVC warns on this, so we have to be explicit. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h" line="19" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectComparableWithReference_1ae825a8e0a74fc989c2bcd3147ff8bed2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::ObjectComparableWithReference::ObjectComparableWithReference</definition>
-        <argsstring>(const ObjectComparableWithReference &amp;)=default</argsstring>
-        <name>ObjectComparableWithReference</name>
-        <qualifiedname>MR::ObjectComparableWithReference::ObjectComparableWithReference</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1ObjectComparableWithReference" kindref="compound">ObjectComparableWithReference</ref> &amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h" line="20" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectComparableWithReference_1aab13b511da066b66c07235be25abce0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::ObjectComparableWithReference::ObjectComparableWithReference</definition>
-        <argsstring>(ObjectComparableWithReference &amp;&amp;)=default</argsstring>
-        <name>ObjectComparableWithReference</name>
-        <qualifiedname>MR::ObjectComparableWithReference::ObjectComparableWithReference</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1ObjectComparableWithReference" kindref="compound">ObjectComparableWithReference</ref> &amp;&amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h" line="21" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectComparableWithReference_1ad1905b7160fa76212ab3913f59d132ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMR_1_1ObjectComparableWithReference" kindref="compound">ObjectComparableWithReference</ref> &amp;</type>
-        <definition>ObjectComparableWithReference &amp; MR::ObjectComparableWithReference::operator=</definition>
-        <argsstring>(const ObjectComparableWithReference &amp;)=default</argsstring>
-        <name>operator=</name>
-        <qualifiedname>MR::ObjectComparableWithReference::operator=</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1ObjectComparableWithReference" kindref="compound">ObjectComparableWithReference</ref> &amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h" line="22" column="35"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectComparableWithReference_1a6079e4aac0a4e04a8055a9f639264096" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMR_1_1ObjectComparableWithReference" kindref="compound">ObjectComparableWithReference</ref> &amp;</type>
-        <definition>ObjectComparableWithReference &amp; MR::ObjectComparableWithReference::operator=</definition>
-        <argsstring>(ObjectComparableWithReference &amp;&amp;)=default</argsstring>
-        <name>operator=</name>
-        <qualifiedname>MR::ObjectComparableWithReference::operator=</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1ObjectComparableWithReference" kindref="compound">ObjectComparableWithReference</ref> &amp;&amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h" line="23" column="35"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectComparableWithReference_1a7308ba05352b5ce9d88d9dd0510db0a8" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="pure-virtual">
-        <type>std::size_t</type>
-        <definition>virtual std::size_t MR::ObjectComparableWithReference::numComparableProperties</definition>
-        <argsstring>() const =0</argsstring>
-        <name>numComparableProperties</name>
-        <qualifiedname>MR::ObjectComparableWithReference::numComparableProperties</qualifiedname>
-        <reimplementedby refid="classMR_1_1DistanceMeasurementObject_1a82179b938507528eccb049af8594b708">numComparableProperties</reimplementedby>
-        <reimplementedby refid="classMR_1_1PointMeasurementObject_1aa1ffcc4fad5546ca7dee26151fb10630">numComparableProperties</reimplementedby>
-        <briefdescription>
-<para>Comparing properties: </para>
-        </briefdescription>
-        <detaileddescription>
-<para>When comparing this object with a reference, how many different properties can we output? </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h" line="29" column="26"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectComparableWithReference_1adf521b4333a73a595da64ed48a3a7076" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="pure-virtual">
-        <type>std::string_view</type>
-        <definition>virtual std::string_view MR::ObjectComparableWithReference::getComparablePropertyName</definition>
-        <argsstring>(std::size_t i) const =0</argsstring>
-        <name>getComparablePropertyName</name>
-        <qualifiedname>MR::ObjectComparableWithReference::getComparablePropertyName</qualifiedname>
-        <reimplementedby refid="classMR_1_1DistanceMeasurementObject_1ab1248a3d54cc0e12003f82a19214ff93">getComparablePropertyName</reimplementedby>
-        <reimplementedby refid="classMR_1_1PointMeasurementObject_1a456c050996b14fe38e883c1216b179a7">getComparablePropertyName</reimplementedby>
-        <param>
-          <type>std::size_t</type>
-          <declname>i</declname>
-        </param>
-        <briefdescription>
-<para><computeroutput>i</computeroutput> goes up to <computeroutput><ref refid="classMR_1_1ObjectComparableWithReference_1a7308ba05352b5ce9d88d9dd0510db0a8" kindref="member">numComparableProperties()</ref></computeroutput>, exclusive. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h" line="32" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectComparableWithReference_1a329df4e0165f775043393c15f51db899" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="pure-virtual">
-        <type>std::optional&lt; <ref refid="structMR_1_1ObjectComparableWithReference_1_1ComparableProperty" kindref="compound">ComparableProperty</ref> &gt;</type>
-        <definition>virtual std::optional&lt; ComparableProperty &gt; MR::ObjectComparableWithReference::computeComparableProperty</definition>
-        <argsstring>(std::size_t i) const =0</argsstring>
-        <name>computeComparableProperty</name>
-        <qualifiedname>MR::ObjectComparableWithReference::computeComparableProperty</qualifiedname>
-        <reimplementedby refid="classMR_1_1DistanceMeasurementObject_1abc63171541c58c5add4c351e2b3b6408">computeComparableProperty</reimplementedby>
-        <reimplementedby refid="classMR_1_1PointMeasurementObject_1a8ce121a7423e6fa308670d48fee0761f">computeComparableProperty</reimplementedby>
-        <param>
-          <type>std::size_t</type>
-          <declname>i</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Compute a value of a property. Compare <computeroutput>value</computeroutput> and <computeroutput>referenceValue</computeroutput> using the tolerance. This can return null if the value is impossible to compute, e.g. for some types if the reference isn&apos;t set (e.g. if we&apos;re computing the distance to a reference point). <computeroutput>i</computeroutput> goes up to <computeroutput><ref refid="classMR_1_1ObjectComparableWithReference_1a7308ba05352b5ce9d88d9dd0510db0a8" kindref="member">numComparableProperties()</ref></computeroutput>, exclusive. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h" line="50" column="28"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectComparableWithReference_1ae22bf9ebca049eed0868db359a75e855" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="pure-virtual">
-        <type>std::optional&lt; <ref refid="structMR_1_1ObjectComparableWithReference_1_1ComparisonTolerance" kindref="compound">ComparisonTolerance</ref> &gt;</type>
-        <definition>virtual std::optional&lt; ComparisonTolerance &gt; MR::ObjectComparableWithReference::getComparisonTolerence</definition>
-        <argsstring>(std::size_t i) const =0</argsstring>
-        <name>getComparisonTolerence</name>
-        <qualifiedname>MR::ObjectComparableWithReference::getComparisonTolerence</qualifiedname>
-        <reimplementedby refid="classMR_1_1DistanceMeasurementObject_1a717142f37bd7e78b5da9949a99cccc40">getComparisonTolerence</reimplementedby>
-        <reimplementedby refid="classMR_1_1PointMeasurementObject_1a93ef05872a9f20c631b26b90e4ab53cc">getComparisonTolerence</reimplementedby>
-        <param>
-          <type>std::size_t</type>
-          <declname>i</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Returns the tolerance for a specific comparable property. Returns null if not set. <computeroutput>i</computeroutput> goes up to <computeroutput><ref refid="classMR_1_1ObjectComparableWithReference_1a7308ba05352b5ce9d88d9dd0510db0a8" kindref="member">numComparableProperties()</ref></computeroutput>, exclusive. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h" line="66" column="28"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectComparableWithReference_1a7df2402af378c17572454d7492ba7eec" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
-        <type>void</type>
-        <definition>virtual void MR::ObjectComparableWithReference::setComparisonTolerance</definition>
-        <argsstring>(std::size_t i, std::optional&lt; ComparisonTolerance &gt; newTolerance)=0</argsstring>
-        <name>setComparisonTolerance</name>
-        <qualifiedname>MR::ObjectComparableWithReference::setComparisonTolerance</qualifiedname>
-        <reimplementedby refid="classMR_1_1DistanceMeasurementObject_1a326ff10ac65ad253dc898ffbfba8df33">setComparisonTolerance</reimplementedby>
-        <reimplementedby refid="classMR_1_1PointMeasurementObject_1ab556527a39bd0b6f01016764e6bd2c66">setComparisonTolerance</reimplementedby>
-        <param>
-          <type>std::size_t</type>
-          <declname>i</declname>
-        </param>
-        <param>
-          <type>std::optional&lt; <ref refid="structMR_1_1ObjectComparableWithReference_1_1ComparisonTolerance" kindref="compound">ComparisonTolerance</ref> &gt;</type>
-          <declname>newTolerance</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Sets the tolerance for a specific comparable property. <computeroutput>i</computeroutput> goes up to <computeroutput><ref refid="classMR_1_1ObjectComparableWithReference_1a7308ba05352b5ce9d88d9dd0510db0a8" kindref="member">numComparableProperties()</ref></computeroutput>, exclusive. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h" line="70" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectComparableWithReference_1ac27662b0d2266f41b4dfab6844dba1e4" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::ObjectComparableWithReference::comparisonToleranceIsAlwaysOnlyPositive</definition>
-        <argsstring>(std::size_t i) const</argsstring>
-        <name>comparisonToleranceIsAlwaysOnlyPositive</name>
-        <qualifiedname>MR::ObjectComparableWithReference::comparisonToleranceIsAlwaysOnlyPositive</qualifiedname>
-        <reimplementedby refid="classMR_1_1PointMeasurementObject_1a637a5b8ccb6f5960bb6cd7f00062ac5d">comparisonToleranceIsAlwaysOnlyPositive</reimplementedby>
-        <param>
-          <type>std::size_t</type>
-          <declname>i</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>If true, indicates that the getter will always return zero negative tolerance, and the setter will ignore the negative tolerance. <computeroutput>i</computeroutput> goes up to <computeroutput><ref refid="classMR_1_1ObjectComparableWithReference_1a7308ba05352b5ce9d88d9dd0510db0a8" kindref="member">numComparableProperties()</ref></computeroutput>, exclusive. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h" line="74" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h" bodystart="74" bodyend="74"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectComparableWithReference_1a7e386df110c9d0fa3c799cf002cbc845" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>std::size_t</type>
-        <definition>virtual std::size_t MR::ObjectComparableWithReference::numComparisonReferenceValues</definition>
-        <argsstring>() const</argsstring>
-        <name>numComparisonReferenceValues</name>
-        <qualifiedname>MR::ObjectComparableWithReference::numComparisonReferenceValues</qualifiedname>
-        <reimplementedby refid="classMR_1_1PointMeasurementObject_1afddca9da80584a50508e93a5d4fbd422">numComparisonReferenceValues</reimplementedby>
-        <briefdescription>
-<para>Reference values: </para>
-        </briefdescription>
-        <detaileddescription>
-<para>The number and types of reference values can be entirely different compared to <computeroutput><ref refid="classMR_1_1ObjectComparableWithReference_1a7308ba05352b5ce9d88d9dd0510db0a8" kindref="member">numComparableProperties()</ref></computeroutput>. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h" line="80" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h" bodystart="80" bodyend="80"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectComparableWithReference_1ac3f2255c124f60526c36eb2cc32be9f9" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="pure-virtual">
-        <type>std::string_view</type>
-        <definition>virtual std::string_view MR::ObjectComparableWithReference::getComparisonReferenceValueName</definition>
-        <argsstring>(std::size_t i) const =0</argsstring>
-        <name>getComparisonReferenceValueName</name>
-        <qualifiedname>MR::ObjectComparableWithReference::getComparisonReferenceValueName</qualifiedname>
-        <reimplementedby refid="classMR_1_1DistanceMeasurementObject_1a47b1a0904e24cb42a3d81ae21519999d">getComparisonReferenceValueName</reimplementedby>
-        <reimplementedby refid="classMR_1_1PointMeasurementObject_1a5b3ba57a1c8309e5583843098e4db9df">getComparisonReferenceValueName</reimplementedby>
-        <param>
-          <type>std::size_t</type>
-          <declname>i</declname>
-        </param>
-        <briefdescription>
-<para><computeroutput>i</computeroutput> goes up to <computeroutput><ref refid="classMR_1_1ObjectComparableWithReference_1a7e386df110c9d0fa3c799cf002cbc845" kindref="member">numComparisonReferenceValues()</ref></computeroutput>, exclusive. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h" line="83" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectComparableWithReference_1a0fe95bc93503759817b9966ccebc4b0e" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="pure-virtual">
-        <type><ref refid="structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue" kindref="compound">ComparisonReferenceValue</ref></type>
-        <definition>virtual ComparisonReferenceValue MR::ObjectComparableWithReference::getComparisonReferenceValue</definition>
-        <argsstring>(std::size_t i) const =0</argsstring>
-        <name>getComparisonReferenceValue</name>
-        <qualifiedname>MR::ObjectComparableWithReference::getComparisonReferenceValue</qualifiedname>
-        <reimplementedby refid="classMR_1_1DistanceMeasurementObject_1a9da66cd334330f620109abc9ab2a2f61">getComparisonReferenceValue</reimplementedby>
-        <reimplementedby refid="classMR_1_1PointMeasurementObject_1a2502d60be202333d006f03e401e10678">getComparisonReferenceValue</reimplementedby>
-        <param>
-          <type>std::size_t</type>
-          <declname>i</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Returns the internal reference value. If the value wasn&apos;t set yet (as indicated by <computeroutput>isSet == false</computeroutput>), you can still use the returned variant to get the expected type. <computeroutput>i</computeroutput> goes up to <computeroutput><ref refid="classMR_1_1ObjectComparableWithReference_1a7e386df110c9d0fa3c799cf002cbc845" kindref="member">numComparisonReferenceValues()</ref></computeroutput>, exclusive. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h" line="99" column="39"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectComparableWithReference_1acb98cc0c1aa80731b206a983e8e79b0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
-        <type>void</type>
-        <definition>virtual void MR::ObjectComparableWithReference::setComparisonReferenceValue</definition>
-        <argsstring>(std::size_t i, std::optional&lt; ComparisonReferenceValue::Var &gt; value)=0</argsstring>
-        <name>setComparisonReferenceValue</name>
-        <qualifiedname>MR::ObjectComparableWithReference::setComparisonReferenceValue</qualifiedname>
-        <reimplementedby refid="classMR_1_1DistanceMeasurementObject_1afbcfa2a320101a85f090416fe434384c">setComparisonReferenceValue</reimplementedby>
-        <reimplementedby refid="classMR_1_1PointMeasurementObject_1a1e92ccec7660b3d3a54e1442bc3e883f">setComparisonReferenceValue</reimplementedby>
-        <param>
-          <type>std::size_t</type>
-          <declname>i</declname>
-        </param>
-        <param>
-          <type>std::optional&lt; <ref refid="structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue_1ab6bd7006ecd86f31248360a557a17d09" kindref="member">ComparisonReferenceValue::Var</ref> &gt;</type>
-          <declname>value</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Sets the internal reference value. Makes <computeroutput>hasComparisonReferenceValue()</computeroutput> return true. If you pass nullopt, removes this reference value. Only a certain variant type is legal to pass, depending on the derived class and the index. Use <computeroutput><ref refid="classMR_1_1ObjectComparableWithReference_1a0fe95bc93503759817b9966ccebc4b0e" kindref="member">getComparisonReferenceValue()</ref></computeroutput> to determine that type. <computeroutput>i</computeroutput> goes up to <computeroutput><ref refid="classMR_1_1ObjectComparableWithReference_1a7e386df110c9d0fa3c799cf002cbc845" kindref="member">numComparisonReferenceValues()</ref></computeroutput>, exclusive. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h" line="104" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectComparableWithReference_1a09b21bda8f6435e0b9c520c31f2607ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ObjectComparableWithReference::setComparisonReferenceVal</definition>
-        <argsstring>(std::size_t i, const ComparisonReferenceValue &amp;value)</argsstring>
-        <name>setComparisonReferenceVal</name>
-        <qualifiedname>MR::ObjectComparableWithReference::setComparisonReferenceVal</qualifiedname>
-        <param>
-          <type>std::size_t</type>
-          <declname>i</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue" kindref="compound">ComparisonReferenceValue</ref> &amp;</type>
-          <declname>value</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h" line="105" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h" bodystart="105" bodyend="111"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga83e6e08749efd393e0a34bdf6804bc2e" kind="function"><name>~ObjectComparableWithReference</name></member>
+      <member refid="group__GeneralGroup_1ga39179dbfa89d894ecf784f2398c9c78b" kind="function"><name>ObjectComparableWithReference</name></member>
+      <member refid="group__GeneralGroup_1gae825a8e0a74fc989c2bcd3147ff8bed2" kind="function"><name>ObjectComparableWithReference</name></member>
+      <member refid="group__GeneralGroup_1gaab13b511da066b66c07235be25abce0b" kind="function"><name>ObjectComparableWithReference</name></member>
+      <member refid="group__GeneralGroup_1gad1905b7160fa76212ab3913f59d132ce" kind="function"><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga6079e4aac0a4e04a8055a9f639264096" kind="function"><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga7308ba05352b5ce9d88d9dd0510db0a8" kind="function"><name>numComparableProperties</name></member>
+      <member refid="group__GeneralGroup_1gadf521b4333a73a595da64ed48a3a7076" kind="function"><name>getComparablePropertyName</name></member>
+      <member refid="group__GeneralGroup_1ga329df4e0165f775043393c15f51db899" kind="function"><name>computeComparableProperty</name></member>
+      <member refid="group__GeneralGroup_1gae22bf9ebca049eed0868db359a75e855" kind="function"><name>getComparisonTolerence</name></member>
+      <member refid="group__GeneralGroup_1ga7df2402af378c17572454d7492ba7eec" kind="function"><name>setComparisonTolerance</name></member>
+      <member refid="group__GeneralGroup_1gac27662b0d2266f41b4dfab6844dba1e4" kind="function"><name>comparisonToleranceIsAlwaysOnlyPositive</name></member>
+      <member refid="group__GeneralGroup_1ga7e386df110c9d0fa3c799cf002cbc845" kind="function"><name>numComparisonReferenceValues</name></member>
+      <member refid="group__GeneralGroup_1gac3f2255c124f60526c36eb2cc32be9f9" kind="function"><name>getComparisonReferenceValueName</name></member>
+      <member refid="group__GeneralGroup_1ga0fe95bc93503759817b9966ccebc4b0e" kind="function"><name>getComparisonReferenceValue</name></member>
+      <member refid="group__GeneralGroup_1gacb98cc0c1aa80731b206a983e8e79b0a" kind="function"><name>setComparisonReferenceValue</name></member>
+      <member refid="group__GeneralGroup_1ga09b21bda8f6435e0b9c520c31f2607ed" kind="function"><name>setComparisonReferenceVal</name></member>
     </sectiondef>
     <briefdescription>
 <para>A base class for a data-model object that is a feature/measurement that can be compared between two models. </para>
@@ -362,25 +50,25 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h" bodystart="14" bodyend="112"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h" bodystart="17" bodyend="115"/>
     <listofallmembers>
-      <member refid="classMR_1_1ObjectComparableWithReference_1ac27662b0d2266f41b4dfab6844dba1e4" prot="public" virt="virtual"><scope>MR::ObjectComparableWithReference</scope><name>comparisonToleranceIsAlwaysOnlyPositive</name></member>
-      <member refid="classMR_1_1ObjectComparableWithReference_1a329df4e0165f775043393c15f51db899" prot="public" virt="pure-virtual"><scope>MR::ObjectComparableWithReference</scope><name>computeComparableProperty</name></member>
-      <member refid="classMR_1_1ObjectComparableWithReference_1adf521b4333a73a595da64ed48a3a7076" prot="public" virt="pure-virtual"><scope>MR::ObjectComparableWithReference</scope><name>getComparablePropertyName</name></member>
-      <member refid="classMR_1_1ObjectComparableWithReference_1a0fe95bc93503759817b9966ccebc4b0e" prot="public" virt="pure-virtual"><scope>MR::ObjectComparableWithReference</scope><name>getComparisonReferenceValue</name></member>
-      <member refid="classMR_1_1ObjectComparableWithReference_1ac3f2255c124f60526c36eb2cc32be9f9" prot="public" virt="pure-virtual"><scope>MR::ObjectComparableWithReference</scope><name>getComparisonReferenceValueName</name></member>
-      <member refid="classMR_1_1ObjectComparableWithReference_1ae22bf9ebca049eed0868db359a75e855" prot="public" virt="pure-virtual"><scope>MR::ObjectComparableWithReference</scope><name>getComparisonTolerence</name></member>
-      <member refid="classMR_1_1ObjectComparableWithReference_1a7308ba05352b5ce9d88d9dd0510db0a8" prot="public" virt="pure-virtual"><scope>MR::ObjectComparableWithReference</scope><name>numComparableProperties</name></member>
-      <member refid="classMR_1_1ObjectComparableWithReference_1a7e386df110c9d0fa3c799cf002cbc845" prot="public" virt="virtual"><scope>MR::ObjectComparableWithReference</scope><name>numComparisonReferenceValues</name></member>
-      <member refid="classMR_1_1ObjectComparableWithReference_1a39179dbfa89d894ecf784f2398c9c78b" prot="public" virt="non-virtual"><scope>MR::ObjectComparableWithReference</scope><name>ObjectComparableWithReference</name></member>
-      <member refid="classMR_1_1ObjectComparableWithReference_1ae825a8e0a74fc989c2bcd3147ff8bed2" prot="public" virt="non-virtual"><scope>MR::ObjectComparableWithReference</scope><name>ObjectComparableWithReference</name></member>
-      <member refid="classMR_1_1ObjectComparableWithReference_1aab13b511da066b66c07235be25abce0b" prot="public" virt="non-virtual"><scope>MR::ObjectComparableWithReference</scope><name>ObjectComparableWithReference</name></member>
-      <member refid="classMR_1_1ObjectComparableWithReference_1ad1905b7160fa76212ab3913f59d132ce" prot="public" virt="non-virtual"><scope>MR::ObjectComparableWithReference</scope><name>operator=</name></member>
-      <member refid="classMR_1_1ObjectComparableWithReference_1a6079e4aac0a4e04a8055a9f639264096" prot="public" virt="non-virtual"><scope>MR::ObjectComparableWithReference</scope><name>operator=</name></member>
-      <member refid="classMR_1_1ObjectComparableWithReference_1a09b21bda8f6435e0b9c520c31f2607ed" prot="public" virt="non-virtual"><scope>MR::ObjectComparableWithReference</scope><name>setComparisonReferenceVal</name></member>
-      <member refid="classMR_1_1ObjectComparableWithReference_1acb98cc0c1aa80731b206a983e8e79b0a" prot="public" virt="pure-virtual"><scope>MR::ObjectComparableWithReference</scope><name>setComparisonReferenceValue</name></member>
-      <member refid="classMR_1_1ObjectComparableWithReference_1a7df2402af378c17572454d7492ba7eec" prot="public" virt="pure-virtual"><scope>MR::ObjectComparableWithReference</scope><name>setComparisonTolerance</name></member>
-      <member refid="classMR_1_1ObjectComparableWithReference_1a83e6e08749efd393e0a34bdf6804bc2e" prot="public" virt="virtual"><scope>MR::ObjectComparableWithReference</scope><name>~ObjectComparableWithReference</name></member>
+      <member refid="group__GeneralGroup_1gac27662b0d2266f41b4dfab6844dba1e4" prot="public" virt="virtual"><scope>MR::ObjectComparableWithReference</scope><name>comparisonToleranceIsAlwaysOnlyPositive</name></member>
+      <member refid="group__GeneralGroup_1ga329df4e0165f775043393c15f51db899" prot="public" virt="pure-virtual"><scope>MR::ObjectComparableWithReference</scope><name>computeComparableProperty</name></member>
+      <member refid="group__GeneralGroup_1gadf521b4333a73a595da64ed48a3a7076" prot="public" virt="pure-virtual"><scope>MR::ObjectComparableWithReference</scope><name>getComparablePropertyName</name></member>
+      <member refid="group__GeneralGroup_1ga0fe95bc93503759817b9966ccebc4b0e" prot="public" virt="pure-virtual"><scope>MR::ObjectComparableWithReference</scope><name>getComparisonReferenceValue</name></member>
+      <member refid="group__GeneralGroup_1gac3f2255c124f60526c36eb2cc32be9f9" prot="public" virt="pure-virtual"><scope>MR::ObjectComparableWithReference</scope><name>getComparisonReferenceValueName</name></member>
+      <member refid="group__GeneralGroup_1gae22bf9ebca049eed0868db359a75e855" prot="public" virt="pure-virtual"><scope>MR::ObjectComparableWithReference</scope><name>getComparisonTolerence</name></member>
+      <member refid="group__GeneralGroup_1ga7308ba05352b5ce9d88d9dd0510db0a8" prot="public" virt="pure-virtual"><scope>MR::ObjectComparableWithReference</scope><name>numComparableProperties</name></member>
+      <member refid="group__GeneralGroup_1ga7e386df110c9d0fa3c799cf002cbc845" prot="public" virt="virtual"><scope>MR::ObjectComparableWithReference</scope><name>numComparisonReferenceValues</name></member>
+      <member refid="group__GeneralGroup_1ga39179dbfa89d894ecf784f2398c9c78b" prot="public" virt="non-virtual"><scope>MR::ObjectComparableWithReference</scope><name>ObjectComparableWithReference</name></member>
+      <member refid="group__GeneralGroup_1gae825a8e0a74fc989c2bcd3147ff8bed2" prot="public" virt="non-virtual"><scope>MR::ObjectComparableWithReference</scope><name>ObjectComparableWithReference</name></member>
+      <member refid="group__GeneralGroup_1gaab13b511da066b66c07235be25abce0b" prot="public" virt="non-virtual"><scope>MR::ObjectComparableWithReference</scope><name>ObjectComparableWithReference</name></member>
+      <member refid="group__GeneralGroup_1gad1905b7160fa76212ab3913f59d132ce" prot="public" virt="non-virtual"><scope>MR::ObjectComparableWithReference</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga6079e4aac0a4e04a8055a9f639264096" prot="public" virt="non-virtual"><scope>MR::ObjectComparableWithReference</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga09b21bda8f6435e0b9c520c31f2607ed" prot="public" virt="non-virtual"><scope>MR::ObjectComparableWithReference</scope><name>setComparisonReferenceVal</name></member>
+      <member refid="group__GeneralGroup_1gacb98cc0c1aa80731b206a983e8e79b0a" prot="public" virt="pure-virtual"><scope>MR::ObjectComparableWithReference</scope><name>setComparisonReferenceValue</name></member>
+      <member refid="group__GeneralGroup_1ga7df2402af378c17572454d7492ba7eec" prot="public" virt="pure-virtual"><scope>MR::ObjectComparableWithReference</scope><name>setComparisonTolerance</name></member>
+      <member refid="group__GeneralGroup_1ga83e6e08749efd393e0a34bdf6804bc2e" prot="public" virt="virtual"><scope>MR::ObjectComparableWithReference</scope><name>~ObjectComparableWithReference</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

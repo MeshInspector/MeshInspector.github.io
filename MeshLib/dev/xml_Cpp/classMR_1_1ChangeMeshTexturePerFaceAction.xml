@@ -121,7 +121,7 @@
         <argsstring>() const override</argsstring>
         <name>name</name>
         <qualifiedname>MR::ChangeMeshTexturePerFaceAction::name</qualifiedname>
-        <reimplements refid="classMR_1_1HistoryAction_1a9daa0b79de161f676f6283e3804dc8ce">name</reimplements>
+        <reimplements refid="group__GeneralGroup_1ga9daa0b79de161f676f6283e3804dc8ce">name</reimplements>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -136,9 +136,9 @@
         <argsstring>(HistoryAction::Type) override</argsstring>
         <name>action</name>
         <qualifiedname>MR::ChangeMeshTexturePerFaceAction::action</qualifiedname>
-        <reimplements refid="classMR_1_1HistoryAction_1aecfce349736beaf17a23a6817c86f3bb">action</reimplements>
+        <reimplements refid="group__GeneralGroup_1gaecfce349736beaf17a23a6817c86f3bb">action</reimplements>
         <param>
-          <type><ref refid="classMR_1_1HistoryAction_1ac16eb31dd26d35cfc18bac8a05983aa7" kindref="member">HistoryAction::Type</ref></type>
+          <type><ref refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" kindref="member">HistoryAction::Type</ref></type>
           <declname>actionType</declname>
         </param>
         <briefdescription>
@@ -156,7 +156,7 @@
         <argsstring>() const override</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR::ChangeMeshTexturePerFaceAction::heapBytes</qualifiedname>
-        <reimplements refid="classMR_1_1HistoryAction_1ad6df54da6a63ed83f15053507e8569de">heapBytes</reimplements>
+        <reimplements refid="group__GeneralGroup_1gad6df54da6a63ed83f15053507e8569de">heapBytes</reimplements>
         <briefdescription>
 <para>returns the amount of memory this object occupies on heap </para>
         </briefdescription>
@@ -228,8 +228,8 @@
       <member refid="classMR_1_1ChangeMeshTexturePerFaceAction_1ac0ed8e87991130b5090e9d8b44fca1bb" prot="private" virt="non-virtual"><scope>MR::ChangeMeshTexturePerFaceAction</scope><name>objMesh_</name></member>
       <member refid="classMR_1_1ChangeMeshTexturePerFaceAction_1aff0a929769480252b2c2c35c72ae8ffd" prot="public" virt="non-virtual"><scope>MR::ChangeMeshTexturePerFaceAction</scope><name>setObjectDirty</name></member>
       <member refid="classMR_1_1ChangeMeshTexturePerFaceAction_1a228a4605d1a6717fc1b7d0040efba8a0" prot="private" virt="non-virtual"><scope>MR::ChangeMeshTexturePerFaceAction</scope><name>texturePerFace_</name></member>
-      <member refid="classMR_1_1HistoryAction_1ac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::ChangeMeshTexturePerFaceAction</scope><name>Type</name></member>
-      <member refid="classMR_1_1HistoryAction_1a97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::ChangeMeshTexturePerFaceAction</scope><name>~HistoryAction</name></member>
+      <member refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::ChangeMeshTexturePerFaceAction</scope><name>Type</name></member>
+      <member refid="group__GeneralGroup_1ga97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::ChangeMeshTexturePerFaceAction</scope><name>~HistoryAction</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

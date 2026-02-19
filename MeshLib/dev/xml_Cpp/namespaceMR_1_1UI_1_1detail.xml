@@ -3,119 +3,14 @@
   <compounddef id="namespaceMR_1_1UI_1_1detail" kind="namespace" language="C++">
     <compoundname>MR::UI::detail</compoundname>
     <sectiondef kind="func">
-      <memberdef kind="function" id="namespaceMR_1_1UI_1_1detail_1a725a5cb7e447bbae4a1ae586a0f981d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::UI::detail::setScale</definition>
-        <argsstring>(float newScale)</argsstring>
-        <name>setScale</name>
-        <qualifiedname>MR::UI::detail::setScale</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>newScale</declname>
-        </param>
-        <briefdescription>
-<para>Strictly for internal use. Updates the value that <computeroutput><ref refid="namespaceMR_1_1UI_1a5d2fd1d58ef16bcced4cfefc67d2c023" kindref="member">scale()</ref></computeroutput> returns. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="28" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" declline="28" declcolumn="23"/>
-      </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1UI_1_1detail_1a94d9e7cba8a9ce853aeee7b29b563391" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>MRVIEWER_API bool MR::UI::detail::genericSlider</definition>
-        <argsstring>(const char *label, ImGuiDataType data_type, void *p_data, const void *p_min, const void *p_max, const char *format, ImGuiSliderFlags flags)</argsstring>
-        <name>genericSlider</name>
-        <qualifiedname>MR::UI::detail::genericSlider</qualifiedname>
-        <param>
-          <type>const char *</type>
-          <declname>label</declname>
-        </param>
-        <param>
-          <type>ImGuiDataType</type>
-          <declname>data_type</declname>
-        </param>
-        <param>
-          <type>void *</type>
-          <declname>p_data</declname>
-        </param>
-        <param>
-          <type>const void *</type>
-          <declname>p_min</declname>
-        </param>
-        <param>
-          <type>const void *</type>
-          <declname>p_max</declname>
-        </param>
-        <param>
-          <type>const char *</type>
-          <declname>format</declname>
-        </param>
-        <param>
-          <type>ImGuiSliderFlags</type>
-          <declname>flags</declname>
-        </param>
-        <briefdescription>
-<para>A type-erased slider. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="346" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" declline="346" declcolumn="23"/>
-      </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1UI_1_1detail_1ab56fe865a416552aa6f504ce57514ae3" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>UnitEnum</type>
-            <declname>E</declname>
-            <defname>E</defname>
-          </param>
-          <param>
-            <type>VectorOrScalar</type>
-            <declname>T</declname>
-            <defname>T</defname>
-          </param>
-          <param>
-            <type>typename F</type>
-          </param>
-        </templateparamlist>
-        <type>bool</type>
-        <definition>bool MR::UI::detail::unitWidget</definition>
-        <argsstring>(const char *label, T &amp;v, UnitToStringParams&lt; E &gt; &amp;unitParams, F &amp;&amp;func)</argsstring>
-        <name>unitWidget</name>
-        <qualifiedname>MR::UI::detail::unitWidget</qualifiedname>
-        <param>
-          <type>const char *</type>
-          <declname>label</declname>
-        </param>
-        <param>
-          <type>T &amp;</type>
-          <declname>v</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1UnitToStringParams" kindref="compound">UnitToStringParams</ref>&lt; E &gt; &amp;</type>
-          <declname>unitParams</declname>
-        </param>
-        <param>
-          <type>F &amp;&amp;</type>
-          <declname>func</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>A common code for sliders and other widgets dealing with measurement units. <computeroutput>E</computeroutput> must be explicitly set to a measurement unit enum. The other template parameters are deduced. <computeroutput>label</computeroutput> is the widget label, <computeroutput>v</computeroutput> is the target value. <computeroutput>func</computeroutput> draws the widget for an individual scalar. We call it more than once for vectors. <computeroutput>func</computeroutput> is <computeroutput>( const char* label, auto&amp; elem, int i ) -&gt; bool</computeroutput>. It receives <computeroutput>elem</computeroutput> already converted to the display units (so you must convert min/max bounds manually). <computeroutput>i</computeroutput> is the element index for vectors. When <computeroutput>v</computeroutput> is integral, <computeroutput>func</computeroutput> will be instantiated for both integral and floating-point element type. The latter is required if we&apos;re doing conversions. NOTE: For integral <computeroutput>v</computeroutput>, in <computeroutput>func</computeroutput> you must look at the type of <computeroutput>elem</computeroutput> and convert your min/max bounds (etc) to the same type. Notice <computeroutput>unitParams</computeroutput> being accepted by an lvalue reference. For convenience, we reset the <computeroutput>sourceUnit</computeroutput> in it before calling the user callback, since at that point no further conversions are necessary. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="381" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" declline="381" declcolumn="11"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga725a5cb7e447bbae4a1ae586a0f981d9" kind="function"><name>setScale</name></member>
+      <member refid="group__GeneralGroup_1ga94d9e7cba8a9ce853aeee7b29b563391" kind="function"><name>genericSlider</name></member>
+      <member refid="group__GeneralGroup_1gab56fe865a416552aa6f504ce57514ae3" kind="function"><name>unitWidget</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="25" column="1"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="28" column="1"/>
   </compounddef>
 </doxygen>

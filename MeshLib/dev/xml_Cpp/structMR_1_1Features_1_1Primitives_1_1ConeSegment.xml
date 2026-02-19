@@ -4,353 +4,56 @@
     <compoundname>MR::Features::Primitives::ConeSegment</compoundname>
     <includes refid="MRFeatures_8h" local="no">MRFeatures.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1a40eff23fbea04d4a72390fda48c04bfd" prot="public" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::Features::Primitives::ConeSegment::referencePoint</definition>
-        <argsstring></argsstring>
-        <name>referencePoint</name>
-        <qualifiedname>MR::Features::Primitives::ConeSegment::referencePoint</qualifiedname>
-        <briefdescription>
-<para>Some point on the axis, but not necessarily the true center point. Use <computeroutput><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1a9f96764db5c4750b318539f5c7ccf9b3" kindref="member">centerPoint()</ref></computeroutput> for that. </para>
-        </briefdescription>
-        <detaileddescription>
-<para>Sanity requirements:<itemizedlist>
-<listitem><para><computeroutput>dir</computeroutput> must be normalized.</para>
-</listitem><listitem><para>Both <computeroutput>positiveLength</computeroutput> and <computeroutput>negativeLength</computeroutput> should be non-negative. They can be infinite (both or individually).</para>
-</listitem><listitem><para>If they are equal (both zero) or at least one of them is infinite, <computeroutput>positiveSideRadius</computeroutput> must be equal to <computeroutput>negativeSideRadius</computeroutput>.</para>
-</listitem><listitem><para>Both <computeroutput>positiveSideRadius</computeroutput> and <computeroutput>negativeSideRadius</computeroutput> must be non-negative. </para>
-</listitem></itemizedlist>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="62" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" bodystart="62" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1a9f603438a2e12d81289b9696c05cdcd4" prot="public" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::Features::Primitives::ConeSegment::dir</definition>
-        <argsstring></argsstring>
-        <name>dir</name>
-        <qualifiedname>MR::Features::Primitives::ConeSegment::dir</qualifiedname>
-        <briefdescription>
-<para>The axis direction. Must be normalized. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="64" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" bodystart="64" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1a6d82dd73c4e7a2c5455773425fb17871" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::Features::Primitives::ConeSegment::positiveSideRadius</definition>
-        <argsstring></argsstring>
-        <name>positiveSideRadius</name>
-        <qualifiedname>MR::Features::Primitives::ConeSegment::positiveSideRadius</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-<para>Cap radius in the <computeroutput>dir</computeroutput> direction. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="67" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" bodystart="67" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1abf9a80b6307631742a88be4930217ef9" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::Features::Primitives::ConeSegment::negativeSideRadius</definition>
-        <argsstring></argsstring>
-        <name>negativeSideRadius</name>
-        <qualifiedname>MR::Features::Primitives::ConeSegment::negativeSideRadius</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-<para>Cap radius in the direction opposite to <computeroutput>dir</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="69" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" bodystart="69" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1ac1751a2024b0d6daec6aedd03c36ba2c" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::Features::Primitives::ConeSegment::positiveLength</definition>
-        <argsstring></argsstring>
-        <name>positiveLength</name>
-        <qualifiedname>MR::Features::Primitives::ConeSegment::positiveLength</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-<para>Distance from the <computeroutput>center</computeroutput> to the cap in the <computeroutput>dir</computeroutput> direction. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="72" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" bodystart="72" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1aa12508a43caab5ab1a44e29db684592d" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::Features::Primitives::ConeSegment::negativeLength</definition>
-        <argsstring></argsstring>
-        <name>negativeLength</name>
-        <qualifiedname>MR::Features::Primitives::ConeSegment::negativeLength</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-<para>Distance from the <computeroutput>center</computeroutput> to the cap in the direction opposite to <computeroutput>dir</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="74" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" bodystart="74" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1aed7a509cc23a908a6cf803007694eabf" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::Features::Primitives::ConeSegment::hollow</definition>
-        <argsstring></argsstring>
-        <name>hollow</name>
-        <qualifiedname>MR::Features::Primitives::ConeSegment::hollow</qualifiedname>
-        <initializer>= false</initializer>
-        <briefdescription>
-<para>If true, the cone has no caps and no volume, and all distances (to the conical surface, that is) are positive. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="77" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" bodystart="77" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga40eff23fbea04d4a72390fda48c04bfd" kind="variable"><name>referencePoint</name></member>
+      <member refid="group__GeneralGroup_1ga9f603438a2e12d81289b9696c05cdcd4" kind="variable"><name>dir</name></member>
+      <member refid="group__GeneralGroup_1ga6d82dd73c4e7a2c5455773425fb17871" kind="variable"><name>positiveSideRadius</name></member>
+      <member refid="group__GeneralGroup_1gabf9a80b6307631742a88be4930217ef9" kind="variable"><name>negativeSideRadius</name></member>
+      <member refid="group__GeneralGroup_1gac1751a2024b0d6daec6aedd03c36ba2c" kind="variable"><name>positiveLength</name></member>
+      <member refid="group__GeneralGroup_1gaa12508a43caab5ab1a44e29db684592d" kind="variable"><name>negativeLength</name></member>
+      <member refid="group__GeneralGroup_1gaed7a509cc23a908a6cf803007694eabf" kind="variable"><name>hollow</name></member>
     </sectiondef>
     <sectiondef kind="friend">
-      <memberdef kind="friend" id="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1a0a599e730d0a62e6972fecbb9a4e13b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool operator==</definition>
-        <argsstring>(const ConeSegment &amp;, const ConeSegment &amp;)=default</argsstring>
-        <name>operator==</name>
-        <qualifiedname>MR::Features::Primitives::ConeSegment::operator==</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">ConeSegment</ref> &amp;</type>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">ConeSegment</ref> &amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="79" column="21"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga0a599e730d0a62e6972fecbb9a4e13b1" kind="friend"><name>operator==</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1ad0e22f8a9ddce47d6aab63cfe35ab6bd" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::Features::Primitives::ConeSegment::isZeroRadius</definition>
-        <argsstring>() const</argsstring>
-        <name>isZeroRadius</name>
-        <qualifiedname>MR::Features::Primitives::ConeSegment::isZeroRadius</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="81" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" bodystart="81" bodyend="81"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1afa5b6dc1d9e1f98cbec052e8d506d20a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::Features::Primitives::ConeSegment::isCircle</definition>
-        <argsstring>() const</argsstring>
-        <name>isCircle</name>
-        <qualifiedname>MR::Features::Primitives::ConeSegment::isCircle</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="82" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" bodystart="82" bodyend="82"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1a246d93a7bb2aaa83191d515884303ecb" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>float</type>
-        <definition>float MR::Features::Primitives::ConeSegment::length</definition>
-        <argsstring>() const</argsstring>
-        <name>length</name>
-        <qualifiedname>MR::Features::Primitives::ConeSegment::length</qualifiedname>
-        <briefdescription>
-<para>Returns the length. Can be infinite. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="85" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" bodystart="85" bodyend="85"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1a9f96764db5c4750b318539f5c7ccf9b3" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="namespaceMR_1_1Features_1_1Primitives_1a37df2f34cbcd3fec213859b3ca57d3b6" kindref="member">Sphere</ref></type>
-        <definition>MRMESH_API Sphere MR::Features::Primitives::ConeSegment::centerPoint</definition>
-        <argsstring>() const</argsstring>
-        <name>centerPoint</name>
-        <qualifiedname>MR::Features::Primitives::ConeSegment::centerPoint</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Returns the center point (unlike <computeroutput>referencePoint</computeroutput>, which can actually be off-center). For half-infinite objects, returns the finite end. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="89" column="28"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1aeda0b75106e0df9b044fe33c1adb7044" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">ConeSegment</ref></type>
-        <definition>MRMESH_API ConeSegment MR::Features::Primitives::ConeSegment::extendToInfinity</definition>
-        <argsstring>(bool negative) const</argsstring>
-        <name>extendToInfinity</name>
-        <qualifiedname>MR::Features::Primitives::ConeSegment::extendToInfinity</qualifiedname>
-        <param>
-          <type>bool</type>
-          <declname>negative</declname>
-        </param>
-        <briefdescription>
-<para>Extends the object to infinity in one direction. The radius in the extended direction becomes equal to the radius in the opposite direction. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="92" column="33"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1a3fbdf03d9ba7e87339fb77edbc8699d9" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">ConeSegment</ref></type>
-        <definition>MRMESH_API ConeSegment MR::Features::Primitives::ConeSegment::extendToInfinity</definition>
-        <argsstring>() const</argsstring>
-        <name>extendToInfinity</name>
-        <qualifiedname>MR::Features::Primitives::ConeSegment::extendToInfinity</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Extends the object to infinity in both directions. This is equivalent to <computeroutput>.extendToInfinity(false).extendToInfinity(true)</computeroutput>, except that calling it with <computeroutput>positiveSideRadius != negativeSideRadius</computeroutput> is illegal and triggers an assertion. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="95" column="33"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1a52d74c8c1581a73964681c4273172f52" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">ConeSegment</ref></type>
-        <definition>MRMESH_API ConeSegment MR::Features::Primitives::ConeSegment::untruncateCone</definition>
-        <argsstring>() const</argsstring>
-        <name>untruncateCone</name>
-        <qualifiedname>MR::Features::Primitives::ConeSegment::untruncateCone</qualifiedname>
-        <briefdescription>
-<para>Untruncates a truncated cone. If it&apos;s not a cone at all, returns the object unchanged and triggers an assertion. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="98" column="33"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1ac00c1b10d86e8726d41cd48ce17c9ebf" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">ConeSegment</ref></type>
-        <definition>MRMESH_API ConeSegment MR::Features::Primitives::ConeSegment::axis</definition>
-        <argsstring>() const</argsstring>
-        <name>axis</name>
-        <qualifiedname>MR::Features::Primitives::ConeSegment::axis</qualifiedname>
-        <briefdescription>
-<para>Returns a finite axis. For circles, you might want to immediately <computeroutput><ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1aeda0b75106e0df9b044fe33c1adb7044" kindref="member">extendToInfinity()</ref></computeroutput> it. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="101" column="33"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1a31365626f0397b521d1712b59fb2a466" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="namespaceMR_1_1Features_1_1Primitives_1a37df2f34cbcd3fec213859b3ca57d3b6" kindref="member">Sphere</ref></type>
-        <definition>MRMESH_API Sphere MR::Features::Primitives::ConeSegment::basePoint</definition>
-        <argsstring>(bool negative) const</argsstring>
-        <name>basePoint</name>
-        <qualifiedname>MR::Features::Primitives::ConeSegment::basePoint</qualifiedname>
-        <param>
-          <type>bool</type>
-          <declname>negative</declname>
-        </param>
-        <briefdescription>
-<para>Returns a center of one of the two base circles. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="104" column="28"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1aadc4bfd4025c567372583450899716ae" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="structMR_1_1Features_1_1Primitives_1_1Plane" kindref="compound">Plane</ref></type>
-        <definition>MRMESH_API Plane MR::Features::Primitives::ConeSegment::basePlane</definition>
-        <argsstring>(bool negative) const</argsstring>
-        <name>basePlane</name>
-        <qualifiedname>MR::Features::Primitives::ConeSegment::basePlane</qualifiedname>
-        <param>
-          <type>bool</type>
-          <declname>negative</declname>
-        </param>
-        <briefdescription>
-<para>Returns one of the two base planes. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="106" column="27"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1a4148dbcf1b8080fed62d67986a18dee1" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">ConeSegment</ref></type>
-        <definition>MRMESH_API ConeSegment MR::Features::Primitives::ConeSegment::baseCircle</definition>
-        <argsstring>(bool negative) const</argsstring>
-        <name>baseCircle</name>
-        <qualifiedname>MR::Features::Primitives::ConeSegment::baseCircle</qualifiedname>
-        <param>
-          <type>bool</type>
-          <declname>negative</declname>
-        </param>
-        <briefdescription>
-<para>Returns one of the two base circles. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="108" column="33"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gad0e22f8a9ddce47d6aab63cfe35ab6bd" kind="function"><name>isZeroRadius</name></member>
+      <member refid="group__GeneralGroup_1gafa5b6dc1d9e1f98cbec052e8d506d20a" kind="function"><name>isCircle</name></member>
+      <member refid="group__GeneralGroup_1ga246d93a7bb2aaa83191d515884303ecb" kind="function"><name>length</name></member>
+      <member refid="group__GeneralGroup_1ga9f96764db5c4750b318539f5c7ccf9b3" kind="function"><name>centerPoint</name></member>
+      <member refid="group__GeneralGroup_1gaeda0b75106e0df9b044fe33c1adb7044" kind="function"><name>extendToInfinity</name></member>
+      <member refid="group__GeneralGroup_1ga3fbdf03d9ba7e87339fb77edbc8699d9" kind="function"><name>extendToInfinity</name></member>
+      <member refid="group__GeneralGroup_1ga52d74c8c1581a73964681c4273172f52" kind="function"><name>untruncateCone</name></member>
+      <member refid="group__GeneralGroup_1gac00c1b10d86e8726d41cd48ce17c9ebf" kind="function"><name>axis</name></member>
+      <member refid="group__GeneralGroup_1ga31365626f0397b521d1712b59fb2a466" kind="function"><name>basePoint</name></member>
+      <member refid="group__GeneralGroup_1gaadc4bfd4025c567372583450899716ae" kind="function"><name>basePlane</name></member>
+      <member refid="group__GeneralGroup_1ga4148dbcf1b8080fed62d67986a18dee1" kind="function"><name>baseCircle</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
 <para>Can have infinite length in one or two directions. The top and/or bottom can be flat or pointy. Doubles as a cylinder, line (finite or infinite), and a circle. </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="53" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" bodystart="54" bodyend="109"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="56" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" bodystart="57" bodyend="112"/>
     <listofallmembers>
-      <member refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1ac00c1b10d86e8726d41cd48ce17c9ebf" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>axis</name></member>
-      <member refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1a4148dbcf1b8080fed62d67986a18dee1" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>baseCircle</name></member>
-      <member refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1aadc4bfd4025c567372583450899716ae" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>basePlane</name></member>
-      <member refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1a31365626f0397b521d1712b59fb2a466" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>basePoint</name></member>
-      <member refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1a9f96764db5c4750b318539f5c7ccf9b3" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>centerPoint</name></member>
-      <member refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1a9f603438a2e12d81289b9696c05cdcd4" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>dir</name></member>
-      <member refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1aeda0b75106e0df9b044fe33c1adb7044" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>extendToInfinity</name></member>
-      <member refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1a3fbdf03d9ba7e87339fb77edbc8699d9" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>extendToInfinity</name></member>
-      <member refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1aed7a509cc23a908a6cf803007694eabf" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>hollow</name></member>
-      <member refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1afa5b6dc1d9e1f98cbec052e8d506d20a" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>isCircle</name></member>
-      <member refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1ad0e22f8a9ddce47d6aab63cfe35ab6bd" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>isZeroRadius</name></member>
-      <member refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1a246d93a7bb2aaa83191d515884303ecb" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>length</name></member>
-      <member refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1aa12508a43caab5ab1a44e29db684592d" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>negativeLength</name></member>
-      <member refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1abf9a80b6307631742a88be4930217ef9" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>negativeSideRadius</name></member>
-      <member refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1a0a599e730d0a62e6972fecbb9a4e13b1" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>operator==</name></member>
-      <member refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1ac1751a2024b0d6daec6aedd03c36ba2c" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>positiveLength</name></member>
-      <member refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1a6d82dd73c4e7a2c5455773425fb17871" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>positiveSideRadius</name></member>
-      <member refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1a40eff23fbea04d4a72390fda48c04bfd" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>referencePoint</name></member>
-      <member refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment_1a52d74c8c1581a73964681c4273172f52" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>untruncateCone</name></member>
+      <member refid="group__GeneralGroup_1gac00c1b10d86e8726d41cd48ce17c9ebf" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>axis</name></member>
+      <member refid="group__GeneralGroup_1ga4148dbcf1b8080fed62d67986a18dee1" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>baseCircle</name></member>
+      <member refid="group__GeneralGroup_1gaadc4bfd4025c567372583450899716ae" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>basePlane</name></member>
+      <member refid="group__GeneralGroup_1ga31365626f0397b521d1712b59fb2a466" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>basePoint</name></member>
+      <member refid="group__GeneralGroup_1ga9f96764db5c4750b318539f5c7ccf9b3" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>centerPoint</name></member>
+      <member refid="group__GeneralGroup_1ga9f603438a2e12d81289b9696c05cdcd4" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>dir</name></member>
+      <member refid="group__GeneralGroup_1gaeda0b75106e0df9b044fe33c1adb7044" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>extendToInfinity</name></member>
+      <member refid="group__GeneralGroup_1ga3fbdf03d9ba7e87339fb77edbc8699d9" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>extendToInfinity</name></member>
+      <member refid="group__GeneralGroup_1gaed7a509cc23a908a6cf803007694eabf" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>hollow</name></member>
+      <member refid="group__GeneralGroup_1gafa5b6dc1d9e1f98cbec052e8d506d20a" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>isCircle</name></member>
+      <member refid="group__GeneralGroup_1gad0e22f8a9ddce47d6aab63cfe35ab6bd" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>isZeroRadius</name></member>
+      <member refid="group__GeneralGroup_1ga246d93a7bb2aaa83191d515884303ecb" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>length</name></member>
+      <member refid="group__GeneralGroup_1gaa12508a43caab5ab1a44e29db684592d" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>negativeLength</name></member>
+      <member refid="group__GeneralGroup_1gabf9a80b6307631742a88be4930217ef9" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>negativeSideRadius</name></member>
+      <member refid="group__GeneralGroup_1ga0a599e730d0a62e6972fecbb9a4e13b1" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1gac1751a2024b0d6daec6aedd03c36ba2c" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>positiveLength</name></member>
+      <member refid="group__GeneralGroup_1ga6d82dd73c4e7a2c5455773425fb17871" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>positiveSideRadius</name></member>
+      <member refid="group__GeneralGroup_1ga40eff23fbea04d4a72390fda48c04bfd" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>referencePoint</name></member>
+      <member refid="group__GeneralGroup_1ga52d74c8c1581a73964681c4273172f52" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>untruncateCone</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

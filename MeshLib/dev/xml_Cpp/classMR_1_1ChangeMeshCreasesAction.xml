@@ -121,7 +121,7 @@
         <argsstring>() const override</argsstring>
         <name>name</name>
         <qualifiedname>MR::ChangeMeshCreasesAction::name</qualifiedname>
-        <reimplements refid="classMR_1_1HistoryAction_1a9daa0b79de161f676f6283e3804dc8ce">name</reimplements>
+        <reimplements refid="group__GeneralGroup_1ga9daa0b79de161f676f6283e3804dc8ce">name</reimplements>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -136,9 +136,9 @@
         <argsstring>(Type) override</argsstring>
         <name>action</name>
         <qualifiedname>MR::ChangeMeshCreasesAction::action</qualifiedname>
-        <reimplements refid="classMR_1_1HistoryAction_1aecfce349736beaf17a23a6817c86f3bb">action</reimplements>
+        <reimplements refid="group__GeneralGroup_1gaecfce349736beaf17a23a6817c86f3bb">action</reimplements>
         <param>
-          <type><ref refid="classMR_1_1HistoryAction_1ac16eb31dd26d35cfc18bac8a05983aa7" kindref="member">Type</ref></type>
+          <type><ref refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" kindref="member">Type</ref></type>
           <declname>actionType</declname>
         </param>
         <briefdescription>
@@ -170,7 +170,7 @@
         <argsstring>() const override</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR::ChangeMeshCreasesAction::heapBytes</qualifiedname>
-        <reimplements refid="classMR_1_1HistoryAction_1ad6df54da6a63ed83f15053507e8569de">heapBytes</reimplements>
+        <reimplements refid="group__GeneralGroup_1gad6df54da6a63ed83f15053507e8569de">heapBytes</reimplements>
         <briefdescription>
 <para>returns the amount of memory this object occupies on heap </para>
         </briefdescription>
@@ -243,8 +243,8 @@
       <member refid="classMR_1_1ChangeMeshCreasesAction_1a222e4ff1e014646782819abea4d1a92d" prot="public" virt="non-virtual"><scope>MR::ChangeMeshCreasesAction</scope><name>Obj</name></member>
       <member refid="classMR_1_1ChangeMeshCreasesAction_1a353eb90efe211c1584f8a73a2ac9f1f2" prot="private" virt="non-virtual"><scope>MR::ChangeMeshCreasesAction</scope><name>objMesh_</name></member>
       <member refid="classMR_1_1ChangeMeshCreasesAction_1a390792ebff92b569bf6c0536a2ac8436" prot="public" virt="non-virtual"><scope>MR::ChangeMeshCreasesAction</scope><name>setObjectDirty</name></member>
-      <member refid="classMR_1_1HistoryAction_1ac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::ChangeMeshCreasesAction</scope><name>Type</name></member>
-      <member refid="classMR_1_1HistoryAction_1a97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::ChangeMeshCreasesAction</scope><name>~HistoryAction</name></member>
+      <member refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::ChangeMeshCreasesAction</scope><name>Type</name></member>
+      <member refid="group__GeneralGroup_1ga97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::ChangeMeshCreasesAction</scope><name>~HistoryAction</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

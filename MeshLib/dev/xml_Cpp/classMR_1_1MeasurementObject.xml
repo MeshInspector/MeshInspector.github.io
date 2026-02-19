@@ -9,20 +9,7 @@
     <derivedcompoundref refid="classMR_1_1RadiusMeasurementObject" prot="public" virt="non-virtual">MR::RadiusMeasurementObject</derivedcompoundref>
     <includes refid="MRMeasurementObject_8h" local="no">MRMeasurementObject.h</includes>
     <sectiondef kind="protected-func">
-      <memberdef kind="function" id="classMR_1_1MeasurementObject_1abfa882fd0a9244f24422e3f34dd6a35a" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
-        <definition>MRMESH_API MR::MeasurementObject::MeasurementObject</definition>
-        <argsstring>()</argsstring>
-        <name>MeasurementObject</name>
-        <qualifiedname>MR::MeasurementObject::MeasurementObject</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeasurementObject.h" line="13" column="16"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gabfa882fd0a9244f24422e3f34dd6a35a" kind="function"><name>MeasurementObject</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -165,7 +152,7 @@
         <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeasurementObject.h" line="10" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeasurementObject.h" bodystart="11" bodyend="14"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeasurementObject.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeasurementObject.h" bodystart="14" bodyend="17"/>
     <listofallmembers>
       <member refid="classMR_1_1Object_1aa6cdc407999b7e829fd23b242cb6346d" prot="public" virt="virtual"><scope>MR::MeasurementObject</scope><name>addChild</name></member>
       <member refid="classMR_1_1Object_1a8eeb1cb21b22db97f20eac75b897f7ae" prot="public" virt="virtual"><scope>MR::MeasurementObject</scope><name>addChildBefore</name></member>
@@ -244,7 +231,7 @@
       <member refid="classMR_1_1Object_1a3f649834561a9f246e1d840a0f3080c8" prot="public" virt="virtual"><scope>MR::MeasurementObject</scope><name>isSelected</name></member>
       <member refid="classMR_1_1Object_1a98c9e0d07b736d2b86c4d3d340b77844" prot="public" virt="non-virtual"><scope>MR::MeasurementObject</scope><name>isVisible</name></member>
       <member refid="classMR_1_1Object_1a958714fb7d616e608cb16223e052052b" prot="protected" virt="non-virtual"><scope>MR::MeasurementObject</scope><name>locked_</name></member>
-      <member refid="classMR_1_1MeasurementObject_1abfa882fd0a9244f24422e3f34dd6a35a" prot="protected" virt="non-virtual"><scope>MR::MeasurementObject</scope><name>MeasurementObject</name></member>
+      <member refid="group__GeneralGroup_1gabfa882fd0a9244f24422e3f34dd6a35a" prot="protected" virt="non-virtual"><scope>MR::MeasurementObject</scope><name>MeasurementObject</name></member>
       <member refid="classMR_1_1Object_1ae813e1ae9ad5cbb71ca45adbdd811679" prot="public" virt="non-virtual"><scope>MR::MeasurementObject</scope><name>name</name></member>
       <member refid="classMR_1_1Object_1a3d6d27065a13a0a262df4b74ff82e538" prot="protected" virt="non-virtual"><scope>MR::MeasurementObject</scope><name>name_</name></member>
       <member refid="classMR_1_1Object_1a92a390dc7570098981912529e341433d" prot="protected" virt="non-virtual"><scope>MR::MeasurementObject</scope><name>needRedraw_</name></member>

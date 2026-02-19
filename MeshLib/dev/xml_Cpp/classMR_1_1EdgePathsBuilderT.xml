@@ -11,368 +11,58 @@
       </param>
     </templateparamlist>
     <sectiondef kind="user-defined">
-      <memberdef kind="function" id="classMR_1_1EdgePathsBuilderT_1aa58748ee3e1ceb34e2ff8b8d2ab58d6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::EdgePathsBuilderT&lt; MetricToPenalty &gt;::EdgePathsBuilderT</definition>
-        <argsstring>(const MeshTopology &amp;topology, const EdgeMetric &amp;metric)</argsstring>
-        <name>EdgePathsBuilderT</name>
-        <qualifiedname>MR::EdgePathsBuilderT::EdgePathsBuilderT</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref> &amp;</type>
-          <declname>topology</declname>
-        </param>
-        <param>
-          <type>const <ref refid="namespaceMR_1a89c45ed75d3ee7e49964d4afe5a64651" kindref="member">EdgeMetric</ref> &amp;</type>
-          <declname>metric</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" line="37" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" bodystart="132" bodyend="136"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1EdgePathsBuilderT_1a5d9175cad8bf58c494f9f65aafff8cde" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::EdgePathsBuilderT&lt; MetricToPenalty &gt;::EdgePathsBuilderT</definition>
-        <argsstring>(const MeshTopology &amp;topology)</argsstring>
-        <name>EdgePathsBuilderT</name>
-        <qualifiedname>MR::EdgePathsBuilderT::EdgePathsBuilderT</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref> &amp;</type>
-          <declname>topology</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" line="39" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" bodystart="139" bodyend="142"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1EdgePathsBuilderT_1a8b233d3b70904335296fbd82fcbc693f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::EdgePathsBuilderT&lt; MetricToPenalty &gt;::reset</definition>
-        <argsstring>(const EdgeMetric &amp;metric)</argsstring>
-        <name>reset</name>
-        <qualifiedname>MR::EdgePathsBuilderT::reset</qualifiedname>
-        <param>
-          <type>const <ref refid="namespaceMR_1a89c45ed75d3ee7e49964d4afe5a64651" kindref="member">EdgeMetric</ref> &amp;</type>
-          <declname>metric</declname>
-        </param>
-        <briefdescription>
-<para>clears everything without freeing memory, and sets new metric </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" line="42" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" bodystart="145" bodyend="151"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1EdgePathsBuilderT_1a424ce31cf3ac73240ffd491872efa6fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::EdgePathsBuilderT&lt; MetricToPenalty &gt;::addStart</definition>
-        <argsstring>(VertId startVert, float startMetric)</argsstring>
-        <name>addStart</name>
-        <qualifiedname>MR::EdgePathsBuilderT::addStart</qualifiedname>
-        <param>
-          <type>VertId</type>
-          <declname>startVert</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>startMetric</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>compares proposed metric with best value known for startVert; if proposed metric is smaller then adds it in the queue and returns true </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" line="46" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" bodystart="154" bodyend="164"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1EdgePathsBuilderT_1a42cf862c1663fc45765278e3617948ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="structMR_1_1EdgePathsBuilderT_1_1ReachedVert" kindref="compound">ReachedVert</ref></type>
-        <definition>auto MR::EdgePathsBuilderT&lt; MetricToPenalty &gt;::reachNext</definition>
-        <argsstring>()</argsstring>
-        <name>reachNext</name>
-        <qualifiedname>MR::EdgePathsBuilderT::reachNext</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>include one more vertex in the final forest, returning vertex-info for the newly reached vertex; returns invalid VertId in v-field if no more vertices left </para>
-        </detaileddescription>
-        <inbodydescription>
-<para>shorter path to the vertex was found</para>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" line="66" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" bodystart="240" bodyend="256"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1EdgePathsBuilderT_1a7567736873ea92c6a2359d13bdf9ff52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::EdgePathsBuilderT&lt; MetricToPenalty &gt;::addOrgRingSteps</definition>
-        <argsstring>(const ReachedVert &amp;rv)</argsstring>
-        <name>addOrgRingSteps</name>
-        <qualifiedname>MR::EdgePathsBuilderT::addOrgRingSteps</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1EdgePathsBuilderT_1_1ReachedVert" kindref="compound">ReachedVert</ref> &amp;</type>
-          <declname>rv</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>adds steps for all origin ring edges of the reached vertex; returns true if at least one step was added </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" line="70" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" bodystart="219" bodyend="237"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1EdgePathsBuilderT_1a245a1aca92a23d5b494706916ea2554e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="structMR_1_1EdgePathsBuilderT_1_1ReachedVert" kindref="compound">ReachedVert</ref></type>
-        <definition>auto MR::EdgePathsBuilderT&lt; MetricToPenalty &gt;::growOneEdge</definition>
-        <argsstring>()</argsstring>
-        <name>growOneEdge</name>
-        <qualifiedname>MR::EdgePathsBuilderT::growOneEdge</qualifiedname>
-        <briefdescription>
-<para>the same as <ref refid="classMR_1_1EdgePathsBuilderT_1a42cf862c1663fc45765278e3617948ab" kindref="member">reachNext()</ref> + <ref refid="classMR_1_1EdgePathsBuilderT_1a7567736873ea92c6a2359d13bdf9ff52" kindref="member">addOrgRingSteps()</ref> </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" line="73" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" bodystart="259" bodyend="264"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1EdgePathsBuilderT_1ae50a59bc1425eff2906ad0c18accbabc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>const <ref refid="structMR_1_1VertPathInfo" kindref="compound">VertPathInfo</ref> *</type>
-        <definition>const VertPathInfo * MR::EdgePathsBuilderT&lt; MetricToPenalty &gt;::getVertInfo</definition>
-        <argsstring>(VertId v) const</argsstring>
-        <name>getVertInfo</name>
-        <qualifiedname>MR::EdgePathsBuilderT::getVertInfo</qualifiedname>
-        <param>
-          <type>VertId</type>
-          <declname>v</declname>
-        </param>
-        <briefdescription>
-<para>returns one element from the map (or nullptr if the element is missing) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" line="86" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" bodystart="167" bodyend="171"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1EdgePathsBuilderT_1aa5a3f3206ed7ec78c89eef5860137181" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="namespaceMR_1a9f6c1e614e45e332d4cecfc5e77bc07e" kindref="member">EdgePath</ref></type>
-        <definition>EdgePath MR::EdgePathsBuilderT&lt; MetricToPenalty &gt;::getPathBack</definition>
-        <argsstring>(VertId backpathStart) const</argsstring>
-        <name>getPathBack</name>
-        <qualifiedname>MR::EdgePathsBuilderT::getPathBack</qualifiedname>
-        <param>
-          <type>VertId</type>
-          <declname>backpathStart</declname>
-        </param>
-        <briefdescription>
-<para>returns the path in the forest from given vertex to one of start vertices </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" line="89" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" bodystart="174" bodyend="179"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1EdgePathsBuilderT_1a91060ff48000e2ddc2037bedefc72197" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>VertId</type>
-        <definition>VertId MR::EdgePathsBuilderT&lt; MetricToPenalty &gt;::trackPathBack</definition>
-        <argsstring>(VertId backpathStart, EdgePath *res=nullptr) const</argsstring>
-        <name>trackPathBack</name>
-        <qualifiedname>MR::EdgePathsBuilderT::trackPathBack</qualifiedname>
-        <param>
-          <type>VertId</type>
-          <declname>backpathStart</declname>
-        </param>
-        <param>
-          <type><ref refid="namespaceMR_1a9f6c1e614e45e332d4cecfc5e77bc07e" kindref="member">EdgePath</ref> *</type>
-          <declname>res</declname>
-          <defval>nullptr</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>tracks back path in the forest from the given vertex to one of start vertices, which is returned; optionally appends tracked path (res) </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" line="93" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" bodystart="182" bodyend="200"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1EdgePathsBuilderT_1a06a2df9bc73ccff1cc28c1d322505754" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::EdgePathsBuilderT&lt; MetricToPenalty &gt;::addNextStep_</definition>
-        <argsstring>(const VertPathInfo &amp;c)</argsstring>
-        <name>addNextStep_</name>
-        <qualifiedname>MR::EdgePathsBuilderT::addNextStep_</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1VertPathInfo" kindref="compound">VertPathInfo</ref> &amp;</type>
-          <declname>c</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>compares proposed step with the value known for org( c.back ); if proposed step is smaller then adds it in the queue and returns true; otherwise if the known metric to org( c.back ) is already not greater than returns false </para>
-        </detaileddescription>
-        <inbodydescription>
-<para>maximal or infinity metric means that this path shall be skipped</para>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" line="120" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" bodystart="203" bodyend="216"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaa58748ee3e1ceb34e2ff8b8d2ab58d6b" kind="function"><name>EdgePathsBuilderT</name></member>
+      <member refid="group__GeneralGroup_1ga5d9175cad8bf58c494f9f65aafff8cde" kind="function"><name>EdgePathsBuilderT</name></member>
+      <member refid="group__GeneralGroup_1ga8b233d3b70904335296fbd82fcbc693f" kind="function"><name>reset</name></member>
+      <member refid="group__GeneralGroup_1ga424ce31cf3ac73240ffd491872efa6fb" kind="function"><name>addStart</name></member>
+      <member refid="group__GeneralGroup_1ga42cf862c1663fc45765278e3617948ab" kind="function"><name>reachNext</name></member>
+      <member refid="group__GeneralGroup_1ga7567736873ea92c6a2359d13bdf9ff52" kind="function"><name>addOrgRingSteps</name></member>
+      <member refid="group__GeneralGroup_1ga245a1aca92a23d5b494706916ea2554e" kind="function"><name>growOneEdge</name></member>
+      <member refid="group__GeneralGroup_1gae50a59bc1425eff2906ad0c18accbabc" kind="function"><name>getVertInfo</name></member>
+      <member refid="group__GeneralGroup_1gaa5a3f3206ed7ec78c89eef5860137181" kind="function"><name>getPathBack</name></member>
+      <member refid="group__GeneralGroup_1ga91060ff48000e2ddc2037bedefc72197" kind="function"><name>trackPathBack</name></member>
+      <member refid="group__GeneralGroup_1ga06a2df9bc73ccff1cc28c1d322505754" kind="function"><name>addNextStep_</name></member>
     </sectiondef>
     <sectiondef kind="protected-attrib">
-      <memberdef kind="variable" id="classMR_1_1EdgePathsBuilderT_1a8bee648da3c920541672f288460c659c" prot="protected" static="no" mutable="no">
-        <type><ref refid="MRMacros_8h_1adc8a2290a0ad34bf18acb8498b4bb91a" kindref="member">MR_NO_UNIQUE_ADDRESS</ref> MetricToPenalty</type>
-        <definition>MR_NO_UNIQUE_ADDRESS MetricToPenalty MR::EdgePathsBuilderT&lt; MetricToPenalty &gt;::metricToPenalty_</definition>
-        <argsstring></argsstring>
-        <name>metricToPenalty_</name>
-        <qualifiedname>MR::EdgePathsBuilderT::metricToPenalty_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" line="96" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" bodystart="96" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga8bee648da3c920541672f288460c659c" kind="variable"><name>metricToPenalty_</name></member>
     </sectiondef>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1EdgePathsBuilderT_1aa7d33bc3e30f4518ca9293438fd9be3c" prot="private" static="no" mutable="no">
-        <type>const <ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref> &amp;</type>
-        <definition>const MeshTopology&amp; MR::EdgePathsBuilderT&lt; MetricToPenalty &gt;::topology_</definition>
-        <argsstring></argsstring>
-        <name>topology_</name>
-        <qualifiedname>MR::EdgePathsBuilderT::topology_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" line="99" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" bodystart="99" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1EdgePathsBuilderT_1abdf129760fef09be234459722d95abc0" prot="private" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1a89c45ed75d3ee7e49964d4afe5a64651" kindref="member">EdgeMetric</ref></type>
-        <definition>EdgeMetric MR::EdgePathsBuilderT&lt; MetricToPenalty &gt;::metric_</definition>
-        <argsstring></argsstring>
-        <name>metric_</name>
-        <qualifiedname>MR::EdgePathsBuilderT::metric_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" line="100" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" bodystart="100" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1EdgePathsBuilderT_1a6aa50aa58699be9a18825c46e0df1e16" prot="private" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1a8ef9d4ab57452b5bea4b72a90f4fc165" kindref="member">VertPathInfoMap</ref></type>
-        <definition>VertPathInfoMap MR::EdgePathsBuilderT&lt; MetricToPenalty &gt;::vertPathInfoMap_</definition>
-        <argsstring></argsstring>
-        <name>vertPathInfoMap_</name>
-        <qualifiedname>MR::EdgePathsBuilderT::vertPathInfoMap_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" line="101" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" bodystart="101" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1EdgePathsBuilderT_1a02bfffff2751cbd5ad9dfe92f6d7fffa" prot="private" static="no" mutable="no">
-        <type>std::priority_queue&lt; CandidateVert &gt;</type>
-        <definition>std::priority_queue&lt;CandidateVert&gt; MR::EdgePathsBuilderT&lt; MetricToPenalty &gt;::nextSteps_</definition>
-        <argsstring></argsstring>
-        <name>nextSteps_</name>
-        <qualifiedname>MR::EdgePathsBuilderT::nextSteps_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" line="115" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" bodystart="115" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaa7d33bc3e30f4518ca9293438fd9be3c" kind="variable"><name>topology_</name></member>
+      <member refid="group__GeneralGroup_1gabdf129760fef09be234459722d95abc0" kind="variable"><name>metric_</name></member>
+      <member refid="group__GeneralGroup_1ga6aa50aa58699be9a18825c46e0df1e16" kind="variable"><name>vertPathInfoMap_</name></member>
+      <member refid="group__GeneralGroup_1ga02bfffff2751cbd5ad9dfe92f6d7fffa" kind="variable"><name>nextSteps_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1EdgePathsBuilderT_1a336db542a3c1e1aafb7a7e132ee4a508" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::EdgePathsBuilderT&lt; MetricToPenalty &gt;::done</definition>
-        <argsstring>() const</argsstring>
-        <name>done</name>
-        <qualifiedname>MR::EdgePathsBuilderT::done</qualifiedname>
-        <briefdescription>
-<para>returns true if further edge forest growth is impossible </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" line="77" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" bodystart="77" bodyend="77"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1EdgePathsBuilderT_1a6121aae22b66ff8e123f4f1d2d21528d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>float</type>
-        <definition>float MR::EdgePathsBuilderT&lt; MetricToPenalty &gt;::doneDistance</definition>
-        <argsstring>() const</argsstring>
-        <name>doneDistance</name>
-        <qualifiedname>MR::EdgePathsBuilderT::doneDistance</qualifiedname>
-        <briefdescription>
-<para>returns path length till the next candidate vertex or maximum float value if all vertices have been reached </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" line="80" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" bodystart="80" bodyend="80"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1EdgePathsBuilderT_1ad30700907c0223d6668cc9e5910765c3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const <ref refid="namespaceMR_1a8ef9d4ab57452b5bea4b72a90f4fc165" kindref="member">VertPathInfoMap</ref> &amp;</type>
-        <definition>const VertPathInfoMap &amp; MR::EdgePathsBuilderT&lt; MetricToPenalty &gt;::vertPathInfoMap</definition>
-        <argsstring>() const</argsstring>
-        <name>vertPathInfoMap</name>
-        <qualifiedname>MR::EdgePathsBuilderT::vertPathInfoMap</qualifiedname>
-        <briefdescription>
-<para>gives read access to the map from vertex to path to it </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" line="83" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" bodystart="83" bodyend="83"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga336db542a3c1e1aafb7a7e132ee4a508" kind="function"><name>done</name></member>
+      <member refid="group__GeneralGroup_1ga6121aae22b66ff8e123f4f1d2d21528d" kind="function"><name>doneDistance</name></member>
+      <member refid="group__GeneralGroup_1gad30700907c0223d6668cc9e5910765c3" kind="function"><name>vertPathInfoMap</name></member>
     </sectiondef>
     <briefdescription>
 <para>the class is responsible for finding smallest metric edge paths on a mesh </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" line="34" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" bodystart="35" bodyend="121"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" line="37" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" bodystart="38" bodyend="124"/>
     <listofallmembers>
-      <member refid="classMR_1_1EdgePathsBuilderT_1a06a2df9bc73ccff1cc28c1d322505754" prot="private" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>addNextStep_</name></member>
-      <member refid="classMR_1_1EdgePathsBuilderT_1a7567736873ea92c6a2359d13bdf9ff52" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>addOrgRingSteps</name></member>
-      <member refid="classMR_1_1EdgePathsBuilderT_1a424ce31cf3ac73240ffd491872efa6fb" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>addStart</name></member>
-      <member refid="classMR_1_1EdgePathsBuilderT_1a336db542a3c1e1aafb7a7e132ee4a508" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>done</name></member>
-      <member refid="classMR_1_1EdgePathsBuilderT_1a6121aae22b66ff8e123f4f1d2d21528d" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>doneDistance</name></member>
-      <member refid="classMR_1_1EdgePathsBuilderT_1aa58748ee3e1ceb34e2ff8b8d2ab58d6b" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>EdgePathsBuilderT</name></member>
-      <member refid="classMR_1_1EdgePathsBuilderT_1a5d9175cad8bf58c494f9f65aafff8cde" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>EdgePathsBuilderT</name></member>
-      <member refid="classMR_1_1EdgePathsBuilderT_1aa5a3f3206ed7ec78c89eef5860137181" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>getPathBack</name></member>
-      <member refid="classMR_1_1EdgePathsBuilderT_1ae50a59bc1425eff2906ad0c18accbabc" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>getVertInfo</name></member>
-      <member refid="classMR_1_1EdgePathsBuilderT_1a245a1aca92a23d5b494706916ea2554e" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>growOneEdge</name></member>
-      <member refid="classMR_1_1EdgePathsBuilderT_1abdf129760fef09be234459722d95abc0" prot="private" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>metric_</name></member>
-      <member refid="classMR_1_1EdgePathsBuilderT_1a8bee648da3c920541672f288460c659c" prot="protected" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>metricToPenalty_</name></member>
-      <member refid="classMR_1_1EdgePathsBuilderT_1a02bfffff2751cbd5ad9dfe92f6d7fffa" prot="private" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>nextSteps_</name></member>
-      <member refid="classMR_1_1EdgePathsBuilderT_1a42cf862c1663fc45765278e3617948ab" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>reachNext</name></member>
-      <member refid="classMR_1_1EdgePathsBuilderT_1a8b233d3b70904335296fbd82fcbc693f" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>reset</name></member>
-      <member refid="classMR_1_1EdgePathsBuilderT_1aa7d33bc3e30f4518ca9293438fd9be3c" prot="private" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>topology_</name></member>
-      <member refid="classMR_1_1EdgePathsBuilderT_1a91060ff48000e2ddc2037bedefc72197" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>trackPathBack</name></member>
-      <member refid="classMR_1_1EdgePathsBuilderT_1ad30700907c0223d6668cc9e5910765c3" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>vertPathInfoMap</name></member>
-      <member refid="classMR_1_1EdgePathsBuilderT_1a6aa50aa58699be9a18825c46e0df1e16" prot="private" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>vertPathInfoMap_</name></member>
+      <member refid="group__GeneralGroup_1ga06a2df9bc73ccff1cc28c1d322505754" prot="private" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>addNextStep_</name></member>
+      <member refid="group__GeneralGroup_1ga7567736873ea92c6a2359d13bdf9ff52" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>addOrgRingSteps</name></member>
+      <member refid="group__GeneralGroup_1ga424ce31cf3ac73240ffd491872efa6fb" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>addStart</name></member>
+      <member refid="group__GeneralGroup_1ga336db542a3c1e1aafb7a7e132ee4a508" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>done</name></member>
+      <member refid="group__GeneralGroup_1ga6121aae22b66ff8e123f4f1d2d21528d" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>doneDistance</name></member>
+      <member refid="group__GeneralGroup_1gaa58748ee3e1ceb34e2ff8b8d2ab58d6b" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>EdgePathsBuilderT</name></member>
+      <member refid="group__GeneralGroup_1ga5d9175cad8bf58c494f9f65aafff8cde" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>EdgePathsBuilderT</name></member>
+      <member refid="group__GeneralGroup_1gaa5a3f3206ed7ec78c89eef5860137181" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>getPathBack</name></member>
+      <member refid="group__GeneralGroup_1gae50a59bc1425eff2906ad0c18accbabc" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>getVertInfo</name></member>
+      <member refid="group__GeneralGroup_1ga245a1aca92a23d5b494706916ea2554e" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>growOneEdge</name></member>
+      <member refid="group__GeneralGroup_1gabdf129760fef09be234459722d95abc0" prot="private" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>metric_</name></member>
+      <member refid="group__GeneralGroup_1ga8bee648da3c920541672f288460c659c" prot="protected" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>metricToPenalty_</name></member>
+      <member refid="group__GeneralGroup_1ga02bfffff2751cbd5ad9dfe92f6d7fffa" prot="private" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>nextSteps_</name></member>
+      <member refid="group__GeneralGroup_1ga42cf862c1663fc45765278e3617948ab" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>reachNext</name></member>
+      <member refid="group__GeneralGroup_1ga8b233d3b70904335296fbd82fcbc693f" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>reset</name></member>
+      <member refid="group__GeneralGroup_1gaa7d33bc3e30f4518ca9293438fd9be3c" prot="private" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>topology_</name></member>
+      <member refid="group__GeneralGroup_1ga91060ff48000e2ddc2037bedefc72197" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>trackPathBack</name></member>
+      <member refid="group__GeneralGroup_1gad30700907c0223d6668cc9e5910765c3" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>vertPathInfoMap</name></member>
+      <member refid="group__GeneralGroup_1ga6aa50aa58699be9a18825c46e0df1e16" prot="private" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>vertPathInfoMap_</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

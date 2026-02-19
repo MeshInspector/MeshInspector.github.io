@@ -5,102 +5,18 @@
     <includes refid="MRObjectTagEventDispatcher_8h" local="no">MRObjectTagEventDispatcher.h</includes>
     <innerclass refid="structMR_1_1ObjectTagEventDispatcher_1_1ProtectedTag" prot="private">MR::ObjectTagEventDispatcher::ProtectedTag</innerclass>
     <sectiondef kind="public-type">
-      <memberdef kind="typedef" id="classMR_1_1ObjectTagEventDispatcher_1a33324ded1eb6bd24558e279fc84ce438" prot="public" static="no">
-        <type><ref refid="structMR_1_1Signal" kindref="compound">Signal</ref>&lt; void(<ref refid="classMR_1_1Object" kindref="compound">Object</ref> *obj, const std::string &amp;tag)&gt;</type>
-        <definition>using MR::ObjectTagEventDispatcher::TagAddedSignal =  Signal&lt;void ( Object* obj, const std::string&amp; tag )&gt;</definition>
-        <argsstring></argsstring>
-        <name>TagAddedSignal</name>
-        <qualifiedname>MR::ObjectTagEventDispatcher::TagAddedSignal</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectTagEventDispatcher.h" line="16" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectTagEventDispatcher.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1ObjectTagEventDispatcher_1ab42ea0ba5cd7a8edf1877755cab31ddc" prot="public" static="no">
-        <type><ref refid="structMR_1_1Signal" kindref="compound">Signal</ref>&lt; void(<ref refid="classMR_1_1Object" kindref="compound">Object</ref> *obj, const std::string &amp;tag)&gt;</type>
-        <definition>using MR::ObjectTagEventDispatcher::TagRemovedSignal =  Signal&lt;void ( Object* obj, const std::string&amp; tag )&gt;</definition>
-        <argsstring></argsstring>
-        <name>TagRemovedSignal</name>
-        <qualifiedname>MR::ObjectTagEventDispatcher::TagRemovedSignal</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectTagEventDispatcher.h" line="20" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectTagEventDispatcher.h" bodystart="20" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga33324ded1eb6bd24558e279fc84ce438" kind="typedef"><name>TagAddedSignal</name></member>
+      <member refid="group__GeneralGroup_1gab42ea0ba5cd7a8edf1877755cab31ddc" kind="typedef"><name>TagRemovedSignal</name></member>
     </sectiondef>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="classMR_1_1ObjectTagEventDispatcher_1a69a3fa9e48cb83bd9f076babcae87821" prot="public" static="no" mutable="no">
-        <type><ref refid="classMR_1_1ObjectTagEventDispatcher_1a33324ded1eb6bd24558e279fc84ce438" kindref="member">TagAddedSignal</ref></type>
-        <definition>TagAddedSignal MR::ObjectTagEventDispatcher::tagAddedSignal</definition>
-        <argsstring></argsstring>
-        <name>tagAddedSignal</name>
-        <qualifiedname>MR::ObjectTagEventDispatcher::tagAddedSignal</qualifiedname>
-        <briefdescription>
-<para>the signal is called when a tag is added to any object </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectTagEventDispatcher.h" line="18" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectTagEventDispatcher.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ObjectTagEventDispatcher_1a28eae4596bea57f3a608867f6475f8bd" prot="public" static="no" mutable="no">
-        <type><ref refid="classMR_1_1ObjectTagEventDispatcher_1ab42ea0ba5cd7a8edf1877755cab31ddc" kindref="member">TagRemovedSignal</ref></type>
-        <definition>TagRemovedSignal MR::ObjectTagEventDispatcher::tagRemovedSignal</definition>
-        <argsstring></argsstring>
-        <name>tagRemovedSignal</name>
-        <qualifiedname>MR::ObjectTagEventDispatcher::tagRemovedSignal</qualifiedname>
-        <briefdescription>
-<para>the signal is called when a tag is removed from any object </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectTagEventDispatcher.h" line="22" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectTagEventDispatcher.h" bodystart="22" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga69a3fa9e48cb83bd9f076babcae87821" kind="variable"><name>tagAddedSignal</name></member>
+      <member refid="group__GeneralGroup_1ga28eae4596bea57f3a608867f6475f8bd" kind="variable"><name>tagRemovedSignal</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1ObjectTagEventDispatcher_1a09204f895004b59cd1b3e447b498b57a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="classMR_1_1ObjectTagEventDispatcher" kindref="compound">ObjectTagEventDispatcher</ref> &amp;</type>
-        <definition>static MRMESH_API ObjectTagEventDispatcher &amp; MR::ObjectTagEventDispatcher::instance</definition>
-        <argsstring>()</argsstring>
-        <name>instance</name>
-        <qualifiedname>MR::ObjectTagEventDispatcher::instance</qualifiedname>
-        <briefdescription>
-<para>returns singleton instance </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectTagEventDispatcher.h" line="14" column="48"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga09204f895004b59cd1b3e447b498b57a" kind="function"><name>instance</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMR_1_1ObjectTagEventDispatcher_1abcf0b87d23cf68d0142ef43db70cf1b0" prot="private" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::ObjectTagEventDispatcher::ObjectTagEventDispatcher</definition>
-        <argsstring>(ProtectedTag)</argsstring>
-        <name>ObjectTagEventDispatcher</name>
-        <qualifiedname>MR::ObjectTagEventDispatcher::ObjectTagEventDispatcher</qualifiedname>
-        <param>
-          <type>ProtectedTag</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectTagEventDispatcher.h" line="26" column="14"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gabcf0b87d23cf68d0142ef43db70cf1b0" kind="function"><name>ObjectTagEventDispatcher</name></member>
     </sectiondef>
     <briefdescription>
 <para>class for dispatching object tag addition/removal events </para>
@@ -125,14 +41,14 @@
         <label>boost::signals2::signal&lt; void(Object *obj, const std::string &amp;tag) &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectTagEventDispatcher.h" line="10" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectTagEventDispatcher.h" bodystart="11" bodyend="27"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectTagEventDispatcher.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectTagEventDispatcher.h" bodystart="14" bodyend="30"/>
     <listofallmembers>
-      <member refid="classMR_1_1ObjectTagEventDispatcher_1a09204f895004b59cd1b3e447b498b57a" prot="public" virt="non-virtual"><scope>MR::ObjectTagEventDispatcher</scope><name>instance</name></member>
-      <member refid="classMR_1_1ObjectTagEventDispatcher_1abcf0b87d23cf68d0142ef43db70cf1b0" prot="private" virt="non-virtual"><scope>MR::ObjectTagEventDispatcher</scope><name>ObjectTagEventDispatcher</name></member>
-      <member refid="classMR_1_1ObjectTagEventDispatcher_1a33324ded1eb6bd24558e279fc84ce438" prot="public" virt="non-virtual"><scope>MR::ObjectTagEventDispatcher</scope><name>TagAddedSignal</name></member>
-      <member refid="classMR_1_1ObjectTagEventDispatcher_1a69a3fa9e48cb83bd9f076babcae87821" prot="public" virt="non-virtual"><scope>MR::ObjectTagEventDispatcher</scope><name>tagAddedSignal</name></member>
-      <member refid="classMR_1_1ObjectTagEventDispatcher_1ab42ea0ba5cd7a8edf1877755cab31ddc" prot="public" virt="non-virtual"><scope>MR::ObjectTagEventDispatcher</scope><name>TagRemovedSignal</name></member>
-      <member refid="classMR_1_1ObjectTagEventDispatcher_1a28eae4596bea57f3a608867f6475f8bd" prot="public" virt="non-virtual"><scope>MR::ObjectTagEventDispatcher</scope><name>tagRemovedSignal</name></member>
+      <member refid="group__GeneralGroup_1ga09204f895004b59cd1b3e447b498b57a" prot="public" virt="non-virtual"><scope>MR::ObjectTagEventDispatcher</scope><name>instance</name></member>
+      <member refid="group__GeneralGroup_1gabcf0b87d23cf68d0142ef43db70cf1b0" prot="private" virt="non-virtual"><scope>MR::ObjectTagEventDispatcher</scope><name>ObjectTagEventDispatcher</name></member>
+      <member refid="group__GeneralGroup_1ga33324ded1eb6bd24558e279fc84ce438" prot="public" virt="non-virtual"><scope>MR::ObjectTagEventDispatcher</scope><name>TagAddedSignal</name></member>
+      <member refid="group__GeneralGroup_1ga69a3fa9e48cb83bd9f076babcae87821" prot="public" virt="non-virtual"><scope>MR::ObjectTagEventDispatcher</scope><name>tagAddedSignal</name></member>
+      <member refid="group__GeneralGroup_1gab42ea0ba5cd7a8edf1877755cab31ddc" prot="public" virt="non-virtual"><scope>MR::ObjectTagEventDispatcher</scope><name>TagRemovedSignal</name></member>
+      <member refid="group__GeneralGroup_1ga28eae4596bea57f3a608867f6475f8bd" prot="public" virt="non-virtual"><scope>MR::ObjectTagEventDispatcher</scope><name>tagRemovedSignal</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

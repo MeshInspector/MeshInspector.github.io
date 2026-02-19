@@ -4,177 +4,37 @@
     <compoundname>MR::FrameCounter</compoundname>
     <includes refid="MRFrameCounter_8h" local="no">MRFrameCounter.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="classMR_1_1FrameCounter_1ad31cb34958177047b45d91d3bde14b0b" prot="public" static="no" mutable="no">
-        <type>size_t</type>
-        <definition>size_t MR::FrameCounter::totalFrameCounter</definition>
-        <argsstring></argsstring>
-        <name>totalFrameCounter</name>
-        <qualifiedname>MR::FrameCounter::totalFrameCounter</qualifiedname>
-        <initializer>{ 0 }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFrameCounter.h" line="12" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFrameCounter.h" bodystart="12" bodyend="12"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1FrameCounter_1a809b38fcb6b28b20246970f011a49af9" prot="public" static="no" mutable="no">
-        <type>size_t</type>
-        <definition>size_t MR::FrameCounter::swappedFrameCounter</definition>
-        <argsstring></argsstring>
-        <name>swappedFrameCounter</name>
-        <qualifiedname>MR::FrameCounter::swappedFrameCounter</qualifiedname>
-        <initializer>{ 0 }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFrameCounter.h" line="13" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFrameCounter.h" bodystart="13" bodyend="13"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1FrameCounter_1aea5d0a29f0eeb7d5301f5761259fbb71" prot="public" static="no" mutable="no">
-        <type>size_t</type>
-        <definition>size_t MR::FrameCounter::startFrameNum</definition>
-        <argsstring></argsstring>
-        <name>startFrameNum</name>
-        <qualifiedname>MR::FrameCounter::startFrameNum</qualifiedname>
-        <initializer>{ 0 }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFrameCounter.h" line="14" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFrameCounter.h" bodystart="14" bodyend="14"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1FrameCounter_1a25923dd70b8324ec74a8d347e1cd40d2" prot="public" static="no" mutable="no">
-        <type>size_t</type>
-        <definition>size_t MR::FrameCounter::fps</definition>
-        <argsstring></argsstring>
-        <name>fps</name>
-        <qualifiedname>MR::FrameCounter::fps</qualifiedname>
-        <initializer>{ 0 }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFrameCounter.h" line="15" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFrameCounter.h" bodystart="15" bodyend="15"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1FrameCounter_1ab152bae1e1a65d8d52cba5b78cd43a8c" prot="public" static="no" mutable="no">
-        <type>std::chrono::duration&lt; double &gt;</type>
-        <definition>std::chrono::duration&lt;double&gt; MR::FrameCounter::drawTimeMilliSec</definition>
-        <argsstring></argsstring>
-        <name>drawTimeMilliSec</name>
-        <qualifiedname>MR::FrameCounter::drawTimeMilliSec</qualifiedname>
-        <initializer>{ 0 }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFrameCounter.h" line="16" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFrameCounter.h" bodystart="16" bodyend="16"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gad31cb34958177047b45d91d3bde14b0b" kind="variable"><name>totalFrameCounter</name></member>
+      <member refid="group__GeneralGroup_1ga809b38fcb6b28b20246970f011a49af9" kind="variable"><name>swappedFrameCounter</name></member>
+      <member refid="group__GeneralGroup_1gaea5d0a29f0eeb7d5301f5761259fbb71" kind="variable"><name>startFrameNum</name></member>
+      <member refid="group__GeneralGroup_1ga25923dd70b8324ec74a8d347e1cd40d2" kind="variable"><name>fps</name></member>
+      <member refid="group__GeneralGroup_1gab152bae1e1a65d8d52cba5b78cd43a8c" kind="variable"><name>drawTimeMilliSec</name></member>
     </sectiondef>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1FrameCounter_1acd4af6f15a2e2a8b940a60dd43ccfaaf" prot="private" static="no" mutable="no">
-        <type>long long</type>
-        <definition>long long MR::FrameCounter::startFPSTime_</definition>
-        <argsstring></argsstring>
-        <name>startFPSTime_</name>
-        <qualifiedname>MR::FrameCounter::startFPSTime_</qualifiedname>
-        <initializer>{ 0 }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFrameCounter.h" line="23" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFrameCounter.h" bodystart="23" bodyend="23"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1FrameCounter_1a395c4c9676501e38c8d7e4cae20fa099" prot="private" static="no" mutable="no">
-        <type>std::chrono::time_point&lt; std::chrono::high_resolution_clock &gt;</type>
-        <definition>std::chrono::time_point&lt;std::chrono::high_resolution_clock&gt; MR::FrameCounter::startDrawTime_</definition>
-        <argsstring></argsstring>
-        <name>startDrawTime_</name>
-        <qualifiedname>MR::FrameCounter::startDrawTime_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFrameCounter.h" line="24" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFrameCounter.h" bodystart="24" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gacd4af6f15a2e2a8b940a60dd43ccfaaf" kind="variable"><name>startFPSTime_</name></member>
+      <member refid="group__GeneralGroup_1ga395c4c9676501e38c8d7e4cae20fa099" kind="variable"><name>startDrawTime_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1FrameCounter_1a807173f53f5c23dec924754664827f7e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::FrameCounter::startDraw</definition>
-        <argsstring>()</argsstring>
-        <name>startDraw</name>
-        <qualifiedname>MR::FrameCounter::startDraw</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFrameCounter.h" line="18" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFrameCounter.h" bodystart="18" bodyend="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1FrameCounter_1a6e8afcba61c4ec89dfe8c220c5bd44be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::FrameCounter::endDraw</definition>
-        <argsstring>(bool swapped)</argsstring>
-        <name>endDraw</name>
-        <qualifiedname>MR::FrameCounter::endDraw</qualifiedname>
-        <param>
-          <type>bool</type>
-          <declname>swapped</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFrameCounter.h" line="19" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1FrameCounter_1aa00e5f661bf88c35e8fcb83709eab2d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::FrameCounter::reset</definition>
-        <argsstring>()</argsstring>
-        <name>reset</name>
-        <qualifiedname>MR::FrameCounter::reset</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFrameCounter.h" line="20" column="23"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga807173f53f5c23dec924754664827f7e" kind="function"><name>startDraw</name></member>
+      <member refid="group__GeneralGroup_1ga6e8afcba61c4ec89dfe8c220c5bd44be" kind="function"><name>endDraw</name></member>
+      <member refid="group__GeneralGroup_1gaa00e5f661bf88c35e8fcb83709eab2d1" kind="function"><name>reset</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFrameCounter.h" line="9" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFrameCounter.h" bodystart="10" bodyend="25"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFrameCounter.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFrameCounter.h" bodystart="13" bodyend="28"/>
     <listofallmembers>
-      <member refid="classMR_1_1FrameCounter_1ab152bae1e1a65d8d52cba5b78cd43a8c" prot="public" virt="non-virtual"><scope>MR::FrameCounter</scope><name>drawTimeMilliSec</name></member>
-      <member refid="classMR_1_1FrameCounter_1a6e8afcba61c4ec89dfe8c220c5bd44be" prot="public" virt="non-virtual"><scope>MR::FrameCounter</scope><name>endDraw</name></member>
-      <member refid="classMR_1_1FrameCounter_1a25923dd70b8324ec74a8d347e1cd40d2" prot="public" virt="non-virtual"><scope>MR::FrameCounter</scope><name>fps</name></member>
-      <member refid="classMR_1_1FrameCounter_1aa00e5f661bf88c35e8fcb83709eab2d1" prot="public" virt="non-virtual"><scope>MR::FrameCounter</scope><name>reset</name></member>
-      <member refid="classMR_1_1FrameCounter_1a807173f53f5c23dec924754664827f7e" prot="public" virt="non-virtual"><scope>MR::FrameCounter</scope><name>startDraw</name></member>
-      <member refid="classMR_1_1FrameCounter_1a395c4c9676501e38c8d7e4cae20fa099" prot="private" virt="non-virtual"><scope>MR::FrameCounter</scope><name>startDrawTime_</name></member>
-      <member refid="classMR_1_1FrameCounter_1acd4af6f15a2e2a8b940a60dd43ccfaaf" prot="private" virt="non-virtual"><scope>MR::FrameCounter</scope><name>startFPSTime_</name></member>
-      <member refid="classMR_1_1FrameCounter_1aea5d0a29f0eeb7d5301f5761259fbb71" prot="public" virt="non-virtual"><scope>MR::FrameCounter</scope><name>startFrameNum</name></member>
-      <member refid="classMR_1_1FrameCounter_1a809b38fcb6b28b20246970f011a49af9" prot="public" virt="non-virtual"><scope>MR::FrameCounter</scope><name>swappedFrameCounter</name></member>
-      <member refid="classMR_1_1FrameCounter_1ad31cb34958177047b45d91d3bde14b0b" prot="public" virt="non-virtual"><scope>MR::FrameCounter</scope><name>totalFrameCounter</name></member>
+      <member refid="group__GeneralGroup_1gab152bae1e1a65d8d52cba5b78cd43a8c" prot="public" virt="non-virtual"><scope>MR::FrameCounter</scope><name>drawTimeMilliSec</name></member>
+      <member refid="group__GeneralGroup_1ga6e8afcba61c4ec89dfe8c220c5bd44be" prot="public" virt="non-virtual"><scope>MR::FrameCounter</scope><name>endDraw</name></member>
+      <member refid="group__GeneralGroup_1ga25923dd70b8324ec74a8d347e1cd40d2" prot="public" virt="non-virtual"><scope>MR::FrameCounter</scope><name>fps</name></member>
+      <member refid="group__GeneralGroup_1gaa00e5f661bf88c35e8fcb83709eab2d1" prot="public" virt="non-virtual"><scope>MR::FrameCounter</scope><name>reset</name></member>
+      <member refid="group__GeneralGroup_1ga807173f53f5c23dec924754664827f7e" prot="public" virt="non-virtual"><scope>MR::FrameCounter</scope><name>startDraw</name></member>
+      <member refid="group__GeneralGroup_1ga395c4c9676501e38c8d7e4cae20fa099" prot="private" virt="non-virtual"><scope>MR::FrameCounter</scope><name>startDrawTime_</name></member>
+      <member refid="group__GeneralGroup_1gacd4af6f15a2e2a8b940a60dd43ccfaaf" prot="private" virt="non-virtual"><scope>MR::FrameCounter</scope><name>startFPSTime_</name></member>
+      <member refid="group__GeneralGroup_1gaea5d0a29f0eeb7d5301f5761259fbb71" prot="public" virt="non-virtual"><scope>MR::FrameCounter</scope><name>startFrameNum</name></member>
+      <member refid="group__GeneralGroup_1ga809b38fcb6b28b20246970f011a49af9" prot="public" virt="non-virtual"><scope>MR::FrameCounter</scope><name>swappedFrameCounter</name></member>
+      <member refid="group__GeneralGroup_1gad31cb34958177047b45d91d3bde14b0b" prot="public" virt="non-virtual"><scope>MR::FrameCounter</scope><name>totalFrameCounter</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

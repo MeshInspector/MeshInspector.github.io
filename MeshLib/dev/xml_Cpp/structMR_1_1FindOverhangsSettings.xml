@@ -4,114 +4,26 @@
     <compoundname>MR::FindOverhangsSettings</compoundname>
     <includes refid="MRMeshOverhangs_8h" local="no">MRMeshOverhangs.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1FindOverhangsSettings_1a047ea47c16c17b322c9ae6ec9bd817ad" prot="public" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::FindOverhangsSettings::axis</definition>
-        <argsstring></argsstring>
-        <name>axis</name>
-        <qualifiedname>MR::FindOverhangsSettings::axis</qualifiedname>
-        <initializer>{ Vector3f::plusZ() }</initializer>
-        <briefdescription>
-<para>base axis marking the up direction </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOverhangs.h" line="14" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOverhangs.h" bodystart="14" bodyend="14"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1FindOverhangsSettings_1ac75bce161a3fcc60e706c3cd85ae4b16" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::FindOverhangsSettings::layerHeight</definition>
-        <argsstring></argsstring>
-        <name>layerHeight</name>
-        <qualifiedname>MR::FindOverhangsSettings::layerHeight</qualifiedname>
-        <initializer>{ 1.f }</initializer>
-        <briefdescription>
-<para>height of a layer </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOverhangs.h" line="16" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOverhangs.h" bodystart="16" bodyend="16"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1FindOverhangsSettings_1a92c8870a66285a8a03fbae5699382e82" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::FindOverhangsSettings::maxOverhangDistance</definition>
-        <argsstring></argsstring>
-        <name>maxOverhangDistance</name>
-        <qualifiedname>MR::FindOverhangsSettings::maxOverhangDistance</qualifiedname>
-        <initializer>{ 1.f }</initializer>
-        <briefdescription>
-<para>maximum allowed overhang distance within a layer </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOverhangs.h" line="18" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOverhangs.h" bodystart="18" bodyend="18"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1FindOverhangsSettings_1ad8a04bc86c5792e55e9c000d38d5e42b" prot="public" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::FindOverhangsSettings::hops</definition>
-        <argsstring></argsstring>
-        <name>hops</name>
-        <qualifiedname>MR::FindOverhangsSettings::hops</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-<para>number of hops used to smooth out the overhang regions (0 - disable smoothing) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOverhangs.h" line="20" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOverhangs.h" bodystart="20" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1FindOverhangsSettings_1a3d1a3266302b03fd65361e652890be0e" prot="public" static="no" mutable="no">
-        <type>const AffineXf3f *</type>
-        <definition>const AffineXf3f* MR::FindOverhangsSettings::xf</definition>
-        <argsstring></argsstring>
-        <name>xf</name>
-        <qualifiedname>MR::FindOverhangsSettings::xf</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-<para>mesh transform </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOverhangs.h" line="22" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOverhangs.h" bodystart="22" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1FindOverhangsSettings_1a0533f2a781c49812b0d5cbe4fbfbaa21" prot="public" static="no" mutable="no">
-        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
-        <definition>ProgressCallback MR::FindOverhangsSettings::progressCb</definition>
-        <argsstring></argsstring>
-        <name>progressCb</name>
-        <qualifiedname>MR::FindOverhangsSettings::progressCb</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOverhangs.h" line="23" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOverhangs.h" bodystart="23" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga047ea47c16c17b322c9ae6ec9bd817ad" kind="variable"><name>axis</name></member>
+      <member refid="group__GeneralGroup_1gac75bce161a3fcc60e706c3cd85ae4b16" kind="variable"><name>layerHeight</name></member>
+      <member refid="group__GeneralGroup_1ga92c8870a66285a8a03fbae5699382e82" kind="variable"><name>maxOverhangDistance</name></member>
+      <member refid="group__GeneralGroup_1gad8a04bc86c5792e55e9c000d38d5e42b" kind="variable"><name>hops</name></member>
+      <member refid="group__GeneralGroup_1ga3d1a3266302b03fd65361e652890be0e" kind="variable"><name>xf</name></member>
+      <member refid="group__GeneralGroup_1ga0533f2a781c49812b0d5cbe4fbfbaa21" kind="variable"><name>progressCb</name></member>
     </sectiondef>
     <briefdescription>
-<para>parameters for <ref refid="namespaceMR_1ae5a23c27bb3bb838f31c354a2569981f" kindref="member">MR::findOverhangs</ref> </para>
+<para>parameters for <ref refid="group__GeneralGroup_1gae5a23c27bb3bb838f31c354a2569981f" kindref="member">MR::findOverhangs</ref> </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOverhangs.h" line="11" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOverhangs.h" bodystart="12" bodyend="24"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOverhangs.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOverhangs.h" bodystart="15" bodyend="27"/>
     <listofallmembers>
-      <member refid="structMR_1_1FindOverhangsSettings_1a047ea47c16c17b322c9ae6ec9bd817ad" prot="public" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>axis</name></member>
-      <member refid="structMR_1_1FindOverhangsSettings_1ad8a04bc86c5792e55e9c000d38d5e42b" prot="public" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>hops</name></member>
-      <member refid="structMR_1_1FindOverhangsSettings_1ac75bce161a3fcc60e706c3cd85ae4b16" prot="public" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>layerHeight</name></member>
-      <member refid="structMR_1_1FindOverhangsSettings_1a92c8870a66285a8a03fbae5699382e82" prot="public" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>maxOverhangDistance</name></member>
-      <member refid="structMR_1_1FindOverhangsSettings_1a0533f2a781c49812b0d5cbe4fbfbaa21" prot="public" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>progressCb</name></member>
-      <member refid="structMR_1_1FindOverhangsSettings_1a3d1a3266302b03fd65361e652890be0e" prot="public" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>xf</name></member>
+      <member refid="group__GeneralGroup_1ga047ea47c16c17b322c9ae6ec9bd817ad" prot="public" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>axis</name></member>
+      <member refid="group__GeneralGroup_1gad8a04bc86c5792e55e9c000d38d5e42b" prot="public" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>hops</name></member>
+      <member refid="group__GeneralGroup_1gac75bce161a3fcc60e706c3cd85ae4b16" prot="public" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>layerHeight</name></member>
+      <member refid="group__GeneralGroup_1ga92c8870a66285a8a03fbae5699382e82" prot="public" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>maxOverhangDistance</name></member>
+      <member refid="group__GeneralGroup_1ga0533f2a781c49812b0d5cbe4fbfbaa21" prot="public" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>progressCb</name></member>
+      <member refid="group__GeneralGroup_1ga3d1a3266302b03fd65361e652890be0e" prot="public" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>xf</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

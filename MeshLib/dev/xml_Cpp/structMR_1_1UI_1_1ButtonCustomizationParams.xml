@@ -4,149 +4,15 @@
     <compoundname>MR::UI::ButtonCustomizationParams</compoundname>
     <includes refid="MRUIStyle_8h" local="no">MRUIStyle.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1UI_1_1ButtonCustomizationParams_1a535ce8036fde0db76e18417ab476bf53" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::UI::ButtonCustomizationParams::enabled</definition>
-        <argsstring></argsstring>
-        <name>enabled</name>
-        <qualifiedname>MR::UI::ButtonCustomizationParams::enabled</qualifiedname>
-        <initializer>= true</initializer>
-        <briefdescription>
-<para>If false, the button is grayed out and can&apos;t be clicked. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="65" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="65" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1UI_1_1ButtonCustomizationParams_1a4f1e3048ba6230a8535ee31a43944921" prot="public" static="no" mutable="no">
-        <type>ImGuiButtonFlags</type>
-        <definition>ImGuiButtonFlags MR::UI::ButtonCustomizationParams::flags</definition>
-        <argsstring></argsstring>
-        <name>flags</name>
-        <qualifiedname>MR::UI::ButtonCustomizationParams::flags</qualifiedname>
-        <initializer>= ImGuiButtonFlags_None</initializer>
-        <briefdescription>
-<para>imgui flags for this button </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="68" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="68" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1UI_1_1ButtonCustomizationParams_1a39f7611697c3b8dca64336b3cc48a7cc" prot="public" static="no" mutable="no">
-        <type><ref refid="classMR_1_1ImGuiImage" kindref="compound">ImGuiImage</ref> *</type>
-        <definition>ImGuiImage* MR::UI::ButtonCustomizationParams::customTexture</definition>
-        <argsstring></argsstring>
-        <name>customTexture</name>
-        <qualifiedname>MR::UI::ButtonCustomizationParams::customTexture</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>gradient texture other than default {start, hover_start, acitve_start, disabled_start, end, hover_end, acitve_end, disabled_end } </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="73" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="73" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1UI_1_1ButtonCustomizationParams_1aa156c6a89d078c902ee22cbfb09bfc42" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::UI::ButtonCustomizationParams::forceImGuiBackground</definition>
-        <argsstring></argsstring>
-        <name>forceImGuiBackground</name>
-        <qualifiedname>MR::UI::ButtonCustomizationParams::forceImGuiBackground</qualifiedname>
-        <initializer>= false</initializer>
-        <briefdescription>
-<para>force use imgui background if !customTexture </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="76" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="76" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1UI_1_1ButtonCustomizationParams_1a28dc0364454bce82687aec5e5773623b" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::UI::ButtonCustomizationParams::forceImguiTextColor</definition>
-        <argsstring></argsstring>
-        <name>forceImguiTextColor</name>
-        <qualifiedname>MR::UI::ButtonCustomizationParams::forceImguiTextColor</qualifiedname>
-        <initializer>= false</initializer>
-        <briefdescription>
-<para>force use if ImGuiCol_Text for text </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="79" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="79" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1UI_1_1ButtonCustomizationParams_1a44e7a1e13298276ebd757d7e318111a0" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::UI::ButtonCustomizationParams::border</definition>
-        <argsstring></argsstring>
-        <name>border</name>
-        <qualifiedname>MR::UI::ButtonCustomizationParams::border</qualifiedname>
-        <initializer>= false</initializer>
-        <briefdescription>
-<para>show border or not </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="81" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="81" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1UI_1_1ButtonCustomizationParams_1aa05d1e76244fb6b4afc1122ad02e1d5e" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::UI::ButtonCustomizationParams::underlineFirstLetter</definition>
-        <argsstring></argsstring>
-        <name>underlineFirstLetter</name>
-        <qualifiedname>MR::UI::ButtonCustomizationParams::underlineFirstLetter</qualifiedname>
-        <initializer>= false</initializer>
-        <briefdescription>
-<para>draw line under first letter of label </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="84" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="84" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1UI_1_1ButtonCustomizationParams_1ace10f316495c9cf052464a0154fee1c5" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::UI::ButtonCustomizationParams::enableTestEngine</definition>
-        <argsstring></argsstring>
-        <name>enableTestEngine</name>
-        <qualifiedname>MR::UI::ButtonCustomizationParams::enableTestEngine</qualifiedname>
-        <initializer>= true</initializer>
-        <briefdescription>
-<para>Allow interacting with this button from <computeroutput><ref refid="namespaceMR_1_1UI_1_1TestEngine" kindref="compound">UI::TestEngine</ref></computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="87" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="87" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1UI_1_1ButtonCustomizationParams_1a95c7d0696bf82bdb91773e3df15adce1" prot="public" static="no" mutable="no">
-        <type>std::string</type>
-        <definition>std::string MR::UI::ButtonCustomizationParams::testEngineName</definition>
-        <argsstring></argsstring>
-        <name>testEngineName</name>
-        <qualifiedname>MR::UI::ButtonCustomizationParams::testEngineName</qualifiedname>
-        <briefdescription>
-<para>if not empty, force use this string as name in <ref refid="namespaceMR_1_1UI_1_1TestEngine" kindref="compound">TestEngine</ref> </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="90" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="90" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga535ce8036fde0db76e18417ab476bf53" kind="variable"><name>enabled</name></member>
+      <member refid="group__GeneralGroup_1ga4f1e3048ba6230a8535ee31a43944921" kind="variable"><name>flags</name></member>
+      <member refid="group__GeneralGroup_1ga39f7611697c3b8dca64336b3cc48a7cc" kind="variable"><name>customTexture</name></member>
+      <member refid="group__GeneralGroup_1gaa156c6a89d078c902ee22cbfb09bfc42" kind="variable"><name>forceImGuiBackground</name></member>
+      <member refid="group__GeneralGroup_1ga28dc0364454bce82687aec5e5773623b" kind="variable"><name>forceImguiTextColor</name></member>
+      <member refid="group__GeneralGroup_1ga44e7a1e13298276ebd757d7e318111a0" kind="variable"><name>border</name></member>
+      <member refid="group__GeneralGroup_1gaa05d1e76244fb6b4afc1122ad02e1d5e" kind="variable"><name>underlineFirstLetter</name></member>
+      <member refid="group__GeneralGroup_1gace10f316495c9cf052464a0154fee1c5" kind="variable"><name>enableTestEngine</name></member>
+      <member refid="group__GeneralGroup_1ga95c7d0696bf82bdb91773e3df15adce1" kind="variable"><name>testEngineName</name></member>
     </sectiondef>
     <briefdescription>
 <para>parameters to customize buttonEx </para>
@@ -166,17 +32,17 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="62" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="63" bodyend="91"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="65" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="66" bodyend="94"/>
     <listofallmembers>
-      <member refid="structMR_1_1UI_1_1ButtonCustomizationParams_1a44e7a1e13298276ebd757d7e318111a0" prot="public" virt="non-virtual"><scope>MR::UI::ButtonCustomizationParams</scope><name>border</name></member>
-      <member refid="structMR_1_1UI_1_1ButtonCustomizationParams_1a39f7611697c3b8dca64336b3cc48a7cc" prot="public" virt="non-virtual"><scope>MR::UI::ButtonCustomizationParams</scope><name>customTexture</name></member>
-      <member refid="structMR_1_1UI_1_1ButtonCustomizationParams_1a535ce8036fde0db76e18417ab476bf53" prot="public" virt="non-virtual"><scope>MR::UI::ButtonCustomizationParams</scope><name>enabled</name></member>
-      <member refid="structMR_1_1UI_1_1ButtonCustomizationParams_1ace10f316495c9cf052464a0154fee1c5" prot="public" virt="non-virtual"><scope>MR::UI::ButtonCustomizationParams</scope><name>enableTestEngine</name></member>
-      <member refid="structMR_1_1UI_1_1ButtonCustomizationParams_1a4f1e3048ba6230a8535ee31a43944921" prot="public" virt="non-virtual"><scope>MR::UI::ButtonCustomizationParams</scope><name>flags</name></member>
-      <member refid="structMR_1_1UI_1_1ButtonCustomizationParams_1aa156c6a89d078c902ee22cbfb09bfc42" prot="public" virt="non-virtual"><scope>MR::UI::ButtonCustomizationParams</scope><name>forceImGuiBackground</name></member>
-      <member refid="structMR_1_1UI_1_1ButtonCustomizationParams_1a28dc0364454bce82687aec5e5773623b" prot="public" virt="non-virtual"><scope>MR::UI::ButtonCustomizationParams</scope><name>forceImguiTextColor</name></member>
-      <member refid="structMR_1_1UI_1_1ButtonCustomizationParams_1a95c7d0696bf82bdb91773e3df15adce1" prot="public" virt="non-virtual"><scope>MR::UI::ButtonCustomizationParams</scope><name>testEngineName</name></member>
-      <member refid="structMR_1_1UI_1_1ButtonCustomizationParams_1aa05d1e76244fb6b4afc1122ad02e1d5e" prot="public" virt="non-virtual"><scope>MR::UI::ButtonCustomizationParams</scope><name>underlineFirstLetter</name></member>
+      <member refid="group__GeneralGroup_1ga44e7a1e13298276ebd757d7e318111a0" prot="public" virt="non-virtual"><scope>MR::UI::ButtonCustomizationParams</scope><name>border</name></member>
+      <member refid="group__GeneralGroup_1ga39f7611697c3b8dca64336b3cc48a7cc" prot="public" virt="non-virtual"><scope>MR::UI::ButtonCustomizationParams</scope><name>customTexture</name></member>
+      <member refid="group__GeneralGroup_1ga535ce8036fde0db76e18417ab476bf53" prot="public" virt="non-virtual"><scope>MR::UI::ButtonCustomizationParams</scope><name>enabled</name></member>
+      <member refid="group__GeneralGroup_1gace10f316495c9cf052464a0154fee1c5" prot="public" virt="non-virtual"><scope>MR::UI::ButtonCustomizationParams</scope><name>enableTestEngine</name></member>
+      <member refid="group__GeneralGroup_1ga4f1e3048ba6230a8535ee31a43944921" prot="public" virt="non-virtual"><scope>MR::UI::ButtonCustomizationParams</scope><name>flags</name></member>
+      <member refid="group__GeneralGroup_1gaa156c6a89d078c902ee22cbfb09bfc42" prot="public" virt="non-virtual"><scope>MR::UI::ButtonCustomizationParams</scope><name>forceImGuiBackground</name></member>
+      <member refid="group__GeneralGroup_1ga28dc0364454bce82687aec5e5773623b" prot="public" virt="non-virtual"><scope>MR::UI::ButtonCustomizationParams</scope><name>forceImguiTextColor</name></member>
+      <member refid="group__GeneralGroup_1ga95c7d0696bf82bdb91773e3df15adce1" prot="public" virt="non-virtual"><scope>MR::UI::ButtonCustomizationParams</scope><name>testEngineName</name></member>
+      <member refid="group__GeneralGroup_1gaa05d1e76244fb6b4afc1122ad02e1d5e" prot="public" virt="non-virtual"><scope>MR::UI::ButtonCustomizationParams</scope><name>underlineFirstLetter</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

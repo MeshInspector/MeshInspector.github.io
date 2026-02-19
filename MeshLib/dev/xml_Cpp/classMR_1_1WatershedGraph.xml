@@ -7,653 +7,80 @@
     <innerclass refid="structMR_1_1WatershedGraph_1_1BdInfo" prot="public">MR::WatershedGraph::BdInfo</innerclass>
     <innerclass refid="structMR_1_1WatershedGraph_1_1OverflowPoint" prot="public">MR::WatershedGraph::OverflowPoint</innerclass>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1WatershedGraph_1aee42960a1ac1beafd3dcf37d30c879c9" prot="private" static="no" mutable="no">
-        <type>const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &amp;</type>
-        <definition>const Mesh&amp; MR::WatershedGraph::mesh_</definition>
-        <argsstring></argsstring>
-        <name>mesh_</name>
-        <qualifiedname>MR::WatershedGraph::mesh_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="154" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" bodystart="154" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1WatershedGraph_1a5463aad37b66b92aea9de4d6e0f171db" prot="private" static="no" mutable="no">
-        <type>const <ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; int, FaceId &gt; &amp;</type>
-        <definition>const Vector&lt;int, FaceId&gt;&amp; MR::WatershedGraph::face2iniBasin_</definition>
-        <argsstring></argsstring>
-        <name>face2iniBasin_</name>
-        <qualifiedname>MR::WatershedGraph::face2iniBasin_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="155" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" bodystart="155" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1WatershedGraph_1a196916d95a210d4a089811129e88069a" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1Graph" kindref="compound">Graph</ref></type>
-        <definition>Graph MR::WatershedGraph::graph_</definition>
-        <argsstring></argsstring>
-        <name>graph_</name>
-        <qualifiedname>MR::WatershedGraph::graph_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="157" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" bodystart="157" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1WatershedGraph_1a96491a07552acbf4eb9b444823331461" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; <ref refid="structMR_1_1WatershedGraph_1_1BasinInfo" kindref="compound">BasinInfo</ref>, <ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref> &gt;</type>
-        <definition>Vector&lt;BasinInfo, Graph::VertId&gt; MR::WatershedGraph::basins_</definition>
-        <argsstring></argsstring>
-        <name>basins_</name>
-        <qualifiedname>MR::WatershedGraph::basins_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="158" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" bodystart="158" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1WatershedGraph_1a49a07b99fad17464e3aca703d3ac72b1" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; <ref refid="structMR_1_1WatershedGraph_1_1BdInfo" kindref="compound">BdInfo</ref>, <ref refid="classMR_1_1Graph_1ab7466409c32ef6a047fedfe19ed28c1b" kindref="member">Graph::EdgeId</ref> &gt;</type>
-        <definition>Vector&lt;BdInfo, Graph::EdgeId&gt; MR::WatershedGraph::bds_</definition>
-        <argsstring></argsstring>
-        <name>bds_</name>
-        <qualifiedname>MR::WatershedGraph::bds_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="159" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" bodystart="159" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1WatershedGraph_1a582cc77bfa73e02c8c18957f1e1f11b2" prot="private" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::WatershedGraph::totalArea_</definition>
-        <argsstring></argsstring>
-        <name>totalArea_</name>
-        <qualifiedname>MR::WatershedGraph::totalArea_</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="160" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" bodystart="160" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1WatershedGraph_1a1edaa81377e05473256334fb038becb8" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref></type>
-        <definition>Graph::VertId MR::WatershedGraph::outsideId_</definition>
-        <argsstring></argsstring>
-        <name>outsideId_</name>
-        <qualifiedname>MR::WatershedGraph::outsideId_</qualifiedname>
-        <briefdescription>
-<para>special &quot;basin&quot; representing outside areas of the mesh </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="163" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" bodystart="163" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1WatershedGraph_1aa48b13ce1011fd290bd5fb1aa90c29b3" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; <ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref>, <ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref> &gt;</type>
-        <definition>Vector&lt;Graph::VertId, Graph::VertId&gt; MR::WatershedGraph::parentBasin_</definition>
-        <argsstring></argsstring>
-        <name>parentBasin_</name>
-        <qualifiedname>MR::WatershedGraph::parentBasin_</qualifiedname>
-        <briefdescription>
-<para>for valid basin, parent is the same; for invalid basin, sequence of parents point on valid root basin </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="166" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" bodystart="166" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaee42960a1ac1beafd3dcf37d30c879c9" kind="variable"><name>mesh_</name></member>
+      <member refid="group__GeneralGroup_1ga5463aad37b66b92aea9de4d6e0f171db" kind="variable"><name>face2iniBasin_</name></member>
+      <member refid="group__GeneralGroup_1ga196916d95a210d4a089811129e88069a" kind="variable"><name>graph_</name></member>
+      <member refid="group__GeneralGroup_1ga96491a07552acbf4eb9b444823331461" kind="variable"><name>basins_</name></member>
+      <member refid="group__GeneralGroup_1ga49a07b99fad17464e3aca703d3ac72b1" kind="variable"><name>bds_</name></member>
+      <member refid="group__GeneralGroup_1ga582cc77bfa73e02c8c18957f1e1f11b2" kind="variable"><name>totalArea_</name></member>
+      <member refid="group__GeneralGroup_1ga1edaa81377e05473256334fb038becb8" kind="variable"><name>outsideId_</name></member>
+      <member refid="group__GeneralGroup_1gaa48b13ce1011fd290bd5fb1aa90c29b3" kind="variable"><name>parentBasin_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1WatershedGraph_1acbb29b2acc410b0a58645c023d793842" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
-        <definition>MRMESH_API MR::WatershedGraph::WatershedGraph</definition>
-        <argsstring>(const Mesh &amp;mesh, const Vector&lt; int, FaceId &gt; &amp;face2basin, int numBasins)</argsstring>
-        <name>WatershedGraph</name>
-        <qualifiedname>MR::WatershedGraph::WatershedGraph</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &amp;</type>
-          <declname>mesh</declname>
-        </param>
-        <param>
-          <type>const <ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; int, FaceId &gt; &amp;</type>
-          <declname>face2basin</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>numBasins</declname>
-        </param>
-        <briefdescription>
-<para>constructs the graph from given mesh, heights in z-coordinate, and initial subdivision on basins </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="71" column="16"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1WatershedGraph_1aef299dd01113f7319f2969d20c2115a5" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> float</type>
-        <definition>MRMESH_API float MR::WatershedGraph::getHeightAt</definition>
-        <argsstring>(VertId v) const</argsstring>
-        <name>getHeightAt</name>
-        <qualifiedname>MR::WatershedGraph::getHeightAt</qualifiedname>
-        <param>
-          <type>VertId</type>
-          <declname>v</declname>
-        </param>
-        <briefdescription>
-<para>returns height at given vertex or FLT_MAX if the vertex is invalid </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="74" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1WatershedGraph_1a52950e2fbd6e18253951cd1a837102dc" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const <ref refid="classMR_1_1Graph" kindref="compound">Graph</ref> &amp;</type>
-        <definition>const Graph &amp; MR::WatershedGraph::graph</definition>
-        <argsstring>() const</argsstring>
-        <name>graph</name>
-        <qualifiedname>MR::WatershedGraph::graph</qualifiedname>
-        <briefdescription>
-<para>returns underlying graph where each basin is a vertex </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="77" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" bodystart="77" bodyend="77"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1WatershedGraph_1aa866c31119fcc9efe5cde7a9f93ee2c4" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>float</type>
-        <definition>float MR::WatershedGraph::totalArea</definition>
-        <argsstring>() const</argsstring>
-        <name>totalArea</name>
-        <qualifiedname>MR::WatershedGraph::totalArea</qualifiedname>
-        <briefdescription>
-<para>returns total precipitation area </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="80" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" bodystart="80" bodyend="80"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1WatershedGraph_1a75dfd7892ea152c119be891a63d24d0e" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>int</type>
-        <definition>int MR::WatershedGraph::numBasins</definition>
-        <argsstring>() const</argsstring>
-        <name>numBasins</name>
-        <qualifiedname>MR::WatershedGraph::numBasins</qualifiedname>
-        <briefdescription>
-<para>returns the current number of basins (excluding special &quot;outside&quot; basin) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="83" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" bodystart="83" bodyend="83"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1WatershedGraph_1aaded095af3e5c37cf3299086f255480d" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const <ref refid="structMR_1_1WatershedGraph_1_1BasinInfo" kindref="compound">BasinInfo</ref> &amp;</type>
-        <definition>const BasinInfo &amp; MR::WatershedGraph::basinInfo</definition>
-        <argsstring>(Graph::VertId v) const</argsstring>
-        <name>basinInfo</name>
-        <qualifiedname>MR::WatershedGraph::basinInfo</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref></type>
-          <declname>v</declname>
-        </param>
-        <briefdescription>
-<para>returns data associated with given basin </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="86" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" bodystart="86" bodyend="86"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1WatershedGraph_1a9af63cdf457000d537668057705b684c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1WatershedGraph_1_1BasinInfo" kindref="compound">BasinInfo</ref> &amp;</type>
-        <definition>BasinInfo &amp; MR::WatershedGraph::basinInfo</definition>
-        <argsstring>(Graph::VertId v)</argsstring>
-        <name>basinInfo</name>
-        <qualifiedname>MR::WatershedGraph::basinInfo</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref></type>
-          <declname>v</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="87" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" bodystart="87" bodyend="87"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1WatershedGraph_1ac60717bcac94de1bf3eaf1f3eba5753f" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const <ref refid="structMR_1_1WatershedGraph_1_1BdInfo" kindref="compound">BdInfo</ref> &amp;</type>
-        <definition>const BdInfo &amp; MR::WatershedGraph::bdInfo</definition>
-        <argsstring>(Graph::EdgeId e) const</argsstring>
-        <name>bdInfo</name>
-        <qualifiedname>MR::WatershedGraph::bdInfo</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Graph_1ab7466409c32ef6a047fedfe19ed28c1b" kindref="member">Graph::EdgeId</ref></type>
-          <declname>e</declname>
-        </param>
-        <briefdescription>
-<para>returns data associated with given boundary between basins </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="90" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" bodystart="90" bodyend="90"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1WatershedGraph_1ae5da135593dd2516248f691c21c4afe2" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1WatershedGraph_1_1BdInfo" kindref="compound">BdInfo</ref> &amp;</type>
-        <definition>BdInfo &amp; MR::WatershedGraph::bdInfo</definition>
-        <argsstring>(Graph::EdgeId e)</argsstring>
-        <name>bdInfo</name>
-        <qualifiedname>MR::WatershedGraph::bdInfo</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Graph_1ab7466409c32ef6a047fedfe19ed28c1b" kindref="member">Graph::EdgeId</ref></type>
-          <declname>e</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="91" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" bodystart="91" bodyend="91"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1WatershedGraph_1a4debe23a2fd38c67f4bb53ae58dd9e9e" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref></type>
-        <definition>Graph::VertId MR::WatershedGraph::outsideId</definition>
-        <argsstring>() const</argsstring>
-        <name>outsideId</name>
-        <qualifiedname>MR::WatershedGraph::outsideId</qualifiedname>
-        <briefdescription>
-<para>returns special &quot;basin&quot; representing outside areas of the mesh </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="94" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" bodystart="94" bodyend="94"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1WatershedGraph_1ae7ff9c7e88d770363e0d26f7e60e0db4" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref></type>
-        <definition>MRMESH_API Graph::VertId MR::WatershedGraph::getRootBasin</definition>
-        <argsstring>(Graph::VertId v) const</argsstring>
-        <name>getRootBasin</name>
-        <qualifiedname>MR::WatershedGraph::getRootBasin</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref></type>
-          <declname>v</declname>
-        </param>
-        <briefdescription>
-<para>for valid basin returns self id; for invalid basin returns the id of basin it was merged in </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="97" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1WatershedGraph_1ac43f8ee39212a5349bfd21fd805b99cb" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref></type>
-        <definition>MRMESH_API Graph::VertId MR::WatershedGraph::flowsTo</definition>
-        <argsstring>(Graph::VertId v) const</argsstring>
-        <name>flowsTo</name>
-        <qualifiedname>MR::WatershedGraph::flowsTo</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref></type>
-          <declname>v</declname>
-        </param>
-        <briefdescription>
-<para>returns the basin where the flow from this basin goes next (it can be self id if the basin is not full yet) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="100" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1WatershedGraph_1a6021b04d6337d5ef875942d64ce5b176" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref></type>
-        <definition>MRMESH_API Graph::VertId MR::WatershedGraph::flowsFinallyTo</definition>
-        <argsstring>(Graph::VertId v, bool exceptOutside=false) const</argsstring>
-        <name>flowsFinallyTo</name>
-        <qualifiedname>MR::WatershedGraph::flowsFinallyTo</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref></type>
-          <declname>v</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>exceptOutside</declname>
-          <defval>false</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>returns the basin where the flow from this basin finally goes (it can be self id if the basin is not full yet); <parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>exceptOutside</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>if true then the method returns the basin that receives water flow from (v) just before outside </para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="104" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1WatershedGraph_1aabc0313f660489a2ef8d2fe8512066bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::WatershedGraph::setParentsToRoots</definition>
-        <argsstring>()</argsstring>
-        <name>setParentsToRoots</name>
-        <qualifiedname>MR::WatershedGraph::setParentsToRoots</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>replaces parent of each basin with its computed root; this speeds up following calls to <ref refid="classMR_1_1WatershedGraph_1ae7ff9c7e88d770363e0d26f7e60e0db4" kindref="member">getRootBasin()</ref> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="108" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1WatershedGraph_1a36e73384698fb59ae775796b859ad1b5" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::pair&lt; <ref refid="classMR_1_1Graph_1ab7466409c32ef6a047fedfe19ed28c1b" kindref="member">Graph::EdgeId</ref>, float &gt;</type>
-        <definition>MRMESH_API std::pair&lt; Graph::EdgeId, float &gt; MR::WatershedGraph::findLowestBd</definition>
-        <argsstring>() const</argsstring>
-        <name>findLowestBd</name>
-        <qualifiedname>MR::WatershedGraph::findLowestBd</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>finds the lowest boundary between basins and its height, which is defined as the minimal different between lowest boundary point and lowest point in a basin </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="112" column="27"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1WatershedGraph_1ab91edc99a7a3042ca9f8d3cb80a74f4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref></type>
-        <definition>MRMESH_API Graph::VertId MR::WatershedGraph::merge</definition>
-        <argsstring>(Graph::VertId v0, Graph::VertId v1)</argsstring>
-        <name>merge</name>
-        <qualifiedname>MR::WatershedGraph::merge</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref></type>
-          <declname>v0</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref></type>
-          <declname>v1</declname>
-        </param>
-        <briefdescription>
-<para>merges basin v1 into basin v0, v1 is deleted after that, returns v0 </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="115" column="30"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1WatershedGraph_1ab729c10829c758b62d6563fffa61d48e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref></type>
-        <definition>MRMESH_API Graph::VertId MR::WatershedGraph::mergeViaBd</definition>
-        <argsstring>(Graph::EdgeId bd)</argsstring>
-        <name>mergeViaBd</name>
-        <qualifiedname>MR::WatershedGraph::mergeViaBd</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Graph_1ab7466409c32ef6a047fedfe19ed28c1b" kindref="member">Graph::EdgeId</ref></type>
-          <declname>bd</declname>
-        </param>
-        <briefdescription>
-<para>merges two basins sharing given boundary, returns remaining basin </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="118" column="30"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1WatershedGraph_1a2b1df8bb29c7135286e8e6b59b036e27" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> FaceBitSet</type>
-        <definition>MRMESH_API FaceBitSet MR::WatershedGraph::getBasinFaces</definition>
-        <argsstring>(Graph::VertId basin) const</argsstring>
-        <name>getBasinFaces</name>
-        <qualifiedname>MR::WatershedGraph::getBasinFaces</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref></type>
-          <declname>basin</declname>
-        </param>
-        <briefdescription>
-<para>returns the mesh faces of given basin </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="121" column="28"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1WatershedGraph_1ae6bda4b2c59aa5d9d7dad25244ecc7cd" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; FaceBitSet, <ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref> &gt;</type>
-        <definition>MRMESH_API Vector&lt; FaceBitSet, Graph::VertId &gt; MR::WatershedGraph::getAllBasinFaces</definition>
-        <argsstring>(bool joinOverflowBasins=false) const</argsstring>
-        <name>getAllBasinFaces</name>
-        <qualifiedname>MR::WatershedGraph::getAllBasinFaces</qualifiedname>
-        <param>
-          <type>bool</type>
-          <declname>joinOverflowBasins</declname>
-          <defval>false</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>returns the mesh faces of each valid basin; <parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>joinOverflowBasins</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>if true then overflowing basins will be merged in the target basins (except for overflow in outside) </para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="125" column="24"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1WatershedGraph_1a8a02b4b9dff2548231f6154119e3de65" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> FaceBitSet</type>
-        <definition>MRMESH_API FaceBitSet MR::WatershedGraph::getBasinFacesBelowLevel</definition>
-        <argsstring>(Graph::VertId basin, float waterLevel) const</argsstring>
-        <name>getBasinFacesBelowLevel</name>
-        <qualifiedname>MR::WatershedGraph::getBasinFacesBelowLevel</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref></type>
-          <declname>basin</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>waterLevel</declname>
-        </param>
-        <briefdescription>
-<para>returns the mesh faces of given basin with at least one vertex below given level </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="128" column="28"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1WatershedGraph_1a154c7de06138c1644c08aacc3176192b" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> double</type>
-        <definition>MRMESH_API double MR::WatershedGraph::computeBasinVolume</definition>
-        <argsstring>(Graph::VertId basin, float waterLevel) const</argsstring>
-        <name>computeBasinVolume</name>
-        <qualifiedname>MR::WatershedGraph::computeBasinVolume</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref></type>
-          <declname>basin</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>waterLevel</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>returns water volume in basin when its surface reaches given level, which must be in between the lowest basin level and the lowest level on basin&apos;s boundary </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="132" column="24"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1WatershedGraph_1a1275ffaa02426a03bcf3c68666da7b9b" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> UndirectedEdgeBitSet</type>
-        <definition>MRMESH_API UndirectedEdgeBitSet MR::WatershedGraph::getInterBasinEdges</definition>
-        <argsstring>(bool joinOverflowBasins=false) const</argsstring>
-        <name>getInterBasinEdges</name>
-        <qualifiedname>MR::WatershedGraph::getInterBasinEdges</qualifiedname>
-        <param>
-          <type>bool</type>
-          <declname>joinOverflowBasins</declname>
-          <defval>false</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>returns the mesh edges between current basins <parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>joinOverflowBasins</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>if true then overflowing basins will be merged in the target basins (except for overflow in outside) </para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="136" column="38"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1WatershedGraph_1a2b96d5828cae33b797cab004cf34e262" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::vector&lt; <ref refid="structMR_1_1WatershedGraph_1_1OverflowPoint" kindref="compound">OverflowPoint</ref> &gt;</type>
-        <definition>MRMESH_API std::vector&lt; OverflowPoint &gt; MR::WatershedGraph::getOverflowPoints</definition>
-        <argsstring>() const</argsstring>
-        <name>getOverflowPoints</name>
-        <qualifiedname>MR::WatershedGraph::getOverflowPoints</qualifiedname>
-        <briefdescription>
-<para>returns all overflow points in the graph </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="147" column="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1WatershedGraph_1a281a2a110ab44b33441d649c8461982b" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; <ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref>, <ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref> &gt;</type>
-        <definition>MRMESH_API Vector&lt; Graph::VertId, Graph::VertId &gt; MR::WatershedGraph::iniBasin2Tgt</definition>
-        <argsstring>(bool joinOverflowBasins=false) const</argsstring>
-        <name>iniBasin2Tgt</name>
-        <qualifiedname>MR::WatershedGraph::iniBasin2Tgt</qualifiedname>
-        <param>
-          <type>bool</type>
-          <declname>joinOverflowBasins</declname>
-          <defval>false</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>computes a map from initial basin id to a valid basin in which it was merged <parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>joinOverflowBasins</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>if true then overflowing basins will be merged in the target basins (except for overflow in outside) </para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="151" column="24"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gacbb29b2acc410b0a58645c023d793842" kind="function"><name>WatershedGraph</name></member>
+      <member refid="group__GeneralGroup_1gaef299dd01113f7319f2969d20c2115a5" kind="function"><name>getHeightAt</name></member>
+      <member refid="group__GeneralGroup_1ga52950e2fbd6e18253951cd1a837102dc" kind="function"><name>graph</name></member>
+      <member refid="group__GeneralGroup_1gaa866c31119fcc9efe5cde7a9f93ee2c4" kind="function"><name>totalArea</name></member>
+      <member refid="group__GeneralGroup_1ga75dfd7892ea152c119be891a63d24d0e" kind="function"><name>numBasins</name></member>
+      <member refid="group__GeneralGroup_1gaaded095af3e5c37cf3299086f255480d" kind="function"><name>basinInfo</name></member>
+      <member refid="group__GeneralGroup_1ga9af63cdf457000d537668057705b684c" kind="function"><name>basinInfo</name></member>
+      <member refid="group__GeneralGroup_1gac60717bcac94de1bf3eaf1f3eba5753f" kind="function"><name>bdInfo</name></member>
+      <member refid="group__GeneralGroup_1gae5da135593dd2516248f691c21c4afe2" kind="function"><name>bdInfo</name></member>
+      <member refid="group__GeneralGroup_1ga4debe23a2fd38c67f4bb53ae58dd9e9e" kind="function"><name>outsideId</name></member>
+      <member refid="group__GeneralGroup_1gae7ff9c7e88d770363e0d26f7e60e0db4" kind="function"><name>getRootBasin</name></member>
+      <member refid="group__GeneralGroup_1gac43f8ee39212a5349bfd21fd805b99cb" kind="function"><name>flowsTo</name></member>
+      <member refid="group__GeneralGroup_1ga6021b04d6337d5ef875942d64ce5b176" kind="function"><name>flowsFinallyTo</name></member>
+      <member refid="group__GeneralGroup_1gaabc0313f660489a2ef8d2fe8512066bc" kind="function"><name>setParentsToRoots</name></member>
+      <member refid="group__GeneralGroup_1ga36e73384698fb59ae775796b859ad1b5" kind="function"><name>findLowestBd</name></member>
+      <member refid="group__GeneralGroup_1gab91edc99a7a3042ca9f8d3cb80a74f4c" kind="function"><name>merge</name></member>
+      <member refid="group__GeneralGroup_1gab729c10829c758b62d6563fffa61d48e" kind="function"><name>mergeViaBd</name></member>
+      <member refid="group__GeneralGroup_1ga2b1df8bb29c7135286e8e6b59b036e27" kind="function"><name>getBasinFaces</name></member>
+      <member refid="group__GeneralGroup_1gae6bda4b2c59aa5d9d7dad25244ecc7cd" kind="function"><name>getAllBasinFaces</name></member>
+      <member refid="group__GeneralGroup_1ga8a02b4b9dff2548231f6154119e3de65" kind="function"><name>getBasinFacesBelowLevel</name></member>
+      <member refid="group__GeneralGroup_1ga154c7de06138c1644c08aacc3176192b" kind="function"><name>computeBasinVolume</name></member>
+      <member refid="group__GeneralGroup_1ga1275ffaa02426a03bcf3c68666da7b9b" kind="function"><name>getInterBasinEdges</name></member>
+      <member refid="group__GeneralGroup_1ga2b96d5828cae33b797cab004cf34e262" kind="function"><name>getOverflowPoints</name></member>
+      <member refid="group__GeneralGroup_1ga281a2a110ab44b33441d649c8461982b" kind="function"><name>iniBasin2Tgt</name></member>
     </sectiondef>
     <briefdescription>
 <para>graphs representing rain basins on the mesh </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="11" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" bodystart="12" bodyend="167"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" bodystart="15" bodyend="170"/>
     <listofallmembers>
-      <member refid="classMR_1_1WatershedGraph_1aaded095af3e5c37cf3299086f255480d" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>basinInfo</name></member>
-      <member refid="classMR_1_1WatershedGraph_1a9af63cdf457000d537668057705b684c" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>basinInfo</name></member>
-      <member refid="classMR_1_1WatershedGraph_1a96491a07552acbf4eb9b444823331461" prot="private" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>basins_</name></member>
-      <member refid="classMR_1_1WatershedGraph_1ac60717bcac94de1bf3eaf1f3eba5753f" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>bdInfo</name></member>
-      <member refid="classMR_1_1WatershedGraph_1ae5da135593dd2516248f691c21c4afe2" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>bdInfo</name></member>
-      <member refid="classMR_1_1WatershedGraph_1a49a07b99fad17464e3aca703d3ac72b1" prot="private" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>bds_</name></member>
-      <member refid="classMR_1_1WatershedGraph_1a154c7de06138c1644c08aacc3176192b" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>computeBasinVolume</name></member>
-      <member refid="classMR_1_1WatershedGraph_1a5463aad37b66b92aea9de4d6e0f171db" prot="private" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>face2iniBasin_</name></member>
-      <member refid="classMR_1_1WatershedGraph_1a36e73384698fb59ae775796b859ad1b5" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>findLowestBd</name></member>
-      <member refid="classMR_1_1WatershedGraph_1a6021b04d6337d5ef875942d64ce5b176" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>flowsFinallyTo</name></member>
-      <member refid="classMR_1_1WatershedGraph_1ac43f8ee39212a5349bfd21fd805b99cb" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>flowsTo</name></member>
-      <member refid="classMR_1_1WatershedGraph_1ae6bda4b2c59aa5d9d7dad25244ecc7cd" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>getAllBasinFaces</name></member>
-      <member refid="classMR_1_1WatershedGraph_1a2b1df8bb29c7135286e8e6b59b036e27" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>getBasinFaces</name></member>
-      <member refid="classMR_1_1WatershedGraph_1a8a02b4b9dff2548231f6154119e3de65" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>getBasinFacesBelowLevel</name></member>
-      <member refid="classMR_1_1WatershedGraph_1aef299dd01113f7319f2969d20c2115a5" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>getHeightAt</name></member>
-      <member refid="classMR_1_1WatershedGraph_1a1275ffaa02426a03bcf3c68666da7b9b" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>getInterBasinEdges</name></member>
-      <member refid="classMR_1_1WatershedGraph_1a2b96d5828cae33b797cab004cf34e262" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>getOverflowPoints</name></member>
-      <member refid="classMR_1_1WatershedGraph_1ae7ff9c7e88d770363e0d26f7e60e0db4" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>getRootBasin</name></member>
-      <member refid="classMR_1_1WatershedGraph_1a52950e2fbd6e18253951cd1a837102dc" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>graph</name></member>
-      <member refid="classMR_1_1WatershedGraph_1a196916d95a210d4a089811129e88069a" prot="private" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>graph_</name></member>
-      <member refid="classMR_1_1WatershedGraph_1a281a2a110ab44b33441d649c8461982b" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>iniBasin2Tgt</name></member>
-      <member refid="classMR_1_1WatershedGraph_1ab91edc99a7a3042ca9f8d3cb80a74f4c" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>merge</name></member>
-      <member refid="classMR_1_1WatershedGraph_1ab729c10829c758b62d6563fffa61d48e" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>mergeViaBd</name></member>
-      <member refid="classMR_1_1WatershedGraph_1aee42960a1ac1beafd3dcf37d30c879c9" prot="private" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>mesh_</name></member>
-      <member refid="classMR_1_1WatershedGraph_1a75dfd7892ea152c119be891a63d24d0e" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>numBasins</name></member>
-      <member refid="classMR_1_1WatershedGraph_1a4debe23a2fd38c67f4bb53ae58dd9e9e" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>outsideId</name></member>
-      <member refid="classMR_1_1WatershedGraph_1a1edaa81377e05473256334fb038becb8" prot="private" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>outsideId_</name></member>
-      <member refid="classMR_1_1WatershedGraph_1aa48b13ce1011fd290bd5fb1aa90c29b3" prot="private" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>parentBasin_</name></member>
-      <member refid="classMR_1_1WatershedGraph_1aabc0313f660489a2ef8d2fe8512066bc" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>setParentsToRoots</name></member>
-      <member refid="classMR_1_1WatershedGraph_1aa866c31119fcc9efe5cde7a9f93ee2c4" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>totalArea</name></member>
-      <member refid="classMR_1_1WatershedGraph_1a582cc77bfa73e02c8c18957f1e1f11b2" prot="private" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>totalArea_</name></member>
-      <member refid="classMR_1_1WatershedGraph_1acbb29b2acc410b0a58645c023d793842" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>WatershedGraph</name></member>
+      <member refid="group__GeneralGroup_1gaaded095af3e5c37cf3299086f255480d" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>basinInfo</name></member>
+      <member refid="group__GeneralGroup_1ga9af63cdf457000d537668057705b684c" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>basinInfo</name></member>
+      <member refid="group__GeneralGroup_1ga96491a07552acbf4eb9b444823331461" prot="private" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>basins_</name></member>
+      <member refid="group__GeneralGroup_1gac60717bcac94de1bf3eaf1f3eba5753f" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>bdInfo</name></member>
+      <member refid="group__GeneralGroup_1gae5da135593dd2516248f691c21c4afe2" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>bdInfo</name></member>
+      <member refid="group__GeneralGroup_1ga49a07b99fad17464e3aca703d3ac72b1" prot="private" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>bds_</name></member>
+      <member refid="group__GeneralGroup_1ga154c7de06138c1644c08aacc3176192b" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>computeBasinVolume</name></member>
+      <member refid="group__GeneralGroup_1ga5463aad37b66b92aea9de4d6e0f171db" prot="private" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>face2iniBasin_</name></member>
+      <member refid="group__GeneralGroup_1ga36e73384698fb59ae775796b859ad1b5" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>findLowestBd</name></member>
+      <member refid="group__GeneralGroup_1ga6021b04d6337d5ef875942d64ce5b176" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>flowsFinallyTo</name></member>
+      <member refid="group__GeneralGroup_1gac43f8ee39212a5349bfd21fd805b99cb" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>flowsTo</name></member>
+      <member refid="group__GeneralGroup_1gae6bda4b2c59aa5d9d7dad25244ecc7cd" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>getAllBasinFaces</name></member>
+      <member refid="group__GeneralGroup_1ga2b1df8bb29c7135286e8e6b59b036e27" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>getBasinFaces</name></member>
+      <member refid="group__GeneralGroup_1ga8a02b4b9dff2548231f6154119e3de65" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>getBasinFacesBelowLevel</name></member>
+      <member refid="group__GeneralGroup_1gaef299dd01113f7319f2969d20c2115a5" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>getHeightAt</name></member>
+      <member refid="group__GeneralGroup_1ga1275ffaa02426a03bcf3c68666da7b9b" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>getInterBasinEdges</name></member>
+      <member refid="group__GeneralGroup_1ga2b96d5828cae33b797cab004cf34e262" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>getOverflowPoints</name></member>
+      <member refid="group__GeneralGroup_1gae7ff9c7e88d770363e0d26f7e60e0db4" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>getRootBasin</name></member>
+      <member refid="group__GeneralGroup_1ga52950e2fbd6e18253951cd1a837102dc" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>graph</name></member>
+      <member refid="group__GeneralGroup_1ga196916d95a210d4a089811129e88069a" prot="private" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>graph_</name></member>
+      <member refid="group__GeneralGroup_1ga281a2a110ab44b33441d649c8461982b" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>iniBasin2Tgt</name></member>
+      <member refid="group__GeneralGroup_1gab91edc99a7a3042ca9f8d3cb80a74f4c" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>merge</name></member>
+      <member refid="group__GeneralGroup_1gab729c10829c758b62d6563fffa61d48e" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>mergeViaBd</name></member>
+      <member refid="group__GeneralGroup_1gaee42960a1ac1beafd3dcf37d30c879c9" prot="private" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>mesh_</name></member>
+      <member refid="group__GeneralGroup_1ga75dfd7892ea152c119be891a63d24d0e" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>numBasins</name></member>
+      <member refid="group__GeneralGroup_1ga4debe23a2fd38c67f4bb53ae58dd9e9e" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>outsideId</name></member>
+      <member refid="group__GeneralGroup_1ga1edaa81377e05473256334fb038becb8" prot="private" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>outsideId_</name></member>
+      <member refid="group__GeneralGroup_1gaa48b13ce1011fd290bd5fb1aa90c29b3" prot="private" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>parentBasin_</name></member>
+      <member refid="group__GeneralGroup_1gaabc0313f660489a2ef8d2fe8512066bc" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>setParentsToRoots</name></member>
+      <member refid="group__GeneralGroup_1gaa866c31119fcc9efe5cde7a9f93ee2c4" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>totalArea</name></member>
+      <member refid="group__GeneralGroup_1ga582cc77bfa73e02c8c18957f1e1f11b2" prot="private" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>totalArea_</name></member>
+      <member refid="group__GeneralGroup_1gacbb29b2acc410b0a58645c023d793842" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>WatershedGraph</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

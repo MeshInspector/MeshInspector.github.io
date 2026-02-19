@@ -9,785 +9,57 @@
       </param>
     </templateparamlist>
     <sectiondef kind="user-defined">
-      <memberdef kind="function" id="structMR_1_1Matrix2_1a3a21629633bf0e4bedadc69121c907ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename T</type>
-          </param>
-        </templateparamlist>
-        <type>decltype(dot(a.x, b.x))</type>
-        <definition>decltype(dot(a.x, b.x)) dot</definition>
-        <argsstring>(const Matrix2&lt; T &gt; &amp;a, const Matrix2&lt; T &gt; &amp;b)</argsstring>
-        <name>dot</name>
-        <qualifiedname>MR::Matrix2::dot</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2</ref>&lt; T &gt; &amp;</type>
-          <declname>a</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2</ref>&lt; T &gt; &amp;</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-<para>double-dot product: x = a : b </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" line="139" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" bodystart="139" bodyend="142"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Matrix2_1a2c4549e9880ef73fc3bed4a4aaeb3cba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename T</type>
-          </param>
-        </templateparamlist>
-        <type><ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2</ref>&lt; T &gt;</type>
-        <definition>Matrix2&lt; T &gt; outer</definition>
-        <argsstring>(const Vector2&lt; T &gt; &amp;a, const Vector2&lt; T &gt; &amp;b)</argsstring>
-        <name>outer</name>
-        <qualifiedname>MR::Matrix2::outer</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Vector2" kindref="compound">Vector2</ref>&lt; T &gt; &amp;</type>
-          <declname>a</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1Vector2" kindref="compound">Vector2</ref>&lt; T &gt; &amp;</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-<para>x = a * b^T </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" line="146" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" bodystart="146" bodyend="149"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga3a21629633bf0e4bedadc69121c907ed" kind="function"><name>dot</name></member>
+      <member refid="group__GeneralGroup_1ga2c4549e9880ef73fc3bed4a4aaeb3cba" kind="function"><name>outer</name></member>
     </sectiondef>
     <sectiondef kind="public-type">
-      <memberdef kind="typedef" id="structMR_1_1Matrix2_1a7c1746ef11222bfb25d596d33f0858df" prot="public" static="no">
-        <type>T</type>
-        <definition>using MR::Matrix2&lt; T &gt;::ValueType =  T</definition>
-        <argsstring></argsstring>
-        <name>ValueType</name>
-        <qualifiedname>MR::Matrix2::ValueType</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" line="22" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" bodystart="22" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="structMR_1_1Matrix2_1a7cf6cc56bb0bc27163e42206eb175932" prot="public" static="no">
-        <type><ref refid="structMR_1_1Vector2" kindref="compound">Vector2</ref>&lt; T &gt;</type>
-        <definition>using MR::Matrix2&lt; T &gt;::VectorType =  Vector2&lt;T&gt;</definition>
-        <argsstring></argsstring>
-        <name>VectorType</name>
-        <qualifiedname>MR::Matrix2::VectorType</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" line="23" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" bodystart="23" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga7c1746ef11222bfb25d596d33f0858df" kind="typedef"><name>ValueType</name></member>
+      <member refid="group__GeneralGroup_1ga7cf6cc56bb0bc27163e42206eb175932" kind="typedef"><name>VectorType</name></member>
     </sectiondef>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1Matrix2_1a07a97bdc2d9081ca6bb3f61742dd1074" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1Vector2" kindref="compound">Vector2</ref>&lt; T &gt;</type>
-        <definition>Vector2&lt;T&gt; MR::Matrix2&lt; T &gt;::x</definition>
-        <argsstring></argsstring>
-        <name>x</name>
-        <qualifiedname>MR::Matrix2::x</qualifiedname>
-        <initializer>{ 1, 0 }</initializer>
-        <briefdescription>
-<para>rows, identity matrix by default </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" line="26" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" bodystart="26" bodyend="26"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1Matrix2_1a71548cad8d3164c3d8d15d3e5bbd0b01" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1Vector2" kindref="compound">Vector2</ref>&lt; T &gt;</type>
-        <definition>Vector2&lt;T&gt; MR::Matrix2&lt; T &gt;::y</definition>
-        <argsstring></argsstring>
-        <name>y</name>
-        <qualifiedname>MR::Matrix2::y</qualifiedname>
-        <initializer>{ 0, 1 }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" line="27" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" bodystart="27" bodyend="27"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga07a97bdc2d9081ca6bb3f61742dd1074" kind="variable"><name>x</name></member>
+      <member refid="group__GeneralGroup_1ga71548cad8d3164c3d8d15d3e5bbd0b01" kind="variable"><name>y</name></member>
     </sectiondef>
     <sectiondef kind="public-static-attrib">
-      <memberdef kind="variable" id="structMR_1_1Matrix2_1a3dd25bad0d98593729b1afcd455d64ff" prot="public" static="yes" constexpr="yes" mutable="no">
-        <type><ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2</ref> static rotation(T <ref refid="namespaceMR_1a24a027691feb30cad77ca6a162d05c58a899186f7879ef9f1cf011b415f548c03" kindref="member">angle</ref>) noexcept <ref refid="group__BasicGroup_1ga6092fad6de6a4d75d57e992d1d373994" kindref="member">MR_REQUIRES_IF_SUPPORTED</ref>(std constexpr <ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2</ref> static rotation(const <ref refid="structMR_1_1Vector2" kindref="compound">Vector2</ref>&lt; T &gt; &amp;from, const <ref refid="structMR_1_1Vector2" kindref="compound">Vector2</ref>&lt; T &gt; &amp;to) noexcept <ref refid="group__BasicGroup_1ga6092fad6de6a4d75d57e992d1d373994" kindref="member">MR_REQUIRES_IF_SUPPORTED</ref>(std constexpr <ref refid="structMR_1_1Matrix" kindref="compound">Matrix</ref></type>
-        <definition>Matrix2 static rotation(T angle) noexcept MR_REQUIRES_IF_SUPPORTED(std constexpr Matrix2 static rotation(const Vector2&lt; T &gt; &amp;from, const Vector2&lt; T &gt; &amp;to) noexcept MR_REQUIRES_IF_SUPPORTED(std constexpr Matrix MR::Matrix2&lt; T &gt;::fromRows) (const Vector2&lt; T &gt; &amp;x, const Vector2&lt; T &gt; &amp;y) noexcept</definition>
-        <argsstring>)(const Vector2&lt; T &gt; &amp;x, const Vector2&lt; T &gt; &amp;y) noexcept</argsstring>
-        <name>fromRows</name>
-        <qualifiedname>MR::Matrix2::fromRows</qualifiedname>
-        <briefdescription>
-<para>creates matrix representing rotation around origin on given angle </para>
-        </briefdescription>
-        <detaileddescription>
-<para>creates matrix representing rotation that after application to (from) makes (to) vector constructs a matrix from its 2 rows </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" line="49" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" bodystart="49" bodyend="49"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga3dd25bad0d98593729b1afcd455d64ff" kind="variable"><name>fromRows</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1Matrix2_1a11b0766cdd3a2c4ef934d13fe73ab629" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>constexpr</type>
-        <definition>MR::Matrix2&lt; T &gt;::Matrix2</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>Matrix2</name>
-        <qualifiedname>MR::Matrix2::Matrix2</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" line="29" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" bodystart="29" bodyend="32"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Matrix2_1a465743fcd9bcc254f07f16213bfe27b5" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>constexpr</type>
-        <definition>MR::Matrix2&lt; T &gt;::Matrix2</definition>
-        <argsstring>(const Vector2&lt; T &gt; &amp;x, const Vector2&lt; T &gt; &amp;y)</argsstring>
-        <name>Matrix2</name>
-        <qualifiedname>MR::Matrix2::Matrix2</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Vector2" kindref="compound">Vector2</ref>&lt; T &gt; &amp;</type>
-          <declname>x</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1Vector2" kindref="compound">Vector2</ref>&lt; T &gt; &amp;</type>
-          <declname>y</declname>
-        </param>
-        <briefdescription>
-<para>initializes matrix from its 2 rows </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" line="34" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" bodystart="34" bodyend="34"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Matrix2_1a017815a02af27c71fd22fb0aa281ba24" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename U</type>
-          </param>
-        </templateparamlist>
-        <type>constexpr</type>
-        <definition>MR::Matrix2&lt; T &gt;::Matrix2</definition>
-        <argsstring>(const Matrix2&lt; U &gt; &amp;m)</argsstring>
-        <name>Matrix2</name>
-        <qualifiedname>MR::Matrix2::Matrix2</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2</ref>&lt; U &gt; &amp;</type>
-          <declname>m</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" line="36" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" bodystart="36" bodyend="36"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Matrix2_1aabbf695f8fc5b34d0c1ed9e215964a3e" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>const <ref refid="structMR_1_1Vector2" kindref="compound">Vector2</ref>&lt; T &gt; &amp;</type>
-        <definition>const Vector2&lt; T &gt; &amp; MR::Matrix2&lt; T &gt;::operator[]</definition>
-        <argsstring>(int row) const noexcept</argsstring>
-        <name>operator[]</name>
-        <qualifiedname>MR::Matrix2::operator[]</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>row</declname>
-        </param>
-        <briefdescription>
-<para>row access </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" line="55" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" bodystart="55" bodyend="55"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Matrix2_1a381d5f34663c1e9db5856d7ae4459a61" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Vector2" kindref="compound">Vector2</ref>&lt; T &gt; &amp;</type>
-        <definition>Vector2&lt; T &gt; &amp; MR::Matrix2&lt; T &gt;::operator[]</definition>
-        <argsstring>(int row) noexcept</argsstring>
-        <name>operator[]</name>
-        <qualifiedname>MR::Matrix2::operator[]</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>row</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" line="56" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" bodystart="56" bodyend="56"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Matrix2_1a54d2436df3221ca1c8a71f6a6f9c83f6" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Vector2" kindref="compound">Vector2</ref>&lt; T &gt;</type>
-        <definition>Vector2&lt; T &gt; MR::Matrix2&lt; T &gt;::col</definition>
-        <argsstring>(int i) const noexcept</argsstring>
-        <name>col</name>
-        <qualifiedname>MR::Matrix2::col</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>i</declname>
-        </param>
-        <briefdescription>
-<para>column access </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" line="59" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" bodystart="59" bodyend="59"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Matrix2_1aab47353e71af819ac1bd8e1a65f54335" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>T</type>
-        <definition>T MR::Matrix2&lt; T &gt;::trace</definition>
-        <argsstring>() const noexcept</argsstring>
-        <name>trace</name>
-        <qualifiedname>MR::Matrix2::trace</qualifiedname>
-        <briefdescription>
-<para>computes trace of the matrix </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" line="62" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" bodystart="62" bodyend="62"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Matrix2_1a2a4c12287a611bd319b5395cffb7188f" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>T</type>
-        <definition>T MR::Matrix2&lt; T &gt;::normSq</definition>
-        <argsstring>() const noexcept</argsstring>
-        <name>normSq</name>
-        <qualifiedname>MR::Matrix2::normSq</qualifiedname>
-        <briefdescription>
-<para>compute sum of squared matrix elements </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" line="64" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" bodystart="64" bodyend="64"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Matrix2_1aed63587874e8799354d5470f38d67893" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>auto</type>
-        <definition>auto MR::Matrix2&lt; T &gt;::norm</definition>
-        <argsstring>() const noexcept</argsstring>
-        <name>norm</name>
-        <qualifiedname>MR::Matrix2::norm</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-<para>Calling <computeroutput>sqrt</computeroutput> this way to hopefully support boost.multiprecision numbers. Returning <computeroutput>auto</computeroutput> to not break on integral types.</para>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" line="65" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" bodystart="65" bodyend="71"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Matrix2_1a7d3633d7718dc3c931cbfa0f61202137" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type>T</type>
-        <definition>T MR::Matrix2&lt; T &gt;::det</definition>
-        <argsstring>() const noexcept</argsstring>
-        <name>det</name>
-        <qualifiedname>MR::Matrix2::det</qualifiedname>
-        <briefdescription>
-<para>computes determinant of the matrix </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" line="73" column="17"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Matrix2_1ad308c1b6193b630e55c344146c340bcc" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2</ref>&lt; T &gt; inverse() const noexcept <ref refid="group__BasicGroup_1ga6092fad6de6a4d75d57e992d1d373994" kindref="member">MR_REQUIRES_IF_SUPPORTED</ref>(std constexpr <ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2</ref>&lt; T &gt;</type>
-        <definition>Matrix2&lt; T &gt; inverse() const noexcept MR_REQUIRES_IF_SUPPORTED(std constexpr Matrix2&lt; T &gt; MR::Matrix2&lt; T &gt;::transposed</definition>
-        <argsstring>() const noexcept</argsstring>
-        <name>transposed</name>
-        <qualifiedname>MR::Matrix2::transposed</qualifiedname>
-        <briefdescription>
-<para>computes inverse matrix </para>
-        </briefdescription>
-        <detaileddescription>
-<para>computes transposed matrix </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" line="77" column="23"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga11b0766cdd3a2c4ef934d13fe73ab629" kind="function"><name>Matrix2</name></member>
+      <member refid="group__GeneralGroup_1ga465743fcd9bcc254f07f16213bfe27b5" kind="function"><name>Matrix2</name></member>
+      <member refid="group__GeneralGroup_1ga017815a02af27c71fd22fb0aa281ba24" kind="function"><name>Matrix2</name></member>
+      <member refid="group__GeneralGroup_1gaabbf695f8fc5b34d0c1ed9e215964a3e" kind="function"><name>operator[]</name></member>
+      <member refid="group__GeneralGroup_1ga381d5f34663c1e9db5856d7ae4459a61" kind="function"><name>operator[]</name></member>
+      <member refid="group__GeneralGroup_1ga54d2436df3221ca1c8a71f6a6f9c83f6" kind="function"><name>col</name></member>
+      <member refid="group__GeneralGroup_1gaab47353e71af819ac1bd8e1a65f54335" kind="function"><name>trace</name></member>
+      <member refid="group__GeneralGroup_1ga2a4c12287a611bd319b5395cffb7188f" kind="function"><name>normSq</name></member>
+      <member refid="group__GeneralGroup_1gaed63587874e8799354d5470f38d67893" kind="function"><name>norm</name></member>
+      <member refid="group__GeneralGroup_1ga7d3633d7718dc3c931cbfa0f61202137" kind="function"><name>det</name></member>
+      <member refid="group__GeneralGroup_1gad308c1b6193b630e55c344146c340bcc" kind="function"><name>transposed</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="structMR_1_1Matrix2_1aee919fa6d0f9a5cbfb9cd5303c6439a8" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2</ref></type>
-        <definition>static constexpr Matrix2 MR::Matrix2&lt; T &gt;::zero</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>zero</name>
-        <qualifiedname>MR::Matrix2::zero</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" line="37" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" bodystart="37" bodyend="37"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Matrix2_1a603c6402f4e2b5d6035b58f1b2e1338a" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2</ref></type>
-        <definition>static constexpr Matrix2 MR::Matrix2&lt; T &gt;::identity</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>identity</name>
-        <qualifiedname>MR::Matrix2::identity</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" line="38" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" bodystart="38" bodyend="38"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Matrix2_1a20740a418f3d5d57096bf783f555663f" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2</ref></type>
-        <definition>static constexpr Matrix2 MR::Matrix2&lt; T &gt;::scale</definition>
-        <argsstring>(T s) noexcept</argsstring>
-        <name>scale</name>
-        <qualifiedname>MR::Matrix2::scale</qualifiedname>
-        <param>
-          <type>T</type>
-          <declname>s</declname>
-        </param>
-        <briefdescription>
-<para>returns a matrix that scales uniformly </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" line="40" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" bodystart="40" bodyend="40"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Matrix2_1a9cbc06b64434f03812878929389ee73a" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2</ref></type>
-        <definition>static constexpr Matrix2 MR::Matrix2&lt; T &gt;::scale</definition>
-        <argsstring>(T sx, T sy) noexcept</argsstring>
-        <name>scale</name>
-        <qualifiedname>MR::Matrix2::scale</qualifiedname>
-        <param>
-          <type>T</type>
-          <declname>sx</declname>
-        </param>
-        <param>
-          <type>T</type>
-          <declname>sy</declname>
-        </param>
-        <briefdescription>
-<para>returns a matrix that has its own scale along each axis </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" line="42" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" bodystart="42" bodyend="42"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Matrix2_1a88a8a56959e18d92f72cc9dda5e92edf" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2</ref></type>
-        <definition>static constexpr Matrix2 MR::Matrix2&lt; T &gt;::scale</definition>
-        <argsstring>(const Vector2&lt; T &gt; &amp;s) noexcept</argsstring>
-        <name>scale</name>
-        <qualifiedname>MR::Matrix2::scale</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Vector2" kindref="compound">Vector2</ref>&lt; T &gt; &amp;</type>
-          <declname>s</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" line="43" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" bodystart="43" bodyend="43"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Matrix2_1affde1c5285202ede2bc5447861e775a3" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2</ref></type>
-        <definition>static constexpr Matrix2 MR::Matrix2&lt; T &gt;::fromColumns</definition>
-        <argsstring>(const Vector2&lt; T &gt; &amp;x, const Vector2&lt; T &gt; &amp;y) noexcept</argsstring>
-        <name>fromColumns</name>
-        <qualifiedname>MR::Matrix2::fromColumns</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Vector2" kindref="compound">Vector2</ref>&lt; T &gt; &amp;</type>
-          <declname>x</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1Vector2" kindref="compound">Vector2</ref>&lt; T &gt; &amp;</type>
-          <declname>y</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>constructs a matrix from its 2 columns; use this method to get the matrix that transforms basis vectors ( plusX, plusY ) into vectors ( x, y ) respectively </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" line="52" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" bodystart="52" bodyend="52"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaee919fa6d0f9a5cbfb9cd5303c6439a8" kind="function"><name>zero</name></member>
+      <member refid="group__GeneralGroup_1ga603c6402f4e2b5d6035b58f1b2e1338a" kind="function"><name>identity</name></member>
+      <member refid="group__GeneralGroup_1ga20740a418f3d5d57096bf783f555663f" kind="function"><name>scale</name></member>
+      <member refid="group__GeneralGroup_1ga9cbc06b64434f03812878929389ee73a" kind="function"><name>scale</name></member>
+      <member refid="group__GeneralGroup_1ga88a8a56959e18d92f72cc9dda5e92edf" kind="function"><name>scale</name></member>
+      <member refid="group__GeneralGroup_1gaffde1c5285202ede2bc5447861e775a3" kind="function"><name>fromColumns</name></member>
     </sectiondef>
     <sectiondef kind="friend">
-      <memberdef kind="friend" id="structMR_1_1Matrix2_1a98cf431db6020f6d2758f7af02d503d5" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool operator==</definition>
-        <argsstring>(const Matrix2&lt; T &gt; &amp;a, const Matrix2&lt; T &gt; &amp;b)</argsstring>
-        <name>operator==</name>
-        <qualifiedname>MR::Matrix2::operator==</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2</ref>&lt; T &gt; &amp;</type>
-          <declname>a</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2</ref>&lt; T &gt; &amp;</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" line="79" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" bodystart="79" bodyend="79"/>
-      </memberdef>
-      <memberdef kind="friend" id="structMR_1_1Matrix2_1ab522018f571de9816ecde1763d1d7905" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool operator!=</definition>
-        <argsstring>(const Matrix2&lt; T &gt; &amp;a, const Matrix2&lt; T &gt; &amp;b)</argsstring>
-        <name>operator!=</name>
-        <qualifiedname>MR::Matrix2::operator!=</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2</ref>&lt; T &gt; &amp;</type>
-          <declname>a</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2</ref>&lt; T &gt; &amp;</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" line="80" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" bodystart="80" bodyend="80"/>
-      </memberdef>
-      <memberdef kind="friend" id="structMR_1_1Matrix2_1af4582c7f7c321b30a99860d0448973d1" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2</ref>&lt; decltype(std::declval&lt; T &gt;()+std::declval&lt; T &gt;())&gt;</type>
-        <definition>Matrix2&lt; decltype(std::declval&lt; T &gt;()+std::declval&lt; T &gt;())&gt; operator+</definition>
-        <argsstring>(const Matrix2&lt; T &gt; &amp;a, const Matrix2&lt; T &gt; &amp;b)</argsstring>
-        <name>operator+</name>
-        <qualifiedname>MR::Matrix2::operator+</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2</ref>&lt; T &gt; &amp;</type>
-          <declname>a</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2</ref>&lt; T &gt; &amp;</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-<para>NOTE: We use <computeroutput>std::declval()</computeroutput> in the operators below because libclang 18 in our binding generator is bugged and chokes on decltyping <computeroutput>a.x</computeroutput> and such. TODO fix this when we update libclang. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" line="84" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" bodystart="84" bodyend="84"/>
-      </memberdef>
-      <memberdef kind="friend" id="structMR_1_1Matrix2_1a3fe0fec3f29fad03e275e85faeead7c4" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2</ref>&lt; decltype(std::declval&lt; T &gt;() - std::declval&lt; T &gt;())&gt;</type>
-        <definition>Matrix2&lt; decltype(std::declval&lt; T &gt;() - std::declval&lt; T &gt;())&gt; operator-</definition>
-        <argsstring>(const Matrix2&lt; T &gt; &amp;a, const Matrix2&lt; T &gt; &amp;b)</argsstring>
-        <name>operator-</name>
-        <qualifiedname>MR::Matrix2::operator-</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2</ref>&lt; T &gt; &amp;</type>
-          <declname>a</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2</ref>&lt; T &gt; &amp;</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" line="85" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" bodystart="85" bodyend="85"/>
-      </memberdef>
-      <memberdef kind="friend" id="structMR_1_1Matrix2_1a837909397c4e6ab29402cda93d7fc63a" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2</ref>&lt; decltype(std::declval&lt; T &gt;() *std::declval&lt; T &gt;())&gt;</type>
-        <definition>Matrix2&lt; decltype(std::declval&lt; T &gt;() *std::declval&lt; T &gt;())&gt; operator*</definition>
-        <argsstring>(T a, const Matrix2&lt; T &gt; &amp;b)</argsstring>
-        <name>operator*</name>
-        <qualifiedname>MR::Matrix2::operator*</qualifiedname>
-        <param>
-          <type>T</type>
-          <declname>a</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2</ref>&lt; T &gt; &amp;</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" line="86" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" bodystart="86" bodyend="86"/>
-      </memberdef>
-      <memberdef kind="friend" id="structMR_1_1Matrix2_1a05dba8016df8a59a6892cc16e1a678ea" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2</ref>&lt; decltype(std::declval&lt; T &gt;() *std::declval&lt; T &gt;())&gt;</type>
-        <definition>Matrix2&lt; decltype(std::declval&lt; T &gt;() *std::declval&lt; T &gt;())&gt; operator*</definition>
-        <argsstring>(const Matrix2&lt; T &gt; &amp;b, T a)</argsstring>
-        <name>operator*</name>
-        <qualifiedname>MR::Matrix2::operator*</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2</ref>&lt; T &gt; &amp;</type>
-          <declname>b</declname>
-        </param>
-        <param>
-          <type>T</type>
-          <declname>a</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" line="87" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" bodystart="87" bodyend="87"/>
-      </memberdef>
-      <memberdef kind="friend" id="structMR_1_1Matrix2_1a3e8e10ee1aaf493f9333599ca515788e" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2</ref>&lt; decltype(std::declval&lt; T &gt;()/std::declval&lt; T &gt;())&gt;</type>
-        <definition>Matrix2&lt; decltype(std::declval&lt; T &gt;()/std::declval&lt; T &gt;())&gt; operator/</definition>
-        <argsstring>(Matrix2&lt; T &gt; b, T a)</argsstring>
-        <name>operator/</name>
-        <qualifiedname>MR::Matrix2::operator/</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2</ref>&lt; T &gt;</type>
-          <declname>b</declname>
-        </param>
-        <param>
-          <type>T</type>
-          <declname>a</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" line="88" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" bodystart="88" bodyend="94"/>
-      </memberdef>
-      <memberdef kind="friend" id="structMR_1_1Matrix2_1a8b02ee9732042ff4699a340ce4ea8049" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2</ref>&lt; T &gt; &amp;</type>
-        <definition>Matrix2&lt; T &gt; &amp; operator+=</definition>
-        <argsstring>(Matrix2&lt; T &gt; &amp;a, const Matrix2&lt; T &gt; &amp;b)</argsstring>
-        <name>operator+=</name>
-        <qualifiedname>MR::Matrix2::operator+=</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2</ref>&lt; T &gt; &amp;</type>
-          <declname>a</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2</ref>&lt; T &gt; &amp;</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" line="96" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" bodystart="96" bodyend="96"/>
-      </memberdef>
-      <memberdef kind="friend" id="structMR_1_1Matrix2_1a4b1031a11bde07e8ff7a36048f5b0826" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2</ref>&lt; T &gt; &amp;</type>
-        <definition>Matrix2&lt; T &gt; &amp; operator-=</definition>
-        <argsstring>(Matrix2&lt; T &gt; &amp;a, const Matrix2&lt; T &gt; &amp;b)</argsstring>
-        <name>operator-=</name>
-        <qualifiedname>MR::Matrix2::operator-=</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2</ref>&lt; T &gt; &amp;</type>
-          <declname>a</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2</ref>&lt; T &gt; &amp;</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" line="97" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" bodystart="97" bodyend="97"/>
-      </memberdef>
-      <memberdef kind="friend" id="structMR_1_1Matrix2_1a4fe1d49f3e3f1b1586398bc017fbf624" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2</ref>&lt; T &gt; &amp;</type>
-        <definition>Matrix2&lt; T &gt; &amp; operator*=</definition>
-        <argsstring>(Matrix2&lt; T &gt; &amp;a, T b)</argsstring>
-        <name>operator*=</name>
-        <qualifiedname>MR::Matrix2::operator*=</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2</ref>&lt; T &gt; &amp;</type>
-          <declname>a</declname>
-        </param>
-        <param>
-          <type>T</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" line="98" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" bodystart="98" bodyend="98"/>
-      </memberdef>
-      <memberdef kind="friend" id="structMR_1_1Matrix2_1ad755fc7fc625e7af42901f40e1131237" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2</ref>&lt; T &gt; &amp;</type>
-        <definition>Matrix2&lt; T &gt; &amp; operator/=</definition>
-        <argsstring>(Matrix2&lt; T &gt; &amp;a, T b)</argsstring>
-        <name>operator/=</name>
-        <qualifiedname>MR::Matrix2::operator/=</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2</ref>&lt; T &gt; &amp;</type>
-          <declname>a</declname>
-        </param>
-        <param>
-          <type>T</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" line="99" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" bodystart="99" bodyend="105"/>
-      </memberdef>
-      <memberdef kind="friend" id="structMR_1_1Matrix2_1a57b02d93016ffd4b59469045f701f9b3" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Vector2" kindref="compound">Vector2</ref>&lt; decltype(<ref refid="structMR_1_1Matrix2_1a3a21629633bf0e4bedadc69121c907ed" kindref="member">dot</ref>(std::declval&lt; <ref refid="structMR_1_1Vector2" kindref="compound">Vector2</ref>&lt; T &gt; &gt;(), std::declval&lt; <ref refid="structMR_1_1Vector2" kindref="compound">Vector2</ref>&lt; T &gt; &gt;()))&gt;</type>
-        <definition>Vector2&lt; decltype(dot(std::declval&lt; Vector2&lt; T &gt; &gt;(), std::declval&lt; Vector2&lt; T &gt; &gt;()))&gt; operator*</definition>
-        <argsstring>(const Matrix2&lt; T &gt; &amp;a, const Vector2&lt; T &gt; &amp;b)</argsstring>
-        <name>operator*</name>
-        <qualifiedname>MR::Matrix2::operator*</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2</ref>&lt; T &gt; &amp;</type>
-          <declname>a</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1Vector2" kindref="compound">Vector2</ref>&lt; T &gt; &amp;</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-<para>x = a * b </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" line="108" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" bodystart="108" bodyend="111"/>
-      </memberdef>
-      <memberdef kind="friend" id="structMR_1_1Matrix2_1aa1d028c161bda0af27b269e858c73c62" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2</ref>&lt; decltype(<ref refid="structMR_1_1Matrix2_1a3a21629633bf0e4bedadc69121c907ed" kindref="member">dot</ref>(std::declval&lt; <ref refid="structMR_1_1Vector2" kindref="compound">Vector2</ref>&lt; T &gt; &gt;(), std::declval&lt; <ref refid="structMR_1_1Vector2" kindref="compound">Vector2</ref>&lt; T &gt; &gt;()))&gt;</type>
-        <definition>Matrix2&lt; decltype(dot(std::declval&lt; Vector2&lt; T &gt; &gt;(), std::declval&lt; Vector2&lt; T &gt; &gt;()))&gt; operator*</definition>
-        <argsstring>(const Matrix2&lt; T &gt; &amp;a, const Matrix2&lt; T &gt; &amp;b)</argsstring>
-        <name>operator*</name>
-        <qualifiedname>MR::Matrix2::operator*</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2</ref>&lt; T &gt; &amp;</type>
-          <declname>a</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2</ref>&lt; T &gt; &amp;</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-<para>product of two matrices </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" line="114" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" bodystart="114" bodyend="121"/>
-      </memberdef>
-      <memberdef kind="friend" id="structMR_1_1Matrix2_1a3aa9f660c4939983d3efa165e87b844a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>std::ostream &amp;</type>
-        <definition>std::ostream &amp; operator&lt;&lt;</definition>
-        <argsstring>(std::ostream &amp;s, const Matrix2 &amp;mat)</argsstring>
-        <name>operator&lt;&lt;</name>
-        <qualifiedname>MR::Matrix2::operator&lt;&lt;</qualifiedname>
-        <param>
-          <type>std::ostream &amp;</type>
-          <declname>s</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2</ref> &amp;</type>
-          <declname>mat</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" line="123" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" bodystart="123" bodyend="126"/>
-      </memberdef>
-      <memberdef kind="friend" id="structMR_1_1Matrix2_1aa6667bd48f67add4dbc41823562e9517" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>std::istream &amp;</type>
-        <definition>std::istream &amp; operator&gt;&gt;</definition>
-        <argsstring>(std::istream &amp;s, Matrix2 &amp;mat)</argsstring>
-        <name>operator&gt;&gt;</name>
-        <qualifiedname>MR::Matrix2::operator&gt;&gt;</qualifiedname>
-        <param>
-          <type>std::istream &amp;</type>
-          <declname>s</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2</ref> &amp;</type>
-          <declname>mat</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" line="128" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" bodystart="128" bodyend="131"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga98cf431db6020f6d2758f7af02d503d5" kind="friend"><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1gab522018f571de9816ecde1763d1d7905" kind="friend"><name>operator!=</name></member>
+      <member refid="group__GeneralGroup_1gaf4582c7f7c321b30a99860d0448973d1" kind="friend"><name>operator+</name></member>
+      <member refid="group__GeneralGroup_1ga3fe0fec3f29fad03e275e85faeead7c4" kind="friend"><name>operator-</name></member>
+      <member refid="group__GeneralGroup_1ga837909397c4e6ab29402cda93d7fc63a" kind="friend"><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1ga05dba8016df8a59a6892cc16e1a678ea" kind="friend"><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1ga3e8e10ee1aaf493f9333599ca515788e" kind="friend"><name>operator/</name></member>
+      <member refid="group__GeneralGroup_1ga8b02ee9732042ff4699a340ce4ea8049" kind="friend"><name>operator+=</name></member>
+      <member refid="group__GeneralGroup_1ga4b1031a11bde07e8ff7a36048f5b0826" kind="friend"><name>operator-=</name></member>
+      <member refid="group__GeneralGroup_1ga4fe1d49f3e3f1b1586398bc017fbf624" kind="friend"><name>operator*=</name></member>
+      <member refid="group__GeneralGroup_1gad755fc7fc625e7af42901f40e1131237" kind="friend"><name>operator/=</name></member>
+      <member refid="group__GeneralGroup_1ga57b02d93016ffd4b59469045f701f9b3" kind="friend"><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1gaa1d028c161bda0af27b269e858c73c62" kind="friend"><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1ga3aa9f660c4939983d3efa165e87b844a" kind="friend"><name>operator&lt;&lt;</name></member>
+      <member refid="group__GeneralGroup_1gaa6667bd48f67add4dbc41823562e9517" kind="friend"><name>operator&gt;&gt;</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -810,47 +82,47 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" line="20" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" bodystart="21" bodyend="132"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" line="23" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix2.h" bodystart="24" bodyend="135"/>
     <listofallmembers>
-      <member refid="structMR_1_1Matrix2_1a54d2436df3221ca1c8a71f6a6f9c83f6" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>col</name></member>
-      <member refid="structMR_1_1Matrix2_1a7d3633d7718dc3c931cbfa0f61202137" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>det</name></member>
-      <member refid="structMR_1_1Matrix2_1a3a21629633bf0e4bedadc69121c907ed" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>dot</name></member>
-      <member refid="structMR_1_1Matrix2_1affde1c5285202ede2bc5447861e775a3" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>fromColumns</name></member>
-      <member refid="structMR_1_1Matrix2_1a3dd25bad0d98593729b1afcd455d64ff" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>fromRows</name></member>
-      <member refid="structMR_1_1Matrix2_1a603c6402f4e2b5d6035b58f1b2e1338a" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>identity</name></member>
-      <member refid="structMR_1_1Matrix2_1a11b0766cdd3a2c4ef934d13fe73ab629" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>Matrix2</name></member>
-      <member refid="structMR_1_1Matrix2_1a465743fcd9bcc254f07f16213bfe27b5" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>Matrix2</name></member>
-      <member refid="structMR_1_1Matrix2_1a017815a02af27c71fd22fb0aa281ba24" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>Matrix2</name></member>
-      <member refid="structMR_1_1Matrix2_1aed63587874e8799354d5470f38d67893" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>norm</name></member>
-      <member refid="structMR_1_1Matrix2_1a2a4c12287a611bd319b5395cffb7188f" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>normSq</name></member>
-      <member refid="structMR_1_1Matrix2_1ab522018f571de9816ecde1763d1d7905" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>operator!=</name></member>
-      <member refid="structMR_1_1Matrix2_1a837909397c4e6ab29402cda93d7fc63a" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>operator*</name></member>
-      <member refid="structMR_1_1Matrix2_1a05dba8016df8a59a6892cc16e1a678ea" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>operator*</name></member>
-      <member refid="structMR_1_1Matrix2_1a57b02d93016ffd4b59469045f701f9b3" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>operator*</name></member>
-      <member refid="structMR_1_1Matrix2_1aa1d028c161bda0af27b269e858c73c62" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>operator*</name></member>
-      <member refid="structMR_1_1Matrix2_1a4fe1d49f3e3f1b1586398bc017fbf624" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>operator*=</name></member>
-      <member refid="structMR_1_1Matrix2_1af4582c7f7c321b30a99860d0448973d1" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>operator+</name></member>
-      <member refid="structMR_1_1Matrix2_1a8b02ee9732042ff4699a340ce4ea8049" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>operator+=</name></member>
-      <member refid="structMR_1_1Matrix2_1a3fe0fec3f29fad03e275e85faeead7c4" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>operator-</name></member>
-      <member refid="structMR_1_1Matrix2_1a4b1031a11bde07e8ff7a36048f5b0826" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>operator-=</name></member>
-      <member refid="structMR_1_1Matrix2_1a3e8e10ee1aaf493f9333599ca515788e" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>operator/</name></member>
-      <member refid="structMR_1_1Matrix2_1ad755fc7fc625e7af42901f40e1131237" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>operator/=</name></member>
-      <member refid="structMR_1_1Matrix2_1a3aa9f660c4939983d3efa165e87b844a" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>operator&lt;&lt;</name></member>
-      <member refid="structMR_1_1Matrix2_1a98cf431db6020f6d2758f7af02d503d5" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>operator==</name></member>
-      <member refid="structMR_1_1Matrix2_1aa6667bd48f67add4dbc41823562e9517" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>operator&gt;&gt;</name></member>
-      <member refid="structMR_1_1Matrix2_1aabbf695f8fc5b34d0c1ed9e215964a3e" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>operator[]</name></member>
-      <member refid="structMR_1_1Matrix2_1a381d5f34663c1e9db5856d7ae4459a61" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>operator[]</name></member>
-      <member refid="structMR_1_1Matrix2_1a2c4549e9880ef73fc3bed4a4aaeb3cba" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>outer</name></member>
-      <member refid="structMR_1_1Matrix2_1a20740a418f3d5d57096bf783f555663f" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>scale</name></member>
-      <member refid="structMR_1_1Matrix2_1a9cbc06b64434f03812878929389ee73a" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>scale</name></member>
-      <member refid="structMR_1_1Matrix2_1a88a8a56959e18d92f72cc9dda5e92edf" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>scale</name></member>
-      <member refid="structMR_1_1Matrix2_1aab47353e71af819ac1bd8e1a65f54335" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>trace</name></member>
-      <member refid="structMR_1_1Matrix2_1ad308c1b6193b630e55c344146c340bcc" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>transposed</name></member>
-      <member refid="structMR_1_1Matrix2_1a7c1746ef11222bfb25d596d33f0858df" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>ValueType</name></member>
-      <member refid="structMR_1_1Matrix2_1a7cf6cc56bb0bc27163e42206eb175932" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>VectorType</name></member>
-      <member refid="structMR_1_1Matrix2_1a07a97bdc2d9081ca6bb3f61742dd1074" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>x</name></member>
-      <member refid="structMR_1_1Matrix2_1a71548cad8d3164c3d8d15d3e5bbd0b01" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>y</name></member>
-      <member refid="structMR_1_1Matrix2_1aee919fa6d0f9a5cbfb9cd5303c6439a8" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>zero</name></member>
+      <member refid="group__GeneralGroup_1ga54d2436df3221ca1c8a71f6a6f9c83f6" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>col</name></member>
+      <member refid="group__GeneralGroup_1ga7d3633d7718dc3c931cbfa0f61202137" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>det</name></member>
+      <member refid="group__GeneralGroup_1ga3a21629633bf0e4bedadc69121c907ed" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>dot</name></member>
+      <member refid="group__GeneralGroup_1gaffde1c5285202ede2bc5447861e775a3" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>fromColumns</name></member>
+      <member refid="group__GeneralGroup_1ga3dd25bad0d98593729b1afcd455d64ff" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>fromRows</name></member>
+      <member refid="group__GeneralGroup_1ga603c6402f4e2b5d6035b58f1b2e1338a" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>identity</name></member>
+      <member refid="group__GeneralGroup_1ga11b0766cdd3a2c4ef934d13fe73ab629" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>Matrix2</name></member>
+      <member refid="group__GeneralGroup_1ga465743fcd9bcc254f07f16213bfe27b5" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>Matrix2</name></member>
+      <member refid="group__GeneralGroup_1ga017815a02af27c71fd22fb0aa281ba24" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>Matrix2</name></member>
+      <member refid="group__GeneralGroup_1gaed63587874e8799354d5470f38d67893" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>norm</name></member>
+      <member refid="group__GeneralGroup_1ga2a4c12287a611bd319b5395cffb7188f" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>normSq</name></member>
+      <member refid="group__GeneralGroup_1gab522018f571de9816ecde1763d1d7905" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>operator!=</name></member>
+      <member refid="group__GeneralGroup_1ga837909397c4e6ab29402cda93d7fc63a" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1ga05dba8016df8a59a6892cc16e1a678ea" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1ga57b02d93016ffd4b59469045f701f9b3" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1gaa1d028c161bda0af27b269e858c73c62" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1ga4fe1d49f3e3f1b1586398bc017fbf624" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>operator*=</name></member>
+      <member refid="group__GeneralGroup_1gaf4582c7f7c321b30a99860d0448973d1" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>operator+</name></member>
+      <member refid="group__GeneralGroup_1ga8b02ee9732042ff4699a340ce4ea8049" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>operator+=</name></member>
+      <member refid="group__GeneralGroup_1ga3fe0fec3f29fad03e275e85faeead7c4" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>operator-</name></member>
+      <member refid="group__GeneralGroup_1ga4b1031a11bde07e8ff7a36048f5b0826" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>operator-=</name></member>
+      <member refid="group__GeneralGroup_1ga3e8e10ee1aaf493f9333599ca515788e" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>operator/</name></member>
+      <member refid="group__GeneralGroup_1gad755fc7fc625e7af42901f40e1131237" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>operator/=</name></member>
+      <member refid="group__GeneralGroup_1ga3aa9f660c4939983d3efa165e87b844a" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>operator&lt;&lt;</name></member>
+      <member refid="group__GeneralGroup_1ga98cf431db6020f6d2758f7af02d503d5" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1gaa6667bd48f67add4dbc41823562e9517" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>operator&gt;&gt;</name></member>
+      <member refid="group__GeneralGroup_1gaabbf695f8fc5b34d0c1ed9e215964a3e" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>operator[]</name></member>
+      <member refid="group__GeneralGroup_1ga381d5f34663c1e9db5856d7ae4459a61" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>operator[]</name></member>
+      <member refid="group__GeneralGroup_1ga2c4549e9880ef73fc3bed4a4aaeb3cba" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>outer</name></member>
+      <member refid="group__GeneralGroup_1ga20740a418f3d5d57096bf783f555663f" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>scale</name></member>
+      <member refid="group__GeneralGroup_1ga9cbc06b64434f03812878929389ee73a" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>scale</name></member>
+      <member refid="group__GeneralGroup_1ga88a8a56959e18d92f72cc9dda5e92edf" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>scale</name></member>
+      <member refid="group__GeneralGroup_1gaab47353e71af819ac1bd8e1a65f54335" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>trace</name></member>
+      <member refid="group__GeneralGroup_1gad308c1b6193b630e55c344146c340bcc" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>transposed</name></member>
+      <member refid="group__GeneralGroup_1ga7c1746ef11222bfb25d596d33f0858df" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>ValueType</name></member>
+      <member refid="group__GeneralGroup_1ga7cf6cc56bb0bc27163e42206eb175932" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>VectorType</name></member>
+      <member refid="group__GeneralGroup_1ga07a97bdc2d9081ca6bb3f61742dd1074" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>x</name></member>
+      <member refid="group__GeneralGroup_1ga71548cad8d3164c3d8d15d3e5bbd0b01" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>y</name></member>
+      <member refid="group__GeneralGroup_1gaee919fa6d0f9a5cbfb9cd5303c6439a8" prot="public" virt="non-virtual"><scope>MR::Matrix2</scope><name>zero</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

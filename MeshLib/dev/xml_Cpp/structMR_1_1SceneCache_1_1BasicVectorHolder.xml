@@ -3,79 +3,21 @@
   <compounddef id="structMR_1_1SceneCache_1_1BasicVectorHolder" kind="struct" language="C++" prot="private">
     <compoundname>MR::SceneCache::BasicVectorHolder</compoundname>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1SceneCache_1_1BasicVectorHolder_1a51511322a9bddec9642def76493870ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::SceneCache::BasicVectorHolder::BasicVectorHolder</definition>
-        <argsstring>()=default</argsstring>
-        <name>BasicVectorHolder</name>
-        <qualifiedname>MR::SceneCache::BasicVectorHolder::BasicVectorHolder</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneCache.h" line="33" column="9"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1SceneCache_1_1BasicVectorHolder_1af4d86ad80c963f4417cfbc39e70101be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::SceneCache::BasicVectorHolder::BasicVectorHolder</definition>
-        <argsstring>(const BasicVectorHolder &amp;)=default</argsstring>
-        <name>BasicVectorHolder</name>
-        <qualifiedname>MR::SceneCache::BasicVectorHolder::BasicVectorHolder</qualifiedname>
-        <param>
-          <type>const BasicVectorHolder &amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneCache.h" line="34" column="9"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1SceneCache_1_1BasicVectorHolder_1abc41b1d52dc166a328a71e832dfc8bc4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::SceneCache::BasicVectorHolder::BasicVectorHolder</definition>
-        <argsstring>(BasicVectorHolder &amp;&amp;)=default</argsstring>
-        <name>BasicVectorHolder</name>
-        <qualifiedname>MR::SceneCache::BasicVectorHolder::BasicVectorHolder</qualifiedname>
-        <param>
-          <type>BasicVectorHolder &amp;&amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneCache.h" line="35" column="9"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1SceneCache_1_1BasicVectorHolder_1a078475b1e162429a1e0c92ffe8c7cdc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type></type>
-        <definition>virtual MR::SceneCache::BasicVectorHolder::~BasicVectorHolder</definition>
-        <argsstring>()=default</argsstring>
-        <name>~BasicVectorHolder</name>
-        <qualifiedname>MR::SceneCache::BasicVectorHolder::~BasicVectorHolder</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneCache.h" line="36" column="17"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga51511322a9bddec9642def76493870ca" kind="function"><name>BasicVectorHolder</name></member>
+      <member refid="group__GeneralGroup_1gaf4d86ad80c963f4417cfbc39e70101be" kind="function"><name>BasicVectorHolder</name></member>
+      <member refid="group__GeneralGroup_1gabc41b1d52dc166a328a71e832dfc8bc4" kind="function"><name>BasicVectorHolder</name></member>
+      <member refid="group__GeneralGroup_1ga078475b1e162429a1e0c92ffe8c7cdc1" kind="function"><name>~BasicVectorHolder</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneCache.h" line="31" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneCache.h" bodystart="32" bodyend="37"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneCache.h" line="34" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneCache.h" bodystart="35" bodyend="40"/>
     <listofallmembers>
-      <member refid="structMR_1_1SceneCache_1_1BasicVectorHolder_1a51511322a9bddec9642def76493870ca" prot="public" virt="non-virtual"><scope>MR::SceneCache::BasicVectorHolder</scope><name>BasicVectorHolder</name></member>
-      <member refid="structMR_1_1SceneCache_1_1BasicVectorHolder_1af4d86ad80c963f4417cfbc39e70101be" prot="public" virt="non-virtual"><scope>MR::SceneCache::BasicVectorHolder</scope><name>BasicVectorHolder</name></member>
-      <member refid="structMR_1_1SceneCache_1_1BasicVectorHolder_1abc41b1d52dc166a328a71e832dfc8bc4" prot="public" virt="non-virtual"><scope>MR::SceneCache::BasicVectorHolder</scope><name>BasicVectorHolder</name></member>
-      <member refid="structMR_1_1SceneCache_1_1BasicVectorHolder_1a078475b1e162429a1e0c92ffe8c7cdc1" prot="public" virt="virtual"><scope>MR::SceneCache::BasicVectorHolder</scope><name>~BasicVectorHolder</name></member>
+      <member refid="group__GeneralGroup_1ga51511322a9bddec9642def76493870ca" prot="public" virt="non-virtual"><scope>MR::SceneCache::BasicVectorHolder</scope><name>BasicVectorHolder</name></member>
+      <member refid="group__GeneralGroup_1gaf4d86ad80c963f4417cfbc39e70101be" prot="public" virt="non-virtual"><scope>MR::SceneCache::BasicVectorHolder</scope><name>BasicVectorHolder</name></member>
+      <member refid="group__GeneralGroup_1gabc41b1d52dc166a328a71e832dfc8bc4" prot="public" virt="non-virtual"><scope>MR::SceneCache::BasicVectorHolder</scope><name>BasicVectorHolder</name></member>
+      <member refid="group__GeneralGroup_1ga078475b1e162429a1e0c92ffe8c7cdc1" prot="public" virt="virtual"><scope>MR::SceneCache::BasicVectorHolder</scope><name>~BasicVectorHolder</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -4,155 +4,28 @@
     <compoundname>MR::MruFormatParameters</compoundname>
     <includes refid="MRMruFormatParameters_8h" local="no">MRMruFormatParameters.h</includes>
     <sectiondef kind="public-type">
-      <memberdef kind="enum" id="structMR_1_1MruFormatParameters_1a54e98c48affcdf0689a304151d417c25" prot="public" static="no" strong="yes">
-        <type></type>
-        <name>MeshFormat</name>
-        <qualifiedname>MR::MruFormatParameters::MeshFormat</qualifiedname>
-        <enumvalue id="structMR_1_1MruFormatParameters_1a54e98c48affcdf0689a304151d417c25a31f480a71fd01b933a2d0e1e7482581f" prot="public">
-          <name>Ctm</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="structMR_1_1MruFormatParameters_1a54e98c48affcdf0689a304151d417c25ad7850358e3fe9fed08f572a22ca022be" prot="public">
-          <name>Ply</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="structMR_1_1MruFormatParameters_1a54e98c48affcdf0689a304151d417c25a48401d62ab2455effbf491df29ae1fd3" prot="public">
-          <name>Mrmesh</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMruFormatParameters.h" line="9" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMruFormatParameters.h" bodystart="10" bodyend="14"/>
-      </memberdef>
-      <memberdef kind="enum" id="structMR_1_1MruFormatParameters_1ab14f18f4a69f41e12e03f1f7f15685f8" prot="public" static="no" strong="yes">
-        <type></type>
-        <name>PointsFormat</name>
-        <qualifiedname>MR::MruFormatParameters::PointsFormat</qualifiedname>
-        <enumvalue id="structMR_1_1MruFormatParameters_1ab14f18f4a69f41e12e03f1f7f15685f8a31f480a71fd01b933a2d0e1e7482581f" prot="public">
-          <name>Ctm</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="structMR_1_1MruFormatParameters_1ab14f18f4a69f41e12e03f1f7f15685f8ad7850358e3fe9fed08f572a22ca022be" prot="public">
-          <name>Ply</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMruFormatParameters.h" line="16" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMruFormatParameters.h" bodystart="17" bodyend="20"/>
-      </memberdef>
-      <memberdef kind="enum" id="structMR_1_1MruFormatParameters_1aaa2c2e3e1b4ca72decab6d2e7a7b76c8" prot="public" static="no" strong="yes">
-        <type></type>
-        <name>VoxelsFormat</name>
-        <qualifiedname>MR::MruFormatParameters::VoxelsFormat</qualifiedname>
-        <enumvalue id="structMR_1_1MruFormatParameters_1aaa2c2e3e1b4ca72decab6d2e7a7b76c8a4fd071f92b9b26a8e6b37f8618176fdd" prot="public">
-          <name>Vdb</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="structMR_1_1MruFormatParameters_1aaa2c2e3e1b4ca72decab6d2e7a7b76c8a65e65c8ab0d8609ce12fc68a03cb8e00" prot="public">
-          <name>Raw</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMruFormatParameters.h" line="22" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMruFormatParameters.h" bodystart="23" bodyend="26"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga54e98c48affcdf0689a304151d417c25" kind="enum"><name>MeshFormat</name></member>
+      <member refid="group__GeneralGroup_1gab14f18f4a69f41e12e03f1f7f15685f8" kind="enum"><name>PointsFormat</name></member>
+      <member refid="group__GeneralGroup_1gaaa2c2e3e1b4ca72decab6d2e7a7b76c8" kind="enum"><name>VoxelsFormat</name></member>
     </sectiondef>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1MruFormatParameters_1a847374c0c9703ddd9fd62bcf0b779112" prot="public" static="no" mutable="no">
-        <type>enum <ref refid="structMR_1_1MruFormatParameters_1a54e98c48affcdf0689a304151d417c25" kindref="member">MR::MruFormatParameters::MeshFormat</ref></type>
-        <definition>enum MR::MruFormatParameters::MeshFormat MR::MruFormatParameters::meshFormat</definition>
-        <argsstring></argsstring>
-        <name>meshFormat</name>
-        <qualifiedname>MR::MruFormatParameters::meshFormat</qualifiedname>
-        <initializer>= <ref refid="structMR_1_1MruFormatParameters_1a54e98c48affcdf0689a304151d417c25ad7850358e3fe9fed08f572a22ca022be" kindref="member">MeshFormat::Ply</ref></initializer>
-        <briefdescription>
-<para><ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> storage format. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMruFormatParameters.h" line="14" column="23"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MruFormatParameters_1a0896b0c59237dfd0301dec798a268a29" prot="public" static="no" mutable="no">
-        <type>enum <ref refid="structMR_1_1MruFormatParameters_1ab14f18f4a69f41e12e03f1f7f15685f8" kindref="member">MR::MruFormatParameters::PointsFormat</ref></type>
-        <definition>enum MR::MruFormatParameters::PointsFormat MR::MruFormatParameters::pointsFormat</definition>
-        <argsstring></argsstring>
-        <name>pointsFormat</name>
-        <qualifiedname>MR::MruFormatParameters::pointsFormat</qualifiedname>
-        <initializer>= <ref refid="structMR_1_1MruFormatParameters_1ab14f18f4a69f41e12e03f1f7f15685f8ad7850358e3fe9fed08f572a22ca022be" kindref="member">PointsFormat::Ply</ref></initializer>
-        <briefdescription>
-<para><ref refid="classMR_1_1ObjectPoints" kindref="compound">ObjectPoints</ref> storage format. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMruFormatParameters.h" line="20" column="26"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MruFormatParameters_1a98733bb350e4aff5f5ef721bc16d9b27" prot="public" static="no" mutable="no">
-        <type>enum <ref refid="structMR_1_1MruFormatParameters_1aaa2c2e3e1b4ca72decab6d2e7a7b76c8" kindref="member">MR::MruFormatParameters::VoxelsFormat</ref></type>
-        <definition>enum MR::MruFormatParameters::VoxelsFormat MR::MruFormatParameters::voxelsFormat</definition>
-        <argsstring></argsstring>
-        <name>voxelsFormat</name>
-        <qualifiedname>MR::MruFormatParameters::voxelsFormat</qualifiedname>
-        <initializer>= <ref refid="structMR_1_1MruFormatParameters_1aaa2c2e3e1b4ca72decab6d2e7a7b76c8a4fd071f92b9b26a8e6b37f8618176fdd" kindref="member">VoxelsFormat::Vdb</ref></initializer>
-        <briefdescription>
-<para><ref refid="classMR_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref> storage format. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMruFormatParameters.h" line="26" column="25"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga847374c0c9703ddd9fd62bcf0b779112" kind="variable"><name>meshFormat</name></member>
+      <member refid="group__GeneralGroup_1ga0896b0c59237dfd0301dec798a268a29" kind="variable"><name>pointsFormat</name></member>
+      <member refid="group__GeneralGroup_1ga98733bb350e4aff5f5ef721bc16d9b27" kind="variable"><name>voxelsFormat</name></member>
     </sectiondef>
     <briefdescription>
 <para>Parameters of mesh / point / voxel object storage formats inside an .mru file. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMruFormatParameters.h" line="7" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMruFormatParameters.h" bodystart="8" bodyend="28"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMruFormatParameters.h" line="10" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMruFormatParameters.h" bodystart="11" bodyend="31"/>
     <listofallmembers>
-      <member refid="structMR_1_1MruFormatParameters_1a54e98c48affcdf0689a304151d417c25" prot="public" virt="non-virtual"><scope>MR::MruFormatParameters</scope><name>MeshFormat</name></member>
-      <member refid="structMR_1_1MruFormatParameters_1a847374c0c9703ddd9fd62bcf0b779112" prot="public" virt="non-virtual"><scope>MR::MruFormatParameters</scope><name>meshFormat</name></member>
-      <member refid="structMR_1_1MruFormatParameters_1ab14f18f4a69f41e12e03f1f7f15685f8" prot="public" virt="non-virtual"><scope>MR::MruFormatParameters</scope><name>PointsFormat</name></member>
-      <member refid="structMR_1_1MruFormatParameters_1a0896b0c59237dfd0301dec798a268a29" prot="public" virt="non-virtual"><scope>MR::MruFormatParameters</scope><name>pointsFormat</name></member>
-      <member refid="structMR_1_1MruFormatParameters_1aaa2c2e3e1b4ca72decab6d2e7a7b76c8" prot="public" virt="non-virtual"><scope>MR::MruFormatParameters</scope><name>VoxelsFormat</name></member>
-      <member refid="structMR_1_1MruFormatParameters_1a98733bb350e4aff5f5ef721bc16d9b27" prot="public" virt="non-virtual"><scope>MR::MruFormatParameters</scope><name>voxelsFormat</name></member>
+      <member refid="group__GeneralGroup_1ga54e98c48affcdf0689a304151d417c25" prot="public" virt="non-virtual"><scope>MR::MruFormatParameters</scope><name>MeshFormat</name></member>
+      <member refid="group__GeneralGroup_1ga847374c0c9703ddd9fd62bcf0b779112" prot="public" virt="non-virtual"><scope>MR::MruFormatParameters</scope><name>meshFormat</name></member>
+      <member refid="group__GeneralGroup_1gab14f18f4a69f41e12e03f1f7f15685f8" prot="public" virt="non-virtual"><scope>MR::MruFormatParameters</scope><name>PointsFormat</name></member>
+      <member refid="group__GeneralGroup_1ga0896b0c59237dfd0301dec798a268a29" prot="public" virt="non-virtual"><scope>MR::MruFormatParameters</scope><name>pointsFormat</name></member>
+      <member refid="group__GeneralGroup_1gaaa2c2e3e1b4ca72decab6d2e7a7b76c8" prot="public" virt="non-virtual"><scope>MR::MruFormatParameters</scope><name>VoxelsFormat</name></member>
+      <member refid="group__GeneralGroup_1ga98733bb350e4aff5f5ef721bc16d9b27" prot="public" virt="non-virtual"><scope>MR::MruFormatParameters</scope><name>voxelsFormat</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

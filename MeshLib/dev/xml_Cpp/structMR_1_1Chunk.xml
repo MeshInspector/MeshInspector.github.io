@@ -4,46 +4,18 @@
     <compoundname>MR::Chunk</compoundname>
     <includes refid="MRChunkIterator_8h" local="no">MRChunkIterator.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1Chunk_1a67302698c90451ac1dbc264851582a22" prot="public" static="no" mutable="no">
-        <type>size_t</type>
-        <definition>size_t MR::Chunk::offset</definition>
-        <argsstring></argsstring>
-        <name>offset</name>
-        <qualifiedname>MR::Chunk::offset</qualifiedname>
-        <briefdescription>
-<para>chunk offset </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChunkIterator.h" line="15" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChunkIterator.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1Chunk_1adb4508fa30f32657421915e81df16da7" prot="public" static="no" mutable="no">
-        <type>size_t</type>
-        <definition>size_t MR::Chunk::size</definition>
-        <argsstring></argsstring>
-        <name>size</name>
-        <qualifiedname>MR::Chunk::size</qualifiedname>
-        <briefdescription>
-<para>chunk size; the last chunk&apos;s size may be smaller than other chunk&apos;s ones </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChunkIterator.h" line="17" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChunkIterator.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga67302698c90451ac1dbc264851582a22" kind="variable"><name>offset</name></member>
+      <member refid="group__GeneralGroup_1gadb4508fa30f32657421915e81df16da7" kind="variable"><name>size</name></member>
     </sectiondef>
     <briefdescription>
 <para>array chunk representation </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChunkIterator.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChunkIterator.h" bodystart="13" bodyend="18"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChunkIterator.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChunkIterator.h" bodystart="16" bodyend="21"/>
     <listofallmembers>
-      <member refid="structMR_1_1Chunk_1a67302698c90451ac1dbc264851582a22" prot="public" virt="non-virtual"><scope>MR::Chunk</scope><name>offset</name></member>
-      <member refid="structMR_1_1Chunk_1adb4508fa30f32657421915e81df16da7" prot="public" virt="non-virtual"><scope>MR::Chunk</scope><name>size</name></member>
+      <member refid="group__GeneralGroup_1ga67302698c90451ac1dbc264851582a22" prot="public" virt="non-virtual"><scope>MR::Chunk</scope><name>offset</name></member>
+      <member refid="group__GeneralGroup_1gadb4508fa30f32657421915e81df16da7" prot="public" virt="non-virtual"><scope>MR::Chunk</scope><name>size</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

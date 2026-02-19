@@ -8,768 +8,53 @@
     <innerclass refid="classMR_1_1DirectionWidget_1_1ChangeDirAction" prot="public">MR::DirectionWidget::ChangeDirAction</innerclass>
     <innerclass refid="classMR_1_1DirectionWidget_1_1ChangeVisibleAction" prot="public">MR::DirectionWidget::ChangeVisibleAction</innerclass>
     <sectiondef kind="public-type">
-      <memberdef kind="typedef" id="classMR_1_1DirectionWidget_1aa01b946f8079c3f2095a1fb5b019e275" prot="public" static="no">
-        <type>std::function&lt; void(const Vector3f &amp;, bool)&gt;</type>
-        <definition>using MR::DirectionWidget::OnDirectionChangedCallback =  std::function&lt;void( const Vector3f&amp;, bool )&gt;</definition>
-        <argsstring></argsstring>
-        <name>OnDirectionChangedCallback</name>
-        <qualifiedname>MR::DirectionWidget::OnDirectionChangedCallback</qualifiedname>
-        <briefdescription>
-<para>This callback is invoked every time when the direction is changed by mouse. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="18" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaa01b946f8079c3f2095a1fb5b019e275" kind="typedef"><name>OnDirectionChangedCallback</name></member>
     </sectiondef>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1DirectionWidget_1a21524fd1f8265a977c973d2d725dcb9e" prot="private" static="no" mutable="no">
-        <type>std::shared_ptr&lt; <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> &gt;</type>
-        <definition>std::shared_ptr&lt;ObjectMesh&gt; MR::DirectionWidget::directionObj_</definition>
-        <argsstring></argsstring>
-        <name>directionObj_</name>
-        <qualifiedname>MR::DirectionWidget::directionObj_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="58" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" bodystart="58" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1DirectionWidget_1a778ed833b12c7f939665d2427ef2b88d" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::DirectionWidget::blockedMouse_</definition>
-        <argsstring></argsstring>
-        <name>blockedMouse_</name>
-        <qualifiedname>MR::DirectionWidget::blockedMouse_</qualifiedname>
-        <initializer>{ false }</initializer>
-        <briefdescription>
-<para>if blocked cannot be moved with mouse </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="61" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" bodystart="61" bodyend="61"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1DirectionWidget_1ae94165854f6c9c3d4d486278510d09b6" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::DirectionWidget::mousePressed_</definition>
-        <argsstring></argsstring>
-        <name>mousePressed_</name>
-        <qualifiedname>MR::DirectionWidget::mousePressed_</qualifiedname>
-        <initializer>= false</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="62" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" bodystart="62" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1DirectionWidget_1a14739e5e04fc594327c33f3572d492f4" prot="private" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::DirectionWidget::draggingViewportStartPoint_</definition>
-        <argsstring></argsstring>
-        <name>draggingViewportStartPoint_</name>
-        <qualifiedname>MR::DirectionWidget::draggingViewportStartPoint_</qualifiedname>
-        <briefdescription>
-<para>When dragging an arrow, the initial picked point (in viewport space) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="64" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" bodystart="64" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1DirectionWidget_1a7d96de56ad47dba58f7fc2764335c4a3" prot="private" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::DirectionWidget::draggingViewportStartPointOffset_</definition>
-        <argsstring></argsstring>
-        <name>draggingViewportStartPointOffset_</name>
-        <qualifiedname>MR::DirectionWidget::draggingViewportStartPointOffset_</qualifiedname>
-        <briefdescription>
-<para>When dragging an arrow, the initial point on the arrow axis corresponding to draggingViewportStartPoint_. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="66" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" bodystart="66" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1DirectionWidget_1a18784e5894cca44ff94c0b8b0ff7d9b9" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1DirectionWidget_1aa01b946f8079c3f2095a1fb5b019e275" kindref="member">OnDirectionChangedCallback</ref></type>
-        <definition>OnDirectionChangedCallback MR::DirectionWidget::onDirectionChanged_</definition>
-        <argsstring></argsstring>
-        <name>onDirectionChanged_</name>
-        <qualifiedname>MR::DirectionWidget::onDirectionChanged_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="68" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" bodystart="68" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1DirectionWidget_1a6386dfd3a4e972bffca30a255e7d766a" prot="private" static="no" mutable="no">
-        <type><ref refid="structMR_1_1Color" kindref="compound">Color</ref></type>
-        <definition>Color MR::DirectionWidget::color_</definition>
-        <argsstring></argsstring>
-        <name>color_</name>
-        <qualifiedname>MR::DirectionWidget::color_</qualifiedname>
-        <initializer>= <ref refid="structMR_1_1Color_1a9f743712af5597ae9e55d338143d10c6" kindref="member">Color::red</ref>()</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="69" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" bodystart="69" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1DirectionWidget_1ab335a4ffbba77fbdebad1716dac29988" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::DirectionWidget::needToSaveHistory_</definition>
-        <argsstring></argsstring>
-        <name>needToSaveHistory_</name>
-        <qualifiedname>MR::DirectionWidget::needToSaveHistory_</qualifiedname>
-        <initializer>= true</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="70" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" bodystart="70" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga21524fd1f8265a977c973d2d725dcb9e" kind="variable"><name>directionObj_</name></member>
+      <member refid="group__GeneralGroup_1ga778ed833b12c7f939665d2427ef2b88d" kind="variable"><name>blockedMouse_</name></member>
+      <member refid="group__GeneralGroup_1gae94165854f6c9c3d4d486278510d09b6" kind="variable"><name>mousePressed_</name></member>
+      <member refid="group__GeneralGroup_1ga14739e5e04fc594327c33f3572d492f4" kind="variable"><name>draggingViewportStartPoint_</name></member>
+      <member refid="group__GeneralGroup_1ga7d96de56ad47dba58f7fc2764335c4a3" kind="variable"><name>draggingViewportStartPointOffset_</name></member>
+      <member refid="group__GeneralGroup_1ga18784e5894cca44ff94c0b8b0ff7d9b9" kind="variable"><name>onDirectionChanged_</name></member>
+      <member refid="group__GeneralGroup_1ga6386dfd3a4e972bffca30a255e7d766a" kind="variable"><name>color_</name></member>
+      <member refid="group__GeneralGroup_1gab335a4ffbba77fbdebad1716dac29988" kind="variable"><name>needToSaveHistory_</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMR_1_1DirectionWidget_1a813b4f3a2dcff8fe39f206573393d7d2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::DirectionWidget::clear_</definition>
-        <argsstring>()</argsstring>
-        <name>clear_</name>
-        <qualifiedname>MR::DirectionWidget::clear_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="71" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DirectionWidget_1a8f9de5bbc85644bbee58e5c02075670d" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>virtual MRVIEWER_API bool MR::DirectionWidget::onMouseDown_</definition>
-        <argsstring>(MouseButton button, int modifier) override</argsstring>
-        <name>onMouseDown_</name>
-        <qualifiedname>MR::DirectionWidget::onMouseDown_</qualifiedname>
-        <param>
-          <type><ref refid="namespaceMR_1a13f98b7840e7298925ef1770b7cdb62d" kindref="member">MouseButton</ref></type>
-          <declname>button</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>modifier</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="173" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DirectionWidget_1a8b9df3956f5d5dd7d3d30499a47bfef8" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>virtual MRVIEWER_API bool MR::DirectionWidget::onMouseUp_</definition>
-        <argsstring>(MouseButton button, int modifier) override</argsstring>
-        <name>onMouseUp_</name>
-        <qualifiedname>MR::DirectionWidget::onMouseUp_</qualifiedname>
-        <param>
-          <type><ref refid="namespaceMR_1a13f98b7840e7298925ef1770b7cdb62d" kindref="member">MouseButton</ref></type>
-          <declname>button</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>modifier</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="174" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DirectionWidget_1a2d728bac9ed55803b75e5e90e11eb3a8" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>virtual MRVIEWER_API bool MR::DirectionWidget::onMouseMove_</definition>
-        <argsstring>(int mouse_x, int mouse_y) override</argsstring>
-        <name>onMouseMove_</name>
-        <qualifiedname>MR::DirectionWidget::onMouseMove_</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>mouse_x</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>mouse_y</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="175" column="31"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga813b4f3a2dcff8fe39f206573393d7d2" kind="function"><name>clear_</name></member>
+      <member refid="group__GeneralGroup_1ga8f9de5bbc85644bbee58e5c02075670d" kind="function"><name>onMouseDown_</name></member>
+      <member refid="group__GeneralGroup_1ga8b9df3956f5d5dd7d3d30499a47bfef8" kind="function"><name>onMouseUp_</name></member>
+      <member refid="group__GeneralGroup_1ga2d728bac9ed55803b75e5e90e11eb3a8" kind="function"><name>onMouseMove_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1DirectionWidget_1aa7c48300967c5c63844c26bab44fbb2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::DirectionWidget::create</definition>
-        <argsstring>(Object *parent=nullptr)</argsstring>
-        <name>create</name>
-        <qualifiedname>MR::DirectionWidget::create</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> *</type>
-          <declname>parent</declname>
-          <defval>nullptr</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Creates a new widget for visualizing the direction and adds it to scene; subscribes to viewer events; intial local direction is (0,0,1), initial local base (0,0,0), the length is 1 <parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>parent</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>parent object for the widget, nullptr means scene root </para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="84" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DirectionWidget_1a71d4351e8ab58f288d52351d11efb325" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::DirectionWidget::create</definition>
-        <argsstring>(const Vector3f &amp;worldDir, const Vector3f &amp;worldBase, float worldLength, OnDirectionChangedCallback onDirectionChanged, Object *parent=nullptr)</argsstring>
-        <name>create</name>
-        <qualifiedname>MR::DirectionWidget::create</qualifiedname>
-        <param>
-          <type>const Vector3f &amp;</type>
-          <declname>worldDir</declname>
-        </param>
-        <param>
-          <type>const Vector3f &amp;</type>
-          <declname>worldBase</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>worldLength</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1DirectionWidget_1aa01b946f8079c3f2095a1fb5b019e275" kindref="member">OnDirectionChangedCallback</ref></type>
-          <declname>onDirectionChanged</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> *</type>
-          <declname>parent</declname>
-          <defval>nullptr</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Creates a new widget for visualizing the direction and adds it to scene subscribes to viewer events <parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>worldDir</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>initial direction, in world space </para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>worldBase</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>initial base of the arrow, in world space </para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>worldLength</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>length of the arrow, in world space </para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>onDirectionChanged</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>callback for the direction change </para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>parent</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>parent object for the widget, nullptr means scene root </para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="93" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DirectionWidget_1a5a2acfb8fd29d43fee23934a66211193" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::DirectionWidget::reset</definition>
-        <argsstring>()</argsstring>
-        <name>reset</name>
-        <qualifiedname>MR::DirectionWidget::reset</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Removes the widget from the scene unsubscribes from viewer events </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="97" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DirectionWidget_1a67a12d304a83009a1db343a406e4f46e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::DirectionWidget::setOnDirectionChangedCallback</definition>
-        <argsstring>(OnDirectionChangedCallback cb)</argsstring>
-        <name>setOnDirectionChangedCallback</name>
-        <qualifiedname>MR::DirectionWidget::setOnDirectionChangedCallback</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1DirectionWidget_1aa01b946f8079c3f2095a1fb5b019e275" kindref="member">OnDirectionChangedCallback</ref></type>
-          <declname>cb</declname>
-        </param>
-        <briefdescription>
-<para>Manually set callback function. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="100" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DirectionWidget_1ae541308fd431b72330eecbe49bd76a59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::DirectionWidget::updateArrow</definition>
-        <argsstring>(const Arrow &amp;arrow)</argsstring>
-        <name>updateArrow</name>
-        <qualifiedname>MR::DirectionWidget::updateArrow</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1DirectionWidget_1_1Arrow" kindref="compound">Arrow</ref> &amp;</type>
-          <declname>arrow</declname>
-        </param>
-        <briefdescription>
-<para>Updates the arrow, in world space. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="103" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DirectionWidget_1a255140a32cc6331fc4ab0919d6f4ef48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::DirectionWidget::updateLocalArrow</definition>
-        <argsstring>(const Arrow &amp;arrow)</argsstring>
-        <name>updateLocalArrow</name>
-        <qualifiedname>MR::DirectionWidget::updateLocalArrow</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1DirectionWidget_1_1Arrow" kindref="compound">Arrow</ref> &amp;</type>
-          <declname>arrow</declname>
-        </param>
-        <briefdescription>
-<para>Updates the arrow in parent&apos;s space. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="106" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DirectionWidget_1a29827ac67baeb7b760b6387c4656a046" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::DirectionWidget::updateDirection</definition>
-        <argsstring>(const Vector3f &amp;dir)</argsstring>
-        <name>updateDirection</name>
-        <qualifiedname>MR::DirectionWidget::updateDirection</qualifiedname>
-        <param>
-          <type>const Vector3f &amp;</type>
-          <declname>dir</declname>
-        </param>
-        <briefdescription>
-<para>Updates the direction of the arrow, in world space. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="109" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DirectionWidget_1a801060d204bb001111c96202a5d9fb2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::DirectionWidget::updateLocalDirection</definition>
-        <argsstring>(const Vector3f &amp;dir)</argsstring>
-        <name>updateLocalDirection</name>
-        <qualifiedname>MR::DirectionWidget::updateLocalDirection</qualifiedname>
-        <param>
-          <type>const Vector3f &amp;</type>
-          <declname>dir</declname>
-        </param>
-        <briefdescription>
-<para>Updates the direction of the arrow in parent&apos;s space. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="112" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DirectionWidget_1a0b215c94ee35a19ee1fc4beb14824c54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::DirectionWidget::updateBase</definition>
-        <argsstring>(const Vector3f &amp;base)</argsstring>
-        <name>updateBase</name>
-        <qualifiedname>MR::DirectionWidget::updateBase</qualifiedname>
-        <param>
-          <type>const Vector3f &amp;</type>
-          <declname>base</declname>
-        </param>
-        <briefdescription>
-<para>Updates the base of the arrow, in world space. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="115" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DirectionWidget_1a3ca40bd9656bf70367d8bac77cc29209" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::DirectionWidget::updateLocalBase</definition>
-        <argsstring>(const Vector3f &amp;base)</argsstring>
-        <name>updateLocalBase</name>
-        <qualifiedname>MR::DirectionWidget::updateLocalBase</qualifiedname>
-        <param>
-          <type>const Vector3f &amp;</type>
-          <declname>base</declname>
-        </param>
-        <briefdescription>
-<para>Updates the base of the arrow in parent&apos;s space. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="118" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DirectionWidget_1a919a4e2843ebcd0667b6572ba9d03caa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::DirectionWidget::updateLength</definition>
-        <argsstring>(float length)</argsstring>
-        <name>updateLength</name>
-        <qualifiedname>MR::DirectionWidget::updateLength</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>length</declname>
-        </param>
-        <briefdescription>
-<para>Updates the length of the arrow, in world space. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="121" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DirectionWidget_1a8cf9aef0efe734dfcf237307de21f988" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::DirectionWidget::updateLocalLength</definition>
-        <argsstring>(float length)</argsstring>
-        <name>updateLocalLength</name>
-        <qualifiedname>MR::DirectionWidget::updateLocalLength</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>length</declname>
-        </param>
-        <briefdescription>
-<para>Updates the length of the arrow in parent&apos;s space. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="124" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DirectionWidget_1aa6740ac9480b8cb2330ae4e01ff0b534" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const std::shared_ptr&lt; <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> &gt; &amp;</type>
-        <definition>const std::shared_ptr&lt; ObjectMesh &gt; &amp; MR::DirectionWidget::obj</definition>
-        <argsstring>() const</argsstring>
-        <name>obj</name>
-        <qualifiedname>MR::DirectionWidget::obj</qualifiedname>
-        <briefdescription>
-<para>Returns internal data model object of this widget. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="127" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" bodystart="127" bodyend="127"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DirectionWidget_1a2f9a3921002f4bf6b9fccd0e978e48c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::DirectionWidget::setVisible</definition>
-        <argsstring>(bool visible)</argsstring>
-        <name>setVisible</name>
-        <qualifiedname>MR::DirectionWidget::setVisible</qualifiedname>
-        <param>
-          <type>bool</type>
-          <declname>visible</declname>
-        </param>
-        <briefdescription>
-<para>Sets the visibility of the widget. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="130" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DirectionWidget_1a46d8141ed9672c79a97e527372067a9d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>MRVIEWER_API bool MR::DirectionWidget::isVisible</definition>
-        <argsstring>() const</argsstring>
-        <name>isVisible</name>
-        <qualifiedname>MR::DirectionWidget::isVisible</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="132" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DirectionWidget_1a332d85c9b4078c99b321602470690461" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::DirectionWidget::setColor</definition>
-        <argsstring>(const Color &amp;color)</argsstring>
-        <name>setColor</name>
-        <qualifiedname>MR::DirectionWidget::setColor</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &amp;</type>
-          <declname>color</declname>
-        </param>
-        <briefdescription>
-<para>Sets the color of the widget. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="135" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DirectionWidget_1a167c6b1a7f459b928ff38d1a1136b2cb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API const <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &amp;</type>
-        <definition>MRVIEWER_API const Color &amp; MR::DirectionWidget::getColor</definition>
-        <argsstring>() const</argsstring>
-        <name>getColor</name>
-        <qualifiedname>MR::DirectionWidget::getColor</qualifiedname>
-        <briefdescription>
-<para>Returns the color of the widget. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="138" column="30"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DirectionWidget_1a547334a4d09070805be994c2dcb47824" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API <ref refid="structMR_1_1DirectionWidget_1_1Arrow" kindref="compound">Arrow</ref></type>
-        <definition>MRVIEWER_API Arrow MR::DirectionWidget::getArrow</definition>
-        <argsstring>() const</argsstring>
-        <name>getArrow</name>
-        <qualifiedname>MR::DirectionWidget::getArrow</qualifiedname>
-        <briefdescription>
-<para>Returns the arrow&apos;s properties, in world space. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="141" column="24"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DirectionWidget_1a7b1457c3dbaa0ebd7923ba303d3d1a98" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API <ref refid="structMR_1_1DirectionWidget_1_1Arrow" kindref="compound">Arrow</ref></type>
-        <definition>MRVIEWER_API Arrow MR::DirectionWidget::getLocalArrow</definition>
-        <argsstring>() const</argsstring>
-        <name>getLocalArrow</name>
-        <qualifiedname>MR::DirectionWidget::getLocalArrow</qualifiedname>
-        <briefdescription>
-<para>Returns the arrow&apos;s properties in parent&apos;s space. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="144" column="24"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DirectionWidget_1adc4086befe1e92d69c93eff26a25ddf0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API Vector3f</type>
-        <definition>MRVIEWER_API Vector3f MR::DirectionWidget::getBase</definition>
-        <argsstring>() const</argsstring>
-        <name>getBase</name>
-        <qualifiedname>MR::DirectionWidget::getBase</qualifiedname>
-        <briefdescription>
-<para>Returns the base of the widget, in world space. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="147" column="27"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DirectionWidget_1afc07bd243ff36b48f7763c6ec96932d4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API Vector3f</type>
-        <definition>MRVIEWER_API Vector3f MR::DirectionWidget::getLocalBase</definition>
-        <argsstring>() const</argsstring>
-        <name>getLocalBase</name>
-        <qualifiedname>MR::DirectionWidget::getLocalBase</qualifiedname>
-        <briefdescription>
-<para>Returns the base of the widget in parent&apos;s space. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="150" column="27"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DirectionWidget_1a41bd393b48b79941e8901ccceef4639a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API Vector3f</type>
-        <definition>MRVIEWER_API Vector3f MR::DirectionWidget::getDirection</definition>
-        <argsstring>() const</argsstring>
-        <name>getDirection</name>
-        <qualifiedname>MR::DirectionWidget::getDirection</qualifiedname>
-        <briefdescription>
-<para>Returns the direction of the widget, in world space. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="153" column="27"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DirectionWidget_1af084f5d0be5faa483beedcd8e0efeb60" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API Vector3f</type>
-        <definition>MRVIEWER_API Vector3f MR::DirectionWidget::getLocalDirection</definition>
-        <argsstring>() const</argsstring>
-        <name>getLocalDirection</name>
-        <qualifiedname>MR::DirectionWidget::getLocalDirection</qualifiedname>
-        <briefdescription>
-<para>Returns the direction of the widget in parent&apos;s space. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="156" column="27"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DirectionWidget_1a0128153cf5d0c06d9fdfd105c8255ba5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API float</type>
-        <definition>MRVIEWER_API float MR::DirectionWidget::getLength</definition>
-        <argsstring>() const</argsstring>
-        <name>getLength</name>
-        <qualifiedname>MR::DirectionWidget::getLength</qualifiedname>
-        <briefdescription>
-<para>Returns the length of the arrow in world space. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="159" column="24"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DirectionWidget_1abda6f36244742f23c84a5e38c2d13d1b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API float</type>
-        <definition>MRVIEWER_API float MR::DirectionWidget::getLocalLength</definition>
-        <argsstring>() const</argsstring>
-        <name>getLocalLength</name>
-        <qualifiedname>MR::DirectionWidget::getLocalLength</qualifiedname>
-        <briefdescription>
-<para>Returns the length of the arrow in parent&apos;s space. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="162" column="24"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DirectionWidget_1a4aba9720112d3e1c3b3b3e824211c962" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API <ref refid="classMR_1_1Object" kindref="compound">Object</ref> *</type>
-        <definition>MRVIEWER_API Object * MR::DirectionWidget::getParentPtr</definition>
-        <argsstring>() const</argsstring>
-        <name>getParentPtr</name>
-        <qualifiedname>MR::DirectionWidget::getParentPtr</qualifiedname>
-        <briefdescription>
-<para>Returns pointer to parent object, always not-null after <ref refid="classMR_1_1DirectionWidget_1aa7c48300967c5c63844c26bab44fbb2f" kindref="member">create()</ref> and before <ref refid="classMR_1_1DirectionWidget_1a5a2acfb8fd29d43fee23934a66211193" kindref="member">reset()</ref> </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="165" column="25"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DirectionWidget_1a11e755a24b227cd14672ec94bfcd5028" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::DirectionWidget::isMouseBlocked</definition>
-        <argsstring>() const</argsstring>
-        <name>isMouseBlocked</name>
-        <qualifiedname>MR::DirectionWidget::isMouseBlocked</qualifiedname>
-        <briefdescription>
-<para>Block or allow mouse editing (allowed by default) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="168" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" bodystart="168" bodyend="168"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DirectionWidget_1aaacce6a74f1585b599a10bda3b361f5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::DirectionWidget::setMouseBlocked</definition>
-        <argsstring>(bool blocked)</argsstring>
-        <name>setMouseBlocked</name>
-        <qualifiedname>MR::DirectionWidget::setMouseBlocked</qualifiedname>
-        <param>
-          <type>bool</type>
-          <declname>blocked</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="170" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" bodystart="170" bodyend="170"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaa7c48300967c5c63844c26bab44fbb2f" kind="function"><name>create</name></member>
+      <member refid="group__GeneralGroup_1ga71d4351e8ab58f288d52351d11efb325" kind="function"><name>create</name></member>
+      <member refid="group__GeneralGroup_1ga5a2acfb8fd29d43fee23934a66211193" kind="function"><name>reset</name></member>
+      <member refid="group__GeneralGroup_1ga67a12d304a83009a1db343a406e4f46e" kind="function"><name>setOnDirectionChangedCallback</name></member>
+      <member refid="group__GeneralGroup_1gae541308fd431b72330eecbe49bd76a59" kind="function"><name>updateArrow</name></member>
+      <member refid="group__GeneralGroup_1ga255140a32cc6331fc4ab0919d6f4ef48" kind="function"><name>updateLocalArrow</name></member>
+      <member refid="group__GeneralGroup_1ga29827ac67baeb7b760b6387c4656a046" kind="function"><name>updateDirection</name></member>
+      <member refid="group__GeneralGroup_1ga801060d204bb001111c96202a5d9fb2a" kind="function"><name>updateLocalDirection</name></member>
+      <member refid="group__GeneralGroup_1ga0b215c94ee35a19ee1fc4beb14824c54" kind="function"><name>updateBase</name></member>
+      <member refid="group__GeneralGroup_1ga3ca40bd9656bf70367d8bac77cc29209" kind="function"><name>updateLocalBase</name></member>
+      <member refid="group__GeneralGroup_1ga919a4e2843ebcd0667b6572ba9d03caa" kind="function"><name>updateLength</name></member>
+      <member refid="group__GeneralGroup_1ga8cf9aef0efe734dfcf237307de21f988" kind="function"><name>updateLocalLength</name></member>
+      <member refid="group__GeneralGroup_1gaa6740ac9480b8cb2330ae4e01ff0b534" kind="function"><name>obj</name></member>
+      <member refid="group__GeneralGroup_1ga2f9a3921002f4bf6b9fccd0e978e48c9" kind="function"><name>setVisible</name></member>
+      <member refid="group__GeneralGroup_1ga46d8141ed9672c79a97e527372067a9d" kind="function"><name>isVisible</name></member>
+      <member refid="group__GeneralGroup_1ga332d85c9b4078c99b321602470690461" kind="function"><name>setColor</name></member>
+      <member refid="group__GeneralGroup_1ga167c6b1a7f459b928ff38d1a1136b2cb" kind="function"><name>getColor</name></member>
+      <member refid="group__GeneralGroup_1ga547334a4d09070805be994c2dcb47824" kind="function"><name>getArrow</name></member>
+      <member refid="group__GeneralGroup_1ga7b1457c3dbaa0ebd7923ba303d3d1a98" kind="function"><name>getLocalArrow</name></member>
+      <member refid="group__GeneralGroup_1gadc4086befe1e92d69c93eff26a25ddf0" kind="function"><name>getBase</name></member>
+      <member refid="group__GeneralGroup_1gafc07bd243ff36b48f7763c6ec96932d4" kind="function"><name>getLocalBase</name></member>
+      <member refid="group__GeneralGroup_1ga41bd393b48b79941e8901ccceef4639a" kind="function"><name>getDirection</name></member>
+      <member refid="group__GeneralGroup_1gaf084f5d0be5faa483beedcd8e0efeb60" kind="function"><name>getLocalDirection</name></member>
+      <member refid="group__GeneralGroup_1ga0128153cf5d0c06d9fdfd105c8255ba5" kind="function"><name>getLength</name></member>
+      <member refid="group__GeneralGroup_1gabda6f36244742f23c84a5e38c2d13d1b" kind="function"><name>getLocalLength</name></member>
+      <member refid="group__GeneralGroup_1ga4aba9720112d3e1c3b3b3e824211c962" kind="function"><name>getParentPtr</name></member>
+      <member refid="group__GeneralGroup_1ga11e755a24b227cd14672ec94bfcd5028" kind="function"><name>isMouseBlocked</name></member>
+      <member refid="group__GeneralGroup_1gaaacce6a74f1585b599a10bda3b361f5e" kind="function"><name>setMouseBlocked</name></member>
     </sectiondef>
     <briefdescription>
 <para>Widget for visualizing the direction. </para>
@@ -810,52 +95,52 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" bodystart="15" bodyend="176"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" bodystart="18" bodyend="179"/>
     <listofallmembers>
-      <member refid="classMR_1_1DirectionWidget_1a778ed833b12c7f939665d2427ef2b88d" prot="private" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>blockedMouse_</name></member>
-      <member refid="classMR_1_1DirectionWidget_1a813b4f3a2dcff8fe39f206573393d7d2" prot="private" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>clear_</name></member>
-      <member refid="classMR_1_1DirectionWidget_1a6386dfd3a4e972bffca30a255e7d766a" prot="private" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>color_</name></member>
-      <member refid="structMR_1_1MultiListener_1af3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::DirectionWidget</scope><name>connect</name></member>
-      <member refid="classMR_1_1DirectionWidget_1aa7c48300967c5c63844c26bab44fbb2f" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>create</name></member>
-      <member refid="classMR_1_1DirectionWidget_1a71d4351e8ab58f288d52351d11efb325" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>create</name></member>
-      <member refid="classMR_1_1DirectionWidget_1a21524fd1f8265a977c973d2d725dcb9e" prot="private" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>directionObj_</name></member>
-      <member refid="structMR_1_1MultiListener_1acfa598489bfbc3b88c84b029213d042c" prot="public" virt="virtual"><scope>MR::DirectionWidget</scope><name>disconnect</name></member>
-      <member refid="classMR_1_1DirectionWidget_1a14739e5e04fc594327c33f3572d492f4" prot="private" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>draggingViewportStartPoint_</name></member>
-      <member refid="classMR_1_1DirectionWidget_1a7d96de56ad47dba58f7fc2764335c4a3" prot="private" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>draggingViewportStartPointOffset_</name></member>
-      <member refid="classMR_1_1DirectionWidget_1a547334a4d09070805be994c2dcb47824" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>getArrow</name></member>
-      <member refid="classMR_1_1DirectionWidget_1adc4086befe1e92d69c93eff26a25ddf0" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>getBase</name></member>
-      <member refid="classMR_1_1DirectionWidget_1a167c6b1a7f459b928ff38d1a1136b2cb" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>getColor</name></member>
-      <member refid="classMR_1_1DirectionWidget_1a41bd393b48b79941e8901ccceef4639a" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>getDirection</name></member>
-      <member refid="classMR_1_1DirectionWidget_1a0128153cf5d0c06d9fdfd105c8255ba5" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>getLength</name></member>
-      <member refid="classMR_1_1DirectionWidget_1a7b1457c3dbaa0ebd7923ba303d3d1a98" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>getLocalArrow</name></member>
-      <member refid="classMR_1_1DirectionWidget_1afc07bd243ff36b48f7763c6ec96932d4" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>getLocalBase</name></member>
-      <member refid="classMR_1_1DirectionWidget_1af084f5d0be5faa483beedcd8e0efeb60" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>getLocalDirection</name></member>
-      <member refid="classMR_1_1DirectionWidget_1abda6f36244742f23c84a5e38c2d13d1b" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>getLocalLength</name></member>
-      <member refid="classMR_1_1DirectionWidget_1a4aba9720112d3e1c3b3b3e824211c962" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>getParentPtr</name></member>
-      <member refid="classMR_1_1DirectionWidget_1a11e755a24b227cd14672ec94bfcd5028" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>isMouseBlocked</name></member>
-      <member refid="classMR_1_1DirectionWidget_1a46d8141ed9672c79a97e527372067a9d" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>isVisible</name></member>
-      <member refid="classMR_1_1DirectionWidget_1ae94165854f6c9c3d4d486278510d09b6" prot="private" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>mousePressed_</name></member>
-      <member refid="classMR_1_1DirectionWidget_1ab335a4ffbba77fbdebad1716dac29988" prot="private" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>needToSaveHistory_</name></member>
-      <member refid="classMR_1_1DirectionWidget_1aa6740ac9480b8cb2330ae4e01ff0b534" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>obj</name></member>
-      <member refid="classMR_1_1DirectionWidget_1a18784e5894cca44ff94c0b8b0ff7d9b9" prot="private" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>onDirectionChanged_</name></member>
-      <member refid="classMR_1_1DirectionWidget_1aa01b946f8079c3f2095a1fb5b019e275" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>OnDirectionChangedCallback</name></member>
-      <member refid="classMR_1_1DirectionWidget_1a8f9de5bbc85644bbee58e5c02075670d" prot="private" virt="virtual"><scope>MR::DirectionWidget</scope><name>onMouseDown_</name></member>
-      <member refid="classMR_1_1DirectionWidget_1a2d728bac9ed55803b75e5e90e11eb3a8" prot="private" virt="virtual"><scope>MR::DirectionWidget</scope><name>onMouseMove_</name></member>
-      <member refid="classMR_1_1DirectionWidget_1a8b9df3956f5d5dd7d3d30499a47bfef8" prot="private" virt="virtual"><scope>MR::DirectionWidget</scope><name>onMouseUp_</name></member>
-      <member refid="classMR_1_1DirectionWidget_1a5a2acfb8fd29d43fee23934a66211193" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>reset</name></member>
-      <member refid="classMR_1_1DirectionWidget_1a332d85c9b4078c99b321602470690461" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>setColor</name></member>
-      <member refid="classMR_1_1DirectionWidget_1aaacce6a74f1585b599a10bda3b361f5e" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>setMouseBlocked</name></member>
-      <member refid="classMR_1_1DirectionWidget_1a67a12d304a83009a1db343a406e4f46e" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>setOnDirectionChangedCallback</name></member>
-      <member refid="classMR_1_1DirectionWidget_1a2f9a3921002f4bf6b9fccd0e978e48c9" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>setVisible</name></member>
-      <member refid="classMR_1_1DirectionWidget_1ae541308fd431b72330eecbe49bd76a59" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>updateArrow</name></member>
-      <member refid="classMR_1_1DirectionWidget_1a0b215c94ee35a19ee1fc4beb14824c54" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>updateBase</name></member>
-      <member refid="classMR_1_1DirectionWidget_1a29827ac67baeb7b760b6387c4656a046" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>updateDirection</name></member>
-      <member refid="classMR_1_1DirectionWidget_1a919a4e2843ebcd0667b6572ba9d03caa" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>updateLength</name></member>
-      <member refid="classMR_1_1DirectionWidget_1a255140a32cc6331fc4ab0919d6f4ef48" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>updateLocalArrow</name></member>
-      <member refid="classMR_1_1DirectionWidget_1a3ca40bd9656bf70367d8bac77cc29209" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>updateLocalBase</name></member>
-      <member refid="classMR_1_1DirectionWidget_1a801060d204bb001111c96202a5d9fb2a" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>updateLocalDirection</name></member>
-      <member refid="classMR_1_1DirectionWidget_1a8cf9aef0efe734dfcf237307de21f988" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>updateLocalLength</name></member>
-      <member refid="structMR_1_1MultiListener_1a726f5e2601b7f25e31824a0cac630fb2" prot="public" virt="virtual"><scope>MR::DirectionWidget</scope><name>~MultiListener</name></member>
+      <member refid="group__GeneralGroup_1ga778ed833b12c7f939665d2427ef2b88d" prot="private" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>blockedMouse_</name></member>
+      <member refid="group__GeneralGroup_1ga813b4f3a2dcff8fe39f206573393d7d2" prot="private" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>clear_</name></member>
+      <member refid="group__GeneralGroup_1ga6386dfd3a4e972bffca30a255e7d766a" prot="private" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>color_</name></member>
+      <member refid="group__GeneralGroup_1gaf3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::DirectionWidget</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1gaa7c48300967c5c63844c26bab44fbb2f" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>create</name></member>
+      <member refid="group__GeneralGroup_1ga71d4351e8ab58f288d52351d11efb325" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>create</name></member>
+      <member refid="group__GeneralGroup_1ga21524fd1f8265a977c973d2d725dcb9e" prot="private" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>directionObj_</name></member>
+      <member refid="group__GeneralGroup_1gacfa598489bfbc3b88c84b029213d042c" prot="public" virt="virtual"><scope>MR::DirectionWidget</scope><name>disconnect</name></member>
+      <member refid="group__GeneralGroup_1ga14739e5e04fc594327c33f3572d492f4" prot="private" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>draggingViewportStartPoint_</name></member>
+      <member refid="group__GeneralGroup_1ga7d96de56ad47dba58f7fc2764335c4a3" prot="private" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>draggingViewportStartPointOffset_</name></member>
+      <member refid="group__GeneralGroup_1ga547334a4d09070805be994c2dcb47824" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>getArrow</name></member>
+      <member refid="group__GeneralGroup_1gadc4086befe1e92d69c93eff26a25ddf0" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>getBase</name></member>
+      <member refid="group__GeneralGroup_1ga167c6b1a7f459b928ff38d1a1136b2cb" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>getColor</name></member>
+      <member refid="group__GeneralGroup_1ga41bd393b48b79941e8901ccceef4639a" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>getDirection</name></member>
+      <member refid="group__GeneralGroup_1ga0128153cf5d0c06d9fdfd105c8255ba5" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>getLength</name></member>
+      <member refid="group__GeneralGroup_1ga7b1457c3dbaa0ebd7923ba303d3d1a98" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>getLocalArrow</name></member>
+      <member refid="group__GeneralGroup_1gafc07bd243ff36b48f7763c6ec96932d4" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>getLocalBase</name></member>
+      <member refid="group__GeneralGroup_1gaf084f5d0be5faa483beedcd8e0efeb60" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>getLocalDirection</name></member>
+      <member refid="group__GeneralGroup_1gabda6f36244742f23c84a5e38c2d13d1b" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>getLocalLength</name></member>
+      <member refid="group__GeneralGroup_1ga4aba9720112d3e1c3b3b3e824211c962" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>getParentPtr</name></member>
+      <member refid="group__GeneralGroup_1ga11e755a24b227cd14672ec94bfcd5028" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>isMouseBlocked</name></member>
+      <member refid="group__GeneralGroup_1ga46d8141ed9672c79a97e527372067a9d" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>isVisible</name></member>
+      <member refid="group__GeneralGroup_1gae94165854f6c9c3d4d486278510d09b6" prot="private" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>mousePressed_</name></member>
+      <member refid="group__GeneralGroup_1gab335a4ffbba77fbdebad1716dac29988" prot="private" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>needToSaveHistory_</name></member>
+      <member refid="group__GeneralGroup_1gaa6740ac9480b8cb2330ae4e01ff0b534" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>obj</name></member>
+      <member refid="group__GeneralGroup_1ga18784e5894cca44ff94c0b8b0ff7d9b9" prot="private" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>onDirectionChanged_</name></member>
+      <member refid="group__GeneralGroup_1gaa01b946f8079c3f2095a1fb5b019e275" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>OnDirectionChangedCallback</name></member>
+      <member refid="group__GeneralGroup_1ga8f9de5bbc85644bbee58e5c02075670d" prot="private" virt="virtual"><scope>MR::DirectionWidget</scope><name>onMouseDown_</name></member>
+      <member refid="group__GeneralGroup_1ga2d728bac9ed55803b75e5e90e11eb3a8" prot="private" virt="virtual"><scope>MR::DirectionWidget</scope><name>onMouseMove_</name></member>
+      <member refid="group__GeneralGroup_1ga8b9df3956f5d5dd7d3d30499a47bfef8" prot="private" virt="virtual"><scope>MR::DirectionWidget</scope><name>onMouseUp_</name></member>
+      <member refid="group__GeneralGroup_1ga5a2acfb8fd29d43fee23934a66211193" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>reset</name></member>
+      <member refid="group__GeneralGroup_1ga332d85c9b4078c99b321602470690461" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>setColor</name></member>
+      <member refid="group__GeneralGroup_1gaaacce6a74f1585b599a10bda3b361f5e" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>setMouseBlocked</name></member>
+      <member refid="group__GeneralGroup_1ga67a12d304a83009a1db343a406e4f46e" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>setOnDirectionChangedCallback</name></member>
+      <member refid="group__GeneralGroup_1ga2f9a3921002f4bf6b9fccd0e978e48c9" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>setVisible</name></member>
+      <member refid="group__GeneralGroup_1gae541308fd431b72330eecbe49bd76a59" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>updateArrow</name></member>
+      <member refid="group__GeneralGroup_1ga0b215c94ee35a19ee1fc4beb14824c54" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>updateBase</name></member>
+      <member refid="group__GeneralGroup_1ga29827ac67baeb7b760b6387c4656a046" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>updateDirection</name></member>
+      <member refid="group__GeneralGroup_1ga919a4e2843ebcd0667b6572ba9d03caa" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>updateLength</name></member>
+      <member refid="group__GeneralGroup_1ga255140a32cc6331fc4ab0919d6f4ef48" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>updateLocalArrow</name></member>
+      <member refid="group__GeneralGroup_1ga3ca40bd9656bf70367d8bac77cc29209" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>updateLocalBase</name></member>
+      <member refid="group__GeneralGroup_1ga801060d204bb001111c96202a5d9fb2a" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>updateLocalDirection</name></member>
+      <member refid="group__GeneralGroup_1ga8cf9aef0efe734dfcf237307de21f988" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>updateLocalLength</name></member>
+      <member refid="group__GeneralGroup_1ga726f5e2601b7f25e31824a0cac630fb2" prot="public" virt="virtual"><scope>MR::DirectionWidget</scope><name>~MultiListener</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

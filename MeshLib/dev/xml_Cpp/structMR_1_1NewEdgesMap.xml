@@ -4,46 +4,18 @@
     <compoundname>MR::NewEdgesMap</compoundname>
     <includes refid="MRContoursCut_8h" local="no">MRContoursCut.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1NewEdgesMap_1a3af4a8bfbe6579dc273d0b9f368f77aa" prot="public" static="no" mutable="no">
-        <type>UndirectedEdgeBitSet</type>
-        <definition>UndirectedEdgeBitSet MR::NewEdgesMap::splitEdges</definition>
-        <argsstring></argsstring>
-        <name>splitEdges</name>
-        <qualifiedname>MR::NewEdgesMap::splitEdges</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>true here means that a subdivided edge is a part of some original edge edge before mesh subdivision; false here is both for unmodified edges and for new edges introduced within original triangles </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContoursCut.h" line="16" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContoursCut.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1NewEdgesMap_1a1d44ed6247b64a9007baa4bbbf2903aa" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1af8ad9e1b05a45987a3075d43bf345d68" kindref="member">HashMap</ref>&lt; UndirectedEdgeId, int &gt;</type>
-        <definition>HashMap&lt;UndirectedEdgeId, int&gt; MR::NewEdgesMap::map</definition>
-        <argsstring></argsstring>
-        <name>map</name>
-        <qualifiedname>MR::NewEdgesMap::map</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>maps every edge appeared during subdivision to an original edge before mesh subdivision; for splitEdges[key]=true, the value is arbitrary oriented original edge, for which key-edge is its part; for splitEdges[key]=false, the value is an original triangle </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContoursCut.h" line="21" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContoursCut.h" bodystart="21" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga3af4a8bfbe6579dc273d0b9f368f77aa" kind="variable"><name>splitEdges</name></member>
+      <member refid="group__GeneralGroup_1ga1d44ed6247b64a9007baa4bbbf2903aa" kind="variable"><name>map</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
 <para>Map structure to find primitives of old topology by edges introduced in cutMesh </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContoursCut.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContoursCut.h" bodystart="13" bodyend="22"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContoursCut.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContoursCut.h" bodystart="16" bodyend="25"/>
     <listofallmembers>
-      <member refid="structMR_1_1NewEdgesMap_1a1d44ed6247b64a9007baa4bbbf2903aa" prot="public" virt="non-virtual"><scope>MR::NewEdgesMap</scope><name>map</name></member>
-      <member refid="structMR_1_1NewEdgesMap_1a3af4a8bfbe6579dc273d0b9f368f77aa" prot="public" virt="non-virtual"><scope>MR::NewEdgesMap</scope><name>splitEdges</name></member>
+      <member refid="group__GeneralGroup_1ga1d44ed6247b64a9007baa4bbbf2903aa" prot="public" virt="non-virtual"><scope>MR::NewEdgesMap</scope><name>map</name></member>
+      <member refid="group__GeneralGroup_1ga3af4a8bfbe6579dc273d0b9f368f77aa" prot="public" virt="non-virtual"><scope>MR::NewEdgesMap</scope><name>splitEdges</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

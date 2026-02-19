@@ -4,113 +4,13 @@
     <compoundname>MR::CutMeshParameters</compoundname>
     <includes refid="MRContoursCut_8h" local="no">MRContoursCut.h</includes>
     <sectiondef kind="public-type">
-      <memberdef kind="enum" id="structMR_1_1CutMeshParameters_1ae51d141aa40e0f91506f4921b6797a33" prot="public" static="no" strong="yes">
-        <type></type>
-        <name>ForceFill</name>
-        <qualifiedname>MR::CutMeshParameters::ForceFill</qualifiedname>
-        <enumvalue id="structMR_1_1CutMeshParameters_1ae51d141aa40e0f91506f4921b6797a33a6adf97f83acf6453d4a6a4b1070f3754" prot="public">
-          <name>None</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="structMR_1_1CutMeshParameters_1ae51d141aa40e0f91506f4921b6797a33a0c6ad70beb3a7e76c3fc7adab7c46acc" prot="public">
-          <name>Good</name>
-          <briefdescription>
-<para>&lt; if bad faces occur does not fill anything </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="structMR_1_1CutMeshParameters_1ae51d141aa40e0f91506f4921b6797a33ab1c94ca2fbc3e78fc30069c8d0f01680" prot="public">
-          <name>All</name>
-          <briefdescription>
-<para>&lt; fills all faces except bad ones </para>
-          </briefdescription>
-          <detaileddescription>
-<para>&lt; fills all faces with bad ones, but on bad faces triangulation can also be bad (may have self-intersections or tunnels) </para>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>This enum defines the <ref refid="group__BooleanGroup_1gafb1acfb7ea34c1828a3f0e9b415c6dcc" kindref="member">MR::cutMesh</ref> behaviour in case of bad faces acure basicaly <ref refid="group__BooleanGroup_1gafb1acfb7ea34c1828a3f0e9b415c6dcc" kindref="member">MR::cutMesh</ref> removes all faces which contours pass through, adds new edges to topology and fills all removed parts</para>
-<para><simplesect kind="note"><para>Bad faces here mean faces where contours have intersections and cannot be cut and filled in an good way </para>
-</simplesect>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContoursCut.h" line="43" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContoursCut.h" bodystart="44" bodyend="48"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gae51d141aa40e0f91506f4921b6797a33" kind="enum"><name>ForceFill</name></member>
     </sectiondef>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1CutMeshParameters_1a3aaef62dde9c7e4727195071089e409f" prot="public" static="no" mutable="no">
-        <type>const <ref refid="structMR_1_1SortIntersectionsData" kindref="compound">SortIntersectionsData</ref> *</type>
-        <definition>const SortIntersectionsData* MR::CutMeshParameters::sortData</definition>
-        <argsstring></argsstring>
-        <name>sortData</name>
-        <qualifiedname>MR::CutMeshParameters::sortData</qualifiedname>
-        <initializer>{nullptr}</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>This is optional input for better contours resolving<linebreak/>
-it provides additional info from other mesh used in boolean operation, useful to solve some degeneration <simplesect kind="note"><para>Most likely you don&apos;t need this in case you call <ref refid="group__BooleanGroup_1gafb1acfb7ea34c1828a3f0e9b415c6dcc" kindref="member">MR::cutMesh</ref> manualy, use case of it is <ref refid="group__BooleanGroup_1ga5dc229b89588f1a3416aca4910e460d9" kindref="member">MR::boolean</ref> </para>
-</simplesect>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContoursCut.h" line="36" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContoursCut.h" bodystart="36" bodyend="36"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1CutMeshParameters_1a75222f670fe00aaef7a945b8ccbb3ea9" prot="public" static="no" mutable="no">
-        <type>FaceMap *</type>
-        <definition>FaceMap* MR::CutMeshParameters::new2OldMap</definition>
-        <argsstring></argsstring>
-        <name>new2OldMap</name>
-        <qualifiedname>MR::CutMeshParameters::new2OldMap</qualifiedname>
-        <initializer>{nullptr}</initializer>
-        <briefdescription>
-<para>This is optional output - map from newly generated faces to old faces (N-1) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContoursCut.h" line="38" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContoursCut.h" bodystart="38" bodyend="38"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1CutMeshParameters_1a4c3c99dc26d25d555e9ebf6c6dfc5cbf" prot="public" static="no" mutable="no">
-        <type>enum <ref refid="structMR_1_1CutMeshParameters_1ae51d141aa40e0f91506f4921b6797a33" kindref="member">MR::CutMeshParameters::ForceFill</ref></type>
-        <definition>enum MR::CutMeshParameters::ForceFill MR::CutMeshParameters::None</definition>
-        <argsstring></argsstring>
-        <name>None</name>
-        <qualifiedname>MR::CutMeshParameters::None</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContoursCut.h" line="48" column="34"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1CutMeshParameters_1ae4b1e4cc599311ec4eaa5e0d7f90518b" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1NewEdgesMap" kindref="compound">NewEdgesMap</ref> *</type>
-        <definition>NewEdgesMap* MR::CutMeshParameters::new2oldEdgesMap</definition>
-        <argsstring></argsstring>
-        <name>new2oldEdgesMap</name>
-        <qualifiedname>MR::CutMeshParameters::new2oldEdgesMap</qualifiedname>
-        <initializer>{ nullptr }</initializer>
-        <briefdescription>
-<para>Optional output map for each new edge introduced after cut maps edge from old topology or old face. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContoursCut.h" line="51" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContoursCut.h" bodystart="51" bodyend="51"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga3aaef62dde9c7e4727195071089e409f" kind="variable"><name>sortData</name></member>
+      <member refid="group__GeneralGroup_1ga75222f670fe00aaef7a945b8ccbb3ea9" kind="variable"><name>new2OldMap</name></member>
+      <member refid="group__GeneralGroup_1ga4c3c99dc26d25d555e9ebf6c6dfc5cbf" kind="variable"><name>None</name></member>
+      <member refid="group__GeneralGroup_1gae4b1e4cc599311ec4eaa5e0d7f90518b" kind="variable"><name>new2oldEdgesMap</name></member>
     </sectiondef>
     <briefdescription>
 <para>Parameters of <ref refid="group__BooleanGroup_1gafb1acfb7ea34c1828a3f0e9b415c6dcc" kindref="member">MR::cutMesh</ref>. </para>
@@ -154,13 +54,13 @@ it provides additional info from other mesh used in boolean operation, useful to
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContoursCut.h" line="31" column="1"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContoursCut.h" line="34" column="1"/>
     <listofallmembers>
-      <member refid="structMR_1_1CutMeshParameters_1ae51d141aa40e0f91506f4921b6797a33" prot="public" virt="non-virtual"><scope>MR::CutMeshParameters</scope><name>ForceFill</name></member>
-      <member refid="structMR_1_1CutMeshParameters_1ae4b1e4cc599311ec4eaa5e0d7f90518b" prot="public" virt="non-virtual"><scope>MR::CutMeshParameters</scope><name>new2oldEdgesMap</name></member>
-      <member refid="structMR_1_1CutMeshParameters_1a75222f670fe00aaef7a945b8ccbb3ea9" prot="public" virt="non-virtual"><scope>MR::CutMeshParameters</scope><name>new2OldMap</name></member>
-      <member refid="structMR_1_1CutMeshParameters_1a4c3c99dc26d25d555e9ebf6c6dfc5cbf" prot="public" virt="non-virtual"><scope>MR::CutMeshParameters</scope><name>None</name></member>
-      <member refid="structMR_1_1CutMeshParameters_1a3aaef62dde9c7e4727195071089e409f" prot="public" virt="non-virtual"><scope>MR::CutMeshParameters</scope><name>sortData</name></member>
+      <member refid="group__GeneralGroup_1gae51d141aa40e0f91506f4921b6797a33" prot="public" virt="non-virtual"><scope>MR::CutMeshParameters</scope><name>ForceFill</name></member>
+      <member refid="group__GeneralGroup_1gae4b1e4cc599311ec4eaa5e0d7f90518b" prot="public" virt="non-virtual"><scope>MR::CutMeshParameters</scope><name>new2oldEdgesMap</name></member>
+      <member refid="group__GeneralGroup_1ga75222f670fe00aaef7a945b8ccbb3ea9" prot="public" virt="non-virtual"><scope>MR::CutMeshParameters</scope><name>new2OldMap</name></member>
+      <member refid="group__GeneralGroup_1ga4c3c99dc26d25d555e9ebf6c6dfc5cbf" prot="public" virt="non-virtual"><scope>MR::CutMeshParameters</scope><name>None</name></member>
+      <member refid="group__GeneralGroup_1ga3aaef62dde9c7e4727195071089e409f" prot="public" virt="non-virtual"><scope>MR::CutMeshParameters</scope><name>sortData</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

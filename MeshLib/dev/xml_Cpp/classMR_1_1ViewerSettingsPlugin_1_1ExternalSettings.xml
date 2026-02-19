@@ -4,93 +4,24 @@
     <compoundname>MR::ViewerSettingsPlugin::ExternalSettings</compoundname>
     <includes refid="MRViewerSettingsPlugin_8h" local="no">MRViewerSettingsPlugin.h</includes>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings_1ab3fe6a46824654fabde6d6f501eb8141" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type></type>
-        <definition>virtual MR::ViewerSettingsPlugin::ExternalSettings::~ExternalSettings</definition>
-        <argsstring>()</argsstring>
-        <name>~ExternalSettings</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::ExternalSettings::~ExternalSettings</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="43" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" bodystart="43" bodyend="43"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings_1a2b40b2d1d9febe79a58c0f64f8aaf704" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
-        <type>const std::string &amp;</type>
-        <definition>virtual const std::string &amp; MR::ViewerSettingsPlugin::ExternalSettings::getName</definition>
-        <argsstring>() const =0</argsstring>
-        <name>getName</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::ExternalSettings::getName</qualifiedname>
-        <briefdescription>
-<para>returns the name of the setting, which is a unique value </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="45" column="35"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings_1ab5824d8d06eee687e2f907f59db61f96" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
-        <type>void</type>
-        <definition>virtual void MR::ViewerSettingsPlugin::ExternalSettings::draw</definition>
-        <argsstring>()=0</argsstring>
-        <name>draw</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::ExternalSettings::draw</qualifiedname>
-        <briefdescription>
-<para>the function of drawing the configuration <ref refid="namespaceMR_1_1UI" kindref="compound">UI</ref> </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="47" column="22"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings_1a5daa51d87dc540fd02b52303e05cbe20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MR::ViewerSettingsPlugin::ExternalSettings::reset</definition>
-        <argsstring>()</argsstring>
-        <name>reset</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::ExternalSettings::reset</qualifiedname>
-        <briefdescription>
-<para>restore the settings to their default values </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="49" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" bodystart="49" bodyend="49"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings_1aefce61dfeb872bbe04d722fc13f1a0ac" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>const char *</type>
-        <definition>virtual const char * MR::ViewerSettingsPlugin::ExternalSettings::separatorName</definition>
-        <argsstring>() const</argsstring>
-        <name>separatorName</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::ExternalSettings::separatorName</qualifiedname>
-        <briefdescription>
-<para>if not overriden this setting will be drawn in tools block </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="51" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" bodystart="51" bodyend="51"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gab3fe6a46824654fabde6d6f501eb8141" kind="function"><name>~ExternalSettings</name></member>
+      <member refid="group__GeneralGroup_1ga2b40b2d1d9febe79a58c0f64f8aaf704" kind="function"><name>getName</name></member>
+      <member refid="group__GeneralGroup_1gab5824d8d06eee687e2f907f59db61f96" kind="function"><name>draw</name></member>
+      <member refid="group__GeneralGroup_1ga5daa51d87dc540fd02b52303e05cbe20" kind="function"><name>reset</name></member>
+      <member refid="group__GeneralGroup_1gaefce61dfeb872bbe04d722fc13f1a0ac" kind="function"><name>separatorName</name></member>
     </sectiondef>
     <briefdescription>
 <para>basic class of external settings </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="40" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" bodystart="41" bodyend="52"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="43" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" bodystart="44" bodyend="55"/>
     <listofallmembers>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings_1ab5824d8d06eee687e2f907f59db61f96" prot="public" virt="pure-virtual"><scope>MR::ViewerSettingsPlugin::ExternalSettings</scope><name>draw</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings_1a2b40b2d1d9febe79a58c0f64f8aaf704" prot="public" virt="pure-virtual"><scope>MR::ViewerSettingsPlugin::ExternalSettings</scope><name>getName</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings_1a5daa51d87dc540fd02b52303e05cbe20" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin::ExternalSettings</scope><name>reset</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings_1aefce61dfeb872bbe04d722fc13f1a0ac" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin::ExternalSettings</scope><name>separatorName</name></member>
-      <member refid="classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings_1ab3fe6a46824654fabde6d6f501eb8141" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin::ExternalSettings</scope><name>~ExternalSettings</name></member>
+      <member refid="group__GeneralGroup_1gab5824d8d06eee687e2f907f59db61f96" prot="public" virt="pure-virtual"><scope>MR::ViewerSettingsPlugin::ExternalSettings</scope><name>draw</name></member>
+      <member refid="group__GeneralGroup_1ga2b40b2d1d9febe79a58c0f64f8aaf704" prot="public" virt="pure-virtual"><scope>MR::ViewerSettingsPlugin::ExternalSettings</scope><name>getName</name></member>
+      <member refid="group__GeneralGroup_1ga5daa51d87dc540fd02b52303e05cbe20" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin::ExternalSettings</scope><name>reset</name></member>
+      <member refid="group__GeneralGroup_1gaefce61dfeb872bbe04d722fc13f1a0ac" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin::ExternalSettings</scope><name>separatorName</name></member>
+      <member refid="group__GeneralGroup_1gab3fe6a46824654fabde6d6f501eb8141" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin::ExternalSettings</scope><name>~ExternalSettings</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

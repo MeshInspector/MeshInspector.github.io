@@ -148,7 +148,7 @@ $(function(){initNavTree('structMR_1_1DividePolylineParameters.html',''); initRe
   <div class="summary">
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structMR_1_1DividePolylineParameters-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">MR::DividePolylineParameters Struct Reference</div></div>
+  <div class="headertitle"><div class="title">MR::DividePolylineParameters Struct Reference<div class="ingroups"><a class="el" href="group__GeneralGroup.html">GeneralGroup</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -156,139 +156,27 @@ $(function(){initNavTree('structMR_1_1DividePolylineParameters.html',''); initRe
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a980edf71338a26044da6655e80f5d8bd" id="r_a980edf71338a26044da6655e80f5d8bd"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(EdgeId, EdgeId, float)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a980edf71338a26044da6655e80f5d8bd">onEdgeSplitCallback</a></td></tr>
-<tr class="memdesc:a980edf71338a26044da6655e80f5d8bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">onEdgeSplitCallback is invoked each time when an edge is split. Receives edge ID before split, edge ID after split, and weight of the origin vertex  <br /></td></tr>
-<tr class="separator:a980edf71338a26044da6655e80f5d8bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec036aa36c10ac45b9ef07682adb3350" id="r_aec036aa36c10ac45b9ef07682adb3350"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec036aa36c10ac45b9ef07682adb3350">closeLineAfterCut</a> = false</td></tr>
-<tr class="separator:aec036aa36c10ac45b9ef07682adb3350"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0dd7e0ac90d0f63dc7e3903f3107a461" id="r_a0dd7e0ac90d0f63dc7e3903f3107a461"><td class="memItemLeft" align="right" valign="top">VertMap *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0dd7e0ac90d0f63dc7e3903f3107a461">outVmap</a> = nullptr</td></tr>
-<tr class="memdesc:a0dd7e0ac90d0f63dc7e3903f3107a461"><td class="mdescLeft">&#160;</td><td class="mdescRight">map from input polyline verts to output  <br /></td></tr>
-<tr class="separator:a0dd7e0ac90d0f63dc7e3903f3107a461"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78d5c2ea44136f73fe510d5950043a30" id="r_a78d5c2ea44136f73fe510d5950043a30"><td class="memItemLeft" align="right" valign="top">EdgeMap *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78d5c2ea44136f73fe510d5950043a30">outEmap</a> = nullptr</td></tr>
-<tr class="memdesc:a78d5c2ea44136f73fe510d5950043a30"><td class="mdescLeft">&#160;</td><td class="mdescRight">map from input polyline edges to output  <br /></td></tr>
-<tr class="separator:a78d5c2ea44136f73fe510d5950043a30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe467eddfbfbcdf62b13cc9947b6eb00" id="r_afe467eddfbfbcdf62b13cc9947b6eb00"><td class="memItemLeft" align="right" valign="top">Polyline3 *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe467eddfbfbcdf62b13cc9947b6eb00">otherPart</a> = nullptr</td></tr>
-<tr class="memdesc:afe467eddfbfbcdf62b13cc9947b6eb00"><td class="mdescLeft">&#160;</td><td class="mdescRight">otherPart Optional return, polyline composed from edges on the negative side of the plane  <br /></td></tr>
-<tr class="separator:afe467eddfbfbcdf62b13cc9947b6eb00"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9aa163bbc5ba58ba30ce0dc8ba7a644" id="r_ac9aa163bbc5ba58ba30ce0dc8ba7a644"><td class="memItemLeft" align="right" valign="top">VertMap *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9aa163bbc5ba58ba30ce0dc8ba7a644">otherOutVmap</a> = nullptr</td></tr>
-<tr class="memdesc:ac9aa163bbc5ba58ba30ce0dc8ba7a644"><td class="mdescLeft">&#160;</td><td class="mdescRight">map from input polyline verts to other output  <br /></td></tr>
-<tr class="separator:ac9aa163bbc5ba58ba30ce0dc8ba7a644"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60aae2de01f58e5dfacacd1fc3e0f59c" id="r_a60aae2de01f58e5dfacacd1fc3e0f59c"><td class="memItemLeft" align="right" valign="top">EdgeMap *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60aae2de01f58e5dfacacd1fc3e0f59c">otherOutEmap</a> = nullptr</td></tr>
-<tr class="memdesc:a60aae2de01f58e5dfacacd1fc3e0f59c"><td class="mdescLeft">&#160;</td><td class="mdescRight">map from input polyline edges to other output  <br /></td></tr>
-<tr class="separator:a60aae2de01f58e5dfacacd1fc3e0f59c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga980edf71338a26044da6655e80f5d8bd" id="r_ga980edf71338a26044da6655e80f5d8bd"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(EdgeId, EdgeId, float)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga980edf71338a26044da6655e80f5d8bd">onEdgeSplitCallback</a></td></tr>
+<tr class="memdesc:ga980edf71338a26044da6655e80f5d8bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">onEdgeSplitCallback is invoked each time when an edge is split. Receives edge ID before split, edge ID after split, and weight of the origin vertex  <br /></td></tr>
+<tr class="separator:ga980edf71338a26044da6655e80f5d8bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaec036aa36c10ac45b9ef07682adb3350" id="r_gaec036aa36c10ac45b9ef07682adb3350"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaec036aa36c10ac45b9ef07682adb3350">closeLineAfterCut</a> = false</td></tr>
+<tr class="separator:gaec036aa36c10ac45b9ef07682adb3350"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0dd7e0ac90d0f63dc7e3903f3107a461" id="r_ga0dd7e0ac90d0f63dc7e3903f3107a461"><td class="memItemLeft" align="right" valign="top">VertMap *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga0dd7e0ac90d0f63dc7e3903f3107a461">outVmap</a> = nullptr</td></tr>
+<tr class="memdesc:ga0dd7e0ac90d0f63dc7e3903f3107a461"><td class="mdescLeft">&#160;</td><td class="mdescRight">map from input polyline verts to output  <br /></td></tr>
+<tr class="separator:ga0dd7e0ac90d0f63dc7e3903f3107a461"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga78d5c2ea44136f73fe510d5950043a30" id="r_ga78d5c2ea44136f73fe510d5950043a30"><td class="memItemLeft" align="right" valign="top">EdgeMap *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga78d5c2ea44136f73fe510d5950043a30">outEmap</a> = nullptr</td></tr>
+<tr class="memdesc:ga78d5c2ea44136f73fe510d5950043a30"><td class="mdescLeft">&#160;</td><td class="mdescRight">map from input polyline edges to output  <br /></td></tr>
+<tr class="separator:ga78d5c2ea44136f73fe510d5950043a30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafe467eddfbfbcdf62b13cc9947b6eb00" id="r_gafe467eddfbfbcdf62b13cc9947b6eb00"><td class="memItemLeft" align="right" valign="top">Polyline3 *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gafe467eddfbfbcdf62b13cc9947b6eb00">otherPart</a> = nullptr</td></tr>
+<tr class="memdesc:gafe467eddfbfbcdf62b13cc9947b6eb00"><td class="mdescLeft">&#160;</td><td class="mdescRight">otherPart Optional return, polyline composed from edges on the negative side of the plane  <br /></td></tr>
+<tr class="separator:gafe467eddfbfbcdf62b13cc9947b6eb00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac9aa163bbc5ba58ba30ce0dc8ba7a644" id="r_gac9aa163bbc5ba58ba30ce0dc8ba7a644"><td class="memItemLeft" align="right" valign="top">VertMap *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gac9aa163bbc5ba58ba30ce0dc8ba7a644">otherOutVmap</a> = nullptr</td></tr>
+<tr class="memdesc:gac9aa163bbc5ba58ba30ce0dc8ba7a644"><td class="mdescLeft">&#160;</td><td class="mdescRight">map from input polyline verts to other output  <br /></td></tr>
+<tr class="separator:gac9aa163bbc5ba58ba30ce0dc8ba7a644"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga60aae2de01f58e5dfacacd1fc3e0f59c" id="r_ga60aae2de01f58e5dfacacd1fc3e0f59c"><td class="memItemLeft" align="right" valign="top">EdgeMap *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga60aae2de01f58e5dfacacd1fc3e0f59c">otherOutEmap</a> = nullptr</td></tr>
+<tr class="memdesc:ga60aae2de01f58e5dfacacd1fc3e0f59c"><td class="mdescLeft">&#160;</td><td class="mdescRight">map from input polyline edges to other output  <br /></td></tr>
+<tr class="separator:ga60aae2de01f58e5dfacacd1fc3e0f59c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="aec036aa36c10ac45b9ef07682adb3350" name="aec036aa36c10ac45b9ef07682adb3350"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec036aa36c10ac45b9ef07682adb3350">&#9670;&#160;</a></span>closeLineAfterCut</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool MR::DividePolylineParameters::closeLineAfterCut = false</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>closeLineAfterCut if true, the ends of resulting polyline will be connected by new edges (can make a polyline closed, even if the original one was open) if close, only cut edges (no new edges will be created) </p>
-
-</div>
-</div>
-<a id="a980edf71338a26044da6655e80f5d8bd" name="a980edf71338a26044da6655e80f5d8bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a980edf71338a26044da6655e80f5d8bd">&#9670;&#160;</a></span>onEdgeSplitCallback</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::function&lt;void( EdgeId, EdgeId, float )&gt; MR::DividePolylineParameters::onEdgeSplitCallback</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>onEdgeSplitCallback is invoked each time when an edge is split. Receives edge ID before split, edge ID after split, and weight of the origin vertex </p>
-
-</div>
-</div>
-<a id="a60aae2de01f58e5dfacacd1fc3e0f59c" name="a60aae2de01f58e5dfacacd1fc3e0f59c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a60aae2de01f58e5dfacacd1fc3e0f59c">&#9670;&#160;</a></span>otherOutEmap</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">EdgeMap* MR::DividePolylineParameters::otherOutEmap = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>map from input polyline edges to other output </p>
-
-</div>
-</div>
-<a id="ac9aa163bbc5ba58ba30ce0dc8ba7a644" name="ac9aa163bbc5ba58ba30ce0dc8ba7a644"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac9aa163bbc5ba58ba30ce0dc8ba7a644">&#9670;&#160;</a></span>otherOutVmap</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">VertMap* MR::DividePolylineParameters::otherOutVmap = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>map from input polyline verts to other output </p>
-
-</div>
-</div>
-<a id="afe467eddfbfbcdf62b13cc9947b6eb00" name="afe467eddfbfbcdf62b13cc9947b6eb00"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe467eddfbfbcdf62b13cc9947b6eb00">&#9670;&#160;</a></span>otherPart</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Polyline3* MR::DividePolylineParameters::otherPart = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>otherPart Optional return, polyline composed from edges on the negative side of the plane </p>
-
-</div>
-</div>
-<a id="a78d5c2ea44136f73fe510d5950043a30" name="a78d5c2ea44136f73fe510d5950043a30"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a78d5c2ea44136f73fe510d5950043a30">&#9670;&#160;</a></span>outEmap</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">EdgeMap* MR::DividePolylineParameters::outEmap = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>map from input polyline edges to output </p>
-
-</div>
-</div>
-<a id="a0dd7e0ac90d0f63dc7e3903f3107a461" name="a0dd7e0ac90d0f63dc7e3903f3107a461"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0dd7e0ac90d0f63dc7e3903f3107a461">&#9670;&#160;</a></span>outVmap</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">VertMap* MR::DividePolylineParameters::outVmap = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>map from input polyline verts to output </p>
-
-</div>
-</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="MRPolylineTrimWithPlane_8h_source.html">MRPolylineTrimWithPlane.h</a></li>
 </ul>

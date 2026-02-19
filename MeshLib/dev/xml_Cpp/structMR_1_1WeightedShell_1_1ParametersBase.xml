@@ -55,7 +55,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" line="40" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" bodystart="40" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1WeightedShell_1_1ParametersBase_1accba4965ab6c2a4b2f28903261bce706" prot="public" static="no" mutable="no">
-        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+        <type>ProgressCallback</type>
         <definition>ProgressCallback MR::WeightedShell::ParametersBase::progress</definition>
         <argsstring></argsstring>
         <name>progress</name>

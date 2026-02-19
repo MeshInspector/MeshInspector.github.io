@@ -4,64 +4,21 @@
     <compoundname>MR::TriangleSegmentIntersectResult</compoundname>
     <includes refid="MRPrecisePredicates3_8h" local="no">MRPrecisePredicates3.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1TriangleSegmentIntersectResult_1a8676a2019b59ed30aa2204aef62a8ff8" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::TriangleSegmentIntersectResult::doIntersect</definition>
-        <argsstring></argsstring>
-        <name>doIntersect</name>
-        <qualifiedname>MR::TriangleSegmentIntersectResult::doIntersect</qualifiedname>
-        <initializer>= false</initializer>
-        <briefdescription>
-<para>whether triangle and segment intersect </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecisePredicates3.h" line="35" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecisePredicates3.h" bodystart="35" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1TriangleSegmentIntersectResult_1ad6af3b8ab26b46c4d6592c534e9b59c8" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::TriangleSegmentIntersectResult::dIsLeftFromABC</definition>
-        <argsstring></argsstring>
-        <name>dIsLeftFromABC</name>
-        <qualifiedname>MR::TriangleSegmentIntersectResult::dIsLeftFromABC</qualifiedname>
-        <initializer>= false</initializer>
-        <briefdescription>
-<para>whether the plane with orientated triangle ABC has D point at the left </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecisePredicates3.h" line="36" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecisePredicates3.h" bodystart="36" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga8676a2019b59ed30aa2204aef62a8ff8" kind="variable"><name>doIntersect</name></member>
+      <member refid="group__GeneralGroup_1gad6af3b8ab26b46c4d6592c534e9b59c8" kind="variable"><name>dIsLeftFromABC</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1TriangleSegmentIntersectResult_1a44ebc6eac0ba7a7421c713970a69f480" prot="public" static="no" const="yes" explicit="yes" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::TriangleSegmentIntersectResult::operator bool</definition>
-        <argsstring>() const</argsstring>
-        <name>operator bool</name>
-        <qualifiedname>MR::TriangleSegmentIntersectResult::operator bool</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecisePredicates3.h" line="38" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecisePredicates3.h" bodystart="38" bodyend="38"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga44ebc6eac0ba7a7421c713970a69f480" kind="function"><name>operator bool</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecisePredicates3.h" line="33" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecisePredicates3.h" bodystart="34" bodyend="39"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecisePredicates3.h" line="36" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecisePredicates3.h" bodystart="37" bodyend="42"/>
     <listofallmembers>
-      <member refid="structMR_1_1TriangleSegmentIntersectResult_1ad6af3b8ab26b46c4d6592c534e9b59c8" prot="public" virt="non-virtual"><scope>MR::TriangleSegmentIntersectResult</scope><name>dIsLeftFromABC</name></member>
-      <member refid="structMR_1_1TriangleSegmentIntersectResult_1a8676a2019b59ed30aa2204aef62a8ff8" prot="public" virt="non-virtual"><scope>MR::TriangleSegmentIntersectResult</scope><name>doIntersect</name></member>
-      <member refid="structMR_1_1TriangleSegmentIntersectResult_1a44ebc6eac0ba7a7421c713970a69f480" prot="public" virt="non-virtual"><scope>MR::TriangleSegmentIntersectResult</scope><name>operator bool</name></member>
+      <member refid="group__GeneralGroup_1gad6af3b8ab26b46c4d6592c534e9b59c8" prot="public" virt="non-virtual"><scope>MR::TriangleSegmentIntersectResult</scope><name>dIsLeftFromABC</name></member>
+      <member refid="group__GeneralGroup_1ga8676a2019b59ed30aa2204aef62a8ff8" prot="public" virt="non-virtual"><scope>MR::TriangleSegmentIntersectResult</scope><name>doIntersect</name></member>
+      <member refid="group__GeneralGroup_1ga44ebc6eac0ba7a7421c713970a69f480" prot="public" virt="non-virtual"><scope>MR::TriangleSegmentIntersectResult</scope><name>operator bool</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

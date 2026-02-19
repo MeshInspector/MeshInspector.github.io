@@ -5,7 +5,7 @@
     <title>Mesh Segmentation overwiev</title>
     <sectiondef kind="func">
       <memberdef kind="function" id="group__MeshSegmentationGroup_1gadea0ef926186e71514bcaf05a50aa51d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> FaceBitSet</type>
+        <type>MRMESH_API FaceBitSet</type>
         <definition>MRMESH_API FaceBitSet MR::fillContourLeftByGraphCut</definition>
         <argsstring>(const MeshTopology &amp;topology, const EdgePath &amp;contour, const EdgeMetric &amp;metric, const ProgressCallback &amp;progress={})</argsstring>
         <name>fillContourLeftByGraphCut</name>
@@ -37,7 +37,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillContourByGraphCut.h" line="30" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillContourByGraphCut.h" declline="30" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshSegmentationGroup_1ga192299a4f8520a8867c43c89651f4304" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> FaceBitSet</type>
+        <type>MRMESH_API FaceBitSet</type>
         <definition>MRMESH_API FaceBitSet MR::fillContourLeftByGraphCut</definition>
         <argsstring>(const MeshTopology &amp;topology, const std::vector&lt; EdgePath &gt; &amp;contours, const EdgeMetric &amp;metric, const ProgressCallback &amp;progress={})</argsstring>
         <name>fillContourLeftByGraphCut</name>
@@ -69,7 +69,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillContourByGraphCut.h" line="38" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillContourByGraphCut.h" declline="38" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshSegmentationGroup_1ga90e052f4d7cc9dd0c2e2d004cda6abeb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> FaceBitSet</type>
+        <type>MRMESH_API FaceBitSet</type>
         <definition>MRMESH_API FaceBitSet MR::segmentByGraphCut</definition>
         <argsstring>(const MeshTopology &amp;topology, const FaceBitSet &amp;source, const FaceBitSet &amp;sink, const EdgeMetric &amp;metric, const ProgressCallback &amp;progress={})</argsstring>
         <name>segmentByGraphCut</name>
@@ -105,7 +105,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillContourByGraphCut.h" line="46" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillContourByGraphCut.h" declline="46" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshSegmentationGroup_1ga92dbf357e425dd6e8d7f76ab544250c5" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; EdgeLoop &gt;</type>
+        <type>MRMESH_API Expected&lt; EdgeLoop &gt;</type>
         <definition>MRMESH_API Expected&lt; EdgeLoop &gt; MR::surroundingContour</definition>
         <argsstring>(const Mesh &amp;mesh, std::vector&lt; EdgeId &gt; includeEdges, const EdgeMetric &amp;edgeMetric, const Vector3f &amp;dir)</argsstring>
         <name>surroundingContour</name>
@@ -159,10 +159,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurroundingContour.h" line="22" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurroundingContour.h" declline="22" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurroundingContour.h" line="25" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurroundingContour.h" declline="25" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshSegmentationGroup_1ga0f96f1d3fde9a79a2d6925cf6ba77f8d" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; EdgeLoop &gt;</type>
+        <type>MRMESH_API Expected&lt; EdgeLoop &gt;</type>
         <definition>MRMESH_API Expected&lt; EdgeLoop &gt; MR::surroundingContour</definition>
         <argsstring>(const Mesh &amp;mesh, std::vector&lt; VertId &gt; keyVertices, const EdgeMetric &amp;edgeMetric, const Vector3f &amp;dir)</argsstring>
         <name>surroundingContour</name>
@@ -216,7 +216,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurroundingContour.h" line="40" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurroundingContour.h" declline="40" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurroundingContour.h" line="43" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurroundingContour.h" declline="43" declcolumn="22"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

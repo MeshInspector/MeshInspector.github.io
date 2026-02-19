@@ -4,28 +4,15 @@
     <compoundname>MR::Parallel::CallSimplyMaker</compoundname>
     <includes refid="MRParallel_8h" local="no">MRParallel.h</includes>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1Parallel_1_1CallSimplyMaker_1a52b3271f5af4251f286977712cfaa24b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>auto</type>
-        <definition>auto MR::Parallel::CallSimplyMaker::operator()</definition>
-        <argsstring>() const</argsstring>
-        <name>operator()</name>
-        <qualifiedname>MR::Parallel::CallSimplyMaker::operator()</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallel.h" line="19" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallel.h" bodystart="19" bodyend="19"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga52b3271f5af4251f286977712cfaa24b" kind="function"><name>operator()</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallel.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallel.h" bodystart="18" bodyend="20"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallel.h" line="20" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallel.h" bodystart="21" bodyend="23"/>
     <listofallmembers>
-      <member refid="structMR_1_1Parallel_1_1CallSimplyMaker_1a52b3271f5af4251f286977712cfaa24b" prot="public" virt="non-virtual"><scope>MR::Parallel::CallSimplyMaker</scope><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1ga52b3271f5af4251f286977712cfaa24b" prot="public" virt="non-virtual"><scope>MR::Parallel::CallSimplyMaker</scope><name>operator()</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

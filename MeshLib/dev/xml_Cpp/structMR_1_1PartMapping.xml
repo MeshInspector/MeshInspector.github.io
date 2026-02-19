@@ -4,148 +4,30 @@
     <compoundname>MR::PartMapping</compoundname>
     <includes refid="MRPartMapping_8h" local="no">MRPartMapping.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1PartMapping_1a73600646d6908faffc3c59ca5ad651ea" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1a23dbcde07009ca26251020b292a2837b" kindref="member">FaceMapOrHashMap</ref> *</type>
-        <definition>FaceMapOrHashMap* MR::PartMapping::src2tgtFaces</definition>
-        <argsstring></argsstring>
-        <name>src2tgtFaces</name>
-        <qualifiedname>MR::PartMapping::src2tgtFaces</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>source.id -&gt; target.id each map here can be either dense vector or hash map, the type is set by the user and preserved by mesh copying functions; dense maps are better by speed and memory when source mesh is packed and must be copied entirely; hash maps minimize memory consumption when only a small portion of source mesh is copied </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMapping.h" line="15" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMapping.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1PartMapping_1af1b1858f450332378241a632d9186e89" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1a595ea07ed87137527c40e85cf045379f" kindref="member">VertMapOrHashMap</ref> *</type>
-        <definition>VertMapOrHashMap* MR::PartMapping::src2tgtVerts</definition>
-        <argsstring></argsstring>
-        <name>src2tgtVerts</name>
-        <qualifiedname>MR::PartMapping::src2tgtVerts</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMapping.h" line="16" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMapping.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1PartMapping_1a6c8e68b66d8c5359cbbd8724f09c6340" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1a97913e3bb3380204133f3b371cc4b6de" kindref="member">WholeEdgeMapOrHashMap</ref> *</type>
-        <definition>WholeEdgeMapOrHashMap* MR::PartMapping::src2tgtEdges</definition>
-        <argsstring></argsstring>
-        <name>src2tgtEdges</name>
-        <qualifiedname>MR::PartMapping::src2tgtEdges</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMapping.h" line="17" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMapping.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1PartMapping_1af69dd39f60abdd4b769bb948a49a0737" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1a23dbcde07009ca26251020b292a2837b" kindref="member">FaceMapOrHashMap</ref> *</type>
-        <definition>FaceMapOrHashMap* MR::PartMapping::tgt2srcFaces</definition>
-        <argsstring></argsstring>
-        <name>tgt2srcFaces</name>
-        <qualifiedname>MR::PartMapping::tgt2srcFaces</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>target.id -&gt; source.id dense vectors are better by speed and memory when target mesh was empty before copying </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMapping.h" line="21" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMapping.h" bodystart="21" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1PartMapping_1a6061a5bd3cb7c34a5548ea2fd5bb23cc" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1a595ea07ed87137527c40e85cf045379f" kindref="member">VertMapOrHashMap</ref> *</type>
-        <definition>VertMapOrHashMap* MR::PartMapping::tgt2srcVerts</definition>
-        <argsstring></argsstring>
-        <name>tgt2srcVerts</name>
-        <qualifiedname>MR::PartMapping::tgt2srcVerts</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMapping.h" line="22" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMapping.h" bodystart="22" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1PartMapping_1ad04e1ef358a87463840701926e9856c1" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1a97913e3bb3380204133f3b371cc4b6de" kindref="member">WholeEdgeMapOrHashMap</ref> *</type>
-        <definition>WholeEdgeMapOrHashMap* MR::PartMapping::tgt2srcEdges</definition>
-        <argsstring></argsstring>
-        <name>tgt2srcEdges</name>
-        <qualifiedname>MR::PartMapping::tgt2srcEdges</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMapping.h" line="23" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMapping.h" bodystart="23" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga73600646d6908faffc3c59ca5ad651ea" kind="variable"><name>src2tgtFaces</name></member>
+      <member refid="group__GeneralGroup_1gaf1b1858f450332378241a632d9186e89" kind="variable"><name>src2tgtVerts</name></member>
+      <member refid="group__GeneralGroup_1ga6c8e68b66d8c5359cbbd8724f09c6340" kind="variable"><name>src2tgtEdges</name></member>
+      <member refid="group__GeneralGroup_1gaf69dd39f60abdd4b769bb948a49a0737" kind="variable"><name>tgt2srcFaces</name></member>
+      <member refid="group__GeneralGroup_1ga6061a5bd3cb7c34a5548ea2fd5bb23cc" kind="variable"><name>tgt2srcVerts</name></member>
+      <member refid="group__GeneralGroup_1gad04e1ef358a87463840701926e9856c1" kind="variable"><name>tgt2srcEdges</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1PartMapping_1a11973c92bf543a36396d98ec83d6ca52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::PartMapping::clear</definition>
-        <argsstring>()</argsstring>
-        <name>clear</name>
-        <qualifiedname>MR::PartMapping::clear</qualifiedname>
-        <briefdescription>
-<para>clears all member maps </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMapping.h" line="26" column="21"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga11973c92bf543a36396d98ec83d6ca52" kind="function"><name>clear</name></member>
     </sectiondef>
     <briefdescription>
 <para>mapping among elements of source mesh, from which a part is taken, and target mesh </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="2">
-        <label>MR::MapOrHashMap&lt; K, V &gt;</label>
-        <link refid="structMR_1_1MapOrHashMap"/>
-      </node>
-      <node id="1">
-        <label>MR::PartMapping</label>
-        <link refid="structMR_1_1PartMapping"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>src2tgtEdges</edgelabel>
-          <edgelabel>src2tgtFaces</edgelabel>
-          <edgelabel>src2tgtVerts</edgelabel>
-          <edgelabel>tgt2srcEdges</edgelabel>
-          <edgelabel>tgt2srcFaces</edgelabel>
-          <edgelabel>tgt2srcVerts</edgelabel>
-        </childnode>
-      </node>
-    </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMapping.h" line="9" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMapping.h" bodystart="10" bodyend="27"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMapping.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMapping.h" bodystart="13" bodyend="30"/>
     <listofallmembers>
-      <member refid="structMR_1_1PartMapping_1a11973c92bf543a36396d98ec83d6ca52" prot="public" virt="non-virtual"><scope>MR::PartMapping</scope><name>clear</name></member>
-      <member refid="structMR_1_1PartMapping_1a6c8e68b66d8c5359cbbd8724f09c6340" prot="public" virt="non-virtual"><scope>MR::PartMapping</scope><name>src2tgtEdges</name></member>
-      <member refid="structMR_1_1PartMapping_1a73600646d6908faffc3c59ca5ad651ea" prot="public" virt="non-virtual"><scope>MR::PartMapping</scope><name>src2tgtFaces</name></member>
-      <member refid="structMR_1_1PartMapping_1af1b1858f450332378241a632d9186e89" prot="public" virt="non-virtual"><scope>MR::PartMapping</scope><name>src2tgtVerts</name></member>
-      <member refid="structMR_1_1PartMapping_1ad04e1ef358a87463840701926e9856c1" prot="public" virt="non-virtual"><scope>MR::PartMapping</scope><name>tgt2srcEdges</name></member>
-      <member refid="structMR_1_1PartMapping_1af69dd39f60abdd4b769bb948a49a0737" prot="public" virt="non-virtual"><scope>MR::PartMapping</scope><name>tgt2srcFaces</name></member>
-      <member refid="structMR_1_1PartMapping_1a6061a5bd3cb7c34a5548ea2fd5bb23cc" prot="public" virt="non-virtual"><scope>MR::PartMapping</scope><name>tgt2srcVerts</name></member>
+      <member refid="group__GeneralGroup_1ga11973c92bf543a36396d98ec83d6ca52" prot="public" virt="non-virtual"><scope>MR::PartMapping</scope><name>clear</name></member>
+      <member refid="group__GeneralGroup_1ga6c8e68b66d8c5359cbbd8724f09c6340" prot="public" virt="non-virtual"><scope>MR::PartMapping</scope><name>src2tgtEdges</name></member>
+      <member refid="group__GeneralGroup_1ga73600646d6908faffc3c59ca5ad651ea" prot="public" virt="non-virtual"><scope>MR::PartMapping</scope><name>src2tgtFaces</name></member>
+      <member refid="group__GeneralGroup_1gaf1b1858f450332378241a632d9186e89" prot="public" virt="non-virtual"><scope>MR::PartMapping</scope><name>src2tgtVerts</name></member>
+      <member refid="group__GeneralGroup_1gad04e1ef358a87463840701926e9856c1" prot="public" virt="non-virtual"><scope>MR::PartMapping</scope><name>tgt2srcEdges</name></member>
+      <member refid="group__GeneralGroup_1gaf69dd39f60abdd4b769bb948a49a0737" prot="public" virt="non-virtual"><scope>MR::PartMapping</scope><name>tgt2srcFaces</name></member>
+      <member refid="group__GeneralGroup_1ga6061a5bd3cb7c34a5548ea2fd5bb23cc" prot="public" virt="non-virtual"><scope>MR::PartMapping</scope><name>tgt2srcVerts</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

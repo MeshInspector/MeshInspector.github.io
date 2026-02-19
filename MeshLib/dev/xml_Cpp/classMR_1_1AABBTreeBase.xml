@@ -9,327 +9,32 @@
       </param>
     </templateparamlist>
     <sectiondef kind="public-type">
-      <memberdef kind="typedef" id="classMR_1_1AABBTreeBase_1a66e27ff8d7cb865904647479f715a7f3" prot="public" static="no">
-        <type>T</type>
-        <definition>using MR::AABBTreeBase&lt; T &gt;::Traits =  T</definition>
-        <argsstring></argsstring>
-        <name>Traits</name>
-        <qualifiedname>MR::AABBTreeBase::Traits</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeBase.h" line="14" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeBase.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1AABBTreeBase_1a4a87e995071aa1a99752d3f3f32a72b3" prot="public" static="no">
-        <type><ref refid="structMR_1_1AABBTreeNode" kindref="compound">AABBTreeNode</ref>&lt; <ref refid="classMR_1_1AABBTreeBase_1a66e27ff8d7cb865904647479f715a7f3" kindref="member">Traits</ref> &gt;</type>
-        <definition>using MR::AABBTreeBase&lt; T &gt;::Node =  AABBTreeNode&lt;Traits&gt;</definition>
-        <argsstring></argsstring>
-        <name>Node</name>
-        <qualifiedname>MR::AABBTreeBase::Node</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeBase.h" line="15" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeBase.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1AABBTreeBase_1a7a0335fa16114969e7f5e031192bf45b" prot="public" static="no">
-        <type><ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; <ref refid="classMR_1_1AABBTreeBase_1a4a87e995071aa1a99752d3f3f32a72b3" kindref="member">Node</ref>, NodeId &gt;</type>
-        <definition>using MR::AABBTreeBase&lt; T &gt;::NodeVec =  Vector&lt;Node, NodeId&gt;</definition>
-        <argsstring></argsstring>
-        <name>NodeVec</name>
-        <qualifiedname>MR::AABBTreeBase::NodeVec</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeBase.h" line="16" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeBase.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1AABBTreeBase_1a8174ff3f06b05cb213378de264fdcb57" prot="public" static="no">
-        <type>typename T::LeafTag</type>
-        <definition>using MR::AABBTreeBase&lt; T &gt;::LeafTag =  typename T::LeafTag</definition>
-        <argsstring></argsstring>
-        <name>LeafTag</name>
-        <qualifiedname>MR::AABBTreeBase::LeafTag</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeBase.h" line="17" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeBase.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1AABBTreeBase_1af22ebd659b66011e2ce0b16d3abc0e60" prot="public" static="no">
-        <type>typename T::LeafId</type>
-        <definition>using MR::AABBTreeBase&lt; T &gt;::LeafId =  typename T::LeafId</definition>
-        <argsstring></argsstring>
-        <name>LeafId</name>
-        <qualifiedname>MR::AABBTreeBase::LeafId</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeBase.h" line="18" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeBase.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1AABBTreeBase_1aa68c6e8f36c8a52617b624e91f11568d" prot="public" static="no">
-        <type>TaggedBitSet&lt; <ref refid="classMR_1_1AABBTreeBase_1a8174ff3f06b05cb213378de264fdcb57" kindref="member">LeafTag</ref> &gt;</type>
-        <definition>using MR::AABBTreeBase&lt; T &gt;::LeafBitSet =  TaggedBitSet&lt;LeafTag&gt;</definition>
-        <argsstring></argsstring>
-        <name>LeafBitSet</name>
-        <qualifiedname>MR::AABBTreeBase::LeafBitSet</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeBase.h" line="19" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeBase.h" bodystart="19" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1AABBTreeBase_1a6fd4a54abb1c4fe946e503bcb14d15c4" prot="public" static="no">
-        <type><ref refid="structMR_1_1BMap" kindref="compound">BMap</ref>&lt; <ref refid="classMR_1_1AABBTreeBase_1af22ebd659b66011e2ce0b16d3abc0e60" kindref="member">LeafId</ref>, <ref refid="classMR_1_1AABBTreeBase_1af22ebd659b66011e2ce0b16d3abc0e60" kindref="member">LeafId</ref> &gt;</type>
-        <definition>using MR::AABBTreeBase&lt; T &gt;::LeafBMap =  BMap&lt;LeafId, LeafId&gt;</definition>
-        <argsstring></argsstring>
-        <name>LeafBMap</name>
-        <qualifiedname>MR::AABBTreeBase::LeafBMap</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeBase.h" line="20" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeBase.h" bodystart="20" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1AABBTreeBase_1a380c83540a90e46211318ad9752c2fd2" prot="public" static="no">
-        <type>typename T::BoxT</type>
-        <definition>using MR::AABBTreeBase&lt; T &gt;::BoxT =  typename T::BoxT</definition>
-        <argsstring></argsstring>
-        <name>BoxT</name>
-        <qualifiedname>MR::AABBTreeBase::BoxT</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeBase.h" line="21" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeBase.h" bodystart="21" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga66e27ff8d7cb865904647479f715a7f3" kind="typedef"><name>Traits</name></member>
+      <member refid="group__GeneralGroup_1ga4a87e995071aa1a99752d3f3f32a72b3" kind="typedef"><name>Node</name></member>
+      <member refid="group__GeneralGroup_1ga7a0335fa16114969e7f5e031192bf45b" kind="typedef"><name>NodeVec</name></member>
+      <member refid="group__GeneralGroup_1ga8174ff3f06b05cb213378de264fdcb57" kind="typedef"><name>LeafTag</name></member>
+      <member refid="group__GeneralGroup_1gaf22ebd659b66011e2ce0b16d3abc0e60" kind="typedef"><name>LeafId</name></member>
+      <member refid="group__GeneralGroup_1gaa68c6e8f36c8a52617b624e91f11568d" kind="typedef"><name>LeafBitSet</name></member>
+      <member refid="group__GeneralGroup_1ga6fd4a54abb1c4fe946e503bcb14d15c4" kind="typedef"><name>LeafBMap</name></member>
+      <member refid="group__GeneralGroup_1ga380c83540a90e46211318ad9752c2fd2" kind="typedef"><name>BoxT</name></member>
     </sectiondef>
     <sectiondef kind="protected-attrib">
-      <memberdef kind="variable" id="classMR_1_1AABBTreeBase_1a11f524576ba6c686729f0173615bc190" prot="protected" static="no" mutable="no">
-        <type><ref refid="classMR_1_1AABBTreeBase_1a7a0335fa16114969e7f5e031192bf45b" kindref="member">NodeVec</ref></type>
-        <definition>NodeVec MR::AABBTreeBase&lt; T &gt;::nodes_</definition>
-        <argsstring></argsstring>
-        <name>nodes_</name>
-        <qualifiedname>MR::AABBTreeBase::nodes_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeBase.h" line="60" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeBase.h" bodystart="60" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga11f524576ba6c686729f0173615bc190" kind="variable"><name>nodes_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1AABBTreeBase_1a58f8dd538965bde14c46c2ed60aac1f9" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const <ref refid="classMR_1_1AABBTreeBase_1a7a0335fa16114969e7f5e031192bf45b" kindref="member">NodeVec</ref> &amp;</type>
-        <definition>const NodeVec &amp; MR::AABBTreeBase&lt; T &gt;::nodes</definition>
-        <argsstring>() const</argsstring>
-        <name>nodes</name>
-        <qualifiedname>MR::AABBTreeBase::nodes</qualifiedname>
-        <briefdescription>
-<para>const-access to all nodes </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeBase.h" line="25" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeBase.h" bodystart="25" bodyend="25"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1AABBTreeBase_1ac94f623e90a49fd07aeb61722ab8e7f1" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const <ref refid="classMR_1_1AABBTreeBase_1a4a87e995071aa1a99752d3f3f32a72b3" kindref="member">Node</ref> &amp;</type>
-        <definition>const Node &amp; MR::AABBTreeBase&lt; T &gt;::operator[]</definition>
-        <argsstring>(NodeId nid) const</argsstring>
-        <name>operator[]</name>
-        <qualifiedname>MR::AABBTreeBase::operator[]</qualifiedname>
-        <param>
-          <type>NodeId</type>
-          <declname>nid</declname>
-        </param>
-        <briefdescription>
-<para>const-access to any node </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeBase.h" line="28" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeBase.h" bodystart="28" bodyend="28"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1AABBTreeBase_1aac02049340231922a6b175c0900d88c9" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="classMR_1_1AABBTreeBase_1a380c83540a90e46211318ad9752c2fd2" kindref="member">BoxT</ref></type>
-        <definition>BoxT MR::AABBTreeBase&lt; T &gt;::getBoundingBox</definition>
-        <argsstring>() const</argsstring>
-        <name>getBoundingBox</name>
-        <qualifiedname>MR::AABBTreeBase::getBoundingBox</qualifiedname>
-        <briefdescription>
-<para>returns the root node bounding box </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeBase.h" line="34" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeBase.h" bodystart="34" bodyend="34"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1AABBTreeBase_1aeb7792254b27842c6c5e0572db29d2f2" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>size_t</type>
-        <definition>size_t MR::AABBTreeBase&lt; T &gt;::heapBytes</definition>
-        <argsstring>() const</argsstring>
-        <name>heapBytes</name>
-        <qualifiedname>MR::AABBTreeBase::heapBytes</qualifiedname>
-        <briefdescription>
-<para>returns the amount of memory this object occupies on heap </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeBase.h" line="37" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeBase.h" bodystart="37" bodyend="37"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1AABBTreeBase_1a444c40a8f2e0206606d5abe15c0f506f" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>size_t</type>
-        <definition>size_t MR::AABBTreeBase&lt; T &gt;::numLeaves</definition>
-        <argsstring>() const</argsstring>
-        <name>numLeaves</name>
-        <qualifiedname>MR::AABBTreeBase::numLeaves</qualifiedname>
-        <briefdescription>
-<para>returns the number of leaves in whole tree </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeBase.h" line="40" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeBase.h" bodystart="40" bodyend="40"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1AABBTreeBase_1aaa00490fa2cf5eac02779a7f87baa86a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::vector&lt; NodeId &gt;</type>
-        <definition>MRMESH_API std::vector&lt; NodeId &gt; MR::AABBTreeBase&lt; T &gt;::getSubtrees</definition>
-        <argsstring>(int minNum) const</argsstring>
-        <name>getSubtrees</name>
-        <qualifiedname>MR::AABBTreeBase::getSubtrees</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>minNum</declname>
-        </param>
-        <briefdescription>
-<para>returns at least given number of top-level not-intersecting subtrees, union of which contain all tree leaves </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeBase.h" line="43" column="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1AABBTreeBase_1ab33ab0e0416c62327e0334ee7e149f61" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="classMR_1_1AABBTreeBase_1aa68c6e8f36c8a52617b624e91f11568d" kindref="member">LeafBitSet</ref></type>
-        <definition>MRMESH_API LeafBitSet MR::AABBTreeBase&lt; T &gt;::getSubtreeLeaves</definition>
-        <argsstring>(NodeId subtreeRoot) const</argsstring>
-        <name>getSubtreeLeaves</name>
-        <qualifiedname>MR::AABBTreeBase::getSubtreeLeaves</qualifiedname>
-        <param>
-          <type>NodeId</type>
-          <declname>subtreeRoot</declname>
-        </param>
-        <briefdescription>
-<para>returns all leaves in the subtree with given root </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeBase.h" line="46" column="28"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1AABBTreeBase_1ae91f1e83ca6d14ef5cc8555ad401b88c" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> NodeBitSet</type>
-        <definition>MRMESH_API NodeBitSet MR::AABBTreeBase&lt; T &gt;::getNodesFromLeaves</definition>
-        <argsstring>(const LeafBitSet &amp;leaves) const</argsstring>
-        <name>getNodesFromLeaves</name>
-        <qualifiedname>MR::AABBTreeBase::getNodesFromLeaves</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1AABBTreeBase_1aa68c6e8f36c8a52617b624e91f11568d" kindref="member">LeafBitSet</ref> &amp;</type>
-          <declname>leaves</declname>
-        </param>
-        <briefdescription>
-<para>returns set of nodes containing among direct or indirect children given leaves </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeBase.h" line="49" column="28"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1AABBTreeBase_1aa0b2c5625ad2b069c42780d685db9281" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::AABBTreeBase&lt; T &gt;::getLeafOrder</definition>
-        <argsstring>(LeafBMap &amp;leafMap) const</argsstring>
-        <name>getLeafOrder</name>
-        <qualifiedname>MR::AABBTreeBase::getLeafOrder</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1AABBTreeBase_1a6fd4a54abb1c4fe946e503bcb14d15c4" kindref="member">LeafBMap</ref> &amp;</type>
-          <declname>leafMap</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>fills map: LeafId -&gt; leaf#; buffer in leafMap must be resized before the call, and caller is responsible for filling missing leaf elements </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeBase.h" line="53" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1AABBTreeBase_1a79ff8d3344f3800e230483376df94d1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::AABBTreeBase&lt; T &gt;::getLeafOrderAndReset</definition>
-        <argsstring>(LeafBMap &amp;leafMap)</argsstring>
-        <name>getLeafOrderAndReset</name>
-        <qualifiedname>MR::AABBTreeBase::getLeafOrderAndReset</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1AABBTreeBase_1a6fd4a54abb1c4fe946e503bcb14d15c4" kindref="member">LeafBMap</ref> &amp;</type>
-          <declname>leafMap</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>fills map: LeafId -&gt; leaf#, then resets leaf order to 0,1,2,...; buffer in leafMap must be resized before the call, and caller is responsible for filling missing leaf elements </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeBase.h" line="57" column="21"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga58f8dd538965bde14c46c2ed60aac1f9" kind="function"><name>nodes</name></member>
+      <member refid="group__GeneralGroup_1gac94f623e90a49fd07aeb61722ab8e7f1" kind="function"><name>operator[]</name></member>
+      <member refid="group__GeneralGroup_1gaac02049340231922a6b175c0900d88c9" kind="function"><name>getBoundingBox</name></member>
+      <member refid="group__GeneralGroup_1gaeb7792254b27842c6c5e0572db29d2f2" kind="function"><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1ga444c40a8f2e0206606d5abe15c0f506f" kind="function"><name>numLeaves</name></member>
+      <member refid="group__GeneralGroup_1gaaa00490fa2cf5eac02779a7f87baa86a" kind="function"><name>getSubtrees</name></member>
+      <member refid="group__GeneralGroup_1gab33ab0e0416c62327e0334ee7e149f61" kind="function"><name>getSubtreeLeaves</name></member>
+      <member refid="group__GeneralGroup_1gae91f1e83ca6d14ef5cc8555ad401b88c" kind="function"><name>getNodesFromLeaves</name></member>
+      <member refid="group__GeneralGroup_1gaa0b2c5625ad2b069c42780d685db9281" kind="function"><name>getLeafOrder</name></member>
+      <member refid="group__GeneralGroup_1ga79ff8d3344f3800e230483376df94d1f" kind="function"><name>getLeafOrderAndReset</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1AABBTreeBase_1ab08f029b6e9e13cf15d36bb11eddc952" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>NodeId</type>
-        <definition>static NodeId MR::AABBTreeBase&lt; T &gt;::rootNodeId</definition>
-        <argsstring>()</argsstring>
-        <name>rootNodeId</name>
-        <qualifiedname>MR::AABBTreeBase::rootNodeId</qualifiedname>
-        <briefdescription>
-<para>returns root node id </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeBase.h" line="31" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeBase.h" bodystart="31" bodyend="31"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gab08f029b6e9e13cf15d36bb11eddc952" kind="function"><name>rootNodeId</name></member>
     </sectiondef>
     <briefdescription>
 <para>base class for most AABB-trees (except for <ref refid="classMR_1_1AABBTreePoints" kindref="compound">AABBTreePoints</ref>) </para>
@@ -349,28 +54,28 @@
         <link refid="classMR_1_1Vector"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeBase.h" line="11" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeBase.h" bodystart="12" bodyend="61"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeBase.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeBase.h" bodystart="15" bodyend="64"/>
     <listofallmembers>
-      <member refid="classMR_1_1AABBTreeBase_1a380c83540a90e46211318ad9752c2fd2" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase</scope><name>BoxT</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1aac02049340231922a6b175c0900d88c9" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase</scope><name>getBoundingBox</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1aa0b2c5625ad2b069c42780d685db9281" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase</scope><name>getLeafOrder</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1a79ff8d3344f3800e230483376df94d1f" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase</scope><name>getLeafOrderAndReset</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1ae91f1e83ca6d14ef5cc8555ad401b88c" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase</scope><name>getNodesFromLeaves</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1ab33ab0e0416c62327e0334ee7e149f61" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase</scope><name>getSubtreeLeaves</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1aaa00490fa2cf5eac02779a7f87baa86a" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase</scope><name>getSubtrees</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1aeb7792254b27842c6c5e0572db29d2f2" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1aa68c6e8f36c8a52617b624e91f11568d" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase</scope><name>LeafBitSet</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1a6fd4a54abb1c4fe946e503bcb14d15c4" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase</scope><name>LeafBMap</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1af22ebd659b66011e2ce0b16d3abc0e60" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase</scope><name>LeafId</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1a8174ff3f06b05cb213378de264fdcb57" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase</scope><name>LeafTag</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1a4a87e995071aa1a99752d3f3f32a72b3" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase</scope><name>Node</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1a58f8dd538965bde14c46c2ed60aac1f9" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase</scope><name>nodes</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1a11f524576ba6c686729f0173615bc190" prot="protected" virt="non-virtual"><scope>MR::AABBTreeBase</scope><name>nodes_</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1a7a0335fa16114969e7f5e031192bf45b" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase</scope><name>NodeVec</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1a444c40a8f2e0206606d5abe15c0f506f" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase</scope><name>numLeaves</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1ac94f623e90a49fd07aeb61722ab8e7f1" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase</scope><name>operator[]</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1ab08f029b6e9e13cf15d36bb11eddc952" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase</scope><name>rootNodeId</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1a66e27ff8d7cb865904647479f715a7f3" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase</scope><name>Traits</name></member>
+      <member refid="group__GeneralGroup_1ga380c83540a90e46211318ad9752c2fd2" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase</scope><name>BoxT</name></member>
+      <member refid="group__GeneralGroup_1gaac02049340231922a6b175c0900d88c9" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase</scope><name>getBoundingBox</name></member>
+      <member refid="group__GeneralGroup_1gaa0b2c5625ad2b069c42780d685db9281" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase</scope><name>getLeafOrder</name></member>
+      <member refid="group__GeneralGroup_1ga79ff8d3344f3800e230483376df94d1f" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase</scope><name>getLeafOrderAndReset</name></member>
+      <member refid="group__GeneralGroup_1gae91f1e83ca6d14ef5cc8555ad401b88c" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase</scope><name>getNodesFromLeaves</name></member>
+      <member refid="group__GeneralGroup_1gab33ab0e0416c62327e0334ee7e149f61" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase</scope><name>getSubtreeLeaves</name></member>
+      <member refid="group__GeneralGroup_1gaaa00490fa2cf5eac02779a7f87baa86a" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase</scope><name>getSubtrees</name></member>
+      <member refid="group__GeneralGroup_1gaeb7792254b27842c6c5e0572db29d2f2" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1gaa68c6e8f36c8a52617b624e91f11568d" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase</scope><name>LeafBitSet</name></member>
+      <member refid="group__GeneralGroup_1ga6fd4a54abb1c4fe946e503bcb14d15c4" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase</scope><name>LeafBMap</name></member>
+      <member refid="group__GeneralGroup_1gaf22ebd659b66011e2ce0b16d3abc0e60" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase</scope><name>LeafId</name></member>
+      <member refid="group__GeneralGroup_1ga8174ff3f06b05cb213378de264fdcb57" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase</scope><name>LeafTag</name></member>
+      <member refid="group__GeneralGroup_1ga4a87e995071aa1a99752d3f3f32a72b3" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase</scope><name>Node</name></member>
+      <member refid="group__GeneralGroup_1ga58f8dd538965bde14c46c2ed60aac1f9" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase</scope><name>nodes</name></member>
+      <member refid="group__GeneralGroup_1ga11f524576ba6c686729f0173615bc190" prot="protected" virt="non-virtual"><scope>MR::AABBTreeBase</scope><name>nodes_</name></member>
+      <member refid="group__GeneralGroup_1ga7a0335fa16114969e7f5e031192bf45b" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase</scope><name>NodeVec</name></member>
+      <member refid="group__GeneralGroup_1ga444c40a8f2e0206606d5abe15c0f506f" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase</scope><name>numLeaves</name></member>
+      <member refid="group__GeneralGroup_1gac94f623e90a49fd07aeb61722ab8e7f1" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase</scope><name>operator[]</name></member>
+      <member refid="group__GeneralGroup_1gab08f029b6e9e13cf15d36bb11eddc952" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase</scope><name>rootNodeId</name></member>
+      <member refid="group__GeneralGroup_1ga66e27ff8d7cb865904647479f715a7f3" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase</scope><name>Traits</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

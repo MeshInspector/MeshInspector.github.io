@@ -10,195 +10,23 @@
       </param>
     </templateparamlist>
     <sectiondef kind="public-type">
-      <memberdef kind="typedef" id="classMR_1_1RingIterator_1a32bbf998350ceb82ee238640a29ad585" prot="public" static="no">
-        <type>std::forward_iterator_tag</type>
-        <definition>using MR::RingIterator&lt; N &gt;::iterator_category =  std::forward_iterator_tag</definition>
-        <argsstring></argsstring>
-        <name>iterator_category</name>
-        <qualifiedname>MR::RingIterator::iterator_category</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRingIterator.h" line="15" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRingIterator.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1RingIterator_1aaccd4999a06a4556d2a8728ed4ae5b15" prot="public" static="no">
-        <type>EdgeId</type>
-        <definition>using MR::RingIterator&lt; N &gt;::value_type =  EdgeId</definition>
-        <argsstring></argsstring>
-        <name>value_type</name>
-        <qualifiedname>MR::RingIterator::value_type</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRingIterator.h" line="16" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRingIterator.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1RingIterator_1a6a1ef2de2a1f13787a3b231f9ce3b4a4" prot="public" static="no">
-        <type>std::ptrdiff_t</type>
-        <definition>using MR::RingIterator&lt; N &gt;::difference_type =  std::ptrdiff_t</definition>
-        <argsstring></argsstring>
-        <name>difference_type</name>
-        <qualifiedname>MR::RingIterator::difference_type</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRingIterator.h" line="17" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRingIterator.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga32bbf998350ceb82ee238640a29ad585" kind="typedef"><name>iterator_category</name></member>
+      <member refid="group__GeneralGroup_1gaaccd4999a06a4556d2a8728ed4ae5b15" kind="typedef"><name>value_type</name></member>
+      <member refid="group__GeneralGroup_1ga6a1ef2de2a1f13787a3b231f9ce3b4a4" kind="typedef"><name>difference_type</name></member>
     </sectiondef>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1RingIterator_1a6de13f447b24f9581605e81b8daee05b" prot="private" static="no" mutable="no">
-        <type>EdgeId</type>
-        <definition>EdgeId MR::RingIterator&lt; N &gt;::edge_</definition>
-        <argsstring></argsstring>
-        <name>edge_</name>
-        <qualifiedname>MR::RingIterator::edge_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRingIterator.h" line="36" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRingIterator.h" bodystart="36" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RingIterator_1a2243e486dd07ef408ecae6edc971fdbf" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::RingIterator&lt; N &gt;::first_</definition>
-        <argsstring></argsstring>
-        <name>first_</name>
-        <qualifiedname>MR::RingIterator::first_</qualifiedname>
-        <initializer>= false</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRingIterator.h" line="37" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRingIterator.h" bodystart="37" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga6de13f447b24f9581605e81b8daee05b" kind="variable"><name>edge_</name></member>
+      <member refid="group__GeneralGroup_1ga2243e486dd07ef408ecae6edc971fdbf" kind="variable"><name>first_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1RingIterator_1afd5883037f52daf8dec8e4a1dcfd6c41" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::RingIterator&lt; N &gt;::RingIterator</definition>
-        <argsstring>(const MeshTopology &amp;topology, EdgeId edge, bool first)</argsstring>
-        <name>RingIterator</name>
-        <qualifiedname>MR::RingIterator::RingIterator</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref> &amp;</type>
-          <declname>topology</declname>
-        </param>
-        <param>
-          <type>EdgeId</type>
-          <declname>edge</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>first</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRingIterator.h" line="19" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRingIterator.h" bodystart="19" bodyend="22"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RingIterator_1a2ecba1d3bf80da5ada6460e97e3cc5f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="classMR_1_1RingIterator" kindref="compound">RingIterator</ref> &amp;</type>
-        <definition>RingIterator &amp; MR::RingIterator&lt; N &gt;::operator++</definition>
-        <argsstring>()</argsstring>
-        <name>operator++</name>
-        <qualifiedname>MR::RingIterator::operator++</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRingIterator.h" line="23" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRingIterator.h" bodystart="23" bodyend="28"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RingIterator_1a63558101e2ac4ecae79ac6fc9cca48bb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>EdgeId</type>
-        <definition>EdgeId MR::RingIterator&lt; N &gt;::operator*</definition>
-        <argsstring>() const</argsstring>
-        <name>operator*</name>
-        <qualifiedname>MR::RingIterator::operator*</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRingIterator.h" line="29" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRingIterator.h" bodystart="29" bodyend="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RingIterator_1add7fd5a21509ef4dc57c7943b3da9920" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::RingIterator&lt; N &gt;::first</definition>
-        <argsstring>() const</argsstring>
-        <name>first</name>
-        <qualifiedname>MR::RingIterator::first</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRingIterator.h" line="30" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRingIterator.h" bodystart="30" bodyend="30"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gafd5883037f52daf8dec8e4a1dcfd6c41" kind="function"><name>RingIterator</name></member>
+      <member refid="group__GeneralGroup_1ga2ecba1d3bf80da5ada6460e97e3cc5f5" kind="function"><name>operator++</name></member>
+      <member refid="group__GeneralGroup_1ga63558101e2ac4ecae79ac6fc9cca48bb" kind="function"><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1gadd7fd5a21509ef4dc57c7943b3da9920" kind="function"><name>first</name></member>
     </sectiondef>
     <sectiondef kind="friend">
-      <memberdef kind="friend" id="classMR_1_1RingIterator_1ae39ba74351f8aebd9c6861a4d5782a6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool operator==</definition>
-        <argsstring>(const RingIterator &amp;a, const RingIterator &amp;b)</argsstring>
-        <name>operator==</name>
-        <qualifiedname>MR::RingIterator::operator==</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1RingIterator" kindref="compound">RingIterator</ref> &amp;</type>
-          <declname>a</declname>
-        </param>
-        <param>
-          <type>const <ref refid="classMR_1_1RingIterator" kindref="compound">RingIterator</ref> &amp;</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRingIterator.h" line="32" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRingIterator.h" bodystart="32" bodyend="32"/>
-      </memberdef>
-      <memberdef kind="friend" id="classMR_1_1RingIterator_1a77a9c15fd7e493319cb7e3dbfaa8ff85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool operator!=</definition>
-        <argsstring>(const RingIterator &amp;a, const RingIterator &amp;b)</argsstring>
-        <name>operator!=</name>
-        <qualifiedname>MR::RingIterator::operator!=</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1RingIterator" kindref="compound">RingIterator</ref> &amp;</type>
-          <declname>a</declname>
-        </param>
-        <param>
-          <type>const <ref refid="classMR_1_1RingIterator" kindref="compound">RingIterator</ref> &amp;</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRingIterator.h" line="33" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRingIterator.h" bodystart="33" bodyend="33"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gae39ba74351f8aebd9c6861a4d5782a6c" kind="friend"><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga77a9c15fd7e493319cb7e3dbfaa8ff85" kind="friend"><name>operator!=</name></member>
     </sectiondef>
     <briefdescription>
 <para>The iterator to find all edges in a ring of edges (e.g. all edges with same origin or all edges with same left face) </para>
@@ -227,19 +55,19 @@
         <label>N</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRingIterator.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRingIterator.h" bodystart="13" bodyend="38"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRingIterator.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRingIterator.h" bodystart="16" bodyend="41"/>
     <listofallmembers>
-      <member refid="classMR_1_1RingIterator_1a6a1ef2de2a1f13787a3b231f9ce3b4a4" prot="public" virt="non-virtual"><scope>MR::RingIterator</scope><name>difference_type</name></member>
-      <member refid="classMR_1_1RingIterator_1a6de13f447b24f9581605e81b8daee05b" prot="private" virt="non-virtual"><scope>MR::RingIterator</scope><name>edge_</name></member>
-      <member refid="classMR_1_1RingIterator_1add7fd5a21509ef4dc57c7943b3da9920" prot="public" virt="non-virtual"><scope>MR::RingIterator</scope><name>first</name></member>
-      <member refid="classMR_1_1RingIterator_1a2243e486dd07ef408ecae6edc971fdbf" prot="private" virt="non-virtual"><scope>MR::RingIterator</scope><name>first_</name></member>
-      <member refid="classMR_1_1RingIterator_1a32bbf998350ceb82ee238640a29ad585" prot="public" virt="non-virtual"><scope>MR::RingIterator</scope><name>iterator_category</name></member>
-      <member refid="classMR_1_1RingIterator_1a77a9c15fd7e493319cb7e3dbfaa8ff85" prot="public" virt="non-virtual"><scope>MR::RingIterator</scope><name>operator!=</name></member>
-      <member refid="classMR_1_1RingIterator_1a63558101e2ac4ecae79ac6fc9cca48bb" prot="public" virt="non-virtual"><scope>MR::RingIterator</scope><name>operator*</name></member>
-      <member refid="classMR_1_1RingIterator_1a2ecba1d3bf80da5ada6460e97e3cc5f5" prot="public" virt="non-virtual"><scope>MR::RingIterator</scope><name>operator++</name></member>
-      <member refid="classMR_1_1RingIterator_1ae39ba74351f8aebd9c6861a4d5782a6c" prot="public" virt="non-virtual"><scope>MR::RingIterator</scope><name>operator==</name></member>
-      <member refid="classMR_1_1RingIterator_1afd5883037f52daf8dec8e4a1dcfd6c41" prot="public" virt="non-virtual"><scope>MR::RingIterator</scope><name>RingIterator</name></member>
-      <member refid="classMR_1_1RingIterator_1aaccd4999a06a4556d2a8728ed4ae5b15" prot="public" virt="non-virtual"><scope>MR::RingIterator</scope><name>value_type</name></member>
+      <member refid="group__GeneralGroup_1ga6a1ef2de2a1f13787a3b231f9ce3b4a4" prot="public" virt="non-virtual"><scope>MR::RingIterator</scope><name>difference_type</name></member>
+      <member refid="group__GeneralGroup_1ga6de13f447b24f9581605e81b8daee05b" prot="private" virt="non-virtual"><scope>MR::RingIterator</scope><name>edge_</name></member>
+      <member refid="group__GeneralGroup_1gadd7fd5a21509ef4dc57c7943b3da9920" prot="public" virt="non-virtual"><scope>MR::RingIterator</scope><name>first</name></member>
+      <member refid="group__GeneralGroup_1ga2243e486dd07ef408ecae6edc971fdbf" prot="private" virt="non-virtual"><scope>MR::RingIterator</scope><name>first_</name></member>
+      <member refid="group__GeneralGroup_1ga32bbf998350ceb82ee238640a29ad585" prot="public" virt="non-virtual"><scope>MR::RingIterator</scope><name>iterator_category</name></member>
+      <member refid="group__GeneralGroup_1ga77a9c15fd7e493319cb7e3dbfaa8ff85" prot="public" virt="non-virtual"><scope>MR::RingIterator</scope><name>operator!=</name></member>
+      <member refid="group__GeneralGroup_1ga63558101e2ac4ecae79ac6fc9cca48bb" prot="public" virt="non-virtual"><scope>MR::RingIterator</scope><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1ga2ecba1d3bf80da5ada6460e97e3cc5f5" prot="public" virt="non-virtual"><scope>MR::RingIterator</scope><name>operator++</name></member>
+      <member refid="group__GeneralGroup_1gae39ba74351f8aebd9c6861a4d5782a6c" prot="public" virt="non-virtual"><scope>MR::RingIterator</scope><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1gafd5883037f52daf8dec8e4a1dcfd6c41" prot="public" virt="non-virtual"><scope>MR::RingIterator</scope><name>RingIterator</name></member>
+      <member refid="group__GeneralGroup_1gaaccd4999a06a4556d2a8728ed4ae5b15" prot="public" virt="non-virtual"><scope>MR::RingIterator</scope><name>value_type</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

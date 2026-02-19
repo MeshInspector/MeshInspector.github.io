@@ -103,7 +103,7 @@
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="group__DistanceMapGroup_1ga27435b7d8c5a7876aa45b60ea840b353" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> DistanceMap</type>
+        <type>MRMESH_API DistanceMap</type>
         <definition>MRMESH_API DistanceMap MR::combineXYderivativeMaps</definition>
         <argsstring>(std::pair&lt; DistanceMap, DistanceMap &gt; XYderivativeMaps)</argsstring>
         <name>combineXYderivativeMaps</name>
@@ -122,7 +122,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="179" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" declline="179" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="group__DistanceMapGroup_1gaf972733cbe1eca39d0f85671e30b514c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> DistanceMap</type>
+        <type>MRMESH_API DistanceMap</type>
         <definition>MRMESH_API DistanceMap MR::computeDistanceMap</definition>
         <argsstring>(const MeshPart &amp;mp, const MeshToDistanceMapParams &amp;params, ProgressCallback cb={}, std::vector&lt; MeshTriPoint &gt; *outSamples=nullptr)</argsstring>
         <name>computeDistanceMap</name>
@@ -155,7 +155,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="183" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" declline="183" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="group__DistanceMapGroup_1ga8f2c4ae318d14a691410a43d5c1c0ee4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> DistanceMap</type>
+        <type>MRMESH_API DistanceMap</type>
         <definition>MRMESH_API DistanceMap MR::computeDistanceMapD</definition>
         <argsstring>(const MeshPart &amp;mp, const MeshToDistanceMapParams &amp;params, ProgressCallback cb={}, std::vector&lt; MeshTriPoint &gt; *outSamples=nullptr)</argsstring>
         <name>computeDistanceMapD</name>
@@ -188,7 +188,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="188" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" declline="188" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="group__DistanceMapGroup_1ga6ba988d1173a8800e2ccfc5ac30d2a68" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> DistanceMap</type>
+        <type>MRMESH_API DistanceMap</type>
         <definition>MRMESH_API DistanceMap MR::distanceMapFromContours</definition>
         <argsstring>(const Polyline2 &amp;contours, const ContourToDistanceMapParams &amp;params, const ContoursDistanceMapOptions &amp;options={})</argsstring>
         <name>distanceMapFromContours</name>
@@ -226,7 +226,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="232" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" declline="232" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="group__DistanceMapGroup_1gaa50c3ffe7a7a332ff5cc4ca19890c47f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::distanceMapFromContours</definition>
         <argsstring>(DistanceMap &amp;distMap, const Polyline2 &amp;polyline, const ContourToDistanceMapParams &amp;params, const ContoursDistanceMapOptions &amp;options={})</argsstring>
         <name>distanceMapFromContours</name>
@@ -276,7 +276,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="240" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" declline="240" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__DistanceMapGroup_1ga00ea89be5cae9953d5df7ef382259b58" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::vector&lt; Vector3f &gt;</type>
+        <type>MRMESH_API std::vector&lt; Vector3f &gt;</type>
         <definition>MRMESH_API std::vector&lt; Vector3f &gt; MR::edgePointsFromContours</definition>
         <argsstring>(const Polyline2 &amp;polyline, float pixelSize, float threshold)</argsstring>
         <name>edgePointsFromContours</name>
@@ -305,7 +305,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="246" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" declline="246" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="group__DistanceMapGroup_1ga91dadb5d280efea2e31e4620ed69cf56" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Polyline2</type>
+        <type>MRMESH_API Polyline2</type>
         <definition>MRMESH_API Polyline2 MR::distanceMapTo2DIsoPolyline</definition>
         <argsstring>(const DistanceMap &amp;distMap, float isoValue)</argsstring>
         <name>distanceMapTo2DIsoPolyline</name>
@@ -328,7 +328,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="250" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" declline="250" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="group__DistanceMapGroup_1ga6d0dc4485cbdb50e2e0663aedcc73986" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Polyline2</type>
+        <type>MRMESH_API Polyline2</type>
         <definition>MRMESH_API Polyline2 MR::distanceMapTo2DIsoPolyline</definition>
         <argsstring>(const DistanceMap &amp;distMap, const ContourToDistanceMapParams &amp;params, float isoValue)</argsstring>
         <name>distanceMapTo2DIsoPolyline</name>
@@ -355,7 +355,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="253" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" declline="253" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="group__DistanceMapGroup_1ga875406db41d922b9e6b597a1cc589c02" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::pair&lt; Polyline2, AffineXf3f &gt;</type>
+        <type>MRMESH_API std::pair&lt; Polyline2, AffineXf3f &gt;</type>
         <definition>MRMESH_API std::pair&lt; Polyline2, AffineXf3f &gt; MR::distanceMapTo2DIsoPolyline</definition>
         <argsstring>(const DistanceMap &amp;distMap, const AffineXf3f &amp;xf, float isoValue, bool useDepth=false)</argsstring>
         <name>distanceMapTo2DIsoPolyline</name>
@@ -396,7 +396,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="259" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" declline="259" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="group__DistanceMapGroup_1ga1acaca885d3034b9c8ef1f5cb9b8824a" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Polyline2</type>
+        <type>MRMESH_API Polyline2</type>
         <definition>MRMESH_API Polyline2 MR::distanceMapTo2DIsoPolyline</definition>
         <argsstring>(const DistanceMap &amp;distMap, float pixelSize, float isoValue)</argsstring>
         <name>distanceMapTo2DIsoPolyline</name>
@@ -422,7 +422,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="261" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" declline="261" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="group__DistanceMapGroup_1gaf720ea7221e6ad284c8b0b80e5c58364" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Polyline2</type>
+        <type>MRMESH_API Polyline2</type>
         <definition>MRMESH_API Polyline2 MR::polylineOffset</definition>
         <argsstring>(const Polyline2 &amp;polyline, float pixelSize, float offset)</argsstring>
         <name>polylineOffset</name>
@@ -449,7 +449,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="264" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" declline="264" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="group__DistanceMapGroup_1ga59af0939e79330f4ef6bcc99c74c196b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Polyline2</type>
+        <type>MRMESH_API Polyline2</type>
         <definition>MRMESH_API Polyline2 MR::contourUnion</definition>
         <argsstring>(const Polyline2 &amp;contoursA, const Polyline2 &amp;contoursB, const ContourToDistanceMapParams &amp;params, float offsetInside=0)</argsstring>
         <name>contourUnion</name>
@@ -486,7 +486,7 @@ input contours must be closed within the area of distance map and be consistentl
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="273" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" declline="273" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="group__DistanceMapGroup_1ga8461963f3447f163979179222275114c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Polyline2</type>
+        <type>MRMESH_API Polyline2</type>
         <definition>MRMESH_API Polyline2 MR::contourIntersection</definition>
         <argsstring>(const Polyline2 &amp;contoursA, const Polyline2 &amp;contoursB, const ContourToDistanceMapParams &amp;params, float offsetInside=0.f)</argsstring>
         <name>contourIntersection</name>
@@ -523,7 +523,7 @@ input contours must be closed within the area of distance map and be consistentl
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="283" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" declline="283" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="group__DistanceMapGroup_1ga9ec7f0e4e736da31de012ad0e33f6b33" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Polyline2</type>
+        <type>MRMESH_API Polyline2</type>
         <definition>MRMESH_API Polyline2 MR::contourSubtract</definition>
         <argsstring>(const Polyline2 &amp;contoursA, const Polyline2 &amp;contoursB, const ContourToDistanceMapParams &amp;params, float offsetInside=0.f)</argsstring>
         <name>contourSubtract</name>
@@ -560,7 +560,7 @@ input contours must be closed within the area of distance map and be consistentl
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="293" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" declline="293" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="group__DistanceMapGroup_1ga145ea179a83ff19d1734af8771bba71a" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; Mesh &gt;</type>
+        <type>MRMESH_API Expected&lt; Mesh &gt;</type>
         <definition>MRMESH_API Expected&lt; Mesh &gt; MR::distanceMapToMesh</definition>
         <argsstring>(const DistanceMap &amp;distMap, const AffineXf3f &amp;toWorld, ProgressCallback cb={})</argsstring>
         <name>distanceMapToMesh</name>
@@ -588,7 +588,7 @@ input contours must be closed within the area of distance map and be consistentl
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="297" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" declline="297" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="group__DistanceMapGroup_1gadf85ea3c5943f6cd2cb8864c2991f6f2" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Image</type>
+        <type>MRMESH_API Image</type>
         <definition>MRMESH_API Image MR::convertDistanceMapToImage</definition>
         <argsstring>(const DistanceMap &amp;distMap, float threshold=1.f/255)</argsstring>
         <name>convertDistanceMapToImage</name>
@@ -621,7 +621,7 @@ input contours must be closed within the area of distance map and be consistentl
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="301" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" declline="301" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="group__DistanceMapGroup_1gabfddf0510446a24e68326d0574949301" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; DistanceMap &gt;</type>
+        <type>MRMESH_API Expected&lt; DistanceMap &gt;</type>
         <definition>MRMESH_API Expected&lt; DistanceMap &gt; MR::convertImageToDistanceMap</definition>
         <argsstring>(const Image &amp;image, float threshold=1.f/255, bool invert=true)</argsstring>
         <name>convertImageToDistanceMap</name>
@@ -685,7 +685,7 @@ input contours must be closed within the area of distance map and be consistentl
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRectIndexer.h" line="28" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRectIndexer.h" bodystart="28" bodyend="32"/>
       </memberdef>
       <memberdef kind="function" id="group__DistanceMapGroup_1ga6c5838a3065551d1adbcde13e5cf895b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::expandPixelMask</definition>
         <argsstring>(PixelBitSet &amp;mask, const RectIndexer &amp;indexer, int expansion=1)</argsstring>
         <name>expandPixelMask</name>
@@ -713,7 +713,7 @@ input contours must be closed within the area of distance map and be consistentl
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRectIndexer.h" line="85" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRectIndexer.h" declline="85" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__DistanceMapGroup_1gacbedf1abc59aa1401992cc4d1e1ed306" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::shrinkPixelMask</definition>
         <argsstring>(PixelBitSet &amp;mask, const RectIndexer &amp;indexer, int shrinkage=1)</argsstring>
         <name>shrinkPixelMask</name>

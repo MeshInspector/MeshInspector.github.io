@@ -51,7 +51,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" line="65" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" bodystart="65" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1VoxelsSave_1_1SavingSettings_1a61495391ee95acbc5462893baceab323" prot="public" static="no" mutable="no">
-        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+        <type>ProgressCallback</type>
         <definition>ProgressCallback MR::VoxelsSave::SavingSettings::cb</definition>
         <argsstring></argsstring>
         <name>cb</name>

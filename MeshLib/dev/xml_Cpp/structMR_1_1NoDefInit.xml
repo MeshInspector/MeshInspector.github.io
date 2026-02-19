@@ -10,20 +10,7 @@
       </param>
     </templateparamlist>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1NoDefInit_1aaa8735508a78c638055d6001174d206a" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>constexpr</type>
-        <definition>MR::NoDefInit&lt; T &gt;::NoDefInit</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>NoDefInit</name>
-        <qualifiedname>MR::NoDefInit::NoDefInit</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRNoDefInit.h" line="12" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRNoDefInit.h" bodystart="12" bodyend="12"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaaa8735508a78c638055d6001174d206a" kind="function"><name>NoDefInit</name></member>
     </sectiondef>
     <briefdescription>
 <para>this class is similar to T, but does not make default initialization of the fields for best performance </para>
@@ -52,9 +39,9 @@
         <label>T</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRNoDefInit.h" line="10" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRNoDefInit.h" bodystart="11" bodyend="14"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRNoDefInit.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRNoDefInit.h" bodystart="14" bodyend="17"/>
     <listofallmembers>
-      <member refid="structMR_1_1NoDefInit_1aaa8735508a78c638055d6001174d206a" prot="public" virt="non-virtual"><scope>MR::NoDefInit</scope><name>NoDefInit</name></member>
+      <member refid="group__GeneralGroup_1gaaa8735508a78c638055d6001174d206a" prot="public" virt="non-virtual"><scope>MR::NoDefInit</scope><name>NoDefInit</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -5,235 +5,42 @@
     <includes refid="MRViewportCornerController_8h" local="no">MRViewportCornerController.h</includes>
     <innerclass refid="structMR_1_1CornerControllerObject_1_1PickedIds" prot="public">MR::CornerControllerObject::PickedIds</innerclass>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1CornerControllerObject_1a5fbb06d04684a2ff1114174c66e0a230" prot="private" static="no" mutable="no">
-        <type>std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
-        <definition>std::shared_ptr&lt;Object&gt; MR::CornerControllerObject::rootObj_</definition>
-        <argsstring></argsstring>
-        <name>rootObj_</name>
-        <qualifiedname>MR::CornerControllerObject::rootObj_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportCornerController.h" line="44" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportCornerController.h" bodystart="44" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1CornerControllerObject_1a0b73d53fce94f039a4e0f80bac750519" prot="private" static="no" mutable="no">
-        <type>std::vector&lt; boost::signals2::scoped_connection &gt;</type>
-        <definition>std::vector&lt;boost::signals2::scoped_connection&gt; MR::CornerControllerObject::connections_</definition>
-        <argsstring></argsstring>
-        <name>connections_</name>
-        <qualifiedname>MR::CornerControllerObject::connections_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportCornerController.h" line="45" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportCornerController.h" bodystart="45" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1CornerControllerObject_1acd9073a63ee8a95c851e6b99725bc850" prot="private" static="no" mutable="no">
-        <type><ref refid="structMR_1_1CornerControllerObject_1_1PickedIds" kindref="compound">PickedIds</ref></type>
-        <definition>PickedIds MR::CornerControllerObject::pickedId_</definition>
-        <argsstring></argsstring>
-        <name>pickedId_</name>
-        <qualifiedname>MR::CornerControllerObject::pickedId_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportCornerController.h" line="50" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportCornerController.h" bodystart="50" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga5fbb06d04684a2ff1114174c66e0a230" kind="variable"><name>rootObj_</name></member>
+      <member refid="group__GeneralGroup_1ga0b73d53fce94f039a4e0f80bac750519" kind="variable"><name>connections_</name></member>
+      <member refid="group__GeneralGroup_1gacd9073a63ee8a95c851e6b99725bc850" kind="variable"><name>pickedId_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1CornerControllerObject_1acab9beedac78c53c7193591ae8cfa96a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::CornerControllerObject::CornerControllerObject</definition>
-        <argsstring>()=default</argsstring>
-        <name>CornerControllerObject</name>
-        <qualifiedname>MR::CornerControllerObject::CornerControllerObject</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportCornerController.h" line="27" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1CornerControllerObject_1a53eef1ed99457b7fc332ac94c7c13a4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::CornerControllerObject::initDefault</definition>
-        <argsstring>()</argsstring>
-        <name>initDefault</name>
-        <qualifiedname>MR::CornerControllerObject::initDefault</qualifiedname>
-        <briefdescription>
-<para>initialize this object with default settings </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportCornerController.h" line="30" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1CornerControllerObject_1a1dc148f82f6c4cf8c532da8859c8cf83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::CornerControllerObject::enable</definition>
-        <argsstring>(ViewportMask mask)</argsstring>
-        <name>enable</name>
-        <qualifiedname>MR::CornerControllerObject::enable</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
-          <declname>mask</declname>
-        </param>
-        <briefdescription>
-<para>enables or disables this object by provided mask </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportCornerController.h" line="33" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1CornerControllerObject_1a86020bdd51121c1ffad08d01b638aeca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::CornerControllerObject::draw</definition>
-        <argsstring>(const Viewport &amp;vp, const AffineXf3f &amp;rotXf, const AffineXf3f &amp;vpInvXf)</argsstring>
-        <name>draw</name>
-        <qualifiedname>MR::CornerControllerObject::draw</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1Viewport" kindref="compound">Viewport</ref> &amp;</type>
-          <declname>vp</declname>
-        </param>
-        <param>
-          <type>const AffineXf3f &amp;</type>
-          <declname>rotXf</declname>
-        </param>
-        <param>
-          <type>const AffineXf3f &amp;</type>
-          <declname>vpInvXf</declname>
-        </param>
-        <briefdescription>
-<para>draw this object in given viewport in position of basis axes </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportCornerController.h" line="36" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1CornerControllerObject_1abcd0e6b17a43b3a196c9060049f1c574" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>MRVIEWER_API bool MR::CornerControllerObject::getRedrawFlag</definition>
-        <argsstring>(ViewportMask mask) const</argsstring>
-        <name>getRedrawFlag</name>
-        <qualifiedname>MR::CornerControllerObject::getRedrawFlag</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
-          <declname>mask</declname>
-        </param>
-        <briefdescription>
-<para>returns true if objects requires redraw </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportCornerController.h" line="39" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1CornerControllerObject_1a75d438fb86aebae479782ee45c6caa26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::CornerControllerObject::resetRedrawFlag</definition>
-        <argsstring>()</argsstring>
-        <name>resetRedrawFlag</name>
-        <qualifiedname>MR::CornerControllerObject::resetRedrawFlag</qualifiedname>
-        <briefdescription>
-<para>marks this object as drawn </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportCornerController.h" line="42" column="23"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gacab9beedac78c53c7193591ae8cfa96a" kind="function"><name>CornerControllerObject</name></member>
+      <member refid="group__GeneralGroup_1ga53eef1ed99457b7fc332ac94c7c13a4b" kind="function"><name>initDefault</name></member>
+      <member refid="group__GeneralGroup_1ga1dc148f82f6c4cf8c532da8859c8cf83" kind="function"><name>enable</name></member>
+      <member refid="group__GeneralGroup_1ga86020bdd51121c1ffad08d01b638aeca" kind="function"><name>draw</name></member>
+      <member refid="group__GeneralGroup_1gabcd0e6b17a43b3a196c9060049f1c574" kind="function"><name>getRedrawFlag</name></member>
+      <member refid="group__GeneralGroup_1ga75d438fb86aebae479782ee45c6caa26" kind="function"><name>resetRedrawFlag</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMR_1_1CornerControllerObject_1a6dad3e6da660e28d0eb9cccce5e2c60b" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="structMR_1_1CornerControllerObject_1_1PickedIds" kindref="compound">PickedIds</ref></type>
-        <definition>PickedIds MR::CornerControllerObject::pick_</definition>
-        <argsstring>(const Vector2f &amp;mousePos) const</argsstring>
-        <name>pick_</name>
-        <qualifiedname>MR::CornerControllerObject::pick_</qualifiedname>
-        <param>
-          <type>const Vector2f &amp;</type>
-          <declname>mousePos</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportCornerController.h" line="47" column="15"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1CornerControllerObject_1a3f3f08dd23e5fcc2fd188e3780443159" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::CornerControllerObject::hover_</definition>
-        <argsstring>(const Vector2f &amp;mousePos)</argsstring>
-        <name>hover_</name>
-        <qualifiedname>MR::CornerControllerObject::hover_</qualifiedname>
-        <param>
-          <type>const Vector2f &amp;</type>
-          <declname>mousePos</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportCornerController.h" line="48" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1CornerControllerObject_1ab4ee055c2671c2b13b4a994c812fde5b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::CornerControllerObject::press_</definition>
-        <argsstring>(const Vector2f &amp;mousePos)</argsstring>
-        <name>press_</name>
-        <qualifiedname>MR::CornerControllerObject::press_</qualifiedname>
-        <param>
-          <type>const Vector2f &amp;</type>
-          <declname>mousePos</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportCornerController.h" line="49" column="10"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga6dad3e6da660e28d0eb9cccce5e2c60b" kind="function"><name>pick_</name></member>
+      <member refid="group__GeneralGroup_1ga3f3f08dd23e5fcc2fd188e3780443159" kind="function"><name>hover_</name></member>
+      <member refid="group__GeneralGroup_1gab4ee055c2671c2b13b4a994c812fde5b" kind="function"><name>press_</name></member>
     </sectiondef>
     <briefdescription>
 <para>class that holds and manages corner controller object </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportCornerController.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportCornerController.h" bodystart="18" bodyend="51"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportCornerController.h" line="20" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportCornerController.h" bodystart="21" bodyend="54"/>
     <listofallmembers>
-      <member refid="classMR_1_1CornerControllerObject_1a0b73d53fce94f039a4e0f80bac750519" prot="private" virt="non-virtual"><scope>MR::CornerControllerObject</scope><name>connections_</name></member>
-      <member refid="classMR_1_1CornerControllerObject_1acab9beedac78c53c7193591ae8cfa96a" prot="public" virt="non-virtual"><scope>MR::CornerControllerObject</scope><name>CornerControllerObject</name></member>
-      <member refid="classMR_1_1CornerControllerObject_1a86020bdd51121c1ffad08d01b638aeca" prot="public" virt="non-virtual"><scope>MR::CornerControllerObject</scope><name>draw</name></member>
-      <member refid="classMR_1_1CornerControllerObject_1a1dc148f82f6c4cf8c532da8859c8cf83" prot="public" virt="non-virtual"><scope>MR::CornerControllerObject</scope><name>enable</name></member>
-      <member refid="classMR_1_1CornerControllerObject_1abcd0e6b17a43b3a196c9060049f1c574" prot="public" virt="non-virtual"><scope>MR::CornerControllerObject</scope><name>getRedrawFlag</name></member>
-      <member refid="classMR_1_1CornerControllerObject_1a3f3f08dd23e5fcc2fd188e3780443159" prot="private" virt="non-virtual"><scope>MR::CornerControllerObject</scope><name>hover_</name></member>
-      <member refid="classMR_1_1CornerControllerObject_1a53eef1ed99457b7fc332ac94c7c13a4b" prot="public" virt="non-virtual"><scope>MR::CornerControllerObject</scope><name>initDefault</name></member>
-      <member refid="classMR_1_1CornerControllerObject_1a6dad3e6da660e28d0eb9cccce5e2c60b" prot="private" virt="non-virtual"><scope>MR::CornerControllerObject</scope><name>pick_</name></member>
-      <member refid="classMR_1_1CornerControllerObject_1acd9073a63ee8a95c851e6b99725bc850" prot="private" virt="non-virtual"><scope>MR::CornerControllerObject</scope><name>pickedId_</name></member>
-      <member refid="classMR_1_1CornerControllerObject_1ab4ee055c2671c2b13b4a994c812fde5b" prot="private" virt="non-virtual"><scope>MR::CornerControllerObject</scope><name>press_</name></member>
-      <member refid="classMR_1_1CornerControllerObject_1a75d438fb86aebae479782ee45c6caa26" prot="public" virt="non-virtual"><scope>MR::CornerControllerObject</scope><name>resetRedrawFlag</name></member>
-      <member refid="classMR_1_1CornerControllerObject_1a5fbb06d04684a2ff1114174c66e0a230" prot="private" virt="non-virtual"><scope>MR::CornerControllerObject</scope><name>rootObj_</name></member>
+      <member refid="group__GeneralGroup_1ga0b73d53fce94f039a4e0f80bac750519" prot="private" virt="non-virtual"><scope>MR::CornerControllerObject</scope><name>connections_</name></member>
+      <member refid="group__GeneralGroup_1gacab9beedac78c53c7193591ae8cfa96a" prot="public" virt="non-virtual"><scope>MR::CornerControllerObject</scope><name>CornerControllerObject</name></member>
+      <member refid="group__GeneralGroup_1ga86020bdd51121c1ffad08d01b638aeca" prot="public" virt="non-virtual"><scope>MR::CornerControllerObject</scope><name>draw</name></member>
+      <member refid="group__GeneralGroup_1ga1dc148f82f6c4cf8c532da8859c8cf83" prot="public" virt="non-virtual"><scope>MR::CornerControllerObject</scope><name>enable</name></member>
+      <member refid="group__GeneralGroup_1gabcd0e6b17a43b3a196c9060049f1c574" prot="public" virt="non-virtual"><scope>MR::CornerControllerObject</scope><name>getRedrawFlag</name></member>
+      <member refid="group__GeneralGroup_1ga3f3f08dd23e5fcc2fd188e3780443159" prot="private" virt="non-virtual"><scope>MR::CornerControllerObject</scope><name>hover_</name></member>
+      <member refid="group__GeneralGroup_1ga53eef1ed99457b7fc332ac94c7c13a4b" prot="public" virt="non-virtual"><scope>MR::CornerControllerObject</scope><name>initDefault</name></member>
+      <member refid="group__GeneralGroup_1ga6dad3e6da660e28d0eb9cccce5e2c60b" prot="private" virt="non-virtual"><scope>MR::CornerControllerObject</scope><name>pick_</name></member>
+      <member refid="group__GeneralGroup_1gacd9073a63ee8a95c851e6b99725bc850" prot="private" virt="non-virtual"><scope>MR::CornerControllerObject</scope><name>pickedId_</name></member>
+      <member refid="group__GeneralGroup_1gab4ee055c2671c2b13b4a994c812fde5b" prot="private" virt="non-virtual"><scope>MR::CornerControllerObject</scope><name>press_</name></member>
+      <member refid="group__GeneralGroup_1ga75d438fb86aebae479782ee45c6caa26" prot="public" virt="non-virtual"><scope>MR::CornerControllerObject</scope><name>resetRedrawFlag</name></member>
+      <member refid="group__GeneralGroup_1ga5fbb06d04684a2ff1114174c66e0a230" prot="private" virt="non-virtual"><scope>MR::CornerControllerObject</scope><name>rootObj_</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

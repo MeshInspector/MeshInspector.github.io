@@ -4,78 +4,22 @@
     <compoundname>MR::RibbonSchemaHolder::SearchResultWeight</compoundname>
     <includes refid="MRRibbonSchema_8h" local="no">MRRibbonSchema.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1RibbonSchemaHolder_1_1SearchResultWeight_1af3c9cd76985b22daa5dc4df743a27f18" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::RibbonSchemaHolder::SearchResultWeight::captionWeight</definition>
-        <argsstring></argsstring>
-        <name>captionWeight</name>
-        <qualifiedname>MR::RibbonSchemaHolder::SearchResultWeight::captionWeight</qualifiedname>
-        <initializer>{ 1.f }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="103" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" bodystart="103" bodyend="103"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1RibbonSchemaHolder_1_1SearchResultWeight_1a5ca5321968c0133a4d4bf0187f1b11c5" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::RibbonSchemaHolder::SearchResultWeight::captionOrderWeight</definition>
-        <argsstring></argsstring>
-        <name>captionOrderWeight</name>
-        <qualifiedname>MR::RibbonSchemaHolder::SearchResultWeight::captionOrderWeight</qualifiedname>
-        <initializer>{ 1.f }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="104" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" bodystart="104" bodyend="104"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1RibbonSchemaHolder_1_1SearchResultWeight_1ac62f704a663135a3575b85f010bf42cf" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::RibbonSchemaHolder::SearchResultWeight::tooltipWeight</definition>
-        <argsstring></argsstring>
-        <name>tooltipWeight</name>
-        <qualifiedname>MR::RibbonSchemaHolder::SearchResultWeight::tooltipWeight</qualifiedname>
-        <initializer>{ 1.f }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="105" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" bodystart="105" bodyend="105"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1RibbonSchemaHolder_1_1SearchResultWeight_1a169dd17810b6e3510c4e2d1715f91f43" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::RibbonSchemaHolder::SearchResultWeight::tooltipOrderWeight</definition>
-        <argsstring></argsstring>
-        <name>tooltipOrderWeight</name>
-        <qualifiedname>MR::RibbonSchemaHolder::SearchResultWeight::tooltipOrderWeight</qualifiedname>
-        <initializer>{ 1.f }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="106" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" bodystart="106" bodyend="106"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaf3c9cd76985b22daa5dc4df743a27f18" kind="variable"><name>captionWeight</name></member>
+      <member refid="group__GeneralGroup_1ga5ca5321968c0133a4d4bf0187f1b11c5" kind="variable"><name>captionOrderWeight</name></member>
+      <member refid="group__GeneralGroup_1gac62f704a663135a3575b85f010bf42cf" kind="variable"><name>tooltipWeight</name></member>
+      <member refid="group__GeneralGroup_1ga169dd17810b6e3510c4e2d1715f91f43" kind="variable"><name>tooltipOrderWeight</name></member>
     </sectiondef>
     <briefdescription>
 <para>ancillary struct to hold information for search result order </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="101" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" bodystart="102" bodyend="107"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="104" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" bodystart="105" bodyend="110"/>
     <listofallmembers>
-      <member refid="structMR_1_1RibbonSchemaHolder_1_1SearchResultWeight_1a5ca5321968c0133a4d4bf0187f1b11c5" prot="public" virt="non-virtual"><scope>MR::RibbonSchemaHolder::SearchResultWeight</scope><name>captionOrderWeight</name></member>
-      <member refid="structMR_1_1RibbonSchemaHolder_1_1SearchResultWeight_1af3c9cd76985b22daa5dc4df743a27f18" prot="public" virt="non-virtual"><scope>MR::RibbonSchemaHolder::SearchResultWeight</scope><name>captionWeight</name></member>
-      <member refid="structMR_1_1RibbonSchemaHolder_1_1SearchResultWeight_1a169dd17810b6e3510c4e2d1715f91f43" prot="public" virt="non-virtual"><scope>MR::RibbonSchemaHolder::SearchResultWeight</scope><name>tooltipOrderWeight</name></member>
-      <member refid="structMR_1_1RibbonSchemaHolder_1_1SearchResultWeight_1ac62f704a663135a3575b85f010bf42cf" prot="public" virt="non-virtual"><scope>MR::RibbonSchemaHolder::SearchResultWeight</scope><name>tooltipWeight</name></member>
+      <member refid="group__GeneralGroup_1ga5ca5321968c0133a4d4bf0187f1b11c5" prot="public" virt="non-virtual"><scope>MR::RibbonSchemaHolder::SearchResultWeight</scope><name>captionOrderWeight</name></member>
+      <member refid="group__GeneralGroup_1gaf3c9cd76985b22daa5dc4df743a27f18" prot="public" virt="non-virtual"><scope>MR::RibbonSchemaHolder::SearchResultWeight</scope><name>captionWeight</name></member>
+      <member refid="group__GeneralGroup_1ga169dd17810b6e3510c4e2d1715f91f43" prot="public" virt="non-virtual"><scope>MR::RibbonSchemaHolder::SearchResultWeight</scope><name>tooltipOrderWeight</name></member>
+      <member refid="group__GeneralGroup_1gac62f704a663135a3575b85f010bf42cf" prot="public" virt="non-virtual"><scope>MR::RibbonSchemaHolder::SearchResultWeight</scope><name>tooltipWeight</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

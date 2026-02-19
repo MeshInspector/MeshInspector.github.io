@@ -7,42 +7,7 @@
     <innerclass refid="structMR_1_1VoxelsLoad_1_1LoadingTiffSettings" prot="public">MR::VoxelsLoad::LoadingTiffSettings</innerclass>
     <innerclass refid="structMR_1_1VoxelsLoad_1_1RawParameters" prot="public">MR::VoxelsLoad::RawParameters</innerclass>
     <sectiondef kind="enum">
-      <memberdef kind="enum" id="namespaceMR_1_1VoxelsLoad_1a4877b5ea79a241234ef88b527edc08e6" prot="public" static="no" strong="yes">
-        <type>int</type>
-        <name>DicomStatusEnum</name>
-        <qualifiedname>MR::VoxelsLoad::DicomStatusEnum</qualifiedname>
-        <enumvalue id="namespaceMR_1_1VoxelsLoad_1a4877b5ea79a241234ef88b527edc08e6aa60852f204ed8028c1c58808b746d115" prot="public">
-          <name>Ok</name>
-          <initializer>= 0</initializer>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="namespaceMR_1_1VoxelsLoad_1a4877b5ea79a241234ef88b527edc08e6a4bbb8f967da6d1a610596d7257179c2b" prot="public">
-          <name>Invalid</name>
-          <briefdescription>
-<para>valid DICOM and we can open it </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="namespaceMR_1_1VoxelsLoad_1a4877b5ea79a241234ef88b527edc08e6ab4080bdf74febf04d578ff105cce9d3f" prot="public">
-          <name>Unsupported</name>
-          <briefdescription>
-<para>not a valid DICOM </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" line="21" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" bodystart="22" bodyend="26"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga4877b5ea79a241234ef88b527edc08e6" kind="enum"><name>DicomStatusEnum</name></member>
       <memberdef kind="enum" id="namespaceMR_1_1VoxelsLoad_1a5a3e4b96e9ddb9678f554fe8a8d56a19" prot="public" static="no" strong="yes">
         <type></type>
         <name>GridType</name>
@@ -77,7 +42,7 @@
     </sectiondef>
     <sectiondef kind="typedef">
       <memberdef kind="typedef" id="namespaceMR_1_1VoxelsLoad_1ac95950f875729ac15c011d99d4624d96" prot="public" static="no">
-        <type><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; std::vector&lt; VdbVolume &gt; &gt;(*)(const std::filesystem::path &amp;, const <ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref> &amp;)</type>
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; std::vector&lt; VdbVolume &gt; &gt;(*)(const std::filesystem::path &amp;, const ProgressCallback &amp;)</type>
         <definition>using MR::VoxelsLoad::VoxelsLoader =  Expected&lt;std::vector&lt;VdbVolume&gt;&gt;( * )( const std::filesystem::path&amp;, const ProgressCallback&amp; )</definition>
         <argsstring></argsstring>
         <name>VoxelsLoader</name>
@@ -93,327 +58,18 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
-      <memberdef kind="function" id="namespaceMR_1_1VoxelsLoad_1ad6fd3c989bc83e4e99389def8fa8931b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> <ref refid="structMR_1_1VoxelsLoad_1_1DicomStatus" kindref="compound">DicomStatus</ref></type>
-        <definition>MRVOXELS_API DicomStatus MR::VoxelsLoad::isDicomFile</definition>
-        <argsstring>(const std::filesystem::path &amp;path, std::string *seriesUid=nullptr, Vector3i *dims=nullptr)</argsstring>
-        <name>isDicomFile</name>
-        <qualifiedname>MR::VoxelsLoad::isDicomFile</qualifiedname>
-        <param>
-          <type>const std::filesystem::path &amp;</type>
-          <declname>path</declname>
-        </param>
-        <param>
-          <type>std::string *</type>
-          <declname>seriesUid</declname>
-          <defval>nullptr</defval>
-        </param>
-        <param>
-          <type>Vector3i *</type>
-          <declname>dims</declname>
-          <defval>nullptr</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>check if file is a valid DICOM dataset file <parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>seriesUid</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>- if set, the extracted series instance UID is copied to the variable </para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>dims</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>- optional output of the file volume&apos;s dimensions </para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" line="49" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" declline="49" declcolumn="26"/>
-      </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1VoxelsLoad_1adbcdf154c89bce3f54684092bcc3f76e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> bool</type>
-        <definition>MRVOXELS_API bool MR::VoxelsLoad::isDicomFolder</definition>
-        <argsstring>(const std::filesystem::path &amp;dirPath)</argsstring>
-        <name>isDicomFolder</name>
-        <qualifiedname>MR::VoxelsLoad::isDicomFolder</qualifiedname>
-        <param>
-          <type>const std::filesystem::path &amp;</type>
-          <declname>dirPath</declname>
-        </param>
-        <briefdescription>
-<para>check if given folder contains at least one DICOM file </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" line="52" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" declline="52" declcolumn="19"/>
-      </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1VoxelsLoad_1a57c362015058e67cdc805cce6bfec0b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> std::vector&lt; std::filesystem::path &gt;</type>
-        <definition>MRVOXELS_API std::vector&lt; std::filesystem::path &gt; MR::VoxelsLoad::findDicomFoldersRecursively</definition>
-        <argsstring>(const std::filesystem::path &amp;path)</argsstring>
-        <name>findDicomFoldersRecursively</name>
-        <qualifiedname>MR::VoxelsLoad::findDicomFoldersRecursively</qualifiedname>
-        <param>
-          <type>const std::filesystem::path &amp;</type>
-          <declname>path</declname>
-        </param>
-        <briefdescription>
-<para>returns all the dicom folders in <computeroutput>path</computeroutput>, searching recursively </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" line="55" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" declline="55" declcolumn="26"/>
-      </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1VoxelsLoad_1a97daff0d663d2d21303f92b32c475f1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; DicomVolume &gt;</type>
-        <definition>MRVOXELS_API Expected&lt; DicomVolume &gt; MR::VoxelsLoad::loadDicomFile</definition>
-        <argsstring>(const std::filesystem::path &amp;file, const ProgressCallback &amp;cb={})</argsstring>
-        <name>loadDicomFile</name>
-        <qualifiedname>MR::VoxelsLoad::loadDicomFile</qualifiedname>
-        <param>
-          <type>const std::filesystem::path &amp;</type>
-          <declname>file</declname>
-        </param>
-        <param>
-          <type>const <ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref> &amp;</type>
-          <declname>cb</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-<para>Loads full volume from single DICOM file (not a slice file) as SimpleVolumeMinMax. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" line="66" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" declline="66" declcolumn="23"/>
-      </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1VoxelsLoad_1a9edb1f3f1374143d0d7b53bc7afefeb6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; DicomVolumeAsVdb &gt;</type>
-        <definition>MRVOXELS_API Expected&lt; DicomVolumeAsVdb &gt; MR::VoxelsLoad::loadDicomFileAsVdb</definition>
-        <argsstring>(const std::filesystem::path &amp;file, const ProgressCallback &amp;cb={})</argsstring>
-        <name>loadDicomFileAsVdb</name>
-        <qualifiedname>MR::VoxelsLoad::loadDicomFileAsVdb</qualifiedname>
-        <param>
-          <type>const std::filesystem::path &amp;</type>
-          <declname>file</declname>
-        </param>
-        <param>
-          <type>const <ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref> &amp;</type>
-          <declname>cb</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-<para>Loads full volume from single DICOM file (not a slice file) as VdbVolume. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" line="69" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" declline="69" declcolumn="23"/>
-      </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1VoxelsLoad_1ab74657867c56c855737e8a2dbc5eb1b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; DicomVolume &gt;</type>
-        <definition>MRVOXELS_API Expected&lt; DicomVolume &gt; MR::VoxelsLoad::loadDicomFolder</definition>
-        <argsstring>(const std::filesystem::path &amp;path, unsigned maxNumThreads, const ProgressCallback &amp;cb={})</argsstring>
-        <name>loadDicomFolder</name>
-        <qualifiedname>MR::VoxelsLoad::loadDicomFolder</qualifiedname>
-        <param>
-          <type>const std::filesystem::path &amp;</type>
-          <declname>path</declname>
-        </param>
-        <param>
-          <type>unsigned</type>
-          <declname>maxNumThreads</declname>
-        </param>
-        <param>
-          <type>const <ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref> &amp;</type>
-          <declname>cb</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-<para>Loads one volume from DICOM files located in given folder as SimpleVolumeMinMax. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" line="72" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" declline="72" declcolumn="23"/>
-      </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1VoxelsLoad_1a502a6fc0f3621c800b6569b6e56e99fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; DicomVolumeAsVdb &gt;</type>
-        <definition>MRVOXELS_API Expected&lt; DicomVolumeAsVdb &gt; MR::VoxelsLoad::loadDicomFolderAsVdb</definition>
-        <argsstring>(const std::filesystem::path &amp;path, unsigned maxNumThreads, const ProgressCallback &amp;cb={})</argsstring>
-        <name>loadDicomFolderAsVdb</name>
-        <qualifiedname>MR::VoxelsLoad::loadDicomFolderAsVdb</qualifiedname>
-        <param>
-          <type>const std::filesystem::path &amp;</type>
-          <declname>path</declname>
-        </param>
-        <param>
-          <type>unsigned</type>
-          <declname>maxNumThreads</declname>
-        </param>
-        <param>
-          <type>const <ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref> &amp;</type>
-          <declname>cb</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-<para>Loads one volume from DICOM files located in given folder as VdbVolume. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" line="75" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" declline="75" declcolumn="23"/>
-      </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1VoxelsLoad_1a80f9d3c0df6c7033f2ea958de6f8a1d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> std::vector&lt; <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; DicomVolume &gt; &gt;</type>
-        <definition>MRVOXELS_API std::vector&lt; Expected&lt; DicomVolume &gt; &gt; MR::VoxelsLoad::loadDicomsFolder</definition>
-        <argsstring>(const std::filesystem::path &amp;path, unsigned maxNumThreads, const ProgressCallback &amp;cb={})</argsstring>
-        <name>loadDicomsFolder</name>
-        <qualifiedname>MR::VoxelsLoad::loadDicomsFolder</qualifiedname>
-        <param>
-          <type>const std::filesystem::path &amp;</type>
-          <declname>path</declname>
-        </param>
-        <param>
-          <type>unsigned</type>
-          <declname>maxNumThreads</declname>
-        </param>
-        <param>
-          <type>const <ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref> &amp;</type>
-          <declname>cb</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-<para>Loads all volumes from DICOM files located in given folder as a number of SimpleVolumeMinMax. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" line="78" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" declline="78" declcolumn="26"/>
-      </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1VoxelsLoad_1adf1cf75d42be383bb66a5e1f952b2cd1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> std::vector&lt; <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; DicomVolumeAsVdb &gt; &gt;</type>
-        <definition>MRVOXELS_API std::vector&lt; Expected&lt; DicomVolumeAsVdb &gt; &gt; MR::VoxelsLoad::loadDicomsFolderAsVdb</definition>
-        <argsstring>(const std::filesystem::path &amp;path, unsigned maxNumThreads, const ProgressCallback &amp;cb={})</argsstring>
-        <name>loadDicomsFolderAsVdb</name>
-        <qualifiedname>MR::VoxelsLoad::loadDicomsFolderAsVdb</qualifiedname>
-        <param>
-          <type>const std::filesystem::path &amp;</type>
-          <declname>path</declname>
-        </param>
-        <param>
-          <type>unsigned</type>
-          <declname>maxNumThreads</declname>
-        </param>
-        <param>
-          <type>const <ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref> &amp;</type>
-          <declname>cb</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-<para>Loads all volumes from DICOM files located in given folder as a number of VdbVolume. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" line="81" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" declline="81" declcolumn="26"/>
-      </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1VoxelsLoad_1ad79032cc6ef1a0e389097a70c1000de3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> std::vector&lt; <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; DicomVolumeAsVdb &gt; &gt;</type>
-        <definition>MRVOXELS_API std::vector&lt; Expected&lt; DicomVolumeAsVdb &gt; &gt; MR::VoxelsLoad::loadDicomsFolderTreeAsVdb</definition>
-        <argsstring>(const std::filesystem::path &amp;path, unsigned maxNumThreads=4, const ProgressCallback &amp;cb={})</argsstring>
-        <name>loadDicomsFolderTreeAsVdb</name>
-        <qualifiedname>MR::VoxelsLoad::loadDicomsFolderTreeAsVdb</qualifiedname>
-        <param>
-          <type>const std::filesystem::path &amp;</type>
-          <declname>path</declname>
-        </param>
-        <param>
-          <type>unsigned</type>
-          <declname>maxNumThreads</declname>
-          <defval>4</defval>
-        </param>
-        <param>
-          <type>const <ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref> &amp;</type>
-          <declname>cb</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-<para>Loads every subfolder with DICOM volume as new object. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" line="84" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" declline="84" declcolumn="26"/>
-      </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1VoxelsLoad_1a4461fa0856c7f24094e4b923f7ddd75f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; std::shared_ptr&lt; <ref refid="classMR_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref> &gt; &gt;</type>
-        <definition>MRVOXELS_API Expected&lt; std::shared_ptr&lt; ObjectVoxels &gt; &gt; MR::VoxelsLoad::createObjectVoxels</definition>
-        <argsstring>(const DicomVolumeAsVdb &amp;dcm, const ProgressCallback &amp;cb={})</argsstring>
-        <name>createObjectVoxels</name>
-        <qualifiedname>MR::VoxelsLoad::createObjectVoxels</qualifiedname>
-        <param>
-          <type>const DicomVolumeAsVdb &amp;</type>
-          <declname>dcm</declname>
-        </param>
-        <param>
-          <type>const <ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref> &amp;</type>
-          <declname>cb</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-<para>converts DicomVolumeAsVdb in <ref refid="classMR_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref> </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" line="88" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" declline="88" declcolumn="23"/>
-      </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1VoxelsLoad_1a279a152a57f0cd1d7f680c48cc341687" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1LoadedObjects" kindref="compound">LoadedObjects</ref> &gt;</type>
-        <definition>MRVOXELS_API Expected&lt; LoadedObjects &gt; MR::VoxelsLoad::makeObjectVoxelsFromDicomFolder</definition>
-        <argsstring>(const std::filesystem::path &amp;folder, const ProgressCallback &amp;callback={})</argsstring>
-        <name>makeObjectVoxelsFromDicomFolder</name>
-        <qualifiedname>MR::VoxelsLoad::makeObjectVoxelsFromDicomFolder</qualifiedname>
-        <param>
-          <type>const std::filesystem::path &amp;</type>
-          <declname>folder</declname>
-        </param>
-        <param>
-          <type>const <ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref> &amp;</type>
-          <declname>callback</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-<para>Loads 3D volumetric data from dicom-files in given folder, and converts them into an <ref refid="classMR_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" line="91" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" declline="91" declcolumn="23"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gad6fd3c989bc83e4e99389def8fa8931b" kind="function"><name>isDicomFile</name></member>
+      <member refid="group__GeneralGroup_1gadbcdf154c89bce3f54684092bcc3f76e" kind="function"><name>isDicomFolder</name></member>
+      <member refid="group__GeneralGroup_1ga57c362015058e67cdc805cce6bfec0b8" kind="function"><name>findDicomFoldersRecursively</name></member>
+      <member refid="group__GeneralGroup_1ga97daff0d663d2d21303f92b32c475f1d" kind="function"><name>loadDicomFile</name></member>
+      <member refid="group__GeneralGroup_1ga9edb1f3f1374143d0d7b53bc7afefeb6" kind="function"><name>loadDicomFileAsVdb</name></member>
+      <member refid="group__GeneralGroup_1gab74657867c56c855737e8a2dbc5eb1b1" kind="function"><name>loadDicomFolder</name></member>
+      <member refid="group__GeneralGroup_1ga502a6fc0f3621c800b6569b6e56e99fa" kind="function"><name>loadDicomFolderAsVdb</name></member>
+      <member refid="group__GeneralGroup_1ga80f9d3c0df6c7033f2ea958de6f8a1d1" kind="function"><name>loadDicomsFolder</name></member>
+      <member refid="group__GeneralGroup_1gadf1cf75d42be383bb66a5e1f952b2cd1" kind="function"><name>loadDicomsFolderAsVdb</name></member>
+      <member refid="group__GeneralGroup_1gad79032cc6ef1a0e389097a70c1000de3" kind="function"><name>loadDicomsFolderTreeAsVdb</name></member>
+      <member refid="group__GeneralGroup_1ga4461fa0856c7f24094e4b923f7ddd75f" kind="function"><name>createObjectVoxels</name></member>
+      <member refid="group__GeneralGroup_1ga279a152a57f0cd1d7f680c48cc341687" kind="function"><name>makeObjectVoxelsFromDicomFolder</name></member>
       <member refid="group__VoxelsLoadGroup_1gad3e3783e957919006d682b65886541bb" kind="function"><name>fromRaw</name></member>
       <member refid="group__VoxelsLoadGroup_1ga603131e52dfc2ce8aa33d3a0d0028878" kind="function"><name>fromRaw</name></member>
       <member refid="group__VoxelsLoadGroup_1ga8d1d5e8fd4d557ab5cb0501f801e09c2" kind="function"><name>gridFromRaw</name></member>
@@ -429,7 +85,7 @@
       <member refid="group__VoxelsLoadGroup_1ga9c5c70dae47d427c0b4441b8b1df6b17" kind="function"><name>gridsFromAnySupportedFormat</name></member>
       <member refid="group__VoxelsLoadGroup_1ga112e15838444077291559cd2320baedb" kind="function"><name>fromAnySupportedFormat</name></member>
       <memberdef kind="function" id="namespaceMR_1_1VoxelsLoad_1a44442bb9fb78ce9c9668e928460258b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; VdbVolume &gt;</type>
+        <type>MRVOXELS_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; VdbVolume &gt;</type>
         <definition>MRVOXELS_API Expected&lt; VdbVolume &gt; MR::VoxelsLoad::loadTiffDir</definition>
         <argsstring>(const LoadingTiffSettings &amp;settings)</argsstring>
         <name>loadTiffDir</name>
@@ -452,6 +108,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" line="17" column="1"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" line="20" column="1"/>
   </compounddef>
 </doxygen>

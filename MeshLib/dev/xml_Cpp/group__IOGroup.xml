@@ -23,7 +23,7 @@
     <innergroup refid="group__VoxelsLoadGroup">Voxels Load</innergroup>
     <sectiondef kind="func">
       <memberdef kind="function" id="group__IOGroup_1gaff1fcad8c4a57da6a7dc90d9fb1f2a56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; PointCloud &gt;</type>
+        <type>MRMESH_API Expected&lt; PointCloud &gt;</type>
         <definition>MRMESH_API Expected&lt; PointCloud &gt; MR::PointsLoad::fromText</definition>
         <argsstring>(const std::filesystem::path &amp;file, const PointsLoadSettings &amp;settings={})</argsstring>
         <name>fromText</name>
@@ -47,7 +47,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsLoad.h" line="18" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsLoad.h" declline="18" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__IOGroup_1gab1a6e8a21cedba988c7ecaea8eda8d2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; PointCloud &gt;</type>
+        <type>MRMESH_API Expected&lt; PointCloud &gt;</type>
         <definition>MRMESH_API Expected&lt; PointCloud &gt; MR::PointsLoad::fromText</definition>
         <argsstring>(std::istream &amp;in, const PointsLoadSettings &amp;settings={})</argsstring>
         <name>fromText</name>
@@ -70,7 +70,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsLoad.h" line="19" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsLoad.h" declline="19" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__IOGroup_1ga365add9d0f24601d5f6b167a7401409c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; PointCloud &gt;</type>
+        <type>MRMESH_API Expected&lt; PointCloud &gt;</type>
         <definition>MRMESH_API Expected&lt; PointCloud &gt; MR::PointsLoad::fromPts</definition>
         <argsstring>(const std::filesystem::path &amp;file, const PointsLoadSettings &amp;settings={})</argsstring>
         <name>fromPts</name>
@@ -94,7 +94,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsLoad.h" line="22" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsLoad.h" declline="22" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__IOGroup_1ga76499883ce907d382fed5d9522aadaa8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; PointCloud &gt;</type>
+        <type>MRMESH_API Expected&lt; PointCloud &gt;</type>
         <definition>MRMESH_API Expected&lt; PointCloud &gt; MR::PointsLoad::fromPts</definition>
         <argsstring>(std::istream &amp;in, const PointsLoadSettings &amp;settings={})</argsstring>
         <name>fromPts</name>
@@ -117,7 +117,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsLoad.h" line="23" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsLoad.h" declline="23" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__IOGroup_1ga64740729d79ac47a437b07ade4cdd263" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; PointCloud &gt;</type>
+        <type>MRMESH_API Expected&lt; PointCloud &gt;</type>
         <definition>MRMESH_API Expected&lt; PointCloud &gt; MR::PointsLoad::fromPly</definition>
         <argsstring>(const std::filesystem::path &amp;file, const PointsLoadSettings &amp;settings={})</argsstring>
         <name>fromPly</name>
@@ -141,7 +141,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsLoad.h" line="26" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsLoad.h" declline="26" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__IOGroup_1gabcb84700ed6a15a625e0033b4b70004b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; PointCloud &gt;</type>
+        <type>MRMESH_API Expected&lt; PointCloud &gt;</type>
         <definition>MRMESH_API Expected&lt; PointCloud &gt; MR::PointsLoad::fromPly</definition>
         <argsstring>(std::istream &amp;in, const PointsLoadSettings &amp;settings={})</argsstring>
         <name>fromPly</name>
@@ -164,7 +164,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsLoad.h" line="27" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsLoad.h" declline="27" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__IOGroup_1ga397a19d78a3050dda279565c1962c330" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; PointCloud &gt;</type>
+        <type>MRMESH_API Expected&lt; PointCloud &gt;</type>
         <definition>MRMESH_API Expected&lt; PointCloud &gt; MR::PointsLoad::fromObj</definition>
         <argsstring>(const std::filesystem::path &amp;file, const PointsLoadSettings &amp;settings={})</argsstring>
         <name>fromObj</name>
@@ -188,7 +188,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsLoad.h" line="30" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsLoad.h" declline="30" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__IOGroup_1gad4657017f48af1fe3829844adc135bf0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; PointCloud &gt;</type>
+        <type>MRMESH_API Expected&lt; PointCloud &gt;</type>
         <definition>MRMESH_API Expected&lt; PointCloud &gt; MR::PointsLoad::fromObj</definition>
         <argsstring>(std::istream &amp;in, const PointsLoadSettings &amp;settings={})</argsstring>
         <name>fromObj</name>
@@ -211,7 +211,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsLoad.h" line="31" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsLoad.h" declline="31" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__IOGroup_1ga20c9e8324f81247ee337a60745ad7c8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; PointCloud &gt;</type>
+        <type>MRMESH_API Expected&lt; PointCloud &gt;</type>
         <definition>MRMESH_API Expected&lt; PointCloud &gt; MR::PointsLoad::fromDxf</definition>
         <argsstring>(const std::filesystem::path &amp;file, const PointsLoadSettings &amp;settings={})</argsstring>
         <name>fromDxf</name>
@@ -234,7 +234,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsLoad.h" line="33" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsLoad.h" declline="33" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__IOGroup_1ga750d0574c9ee2875720273d1f4c73e62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; PointCloud &gt;</type>
+        <type>MRMESH_API Expected&lt; PointCloud &gt;</type>
         <definition>MRMESH_API Expected&lt; PointCloud &gt; MR::PointsLoad::fromDxf</definition>
         <argsstring>(std::istream &amp;in, const PointsLoadSettings &amp;settings={})</argsstring>
         <name>fromDxf</name>
@@ -257,7 +257,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsLoad.h" line="34" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsLoad.h" declline="34" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__IOGroup_1gab0f629849bb97f655fcf29a1b3afd9fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; PointCloud &gt;</type>
+        <type>MRMESH_API Expected&lt; PointCloud &gt;</type>
         <definition>MRMESH_API Expected&lt; PointCloud &gt; MR::PointsLoad::fromAnySupportedFormat</definition>
         <argsstring>(const std::filesystem::path &amp;file, const PointsLoadSettings &amp;settings={})</argsstring>
         <name>fromAnySupportedFormat</name>
@@ -281,7 +281,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsLoad.h" line="37" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsLoad.h" declline="37" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__IOGroup_1ga9a63511b8cba2da2a8c8373fefc0a384" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; PointCloud &gt;</type>
+        <type>MRMESH_API Expected&lt; PointCloud &gt;</type>
         <definition>MRMESH_API Expected&lt; PointCloud &gt; MR::PointsLoad::fromAnySupportedFormat</definition>
         <argsstring>(std::istream &amp;in, const std::string &amp;extension, const PointsLoadSettings &amp;settings={})</argsstring>
         <name>fromAnySupportedFormat</name>
@@ -309,7 +309,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsLoad.h" line="39" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsLoad.h" declline="39" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__IOGroup_1ga7f50d8551f5f8f8aaa9a7175d5f639cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MR_BIND_IGNORE <ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MR_BIND_IGNORE MRMESH_API void</type>
         <definition>MR_BIND_IGNORE MRMESH_API void MR::PointsLoad::telemetryLogSize</definition>
         <argsstring>(const PointCloud &amp;cloud)</argsstring>
         <name>telemetryLogSize</name>
@@ -328,7 +328,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsLoad.h" line="42" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsLoad.h" declline="42" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="group__IOGroup_1gaba5fa9d2b1947f916a3629cde580c30f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> Expected&lt; void &gt;</type>
+        <type>MRVOXELS_API Expected&lt; void &gt;</type>
         <definition>MRVOXELS_API Expected&lt; void &gt; MR::VoxelsSave::toRawAutoname</definition>
         <argsstring>(const VdbVolume &amp;vdbVolume, const std::filesystem::path &amp;file, ProgressCallback callback={})</argsstring>
         <name>toRawAutoname</name>
@@ -356,7 +356,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" line="20" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" declline="20" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="group__IOGroup_1gae7faa074ac0a027170b7339a76da566a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> Expected&lt; void &gt;</type>
+        <type>MRVOXELS_API Expected&lt; void &gt;</type>
         <definition>MRVOXELS_API Expected&lt; void &gt; MR::VoxelsSave::toRawAutoname</definition>
         <argsstring>(const SimpleVolume &amp;simpleVolume, const std::filesystem::path &amp;file, ProgressCallback callback={})</argsstring>
         <name>toRawAutoname</name>
@@ -383,7 +383,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" line="22" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" declline="22" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="group__IOGroup_1gaf3e337da226cefb117434f836e5305cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> Expected&lt; void &gt;</type>
+        <type>MRVOXELS_API Expected&lt; void &gt;</type>
         <definition>MRVOXELS_API Expected&lt; void &gt; MR::VoxelsSave::gridToRawAutoname</definition>
         <argsstring>(const FloatGrid &amp;grid, const Vector3i &amp;dims, const std::filesystem::path &amp;file, ProgressCallback callback={})</argsstring>
         <name>gridToRawAutoname</name>
@@ -414,7 +414,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" line="24" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" declline="24" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="group__IOGroup_1ga4d10a99aa49d2b8f2ef88692d30d10cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> Expected&lt; void &gt;</type>
+        <type>MRVOXELS_API Expected&lt; void &gt;</type>
         <definition>MRVOXELS_API Expected&lt; void &gt; MR::VoxelsSave::gridToRawFloat</definition>
         <argsstring>(const FloatGrid &amp;grid, const Vector3i &amp;dims, std::ostream &amp;out, ProgressCallback callback={})</argsstring>
         <name>gridToRawFloat</name>
@@ -446,7 +446,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" line="28" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" declline="28" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="group__IOGroup_1ga12d518250bd2612433a450a1a4d1edca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> Expected&lt; void &gt;</type>
+        <type>MRVOXELS_API Expected&lt; void &gt;</type>
         <definition>MRVOXELS_API Expected&lt; void &gt; MR::VoxelsSave::toRawFloat</definition>
         <argsstring>(const VdbVolume &amp;vdbVolume, std::ostream &amp;out, ProgressCallback callback={})</argsstring>
         <name>toRawFloat</name>
@@ -473,7 +473,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" line="29" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" declline="29" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="group__IOGroup_1gaa02434644d181b6490b7026bc9cfa989" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> Expected&lt; void &gt;</type>
+        <type>MRVOXELS_API Expected&lt; void &gt;</type>
         <definition>MRVOXELS_API Expected&lt; void &gt; MR::VoxelsSave::toRawFloat</definition>
         <argsstring>(const SimpleVolume &amp;simpleVolume, std::ostream &amp;out, ProgressCallback callback={})</argsstring>
         <name>toRawFloat</name>
@@ -500,7 +500,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" line="30" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" declline="30" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="group__IOGroup_1ga07fcb9dbce1e084feea3f4bc9a997d05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> Expected&lt; void &gt;</type>
+        <type>MRVOXELS_API Expected&lt; void &gt;</type>
         <definition>MRVOXELS_API Expected&lt; void &gt; MR::VoxelsSave::toGav</definition>
         <argsstring>(const VdbVolume &amp;vdbVolume, const std::filesystem::path &amp;file, ProgressCallback callback={})</argsstring>
         <name>toGav</name>
@@ -528,7 +528,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" line="33" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" declline="33" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="group__IOGroup_1ga2be8d94b307086a5911150897b696e80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> Expected&lt; void &gt;</type>
+        <type>MRVOXELS_API Expected&lt; void &gt;</type>
         <definition>MRVOXELS_API Expected&lt; void &gt; MR::VoxelsSave::toGav</definition>
         <argsstring>(const VdbVolume &amp;vdbVolume, std::ostream &amp;out, ProgressCallback callback={})</argsstring>
         <name>toGav</name>
@@ -555,7 +555,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" line="34" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" declline="34" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="group__IOGroup_1ga83684442a0c8442dd692b127a40080a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> Expected&lt; void &gt;</type>
+        <type>MRVOXELS_API Expected&lt; void &gt;</type>
         <definition>MRVOXELS_API Expected&lt; void &gt; MR::VoxelsSave::toGav</definition>
         <argsstring>(const SimpleVolumeMinMax &amp;simpleVolumeMinMax, const std::filesystem::path &amp;file, ProgressCallback callback={})</argsstring>
         <name>toGav</name>
@@ -582,7 +582,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" line="35" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" declline="35" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="group__IOGroup_1ga708af38f8b6078cd2a53f8d8efdfa969" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> Expected&lt; void &gt;</type>
+        <type>MRVOXELS_API Expected&lt; void &gt;</type>
         <definition>MRVOXELS_API Expected&lt; void &gt; MR::VoxelsSave::toGav</definition>
         <argsstring>(const SimpleVolumeMinMax &amp;simpleVolumeMinMax, std::ostream &amp;out, ProgressCallback callback={})</argsstring>
         <name>toGav</name>
@@ -609,7 +609,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" line="36" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" declline="36" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="group__IOGroup_1gad119eb5a04825967c784f81d0add0afe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> Expected&lt; void &gt;</type>
+        <type>MRVOXELS_API Expected&lt; void &gt;</type>
         <definition>MRVOXELS_API Expected&lt; void &gt; MR::VoxelsSave::toGav</definition>
         <argsstring>(const SimpleVolume &amp;simpleVolume, const std::filesystem::path &amp;file, ProgressCallback callback={})</argsstring>
         <name>toGav</name>
@@ -636,7 +636,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" line="37" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" declline="37" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="group__IOGroup_1ga3fc609b9748c17d4d66dba1569809141" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> Expected&lt; void &gt;</type>
+        <type>MRVOXELS_API Expected&lt; void &gt;</type>
         <definition>MRVOXELS_API Expected&lt; void &gt; MR::VoxelsSave::toGav</definition>
         <argsstring>(const SimpleVolume &amp;simpleVolume, std::ostream &amp;out, ProgressCallback callback={})</argsstring>
         <name>toGav</name>
@@ -663,7 +663,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" line="38" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" declline="38" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="group__IOGroup_1gae95da72600888100f789f35d3c34dcfb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> Expected&lt; void &gt;</type>
+        <type>MRVOXELS_API Expected&lt; void &gt;</type>
         <definition>MRVOXELS_API Expected&lt; void &gt; MR::VoxelsSave::gridToVdb</definition>
         <argsstring>(const FloatGrid &amp;grid, const std::filesystem::path &amp;file, ProgressCallback callback={})</argsstring>
         <name>gridToVdb</name>
@@ -691,7 +691,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" line="41" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" declline="41" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="group__IOGroup_1ga8e29fc2e07717e64d35c1baafabcb446" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> Expected&lt; void &gt;</type>
+        <type>MRVOXELS_API Expected&lt; void &gt;</type>
         <definition>MRVOXELS_API Expected&lt; void &gt; MR::VoxelsSave::gridToVdb</definition>
         <argsstring>(const FloatGrid &amp;grid, std::ostream &amp;out, ProgressCallback callback={})</argsstring>
         <name>gridToVdb</name>
@@ -718,7 +718,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" line="43" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" declline="43" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="group__IOGroup_1gae7e67df258eb2d97e1ddf1d1cb4917f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> Expected&lt; void &gt;</type>
+        <type>MRVOXELS_API Expected&lt; void &gt;</type>
         <definition>MRVOXELS_API Expected&lt; void &gt; MR::VoxelsSave::toVdb</definition>
         <argsstring>(const VdbVolume &amp;vdbVolume, const std::filesystem::path &amp;file, ProgressCallback callback={})</argsstring>
         <name>toVdb</name>
@@ -745,7 +745,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" line="45" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" declline="45" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="group__IOGroup_1ga9dcafbf81e0cc08b00b5f3cc6c42f9e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> Expected&lt; void &gt;</type>
+        <type>MRVOXELS_API Expected&lt; void &gt;</type>
         <definition>MRVOXELS_API Expected&lt; void &gt; MR::VoxelsSave::gridToAnySupportedFormat</definition>
         <argsstring>(const FloatGrid &amp;grid, const Vector3i &amp;dims, const std::filesystem::path &amp;file, ProgressCallback callback={})</argsstring>
         <name>gridToAnySupportedFormat</name>
@@ -777,7 +777,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" line="49" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" declline="49" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="group__IOGroup_1ga479f7166483b9a6ae878a9eaaaf3b2c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> Expected&lt; void &gt;</type>
+        <type>MRVOXELS_API Expected&lt; void &gt;</type>
         <definition>MRVOXELS_API Expected&lt; void &gt; MR::VoxelsSave::toAnySupportedFormat</definition>
         <argsstring>(const VdbVolume &amp;vdbVolume, const std::filesystem::path &amp;file, ProgressCallback callback={})</argsstring>
         <name>toAnySupportedFormat</name>
@@ -804,7 +804,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" line="51" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" declline="51" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="group__IOGroup_1ga71f97bec2215ef7c561b5de6d82dfe53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> Expected&lt; void &gt;</type>
+        <type>MRVOXELS_API Expected&lt; void &gt;</type>
         <definition>MRVOXELS_API Expected&lt; void &gt; MR::VoxelsSave::saveSliceToImage</definition>
         <argsstring>(const std::filesystem::path &amp;path, const VdbVolume &amp;vdbVolume, const SlicePlane &amp;slicePlain, int sliceNumber, ProgressCallback callback={})</argsstring>
         <name>saveSliceToImage</name>
@@ -840,7 +840,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" line="55" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" declline="55" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="group__IOGroup_1ga369d03f6b945767a7f3fff153969a695" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> Expected&lt; void &gt;</type>
+        <type>MRVOXELS_API Expected&lt; void &gt;</type>
         <definition>MRVOXELS_API Expected&lt; void &gt; MR::VoxelsSave::saveAllSlicesToImage</definition>
         <argsstring>(const VdbVolume &amp;vdbVolume, const SavingSettings &amp;settings)</argsstring>
         <name>saveAllSlicesToImage</name>

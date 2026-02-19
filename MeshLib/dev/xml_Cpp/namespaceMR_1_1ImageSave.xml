@@ -4,7 +4,7 @@
     <compoundname>MR::ImageSave</compoundname>
     <sectiondef kind="typedef">
       <memberdef kind="typedef" id="namespaceMR_1_1ImageSave_1af787ba09d658e9fdb5560be6d9d7f2eb" prot="public" static="no">
-        <type><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;(*)(const <ref refid="structMR_1_1Image" kindref="compound">Image</ref> &amp;, const std::filesystem::path &amp;)</type>
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;(*)(const <ref refid="structMR_1_1Image" kindref="compound">Image</ref> &amp;, const std::filesystem::path &amp;)</type>
         <definition>using MR::ImageSave::ImageSaver =  Expected&lt;void&gt;( * )( const Image&amp;, const std::filesystem::path&amp; )</definition>
         <argsstring></argsstring>
         <name>ImageSaver</name>
@@ -19,97 +19,10 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
-      <memberdef kind="function" id="namespaceMR_1_1ImageSave_1a38b56fa1d15ca5efa69ac7cfa37ca1a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRIOEXTRAS_API <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
-        <definition>MRIOEXTRAS_API Expected&lt; void &gt; MR::ImageSave::toJpeg</definition>
-        <argsstring>(const Image &amp;image, const std::filesystem::path &amp;path)</argsstring>
-        <name>toJpeg</name>
-        <qualifiedname>MR::ImageSave::toJpeg</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Image" kindref="compound">Image</ref> &amp;</type>
-          <declname>image</declname>
-        </param>
-        <param>
-          <type>const std::filesystem::path &amp;</type>
-          <declname>path</declname>
-        </param>
-        <briefdescription>
-<para>saves in .jpg format </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRJpeg.h" line="30" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRJpeg.h" declline="30" declcolumn="25"/>
-      </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1ImageSave_1a3764c9bc79df35ce3d7b5b50a07db9e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRIOEXTRAS_API <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
-        <definition>MRIOEXTRAS_API Expected&lt; void &gt; MR::ImageSave::toPng</definition>
-        <argsstring>(const Image &amp;image, const std::filesystem::path &amp;path)</argsstring>
-        <name>toPng</name>
-        <qualifiedname>MR::ImageSave::toPng</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Image" kindref="compound">Image</ref> &amp;</type>
-          <declname>image</declname>
-        </param>
-        <param>
-          <type>const std::filesystem::path &amp;</type>
-          <declname>path</declname>
-        </param>
-        <briefdescription>
-<para>saves in .png format </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPng.h" line="28" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPng.h" declline="28" declcolumn="25"/>
-      </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1ImageSave_1aeb905574d875f0b68775a0027b6570d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRIOEXTRAS_API <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
-        <definition>MRIOEXTRAS_API Expected&lt; void &gt; MR::ImageSave::toPng</definition>
-        <argsstring>(const Image &amp;image, std::ostream &amp;os)</argsstring>
-        <name>toPng</name>
-        <qualifiedname>MR::ImageSave::toPng</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Image" kindref="compound">Image</ref> &amp;</type>
-          <declname>image</declname>
-        </param>
-        <param>
-          <type>std::ostream &amp;</type>
-          <declname>os</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPng.h" line="29" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPng.h" declline="29" declcolumn="25"/>
-      </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1ImageSave_1afe29a7fce91016abdf6ec236cbcf3d39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRIOEXTRAS_API <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
-        <definition>MRIOEXTRAS_API Expected&lt; void &gt; MR::ImageSave::toTiff</definition>
-        <argsstring>(const Image &amp;image, const std::filesystem::path &amp;path)</argsstring>
-        <name>toTiff</name>
-        <qualifiedname>MR::ImageSave::toTiff</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Image" kindref="compound">Image</ref> &amp;</type>
-          <declname>image</declname>
-        </param>
-        <param>
-          <type>const std::filesystem::path &amp;</type>
-          <declname>path</declname>
-        </param>
-        <briefdescription>
-<para>saves in .tiff format </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRTiff.h" line="28" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRTiff.h" declline="28" declcolumn="25"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga38b56fa1d15ca5efa69ac7cfa37ca1a4" kind="function"><name>toJpeg</name></member>
+      <member refid="group__GeneralGroup_1ga3764c9bc79df35ce3d7b5b50a07db9e5" kind="function"><name>toPng</name></member>
+      <member refid="group__GeneralGroup_1gaeb905574d875f0b68775a0027b6570d1" kind="function"><name>toPng</name></member>
+      <member refid="group__GeneralGroup_1gafe29a7fce91016abdf6ec236cbcf3d39" kind="function"><name>toTiff</name></member>
       <member refid="group__ImageSaveGroup_1ga0657c5aa66364149969648ed210c529a" kind="function"><name>toBmp</name></member>
       <member refid="group__ImageSaveGroup_1gaf5aa523593e91cde08bf181b7aa9b2b3" kind="function"><name>toAnySupportedFormat</name></member>
     </sectiondef>
@@ -118,6 +31,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRJpeg.h" line="26" column="1"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRJpeg.h" line="29" column="1"/>
   </compounddef>
 </doxygen>

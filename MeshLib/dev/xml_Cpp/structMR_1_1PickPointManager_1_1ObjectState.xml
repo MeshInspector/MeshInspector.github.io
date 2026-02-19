@@ -4,43 +4,17 @@
     <compoundname>MR::PickPointManager::ObjectState</compoundname>
     <includes refid="MRPickPointManager_8h" local="no">MRPickPointManager.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1PickPointManager_1_1ObjectState_1af4c22ebf57c9cc7c0fe199923143bb51" prot="public" static="no" mutable="no">
-        <type>std::weak_ptr&lt; <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> &gt;</type>
-        <definition>std::weak_ptr&lt;VisualObject&gt; MR::PickPointManager::ObjectState::objPtr</definition>
-        <argsstring></argsstring>
-        <name>objPtr</name>
-        <qualifiedname>MR::PickPointManager::ObjectState::objPtr</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="146" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" bodystart="146" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1PickPointManager_1_1ObjectState_1a75ec25d887eb5b52814323a6d4f0b012" prot="public" static="no" mutable="no">
-        <type>std::vector&lt; <ref refid="namespaceMR_1a3c6c4a3a98a6d5a53b51d05984395fa3" kindref="member">PickedPoint</ref> &gt;</type>
-        <definition>std::vector&lt;PickedPoint&gt; MR::PickPointManager::ObjectState::pickedPoints</definition>
-        <argsstring></argsstring>
-        <name>pickedPoints</name>
-        <qualifiedname>MR::PickPointManager::ObjectState::pickedPoints</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="147" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" bodystart="147" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaf4c22ebf57c9cc7c0fe199923143bb51" kind="variable"><name>objPtr</name></member>
+      <member refid="group__GeneralGroup_1ga75ec25d887eb5b52814323a6d4f0b012" kind="variable"><name>pickedPoints</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="144" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" bodystart="145" bodyend="148"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="147" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" bodystart="148" bodyend="151"/>
     <listofallmembers>
-      <member refid="structMR_1_1PickPointManager_1_1ObjectState_1af4c22ebf57c9cc7c0fe199923143bb51" prot="public" virt="non-virtual"><scope>MR::PickPointManager::ObjectState</scope><name>objPtr</name></member>
-      <member refid="structMR_1_1PickPointManager_1_1ObjectState_1a75ec25d887eb5b52814323a6d4f0b012" prot="public" virt="non-virtual"><scope>MR::PickPointManager::ObjectState</scope><name>pickedPoints</name></member>
+      <member refid="group__GeneralGroup_1gaf4c22ebf57c9cc7c0fe199923143bb51" prot="public" virt="non-virtual"><scope>MR::PickPointManager::ObjectState</scope><name>objPtr</name></member>
+      <member refid="group__GeneralGroup_1ga75ec25d887eb5b52814323a6d4f0b012" prot="public" virt="non-virtual"><scope>MR::PickPointManager::ObjectState</scope><name>pickedPoints</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

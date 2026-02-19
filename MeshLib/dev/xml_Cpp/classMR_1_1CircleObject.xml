@@ -6,7 +6,7 @@
     <includes refid="MRCircleObject_8h" local="no">MRCircleObject.h</includes>
     <sectiondef kind="public-func">
       <memberdef kind="function" id="classMR_1_1CircleObject_1ae7df056fbd3aea6277637d8a1e9f6a01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <type>MRMESH_API</type>
         <definition>MRMESH_API MR::CircleObject::CircleObject</definition>
         <argsstring>()</argsstring>
         <name>CircleObject</name>
@@ -21,7 +21,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" line="20" column="16"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CircleObject_1abf3f59a6892bcb043c2d8c478365293f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <type>MRMESH_API</type>
         <definition>MRMESH_API MR::CircleObject::CircleObject</definition>
         <argsstring>(const std::vector&lt; Vector3f &gt; &amp;pointsToApprox)</argsstring>
         <name>CircleObject</name>
@@ -79,7 +79,7 @@
         <argsstring>() const override</argsstring>
         <name>typeName</name>
         <qualifiedname>MR::CircleObject::typeName</qualifiedname>
-        <reimplements refid="classMR_1_1FeatureObject_1a45535da24d737a00a9262dd1fbe8525f">typeName</reimplements>
+        <reimplements refid="group__GeneralGroup_1ga45535da24d737a00a9262dd1fbe8525f">typeName</reimplements>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -94,7 +94,7 @@
         <argsstring>() const override</argsstring>
         <name>className</name>
         <qualifiedname>MR::CircleObject::className</qualifiedname>
-        <reimplements refid="classMR_1_1FeatureObject_1a9d50ec94a6a058376bf8e02827f5121c">className</reimplements>
+        <reimplements refid="group__GeneralGroup_1ga9d50ec94a6a058376bf8e02827f5121c">className</reimplements>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -109,7 +109,7 @@
         <argsstring>() const override</argsstring>
         <name>classNameInPlural</name>
         <qualifiedname>MR::CircleObject::classNameInPlural</qualifiedname>
-        <reimplements refid="classMR_1_1FeatureObject_1a873cf4c43be4dfcce9768ae68ad3ae44">classNameInPlural</reimplements>
+        <reimplements refid="group__GeneralGroup_1ga873cf4c43be4dfcce9768ae68ad3ae44">classNameInPlural</reimplements>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -143,7 +143,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" line="37" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" bodystart="37" bodyend="38"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CircleObject_1a1fcb69f1dd8bdbf42302043d67fb8fa8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
+        <type>MRMESH_API std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
         <definition>virtual MRMESH_API std::shared_ptr&lt; Object &gt; MR::CircleObject::clone</definition>
         <argsstring>() const override</argsstring>
         <name>clone</name>
@@ -159,7 +159,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" line="40" column="40"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CircleObject_1a1b666f68cb067916d8b0a10e19c98af6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
+        <type>MRMESH_API std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
         <definition>virtual MRMESH_API std::shared_ptr&lt; Object &gt; MR::CircleObject::shallowClone</definition>
         <argsstring>() const override</argsstring>
         <name>shallowClone</name>
@@ -175,7 +175,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" line="41" column="40"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CircleObject_1a77c28321188ea513ce5a9bb9ada5364e" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> float</type>
+        <type>MRMESH_API float</type>
         <definition>MRMESH_API float MR::CircleObject::getRadius</definition>
         <argsstring>(ViewportId id={}) const</argsstring>
         <name>getRadius</name>
@@ -195,7 +195,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" line="44" column="23"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CircleObject_1a895c02e2871ba07f4a6660e543acf2f2" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Vector3f</type>
+        <type>MRMESH_API Vector3f</type>
         <definition>MRMESH_API Vector3f MR::CircleObject::getCenter</definition>
         <argsstring>(ViewportId id={}) const</argsstring>
         <name>getCenter</name>
@@ -215,7 +215,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" line="46" column="27"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CircleObject_1a8532dd49492f56a01cffc103a837fe7d" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Vector3f</type>
+        <type>MRMESH_API Vector3f</type>
         <definition>MRMESH_API Vector3f MR::CircleObject::getNormal</definition>
         <argsstring>(ViewportId id={}) const</argsstring>
         <name>getNormal</name>
@@ -235,7 +235,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" line="48" column="26"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CircleObject_1ababfe6f501a0f05c1a79a789d2d53781" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::CircleObject::setRadius</definition>
         <argsstring>(float radius, ViewportId id={})</argsstring>
         <name>setRadius</name>
@@ -259,7 +259,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" line="50" column="21"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CircleObject_1a4053333e67bddb4bf37e28c777c85697" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::CircleObject::setCenter</definition>
         <argsstring>(const Vector3f &amp;center, ViewportId id={})</argsstring>
         <name>setCenter</name>
@@ -283,7 +283,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" line="52" column="21"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CircleObject_1a954c37422d60d6788e245dab3c929332" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::CircleObject::setNormal</definition>
         <argsstring>(const Vector3f &amp;normal, ViewportId id={})</argsstring>
         <name>setNormal</name>
@@ -307,12 +307,12 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" line="54" column="21"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CircleObject_1a04d619d722a2253079706d64e5c9ef70" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="structMR_1_1FeatureObjectProjectPointResult" kindref="compound">FeatureObjectProjectPointResult</ref></type>
+        <type>MRMESH_API <ref refid="structMR_1_1FeatureObjectProjectPointResult" kindref="compound">FeatureObjectProjectPointResult</ref></type>
         <definition>MRMESH_API FeatureObjectProjectPointResult MR::CircleObject::projectPoint</definition>
         <argsstring>(const Vector3f &amp;point, ViewportId id={}) const override</argsstring>
         <name>projectPoint</name>
         <qualifiedname>MR::CircleObject::projectPoint</qualifiedname>
-        <reimplements refid="classMR_1_1FeatureObject_1ad59d121c1a25c1218815462882d6bf8b">projectPoint</reimplements>
+        <reimplements refid="group__GeneralGroup_1gad59d121c1a25c1218815462882d6bf8b">projectPoint</reimplements>
         <param>
           <type>const Vector3f &amp;</type>
           <declname>point</declname>
@@ -332,12 +332,12 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" line="56" column="49"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CircleObject_1a96496ee95759ab735c258bd759a95719" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> const std::vector&lt; <ref refid="structMR_1_1FeatureObjectSharedProperty" kindref="compound">FeatureObjectSharedProperty</ref> &gt; &amp;</type>
+        <type>MRMESH_API const std::vector&lt; <ref refid="structMR_1_1FeatureObjectSharedProperty" kindref="compound">FeatureObjectSharedProperty</ref> &gt; &amp;</type>
         <definition>virtual MRMESH_API const std::vector&lt; FeatureObjectSharedProperty &gt; &amp; MR::CircleObject::getAllSharedProperties</definition>
         <argsstring>() const override</argsstring>
         <name>getAllSharedProperties</name>
         <qualifiedname>MR::CircleObject::getAllSharedProperties</qualifiedname>
-        <reimplements refid="classMR_1_1FeatureObject_1a67f4c8131f16d91de68c6ac590d31fa4">getAllSharedProperties</reimplements>
+        <reimplements refid="group__GeneralGroup_1ga67f4c8131f16d91de68c6ac590d31fa4">getAllSharedProperties</reimplements>
         <briefdescription>
 <para>Create and generate list of bounded getters and setters for the main properties of feature object, together with prop. name for display and edit into <ref refid="namespaceMR_1_1UI" kindref="compound">UI</ref>. </para>
         </briefdescription>
@@ -412,7 +412,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" line="61" column="5"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CircleObject_1a744c3d9624e8aaae878e393781b1b263" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>virtual MRMESH_API void MR::CircleObject::swapBase_</definition>
         <argsstring>(Object &amp;other) override</argsstring>
         <name>swapBase_</name>
@@ -432,7 +432,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" line="64" column="29"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CircleObject_1a2f2f75df180154bb0a2973c18a588e3f" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>virtual MRMESH_API void MR::CircleObject::serializeFields_</definition>
         <argsstring>(Json::Value &amp;root) const override</argsstring>
         <name>serializeFields_</name>
@@ -454,7 +454,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" line="66" column="29"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CircleObject_1a1736c81bbbed02bdefb9e95d8b991724" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; std::future&lt; <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt; &gt; &gt;</type>
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; std::future&lt; <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt; &gt; &gt;</type>
         <definition>virtual Expected&lt; std::future&lt; Expected&lt; void &gt; &gt; &gt; MR::CircleObject::serializeModel_</definition>
         <argsstring>(const std::filesystem::path &amp;) const override</argsstring>
         <name>serializeModel_</name>
@@ -474,7 +474,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" line="68" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" bodystart="68" bodyend="71"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CircleObject_1a200c9643698b13aa5c464c4797c58a73" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
         <definition>virtual Expected&lt; void &gt; MR::CircleObject::deserializeModel_</definition>
         <argsstring>(const std::filesystem::path &amp;, ProgressCallback) override</argsstring>
         <name>deserializeModel_</name>
@@ -485,7 +485,7 @@
           <declname>path</declname>
         </param>
         <param>
-          <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+          <type>ProgressCallback</type>
           <declname>progressCb</declname>
         </param>
         <briefdescription>
@@ -498,7 +498,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" line="73" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCircleObject.h" bodystart="73" bodyend="76"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CircleObject_1a3ec925469335dc13e8594830baf29182" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::CircleObject::setupRenderObject_</definition>
         <argsstring>() const override</argsstring>
         <name>setupRenderObject_</name>
@@ -696,14 +696,14 @@
       <member refid="classMR_1_1VisualObject_1a21eb2d0c923e3ca0544e4cf90782e6b1" prot="protected" virt="non-virtual"><scope>MR::CircleObject</scope><name>coloringType_</name></member>
       <member refid="classMR_1_1VisualObject_1a4e27182996ebf22fc42c7d1ebf6cf02b" prot="protected" virt="virtual"><scope>MR::CircleObject</scope><name>computeBoundingBox_</name></member>
       <member refid="classMR_1_1VisualObject_1a7857f20b8f16704a46297b95e12524f7" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>copyAllSolidColors</name></member>
-      <member refid="classMR_1_1FeatureObject_1a1c8e2cd4e02b32ce6329d8a44ab727c6" prot="protected" virt="non-virtual"><scope>MR::CircleObject</scope><name>decorationsColor_</name></member>
+      <member refid="group__GeneralGroup_1ga1c8e2cd4e02b32ce6329d8a44ab727c6" prot="protected" virt="non-virtual"><scope>MR::CircleObject</scope><name>decorationsColor_</name></member>
       <member refid="classMR_1_1VisualObject_1a3c81a910d1fdd5c1f1b413c185bf750d" prot="protected" virt="non-virtual"><scope>MR::CircleObject</scope><name>depthTest_</name></member>
-      <member refid="classMR_1_1FeatureObject_1aee2648d2f24f218b7c2cbcd1b48ae0f2" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>deserializeFields_</name></member>
+      <member refid="group__GeneralGroup_1gaee2648d2f24f218b7c2cbcd1b48ae0f2" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>deserializeFields_</name></member>
       <member refid="classMR_1_1CircleObject_1a200c9643698b13aa5c464c4797c58a73" prot="protected" virt="virtual"><scope>MR::CircleObject</scope><name>deserializeModel_</name></member>
       <member refid="classMR_1_1Object_1ae6602edbad891420dc4dff152e9df603" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>deserializeRecursive</name></member>
       <member refid="classMR_1_1Object_1a80a32a58c497b044d63e5aaa75e77fbe" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>detachFromParent</name></member>
-      <member refid="classMR_1_1FeatureObject_1ac252edfceb31c314bc08c0ba5fac11b3" prot="protected" virt="non-virtual"><scope>MR::CircleObject</scope><name>detailsOnNameTag_</name></member>
-      <member refid="classMR_1_1FeatureObject_1a537fbe1f37e55b900de3e7427c41e7b4" prot="protected" virt="non-virtual"><scope>MR::CircleObject</scope><name>FeatureObject</name></member>
+      <member refid="group__GeneralGroup_1gac252edfceb31c314bc08c0ba5fac11b3" prot="protected" virt="non-virtual"><scope>MR::CircleObject</scope><name>detailsOnNameTag_</name></member>
+      <member refid="group__GeneralGroup_1ga537fbe1f37e55b900de3e7427c41e7b4" prot="protected" virt="non-virtual"><scope>MR::CircleObject</scope><name>FeatureObject</name></member>
       <member refid="classMR_1_1Object_1abcc984d346790cbe1a13d6ee87daffd0" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>find</name></member>
       <member refid="classMR_1_1Object_1a639d2e0d72c82c1efd9dc00ecaa0d3da" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>find</name></member>
       <member refid="group__DataModelGroup_1gaa9133d1e63e15eb09f7f902afe2abd3a" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>find</name></member>
@@ -713,43 +713,43 @@
       <member refid="classMR_1_1Object_1aa3e60b6a82814bffff2ba324dcaa7bd2" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>findCommonAncestor</name></member>
       <member refid="classMR_1_1Object_1af3951674c765923b8a024a44bd27342d" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>findCommonAncestor</name></member>
       <member refid="classMR_1_1CircleObject_1a96496ee95759ab735c258bd759a95719" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>getAllSharedProperties</name></member>
-      <member refid="classMR_1_1AddVisualProperties_1a7fc99037212a4beaeec730ca98373554" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="group__GeneralGroup_1ga7fc99037212a4beaeec730ca98373554" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>getAllVisualizeProperties</name></member>
       <member refid="classMR_1_1VisualObject_1a44359499c4ee0b22074b8f3999d53a6e" prot="protected" virt="non-virtual"><scope>MR::CircleObject</scope><name>getAllVisualizePropertiesForEnum</name></member>
       <member refid="classMR_1_1VisualObject_1afd16375df437a376f44c3bdea5186b82" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>getAmbientStrength</name></member>
       <member refid="classMR_1_1VisualObject_1af49f84e12ea7e21ec8dc39ae8609bc18" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>getBackColor</name></member>
       <member refid="classMR_1_1VisualObject_1a714aab4f9110c1072f3147edae51e293" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>getBackColorsForAllViewports</name></member>
-      <member refid="classMR_1_1FeatureObject_1a9156046dada7ff2cd440abcec27fa98b" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>getBasePoint</name></member>
+      <member refid="group__GeneralGroup_1ga9156046dada7ff2cd440abcec27fa98b" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>getBasePoint</name></member>
       <member refid="classMR_1_1VisualObject_1a8fe84b708cf42b2d73b31e77f02fae6a" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>getBoundingBox</name></member>
       <member refid="classMR_1_1CircleObject_1a895c02e2871ba07f4a6660e543acf2f2" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>getCenter</name></member>
       <member refid="classMR_1_1VisualObject_1ad526a2645a12621b7742bc66aaf5ad0f" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>getColoringType</name></member>
-      <member refid="classMR_1_1FeatureObject_1afa41398b2369e2bbe90b107c3de0bbe6" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>getDecorationsColor</name></member>
-      <member refid="classMR_1_1FeatureObject_1a38e30bc9c390d73d9e302ef1e6f6238f" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>getDecorationsColorForAllViewports</name></member>
+      <member refid="group__GeneralGroup_1gafa41398b2369e2bbe90b107c3de0bbe6" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>getDecorationsColor</name></member>
+      <member refid="group__GeneralGroup_1ga38e30bc9c390d73d9e302ef1e6f6238f" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>getDecorationsColorForAllViewports</name></member>
       <member refid="classMR_1_1VisualObject_1a6411458c4cd7d098c12adaea27568db7" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>getDirtyFlags</name></member>
       <member refid="classMR_1_1VisualObject_1a70f15c0dc59f3b83a8b8c3e6390f7571" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>getFrontColor</name></member>
       <member refid="classMR_1_1VisualObject_1a04e6c3f8219124e3028f7dd8411cfc65" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>getFrontColorsForAllViewports</name></member>
       <member refid="classMR_1_1VisualObject_1afe6426aa46d769e1d6f4cab1e56e0559" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>getGlobalAlpha</name></member>
       <member refid="classMR_1_1VisualObject_1a3ef31c439da47a55ca3287bf45a377ad" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>getGlobalAlphaForAllViewports</name></member>
       <member refid="classMR_1_1VisualObject_1a76988bf72aa3be996e864fec3ab47ed2" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>getInfoLines</name></member>
-      <member refid="classMR_1_1FeatureObject_1a40c1b4ffd8d3aba7fe5898caa6130b74" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>getLineWidth</name></member>
-      <member refid="classMR_1_1FeatureObject_1a0ebee580bd79fb6dbee2bd1292b93b50" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>getMainFeatureAlpha</name></member>
+      <member refid="group__GeneralGroup_1ga40c1b4ffd8d3aba7fe5898caa6130b74" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>getLineWidth</name></member>
+      <member refid="group__GeneralGroup_1ga0ebee580bd79fb6dbee2bd1292b93b50" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>getMainFeatureAlpha</name></member>
       <member refid="classMR_1_1Object_1a4a0bdbb221822d1b73720712b1488489" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>getModelHash</name></member>
       <member refid="classMR_1_1CircleObject_1a8532dd49492f56a01cffc103a837fe7d" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>getNormal</name></member>
-      <member refid="classMR_1_1FeatureObject_1ae682c2765f3ef072c5552729523be1fa" prot="public" virt="non-virtual" ambiguityscope="MR::AddVisualProperties&lt; FeatureObject, DimensionsVisualizePropertyType::diameter &gt;::"><scope>MR::CircleObject</scope><name>getNormal</name></member>
-      <member refid="classMR_1_1FeatureObject_1a17576a887b5a637765fb98d40ed7f097" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>getPointSize</name></member>
+      <member refid="group__GeneralGroup_1gae682c2765f3ef072c5552729523be1fa" prot="public" virt="non-virtual" ambiguityscope="MR::AddVisualProperties&lt; FeatureObject, DimensionsVisualizePropertyType::diameter &gt;::"><scope>MR::CircleObject</scope><name>getNormal</name></member>
+      <member refid="group__GeneralGroup_1ga17576a887b5a637765fb98d40ed7f097" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>getPointSize</name></member>
       <member refid="classMR_1_1CircleObject_1a77c28321188ea513ce5a9bb9ada5364e" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>getRadius</name></member>
       <member refid="classMR_1_1VisualObject_1a08a44c8bd562c85361950682c997f752" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>getRedrawFlag</name></member>
-      <member refid="classMR_1_1FeatureObject_1a9b258943b501bd224607d6a5a8a5fc8a" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>getRotationMatrix</name></member>
-      <member refid="classMR_1_1FeatureObject_1a4812ae385ef5a66bbcc0779f54025502" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>getScaleShearMatrix</name></member>
+      <member refid="group__GeneralGroup_1ga9b258943b501bd224607d6a5a8a5fc8a" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>getRotationMatrix</name></member>
+      <member refid="group__GeneralGroup_1ga4812ae385ef5a66bbcc0779f54025502" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>getScaleShearMatrix</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a64c12f40ae3ee9c61ba167319e33f4a8" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>getSharedPtr</name></member>
       <member refid="classMR_1_1VisualObject_1a1a152f22b671a1cf98ddcf43db92b1da" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>getShininess</name></member>
       <member refid="classMR_1_1VisualObject_1a746d651e584a6df83424853a8777138b" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>getSpecularStrength</name></member>
-      <member refid="classMR_1_1FeatureObject_1ac1944db120f70185200d4915fce0a660" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>getSubfeatureAlphaLines</name></member>
-      <member refid="classMR_1_1FeatureObject_1a352152a4f6da671401876ef2e98e978d" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>getSubfeatureAlphaMesh</name></member>
-      <member refid="classMR_1_1FeatureObject_1afbc72d3db7d89d7af4ea2a7ac835c15e" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>getSubfeatureAlphaPoints</name></member>
-      <member refid="classMR_1_1FeatureObject_1ab8151a43482e95baea8f44d1a94bc61d" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>getSubfeatureLineWidth</name></member>
-      <member refid="classMR_1_1FeatureObject_1a3866d143290905194a7c4e8da338c253" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>getSubfeaturePointSize</name></member>
+      <member refid="group__GeneralGroup_1gac1944db120f70185200d4915fce0a660" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>getSubfeatureAlphaLines</name></member>
+      <member refid="group__GeneralGroup_1ga352152a4f6da671401876ef2e98e978d" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>getSubfeatureAlphaMesh</name></member>
+      <member refid="group__GeneralGroup_1gafbc72d3db7d89d7af4ea2a7ac835c15e" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>getSubfeatureAlphaPoints</name></member>
+      <member refid="group__GeneralGroup_1gab8151a43482e95baea8f44d1a94bc61d" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>getSubfeatureLineWidth</name></member>
+      <member refid="group__GeneralGroup_1ga3866d143290905194a7c4e8da338c253" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>getSubfeaturePointSize</name></member>
       <member refid="classMR_1_1VisualObject_1a3e21bc521981859584703215ba45f219" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>getVisualizeProperty</name></member>
-      <member refid="classMR_1_1AddVisualProperties_1aa7ce9ce8b54a5a131d54334b7ed26fb1" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="group__GeneralGroup_1gaa7ce9ce8b54a5a131d54334b7ed26fb1" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>getVisualizePropertyMask</name></member>
       <member refid="classMR_1_1VisualObject_1a11c8d591aa72e021a946b58349b80bcf" prot="protected" virt="non-virtual"><scope>MR::CircleObject</scope><name>getVisualizePropertyMask_</name></member>
       <member refid="classMR_1_1VisualObject_1a32cc9bc32e5402ed77f63de53d754314" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>getWorldBox</name></member>
       <member refid="classMR_1_1Object_1a41924fd6534dc41bfdb6dd30e263109b" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>getWorldTreeBox</name></member>
@@ -771,9 +771,9 @@
       <member refid="classMR_1_1VisualObject_1a938a64da82232f07dec418b944f5bc8b" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>isPickable</name></member>
       <member refid="classMR_1_1Object_1a3f649834561a9f246e1d840a0f3080c8" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>isSelected</name></member>
       <member refid="classMR_1_1Object_1a98c9e0d07b736d2b86c4d3d340b77844" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>isVisible</name></member>
-      <member refid="classMR_1_1FeatureObject_1a3b5a4031f824e124b74a89fe8c2e1a67" prot="protected" virt="non-virtual"><scope>MR::CircleObject</scope><name>lineWidth_</name></member>
+      <member refid="group__GeneralGroup_1ga3b5a4031f824e124b74a89fe8c2e1a67" prot="protected" virt="non-virtual"><scope>MR::CircleObject</scope><name>lineWidth_</name></member>
       <member refid="classMR_1_1Object_1a958714fb7d616e608cb16223e052052b" prot="protected" virt="non-virtual"><scope>MR::CircleObject</scope><name>locked_</name></member>
-      <member refid="classMR_1_1FeatureObject_1a51043725ded5e5baa3695f7a0b95f4ff" prot="protected" virt="non-virtual"><scope>MR::CircleObject</scope><name>mainFeatureAlpha_</name></member>
+      <member refid="group__GeneralGroup_1ga51043725ded5e5baa3695f7a0b95f4ff" prot="protected" virt="non-virtual"><scope>MR::CircleObject</scope><name>mainFeatureAlpha_</name></member>
       <member refid="classMR_1_1Object_1ae813e1ae9ad5cbb71ca45adbdd811679" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>name</name></member>
       <member refid="classMR_1_1Object_1a3d6d27065a13a0a262df4b74ff82e538" prot="protected" virt="non-virtual"><scope>MR::CircleObject</scope><name>name_</name></member>
       <member refid="classMR_1_1Object_1a92a390dc7570098981912529e341433d" prot="protected" virt="non-virtual"><scope>MR::CircleObject</scope><name>needRedraw_</name></member>
@@ -795,10 +795,10 @@
       <member refid="classMR_1_1ObjectChildrenHolder_1a79a7197e0981d1da1b59f5fa0d858f7d" prot="protected" virt="non-virtual"><scope>MR::CircleObject</scope><name>parent_</name></member>
       <member refid="classMR_1_1Object_1a2f679f701887cee54069b81a45cc8ebc" prot="protected" virt="non-virtual"><scope>MR::CircleObject</scope><name>parentLocked_</name></member>
       <member refid="classMR_1_1VisualObject_1a43bcd013faf296110ba8cb4a94bbe12f" prot="protected" virt="non-virtual"><scope>MR::CircleObject</scope><name>pickable_</name></member>
-      <member refid="classMR_1_1FeatureObject_1ad870b3dc0af8af65bcaf74fb0fa84475" prot="protected" virt="non-virtual"><scope>MR::CircleObject</scope><name>pointSize_</name></member>
+      <member refid="group__GeneralGroup_1gad870b3dc0af8af65bcaf74fb0fa84475" prot="protected" virt="non-virtual"><scope>MR::CircleObject</scope><name>pointSize_</name></member>
       <member refid="classMR_1_1CircleObject_1a04d619d722a2253079706d64e5c9ef70" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>projectPoint</name></member>
-      <member refid="classMR_1_1AddVisualProperties_1a534fe1b7809ccb50abd437a88b6c1412" prot="protected" virt="non-virtual"><scope>MR::CircleObject</scope><name>propertyMasks_</name></member>
-      <member refid="classMR_1_1FeatureObject_1aced598f63c94fa32b11e140c3aec72fa" prot="protected" virt="non-virtual"><scope>MR::CircleObject</scope><name>r_</name></member>
+      <member refid="group__GeneralGroup_1ga534fe1b7809ccb50abd437a88b6c1412" prot="protected" virt="non-virtual"><scope>MR::CircleObject</scope><name>propertyMasks_</name></member>
+      <member refid="group__GeneralGroup_1gaced598f63c94fa32b11e140c3aec72fa" prot="protected" virt="non-virtual"><scope>MR::CircleObject</scope><name>r_</name></member>
       <member refid="classMR_1_1Object_1a1b5609ba616723794aea4dda67727865" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>removeAllChildren</name></member>
       <member refid="classMR_1_1Object_1aa988bb552650c9d30e888e456f458d46" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>removeChild</name></member>
       <member refid="classMR_1_1Object_1a291d8e281e83a1199d6da8484e798fd5" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>removeChild</name></member>
@@ -812,8 +812,8 @@
       <member refid="classMR_1_1VisualObject_1a885f987ce58a89d2b12a33cf48e92c6c" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>resetDirtyExceptMask</name></member>
       <member refid="classMR_1_1VisualObject_1afb0c75a4ae3c759e382ae9c1abc0234b" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>resetFrontColor</name></member>
       <member refid="classMR_1_1Object_1a9dc77f3f61430395182e8402e6e6f410" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>resetRedrawFlag</name></member>
-      <member refid="classMR_1_1FeatureObject_1ab59d5f621e961a8874c5176e4b4ab355" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>resetXf</name></member>
-      <member refid="classMR_1_1FeatureObject_1ab1290c5fd9953439f5f8416adcd4ab38" prot="protected" virt="non-virtual"><scope>MR::CircleObject</scope><name>s_</name></member>
+      <member refid="group__GeneralGroup_1gab59d5f621e961a8874c5176e4b4ab355" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>resetXf</name></member>
+      <member refid="group__GeneralGroup_1gab1290c5fd9953439f5f8416adcd4ab38" prot="protected" virt="non-virtual"><scope>MR::CircleObject</scope><name>s_</name></member>
       <member refid="classMR_1_1Object_1ac581a9c74f34770bb727b5168fcfa753" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>sameModels</name></member>
       <member refid="classMR_1_1Object_1a989bd3b98218be00c001e3ee8cb77334" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>select</name></member>
       <member refid="classMR_1_1Object_1a0d8ef27f83b47e000093eaa0df9c36f9" prot="protected" virt="non-virtual"><scope>MR::CircleObject</scope><name>selected_</name></member>
@@ -823,7 +823,7 @@
       <member refid="classMR_1_1CircleObject_1a1736c81bbbed02bdefb9e95d8b991724" prot="protected" virt="virtual"><scope>MR::CircleObject</scope><name>serializeModel_</name></member>
       <member refid="classMR_1_1Object_1a9585a709b1b7bd6d35276d099afd0079" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>serializeRecursive</name></member>
       <member refid="classMR_1_1VisualObject_1aa19ae518997e365fbfa1ddd81b04eb10" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setAllVisualizeProperties</name></member>
-      <member refid="classMR_1_1AddVisualProperties_1a099d73dfec242eced929d4f4705c90fd" prot="protected" virt="virtual"><scope>MR::CircleObject</scope><name>setAllVisualizeProperties_</name></member>
+      <member refid="group__GeneralGroup_1ga099d73dfec242eced929d4f4705c90fd" prot="protected" virt="virtual"><scope>MR::CircleObject</scope><name>setAllVisualizeProperties_</name></member>
       <member refid="classMR_1_1VisualObject_1aa66ddfe5c8361744b9537dead37974b6" prot="protected" virt="non-virtual"><scope>MR::CircleObject</scope><name>setAllVisualizePropertiesForEnum</name></member>
       <member refid="classMR_1_1VisualObject_1a932577d6970c183bc981e1b79cc256e4" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>setAmbientStrength</name></member>
       <member refid="classMR_1_1Object_1a3758df5e3fe75f83c0449e77770961b3" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>setAncillary</name></member>
@@ -831,8 +831,8 @@
       <member refid="classMR_1_1VisualObject_1a6b7e8cf2909d71a7537a47028f77913a" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>setBackColorsForAllViewports</name></member>
       <member refid="classMR_1_1CircleObject_1a4053333e67bddb4bf37e28c777c85697" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setCenter</name></member>
       <member refid="classMR_1_1VisualObject_1a8d339ad1cf1735f90773b4f8b89e9059" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>setColoringType</name></member>
-      <member refid="classMR_1_1FeatureObject_1a40915fb0e5451adfd6f78c69047664a9" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>setDecorationsColor</name></member>
-      <member refid="classMR_1_1FeatureObject_1abedf621fc54044d44c55d0a494edc86c" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>setDecorationsColorForAllViewports</name></member>
+      <member refid="group__GeneralGroup_1ga40915fb0e5451adfd6f78c69047664a9" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>setDecorationsColor</name></member>
+      <member refid="group__GeneralGroup_1gabedf621fc54044d44c55d0a494edc86c" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>setDecorationsColorForAllViewports</name></member>
       <member refid="classMR_1_1VisualObject_1a3e72e4b693ea9b28b46b5928167f0e74" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>setDirtyFlags</name></member>
       <member refid="classMR_1_1VisualObject_1a2261b98d651c586e2bc62a2e1efb902a" prot="protected" virt="non-virtual"><scope>MR::CircleObject</scope><name>setDirtyFlagsFast_</name></member>
       <member refid="classMR_1_1VisualObject_1a0d1a64b6bed894b4236b06ac732dfd74" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>setFrontColor</name></member>
@@ -841,23 +841,23 @@
       <member refid="classMR_1_1VisualObject_1a8ae88237f1bd22f03cb5a77d018c6d7c" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>setGlobalAlphaForAllViewports</name></member>
       <member refid="classMR_1_1VisualObject_1a6212504702d0e12528f65b94e270069e" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setGlobalClippedByPlane</name></member>
       <member refid="classMR_1_1Object_1af61964cafaa7f98e2b14f89fed277368" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setGlobalVisibility</name></member>
-      <member refid="classMR_1_1FeatureObject_1a1db924c7ae13b6068667a75a0f74ba50" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>setLineWidth</name></member>
+      <member refid="group__GeneralGroup_1ga1db924c7ae13b6068667a75a0f74ba50" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>setLineWidth</name></member>
       <member refid="classMR_1_1Object_1ac427b5b1a99a87eac1305683801fc850" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>setLocked</name></member>
-      <member refid="classMR_1_1FeatureObject_1aed449e8d3a06fe9d8f70ba93a73cc104" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>setMainFeatureAlpha</name></member>
+      <member refid="group__GeneralGroup_1gaed449e8d3a06fe9d8f70ba93a73cc104" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>setMainFeatureAlpha</name></member>
       <member refid="classMR_1_1Object_1ace89695fb0235bdf97caecfe26390349" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>setName</name></member>
       <member refid="classMR_1_1CircleObject_1a954c37422d60d6788e245dab3c929332" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setNormal</name></member>
       <member refid="classMR_1_1Object_1acd0464af4d89730f9a969f997fdcc8ce" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>setParentLocked</name></member>
       <member refid="classMR_1_1VisualObject_1add21d6793f336877707d5ed7b4785ce6" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>setPickable</name></member>
-      <member refid="classMR_1_1FeatureObject_1a84e601e7bc1ee93ea6ec700eb616548f" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>setPointSize</name></member>
+      <member refid="group__GeneralGroup_1ga84e601e7bc1ee93ea6ec700eb616548f" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>setPointSize</name></member>
       <member refid="classMR_1_1CircleObject_1ababfe6f501a0f05c1a79a789d2d53781" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setRadius</name></member>
       <member refid="classMR_1_1Object_1a911d7f54ae21939fe483b0f5caf04a66" prot="protected" virt="virtual"><scope>MR::CircleObject</scope><name>setSharedModel_</name></member>
       <member refid="classMR_1_1VisualObject_1add52279d4cba695b4fa60d469cb8c1af" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>setShininess</name></member>
       <member refid="classMR_1_1VisualObject_1a455eb4255b591d822d504e0403c5e984" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>setSpecularStrength</name></member>
-      <member refid="classMR_1_1FeatureObject_1a2da9794b73ce4ddae136ccb8992cc690" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>setSubfeatureAlphaLines</name></member>
-      <member refid="classMR_1_1FeatureObject_1ade84e20ad9c7be039362059db188055d" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>setSubfeatureAlphaMesh</name></member>
-      <member refid="classMR_1_1FeatureObject_1aa0fe2e6df916bd424a5d77ef19379672" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>setSubfeatureAlphaPoints</name></member>
-      <member refid="classMR_1_1FeatureObject_1af90cf28a65ce4f4698111d77e6e39a85" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>setSubfeatureLineWidth</name></member>
-      <member refid="classMR_1_1FeatureObject_1ad4ff45224612c828ae56427661a0f00e" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>setSubfeaturePointSize</name></member>
+      <member refid="group__GeneralGroup_1ga2da9794b73ce4ddae136ccb8992cc690" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>setSubfeatureAlphaLines</name></member>
+      <member refid="group__GeneralGroup_1gade84e20ad9c7be039362059db188055d" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>setSubfeatureAlphaMesh</name></member>
+      <member refid="group__GeneralGroup_1gaa0fe2e6df916bd424a5d77ef19379672" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>setSubfeatureAlphaPoints</name></member>
+      <member refid="group__GeneralGroup_1gaf90cf28a65ce4f4698111d77e6e39a85" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>setSubfeatureLineWidth</name></member>
+      <member refid="group__GeneralGroup_1gad4ff45224612c828ae56427661a0f00e" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>setSubfeaturePointSize</name></member>
       <member refid="classMR_1_1CircleObject_1a3ec925469335dc13e8594830baf29182" prot="protected" virt="virtual"><scope>MR::CircleObject</scope><name>setupRenderObject_</name></member>
       <member refid="classMR_1_1VisualObject_1a12fceb01c325ff73eb770fa255cb5ecf" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setUseDefaultScenePropertiesOnDeserialization</name></member>
       <member refid="classMR_1_1Object_1a01ca9dab857ceb8e3fad3d04d271ff0e" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>setVisibilityMask</name></member>
@@ -865,7 +865,7 @@
       <member refid="classMR_1_1VisualObject_1a2bbb1d0c58312e6cec629c558dec4eb8" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setVisualizeProperty</name></member>
       <member refid="classMR_1_1VisualObject_1acd4b651e989735ef689f9ed94bbf302d" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>setVisualizePropertyMask</name></member>
       <member refid="classMR_1_1Object_1a214e37583ccaa45d92895464c6de685d" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setWorldXf</name></member>
-      <member refid="classMR_1_1FeatureObject_1a29cbd04bca216b622c6526ea818d86cb" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>setXf</name></member>
+      <member refid="group__GeneralGroup_1ga29cbd04bca216b622c6526ea818d86cb" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>setXf</name></member>
       <member refid="classMR_1_1Object_1a6d2214b6fde4d128210f1421cc36176d" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>setXfsForAllViewports</name></member>
       <member refid="classMR_1_1CircleObject_1a1b666f68cb067916d8b0a10e19c98af6" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>shallowClone</name></member>
       <member refid="classMR_1_1Object_1ac8e64c569d24d04c1dfcfe7cb1511580" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>shallowCloneTree</name></member>
@@ -878,13 +878,13 @@
       <member refid="classMR_1_1CircleObject_1a69a72ecdbb83966f8cffd271b74fe252" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>StaticClassName</name></member>
       <member refid="classMR_1_1CircleObject_1a1ca70a82a97fb811b670be0a9b51efea" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>StaticClassNameInPlural</name></member>
       <member refid="classMR_1_1CircleObject_1a095fcf40678642bb3bd71eb68d29079a" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>StaticTypeName</name></member>
-      <member refid="classMR_1_1FeatureObject_1ae9eae47d979450ea334ee34d89bd931e" prot="protected" virt="non-virtual"><scope>MR::CircleObject</scope><name>subAlphaLines_</name></member>
-      <member refid="classMR_1_1FeatureObject_1aee2b783554996a1934193cd74d782dbf" prot="protected" virt="non-virtual"><scope>MR::CircleObject</scope><name>subAlphaMesh_</name></member>
-      <member refid="classMR_1_1FeatureObject_1ad7fbf06bb7ae7e9d6d048ae16629ccc3" prot="protected" virt="non-virtual"><scope>MR::CircleObject</scope><name>subAlphaPoints_</name></member>
-      <member refid="classMR_1_1FeatureObject_1abd213076dcde954e6f1f26d06fa6d2fa" prot="protected" virt="non-virtual"><scope>MR::CircleObject</scope><name>subfeatureVisibility_</name></member>
-      <member refid="classMR_1_1FeatureObject_1ac8ea614a47b17098054cd1859b24f70c" prot="protected" virt="non-virtual"><scope>MR::CircleObject</scope><name>subLineWidth_</name></member>
-      <member refid="classMR_1_1FeatureObject_1a361a7ce85014e2c6232445612aa34c60" prot="protected" virt="non-virtual"><scope>MR::CircleObject</scope><name>subPointSize_</name></member>
-      <member refid="classMR_1_1AddVisualProperties_1a06796f32f035d58e6a320f35f1845cf1" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>supportsVisualizeProperty</name></member>
+      <member refid="group__GeneralGroup_1gae9eae47d979450ea334ee34d89bd931e" prot="protected" virt="non-virtual"><scope>MR::CircleObject</scope><name>subAlphaLines_</name></member>
+      <member refid="group__GeneralGroup_1gaee2b783554996a1934193cd74d782dbf" prot="protected" virt="non-virtual"><scope>MR::CircleObject</scope><name>subAlphaMesh_</name></member>
+      <member refid="group__GeneralGroup_1gad7fbf06bb7ae7e9d6d048ae16629ccc3" prot="protected" virt="non-virtual"><scope>MR::CircleObject</scope><name>subAlphaPoints_</name></member>
+      <member refid="group__GeneralGroup_1gabd213076dcde954e6f1f26d06fa6d2fa" prot="protected" virt="non-virtual"><scope>MR::CircleObject</scope><name>subfeatureVisibility_</name></member>
+      <member refid="group__GeneralGroup_1gac8ea614a47b17098054cd1859b24f70c" prot="protected" virt="non-virtual"><scope>MR::CircleObject</scope><name>subLineWidth_</name></member>
+      <member refid="group__GeneralGroup_1ga361a7ce85014e2c6232445612aa34c60" prot="protected" virt="non-virtual"><scope>MR::CircleObject</scope><name>subPointSize_</name></member>
+      <member refid="group__GeneralGroup_1ga06796f32f035d58e6a320f35f1845cf1" prot="public" virt="virtual"><scope>MR::CircleObject</scope><name>supportsVisualizeProperty</name></member>
       <member refid="classMR_1_1Object_1a39e506e0816b1d504e86a2823ee90cf3" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>swap</name></member>
       <member refid="classMR_1_1CircleObject_1a744c3d9624e8aaae878e393781b1b263" prot="protected" virt="virtual"><scope>MR::CircleObject</scope><name>swapBase_</name></member>
       <member refid="classMR_1_1Object_1a82d2749fefb75e38b62dd69a52307680" prot="protected" virt="virtual"><scope>MR::CircleObject</scope><name>swapSignals_</name></member>

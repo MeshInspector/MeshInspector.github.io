@@ -3,26 +3,12 @@
   <compounddef id="namespaceMR_1_1StyleConsts_1_1CustomCombo" kind="namespace" language="C++">
     <compoundname>MR::StyleConsts::CustomCombo</compoundname>
     <sectiondef kind="var">
-      <memberdef kind="variable" id="namespaceMR_1_1StyleConsts_1_1CustomCombo_1a56058d3872b6d96205debc3305df78a8" prot="public" static="no" constexpr="yes" mutable="no">
-        <type>Vector2f</type>
-        <definition>Vector2f MR::StyleConsts::CustomCombo::framePadding</definition>
-        <argsstring></argsstring>
-        <name>framePadding</name>
-        <qualifiedname>MR::StyleConsts::CustomCombo::framePadding</qualifiedname>
-        <initializer>{ 13, 8 }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonConstants.h" line="95" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonConstants.h" bodystart="95" bodyend="95"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga56058d3872b6d96205debc3305df78a8" kind="variable"><name>framePadding</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonConstants.h" line="92" column="1"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonConstants.h" line="95" column="1"/>
   </compounddef>
 </doxygen>

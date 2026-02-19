@@ -4,118 +4,28 @@
     <compoundname>MR::MutexOwner</compoundname>
     <includes refid="MRMutexOwner_8h" local="no">MRMutexOwner.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1MutexOwner_1a14db8ca7d0c17638612e3c103c8418a9" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1ac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref> std::mutex</type>
-        <definition>MR_BIND_IGNORE std::mutex MR::MutexOwner::m</definition>
-        <argsstring></argsstring>
-        <name>m</name>
-        <qualifiedname>MR::MutexOwner::m</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMutexOwner.h" line="19" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMutexOwner.h" bodystart="19" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga14db8ca7d0c17638612e3c103c8418a9" kind="variable"><name>m</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1MutexOwner_1a0b8916c659034ad127ac287bac8112e9" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::MutexOwner::MutexOwner</definition>
-        <argsstring>() noexcept=default</argsstring>
-        <name>MutexOwner</name>
-        <qualifiedname>MR::MutexOwner::MutexOwner</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMutexOwner.h" line="13" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1MutexOwner_1a5ba8e76fada103c9e3350748ec9f46d8" prot="public" static="no" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::MutexOwner::MutexOwner</definition>
-        <argsstring>(const MutexOwner &amp;) noexcept</argsstring>
-        <name>MutexOwner</name>
-        <qualifiedname>MR::MutexOwner::MutexOwner</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1MutexOwner" kindref="compound">MutexOwner</ref> &amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMutexOwner.h" line="14" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMutexOwner.h" bodystart="14" bodyend="14"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1MutexOwner_1a8e3788887677b1c7381950a3aa7dcaac" prot="public" static="no" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::MutexOwner::MutexOwner</definition>
-        <argsstring>(MutexOwner &amp;&amp;) noexcept</argsstring>
-        <name>MutexOwner</name>
-        <qualifiedname>MR::MutexOwner::MutexOwner</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1MutexOwner" kindref="compound">MutexOwner</ref> &amp;&amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMutexOwner.h" line="15" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMutexOwner.h" bodystart="15" bodyend="15"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1MutexOwner_1abb7351b3a06553b474e90d20d68efc30" prot="public" static="no" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1MutexOwner" kindref="compound">MutexOwner</ref> &amp;</type>
-        <definition>MutexOwner &amp; MR::MutexOwner::operator=</definition>
-        <argsstring>(const MutexOwner &amp;) noexcept</argsstring>
-        <name>operator=</name>
-        <qualifiedname>MR::MutexOwner::operator=</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1MutexOwner" kindref="compound">MutexOwner</ref> &amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMutexOwner.h" line="16" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMutexOwner.h" bodystart="16" bodyend="16"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1MutexOwner_1accbf59471a9ce12f038a0358ae18405b" prot="public" static="no" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1MutexOwner" kindref="compound">MutexOwner</ref> &amp;</type>
-        <definition>MutexOwner &amp; MR::MutexOwner::operator=</definition>
-        <argsstring>(MutexOwner &amp;&amp;) noexcept</argsstring>
-        <name>operator=</name>
-        <qualifiedname>MR::MutexOwner::operator=</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1MutexOwner" kindref="compound">MutexOwner</ref> &amp;&amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMutexOwner.h" line="17" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMutexOwner.h" bodystart="17" bodyend="17"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga0b8916c659034ad127ac287bac8112e9" kind="function"><name>MutexOwner</name></member>
+      <member refid="group__GeneralGroup_1ga5ba8e76fada103c9e3350748ec9f46d8" kind="function"><name>MutexOwner</name></member>
+      <member refid="group__GeneralGroup_1ga8e3788887677b1c7381950a3aa7dcaac" kind="function"><name>MutexOwner</name></member>
+      <member refid="group__GeneralGroup_1gabb7351b3a06553b474e90d20d68efc30" kind="function"><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1gaccbf59471a9ce12f038a0358ae18405b" kind="function"><name>operator=</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
 <para>This class exists to provide copy and move constructors and assignment operations for std::mutex which actually does nothing </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMutexOwner.h" line="11" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMutexOwner.h" bodystart="12" bodyend="20"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMutexOwner.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMutexOwner.h" bodystart="15" bodyend="23"/>
     <listofallmembers>
-      <member refid="structMR_1_1MutexOwner_1a14db8ca7d0c17638612e3c103c8418a9" prot="public" virt="non-virtual"><scope>MR::MutexOwner</scope><name>m</name></member>
-      <member refid="structMR_1_1MutexOwner_1a0b8916c659034ad127ac287bac8112e9" prot="public" virt="non-virtual"><scope>MR::MutexOwner</scope><name>MutexOwner</name></member>
-      <member refid="structMR_1_1MutexOwner_1a5ba8e76fada103c9e3350748ec9f46d8" prot="public" virt="non-virtual"><scope>MR::MutexOwner</scope><name>MutexOwner</name></member>
-      <member refid="structMR_1_1MutexOwner_1a8e3788887677b1c7381950a3aa7dcaac" prot="public" virt="non-virtual"><scope>MR::MutexOwner</scope><name>MutexOwner</name></member>
-      <member refid="structMR_1_1MutexOwner_1abb7351b3a06553b474e90d20d68efc30" prot="public" virt="non-virtual"><scope>MR::MutexOwner</scope><name>operator=</name></member>
-      <member refid="structMR_1_1MutexOwner_1accbf59471a9ce12f038a0358ae18405b" prot="public" virt="non-virtual"><scope>MR::MutexOwner</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga14db8ca7d0c17638612e3c103c8418a9" prot="public" virt="non-virtual"><scope>MR::MutexOwner</scope><name>m</name></member>
+      <member refid="group__GeneralGroup_1ga0b8916c659034ad127ac287bac8112e9" prot="public" virt="non-virtual"><scope>MR::MutexOwner</scope><name>MutexOwner</name></member>
+      <member refid="group__GeneralGroup_1ga5ba8e76fada103c9e3350748ec9f46d8" prot="public" virt="non-virtual"><scope>MR::MutexOwner</scope><name>MutexOwner</name></member>
+      <member refid="group__GeneralGroup_1ga8e3788887677b1c7381950a3aa7dcaac" prot="public" virt="non-virtual"><scope>MR::MutexOwner</scope><name>MutexOwner</name></member>
+      <member refid="group__GeneralGroup_1gabb7351b3a06553b474e90d20d68efc30" prot="public" virt="non-virtual"><scope>MR::MutexOwner</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1gaccbf59471a9ce12f038a0358ae18405b" prot="public" virt="non-virtual"><scope>MR::MutexOwner</scope><name>operator=</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

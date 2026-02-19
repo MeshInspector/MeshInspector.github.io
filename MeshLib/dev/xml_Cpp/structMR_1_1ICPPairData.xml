@@ -6,120 +6,15 @@
     <derivedcompoundref refid="structMR_1_1PointPair" prot="public" virt="non-virtual">MR::PointPair</derivedcompoundref>
     <includes refid="MRICP_8h" local="no">MRICP.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1ICPPairData_1af30195d74b2a6994fdfadd8768407c38" prot="public" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::ICPPairData::srcPoint</definition>
-        <argsstring></argsstring>
-        <name>srcPoint</name>
-        <qualifiedname>MR::ICPPairData::srcPoint</qualifiedname>
-        <briefdescription>
-<para>coordinates of the source point after transforming in world space </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="19" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="19" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ICPPairData_1a26326a83f053dc2e5ea6f564143ac410" prot="public" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::ICPPairData::srcNorm</definition>
-        <argsstring></argsstring>
-        <name>srcNorm</name>
-        <qualifiedname>MR::ICPPairData::srcNorm</qualifiedname>
-        <briefdescription>
-<para>normal in source point after transforming in world space </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="22" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="22" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ICPPairData_1a5a8aa18bdc6d6ceb392dafa06cbf3ba7" prot="public" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::ICPPairData::tgtPoint</definition>
-        <argsstring></argsstring>
-        <name>tgtPoint</name>
-        <qualifiedname>MR::ICPPairData::tgtPoint</qualifiedname>
-        <briefdescription>
-<para>coordinates of the closest point on target after transforming in world space </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="25" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="25" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ICPPairData_1a7f615835e680ec678113e7e2367e3a09" prot="public" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::ICPPairData::tgtNorm</definition>
-        <argsstring></argsstring>
-        <name>tgtNorm</name>
-        <qualifiedname>MR::ICPPairData::tgtNorm</qualifiedname>
-        <briefdescription>
-<para>normal in the target point after transforming in world space </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="28" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="28" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ICPPairData_1afe05b997a712f074a3053f11dab0a7eb" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::ICPPairData::distSq</definition>
-        <argsstring></argsstring>
-        <name>distSq</name>
-        <qualifiedname>MR::ICPPairData::distSq</qualifiedname>
-        <initializer>= 0.f</initializer>
-        <briefdescription>
-<para>squared distance between source and target points </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="31" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="31" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ICPPairData_1acade73682f0a4e356ccf90131e1a5fa2" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::ICPPairData::weight</definition>
-        <argsstring></argsstring>
-        <name>weight</name>
-        <qualifiedname>MR::ICPPairData::weight</qualifiedname>
-        <initializer>= 1.f</initializer>
-        <briefdescription>
-<para>weight of the pair (to prioritize over other pairs) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="34" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="34" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaf30195d74b2a6994fdfadd8768407c38" kind="variable"><name>srcPoint</name></member>
+      <member refid="group__GeneralGroup_1ga26326a83f053dc2e5ea6f564143ac410" kind="variable"><name>srcNorm</name></member>
+      <member refid="group__GeneralGroup_1ga5a8aa18bdc6d6ceb392dafa06cbf3ba7" kind="variable"><name>tgtPoint</name></member>
+      <member refid="group__GeneralGroup_1ga7f615835e680ec678113e7e2367e3a09" kind="variable"><name>tgtNorm</name></member>
+      <member refid="group__GeneralGroup_1gafe05b997a712f074a3053f11dab0a7eb" kind="variable"><name>distSq</name></member>
+      <member refid="group__GeneralGroup_1gacade73682f0a4e356ccf90131e1a5fa2" kind="variable"><name>weight</name></member>
     </sectiondef>
     <sectiondef kind="friend">
-      <memberdef kind="friend" id="structMR_1_1ICPPairData_1a0769d0c92668ab4c85a05584e5a73b24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool operator==</definition>
-        <argsstring>(const ICPPairData &amp;, const ICPPairData &amp;)=default</argsstring>
-        <name>operator==</name>
-        <qualifiedname>MR::ICPPairData::operator==</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1ICPPairData" kindref="compound">ICPPairData</ref> &amp;</type>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1ICPPairData" kindref="compound">ICPPairData</ref> &amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="36" column="17"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga0769d0c92668ab4c85a05584e5a73b24" kind="friend"><name>operator==</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -143,15 +38,15 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="17" bodyend="37"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="19" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="20" bodyend="40"/>
     <listofallmembers>
-      <member refid="structMR_1_1ICPPairData_1afe05b997a712f074a3053f11dab0a7eb" prot="public" virt="non-virtual"><scope>MR::ICPPairData</scope><name>distSq</name></member>
-      <member refid="structMR_1_1ICPPairData_1a0769d0c92668ab4c85a05584e5a73b24" prot="public" virt="non-virtual"><scope>MR::ICPPairData</scope><name>operator==</name></member>
-      <member refid="structMR_1_1ICPPairData_1a26326a83f053dc2e5ea6f564143ac410" prot="public" virt="non-virtual"><scope>MR::ICPPairData</scope><name>srcNorm</name></member>
-      <member refid="structMR_1_1ICPPairData_1af30195d74b2a6994fdfadd8768407c38" prot="public" virt="non-virtual"><scope>MR::ICPPairData</scope><name>srcPoint</name></member>
-      <member refid="structMR_1_1ICPPairData_1a7f615835e680ec678113e7e2367e3a09" prot="public" virt="non-virtual"><scope>MR::ICPPairData</scope><name>tgtNorm</name></member>
-      <member refid="structMR_1_1ICPPairData_1a5a8aa18bdc6d6ceb392dafa06cbf3ba7" prot="public" virt="non-virtual"><scope>MR::ICPPairData</scope><name>tgtPoint</name></member>
-      <member refid="structMR_1_1ICPPairData_1acade73682f0a4e356ccf90131e1a5fa2" prot="public" virt="non-virtual"><scope>MR::ICPPairData</scope><name>weight</name></member>
+      <member refid="group__GeneralGroup_1gafe05b997a712f074a3053f11dab0a7eb" prot="public" virt="non-virtual"><scope>MR::ICPPairData</scope><name>distSq</name></member>
+      <member refid="group__GeneralGroup_1ga0769d0c92668ab4c85a05584e5a73b24" prot="public" virt="non-virtual"><scope>MR::ICPPairData</scope><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga26326a83f053dc2e5ea6f564143ac410" prot="public" virt="non-virtual"><scope>MR::ICPPairData</scope><name>srcNorm</name></member>
+      <member refid="group__GeneralGroup_1gaf30195d74b2a6994fdfadd8768407c38" prot="public" virt="non-virtual"><scope>MR::ICPPairData</scope><name>srcPoint</name></member>
+      <member refid="group__GeneralGroup_1ga7f615835e680ec678113e7e2367e3a09" prot="public" virt="non-virtual"><scope>MR::ICPPairData</scope><name>tgtNorm</name></member>
+      <member refid="group__GeneralGroup_1ga5a8aa18bdc6d6ceb392dafa06cbf3ba7" prot="public" virt="non-virtual"><scope>MR::ICPPairData</scope><name>tgtPoint</name></member>
+      <member refid="group__GeneralGroup_1gacade73682f0a4e356ccf90131e1a5fa2" prot="public" virt="non-virtual"><scope>MR::ICPPairData</scope><name>weight</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

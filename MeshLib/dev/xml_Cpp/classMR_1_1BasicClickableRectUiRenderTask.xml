@@ -9,188 +9,19 @@
     <derivedcompoundref refid="classMR_1_1RenderDimensions_1_1RadiusTask" prot="public" virt="non-virtual">MR::RenderDimensions::RadiusTask</derivedcompoundref>
     <includes refid="MRRenderClickableRect_8h" local="no">MRRenderClickableRect.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="classMR_1_1BasicClickableRectUiRenderTask_1a3f269328b594b62b2356a95a95cdeedd" prot="public" static="no" mutable="no">
-        <type>ImVec2</type>
-        <definition>ImVec2 MR::BasicClickableRectUiRenderTask::clickableCornerA</definition>
-        <argsstring></argsstring>
-        <name>clickableCornerA</name>
-        <qualifiedname>MR::BasicClickableRectUiRenderTask::clickableCornerA</qualifiedname>
-        <briefdescription>
-<para>Set those to set the clickable area. Zero both to hovers and clicks. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderClickableRect.h" line="31" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderClickableRect.h" bodystart="31" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1BasicClickableRectUiRenderTask_1a8135d7c948f4c4712f0fc3c82fd3a0b4" prot="public" static="no" mutable="no">
-        <type>ImVec2</type>
-        <definition>ImVec2 MR::BasicClickableRectUiRenderTask::clickableCornerB</definition>
-        <argsstring></argsstring>
-        <name>clickableCornerB</name>
-        <qualifiedname>MR::BasicClickableRectUiRenderTask::clickableCornerB</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderClickableRect.h" line="32" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderClickableRect.h" bodystart="32" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1BasicClickableRectUiRenderTask_1a8b878fe507e8be18b19469d53e7e10ef" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::BasicClickableRectUiRenderTask::enabled</definition>
-        <argsstring></argsstring>
-        <name>enabled</name>
-        <qualifiedname>MR::BasicClickableRectUiRenderTask::enabled</qualifiedname>
-        <initializer>= true</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Set to false to disable hovers and clicks (<computeroutput>isHovered</computeroutput> will always be false), but still consume the mouse hover to prevent other buttons below this one from being clicked. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderClickableRect.h" line="36" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderClickableRect.h" bodystart="36" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1BasicClickableRectUiRenderTask_1a816f2a94a5b1508d2fb4fa3d3eeb2a48" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::BasicClickableRectUiRenderTask::isHovered</definition>
-        <argsstring></argsstring>
-        <name>isHovered</name>
-        <qualifiedname>MR::BasicClickableRectUiRenderTask::isHovered</qualifiedname>
-        <initializer>= false</initializer>
-        <briefdescription>
-<para>Read these to decide how to render. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderClickableRect.h" line="39" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderClickableRect.h" bodystart="39" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1BasicClickableRectUiRenderTask_1a75630bde88b307b104f2456a516af5db" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::BasicClickableRectUiRenderTask::isActive</definition>
-        <argsstring></argsstring>
-        <name>isActive</name>
-        <qualifiedname>MR::BasicClickableRectUiRenderTask::isActive</qualifiedname>
-        <initializer>= false</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderClickableRect.h" line="40" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderClickableRect.h" bodystart="40" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga3f269328b594b62b2356a95a95cdeedd" kind="variable"><name>clickableCornerA</name></member>
+      <member refid="group__GeneralGroup_1ga8135d7c948f4c4712f0fc3c82fd3a0b4" kind="variable"><name>clickableCornerB</name></member>
+      <member refid="group__GeneralGroup_1ga8b878fe507e8be18b19469d53e7e10ef" kind="variable"><name>enabled</name></member>
+      <member refid="group__GeneralGroup_1ga816f2a94a5b1508d2fb4fa3d3eeb2a48" kind="variable"><name>isHovered</name></member>
+      <member refid="group__GeneralGroup_1ga75630bde88b307b104f2456a516af5db" kind="variable"><name>isActive</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1BasicClickableRectUiRenderTask_1a399c5f6acb8eeb36add889e1bd4cef99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::BasicClickableRectUiRenderTask::BasicClickableRectUiRenderTask</definition>
-        <argsstring>()=default</argsstring>
-        <name>BasicClickableRectUiRenderTask</name>
-        <qualifiedname>MR::BasicClickableRectUiRenderTask::BasicClickableRectUiRenderTask</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderClickableRect.h" line="16" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1BasicClickableRectUiRenderTask_1a7d2604474a74167ceaa7eb132072b9c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::BasicClickableRectUiRenderTask::BasicClickableRectUiRenderTask</definition>
-        <argsstring>(const BasicClickableRectUiRenderTask &amp;other)</argsstring>
-        <name>BasicClickableRectUiRenderTask</name>
-        <qualifiedname>MR::BasicClickableRectUiRenderTask::BasicClickableRectUiRenderTask</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1BasicClickableRectUiRenderTask" kindref="compound">BasicClickableRectUiRenderTask</ref> &amp;</type>
-          <declname>other</declname>
-        </param>
-        <briefdescription>
-<para>Don&apos;t assign the memebers (except the base), because we want to preserve the state across frames. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderClickableRect.h" line="19" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderClickableRect.h" bodystart="19" bodyend="19"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1BasicClickableRectUiRenderTask_1ae4cd26a146e8e880ab41c0d4a04df064" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="classMR_1_1BasicClickableRectUiRenderTask" kindref="compound">BasicClickableRectUiRenderTask</ref> &amp;</type>
-        <definition>BasicClickableRectUiRenderTask &amp; MR::BasicClickableRectUiRenderTask::operator=</definition>
-        <argsstring>(const BasicClickableRectUiRenderTask &amp;other)</argsstring>
-        <name>operator=</name>
-        <qualifiedname>MR::BasicClickableRectUiRenderTask::operator=</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1BasicClickableRectUiRenderTask" kindref="compound">BasicClickableRectUiRenderTask</ref> &amp;</type>
-          <declname>other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderClickableRect.h" line="20" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderClickableRect.h" bodystart="20" bodyend="20"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1BasicClickableRectUiRenderTask_1a7945d284200ce4786772e175d14fc85a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type></type>
-        <definition>virtual MR::BasicClickableRectUiRenderTask::~BasicClickableRectUiRenderTask</definition>
-        <argsstring>()=default</argsstring>
-        <name>~BasicClickableRectUiRenderTask</name>
-        <qualifiedname>MR::BasicClickableRectUiRenderTask::~BasicClickableRectUiRenderTask</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderClickableRect.h" line="22" column="13"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1BasicClickableRectUiRenderTask_1a39048fbb209483a86815166a42245eb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
-        <type>void</type>
-        <definition>virtual void MR::BasicClickableRectUiRenderTask::onClick</definition>
-        <argsstring>()=0</argsstring>
-        <name>onClick</name>
-        <qualifiedname>MR::BasicClickableRectUiRenderTask::onClick</qualifiedname>
-        <reimplementedby refid="classMR_1_1RenderDimensions_1_1AngleTask_1a49f86a1ba427b305755d0ba398e68a98">onClick</reimplementedby>
-        <reimplementedby refid="classMR_1_1RenderDimensions_1_1LengthTask_1af4c203cb61c7b00b88193e016d8ea533">onClick</reimplementedby>
-        <reimplementedby refid="classMR_1_1RenderDimensions_1_1PointTask_1a8da538a4deb69c122f67b8b76d77fdfe">onClick</reimplementedby>
-        <reimplementedby refid="classMR_1_1RenderDimensions_1_1RadiusTask_1a66cde8c6627ff073cd168f2378752c14">onClick</reimplementedby>
-        <briefdescription>
-<para>This is called when the click happens. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderClickableRect.h" line="25" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1BasicClickableRectUiRenderTask_1a59897da65259f4cb8c6018ac88fa97fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::BasicClickableRectUiRenderTask::earlyBackwardPass</definition>
-        <argsstring>(const BackwardPassParams &amp;backParams) override</argsstring>
-        <name>earlyBackwardPass</name>
-        <qualifiedname>MR::BasicClickableRectUiRenderTask::earlyBackwardPass</qualifiedname>
-        <reimplements refid="structMR_1_1BasicUiRenderTask_1a269508abb07dd29213d99aada7db6d5e">earlyBackwardPass</reimplements>
-        <param>
-          <type>const <ref refid="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams" kindref="compound">BackwardPassParams</ref> &amp;</type>
-          <declname>backParams</declname>
-        </param>
-        <briefdescription>
-<para>This is what ultimately calls <computeroutput><ref refid="classMR_1_1BasicClickableRectUiRenderTask_1a39048fbb209483a86815166a42245eb3" kindref="member">onClick()</ref></computeroutput> if the certain conditions hold. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderClickableRect.h" line="28" column="23"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga399c5f6acb8eeb36add889e1bd4cef99" kind="function"><name>BasicClickableRectUiRenderTask</name></member>
+      <member refid="group__GeneralGroup_1ga7d2604474a74167ceaa7eb132072b9c4" kind="function"><name>BasicClickableRectUiRenderTask</name></member>
+      <member refid="group__GeneralGroup_1gae4cd26a146e8e880ab41c0d4a04df064" kind="function"><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga7945d284200ce4786772e175d14fc85a" kind="function"><name>~BasicClickableRectUiRenderTask</name></member>
+      <member refid="group__GeneralGroup_1ga39048fbb209483a86815166a42245eb3" kind="function"><name>onClick</name></member>
+      <member refid="group__GeneralGroup_1ga59897da65259f4cb8c6018ac88fa97fb" kind="function"><name>earlyBackwardPass</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -245,28 +76,28 @@
         <link refid="structMR_1_1BasicUiRenderTask"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderClickableRect.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderClickableRect.h" bodystart="14" bodyend="41"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderClickableRect.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderClickableRect.h" bodystart="17" bodyend="44"/>
     <listofallmembers>
-      <member refid="classMR_1_1BasicClickableRectUiRenderTask_1a399c5f6acb8eeb36add889e1bd4cef99" prot="public" virt="non-virtual"><scope>MR::BasicClickableRectUiRenderTask</scope><name>BasicClickableRectUiRenderTask</name></member>
-      <member refid="classMR_1_1BasicClickableRectUiRenderTask_1a7d2604474a74167ceaa7eb132072b9c4" prot="public" virt="non-virtual"><scope>MR::BasicClickableRectUiRenderTask</scope><name>BasicClickableRectUiRenderTask</name></member>
-      <member refid="structMR_1_1BasicUiRenderTask_1a09fdc1e47a7a92974a945bfcc98be400" prot="public" virt="non-virtual"><scope>MR::BasicClickableRectUiRenderTask</scope><name>BasicUiRenderTask</name></member>
-      <member refid="structMR_1_1BasicUiRenderTask_1a25c71025ea06023cb9d2007b8d3908a3" prot="public" virt="non-virtual"><scope>MR::BasicClickableRectUiRenderTask</scope><name>BasicUiRenderTask</name></member>
-      <member refid="structMR_1_1BasicUiRenderTask_1a7a289817074d4a9c546aca337082d21b" prot="public" virt="non-virtual"><scope>MR::BasicClickableRectUiRenderTask</scope><name>BasicUiRenderTask</name></member>
-      <member refid="classMR_1_1BasicClickableRectUiRenderTask_1a3f269328b594b62b2356a95a95cdeedd" prot="public" virt="non-virtual"><scope>MR::BasicClickableRectUiRenderTask</scope><name>clickableCornerA</name></member>
-      <member refid="classMR_1_1BasicClickableRectUiRenderTask_1a8135d7c948f4c4712f0fc3c82fd3a0b4" prot="public" virt="non-virtual"><scope>MR::BasicClickableRectUiRenderTask</scope><name>clickableCornerB</name></member>
-      <member refid="classMR_1_1BasicClickableRectUiRenderTask_1a59897da65259f4cb8c6018ac88fa97fb" prot="public" virt="virtual"><scope>MR::BasicClickableRectUiRenderTask</scope><name>earlyBackwardPass</name></member>
-      <member refid="classMR_1_1BasicClickableRectUiRenderTask_1a8b878fe507e8be18b19469d53e7e10ef" prot="public" virt="non-virtual"><scope>MR::BasicClickableRectUiRenderTask</scope><name>enabled</name></member>
-      <member refid="structMR_1_1BasicUiRenderTask_1ab4d07ed1576fec164c6c0308c3cbbb3d" prot="public" virt="non-virtual"><scope>MR::BasicClickableRectUiRenderTask</scope><name>InteractionMask</name></member>
-      <member refid="classMR_1_1BasicClickableRectUiRenderTask_1a75630bde88b307b104f2456a516af5db" prot="public" virt="non-virtual"><scope>MR::BasicClickableRectUiRenderTask</scope><name>isActive</name></member>
-      <member refid="classMR_1_1BasicClickableRectUiRenderTask_1a816f2a94a5b1508d2fb4fa3d3eeb2a48" prot="public" virt="non-virtual"><scope>MR::BasicClickableRectUiRenderTask</scope><name>isHovered</name></member>
-      <member refid="classMR_1_1BasicClickableRectUiRenderTask_1a39048fbb209483a86815166a42245eb3" prot="public" virt="pure-virtual"><scope>MR::BasicClickableRectUiRenderTask</scope><name>onClick</name></member>
-      <member refid="classMR_1_1BasicClickableRectUiRenderTask_1ae4cd26a146e8e880ab41c0d4a04df064" prot="public" virt="non-virtual"><scope>MR::BasicClickableRectUiRenderTask</scope><name>operator=</name></member>
-      <member refid="structMR_1_1BasicUiRenderTask_1a0f482dbbdc6658514696e4dc9294a58a" prot="public" virt="non-virtual" ambiguityscope="MR::BasicUiRenderTask::"><scope>MR::BasicClickableRectUiRenderTask</scope><name>operator=</name></member>
-      <member refid="structMR_1_1BasicUiRenderTask_1ae03db3414263164b9321a4ed5d41838a" prot="public" virt="non-virtual" ambiguityscope="MR::BasicUiRenderTask::"><scope>MR::BasicClickableRectUiRenderTask</scope><name>operator=</name></member>
-      <member refid="structMR_1_1BasicUiRenderTask_1a0e70a7984fb642613e50942b4f53c724" prot="public" virt="pure-virtual"><scope>MR::BasicClickableRectUiRenderTask</scope><name>renderPass</name></member>
-      <member refid="structMR_1_1BasicUiRenderTask_1a381d7376f63599633389b7ff83ded538" prot="public" virt="non-virtual"><scope>MR::BasicClickableRectUiRenderTask</scope><name>renderTaskDepth</name></member>
-      <member refid="classMR_1_1BasicClickableRectUiRenderTask_1a7945d284200ce4786772e175d14fc85a" prot="public" virt="virtual"><scope>MR::BasicClickableRectUiRenderTask</scope><name>~BasicClickableRectUiRenderTask</name></member>
-      <member refid="structMR_1_1BasicUiRenderTask_1aa45e39c8e875d9033360ff63d3f750f4" prot="public" virt="virtual"><scope>MR::BasicClickableRectUiRenderTask</scope><name>~BasicUiRenderTask</name></member>
+      <member refid="group__GeneralGroup_1ga399c5f6acb8eeb36add889e1bd4cef99" prot="public" virt="non-virtual"><scope>MR::BasicClickableRectUiRenderTask</scope><name>BasicClickableRectUiRenderTask</name></member>
+      <member refid="group__GeneralGroup_1ga7d2604474a74167ceaa7eb132072b9c4" prot="public" virt="non-virtual"><scope>MR::BasicClickableRectUiRenderTask</scope><name>BasicClickableRectUiRenderTask</name></member>
+      <member refid="group__GeneralGroup_1ga09fdc1e47a7a92974a945bfcc98be400" prot="public" virt="non-virtual"><scope>MR::BasicClickableRectUiRenderTask</scope><name>BasicUiRenderTask</name></member>
+      <member refid="group__GeneralGroup_1ga25c71025ea06023cb9d2007b8d3908a3" prot="public" virt="non-virtual"><scope>MR::BasicClickableRectUiRenderTask</scope><name>BasicUiRenderTask</name></member>
+      <member refid="group__GeneralGroup_1ga7a289817074d4a9c546aca337082d21b" prot="public" virt="non-virtual"><scope>MR::BasicClickableRectUiRenderTask</scope><name>BasicUiRenderTask</name></member>
+      <member refid="group__GeneralGroup_1ga3f269328b594b62b2356a95a95cdeedd" prot="public" virt="non-virtual"><scope>MR::BasicClickableRectUiRenderTask</scope><name>clickableCornerA</name></member>
+      <member refid="group__GeneralGroup_1ga8135d7c948f4c4712f0fc3c82fd3a0b4" prot="public" virt="non-virtual"><scope>MR::BasicClickableRectUiRenderTask</scope><name>clickableCornerB</name></member>
+      <member refid="group__GeneralGroup_1ga59897da65259f4cb8c6018ac88fa97fb" prot="public" virt="virtual"><scope>MR::BasicClickableRectUiRenderTask</scope><name>earlyBackwardPass</name></member>
+      <member refid="group__GeneralGroup_1ga8b878fe507e8be18b19469d53e7e10ef" prot="public" virt="non-virtual"><scope>MR::BasicClickableRectUiRenderTask</scope><name>enabled</name></member>
+      <member refid="group__GeneralGroup_1gab4d07ed1576fec164c6c0308c3cbbb3d" prot="public" virt="non-virtual"><scope>MR::BasicClickableRectUiRenderTask</scope><name>InteractionMask</name></member>
+      <member refid="group__GeneralGroup_1ga75630bde88b307b104f2456a516af5db" prot="public" virt="non-virtual"><scope>MR::BasicClickableRectUiRenderTask</scope><name>isActive</name></member>
+      <member refid="group__GeneralGroup_1ga816f2a94a5b1508d2fb4fa3d3eeb2a48" prot="public" virt="non-virtual"><scope>MR::BasicClickableRectUiRenderTask</scope><name>isHovered</name></member>
+      <member refid="group__GeneralGroup_1ga39048fbb209483a86815166a42245eb3" prot="public" virt="pure-virtual"><scope>MR::BasicClickableRectUiRenderTask</scope><name>onClick</name></member>
+      <member refid="group__GeneralGroup_1gae4cd26a146e8e880ab41c0d4a04df064" prot="public" virt="non-virtual"><scope>MR::BasicClickableRectUiRenderTask</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga0f482dbbdc6658514696e4dc9294a58a" prot="public" virt="non-virtual" ambiguityscope="MR::BasicUiRenderTask::"><scope>MR::BasicClickableRectUiRenderTask</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1gae03db3414263164b9321a4ed5d41838a" prot="public" virt="non-virtual" ambiguityscope="MR::BasicUiRenderTask::"><scope>MR::BasicClickableRectUiRenderTask</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga0e70a7984fb642613e50942b4f53c724" prot="public" virt="pure-virtual"><scope>MR::BasicClickableRectUiRenderTask</scope><name>renderPass</name></member>
+      <member refid="group__GeneralGroup_1ga381d7376f63599633389b7ff83ded538" prot="public" virt="non-virtual"><scope>MR::BasicClickableRectUiRenderTask</scope><name>renderTaskDepth</name></member>
+      <member refid="group__GeneralGroup_1ga7945d284200ce4786772e175d14fc85a" prot="public" virt="virtual"><scope>MR::BasicClickableRectUiRenderTask</scope><name>~BasicClickableRectUiRenderTask</name></member>
+      <member refid="group__GeneralGroup_1gaa45e39c8e875d9033360ff63d3f750f4" prot="public" virt="virtual"><scope>MR::BasicClickableRectUiRenderTask</scope><name>~BasicUiRenderTask</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -5,579 +5,45 @@
     <basecompoundref refid="classMR_1_1MeasurementObject" prot="public" virt="non-virtual">MR::MeasurementObject</basecompoundref>
     <includes refid="MRAngleMeasurementObject_8h" local="no">MRAngleMeasurementObject.h</includes>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1AngleMeasurementObject_1acfc8f690c3bf3935fb4e3bc132ebd84b" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::AngleMeasurementObject::isConical_</definition>
-        <argsstring></argsstring>
-        <name>isConical_</name>
-        <qualifiedname>MR::AngleMeasurementObject::isConical_</qualifiedname>
-        <initializer>= false</initializer>
-        <briefdescription>
-<para>Don&apos;t forget to add all the new fields to serialization. </para>
-        </briefdescription>
-        <detaileddescription>
-<para>Whether this is a conical angle. The middle line between the rays is preserved, but the rays themselves can be rotated. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" line="79" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" bodystart="79" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1AngleMeasurementObject_1a5773b93639b8824c0c0ac660ec402ed5" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::AngleMeasurementObject::shouldVisualizeRay_[2]</definition>
-        <argsstring>[2]</argsstring>
-        <name>shouldVisualizeRay_</name>
-        <qualifiedname>MR::AngleMeasurementObject::shouldVisualizeRay_</qualifiedname>
-        <initializer>{}</initializer>
-        <briefdescription>
-<para>Whether we should draw a ray from the center point to better visualize the angle. Enable this if there isn&apos;t already a line object there. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" line="82" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" bodystart="82" bodyend="82"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1AngleMeasurementObject_1a4ba4cfccedd218a885f21a78974a9208" prot="private" static="no" mutable="yes">
-        <type>std::optional&lt; float &gt;</type>
-        <definition>std::optional&lt;float&gt; MR::AngleMeasurementObject::cachedValue_</definition>
-        <argsstring></argsstring>
-        <name>cachedValue_</name>
-        <qualifiedname>MR::AngleMeasurementObject::cachedValue_</qualifiedname>
-        <briefdescription>
-<para>The cached value for <computeroutput><ref refid="classMR_1_1AngleMeasurementObject_1aa144d0e4a8a0e869d988653be474ce4a" kindref="member">computeAngle()</ref></computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" line="85" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" bodystart="85" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gacfc8f690c3bf3935fb4e3bc132ebd84b" kind="variable"><name>isConical_</name></member>
+      <member refid="group__GeneralGroup_1ga5773b93639b8824c0c0ac660ec402ed5" kind="variable"><name>shouldVisualizeRay_</name></member>
+      <member refid="group__GeneralGroup_1ga4ba4cfccedd218a885f21a78974a9208" kind="variable"><name>cachedValue_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1AngleMeasurementObject_1aa12ae3069114c41ef8ed6616672c5d29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::AngleMeasurementObject::AngleMeasurementObject</definition>
-        <argsstring>()</argsstring>
-        <name>AngleMeasurementObject</name>
-        <qualifiedname>MR::AngleMeasurementObject::AngleMeasurementObject</qualifiedname>
-        <briefdescription>
-<para>The xf encodes the two rays: the origin is the angle point, (1,0,0) is the first ray, (0,1,0) is the second ray. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" line="13" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" bodystart="13" bodyend="13"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1AngleMeasurementObject_1a8e474716d30d1e4bd36dc2c74ae744d0" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::AngleMeasurementObject::AngleMeasurementObject</definition>
-        <argsstring>(AngleMeasurementObject &amp;&amp;) noexcept=default</argsstring>
-        <name>AngleMeasurementObject</name>
-        <qualifiedname>MR::AngleMeasurementObject::AngleMeasurementObject</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1AngleMeasurementObject" kindref="compound">AngleMeasurementObject</ref> &amp;&amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" line="15" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1AngleMeasurementObject_1ad9e371006af6a03a0cfe38eaeb705a44" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type><ref refid="classMR_1_1AngleMeasurementObject" kindref="compound">AngleMeasurementObject</ref> &amp;</type>
-        <definition>AngleMeasurementObject &amp; MR::AngleMeasurementObject::operator=</definition>
-        <argsstring>(AngleMeasurementObject &amp;&amp;) noexcept=default</argsstring>
-        <name>operator=</name>
-        <qualifiedname>MR::AngleMeasurementObject::operator=</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1AngleMeasurementObject" kindref="compound">AngleMeasurementObject</ref> &amp;&amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" line="16" column="28"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1AngleMeasurementObject_1aaa46f9128d202f32be37d9d9db292fe6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>const char *</type>
-        <definition>const char * MR::AngleMeasurementObject::typeName</definition>
-        <argsstring>() const override</argsstring>
-        <name>typeName</name>
-        <qualifiedname>MR::AngleMeasurementObject::typeName</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1a6f629cc6822b206ab9232648fa19dcb6">typeName</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" line="19" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" bodystart="19" bodyend="19"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1AngleMeasurementObject_1a11b4563811e536745042eac6cc7d7de3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>std::string</type>
-        <definition>virtual std::string MR::AngleMeasurementObject::className</definition>
-        <argsstring>() const override</argsstring>
-        <name>className</name>
-        <qualifiedname>MR::AngleMeasurementObject::className</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1a4a9efcd8828d774516f5cd4960359d08">className</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" line="22" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" bodystart="22" bodyend="22"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1AngleMeasurementObject_1ad2c4dd04439768c43bf48e9cc47ad5d7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>std::string</type>
-        <definition>virtual std::string MR::AngleMeasurementObject::classNameInPlural</definition>
-        <argsstring>() const override</argsstring>
-        <name>classNameInPlural</name>
-        <qualifiedname>MR::AngleMeasurementObject::classNameInPlural</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1a470477a43cc2e761f791623ee732e4b7">classNameInPlural</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" line="25" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" bodystart="25" bodyend="25"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1AngleMeasurementObject_1ae55c096c40230b811bd7a00fb9a219eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::AngleMeasurementObject::AngleMeasurementObject</definition>
-        <argsstring>(ProtectedStruct, const AngleMeasurementObject &amp;obj)</argsstring>
-        <name>AngleMeasurementObject</name>
-        <qualifiedname>MR::AngleMeasurementObject::AngleMeasurementObject</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1Object_1_1ProtectedStruct" kindref="compound">ProtectedStruct</ref></type>
-        </param>
-        <param>
-          <type>const <ref refid="classMR_1_1AngleMeasurementObject" kindref="compound">AngleMeasurementObject</ref> &amp;</type>
-          <declname>obj</declname>
-        </param>
-        <briefdescription>
-<para>For <computeroutput>std::make_shared()</computeroutput> in <computeroutput><ref refid="classMR_1_1AngleMeasurementObject_1a0817825d46092c4ebf5fbc8aa9b3cc0f" kindref="member">clone()</ref></computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" line="28" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" bodystart="28" bodyend="28"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1AngleMeasurementObject_1a0817825d46092c4ebf5fbc8aa9b3cc0f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
-        <definition>MRMESH_API std::shared_ptr&lt; Object &gt; MR::AngleMeasurementObject::clone</definition>
-        <argsstring>() const override</argsstring>
-        <name>clone</name>
-        <qualifiedname>MR::AngleMeasurementObject::clone</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1a2abf3d3c767a16a584ad513af643feca">clone</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>clones this object only, without its children, making new object the owner of all copied resources </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" line="30" column="32"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1AngleMeasurementObject_1a9e20a99d9cfb02b91a653aefadbbb391" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
-        <definition>MRMESH_API std::shared_ptr&lt; Object &gt; MR::AngleMeasurementObject::shallowClone</definition>
-        <argsstring>() const override</argsstring>
-        <name>shallowClone</name>
-        <qualifiedname>MR::AngleMeasurementObject::shallowClone</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1adf2d7e16d33d059dbf2bbd0f1c34c8bf">shallowClone</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>clones this object only, without its children, making new object to share resources with this object </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" line="31" column="32"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1AngleMeasurementObject_1a035ba4d64bdfc46d8497e169a4be750f" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Vector3f</type>
-        <definition>MRMESH_API Vector3f MR::AngleMeasurementObject::getWorldPoint</definition>
-        <argsstring>() const</argsstring>
-        <name>getWorldPoint</name>
-        <qualifiedname>MR::AngleMeasurementObject::getWorldPoint</qualifiedname>
-        <briefdescription>
-<para>Get the angle point in world coordinates. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" line="34" column="26"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1AngleMeasurementObject_1ad5d3f4aec36cb3c1916f8354336025b7" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Vector3f</type>
-        <definition>MRMESH_API Vector3f MR::AngleMeasurementObject::getLocalPoint</definition>
-        <argsstring>() const</argsstring>
-        <name>getLocalPoint</name>
-        <qualifiedname>MR::AngleMeasurementObject::getLocalPoint</qualifiedname>
-        <briefdescription>
-<para>Get the angle point in local coordinates. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" line="36" column="26"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1AngleMeasurementObject_1a77cf2bb7f527cdce197688a0eff4f24b" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Vector3f</type>
-        <definition>MRMESH_API Vector3f MR::AngleMeasurementObject::getWorldRay</definition>
-        <argsstring>(bool second) const</argsstring>
-        <name>getWorldRay</name>
-        <qualifiedname>MR::AngleMeasurementObject::getWorldRay</qualifiedname>
-        <param>
-          <type>bool</type>
-          <declname>second</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>One of the two rays representing the angle, relative to the starting point. They can have length != 1 for visualization purposes, it&apos;s probably a good idea to take the smaller of the two lengths. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" line="40" column="26"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1AngleMeasurementObject_1adb7fd00b2e03e915ea4eabd5e7461b7f" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Vector3f</type>
-        <definition>MRMESH_API Vector3f MR::AngleMeasurementObject::getLocalRay</definition>
-        <argsstring>(bool second) const</argsstring>
-        <name>getLocalRay</name>
-        <qualifiedname>MR::AngleMeasurementObject::getLocalRay</qualifiedname>
-        <param>
-          <type>bool</type>
-          <declname>second</declname>
-        </param>
-        <briefdescription>
-<para>Same, but in local coordinates. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" line="42" column="26"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1AngleMeasurementObject_1ad695fce882db5541f784b78c892549a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>virtual MRMESH_API void MR::AngleMeasurementObject::setLocalPoint</definition>
-        <argsstring>(const MR::Vector3f &amp;point)</argsstring>
-        <name>setLocalPoint</name>
-        <qualifiedname>MR::AngleMeasurementObject::setLocalPoint</qualifiedname>
-        <param>
-          <type>const MR::Vector3f &amp;</type>
-          <declname>point</declname>
-        </param>
-        <briefdescription>
-<para>Set the angle point in the local coordinates. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" line="45" column="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1AngleMeasurementObject_1a753a768f4cae3df84fb4587bc0600b30" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>virtual MRMESH_API void MR::AngleMeasurementObject::setLocalRays</definition>
-        <argsstring>(const MR::Vector3f &amp;a, const MR::Vector3f &amp;b)</argsstring>
-        <name>setLocalRays</name>
-        <qualifiedname>MR::AngleMeasurementObject::setLocalRays</qualifiedname>
-        <param>
-          <type>const MR::Vector3f &amp;</type>
-          <declname>a</declname>
-        </param>
-        <param>
-          <type>const MR::Vector3f &amp;</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Set the two rays representing the angle in the local coordinates. The lengths are preserved. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" line="48" column="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1AngleMeasurementObject_1a6808b2301ac9e95c443c6084ccf493b7" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
-        <definition>MRMESH_API bool MR::AngleMeasurementObject::getIsConical</definition>
-        <argsstring>() const</argsstring>
-        <name>getIsConical</name>
-        <qualifiedname>MR::AngleMeasurementObject::getIsConical</qualifiedname>
-        <briefdescription>
-<para>Whether this is a conical angle. The middle line between the rays is preserved, but the rays themselves can be rotated. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" line="51" column="22"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1AngleMeasurementObject_1a4d56413060eb395d78b7a981758a05b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::AngleMeasurementObject::setIsConical</definition>
-        <argsstring>(bool value)</argsstring>
-        <name>setIsConical</name>
-        <qualifiedname>MR::AngleMeasurementObject::setIsConical</qualifiedname>
-        <param>
-          <type>bool</type>
-          <declname>value</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" line="52" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1AngleMeasurementObject_1a1bbf1e560e70b1f06d4d5f837492a11e" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
-        <definition>MRMESH_API bool MR::AngleMeasurementObject::getShouldVisualizeRay</definition>
-        <argsstring>(bool second) const</argsstring>
-        <name>getShouldVisualizeRay</name>
-        <qualifiedname>MR::AngleMeasurementObject::getShouldVisualizeRay</qualifiedname>
-        <param>
-          <type>bool</type>
-          <declname>second</declname>
-        </param>
-        <briefdescription>
-<para>Whether we should draw a ray from the center point to better visualize the angle. Enable this if there isn&apos;t already a line object there. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" line="55" column="22"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1AngleMeasurementObject_1ab6d8065cd350f11e20867b78601c0f91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::AngleMeasurementObject::setShouldVisualizeRay</definition>
-        <argsstring>(bool second, bool enable)</argsstring>
-        <name>setShouldVisualizeRay</name>
-        <qualifiedname>MR::AngleMeasurementObject::setShouldVisualizeRay</qualifiedname>
-        <param>
-          <type>bool</type>
-          <declname>second</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>enable</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" line="56" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1AngleMeasurementObject_1aa144d0e4a8a0e869d988653be474ce4a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> float</type>
-        <definition>MRMESH_API float MR::AngleMeasurementObject::computeAngle</definition>
-        <argsstring>() const</argsstring>
-        <name>computeAngle</name>
-        <qualifiedname>MR::AngleMeasurementObject::computeAngle</qualifiedname>
-        <briefdescription>
-<para>Computes the angle value, as if by <computeroutput>acos(dot(...))</computeroutput> from the two normalized <computeroutput><ref refid="classMR_1_1AngleMeasurementObject_1a77cf2bb7f527cdce197688a0eff4f24b" kindref="member">getWorldRay()</ref></computeroutput>s. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" line="59" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1AngleMeasurementObject_1a94c8a0bb6913155e136c7a02750e7d0f" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::vector&lt; std::string &gt;</type>
-        <definition>MRMESH_API std::vector&lt; std::string &gt; MR::AngleMeasurementObject::getInfoLines</definition>
-        <argsstring>() const override</argsstring>
-        <name>getInfoLines</name>
-        <qualifiedname>MR::AngleMeasurementObject::getInfoLines</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1a76988bf72aa3be996e864fec3ab47ed2">getInfoLines</reimplements>
-        <briefdescription>
-<para>return several info lines that can better describe the object in the <ref refid="namespaceMR_1_1UI" kindref="compound">UI</ref> </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" line="61" column="29"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaa12ae3069114c41ef8ed6616672c5d29" kind="function"><name>AngleMeasurementObject</name></member>
+      <member refid="group__GeneralGroup_1ga8e474716d30d1e4bd36dc2c74ae744d0" kind="function"><name>AngleMeasurementObject</name></member>
+      <member refid="group__GeneralGroup_1gad9e371006af6a03a0cfe38eaeb705a44" kind="function"><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1gaaa46f9128d202f32be37d9d9db292fe6" kind="function"><name>typeName</name></member>
+      <member refid="group__GeneralGroup_1ga11b4563811e536745042eac6cc7d7de3" kind="function"><name>className</name></member>
+      <member refid="group__GeneralGroup_1gad2c4dd04439768c43bf48e9cc47ad5d7" kind="function"><name>classNameInPlural</name></member>
+      <member refid="group__GeneralGroup_1gae55c096c40230b811bd7a00fb9a219eb" kind="function"><name>AngleMeasurementObject</name></member>
+      <member refid="group__GeneralGroup_1ga0817825d46092c4ebf5fbc8aa9b3cc0f" kind="function"><name>clone</name></member>
+      <member refid="group__GeneralGroup_1ga9e20a99d9cfb02b91a653aefadbbb391" kind="function"><name>shallowClone</name></member>
+      <member refid="group__GeneralGroup_1ga035ba4d64bdfc46d8497e169a4be750f" kind="function"><name>getWorldPoint</name></member>
+      <member refid="group__GeneralGroup_1gad5d3f4aec36cb3c1916f8354336025b7" kind="function"><name>getLocalPoint</name></member>
+      <member refid="group__GeneralGroup_1ga77cf2bb7f527cdce197688a0eff4f24b" kind="function"><name>getWorldRay</name></member>
+      <member refid="group__GeneralGroup_1gadb7fd00b2e03e915ea4eabd5e7461b7f" kind="function"><name>getLocalRay</name></member>
+      <member refid="group__GeneralGroup_1gad695fce882db5541f784b78c892549a9" kind="function"><name>setLocalPoint</name></member>
+      <member refid="group__GeneralGroup_1ga753a768f4cae3df84fb4587bc0600b30" kind="function"><name>setLocalRays</name></member>
+      <member refid="group__GeneralGroup_1ga6808b2301ac9e95c443c6084ccf493b7" kind="function"><name>getIsConical</name></member>
+      <member refid="group__GeneralGroup_1ga4d56413060eb395d78b7a981758a05b7" kind="function"><name>setIsConical</name></member>
+      <member refid="group__GeneralGroup_1ga1bbf1e560e70b1f06d4d5f837492a11e" kind="function"><name>getShouldVisualizeRay</name></member>
+      <member refid="group__GeneralGroup_1gab6d8065cd350f11e20867b78601c0f91" kind="function"><name>setShouldVisualizeRay</name></member>
+      <member refid="group__GeneralGroup_1gaa144d0e4a8a0e869d988653be474ce4a" kind="function"><name>computeAngle</name></member>
+      <member refid="group__GeneralGroup_1ga94c8a0bb6913155e136c7a02750e7d0f" kind="function"><name>getInfoLines</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1AngleMeasurementObject_1aae69c0f1d91e78acb6ef4dbcccba01dc" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>const char *</type>
-        <definition>static constexpr const char * MR::AngleMeasurementObject::StaticTypeName</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>StaticTypeName</name>
-        <qualifiedname>MR::AngleMeasurementObject::StaticTypeName</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" line="18" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" bodystart="18" bodyend="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1AngleMeasurementObject_1ac39facf94a33f2dce0f9b3b233d69422" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>const char *</type>
-        <definition>static constexpr const char * MR::AngleMeasurementObject::StaticClassName</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>StaticClassName</name>
-        <qualifiedname>MR::AngleMeasurementObject::StaticClassName</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" line="21" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" bodystart="21" bodyend="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1AngleMeasurementObject_1a0c8d3e8a3ba43215581ee1e7de6918db" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>const char *</type>
-        <definition>static constexpr const char * MR::AngleMeasurementObject::StaticClassNameInPlural</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>StaticClassNameInPlural</name>
-        <qualifiedname>MR::AngleMeasurementObject::StaticClassNameInPlural</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" line="24" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" bodystart="24" bodyend="24"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaae69c0f1d91e78acb6ef4dbcccba01dc" kind="function"><name>StaticTypeName</name></member>
+      <member refid="group__GeneralGroup_1gac39facf94a33f2dce0f9b3b233d69422" kind="function"><name>StaticClassName</name></member>
+      <member refid="group__GeneralGroup_1ga0c8d3e8a3ba43215581ee1e7de6918db" kind="function"><name>StaticClassNameInPlural</name></member>
     </sectiondef>
     <sectiondef kind="protected-func">
-      <memberdef kind="function" id="classMR_1_1AngleMeasurementObject_1a520df3268a54a7efc5da675d973f8c53" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::AngleMeasurementObject::AngleMeasurementObject</definition>
-        <argsstring>(const AngleMeasurementObject &amp;other)=default</argsstring>
-        <name>AngleMeasurementObject</name>
-        <qualifiedname>MR::AngleMeasurementObject::AngleMeasurementObject</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1AngleMeasurementObject" kindref="compound">AngleMeasurementObject</ref> &amp;</type>
-          <declname>other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" line="64" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1AngleMeasurementObject_1a0f47f7d31bec9d2791312b72e2ac1d1f" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::AngleMeasurementObject::swapBase_</definition>
-        <argsstring>(Object &amp;other) override</argsstring>
-        <name>swapBase_</name>
-        <qualifiedname>MR::AngleMeasurementObject::swapBase_</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1a76b7b6b3bfd7dac31eb1d150afb761f7">swapBase_</reimplements>
-        <param>
-          <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
-          <declname>other</declname>
-        </param>
-        <briefdescription>
-<para>swaps this object with other </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" line="66" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1AngleMeasurementObject_1a4b8623dc5463ca2d74dddd4de01243ad" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::AngleMeasurementObject::serializeFields_</definition>
-        <argsstring>(Json::Value &amp;root) const override</argsstring>
-        <name>serializeFields_</name>
-        <qualifiedname>MR::AngleMeasurementObject::serializeFields_</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1aa7e5231f013c0e9e1b528c69759cc60d">serializeFields_</reimplements>
-        <param>
-          <type>Json::Value &amp;</type>
-          <declname>root</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Write parameters to given Json::Value, <simplesect kind="note"><para>if you override this method, please call Base::serializeFields_(root) in the beginning </para>
-</simplesect>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" line="68" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1AngleMeasurementObject_1a59480f0434749a0e8e6735f4192a3b2e" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::AngleMeasurementObject::deserializeFields_</definition>
-        <argsstring>(const Json::Value &amp;root) override</argsstring>
-        <name>deserializeFields_</name>
-        <qualifiedname>MR::AngleMeasurementObject::deserializeFields_</qualifiedname>
-        <reimplements refid="classMR_1_1Object_1afa7de2dfba47f9766bfa741f01f73e42">deserializeFields_</reimplements>
-        <param>
-          <type>const Json::Value &amp;</type>
-          <declname>root</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Reads parameters from json value <simplesect kind="note"><para>if you override this method, please call Base::deserializeFields_(root) in the beginning </para>
-</simplesect>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" line="69" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1AngleMeasurementObject_1ae9cceecc44b56c37d2a10067bdaa9e20" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::AngleMeasurementObject::setupRenderObject_</definition>
-        <argsstring>() const override</argsstring>
-        <name>setupRenderObject_</name>
-        <qualifiedname>MR::AngleMeasurementObject::setupRenderObject_</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1a8c9ac961e923f7c61ccf3424413be0fb">setupRenderObject_</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>each renderable child of <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> should implement this method and assign renderObj_ inside </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" line="71" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1AngleMeasurementObject_1aed272d8412b35e82e0df272f085f51c3" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::AngleMeasurementObject::onWorldXfChanged_</definition>
-        <argsstring>() override</argsstring>
-        <name>onWorldXfChanged_</name>
-        <qualifiedname>MR::AngleMeasurementObject::onWorldXfChanged_</qualifiedname>
-        <reimplements refid="classMR_1_1Object_1ae552548142751ab5d35d446cb5d56fae">onWorldXfChanged_</reimplements>
-        <briefdescription>
-<para>Emits <computeroutput>worldXfChangedSignal</computeroutput>, but derived classes can add additional behavior to it. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" line="73" column="21"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga520df3268a54a7efc5da675d973f8c53" kind="function"><name>AngleMeasurementObject</name></member>
+      <member refid="group__GeneralGroup_1ga0f47f7d31bec9d2791312b72e2ac1d1f" kind="function"><name>swapBase_</name></member>
+      <member refid="group__GeneralGroup_1ga4b8623dc5463ca2d74dddd4de01243ad" kind="function"><name>serializeFields_</name></member>
+      <member refid="group__GeneralGroup_1ga59480f0434749a0e8e6735f4192a3b2e" kind="function"><name>deserializeFields_</name></member>
+      <member refid="group__GeneralGroup_1gae9cceecc44b56c37d2a10067bdaa9e20" kind="function"><name>setupRenderObject_</name></member>
+      <member refid="group__GeneralGroup_1gaed272d8412b35e82e0df272f085f51c3" kind="function"><name>onWorldXfChanged_</name></member>
     </sectiondef>
     <briefdescription>
 <para>Represents an angle measurement. </para>
@@ -708,38 +174,38 @@
         <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" line="9" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" bodystart="10" bodyend="86"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAngleMeasurementObject.h" bodystart="13" bodyend="89"/>
     <listofallmembers>
       <member refid="classMR_1_1Object_1aa6cdc407999b7e829fd23b242cb6346d" prot="public" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>addChild</name></member>
       <member refid="classMR_1_1Object_1a8eeb1cb21b22db97f20eac75b897f7ae" prot="public" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>addChildBefore</name></member>
       <member refid="classMR_1_1Object_1a1bc49d038870615cf0a59705e4796075" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>addTag</name></member>
       <member refid="classMR_1_1VisualObject_1a53f3623d9c70f13c0546466a3ab5da96" prot="protected" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>ambientStrength_</name></member>
       <member refid="classMR_1_1Object_1a7919fe84554abf5973d82255df4425a6" prot="protected" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>ancillary_</name></member>
-      <member refid="classMR_1_1AngleMeasurementObject_1aa12ae3069114c41ef8ed6616672c5d29" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>AngleMeasurementObject</name></member>
-      <member refid="classMR_1_1AngleMeasurementObject_1a8e474716d30d1e4bd36dc2c74ae744d0" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>AngleMeasurementObject</name></member>
-      <member refid="classMR_1_1AngleMeasurementObject_1ae55c096c40230b811bd7a00fb9a219eb" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>AngleMeasurementObject</name></member>
-      <member refid="classMR_1_1AngleMeasurementObject_1a520df3268a54a7efc5da675d973f8c53" prot="protected" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>AngleMeasurementObject</name></member>
+      <member refid="group__GeneralGroup_1gaa12ae3069114c41ef8ed6616672c5d29" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>AngleMeasurementObject</name></member>
+      <member refid="group__GeneralGroup_1ga8e474716d30d1e4bd36dc2c74ae744d0" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>AngleMeasurementObject</name></member>
+      <member refid="group__GeneralGroup_1gae55c096c40230b811bd7a00fb9a219eb" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>AngleMeasurementObject</name></member>
+      <member refid="group__GeneralGroup_1ga520df3268a54a7efc5da675d973f8c53" prot="protected" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>AngleMeasurementObject</name></member>
       <member refid="classMR_1_1Object_1a0afca40a7c24d33df4e4d7a5c98167a4" prot="public" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>applyScale</name></member>
       <member refid="classMR_1_1Object_1a1f6de8e94b4cc46c3fd7ba2cb4e6cfb3" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>asType</name></member>
       <member refid="classMR_1_1Object_1a64cc87b1de99f84bb49d9e0b0f24d9ea" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>asType</name></member>
       <member refid="classMR_1_1VisualObject_1ae3a2d142d4abb2283a71caf7395282a4" prot="protected" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>backFacesColor_</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a2ba9302240c85bc5dfd78068e7b2e918" prot="protected" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>bastards_</name></member>
       <member refid="classMR_1_1VisualObject_1af81b9247c457c9dbd36d6bbe4c74b826" prot="protected" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>boundingBoxToInfoLines_</name></member>
-      <member refid="classMR_1_1AngleMeasurementObject_1a4ba4cfccedd218a885f21a78974a9208" prot="private" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>cachedValue_</name></member>
+      <member refid="group__GeneralGroup_1ga4ba4cfccedd218a885f21a78974a9208" prot="private" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>cachedValue_</name></member>
       <member refid="classMR_1_1Object_1a918f27844d6d9aae269008f0036bc671" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>children</name></member>
       <member refid="classMR_1_1Object_1a2f38b85c4109bb77ad1a49e42085b9fb" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>children</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a20c010d72c82523c01e5de05910eb34c" prot="protected" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>children_</name></member>
-      <member refid="classMR_1_1AngleMeasurementObject_1a11b4563811e536745042eac6cc7d7de3" prot="public" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>className</name></member>
-      <member refid="classMR_1_1AngleMeasurementObject_1ad2c4dd04439768c43bf48e9cc47ad5d7" prot="public" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>classNameInPlural</name></member>
+      <member refid="group__GeneralGroup_1ga11b4563811e536745042eac6cc7d7de3" prot="public" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>className</name></member>
+      <member refid="group__GeneralGroup_1gad2c4dd04439768c43bf48e9cc47ad5d7" prot="public" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>classNameInPlural</name></member>
       <member refid="classMR_1_1VisualObject_1ab87c9fab3f92c38aba589584b5466a98" prot="protected" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>clipByPlane_</name></member>
-      <member refid="classMR_1_1AngleMeasurementObject_1a0817825d46092c4ebf5fbc8aa9b3cc0f" prot="public" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>clone</name></member>
+      <member refid="group__GeneralGroup_1ga0817825d46092c4ebf5fbc8aa9b3cc0f" prot="public" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>clone</name></member>
       <member refid="classMR_1_1Object_1a54eb8f6e602368572ffb27af73f87465" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>cloneTree</name></member>
       <member refid="classMR_1_1VisualObject_1a21eb2d0c923e3ca0544e4cf90782e6b1" prot="protected" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>coloringType_</name></member>
-      <member refid="classMR_1_1AngleMeasurementObject_1aa144d0e4a8a0e869d988653be474ce4a" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>computeAngle</name></member>
+      <member refid="group__GeneralGroup_1gaa144d0e4a8a0e869d988653be474ce4a" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>computeAngle</name></member>
       <member refid="classMR_1_1VisualObject_1a4e27182996ebf22fc42c7d1ebf6cf02b" prot="protected" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>computeBoundingBox_</name></member>
       <member refid="classMR_1_1VisualObject_1a7857f20b8f16704a46297b95e12524f7" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>copyAllSolidColors</name></member>
       <member refid="classMR_1_1VisualObject_1a3c81a910d1fdd5c1f1b413c185bf750d" prot="protected" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>depthTest_</name></member>
-      <member refid="classMR_1_1AngleMeasurementObject_1a59480f0434749a0e8e6735f4192a3b2e" prot="protected" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>deserializeFields_</name></member>
+      <member refid="group__GeneralGroup_1ga59480f0434749a0e8e6735f4192a3b2e" prot="protected" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>deserializeFields_</name></member>
       <member refid="classMR_1_1Object_1a694bf2e911f3079c872f0dc9c13370c9" prot="protected" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>deserializeModel_</name></member>
       <member refid="classMR_1_1Object_1ae6602edbad891420dc4dff152e9df603" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>deserializeRecursive</name></member>
       <member refid="classMR_1_1Object_1a80a32a58c497b044d63e5aaa75e77fbe" prot="public" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>detachFromParent</name></member>
@@ -763,22 +229,22 @@
       <member refid="classMR_1_1VisualObject_1a04e6c3f8219124e3028f7dd8411cfc65" prot="public" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>getFrontColorsForAllViewports</name></member>
       <member refid="classMR_1_1VisualObject_1afe6426aa46d769e1d6f4cab1e56e0559" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>getGlobalAlpha</name></member>
       <member refid="classMR_1_1VisualObject_1a3ef31c439da47a55ca3287bf45a377ad" prot="public" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>getGlobalAlphaForAllViewports</name></member>
-      <member refid="classMR_1_1AngleMeasurementObject_1a94c8a0bb6913155e136c7a02750e7d0f" prot="public" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>getInfoLines</name></member>
-      <member refid="classMR_1_1AngleMeasurementObject_1a6808b2301ac9e95c443c6084ccf493b7" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>getIsConical</name></member>
-      <member refid="classMR_1_1AngleMeasurementObject_1ad5d3f4aec36cb3c1916f8354336025b7" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>getLocalPoint</name></member>
-      <member refid="classMR_1_1AngleMeasurementObject_1adb7fd00b2e03e915ea4eabd5e7461b7f" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>getLocalRay</name></member>
+      <member refid="group__GeneralGroup_1ga94c8a0bb6913155e136c7a02750e7d0f" prot="public" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>getInfoLines</name></member>
+      <member refid="group__GeneralGroup_1ga6808b2301ac9e95c443c6084ccf493b7" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>getIsConical</name></member>
+      <member refid="group__GeneralGroup_1gad5d3f4aec36cb3c1916f8354336025b7" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>getLocalPoint</name></member>
+      <member refid="group__GeneralGroup_1gadb7fd00b2e03e915ea4eabd5e7461b7f" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>getLocalRay</name></member>
       <member refid="classMR_1_1Object_1a4a0bdbb221822d1b73720712b1488489" prot="public" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>getModelHash</name></member>
       <member refid="classMR_1_1VisualObject_1a08a44c8bd562c85361950682c997f752" prot="public" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>getRedrawFlag</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a64c12f40ae3ee9c61ba167319e33f4a8" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>getSharedPtr</name></member>
       <member refid="classMR_1_1VisualObject_1a1a152f22b671a1cf98ddcf43db92b1da" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>getShininess</name></member>
-      <member refid="classMR_1_1AngleMeasurementObject_1a1bbf1e560e70b1f06d4d5f837492a11e" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>getShouldVisualizeRay</name></member>
+      <member refid="group__GeneralGroup_1ga1bbf1e560e70b1f06d4d5f837492a11e" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>getShouldVisualizeRay</name></member>
       <member refid="classMR_1_1VisualObject_1a746d651e584a6df83424853a8777138b" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>getSpecularStrength</name></member>
       <member refid="classMR_1_1VisualObject_1a3e21bc521981859584703215ba45f219" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>getVisualizeProperty</name></member>
       <member refid="classMR_1_1VisualObject_1a94e84a6aefe10a606f6dbf056049dcee" prot="public" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>getVisualizePropertyMask</name></member>
       <member refid="classMR_1_1VisualObject_1a11c8d591aa72e021a946b58349b80bcf" prot="protected" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>getVisualizePropertyMask_</name></member>
       <member refid="classMR_1_1VisualObject_1a32cc9bc32e5402ed77f63de53d754314" prot="public" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>getWorldBox</name></member>
-      <member refid="classMR_1_1AngleMeasurementObject_1a035ba4d64bdfc46d8497e169a4be750f" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>getWorldPoint</name></member>
-      <member refid="classMR_1_1AngleMeasurementObject_1a77cf2bb7f527cdce197688a0eff4f24b" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>getWorldRay</name></member>
+      <member refid="group__GeneralGroup_1ga035ba4d64bdfc46d8497e169a4be750f" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>getWorldPoint</name></member>
+      <member refid="group__GeneralGroup_1ga77cf2bb7f527cdce197688a0eff4f24b" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>getWorldRay</name></member>
       <member refid="classMR_1_1Object_1a41924fd6534dc41bfdb6dd30e263109b" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>getWorldTreeBox</name></member>
       <member refid="classMR_1_1VisualObject_1a96232055c664463cca20dda327b1c30f" prot="protected" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>globalAlpha_</name></member>
       <member refid="classMR_1_1VisualObject_1a5985106ad6fa7332062d84fdd44b5986" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>globalClippedByPlane</name></member>
@@ -792,7 +258,7 @@
       <member refid="classMR_1_1VisualObject_1af6cd63e72a721fbe39cdff002950bce4" prot="protected" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>invertNormals_</name></member>
       <member refid="classMR_1_1Object_1a7c970b0fa099d812c04978d33c4b624e" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>isAncestor</name></member>
       <member refid="classMR_1_1Object_1a3dcf68a5faec85e8e753e34ab77eb1b9" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>isAncillary</name></member>
-      <member refid="classMR_1_1AngleMeasurementObject_1acfc8f690c3bf3935fb4e3bc132ebd84b" prot="private" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>isConical_</name></member>
+      <member refid="group__GeneralGroup_1gacfc8f690c3bf3935fb4e3bc132ebd84b" prot="private" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>isConical_</name></member>
       <member refid="classMR_1_1Object_1a6590355f391c69c4c0594b51397d4579" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>isGlobalAncillary</name></member>
       <member refid="classMR_1_1Object_1ad7f9426f9adc37a95648822d1566db77" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>isLocked</name></member>
       <member refid="classMR_1_1Object_1ae6f5f78500e8c1342b7f4d7d98b03928" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>isParentLocked</name></member>
@@ -800,7 +266,7 @@
       <member refid="classMR_1_1Object_1a3f649834561a9f246e1d840a0f3080c8" prot="public" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>isSelected</name></member>
       <member refid="classMR_1_1Object_1a98c9e0d07b736d2b86c4d3d340b77844" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>isVisible</name></member>
       <member refid="classMR_1_1Object_1a958714fb7d616e608cb16223e052052b" prot="protected" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>locked_</name></member>
-      <member refid="classMR_1_1MeasurementObject_1abfa882fd0a9244f24422e3f34dd6a35a" prot="protected" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>MeasurementObject</name></member>
+      <member refid="group__GeneralGroup_1gabfa882fd0a9244f24422e3f34dd6a35a" prot="protected" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>MeasurementObject</name></member>
       <member refid="classMR_1_1Object_1ae813e1ae9ad5cbb71ca45adbdd811679" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>name</name></member>
       <member refid="classMR_1_1Object_1a3d6d27065a13a0a262df4b74ff82e538" prot="protected" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>name_</name></member>
       <member refid="classMR_1_1Object_1a92a390dc7570098981912529e341433d" prot="protected" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>needRedraw_</name></member>
@@ -811,8 +277,8 @@
       <member refid="classMR_1_1ObjectChildrenHolder_1acad4a073a2e703743e01e2e5cce9e285" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>ObjectChildrenHolder</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a676c20b6eea355fe68748a8c1ad0b086" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>ObjectChildrenHolder</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a89b1fff6ebde3c5a71a530e3c8cddfb6" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>ObjectChildrenHolder</name></member>
-      <member refid="classMR_1_1AngleMeasurementObject_1aed272d8412b35e82e0df272f085f51c3" prot="protected" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>onWorldXfChanged_</name></member>
-      <member refid="classMR_1_1AngleMeasurementObject_1ad9e371006af6a03a0cfe38eaeb705a44" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1gaed272d8412b35e82e0df272f085f51c3" prot="protected" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>onWorldXfChanged_</name></member>
+      <member refid="group__GeneralGroup_1gad9e371006af6a03a0cfe38eaeb705a44" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>operator=</name></member>
       <member refid="classMR_1_1VisualObject_1ad5bb82fa6b6b0ea77f0137b975c802f6" prot="public" virt="non-virtual" ambiguityscope="MR::MeasurementObject::"><scope>MR::AngleMeasurementObject</scope><name>operator=</name></member>
       <member refid="classMR_1_1Object_1aaa2378c439796ceb7a28ad41322cb8d7" prot="public" virt="non-virtual" ambiguityscope="MR::Object::"><scope>MR::AngleMeasurementObject</scope><name>operator=</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a44a4427301ae71511f5b3138cdf02e9f" prot="public" virt="non-virtual" ambiguityscope="MR::ObjectChildrenHolder::"><scope>MR::AngleMeasurementObject</scope><name>operator=</name></member>
@@ -841,7 +307,7 @@
       <member refid="classMR_1_1Object_1a0d8ef27f83b47e000093eaa0df9c36f9" prot="protected" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>selected_</name></member>
       <member refid="classMR_1_1VisualObject_1ac75d179334e336af0672bf0d9c997038" prot="protected" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>selectedColor_</name></member>
       <member refid="classMR_1_1Object_1ab41eb618ef90d9677638173475b2d983" prot="protected" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>sendWorldXfChangedSignal_</name></member>
-      <member refid="classMR_1_1AngleMeasurementObject_1a4b8623dc5463ca2d74dddd4de01243ad" prot="protected" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>serializeFields_</name></member>
+      <member refid="group__GeneralGroup_1ga4b8623dc5463ca2d74dddd4de01243ad" prot="protected" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>serializeFields_</name></member>
       <member refid="classMR_1_1Object_1a7bf17e9cdecb511570759169e86bf0e2" prot="protected" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>serializeModel_</name></member>
       <member refid="classMR_1_1Object_1a9585a709b1b7bd6d35276d099afd0079" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>serializeRecursive</name></member>
       <member refid="classMR_1_1VisualObject_1aa19ae518997e365fbfa1ddd81b04eb10" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>setAllVisualizeProperties</name></member>
@@ -860,18 +326,18 @@
       <member refid="classMR_1_1VisualObject_1a8ae88237f1bd22f03cb5a77d018c6d7c" prot="public" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>setGlobalAlphaForAllViewports</name></member>
       <member refid="classMR_1_1VisualObject_1a6212504702d0e12528f65b94e270069e" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>setGlobalClippedByPlane</name></member>
       <member refid="classMR_1_1Object_1af61964cafaa7f98e2b14f89fed277368" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>setGlobalVisibility</name></member>
-      <member refid="classMR_1_1AngleMeasurementObject_1a4d56413060eb395d78b7a981758a05b7" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>setIsConical</name></member>
-      <member refid="classMR_1_1AngleMeasurementObject_1ad695fce882db5541f784b78c892549a9" prot="public" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>setLocalPoint</name></member>
-      <member refid="classMR_1_1AngleMeasurementObject_1a753a768f4cae3df84fb4587bc0600b30" prot="public" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>setLocalRays</name></member>
+      <member refid="group__GeneralGroup_1ga4d56413060eb395d78b7a981758a05b7" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>setIsConical</name></member>
+      <member refid="group__GeneralGroup_1gad695fce882db5541f784b78c892549a9" prot="public" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>setLocalPoint</name></member>
+      <member refid="group__GeneralGroup_1ga753a768f4cae3df84fb4587bc0600b30" prot="public" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>setLocalRays</name></member>
       <member refid="classMR_1_1Object_1ac427b5b1a99a87eac1305683801fc850" prot="public" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>setLocked</name></member>
       <member refid="classMR_1_1Object_1ace89695fb0235bdf97caecfe26390349" prot="public" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>setName</name></member>
       <member refid="classMR_1_1Object_1acd0464af4d89730f9a969f997fdcc8ce" prot="public" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>setParentLocked</name></member>
       <member refid="classMR_1_1VisualObject_1add21d6793f336877707d5ed7b4785ce6" prot="public" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>setPickable</name></member>
       <member refid="classMR_1_1Object_1a911d7f54ae21939fe483b0f5caf04a66" prot="protected" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>setSharedModel_</name></member>
       <member refid="classMR_1_1VisualObject_1add52279d4cba695b4fa60d469cb8c1af" prot="public" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>setShininess</name></member>
-      <member refid="classMR_1_1AngleMeasurementObject_1ab6d8065cd350f11e20867b78601c0f91" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>setShouldVisualizeRay</name></member>
+      <member refid="group__GeneralGroup_1gab6d8065cd350f11e20867b78601c0f91" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>setShouldVisualizeRay</name></member>
       <member refid="classMR_1_1VisualObject_1a455eb4255b591d822d504e0403c5e984" prot="public" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>setSpecularStrength</name></member>
-      <member refid="classMR_1_1AngleMeasurementObject_1ae9cceecc44b56c37d2a10067bdaa9e20" prot="protected" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>setupRenderObject_</name></member>
+      <member refid="group__GeneralGroup_1gae9cceecc44b56c37d2a10067bdaa9e20" prot="protected" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>setupRenderObject_</name></member>
       <member refid="classMR_1_1VisualObject_1a12fceb01c325ff73eb770fa255cb5ecf" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>setUseDefaultScenePropertiesOnDeserialization</name></member>
       <member refid="classMR_1_1Object_1a01ca9dab857ceb8e3fad3d04d271ff0e" prot="public" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>setVisibilityMask</name></member>
       <member refid="classMR_1_1Object_1a4f9e9d6e328f1eda7944805cf9d52dc0" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>setVisible</name></member>
@@ -880,26 +346,26 @@
       <member refid="classMR_1_1Object_1a214e37583ccaa45d92895464c6de685d" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>setWorldXf</name></member>
       <member refid="classMR_1_1Object_1a2f9761f33c2e77153389c9b3583e013e" prot="public" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>setXf</name></member>
       <member refid="classMR_1_1Object_1a6d2214b6fde4d128210f1421cc36176d" prot="public" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>setXfsForAllViewports</name></member>
-      <member refid="classMR_1_1AngleMeasurementObject_1a9e20a99d9cfb02b91a653aefadbbb391" prot="public" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>shallowClone</name></member>
+      <member refid="group__GeneralGroup_1ga9e20a99d9cfb02b91a653aefadbbb391" prot="public" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>shallowClone</name></member>
       <member refid="classMR_1_1Object_1ac8e64c569d24d04c1dfcfe7cb1511580" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>shallowCloneTree</name></member>
       <member refid="classMR_1_1VisualObject_1a88b3d55070a6a91ed592e80b0f925419" prot="protected" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>shininess_</name></member>
-      <member refid="classMR_1_1AngleMeasurementObject_1a5773b93639b8824c0c0ac660ec402ed5" prot="private" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>shouldVisualizeRay_</name></member>
+      <member refid="group__GeneralGroup_1ga5773b93639b8824c0c0ac660ec402ed5" prot="private" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>shouldVisualizeRay_</name></member>
       <member refid="classMR_1_1VisualObject_1aa23cd40dfdaaebc073129fb1ba57dce7" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>showName</name></member>
       <member refid="classMR_1_1VisualObject_1a6f691bb814bb6837382b81f60eff14c5" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>showName</name></member>
       <member refid="classMR_1_1VisualObject_1a611894e7f98e2633137d75833e361781" prot="protected" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>showName_</name></member>
       <member refid="classMR_1_1Object_1a6f67ec7cbe1e69e514d8f0d5286a35da" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>sortChildren</name></member>
       <member refid="classMR_1_1VisualObject_1ab494630abaaab85d3b4c16929c7e6e83" prot="protected" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>specularStrength_</name></member>
-      <member refid="classMR_1_1AngleMeasurementObject_1ac39facf94a33f2dce0f9b3b233d69422" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>StaticClassName</name></member>
-      <member refid="classMR_1_1AngleMeasurementObject_1a0c8d3e8a3ba43215581ee1e7de6918db" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>StaticClassNameInPlural</name></member>
-      <member refid="classMR_1_1AngleMeasurementObject_1aae69c0f1d91e78acb6ef4dbcccba01dc" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>StaticTypeName</name></member>
+      <member refid="group__GeneralGroup_1gac39facf94a33f2dce0f9b3b233d69422" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>StaticClassName</name></member>
+      <member refid="group__GeneralGroup_1ga0c8d3e8a3ba43215581ee1e7de6918db" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>StaticClassNameInPlural</name></member>
+      <member refid="group__GeneralGroup_1gaae69c0f1d91e78acb6ef4dbcccba01dc" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>StaticTypeName</name></member>
       <member refid="classMR_1_1VisualObject_1a17a87c846a1caa768c3043ee50bbd966" prot="public" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>supportsVisualizeProperty</name></member>
       <member refid="classMR_1_1Object_1a39e506e0816b1d504e86a2823ee90cf3" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>swap</name></member>
-      <member refid="classMR_1_1AngleMeasurementObject_1a0f47f7d31bec9d2791312b72e2ac1d1f" prot="protected" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>swapBase_</name></member>
+      <member refid="group__GeneralGroup_1ga0f47f7d31bec9d2791312b72e2ac1d1f" prot="protected" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>swapBase_</name></member>
       <member refid="classMR_1_1Object_1a82d2749fefb75e38b62dd69a52307680" prot="protected" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>swapSignals_</name></member>
       <member refid="classMR_1_1Object_1abf2e87d7dd67d22799d82a35ddecc7b3" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>tags</name></member>
       <member refid="classMR_1_1Object_1abf2154dc69866e93f47d7207cdb4abf4" prot="protected" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>tags_</name></member>
       <member refid="classMR_1_1VisualObject_1af63540ac95e6431477166fb4d1c249a3" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>toggleVisualizeProperty</name></member>
-      <member refid="classMR_1_1AngleMeasurementObject_1aaa46f9128d202f32be37d9d9db292fe6" prot="public" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>typeName</name></member>
+      <member refid="group__GeneralGroup_1gaaa46f9128d202f32be37d9d9db292fe6" prot="public" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>typeName</name></member>
       <member refid="classMR_1_1VisualObject_1a567b072f1d687c864a8be3d5e68d13a3" prot="protected" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>unselectedColor_</name></member>
       <member refid="classMR_1_1VisualObject_1a0466c6ddefdea403775b5b4fa4a46219" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
       <member refid="classMR_1_1VisualObject_1aeed6d251c7bdbffe0634b0fe96faab35" prot="protected" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>useDefaultScenePropertiesOnDeserialization_</name></member>

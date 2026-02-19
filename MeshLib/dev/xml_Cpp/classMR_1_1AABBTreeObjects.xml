@@ -5,141 +5,16 @@
     <basecompoundref refid="classMR_1_1AABBTreeBase" prot="public" virt="non-virtual">MR::AABBTreeBase&lt; ObjTreeTraits &gt;</basecompoundref>
     <includes refid="MRAABBTreeObjects_8h" local="no">MRAABBTreeObjects.h</includes>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1AABBTreeObjects_1a97a1b1752d785a0592fce54dab8d265e" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; <ref refid="structMR_1_1MeshOrPointsXf" kindref="compound">MeshOrPointsXf</ref>, ObjId &gt;</type>
-        <definition>Vector&lt;MeshOrPointsXf, ObjId&gt; MR::AABBTreeObjects::objs_</definition>
-        <argsstring></argsstring>
-        <name>objs_</name>
-        <qualifiedname>MR::AABBTreeObjects::objs_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeObjects.h" line="39" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeObjects.h" bodystart="39" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1AABBTreeObjects_1a7c0b46fdc4400fefa96e1e3750e9431a" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; AffineXf3f, ObjId &gt;</type>
-        <definition>Vector&lt;AffineXf3f, ObjId&gt; MR::AABBTreeObjects::toLocal_</definition>
-        <argsstring></argsstring>
-        <name>toLocal_</name>
-        <qualifiedname>MR::AABBTreeObjects::toLocal_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeObjects.h" line="40" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeObjects.h" bodystart="40" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga97a1b1752d785a0592fce54dab8d265e" kind="variable"><name>objs_</name></member>
+      <member refid="group__GeneralGroup_1ga7c0b46fdc4400fefa96e1e3750e9431a" kind="variable"><name>toLocal_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1AABBTreeObjects_1aa38c8faf49a02e3d7be46e67ca93605c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::AABBTreeObjects::AABBTreeObjects</definition>
-        <argsstring>()=default</argsstring>
-        <name>AABBTreeObjects</name>
-        <qualifiedname>MR::AABBTreeObjects::AABBTreeObjects</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeObjects.h" line="21" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1AABBTreeObjects_1ac03ebfddd0d44b67e900401b14ab8510" prot="public" static="no" nodiscard="yes" const="no" explicit="yes" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
-        <definition>MRMESH_API MR::AABBTreeObjects::AABBTreeObjects</definition>
-        <argsstring>(Vector&lt; MeshOrPointsXf, ObjId &gt; objs)</argsstring>
-        <name>AABBTreeObjects</name>
-        <qualifiedname>MR::AABBTreeObjects::AABBTreeObjects</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; <ref refid="structMR_1_1MeshOrPointsXf" kindref="compound">MeshOrPointsXf</ref>, ObjId &gt;</type>
-          <declname>objs</declname>
-        </param>
-        <briefdescription>
-<para>creates tree for given set of objects each with its own transformation </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeObjects.h" line="24" column="26"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1AABBTreeObjects_1a99168530efbec41936b6d609dd4817ef" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const <ref refid="classMR_1_1MeshOrPoints" kindref="compound">MeshOrPoints</ref> &amp;</type>
-        <definition>const MeshOrPoints &amp; MR::AABBTreeObjects::obj</definition>
-        <argsstring>(ObjId oi) const</argsstring>
-        <name>obj</name>
-        <qualifiedname>MR::AABBTreeObjects::obj</qualifiedname>
-        <param>
-          <type>ObjId</type>
-          <declname>oi</declname>
-        </param>
-        <briefdescription>
-<para>gets object by its id </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeObjects.h" line="27" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeObjects.h" bodystart="27" bodyend="27"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1AABBTreeObjects_1a53a2373adc7f8c553eef2252a15f8e6c" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const AffineXf3f &amp;</type>
-        <definition>const AffineXf3f &amp; MR::AABBTreeObjects::toWorld</definition>
-        <argsstring>(ObjId oi) const</argsstring>
-        <name>toWorld</name>
-        <qualifiedname>MR::AABBTreeObjects::toWorld</qualifiedname>
-        <param>
-          <type>ObjId</type>
-          <declname>oi</declname>
-        </param>
-        <briefdescription>
-<para>gets transformation from local space of given object to world space </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeObjects.h" line="30" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeObjects.h" bodystart="30" bodyend="30"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1AABBTreeObjects_1a38603d0eea93fb5ee6465cbb5f5240df" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const AffineXf3f &amp;</type>
-        <definition>const AffineXf3f &amp; MR::AABBTreeObjects::toLocal</definition>
-        <argsstring>(ObjId oi) const</argsstring>
-        <name>toLocal</name>
-        <qualifiedname>MR::AABBTreeObjects::toLocal</qualifiedname>
-        <param>
-          <type>ObjId</type>
-          <declname>oi</declname>
-        </param>
-        <briefdescription>
-<para>gets transformation from world space to local space of given object </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeObjects.h" line="33" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeObjects.h" bodystart="33" bodyend="33"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1AABBTreeObjects_1ace976de99f292fc7409294bee7c05658" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const <ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; AffineXf3f, ObjId &gt; &amp;</type>
-        <definition>const Vector&lt; AffineXf3f, ObjId &gt; &amp; MR::AABBTreeObjects::toLocal</definition>
-        <argsstring>() const</argsstring>
-        <name>toLocal</name>
-        <qualifiedname>MR::AABBTreeObjects::toLocal</qualifiedname>
-        <briefdescription>
-<para>gets mapping: objId -&gt; its transformation from world space to local space </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeObjects.h" line="36" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeObjects.h" bodystart="36" bodyend="36"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaa38c8faf49a02e3d7be46e67ca93605c" kind="function"><name>AABBTreeObjects</name></member>
+      <member refid="group__GeneralGroup_1gac03ebfddd0d44b67e900401b14ab8510" kind="function"><name>AABBTreeObjects</name></member>
+      <member refid="group__GeneralGroup_1ga99168530efbec41936b6d609dd4817ef" kind="function"><name>obj</name></member>
+      <member refid="group__GeneralGroup_1ga53a2373adc7f8c553eef2252a15f8e6c" kind="function"><name>toWorld</name></member>
+      <member refid="group__GeneralGroup_1ga38603d0eea93fb5ee6465cbb5f5240df" kind="function"><name>toLocal</name></member>
+      <member refid="group__GeneralGroup_1gace976de99f292fc7409294bee7c05658" kind="function"><name>toLocal</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -177,36 +52,36 @@
         <link refid="classMR_1_1Vector"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeObjects.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeObjects.h" bodystart="19" bodyend="41"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeObjects.h" line="21" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeObjects.h" bodystart="22" bodyend="44"/>
     <listofallmembers>
-      <member refid="classMR_1_1AABBTreeObjects_1aa38c8faf49a02e3d7be46e67ca93605c" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>AABBTreeObjects</name></member>
-      <member refid="classMR_1_1AABBTreeObjects_1ac03ebfddd0d44b67e900401b14ab8510" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>AABBTreeObjects</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1a380c83540a90e46211318ad9752c2fd2" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>BoxT</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1aac02049340231922a6b175c0900d88c9" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>getBoundingBox</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1aa0b2c5625ad2b069c42780d685db9281" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>getLeafOrder</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1a79ff8d3344f3800e230483376df94d1f" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>getLeafOrderAndReset</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1ae91f1e83ca6d14ef5cc8555ad401b88c" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>getNodesFromLeaves</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1ab33ab0e0416c62327e0334ee7e149f61" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>getSubtreeLeaves</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1aaa00490fa2cf5eac02779a7f87baa86a" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>getSubtrees</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1aeb7792254b27842c6c5e0572db29d2f2" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1aa68c6e8f36c8a52617b624e91f11568d" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>LeafBitSet</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1a6fd4a54abb1c4fe946e503bcb14d15c4" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>LeafBMap</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1af22ebd659b66011e2ce0b16d3abc0e60" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>LeafId</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1a8174ff3f06b05cb213378de264fdcb57" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>LeafTag</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1a4a87e995071aa1a99752d3f3f32a72b3" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>Node</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1a58f8dd538965bde14c46c2ed60aac1f9" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>nodes</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1a11f524576ba6c686729f0173615bc190" prot="protected" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>nodes_</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1a7a0335fa16114969e7f5e031192bf45b" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>NodeVec</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1a444c40a8f2e0206606d5abe15c0f506f" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>numLeaves</name></member>
-      <member refid="classMR_1_1AABBTreeObjects_1a99168530efbec41936b6d609dd4817ef" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>obj</name></member>
-      <member refid="classMR_1_1AABBTreeObjects_1a97a1b1752d785a0592fce54dab8d265e" prot="private" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>objs_</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1ac94f623e90a49fd07aeb61722ab8e7f1" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>operator[]</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1ab08f029b6e9e13cf15d36bb11eddc952" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>rootNodeId</name></member>
-      <member refid="classMR_1_1AABBTreeObjects_1a38603d0eea93fb5ee6465cbb5f5240df" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>toLocal</name></member>
-      <member refid="classMR_1_1AABBTreeObjects_1ace976de99f292fc7409294bee7c05658" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>toLocal</name></member>
-      <member refid="classMR_1_1AABBTreeObjects_1a7c0b46fdc4400fefa96e1e3750e9431a" prot="private" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>toLocal_</name></member>
-      <member refid="classMR_1_1AABBTreeObjects_1a53a2373adc7f8c553eef2252a15f8e6c" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>toWorld</name></member>
-      <member refid="classMR_1_1AABBTreeBase_1a66e27ff8d7cb865904647479f715a7f3" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>Traits</name></member>
+      <member refid="group__GeneralGroup_1gaa38c8faf49a02e3d7be46e67ca93605c" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>AABBTreeObjects</name></member>
+      <member refid="group__GeneralGroup_1gac03ebfddd0d44b67e900401b14ab8510" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>AABBTreeObjects</name></member>
+      <member refid="group__GeneralGroup_1ga380c83540a90e46211318ad9752c2fd2" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>BoxT</name></member>
+      <member refid="group__GeneralGroup_1gaac02049340231922a6b175c0900d88c9" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>getBoundingBox</name></member>
+      <member refid="group__GeneralGroup_1gaa0b2c5625ad2b069c42780d685db9281" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>getLeafOrder</name></member>
+      <member refid="group__GeneralGroup_1ga79ff8d3344f3800e230483376df94d1f" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>getLeafOrderAndReset</name></member>
+      <member refid="group__GeneralGroup_1gae91f1e83ca6d14ef5cc8555ad401b88c" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>getNodesFromLeaves</name></member>
+      <member refid="group__GeneralGroup_1gab33ab0e0416c62327e0334ee7e149f61" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>getSubtreeLeaves</name></member>
+      <member refid="group__GeneralGroup_1gaaa00490fa2cf5eac02779a7f87baa86a" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>getSubtrees</name></member>
+      <member refid="group__GeneralGroup_1gaeb7792254b27842c6c5e0572db29d2f2" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1gaa68c6e8f36c8a52617b624e91f11568d" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>LeafBitSet</name></member>
+      <member refid="group__GeneralGroup_1ga6fd4a54abb1c4fe946e503bcb14d15c4" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>LeafBMap</name></member>
+      <member refid="group__GeneralGroup_1gaf22ebd659b66011e2ce0b16d3abc0e60" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>LeafId</name></member>
+      <member refid="group__GeneralGroup_1ga8174ff3f06b05cb213378de264fdcb57" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>LeafTag</name></member>
+      <member refid="group__GeneralGroup_1ga4a87e995071aa1a99752d3f3f32a72b3" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>Node</name></member>
+      <member refid="group__GeneralGroup_1ga58f8dd538965bde14c46c2ed60aac1f9" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>nodes</name></member>
+      <member refid="group__GeneralGroup_1ga11f524576ba6c686729f0173615bc190" prot="protected" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>nodes_</name></member>
+      <member refid="group__GeneralGroup_1ga7a0335fa16114969e7f5e031192bf45b" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>NodeVec</name></member>
+      <member refid="group__GeneralGroup_1ga444c40a8f2e0206606d5abe15c0f506f" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>numLeaves</name></member>
+      <member refid="group__GeneralGroup_1ga99168530efbec41936b6d609dd4817ef" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>obj</name></member>
+      <member refid="group__GeneralGroup_1ga97a1b1752d785a0592fce54dab8d265e" prot="private" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>objs_</name></member>
+      <member refid="group__GeneralGroup_1gac94f623e90a49fd07aeb61722ab8e7f1" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>operator[]</name></member>
+      <member refid="group__GeneralGroup_1gab08f029b6e9e13cf15d36bb11eddc952" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>rootNodeId</name></member>
+      <member refid="group__GeneralGroup_1ga38603d0eea93fb5ee6465cbb5f5240df" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>toLocal</name></member>
+      <member refid="group__GeneralGroup_1gace976de99f292fc7409294bee7c05658" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>toLocal</name></member>
+      <member refid="group__GeneralGroup_1ga7c0b46fdc4400fefa96e1e3750e9431a" prot="private" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>toLocal_</name></member>
+      <member refid="group__GeneralGroup_1ga53a2373adc7f8c553eef2252a15f8e6c" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>toWorld</name></member>
+      <member refid="group__GeneralGroup_1ga66e27ff8d7cb865904647479f715a7f3" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>Traits</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

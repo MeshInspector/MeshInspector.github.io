@@ -6,7 +6,7 @@
     <innerclass refid="structMR_1_1SubdivideSettings" prot="public">MR::SubdivideSettings</innerclass>
     <sectiondef kind="func">
       <memberdef kind="function" id="group__MeshSubdivideGroup_1ga8e8a41112544b99ef8f20e3e6b61fab7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> int</type>
+        <type>MRMESH_API int</type>
         <definition>MRMESH_API int MR::subdivideMesh</definition>
         <argsstring>(Mesh &amp;mesh, const SubdivideSettings &amp;settings={})</argsstring>
         <name>subdivideMesh</name>
@@ -33,7 +33,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="91" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" declline="91" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshSubdivideGroup_1gaf0f7ef934651257fe2a70de0eb1f9b8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> int</type>
+        <type>MRMESH_API int</type>
         <definition>MRMESH_API int MR::subdivideMesh</definition>
         <argsstring>(ObjectMeshData &amp;data, const SubdivideSettings &amp;settings)</argsstring>
         <name>subdivideMesh</name>
@@ -58,7 +58,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="96" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" declline="96" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshSubdivideGroup_1ga59a37b275037ffc76fab5916f13e6ecb" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; Mesh &gt;</type>
+        <type>MRMESH_API Expected&lt; Mesh &gt;</type>
         <definition>MRMESH_API Expected&lt; Mesh &gt; MR::copySubdividePackMesh</definition>
         <argsstring>(const MeshPart &amp;mp, float voxelSize, const ProgressCallback &amp;cb={})</argsstring>
         <name>copySubdividePackMesh</name>
@@ -86,7 +86,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="100" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" declline="100" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshSubdivideGroup_1gaae0359e17d056447a25f6006c825f2f0" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> ObjectMeshData</type>
+        <type>MRMESH_API ObjectMeshData</type>
         <definition>MRMESH_API ObjectMeshData MR::makeSubdividedObjectMeshData</definition>
         <argsstring>(const ObjectMesh &amp;obj, const SubdivideSettings &amp;settings)</argsstring>
         <name>makeSubdividedObjectMeshData</name>

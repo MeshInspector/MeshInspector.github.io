@@ -10,13 +10,7 @@
         <link refid="MRCudaPipeline_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
-      </node>
-      <node id="5">
-        <label>MRMesh/MRCanonicalTypedefs.h</label>
-        <link refid="MRCanonicalTypedefs_8h"/>
-        <childnode refid="6" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -24,69 +18,27 @@
         <link refid="MRExpected_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-      </node>
-      <node id="6">
-        <label>MRMesh/MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
-      </node>
-      <node id="3">
-        <label>MRMeshFwd.h</label>
-        <link refid="MRMeshFwd_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-      </node>
-      <node id="4">
-        <label>config.h</label>
-        <link refid="MRMesh_2config_8h"/>
-      </node>
-      <node id="15">
-        <label>MRCudaPipeline.hpp</label>
       </node>
       <node id="7">
+        <label>MRCudaPipeline.hpp</label>
+      </node>
+      <node id="3">
+        <label>MRMeshFwd.h</label>
+      </node>
+      <node id="4">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="14">
+      <node id="5">
         <label>MRPch/MRExpected.h</label>
       </node>
-      <node id="8">
-        <label>array</label>
-      </node>
-      <node id="13">
-        <label>cassert</label>
-      </node>
-      <node id="12">
-        <label>functional</label>
-      </node>
-      <node id="11">
-        <label>parallel_hashmap/phmap_fwd_decl.h</label>
-      </node>
-      <node id="10">
+      <node id="6">
         <label>string</label>
-      </node>
-      <node id="9">
-        <label>vector</label>
       </node>
     </incdepgraph>
     <innernamespace refid="namespaceMR">MR</innernamespace>
@@ -104,7 +56,7 @@
 <codeline lineno="6"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>BufferType,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>InputIt,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>GPUFunc,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>CPUFunc&gt;</highlight></codeline>
-<codeline lineno="12" refid="namespaceMR_1_1Cuda_1ab0b0e3af6fadf0842bbaef360071ea8e" refkind="member"><highlight class="normal"><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="namespaceMR_1_1Cuda_1ab0b0e3af6fadf0842bbaef360071ea8e" kindref="member">cudaPipeline</ref>(<sp/>BufferType<sp/>init,<sp/>InputIt<sp/><ref refid="group__BasicGroup_1gac725b280dc514c891e3e533480ca836e" kindref="member">begin</ref>,<sp/>InputIt<sp/><ref refid="group__BasicGroup_1gaa162c3dc2622716a0b52d777abfe137a" kindref="member">end</ref>,<sp/>GPUFunc<sp/>gpuFunc,<sp/>CPUFunc<sp/>cpuFunc<sp/>);</highlight></codeline>
+<codeline lineno="12" refid="namespaceMR_1_1Cuda_1ab0b0e3af6fadf0842bbaef360071ea8e" refkind="member"><highlight class="normal"><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="namespaceMR_1_1Cuda_1ab0b0e3af6fadf0842bbaef360071ea8e" kindref="member">cudaPipeline</ref>(<sp/>BufferType<sp/>init,<sp/>InputIt<sp/><ref refid="group__BasicGroup_1gac725b280dc514c891e3e533480ca836e" kindref="member">begin</ref>,<sp/>InputIt<sp/><ref refid="group__BasicGroup_1gaa162c3dc2622716a0b52d777abfe137a" kindref="member">end</ref>,<sp/>GPUFunc<sp/>gpuFunc,<sp/>CPUFunc<sp/>cpuFunc<sp/>);</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal">}<sp/></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>

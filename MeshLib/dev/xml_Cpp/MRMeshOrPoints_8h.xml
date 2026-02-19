@@ -13,88 +13,60 @@
     <includedby refid="MRAABBTreeObjects_8h" local="yes">MRAABBTreeObjects.h</includedby>
     <includedby refid="MRICP_8h" local="yes">MRICP.h</includedby>
     <incdepgraph>
-      <node id="27">
+      <node id="19">
         <label>MRAffineXf.h</label>
         <link refid="MRAffineXf_8h"/>
-        <childnode refid="6" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="25" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
-      </node>
-      <node id="15">
-        <label>MRAffineXf3.h</label>
-        <link refid="MRAffineXf3_8h"/>
-        <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="27" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
       </node>
       <node id="5">
-        <label>MRMesh/MRCanonicalTypedefs.h</label>
-        <link refid="MRCanonicalTypedefs_8h"/>
+        <label>MRAffineXf3.h</label>
+        <link refid="MRAffineXf3_8h"/>
         <childnode refid="6" relation="include">
         </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
       </node>
-      <node id="21">
+      <node id="12">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
-      <node id="28">
+      <node id="20">
         <label>MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
-        <childnode refid="26" relation="include">
-        </childnode>
-      </node>
-      <node id="6">
-        <label>MRMesh/MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
-      </node>
-      <node id="16">
-        <label>MRMatrix3.h</label>
-        <link refid="MRMatrix3_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-        <childnode refid="25" relation="include">
-        </childnode>
-      </node>
-      <node id="3">
-        <label>MRMeshFwd.h</label>
-        <link refid="MRMeshFwd_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="6">
+        <label>MRMatrix3.h</label>
+        <link refid="MRMatrix3_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
         <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -102,53 +74,11 @@
         <link refid="MRMeshOrPoints_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
-        <childnode refid="28" relation="include">
-        </childnode>
-        <childnode refid="29" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="30" relation="include">
-        </childnode>
-        <childnode refid="31" relation="include">
-        </childnode>
-      </node>
-      <node id="2">
-        <label>MRMeshPart.h</label>
-        <link refid="MRMeshPart_8h"/>
-        <childnode refid="3" relation="include">
-        </childnode>
-      </node>
-      <node id="14">
-        <label>MRPointCloudPart.h</label>
-        <link refid="MRPointCloudPart_8h"/>
-        <childnode refid="3" relation="include">
-        </childnode>
-      </node>
-      <node id="18">
-        <label>MRMesh/MRUnsigned.h</label>
-        <link refid="MRUnsigned_8h"/>
-        <childnode refid="19" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="20" relation="include">
-        </childnode>
-      </node>
-      <node id="17">
-        <label>MRVector3.h</label>
-        <link refid="MRVector3_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="22" relation="include">
         </childnode>
@@ -158,63 +88,92 @@
         </childnode>
         <childnode refid="25" relation="include">
         </childnode>
-        <childnode refid="26" relation="include">
+      </node>
+      <node id="2">
+        <label>MRMeshPart.h</label>
+        <link refid="MRMeshPart_8h"/>
+        <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="4">
-        <label>config.h</label>
-        <link refid="MRMesh_2config_8h"/>
+        <label>MRPointCloudPart.h</label>
+        <link refid="MRPointCloudPart_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
       </node>
-      <node id="7">
-        <label>MRPch/MRBindingMacros.h</label>
-      </node>
-      <node id="22">
-        <label>algorithm</label>
+      <node id="9">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
       </node>
       <node id="8">
-        <label>array</label>
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRMeshFwd.h</label>
       </node>
       <node id="13">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="14">
+        <label>algorithm</label>
+      </node>
+      <node id="21">
         <label>cassert</label>
       </node>
-      <node id="29">
+      <node id="22">
         <label>cfloat</label>
       </node>
-      <node id="23">
+      <node id="15">
         <label>cmath</label>
       </node>
-      <node id="19">
+      <node id="10">
         <label>cstddef</label>
       </node>
-      <node id="24">
+      <node id="16">
         <label>cstring</label>
       </node>
-      <node id="12">
+      <node id="23">
         <label>functional</label>
       </node>
-      <node id="25">
+      <node id="17">
         <label>iosfwd</label>
       </node>
-      <node id="30">
+      <node id="24">
         <label>optional</label>
       </node>
       <node id="11">
-        <label>parallel_hashmap/phmap_fwd_decl.h</label>
-      </node>
-      <node id="10">
-        <label>string</label>
-      </node>
-      <node id="20">
         <label>type_traits</label>
       </node>
-      <node id="26">
+      <node id="18">
         <label>utility</label>
       </node>
-      <node id="31">
+      <node id="25">
         <label>variant</label>
-      </node>
-      <node id="9">
-        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
@@ -263,118 +222,119 @@
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="13"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="classMR_1_1MeshOrPoints" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1MeshOrPoints" kindref="compound">MeshOrPoints</ref></highlight></codeline>
-<codeline lineno="18"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="20" refid="classMR_1_1MeshOrPoints_1a4b19905136ab6d31a445cc3884ab0c1e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1MeshOrPoints_1a4b19905136ab6d31a445cc3884ab0c1e" kindref="member">MeshOrPoints</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp<sp/>)<sp/>:<sp/>var_(<sp/>mp<sp/>)<sp/>{<sp/>}</highlight></codeline>
-<codeline lineno="21" refid="classMR_1_1MeshOrPoints_1a1ef5bfca52ac8e1892322d7cf4585b5b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1MeshOrPoints_1a1ef5bfca52ac8e1892322d7cf4585b5b" kindref="member">MeshOrPoints</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloudPart" kindref="compound">PointCloudPart</ref><sp/>&amp;<sp/>pcp<sp/>)<sp/>:<sp/>var_(<sp/>pcp<sp/>)<sp/>{<sp/>}</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="classMR_1_1MeshOrPoints_1af9cbf91d93d22bcc4e487a573b2b8067" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1MeshOrPoints_1af9cbf91d93d22bcc4e487a573b2b8067" kindref="member">MeshOrPoints</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh<sp/>)<sp/>:<sp/>var_(<sp/>MeshPart(<sp/>mesh<sp/>)<sp/>)<sp/>{<sp/>}</highlight></codeline>
-<codeline lineno="25" refid="classMR_1_1MeshOrPoints_1abe1af15504d425b2e6633291ccae6828" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1MeshOrPoints_1abe1af15504d425b2e6633291ccae6828" kindref="member">MeshOrPoints</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/>&amp;<sp/>pc<sp/>)<sp/>:<sp/>var_(<sp/><ref refid="structMR_1_1PointCloudPart" kindref="compound">PointCloudPart</ref>(<sp/>pc<sp/>)<sp/>)<sp/>{<sp/>}</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart*<sp/><ref refid="classMR_1_1MeshOrPoints_1a058b67c8a42bd8837a6bbe4be06bd4cf" kindref="member">asMeshPart</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="classMR_1_1MeshOrPoints" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1MeshOrPoints" kindref="compound">MeshOrPoints</ref></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="23" refid="group__GeneralGroup_1ga4b19905136ab6d31a445cc3884ab0c1e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga4b19905136ab6d31a445cc3884ab0c1e" kindref="member">MeshOrPoints</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp<sp/>)<sp/>:<sp/>var_(<sp/>mp<sp/>)<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="24" refid="group__GeneralGroup_1ga1ef5bfca52ac8e1892322d7cf4585b5b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga1ef5bfca52ac8e1892322d7cf4585b5b" kindref="member">MeshOrPoints</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloudPart" kindref="compound">PointCloudPart</ref><sp/>&amp;<sp/>pcp<sp/>)<sp/>:<sp/>var_(<sp/>pcp<sp/>)<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="group__GeneralGroup_1gaf9cbf91d93d22bcc4e487a573b2b8067" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaf9cbf91d93d22bcc4e487a573b2b8067" kindref="member">MeshOrPoints</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh<sp/>)<sp/>:<sp/>var_(<sp/>MeshPart(<sp/>mesh<sp/>)<sp/>)<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="28" refid="group__GeneralGroup_1gabe1af15504d425b2e6633291ccae6828" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gabe1af15504d425b2e6633291ccae6828" kindref="member">MeshOrPoints</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/>&amp;<sp/>pc<sp/>)<sp/>:<sp/>var_(<sp/><ref refid="structMR_1_1PointCloudPart" kindref="compound">PointCloudPart</ref>(<sp/>pc<sp/>)<sp/>)<sp/>{<sp/>}</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloudPart" kindref="compound">PointCloudPart</ref>*<sp/><ref refid="classMR_1_1MeshOrPoints_1a309a7ce32b89e73177a05d07a93d3103" kindref="member">asPointCloudPart</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart*<sp/><ref refid="group__GeneralGroup_1ga058b67c8a42bd8837a6bbe4be06bd4cf" kindref="member">asMeshPart</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35" refid="classMR_1_1MeshOrPoints_1a735838d295350004f02283f8429fa620" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>Box3f<sp/><ref refid="classMR_1_1MeshOrPoints_1a735838d295350004f02283f8429fa620" kindref="member">getObjBoundingBox</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38" refid="classMR_1_1MeshOrPoints_1aec797ad241ba4410f73274ba5e52c51e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshOrPoints_1aec797ad241ba4410f73274ba5e52c51e" kindref="member">cacheAABBTree</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloudPart" kindref="compound">PointCloudPart</ref>*<sp/><ref refid="group__GeneralGroup_1ga309a7ce32b89e73177a05d07a93d3103" kindref="member">asPointCloudPart</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="group__GeneralGroup_1ga735838d295350004f02283f8429fa620" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/>Box3f<sp/><ref refid="group__GeneralGroup_1ga735838d295350004f02283f8429fa620" kindref="member">getObjBoundingBox</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42" refid="classMR_1_1MeshOrPoints_1af68f336dca5c1cbf834ab0c65fc38036" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>Box3f<sp/><ref refid="classMR_1_1MeshOrPoints_1af68f336dca5c1cbf834ab0c65fc38036" kindref="member">computeBoundingBox</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f<sp/>*<sp/>toWorld<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45" refid="classMR_1_1MeshOrPoints_1abbcab0078d3323160184019e7850bceb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshOrPoints_1abbcab0078d3323160184019e7850bceb" kindref="member">accumulate</ref>(<sp/><ref refid="classMR_1_1PointAccumulator" kindref="compound">PointAccumulator</ref>&amp;<sp/>accum,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f*<sp/>xf<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="41" refid="group__GeneralGroup_1gaec797ad241ba4410f73274ba5e52c51e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaec797ad241ba4410f73274ba5e52c51e" kindref="member">cacheAABBTree</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="group__GeneralGroup_1gaf68f336dca5c1cbf834ab0c65fc38036" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/>Box3f<sp/><ref refid="group__GeneralGroup_1gaf68f336dca5c1cbf834ab0c65fc38036" kindref="member">computeBoundingBox</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f<sp/>*<sp/>toWorld<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52" refid="classMR_1_1MeshOrPoints_1aa0eded9546a4d5a192d0222adb7ebc21" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;VertBitSet&gt;<sp/><ref refid="classMR_1_1MeshOrPoints_1aa0eded9546a4d5a192d0222adb7ebc21" kindref="member">pointsGridSampling</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>voxelSize,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>maxVoxels<sp/>=<sp/>500000,</highlight></codeline>
-<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>&amp;<sp/>cb<sp/>=<sp/>{}<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"></highlight></codeline>
-<codeline lineno="56" refid="classMR_1_1MeshOrPoints_1a6c2fe1dcde2dbadeef24818952755317" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords<sp/>&amp;<sp/><ref refid="classMR_1_1MeshOrPoints_1a6c2fe1dcde2dbadeef24818952755317" kindref="member">points</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="48" refid="group__GeneralGroup_1gabbcab0078d3323160184019e7850bceb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gabbcab0078d3323160184019e7850bceb" kindref="member">accumulate</ref>(<sp/><ref refid="classMR_1_1PointAccumulator" kindref="compound">PointAccumulator</ref>&amp;<sp/>accum,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f*<sp/>xf<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="group__GeneralGroup_1gaa0eded9546a4d5a192d0222adb7ebc21" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/>std::optional&lt;VertBitSet&gt;<sp/><ref refid="group__GeneralGroup_1gaa0eded9546a4d5a192d0222adb7ebc21" kindref="member">pointsGridSampling</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>voxelSize,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>maxVoxels<sp/>=<sp/>500000,</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ProgressCallback<sp/>&amp;<sp/>cb<sp/>=<sp/>{}<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="59" refid="classMR_1_1MeshOrPoints_1a825ff27e36144d02b12f1880d863e32b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet&amp;<sp/><ref refid="classMR_1_1MeshOrPoints_1a825ff27e36144d02b12f1880d863e32b" kindref="member">validPoints</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="59" refid="group__GeneralGroup_1ga6c2fe1dcde2dbadeef24818952755317" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords<sp/>&amp;<sp/><ref refid="group__GeneralGroup_1ga6c2fe1dcde2dbadeef24818952755317" kindref="member">points</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="60"><highlight class="normal"></highlight></codeline>
-<codeline lineno="62" refid="classMR_1_1MeshOrPoints_1a864d2d2aec501a7ccac038912909bef9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::function&lt;Vector3f(VertId)&gt;<sp/><ref refid="classMR_1_1MeshOrPoints_1a864d2d2aec501a7ccac038912909bef9" kindref="member">normals</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="62" refid="group__GeneralGroup_1ga825ff27e36144d02b12f1880d863e32b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet&amp;<sp/><ref refid="group__GeneralGroup_1ga825ff27e36144d02b12f1880d863e32b" kindref="member">validPoints</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="63"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66" refid="classMR_1_1MeshOrPoints_1a1e980c7ce8ce348fcb921d6e1feb63c6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::function&lt;float(VertId)&gt;<sp/><ref refid="classMR_1_1MeshOrPoints_1a1e980c7ce8ce348fcb921d6e1feb63c6" kindref="member">weights</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="67"><highlight class="normal"></highlight></codeline>
-<codeline lineno="68" refid="structMR_1_1MeshOrPoints_1_1ProjectionResult" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1MeshOrPoints_1_1ProjectionResult" kindref="compound">ProjectionResult</ref></highlight></codeline>
-<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="71" refid="structMR_1_1MeshOrPoints_1_1ProjectionResult_1a975a5de8766c9ee7093fa82c4620f049" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="structMR_1_1MeshOrPoints_1_1ProjectionResult_1a975a5de8766c9ee7093fa82c4620f049" kindref="member">point</ref>;</highlight></codeline>
-<codeline lineno="72"><highlight class="normal"></highlight></codeline>
-<codeline lineno="75" refid="structMR_1_1MeshOrPoints_1_1ProjectionResult_1a1da43d795c49a78d26d63c9f1f90bdae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::optional&lt;Vector3f&gt;<sp/><ref refid="structMR_1_1MeshOrPoints_1_1ProjectionResult_1a1da43d795c49a78d26d63c9f1f90bdae" kindref="member">normal</ref>;</highlight></codeline>
-<codeline lineno="76"><highlight class="normal"></highlight></codeline>
-<codeline lineno="78" refid="structMR_1_1MeshOrPoints_1_1ProjectionResult_1ac1e15a8f200cad28d7b9d7c56757eee4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshOrPoints_1_1ProjectionResult_1ac1e15a8f200cad28d7b9d7c56757eee4" kindref="member">isBd</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="65" refid="group__GeneralGroup_1ga864d2d2aec501a7ccac038912909bef9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/>std::function&lt;Vector3f(VertId)&gt;<sp/><ref refid="group__GeneralGroup_1ga864d2d2aec501a7ccac038912909bef9" kindref="member">normals</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="group__GeneralGroup_1ga1e980c7ce8ce348fcb921d6e1feb63c6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/>std::function&lt;float(VertId)&gt;<sp/><ref refid="group__GeneralGroup_1ga1e980c7ce8ce348fcb921d6e1feb63c6" kindref="member">weights</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="structMR_1_1MeshOrPoints_1_1ProjectionResult" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1MeshOrPoints_1_1ProjectionResult" kindref="compound">ProjectionResult</ref></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="74" refid="group__GeneralGroup_1ga975a5de8766c9ee7093fa82c4620f049" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1ga975a5de8766c9ee7093fa82c4620f049" kindref="member">point</ref>;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="group__GeneralGroup_1ga1da43d795c49a78d26d63c9f1f90bdae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::optional&lt;Vector3f&gt;<sp/><ref refid="group__GeneralGroup_1ga1da43d795c49a78d26d63c9f1f90bdae" kindref="member">normal</ref>;</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"></highlight></codeline>
-<codeline lineno="81" refid="structMR_1_1MeshOrPoints_1_1ProjectionResult_1ab04e26fe4503fb08898aaeccad548f71" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshOrPoints_1_1ProjectionResult_1ab04e26fe4503fb08898aaeccad548f71" kindref="member">distSq</ref><sp/>=<sp/>FLT_MAX;</highlight></codeline>
+<codeline lineno="81" refid="group__GeneralGroup_1gac1e15a8f200cad28d7b9d7c56757eee4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac1e15a8f200cad28d7b9d7c56757eee4" kindref="member">isBd</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="82"><highlight class="normal"></highlight></codeline>
-<codeline lineno="85" refid="structMR_1_1MeshOrPoints_1_1ProjectionResult_1acd151f3c2558f8dc870aa2172d32a00e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>VertId<sp/><ref refid="structMR_1_1MeshOrPoints_1_1ProjectionResult_1acd151f3c2558f8dc870aa2172d32a00e" kindref="member">closestVert</ref>;</highlight></codeline>
-<codeline lineno="86"><highlight class="normal"></highlight></codeline>
-<codeline lineno="87" refid="structMR_1_1MeshOrPoints_1_1ProjectionResult_1ad96f5e58f9ab65b5b186ccd7d330c64d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal"><sp/>bool()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshOrPoints_1_1ProjectionResult_1a799a4d75cde699ab800ef755c3201cf6" kindref="member">valid</ref>();<sp/>}</highlight></codeline>
-<codeline lineno="88" refid="structMR_1_1MeshOrPoints_1_1ProjectionResult_1a799a4d75cde699ab800ef755c3201cf6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshOrPoints_1_1ProjectionResult_1a799a4d75cde699ab800ef755c3201cf6" kindref="member">valid</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshOrPoints_1_1ProjectionResult_1ab04e26fe4503fb08898aaeccad548f71" kindref="member">distSq</ref><sp/>&lt;<sp/>FLT_MAX;<sp/>}</highlight></codeline>
-<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="90"><highlight class="normal"></highlight></codeline>
-<codeline lineno="92" refid="classMR_1_1MeshOrPoints_1a0281d9d51c1ee7b1b2dbd57c5e97414c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::function&lt;<ref refid="structMR_1_1MeshOrPoints_1_1ProjectionResult" kindref="compound">ProjectionResult</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>)&gt;<sp/><ref refid="classMR_1_1MeshOrPoints_1a0281d9d51c1ee7b1b2dbd57c5e97414c" kindref="member">projector</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="84" refid="group__GeneralGroup_1gab04e26fe4503fb08898aaeccad548f71" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab04e26fe4503fb08898aaeccad548f71" kindref="member">distSq</ref><sp/>=<sp/>FLT_MAX;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="group__GeneralGroup_1gacd151f3c2558f8dc870aa2172d32a00e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>VertId<sp/><ref refid="group__GeneralGroup_1gacd151f3c2558f8dc870aa2172d32a00e" kindref="member">closestVert</ref>;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="group__GeneralGroup_1gad96f5e58f9ab65b5b186ccd7d330c64d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal"><sp/>bool()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga799a4d75cde699ab800ef755c3201cf6" kindref="member">valid</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="91" refid="group__GeneralGroup_1ga799a4d75cde699ab800ef755c3201cf6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga799a4d75cde699ab800ef755c3201cf6" kindref="member">valid</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab04e26fe4503fb08898aaeccad548f71" kindref="member">distSq</ref><sp/>&lt;<sp/>FLT_MAX;<sp/>}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="93"><highlight class="normal"></highlight></codeline>
-<codeline lineno="94" refid="classMR_1_1MeshOrPoints_1a0a57020e6aaf506fbbd6c3ce60c21412" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1MeshOrPoints_1a0a57020e6aaf506fbbd6c3ce60c21412" kindref="member">LimitedProjectorFunc</ref><sp/>=<sp/>std::function&lt;bool(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>p,<sp/><ref refid="structMR_1_1MeshOrPoints_1_1ProjectionResult" kindref="compound">ProjectionResult</ref>&amp;<sp/>res<sp/>)&gt;;</highlight></codeline>
-<codeline lineno="98" refid="classMR_1_1MeshOrPoints_1adbd1b394a6735a416ceeb13ef4ac86eb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1MeshOrPoints_1a0a57020e6aaf506fbbd6c3ce60c21412" kindref="member">LimitedProjectorFunc</ref><sp/><ref refid="classMR_1_1MeshOrPoints_1adbd1b394a6735a416ceeb13ef4ac86eb" kindref="member">limitedProjector</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="99"><highlight class="normal"></highlight></codeline>
-<codeline lineno="100"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>std::variant&lt;MeshPart,<sp/>PointCloudPart&gt;<sp/>var_;</highlight></codeline>
-<codeline lineno="102"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="103"><highlight class="normal"></highlight></codeline>
-<codeline lineno="105" refid="structMR_1_1MeshOrPointsXf" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1MeshOrPointsXf" kindref="compound">MeshOrPointsXf</ref></highlight></codeline>
-<codeline lineno="106"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="107" refid="structMR_1_1MeshOrPointsXf_1a64a929bd548c696b451590ec6b2465bb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1MeshOrPoints" kindref="compound">MeshOrPoints</ref><sp/><ref refid="structMR_1_1MeshOrPointsXf_1a64a929bd548c696b451590ec6b2465bb" kindref="member">obj</ref>;</highlight></codeline>
-<codeline lineno="108" refid="structMR_1_1MeshOrPointsXf_1afea52861c699700de59ff6307740c6b7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>AffineXf3f<sp/><ref refid="structMR_1_1MeshOrPointsXf_1afea52861c699700de59ff6307740c6b7" kindref="member">xf</ref>;</highlight></codeline>
-<codeline lineno="109"><highlight class="normal"></highlight></codeline>
-<codeline lineno="111" refid="structMR_1_1MeshOrPointsXf_1a2932a85f5de8279bac268cd46556006e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::function&lt;<ref refid="structMR_1_1MeshOrPoints_1_1ProjectionResult" kindref="compound">MeshOrPoints::ProjectionResult</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>)&gt;<sp/><ref refid="structMR_1_1MeshOrPointsXf_1a2932a85f5de8279bac268cd46556006e" kindref="member">projector</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="95" refid="group__GeneralGroup_1ga0281d9d51c1ee7b1b2dbd57c5e97414c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/>std::function&lt;<ref refid="structMR_1_1MeshOrPoints_1_1ProjectionResult" kindref="compound">ProjectionResult</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>)&gt;<sp/><ref refid="group__GeneralGroup_1ga0281d9d51c1ee7b1b2dbd57c5e97414c" kindref="member">projector</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="group__GeneralGroup_1ga0a57020e6aaf506fbbd6c3ce60c21412" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga0a57020e6aaf506fbbd6c3ce60c21412" kindref="member">LimitedProjectorFunc</ref><sp/>=<sp/>std::function&lt;bool(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>p,<sp/><ref refid="structMR_1_1MeshOrPoints_1_1ProjectionResult" kindref="compound">ProjectionResult</ref>&amp;<sp/>res<sp/>)&gt;;</highlight></codeline>
+<codeline lineno="101" refid="group__GeneralGroup_1gadbd1b394a6735a416ceeb13ef4ac86eb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga0a57020e6aaf506fbbd6c3ce60c21412" kindref="member">LimitedProjectorFunc</ref><sp/><ref refid="group__GeneralGroup_1gadbd1b394a6735a416ceeb13ef4ac86eb" kindref="member">limitedProjector</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>std::variant&lt;MeshPart,<sp/>PointCloudPart&gt;<sp/>var_;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="structMR_1_1MeshOrPointsXf" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1MeshOrPointsXf" kindref="compound">MeshOrPointsXf</ref></highlight></codeline>
+<codeline lineno="109"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="110" refid="group__GeneralGroup_1ga64a929bd548c696b451590ec6b2465bb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1MeshOrPoints" kindref="compound">MeshOrPoints</ref><sp/><ref refid="group__GeneralGroup_1ga64a929bd548c696b451590ec6b2465bb" kindref="member">obj</ref>;</highlight></codeline>
+<codeline lineno="111" refid="group__GeneralGroup_1gafea52861c699700de59ff6307740c6b7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>AffineXf3f<sp/><ref refid="group__GeneralGroup_1gafea52861c699700de59ff6307740c6b7" kindref="member">xf</ref>;</highlight></codeline>
 <codeline lineno="112"><highlight class="normal"></highlight></codeline>
-<codeline lineno="115" refid="structMR_1_1MeshOrPointsXf_1afa81494e75a2ec0f3f9cf3e03a2880d0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1MeshOrPoints_1a0a57020e6aaf506fbbd6c3ce60c21412" kindref="member">MeshOrPoints::LimitedProjectorFunc</ref><sp/><ref refid="structMR_1_1MeshOrPointsXf_1afa81494e75a2ec0f3f9cf3e03a2880d0" kindref="member">limitedProjector</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="116"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="117"><highlight class="normal"></highlight></codeline>
-<codeline lineno="119" refid="namespaceMR_1a33f6251b6b8c5fe220e1516c1e30e299" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;MeshOrPoints&gt;<sp/><ref refid="namespaceMR_1a33f6251b6b8c5fe220e1516c1e30e299" kindref="member">getMeshOrPoints</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref><sp/>*<sp/>obj<sp/>);</highlight></codeline>
-<codeline lineno="120" refid="namespaceMR_1ad3d0eb81fb97a59d1246c331bb37416c" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;MeshOrPointsXf&gt;<sp/><ref refid="namespaceMR_1ad3d0eb81fb97a59d1246c331bb37416c" kindref="member">getMeshOrPointsXf</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref><sp/>*<sp/>obj<sp/>);</highlight></codeline>
-<codeline lineno="121"><highlight class="normal"></highlight></codeline>
-<codeline lineno="123" refid="namespaceMR_1a51c5c9bdf012ab12e360b5e161bb378e" refkind="member"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1a51c5c9bdf012ab12e360b5e161bb378e" kindref="member">ProjectOnAllCallback</ref><sp/>=<sp/>std::function&lt;void(<sp/>ObjId,<sp/><ref refid="structMR_1_1MeshOrPoints_1_1ProjectionResult" kindref="compound">MeshOrPoints::ProjectionResult</ref><sp/>)&gt;;</highlight></codeline>
+<codeline lineno="114" refid="group__GeneralGroup_1ga2932a85f5de8279bac268cd46556006e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/>std::function&lt;<ref refid="structMR_1_1MeshOrPoints_1_1ProjectionResult" kindref="compound">MeshOrPoints::ProjectionResult</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>)&gt;<sp/><ref refid="group__GeneralGroup_1ga2932a85f5de8279bac268cd46556006e" kindref="member">projector</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="group__GeneralGroup_1gafa81494e75a2ec0f3f9cf3e03a2880d0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga0a57020e6aaf506fbbd6c3ce60c21412" kindref="member">MeshOrPoints::LimitedProjectorFunc</ref><sp/><ref refid="group__GeneralGroup_1gafa81494e75a2ec0f3f9cf3e03a2880d0" kindref="member">limitedProjector</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="group__GeneralGroup_1ga33f6251b6b8c5fe220e1516c1e30e299" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>std::optional&lt;MeshOrPoints&gt;<sp/><ref refid="group__GeneralGroup_1ga33f6251b6b8c5fe220e1516c1e30e299" kindref="member">getMeshOrPoints</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref><sp/>*<sp/>obj<sp/>);</highlight></codeline>
+<codeline lineno="123" refid="group__GeneralGroup_1gad3d0eb81fb97a59d1246c331bb37416c" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>std::optional&lt;MeshOrPointsXf&gt;<sp/><ref refid="group__GeneralGroup_1gad3d0eb81fb97a59d1246c331bb37416c" kindref="member">getMeshOrPointsXf</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref><sp/>*<sp/>obj<sp/>);</highlight></codeline>
 <codeline lineno="124"><highlight class="normal"></highlight></codeline>
-<codeline lineno="126" refid="namespaceMR_1a04b00a5eae1214cc2a21d439db0e9c94" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a04b00a5eae1214cc2a21d439db0e9c94" kindref="member">projectOnAll</ref>(</highlight></codeline>
-<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>pt,<sp/></highlight></codeline>
-<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1AABBTreeObjects" kindref="compound">AABBTreeObjects</ref><sp/>&amp;<sp/>tree,<sp/></highlight></codeline>
-<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>upDistLimitSq,<sp/></highlight></codeline>
-<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a51c5c9bdf012ab12e360b5e161bb378e" kindref="member">ProjectOnAllCallback</ref><sp/>&amp;<sp/>callback,<sp/></highlight></codeline>
-<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>ObjId<sp/>skipObjId<sp/>=<sp/>{}<sp/>);<sp/></highlight></codeline>
-<codeline lineno="132"><highlight class="normal"></highlight></codeline>
-<codeline lineno="134" refid="namespaceMR_1a1cee1396ff421f318ed16ffb3a40bcb3" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshOrPoints_1_1ProjectionResult" kindref="compound">MeshOrPoints::ProjectionResult</ref><sp/><ref refid="namespaceMR_1a1cee1396ff421f318ed16ffb3a40bcb3" kindref="member">projectWorldPointOntoObject</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>p,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>&amp;<sp/>obj<sp/>)</highlight></codeline>
-<codeline lineno="135"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>mop<sp/>=<sp/><ref refid="namespaceMR_1ad3d0eb81fb97a59d1246c331bb37416c" kindref="member">getMeshOrPointsXf</ref>(<sp/>&amp;obj<sp/>);</highlight></codeline>
-<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>!mop<sp/>)</highlight></codeline>
-<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{};</highlight></codeline>
-<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>mop-&gt;projector()(<sp/>p<sp/>);</highlight></codeline>
-<codeline lineno="140"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="141"><highlight class="normal"></highlight></codeline>
-<codeline lineno="146" refid="namespaceMR_1a5420ee2a31ac6b94a7fdd87bd57f93c4" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1MeshOrPoints_1_1ProjectionResult" kindref="compound">MeshOrPoints::ProjectionResult</ref><sp/><ref refid="namespaceMR_1a5420ee2a31ac6b94a7fdd87bd57f93c4" kindref="member">projectWorldPointOntoObjectsRecursive</ref>(</highlight></codeline>
-<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>p,</highlight></codeline>
-<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>*<sp/>root<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,</highlight></codeline>
-<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/>std::function&lt;</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>&amp;<sp/>)&gt;<sp/>projectPred<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,</highlight></codeline>
-<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>std::function&lt;</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>&amp;<sp/>)&gt;<sp/>recursePred<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="151"><highlight class="normal">);</highlight></codeline>
-<codeline lineno="152"><highlight class="normal"></highlight></codeline>
-<codeline lineno="153" refid="classMR_1_1MeshOrPoints_1a058b67c8a42bd8837a6bbe4be06bd4cf" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart*<sp/><ref refid="classMR_1_1MeshOrPoints_1a058b67c8a42bd8837a6bbe4be06bd4cf" kindref="member">MeshOrPoints::asMeshPart</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
-<codeline lineno="154"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::visit(<sp/><ref refid="structMR_1_1overloaded" kindref="compound">overloaded</ref>{</highlight></codeline>
-<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[](<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>&amp;mp;<sp/>},</highlight></codeline>
-<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[](<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloudPart" kindref="compound">PointCloudPart</ref><sp/>&amp;<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart*)</highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
-<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/>},<sp/>var_<sp/>);</highlight></codeline>
-<codeline lineno="159"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="160"><highlight class="normal"></highlight></codeline>
-<codeline lineno="161" refid="classMR_1_1MeshOrPoints_1a309a7ce32b89e73177a05d07a93d3103" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloudPart" kindref="compound">PointCloudPart</ref>*<sp/><ref refid="classMR_1_1MeshOrPoints_1a309a7ce32b89e73177a05d07a93d3103" kindref="member">MeshOrPoints::asPointCloudPart</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
-<codeline lineno="162"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::visit(<sp/><ref refid="structMR_1_1overloaded" kindref="compound">overloaded</ref>{</highlight></codeline>
-<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[](<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloudPart" kindref="compound">PointCloudPart</ref><sp/>*)</highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;<sp/>},</highlight></codeline>
-<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[](<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloudPart" kindref="compound">PointCloudPart</ref><sp/>&amp;<sp/>pcp<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>&amp;pcp;<sp/>}</highlight></codeline>
-<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/>},<sp/>var_<sp/>);</highlight></codeline>
-<codeline lineno="167"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="168"><highlight class="normal"></highlight></codeline>
-<codeline lineno="169"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="126" refid="group__GeneralGroup_1ga51c5c9bdf012ab12e360b5e161bb378e" refkind="member"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga51c5c9bdf012ab12e360b5e161bb378e" kindref="member">ProjectOnAllCallback</ref><sp/>=<sp/>std::function&lt;void(<sp/>ObjId,<sp/><ref refid="structMR_1_1MeshOrPoints_1_1ProjectionResult" kindref="compound">MeshOrPoints::ProjectionResult</ref><sp/>)&gt;;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129" refid="group__GeneralGroup_1ga04b00a5eae1214cc2a21d439db0e9c94" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga04b00a5eae1214cc2a21d439db0e9c94" kindref="member">projectOnAll</ref>(</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>pt,<sp/></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1AABBTreeObjects" kindref="compound">AABBTreeObjects</ref><sp/>&amp;<sp/>tree,<sp/></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>upDistLimitSq,<sp/></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga51c5c9bdf012ab12e360b5e161bb378e" kindref="member">ProjectOnAllCallback</ref><sp/>&amp;<sp/>callback,<sp/></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>ObjId<sp/>skipObjId<sp/>=<sp/>{}<sp/>);<sp/></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="group__GeneralGroup_1ga1cee1396ff421f318ed16ffb3a40bcb3" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshOrPoints_1_1ProjectionResult" kindref="compound">MeshOrPoints::ProjectionResult</ref><sp/><ref refid="group__GeneralGroup_1ga1cee1396ff421f318ed16ffb3a40bcb3" kindref="member">projectWorldPointOntoObject</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>p,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>&amp;<sp/>obj<sp/>)</highlight></codeline>
+<codeline lineno="138"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>mop<sp/>=<sp/><ref refid="group__GeneralGroup_1gad3d0eb81fb97a59d1246c331bb37416c" kindref="member">getMeshOrPointsXf</ref>(<sp/>&amp;obj<sp/>);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>!mop<sp/>)</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{};</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>mop-&gt;projector()(<sp/>p<sp/>);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149" refid="group__GeneralGroup_1ga5420ee2a31ac6b94a7fdd87bd57f93c4" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="structMR_1_1MeshOrPoints_1_1ProjectionResult" kindref="compound">MeshOrPoints::ProjectionResult</ref><sp/><ref refid="group__GeneralGroup_1ga5420ee2a31ac6b94a7fdd87bd57f93c4" kindref="member">projectWorldPointOntoObjectsRecursive</ref>(</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>p,</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>*<sp/>root<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>std::function&lt;</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>&amp;<sp/>)&gt;<sp/>projectPred<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/>std::function&lt;</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>&amp;<sp/>)&gt;<sp/>recursePred<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal">);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156" refid="group__GeneralGroup_1ga058b67c8a42bd8837a6bbe4be06bd4cf" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart*<sp/><ref refid="group__GeneralGroup_1ga058b67c8a42bd8837a6bbe4be06bd4cf" kindref="member">MeshOrPoints::asMeshPart</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="157"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::visit(<sp/>overloaded{</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[](<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>&amp;mp;<sp/>},</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[](<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloudPart" kindref="compound">PointCloudPart</ref><sp/>&amp;<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart*)</highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/>},<sp/>var_<sp/>);</highlight></codeline>
+<codeline lineno="162"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164" refid="group__GeneralGroup_1ga309a7ce32b89e73177a05d07a93d3103" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloudPart" kindref="compound">PointCloudPart</ref>*<sp/><ref refid="group__GeneralGroup_1ga309a7ce32b89e73177a05d07a93d3103" kindref="member">MeshOrPoints::asPointCloudPart</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="165"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::visit(<sp/>overloaded{</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[](<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloudPart" kindref="compound">PointCloudPart</ref><sp/>*)</highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;<sp/>},</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[](<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloudPart" kindref="compound">PointCloudPart</ref><sp/>&amp;<sp/>pcp<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>&amp;pcp;<sp/>}</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/>},<sp/>var_<sp/>);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal">}<sp/></highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h"/>
   </compounddef>

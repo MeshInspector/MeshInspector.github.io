@@ -9,35 +9,29 @@
     <includes local="no">variant</includes>
     <includedby refid="MRContoursCut_8h" local="yes">MRContoursCut.h</includedby>
     <incdepgraph>
-      <node id="10">
-        <label>MRMesh/MRCanonicalTypedefs.h</label>
-        <link refid="MRCanonicalTypedefs_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-      </node>
-      <node id="18">
+      <node id="9">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
-      <node id="31">
+      <node id="27">
         <label>MREnums.h</label>
         <link refid="MREnums_8h"/>
         <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="29">
+      <node id="24">
         <label>MRExpected.h</label>
         <link refid="MRExpected_8h"/>
         <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="30" relation="include">
+        <childnode refid="25" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="26" relation="include">
         </childnode>
       </node>
-      <node id="24">
+      <node id="16">
         <label>MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="8" relation="include">
@@ -50,56 +44,34 @@
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="23" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
       </node>
-      <node id="26">
+      <node id="20">
         <label>MRIntersectionContour.h</label>
         <link refid="MRIntersectionContour_8h"/>
-        <childnode refid="27" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
       </node>
       <node id="4">
         <label>MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
-      <node id="27">
+      <node id="21">
         <label>MRMeshCollidePrecise.h</label>
         <link refid="MRMeshCollidePrecise_8h"/>
-        <childnode refid="24" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="28" relation="include">
+        <childnode refid="22" relation="include">
         </childnode>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
       </node>
-      <node id="8">
-        <label>MRMeshFwd.h</label>
-        <link refid="MRMeshFwd_8h"/>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
-      </node>
-      <node id="28">
+      <node id="22">
         <label>MRMeshPart.h</label>
         <link refid="MRMeshPart_8h"/>
         <childnode refid="8" relation="include">
@@ -110,13 +82,13 @@
         <link refid="MROneMeshContours_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="26" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
-        <childnode refid="29" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
-        <childnode refid="31" relation="include">
+        <childnode refid="27" relation="include">
         </childnode>
-        <childnode refid="32" relation="include">
+        <childnode refid="28" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -124,11 +96,11 @@
         <link refid="MRPrecisePredicates3_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="24" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
-        <childnode refid="25" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
       </node>
       <node id="5">
@@ -148,75 +120,68 @@
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
-        <childnode refid="23" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
       </node>
-      <node id="9">
-        <label>config.h</label>
-        <link refid="MRMesh_2config_8h"/>
+      <node id="8">
+        <label>MRMeshFwd.h</label>
       </node>
-      <node id="11">
+      <node id="10">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="30">
+      <node id="25">
         <label>MRPch/MRExpected.h</label>
       </node>
-      <node id="19">
+      <node id="11">
         <label>algorithm</label>
       </node>
-      <node id="12">
+      <node id="18">
         <label>array</label>
       </node>
       <node id="17">
         <label>cassert</label>
       </node>
-      <node id="20">
+      <node id="12">
         <label>cmath</label>
       </node>
       <node id="6">
         <label>cstddef</label>
       </node>
-      <node id="21">
+      <node id="13">
         <label>cstring</label>
       </node>
-      <node id="16">
+      <node id="23">
         <label>functional</label>
       </node>
-      <node id="22">
+      <node id="14">
         <label>iosfwd</label>
       </node>
-      <node id="25">
+      <node id="19">
         <label>optional</label>
       </node>
-      <node id="15">
-        <label>parallel_hashmap/phmap_fwd_decl.h</label>
-      </node>
-      <node id="14">
+      <node id="26">
         <label>string</label>
       </node>
       <node id="7">
         <label>type_traits</label>
       </node>
-      <node id="23">
+      <node id="15">
         <label>utility</label>
       </node>
-      <node id="32">
+      <node id="28">
         <label>variant</label>
-      </node>
-      <node id="13">
-        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
@@ -257,75 +222,76 @@
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="10"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="structMR_1_1SortIntersectionsData" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1SortIntersectionsData" kindref="compound">SortIntersectionsData</ref></highlight></codeline>
-<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="15" refid="structMR_1_1SortIntersectionsData_1ac190f44f37a1e2b9ece5d869fe02015d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/><ref refid="structMR_1_1SortIntersectionsData_1ac190f44f37a1e2b9ece5d869fe02015d" kindref="member">otherMesh</ref>;</highlight></codeline>
-<codeline lineno="16" refid="structMR_1_1SortIntersectionsData_1a3e022423fc25738632598f90c2caf5b1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a9f26ad2470dbd62255be7fc1cab2b503" kindref="member">ContinuousContours</ref>&amp;<sp/><ref refid="structMR_1_1SortIntersectionsData_1a3e022423fc25738632598f90c2caf5b1" kindref="member">contours</ref>;</highlight></codeline>
-<codeline lineno="17" refid="structMR_1_1SortIntersectionsData_1a4799d62c8691f94b44fc3c7f3a77bbe4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1ab81d3ad87ff9cd57deee77336ddf83e1" kindref="member">ConvertToIntVector</ref><sp/><ref refid="structMR_1_1SortIntersectionsData_1a4799d62c8691f94b44fc3c7f3a77bbe4" kindref="member">converter</ref>;</highlight></codeline>
-<codeline lineno="18" refid="structMR_1_1SortIntersectionsData_1a24cce95182673d88059c5d9a38905fc0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f*<sp/><ref refid="structMR_1_1SortIntersectionsData_1a24cce95182673d88059c5d9a38905fc0" kindref="member">rigidB2A</ref>{</highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">};</highlight></codeline>
-<codeline lineno="19" refid="structMR_1_1SortIntersectionsData_1a4ffc178d247321fb6150846084fd616a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SortIntersectionsData_1a4ffc178d247321fb6150846084fd616a" kindref="member">meshAVertsNum</ref>;</highlight></codeline>
-<codeline lineno="20" refid="structMR_1_1SortIntersectionsData_1a64cd77d679e163bbff985d79336ae2c4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SortIntersectionsData_1a64cd77d679e163bbff985d79336ae2c4" kindref="member">isOtherA</ref>{</highlight><highlight class="keyword">false</highlight><highlight class="normal">};</highlight></codeline>
-<codeline lineno="21"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="structMR_1_1OneMeshIntersection" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1OneMeshIntersection" kindref="compound">OneMeshIntersection</ref></highlight></codeline>
-<codeline lineno="25"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="26" refid="structMR_1_1OneMeshIntersection_1ab42f0bd750d88e66c17bce92a1fe733d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::variant&lt;FaceId,<sp/>EdgeId,<sp/>VertId&gt;<sp/><ref refid="structMR_1_1OneMeshIntersection_1ab42f0bd750d88e66c17bce92a1fe733d" kindref="member">primitiveId</ref>;</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28" refid="structMR_1_1OneMeshIntersection_1ab8b3439c1559deb1b278b9d5c8c2c14d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="structMR_1_1OneMeshIntersection_1ab8b3439c1559deb1b278b9d5c8c2c14d" kindref="member">coordinate</ref>;</highlight></codeline>
-<codeline lineno="29"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="structMR_1_1SortIntersectionsData" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1SortIntersectionsData" kindref="compound">SortIntersectionsData</ref></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18" refid="group__GeneralGroup_1gac190f44f37a1e2b9ece5d869fe02015d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gac190f44f37a1e2b9ece5d869fe02015d" kindref="member">otherMesh</ref>;</highlight></codeline>
+<codeline lineno="19" refid="group__GeneralGroup_1ga3e022423fc25738632598f90c2caf5b1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9f26ad2470dbd62255be7fc1cab2b503" kindref="member">ContinuousContours</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga3e022423fc25738632598f90c2caf5b1" kindref="member">contours</ref>;</highlight></codeline>
+<codeline lineno="20" refid="group__GeneralGroup_1ga4799d62c8691f94b44fc3c7f3a77bbe4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gab81d3ad87ff9cd57deee77336ddf83e1" kindref="member">ConvertToIntVector</ref><sp/><ref refid="group__GeneralGroup_1ga4799d62c8691f94b44fc3c7f3a77bbe4" kindref="member">converter</ref>;</highlight></codeline>
+<codeline lineno="21" refid="group__GeneralGroup_1ga24cce95182673d88059c5d9a38905fc0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f*<sp/><ref refid="group__GeneralGroup_1ga24cce95182673d88059c5d9a38905fc0" kindref="member">rigidB2A</ref>{</highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">};</highlight></codeline>
+<codeline lineno="22" refid="group__GeneralGroup_1ga4ffc178d247321fb6150846084fd616a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4ffc178d247321fb6150846084fd616a" kindref="member">meshAVertsNum</ref>;</highlight></codeline>
+<codeline lineno="23" refid="group__GeneralGroup_1ga64cd77d679e163bbff985d79336ae2c4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga64cd77d679e163bbff985d79336ae2c4" kindref="member">isOtherA</ref>{</highlight><highlight class="keyword">false</highlight><highlight class="normal">};</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="structMR_1_1OneMeshIntersection" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1OneMeshIntersection" kindref="compound">OneMeshIntersection</ref></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29" refid="group__GeneralGroup_1gab42f0bd750d88e66c17bce92a1fe733d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::variant&lt;FaceId,<sp/>EdgeId,<sp/>VertId&gt;<sp/><ref refid="group__GeneralGroup_1gab42f0bd750d88e66c17bce92a1fe733d" kindref="member">primitiveId</ref>;</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32" refid="structMR_1_1OneMeshContour" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1OneMeshContour" kindref="compound">OneMeshContour</ref></highlight></codeline>
-<codeline lineno="33"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="34" refid="structMR_1_1OneMeshContour_1a6e1a28642564323f19cdf9f04319d5ef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;OneMeshIntersection&gt;<sp/><ref refid="structMR_1_1OneMeshContour_1a6e1a28642564323f19cdf9f04319d5ef" kindref="member">intersections</ref>;</highlight></codeline>
-<codeline lineno="35" refid="structMR_1_1OneMeshContour_1ae2a61041d982700ef3d887aedc03a320" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1OneMeshContour_1ae2a61041d982700ef3d887aedc03a320" kindref="member">closed</ref>{</highlight><highlight class="keyword">false</highlight><highlight class="normal">};</highlight></codeline>
-<codeline lineno="36"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__BooleanGroup_1ga9ecf19b8a704c505e8026abe7e64e38a" kindref="member">OneMeshContours</ref><sp/>=<sp/>std::vector&lt;OneMeshContour&gt;;</highlight></codeline>
-<codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48" refid="namespaceMR_1a4123fa411b7305bb9172a398b8cc3c51" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a4123fa411b7305bb9172a398b8cc3c51" kindref="member">subdivideLoneContours</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BooleanGroup_1ga9ecf19b8a704c505e8026abe7e64e38a" kindref="member">OneMeshContours</ref>&amp;<sp/>contours,<sp/><ref refid="namespaceMR_1a93482f559c684be16c718d5acd291d3e" kindref="member">FaceHashMap</ref>*<sp/>new2oldMap<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
-<codeline lineno="49"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54" refid="namespaceMR_1ae38923b09ce82880669f4d008f0ee4d2" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1ae38923b09ce82880669f4d008f0ee4d2" kindref="member">getOneMeshIntersectionContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>meshA,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>meshB,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a9f26ad2470dbd62255be7fc1cab2b503" kindref="member">ContinuousContours</ref>&amp;<sp/>contours,</highlight></codeline>
-<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BooleanGroup_1ga9ecf19b8a704c505e8026abe7e64e38a" kindref="member">OneMeshContours</ref>*<sp/>outA,<sp/><ref refid="group__BooleanGroup_1ga9ecf19b8a704c505e8026abe7e64e38a" kindref="member">OneMeshContours</ref>*<sp/>outB,</highlight></codeline>
-<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1CoordinateConverters" kindref="compound">CoordinateConverters</ref>&amp;<sp/>converters,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f*<sp/>rigidB2A<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,</highlight></codeline>
-<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a4c444df98a6ef4e28be3eaab462d38a1" kindref="member">Contours3f</ref>*<sp/>outPtsA<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,</highlight></codeline>
-<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>addSelfyTerminalVerts<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>);<sp/></highlight></codeline>
-<codeline lineno="59"><highlight class="normal"></highlight></codeline>
-<codeline lineno="62"><highlight class="normal">[[nodiscard]]</highlight></codeline>
-<codeline lineno="63" refid="namespaceMR_1ae875a7151ea2bd715ce90d183884bb1b" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__BooleanGroup_1ga9ecf19b8a704c505e8026abe7e64e38a" kindref="member">OneMeshContours</ref><sp/><ref refid="namespaceMR_1ae875a7151ea2bd715ce90d183884bb1b" kindref="member">getOneMeshSelfIntersectionContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a9f26ad2470dbd62255be7fc1cab2b503" kindref="member">ContinuousContours</ref>&amp;<sp/>contours,</highlight></codeline>
-<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1CoordinateConverters" kindref="compound">CoordinateConverters</ref>&amp;<sp/>converters,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f*<sp/>rigidB2A<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
-<codeline lineno="65"><highlight class="normal"></highlight></codeline>
-<codeline lineno="67"><highlight class="normal">[[nodiscard]]</highlight></codeline>
-<codeline lineno="68" refid="namespaceMR_1a4484992ff522ddc03cd8234b7b7be226" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="namespaceMR_1a4c444df98a6ef4e28be3eaab462d38a1" kindref="member">Contours3f</ref><sp/><ref refid="namespaceMR_1a4484992ff522ddc03cd8234b7b7be226" kindref="member">extractMeshContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BooleanGroup_1ga9ecf19b8a704c505e8026abe7e64e38a" kindref="member">OneMeshContours</ref>&amp;<sp/>meshContours<sp/>);</highlight></codeline>
-<codeline lineno="69"><highlight class="normal"></highlight></codeline>
-<codeline lineno="70" refid="namespaceMR_1a217b7a3f4fc9168e09f3d423beb790e5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1a217b7a3f4fc9168e09f3d423beb790e5" kindref="member">MeshTriPointsConnector</ref><sp/>=<sp/>std::function&lt;Expected&lt;SurfacePath&gt;(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref>&amp;<sp/>start,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref>&amp;<sp/><ref refid="group__BasicGroup_1gaa162c3dc2622716a0b52d777abfe137a" kindref="member">end</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>startIndex,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>endIndex<sp/>)&gt;;</highlight></codeline>
-<codeline lineno="78"><highlight class="normal">[[nodiscard]]</highlight></codeline>
-<codeline lineno="79" refid="group__BooleanGroup_1ga33e04ff2f620e99f7bcd23080433c39f" refkind="member"><highlight class="normal"><ref refid="namespaceMR_1ac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;OneMeshContour&gt;</ref><sp/><ref refid="group__BooleanGroup_1ga33e04ff2f620e99f7bcd23080433c39f" kindref="member">convertMeshTriPointsToMeshContour</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;MeshTriPoint&gt;&amp;<sp/>surfaceLine,</highlight></codeline>
-<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a217b7a3f4fc9168e09f3d423beb790e5" kindref="member">MeshTriPointsConnector</ref><sp/>connectorFn,<sp/>std::vector&lt;int&gt;*<sp/>pivotIndices<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
-<codeline lineno="81"><highlight class="normal"></highlight></codeline>
-<codeline lineno="83" refid="structMR_1_1SearchPathSettings" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1SearchPathSettings" kindref="compound">SearchPathSettings</ref></highlight></codeline>
-<codeline lineno="84"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="85" refid="structMR_1_1SearchPathSettings_1a73e36cb0460a39c6bf496d2038aced39" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a0d52c069a53aab9d22c0f2c4e3f262a2" kindref="member">GeodesicPathApprox</ref><sp/><ref refid="structMR_1_1SearchPathSettings_1a73e36cb0460a39c6bf496d2038aced39" kindref="member">geodesicPathApprox</ref>{<sp/><ref refid="namespaceMR_1a0d52c069a53aab9d22c0f2c4e3f262a2aa9132a8a9b3c0d8c70e577b23e01e70d" kindref="member">GeodesicPathApprox::DijkstraAStar</ref><sp/>};<sp/></highlight></codeline>
-<codeline lineno="86" refid="structMR_1_1SearchPathSettings_1aa176e79c6812cb52b0c1dabdaa2e61c3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SearchPathSettings_1aa176e79c6812cb52b0c1dabdaa2e61c3" kindref="member">maxReduceIters</ref>{<sp/>100<sp/>};<sp/></highlight></codeline>
-<codeline lineno="87"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="88"><highlight class="normal"></highlight></codeline>
-<codeline lineno="96"><highlight class="normal">[[nodiscard]]</highlight></codeline>
-<codeline lineno="97" refid="group__BooleanGroup_1ga883d13829f7b1336863883d48777b302" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;OneMeshContour&gt;</ref><sp/><ref refid="group__BooleanGroup_1ga33e04ff2f620e99f7bcd23080433c39f" kindref="member">convertMeshTriPointsToMeshContour</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;MeshTriPoint&gt;&amp;<sp/>surfaceLine,</highlight></codeline>
-<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1SearchPathSettings" kindref="compound">SearchPathSettings</ref><sp/>searchSettings<sp/>=<sp/>{},<sp/>std::vector&lt;int&gt;*<sp/>pivotIndices<sp/>=<sp/>nullptr<sp/>);</highlight></codeline>
-<codeline lineno="99"><highlight class="normal"></highlight></codeline>
-<codeline lineno="107"><highlight class="normal">[[nodiscard]]</highlight></codeline>
-<codeline lineno="108" refid="group__BooleanGroup_1ga698235aeb90b1a947f95fa76eeb78ff3" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;OneMeshContour&gt;</ref><sp/><ref refid="group__BooleanGroup_1ga698235aeb90b1a947f95fa76eeb78ff3" kindref="member">convertMeshTriPointsToClosedContour</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;MeshTriPoint&gt;&amp;<sp/>surfaceLine,</highlight></codeline>
-<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1SearchPathSettings" kindref="compound">SearchPathSettings</ref><sp/>searchSettings<sp/>=<sp/>{},<sp/>std::vector&lt;int&gt;*<sp/>pivotIndices<sp/>=<sp/>nullptr<sp/>);</highlight></codeline>
-<codeline lineno="110"><highlight class="normal"></highlight></codeline>
-<codeline lineno="129"><highlight class="normal">[[nodiscard]]</highlight></codeline>
-<codeline lineno="130" refid="group__BooleanGroup_1ga4415eacd7a732188919def7411ee0245" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1OneMeshContour" kindref="compound">OneMeshContour</ref><sp/><ref refid="group__BooleanGroup_1ga4415eacd7a732188919def7411ee0245" kindref="member">convertSurfacePathWithEndsToMeshContour</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight></codeline>
-<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref>&amp;<sp/>start,<sp/></highlight></codeline>
-<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a7798ef4dfda44362083b0aa66a45d6a3" kindref="member">SurfacePath</ref>&amp;<sp/>surfacePath,<sp/></highlight></codeline>
-<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref>&amp;<sp/><ref refid="group__BasicGroup_1gaa162c3dc2622716a0b52d777abfe137a" kindref="member">end</ref><sp/>);</highlight></codeline>
-<codeline lineno="134"><highlight class="normal"></highlight></codeline>
-<codeline lineno="140"><highlight class="normal">[[nodiscard]]</highlight></codeline>
-<codeline lineno="141" refid="group__BooleanGroup_1ga9d5cd0e3c54003e08c1884a7895b3e74" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__BooleanGroup_1ga9ecf19b8a704c505e8026abe7e64e38a" kindref="member">OneMeshContours</ref><sp/><ref refid="group__BooleanGroup_1ga9d5cd0e3c54003e08c1884a7895b3e74" kindref="member">convertSurfacePathsToMeshContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;SurfacePath&gt;&amp;<sp/>surfacePaths<sp/>);</highlight></codeline>
-<codeline lineno="142"><highlight class="normal"></highlight></codeline>
-<codeline lineno="143"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="31" refid="group__GeneralGroup_1gab8b3439c1559deb1b278b9d5c8c2c14d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1gab8b3439c1559deb1b278b9d5c8c2c14d" kindref="member">coordinate</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="structMR_1_1OneMeshContour" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1OneMeshContour" kindref="compound">OneMeshContour</ref></highlight></codeline>
+<codeline lineno="36"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="37" refid="group__GeneralGroup_1ga6e1a28642564323f19cdf9f04319d5ef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;OneMeshIntersection&gt;<sp/><ref refid="group__GeneralGroup_1ga6e1a28642564323f19cdf9f04319d5ef" kindref="member">intersections</ref>;</highlight></codeline>
+<codeline lineno="38" refid="group__GeneralGroup_1gae2a61041d982700ef3d887aedc03a320" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae2a61041d982700ef3d887aedc03a320" kindref="member">closed</ref>{</highlight><highlight class="keyword">false</highlight><highlight class="normal">};</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__BooleanGroup_1ga9ecf19b8a704c505e8026abe7e64e38a" kindref="member">OneMeshContours</ref><sp/>=<sp/>std::vector&lt;OneMeshContour&gt;;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="group__GeneralGroup_1ga4123fa411b7305bb9172a398b8cc3c51" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4123fa411b7305bb9172a398b8cc3c51" kindref="member">subdivideLoneContours</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BooleanGroup_1ga9ecf19b8a704c505e8026abe7e64e38a" kindref="member">OneMeshContours</ref>&amp;<sp/>contours,<sp/>FaceHashMap*<sp/>new2oldMap<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="group__GeneralGroup_1gae38923b09ce82880669f4d008f0ee4d2" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae38923b09ce82880669f4d008f0ee4d2" kindref="member">getOneMeshIntersectionContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>meshA,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>meshB,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9f26ad2470dbd62255be7fc1cab2b503" kindref="member">ContinuousContours</ref>&amp;<sp/>contours,</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BooleanGroup_1ga9ecf19b8a704c505e8026abe7e64e38a" kindref="member">OneMeshContours</ref>*<sp/>outA,<sp/><ref refid="group__BooleanGroup_1ga9ecf19b8a704c505e8026abe7e64e38a" kindref="member">OneMeshContours</ref>*<sp/>outB,</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1CoordinateConverters" kindref="compound">CoordinateConverters</ref>&amp;<sp/>converters,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f*<sp/>rigidB2A<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>Contours3f*<sp/>outPtsA<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>addSelfyTerminalVerts<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>);<sp/></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal">[[nodiscard]]</highlight></codeline>
+<codeline lineno="66" refid="group__GeneralGroup_1gae875a7151ea2bd715ce90d183884bb1b" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__BooleanGroup_1ga9ecf19b8a704c505e8026abe7e64e38a" kindref="member">OneMeshContours</ref><sp/><ref refid="group__GeneralGroup_1gae875a7151ea2bd715ce90d183884bb1b" kindref="member">getOneMeshSelfIntersectionContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9f26ad2470dbd62255be7fc1cab2b503" kindref="member">ContinuousContours</ref>&amp;<sp/>contours,</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1CoordinateConverters" kindref="compound">CoordinateConverters</ref>&amp;<sp/>converters,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f*<sp/>rigidB2A<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal">[[nodiscard]]</highlight></codeline>
+<codeline lineno="71" refid="group__GeneralGroup_1ga4484992ff522ddc03cd8234b7b7be226" refkind="member"><highlight class="normal">MRMESH_API<sp/>Contours3f<sp/><ref refid="group__GeneralGroup_1ga4484992ff522ddc03cd8234b7b7be226" kindref="member">extractMeshContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BooleanGroup_1ga9ecf19b8a704c505e8026abe7e64e38a" kindref="member">OneMeshContours</ref>&amp;<sp/>meshContours<sp/>);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="group__GeneralGroup_1ga217b7a3f4fc9168e09f3d423beb790e5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga217b7a3f4fc9168e09f3d423beb790e5" kindref="member">MeshTriPointsConnector</ref><sp/>=<sp/>std::function&lt;Expected&lt;SurfacePath&gt;(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref>&amp;<sp/>start,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref>&amp;<sp/><ref refid="group__BasicGroup_1gaa162c3dc2622716a0b52d777abfe137a" kindref="member">end</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>startIndex,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>endIndex<sp/>)&gt;;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal">[[nodiscard]]</highlight></codeline>
+<codeline lineno="82" refid="group__BooleanGroup_1ga33e04ff2f620e99f7bcd23080433c39f" refkind="member"><highlight class="normal"><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;OneMeshContour&gt;</ref><sp/><ref refid="group__BooleanGroup_1ga33e04ff2f620e99f7bcd23080433c39f" kindref="member">convertMeshTriPointsToMeshContour</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;MeshTriPoint&gt;&amp;<sp/>surfaceLine,</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga217b7a3f4fc9168e09f3d423beb790e5" kindref="member">MeshTriPointsConnector</ref><sp/>connectorFn,<sp/>std::vector&lt;int&gt;*<sp/>pivotIndices<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="structMR_1_1SearchPathSettings" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1SearchPathSettings" kindref="compound">SearchPathSettings</ref></highlight></codeline>
+<codeline lineno="87"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="88" refid="group__GeneralGroup_1ga73e36cb0460a39c6bf496d2038aced39" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga0d52c069a53aab9d22c0f2c4e3f262a2" kindref="member">GeodesicPathApprox</ref><sp/><ref refid="group__GeneralGroup_1ga73e36cb0460a39c6bf496d2038aced39" kindref="member">geodesicPathApprox</ref>{<sp/><ref refid="group__GeneralGroup_1gga0d52c069a53aab9d22c0f2c4e3f262a2aa9132a8a9b3c0d8c70e577b23e01e70d" kindref="member">GeodesicPathApprox::DijkstraAStar</ref><sp/>};<sp/></highlight></codeline>
+<codeline lineno="89" refid="group__GeneralGroup_1gaa176e79c6812cb52b0c1dabdaa2e61c3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa176e79c6812cb52b0c1dabdaa2e61c3" kindref="member">maxReduceIters</ref>{<sp/>100<sp/>};<sp/></highlight></codeline>
+<codeline lineno="90"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal">[[nodiscard]]</highlight></codeline>
+<codeline lineno="100" refid="group__BooleanGroup_1ga883d13829f7b1336863883d48777b302" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;OneMeshContour&gt;</ref><sp/><ref refid="group__BooleanGroup_1ga33e04ff2f620e99f7bcd23080433c39f" kindref="member">convertMeshTriPointsToMeshContour</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;MeshTriPoint&gt;&amp;<sp/>surfaceLine,</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1SearchPathSettings" kindref="compound">SearchPathSettings</ref><sp/>searchSettings<sp/>=<sp/>{},<sp/>std::vector&lt;int&gt;*<sp/>pivotIndices<sp/>=<sp/>nullptr<sp/>);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal">[[nodiscard]]</highlight></codeline>
+<codeline lineno="111" refid="group__BooleanGroup_1ga698235aeb90b1a947f95fa76eeb78ff3" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;OneMeshContour&gt;</ref><sp/><ref refid="group__BooleanGroup_1ga698235aeb90b1a947f95fa76eeb78ff3" kindref="member">convertMeshTriPointsToClosedContour</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;MeshTriPoint&gt;&amp;<sp/>surfaceLine,</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1SearchPathSettings" kindref="compound">SearchPathSettings</ref><sp/>searchSettings<sp/>=<sp/>{},<sp/>std::vector&lt;int&gt;*<sp/>pivotIndices<sp/>=<sp/>nullptr<sp/>);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal">[[nodiscard]]</highlight></codeline>
+<codeline lineno="133" refid="group__BooleanGroup_1ga4415eacd7a732188919def7411ee0245" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="structMR_1_1OneMeshContour" kindref="compound">OneMeshContour</ref><sp/><ref refid="group__BooleanGroup_1ga4415eacd7a732188919def7411ee0245" kindref="member">convertSurfacePathWithEndsToMeshContour</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref>&amp;<sp/>start,<sp/></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>SurfacePath&amp;<sp/>surfacePath,<sp/></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref>&amp;<sp/><ref refid="group__BasicGroup_1gaa162c3dc2622716a0b52d777abfe137a" kindref="member">end</ref><sp/>);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal">[[nodiscard]]</highlight></codeline>
+<codeline lineno="144" refid="group__BooleanGroup_1ga9d5cd0e3c54003e08c1884a7895b3e74" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__BooleanGroup_1ga9ecf19b8a704c505e8026abe7e64e38a" kindref="member">OneMeshContours</ref><sp/><ref refid="group__BooleanGroup_1ga9d5cd0e3c54003e08c1884a7895b3e74" kindref="member">convertSurfacePathsToMeshContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;SurfacePath&gt;&amp;<sp/>surfacePaths<sp/>);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal">}<sp/></highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h"/>
   </compounddef>

@@ -9,254 +9,44 @@
       </param>
     </templateparamlist>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1FewSmallest_1a65191d66066502989ee1787f9917413b" prot="private" static="no" mutable="no">
-        <type>std::vector&lt; T &gt;</type>
-        <definition>std::vector&lt;T&gt; MR::FewSmallest&lt; T &gt;::heap_</definition>
-        <argsstring></argsstring>
-        <name>heap_</name>
-        <qualifiedname>MR::FewSmallest::heap_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFewSmallest.h" line="52" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFewSmallest.h" bodystart="52" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1FewSmallest_1ae76874766316a23627aa9a5804fbc19c" prot="private" static="no" mutable="no">
-        <type>size_t</type>
-        <definition>size_t MR::FewSmallest&lt; T &gt;::maxElms_</definition>
-        <argsstring></argsstring>
-        <name>maxElms_</name>
-        <qualifiedname>MR::FewSmallest::maxElms_</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFewSmallest.h" line="53" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFewSmallest.h" bodystart="53" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga65191d66066502989ee1787f9917413b" kind="variable"><name>heap_</name></member>
+      <member refid="group__GeneralGroup_1gae76874766316a23627aa9a5804fbc19c" kind="variable"><name>maxElms_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1FewSmallest_1afe398061489451b6194321a60829929f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::FewSmallest&lt; T &gt;::FewSmallest</definition>
-        <argsstring>()</argsstring>
-        <name>FewSmallest</name>
-        <qualifiedname>MR::FewSmallest::FewSmallest</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFewSmallest.h" line="16" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFewSmallest.h" bodystart="16" bodyend="16"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1FewSmallest_1a10dd64ad23fa331c4f425f5d5400e9ac" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::FewSmallest&lt; T &gt;::FewSmallest</definition>
-        <argsstring>(size_t maxElms)</argsstring>
-        <name>FewSmallest</name>
-        <qualifiedname>MR::FewSmallest::FewSmallest</qualifiedname>
-        <param>
-          <type>size_t</type>
-          <declname>maxElms</declname>
-        </param>
-        <briefdescription>
-<para>configure the object to store at most given number of elements </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFewSmallest.h" line="19" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFewSmallest.h" bodystart="19" bodyend="19"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1FewSmallest_1a137b1fa934a6f5746491768b2b3aab36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::FewSmallest&lt; T &gt;::reset</definition>
-        <argsstring>(size_t maxElms)</argsstring>
-        <name>reset</name>
-        <qualifiedname>MR::FewSmallest::reset</qualifiedname>
-        <param>
-          <type>size_t</type>
-          <declname>maxElms</declname>
-        </param>
-        <briefdescription>
-<para>clears the content and reconfigure the object to store at most given number of elements </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFewSmallest.h" line="22" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFewSmallest.h" bodystart="57" bodyend="62"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1FewSmallest_1a9f76f3baaed046ba4f1047a35cd61248" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>size_t</type>
-        <definition>size_t MR::FewSmallest&lt; T &gt;::maxElms</definition>
-        <argsstring>() const</argsstring>
-        <name>maxElms</name>
-        <qualifiedname>MR::FewSmallest::maxElms</qualifiedname>
-        <briefdescription>
-<para>returns the maximum number of elements to be stored here </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFewSmallest.h" line="25" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFewSmallest.h" bodystart="25" bodyend="25"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1FewSmallest_1a5c8ddf759620fd8b0d272d4695422839" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::FewSmallest&lt; T &gt;::empty</definition>
-        <argsstring>() const</argsstring>
-        <name>empty</name>
-        <qualifiedname>MR::FewSmallest::empty</qualifiedname>
-        <briefdescription>
-<para>returns whether the container is currently empty </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFewSmallest.h" line="28" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFewSmallest.h" bodystart="28" bodyend="28"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1FewSmallest_1aa7fcea11aded20f38afd49e536c21323" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>size_t</type>
-        <definition>size_t MR::FewSmallest&lt; T &gt;::size</definition>
-        <argsstring>() const</argsstring>
-        <name>size</name>
-        <qualifiedname>MR::FewSmallest::size</qualifiedname>
-        <briefdescription>
-<para>returns current number of stored element </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFewSmallest.h" line="31" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFewSmallest.h" bodystart="31" bodyend="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1FewSmallest_1ab40f0a7ddc11738ea49b1f4557c60670" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::FewSmallest&lt; T &gt;::full</definition>
-        <argsstring>() const</argsstring>
-        <name>full</name>
-        <qualifiedname>MR::FewSmallest::full</qualifiedname>
-        <briefdescription>
-<para>returns whether we have already maximum number of elements stored </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFewSmallest.h" line="34" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFewSmallest.h" bodystart="34" bodyend="34"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1FewSmallest_1a603a7ae71b566cde606c3d226c1d2c54" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const std::vector&lt; T &gt; &amp;</type>
-        <definition>const std::vector&lt; T &gt; &amp; MR::FewSmallest&lt; T &gt;::get</definition>
-        <argsstring>() const</argsstring>
-        <name>get</name>
-        <qualifiedname>MR::FewSmallest::get</qualifiedname>
-        <briefdescription>
-<para>returns the smallest elements found so far </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFewSmallest.h" line="37" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFewSmallest.h" bodystart="37" bodyend="37"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1FewSmallest_1a12a0523ff86e2ccc8757592895374893" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const T &amp;</type>
-        <definition>const T &amp; MR::FewSmallest&lt; T &gt;::top</definition>
-        <argsstring>() const</argsstring>
-        <name>top</name>
-        <qualifiedname>MR::FewSmallest::top</qualifiedname>
-        <briefdescription>
-<para>returns the largest among stored smallest elements </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFewSmallest.h" line="40" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFewSmallest.h" bodystart="40" bodyend="40"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1FewSmallest_1a18d6d371df964d476e3dc691241375a6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const T &amp;</type>
-        <definition>const T &amp; MR::FewSmallest&lt; T &gt;::topOr</definition>
-        <argsstring>(const T &amp;emptyRes) const</argsstring>
-        <name>topOr</name>
-        <qualifiedname>MR::FewSmallest::topOr</qualifiedname>
-        <param>
-          <type>const T &amp;</type>
-          <declname>emptyRes</declname>
-        </param>
-        <briefdescription>
-<para>returns the largest among stored smallest elements or given element if this is empty </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFewSmallest.h" line="43" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFewSmallest.h" bodystart="43" bodyend="43"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1FewSmallest_1a0efd17527f2b41be96da3c50f8837c38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::FewSmallest&lt; T &gt;::push</definition>
-        <argsstring>(T t)</argsstring>
-        <name>push</name>
-        <qualifiedname>MR::FewSmallest::push</qualifiedname>
-        <param>
-          <type>T</type>
-          <declname>t</declname>
-        </param>
-        <briefdescription>
-<para>considers one more element, storing it if it is within the smallest </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFewSmallest.h" line="46" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFewSmallest.h" bodystart="65" bodyend="81"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1FewSmallest_1af536aae957f76a53b47070d11d2a4181" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::FewSmallest&lt; T &gt;::clear</definition>
-        <argsstring>()</argsstring>
-        <name>clear</name>
-        <qualifiedname>MR::FewSmallest::clear</qualifiedname>
-        <briefdescription>
-<para>removes all stored elements </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFewSmallest.h" line="49" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFewSmallest.h" bodystart="49" bodyend="49"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gafe398061489451b6194321a60829929f" kind="function"><name>FewSmallest</name></member>
+      <member refid="group__GeneralGroup_1ga10dd64ad23fa331c4f425f5d5400e9ac" kind="function"><name>FewSmallest</name></member>
+      <member refid="group__GeneralGroup_1ga137b1fa934a6f5746491768b2b3aab36" kind="function"><name>reset</name></member>
+      <member refid="group__GeneralGroup_1ga9f76f3baaed046ba4f1047a35cd61248" kind="function"><name>maxElms</name></member>
+      <member refid="group__GeneralGroup_1ga5c8ddf759620fd8b0d272d4695422839" kind="function"><name>empty</name></member>
+      <member refid="group__GeneralGroup_1gaa7fcea11aded20f38afd49e536c21323" kind="function"><name>size</name></member>
+      <member refid="group__GeneralGroup_1gab40f0a7ddc11738ea49b1f4557c60670" kind="function"><name>full</name></member>
+      <member refid="group__GeneralGroup_1ga603a7ae71b566cde606c3d226c1d2c54" kind="function"><name>get</name></member>
+      <member refid="group__GeneralGroup_1ga12a0523ff86e2ccc8757592895374893" kind="function"><name>top</name></member>
+      <member refid="group__GeneralGroup_1ga18d6d371df964d476e3dc691241375a6" kind="function"><name>topOr</name></member>
+      <member refid="group__GeneralGroup_1ga0efd17527f2b41be96da3c50f8837c38" kind="function"><name>push</name></member>
+      <member refid="group__GeneralGroup_1gaf536aae957f76a53b47070d11d2a4181" kind="function"><name>clear</name></member>
     </sectiondef>
     <briefdescription>
 <para>the class stores some number of smallest elements from a larger number of candidates </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFewSmallest.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFewSmallest.h" bodystart="14" bodyend="54"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFewSmallest.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFewSmallest.h" bodystart="17" bodyend="57"/>
     <listofallmembers>
-      <member refid="classMR_1_1FewSmallest_1af536aae957f76a53b47070d11d2a4181" prot="public" virt="non-virtual"><scope>MR::FewSmallest</scope><name>clear</name></member>
-      <member refid="classMR_1_1FewSmallest_1a5c8ddf759620fd8b0d272d4695422839" prot="public" virt="non-virtual"><scope>MR::FewSmallest</scope><name>empty</name></member>
-      <member refid="classMR_1_1FewSmallest_1afe398061489451b6194321a60829929f" prot="public" virt="non-virtual"><scope>MR::FewSmallest</scope><name>FewSmallest</name></member>
-      <member refid="classMR_1_1FewSmallest_1a10dd64ad23fa331c4f425f5d5400e9ac" prot="public" virt="non-virtual"><scope>MR::FewSmallest</scope><name>FewSmallest</name></member>
-      <member refid="classMR_1_1FewSmallest_1ab40f0a7ddc11738ea49b1f4557c60670" prot="public" virt="non-virtual"><scope>MR::FewSmallest</scope><name>full</name></member>
-      <member refid="classMR_1_1FewSmallest_1a603a7ae71b566cde606c3d226c1d2c54" prot="public" virt="non-virtual"><scope>MR::FewSmallest</scope><name>get</name></member>
-      <member refid="classMR_1_1FewSmallest_1a65191d66066502989ee1787f9917413b" prot="private" virt="non-virtual"><scope>MR::FewSmallest</scope><name>heap_</name></member>
-      <member refid="classMR_1_1FewSmallest_1a9f76f3baaed046ba4f1047a35cd61248" prot="public" virt="non-virtual"><scope>MR::FewSmallest</scope><name>maxElms</name></member>
-      <member refid="classMR_1_1FewSmallest_1ae76874766316a23627aa9a5804fbc19c" prot="private" virt="non-virtual"><scope>MR::FewSmallest</scope><name>maxElms_</name></member>
-      <member refid="classMR_1_1FewSmallest_1a0efd17527f2b41be96da3c50f8837c38" prot="public" virt="non-virtual"><scope>MR::FewSmallest</scope><name>push</name></member>
-      <member refid="classMR_1_1FewSmallest_1a137b1fa934a6f5746491768b2b3aab36" prot="public" virt="non-virtual"><scope>MR::FewSmallest</scope><name>reset</name></member>
-      <member refid="classMR_1_1FewSmallest_1aa7fcea11aded20f38afd49e536c21323" prot="public" virt="non-virtual"><scope>MR::FewSmallest</scope><name>size</name></member>
-      <member refid="classMR_1_1FewSmallest_1a12a0523ff86e2ccc8757592895374893" prot="public" virt="non-virtual"><scope>MR::FewSmallest</scope><name>top</name></member>
-      <member refid="classMR_1_1FewSmallest_1a18d6d371df964d476e3dc691241375a6" prot="public" virt="non-virtual"><scope>MR::FewSmallest</scope><name>topOr</name></member>
+      <member refid="group__GeneralGroup_1gaf536aae957f76a53b47070d11d2a4181" prot="public" virt="non-virtual"><scope>MR::FewSmallest</scope><name>clear</name></member>
+      <member refid="group__GeneralGroup_1ga5c8ddf759620fd8b0d272d4695422839" prot="public" virt="non-virtual"><scope>MR::FewSmallest</scope><name>empty</name></member>
+      <member refid="group__GeneralGroup_1gafe398061489451b6194321a60829929f" prot="public" virt="non-virtual"><scope>MR::FewSmallest</scope><name>FewSmallest</name></member>
+      <member refid="group__GeneralGroup_1ga10dd64ad23fa331c4f425f5d5400e9ac" prot="public" virt="non-virtual"><scope>MR::FewSmallest</scope><name>FewSmallest</name></member>
+      <member refid="group__GeneralGroup_1gab40f0a7ddc11738ea49b1f4557c60670" prot="public" virt="non-virtual"><scope>MR::FewSmallest</scope><name>full</name></member>
+      <member refid="group__GeneralGroup_1ga603a7ae71b566cde606c3d226c1d2c54" prot="public" virt="non-virtual"><scope>MR::FewSmallest</scope><name>get</name></member>
+      <member refid="group__GeneralGroup_1ga65191d66066502989ee1787f9917413b" prot="private" virt="non-virtual"><scope>MR::FewSmallest</scope><name>heap_</name></member>
+      <member refid="group__GeneralGroup_1ga9f76f3baaed046ba4f1047a35cd61248" prot="public" virt="non-virtual"><scope>MR::FewSmallest</scope><name>maxElms</name></member>
+      <member refid="group__GeneralGroup_1gae76874766316a23627aa9a5804fbc19c" prot="private" virt="non-virtual"><scope>MR::FewSmallest</scope><name>maxElms_</name></member>
+      <member refid="group__GeneralGroup_1ga0efd17527f2b41be96da3c50f8837c38" prot="public" virt="non-virtual"><scope>MR::FewSmallest</scope><name>push</name></member>
+      <member refid="group__GeneralGroup_1ga137b1fa934a6f5746491768b2b3aab36" prot="public" virt="non-virtual"><scope>MR::FewSmallest</scope><name>reset</name></member>
+      <member refid="group__GeneralGroup_1gaa7fcea11aded20f38afd49e536c21323" prot="public" virt="non-virtual"><scope>MR::FewSmallest</scope><name>size</name></member>
+      <member refid="group__GeneralGroup_1ga12a0523ff86e2ccc8757592895374893" prot="public" virt="non-virtual"><scope>MR::FewSmallest</scope><name>top</name></member>
+      <member refid="group__GeneralGroup_1ga18d6d371df964d476e3dc691241375a6" prot="public" virt="non-virtual"><scope>MR::FewSmallest</scope><name>topOr</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -46,51 +46,11 @@
     <derivedcompoundref refid="structMR_1_1TouchpadZoomGestureUpdateListener" prot="public" virt="non-virtual">MR::TouchpadZoomGestureUpdateListener</derivedcompoundref>
     <includes refid="MRViewerEventsListener_8h" local="no">MRViewerEventsListener.h</includes>
     <sectiondef kind="protected-attrib">
-      <memberdef kind="variable" id="structMR_1_1ConnectionHolder_1a56827c58cd144995185b539aad6929d4" prot="protected" static="no" mutable="no">
-        <type>boost::signals2::scoped_connection</type>
-        <definition>boost::signals2::scoped_connection MR::ConnectionHolder::connection_</definition>
-        <argsstring></argsstring>
-        <name>connection_</name>
-        <qualifiedname>MR::ConnectionHolder::connection_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="24" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="24" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga56827c58cd144995185b539aad6929d4" kind="variable"><name>connection_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1ConnectionHolder_1a99ffc44dd73f73e2e907b7ab5bb38aaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type></type>
-        <definition>virtual MR::ConnectionHolder::~ConnectionHolder</definition>
-        <argsstring>()=default</argsstring>
-        <name>~ConnectionHolder</name>
-        <qualifiedname>MR::ConnectionHolder::~ConnectionHolder</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="21" column="13"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1ConnectionHolder_1afe082892826d9c3fe604a038f3509c70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MR::ConnectionHolder::disconnect</definition>
-        <argsstring>()</argsstring>
-        <name>disconnect</name>
-        <qualifiedname>MR::ConnectionHolder::disconnect</qualifiedname>
-        <reimplements refid="structMR_1_1IConnectable_1a7e18fe37723ce6b3587e47978c25ad71">disconnect</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="22" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="22" bodyend="22"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga99ffc44dd73f73e2e907b7ab5bb38aaf" kind="function"><name>~ConnectionHolder</name></member>
+      <member refid="group__GeneralGroup_1gafe082892826d9c3fe604a038f3509c70" kind="function"><name>disconnect</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -378,13 +338,13 @@
         <link refid="structMR_1_1IConnectable"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="19" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="20" bodyend="25"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="22" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="23" bodyend="28"/>
     <listofallmembers>
-      <member refid="structMR_1_1IConnectable_1a2212095d3996892cff578320ac2ce746" prot="public" virt="pure-virtual"><scope>MR::ConnectionHolder</scope><name>connect</name></member>
-      <member refid="structMR_1_1ConnectionHolder_1a56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::ConnectionHolder</scope><name>connection_</name></member>
-      <member refid="structMR_1_1ConnectionHolder_1afe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::ConnectionHolder</scope><name>disconnect</name></member>
-      <member refid="structMR_1_1ConnectionHolder_1a99ffc44dd73f73e2e907b7ab5bb38aaf" prot="public" virt="virtual"><scope>MR::ConnectionHolder</scope><name>~ConnectionHolder</name></member>
-      <member refid="structMR_1_1IConnectable_1a28c07761e682b80befbb2d5f91bdd38c" prot="public" virt="virtual"><scope>MR::ConnectionHolder</scope><name>~IConnectable</name></member>
+      <member refid="group__GeneralGroup_1ga2212095d3996892cff578320ac2ce746" prot="public" virt="pure-virtual"><scope>MR::ConnectionHolder</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1ga56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::ConnectionHolder</scope><name>connection_</name></member>
+      <member refid="group__GeneralGroup_1gafe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::ConnectionHolder</scope><name>disconnect</name></member>
+      <member refid="group__GeneralGroup_1ga99ffc44dd73f73e2e907b7ab5bb38aaf" prot="public" virt="virtual"><scope>MR::ConnectionHolder</scope><name>~ConnectionHolder</name></member>
+      <member refid="group__GeneralGroup_1ga28c07761e682b80befbb2d5f91bdd38c" prot="public" virt="virtual"><scope>MR::ConnectionHolder</scope><name>~IConnectable</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

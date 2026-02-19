@@ -4,37 +4,8 @@
     <compoundname>MR::RibbonSchemaHolder::SearchResult</compoundname>
     <includes refid="MRRibbonSchema_8h" local="no">MRRibbonSchema.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1RibbonSchemaHolder_1_1SearchResult_1a62d11082407bfd9fa9123e8c61f6c3f8" prot="public" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::RibbonSchemaHolder::SearchResult::tabIndex</definition>
-        <argsstring></argsstring>
-        <name>tabIndex</name>
-        <qualifiedname>MR::RibbonSchemaHolder::SearchResult::tabIndex</qualifiedname>
-        <initializer>{ -1 }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="96" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" bodystart="96" bodyend="96"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1RibbonSchemaHolder_1_1SearchResult_1a7ca888bade52243be40b9bc8ea954035" prot="public" static="no" mutable="no">
-        <type>const <ref refid="structMR_1_1MenuItemInfo" kindref="compound">MenuItemInfo</ref> *</type>
-        <definition>const MenuItemInfo* MR::RibbonSchemaHolder::SearchResult::item</definition>
-        <argsstring></argsstring>
-        <name>item</name>
-        <qualifiedname>MR::RibbonSchemaHolder::SearchResult::item</qualifiedname>
-        <initializer>{ nullptr }</initializer>
-        <briefdescription>
-<para>-1 is default value if item has no tab </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="97" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" bodystart="97" bodyend="97"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga62d11082407bfd9fa9123e8c61f6c3f8" kind="variable"><name>tabIndex</name></member>
+      <member refid="group__GeneralGroup_1ga7ca888bade52243be40b9bc8ea954035" kind="variable"><name>item</name></member>
     </sectiondef>
     <briefdescription>
 <para>struct to hold information for search result presentation </para>
@@ -61,10 +32,10 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="94" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" bodystart="95" bodyend="98"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="97" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" bodystart="98" bodyend="101"/>
     <listofallmembers>
-      <member refid="structMR_1_1RibbonSchemaHolder_1_1SearchResult_1a7ca888bade52243be40b9bc8ea954035" prot="public" virt="non-virtual"><scope>MR::RibbonSchemaHolder::SearchResult</scope><name>item</name></member>
-      <member refid="structMR_1_1RibbonSchemaHolder_1_1SearchResult_1a62d11082407bfd9fa9123e8c61f6c3f8" prot="public" virt="non-virtual"><scope>MR::RibbonSchemaHolder::SearchResult</scope><name>tabIndex</name></member>
+      <member refid="group__GeneralGroup_1ga7ca888bade52243be40b9bc8ea954035" prot="public" virt="non-virtual"><scope>MR::RibbonSchemaHolder::SearchResult</scope><name>item</name></member>
+      <member refid="group__GeneralGroup_1ga62d11082407bfd9fa9123e8c61f6c3f8" prot="public" virt="non-virtual"><scope>MR::RibbonSchemaHolder::SearchResult</scope><name>tabIndex</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

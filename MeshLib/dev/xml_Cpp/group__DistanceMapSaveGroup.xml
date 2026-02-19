@@ -5,7 +5,7 @@
     <title>DistanceMap Save</title>
     <sectiondef kind="func">
       <memberdef kind="function" id="group__DistanceMapSaveGroup_1gaa3625e43c93ee428ec0fc08bd7b00caf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; void &gt;</type>
+        <type>MRMESH_API Expected&lt; void &gt;</type>
         <definition>MRMESH_API Expected&lt; void &gt; MR::DistanceMapSave::toRAW</definition>
         <argsstring>(const DistanceMap &amp;dmap, const std::filesystem::path &amp;path, const DistanceMapSaveSettings &amp;settings={})</argsstring>
         <name>toRAW</name>
@@ -55,7 +55,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapSave.h" line="27" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapSave.h" bodystart="27" bodyend="30"/>
       </memberdef>
       <memberdef kind="function" id="group__DistanceMapSaveGroup_1ga45ebc8766748a50c7620c3b1364a16df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; void &gt;</type>
+        <type>MRMESH_API Expected&lt; void &gt;</type>
         <definition>MRMESH_API Expected&lt; void &gt; MR::DistanceMapSave::toMrDistanceMap</definition>
         <argsstring>(const DistanceMap &amp;dmap, const std::filesystem::path &amp;path, const DistanceMapSaveSettings &amp;settings={})</argsstring>
         <name>toMrDistanceMap</name>
@@ -108,7 +108,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapSave.h" line="34" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapSave.h" bodystart="34" bodyend="40"/>
       </memberdef>
       <memberdef kind="function" id="group__DistanceMapSaveGroup_1ga1ace9bedd45e8e536a87c8e707e51baf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; void &gt;</type>
+        <type>MRMESH_API Expected&lt; void &gt;</type>
         <definition>MRMESH_API Expected&lt; void &gt; MR::DistanceMapSave::toAnySupportedFormat</definition>
         <argsstring>(const DistanceMap &amp;dmap, const std::filesystem::path &amp;path, const DistanceMapSaveSettings &amp;settings={})</argsstring>
         <name>toAnySupportedFormat</name>

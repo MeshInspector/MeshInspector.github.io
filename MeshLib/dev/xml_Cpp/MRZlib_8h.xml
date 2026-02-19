@@ -16,90 +16,42 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
       </node>
       <node id="2">
         <label>config.h</label>
         <link refid="MRIOExtras_2config_8h"/>
       </node>
-      <node id="7">
-        <label>MRMesh/MRCanonicalTypedefs.h</label>
-        <link refid="MRCanonicalTypedefs_8h"/>
-        <childnode refid="8" relation="include">
-        </childnode>
-      </node>
       <node id="4">
         <label>MRMesh/MRExpected.h</label>
         <link refid="MRExpected_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-      </node>
-      <node id="8">
-        <label>MRMesh/MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
-      </node>
-      <node id="5">
-        <label>MRMeshFwd.h</label>
-        <link refid="MRMeshFwd_8h"/>
         <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
+      </node>
+      <node id="5">
+        <label>MRMeshFwd.h</label>
       </node>
       <node id="6">
-        <label>config.h</label>
-        <link refid="MRMesh_2config_8h"/>
-      </node>
-      <node id="9">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="16">
+      <node id="7">
         <label>MRPch/MRExpected.h</label>
-      </node>
-      <node id="10">
-        <label>array</label>
-      </node>
-      <node id="15">
-        <label>cassert</label>
       </node>
       <node id="3">
         <label>exports.h</label>
       </node>
-      <node id="14">
-        <label>functional</label>
-      </node>
-      <node id="17">
+      <node id="9">
         <label>iostream</label>
       </node>
-      <node id="13">
-        <label>parallel_hashmap/phmap_fwd_decl.h</label>
-      </node>
-      <node id="12">
+      <node id="8">
         <label>string</label>
-      </node>
-      <node id="11">
-        <label>vector</label>
       </node>
     </incdepgraph>
     <innernamespace refid="namespaceMR">MR</innernamespace>
@@ -120,13 +72,14 @@
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="12"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="namespaceMR_1ade26a1cffee8e1e012f32d8d7bcc6637" refkind="member"><highlight class="normal">MRIOEXTRAS_API<sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="namespaceMR_1ade26a1cffee8e1e012f32d8d7bcc6637" kindref="member">zlibCompressStream</ref>(<sp/>std::istream&amp;<sp/>in,<sp/>std::ostream&amp;<sp/>out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>level<sp/>=<sp/>-1<sp/>);</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29" refid="namespaceMR_1a3c93ff1b38318770dd195fbdbe3dc45c" refkind="member"><highlight class="normal">MRIOEXTRAS_API<sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="namespaceMR_1a3c93ff1b38318770dd195fbdbe3dc45c" kindref="member">zlibDecompressStream</ref>(<sp/>std::istream&amp;<sp/>in,<sp/>std::ostream&amp;<sp/>out<sp/>);</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31"><highlight class="normal">}<sp/></highlight></codeline>
-<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="group__GeneralGroup_1gade26a1cffee8e1e012f32d8d7bcc6637" refkind="member"><highlight class="normal">MRIOEXTRAS_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__GeneralGroup_1gade26a1cffee8e1e012f32d8d7bcc6637" kindref="member">zlibCompressStream</ref>(<sp/>std::istream&amp;<sp/>in,<sp/>std::ostream&amp;<sp/>out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>level<sp/>=<sp/>-1<sp/>);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="group__GeneralGroup_1ga3c93ff1b38318770dd195fbdbe3dc45c" refkind="member"><highlight class="normal">MRIOEXTRAS_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga3c93ff1b38318770dd195fbdbe3dc45c" kindref="member">zlibDecompressStream</ref>(<sp/>std::istream&amp;<sp/>in,<sp/>std::ostream&amp;<sp/>out<sp/>);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRZlib.h"/>
   </compounddef>

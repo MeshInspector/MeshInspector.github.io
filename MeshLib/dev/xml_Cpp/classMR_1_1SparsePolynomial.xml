@@ -17,242 +17,22 @@
       </param>
     </templateparamlist>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1SparsePolynomial_1a5df7803a8194c8081b10f59f08827541" prot="private" static="no" mutable="no">
-        <type>std::map&lt; D, C &gt;</type>
-        <definition>std::map&lt;D, C&gt; MR::SparsePolynomial&lt; C, D, M &gt;::map_</definition>
-        <argsstring></argsstring>
-        <name>map_</name>
-        <qualifiedname>MR::SparsePolynomial::map_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSparsePolynomial.h" line="51" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSparsePolynomial.h" bodystart="51" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga5df7803a8194c8081b10f59f08827541" kind="variable"><name>map_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1SparsePolynomial_1a3dc64df27400abce4c5aa702e5829ac3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::SparsePolynomial&lt; C, D, M &gt;::SparsePolynomial</definition>
-        <argsstring>()=default</argsstring>
-        <name>SparsePolynomial</name>
-        <qualifiedname>MR::SparsePolynomial::SparsePolynomial</qualifiedname>
-        <briefdescription>
-<para>constructs zero polynomial </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSparsePolynomial.h" line="23" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SparsePolynomial_1a5ade5e79589d06b2bbdcb738b0e667fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::SparsePolynomial&lt; C, D, M &gt;::SparsePolynomial</definition>
-        <argsstring>(std::map&lt; D, C &gt; &amp;&amp;)</argsstring>
-        <name>SparsePolynomial</name>
-        <qualifiedname>MR::SparsePolynomial::SparsePolynomial</qualifiedname>
-        <param>
-          <type>std::map&lt; D, C &gt; &amp;&amp;</type>
-          <defname>m</defname>
-        </param>
-        <briefdescription>
-<para>takes existing coefficients in ownership </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSparsePolynomial.h" line="26" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSparsePolynomial.h" bodystart="55" bodyend="64"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SparsePolynomial_1af742f5b139ea26142c4b53b07b105655" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::SparsePolynomial&lt; C, D, M &gt;::SparsePolynomial</definition>
-        <argsstring>(C c0, D d1, C c1)</argsstring>
-        <name>SparsePolynomial</name>
-        <qualifiedname>MR::SparsePolynomial::SparsePolynomial</qualifiedname>
-        <param>
-          <type>C</type>
-          <declname>c0</declname>
-        </param>
-        <param>
-          <type>D</type>
-          <declname>d1</declname>
-        </param>
-        <param>
-          <type>C</type>
-          <declname>c1</declname>
-        </param>
-        <briefdescription>
-<para>constructs polynomial c0 + c1*x^d1 </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSparsePolynomial.h" line="29" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSparsePolynomial.h" bodystart="67" bodyend="75"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SparsePolynomial_1adb8ff3c08eca24b211a02e31060ec736" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::SparsePolynomial&lt; C, D, M &gt;::SparsePolynomial</definition>
-        <argsstring>(C c0, D d1, C c1, D d2, C c2)</argsstring>
-        <name>SparsePolynomial</name>
-        <qualifiedname>MR::SparsePolynomial::SparsePolynomial</qualifiedname>
-        <param>
-          <type>C</type>
-          <declname>c0</declname>
-        </param>
-        <param>
-          <type>D</type>
-          <declname>d1</declname>
-        </param>
-        <param>
-          <type>C</type>
-          <declname>c1</declname>
-        </param>
-        <param>
-          <type>D</type>
-          <declname>d2</declname>
-        </param>
-        <param>
-          <type>C</type>
-          <declname>c2</declname>
-        </param>
-        <briefdescription>
-<para>constructs polynomial c0 + c1*x^d1 + c2*x^d2 </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSparsePolynomial.h" line="32" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSparsePolynomial.h" bodystart="78" bodyend="91"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SparsePolynomial_1a687ad0841acd4ba8dd03d5915fdaecf3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::SparsePolynomial&lt; C, D, M &gt;::setZeroCoeff</definition>
-        <argsstring>(D d)</argsstring>
-        <name>setZeroCoeff</name>
-        <qualifiedname>MR::SparsePolynomial::setZeroCoeff</qualifiedname>
-        <param>
-          <type>D</type>
-          <declname>d</declname>
-        </param>
-        <briefdescription>
-<para>sets coefficient for given degree to zero </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSparsePolynomial.h" line="35" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSparsePolynomial.h" bodystart="35" bodyend="35"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SparsePolynomial_1a3121c41d3714630889e95595c2ed63ba" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::SparsePolynomial&lt; C, D, M &gt;::empty</definition>
-        <argsstring>() const</argsstring>
-        <name>empty</name>
-        <qualifiedname>MR::SparsePolynomial::empty</qualifiedname>
-        <briefdescription>
-<para>returns true if no single polynomial coefficient is defined </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSparsePolynomial.h" line="38" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSparsePolynomial.h" bodystart="38" bodyend="38"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SparsePolynomial_1a555f6678115944f56cb6b347fcbc297a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::SparsePolynomial&lt; C, D, M &gt;::isPositive</definition>
-        <argsstring>() const</argsstring>
-        <name>isPositive</name>
-        <qualifiedname>MR::SparsePolynomial::isPositive</qualifiedname>
-        <briefdescription>
-<para>returns true if the coefficient for the smallest not-zero degress is positive </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSparsePolynomial.h" line="41" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSparsePolynomial.h" bodystart="94" bodyend="101"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SparsePolynomial_1a9cd30857ce58fb5b8e689aa4a56a9a4d" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const std::map&lt; D, C &gt; &amp;</type>
-        <definition>const std::map&lt; D, C &gt; &amp; MR::SparsePolynomial&lt; C, D, M &gt;::get</definition>
-        <argsstring>() const</argsstring>
-        <name>get</name>
-        <qualifiedname>MR::SparsePolynomial::get</qualifiedname>
-        <briefdescription>
-<para>gets read-only access to all not-zero coefficients </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSparsePolynomial.h" line="44" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSparsePolynomial.h" bodystart="44" bodyend="44"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SparsePolynomial_1a7db8147e43ed44e6850f4f813a585247" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMR_1_1SparsePolynomial" kindref="compound">SparsePolynomial</ref> &amp;</type>
-        <definition>SparsePolynomial&lt; C, D, M &gt; &amp; MR::SparsePolynomial&lt; C, D, M &gt;::operator+=</definition>
-        <argsstring>(const SparsePolynomial &amp;b)</argsstring>
-        <name>operator+=</name>
-        <qualifiedname>MR::SparsePolynomial::operator+=</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1SparsePolynomial" kindref="compound">SparsePolynomial</ref> &amp;</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSparsePolynomial.h" line="46" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSparsePolynomial.h" bodystart="104" bodyend="120"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SparsePolynomial_1a33daec7c11a36c33eb5530ffa262a597" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMR_1_1SparsePolynomial" kindref="compound">SparsePolynomial</ref> &amp;</type>
-        <definition>SparsePolynomial&lt; C, D, M &gt; &amp; MR::SparsePolynomial&lt; C, D, M &gt;::operator-=</definition>
-        <argsstring>(const SparsePolynomial &amp;b)</argsstring>
-        <name>operator-=</name>
-        <qualifiedname>MR::SparsePolynomial::operator-=</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1SparsePolynomial" kindref="compound">SparsePolynomial</ref> &amp;</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSparsePolynomial.h" line="47" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSparsePolynomial.h" bodystart="123" bodyend="139"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga3dc64df27400abce4c5aa702e5829ac3" kind="function"><name>SparsePolynomial</name></member>
+      <member refid="group__GeneralGroup_1ga5ade5e79589d06b2bbdcb738b0e667fb" kind="function"><name>SparsePolynomial</name></member>
+      <member refid="group__GeneralGroup_1gaf742f5b139ea26142c4b53b07b105655" kind="function"><name>SparsePolynomial</name></member>
+      <member refid="group__GeneralGroup_1gadb8ff3c08eca24b211a02e31060ec736" kind="function"><name>SparsePolynomial</name></member>
+      <member refid="group__GeneralGroup_1ga687ad0841acd4ba8dd03d5915fdaecf3" kind="function"><name>setZeroCoeff</name></member>
+      <member refid="group__GeneralGroup_1ga3121c41d3714630889e95595c2ed63ba" kind="function"><name>empty</name></member>
+      <member refid="group__GeneralGroup_1ga555f6678115944f56cb6b347fcbc297a" kind="function"><name>isPositive</name></member>
+      <member refid="group__GeneralGroup_1ga9cd30857ce58fb5b8e689aa4a56a9a4d" kind="function"><name>get</name></member>
+      <member refid="group__GeneralGroup_1ga7db8147e43ed44e6850f4f813a585247" kind="function"><name>operator+=</name></member>
+      <member refid="group__GeneralGroup_1ga33daec7c11a36c33eb5530ffa262a597" kind="function"><name>operator-=</name></member>
     </sectiondef>
     <sectiondef kind="friend">
-      <memberdef kind="friend" id="classMR_1_1SparsePolynomial_1ae7d77a6dff850c8e2a355bbebaf3e011" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMR_1_1SparsePolynomial" kindref="compound">SparsePolynomial</ref></type>
-        <definition>SparsePolynomial operator*</definition>
-        <argsstring>(const SparsePolynomial &amp;a, const SparsePolynomial &amp;b)</argsstring>
-        <name>operator*</name>
-        <qualifiedname>MR::SparsePolynomial::operator*</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1SparsePolynomial" kindref="compound">SparsePolynomial</ref> &amp;</type>
-          <declname>a</declname>
-        </param>
-        <param>
-          <type>const <ref refid="classMR_1_1SparsePolynomial" kindref="compound">SparsePolynomial</ref> &amp;</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSparsePolynomial.h" line="48" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSparsePolynomial.h" bodystart="142" bodyend="167"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gae7d77a6dff850c8e2a355bbebaf3e011" kind="friend"><name>operator*</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -284,20 +64,20 @@
 </parameterlist>
 </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSparsePolynomial.h" line="9" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSparsePolynomial.h" bodystart="19" bodyend="52"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSparsePolynomial.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSparsePolynomial.h" bodystart="22" bodyend="55"/>
     <listofallmembers>
-      <member refid="classMR_1_1SparsePolynomial_1a3121c41d3714630889e95595c2ed63ba" prot="public" virt="non-virtual"><scope>MR::SparsePolynomial</scope><name>empty</name></member>
-      <member refid="classMR_1_1SparsePolynomial_1a9cd30857ce58fb5b8e689aa4a56a9a4d" prot="public" virt="non-virtual"><scope>MR::SparsePolynomial</scope><name>get</name></member>
-      <member refid="classMR_1_1SparsePolynomial_1a555f6678115944f56cb6b347fcbc297a" prot="public" virt="non-virtual"><scope>MR::SparsePolynomial</scope><name>isPositive</name></member>
-      <member refid="classMR_1_1SparsePolynomial_1a5df7803a8194c8081b10f59f08827541" prot="private" virt="non-virtual"><scope>MR::SparsePolynomial</scope><name>map_</name></member>
-      <member refid="classMR_1_1SparsePolynomial_1ae7d77a6dff850c8e2a355bbebaf3e011" prot="public" virt="non-virtual"><scope>MR::SparsePolynomial</scope><name>operator*</name></member>
-      <member refid="classMR_1_1SparsePolynomial_1a7db8147e43ed44e6850f4f813a585247" prot="public" virt="non-virtual"><scope>MR::SparsePolynomial</scope><name>operator+=</name></member>
-      <member refid="classMR_1_1SparsePolynomial_1a33daec7c11a36c33eb5530ffa262a597" prot="public" virt="non-virtual"><scope>MR::SparsePolynomial</scope><name>operator-=</name></member>
-      <member refid="classMR_1_1SparsePolynomial_1a687ad0841acd4ba8dd03d5915fdaecf3" prot="public" virt="non-virtual"><scope>MR::SparsePolynomial</scope><name>setZeroCoeff</name></member>
-      <member refid="classMR_1_1SparsePolynomial_1a3dc64df27400abce4c5aa702e5829ac3" prot="public" virt="non-virtual"><scope>MR::SparsePolynomial</scope><name>SparsePolynomial</name></member>
-      <member refid="classMR_1_1SparsePolynomial_1a5ade5e79589d06b2bbdcb738b0e667fb" prot="public" virt="non-virtual"><scope>MR::SparsePolynomial</scope><name>SparsePolynomial</name></member>
-      <member refid="classMR_1_1SparsePolynomial_1af742f5b139ea26142c4b53b07b105655" prot="public" virt="non-virtual"><scope>MR::SparsePolynomial</scope><name>SparsePolynomial</name></member>
-      <member refid="classMR_1_1SparsePolynomial_1adb8ff3c08eca24b211a02e31060ec736" prot="public" virt="non-virtual"><scope>MR::SparsePolynomial</scope><name>SparsePolynomial</name></member>
+      <member refid="group__GeneralGroup_1ga3121c41d3714630889e95595c2ed63ba" prot="public" virt="non-virtual"><scope>MR::SparsePolynomial</scope><name>empty</name></member>
+      <member refid="group__GeneralGroup_1ga9cd30857ce58fb5b8e689aa4a56a9a4d" prot="public" virt="non-virtual"><scope>MR::SparsePolynomial</scope><name>get</name></member>
+      <member refid="group__GeneralGroup_1ga555f6678115944f56cb6b347fcbc297a" prot="public" virt="non-virtual"><scope>MR::SparsePolynomial</scope><name>isPositive</name></member>
+      <member refid="group__GeneralGroup_1ga5df7803a8194c8081b10f59f08827541" prot="private" virt="non-virtual"><scope>MR::SparsePolynomial</scope><name>map_</name></member>
+      <member refid="group__GeneralGroup_1gae7d77a6dff850c8e2a355bbebaf3e011" prot="public" virt="non-virtual"><scope>MR::SparsePolynomial</scope><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1ga7db8147e43ed44e6850f4f813a585247" prot="public" virt="non-virtual"><scope>MR::SparsePolynomial</scope><name>operator+=</name></member>
+      <member refid="group__GeneralGroup_1ga33daec7c11a36c33eb5530ffa262a597" prot="public" virt="non-virtual"><scope>MR::SparsePolynomial</scope><name>operator-=</name></member>
+      <member refid="group__GeneralGroup_1ga687ad0841acd4ba8dd03d5915fdaecf3" prot="public" virt="non-virtual"><scope>MR::SparsePolynomial</scope><name>setZeroCoeff</name></member>
+      <member refid="group__GeneralGroup_1ga3dc64df27400abce4c5aa702e5829ac3" prot="public" virt="non-virtual"><scope>MR::SparsePolynomial</scope><name>SparsePolynomial</name></member>
+      <member refid="group__GeneralGroup_1ga5ade5e79589d06b2bbdcb738b0e667fb" prot="public" virt="non-virtual"><scope>MR::SparsePolynomial</scope><name>SparsePolynomial</name></member>
+      <member refid="group__GeneralGroup_1gaf742f5b139ea26142c4b53b07b105655" prot="public" virt="non-virtual"><scope>MR::SparsePolynomial</scope><name>SparsePolynomial</name></member>
+      <member refid="group__GeneralGroup_1gadb8ff3c08eca24b211a02e31060ec736" prot="public" virt="non-virtual"><scope>MR::SparsePolynomial</scope><name>SparsePolynomial</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

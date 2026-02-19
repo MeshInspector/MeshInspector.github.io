@@ -2,83 +2,29 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="MRChunkIterator_8h" kind="file" language="C++">
     <compoundname>MRChunkIterator.h</compoundname>
-    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
+    <includes local="yes">MRMeshFwd.h</includes>
     <includes refid="MRIteratorRange_8h" local="yes">MRIteratorRange.h</includes>
     <includes local="no">iterator</includes>
     <incdepgraph>
-      <node id="4">
-        <label>MRMesh/MRCanonicalTypedefs.h</label>
-        <link refid="MRCanonicalTypedefs_8h"/>
-        <childnode refid="5" relation="include">
-        </childnode>
-      </node>
       <node id="1">
         <label>MRChunkIterator.h</label>
         <link refid="MRChunkIterator_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-      </node>
-      <node id="13">
-        <label>MRIteratorRange.h</label>
-        <link refid="MRIteratorRange_8h"/>
-      </node>
-      <node id="5">
-        <label>MRMesh/MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
-      </node>
-      <node id="2">
-        <label>MRMeshFwd.h</label>
-        <link refid="MRMeshFwd_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
       </node>
       <node id="3">
-        <label>config.h</label>
-        <link refid="MRMesh_2config_8h"/>
+        <label>MRIteratorRange.h</label>
+        <link refid="MRIteratorRange_8h"/>
       </node>
-      <node id="6">
-        <label>MRPch/MRBindingMacros.h</label>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
       </node>
-      <node id="7">
-        <label>array</label>
-      </node>
-      <node id="12">
-        <label>cassert</label>
-      </node>
-      <node id="11">
-        <label>functional</label>
-      </node>
-      <node id="14">
+      <node id="4">
         <label>iterator</label>
-      </node>
-      <node id="10">
-        <label>parallel_hashmap/phmap_fwd_decl.h</label>
-      </node>
-      <node id="9">
-        <label>string</label>
-      </node>
-      <node id="8">
-        <label>vector</label>
       </node>
     </incdepgraph>
     <innerclass refid="structMR_1_1Chunk" prot="public">MR::Chunk</innerclass>
@@ -91,47 +37,48 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRIteratorRange_8h" kindref="compound">MRIteratorRange.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iterator&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="9"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="structMR_1_1Chunk" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Chunk" kindref="compound">Chunk</ref></highlight></codeline>
-<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="15" refid="structMR_1_1Chunk_1a67302698c90451ac1dbc264851582a22" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Chunk_1a67302698c90451ac1dbc264851582a22" kindref="member">offset</ref>;</highlight></codeline>
-<codeline lineno="17" refid="structMR_1_1Chunk_1adb4508fa30f32657421915e81df16da7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Chunk_1adb4508fa30f32657421915e81df16da7" kindref="member">size</ref>;</highlight></codeline>
-<codeline lineno="18"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="structMR_1_1ChunkIterator" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ChunkIterator" kindref="compound">ChunkIterator</ref></highlight></codeline>
-<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="23" refid="structMR_1_1ChunkIterator_1ad9459060feb2b5f7111c02781e75879c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ChunkIterator_1ad9459060feb2b5f7111c02781e75879c" kindref="member">totalSize</ref>{<sp/>0<sp/>};</highlight></codeline>
-<codeline lineno="24" refid="structMR_1_1ChunkIterator_1af4366e6dfa9d07ea87cbe5b372afe36e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ChunkIterator_1af4366e6dfa9d07ea87cbe5b372afe36e" kindref="member">chunkSize</ref>{<sp/>0<sp/>};</highlight></codeline>
-<codeline lineno="25" refid="structMR_1_1ChunkIterator_1ae873581e7d1361e2837dad74512411f0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ChunkIterator_1ae873581e7d1361e2837dad74512411f0" kindref="member">overlap</ref>{<sp/>0<sp/>};</highlight></codeline>
-<codeline lineno="26" refid="structMR_1_1ChunkIterator_1a987331c567ec798d896b77adaf490fc0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ChunkIterator_1a987331c567ec798d896b77adaf490fc0" kindref="member">index</ref>{<sp/>0<sp/>};</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28" refid="structMR_1_1ChunkIterator_1ac0f52b399269d4be6c5c051272d0db86" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ChunkIterator_1ac0f52b399269d4be6c5c051272d0db86" kindref="member">operator ==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ChunkIterator" kindref="compound">ChunkIterator</ref>&amp;<sp/><ref refid="namespaceMR_1a24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf" kindref="member">other</ref><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30" refid="structMR_1_1ChunkIterator_1a97b66824787d4e3a2921761974cca10d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ChunkIterator_1a97b66824787d4e3a2921761974cca10d" kindref="member">iterator_category</ref><sp/>=<sp/>std::input_iterator_tag;</highlight></codeline>
-<codeline lineno="31" refid="structMR_1_1ChunkIterator_1ad816264908bdaf06f5629a4d163c16f6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Chunk" kindref="compound">value_type</ref><sp/>=<sp/><ref refid="structMR_1_1Chunk" kindref="compound">Chunk</ref>;</highlight></codeline>
-<codeline lineno="32" refid="structMR_1_1ChunkIterator_1ad58d2cd0f8108c9f1c0e00cc2d750508" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ChunkIterator_1ad58d2cd0f8108c9f1c0e00cc2d750508" kindref="member">difference_type</ref><sp/>=<sp/>std::ptrdiff_t;</highlight></codeline>
-<codeline lineno="33" refid="structMR_1_1ChunkIterator_1a71077fda29daec0ad1dfb91af33ab1d9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Chunk" kindref="compound">pointer</ref><sp/>=<sp/><ref refid="structMR_1_1Chunk" kindref="compound">Chunk</ref>*;</highlight></codeline>
-<codeline lineno="34" refid="structMR_1_1ChunkIterator_1af99ba138aa910783abd6301c80706164" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Chunk" kindref="compound">reference</ref><sp/>=<sp/><ref refid="structMR_1_1Chunk" kindref="compound">Chunk</ref>&amp;;</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="structMR_1_1ChunkIterator_1a90190d9b325f64a0253ca83d44cb6361" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1ChunkIterator" kindref="compound">ChunkIterator</ref>&amp;<sp/><ref refid="structMR_1_1ChunkIterator_1a90190d9b325f64a0253ca83d44cb6361" kindref="member">operator ++</ref>();</highlight></codeline>
-<codeline lineno="37" refid="structMR_1_1ChunkIterator_1ad8208e10b106ed35392e4b212e98c87d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1ChunkIterator" kindref="compound">ChunkIterator</ref><sp/><ref refid="structMR_1_1ChunkIterator_1a90190d9b325f64a0253ca83d44cb6361" kindref="member">operator ++</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="structMR_1_1Chunk" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Chunk" kindref="compound">Chunk</ref></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18" refid="group__GeneralGroup_1ga67302698c90451ac1dbc264851582a22" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga67302698c90451ac1dbc264851582a22" kindref="member">offset</ref>;</highlight></codeline>
+<codeline lineno="20" refid="group__GeneralGroup_1gadb4508fa30f32657421915e81df16da7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gadb4508fa30f32657421915e81df16da7" kindref="member">size</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="structMR_1_1ChunkIterator" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ChunkIterator" kindref="compound">ChunkIterator</ref></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="26" refid="group__GeneralGroup_1gad9459060feb2b5f7111c02781e75879c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad9459060feb2b5f7111c02781e75879c" kindref="member">totalSize</ref>{<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="27" refid="group__GeneralGroup_1gaf4366e6dfa9d07ea87cbe5b372afe36e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf4366e6dfa9d07ea87cbe5b372afe36e" kindref="member">chunkSize</ref>{<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="28" refid="group__GeneralGroup_1gae873581e7d1361e2837dad74512411f0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae873581e7d1361e2837dad74512411f0" kindref="member">overlap</ref>{<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="29" refid="group__GeneralGroup_1ga987331c567ec798d896b77adaf490fc0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga987331c567ec798d896b77adaf490fc0" kindref="member">index</ref>{<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="group__GeneralGroup_1gac0f52b399269d4be6c5c051272d0db86" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac0f52b399269d4be6c5c051272d0db86" kindref="member">operator ==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ChunkIterator" kindref="compound">ChunkIterator</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf" kindref="member">other</ref><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="group__GeneralGroup_1ga97b66824787d4e3a2921761974cca10d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga97b66824787d4e3a2921761974cca10d" kindref="member">iterator_category</ref><sp/>=<sp/>std::input_iterator_tag;</highlight></codeline>
+<codeline lineno="34" refid="group__GeneralGroup_1gad816264908bdaf06f5629a4d163c16f6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Chunk" kindref="compound">value_type</ref><sp/>=<sp/><ref refid="structMR_1_1Chunk" kindref="compound">Chunk</ref>;</highlight></codeline>
+<codeline lineno="35" refid="group__GeneralGroup_1gad58d2cd0f8108c9f1c0e00cc2d750508" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gad58d2cd0f8108c9f1c0e00cc2d750508" kindref="member">difference_type</ref><sp/>=<sp/>std::ptrdiff_t;</highlight></codeline>
+<codeline lineno="36" refid="group__GeneralGroup_1ga71077fda29daec0ad1dfb91af33ab1d9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Chunk" kindref="compound">pointer</ref><sp/>=<sp/><ref refid="structMR_1_1Chunk" kindref="compound">Chunk</ref>*;</highlight></codeline>
+<codeline lineno="37" refid="group__GeneralGroup_1gaf99ba138aa910783abd6301c80706164" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Chunk" kindref="compound">reference</ref><sp/>=<sp/><ref refid="structMR_1_1Chunk" kindref="compound">Chunk</ref>&amp;;</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39" refid="structMR_1_1ChunkIterator_1ad126dd050bd11d03d34d56437f52debd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Chunk" kindref="compound">Chunk</ref><sp/><ref refid="structMR_1_1ChunkIterator_1ad126dd050bd11d03d34d56437f52debd" kindref="member">operator *</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="40" refid="structMR_1_1ChunkIterator_1a3d81344e7c7048e9e13514de12883555" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Chunk" kindref="compound">Chunk</ref><sp/><ref refid="structMR_1_1ChunkIterator_1a3d81344e7c7048e9e13514de12883555" kindref="member">operator -&gt;</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ChunkIterator_1ad126dd050bd11d03d34d56437f52debd" kindref="member">operator*</ref>();<sp/>}</highlight></codeline>
-<codeline lineno="41"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44" refid="namespaceMR_1a44c0ea65a2e2e413656ee06b11483e16" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a44c0ea65a2e2e413656ee06b11483e16" kindref="member">chunkCount</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>totalSize,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>chunkSize,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>overlap<sp/>=<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="39" refid="group__GeneralGroup_1ga90190d9b325f64a0253ca83d44cb6361" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/><ref refid="structMR_1_1ChunkIterator" kindref="compound">ChunkIterator</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga90190d9b325f64a0253ca83d44cb6361" kindref="member">operator ++</ref>();</highlight></codeline>
+<codeline lineno="40" refid="group__GeneralGroup_1gad8208e10b106ed35392e4b212e98c87d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/><ref refid="structMR_1_1ChunkIterator" kindref="compound">ChunkIterator</ref><sp/><ref refid="group__GeneralGroup_1ga90190d9b325f64a0253ca83d44cb6361" kindref="member">operator ++</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="group__GeneralGroup_1gad126dd050bd11d03d34d56437f52debd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/><ref refid="structMR_1_1Chunk" kindref="compound">Chunk</ref><sp/><ref refid="group__GeneralGroup_1gad126dd050bd11d03d34d56437f52debd" kindref="member">operator *</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="43" refid="group__GeneralGroup_1ga3d81344e7c7048e9e13514de12883555" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Chunk" kindref="compound">Chunk</ref><sp/><ref refid="group__GeneralGroup_1ga3d81344e7c7048e9e13514de12883555" kindref="member">operator -&gt;</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad126dd050bd11d03d34d56437f52debd" kindref="member">operator*</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47" refid="namespaceMR_1a07cd1a9d21a19c74c8634fe0cc567a17" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1IteratorRange" kindref="compound">IteratorRange&lt;ChunkIterator&gt;</ref><sp/><ref refid="namespaceMR_1a07cd1a9d21a19c74c8634fe0cc567a17" kindref="member">splitByChunks</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>totalSize,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>chunkSize,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>overlap<sp/>=<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="47" refid="group__GeneralGroup_1ga44c0ea65a2e2e413656ee06b11483e16" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga44c0ea65a2e2e413656ee06b11483e16" kindref="member">chunkCount</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>totalSize,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>chunkSize,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>overlap<sp/>=<sp/>0<sp/>);</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="49"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="50" refid="group__GeneralGroup_1ga07cd1a9d21a19c74c8634fe0cc567a17" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="structMR_1_1IteratorRange" kindref="compound">IteratorRange&lt;ChunkIterator&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga07cd1a9d21a19c74c8634fe0cc567a17" kindref="member">splitByChunks</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>totalSize,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>chunkSize,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>overlap<sp/>=<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal">}<sp/></highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChunkIterator.h"/>
   </compounddef>

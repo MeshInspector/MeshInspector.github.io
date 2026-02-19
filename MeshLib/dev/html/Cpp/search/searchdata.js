@@ -6,11 +6,11 @@ var indexSectionsWithContent =
   3: "aim",
   4: "abcdefghijklmnopqrstuvwxyz~",
   5: "_abcdefghiklmnopqrstuvwxyz",
-  6: "abcdefghijklmnopqrstuvwx",
+  6: "abcdefghijklmnoprstuvwx",
   7: "abcdefgiklmnopqrstuvwz",
   8: "_abcdefghiklmnopqrstuvwxyz",
   9: "bcdegmorstu",
-  10: "_degims",
+  10: "_degim",
   11: "23abcdefghilmnoprstv",
   12: "c",
   13: "m"

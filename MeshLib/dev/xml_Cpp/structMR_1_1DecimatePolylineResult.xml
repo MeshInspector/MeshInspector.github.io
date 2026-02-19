@@ -4,48 +4,18 @@
     <compoundname>MR::DecimatePolylineResult</compoundname>
     <includes refid="MRPolylineDecimate_8h" local="no">MRPolylineDecimate.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1DecimatePolylineResult_1af042d52b52cb89cb1dbf4a779d82f3c6" prot="public" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::DecimatePolylineResult::vertsDeleted</definition>
-        <argsstring></argsstring>
-        <name>vertsDeleted</name>
-        <qualifiedname>MR::DecimatePolylineResult::vertsDeleted</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-<para>Number deleted verts. Same as the number of performed collapses. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineDecimate.h" line="83" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineDecimate.h" bodystart="83" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1DecimatePolylineResult_1a5e4317d37968dd6016c8fc5826f9e8f5" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::DecimatePolylineResult::errorIntroduced</definition>
-        <argsstring></argsstring>
-        <name>errorIntroduced</name>
-        <qualifiedname>MR::DecimatePolylineResult::errorIntroduced</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-<para>Max different (as distance) between original contour and result contour. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineDecimate.h" line="84" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineDecimate.h" bodystart="84" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaf042d52b52cb89cb1dbf4a779d82f3c6" kind="variable"><name>vertsDeleted</name></member>
+      <member refid="group__GeneralGroup_1ga5e4317d37968dd6016c8fc5826f9e8f5" kind="variable"><name>errorIntroduced</name></member>
     </sectiondef>
     <briefdescription>
 <para>Results of <ref refid="group__DecimateGroup_1gac12c761d9044619a794badf63900a599" kindref="member">MR::decimateContour</ref>. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineDecimate.h" line="81" column="1"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineDecimate.h" line="84" column="1"/>
     <listofallmembers>
-      <member refid="structMR_1_1DecimatePolylineResult_1a5e4317d37968dd6016c8fc5826f9e8f5" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineResult</scope><name>errorIntroduced</name></member>
-      <member refid="structMR_1_1DecimatePolylineResult_1af042d52b52cb89cb1dbf4a779d82f3c6" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineResult</scope><name>vertsDeleted</name></member>
+      <member refid="group__GeneralGroup_1ga5e4317d37968dd6016c8fc5826f9e8f5" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineResult</scope><name>errorIntroduced</name></member>
+      <member refid="group__GeneralGroup_1gaf042d52b52cb89cb1dbf4a779d82f3c6" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineResult</scope><name>vertsDeleted</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

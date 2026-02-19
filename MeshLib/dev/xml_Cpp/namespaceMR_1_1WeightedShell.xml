@@ -24,7 +24,7 @@
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="namespaceMR_1_1WeightedShell_1a01eafebe7cd6350d108fb538e558fb12" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> FunctionVolume</type>
+        <type>MRVOXELS_API FunctionVolume</type>
         <definition>MRVOXELS_API FunctionVolume MR::WeightedShell::pointsToDistanceVolume</definition>
         <argsstring>(const PointCloud &amp;cloud, const DistanceVolumeCreationParams &amp;params)</argsstring>
         <name>pointsToDistanceVolume</name>
@@ -47,7 +47,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" line="24" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" declline="24" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1WeightedShell_1a33b0f3cc490481ebb0f62010cf20518e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> FunctionVolume</type>
+        <type>MRVOXELS_API FunctionVolume</type>
         <definition>MRVOXELS_API FunctionVolume MR::WeightedShell::meshToDistanceVolume</definition>
         <argsstring>(const Mesh &amp;mesh, const DistanceVolumeCreationParams &amp;params)</argsstring>
         <name>meshToDistanceVolume</name>
@@ -70,7 +70,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" line="27" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" declline="27" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1WeightedShell_1a073bb16262b665c98e72cbc2da3afc40" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="namespaceMR_1ac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref> <ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
+        <type><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref> MRVOXELS_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
         <definition>MR_BIND_IGNORE MRVOXELS_API Expected&lt; Mesh &gt; MR::WeightedShell::pointsShell</definition>
         <argsstring>(const PointCloud &amp;cloud, const ParametersMetric &amp;params)</argsstring>
         <name>pointsShell</name>
@@ -93,7 +93,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" line="81" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" declline="81" declcolumn="39"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1WeightedShell_1a8dc2c1b804b8a46b0a33345e1f1688f1" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
+        <type>MRVOXELS_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
         <definition>MRVOXELS_API Expected&lt; Mesh &gt; MR::WeightedShell::pointsShell</definition>
         <argsstring>(const PointCloud &amp;cloud, const VertScalars &amp;pointWeights, const ParametersMetric &amp;params)</argsstring>
         <name>pointsShell</name>
@@ -120,7 +120,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" line="86" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" declline="86" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1WeightedShell_1a5f3f7e651a5e21cd4346de588b7641b1" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="namespaceMR_1ac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref> <ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
+        <type><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref> MRVOXELS_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
         <definition>MR_BIND_IGNORE MRVOXELS_API Expected&lt; Mesh &gt; MR::WeightedShell::meshShell</definition>
         <argsstring>(const Mesh &amp;mesh, const ParametersMetric &amp;params)</argsstring>
         <name>meshShell</name>
@@ -143,7 +143,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" line="92" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" declline="92" declcolumn="39"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1WeightedShell_1a7882f57d282bd3aa7b657061f8f9409b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
+        <type>MRVOXELS_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
         <definition>MRVOXELS_API Expected&lt; Mesh &gt; MR::WeightedShell::meshShell</definition>
         <argsstring>(const Mesh &amp;mesh, const VertScalars &amp;vertWeights, const ParametersMetric &amp;params)</argsstring>
         <name>meshShell</name>
@@ -170,7 +170,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" line="97" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" declline="97" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1WeightedShell_1a3e108c56779c35179e76f309f651b3ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> VertScalars</type>
+        <type>MRVOXELS_API VertScalars</type>
         <definition>MRVOXELS_API VertScalars MR::WeightedShell::calculateShellWeightsFromRegions</definition>
         <argsstring>(const Mesh &amp;mesh, const std::vector&lt; ParametersRegions::Region &gt; &amp;regions, float interpolationDist)</argsstring>
         <name>calculateShellWeightsFromRegions</name>
@@ -197,7 +197,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" line="100" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" declline="100" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1WeightedShell_1a54580de8838b073a4531d9f3149ea22e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
+        <type>MRVOXELS_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
         <definition>MRVOXELS_API Expected&lt; Mesh &gt; MR::WeightedShell::meshShell</definition>
         <argsstring>(const Mesh &amp;mesh, const ParametersRegions &amp;params)</argsstring>
         <name>meshShell</name>
@@ -220,7 +220,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" line="104" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" declline="104" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1WeightedShell_1a90e26c11723ff31873a2d5046d4edc5a" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
+        <type>MRVOXELS_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
         <definition>MRVOXELS_API Expected&lt; Mesh &gt; MR::WeightedShell::meshShell</definition>
         <argsstring>(const Mesh &amp;mesh, const ParametersRegions &amp;params, meshToDistanceVolumeT volumeBuilder)</argsstring>
         <name>meshShell</name>

@@ -4,1071 +4,149 @@
     <compoundname>MR::ViewerSignals</compoundname>
     <includes refid="MRViewerSignals_8h" local="no">MRViewerSignals.h</includes>
     <sectiondef kind="public-type">
-      <memberdef kind="typedef" id="structMR_1_1ViewerSignals_1a1eda89f251264fcd4a837e688fdd8f85" prot="public" static="no">
-        <type><ref refid="structMR_1_1StopOnTrueCombiner" kindref="compound">StopOnTrueCombiner</ref></type>
-        <definition>using MR::ViewerSignals::SignalStopHandler =  StopOnTrueCombiner</definition>
-        <argsstring></argsstring>
-        <name>SignalStopHandler</name>
-        <qualifiedname>MR::ViewerSignals::SignalStopHandler</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="11" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="11" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="structMR_1_1ViewerSignals_1a3206deabe6f49f8a3acf059b7130a0fb" prot="public" static="no">
-        <type>boost::signals2::signal&lt; bool(<ref refid="namespaceMR_1a13f98b7840e7298925ef1770b7cdb62d" kindref="member">MouseButton</ref> btn, int modifier), <ref refid="structMR_1_1ViewerSignals_1a1eda89f251264fcd4a837e688fdd8f85" kindref="member">SignalStopHandler</ref> &gt;</type>
-        <definition>using MR::ViewerSignals::MouseUpDownSignal =  boost::signals2::signal&lt;bool( MouseButton btn, int modifier ), SignalStopHandler&gt;</definition>
-        <argsstring></argsstring>
-        <name>MouseUpDownSignal</name>
-        <qualifiedname>MR::ViewerSignals::MouseUpDownSignal</qualifiedname>
-        <briefdescription>
-<para>Mouse events. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="13" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="structMR_1_1ViewerSignals_1ac0c1bd273bc7918c1c5aaa17ee28185c" prot="public" static="no">
-        <type>boost::signals2::signal&lt; bool(int x, int y), <ref refid="structMR_1_1ViewerSignals_1a1eda89f251264fcd4a837e688fdd8f85" kindref="member">SignalStopHandler</ref> &gt;</type>
-        <definition>using MR::ViewerSignals::MouseMoveSignal =  boost::signals2::signal&lt;bool( int x, int y ), SignalStopHandler&gt;</definition>
-        <argsstring></argsstring>
-        <name>MouseMoveSignal</name>
-        <qualifiedname>MR::ViewerSignals::MouseMoveSignal</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="14" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="structMR_1_1ViewerSignals_1a9f30201f2d7ed3f6180ccf9c332d80cf" prot="public" static="no">
-        <type>boost::signals2::signal&lt; bool(float delta), <ref refid="structMR_1_1ViewerSignals_1a1eda89f251264fcd4a837e688fdd8f85" kindref="member">SignalStopHandler</ref> &gt;</type>
-        <definition>using MR::ViewerSignals::MouseScrollSignal =  boost::signals2::signal&lt;bool( float delta ), SignalStopHandler&gt;</definition>
-        <argsstring></argsstring>
-        <name>MouseScrollSignal</name>
-        <qualifiedname>MR::ViewerSignals::MouseScrollSignal</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="15" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="structMR_1_1ViewerSignals_1a635ab18f390475cfdf278794eae44fb6" prot="public" static="no">
-        <type>boost::signals2::signal&lt; void(bool)&gt;</type>
-        <definition>using MR::ViewerSignals::CursorEntranceSignal =  boost::signals2::signal&lt;void(bool)&gt;</definition>
-        <argsstring></argsstring>
-        <name>CursorEntranceSignal</name>
-        <qualifiedname>MR::ViewerSignals::CursorEntranceSignal</qualifiedname>
-        <briefdescription>
-<para>Cursor enters/leaves. </para>
-        </briefdescription>
-        <detaileddescription>
-<para>signal is called when mouse is being dragged with button down </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="30" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="30" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="structMR_1_1ViewerSignals_1aa74e56ac086d42bf0be931fc3dfb3800" prot="public" static="no">
-        <type>boost::signals2::signal&lt; bool(unsigned unicodeKey, int modifier), <ref refid="structMR_1_1ViewerSignals_1a1eda89f251264fcd4a837e688fdd8f85" kindref="member">SignalStopHandler</ref> &gt;</type>
-        <definition>using MR::ViewerSignals::CharPressedSignal =  boost::signals2::signal&lt;bool( unsigned unicodeKey, int modifier ), SignalStopHandler&gt;</definition>
-        <argsstring></argsstring>
-        <name>CharPressedSignal</name>
-        <qualifiedname>MR::ViewerSignals::CharPressedSignal</qualifiedname>
-        <briefdescription>
-<para>Keyboard event. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="33" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="33" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="structMR_1_1ViewerSignals_1a2c13f3f5f743830b0defe77be75a47f3" prot="public" static="no">
-        <type>boost::signals2::signal&lt; bool(int key, int modifier), <ref refid="structMR_1_1ViewerSignals_1a1eda89f251264fcd4a837e688fdd8f85" kindref="member">SignalStopHandler</ref> &gt;</type>
-        <definition>using MR::ViewerSignals::KeySignal =  boost::signals2::signal&lt;bool( int key, int modifier ), SignalStopHandler&gt;</definition>
-        <argsstring></argsstring>
-        <name>KeySignal</name>
-        <qualifiedname>MR::ViewerSignals::KeySignal</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="34" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="34" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="structMR_1_1ViewerSignals_1a01a10614f8eeeaabcc8e586facc221c5" prot="public" static="no">
-        <type>boost::signals2::signal&lt; bool(const Vector3f &amp;translate, const Vector3f &amp;rotate), <ref refid="structMR_1_1ViewerSignals_1a1eda89f251264fcd4a837e688fdd8f85" kindref="member">SignalStopHandler</ref> &gt;</type>
-        <definition>using MR::ViewerSignals::SpaceMouseMoveSignal =  boost::signals2::signal&lt;bool( const Vector3f&amp; translate, const Vector3f&amp; rotate ), SignalStopHandler&gt;</definition>
-        <argsstring></argsstring>
-        <name>SpaceMouseMoveSignal</name>
-        <qualifiedname>MR::ViewerSignals::SpaceMouseMoveSignal</qualifiedname>
-        <briefdescription>
-<para>SpaceMouseEvents. </para>
-        </briefdescription>
-        <detaileddescription>
-<para>signal is called when key is pressed for some time </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="40" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="40" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="structMR_1_1ViewerSignals_1a9743f62b8bb399b86d0706f5674164f3" prot="public" static="no">
-        <type>boost::signals2::signal&lt; bool(int), <ref refid="structMR_1_1ViewerSignals_1a1eda89f251264fcd4a837e688fdd8f85" kindref="member">SignalStopHandler</ref> &gt;</type>
-        <definition>using MR::ViewerSignals::SpaceMouseKeySignal =  boost::signals2::signal&lt;bool( int ), SignalStopHandler&gt;</definition>
-        <argsstring></argsstring>
-        <name>SpaceMouseKeySignal</name>
-        <qualifiedname>MR::ViewerSignals::SpaceMouseKeySignal</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="41" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="41" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="structMR_1_1ViewerSignals_1ab4cc13259763aa7b86dd1dca2c8e1c02" prot="public" static="no">
-        <type>boost::signals2::signal&lt; void()&gt;</type>
-        <definition>using MR::ViewerSignals::RenderSignal =  boost::signals2::signal&lt;void()&gt;</definition>
-        <argsstring></argsstring>
-        <name>RenderSignal</name>
-        <qualifiedname>MR::ViewerSignals::RenderSignal</qualifiedname>
-        <briefdescription>
-<para>Render events. </para>
-        </briefdescription>
-        <detaileddescription>
-<para>signal is called when spacemouse key is pressed for some time </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="47" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="47" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="structMR_1_1ViewerSignals_1ae6e1c375cf8551f7eb7c8525ac158503" prot="public" static="no">
-        <type>boost::signals2::signal&lt; void(const std::vector&lt; std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt; &amp;objs, const std::string &amp;errors, const std::string &amp;warnings)&gt;</type>
-        <definition>using MR::ViewerSignals::ObjectsLoadedSignal =  boost::signals2::signal&lt;void( const std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;&amp; objs, const std::string&amp; errors, const std::string&amp; warnings )&gt;</definition>
-        <argsstring></argsstring>
-        <name>ObjectsLoadedSignal</name>
-        <qualifiedname>MR::ViewerSignals::ObjectsLoadedSignal</qualifiedname>
-        <briefdescription>
-<para>Scene events. </para>
-        </briefdescription>
-        <detaileddescription>
-<para>signal is called after scene draw </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="55" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="55" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="structMR_1_1ViewerSignals_1aa8b3ccf0007ef43e652abb9506dccb46" prot="public" static="no">
-        <type>boost::signals2::signal&lt; bool(const std::vector&lt; std::filesystem::path &gt; &amp;paths), <ref refid="structMR_1_1ViewerSignals_1a1eda89f251264fcd4a837e688fdd8f85" kindref="member">SignalStopHandler</ref> &gt;</type>
-        <definition>using MR::ViewerSignals::DragDropSignal =  boost::signals2::signal&lt;bool( const std::vector&lt;std::filesystem::path&gt;&amp; paths ), SignalStopHandler&gt;</definition>
-        <argsstring></argsstring>
-        <name>DragDropSignal</name>
-        <qualifiedname>MR::ViewerSignals::DragDropSignal</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="56" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="56" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="structMR_1_1ViewerSignals_1a934dc6f064f8166637a2372d0869e8eb" prot="public" static="no">
-        <type>boost::signals2::signal&lt; void(int x, int y)&gt;</type>
-        <definition>using MR::ViewerSignals::PostResizeSignal =  boost::signals2::signal&lt;void( int x, int y )&gt;</definition>
-        <argsstring></argsstring>
-        <name>PostResizeSignal</name>
-        <qualifiedname>MR::ViewerSignals::PostResizeSignal</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="57" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="57" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="structMR_1_1ViewerSignals_1aa4a87b5c59b1bea08fc9d88c53d837df" prot="public" static="no">
-        <type>boost::signals2::signal&lt; void(float xscale, float yscale)&gt;</type>
-        <definition>using MR::ViewerSignals::PostRescaleSignal =  boost::signals2::signal&lt;void( float xscale, float yscale )&gt;</definition>
-        <argsstring></argsstring>
-        <name>PostRescaleSignal</name>
-        <qualifiedname>MR::ViewerSignals::PostRescaleSignal</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="58" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="58" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="structMR_1_1ViewerSignals_1aab72a2d73997cd31feb9723a2a765448" prot="public" static="no">
-        <type>boost::signals2::signal&lt; bool(), <ref refid="structMR_1_1ViewerSignals_1a1eda89f251264fcd4a837e688fdd8f85" kindref="member">SignalStopHandler</ref> &gt;</type>
-        <definition>using MR::ViewerSignals::InterruptCloseSignal =  boost::signals2::signal&lt;bool(), SignalStopHandler&gt;</definition>
-        <argsstring></argsstring>
-        <name>InterruptCloseSignal</name>
-        <qualifiedname>MR::ViewerSignals::InterruptCloseSignal</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="59" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="59" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="structMR_1_1ViewerSignals_1a6898cbf470bc706c1d83ad845f588934" prot="public" static="no">
-        <type>boost::signals2::signal&lt; bool(int, int, int), <ref refid="structMR_1_1ViewerSignals_1a1eda89f251264fcd4a837e688fdd8f85" kindref="member">SignalStopHandler</ref> &gt;</type>
-        <definition>using MR::ViewerSignals::TouchSignal =  boost::signals2::signal&lt;bool(int,int,int), SignalStopHandler&gt;</definition>
-        <argsstring></argsstring>
-        <name>TouchSignal</name>
-        <qualifiedname>MR::ViewerSignals::TouchSignal</qualifiedname>
-        <briefdescription>
-<para>Touch signals. </para>
-        </briefdescription>
-        <detaileddescription>
-<para>signal is called before close window (return true will prevent closing) </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="68" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="68" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="structMR_1_1ViewerSignals_1a230e0e88d7c06f2e72b2f9669eeb6020" prot="public" static="no">
-        <type>boost::signals2::signal&lt; bool(), <ref refid="structMR_1_1ViewerSignals_1a1eda89f251264fcd4a837e688fdd8f85" kindref="member">SignalStopHandler</ref> &gt;</type>
-        <definition>using MR::ViewerSignals::TouchpadGestureBeginSignal =  boost::signals2::signal&lt;bool(), SignalStopHandler&gt;</definition>
-        <argsstring></argsstring>
-        <name>TouchpadGestureBeginSignal</name>
-        <qualifiedname>MR::ViewerSignals::TouchpadGestureBeginSignal</qualifiedname>
-        <briefdescription>
-<para>Touchpad gesture events. </para>
-        </briefdescription>
-        <detaileddescription>
-<para>signal is called when touch stops </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="73" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="73" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="structMR_1_1ViewerSignals_1a1d051b0e5ed6812a2ffb4ac04ef0ce79" prot="public" static="no">
-        <type>boost::signals2::signal&lt; bool(), <ref refid="structMR_1_1ViewerSignals_1a1eda89f251264fcd4a837e688fdd8f85" kindref="member">SignalStopHandler</ref> &gt;</type>
-        <definition>using MR::ViewerSignals::TouchpadGestureEndSignal =  boost::signals2::signal&lt;bool(), SignalStopHandler&gt;</definition>
-        <argsstring></argsstring>
-        <name>TouchpadGestureEndSignal</name>
-        <qualifiedname>MR::ViewerSignals::TouchpadGestureEndSignal</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="74" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="74" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="structMR_1_1ViewerSignals_1abb64623892545f3b6274abe20ff451cc" prot="public" static="no">
-        <type>boost::signals2::signal&lt; bool(float <ref refid="namespaceMR_1a24a027691feb30cad77ca6a162d05c58a899186f7879ef9f1cf011b415f548c03" kindref="member">angle</ref>), <ref refid="structMR_1_1ViewerSignals_1a1eda89f251264fcd4a837e688fdd8f85" kindref="member">SignalStopHandler</ref> &gt;</type>
-        <definition>using MR::ViewerSignals::TouchpadRotateGestureUpdateSignal =  boost::signals2::signal&lt;bool( float angle ), SignalStopHandler&gt;</definition>
-        <argsstring></argsstring>
-        <name>TouchpadRotateGestureUpdateSignal</name>
-        <qualifiedname>MR::ViewerSignals::TouchpadRotateGestureUpdateSignal</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="75" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="75" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="structMR_1_1ViewerSignals_1a1e546ead723024bb7ccf8744881ccbaf" prot="public" static="no">
-        <type>boost::signals2::signal&lt; bool(float deltaX, float deltaY, bool kinetic), <ref refid="structMR_1_1ViewerSignals_1a1eda89f251264fcd4a837e688fdd8f85" kindref="member">SignalStopHandler</ref> &gt;</type>
-        <definition>using MR::ViewerSignals::TouchpadSwipeGestureUpdateSignal =  boost::signals2::signal&lt;bool( float deltaX, float deltaY, bool kinetic ), SignalStopHandler&gt;</definition>
-        <argsstring></argsstring>
-        <name>TouchpadSwipeGestureUpdateSignal</name>
-        <qualifiedname>MR::ViewerSignals::TouchpadSwipeGestureUpdateSignal</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="76" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="76" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="structMR_1_1ViewerSignals_1a817c538649e24045057f6bda35940837" prot="public" static="no">
-        <type>boost::signals2::signal&lt; bool(float scale, bool kinetic), <ref refid="structMR_1_1ViewerSignals_1a1eda89f251264fcd4a837e688fdd8f85" kindref="member">SignalStopHandler</ref> &gt;</type>
-        <definition>using MR::ViewerSignals::TouchpadZoomGestureUpdateSignal =  boost::signals2::signal&lt;bool( float scale, bool kinetic ), SignalStopHandler&gt;</definition>
-        <argsstring></argsstring>
-        <name>TouchpadZoomGestureUpdateSignal</name>
-        <qualifiedname>MR::ViewerSignals::TouchpadZoomGestureUpdateSignal</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="77" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="77" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="structMR_1_1ViewerSignals_1a6ab96bfc7a502dd6337ed16dcc9566a5" prot="public" static="no">
-        <type>boost::signals2::signal&lt; void(bool)&gt;</type>
-        <definition>using MR::ViewerSignals::PostFocusSignal =  boost::signals2::signal&lt;void( bool )&gt;</definition>
-        <argsstring></argsstring>
-        <name>PostFocusSignal</name>
-        <qualifiedname>MR::ViewerSignals::PostFocusSignal</qualifiedname>
-        <briefdescription>
-<para>Window focus signal. </para>
-        </briefdescription>
-        <detaileddescription>
-<para>signal is called on touchpad zoom gesture end </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="88" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="88" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="structMR_1_1ViewerSignals_1a2b389ab14929627c8277c7af5a8b16b9" prot="public" static="no">
-        <type>boost::signals2::signal&lt; void()&gt;</type>
-        <definition>using MR::ViewerSignals::PreShutdownSignal =  boost::signals2::signal&lt;void()&gt;</definition>
-        <argsstring></argsstring>
-        <name>PreShutdownSignal</name>
-        <qualifiedname>MR::ViewerSignals::PreShutdownSignal</qualifiedname>
-        <briefdescription>
-<para>Before shutdown signal. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="91" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="91" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga1eda89f251264fcd4a837e688fdd8f85" kind="typedef"><name>SignalStopHandler</name></member>
+      <member refid="group__GeneralGroup_1ga3206deabe6f49f8a3acf059b7130a0fb" kind="typedef"><name>MouseUpDownSignal</name></member>
+      <member refid="group__GeneralGroup_1gac0c1bd273bc7918c1c5aaa17ee28185c" kind="typedef"><name>MouseMoveSignal</name></member>
+      <member refid="group__GeneralGroup_1ga9f30201f2d7ed3f6180ccf9c332d80cf" kind="typedef"><name>MouseScrollSignal</name></member>
+      <member refid="group__GeneralGroup_1ga635ab18f390475cfdf278794eae44fb6" kind="typedef"><name>CursorEntranceSignal</name></member>
+      <member refid="group__GeneralGroup_1gaa74e56ac086d42bf0be931fc3dfb3800" kind="typedef"><name>CharPressedSignal</name></member>
+      <member refid="group__GeneralGroup_1ga2c13f3f5f743830b0defe77be75a47f3" kind="typedef"><name>KeySignal</name></member>
+      <member refid="group__GeneralGroup_1ga01a10614f8eeeaabcc8e586facc221c5" kind="typedef"><name>SpaceMouseMoveSignal</name></member>
+      <member refid="group__GeneralGroup_1ga9743f62b8bb399b86d0706f5674164f3" kind="typedef"><name>SpaceMouseKeySignal</name></member>
+      <member refid="group__GeneralGroup_1gab4cc13259763aa7b86dd1dca2c8e1c02" kind="typedef"><name>RenderSignal</name></member>
+      <member refid="group__GeneralGroup_1gae6e1c375cf8551f7eb7c8525ac158503" kind="typedef"><name>ObjectsLoadedSignal</name></member>
+      <member refid="group__GeneralGroup_1gaa8b3ccf0007ef43e652abb9506dccb46" kind="typedef"><name>DragDropSignal</name></member>
+      <member refid="group__GeneralGroup_1ga934dc6f064f8166637a2372d0869e8eb" kind="typedef"><name>PostResizeSignal</name></member>
+      <member refid="group__GeneralGroup_1gaa4a87b5c59b1bea08fc9d88c53d837df" kind="typedef"><name>PostRescaleSignal</name></member>
+      <member refid="group__GeneralGroup_1gaab72a2d73997cd31feb9723a2a765448" kind="typedef"><name>InterruptCloseSignal</name></member>
+      <member refid="group__GeneralGroup_1ga6898cbf470bc706c1d83ad845f588934" kind="typedef"><name>TouchSignal</name></member>
+      <member refid="group__GeneralGroup_1ga230e0e88d7c06f2e72b2f9669eeb6020" kind="typedef"><name>TouchpadGestureBeginSignal</name></member>
+      <member refid="group__GeneralGroup_1ga1d051b0e5ed6812a2ffb4ac04ef0ce79" kind="typedef"><name>TouchpadGestureEndSignal</name></member>
+      <member refid="group__GeneralGroup_1gabb64623892545f3b6274abe20ff451cc" kind="typedef"><name>TouchpadRotateGestureUpdateSignal</name></member>
+      <member refid="group__GeneralGroup_1ga1e546ead723024bb7ccf8744881ccbaf" kind="typedef"><name>TouchpadSwipeGestureUpdateSignal</name></member>
+      <member refid="group__GeneralGroup_1ga817c538649e24045057f6bda35940837" kind="typedef"><name>TouchpadZoomGestureUpdateSignal</name></member>
+      <member refid="group__GeneralGroup_1ga6ab96bfc7a502dd6337ed16dcc9566a5" kind="typedef"><name>PostFocusSignal</name></member>
+      <member refid="group__GeneralGroup_1ga2b389ab14929627c8277c7af5a8b16b9" kind="typedef"><name>PreShutdownSignal</name></member>
     </sectiondef>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1ViewerSignals_1a42da6839fe10c9bf9756229bdfed4a9e" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1ViewerSignals_1a3206deabe6f49f8a3acf059b7130a0fb" kindref="member">MouseUpDownSignal</ref></type>
-        <definition>MouseUpDownSignal MR::ViewerSignals::mouseDownSignal</definition>
-        <argsstring></argsstring>
-        <name>mouseDownSignal</name>
-        <qualifiedname>MR::ViewerSignals::mouseDownSignal</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="16" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ViewerSignals_1a28dad40dee518e3fb6708f95a966bdc3" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1ViewerSignals_1a3206deabe6f49f8a3acf059b7130a0fb" kindref="member">MouseUpDownSignal</ref></type>
-        <definition>MouseUpDownSignal MR::ViewerSignals::mouseUpSignal</definition>
-        <argsstring></argsstring>
-        <name>mouseUpSignal</name>
-        <qualifiedname>MR::ViewerSignals::mouseUpSignal</qualifiedname>
-        <briefdescription>
-<para>signal is called on mouse down </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="17" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ViewerSignals_1a2458dcd3567d5b4979e0746ad10a4cdd" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1ViewerSignals_1ac0c1bd273bc7918c1c5aaa17ee28185c" kindref="member">MouseMoveSignal</ref></type>
-        <definition>MouseMoveSignal MR::ViewerSignals::mouseMoveSignal</definition>
-        <argsstring></argsstring>
-        <name>mouseMoveSignal</name>
-        <qualifiedname>MR::ViewerSignals::mouseMoveSignal</qualifiedname>
-        <briefdescription>
-<para>signal is called on mouse up </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="18" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ViewerSignals_1adcfb289fd724ae26e9e419d15291f2b7" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1ViewerSignals_1a9f30201f2d7ed3f6180ccf9c332d80cf" kindref="member">MouseScrollSignal</ref></type>
-        <definition>MouseScrollSignal MR::ViewerSignals::mouseScrollSignal</definition>
-        <argsstring></argsstring>
-        <name>mouseScrollSignal</name>
-        <qualifiedname>MR::ViewerSignals::mouseScrollSignal</qualifiedname>
-        <briefdescription>
-<para>signal is called on mouse move, note that input x and y are in screen space </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="19" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="19" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ViewerSignals_1a40ecb888c615946e5aa75801242da0a8" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1ViewerSignals_1a3206deabe6f49f8a3acf059b7130a0fb" kindref="member">MouseUpDownSignal</ref></type>
-        <definition>MouseUpDownSignal MR::ViewerSignals::mouseClickSignal</definition>
-        <argsstring></argsstring>
-        <name>mouseClickSignal</name>
-        <qualifiedname>MR::ViewerSignals::mouseClickSignal</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>signal is called on mouse is scrolled High-level mouse events for clicks and dragging, emitted by <ref refid="classMR_1_1MouseController" kindref="compound">MouseController</ref> When mouseClickSignal has connections, a small delay for click detection is introduced into camera operations and dragging Dragging starts if dragStartSignal is handled (returns true), and ends on button release When dragging is active, dragSignal and dragEndSignal are emitted instead of mouseMove and mouseUp mouseDown handler have priority over dragStart </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="25" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="25" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ViewerSignals_1aae56b491f3f0100f3e88b6b2806fb3da" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1ViewerSignals_1a3206deabe6f49f8a3acf059b7130a0fb" kindref="member">MouseUpDownSignal</ref></type>
-        <definition>MouseUpDownSignal MR::ViewerSignals::dragStartSignal</definition>
-        <argsstring></argsstring>
-        <name>dragStartSignal</name>
-        <qualifiedname>MR::ViewerSignals::dragStartSignal</qualifiedname>
-        <briefdescription>
-<para>signal is called when mouse button is pressed and immediately released </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="26" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="26" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ViewerSignals_1ac812c2b1b4cd3dfe07c2b48b996ff82d" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1ViewerSignals_1a3206deabe6f49f8a3acf059b7130a0fb" kindref="member">MouseUpDownSignal</ref></type>
-        <definition>MouseUpDownSignal MR::ViewerSignals::dragEndSignal</definition>
-        <argsstring></argsstring>
-        <name>dragEndSignal</name>
-        <qualifiedname>MR::ViewerSignals::dragEndSignal</qualifiedname>
-        <briefdescription>
-<para>signal is called when mouse button is pressed (deferred if click behavior is on) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="27" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="27" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ViewerSignals_1ad7a1d691e071128e55fad7beb88ad3a1" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1ViewerSignals_1ac0c1bd273bc7918c1c5aaa17ee28185c" kindref="member">MouseMoveSignal</ref></type>
-        <definition>MouseMoveSignal MR::ViewerSignals::dragSignal</definition>
-        <argsstring></argsstring>
-        <name>dragSignal</name>
-        <qualifiedname>MR::ViewerSignals::dragSignal</qualifiedname>
-        <briefdescription>
-<para>signal is called when mouse button used to start drag is released </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="28" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="28" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ViewerSignals_1ac75d41fe5d8cbd28ead59eed7f502398" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1ViewerSignals_1a635ab18f390475cfdf278794eae44fb6" kindref="member">CursorEntranceSignal</ref></type>
-        <definition>CursorEntranceSignal MR::ViewerSignals::cursorEntranceSignal</definition>
-        <argsstring></argsstring>
-        <name>cursorEntranceSignal</name>
-        <qualifiedname>MR::ViewerSignals::cursorEntranceSignal</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="31" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="31" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ViewerSignals_1ae4816cd353f0490019b33704a50e5e91" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1ViewerSignals_1aa74e56ac086d42bf0be931fc3dfb3800" kindref="member">CharPressedSignal</ref></type>
-        <definition>CharPressedSignal MR::ViewerSignals::charPressedSignal</definition>
-        <argsstring></argsstring>
-        <name>charPressedSignal</name>
-        <qualifiedname>MR::ViewerSignals::charPressedSignal</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="35" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="35" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ViewerSignals_1a72619aff4ce9d9898ca8df05c80dbdb2" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1ViewerSignals_1a2c13f3f5f743830b0defe77be75a47f3" kindref="member">KeySignal</ref></type>
-        <definition>KeySignal MR::ViewerSignals::keyUpSignal</definition>
-        <argsstring></argsstring>
-        <name>keyUpSignal</name>
-        <qualifiedname>MR::ViewerSignals::keyUpSignal</qualifiedname>
-        <briefdescription>
-<para>signal is called when unicode char on/is down/pressed for some time </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="36" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="36" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ViewerSignals_1af7ef8ba2679dfb40731927c1d9146ea5" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1ViewerSignals_1a2c13f3f5f743830b0defe77be75a47f3" kindref="member">KeySignal</ref></type>
-        <definition>KeySignal MR::ViewerSignals::keyDownSignal</definition>
-        <argsstring></argsstring>
-        <name>keyDownSignal</name>
-        <qualifiedname>MR::ViewerSignals::keyDownSignal</qualifiedname>
-        <briefdescription>
-<para>signal is called on key up </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="37" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="37" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ViewerSignals_1a53fb3871363cfdb55790facb59a23b26" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1ViewerSignals_1a2c13f3f5f743830b0defe77be75a47f3" kindref="member">KeySignal</ref></type>
-        <definition>KeySignal MR::ViewerSignals::keyRepeatSignal</definition>
-        <argsstring></argsstring>
-        <name>keyRepeatSignal</name>
-        <qualifiedname>MR::ViewerSignals::keyRepeatSignal</qualifiedname>
-        <briefdescription>
-<para>signal is called on key down </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="38" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="38" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ViewerSignals_1a751a1f7926a8ec7d0af12fc8d936a064" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1ViewerSignals_1a01a10614f8eeeaabcc8e586facc221c5" kindref="member">SpaceMouseMoveSignal</ref></type>
-        <definition>SpaceMouseMoveSignal MR::ViewerSignals::spaceMouseMoveSignal</definition>
-        <argsstring></argsstring>
-        <name>spaceMouseMoveSignal</name>
-        <qualifiedname>MR::ViewerSignals::spaceMouseMoveSignal</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="42" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="42" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ViewerSignals_1ac7f7aea2a410e63ed3b923af16182f30" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1ViewerSignals_1a9743f62b8bb399b86d0706f5674164f3" kindref="member">SpaceMouseKeySignal</ref></type>
-        <definition>SpaceMouseKeySignal MR::ViewerSignals::spaceMouseDownSignal</definition>
-        <argsstring></argsstring>
-        <name>spaceMouseDownSignal</name>
-        <qualifiedname>MR::ViewerSignals::spaceMouseDownSignal</qualifiedname>
-        <briefdescription>
-<para>signal is called on spacemouse 3d controller (joystick) move </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="43" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="43" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ViewerSignals_1a7388c69ef049ea2f7879af3ced31488e" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1ViewerSignals_1a9743f62b8bb399b86d0706f5674164f3" kindref="member">SpaceMouseKeySignal</ref></type>
-        <definition>SpaceMouseKeySignal MR::ViewerSignals::spaceMouseUpSignal</definition>
-        <argsstring></argsstring>
-        <name>spaceMouseUpSignal</name>
-        <qualifiedname>MR::ViewerSignals::spaceMouseUpSignal</qualifiedname>
-        <briefdescription>
-<para>signal is called on spacemouse key down </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="44" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="44" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ViewerSignals_1a564f0179111e77451dffcd10d5481bc3" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1ViewerSignals_1a9743f62b8bb399b86d0706f5674164f3" kindref="member">SpaceMouseKeySignal</ref></type>
-        <definition>SpaceMouseKeySignal MR::ViewerSignals::spaceMouseRepeatSignal</definition>
-        <argsstring></argsstring>
-        <name>spaceMouseRepeatSignal</name>
-        <qualifiedname>MR::ViewerSignals::spaceMouseRepeatSignal</qualifiedname>
-        <briefdescription>
-<para>signal is called on spacemouse key up </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="45" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="45" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ViewerSignals_1a647abf20003f8be5338c1a190a49e445" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1ViewerSignals_1ab4cc13259763aa7b86dd1dca2c8e1c02" kindref="member">RenderSignal</ref></type>
-        <definition>RenderSignal MR::ViewerSignals::preSetupViewSignal</definition>
-        <argsstring></argsstring>
-        <name>preSetupViewSignal</name>
-        <qualifiedname>MR::ViewerSignals::preSetupViewSignal</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="48" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="48" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ViewerSignals_1a910c00770e5f53a726734075ae156eb9" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1ViewerSignals_1ab4cc13259763aa7b86dd1dca2c8e1c02" kindref="member">RenderSignal</ref></type>
-        <definition>RenderSignal MR::ViewerSignals::preDrawSignal</definition>
-        <argsstring></argsstring>
-        <name>preDrawSignal</name>
-        <qualifiedname>MR::ViewerSignals::preDrawSignal</qualifiedname>
-        <briefdescription>
-<para>signal is called before viewports cleanup and camera setup, so one can customize camera XFs for this frame </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="49" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="49" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ViewerSignals_1a21ac98263c6771dddfb68cd71dbd62ef" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1ViewerSignals_1ab4cc13259763aa7b86dd1dca2c8e1c02" kindref="member">RenderSignal</ref></type>
-        <definition>RenderSignal MR::ViewerSignals::preDrawPostViewportSignal</definition>
-        <argsstring></argsstring>
-        <name>preDrawPostViewportSignal</name>
-        <qualifiedname>MR::ViewerSignals::preDrawPostViewportSignal</qualifiedname>
-        <briefdescription>
-<para>signal is called before scene draw (but after scene setup) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="50" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="50" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ViewerSignals_1acb21b4a2803048b1571b4632b7ef1464" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1ViewerSignals_1ab4cc13259763aa7b86dd1dca2c8e1c02" kindref="member">RenderSignal</ref></type>
-        <definition>RenderSignal MR::ViewerSignals::drawSignal</definition>
-        <argsstring></argsstring>
-        <name>drawSignal</name>
-        <qualifiedname>MR::ViewerSignals::drawSignal</qualifiedname>
-        <briefdescription>
-<para>signal is called before scene draw but after viewport.preDraw() </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="51" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="51" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ViewerSignals_1a98ff8e1aeea885b5a0b2910a3235b779" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1ViewerSignals_1ab4cc13259763aa7b86dd1dca2c8e1c02" kindref="member">RenderSignal</ref></type>
-        <definition>RenderSignal MR::ViewerSignals::postDrawPreViewportSignal</definition>
-        <argsstring></argsstring>
-        <name>postDrawPreViewportSignal</name>
-        <qualifiedname>MR::ViewerSignals::postDrawPreViewportSignal</qualifiedname>
-        <briefdescription>
-<para>signal is called on scene draw (after objects tree but before viewport.postDraw()) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="52" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="52" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ViewerSignals_1a7a39eb40c765e2285db19bf4a0afce85" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1ViewerSignals_1ab4cc13259763aa7b86dd1dca2c8e1c02" kindref="member">RenderSignal</ref></type>
-        <definition>RenderSignal MR::ViewerSignals::postDrawSignal</definition>
-        <argsstring></argsstring>
-        <name>postDrawSignal</name>
-        <qualifiedname>MR::ViewerSignals::postDrawSignal</qualifiedname>
-        <briefdescription>
-<para>signal is called after scene draw but after before viewport.postDraw() </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="53" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="53" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ViewerSignals_1a79cad3eac5390522405d1fe7aa44e4a0" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1ViewerSignals_1ae6e1c375cf8551f7eb7c8525ac158503" kindref="member">ObjectsLoadedSignal</ref></type>
-        <definition>ObjectsLoadedSignal MR::ViewerSignals::objectsLoadedSignal</definition>
-        <argsstring></argsstring>
-        <name>objectsLoadedSignal</name>
-        <qualifiedname>MR::ViewerSignals::objectsLoadedSignal</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="60" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="60" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ViewerSignals_1a0b3a8749017cb89a0b69effaf38412aa" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1ViewerSignals_1a635ab18f390475cfdf278794eae44fb6" kindref="member">CursorEntranceSignal</ref></type>
-        <definition>CursorEntranceSignal MR::ViewerSignals::dragEntranceSignal</definition>
-        <argsstring></argsstring>
-        <name>dragEntranceSignal</name>
-        <qualifiedname>MR::ViewerSignals::dragEntranceSignal</qualifiedname>
-        <briefdescription>
-<para>signal is called when objects are loaded by <ref refid="classMR_1_1Viewer_1ad86a2a35d8885c591472e0f38b19da35" kindref="member">Viewer::loadFiles</ref> function </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="61" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="61" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ViewerSignals_1a95d0e27f9aab44408c63f601cfe8beff" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1ViewerSignals_1ac0c1bd273bc7918c1c5aaa17ee28185c" kindref="member">MouseMoveSignal</ref></type>
-        <definition>MouseMoveSignal MR::ViewerSignals::dragOverSignal</definition>
-        <argsstring></argsstring>
-        <name>dragOverSignal</name>
-        <qualifiedname>MR::ViewerSignals::dragOverSignal</qualifiedname>
-        <briefdescription>
-<para>signal is called on drag enter/leave the window </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="62" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="62" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ViewerSignals_1a57fe4d6b8a69e76ac4e8628d3be288d9" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1ViewerSignals_1aa8b3ccf0007ef43e652abb9506dccb46" kindref="member">DragDropSignal</ref></type>
-        <definition>DragDropSignal MR::ViewerSignals::dragDropSignal</definition>
-        <argsstring></argsstring>
-        <name>dragDropSignal</name>
-        <qualifiedname>MR::ViewerSignals::dragDropSignal</qualifiedname>
-        <briefdescription>
-<para>signal is called on drag coordinate changed </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="63" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="63" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ViewerSignals_1a5af2323fdea7a481a60381fa74026462" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1ViewerSignals_1a934dc6f064f8166637a2372d0869e8eb" kindref="member">PostResizeSignal</ref></type>
-        <definition>PostResizeSignal MR::ViewerSignals::postResizeSignal</definition>
-        <argsstring></argsstring>
-        <name>postResizeSignal</name>
-        <qualifiedname>MR::ViewerSignals::postResizeSignal</qualifiedname>
-        <briefdescription>
-<para>signal is called on drag and drop file </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="64" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="64" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ViewerSignals_1ac7c8ff367d9f3af5f2d485da5afd76fc" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1ViewerSignals_1aa4a87b5c59b1bea08fc9d88c53d837df" kindref="member">PostRescaleSignal</ref></type>
-        <definition>PostRescaleSignal MR::ViewerSignals::postRescaleSignal</definition>
-        <argsstring></argsstring>
-        <name>postRescaleSignal</name>
-        <qualifiedname>MR::ViewerSignals::postRescaleSignal</qualifiedname>
-        <briefdescription>
-<para>signal is called after window resize </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="65" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="65" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ViewerSignals_1a767b5b53a8c950fb6255cdceef610393" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1ViewerSignals_1aab72a2d73997cd31feb9723a2a765448" kindref="member">InterruptCloseSignal</ref></type>
-        <definition>InterruptCloseSignal MR::ViewerSignals::interruptCloseSignal</definition>
-        <argsstring></argsstring>
-        <name>interruptCloseSignal</name>
-        <qualifiedname>MR::ViewerSignals::interruptCloseSignal</qualifiedname>
-        <briefdescription>
-<para>signal is called after window rescale </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="66" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="66" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ViewerSignals_1a2b051842d9d248f0db203a4ba0e45eec" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1ViewerSignals_1a6898cbf470bc706c1d83ad845f588934" kindref="member">TouchSignal</ref></type>
-        <definition>TouchSignal MR::ViewerSignals::touchStartSignal</definition>
-        <argsstring></argsstring>
-        <name>touchStartSignal</name>
-        <qualifiedname>MR::ViewerSignals::touchStartSignal</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="69" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="69" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ViewerSignals_1a3f2e00637d032a4a824be5f9e6b3c001" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1ViewerSignals_1a6898cbf470bc706c1d83ad845f588934" kindref="member">TouchSignal</ref></type>
-        <definition>TouchSignal MR::ViewerSignals::touchMoveSignal</definition>
-        <argsstring></argsstring>
-        <name>touchMoveSignal</name>
-        <qualifiedname>MR::ViewerSignals::touchMoveSignal</qualifiedname>
-        <briefdescription>
-<para>signal is called when any touch starts </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="70" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="70" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ViewerSignals_1aeac13baf9ff456dd4d0fc9845198c2c3" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1ViewerSignals_1a6898cbf470bc706c1d83ad845f588934" kindref="member">TouchSignal</ref></type>
-        <definition>TouchSignal MR::ViewerSignals::touchEndSignal</definition>
-        <argsstring></argsstring>
-        <name>touchEndSignal</name>
-        <qualifiedname>MR::ViewerSignals::touchEndSignal</qualifiedname>
-        <briefdescription>
-<para>signal is called when touch moves </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="71" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="71" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ViewerSignals_1a8583345bb7229baa1f8c3d5a9f054f1a" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1ViewerSignals_1a230e0e88d7c06f2e72b2f9669eeb6020" kindref="member">TouchpadGestureBeginSignal</ref></type>
-        <definition>TouchpadGestureBeginSignal MR::ViewerSignals::touchpadRotateGestureBeginSignal</definition>
-        <argsstring></argsstring>
-        <name>touchpadRotateGestureBeginSignal</name>
-        <qualifiedname>MR::ViewerSignals::touchpadRotateGestureBeginSignal</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="78" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="78" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ViewerSignals_1af027ab1420e7cbaa85b77fac9fe99b7f" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1ViewerSignals_1abb64623892545f3b6274abe20ff451cc" kindref="member">TouchpadRotateGestureUpdateSignal</ref></type>
-        <definition>TouchpadRotateGestureUpdateSignal MR::ViewerSignals::touchpadRotateGestureUpdateSignal</definition>
-        <argsstring></argsstring>
-        <name>touchpadRotateGestureUpdateSignal</name>
-        <qualifiedname>MR::ViewerSignals::touchpadRotateGestureUpdateSignal</qualifiedname>
-        <briefdescription>
-<para>signal is called on touchpad rotate gesture beginning </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="79" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="79" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ViewerSignals_1aec2623361d53a899b2aace77b421aa54" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1ViewerSignals_1a1d051b0e5ed6812a2ffb4ac04ef0ce79" kindref="member">TouchpadGestureEndSignal</ref></type>
-        <definition>TouchpadGestureEndSignal MR::ViewerSignals::touchpadRotateGestureEndSignal</definition>
-        <argsstring></argsstring>
-        <name>touchpadRotateGestureEndSignal</name>
-        <qualifiedname>MR::ViewerSignals::touchpadRotateGestureEndSignal</qualifiedname>
-        <briefdescription>
-<para>signal is called on touchpad rotate gesture update </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="80" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="80" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ViewerSignals_1a13abbe486372793642a20e2bf4c20aa8" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1ViewerSignals_1a230e0e88d7c06f2e72b2f9669eeb6020" kindref="member">TouchpadGestureBeginSignal</ref></type>
-        <definition>TouchpadGestureBeginSignal MR::ViewerSignals::touchpadSwipeGestureBeginSignal</definition>
-        <argsstring></argsstring>
-        <name>touchpadSwipeGestureBeginSignal</name>
-        <qualifiedname>MR::ViewerSignals::touchpadSwipeGestureBeginSignal</qualifiedname>
-        <briefdescription>
-<para>signal is called on touchpad rotate gesture end </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="81" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="81" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ViewerSignals_1affeb572bf3f2bafa409b227a20ae3103" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1ViewerSignals_1a1e546ead723024bb7ccf8744881ccbaf" kindref="member">TouchpadSwipeGestureUpdateSignal</ref></type>
-        <definition>TouchpadSwipeGestureUpdateSignal MR::ViewerSignals::touchpadSwipeGestureUpdateSignal</definition>
-        <argsstring></argsstring>
-        <name>touchpadSwipeGestureUpdateSignal</name>
-        <qualifiedname>MR::ViewerSignals::touchpadSwipeGestureUpdateSignal</qualifiedname>
-        <briefdescription>
-<para>signal is called on touchpad swipe gesture beginning </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="82" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="82" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ViewerSignals_1a2ea328f090dacb57609c073866d68237" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1ViewerSignals_1a1d051b0e5ed6812a2ffb4ac04ef0ce79" kindref="member">TouchpadGestureEndSignal</ref></type>
-        <definition>TouchpadGestureEndSignal MR::ViewerSignals::touchpadSwipeGestureEndSignal</definition>
-        <argsstring></argsstring>
-        <name>touchpadSwipeGestureEndSignal</name>
-        <qualifiedname>MR::ViewerSignals::touchpadSwipeGestureEndSignal</qualifiedname>
-        <briefdescription>
-<para>signal is called on touchpad swipe gesture update </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="83" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="83" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ViewerSignals_1afed5f65b7deca22eaca1e36ab13d3e07" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1ViewerSignals_1a230e0e88d7c06f2e72b2f9669eeb6020" kindref="member">TouchpadGestureBeginSignal</ref></type>
-        <definition>TouchpadGestureBeginSignal MR::ViewerSignals::touchpadZoomGestureBeginSignal</definition>
-        <argsstring></argsstring>
-        <name>touchpadZoomGestureBeginSignal</name>
-        <qualifiedname>MR::ViewerSignals::touchpadZoomGestureBeginSignal</qualifiedname>
-        <briefdescription>
-<para>signal is called on touchpad swipe gesture end </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="84" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="84" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ViewerSignals_1a1754ff1466422c3045747d8dc73627f4" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1ViewerSignals_1a817c538649e24045057f6bda35940837" kindref="member">TouchpadZoomGestureUpdateSignal</ref></type>
-        <definition>TouchpadZoomGestureUpdateSignal MR::ViewerSignals::touchpadZoomGestureUpdateSignal</definition>
-        <argsstring></argsstring>
-        <name>touchpadZoomGestureUpdateSignal</name>
-        <qualifiedname>MR::ViewerSignals::touchpadZoomGestureUpdateSignal</qualifiedname>
-        <briefdescription>
-<para>signal is called on touchpad zoom gesture beginning </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="85" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="85" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ViewerSignals_1aa3e862df8fc3eaf6bfff3caedbed9ddc" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1ViewerSignals_1a1d051b0e5ed6812a2ffb4ac04ef0ce79" kindref="member">TouchpadGestureEndSignal</ref></type>
-        <definition>TouchpadGestureEndSignal MR::ViewerSignals::touchpadZoomGestureEndSignal</definition>
-        <argsstring></argsstring>
-        <name>touchpadZoomGestureEndSignal</name>
-        <qualifiedname>MR::ViewerSignals::touchpadZoomGestureEndSignal</qualifiedname>
-        <briefdescription>
-<para>signal is called on touchpad zoom gesture update </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="86" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="86" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ViewerSignals_1a3d8fefdf076e60fd7238db07a198409b" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1ViewerSignals_1a6ab96bfc7a502dd6337ed16dcc9566a5" kindref="member">PostFocusSignal</ref></type>
-        <definition>PostFocusSignal MR::ViewerSignals::postFocusSignal</definition>
-        <argsstring></argsstring>
-        <name>postFocusSignal</name>
-        <qualifiedname>MR::ViewerSignals::postFocusSignal</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="89" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="89" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ViewerSignals_1a1034dba65d2faab3378f7af5fa30b218" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1ViewerSignals_1a2b389ab14929627c8277c7af5a8b16b9" kindref="member">PreShutdownSignal</ref></type>
-        <definition>PreShutdownSignal MR::ViewerSignals::preShutdownSignal</definition>
-        <argsstring></argsstring>
-        <name>preShutdownSignal</name>
-        <qualifiedname>MR::ViewerSignals::preShutdownSignal</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="92" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="92" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga42da6839fe10c9bf9756229bdfed4a9e" kind="variable"><name>mouseDownSignal</name></member>
+      <member refid="group__GeneralGroup_1ga28dad40dee518e3fb6708f95a966bdc3" kind="variable"><name>mouseUpSignal</name></member>
+      <member refid="group__GeneralGroup_1ga2458dcd3567d5b4979e0746ad10a4cdd" kind="variable"><name>mouseMoveSignal</name></member>
+      <member refid="group__GeneralGroup_1gadcfb289fd724ae26e9e419d15291f2b7" kind="variable"><name>mouseScrollSignal</name></member>
+      <member refid="group__GeneralGroup_1ga40ecb888c615946e5aa75801242da0a8" kind="variable"><name>mouseClickSignal</name></member>
+      <member refid="group__GeneralGroup_1gaae56b491f3f0100f3e88b6b2806fb3da" kind="variable"><name>dragStartSignal</name></member>
+      <member refid="group__GeneralGroup_1gac812c2b1b4cd3dfe07c2b48b996ff82d" kind="variable"><name>dragEndSignal</name></member>
+      <member refid="group__GeneralGroup_1gad7a1d691e071128e55fad7beb88ad3a1" kind="variable"><name>dragSignal</name></member>
+      <member refid="group__GeneralGroup_1gac75d41fe5d8cbd28ead59eed7f502398" kind="variable"><name>cursorEntranceSignal</name></member>
+      <member refid="group__GeneralGroup_1gae4816cd353f0490019b33704a50e5e91" kind="variable"><name>charPressedSignal</name></member>
+      <member refid="group__GeneralGroup_1ga72619aff4ce9d9898ca8df05c80dbdb2" kind="variable"><name>keyUpSignal</name></member>
+      <member refid="group__GeneralGroup_1gaf7ef8ba2679dfb40731927c1d9146ea5" kind="variable"><name>keyDownSignal</name></member>
+      <member refid="group__GeneralGroup_1ga53fb3871363cfdb55790facb59a23b26" kind="variable"><name>keyRepeatSignal</name></member>
+      <member refid="group__GeneralGroup_1ga751a1f7926a8ec7d0af12fc8d936a064" kind="variable"><name>spaceMouseMoveSignal</name></member>
+      <member refid="group__GeneralGroup_1gac7f7aea2a410e63ed3b923af16182f30" kind="variable"><name>spaceMouseDownSignal</name></member>
+      <member refid="group__GeneralGroup_1ga7388c69ef049ea2f7879af3ced31488e" kind="variable"><name>spaceMouseUpSignal</name></member>
+      <member refid="group__GeneralGroup_1ga564f0179111e77451dffcd10d5481bc3" kind="variable"><name>spaceMouseRepeatSignal</name></member>
+      <member refid="group__GeneralGroup_1ga647abf20003f8be5338c1a190a49e445" kind="variable"><name>preSetupViewSignal</name></member>
+      <member refid="group__GeneralGroup_1ga910c00770e5f53a726734075ae156eb9" kind="variable"><name>preDrawSignal</name></member>
+      <member refid="group__GeneralGroup_1ga21ac98263c6771dddfb68cd71dbd62ef" kind="variable"><name>preDrawPostViewportSignal</name></member>
+      <member refid="group__GeneralGroup_1gacb21b4a2803048b1571b4632b7ef1464" kind="variable"><name>drawSignal</name></member>
+      <member refid="group__GeneralGroup_1ga98ff8e1aeea885b5a0b2910a3235b779" kind="variable"><name>postDrawPreViewportSignal</name></member>
+      <member refid="group__GeneralGroup_1ga7a39eb40c765e2285db19bf4a0afce85" kind="variable"><name>postDrawSignal</name></member>
+      <member refid="group__GeneralGroup_1ga79cad3eac5390522405d1fe7aa44e4a0" kind="variable"><name>objectsLoadedSignal</name></member>
+      <member refid="group__GeneralGroup_1ga0b3a8749017cb89a0b69effaf38412aa" kind="variable"><name>dragEntranceSignal</name></member>
+      <member refid="group__GeneralGroup_1ga95d0e27f9aab44408c63f601cfe8beff" kind="variable"><name>dragOverSignal</name></member>
+      <member refid="group__GeneralGroup_1ga57fe4d6b8a69e76ac4e8628d3be288d9" kind="variable"><name>dragDropSignal</name></member>
+      <member refid="group__GeneralGroup_1ga5af2323fdea7a481a60381fa74026462" kind="variable"><name>postResizeSignal</name></member>
+      <member refid="group__GeneralGroup_1gac7c8ff367d9f3af5f2d485da5afd76fc" kind="variable"><name>postRescaleSignal</name></member>
+      <member refid="group__GeneralGroup_1ga767b5b53a8c950fb6255cdceef610393" kind="variable"><name>interruptCloseSignal</name></member>
+      <member refid="group__GeneralGroup_1ga2b051842d9d248f0db203a4ba0e45eec" kind="variable"><name>touchStartSignal</name></member>
+      <member refid="group__GeneralGroup_1ga3f2e00637d032a4a824be5f9e6b3c001" kind="variable"><name>touchMoveSignal</name></member>
+      <member refid="group__GeneralGroup_1gaeac13baf9ff456dd4d0fc9845198c2c3" kind="variable"><name>touchEndSignal</name></member>
+      <member refid="group__GeneralGroup_1ga8583345bb7229baa1f8c3d5a9f054f1a" kind="variable"><name>touchpadRotateGestureBeginSignal</name></member>
+      <member refid="group__GeneralGroup_1gaf027ab1420e7cbaa85b77fac9fe99b7f" kind="variable"><name>touchpadRotateGestureUpdateSignal</name></member>
+      <member refid="group__GeneralGroup_1gaec2623361d53a899b2aace77b421aa54" kind="variable"><name>touchpadRotateGestureEndSignal</name></member>
+      <member refid="group__GeneralGroup_1ga13abbe486372793642a20e2bf4c20aa8" kind="variable"><name>touchpadSwipeGestureBeginSignal</name></member>
+      <member refid="group__GeneralGroup_1gaffeb572bf3f2bafa409b227a20ae3103" kind="variable"><name>touchpadSwipeGestureUpdateSignal</name></member>
+      <member refid="group__GeneralGroup_1ga2ea328f090dacb57609c073866d68237" kind="variable"><name>touchpadSwipeGestureEndSignal</name></member>
+      <member refid="group__GeneralGroup_1gafed5f65b7deca22eaca1e36ab13d3e07" kind="variable"><name>touchpadZoomGestureBeginSignal</name></member>
+      <member refid="group__GeneralGroup_1ga1754ff1466422c3045747d8dc73627f4" kind="variable"><name>touchpadZoomGestureUpdateSignal</name></member>
+      <member refid="group__GeneralGroup_1gaa3e862df8fc3eaf6bfff3caedbed9ddc" kind="variable"><name>touchpadZoomGestureEndSignal</name></member>
+      <member refid="group__GeneralGroup_1ga3d8fefdf076e60fd7238db07a198409b" kind="variable"><name>postFocusSignal</name></member>
+      <member refid="group__GeneralGroup_1ga1034dba65d2faab3378f7af5fa30b218" kind="variable"><name>preShutdownSignal</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="9" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="10" bodyend="93"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="13" bodyend="96"/>
     <listofallmembers>
-      <member refid="structMR_1_1ViewerSignals_1aa74e56ac086d42bf0be931fc3dfb3800" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>CharPressedSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1ae4816cd353f0490019b33704a50e5e91" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>charPressedSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1a635ab18f390475cfdf278794eae44fb6" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>CursorEntranceSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1ac75d41fe5d8cbd28ead59eed7f502398" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>cursorEntranceSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1aa8b3ccf0007ef43e652abb9506dccb46" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>DragDropSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1a57fe4d6b8a69e76ac4e8628d3be288d9" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>dragDropSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1ac812c2b1b4cd3dfe07c2b48b996ff82d" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>dragEndSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1a0b3a8749017cb89a0b69effaf38412aa" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>dragEntranceSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1a95d0e27f9aab44408c63f601cfe8beff" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>dragOverSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1ad7a1d691e071128e55fad7beb88ad3a1" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>dragSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1aae56b491f3f0100f3e88b6b2806fb3da" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>dragStartSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1acb21b4a2803048b1571b4632b7ef1464" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>drawSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1aab72a2d73997cd31feb9723a2a765448" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>InterruptCloseSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1a767b5b53a8c950fb6255cdceef610393" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>interruptCloseSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1af7ef8ba2679dfb40731927c1d9146ea5" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>keyDownSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1a53fb3871363cfdb55790facb59a23b26" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>keyRepeatSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1a2c13f3f5f743830b0defe77be75a47f3" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>KeySignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1a72619aff4ce9d9898ca8df05c80dbdb2" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>keyUpSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1a40ecb888c615946e5aa75801242da0a8" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>mouseClickSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1a42da6839fe10c9bf9756229bdfed4a9e" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>mouseDownSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1ac0c1bd273bc7918c1c5aaa17ee28185c" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>MouseMoveSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1a2458dcd3567d5b4979e0746ad10a4cdd" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>mouseMoveSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1a9f30201f2d7ed3f6180ccf9c332d80cf" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>MouseScrollSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1adcfb289fd724ae26e9e419d15291f2b7" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>mouseScrollSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1a3206deabe6f49f8a3acf059b7130a0fb" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>MouseUpDownSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1a28dad40dee518e3fb6708f95a966bdc3" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>mouseUpSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1ae6e1c375cf8551f7eb7c8525ac158503" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>ObjectsLoadedSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1a79cad3eac5390522405d1fe7aa44e4a0" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>objectsLoadedSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1a98ff8e1aeea885b5a0b2910a3235b779" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>postDrawPreViewportSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1a7a39eb40c765e2285db19bf4a0afce85" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>postDrawSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1a6ab96bfc7a502dd6337ed16dcc9566a5" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>PostFocusSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1a3d8fefdf076e60fd7238db07a198409b" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>postFocusSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1aa4a87b5c59b1bea08fc9d88c53d837df" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>PostRescaleSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1ac7c8ff367d9f3af5f2d485da5afd76fc" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>postRescaleSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1a934dc6f064f8166637a2372d0869e8eb" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>PostResizeSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1a5af2323fdea7a481a60381fa74026462" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>postResizeSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1a21ac98263c6771dddfb68cd71dbd62ef" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>preDrawPostViewportSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1a910c00770e5f53a726734075ae156eb9" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>preDrawSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1a647abf20003f8be5338c1a190a49e445" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>preSetupViewSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1a2b389ab14929627c8277c7af5a8b16b9" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>PreShutdownSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1a1034dba65d2faab3378f7af5fa30b218" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>preShutdownSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1ab4cc13259763aa7b86dd1dca2c8e1c02" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>RenderSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1a1eda89f251264fcd4a837e688fdd8f85" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>SignalStopHandler</name></member>
-      <member refid="structMR_1_1ViewerSignals_1ac7f7aea2a410e63ed3b923af16182f30" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>spaceMouseDownSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1a9743f62b8bb399b86d0706f5674164f3" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>SpaceMouseKeySignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1a01a10614f8eeeaabcc8e586facc221c5" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>SpaceMouseMoveSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1a751a1f7926a8ec7d0af12fc8d936a064" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>spaceMouseMoveSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1a564f0179111e77451dffcd10d5481bc3" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>spaceMouseRepeatSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1a7388c69ef049ea2f7879af3ced31488e" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>spaceMouseUpSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1aeac13baf9ff456dd4d0fc9845198c2c3" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>touchEndSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1a3f2e00637d032a4a824be5f9e6b3c001" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>touchMoveSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1a230e0e88d7c06f2e72b2f9669eeb6020" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>TouchpadGestureBeginSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1a1d051b0e5ed6812a2ffb4ac04ef0ce79" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>TouchpadGestureEndSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1a8583345bb7229baa1f8c3d5a9f054f1a" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>touchpadRotateGestureBeginSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1aec2623361d53a899b2aace77b421aa54" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>touchpadRotateGestureEndSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1abb64623892545f3b6274abe20ff451cc" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>TouchpadRotateGestureUpdateSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1af027ab1420e7cbaa85b77fac9fe99b7f" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>touchpadRotateGestureUpdateSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1a13abbe486372793642a20e2bf4c20aa8" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>touchpadSwipeGestureBeginSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1a2ea328f090dacb57609c073866d68237" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>touchpadSwipeGestureEndSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1a1e546ead723024bb7ccf8744881ccbaf" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>TouchpadSwipeGestureUpdateSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1affeb572bf3f2bafa409b227a20ae3103" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>touchpadSwipeGestureUpdateSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1afed5f65b7deca22eaca1e36ab13d3e07" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>touchpadZoomGestureBeginSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1aa3e862df8fc3eaf6bfff3caedbed9ddc" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>touchpadZoomGestureEndSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1a817c538649e24045057f6bda35940837" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>TouchpadZoomGestureUpdateSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1a1754ff1466422c3045747d8dc73627f4" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>touchpadZoomGestureUpdateSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1a6898cbf470bc706c1d83ad845f588934" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>TouchSignal</name></member>
-      <member refid="structMR_1_1ViewerSignals_1a2b051842d9d248f0db203a4ba0e45eec" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>touchStartSignal</name></member>
+      <member refid="group__GeneralGroup_1gaa74e56ac086d42bf0be931fc3dfb3800" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>CharPressedSignal</name></member>
+      <member refid="group__GeneralGroup_1gae4816cd353f0490019b33704a50e5e91" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>charPressedSignal</name></member>
+      <member refid="group__GeneralGroup_1ga635ab18f390475cfdf278794eae44fb6" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>CursorEntranceSignal</name></member>
+      <member refid="group__GeneralGroup_1gac75d41fe5d8cbd28ead59eed7f502398" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>cursorEntranceSignal</name></member>
+      <member refid="group__GeneralGroup_1gaa8b3ccf0007ef43e652abb9506dccb46" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>DragDropSignal</name></member>
+      <member refid="group__GeneralGroup_1ga57fe4d6b8a69e76ac4e8628d3be288d9" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>dragDropSignal</name></member>
+      <member refid="group__GeneralGroup_1gac812c2b1b4cd3dfe07c2b48b996ff82d" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>dragEndSignal</name></member>
+      <member refid="group__GeneralGroup_1ga0b3a8749017cb89a0b69effaf38412aa" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>dragEntranceSignal</name></member>
+      <member refid="group__GeneralGroup_1ga95d0e27f9aab44408c63f601cfe8beff" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>dragOverSignal</name></member>
+      <member refid="group__GeneralGroup_1gad7a1d691e071128e55fad7beb88ad3a1" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>dragSignal</name></member>
+      <member refid="group__GeneralGroup_1gaae56b491f3f0100f3e88b6b2806fb3da" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>dragStartSignal</name></member>
+      <member refid="group__GeneralGroup_1gacb21b4a2803048b1571b4632b7ef1464" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>drawSignal</name></member>
+      <member refid="group__GeneralGroup_1gaab72a2d73997cd31feb9723a2a765448" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>InterruptCloseSignal</name></member>
+      <member refid="group__GeneralGroup_1ga767b5b53a8c950fb6255cdceef610393" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>interruptCloseSignal</name></member>
+      <member refid="group__GeneralGroup_1gaf7ef8ba2679dfb40731927c1d9146ea5" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>keyDownSignal</name></member>
+      <member refid="group__GeneralGroup_1ga53fb3871363cfdb55790facb59a23b26" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>keyRepeatSignal</name></member>
+      <member refid="group__GeneralGroup_1ga2c13f3f5f743830b0defe77be75a47f3" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>KeySignal</name></member>
+      <member refid="group__GeneralGroup_1ga72619aff4ce9d9898ca8df05c80dbdb2" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>keyUpSignal</name></member>
+      <member refid="group__GeneralGroup_1ga40ecb888c615946e5aa75801242da0a8" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>mouseClickSignal</name></member>
+      <member refid="group__GeneralGroup_1ga42da6839fe10c9bf9756229bdfed4a9e" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>mouseDownSignal</name></member>
+      <member refid="group__GeneralGroup_1gac0c1bd273bc7918c1c5aaa17ee28185c" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>MouseMoveSignal</name></member>
+      <member refid="group__GeneralGroup_1ga2458dcd3567d5b4979e0746ad10a4cdd" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>mouseMoveSignal</name></member>
+      <member refid="group__GeneralGroup_1ga9f30201f2d7ed3f6180ccf9c332d80cf" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>MouseScrollSignal</name></member>
+      <member refid="group__GeneralGroup_1gadcfb289fd724ae26e9e419d15291f2b7" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>mouseScrollSignal</name></member>
+      <member refid="group__GeneralGroup_1ga3206deabe6f49f8a3acf059b7130a0fb" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>MouseUpDownSignal</name></member>
+      <member refid="group__GeneralGroup_1ga28dad40dee518e3fb6708f95a966bdc3" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>mouseUpSignal</name></member>
+      <member refid="group__GeneralGroup_1gae6e1c375cf8551f7eb7c8525ac158503" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>ObjectsLoadedSignal</name></member>
+      <member refid="group__GeneralGroup_1ga79cad3eac5390522405d1fe7aa44e4a0" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>objectsLoadedSignal</name></member>
+      <member refid="group__GeneralGroup_1ga98ff8e1aeea885b5a0b2910a3235b779" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>postDrawPreViewportSignal</name></member>
+      <member refid="group__GeneralGroup_1ga7a39eb40c765e2285db19bf4a0afce85" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>postDrawSignal</name></member>
+      <member refid="group__GeneralGroup_1ga6ab96bfc7a502dd6337ed16dcc9566a5" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>PostFocusSignal</name></member>
+      <member refid="group__GeneralGroup_1ga3d8fefdf076e60fd7238db07a198409b" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>postFocusSignal</name></member>
+      <member refid="group__GeneralGroup_1gaa4a87b5c59b1bea08fc9d88c53d837df" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>PostRescaleSignal</name></member>
+      <member refid="group__GeneralGroup_1gac7c8ff367d9f3af5f2d485da5afd76fc" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>postRescaleSignal</name></member>
+      <member refid="group__GeneralGroup_1ga934dc6f064f8166637a2372d0869e8eb" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>PostResizeSignal</name></member>
+      <member refid="group__GeneralGroup_1ga5af2323fdea7a481a60381fa74026462" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>postResizeSignal</name></member>
+      <member refid="group__GeneralGroup_1ga21ac98263c6771dddfb68cd71dbd62ef" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>preDrawPostViewportSignal</name></member>
+      <member refid="group__GeneralGroup_1ga910c00770e5f53a726734075ae156eb9" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>preDrawSignal</name></member>
+      <member refid="group__GeneralGroup_1ga647abf20003f8be5338c1a190a49e445" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>preSetupViewSignal</name></member>
+      <member refid="group__GeneralGroup_1ga2b389ab14929627c8277c7af5a8b16b9" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>PreShutdownSignal</name></member>
+      <member refid="group__GeneralGroup_1ga1034dba65d2faab3378f7af5fa30b218" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>preShutdownSignal</name></member>
+      <member refid="group__GeneralGroup_1gab4cc13259763aa7b86dd1dca2c8e1c02" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>RenderSignal</name></member>
+      <member refid="group__GeneralGroup_1ga1eda89f251264fcd4a837e688fdd8f85" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>SignalStopHandler</name></member>
+      <member refid="group__GeneralGroup_1gac7f7aea2a410e63ed3b923af16182f30" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>spaceMouseDownSignal</name></member>
+      <member refid="group__GeneralGroup_1ga9743f62b8bb399b86d0706f5674164f3" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>SpaceMouseKeySignal</name></member>
+      <member refid="group__GeneralGroup_1ga01a10614f8eeeaabcc8e586facc221c5" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>SpaceMouseMoveSignal</name></member>
+      <member refid="group__GeneralGroup_1ga751a1f7926a8ec7d0af12fc8d936a064" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>spaceMouseMoveSignal</name></member>
+      <member refid="group__GeneralGroup_1ga564f0179111e77451dffcd10d5481bc3" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>spaceMouseRepeatSignal</name></member>
+      <member refid="group__GeneralGroup_1ga7388c69ef049ea2f7879af3ced31488e" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>spaceMouseUpSignal</name></member>
+      <member refid="group__GeneralGroup_1gaeac13baf9ff456dd4d0fc9845198c2c3" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>touchEndSignal</name></member>
+      <member refid="group__GeneralGroup_1ga3f2e00637d032a4a824be5f9e6b3c001" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>touchMoveSignal</name></member>
+      <member refid="group__GeneralGroup_1ga230e0e88d7c06f2e72b2f9669eeb6020" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>TouchpadGestureBeginSignal</name></member>
+      <member refid="group__GeneralGroup_1ga1d051b0e5ed6812a2ffb4ac04ef0ce79" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>TouchpadGestureEndSignal</name></member>
+      <member refid="group__GeneralGroup_1ga8583345bb7229baa1f8c3d5a9f054f1a" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>touchpadRotateGestureBeginSignal</name></member>
+      <member refid="group__GeneralGroup_1gaec2623361d53a899b2aace77b421aa54" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>touchpadRotateGestureEndSignal</name></member>
+      <member refid="group__GeneralGroup_1gabb64623892545f3b6274abe20ff451cc" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>TouchpadRotateGestureUpdateSignal</name></member>
+      <member refid="group__GeneralGroup_1gaf027ab1420e7cbaa85b77fac9fe99b7f" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>touchpadRotateGestureUpdateSignal</name></member>
+      <member refid="group__GeneralGroup_1ga13abbe486372793642a20e2bf4c20aa8" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>touchpadSwipeGestureBeginSignal</name></member>
+      <member refid="group__GeneralGroup_1ga2ea328f090dacb57609c073866d68237" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>touchpadSwipeGestureEndSignal</name></member>
+      <member refid="group__GeneralGroup_1ga1e546ead723024bb7ccf8744881ccbaf" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>TouchpadSwipeGestureUpdateSignal</name></member>
+      <member refid="group__GeneralGroup_1gaffeb572bf3f2bafa409b227a20ae3103" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>touchpadSwipeGestureUpdateSignal</name></member>
+      <member refid="group__GeneralGroup_1gafed5f65b7deca22eaca1e36ab13d3e07" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>touchpadZoomGestureBeginSignal</name></member>
+      <member refid="group__GeneralGroup_1gaa3e862df8fc3eaf6bfff3caedbed9ddc" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>touchpadZoomGestureEndSignal</name></member>
+      <member refid="group__GeneralGroup_1ga817c538649e24045057f6bda35940837" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>TouchpadZoomGestureUpdateSignal</name></member>
+      <member refid="group__GeneralGroup_1ga1754ff1466422c3045747d8dc73627f4" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>touchpadZoomGestureUpdateSignal</name></member>
+      <member refid="group__GeneralGroup_1ga6898cbf470bc706c1d83ad845f588934" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>TouchSignal</name></member>
+      <member refid="group__GeneralGroup_1ga2b051842d9d248f0db203a4ba0e45eec" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>touchStartSignal</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

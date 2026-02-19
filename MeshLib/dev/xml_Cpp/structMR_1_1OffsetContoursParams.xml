@@ -4,203 +4,33 @@
     <compoundname>MR::OffsetContoursParams</compoundname>
     <includes refid="MROffsetContours_8h" local="no">MROffsetContours.h</includes>
     <sectiondef kind="public-type">
-      <memberdef kind="enum" id="structMR_1_1OffsetContoursParams_1af7ce0ff6c24247a435c6742c785db972" prot="public" static="no" strong="yes">
-        <type></type>
-        <name>Type</name>
-        <qualifiedname>MR::OffsetContoursParams::Type</qualifiedname>
-        <enumvalue id="structMR_1_1OffsetContoursParams_1af7ce0ff6c24247a435c6742c785db972adfd0a82c4bf37b1e90b690a22a20692e" prot="public">
-          <name>Offset</name>
-          <briefdescription>
-<para>One-side signed offset, requires closed contours. </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="structMR_1_1OffsetContoursParams_1af7ce0ff6c24247a435c6742c785db972aea89b68c34ce4a63c0f77e17413c6e30" prot="public">
-          <name>Shell</name>
-          <briefdescription>
-<para>Two-side offset. </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-<para>type of offset </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" line="50" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" bodystart="51" bodyend="54"/>
-      </memberdef>
-      <memberdef kind="enum" id="structMR_1_1OffsetContoursParams_1a1edd2d4e6c07ebdd654ef43eeb7d3da8" prot="public" static="no" strong="yes">
-        <type></type>
-        <name>EndType</name>
-        <qualifiedname>MR::OffsetContoursParams::EndType</qualifiedname>
-        <enumvalue id="structMR_1_1OffsetContoursParams_1a1edd2d4e6c07ebdd654ef43eeb7d3da8ab7f41fc1412ad2ee75e9b2635d3b9d5c" prot="public">
-          <name>Round</name>
-          <briefdescription>
-<para>creates round ends (use <computeroutput>minAnglePrecision</computeroutput>) </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="structMR_1_1OffsetContoursParams_1a1edd2d4e6c07ebdd654ef43eeb7d3da8aeb334dca00e390e0d3ebf52d205807d7" prot="public">
-          <name>Cut</name>
-          <briefdescription>
-<para>creates sharp end (same as Round with <computeroutput>minAnglePrecision</computeroutput> &lt; 180 deg) </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-<para>type of offsetting on ends of non-closed contours </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" line="57" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" bodystart="58" bodyend="61"/>
-      </memberdef>
-      <memberdef kind="enum" id="structMR_1_1OffsetContoursParams_1a7211722e3debbfaa5ad3c7b9dfa090a4" prot="public" static="no" strong="yes">
-        <type></type>
-        <name>CornerType</name>
-        <qualifiedname>MR::OffsetContoursParams::CornerType</qualifiedname>
-        <enumvalue id="structMR_1_1OffsetContoursParams_1a7211722e3debbfaa5ad3c7b9dfa090a4ab7f41fc1412ad2ee75e9b2635d3b9d5c" prot="public">
-          <name>Round</name>
-          <briefdescription>
-<para>creates round corners (use <computeroutput>minAnglePrecision</computeroutput>) </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="structMR_1_1OffsetContoursParams_1a7211722e3debbfaa5ad3c7b9dfa090a4a60c17eb98355db0fe5ce016db6c6f444" prot="public">
-          <name>Sharp</name>
-          <briefdescription>
-<para>creates sharp connected corner (use <computeroutput>maxSharpAngle</computeroutput> as limit) </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-<para>type of positive offset curve in corners </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" line="64" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" bodystart="65" bodyend="68"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaf7ce0ff6c24247a435c6742c785db972" kind="enum"><name>Type</name></member>
+      <member refid="group__GeneralGroup_1ga1edd2d4e6c07ebdd654ef43eeb7d3da8" kind="enum"><name>EndType</name></member>
+      <member refid="group__GeneralGroup_1ga7211722e3debbfaa5ad3c7b9dfa090a4" kind="enum"><name>CornerType</name></member>
     </sectiondef>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1OffsetContoursParams_1aaa59d5575d36ccf9d5237292d79740c8" prot="public" static="no" mutable="no">
-        <type>enum <ref refid="structMR_1_1OffsetContoursParams_1af7ce0ff6c24247a435c6742c785db972" kindref="member">MR::OffsetContoursParams::Type</ref></type>
-        <definition>enum MR::OffsetContoursParams::Type MR::OffsetContoursParams::Offset</definition>
-        <argsstring></argsstring>
-        <name>Offset</name>
-        <qualifiedname>MR::OffsetContoursParams::Offset</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" line="54" column="22"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1OffsetContoursParams_1af426f64ab272d3866b6bfa747959ae49" prot="public" static="no" mutable="no">
-        <type>enum <ref refid="structMR_1_1OffsetContoursParams_1a1edd2d4e6c07ebdd654ef43eeb7d3da8" kindref="member">MR::OffsetContoursParams::EndType</ref></type>
-        <definition>enum MR::OffsetContoursParams::EndType MR::OffsetContoursParams::Round</definition>
-        <argsstring></argsstring>
-        <name>Round</name>
-        <qualifiedname>MR::OffsetContoursParams::Round</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" line="61" column="27"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1OffsetContoursParams_1a11a811849fd3702f4abc2c898b1fe5dc" prot="public" static="no" mutable="no">
-        <type>enum <ref refid="structMR_1_1OffsetContoursParams_1a7211722e3debbfaa5ad3c7b9dfa090a4" kindref="member">MR::OffsetContoursParams::CornerType</ref></type>
-        <definition>enum MR::OffsetContoursParams::CornerType MR::OffsetContoursParams::Round</definition>
-        <argsstring></argsstring>
-        <name>Round</name>
-        <qualifiedname>MR::OffsetContoursParams::Round</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" line="68" column="33"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1OffsetContoursParams_1a52ea8121bcdb1c1f7d2c638a77f9b9d9" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::OffsetContoursParams::minAnglePrecision</definition>
-        <argsstring></argsstring>
-        <name>minAnglePrecision</name>
-        <qualifiedname>MR::OffsetContoursParams::minAnglePrecision</qualifiedname>
-        <initializer>= PI_F / 9.0f</initializer>
-        <briefdescription>
-<para>precision of round corners and ends </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" line="71" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" bodystart="71" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1OffsetContoursParams_1a54d1e9aa48ca8acba1b89d63455ab630" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::OffsetContoursParams::maxSharpAngle</definition>
-        <argsstring></argsstring>
-        <name>maxSharpAngle</name>
-        <qualifiedname>MR::OffsetContoursParams::maxSharpAngle</qualifiedname>
-        <initializer>= PI_F * 2.0f / 3.0f</initializer>
-        <briefdescription>
-<para>limit for sharp corners connection </para>
-        </briefdescription>
-        <detaileddescription>
-<para>20 deg </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" line="73" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" bodystart="73" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1OffsetContoursParams_1a8f22257eec663355f415c139933b24e3" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1a3f87a9abf93ab132bc1ea3f939459b37" kindref="member">OffsetContoursVertMaps</ref> *</type>
-        <definition>OffsetContoursVertMaps* MR::OffsetContoursParams::indicesMap</definition>
-        <argsstring></argsstring>
-        <name>indicesMap</name>
-        <qualifiedname>MR::OffsetContoursParams::indicesMap</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-<para>120 deg </para>
-        </briefdescription>
-        <detaileddescription>
-<para>optional output that maps result contour ids to input contour ids </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" line="76" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" bodystart="76" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaaa59d5575d36ccf9d5237292d79740c8" kind="variable"><name>Offset</name></member>
+      <member refid="group__GeneralGroup_1gaf426f64ab272d3866b6bfa747959ae49" kind="variable"><name>Round</name></member>
+      <member refid="group__GeneralGroup_1ga11a811849fd3702f4abc2c898b1fe5dc" kind="variable"><name>Round</name></member>
+      <member refid="group__GeneralGroup_1ga52ea8121bcdb1c1f7d2c638a77f9b9d9" kind="variable"><name>minAnglePrecision</name></member>
+      <member refid="group__GeneralGroup_1ga54d1e9aa48ca8acba1b89d63455ab630" kind="variable"><name>maxSharpAngle</name></member>
+      <member refid="group__GeneralGroup_1ga8f22257eec663355f415c139933b24e3" kind="variable"><name>indicesMap</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" line="47" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" bodystart="48" bodyend="77"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" line="50" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" bodystart="51" bodyend="80"/>
     <listofallmembers>
-      <member refid="structMR_1_1OffsetContoursParams_1a7211722e3debbfaa5ad3c7b9dfa090a4" prot="public" virt="non-virtual"><scope>MR::OffsetContoursParams</scope><name>CornerType</name></member>
-      <member refid="structMR_1_1OffsetContoursParams_1a1edd2d4e6c07ebdd654ef43eeb7d3da8" prot="public" virt="non-virtual"><scope>MR::OffsetContoursParams</scope><name>EndType</name></member>
-      <member refid="structMR_1_1OffsetContoursParams_1a8f22257eec663355f415c139933b24e3" prot="public" virt="non-virtual"><scope>MR::OffsetContoursParams</scope><name>indicesMap</name></member>
-      <member refid="structMR_1_1OffsetContoursParams_1a54d1e9aa48ca8acba1b89d63455ab630" prot="public" virt="non-virtual"><scope>MR::OffsetContoursParams</scope><name>maxSharpAngle</name></member>
-      <member refid="structMR_1_1OffsetContoursParams_1a52ea8121bcdb1c1f7d2c638a77f9b9d9" prot="public" virt="non-virtual"><scope>MR::OffsetContoursParams</scope><name>minAnglePrecision</name></member>
-      <member refid="structMR_1_1OffsetContoursParams_1aaa59d5575d36ccf9d5237292d79740c8" prot="public" virt="non-virtual"><scope>MR::OffsetContoursParams</scope><name>Offset</name></member>
-      <member refid="structMR_1_1OffsetContoursParams_1af426f64ab272d3866b6bfa747959ae49" prot="public" virt="non-virtual"><scope>MR::OffsetContoursParams</scope><name>Round</name></member>
-      <member refid="structMR_1_1OffsetContoursParams_1a11a811849fd3702f4abc2c898b1fe5dc" prot="public" virt="non-virtual"><scope>MR::OffsetContoursParams</scope><name>Round</name></member>
-      <member refid="structMR_1_1OffsetContoursParams_1af7ce0ff6c24247a435c6742c785db972" prot="public" virt="non-virtual"><scope>MR::OffsetContoursParams</scope><name>Type</name></member>
+      <member refid="group__GeneralGroup_1ga7211722e3debbfaa5ad3c7b9dfa090a4" prot="public" virt="non-virtual"><scope>MR::OffsetContoursParams</scope><name>CornerType</name></member>
+      <member refid="group__GeneralGroup_1ga1edd2d4e6c07ebdd654ef43eeb7d3da8" prot="public" virt="non-virtual"><scope>MR::OffsetContoursParams</scope><name>EndType</name></member>
+      <member refid="group__GeneralGroup_1ga8f22257eec663355f415c139933b24e3" prot="public" virt="non-virtual"><scope>MR::OffsetContoursParams</scope><name>indicesMap</name></member>
+      <member refid="group__GeneralGroup_1ga54d1e9aa48ca8acba1b89d63455ab630" prot="public" virt="non-virtual"><scope>MR::OffsetContoursParams</scope><name>maxSharpAngle</name></member>
+      <member refid="group__GeneralGroup_1ga52ea8121bcdb1c1f7d2c638a77f9b9d9" prot="public" virt="non-virtual"><scope>MR::OffsetContoursParams</scope><name>minAnglePrecision</name></member>
+      <member refid="group__GeneralGroup_1gaaa59d5575d36ccf9d5237292d79740c8" prot="public" virt="non-virtual"><scope>MR::OffsetContoursParams</scope><name>Offset</name></member>
+      <member refid="group__GeneralGroup_1gaf426f64ab272d3866b6bfa747959ae49" prot="public" virt="non-virtual"><scope>MR::OffsetContoursParams</scope><name>Round</name></member>
+      <member refid="group__GeneralGroup_1ga11a811849fd3702f4abc2c898b1fe5dc" prot="public" virt="non-virtual"><scope>MR::OffsetContoursParams</scope><name>Round</name></member>
+      <member refid="group__GeneralGroup_1gaf7ce0ff6c24247a435c6742c785db972" prot="public" virt="non-virtual"><scope>MR::OffsetContoursParams</scope><name>Type</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -17,7 +17,7 @@
     <innergroup refid="group__MeshSubdivideGroup">Mesh Subdivide</innergroup>
     <sectiondef kind="func">
       <memberdef kind="function" id="group__MeshAlgorithmGroup_1gabd2f9988108fabef913d835c6c1385cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::straightenBoundary</definition>
         <argsstring>(Mesh &amp;mesh, EdgeId bd, float minNeiNormalsDot, float maxTriAspectRatio, FaceBitSet *newFaces=nullptr)</argsstring>
         <name>straightenBoundary</name>
@@ -54,7 +54,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoundary.h" line="15" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoundary.h" declline="15" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshAlgorithmGroup_1gac05a6a40f6f3f078e9ceb0870a399516" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> PointCloud</type>
+        <type>MRMESH_API PointCloud</type>
         <definition>MRMESH_API PointCloud MR::meshToPointCloud</definition>
         <argsstring>(const Mesh &amp;mesh, bool saveNormals=true, const VertBitSet *verts=nullptr)</argsstring>
         <name>meshToPointCloud</name>
@@ -80,7 +80,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshToPointCloud.h" line="10" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshToPointCloud.h" declline="10" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshToPointCloud.h" line="13" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshToPointCloud.h" declline="13" declcolumn="23"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

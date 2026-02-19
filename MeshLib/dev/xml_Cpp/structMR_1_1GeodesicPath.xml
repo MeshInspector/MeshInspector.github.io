@@ -20,7 +20,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" line="21" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" bodystart="21" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1GeodesicPath_1af134007969afd8d9e0854c05ab72e99b" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1a7798ef4dfda44362083b0aa66a45d6a3" kindref="member">SurfacePath</ref></type>
+        <type>SurfacePath</type>
         <definition>SurfacePath MR::GeodesicPath::mids</definition>
         <argsstring></argsstring>
         <name>mids</name>

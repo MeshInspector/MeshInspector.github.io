@@ -4,172 +4,30 @@
     <compoundname>MR::Pdf::ImageParams</compoundname>
     <includes refid="MRPdf_8h" local="no">MRPdf.h</includes>
     <sectiondef kind="public-type">
-      <memberdef kind="enum" id="structMR_1_1Pdf_1_1ImageParams_1ac62f55dffb41437f678f5417604d361f" prot="public" static="no" strong="yes">
-        <type></type>
-        <name>UniformScale</name>
-        <qualifiedname>MR::Pdf::ImageParams::UniformScale</qualifiedname>
-        <enumvalue id="structMR_1_1Pdf_1_1ImageParams_1ac62f55dffb41437f678f5417604d361fa6adf97f83acf6453d4a6a4b1070f3754" prot="public">
-          <name>None</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="structMR_1_1Pdf_1_1ImageParams_1ac62f55dffb41437f678f5417604d361fae82836abadfb4090798de99270897263" prot="public">
-          <name>FromWidth</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="structMR_1_1Pdf_1_1ImageParams_1ac62f55dffb41437f678f5417604d361fa729fb415472b2cb38cf56f33a887f406" prot="public">
-          <name>FromHeight</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="structMR_1_1Pdf_1_1ImageParams_1ac62f55dffb41437f678f5417604d361fa06b9281e396db002010bde1de57262eb" prot="public">
-          <name>Auto</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-<para>set height to keep same scale as width scale </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="135" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="136" bodyend="141"/>
-      </memberdef>
-      <memberdef kind="enum" id="structMR_1_1Pdf_1_1ImageParams_1accc7bf1ce246f1fbd6e61ebc148608da" prot="public" static="no" strong="yes">
-        <type></type>
-        <name>AlignmentVertical</name>
-        <qualifiedname>MR::Pdf::ImageParams::AlignmentVertical</qualifiedname>
-        <enumvalue id="structMR_1_1Pdf_1_1ImageParams_1accc7bf1ce246f1fbd6e61ebc148608daaa4ffdcf0dc1f31b9acaf295d75b51d00" prot="public">
-          <name>Top</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="structMR_1_1Pdf_1_1ImageParams_1accc7bf1ce246f1fbd6e61ebc148608daa4f1f6016fc9f3f2353c0cc7c67b292bd" prot="public">
-          <name>Center</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="structMR_1_1Pdf_1_1ImageParams_1accc7bf1ce246f1fbd6e61ebc148608daa2ad9d63b69c4a10a5cc9cad923133bc4" prot="public">
-          <name>Bottom</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="142" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="143" bodyend="147"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gac62f55dffb41437f678f5417604d361f" kind="enum"><name>UniformScale</name></member>
+      <member refid="group__GeneralGroup_1gaccc7bf1ce246f1fbd6e61ebc148608da" kind="enum"><name>AlignmentVertical</name></member>
     </sectiondef>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1Pdf_1_1ImageParams_1a5fa291c3e88b0bf52170920882cf86af" prot="public" static="no" mutable="no">
-        <type>Vector2f</type>
-        <definition>Vector2f MR::Pdf::ImageParams::size</definition>
-        <argsstring></argsstring>
-        <name>size</name>
-        <qualifiedname>MR::Pdf::ImageParams::size</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>image size in page space if == {0, 0} - use image size if .x or .y &lt; 0 use the available page size from the current cursor position (caption size is also accounted for) </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="131" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="131" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1Pdf_1_1ImageParams_1a014a28da293c9397a11d389e7e6659f0" prot="public" static="no" mutable="no">
-        <type>std::string</type>
-        <definition>std::string MR::Pdf::ImageParams::caption</definition>
-        <argsstring></argsstring>
-        <name>caption</name>
-        <qualifiedname>MR::Pdf::ImageParams::caption</qualifiedname>
-        <briefdescription>
-<para>caption if not empty - add caption under marks (if exist) or image. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="133" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="133" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1Pdf_1_1ImageParams_1a2e2b7315c96386e1c4bf6ac6358ebd12" prot="public" static="no" mutable="no">
-        <type>enum <ref refid="structMR_1_1Pdf_1_1ImageParams_1ac62f55dffb41437f678f5417604d361f" kindref="member">MR::Pdf::ImageParams::UniformScale</ref></type>
-        <definition>enum MR::Pdf::ImageParams::UniformScale MR::Pdf::ImageParams::uniformScale</definition>
-        <argsstring></argsstring>
-        <name>uniformScale</name>
-        <qualifiedname>MR::Pdf::ImageParams::uniformScale</qualifiedname>
-        <initializer>= <ref refid="structMR_1_1Pdf_1_1ImageParams_1ac62f55dffb41437f678f5417604d361fa6adf97f83acf6453d4a6a4b1070f3754" kindref="member">UniformScale::None</ref></initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="141" column="23"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1Pdf_1_1ImageParams_1a4539cd7cb0d2e7178a1c788e1ce4c43b" prot="public" static="no" mutable="no">
-        <type>enum <ref refid="structMR_1_1Pdf_1_1ImageParams_1accc7bf1ce246f1fbd6e61ebc148608da" kindref="member">MR::Pdf::ImageParams::AlignmentVertical</ref></type>
-        <definition>enum MR::Pdf::ImageParams::AlignmentVertical MR::Pdf::ImageParams::alignmentVertical</definition>
-        <argsstring></argsstring>
-        <name>alignmentVertical</name>
-        <qualifiedname>MR::Pdf::ImageParams::alignmentVertical</qualifiedname>
-        <initializer>= <ref refid="structMR_1_1Pdf_1_1ImageParams_1accc7bf1ce246f1fbd6e61ebc148608daaa4ffdcf0dc1f31b9acaf295d75b51d00" kindref="member">AlignmentVertical::Top</ref></initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="147" column="28"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1Pdf_1_1ImageParams_1a843c1626b5d850e2a8fef83bc77b097e" prot="public" static="no" mutable="no">
-        <type><ref refid="classMR_1_1Pdf_1a01f53b3d9e1d43e6470addb360f2e893" kindref="member">AlignmentHorizontal</ref></type>
-        <definition>AlignmentHorizontal MR::Pdf::ImageParams::alignmentHorizontal</definition>
-        <argsstring></argsstring>
-        <name>alignmentHorizontal</name>
-        <qualifiedname>MR::Pdf::ImageParams::alignmentHorizontal</qualifiedname>
-        <initializer>= <ref refid="classMR_1_1Pdf_1a01f53b3d9e1d43e6470addb360f2e893a945d5e233cf7d6240f6b783b36a374ff" kindref="member">AlignmentHorizontal::Left</ref></initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="148" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="148" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga5fa291c3e88b0bf52170920882cf86af" kind="variable"><name>size</name></member>
+      <member refid="group__GeneralGroup_1ga014a28da293c9397a11d389e7e6659f0" kind="variable"><name>caption</name></member>
+      <member refid="group__GeneralGroup_1ga2e2b7315c96386e1c4bf6ac6358ebd12" kind="variable"><name>uniformScale</name></member>
+      <member refid="group__GeneralGroup_1ga4539cd7cb0d2e7178a1c788e1ce4c43b" kind="variable"><name>alignmentVertical</name></member>
+      <member refid="group__GeneralGroup_1ga843c1626b5d850e2a8fef83bc77b097e" kind="variable"><name>alignmentHorizontal</name></member>
     </sectiondef>
     <briefdescription>
 <para>Parameters to adding image from file. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="126" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="127" bodyend="149"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="129" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="130" bodyend="152"/>
     <listofallmembers>
-      <member refid="structMR_1_1Pdf_1_1ImageParams_1a843c1626b5d850e2a8fef83bc77b097e" prot="public" virt="non-virtual"><scope>MR::Pdf::ImageParams</scope><name>alignmentHorizontal</name></member>
-      <member refid="structMR_1_1Pdf_1_1ImageParams_1accc7bf1ce246f1fbd6e61ebc148608da" prot="public" virt="non-virtual"><scope>MR::Pdf::ImageParams</scope><name>AlignmentVertical</name></member>
-      <member refid="structMR_1_1Pdf_1_1ImageParams_1a4539cd7cb0d2e7178a1c788e1ce4c43b" prot="public" virt="non-virtual"><scope>MR::Pdf::ImageParams</scope><name>alignmentVertical</name></member>
-      <member refid="structMR_1_1Pdf_1_1ImageParams_1a014a28da293c9397a11d389e7e6659f0" prot="public" virt="non-virtual"><scope>MR::Pdf::ImageParams</scope><name>caption</name></member>
-      <member refid="structMR_1_1Pdf_1_1ImageParams_1a5fa291c3e88b0bf52170920882cf86af" prot="public" virt="non-virtual"><scope>MR::Pdf::ImageParams</scope><name>size</name></member>
-      <member refid="structMR_1_1Pdf_1_1ImageParams_1ac62f55dffb41437f678f5417604d361f" prot="public" virt="non-virtual"><scope>MR::Pdf::ImageParams</scope><name>UniformScale</name></member>
-      <member refid="structMR_1_1Pdf_1_1ImageParams_1a2e2b7315c96386e1c4bf6ac6358ebd12" prot="public" virt="non-virtual"><scope>MR::Pdf::ImageParams</scope><name>uniformScale</name></member>
+      <member refid="group__GeneralGroup_1ga843c1626b5d850e2a8fef83bc77b097e" prot="public" virt="non-virtual"><scope>MR::Pdf::ImageParams</scope><name>alignmentHorizontal</name></member>
+      <member refid="group__GeneralGroup_1gaccc7bf1ce246f1fbd6e61ebc148608da" prot="public" virt="non-virtual"><scope>MR::Pdf::ImageParams</scope><name>AlignmentVertical</name></member>
+      <member refid="group__GeneralGroup_1ga4539cd7cb0d2e7178a1c788e1ce4c43b" prot="public" virt="non-virtual"><scope>MR::Pdf::ImageParams</scope><name>alignmentVertical</name></member>
+      <member refid="group__GeneralGroup_1ga014a28da293c9397a11d389e7e6659f0" prot="public" virt="non-virtual"><scope>MR::Pdf::ImageParams</scope><name>caption</name></member>
+      <member refid="group__GeneralGroup_1ga5fa291c3e88b0bf52170920882cf86af" prot="public" virt="non-virtual"><scope>MR::Pdf::ImageParams</scope><name>size</name></member>
+      <member refid="group__GeneralGroup_1gac62f55dffb41437f678f5417604d361f" prot="public" virt="non-virtual"><scope>MR::Pdf::ImageParams</scope><name>UniformScale</name></member>
+      <member refid="group__GeneralGroup_1ga2e2b7315c96386e1c4bf6ac6358ebd12" prot="public" virt="non-virtual"><scope>MR::Pdf::ImageParams</scope><name>uniformScale</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -57,7 +57,7 @@
             <type>typename T</type>
           </param>
         </templateparamlist>
-        <type><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; T * &gt;</type>
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; T * &gt;</type>
         <definition>Expected&lt; T * &gt; MR::UI::TestEngine::Entry::getAs</definition>
         <argsstring>(std::string_view selfName={})</argsstring>
         <name>getAs</name>
@@ -82,7 +82,7 @@
             <type>typename T</type>
           </param>
         </templateparamlist>
-        <type><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; const T * &gt;</type>
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; const T * &gt;</type>
         <definition>Expected&lt; const T * &gt; MR::UI::TestEngine::Entry::getAs</definition>
         <argsstring>(std::string_view selfName={}) const</argsstring>
         <name>getAs</name>
@@ -103,7 +103,7 @@
     </sectiondef>
     <sectiondef kind="private-func">
       <memberdef kind="function" id="structMR_1_1UI_1_1TestEngine_1_1Entry_1a509dd73bfad9ed2ea9d4924c5ccb44cb" prot="private" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API <ref refid="namespaceMR_1a7c86003c754649f6ef52d71fcfb9d382" kindref="member">Unexpected</ref>&lt; std::string &gt;</type>
+        <type>MRVIEWER_API <ref refid="group__GeneralGroup_1ga7c86003c754649f6ef52d71fcfb9d382" kindref="member">Unexpected</ref>&lt; std::string &gt;</type>
         <definition>MRVIEWER_API Unexpected&lt; std::string &gt; MR::UI::TestEngine::Entry::unexpected_</definition>
         <argsstring>(std::string_view selfName, std::string_view tKindName)</argsstring>
         <name>unexpected_</name>

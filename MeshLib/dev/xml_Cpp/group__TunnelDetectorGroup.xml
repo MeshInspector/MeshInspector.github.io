@@ -6,7 +6,7 @@
     <innerclass refid="structMR_1_1DetectTunnelSettings" prot="public">MR::DetectTunnelSettings</innerclass>
     <sectiondef kind="func">
       <memberdef kind="function" id="group__TunnelDetectorGroup_1ga7dd035558540c3818d6d69afc731f953" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; std::vector&lt; EdgeLoop &gt; &gt;</type>
+        <type>MRMESH_API Expected&lt; std::vector&lt; EdgeLoop &gt; &gt;</type>
         <definition>MRMESH_API Expected&lt; std::vector&lt; EdgeLoop &gt; &gt; MR::detectBasisTunnels</definition>
         <argsstring>(const MeshPart &amp;mp, EdgeMetric metric={}, ProgressCallback progressCallback={})</argsstring>
         <name>detectBasisTunnels</name>
@@ -35,7 +35,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTunnelDetector.h" line="18" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTunnelDetector.h" declline="18" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__TunnelDetectorGroup_1ga237ac3c26c32232e94cd5431869ccadc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; EdgeLoop &gt;</type>
+        <type>MRMESH_API Expected&lt; EdgeLoop &gt;</type>
         <definition>MRMESH_API Expected&lt; EdgeLoop &gt; MR::findSmallestMetricCoLoop</definition>
         <argsstring>(const MeshTopology &amp;topology, const EdgeLoop &amp;loop, const EdgeMetric &amp;metric, const FaceBitSet *region=nullptr)</argsstring>
         <name>findSmallestMetricCoLoop</name>
@@ -67,7 +67,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTunnelDetector.h" line="26" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTunnelDetector.h" declline="26" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__TunnelDetectorGroup_1gad2b33a572c4859f4df4922d782d63598" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; EdgeLoop &gt;</type>
+        <type>MRMESH_API Expected&lt; EdgeLoop &gt;</type>
         <definition>MRMESH_API Expected&lt; EdgeLoop &gt; MR::findShortestCoLoop</definition>
         <argsstring>(const MeshPart &amp;mp, const EdgeLoop &amp;loop)</argsstring>
         <name>findShortestCoLoop</name>
@@ -90,7 +90,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTunnelDetector.h" line="30" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTunnelDetector.h" declline="30" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__TunnelDetectorGroup_1ga0496ff6c99ea415eaab1b519264edaf0" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::vector&lt; EdgeLoop &gt;</type>
+        <type>MRMESH_API std::vector&lt; EdgeLoop &gt;</type>
         <definition>MRMESH_API std::vector&lt; EdgeLoop &gt; MR::findSmallestMetricEquivalentLoops</definition>
         <argsstring>(const MeshTopology &amp;topology, const EdgeLoop &amp;loop, const EdgeMetric &amp;metric, const FaceBitSet *region=nullptr)</argsstring>
         <name>findSmallestMetricEquivalentLoops</name>
@@ -122,7 +122,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTunnelDetector.h" line="37" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTunnelDetector.h" declline="37" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="group__TunnelDetectorGroup_1ga58a1b7a9d6de56cf7751d0509ef04452" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::vector&lt; EdgeLoop &gt;</type>
+        <type>MRMESH_API std::vector&lt; EdgeLoop &gt;</type>
         <definition>MRMESH_API std::vector&lt; EdgeLoop &gt; MR::findShortestEquivalentLoops</definition>
         <argsstring>(const MeshPart &amp;mp, const EdgeLoop &amp;loop)</argsstring>
         <name>findShortestEquivalentLoops</name>
@@ -145,7 +145,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTunnelDetector.h" line="41" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTunnelDetector.h" declline="41" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="group__TunnelDetectorGroup_1gaecd871a653e3af47a39e7017288eb69c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; FaceBitSet &gt;</type>
+        <type>MRMESH_API Expected&lt; FaceBitSet &gt;</type>
         <definition>MRMESH_API Expected&lt; FaceBitSet &gt; MR::detectTunnelFaces</definition>
         <argsstring>(const MeshPart &amp;mp, const DetectTunnelSettings &amp;settings={})</argsstring>
         <name>detectTunnelFaces</name>

@@ -5,55 +5,9 @@
     <basecompoundref refid="classMR_1_1RibbonMenuItem" prot="public" virt="non-virtual">MR::RibbonMenuItem</basecompoundref>
     <includes refid="MRRibbonSceneButtons_8h" local="no">MRRibbonSceneButtons.h</includes>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1RibbonSceneShowOnlyNext_1aa19e42c2e998d1d7389e7a6f859c2980" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::RibbonSceneShowOnlyNext::RibbonSceneShowOnlyNext</definition>
-        <argsstring>()</argsstring>
-        <name>RibbonSceneShowOnlyNext</name>
-        <qualifiedname>MR::RibbonSceneShowOnlyNext::RibbonSceneShowOnlyNext</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRRibbonSceneButtons.h" line="79" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RibbonSceneShowOnlyNext_1a91abe5224df3d02efdba386b1954ed51" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type>std::string</type>
-        <definition>virtual std::string MR::RibbonSceneShowOnlyNext::isAvailable</definition>
-        <argsstring>(const std::vector&lt; std::shared_ptr&lt; const Object &gt; &gt; &amp;objs) const override</argsstring>
-        <name>isAvailable</name>
-        <qualifiedname>MR::RibbonSceneShowOnlyNext::isAvailable</qualifiedname>
-        <reimplements refid="classMR_1_1ISceneStateCheck_1adedf10c80ddfebcb456559fa828065c0">isAvailable</reimplements>
-        <param>
-          <type>const std::vector&lt; std::shared_ptr&lt; const <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt; &amp;</type>
-        </param>
-        <briefdescription>
-<para>return empty string if all requirements are satisfied, otherwise return first unsatisfied requirement </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRRibbonSceneButtons.h" line="81" column="25"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RibbonSceneShowOnlyNext_1a2199b5a9a3cc9f2888ab7acc6262cbb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::RibbonSceneShowOnlyNext::action</definition>
-        <argsstring>() override</argsstring>
-        <name>action</name>
-        <qualifiedname>MR::RibbonSceneShowOnlyNext::action</qualifiedname>
-        <reimplements refid="classMR_1_1RibbonMenuItem_1a4af847e120965263839d2628cf7dd979">action</reimplements>
-        <briefdescription>
-<para>returns true if state of item changed </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRRibbonSceneButtons.h" line="84" column="18"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaa19e42c2e998d1d7389e7a6f859c2980" kind="function"><name>RibbonSceneShowOnlyNext</name></member>
+      <member refid="group__GeneralGroup_1ga91abe5224df3d02efdba386b1954ed51" kind="function"><name>isAvailable</name></member>
+      <member refid="group__GeneralGroup_1ga2199b5a9a3cc9f2888ab7acc6262cbb4" kind="function"><name>action</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -95,27 +49,27 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRRibbonSceneButtons.h" line="76" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRRibbonSceneButtons.h" bodystart="77" bodyend="85"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRRibbonSceneButtons.h" line="79" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRRibbonSceneButtons.h" bodystart="80" bodyend="88"/>
     <listofallmembers>
-      <member refid="classMR_1_1RibbonSceneShowOnlyNext_1a2199b5a9a3cc9f2888ab7acc6262cbb4" prot="public" virt="virtual"><scope>MR::RibbonSceneShowOnlyNext</scope><name>action</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1ac9fd2cbdcf5356c6fbb093464568afdc" prot="public" virt="virtual"><scope>MR::RibbonSceneShowOnlyNext</scope><name>blocking</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a1141be44babb4a13201487188c332668" prot="public" virt="virtual"><scope>MR::RibbonSceneShowOnlyNext</scope><name>dropItems</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a4799011be3410f46444164d6d00b966e" prot="public" virt="non-virtual"><scope>MR::RibbonSceneShowOnlyNext</scope><name>DropItemsList</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a2f25401d4b94a752bd63b79152673ab5" prot="protected" virt="non-virtual"><scope>MR::RibbonSceneShowOnlyNext</scope><name>dropList_</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a88f1487695e2012ebb1cacbc1a59775a" prot="public" virt="virtual"><scope>MR::RibbonSceneShowOnlyNext</scope><name>getDynamicTooltip</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a3b30bb82fe11901e3d971d3b761f5bf2" prot="public" virt="virtual"><scope>MR::RibbonSceneShowOnlyNext</scope><name>isActive</name></member>
-      <member refid="classMR_1_1RibbonSceneShowOnlyNext_1a91abe5224df3d02efdba386b1954ed51" prot="public" virt="virtual"><scope>MR::RibbonSceneShowOnlyNext</scope><name>isAvailable</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a957422a15704b2f8854bfd0b2d1ae76d" prot="public" virt="non-virtual"><scope>MR::RibbonSceneShowOnlyNext</scope><name>MR_DELETE_MOVE</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1abf4ea13c8983c44214b92a066e8b7659" prot="public" virt="non-virtual"><scope>MR::RibbonSceneShowOnlyNext</scope><name>name</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1ad3e0eda49eae11a9fba79187c62e07bb" prot="public" virt="non-virtual"><scope>MR::RibbonSceneShowOnlyNext</scope><name>RibbonMenuItem</name></member>
-      <member refid="classMR_1_1RibbonSceneShowOnlyNext_1aa19e42c2e998d1d7389e7a6f859c2980" prot="public" virt="non-virtual"><scope>MR::RibbonSceneShowOnlyNext</scope><name>RibbonSceneShowOnlyNext</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1af417cbe66b6559e5df0122377c5a3628" prot="public" virt="non-virtual"><scope>MR::RibbonSceneShowOnlyNext</scope><name>setDropItemsFromItemList</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1ab499c9049737793e6b1994048b99952c" prot="public" virt="non-virtual"><scope>MR::RibbonSceneShowOnlyNext</scope><name>setRibbonItemType</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a15b6a4b9f191b8716be1199364bb74e0" prot="public" virt="virtual"><scope>MR::RibbonSceneShowOnlyNext</scope><name>type</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a00b402da6dbcec7d6c97b5c6a16e3924" prot="protected" virt="non-virtual"><scope>MR::RibbonSceneShowOnlyNext</scope><name>type_</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a327958b76ec3d044202620beafe67c93" prot="public" virt="virtual"><scope>MR::RibbonSceneShowOnlyNext</scope><name>uiName</name></member>
-      <member refid="classMR_1_1ISceneStateCheck_1ad6d7bd5bc97dd4a629de5e0a33af3afe" prot="public" virt="virtual"><scope>MR::RibbonSceneShowOnlyNext</scope><name>~ISceneStateCheck</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1ac8074b75f1c764d041b11210b5b7541c" prot="public" virt="virtual"><scope>MR::RibbonSceneShowOnlyNext</scope><name>~RibbonMenuItem</name></member>
+      <member refid="group__GeneralGroup_1ga2199b5a9a3cc9f2888ab7acc6262cbb4" prot="public" virt="virtual"><scope>MR::RibbonSceneShowOnlyNext</scope><name>action</name></member>
+      <member refid="group__GeneralGroup_1gac9fd2cbdcf5356c6fbb093464568afdc" prot="public" virt="virtual"><scope>MR::RibbonSceneShowOnlyNext</scope><name>blocking</name></member>
+      <member refid="group__GeneralGroup_1ga1141be44babb4a13201487188c332668" prot="public" virt="virtual"><scope>MR::RibbonSceneShowOnlyNext</scope><name>dropItems</name></member>
+      <member refid="group__GeneralGroup_1ga4799011be3410f46444164d6d00b966e" prot="public" virt="non-virtual"><scope>MR::RibbonSceneShowOnlyNext</scope><name>DropItemsList</name></member>
+      <member refid="group__GeneralGroup_1ga2f25401d4b94a752bd63b79152673ab5" prot="protected" virt="non-virtual"><scope>MR::RibbonSceneShowOnlyNext</scope><name>dropList_</name></member>
+      <member refid="group__GeneralGroup_1ga88f1487695e2012ebb1cacbc1a59775a" prot="public" virt="virtual"><scope>MR::RibbonSceneShowOnlyNext</scope><name>getDynamicTooltip</name></member>
+      <member refid="group__GeneralGroup_1ga3b30bb82fe11901e3d971d3b761f5bf2" prot="public" virt="virtual"><scope>MR::RibbonSceneShowOnlyNext</scope><name>isActive</name></member>
+      <member refid="group__GeneralGroup_1ga91abe5224df3d02efdba386b1954ed51" prot="public" virt="virtual"><scope>MR::RibbonSceneShowOnlyNext</scope><name>isAvailable</name></member>
+      <member refid="group__GeneralGroup_1ga957422a15704b2f8854bfd0b2d1ae76d" prot="public" virt="non-virtual"><scope>MR::RibbonSceneShowOnlyNext</scope><name>MR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1gabf4ea13c8983c44214b92a066e8b7659" prot="public" virt="non-virtual"><scope>MR::RibbonSceneShowOnlyNext</scope><name>name</name></member>
+      <member refid="group__GeneralGroup_1gad3e0eda49eae11a9fba79187c62e07bb" prot="public" virt="non-virtual"><scope>MR::RibbonSceneShowOnlyNext</scope><name>RibbonMenuItem</name></member>
+      <member refid="group__GeneralGroup_1gaa19e42c2e998d1d7389e7a6f859c2980" prot="public" virt="non-virtual"><scope>MR::RibbonSceneShowOnlyNext</scope><name>RibbonSceneShowOnlyNext</name></member>
+      <member refid="group__GeneralGroup_1gaf417cbe66b6559e5df0122377c5a3628" prot="public" virt="non-virtual"><scope>MR::RibbonSceneShowOnlyNext</scope><name>setDropItemsFromItemList</name></member>
+      <member refid="group__GeneralGroup_1gab499c9049737793e6b1994048b99952c" prot="public" virt="non-virtual"><scope>MR::RibbonSceneShowOnlyNext</scope><name>setRibbonItemType</name></member>
+      <member refid="group__GeneralGroup_1ga15b6a4b9f191b8716be1199364bb74e0" prot="public" virt="virtual"><scope>MR::RibbonSceneShowOnlyNext</scope><name>type</name></member>
+      <member refid="group__GeneralGroup_1ga00b402da6dbcec7d6c97b5c6a16e3924" prot="protected" virt="non-virtual"><scope>MR::RibbonSceneShowOnlyNext</scope><name>type_</name></member>
+      <member refid="group__GeneralGroup_1ga327958b76ec3d044202620beafe67c93" prot="public" virt="virtual"><scope>MR::RibbonSceneShowOnlyNext</scope><name>uiName</name></member>
+      <member refid="group__GeneralGroup_1gad6d7bd5bc97dd4a629de5e0a33af3afe" prot="public" virt="virtual"><scope>MR::RibbonSceneShowOnlyNext</scope><name>~ISceneStateCheck</name></member>
+      <member refid="group__GeneralGroup_1gac8074b75f1c764d041b11210b5b7541c" prot="public" virt="virtual"><scope>MR::RibbonSceneShowOnlyNext</scope><name>~RibbonMenuItem</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -4,147 +4,30 @@
     <compoundname>MR::CompensateRadiusParams</compoundname>
     <includes refid="MRRadiusCompensation_8h" local="no">MRRadiusCompensation.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1CompensateRadiusParams_1a78eaf043f024883ea5ff487bc2d7ec50" prot="public" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::CompensateRadiusParams::direction</definition>
-        <argsstring></argsstring>
-        <name>direction</name>
-        <qualifiedname>MR::CompensateRadiusParams::direction</qualifiedname>
-        <briefdescription>
-<para>Z direction of milling tool. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusCompensation.h" line="14" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusCompensation.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1CompensateRadiusParams_1ae42deb31a3f4aa352b4df19396131a28" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::CompensateRadiusParams::toolRadius</definition>
-        <argsstring></argsstring>
-        <name>toolRadius</name>
-        <qualifiedname>MR::CompensateRadiusParams::toolRadius</qualifiedname>
-        <initializer>{ 0.0f }</initializer>
-        <briefdescription>
-<para>radius of spherical tool </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusCompensation.h" line="17" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusCompensation.h" bodystart="17" bodyend="17"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1CompensateRadiusParams_1a79fd0b044bab7c845859903f9e5da95b" prot="public" static="no" mutable="no">
-        <type>const FaceBitSet *</type>
-        <definition>const FaceBitSet* MR::CompensateRadiusParams::region</definition>
-        <argsstring></argsstring>
-        <name>region</name>
-        <qualifiedname>MR::CompensateRadiusParams::region</qualifiedname>
-        <initializer>{ nullptr }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>region of the mesh that will be compensated it should not contain closed components also please note that boundaries of the region are fixed </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusCompensation.h" line="22" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusCompensation.h" bodystart="22" bodyend="22"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1CompensateRadiusParams_1a3becc371ebe70ab58e91982390945d41" prot="public" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::CompensateRadiusParams::maxIterations</definition>
-        <argsstring></argsstring>
-        <name>maxIterations</name>
-        <qualifiedname>MR::CompensateRadiusParams::maxIterations</qualifiedname>
-        <initializer>{ 100 }</initializer>
-        <briefdescription>
-<para>maximum iteration of applying algorithm (each iteration improves result a little bit) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusCompensation.h" line="25" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusCompensation.h" bodystart="25" bodyend="25"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1CompensateRadiusParams_1adee28415a6ac7b943071cce3515545a2" prot="public" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::CompensateRadiusParams::relaxExpansion</definition>
-        <argsstring></argsstring>
-        <name>relaxExpansion</name>
-        <qualifiedname>MR::CompensateRadiusParams::relaxExpansion</qualifiedname>
-        <initializer>= 3</initializer>
-        <briefdescription>
-<para>how many hops to expand around each moved vertex for relaxation </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusCompensation.h" line="28" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusCompensation.h" bodystart="28" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1CompensateRadiusParams_1a05af941103d0a3f88ddcf7383bf82c67" prot="public" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::CompensateRadiusParams::relaxIterations</definition>
-        <argsstring></argsstring>
-        <name>relaxIterations</name>
-        <qualifiedname>MR::CompensateRadiusParams::relaxIterations</qualifiedname>
-        <initializer>= 5</initializer>
-        <briefdescription>
-<para>how many iterations of relax is applied on each compensation iteration </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusCompensation.h" line="31" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusCompensation.h" bodystart="31" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1CompensateRadiusParams_1a77908caf2d1de499c9dec6dbbbdc5737" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::CompensateRadiusParams::relaxForce</definition>
-        <argsstring></argsstring>
-        <name>relaxForce</name>
-        <qualifiedname>MR::CompensateRadiusParams::relaxForce</qualifiedname>
-        <initializer>= 0.3f</initializer>
-        <briefdescription>
-<para>force of relaxations on each compensation iteration </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusCompensation.h" line="34" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusCompensation.h" bodystart="34" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1CompensateRadiusParams_1adb2072e359a12815d6285187b399591d" prot="public" static="no" mutable="no">
-        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
-        <definition>ProgressCallback MR::CompensateRadiusParams::callback</definition>
-        <argsstring></argsstring>
-        <name>callback</name>
-        <qualifiedname>MR::CompensateRadiusParams::callback</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusCompensation.h" line="36" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusCompensation.h" bodystart="36" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga78eaf043f024883ea5ff487bc2d7ec50" kind="variable"><name>direction</name></member>
+      <member refid="group__GeneralGroup_1gae42deb31a3f4aa352b4df19396131a28" kind="variable"><name>toolRadius</name></member>
+      <member refid="group__GeneralGroup_1ga79fd0b044bab7c845859903f9e5da95b" kind="variable"><name>region</name></member>
+      <member refid="group__GeneralGroup_1ga3becc371ebe70ab58e91982390945d41" kind="variable"><name>maxIterations</name></member>
+      <member refid="group__GeneralGroup_1gadee28415a6ac7b943071cce3515545a2" kind="variable"><name>relaxExpansion</name></member>
+      <member refid="group__GeneralGroup_1ga05af941103d0a3f88ddcf7383bf82c67" kind="variable"><name>relaxIterations</name></member>
+      <member refid="group__GeneralGroup_1ga77908caf2d1de499c9dec6dbbbdc5737" kind="variable"><name>relaxForce</name></member>
+      <member refid="group__GeneralGroup_1gadb2072e359a12815d6285187b399591d" kind="variable"><name>callback</name></member>
     </sectiondef>
     <briefdescription>
 <para>structure with parameters for <computeroutput>compensateRadius</computeroutput> function </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusCompensation.h" line="11" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusCompensation.h" bodystart="12" bodyend="37"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusCompensation.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRadiusCompensation.h" bodystart="15" bodyend="40"/>
     <listofallmembers>
-      <member refid="structMR_1_1CompensateRadiusParams_1adb2072e359a12815d6285187b399591d" prot="public" virt="non-virtual"><scope>MR::CompensateRadiusParams</scope><name>callback</name></member>
-      <member refid="structMR_1_1CompensateRadiusParams_1a78eaf043f024883ea5ff487bc2d7ec50" prot="public" virt="non-virtual"><scope>MR::CompensateRadiusParams</scope><name>direction</name></member>
-      <member refid="structMR_1_1CompensateRadiusParams_1a3becc371ebe70ab58e91982390945d41" prot="public" virt="non-virtual"><scope>MR::CompensateRadiusParams</scope><name>maxIterations</name></member>
-      <member refid="structMR_1_1CompensateRadiusParams_1a79fd0b044bab7c845859903f9e5da95b" prot="public" virt="non-virtual"><scope>MR::CompensateRadiusParams</scope><name>region</name></member>
-      <member refid="structMR_1_1CompensateRadiusParams_1adee28415a6ac7b943071cce3515545a2" prot="public" virt="non-virtual"><scope>MR::CompensateRadiusParams</scope><name>relaxExpansion</name></member>
-      <member refid="structMR_1_1CompensateRadiusParams_1a77908caf2d1de499c9dec6dbbbdc5737" prot="public" virt="non-virtual"><scope>MR::CompensateRadiusParams</scope><name>relaxForce</name></member>
-      <member refid="structMR_1_1CompensateRadiusParams_1a05af941103d0a3f88ddcf7383bf82c67" prot="public" virt="non-virtual"><scope>MR::CompensateRadiusParams</scope><name>relaxIterations</name></member>
-      <member refid="structMR_1_1CompensateRadiusParams_1ae42deb31a3f4aa352b4df19396131a28" prot="public" virt="non-virtual"><scope>MR::CompensateRadiusParams</scope><name>toolRadius</name></member>
+      <member refid="group__GeneralGroup_1gadb2072e359a12815d6285187b399591d" prot="public" virt="non-virtual"><scope>MR::CompensateRadiusParams</scope><name>callback</name></member>
+      <member refid="group__GeneralGroup_1ga78eaf043f024883ea5ff487bc2d7ec50" prot="public" virt="non-virtual"><scope>MR::CompensateRadiusParams</scope><name>direction</name></member>
+      <member refid="group__GeneralGroup_1ga3becc371ebe70ab58e91982390945d41" prot="public" virt="non-virtual"><scope>MR::CompensateRadiusParams</scope><name>maxIterations</name></member>
+      <member refid="group__GeneralGroup_1ga79fd0b044bab7c845859903f9e5da95b" prot="public" virt="non-virtual"><scope>MR::CompensateRadiusParams</scope><name>region</name></member>
+      <member refid="group__GeneralGroup_1gadee28415a6ac7b943071cce3515545a2" prot="public" virt="non-virtual"><scope>MR::CompensateRadiusParams</scope><name>relaxExpansion</name></member>
+      <member refid="group__GeneralGroup_1ga77908caf2d1de499c9dec6dbbbdc5737" prot="public" virt="non-virtual"><scope>MR::CompensateRadiusParams</scope><name>relaxForce</name></member>
+      <member refid="group__GeneralGroup_1ga05af941103d0a3f88ddcf7383bf82c67" prot="public" virt="non-virtual"><scope>MR::CompensateRadiusParams</scope><name>relaxIterations</name></member>
+      <member refid="group__GeneralGroup_1gae42deb31a3f4aa352b4df19396131a28" prot="public" virt="non-virtual"><scope>MR::CompensateRadiusParams</scope><name>toolRadius</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

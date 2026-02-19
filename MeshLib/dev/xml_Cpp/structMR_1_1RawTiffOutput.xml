@@ -4,117 +4,13 @@
     <compoundname>MR::RawTiffOutput</compoundname>
     <includes refid="MRTiffIO_8h" local="no">MRTiffIO.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1RawTiffOutput_1a0246df3ced8b0fffb290eb2abf95bb96" prot="public" static="no" mutable="no">
-        <type>uint8_t *</type>
-        <definition>uint8_t* MR::RawTiffOutput::bytes</definition>
-        <argsstring></argsstring>
-        <name>bytes</name>
-        <qualifiedname>MR::RawTiffOutput::bytes</qualifiedname>
-        <initializer>{ nullptr }</initializer>
-        <briefdescription>
-<para>main output data, should be allocated </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" line="61" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" bodystart="61" bodyend="61"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1RawTiffOutput_1aee37c2713f2e293aaf18d6ff35a3ef2f" prot="public" static="no" mutable="no">
-        <type>size_t</type>
-        <definition>size_t MR::RawTiffOutput::size</definition>
-        <argsstring></argsstring>
-        <name>size</name>
-        <qualifiedname>MR::RawTiffOutput::size</qualifiedname>
-        <initializer>{ 0 }</initializer>
-        <briefdescription>
-<para>allocated data size </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" line="63" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" bodystart="63" bodyend="63"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1RawTiffOutput_1a4a46a4e341d9607035dd3b8e7f94b350" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1TiffParameters" kindref="compound">TiffParameters</ref> *</type>
-        <definition>TiffParameters* MR::RawTiffOutput::params</definition>
-        <argsstring></argsstring>
-        <name>params</name>
-        <qualifiedname>MR::RawTiffOutput::params</qualifiedname>
-        <initializer>{ nullptr }</initializer>
-        <briefdescription>
-<para>optional params output </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" line="65" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" bodystart="65" bodyend="65"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1RawTiffOutput_1a56a198effd90991eb70ce8c6707711dc" prot="public" static="no" mutable="no">
-        <type>AffineXf3f *</type>
-        <definition>AffineXf3f* MR::RawTiffOutput::p2wXf</definition>
-        <argsstring></argsstring>
-        <name>p2wXf</name>
-        <qualifiedname>MR::RawTiffOutput::p2wXf</qualifiedname>
-        <initializer>{ nullptr }</initializer>
-        <briefdescription>
-<para>optional pixel to world transform </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" line="67" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" bodystart="67" bodyend="67"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1RawTiffOutput_1a678bc6694cc6bc3d60c264d18d97e243" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::RawTiffOutput::convertToFloat</definition>
-        <argsstring></argsstring>
-        <name>convertToFloat</name>
-        <qualifiedname>MR::RawTiffOutput::convertToFloat</qualifiedname>
-        <initializer>{ true }</initializer>
-        <briefdescription>
-<para>input if true loads tiff file as floats array </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" line="69" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" bodystart="69" bodyend="69"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1RawTiffOutput_1a274e87eb13cf3064d528d5799b534c2d" prot="public" static="no" mutable="no">
-        <type>float *</type>
-        <definition>float* MR::RawTiffOutput::min</definition>
-        <argsstring></argsstring>
-        <name>min</name>
-        <qualifiedname>MR::RawTiffOutput::min</qualifiedname>
-        <initializer>{ nullptr }</initializer>
-        <briefdescription>
-<para>min max </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" line="71" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" bodystart="71" bodyend="71"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1RawTiffOutput_1ab63212231c28e54f0070c1283711a98a" prot="public" static="no" mutable="no">
-        <type>float *</type>
-        <definition>float* MR::RawTiffOutput::max</definition>
-        <argsstring></argsstring>
-        <name>max</name>
-        <qualifiedname>MR::RawTiffOutput::max</qualifiedname>
-        <initializer>{ nullptr }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" line="72" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" bodystart="72" bodyend="72"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga0246df3ced8b0fffb290eb2abf95bb96" kind="variable"><name>bytes</name></member>
+      <member refid="group__GeneralGroup_1gaee37c2713f2e293aaf18d6ff35a3ef2f" kind="variable"><name>size</name></member>
+      <member refid="group__GeneralGroup_1ga4a46a4e341d9607035dd3b8e7f94b350" kind="variable"><name>params</name></member>
+      <member refid="group__GeneralGroup_1ga56a198effd90991eb70ce8c6707711dc" kind="variable"><name>p2wXf</name></member>
+      <member refid="group__GeneralGroup_1ga678bc6694cc6bc3d60c264d18d97e243" kind="variable"><name>convertToFloat</name></member>
+      <member refid="group__GeneralGroup_1ga274e87eb13cf3064d528d5799b534c2d" kind="variable"><name>min</name></member>
+      <member refid="group__GeneralGroup_1gab63212231c28e54f0070c1283711a98a" kind="variable"><name>max</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -139,15 +35,15 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" line="58" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" bodystart="59" bodyend="73"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" line="61" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" bodystart="62" bodyend="76"/>
     <listofallmembers>
-      <member refid="structMR_1_1RawTiffOutput_1a0246df3ced8b0fffb290eb2abf95bb96" prot="public" virt="non-virtual"><scope>MR::RawTiffOutput</scope><name>bytes</name></member>
-      <member refid="structMR_1_1RawTiffOutput_1a678bc6694cc6bc3d60c264d18d97e243" prot="public" virt="non-virtual"><scope>MR::RawTiffOutput</scope><name>convertToFloat</name></member>
-      <member refid="structMR_1_1RawTiffOutput_1ab63212231c28e54f0070c1283711a98a" prot="public" virt="non-virtual"><scope>MR::RawTiffOutput</scope><name>max</name></member>
-      <member refid="structMR_1_1RawTiffOutput_1a274e87eb13cf3064d528d5799b534c2d" prot="public" virt="non-virtual"><scope>MR::RawTiffOutput</scope><name>min</name></member>
-      <member refid="structMR_1_1RawTiffOutput_1a56a198effd90991eb70ce8c6707711dc" prot="public" virt="non-virtual"><scope>MR::RawTiffOutput</scope><name>p2wXf</name></member>
-      <member refid="structMR_1_1RawTiffOutput_1a4a46a4e341d9607035dd3b8e7f94b350" prot="public" virt="non-virtual"><scope>MR::RawTiffOutput</scope><name>params</name></member>
-      <member refid="structMR_1_1RawTiffOutput_1aee37c2713f2e293aaf18d6ff35a3ef2f" prot="public" virt="non-virtual"><scope>MR::RawTiffOutput</scope><name>size</name></member>
+      <member refid="group__GeneralGroup_1ga0246df3ced8b0fffb290eb2abf95bb96" prot="public" virt="non-virtual"><scope>MR::RawTiffOutput</scope><name>bytes</name></member>
+      <member refid="group__GeneralGroup_1ga678bc6694cc6bc3d60c264d18d97e243" prot="public" virt="non-virtual"><scope>MR::RawTiffOutput</scope><name>convertToFloat</name></member>
+      <member refid="group__GeneralGroup_1gab63212231c28e54f0070c1283711a98a" prot="public" virt="non-virtual"><scope>MR::RawTiffOutput</scope><name>max</name></member>
+      <member refid="group__GeneralGroup_1ga274e87eb13cf3064d528d5799b534c2d" prot="public" virt="non-virtual"><scope>MR::RawTiffOutput</scope><name>min</name></member>
+      <member refid="group__GeneralGroup_1ga56a198effd90991eb70ce8c6707711dc" prot="public" virt="non-virtual"><scope>MR::RawTiffOutput</scope><name>p2wXf</name></member>
+      <member refid="group__GeneralGroup_1ga4a46a4e341d9607035dd3b8e7f94b350" prot="public" virt="non-virtual"><scope>MR::RawTiffOutput</scope><name>params</name></member>
+      <member refid="group__GeneralGroup_1gaee37c2713f2e293aaf18d6ff35a3ef2f" prot="public" virt="non-virtual"><scope>MR::RawTiffOutput</scope><name>size</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

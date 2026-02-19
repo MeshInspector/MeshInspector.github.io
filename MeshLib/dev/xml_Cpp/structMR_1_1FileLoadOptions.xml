@@ -4,100 +4,23 @@
     <compoundname>MR::FileLoadOptions</compoundname>
     <includes refid="MRFileLoadOptions_8h" local="no">MRFileLoadOptions.h</includes>
     <sectiondef kind="public-type">
-      <memberdef kind="enum" id="structMR_1_1FileLoadOptions_1a4febf8fb2b21426b895c77148a5ed6f4" prot="public" static="no" strong="yes">
-        <type></type>
-        <name>ReplaceMode</name>
-        <qualifiedname>MR::FileLoadOptions::ReplaceMode</qualifiedname>
-        <enumvalue id="structMR_1_1FileLoadOptions_1a4febf8fb2b21426b895c77148a5ed6f4a08d1322832298aa56fc96e27b2003820" prot="public">
-          <name>ContructionBased</name>
-          <briefdescription>
-<para>replace current scene if new one was loaded from single scene file </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="structMR_1_1FileLoadOptions_1a4febf8fb2b21426b895c77148a5ed6f4ac2dfc039a4d2a8f153df8c92aedbd450" prot="public">
-          <name>ForceReplace</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="structMR_1_1FileLoadOptions_1a4febf8fb2b21426b895c77148a5ed6f4ac721f662f0a128ee25ff11f554667a27" prot="public">
-          <name>ForceAdd</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFileLoadOptions.h" line="15" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFileLoadOptions.h" bodystart="16" bodyend="20"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga4febf8fb2b21426b895c77148a5ed6f4" kind="enum"><name>ReplaceMode</name></member>
     </sectiondef>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1FileLoadOptions_1ac870f86b867d1f462ca29dfd23d4e761" prot="public" static="no" mutable="no">
-        <type>const char *</type>
-        <definition>const char* MR::FileLoadOptions::undoPrefix</definition>
-        <argsstring></argsstring>
-        <name>undoPrefix</name>
-        <qualifiedname>MR::FileLoadOptions::undoPrefix</qualifiedname>
-        <initializer>= &quot;Open &quot;</initializer>
-        <briefdescription>
-<para>first part of undo name </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFileLoadOptions.h" line="13" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFileLoadOptions.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1FileLoadOptions_1a5cd3108431699d08603db992a2a923fc" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1FileLoadOptions_1a4febf8fb2b21426b895c77148a5ed6f4" kindref="member">ReplaceMode</ref></type>
-        <definition>ReplaceMode MR::FileLoadOptions::replaceMode</definition>
-        <argsstring></argsstring>
-        <name>replaceMode</name>
-        <qualifiedname>MR::FileLoadOptions::replaceMode</qualifiedname>
-        <initializer>= <ref refid="structMR_1_1FileLoadOptions_1a4febf8fb2b21426b895c77148a5ed6f4a08d1322832298aa56fc96e27b2003820" kindref="member">ReplaceMode::ContructionBased</ref></initializer>
-        <briefdescription>
-<para>Determines how to deal with current scene after loading new one. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFileLoadOptions.h" line="23" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFileLoadOptions.h" bodystart="23" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1FileLoadOptions_1a4f4d8061842e6e46c5aab4e281bf1ad4" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1a23cad89260f563924fc2715e193959c5" kindref="member">FilesLoadedCallback</ref></type>
-        <definition>FilesLoadedCallback MR::FileLoadOptions::loadedCallback</definition>
-        <argsstring></argsstring>
-        <name>loadedCallback</name>
-        <qualifiedname>MR::FileLoadOptions::loadedCallback</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>if this callback is set - it is called once when all objects are added to scene top level objects only are present here </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFileLoadOptions.h" line="27" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFileLoadOptions.h" bodystart="27" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gac870f86b867d1f462ca29dfd23d4e761" kind="variable"><name>undoPrefix</name></member>
+      <member refid="group__GeneralGroup_1ga5cd3108431699d08603db992a2a923fc" kind="variable"><name>replaceMode</name></member>
+      <member refid="group__GeneralGroup_1ga4f4d8061842e6e46c5aab4e281bf1ad4" kind="variable"><name>loadedCallback</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFileLoadOptions.h" line="10" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFileLoadOptions.h" bodystart="11" bodyend="28"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFileLoadOptions.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFileLoadOptions.h" bodystart="14" bodyend="31"/>
     <listofallmembers>
-      <member refid="structMR_1_1FileLoadOptions_1a4f4d8061842e6e46c5aab4e281bf1ad4" prot="public" virt="non-virtual"><scope>MR::FileLoadOptions</scope><name>loadedCallback</name></member>
-      <member refid="structMR_1_1FileLoadOptions_1a4febf8fb2b21426b895c77148a5ed6f4" prot="public" virt="non-virtual"><scope>MR::FileLoadOptions</scope><name>ReplaceMode</name></member>
-      <member refid="structMR_1_1FileLoadOptions_1a5cd3108431699d08603db992a2a923fc" prot="public" virt="non-virtual"><scope>MR::FileLoadOptions</scope><name>replaceMode</name></member>
-      <member refid="structMR_1_1FileLoadOptions_1ac870f86b867d1f462ca29dfd23d4e761" prot="public" virt="non-virtual"><scope>MR::FileLoadOptions</scope><name>undoPrefix</name></member>
+      <member refid="group__GeneralGroup_1ga4f4d8061842e6e46c5aab4e281bf1ad4" prot="public" virt="non-virtual"><scope>MR::FileLoadOptions</scope><name>loadedCallback</name></member>
+      <member refid="group__GeneralGroup_1ga4febf8fb2b21426b895c77148a5ed6f4" prot="public" virt="non-virtual"><scope>MR::FileLoadOptions</scope><name>ReplaceMode</name></member>
+      <member refid="group__GeneralGroup_1ga5cd3108431699d08603db992a2a923fc" prot="public" virt="non-virtual"><scope>MR::FileLoadOptions</scope><name>replaceMode</name></member>
+      <member refid="group__GeneralGroup_1gac870f86b867d1f462ca29dfd23d4e761" prot="public" virt="non-virtual"><scope>MR::FileLoadOptions</scope><name>undoPrefix</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

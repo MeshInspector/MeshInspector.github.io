@@ -287,21 +287,21 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="194" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" bodystart="195" bodyend="200"/>
     <listofallmembers>
       <member refid="classMR_1_1RenderFeatures_1_1RenderFeatureLinesComponent_1a7780f5f2881aa774435bb9e299ce6d99" prot="private" virt="non-virtual"><scope>MR::RenderFeatures::RenderFeatureLinesComponent</scope><name>Base</name></member>
-      <member refid="classMR_1_1RenderLinesObject_1a84c3a8d6e9caedfefff441da8809dec0" prot="public" virt="virtual"><scope>MR::RenderFeatures::RenderFeatureLinesComponent</scope><name>forceBindAll</name></member>
+      <member refid="group__GeneralGroup_1ga84c3a8d6e9caedfefff441da8809dec0" prot="public" virt="virtual"><scope>MR::RenderFeatures::RenderFeatureLinesComponent</scope><name>forceBindAll</name></member>
       <member refid="classMR_1_1RenderFeatures_1_1RenderFeatureLinesComponent_1a10691a67ce3667f2e4e0d7e5fda3550d" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderFeatureLinesComponent</scope><name>getLines</name></member>
-      <member refid="classMR_1_1RenderLinesObject_1a536334f5c2028c4b2480759621cc6e9a" prot="public" virt="virtual"><scope>MR::RenderFeatures::RenderFeatureLinesComponent</scope><name>glBytes</name></member>
-      <member refid="classMR_1_1RenderLinesObject_1a25db5445ddf1fea48fe51be05daa5605" prot="public" virt="virtual"><scope>MR::RenderFeatures::RenderFeatureLinesComponent</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1ga536334f5c2028c4b2480759621cc6e9a" prot="public" virt="virtual"><scope>MR::RenderFeatures::RenderFeatureLinesComponent</scope><name>glBytes</name></member>
+      <member refid="group__GeneralGroup_1ga25db5445ddf1fea48fe51be05daa5605" prot="public" virt="virtual"><scope>MR::RenderFeatures::RenderFeatureLinesComponent</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1RenderWrapObject_1_1Wrapper_1ab3a0e53c8d180bbb25650e0ac1544abf" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderFeatureLinesComponent</scope><name>operator=</name></member>
       <member refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent_1aac7d0eb9a73f28680925b75d122b66a4" prot="public" virt="virtual"><scope>MR::RenderFeatures::RenderFeatureLinesComponent</scope><name>render</name></member>
-      <member refid="classMR_1_1RenderLinesObject_1a58baf835fad2015a8cef32639cd2115d" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderFeatureLinesComponent</scope><name>RenderLinesObject</name></member>
+      <member refid="group__GeneralGroup_1ga58baf835fad2015a8cef32639cd2115d" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderFeatureLinesComponent</scope><name>RenderLinesObject</name></member>
       <member refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent_1a7223265f55a1d01543ece7518bc011ff" prot="public" virt="virtual"><scope>MR::RenderFeatures::RenderFeatureLinesComponent</scope><name>renderPicker</name></member>
-      <member refid="classMR_1_1IRenderObject_1a82fb37eb78d6e11f1b41f3fc2a99c5eb" prot="public" virt="virtual"><scope>MR::RenderFeatures::RenderFeatureLinesComponent</scope><name>renderUi</name></member>
+      <member refid="group__GeneralGroup_1ga82fb37eb78d6e11f1b41f3fc2a99c5eb" prot="public" virt="virtual"><scope>MR::RenderFeatures::RenderFeatureLinesComponent</scope><name>renderUi</name></member>
       <member refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent_1afbeda6ef29a8b84bed77e748228e20e7" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderFeatureLinesComponent</scope><name>shouldRender</name></member>
       <member refid="structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage_1aefbb8b64a400a9acc5e776111c7ae297" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderFeatureLinesComponent</scope><name>subobject</name></member>
       <member refid="classMR_1_1RenderWrapObject_1_1Wrapper_1a1513e9da308ecba00c67324e0c0cf39b" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderFeatureLinesComponent</scope><name>Wrapper</name></member>
       <member refid="classMR_1_1RenderWrapObject_1_1Wrapper_1ad13b52643d115db231f4501231b97765" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderFeatureLinesComponent</scope><name>Wrapper</name></member>
-      <member refid="classMR_1_1IRenderObject_1acb87b662f59e2d557580f2ad1f38fa7a" prot="public" virt="virtual"><scope>MR::RenderFeatures::RenderFeatureLinesComponent</scope><name>~IRenderObject</name></member>
-      <member refid="classMR_1_1RenderLinesObject_1a72fd92c9c31f2a2920ea89af4c0e4885" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderFeatureLinesComponent</scope><name>~RenderLinesObject</name></member>
+      <member refid="group__GeneralGroup_1gacb87b662f59e2d557580f2ad1f38fa7a" prot="public" virt="virtual"><scope>MR::RenderFeatures::RenderFeatureLinesComponent</scope><name>~IRenderObject</name></member>
+      <member refid="group__GeneralGroup_1ga72fd92c9c31f2a2920ea89af4c0e4885" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderFeatureLinesComponent</scope><name>~RenderLinesObject</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

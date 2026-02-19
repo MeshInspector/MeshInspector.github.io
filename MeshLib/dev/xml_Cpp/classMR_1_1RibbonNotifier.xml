@@ -6,429 +6,66 @@
     <innerclass refid="structMR_1_1RibbonNotifier_1_1DrawNotificationSettings" prot="private">MR::RibbonNotifier::DrawNotificationSettings</innerclass>
     <innerclass refid="structMR_1_1RibbonNotifier_1_1NotificationWithTimer" prot="private">MR::RibbonNotifier::NotificationWithTimer</innerclass>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="classMR_1_1RibbonNotifier_1ab63838c73f526f97b5d11fd8d3c7237d" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::RibbonNotifier::defaultNotificationLifeTimeSeconds</definition>
-        <argsstring></argsstring>
-        <name>defaultNotificationLifeTimeSeconds</name>
-        <qualifiedname>MR::RibbonNotifier::defaultNotificationLifeTimeSeconds</qualifiedname>
-        <initializer>= 5.0f</initializer>
-        <briefdescription>
-<para>this value is used as notification <computeroutput>lifeTimeSec</computeroutput> if negative values passed </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" line="78" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" bodystart="78" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RibbonNotifier_1a548d212115b7460a9bf8f321f79d7029" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1a6c80d0a515c43e830301ff170377a44e" kindref="member">NotificationTagMask</ref></type>
-        <definition>NotificationTagMask MR::RibbonNotifier::allowedTagMask</definition>
-        <argsstring></argsstring>
-        <name>allowedTagMask</name>
-        <qualifiedname>MR::RibbonNotifier::allowedTagMask</qualifiedname>
-        <initializer>= <ref refid="structMR_1_1NotificationTags_1afb89f8ecc2e2d580f7447ab6d7fb0bf7a5b9be82a1acc4be0e293f6d175610d3d" kindref="member">NotificationTags::Default</ref></initializer>
-        <briefdescription>
-<para>this mask is used to control allowed notifications by filtering with tags </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" line="81" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" bodystart="81" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RibbonNotifier_1a581e82760738b4f3ce80e1a6f9665cd0" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1ad2f3bc10761d952926925127eb80d902" kindref="member">RibbonNotificationCorner</ref></type>
-        <definition>RibbonNotificationCorner MR::RibbonNotifier::cornerPosition</definition>
-        <argsstring></argsstring>
-        <name>cornerPosition</name>
-        <qualifiedname>MR::RibbonNotifier::cornerPosition</qualifiedname>
-        <initializer>= <ref refid="namespaceMR_1ad2f3bc10761d952926925127eb80d902aa8594fd8be60c94e1a2607fa0fa50fae" kindref="member">RibbonNotificationCorner::LowerLeft</ref></initializer>
-        <briefdescription>
-<para>position of notifications on screen </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" line="84" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" bodystart="84" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gab63838c73f526f97b5d11fd8d3c7237d" kind="variable"><name>defaultNotificationLifeTimeSeconds</name></member>
+      <member refid="group__GeneralGroup_1ga548d212115b7460a9bf8f321f79d7029" kind="variable"><name>allowedTagMask</name></member>
+      <member refid="group__GeneralGroup_1ga581e82760738b4f3ce80e1a6f9665cd0" kind="variable"><name>cornerPosition</name></member>
     </sectiondef>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1RibbonNotifier_1a95ca012d8580322841b0aef05dbadb97" prot="private" static="no" mutable="no">
-        <type>std::vector&lt; NotificationWithTimer &gt;</type>
-        <definition>std::vector&lt;NotificationWithTimer&gt; MR::RibbonNotifier::notifications_</definition>
-        <argsstring></argsstring>
-        <name>notifications_</name>
-        <qualifiedname>MR::RibbonNotifier::notifications_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" line="92" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" bodystart="92" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RibbonNotifier_1a8ccd510b77d8bc07cb2d29398702640c" prot="private" static="no" mutable="no">
-        <type>std::vector&lt; NotificationWithTimer &gt;</type>
-        <definition>std::vector&lt;NotificationWithTimer&gt; MR::RibbonNotifier::notificationsHistory_</definition>
-        <argsstring></argsstring>
-        <name>notificationsHistory_</name>
-        <qualifiedname>MR::RibbonNotifier::notificationsHistory_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" line="93" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" bodystart="93" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RibbonNotifier_1ab30e08803d4a632872c4d2410742632b" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::RibbonNotifier::requestRedraw_</definition>
-        <argsstring></argsstring>
-        <name>requestRedraw_</name>
-        <qualifiedname>MR::RibbonNotifier::requestRedraw_</qualifiedname>
-        <initializer>= false</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" line="94" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" bodystart="94" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RibbonNotifier_1a3fcec3c2e05e33b401e3395e19cff967" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::RibbonNotifier::historyMode_</definition>
-        <argsstring></argsstring>
-        <name>historyMode_</name>
-        <qualifiedname>MR::RibbonNotifier::historyMode_</qualifiedname>
-        <initializer>= false</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" line="95" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" bodystart="95" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RibbonNotifier_1a5a849aeed9f8899310a2b1b820e3e794" prot="private" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::RibbonNotifier::showHistoryBtnMaxTime_</definition>
-        <argsstring></argsstring>
-        <name>showHistoryBtnMaxTime_</name>
-        <qualifiedname>MR::RibbonNotifier::showHistoryBtnMaxTime_</qualifiedname>
-        <initializer>{ -1.0f }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" line="97" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" bodystart="97" bodyend="97"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RibbonNotifier_1a8b751e8093d0afa541af607d82293337" prot="private" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::RibbonNotifier::currentHistoryBtnTimer_</definition>
-        <argsstring></argsstring>
-        <name>currentHistoryBtnTimer_</name>
-        <qualifiedname>MR::RibbonNotifier::currentHistoryBtnTimer_</qualifiedname>
-        <initializer>{ -1.0f }</initializer>
-        <briefdescription>
-<para>negative value here means that there is no need to hide history button </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" line="98" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" bodystart="98" bodyend="98"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RibbonNotifier_1aa62ac001cd4b9753e730f11b49fa4cac" prot="private" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1a200de30e6095463279bfb030e610864b" kindref="member">Time</ref></type>
-        <definition>Time MR::RibbonNotifier::requestedTime_</definition>
-        <argsstring></argsstring>
-        <name>requestedTime_</name>
-        <qualifiedname>MR::RibbonNotifier::requestedTime_</qualifiedname>
-        <initializer>{ Time::max() }</initializer>
-        <briefdescription>
-<para>update to validly hide the button </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" line="100" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" bodystart="100" bodyend="100"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RibbonNotifier_1a62264c11201bbf30ec6692ac5bd2cf41" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1AsyncRequest" kindref="compound">AsyncRequest</ref></type>
-        <definition>AsyncRequest MR::RibbonNotifier::asyncRequest_</definition>
-        <argsstring></argsstring>
-        <name>asyncRequest_</name>
-        <qualifiedname>MR::RibbonNotifier::asyncRequest_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" line="101" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" bodystart="101" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RibbonNotifier_1a950949307dff073f1d583a724cf4a9d9" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::RibbonNotifier::scrollDownNeeded_</definition>
-        <argsstring></argsstring>
-        <name>scrollDownNeeded_</name>
-        <qualifiedname>MR::RibbonNotifier::scrollDownNeeded_</qualifiedname>
-        <initializer>= false</initializer>
-        <briefdescription>
-<para>set this true on open history and on new notification added </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" line="112" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" bodystart="112" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RibbonNotifier_1a851dbfa58387244b2a60432dda61dfba" prot="private" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::RibbonNotifier::prevHistoryScrollMax_</definition>
-        <argsstring></argsstring>
-        <name>prevHistoryScrollMax_</name>
-        <qualifiedname>MR::RibbonNotifier::prevHistoryScrollMax_</qualifiedname>
-        <initializer>= 0.0f</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" line="113" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" bodystart="113" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga95ca012d8580322841b0aef05dbadb97" kind="variable"><name>notifications_</name></member>
+      <member refid="group__GeneralGroup_1ga8ccd510b77d8bc07cb2d29398702640c" kind="variable"><name>notificationsHistory_</name></member>
+      <member refid="group__GeneralGroup_1gab30e08803d4a632872c4d2410742632b" kind="variable"><name>requestRedraw_</name></member>
+      <member refid="group__GeneralGroup_1ga3fcec3c2e05e33b401e3395e19cff967" kind="variable"><name>historyMode_</name></member>
+      <member refid="group__GeneralGroup_1ga5a849aeed9f8899310a2b1b820e3e794" kind="variable"><name>showHistoryBtnMaxTime_</name></member>
+      <member refid="group__GeneralGroup_1ga8b751e8093d0afa541af607d82293337" kind="variable"><name>currentHistoryBtnTimer_</name></member>
+      <member refid="group__GeneralGroup_1gaa62ac001cd4b9753e730f11b49fa4cac" kind="variable"><name>requestedTime_</name></member>
+      <member refid="group__GeneralGroup_1ga62264c11201bbf30ec6692ac5bd2cf41" kind="variable"><name>asyncRequest_</name></member>
+      <member refid="group__GeneralGroup_1ga950949307dff073f1d583a724cf4a9d9" kind="variable"><name>scrollDownNeeded_</name></member>
+      <member refid="group__GeneralGroup_1ga851dbfa58387244b2a60432dda61dfba" kind="variable"><name>prevHistoryScrollMax_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1RibbonNotifier_1a18fcad081432948484875c94f55a1be4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::RibbonNotifier::pushNotification</definition>
-        <argsstring>(const RibbonNotification &amp;notification)</argsstring>
-        <name>pushNotification</name>
-        <qualifiedname>MR::RibbonNotifier::pushNotification</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1RibbonNotification" kindref="compound">RibbonNotification</ref> &amp;</type>
-          <declname>notification</declname>
-        </param>
-        <briefdescription>
-<para>adds new notification for drawing </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" line="67" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RibbonNotifier_1a9ad21c6f39e840287d5a196a7a39eaa0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::RibbonNotifier::draw</definition>
-        <argsstring>(const Box2i &amp;limitFramebuffer)</argsstring>
-        <name>draw</name>
-        <qualifiedname>MR::RibbonNotifier::draw</qualifiedname>
-        <param>
-          <type>const Box2i &amp;</type>
-          <declname>limitFramebuffer</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>main draw function. draw actual notification or history, and history button limitFramebuffer - available framebuffer space (usually same as <computeroutput><ref refid="classMR_1_1Viewer_1a29b4a0913083878a3db4272e293dfe0f" kindref="member">Viewer::getViewportsBounds()</ref></computeroutput>) </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" line="71" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RibbonNotifier_1a08ebfe15ec08fb70c287c3b983e94869" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::RibbonNotifier::setHitoryButtonMaxLifeTime</definition>
-        <argsstring>(float histBtnMaxLifeTime)</argsstring>
-        <name>setHitoryButtonMaxLifeTime</name>
-        <qualifiedname>MR::RibbonNotifier::setHitoryButtonMaxLifeTime</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>histBtnMaxLifeTime</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>set maximum time while history button will be present on screen negative value means that history button will never be hidden </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" line="75" column="23"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga18fcad081432948484875c94f55a1be4" kind="function"><name>pushNotification</name></member>
+      <member refid="group__GeneralGroup_1ga9ad21c6f39e840287d5a196a7a39eaa0" kind="function"><name>draw</name></member>
+      <member refid="group__GeneralGroup_1ga08ebfe15ec08fb70c287c3b983e94869" kind="function"><name>setHitoryButtonMaxLifeTime</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMR_1_1RibbonNotifier_1a1cacddeebbcbe7b2c4599eb1bc767a94" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::RibbonNotifier::drawHistoryButton_</definition>
-        <argsstring>(const Box2i &amp;limitFramebuffer)</argsstring>
-        <name>drawHistoryButton_</name>
-        <qualifiedname>MR::RibbonNotifier::drawHistoryButton_</qualifiedname>
-        <param>
-          <type>const Box2i &amp;</type>
-          <declname>limitFramebuffer</declname>
-        </param>
-        <briefdescription>
-<para>draw button to show last notifications </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" line="105" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RibbonNotifier_1a57020a7441b1d13c726ed5ffb36ed9cc" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::RibbonNotifier::drawHistory_</definition>
-        <argsstring>(const Box2i &amp;limitFramebuffer)</argsstring>
-        <name>drawHistory_</name>
-        <qualifiedname>MR::RibbonNotifier::drawHistory_</qualifiedname>
-        <param>
-          <type>const Box2i &amp;</type>
-          <declname>limitFramebuffer</declname>
-        </param>
-        <briefdescription>
-<para>draw notification history </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" line="107" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RibbonNotifier_1a459d1e5a36d76dbdeb792b047f162e9c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::RibbonNotifier::drawFloating_</definition>
-        <argsstring>(const Box2i &amp;limitFramebuffer)</argsstring>
-        <name>drawFloating_</name>
-        <qualifiedname>MR::RibbonNotifier::drawFloating_</qualifiedname>
-        <param>
-          <type>const Box2i &amp;</type>
-          <declname>limitFramebuffer</declname>
-        </param>
-        <briefdescription>
-<para>draw floating notifications </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" line="109" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RibbonNotifier_1a9a3159f528ecb4878fd1a3f37e457d8c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::RibbonNotifier::drawNotification_</definition>
-        <argsstring>(const DrawNotificationSettings &amp;settings)</argsstring>
-        <name>drawNotification_</name>
-        <qualifiedname>MR::RibbonNotifier::drawNotification_</qualifiedname>
-        <param>
-          <type>const DrawNotificationSettings &amp;</type>
-          <declname>settings</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>draws one notification returns false if need to close </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" line="123" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RibbonNotifier_1a10f41c894f273d775094be49b9a5c340" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::RibbonNotifier::addNotification_</definition>
-        <argsstring>(std::vector&lt; NotificationWithTimer &gt; &amp;store, const RibbonNotification &amp;notification)</argsstring>
-        <name>addNotification_</name>
-        <qualifiedname>MR::RibbonNotifier::addNotification_</qualifiedname>
-        <param>
-          <type>std::vector&lt; NotificationWithTimer &gt; &amp;</type>
-          <declname>store</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1RibbonNotification" kindref="compound">RibbonNotification</ref> &amp;</type>
-          <declname>notification</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" line="124" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RibbonNotifier_1a095d8bd3e3d87456bd761c98723fc811" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::RibbonNotifier::filterInvalid_</definition>
-        <argsstring>(int numInvalid=-1)</argsstring>
-        <name>filterInvalid_</name>
-        <qualifiedname>MR::RibbonNotifier::filterInvalid_</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>numInvalid</declname>
-          <defval>-1</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" line="125" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RibbonNotifier_1a0749cea79ec8aeae480ed782f0cb746b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::RibbonNotifier::requestClosestRedraw_</definition>
-        <argsstring>()</argsstring>
-        <name>requestClosestRedraw_</name>
-        <qualifiedname>MR::RibbonNotifier::requestClosestRedraw_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" line="126" column="10"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga1cacddeebbcbe7b2c4599eb1bc767a94" kind="function"><name>drawHistoryButton_</name></member>
+      <member refid="group__GeneralGroup_1ga57020a7441b1d13c726ed5ffb36ed9cc" kind="function"><name>drawHistory_</name></member>
+      <member refid="group__GeneralGroup_1ga459d1e5a36d76dbdeb792b047f162e9c" kind="function"><name>drawFloating_</name></member>
+      <member refid="group__GeneralGroup_1ga9a3159f528ecb4878fd1a3f37e457d8c" kind="function"><name>drawNotification_</name></member>
+      <member refid="group__GeneralGroup_1ga10f41c894f273d775094be49b9a5c340" kind="function"><name>addNotification_</name></member>
+      <member refid="group__GeneralGroup_1ga095d8bd3e3d87456bd761c98723fc811" kind="function"><name>filterInvalid_</name></member>
+      <member refid="group__GeneralGroup_1ga0749cea79ec8aeae480ed782f0cb746b" kind="function"><name>requestClosestRedraw_</name></member>
     </sectiondef>
     <briefdescription>
 <para>class to hold and operate with notifications </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" line="63" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" bodystart="64" bodyend="127"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" line="66" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" bodystart="67" bodyend="130"/>
     <listofallmembers>
-      <member refid="classMR_1_1RibbonNotifier_1a10f41c894f273d775094be49b9a5c340" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>addNotification_</name></member>
-      <member refid="classMR_1_1RibbonNotifier_1a548d212115b7460a9bf8f321f79d7029" prot="public" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>allowedTagMask</name></member>
-      <member refid="classMR_1_1RibbonNotifier_1a62264c11201bbf30ec6692ac5bd2cf41" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>asyncRequest_</name></member>
-      <member refid="classMR_1_1RibbonNotifier_1a581e82760738b4f3ce80e1a6f9665cd0" prot="public" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>cornerPosition</name></member>
-      <member refid="classMR_1_1RibbonNotifier_1a8b751e8093d0afa541af607d82293337" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>currentHistoryBtnTimer_</name></member>
-      <member refid="classMR_1_1RibbonNotifier_1ab63838c73f526f97b5d11fd8d3c7237d" prot="public" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>defaultNotificationLifeTimeSeconds</name></member>
-      <member refid="classMR_1_1RibbonNotifier_1a9ad21c6f39e840287d5a196a7a39eaa0" prot="public" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>draw</name></member>
-      <member refid="classMR_1_1RibbonNotifier_1a459d1e5a36d76dbdeb792b047f162e9c" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>drawFloating_</name></member>
-      <member refid="classMR_1_1RibbonNotifier_1a57020a7441b1d13c726ed5ffb36ed9cc" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>drawHistory_</name></member>
-      <member refid="classMR_1_1RibbonNotifier_1a1cacddeebbcbe7b2c4599eb1bc767a94" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>drawHistoryButton_</name></member>
-      <member refid="classMR_1_1RibbonNotifier_1a9a3159f528ecb4878fd1a3f37e457d8c" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>drawNotification_</name></member>
-      <member refid="classMR_1_1RibbonNotifier_1a095d8bd3e3d87456bd761c98723fc811" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>filterInvalid_</name></member>
-      <member refid="classMR_1_1RibbonNotifier_1a3fcec3c2e05e33b401e3395e19cff967" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>historyMode_</name></member>
-      <member refid="classMR_1_1RibbonNotifier_1a95ca012d8580322841b0aef05dbadb97" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>notifications_</name></member>
-      <member refid="classMR_1_1RibbonNotifier_1a8ccd510b77d8bc07cb2d29398702640c" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>notificationsHistory_</name></member>
-      <member refid="classMR_1_1RibbonNotifier_1a851dbfa58387244b2a60432dda61dfba" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>prevHistoryScrollMax_</name></member>
-      <member refid="classMR_1_1RibbonNotifier_1a18fcad081432948484875c94f55a1be4" prot="public" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>pushNotification</name></member>
-      <member refid="classMR_1_1RibbonNotifier_1a0749cea79ec8aeae480ed782f0cb746b" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>requestClosestRedraw_</name></member>
-      <member refid="classMR_1_1RibbonNotifier_1aa62ac001cd4b9753e730f11b49fa4cac" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>requestedTime_</name></member>
-      <member refid="classMR_1_1RibbonNotifier_1ab30e08803d4a632872c4d2410742632b" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>requestRedraw_</name></member>
-      <member refid="classMR_1_1RibbonNotifier_1a950949307dff073f1d583a724cf4a9d9" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>scrollDownNeeded_</name></member>
-      <member refid="classMR_1_1RibbonNotifier_1a08ebfe15ec08fb70c287c3b983e94869" prot="public" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>setHitoryButtonMaxLifeTime</name></member>
-      <member refid="classMR_1_1RibbonNotifier_1a5a849aeed9f8899310a2b1b820e3e794" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>showHistoryBtnMaxTime_</name></member>
+      <member refid="group__GeneralGroup_1ga10f41c894f273d775094be49b9a5c340" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>addNotification_</name></member>
+      <member refid="group__GeneralGroup_1ga548d212115b7460a9bf8f321f79d7029" prot="public" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>allowedTagMask</name></member>
+      <member refid="group__GeneralGroup_1ga62264c11201bbf30ec6692ac5bd2cf41" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>asyncRequest_</name></member>
+      <member refid="group__GeneralGroup_1ga581e82760738b4f3ce80e1a6f9665cd0" prot="public" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>cornerPosition</name></member>
+      <member refid="group__GeneralGroup_1ga8b751e8093d0afa541af607d82293337" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>currentHistoryBtnTimer_</name></member>
+      <member refid="group__GeneralGroup_1gab63838c73f526f97b5d11fd8d3c7237d" prot="public" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>defaultNotificationLifeTimeSeconds</name></member>
+      <member refid="group__GeneralGroup_1ga9ad21c6f39e840287d5a196a7a39eaa0" prot="public" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>draw</name></member>
+      <member refid="group__GeneralGroup_1ga459d1e5a36d76dbdeb792b047f162e9c" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>drawFloating_</name></member>
+      <member refid="group__GeneralGroup_1ga57020a7441b1d13c726ed5ffb36ed9cc" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>drawHistory_</name></member>
+      <member refid="group__GeneralGroup_1ga1cacddeebbcbe7b2c4599eb1bc767a94" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>drawHistoryButton_</name></member>
+      <member refid="group__GeneralGroup_1ga9a3159f528ecb4878fd1a3f37e457d8c" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>drawNotification_</name></member>
+      <member refid="group__GeneralGroup_1ga095d8bd3e3d87456bd761c98723fc811" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>filterInvalid_</name></member>
+      <member refid="group__GeneralGroup_1ga3fcec3c2e05e33b401e3395e19cff967" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>historyMode_</name></member>
+      <member refid="group__GeneralGroup_1ga95ca012d8580322841b0aef05dbadb97" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>notifications_</name></member>
+      <member refid="group__GeneralGroup_1ga8ccd510b77d8bc07cb2d29398702640c" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>notificationsHistory_</name></member>
+      <member refid="group__GeneralGroup_1ga851dbfa58387244b2a60432dda61dfba" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>prevHistoryScrollMax_</name></member>
+      <member refid="group__GeneralGroup_1ga18fcad081432948484875c94f55a1be4" prot="public" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>pushNotification</name></member>
+      <member refid="group__GeneralGroup_1ga0749cea79ec8aeae480ed782f0cb746b" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>requestClosestRedraw_</name></member>
+      <member refid="group__GeneralGroup_1gaa62ac001cd4b9753e730f11b49fa4cac" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>requestedTime_</name></member>
+      <member refid="group__GeneralGroup_1gab30e08803d4a632872c4d2410742632b" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>requestRedraw_</name></member>
+      <member refid="group__GeneralGroup_1ga950949307dff073f1d583a724cf4a9d9" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>scrollDownNeeded_</name></member>
+      <member refid="group__GeneralGroup_1ga08ebfe15ec08fb70c287c3b983e94869" prot="public" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>setHitoryButtonMaxLifeTime</name></member>
+      <member refid="group__GeneralGroup_1ga5a849aeed9f8899310a2b1b820e3e794" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>showHistoryBtnMaxTime_</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

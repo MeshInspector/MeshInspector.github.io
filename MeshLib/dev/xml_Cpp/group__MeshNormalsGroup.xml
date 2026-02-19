@@ -23,7 +23,7 @@
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="group__MeshNormalsGroup_1gab8d9ad3d41ea00136ac9d8c59766ab0c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> FaceNormals</type>
+        <type>MRMESH_API FaceNormals</type>
         <definition>MRMESH_API FaceNormals MR::computePerFaceNormals</definition>
         <argsstring>(const Mesh &amp;mesh)</argsstring>
         <name>computePerFaceNormals</name>
@@ -42,7 +42,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshNormals.h" line="23" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshNormals.h" declline="23" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshNormalsGroup_1ga855f28ca0270228f5a867c2f2fc42e37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::computePerFaceNormals4</definition>
         <argsstring>(const Mesh &amp;mesh, Vector4f *faceNormals, size_t size)</argsstring>
         <name>computePerFaceNormals4</name>
@@ -69,7 +69,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshNormals.h" line="26" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshNormals.h" declline="26" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshNormalsGroup_1ga5cd4c5961165390a68a0b055b5befbfa" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> VertNormals</type>
+        <type>MRMESH_API VertNormals</type>
         <definition>MRMESH_API VertNormals MR::computePerVertNormals</definition>
         <argsstring>(const Mesh &amp;mesh)</argsstring>
         <name>computePerVertNormals</name>
@@ -88,7 +88,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshNormals.h" line="29" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshNormals.h" declline="29" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshNormalsGroup_1ga5f58b21ccaa06eb95ccacb6fdfa5f35c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> VertNormals</type>
+        <type>MRMESH_API VertNormals</type>
         <definition>MRMESH_API VertNormals MR::computePerVertPseudoNormals</definition>
         <argsstring>(const Mesh &amp;mesh)</argsstring>
         <name>computePerVertPseudoNormals</name>
@@ -107,7 +107,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshNormals.h" line="33" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshNormals.h" declline="33" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshNormalsGroup_1ga9d74c5dbc254d3fdb328a8ac37ba7529" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> MeshNormals</type>
+        <type>MRMESH_API MeshNormals</type>
         <definition>MRMESH_API MeshNormals MR::computeMeshNormals</definition>
         <argsstring>(const Mesh &amp;mesh)</argsstring>
         <name>computeMeshNormals</name>
@@ -126,7 +126,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshNormals.h" line="36" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshNormals.h" declline="36" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshNormalsGroup_1gaadd26fa2561ab2ec3b62b2dea079161c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Vector&lt; TriangleCornerNormals, FaceId &gt;</type>
+        <type>MRMESH_API Vector&lt; TriangleCornerNormals, FaceId &gt;</type>
         <definition>MRMESH_API Vector&lt; TriangleCornerNormals, FaceId &gt; MR::computePerCornerNormals</definition>
         <argsstring>(const Mesh &amp;mesh, const UndirectedEdgeBitSet *creases)</argsstring>
         <name>computePerCornerNormals</name>

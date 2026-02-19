@@ -5,759 +5,63 @@
     <basecompoundref refid="classMR_1_1ObjectLinesHolder" prot="public" virt="non-virtual">MR::ObjectLinesHolder</basecompoundref>
     <includes refid="MRObjectGcode_8h" local="no">MRObjectGcode.h</includes>
     <sectiondef kind="public-type">
-      <memberdef kind="typedef" id="classMR_1_1ObjectGcode_1ae2ed923e558fd3193c040fc672e7e537" prot="public" static="no">
-        <type><ref refid="structMR_1_1Signal" kindref="compound">Signal</ref>&lt; void(uint32_t mask)&gt;</type>
-        <definition>using MR::ObjectGcode::GcodeChangedSignal =  Signal&lt;void( uint32_t mask )&gt;</definition>
-        <argsstring></argsstring>
-        <name>GcodeChangedSignal</name>
-        <qualifiedname>MR::ObjectGcode::GcodeChangedSignal</qualifiedname>
-        <briefdescription>
-<para>signal about gcode changing, triggered in setDirtyFlag </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" line="57" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" bodystart="57" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gae2ed923e558fd3193c040fc672e7e537" kind="typedef"><name>GcodeChangedSignal</name></member>
     </sectiondef>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="classMR_1_1ObjectGcode_1af7ac54e95de2f8914777e833e1a83678" prot="public" static="no" mutable="no">
-        <type><ref refid="classMR_1_1ObjectGcode_1ae2ed923e558fd3193c040fc672e7e537" kindref="member">GcodeChangedSignal</ref></type>
-        <definition>GcodeChangedSignal MR::ObjectGcode::gcodeChangedSignal</definition>
-        <argsstring></argsstring>
-        <name>gcodeChangedSignal</name>
-        <qualifiedname>MR::ObjectGcode::gcodeChangedSignal</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" line="58" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" bodystart="58" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaf7ac54e95de2f8914777e833e1a83678" kind="variable"><name>gcodeChangedSignal</name></member>
     </sectiondef>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1ObjectGcode_1a0897427ca9ee18966c2c6417fe84c524" prot="private" static="no" mutable="no">
-        <type>std::shared_ptr&lt; <ref refid="namespaceMR_1a0cc9f139078c5c5597f9bb7465fd7fda" kindref="member">GcodeSource</ref> &gt;</type>
-        <definition>std::shared_ptr&lt;GcodeSource&gt; MR::ObjectGcode::gcodeSource_</definition>
-        <argsstring></argsstring>
-        <name>gcodeSource_</name>
-        <qualifiedname>MR::ObjectGcode::gcodeSource_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" line="80" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" bodystart="80" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ObjectGcode_1ac85e46986af75a0766ace7e5da28c84b" prot="private" static="no" mutable="no">
-        <type>std::vector&lt; <ref refid="structMR_1_1GcodeProcessor_1_1MoveAction" kindref="compound">GcodeProcessor::MoveAction</ref> &gt;</type>
-        <definition>std::vector&lt;GcodeProcessor::MoveAction&gt; MR::ObjectGcode::actionList_</definition>
-        <argsstring></argsstring>
-        <name>actionList_</name>
-        <qualifiedname>MR::ObjectGcode::actionList_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" line="81" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" bodystart="81" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ObjectGcode_1af527060a7d93dd4e70d2a2a7f5f811f7" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1CNCMachineSettings" kindref="compound">CNCMachineSettings</ref></type>
-        <definition>CNCMachineSettings MR::ObjectGcode::cncMachineSettings_</definition>
-        <argsstring></argsstring>
-        <name>cncMachineSettings_</name>
-        <qualifiedname>MR::ObjectGcode::cncMachineSettings_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" line="82" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" bodystart="82" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ObjectGcode_1a7100f979c33a721e5b1c02da76c1909f" prot="private" static="no" mutable="no">
-        <type>size_t</type>
-        <definition>size_t MR::ObjectGcode::nonTrivialHeapUsageCache_</definition>
-        <argsstring></argsstring>
-        <name>nonTrivialHeapUsageCache_</name>
-        <qualifiedname>MR::ObjectGcode::nonTrivialHeapUsageCache_</qualifiedname>
-        <initializer>{ 0 }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" line="84" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" bodystart="84" bodyend="84"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ObjectGcode_1a327cb32fe0ed2e112d56da7d80dca509" prot="private" static="no" mutable="no">
-        <type>std::vector&lt; int &gt;</type>
-        <definition>std::vector&lt;int&gt; MR::ObjectGcode::segmentToSourceLineMap_</definition>
-        <argsstring></argsstring>
-        <name>segmentToSourceLineMap_</name>
-        <qualifiedname>MR::ObjectGcode::segmentToSourceLineMap_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" line="86" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" bodystart="86" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ObjectGcode_1aa8a23c92c4b363eda99f643597f42552" prot="private" static="no" mutable="no">
-        <type><ref refid="structMR_1_1Color" kindref="compound">Color</ref></type>
-        <definition>Color MR::ObjectGcode::idleColor_</definition>
-        <argsstring></argsstring>
-        <name>idleColor_</name>
-        <qualifiedname>MR::ObjectGcode::idleColor_</qualifiedname>
-        <initializer>= <ref refid="structMR_1_1Color" kindref="compound">Color</ref>(0.3f, 0.3f, 0.3f)</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" line="88" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" bodystart="88" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ObjectGcode_1a04c966b842d94aa579a5015c333fc790" prot="private" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::ObjectGcode::maxFeedrate_</definition>
-        <argsstring></argsstring>
-        <name>maxFeedrate_</name>
-        <qualifiedname>MR::ObjectGcode::maxFeedrate_</qualifiedname>
-        <initializer>= 0.f</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" line="89" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" bodystart="89" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ObjectGcode_1a8153096c6ed8a7c4224786972906374d" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::ObjectGcode::feedrateGradientEnabled_</definition>
-        <argsstring></argsstring>
-        <name>feedrateGradientEnabled_</name>
-        <qualifiedname>MR::ObjectGcode::feedrateGradientEnabled_</qualifiedname>
-        <initializer>= true</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" line="90" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" bodystart="90" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga0897427ca9ee18966c2c6417fe84c524" kind="variable"><name>gcodeSource_</name></member>
+      <member refid="group__GeneralGroup_1gac85e46986af75a0766ace7e5da28c84b" kind="variable"><name>actionList_</name></member>
+      <member refid="group__GeneralGroup_1gaf527060a7d93dd4e70d2a2a7f5f811f7" kind="variable"><name>cncMachineSettings_</name></member>
+      <member refid="group__GeneralGroup_1ga7100f979c33a721e5b1c02da76c1909f" kind="variable"><name>nonTrivialHeapUsageCache_</name></member>
+      <member refid="group__GeneralGroup_1ga327cb32fe0ed2e112d56da7d80dca509" kind="variable"><name>segmentToSourceLineMap_</name></member>
+      <member refid="group__GeneralGroup_1gaa8a23c92c4b363eda99f643597f42552" kind="variable"><name>idleColor_</name></member>
+      <member refid="group__GeneralGroup_1ga04c966b842d94aa579a5015c333fc790" kind="variable"><name>maxFeedrate_</name></member>
+      <member refid="group__GeneralGroup_1ga8153096c6ed8a7c4224786972906374d" kind="variable"><name>feedrateGradientEnabled_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1ObjectGcode_1a19aa64ed4acbd4df3abb88f4ade7c158" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
-        <definition>MRMESH_API MR::ObjectGcode::ObjectGcode</definition>
-        <argsstring>()</argsstring>
-        <name>ObjectGcode</name>
-        <qualifiedname>MR::ObjectGcode::ObjectGcode</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" line="16" column="16"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectGcode_1ac2450ff2c29609e2b3585b9044640bbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::ObjectGcode::ObjectGcode</definition>
-        <argsstring>(ObjectGcode &amp;&amp;)=default</argsstring>
-        <name>ObjectGcode</name>
-        <qualifiedname>MR::ObjectGcode::ObjectGcode</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1ObjectGcode" kindref="compound">ObjectGcode</ref> &amp;&amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" line="17" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectGcode_1a964bd7e09c026c38216e2e84b35c1422" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMR_1_1ObjectGcode" kindref="compound">ObjectGcode</ref> &amp;</type>
-        <definition>ObjectGcode &amp; MR::ObjectGcode::operator=</definition>
-        <argsstring>(ObjectGcode &amp;&amp;)=default</argsstring>
-        <name>operator=</name>
-        <qualifiedname>MR::ObjectGcode::operator=</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1ObjectGcode" kindref="compound">ObjectGcode</ref> &amp;&amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" line="18" column="17"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectGcode_1ac27e546bf2d66d45930837b6dd37cd9e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>const char *</type>
-        <definition>virtual const char * MR::ObjectGcode::typeName</definition>
-        <argsstring>() const override</argsstring>
-        <name>typeName</name>
-        <qualifiedname>MR::ObjectGcode::typeName</qualifiedname>
-        <reimplements refid="classMR_1_1ObjectLinesHolder_1a67bbdfa8042874e1a7033f78bb96be59">typeName</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" line="21" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" bodystart="21" bodyend="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectGcode_1a4a6ad740cebafaf34b828c8090a86c7c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>std::string</type>
-        <definition>virtual std::string MR::ObjectGcode::className</definition>
-        <argsstring>() const override</argsstring>
-        <name>className</name>
-        <qualifiedname>MR::ObjectGcode::className</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1a4a9efcd8828d774516f5cd4960359d08">className</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" line="24" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" bodystart="24" bodyend="24"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectGcode_1aa197c20d302f82144a0d78fe07fb9f0c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>std::string</type>
-        <definition>virtual std::string MR::ObjectGcode::classNameInPlural</definition>
-        <argsstring>() const override</argsstring>
-        <name>classNameInPlural</name>
-        <qualifiedname>MR::ObjectGcode::classNameInPlural</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1a470477a43cc2e761f791623ee732e4b7">classNameInPlural</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" line="27" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" bodystart="27" bodyend="27"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectGcode_1adb08022f8d2a8019b625e6e28e6fd32c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
-        <definition>virtual MRMESH_API std::shared_ptr&lt; Object &gt; MR::ObjectGcode::clone</definition>
-        <argsstring>() const override</argsstring>
-        <name>clone</name>
-        <qualifiedname>MR::ObjectGcode::clone</qualifiedname>
-        <reimplements refid="classMR_1_1ObjectLinesHolder_1a8d62fc8248ac41e37620d11e4e326b62">clone</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>clones this object only, without its children, making new object the owner of all copied resources </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" line="29" column="40"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectGcode_1aba7a233ed2aaa7ce653e88e8795ffa84" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
-        <definition>virtual MRMESH_API std::shared_ptr&lt; Object &gt; MR::ObjectGcode::shallowClone</definition>
-        <argsstring>() const override</argsstring>
-        <name>shallowClone</name>
-        <qualifiedname>MR::ObjectGcode::shallowClone</qualifiedname>
-        <reimplements refid="classMR_1_1ObjectLinesHolder_1aa19c36b553adf089ebe87a6220248926">shallowClone</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>clones this object only, without its children, making new object to share resources with this object </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" line="30" column="40"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectGcode_1a7b5010cf498d2d361f4dece94fd3c6e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>virtual MRMESH_API void MR::ObjectGcode::setCNCMachineSettings</definition>
-        <argsstring>(const CNCMachineSettings &amp;cncSettings)</argsstring>
-        <name>setCNCMachineSettings</name>
-        <qualifiedname>MR::ObjectGcode::setCNCMachineSettings</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1CNCMachineSettings" kindref="compound">CNCMachineSettings</ref> &amp;</type>
-          <declname>cncSettings</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" line="32" column="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectGcode_1a14618880d039ab5e84ed0a5a2336a6f1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>const <ref refid="classMR_1_1CNCMachineSettings" kindref="compound">CNCMachineSettings</ref> &amp;</type>
-        <definition>virtual const CNCMachineSettings &amp; MR::ObjectGcode::getCNCMachineSettings</definition>
-        <argsstring>() const</argsstring>
-        <name>getCNCMachineSettings</name>
-        <qualifiedname>MR::ObjectGcode::getCNCMachineSettings</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" line="33" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" bodystart="33" bodyend="33"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectGcode_1a0ffe09b19a324a16fb63d7f0ae8e570f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>virtual MRMESH_API void MR::ObjectGcode::setGcodeSource</definition>
-        <argsstring>(const std::shared_ptr&lt; GcodeSource &gt; &amp;gcodeSource)</argsstring>
-        <name>setGcodeSource</name>
-        <qualifiedname>MR::ObjectGcode::setGcodeSource</qualifiedname>
-        <param>
-          <type>const std::shared_ptr&lt; <ref refid="namespaceMR_1a0cc9f139078c5c5597f9bb7465fd7fda" kindref="member">GcodeSource</ref> &gt; &amp;</type>
-          <declname>gcodeSource</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" line="35" column="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectGcode_1a83908ed8133dc1e4705dd6e0056badfb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>const std::shared_ptr&lt; <ref refid="namespaceMR_1a0cc9f139078c5c5597f9bb7465fd7fda" kindref="member">GcodeSource</ref> &gt; &amp;</type>
-        <definition>virtual const std::shared_ptr&lt; GcodeSource &gt; &amp; MR::ObjectGcode::gcodeSource</definition>
-        <argsstring>() const</argsstring>
-        <name>gcodeSource</name>
-        <qualifiedname>MR::ObjectGcode::gcodeSource</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" line="36" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" bodystart="36" bodyend="36"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectGcode_1a27af6f39daa073a68e8dd772a3a8554a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>const std::vector&lt; <ref refid="structMR_1_1GcodeProcessor_1_1MoveAction" kindref="compound">GcodeProcessor::MoveAction</ref> &gt; &amp;</type>
-        <definition>virtual const std::vector&lt; GcodeProcessor::MoveAction &gt; &amp; MR::ObjectGcode::actionList</definition>
-        <argsstring>() const</argsstring>
-        <name>actionList</name>
-        <qualifiedname>MR::ObjectGcode::actionList</qualifiedname>
-        <briefdescription>
-<para>get action list (produced from g-code source) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" line="38" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" bodystart="38" bodyend="38"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectGcode_1a35ed5ae1dee6649556452dbac4fff274" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>const std::vector&lt; int &gt; &amp;</type>
-        <definition>virtual const std::vector&lt; int &gt; &amp; MR::ObjectGcode::segmentToSourceLineMap</definition>
-        <argsstring>() const</argsstring>
-        <name>segmentToSourceLineMap</name>
-        <qualifiedname>MR::ObjectGcode::segmentToSourceLineMap</qualifiedname>
-        <briefdescription>
-<para>get mapping of tool path polyline segment id to source line number of g-code source </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" line="40" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" bodystart="40" bodyend="40"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectGcode_1abd8d7ffd2cdeeac5474265b72f7a8ad7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>virtual MRMESH_API void MR::ObjectGcode::setDirtyFlags</definition>
-        <argsstring>(uint32_t mask, bool invalidateCaches=true) override</argsstring>
-        <name>setDirtyFlags</name>
-        <qualifiedname>MR::ObjectGcode::setDirtyFlags</qualifiedname>
-        <reimplements refid="classMR_1_1ObjectLinesHolder_1a4693af2f58656c85b0fe600e323273ff">setDirtyFlags</reimplements>
-        <param>
-          <type>uint32_t</type>
-          <declname>mask</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>invalidateCaches</declname>
-          <defval>true</defval>
-        </param>
-        <briefdescription>
-<para>reinterpret_cast to avoid making a copy of shared_ptr </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" line="42" column="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectGcode_1a616b3eb47b5610789eeca4edd1d4eb43" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::ObjectGcode::ObjectGcode</definition>
-        <argsstring>(ProtectedStruct, const ObjectGcode &amp;obj)</argsstring>
-        <name>ObjectGcode</name>
-        <qualifiedname>MR::ObjectGcode::ObjectGcode</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1Object_1_1ProtectedStruct" kindref="compound">ProtectedStruct</ref></type>
-        </param>
-        <param>
-          <type>const <ref refid="classMR_1_1ObjectGcode" kindref="compound">ObjectGcode</ref> &amp;</type>
-          <declname>obj</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="note"><para>this ctor is public only for std::make_shared used inside <ref refid="classMR_1_1ObjectGcode_1adb08022f8d2a8019b625e6e28e6fd32c" kindref="member">clone()</ref> </para>
-</simplesect>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" line="45" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" bodystart="45" bodyend="45"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectGcode_1a66df6de195c9b8502579231576b0017c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::vector&lt; std::string &gt;</type>
-        <definition>virtual MRMESH_API std::vector&lt; std::string &gt; MR::ObjectGcode::getInfoLines</definition>
-        <argsstring>() const override</argsstring>
-        <name>getInfoLines</name>
-        <qualifiedname>MR::ObjectGcode::getInfoLines</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1a76988bf72aa3be996e864fec3ab47ed2">getInfoLines</reimplements>
-        <briefdescription>
-<para>return several info lines that can better describe the object in the <ref refid="namespaceMR_1_1UI" kindref="compound">UI</ref> </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" line="47" column="36"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectGcode_1a3fb464e9d8b0acb890a6a05552c4dd9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::ObjectGcode::switchFeedrateGradient</definition>
-        <argsstring>(bool isFeedrateGradientEnabled)</argsstring>
-        <name>switchFeedrateGradient</name>
-        <qualifiedname>MR::ObjectGcode::switchFeedrateGradient</qualifiedname>
-        <param>
-          <type>bool</type>
-          <declname>isFeedrateGradientEnabled</declname>
-        </param>
-        <briefdescription>
-<para>set drawing feedrate as gradient of brightness </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" line="50" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectGcode_1a568418ed1668faab8c6b702065fdf81b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::ObjectGcode::isFeedrateGradient</definition>
-        <argsstring>() const</argsstring>
-        <name>isFeedrateGradient</name>
-        <qualifiedname>MR::ObjectGcode::isFeedrateGradient</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" line="51" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" bodystart="51" bodyend="51"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectGcode_1a05b348dc0e3759d22e44b4e2719f92da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::ObjectGcode::setIdleColor</definition>
-        <argsstring>(const Color &amp;color)</argsstring>
-        <name>setIdleColor</name>
-        <qualifiedname>MR::ObjectGcode::setIdleColor</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &amp;</type>
-          <declname>color</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" line="53" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectGcode_1a1d9580ea02a6801309d33b66a3ae2ce5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &amp;</type>
-        <definition>const Color &amp; MR::ObjectGcode::getIdleColor</definition>
-        <argsstring>() const</argsstring>
-        <name>getIdleColor</name>
-        <qualifiedname>MR::ObjectGcode::getIdleColor</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" line="54" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" bodystart="54" bodyend="54"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectGcode_1a274c0abce29f5631a046cd644da70e2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
-        <definition>virtual MRMESH_API bool MR::ObjectGcode::select</definition>
-        <argsstring>(bool isSelected) override</argsstring>
-        <name>select</name>
-        <qualifiedname>MR::ObjectGcode::select</qualifiedname>
-        <reimplements refid="classMR_1_1Object_1a989bd3b98218be00c001e3ee8cb77334">select</reimplements>
-        <param>
-          <type>bool</type>
-          <declname>on</declname>
-        </param>
-        <briefdescription>
-<para>selects the object, returns true if value changed, otherwise returns false </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" line="60" column="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectGcode_1a9572a367773d74f7d47b9da9770b0188" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>virtual MRMESH_API void MR::ObjectGcode::setFrontColor</definition>
-        <argsstring>(const Color &amp;color, bool selected, ViewportId viewportId={}) override</argsstring>
-        <name>setFrontColor</name>
-        <qualifiedname>MR::ObjectGcode::setFrontColor</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1a0d1a64b6bed894b4236b06ac732dfd74">setFrontColor</reimplements>
-        <param>
-          <type>const <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &amp;</type>
-          <declname>color</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>selected</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
-          <declname>viewportId</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-<para>sets color of object when it is selected/not-selected (depending on argument) in given viewport </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" line="61" column="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectGcode_1a4dc4a82d21db1be6d2baf57046389e33" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> size_t</type>
-        <definition>virtual MRMESH_API size_t MR::ObjectGcode::heapBytes</definition>
-        <argsstring>() const override</argsstring>
-        <name>heapBytes</name>
-        <qualifiedname>MR::ObjectGcode::heapBytes</qualifiedname>
-        <reimplements refid="classMR_1_1ObjectLinesHolder_1ad64322425bc9354238fc990bff3e2b10">heapBytes</reimplements>
-        <briefdescription>
-<para>returns the amount of memory this object occupies on heap </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" line="64" column="32"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga19aa64ed4acbd4df3abb88f4ade7c158" kind="function"><name>ObjectGcode</name></member>
+      <member refid="group__GeneralGroup_1gac2450ff2c29609e2b3585b9044640bbe" kind="function"><name>ObjectGcode</name></member>
+      <member refid="group__GeneralGroup_1ga964bd7e09c026c38216e2e84b35c1422" kind="function"><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1gac27e546bf2d66d45930837b6dd37cd9e" kind="function"><name>typeName</name></member>
+      <member refid="group__GeneralGroup_1ga4a6ad740cebafaf34b828c8090a86c7c" kind="function"><name>className</name></member>
+      <member refid="group__GeneralGroup_1gaa197c20d302f82144a0d78fe07fb9f0c" kind="function"><name>classNameInPlural</name></member>
+      <member refid="group__GeneralGroup_1gadb08022f8d2a8019b625e6e28e6fd32c" kind="function"><name>clone</name></member>
+      <member refid="group__GeneralGroup_1gaba7a233ed2aaa7ce653e88e8795ffa84" kind="function"><name>shallowClone</name></member>
+      <member refid="group__GeneralGroup_1ga7b5010cf498d2d361f4dece94fd3c6e5" kind="function"><name>setCNCMachineSettings</name></member>
+      <member refid="group__GeneralGroup_1ga14618880d039ab5e84ed0a5a2336a6f1" kind="function"><name>getCNCMachineSettings</name></member>
+      <member refid="group__GeneralGroup_1ga0ffe09b19a324a16fb63d7f0ae8e570f" kind="function"><name>setGcodeSource</name></member>
+      <member refid="group__GeneralGroup_1ga83908ed8133dc1e4705dd6e0056badfb" kind="function"><name>gcodeSource</name></member>
+      <member refid="group__GeneralGroup_1ga27af6f39daa073a68e8dd772a3a8554a" kind="function"><name>actionList</name></member>
+      <member refid="group__GeneralGroup_1ga35ed5ae1dee6649556452dbac4fff274" kind="function"><name>segmentToSourceLineMap</name></member>
+      <member refid="group__GeneralGroup_1gabd8d7ffd2cdeeac5474265b72f7a8ad7" kind="function"><name>setDirtyFlags</name></member>
+      <member refid="group__GeneralGroup_1ga616b3eb47b5610789eeca4edd1d4eb43" kind="function"><name>ObjectGcode</name></member>
+      <member refid="group__GeneralGroup_1ga66df6de195c9b8502579231576b0017c" kind="function"><name>getInfoLines</name></member>
+      <member refid="group__GeneralGroup_1ga3fb464e9d8b0acb890a6a05552c4dd9e" kind="function"><name>switchFeedrateGradient</name></member>
+      <member refid="group__GeneralGroup_1ga568418ed1668faab8c6b702065fdf81b" kind="function"><name>isFeedrateGradient</name></member>
+      <member refid="group__GeneralGroup_1ga05b348dc0e3759d22e44b4e2719f92da" kind="function"><name>setIdleColor</name></member>
+      <member refid="group__GeneralGroup_1ga1d9580ea02a6801309d33b66a3ae2ce5" kind="function"><name>getIdleColor</name></member>
+      <member refid="group__GeneralGroup_1ga274c0abce29f5631a046cd644da70e2b" kind="function"><name>select</name></member>
+      <member refid="group__GeneralGroup_1ga9572a367773d74f7d47b9da9770b0188" kind="function"><name>setFrontColor</name></member>
+      <member refid="group__GeneralGroup_1ga4dc4a82d21db1be6d2baf57046389e33" kind="function"><name>heapBytes</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1ObjectGcode_1a28f6756aaad27f9bee3caf4fd9f14b93" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>const char *</type>
-        <definition>static constexpr const char * MR::ObjectGcode::StaticTypeName</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>StaticTypeName</name>
-        <qualifiedname>MR::ObjectGcode::StaticTypeName</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" line="20" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" bodystart="20" bodyend="20"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectGcode_1af093ac3edc98123db0dc8ce12795e872" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>const char *</type>
-        <definition>static constexpr const char * MR::ObjectGcode::StaticClassName</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>StaticClassName</name>
-        <qualifiedname>MR::ObjectGcode::StaticClassName</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" line="23" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" bodystart="23" bodyend="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectGcode_1abd3efb6acac49d70a92671f9b11eba76" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>const char *</type>
-        <definition>static constexpr const char * MR::ObjectGcode::StaticClassNameInPlural</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>StaticClassNameInPlural</name>
-        <qualifiedname>MR::ObjectGcode::StaticClassNameInPlural</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" line="26" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" bodystart="26" bodyend="26"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga28f6756aaad27f9bee3caf4fd9f14b93" kind="function"><name>StaticTypeName</name></member>
+      <member refid="group__GeneralGroup_1gaf093ac3edc98123db0dc8ce12795e872" kind="function"><name>StaticClassName</name></member>
+      <member refid="group__GeneralGroup_1gabd3efb6acac49d70a92671f9b11eba76" kind="function"><name>StaticClassNameInPlural</name></member>
     </sectiondef>
     <sectiondef kind="protected-func">
-      <memberdef kind="function" id="classMR_1_1ObjectGcode_1a9179cb3738bd38279ab3f3ffd8c619d1" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::ObjectGcode::ObjectGcode</definition>
-        <argsstring>(const ObjectGcode &amp;other)=default</argsstring>
-        <name>ObjectGcode</name>
-        <qualifiedname>MR::ObjectGcode::ObjectGcode</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1ObjectGcode" kindref="compound">ObjectGcode</ref> &amp;</type>
-          <declname>other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" line="67" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectGcode_1a3369ad296b25670f64dcd09ff243e020" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>virtual MRMESH_API void MR::ObjectGcode::swapBase_</definition>
-        <argsstring>(Object &amp;other) override</argsstring>
-        <name>swapBase_</name>
-        <qualifiedname>MR::ObjectGcode::swapBase_</qualifiedname>
-        <reimplements refid="classMR_1_1ObjectLinesHolder_1a11d75f9e64cd1cec71eff3f65d040259">swapBase_</reimplements>
-        <param>
-          <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
-          <declname>other</declname>
-        </param>
-        <briefdescription>
-<para>swaps this object with other </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" line="70" column="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectGcode_1abc258a705dc3d897b54a0c3327d98fc5" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>virtual MRMESH_API void MR::ObjectGcode::swapSignals_</definition>
-        <argsstring>(Object &amp;other) override</argsstring>
-        <name>swapSignals_</name>
-        <qualifiedname>MR::ObjectGcode::swapSignals_</qualifiedname>
-        <reimplements refid="classMR_1_1ObjectLinesHolder_1aab5e51bab3ad302cd30461a5ba732274">swapSignals_</reimplements>
-        <param>
-          <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
-          <declname>other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>swaps signals, used in <computeroutput>swap</computeroutput> function to return back signals after <computeroutput>swapBase_</computeroutput> pls call Parent::swapSignals_ first when overriding this function </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" line="73" column="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectGcode_1a79f589a038123b0475af33b9b0d43d2a" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>virtual MRMESH_API void MR::ObjectGcode::serializeFields_</definition>
-        <argsstring>(Json::Value &amp;root) const override</argsstring>
-        <name>serializeFields_</name>
-        <qualifiedname>MR::ObjectGcode::serializeFields_</qualifiedname>
-        <reimplements refid="classMR_1_1ObjectLinesHolder_1ac53731d4425ec9404c558b238467c3fa">serializeFields_</reimplements>
-        <param>
-          <type>Json::Value &amp;</type>
-          <declname>root</declname>
-        </param>
-        <briefdescription>
-<para>serializeFields_: serializeBaseFields_ plus polyline serialization </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" line="75" column="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectGcode_1afb1505e4eeef2688ab210b77314480ea" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::ObjectGcode::deserializeFields_</definition>
-        <argsstring>(const Json::Value &amp;root) override</argsstring>
-        <name>deserializeFields_</name>
-        <qualifiedname>MR::ObjectGcode::deserializeFields_</qualifiedname>
-        <reimplements refid="classMR_1_1ObjectLinesHolder_1a91f1067311fb1cc387d342a67e4557cb">deserializeFields_</reimplements>
-        <param>
-          <type>const Json::Value &amp;</type>
-          <declname>root</declname>
-        </param>
-        <briefdescription>
-<para>deserializeFields_: deserializeBaseFields_ plus polyline deserialization </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" line="77" column="21"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga9179cb3738bd38279ab3f3ffd8c619d1" kind="function"><name>ObjectGcode</name></member>
+      <member refid="group__GeneralGroup_1ga3369ad296b25670f64dcd09ff243e020" kind="function"><name>swapBase_</name></member>
+      <member refid="group__GeneralGroup_1gabc258a705dc3d897b54a0c3327d98fc5" kind="function"><name>swapSignals_</name></member>
+      <member refid="group__GeneralGroup_1ga79f589a038123b0475af33b9b0d43d2a" kind="function"><name>serializeFields_</name></member>
+      <member refid="group__GeneralGroup_1gafb1505e4eeef2688ab210b77314480ea" kind="function"><name>deserializeFields_</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMR_1_1ObjectGcode_1a4ef2e0d88614f0dadbd6c6787b41214b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ObjectGcode::updateHeapUsageCache_</definition>
-        <argsstring>()</argsstring>
-        <name>updateHeapUsageCache_</name>
-        <qualifiedname>MR::ObjectGcode::updateHeapUsageCache_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" line="83" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectGcode_1a97e89fcac9fdd13801b1ab8871a56116" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ObjectGcode::updateColors_</definition>
-        <argsstring>()</argsstring>
-        <name>updateColors_</name>
-        <qualifiedname>MR::ObjectGcode::updateColors_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" line="92" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectGcode_1a67326fec0625a58f9e0aa149c24aafcc" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ObjectGcode::updateAll_</definition>
-        <argsstring>()</argsstring>
-        <name>updateAll_</name>
-        <qualifiedname>MR::ObjectGcode::updateAll_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" line="93" column="10"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga4ef2e0d88614f0dadbd6c6787b41214b" kind="function"><name>updateHeapUsageCache_</name></member>
+      <member refid="group__GeneralGroup_1ga97e89fcac9fdd13801b1ab8871a56116" kind="function"><name>updateColors_</name></member>
+      <member refid="group__GeneralGroup_1ga67326fec0625a58f9e0aa149c24aafcc" kind="function"><name>updateAll_</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -922,45 +226,45 @@
         <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" bodystart="14" bodyend="94"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectGcode.h" bodystart="17" bodyend="97"/>
     <listofallmembers>
-      <member refid="classMR_1_1ObjectGcode_1a27af6f39daa073a68e8dd772a3a8554a" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>actionList</name></member>
-      <member refid="classMR_1_1ObjectGcode_1ac85e46986af75a0766ace7e5da28c84b" prot="private" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>actionList_</name></member>
+      <member refid="group__GeneralGroup_1ga27af6f39daa073a68e8dd772a3a8554a" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>actionList</name></member>
+      <member refid="group__GeneralGroup_1gac85e46986af75a0766ace7e5da28c84b" prot="private" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>actionList_</name></member>
       <member refid="classMR_1_1Object_1aa6cdc407999b7e829fd23b242cb6346d" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>addChild</name></member>
       <member refid="classMR_1_1Object_1a8eeb1cb21b22db97f20eac75b897f7ae" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>addChildBefore</name></member>
       <member refid="classMR_1_1Object_1a1bc49d038870615cf0a59705e4796075" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>addTag</name></member>
       <member refid="classMR_1_1VisualObject_1a53f3623d9c70f13c0546466a3ab5da96" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>ambientStrength_</name></member>
       <member refid="classMR_1_1Object_1a7919fe84554abf5973d82255df4425a6" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>ancillary_</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1a866b821cbf1353875759fa45e614249f" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>applyScale</name></member>
+      <member refid="group__GeneralGroup_1ga866b821cbf1353875759fa45e614249f" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>applyScale</name></member>
       <member refid="classMR_1_1Object_1a1f6de8e94b4cc46c3fd7ba2cb4e6cfb3" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>asType</name></member>
       <member refid="classMR_1_1Object_1a64cc87b1de99f84bb49d9e0b0f24d9ea" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>asType</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1a647c62ff7baffd91938b1f79f5ad92bb" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>avgEdgeLen</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1a2abf795e99899109737e507f19ac02a7" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>avgEdgeLen_</name></member>
+      <member refid="group__GeneralGroup_1ga647c62ff7baffd91938b1f79f5ad92bb" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>avgEdgeLen</name></member>
+      <member refid="group__GeneralGroup_1ga2abf795e99899109737e507f19ac02a7" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>avgEdgeLen_</name></member>
       <member refid="classMR_1_1VisualObject_1ae3a2d142d4abb2283a71caf7395282a4" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>backFacesColor_</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a2ba9302240c85bc5dfd78068e7b2e918" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>bastards_</name></member>
       <member refid="classMR_1_1VisualObject_1af81b9247c457c9dbd36d6bbe4c74b826" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>boundingBoxToInfoLines_</name></member>
       <member refid="classMR_1_1Object_1a918f27844d6d9aae269008f0036bc671" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>children</name></member>
       <member refid="classMR_1_1Object_1a2f38b85c4109bb77ad1a49e42085b9fb" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>children</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a20c010d72c82523c01e5de05910eb34c" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>children_</name></member>
-      <member refid="classMR_1_1ObjectGcode_1a4a6ad740cebafaf34b828c8090a86c7c" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>className</name></member>
-      <member refid="classMR_1_1ObjectGcode_1aa197c20d302f82144a0d78fe07fb9f0c" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>classNameInPlural</name></member>
+      <member refid="group__GeneralGroup_1ga4a6ad740cebafaf34b828c8090a86c7c" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>className</name></member>
+      <member refid="group__GeneralGroup_1gaa197c20d302f82144a0d78fe07fb9f0c" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>classNameInPlural</name></member>
       <member refid="classMR_1_1VisualObject_1ab87c9fab3f92c38aba589584b5466a98" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>clipByPlane_</name></member>
-      <member refid="classMR_1_1ObjectGcode_1adb08022f8d2a8019b625e6e28e6fd32c" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>clone</name></member>
+      <member refid="group__GeneralGroup_1gadb08022f8d2a8019b625e6e28e6fd32c" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>clone</name></member>
       <member refid="classMR_1_1Object_1a54eb8f6e602368572ffb27af73f87465" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>cloneTree</name></member>
-      <member refid="classMR_1_1ObjectGcode_1af527060a7d93dd4e70d2a2a7f5f811f7" prot="private" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>cncMachineSettings_</name></member>
+      <member refid="group__GeneralGroup_1gaf527060a7d93dd4e70d2a2a7f5f811f7" prot="private" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>cncMachineSettings_</name></member>
       <member refid="classMR_1_1VisualObject_1a21eb2d0c923e3ca0544e4cf90782e6b1" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>coloringType_</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1a502ed4a3293b4e8466ef0eacaa0f8d9d" prot="protected" virt="virtual"><scope>MR::ObjectGcode</scope><name>computeBoundingBox_</name></member>
+      <member refid="group__GeneralGroup_1ga502ed4a3293b4e8466ef0eacaa0f8d9d" prot="protected" virt="virtual"><scope>MR::ObjectGcode</scope><name>computeBoundingBox_</name></member>
       <member refid="classMR_1_1VisualObject_1a7857f20b8f16704a46297b95e12524f7" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>copyAllSolidColors</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1a8958b915eb5b7b9f6f0b7ffa704700f5" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>copyColors</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1a64d69137f11ccce4e6ba7aaa0ef41237" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>dashed_</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1abe70f54ddf2aae2d5784d3aac54214ca" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>dashPattern_</name></member>
+      <member refid="group__GeneralGroup_1ga8958b915eb5b7b9f6f0b7ffa704700f5" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>copyColors</name></member>
+      <member refid="group__GeneralGroup_1ga64d69137f11ccce4e6ba7aaa0ef41237" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>dashed_</name></member>
+      <member refid="group__GeneralGroup_1gabe70f54ddf2aae2d5784d3aac54214ca" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>dashPattern_</name></member>
       <member refid="classMR_1_1VisualObject_1a3c81a910d1fdd5c1f1b413c185bf750d" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>depthTest_</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1aace1c3bef514115c4645861934321253" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>deserializeBaseFields_</name></member>
-      <member refid="classMR_1_1ObjectGcode_1afb1505e4eeef2688ab210b77314480ea" prot="protected" virt="virtual"><scope>MR::ObjectGcode</scope><name>deserializeFields_</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1abbacb883915ae2b416b37e7ecfbeee12" prot="protected" virt="virtual"><scope>MR::ObjectGcode</scope><name>deserializeModel_</name></member>
+      <member refid="group__GeneralGroup_1gaace1c3bef514115c4645861934321253" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>deserializeBaseFields_</name></member>
+      <member refid="group__GeneralGroup_1gafb1505e4eeef2688ab210b77314480ea" prot="protected" virt="virtual"><scope>MR::ObjectGcode</scope><name>deserializeFields_</name></member>
+      <member refid="group__GeneralGroup_1gabbacb883915ae2b416b37e7ecfbeee12" prot="protected" virt="virtual"><scope>MR::ObjectGcode</scope><name>deserializeModel_</name></member>
       <member refid="classMR_1_1Object_1ae6602edbad891420dc4dff152e9df603" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>deserializeRecursive</name></member>
       <member refid="classMR_1_1Object_1a80a32a58c497b044d63e5aaa75e77fbe" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>detachFromParent</name></member>
-      <member refid="classMR_1_1ObjectGcode_1a8153096c6ed8a7c4224786972906374d" prot="private" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>feedrateGradientEnabled_</name></member>
+      <member refid="group__GeneralGroup_1ga8153096c6ed8a7c4224786972906374d" prot="private" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>feedrateGradientEnabled_</name></member>
       <member refid="classMR_1_1Object_1abcc984d346790cbe1a13d6ee87daffd0" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>find</name></member>
       <member refid="classMR_1_1Object_1a639d2e0d72c82c1efd9dc00ecaa0d3da" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>find</name></member>
       <member refid="group__DataModelGroup_1gaa9133d1e63e15eb09f7f902afe2abd3a" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>find</name></member>
@@ -969,74 +273,74 @@
       <member refid="classMR_1_1Object_1a7dc1382248ea0ff99064282167614a4b" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>find</name></member>
       <member refid="classMR_1_1Object_1aa3e60b6a82814bffff2ba324dcaa7bd2" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>findCommonAncestor</name></member>
       <member refid="classMR_1_1Object_1af3951674c765923b8a024a44bd27342d" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>findCommonAncestor</name></member>
-      <member refid="classMR_1_1ObjectGcode_1ae2ed923e558fd3193c040fc672e7e537" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>GcodeChangedSignal</name></member>
-      <member refid="classMR_1_1ObjectGcode_1af7ac54e95de2f8914777e833e1a83678" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>gcodeChangedSignal</name></member>
-      <member refid="classMR_1_1ObjectGcode_1a83908ed8133dc1e4705dd6e0056badfb" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>gcodeSource</name></member>
-      <member refid="classMR_1_1ObjectGcode_1a0897427ca9ee18966c2c6417fe84c524" prot="private" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>gcodeSource_</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1af36a700f7b56ba0159abf2c66b58d630" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="group__GeneralGroup_1gae2ed923e558fd3193c040fc672e7e537" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>GcodeChangedSignal</name></member>
+      <member refid="group__GeneralGroup_1gaf7ac54e95de2f8914777e833e1a83678" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>gcodeChangedSignal</name></member>
+      <member refid="group__GeneralGroup_1ga83908ed8133dc1e4705dd6e0056badfb" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>gcodeSource</name></member>
+      <member refid="group__GeneralGroup_1ga0897427ca9ee18966c2c6417fe84c524" prot="private" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>gcodeSource_</name></member>
+      <member refid="group__GeneralGroup_1gaf36a700f7b56ba0159abf2c66b58d630" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>getAllVisualizeProperties</name></member>
       <member refid="classMR_1_1VisualObject_1a44359499c4ee0b22074b8f3999d53a6e" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>getAllVisualizePropertiesForEnum</name></member>
       <member refid="classMR_1_1VisualObject_1afd16375df437a376f44c3bdea5186b82" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>getAmbientStrength</name></member>
       <member refid="classMR_1_1VisualObject_1af49f84e12ea7e21ec8dc39ae8609bc18" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>getBackColor</name></member>
       <member refid="classMR_1_1VisualObject_1a714aab4f9110c1072f3147edae51e293" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>getBackColorsForAllViewports</name></member>
       <member refid="classMR_1_1VisualObject_1a8fe84b708cf42b2d73b31e77f02fae6a" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>getBoundingBox</name></member>
-      <member refid="classMR_1_1ObjectGcode_1a14618880d039ab5e84ed0a5a2336a6f1" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>getCNCMachineSettings</name></member>
+      <member refid="group__GeneralGroup_1ga14618880d039ab5e84ed0a5a2336a6f1" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>getCNCMachineSettings</name></member>
       <member refid="classMR_1_1VisualObject_1ad526a2645a12621b7742bc66aaf5ad0f" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>getColoringType</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1a7b42c2e0a5a94bede326754d2b3f369c" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>getDashPattern</name></member>
+      <member refid="group__GeneralGroup_1ga7b42c2e0a5a94bede326754d2b3f369c" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>getDashPattern</name></member>
       <member refid="classMR_1_1VisualObject_1a6411458c4cd7d098c12adaea27568db7" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>getDirtyFlags</name></member>
       <member refid="classMR_1_1VisualObject_1a70f15c0dc59f3b83a8b8c3e6390f7571" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>getFrontColor</name></member>
       <member refid="classMR_1_1VisualObject_1a04e6c3f8219124e3028f7dd8411cfc65" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>getFrontColorsForAllViewports</name></member>
       <member refid="classMR_1_1VisualObject_1afe6426aa46d769e1d6f4cab1e56e0559" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>getGlobalAlpha</name></member>
       <member refid="classMR_1_1VisualObject_1a3ef31c439da47a55ca3287bf45a377ad" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>getGlobalAlphaForAllViewports</name></member>
-      <member refid="classMR_1_1ObjectGcode_1a1d9580ea02a6801309d33b66a3ae2ce5" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>getIdleColor</name></member>
-      <member refid="classMR_1_1ObjectGcode_1a66df6de195c9b8502579231576b0017c" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>getInfoLines</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1a3b4f5ecefe1873ce10840277c57f9e94" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>getLinesColorMap</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1ad29f08547db22aca65fa19e23ac218b7" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>getLineWidth</name></member>
+      <member refid="group__GeneralGroup_1ga1d9580ea02a6801309d33b66a3ae2ce5" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>getIdleColor</name></member>
+      <member refid="group__GeneralGroup_1ga66df6de195c9b8502579231576b0017c" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>getInfoLines</name></member>
+      <member refid="group__GeneralGroup_1ga3b4f5ecefe1873ce10840277c57f9e94" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>getLinesColorMap</name></member>
+      <member refid="group__GeneralGroup_1gad29f08547db22aca65fa19e23ac218b7" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>getLineWidth</name></member>
       <member refid="classMR_1_1Object_1a4a0bdbb221822d1b73720712b1488489" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>getModelHash</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1a73e673c22a3081ef1fc777c20c702125" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>getPointSize</name></member>
+      <member refid="group__GeneralGroup_1ga73e673c22a3081ef1fc777c20c702125" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>getPointSize</name></member>
       <member refid="classMR_1_1VisualObject_1a08a44c8bd562c85361950682c997f752" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>getRedrawFlag</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a64c12f40ae3ee9c61ba167319e33f4a8" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>getSharedPtr</name></member>
       <member refid="classMR_1_1VisualObject_1a1a152f22b671a1cf98ddcf43db92b1da" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>getShininess</name></member>
       <member refid="classMR_1_1VisualObject_1a746d651e584a6df83424853a8777138b" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>getSpecularStrength</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1a3006fc44192a071fef4bab8866b90744" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>getVertsColorMap</name></member>
+      <member refid="group__GeneralGroup_1ga3006fc44192a071fef4bab8866b90744" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>getVertsColorMap</name></member>
       <member refid="classMR_1_1VisualObject_1a3e21bc521981859584703215ba45f219" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>getVisualizeProperty</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1ab19b7af18f21594b91628233ca2421b5" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="group__GeneralGroup_1gab19b7af18f21594b91628233ca2421b5" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>getVisualizePropertyMask</name></member>
       <member refid="classMR_1_1VisualObject_1a11c8d591aa72e021a946b58349b80bcf" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>getVisualizePropertyMask_</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1abf4784be6ef8c3ce90625490765084dd" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>getWorldBox</name></member>
+      <member refid="group__GeneralGroup_1gabf4784be6ef8c3ce90625490765084dd" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>getWorldBox</name></member>
       <member refid="classMR_1_1Object_1a41924fd6534dc41bfdb6dd30e263109b" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>getWorldTreeBox</name></member>
       <member refid="classMR_1_1VisualObject_1a96232055c664463cca20dda327b1c30f" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>globalAlpha_</name></member>
       <member refid="classMR_1_1VisualObject_1a5985106ad6fa7332062d84fdd44b5986" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>globalClippedByPlane</name></member>
       <member refid="classMR_1_1VisualObject_1af8f1e6dfa5e98e4c44896a848932fa66" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>globalClippedByPlaneMask</name></member>
       <member refid="classMR_1_1Object_1a1a3e9aa0f80849839b009e8b82c37c94" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>globalVisibility</name></member>
       <member refid="classMR_1_1Object_1a16b01c9f31dc2c3ab06b702718e9c7cb" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>globalVisibilityMask</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1a8374696160d445c466b11e006c7fb4c7" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>hasModel</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1ab254bdde22e806161d869d150ac181b8" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>hasVisualRepresentation</name></member>
-      <member refid="classMR_1_1ObjectGcode_1a4dc4a82d21db1be6d2baf57046389e33" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1ObjectGcode_1aa8a23c92c4b363eda99f643597f42552" prot="private" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>idleColor_</name></member>
+      <member refid="group__GeneralGroup_1ga8374696160d445c466b11e006c7fb4c7" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>hasModel</name></member>
+      <member refid="group__GeneralGroup_1gab254bdde22e806161d869d150ac181b8" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>hasVisualRepresentation</name></member>
+      <member refid="group__GeneralGroup_1ga4dc4a82d21db1be6d2baf57046389e33" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1gaa8a23c92c4b363eda99f643597f42552" prot="private" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>idleColor_</name></member>
       <member refid="classMR_1_1VisualObject_1ac1c087e54a58af29aa241898f9ea3222" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>invalidateMetricsCache_</name></member>
       <member refid="classMR_1_1VisualObject_1af6cd63e72a721fbe39cdff002950bce4" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>invertNormals_</name></member>
       <member refid="classMR_1_1Object_1a7c970b0fa099d812c04978d33c4b624e" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>isAncestor</name></member>
       <member refid="classMR_1_1Object_1a3dcf68a5faec85e8e753e34ab77eb1b9" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>isAncillary</name></member>
-      <member refid="classMR_1_1ObjectGcode_1a568418ed1668faab8c6b702065fdf81b" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>isFeedrateGradient</name></member>
+      <member refid="group__GeneralGroup_1ga568418ed1668faab8c6b702065fdf81b" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>isFeedrateGradient</name></member>
       <member refid="classMR_1_1Object_1a6590355f391c69c4c0594b51397d4579" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>isGlobalAncillary</name></member>
       <member refid="classMR_1_1Object_1ad7f9426f9adc37a95648822d1566db77" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>isLocked</name></member>
       <member refid="classMR_1_1Object_1ae6f5f78500e8c1342b7f4d7d98b03928" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>isParentLocked</name></member>
       <member refid="classMR_1_1VisualObject_1a938a64da82232f07dec418b944f5bc8b" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>isPickable</name></member>
       <member refid="classMR_1_1Object_1a3f649834561a9f246e1d840a0f3080c8" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>isSelected</name></member>
       <member refid="classMR_1_1Object_1a98c9e0d07b736d2b86c4d3d340b77844" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>isVisible</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1a43f918db8a7b61c206c15d844dc2f42c" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>LinesChangedSignal</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1a429bde334a9097fdec8c1d0ae5285f53" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>linesChangedSignal</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1a58e224092d5971b40208e6d4a15e6862" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>linesColorMap_</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1ab981ac159b7e944aef46d972503003e7" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>lineWidth_</name></member>
+      <member refid="group__GeneralGroup_1ga43f918db8a7b61c206c15d844dc2f42c" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>LinesChangedSignal</name></member>
+      <member refid="group__GeneralGroup_1ga429bde334a9097fdec8c1d0ae5285f53" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>linesChangedSignal</name></member>
+      <member refid="group__GeneralGroup_1ga58e224092d5971b40208e6d4a15e6862" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>linesColorMap_</name></member>
+      <member refid="group__GeneralGroup_1gab981ac159b7e944aef46d972503003e7" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>lineWidth_</name></member>
       <member refid="classMR_1_1Object_1a958714fb7d616e608cb16223e052052b" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>locked_</name></member>
-      <member refid="classMR_1_1ObjectGcode_1a04c966b842d94aa579a5015c333fc790" prot="private" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>maxFeedrate_</name></member>
+      <member refid="group__GeneralGroup_1ga04c966b842d94aa579a5015c333fc790" prot="private" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>maxFeedrate_</name></member>
       <member refid="classMR_1_1Object_1ae813e1ae9ad5cbb71ca45adbdd811679" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>name</name></member>
       <member refid="classMR_1_1Object_1a3d6d27065a13a0a262df4b74ff82e538" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>name_</name></member>
       <member refid="classMR_1_1Object_1a92a390dc7570098981912529e341433d" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>needRedraw_</name></member>
-      <member refid="classMR_1_1ObjectGcode_1a7100f979c33a721e5b1c02da76c1909f" prot="private" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>nonTrivialHeapUsageCache_</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1a65723d5693a73384784167b2451da400" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>numComponents</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1ac4657e92207e28ae97a59ce816f15f2e" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>numComponents_</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1a0652baca888594cfe0fb1c17bcb78dbb" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>numUndirectedEdges</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1a93290385193f37f80ec2fe07e19fc8c9" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>numUndirectedEdges_</name></member>
+      <member refid="group__GeneralGroup_1ga7100f979c33a721e5b1c02da76c1909f" prot="private" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>nonTrivialHeapUsageCache_</name></member>
+      <member refid="group__GeneralGroup_1ga65723d5693a73384784167b2451da400" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>numComponents</name></member>
+      <member refid="group__GeneralGroup_1gac4657e92207e28ae97a59ce816f15f2e" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>numComponents_</name></member>
+      <member refid="group__GeneralGroup_1ga0652baca888594cfe0fb1c17bcb78dbb" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>numUndirectedEdges</name></member>
+      <member refid="group__GeneralGroup_1ga93290385193f37f80ec2fe07e19fc8c9" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>numUndirectedEdges_</name></member>
       <member refid="classMR_1_1Object_1ac2ef0a60f0cb9b488534014376ccd38d" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>Object</name></member>
       <member refid="classMR_1_1Object_1abac87686448c89b770d46ab30ad79dc2" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>Object</name></member>
       <member refid="classMR_1_1Object_1a795eb7eeaecc99cf34dabd14ac113e0b" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>Object</name></member>
@@ -1044,17 +348,17 @@
       <member refid="classMR_1_1ObjectChildrenHolder_1acad4a073a2e703743e01e2e5cce9e285" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>ObjectChildrenHolder</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a676c20b6eea355fe68748a8c1ad0b086" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>ObjectChildrenHolder</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a89b1fff6ebde3c5a71a530e3c8cddfb6" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>ObjectChildrenHolder</name></member>
-      <member refid="classMR_1_1ObjectGcode_1a19aa64ed4acbd4df3abb88f4ade7c158" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>ObjectGcode</name></member>
-      <member refid="classMR_1_1ObjectGcode_1ac2450ff2c29609e2b3585b9044640bbe" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>ObjectGcode</name></member>
-      <member refid="classMR_1_1ObjectGcode_1a616b3eb47b5610789eeca4edd1d4eb43" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>ObjectGcode</name></member>
-      <member refid="classMR_1_1ObjectGcode_1a9179cb3738bd38279ab3f3ffd8c619d1" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>ObjectGcode</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1a0e079da74a88e5f0c8d965c012976af4" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>ObjectLinesHolder</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1aacc18afcd4ee476aca853eab342fda72" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>ObjectLinesHolder</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1aee2f0ca0cadeda77ed87b5834547d9f2" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>ObjectLinesHolder</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1ac57e00c43da38f333bf623761dfd2c82" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>ObjectLinesHolder</name></member>
+      <member refid="group__GeneralGroup_1ga19aa64ed4acbd4df3abb88f4ade7c158" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>ObjectGcode</name></member>
+      <member refid="group__GeneralGroup_1gac2450ff2c29609e2b3585b9044640bbe" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>ObjectGcode</name></member>
+      <member refid="group__GeneralGroup_1ga616b3eb47b5610789eeca4edd1d4eb43" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>ObjectGcode</name></member>
+      <member refid="group__GeneralGroup_1ga9179cb3738bd38279ab3f3ffd8c619d1" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>ObjectGcode</name></member>
+      <member refid="group__GeneralGroup_1ga0e079da74a88e5f0c8d965c012976af4" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>ObjectLinesHolder</name></member>
+      <member refid="group__GeneralGroup_1gaacc18afcd4ee476aca853eab342fda72" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>ObjectLinesHolder</name></member>
+      <member refid="group__GeneralGroup_1gaee2f0ca0cadeda77ed87b5834547d9f2" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>ObjectLinesHolder</name></member>
+      <member refid="group__GeneralGroup_1gac57e00c43da38f333bf623761dfd2c82" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>ObjectLinesHolder</name></member>
       <member refid="classMR_1_1Object_1ae552548142751ab5d35d446cb5d56fae" prot="protected" virt="virtual"><scope>MR::ObjectGcode</scope><name>onWorldXfChanged_</name></member>
-      <member refid="classMR_1_1ObjectGcode_1a964bd7e09c026c38216e2e84b35c1422" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>operator=</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1a399c6bd6321c060f5c6faffab0095bed" prot="public" virt="non-virtual" ambiguityscope="MR::ObjectLinesHolder::"><scope>MR::ObjectGcode</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga964bd7e09c026c38216e2e84b35c1422" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga399c6bd6321c060f5c6faffab0095bed" prot="public" virt="non-virtual" ambiguityscope="MR::ObjectLinesHolder::"><scope>MR::ObjectGcode</scope><name>operator=</name></member>
       <member refid="classMR_1_1VisualObject_1ad5bb82fa6b6b0ea77f0137b975c802f6" prot="public" virt="non-virtual" ambiguityscope="MR::VisualObject::"><scope>MR::ObjectGcode</scope><name>operator=</name></member>
       <member refid="classMR_1_1Object_1aaa2378c439796ceb7a28ad41322cb8d7" prot="public" virt="non-virtual" ambiguityscope="MR::Object::"><scope>MR::ObjectGcode</scope><name>operator=</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a44a4427301ae71511f5b3138cdf02e9f" prot="public" virt="non-virtual" ambiguityscope="MR::ObjectChildrenHolder::"><scope>MR::ObjectGcode</scope><name>operator=</name></member>
@@ -1064,9 +368,9 @@
       <member refid="classMR_1_1ObjectChildrenHolder_1a79a7197e0981d1da1b59f5fa0d858f7d" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>parent_</name></member>
       <member refid="classMR_1_1Object_1a2f679f701887cee54069b81a45cc8ebc" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>parentLocked_</name></member>
       <member refid="classMR_1_1VisualObject_1a43bcd013faf296110ba8cb4a94bbe12f" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>pickable_</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1a8de8f6b6c5eaa17e1cfd18ffe80fda9d" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>pointSize_</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1ae0b496042ca65d7b8bdb862c9e984ff7" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>polyline</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1afba90d7f156c0d8bb20a9daa74a003ce" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>polyline_</name></member>
+      <member refid="group__GeneralGroup_1ga8de8f6b6c5eaa17e1cfd18ffe80fda9d" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>pointSize_</name></member>
+      <member refid="group__GeneralGroup_1gae0b496042ca65d7b8bdb862c9e984ff7" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>polyline</name></member>
+      <member refid="group__GeneralGroup_1gafba90d7f156c0d8bb20a9daa74a003ce" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>polyline_</name></member>
       <member refid="classMR_1_1Object_1a1b5609ba616723794aea4dda67727865" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>removeAllChildren</name></member>
       <member refid="classMR_1_1Object_1aa988bb552650c9d30e888e456f458d46" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>removeChild</name></member>
       <member refid="classMR_1_1Object_1a291d8e281e83a1199d6da8484e798fd5" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>removeChild</name></member>
@@ -1078,53 +382,53 @@
       <member refid="classMR_1_1VisualObject_1a0b0f7552c903173a32d29ad4f2c2b247" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>resetColors</name></member>
       <member refid="classMR_1_1VisualObject_1a30fe82d49e41f2e7830f58113b295cce" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>resetDirty</name></member>
       <member refid="classMR_1_1VisualObject_1a885f987ce58a89d2b12a33cf48e92c6c" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>resetDirtyExceptMask</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1a786c333d036a4aca15856725ae4e9edf" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>resetFrontColor</name></member>
+      <member refid="group__GeneralGroup_1ga786c333d036a4aca15856725ae4e9edf" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>resetFrontColor</name></member>
       <member refid="classMR_1_1Object_1a9dc77f3f61430395182e8402e6e6f410" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>resetRedrawFlag</name></member>
       <member refid="classMR_1_1Object_1a0fabfb16f09fd70879a89efbb8df0da6" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>resetXf</name></member>
       <member refid="classMR_1_1Object_1ac581a9c74f34770bb727b5168fcfa753" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>sameModels</name></member>
-      <member refid="classMR_1_1ObjectGcode_1a35ed5ae1dee6649556452dbac4fff274" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>segmentToSourceLineMap</name></member>
-      <member refid="classMR_1_1ObjectGcode_1a327cb32fe0ed2e112d56da7d80dca509" prot="private" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>segmentToSourceLineMap_</name></member>
-      <member refid="classMR_1_1ObjectGcode_1a274c0abce29f5631a046cd644da70e2b" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>select</name></member>
+      <member refid="group__GeneralGroup_1ga35ed5ae1dee6649556452dbac4fff274" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>segmentToSourceLineMap</name></member>
+      <member refid="group__GeneralGroup_1ga327cb32fe0ed2e112d56da7d80dca509" prot="private" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>segmentToSourceLineMap_</name></member>
+      <member refid="group__GeneralGroup_1ga274c0abce29f5631a046cd644da70e2b" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>select</name></member>
       <member refid="classMR_1_1Object_1a0d8ef27f83b47e000093eaa0df9c36f9" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>selected_</name></member>
       <member refid="classMR_1_1VisualObject_1ac75d179334e336af0672bf0d9c997038" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>selectedColor_</name></member>
       <member refid="classMR_1_1Object_1ab41eb618ef90d9677638173475b2d983" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>sendWorldXfChangedSignal_</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1a60be494b7494766eee45cc3acb0db09d" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>serializeBaseFields_</name></member>
-      <member refid="classMR_1_1ObjectGcode_1a79f589a038123b0475af33b9b0d43d2a" prot="protected" virt="virtual"><scope>MR::ObjectGcode</scope><name>serializeFields_</name></member>
+      <member refid="group__GeneralGroup_1ga60be494b7494766eee45cc3acb0db09d" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>serializeBaseFields_</name></member>
+      <member refid="group__GeneralGroup_1ga79f589a038123b0475af33b9b0d43d2a" prot="protected" virt="virtual"><scope>MR::ObjectGcode</scope><name>serializeFields_</name></member>
       <member refid="classMR_1_1Object_1a7bf17e9cdecb511570759169e86bf0e2" prot="protected" virt="virtual"><scope>MR::ObjectGcode</scope><name>serializeModel_</name></member>
       <member refid="classMR_1_1Object_1a9585a709b1b7bd6d35276d099afd0079" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>serializeRecursive</name></member>
       <member refid="classMR_1_1VisualObject_1aa19ae518997e365fbfa1ddd81b04eb10" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>setAllVisualizeProperties</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1a8485f04d2b33612fd7c5f7cbfe96fb91" prot="protected" virt="virtual"><scope>MR::ObjectGcode</scope><name>setAllVisualizeProperties_</name></member>
+      <member refid="group__GeneralGroup_1ga8485f04d2b33612fd7c5f7cbfe96fb91" prot="protected" virt="virtual"><scope>MR::ObjectGcode</scope><name>setAllVisualizeProperties_</name></member>
       <member refid="classMR_1_1VisualObject_1aa66ddfe5c8361744b9537dead37974b6" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>setAllVisualizePropertiesForEnum</name></member>
       <member refid="classMR_1_1VisualObject_1a932577d6970c183bc981e1b79cc256e4" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>setAmbientStrength</name></member>
       <member refid="classMR_1_1Object_1a3758df5e3fe75f83c0449e77770961b3" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>setAncillary</name></member>
       <member refid="classMR_1_1VisualObject_1a469ac6da4b8c323e12d0d78943831a4e" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>setBackColor</name></member>
       <member refid="classMR_1_1VisualObject_1a6b7e8cf2909d71a7537a47028f77913a" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>setBackColorsForAllViewports</name></member>
-      <member refid="classMR_1_1ObjectGcode_1a7b5010cf498d2d361f4dece94fd3c6e5" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>setCNCMachineSettings</name></member>
+      <member refid="group__GeneralGroup_1ga7b5010cf498d2d361f4dece94fd3c6e5" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>setCNCMachineSettings</name></member>
       <member refid="classMR_1_1VisualObject_1a8d339ad1cf1735f90773b4f8b89e9059" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>setColoringType</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1a9211895465ab621237d8ad28b942ad42" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>setDashPattern</name></member>
-      <member refid="classMR_1_1ObjectGcode_1abd8d7ffd2cdeeac5474265b72f7a8ad7" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>setDirtyFlags</name></member>
+      <member refid="group__GeneralGroup_1ga9211895465ab621237d8ad28b942ad42" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>setDashPattern</name></member>
+      <member refid="group__GeneralGroup_1gabd8d7ffd2cdeeac5474265b72f7a8ad7" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>setDirtyFlags</name></member>
       <member refid="classMR_1_1VisualObject_1a2261b98d651c586e2bc62a2e1efb902a" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>setDirtyFlagsFast_</name></member>
-      <member refid="classMR_1_1ObjectGcode_1a9572a367773d74f7d47b9da9770b0188" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>setFrontColor</name></member>
+      <member refid="group__GeneralGroup_1ga9572a367773d74f7d47b9da9770b0188" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>setFrontColor</name></member>
       <member refid="classMR_1_1VisualObject_1ac8fd310ffa1926e733e28b521f658778" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>setFrontColorsForAllViewports</name></member>
-      <member refid="classMR_1_1ObjectGcode_1a0ffe09b19a324a16fb63d7f0ae8e570f" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>setGcodeSource</name></member>
+      <member refid="group__GeneralGroup_1ga0ffe09b19a324a16fb63d7f0ae8e570f" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>setGcodeSource</name></member>
       <member refid="classMR_1_1VisualObject_1a985084dc83b837ab048114f5f4bacae2" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>setGlobalAlpha</name></member>
       <member refid="classMR_1_1VisualObject_1a8ae88237f1bd22f03cb5a77d018c6d7c" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>setGlobalAlphaForAllViewports</name></member>
       <member refid="classMR_1_1VisualObject_1a6212504702d0e12528f65b94e270069e" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>setGlobalClippedByPlane</name></member>
       <member refid="classMR_1_1Object_1af61964cafaa7f98e2b14f89fed277368" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>setGlobalVisibility</name></member>
-      <member refid="classMR_1_1ObjectGcode_1a05b348dc0e3759d22e44b4e2719f92da" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>setIdleColor</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1acd01b614fd09efea6271585ca949bfa6" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>setLinesColorMap</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1a2a34d49b96c99eb2e836b6ccc26aaa22" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>setLineWidth</name></member>
+      <member refid="group__GeneralGroup_1ga05b348dc0e3759d22e44b4e2719f92da" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>setIdleColor</name></member>
+      <member refid="group__GeneralGroup_1gacd01b614fd09efea6271585ca949bfa6" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>setLinesColorMap</name></member>
+      <member refid="group__GeneralGroup_1ga2a34d49b96c99eb2e836b6ccc26aaa22" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>setLineWidth</name></member>
       <member refid="classMR_1_1Object_1ac427b5b1a99a87eac1305683801fc850" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>setLocked</name></member>
       <member refid="classMR_1_1Object_1ace89695fb0235bdf97caecfe26390349" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>setName</name></member>
       <member refid="classMR_1_1Object_1acd0464af4d89730f9a969f997fdcc8ce" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>setParentLocked</name></member>
       <member refid="classMR_1_1VisualObject_1add21d6793f336877707d5ed7b4785ce6" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>setPickable</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1a24c15e2c775fbd245769f2cbfd085c95" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>setPointSize</name></member>
+      <member refid="group__GeneralGroup_1ga24c15e2c775fbd245769f2cbfd085c95" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>setPointSize</name></member>
       <member refid="classMR_1_1Object_1a911d7f54ae21939fe483b0f5caf04a66" prot="protected" virt="virtual"><scope>MR::ObjectGcode</scope><name>setSharedModel_</name></member>
       <member refid="classMR_1_1VisualObject_1add52279d4cba695b4fa60d469cb8c1af" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>setShininess</name></member>
       <member refid="classMR_1_1VisualObject_1a455eb4255b591d822d504e0403c5e984" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>setSpecularStrength</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1a3a46ff446a508a1e4da51f1a85880461" prot="protected" virt="virtual"><scope>MR::ObjectGcode</scope><name>setupRenderObject_</name></member>
+      <member refid="group__GeneralGroup_1ga3a46ff446a508a1e4da51f1a85880461" prot="protected" virt="virtual"><scope>MR::ObjectGcode</scope><name>setupRenderObject_</name></member>
       <member refid="classMR_1_1VisualObject_1a12fceb01c325ff73eb770fa255cb5ecf" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>setUseDefaultScenePropertiesOnDeserialization</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1ace6659e797e2acb19d73486102ef01d2" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>setVertsColorMap</name></member>
+      <member refid="group__GeneralGroup_1gace6659e797e2acb19d73486102ef01d2" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>setVertsColorMap</name></member>
       <member refid="classMR_1_1Object_1a01ca9dab857ceb8e3fad3d04d271ff0e" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>setVisibilityMask</name></member>
       <member refid="classMR_1_1Object_1a4f9e9d6e328f1eda7944805cf9d52dc0" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>setVisible</name></member>
       <member refid="classMR_1_1VisualObject_1a2bbb1d0c58312e6cec629c558dec4eb8" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>setVisualizeProperty</name></member>
@@ -1132,46 +436,46 @@
       <member refid="classMR_1_1Object_1a214e37583ccaa45d92895464c6de685d" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>setWorldXf</name></member>
       <member refid="classMR_1_1Object_1a2f9761f33c2e77153389c9b3583e013e" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>setXf</name></member>
       <member refid="classMR_1_1Object_1a6d2214b6fde4d128210f1421cc36176d" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>setXfsForAllViewports</name></member>
-      <member refid="classMR_1_1ObjectGcode_1aba7a233ed2aaa7ce653e88e8795ffa84" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>shallowClone</name></member>
+      <member refid="group__GeneralGroup_1gaba7a233ed2aaa7ce653e88e8795ffa84" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>shallowClone</name></member>
       <member refid="classMR_1_1Object_1ac8e64c569d24d04c1dfcfe7cb1511580" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>shallowCloneTree</name></member>
       <member refid="classMR_1_1VisualObject_1a88b3d55070a6a91ed592e80b0f925419" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>shininess_</name></member>
       <member refid="classMR_1_1VisualObject_1aa23cd40dfdaaebc073129fb1ba57dce7" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>showName</name></member>
       <member refid="classMR_1_1VisualObject_1a6f691bb814bb6837382b81f60eff14c5" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>showName</name></member>
       <member refid="classMR_1_1VisualObject_1a611894e7f98e2633137d75833e361781" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>showName_</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1ac97e60fe1e8a87ff8905e571fd47bbd1" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>showPoints_</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1a5e2decefeb68afc04d745403e70da92f" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>smoothConnections_</name></member>
+      <member refid="group__GeneralGroup_1gac97e60fe1e8a87ff8905e571fd47bbd1" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>showPoints_</name></member>
+      <member refid="group__GeneralGroup_1ga5e2decefeb68afc04d745403e70da92f" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>smoothConnections_</name></member>
       <member refid="classMR_1_1Object_1a6f67ec7cbe1e69e514d8f0d5286a35da" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>sortChildren</name></member>
       <member refid="classMR_1_1VisualObject_1ab494630abaaab85d3b4c16929c7e6e83" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>specularStrength_</name></member>
-      <member refid="classMR_1_1ObjectGcode_1af093ac3edc98123db0dc8ce12795e872" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>StaticClassName</name></member>
-      <member refid="classMR_1_1ObjectGcode_1abd3efb6acac49d70a92671f9b11eba76" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>StaticClassNameInPlural</name></member>
-      <member refid="classMR_1_1ObjectGcode_1a28f6756aaad27f9bee3caf4fd9f14b93" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>StaticTypeName</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1a9ebf2f4fb4aaec33e52f3d1be2b2d74d" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>supportsVisualizeProperty</name></member>
+      <member refid="group__GeneralGroup_1gaf093ac3edc98123db0dc8ce12795e872" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>StaticClassName</name></member>
+      <member refid="group__GeneralGroup_1gabd3efb6acac49d70a92671f9b11eba76" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>StaticClassNameInPlural</name></member>
+      <member refid="group__GeneralGroup_1ga28f6756aaad27f9bee3caf4fd9f14b93" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>StaticTypeName</name></member>
+      <member refid="group__GeneralGroup_1ga9ebf2f4fb4aaec33e52f3d1be2b2d74d" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>supportsVisualizeProperty</name></member>
       <member refid="classMR_1_1Object_1a39e506e0816b1d504e86a2823ee90cf3" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>swap</name></member>
-      <member refid="classMR_1_1ObjectGcode_1a3369ad296b25670f64dcd09ff243e020" prot="protected" virt="virtual"><scope>MR::ObjectGcode</scope><name>swapBase_</name></member>
-      <member refid="classMR_1_1ObjectGcode_1abc258a705dc3d897b54a0c3327d98fc5" prot="protected" virt="virtual"><scope>MR::ObjectGcode</scope><name>swapSignals_</name></member>
-      <member refid="classMR_1_1ObjectGcode_1a3fb464e9d8b0acb890a6a05552c4dd9e" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>switchFeedrateGradient</name></member>
+      <member refid="group__GeneralGroup_1ga3369ad296b25670f64dcd09ff243e020" prot="protected" virt="virtual"><scope>MR::ObjectGcode</scope><name>swapBase_</name></member>
+      <member refid="group__GeneralGroup_1gabc258a705dc3d897b54a0c3327d98fc5" prot="protected" virt="virtual"><scope>MR::ObjectGcode</scope><name>swapSignals_</name></member>
+      <member refid="group__GeneralGroup_1ga3fb464e9d8b0acb890a6a05552c4dd9e" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>switchFeedrateGradient</name></member>
       <member refid="classMR_1_1Object_1abf2e87d7dd67d22799d82a35ddecc7b3" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>tags</name></member>
       <member refid="classMR_1_1Object_1abf2154dc69866e93f47d7207cdb4abf4" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>tags_</name></member>
       <member refid="classMR_1_1VisualObject_1af63540ac95e6431477166fb4d1c249a3" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>toggleVisualizeProperty</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1a8aa92410cdf7cc0bd3139eb5f31b8d11" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>totalLength</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1aee46157cb8a669b29f698f0ea9688264" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>totalLength_</name></member>
-      <member refid="classMR_1_1ObjectGcode_1ac27e546bf2d66d45930837b6dd37cd9e" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>typeName</name></member>
+      <member refid="group__GeneralGroup_1ga8aa92410cdf7cc0bd3139eb5f31b8d11" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>totalLength</name></member>
+      <member refid="group__GeneralGroup_1gaee46157cb8a669b29f698f0ea9688264" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>totalLength_</name></member>
+      <member refid="group__GeneralGroup_1gac27e546bf2d66d45930837b6dd37cd9e" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>typeName</name></member>
       <member refid="classMR_1_1VisualObject_1a567b072f1d687c864a8be3d5e68d13a3" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>unselectedColor_</name></member>
-      <member refid="classMR_1_1ObjectGcode_1a67326fec0625a58f9e0aa149c24aafcc" prot="private" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>updateAll_</name></member>
-      <member refid="classMR_1_1ObjectGcode_1a97e89fcac9fdd13801b1ab8871a56116" prot="private" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>updateColors_</name></member>
-      <member refid="classMR_1_1ObjectGcode_1a4ef2e0d88614f0dadbd6c6787b41214b" prot="private" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>updateHeapUsageCache_</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1a59e3e83d9bf413fdb9a84fedda40f08f" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>updateLinesColorMap</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1ab2d21946ef246e3fb5f97cdd7fc89e1c" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>updateVertsColorMap</name></member>
+      <member refid="group__GeneralGroup_1ga67326fec0625a58f9e0aa149c24aafcc" prot="private" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>updateAll_</name></member>
+      <member refid="group__GeneralGroup_1ga97e89fcac9fdd13801b1ab8871a56116" prot="private" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>updateColors_</name></member>
+      <member refid="group__GeneralGroup_1ga4ef2e0d88614f0dadbd6c6787b41214b" prot="private" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>updateHeapUsageCache_</name></member>
+      <member refid="group__GeneralGroup_1ga59e3e83d9bf413fdb9a84fedda40f08f" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>updateLinesColorMap</name></member>
+      <member refid="group__GeneralGroup_1gab2d21946ef246e3fb5f97cdd7fc89e1c" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>updateVertsColorMap</name></member>
       <member refid="classMR_1_1VisualObject_1a0466c6ddefdea403775b5b4fa4a46219" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
       <member refid="classMR_1_1VisualObject_1aeed6d251c7bdbffe0634b0fe96faab35" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>useDefaultScenePropertiesOnDeserialization_</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1aebf8fd3ebbe9baca5e1890a03da63db7" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>vertsColorMap_</name></member>
+      <member refid="group__GeneralGroup_1gaebf8fd3ebbe9baca5e1890a03da63db7" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>vertsColorMap_</name></member>
       <member refid="classMR_1_1Object_1a9363ba86191cc486fa554ea0d6238d05" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>visibilityMask</name></member>
       <member refid="classMR_1_1Object_1ae98466115f6fa8989c8628ff6ec54e9e" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>visibilityMask_</name></member>
       <member refid="classMR_1_1VisualObject_1a248a0efabc82874bd29ca605c2fb7481" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>VisualObject</name></member>
       <member refid="classMR_1_1VisualObject_1a95016bb1aefebfa8952ac3457cc57ee4" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>VisualObject</name></member>
       <member refid="classMR_1_1VisualObject_1a132f300dcd5614eaaa237b865dc79763" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>VisualObject</name></member>
       <member refid="classMR_1_1VisualObject_1a84d46a3ce3da143b5735f0b6ac79deee" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>VisualObject</name></member>
-      <member refid="classMR_1_1ObjectLinesHolder_1af3f76f7286057cda0116754b663cf340" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>worldBox_</name></member>
+      <member refid="group__GeneralGroup_1gaf3f76f7286057cda0116754b663cf340" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>worldBox_</name></member>
       <member refid="classMR_1_1Object_1adf99bf3b0a5a59452a7e4efd6f48b657" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>worldXf</name></member>
       <member refid="classMR_1_1Object_1a84debbb8e5d281139acb86024c2f7964" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>worldXfChangedSignal</name></member>
       <member refid="classMR_1_1Object_1a603c094ba75fe76c397b93e84d1cb129" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>xf</name></member>

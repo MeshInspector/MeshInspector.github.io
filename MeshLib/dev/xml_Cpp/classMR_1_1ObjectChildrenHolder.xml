@@ -100,7 +100,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="41" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" bodystart="41" bodyend="41"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectChildrenHolder_1a89b1fff6ebde3c5a71a530e3c8cddfb6" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <type>MRMESH_API</type>
         <definition>MRMESH_API MR::ObjectChildrenHolder::ObjectChildrenHolder</definition>
         <argsstring>(ObjectChildrenHolder &amp;&amp;) noexcept</argsstring>
         <name>ObjectChildrenHolder</name>
@@ -117,7 +117,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="42" column="16"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectChildrenHolder_1aca1fa4cd4c9ee1cb2e567623c979b26f" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="classMR_1_1ObjectChildrenHolder" kindref="compound">ObjectChildrenHolder</ref> &amp;</type>
+        <type>MRMESH_API <ref refid="classMR_1_1ObjectChildrenHolder" kindref="compound">ObjectChildrenHolder</ref> &amp;</type>
         <definition>MRMESH_API ObjectChildrenHolder &amp; MR::ObjectChildrenHolder::operator=</definition>
         <argsstring>(ObjectChildrenHolder &amp;&amp;) noexcept</argsstring>
         <name>operator=</name>
@@ -134,7 +134,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="43" column="38"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectChildrenHolder_1a0d547b2ea371b35b7f6aeb91b0a31ef8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <type>MRMESH_API</type>
         <definition>MRMESH_API MR::ObjectChildrenHolder::~ObjectChildrenHolder</definition>
         <argsstring>()</argsstring>
         <name>~ObjectChildrenHolder</name>
@@ -148,7 +148,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="44" column="16"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectChildrenHolder_1a64c12f40ae3ee9c61ba167319e33f4a8" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
+        <type>MRMESH_API std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
         <definition>MRMESH_API std::shared_ptr&lt; Object &gt; MR::ObjectChildrenHolder::getSharedPtr</definition>
         <argsstring>() const</argsstring>
         <name>getSharedPtr</name>
@@ -163,7 +163,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObject.h" line="48" column="33"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectChildrenHolder_1a2c5ae3e70a79035b70eff2b38bd1e383" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> size_t</type>
+        <type>MRMESH_API size_t</type>
         <definition>MRMESH_API size_t MR::ObjectChildrenHolder::heapBytes</definition>
         <argsstring>() const</argsstring>
         <name>heapBytes</name>

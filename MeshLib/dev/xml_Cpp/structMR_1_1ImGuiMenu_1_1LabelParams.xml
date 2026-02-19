@@ -4,59 +4,19 @@
     <compoundname>MR::ImGuiMenu::LabelParams</compoundname>
     <includes refid="ImGuiMenu_8h" local="no">ImGuiMenu.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1ImGuiMenu_1_1LabelParams_1adf0278292ff9ea06a7b310f6c39c237b" prot="public" static="no" mutable="no">
-        <type>std::string</type>
-        <definition>std::string MR::ImGuiMenu::LabelParams::lastLabel</definition>
-        <argsstring></argsstring>
-        <name>lastLabel</name>
-        <qualifiedname>MR::ImGuiMenu::LabelParams::lastLabel</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiMenu.h" line="118" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiMenu.h" bodystart="118" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ImGuiMenu_1_1LabelParams_1a9b6fa31d0eca45b8885f1594a2bf3f4a" prot="public" static="no" mutable="no">
-        <type>std::string</type>
-        <definition>std::string MR::ImGuiMenu::LabelParams::labelBuffer</definition>
-        <argsstring></argsstring>
-        <name>labelBuffer</name>
-        <qualifiedname>MR::ImGuiMenu::LabelParams::labelBuffer</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiMenu.h" line="119" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiMenu.h" bodystart="119" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ImGuiMenu_1_1LabelParams_1a011f5f577a8b08a9aa41429b0dbe5387" prot="public" static="no" mutable="no">
-        <type>std::shared_ptr&lt; <ref refid="classMR_1_1ObjectLabel" kindref="compound">ObjectLabel</ref> &gt;</type>
-        <definition>std::shared_ptr&lt;ObjectLabel&gt; MR::ImGuiMenu::LabelParams::obj</definition>
-        <argsstring></argsstring>
-        <name>obj</name>
-        <qualifiedname>MR::ImGuiMenu::LabelParams::obj</qualifiedname>
-        <initializer>{ nullptr }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiMenu.h" line="120" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiMenu.h" bodystart="120" bodyend="120"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gadf0278292ff9ea06a7b310f6c39c237b" kind="variable"><name>lastLabel</name></member>
+      <member refid="group__GeneralGroup_1ga9b6fa31d0eca45b8885f1594a2bf3f4a" kind="variable"><name>labelBuffer</name></member>
+      <member refid="group__GeneralGroup_1ga011f5f577a8b08a9aa41429b0dbe5387" kind="variable"><name>obj</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiMenu.h" line="116" column="3" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiMenu.h" bodystart="117" bodyend="121"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiMenu.h" line="119" column="3" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiMenu.h" bodystart="120" bodyend="124"/>
     <listofallmembers>
-      <member refid="structMR_1_1ImGuiMenu_1_1LabelParams_1a9b6fa31d0eca45b8885f1594a2bf3f4a" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu::LabelParams</scope><name>labelBuffer</name></member>
-      <member refid="structMR_1_1ImGuiMenu_1_1LabelParams_1adf0278292ff9ea06a7b310f6c39c237b" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu::LabelParams</scope><name>lastLabel</name></member>
-      <member refid="structMR_1_1ImGuiMenu_1_1LabelParams_1a011f5f577a8b08a9aa41429b0dbe5387" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu::LabelParams</scope><name>obj</name></member>
+      <member refid="group__GeneralGroup_1ga9b6fa31d0eca45b8885f1594a2bf3f4a" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu::LabelParams</scope><name>labelBuffer</name></member>
+      <member refid="group__GeneralGroup_1gadf0278292ff9ea06a7b310f6c39c237b" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu::LabelParams</scope><name>lastLabel</name></member>
+      <member refid="group__GeneralGroup_1ga011f5f577a8b08a9aa41429b0dbe5387" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu::LabelParams</scope><name>obj</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

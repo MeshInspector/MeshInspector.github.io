@@ -4,44 +4,17 @@
     <compoundname>MR::TransformVdbVolumeResult</compoundname>
     <includes refid="MRVoxelsApplyTransform_8h" local="no">MRVoxelsApplyTransform.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1TransformVdbVolumeResult_1acd7cd4ab1f0836d7ad1a8aca8f5447a2" prot="public" static="no" mutable="no">
-        <type>VdbVolume</type>
-        <definition>VdbVolume MR::TransformVdbVolumeResult::volume</definition>
-        <argsstring></argsstring>
-        <name>volume</name>
-        <qualifiedname>MR::TransformVdbVolumeResult::volume</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsApplyTransform.h" line="13" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsApplyTransform.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1TransformVdbVolumeResult_1a6c5d7382162228efb8cb4fb6f8aed424" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::TransformVdbVolumeResult::boxFixed</definition>
-        <argsstring></argsstring>
-        <name>boxFixed</name>
-        <qualifiedname>MR::TransformVdbVolumeResult::boxFixed</qualifiedname>
-        <initializer>= false</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsApplyTransform.h" line="14" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsApplyTransform.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gacd7cd4ab1f0836d7ad1a8aca8f5447a2" kind="variable"><name>volume</name></member>
+      <member refid="group__GeneralGroup_1ga6c5d7382162228efb8cb4fb6f8aed424" kind="variable"><name>boxFixed</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsApplyTransform.h" line="11" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsApplyTransform.h" bodystart="12" bodyend="15"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsApplyTransform.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsApplyTransform.h" bodystart="15" bodyend="18"/>
     <listofallmembers>
-      <member refid="structMR_1_1TransformVdbVolumeResult_1a6c5d7382162228efb8cb4fb6f8aed424" prot="public" virt="non-virtual"><scope>MR::TransformVdbVolumeResult</scope><name>boxFixed</name></member>
-      <member refid="structMR_1_1TransformVdbVolumeResult_1acd7cd4ab1f0836d7ad1a8aca8f5447a2" prot="public" virt="non-virtual"><scope>MR::TransformVdbVolumeResult</scope><name>volume</name></member>
+      <member refid="group__GeneralGroup_1ga6c5d7382162228efb8cb4fb6f8aed424" prot="public" virt="non-virtual"><scope>MR::TransformVdbVolumeResult</scope><name>boxFixed</name></member>
+      <member refid="group__GeneralGroup_1gacd7cd4ab1f0836d7ad1a8aca8f5447a2" prot="public" virt="non-virtual"><scope>MR::TransformVdbVolumeResult</scope><name>volume</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

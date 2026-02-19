@@ -2,7 +2,6 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="structMR_1_1Box" kind="struct" language="C++" prot="public">
     <compoundname>MR::Box</compoundname>
-    <derivedcompoundref refid="structMR_1_1VoxelsVolumeMinMax" prot="public" virt="non-virtual">MR::VoxelsVolumeMinMax&lt; T &gt;</derivedcompoundref>
     <includes refid="MRBox_8h" local="no">MRBox.h</includes>
     <templateparamlist>
       <param>
@@ -25,7 +24,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="29" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="29" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="structMR_1_1Box_1a1425948e6f0f9ef6de04c45be07f81fd" prot="public" static="no">
-        <type>typename <ref refid="structMR_1_1VectorTraits_1adbadae2704ad269b8d78edbb0f2faa93" kindref="member">VTraits::BaseType</ref></type>
+        <type>typename <ref refid="group__GeneralGroup_1gadbadae2704ad269b8d78edbb0f2faa93" kindref="member">VTraits::BaseType</ref></type>
         <definition>using MR::Box&lt; V &gt;::T =  typename VTraits::BaseType</definition>
         <argsstring></argsstring>
         <name>T</name>
@@ -75,7 +74,7 @@
         <argsstring></argsstring>
         <name>elements</name>
         <qualifiedname>MR::Box::elements</qualifiedname>
-        <initializer>= <ref refid="structMR_1_1VectorTraits_1a63f31635f31a229471ff3cc2990d95ea" kindref="member">VTraits::size</ref></initializer>
+        <initializer>= <ref refid="group__GeneralGroup_1ga63f31635f31a229471ff3cc2990d95ea" kindref="member">VTraits::size</ref></initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -207,7 +206,7 @@
         <name>Box</name>
         <qualifiedname>MR::Box::Box</qualifiedname>
         <param>
-          <type><ref refid="structMR_1_1NoInit" kindref="compound">NoInit</ref></type>
+          <type>NoInit</type>
         </param>
         <briefdescription>
 <para>skip initialization of min/max </para>
@@ -235,7 +234,7 @@
         <name>Box</name>
         <qualifiedname>MR::Box::Box</qualifiedname>
         <param>
-          <type><ref refid="structMR_1_1NoInit" kindref="compound">NoInit</ref></type>
+          <type>NoInit</type>
         </param>
         <briefdescription>
         </briefdescription>
@@ -754,18 +753,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <inheritancegraph>
-      <node id="1">
-        <label>MR::Box&lt; V &gt;</label>
-        <link refid="structMR_1_1Box"/>
-      </node>
-      <node id="2">
-        <label>MR::VoxelsVolumeMinMax&lt; T &gt;</label>
-        <link refid="structMR_1_1VoxelsVolumeMinMax"/>
-        <childnode refid="1" relation="public-inheritance">
-        </childnode>
-      </node>
-    </inheritancegraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="26" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="27" bodyend="286"/>
     <listofallmembers>
       <member refid="structMR_1_1Box_1ab72759c3d199697fa09474bba5c5284c" prot="public" virt="non-virtual"><scope>MR::Box</scope><name>Box</name></member>

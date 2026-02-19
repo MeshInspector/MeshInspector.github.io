@@ -85,7 +85,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" line="86" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" bodystart="86" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1FindProjectionOnPointsSettings_1aa4d8d3a3b0dac4b24f0e182945040220" prot="public" static="no" mutable="no">
-        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+        <type>ProgressCallback</type>
         <definition>ProgressCallback MR::FindProjectionOnPointsSettings::cb</definition>
         <argsstring></argsstring>
         <name>cb</name>

@@ -10,542 +10,78 @@
     <innerclass refid="structMR_1_1ViewportGL_1_1PickTextureFrameBuffer" prot="private">MR::ViewportGL::PickTextureFrameBuffer</innerclass>
     <innerclass refid="structMR_1_1ViewportGL_1_1ScaledPickRes" prot="public">MR::ViewportGL::ScaledPickRes</innerclass>
     <sectiondef kind="public-type">
-      <memberdef kind="typedef" id="classMR_1_1ViewportGL_1a2a8a6c6953f39b7763a83def4e9f8ba5" prot="public" static="no">
-        <type>unsigned int</type>
-        <definition>typedef unsigned int MR::ViewportGL::GLuint</definition>
-        <argsstring></argsstring>
-        <name>GLuint</name>
-        <qualifiedname>MR::ViewportGL::GLuint</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="42" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="42" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1ViewportGL_1a4324daf005894093aab00d0738fbd422" prot="public" static="no">
-        <type>float</type>
-        <definition>typedef float MR::ViewportGL::GLfloat</definition>
-        <argsstring></argsstring>
-        <name>GLfloat</name>
-        <qualifiedname>MR::ViewportGL::GLfloat</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="43" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="43" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1ViewportGL_1a79d22916ef4534d1503a4433e40d44c1" prot="public" static="no">
-        <type>std::vector&lt; <ref refid="structMR_1_1ViewportGL_1_1PickResult" kindref="compound">PickResult</ref> &gt;</type>
-        <definition>using MR::ViewportGL::PickResults =  std::vector&lt;PickResult&gt;</definition>
-        <argsstring></argsstring>
-        <name>PickResults</name>
-        <qualifiedname>MR::ViewportGL::PickResults</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="86" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="86" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1ViewportGL_1a28aa3f7360b6d73987f11ccc02b6a51e" prot="public" static="no">
-        <type>std::vector&lt; <ref refid="structMR_1_1ViewportGL_1_1BasePickResult" kindref="compound">BasePickResult</ref> &gt;</type>
-        <definition>using MR::ViewportGL::BasePickResults =  std::vector&lt;BasePickResult&gt;</definition>
-        <argsstring></argsstring>
-        <name>BasePickResults</name>
-        <qualifiedname>MR::ViewportGL::BasePickResults</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="94" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="94" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga2a8a6c6953f39b7763a83def4e9f8ba5" kind="typedef"><name>GLuint</name></member>
+      <member refid="group__GeneralGroup_1ga4324daf005894093aab00d0738fbd422" kind="typedef"><name>GLfloat</name></member>
+      <member refid="group__GeneralGroup_1ga79d22916ef4534d1503a4433e40d44c1" kind="typedef"><name>PickResults</name></member>
+      <member refid="group__GeneralGroup_1ga28aa3f7360b6d73987f11ccc02b6a51e" kind="typedef"><name>BasePickResults</name></member>
     </sectiondef>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1ViewportGL_1a77a98af21b7cb15783ac1ed8b145ee22" prot="private" static="no" mutable="yes">
-        <type>PickTextureFrameBuffer</type>
-        <definition>PickTextureFrameBuffer MR::ViewportGL::pickFBO_</definition>
-        <argsstring></argsstring>
-        <name>pickFBO_</name>
-        <qualifiedname>MR::ViewportGL::pickFBO_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="122" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="122" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ViewportGL_1a3ea2173e27ce027283dcbe9567012cf9" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::ViewportGL::inited_</definition>
-        <argsstring></argsstring>
-        <name>inited_</name>
-        <qualifiedname>MR::ViewportGL::inited_</qualifiedname>
-        <initializer>= false</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="126" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="126" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ViewportGL_1a15363f05b327573c2bc93ddc96b46392" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1ViewportGL_1a2a8a6c6953f39b7763a83def4e9f8ba5" kindref="member">GLuint</ref></type>
-        <definition>GLuint MR::ViewportGL::add_line_colors_vbo</definition>
-        <argsstring></argsstring>
-        <name>add_line_colors_vbo</name>
-        <qualifiedname>MR::ViewportGL::add_line_colors_vbo</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="128" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="128" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ViewportGL_1a10386b7151d8c096adff2162c92c465b" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1ViewportGL_1a2a8a6c6953f39b7763a83def4e9f8ba5" kindref="member">GLuint</ref></type>
-        <definition>GLuint MR::ViewportGL::add_line_vbo</definition>
-        <argsstring></argsstring>
-        <name>add_line_vbo</name>
-        <qualifiedname>MR::ViewportGL::add_line_vbo</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="129" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="129" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ViewportGL_1a29ef9c5ceb38273f6742c4e9e8b5c936" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1ViewportGL_1a2a8a6c6953f39b7763a83def4e9f8ba5" kindref="member">GLuint</ref></type>
-        <definition>GLuint MR::ViewportGL::add_line_vao</definition>
-        <argsstring></argsstring>
-        <name>add_line_vao</name>
-        <qualifiedname>MR::ViewportGL::add_line_vao</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="130" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="130" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ViewportGL_1aafb385b637b90ffc6257b66c25bd6fdb" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1ViewportGL_1a2a8a6c6953f39b7763a83def4e9f8ba5" kindref="member">GLuint</ref></type>
-        <definition>GLuint MR::ViewportGL::add_point_colors_vbo</definition>
-        <argsstring></argsstring>
-        <name>add_point_colors_vbo</name>
-        <qualifiedname>MR::ViewportGL::add_point_colors_vbo</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="132" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="132" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ViewportGL_1a88127abdca1fd1dc6394a0389b60d682" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1ViewportGL_1a2a8a6c6953f39b7763a83def4e9f8ba5" kindref="member">GLuint</ref></type>
-        <definition>GLuint MR::ViewportGL::add_point_vbo</definition>
-        <argsstring></argsstring>
-        <name>add_point_vbo</name>
-        <qualifiedname>MR::ViewportGL::add_point_vbo</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="133" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="133" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ViewportGL_1a16d28853fd7897e1491a8f103c1f723a" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1ViewportGL_1a2a8a6c6953f39b7763a83def4e9f8ba5" kindref="member">GLuint</ref></type>
-        <definition>GLuint MR::ViewportGL::add_point_vao</definition>
-        <argsstring></argsstring>
-        <name>add_point_vao</name>
-        <qualifiedname>MR::ViewportGL::add_point_vao</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="134" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="134" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ViewportGL_1ad4d3acc4bae46e9f0610470a15a2b013" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1ViewportGL_1a2a8a6c6953f39b7763a83def4e9f8ba5" kindref="member">GLuint</ref></type>
-        <definition>GLuint MR::ViewportGL::border_line_vbo</definition>
-        <argsstring></argsstring>
-        <name>border_line_vbo</name>
-        <qualifiedname>MR::ViewportGL::border_line_vbo</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="136" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="136" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1ViewportGL_1ad7129328029d1a9d8e0c0e0d11996028" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1ViewportGL_1a2a8a6c6953f39b7763a83def4e9f8ba5" kindref="member">GLuint</ref></type>
-        <definition>GLuint MR::ViewportGL::border_line_vao</definition>
-        <argsstring></argsstring>
-        <name>border_line_vao</name>
-        <qualifiedname>MR::ViewportGL::border_line_vao</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="137" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="137" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga77a98af21b7cb15783ac1ed8b145ee22" kind="variable"><name>pickFBO_</name></member>
+      <member refid="group__GeneralGroup_1ga3ea2173e27ce027283dcbe9567012cf9" kind="variable"><name>inited_</name></member>
+      <member refid="group__GeneralGroup_1ga15363f05b327573c2bc93ddc96b46392" kind="variable"><name>add_line_colors_vbo</name></member>
+      <member refid="group__GeneralGroup_1ga10386b7151d8c096adff2162c92c465b" kind="variable"><name>add_line_vbo</name></member>
+      <member refid="group__GeneralGroup_1ga29ef9c5ceb38273f6742c4e9e8b5c936" kind="variable"><name>add_line_vao</name></member>
+      <member refid="group__GeneralGroup_1gaafb385b637b90ffc6257b66c25bd6fdb" kind="variable"><name>add_point_colors_vbo</name></member>
+      <member refid="group__GeneralGroup_1ga88127abdca1fd1dc6394a0389b60d682" kind="variable"><name>add_point_vbo</name></member>
+      <member refid="group__GeneralGroup_1ga16d28853fd7897e1491a8f103c1f723a" kind="variable"><name>add_point_vao</name></member>
+      <member refid="group__GeneralGroup_1gad4d3acc4bae46e9f0610470a15a2b013" kind="variable"><name>border_line_vbo</name></member>
+      <member refid="group__GeneralGroup_1gad7129328029d1a9d8e0c0e0d11996028" kind="variable"><name>border_line_vao</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1ViewportGL_1a97a437675447882da60c694f40cc9e56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::ViewportGL::ViewportGL</definition>
-        <argsstring>()=default</argsstring>
-        <name>ViewportGL</name>
-        <qualifiedname>MR::ViewportGL::ViewportGL</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="45" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewportGL_1a376cf69e021d79c6a54e63168253e3c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::ViewportGL::ViewportGL</definition>
-        <argsstring>(const ViewportGL &amp;)</argsstring>
-        <name>ViewportGL</name>
-        <qualifiedname>MR::ViewportGL::ViewportGL</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1ViewportGL" kindref="compound">ViewportGL</ref> &amp;</type>
-        </param>
-        <briefdescription>
-<para>Copy operators do nothing, not to share GL data. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="47" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="47" bodyend="47"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewportGL_1af6d0b135cd7ea98a92eac23f1bac3642" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="classMR_1_1ViewportGL" kindref="compound">ViewportGL</ref> &amp;</type>
-        <definition>ViewportGL &amp; MR::ViewportGL::operator=</definition>
-        <argsstring>(const ViewportGL &amp;)</argsstring>
-        <name>operator=</name>
-        <qualifiedname>MR::ViewportGL::operator=</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1ViewportGL" kindref="compound">ViewportGL</ref> &amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="48" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="48" bodyend="48"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewportGL_1a16c05e1b059689d7bc4ed8d5e6673ac0" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type>MRVIEWER_API</type>
-        <definition>MRVIEWER_API MR::ViewportGL::ViewportGL</definition>
-        <argsstring>(ViewportGL &amp;&amp;other) noexcept</argsstring>
-        <name>ViewportGL</name>
-        <qualifiedname>MR::ViewportGL::ViewportGL</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1ViewportGL" kindref="compound">ViewportGL</ref> &amp;&amp;</type>
-          <declname>other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="50" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewportGL_1a1540ae57916ae7af3244396a8443ff87" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type><ref refid="classMR_1_1ViewportGL" kindref="compound">ViewportGL</ref> &amp;</type>
-        <definition>ViewportGL &amp; MR::ViewportGL::operator=</definition>
-        <argsstring>(ViewportGL &amp;&amp;) noexcept</argsstring>
-        <name>operator=</name>
-        <qualifiedname>MR::ViewportGL::operator=</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1ViewportGL" kindref="compound">ViewportGL</ref> &amp;&amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="51" column="16"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewportGL_1a33a67bdad47aeacb17a644f0c65f53ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::ViewportGL::~ViewportGL</definition>
-        <argsstring>()</argsstring>
-        <name>~ViewportGL</name>
-        <qualifiedname>MR::ViewportGL::~ViewportGL</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="52" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewportGL_1ac2b114c03f1a2659e1e2eba7421c5aad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewportGL::init</definition>
-        <argsstring>()</argsstring>
-        <name>init</name>
-        <qualifiedname>MR::ViewportGL::init</qualifiedname>
-        <briefdescription>
-<para>Initialize all GL buffers and arrays. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="55" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewportGL_1aeb0e2182b6dc110fa0c6d0a45b199076" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewportGL::free</definition>
-        <argsstring>()</argsstring>
-        <name>free</name>
-        <qualifiedname>MR::ViewportGL::free</qualifiedname>
-        <briefdescription>
-<para>Free all GL data. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="57" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewportGL_1afccb2d900dfbc38ee4f10461bcc74539" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewportGL::drawBorder</definition>
-        <argsstring>(const Box2f &amp;rect, const Color &amp;color) const</argsstring>
-        <name>drawBorder</name>
-        <qualifiedname>MR::ViewportGL::drawBorder</qualifiedname>
-        <param>
-          <type>const Box2f &amp;</type>
-          <declname>rect</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &amp;</type>
-          <declname>color</declname>
-        </param>
-        <briefdescription>
-<para>Binds and draws viewport border. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="60" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewportGL_1a35ccca6814c2d2d405ce84f40381147c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewportGL::fillViewport</definition>
-        <argsstring>(const Box2f &amp;rect, const Color &amp;color) const</argsstring>
-        <name>fillViewport</name>
-        <qualifiedname>MR::ViewportGL::fillViewport</qualifiedname>
-        <param>
-          <type>const Box2f &amp;</type>
-          <declname>rect</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &amp;</type>
-          <declname>color</declname>
-        </param>
-        <briefdescription>
-<para>Fills viewport with given color (clear frame buffer) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="63" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewportGL_1a4b2f4b4002b1881eca93bde98fe86979" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::ViewportGL::checkInit</definition>
-        <argsstring>() const</argsstring>
-        <name>checkInit</name>
-        <qualifiedname>MR::ViewportGL::checkInit</qualifiedname>
-        <briefdescription>
-<para>Check that members have been initialized. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="66" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewportGL_1abc105ddae2f4b963448775271221ed8f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMR_1_1ViewportGL_1a79d22916ef4534d1503a4433e40d44c1" kindref="member">PickResults</ref></type>
-        <definition>PickResults MR::ViewportGL::pickObjects</definition>
-        <argsstring>(const PickParameters &amp;params, const std::vector&lt; Vector2i &gt; &amp;picks) const</argsstring>
-        <name>pickObjects</name>
-        <qualifiedname>MR::ViewportGL::pickObjects</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1ViewportGL_1_1PickParameters" kindref="compound">PickParameters</ref> &amp;</type>
-          <declname>params</declname>
-        </param>
-        <param>
-          <type>const std::vector&lt; Vector2i &gt; &amp;</type>
-          <declname>picks</declname>
-        </param>
-        <briefdescription>
-<para>Find picked object, face id and z coordinate, of objects given in parameters (works for vector of picks) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="88" column="17"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewportGL_1afd079aa214c396ca3db1f0cdc83fb5d0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>std::vector&lt; unsigned &gt;</type>
-        <definition>std::vector&lt; unsigned &gt; MR::ViewportGL::findUniqueObjectsInRect</definition>
-        <argsstring>(const PickParameters &amp;params, const Box2i &amp;rect, int maxRenderResolutionSide) const</argsstring>
-        <name>findUniqueObjectsInRect</name>
-        <qualifiedname>MR::ViewportGL::findUniqueObjectsInRect</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1ViewportGL_1_1PickParameters" kindref="compound">PickParameters</ref> &amp;</type>
-          <declname>params</declname>
-        </param>
-        <param>
-          <type>const Box2i &amp;</type>
-          <declname>rect</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>maxRenderResolutionSide</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Find unique objects in given rect (return vector of ids of objects from params) if maxRenderResolutionSide less then current rect size, downscale rendering for better performance </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="91" column="17"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ViewportGL_1afd238d185cc770e343e9fd80e4e1095a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="structMR_1_1ViewportGL_1_1ScaledPickRes" kindref="compound">ScaledPickRes</ref></type>
-        <definition>ScaledPickRes MR::ViewportGL::pickObjectsInRect</definition>
-        <argsstring>(const PickParameters &amp;params, const Box2i &amp;rect, int maxRenderResolutionSide) const</argsstring>
-        <name>pickObjectsInRect</name>
-        <qualifiedname>MR::ViewportGL::pickObjectsInRect</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1ViewportGL_1_1PickParameters" kindref="compound">PickParameters</ref> &amp;</type>
-          <declname>params</declname>
-        </param>
-        <param>
-          <type>const Box2i &amp;</type>
-          <declname>rect</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>maxRenderResolutionSide</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Pick all pixels in rect if maxRenderResolutionSide less then current rect size, downscale rendering for better performance </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="102" column="19"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga97a437675447882da60c694f40cc9e56" kind="function"><name>ViewportGL</name></member>
+      <member refid="group__GeneralGroup_1ga376cf69e021d79c6a54e63168253e3c0" kind="function"><name>ViewportGL</name></member>
+      <member refid="group__GeneralGroup_1gaf6d0b135cd7ea98a92eac23f1bac3642" kind="function"><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga16c05e1b059689d7bc4ed8d5e6673ac0" kind="function"><name>ViewportGL</name></member>
+      <member refid="group__GeneralGroup_1ga1540ae57916ae7af3244396a8443ff87" kind="function"><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga33a67bdad47aeacb17a644f0c65f53ec" kind="function"><name>~ViewportGL</name></member>
+      <member refid="group__GeneralGroup_1gac2b114c03f1a2659e1e2eba7421c5aad" kind="function"><name>init</name></member>
+      <member refid="group__GeneralGroup_1gaeb0e2182b6dc110fa0c6d0a45b199076" kind="function"><name>free</name></member>
+      <member refid="group__GeneralGroup_1gafccb2d900dfbc38ee4f10461bcc74539" kind="function"><name>drawBorder</name></member>
+      <member refid="group__GeneralGroup_1ga35ccca6814c2d2d405ce84f40381147c" kind="function"><name>fillViewport</name></member>
+      <member refid="group__GeneralGroup_1ga4b2f4b4002b1881eca93bde98fe86979" kind="function"><name>checkInit</name></member>
+      <member refid="group__GeneralGroup_1gabc105ddae2f4b963448775271221ed8f" kind="function"><name>pickObjects</name></member>
+      <member refid="group__GeneralGroup_1gafd079aa214c396ca3db1f0cdc83fb5d0" kind="function"><name>findUniqueObjectsInRect</name></member>
+      <member refid="group__GeneralGroup_1gafd238d185cc770e343e9fd80e4e1095a" kind="function"><name>pickObjectsInRect</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMR_1_1ViewportGL_1a57c6930ac8225ee8b4bd0727c3fc445c" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>std::vector&lt; PickColor &gt;</type>
-        <definition>std::vector&lt; PickColor &gt; MR::ViewportGL::pickObjectsInRect_</definition>
-        <argsstring>(const PickParameters &amp;params, const Box2i &amp;rect) const</argsstring>
-        <name>pickObjectsInRect_</name>
-        <qualifiedname>MR::ViewportGL::pickObjectsInRect_</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1ViewportGL_1_1PickParameters" kindref="compound">PickParameters</ref> &amp;</type>
-          <declname>params</declname>
-        </param>
-        <param>
-          <type>const Box2i &amp;</type>
-          <declname>rect</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="124" column="17"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga57c6930ac8225ee8b4bd0727c3fc445c" kind="function"><name>pickObjectsInRect_</name></member>
     </sectiondef>
     <briefdescription>
 <para>This class holds data needed to render viewport primitives and accumulative picker via OpenGL. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="39" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="40" bodyend="138"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="42" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="43" bodyend="141"/>
     <listofallmembers>
-      <member refid="classMR_1_1ViewportGL_1a15363f05b327573c2bc93ddc96b46392" prot="private" virt="non-virtual"><scope>MR::ViewportGL</scope><name>add_line_colors_vbo</name></member>
-      <member refid="classMR_1_1ViewportGL_1a29ef9c5ceb38273f6742c4e9e8b5c936" prot="private" virt="non-virtual"><scope>MR::ViewportGL</scope><name>add_line_vao</name></member>
-      <member refid="classMR_1_1ViewportGL_1a10386b7151d8c096adff2162c92c465b" prot="private" virt="non-virtual"><scope>MR::ViewportGL</scope><name>add_line_vbo</name></member>
-      <member refid="classMR_1_1ViewportGL_1aafb385b637b90ffc6257b66c25bd6fdb" prot="private" virt="non-virtual"><scope>MR::ViewportGL</scope><name>add_point_colors_vbo</name></member>
-      <member refid="classMR_1_1ViewportGL_1a16d28853fd7897e1491a8f103c1f723a" prot="private" virt="non-virtual"><scope>MR::ViewportGL</scope><name>add_point_vao</name></member>
-      <member refid="classMR_1_1ViewportGL_1a88127abdca1fd1dc6394a0389b60d682" prot="private" virt="non-virtual"><scope>MR::ViewportGL</scope><name>add_point_vbo</name></member>
-      <member refid="classMR_1_1ViewportGL_1a28aa3f7360b6d73987f11ccc02b6a51e" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>BasePickResults</name></member>
-      <member refid="classMR_1_1ViewportGL_1ad7129328029d1a9d8e0c0e0d11996028" prot="private" virt="non-virtual"><scope>MR::ViewportGL</scope><name>border_line_vao</name></member>
-      <member refid="classMR_1_1ViewportGL_1ad4d3acc4bae46e9f0610470a15a2b013" prot="private" virt="non-virtual"><scope>MR::ViewportGL</scope><name>border_line_vbo</name></member>
-      <member refid="classMR_1_1ViewportGL_1a4b2f4b4002b1881eca93bde98fe86979" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>checkInit</name></member>
-      <member refid="classMR_1_1ViewportGL_1afccb2d900dfbc38ee4f10461bcc74539" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>drawBorder</name></member>
-      <member refid="classMR_1_1ViewportGL_1a35ccca6814c2d2d405ce84f40381147c" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>fillViewport</name></member>
-      <member refid="classMR_1_1ViewportGL_1afd079aa214c396ca3db1f0cdc83fb5d0" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>findUniqueObjectsInRect</name></member>
-      <member refid="classMR_1_1ViewportGL_1aeb0e2182b6dc110fa0c6d0a45b199076" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>free</name></member>
-      <member refid="classMR_1_1ViewportGL_1a4324daf005894093aab00d0738fbd422" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>GLfloat</name></member>
-      <member refid="classMR_1_1ViewportGL_1a2a8a6c6953f39b7763a83def4e9f8ba5" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>GLuint</name></member>
-      <member refid="classMR_1_1ViewportGL_1ac2b114c03f1a2659e1e2eba7421c5aad" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>init</name></member>
-      <member refid="classMR_1_1ViewportGL_1a3ea2173e27ce027283dcbe9567012cf9" prot="private" virt="non-virtual"><scope>MR::ViewportGL</scope><name>inited_</name></member>
-      <member refid="classMR_1_1ViewportGL_1af6d0b135cd7ea98a92eac23f1bac3642" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>operator=</name></member>
-      <member refid="classMR_1_1ViewportGL_1a1540ae57916ae7af3244396a8443ff87" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>operator=</name></member>
-      <member refid="classMR_1_1ViewportGL_1a77a98af21b7cb15783ac1ed8b145ee22" prot="private" virt="non-virtual"><scope>MR::ViewportGL</scope><name>pickFBO_</name></member>
-      <member refid="classMR_1_1ViewportGL_1abc105ddae2f4b963448775271221ed8f" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>pickObjects</name></member>
-      <member refid="classMR_1_1ViewportGL_1afd238d185cc770e343e9fd80e4e1095a" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>pickObjectsInRect</name></member>
-      <member refid="classMR_1_1ViewportGL_1a57c6930ac8225ee8b4bd0727c3fc445c" prot="private" virt="non-virtual"><scope>MR::ViewportGL</scope><name>pickObjectsInRect_</name></member>
-      <member refid="classMR_1_1ViewportGL_1a79d22916ef4534d1503a4433e40d44c1" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>PickResults</name></member>
-      <member refid="classMR_1_1ViewportGL_1a97a437675447882da60c694f40cc9e56" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>ViewportGL</name></member>
-      <member refid="classMR_1_1ViewportGL_1a376cf69e021d79c6a54e63168253e3c0" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>ViewportGL</name></member>
-      <member refid="classMR_1_1ViewportGL_1a16c05e1b059689d7bc4ed8d5e6673ac0" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>ViewportGL</name></member>
-      <member refid="classMR_1_1ViewportGL_1a33a67bdad47aeacb17a644f0c65f53ec" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>~ViewportGL</name></member>
+      <member refid="group__GeneralGroup_1ga15363f05b327573c2bc93ddc96b46392" prot="private" virt="non-virtual"><scope>MR::ViewportGL</scope><name>add_line_colors_vbo</name></member>
+      <member refid="group__GeneralGroup_1ga29ef9c5ceb38273f6742c4e9e8b5c936" prot="private" virt="non-virtual"><scope>MR::ViewportGL</scope><name>add_line_vao</name></member>
+      <member refid="group__GeneralGroup_1ga10386b7151d8c096adff2162c92c465b" prot="private" virt="non-virtual"><scope>MR::ViewportGL</scope><name>add_line_vbo</name></member>
+      <member refid="group__GeneralGroup_1gaafb385b637b90ffc6257b66c25bd6fdb" prot="private" virt="non-virtual"><scope>MR::ViewportGL</scope><name>add_point_colors_vbo</name></member>
+      <member refid="group__GeneralGroup_1ga16d28853fd7897e1491a8f103c1f723a" prot="private" virt="non-virtual"><scope>MR::ViewportGL</scope><name>add_point_vao</name></member>
+      <member refid="group__GeneralGroup_1ga88127abdca1fd1dc6394a0389b60d682" prot="private" virt="non-virtual"><scope>MR::ViewportGL</scope><name>add_point_vbo</name></member>
+      <member refid="group__GeneralGroup_1ga28aa3f7360b6d73987f11ccc02b6a51e" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>BasePickResults</name></member>
+      <member refid="group__GeneralGroup_1gad7129328029d1a9d8e0c0e0d11996028" prot="private" virt="non-virtual"><scope>MR::ViewportGL</scope><name>border_line_vao</name></member>
+      <member refid="group__GeneralGroup_1gad4d3acc4bae46e9f0610470a15a2b013" prot="private" virt="non-virtual"><scope>MR::ViewportGL</scope><name>border_line_vbo</name></member>
+      <member refid="group__GeneralGroup_1ga4b2f4b4002b1881eca93bde98fe86979" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>checkInit</name></member>
+      <member refid="group__GeneralGroup_1gafccb2d900dfbc38ee4f10461bcc74539" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>drawBorder</name></member>
+      <member refid="group__GeneralGroup_1ga35ccca6814c2d2d405ce84f40381147c" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>fillViewport</name></member>
+      <member refid="group__GeneralGroup_1gafd079aa214c396ca3db1f0cdc83fb5d0" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>findUniqueObjectsInRect</name></member>
+      <member refid="group__GeneralGroup_1gaeb0e2182b6dc110fa0c6d0a45b199076" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>free</name></member>
+      <member refid="group__GeneralGroup_1ga4324daf005894093aab00d0738fbd422" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>GLfloat</name></member>
+      <member refid="group__GeneralGroup_1ga2a8a6c6953f39b7763a83def4e9f8ba5" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>GLuint</name></member>
+      <member refid="group__GeneralGroup_1gac2b114c03f1a2659e1e2eba7421c5aad" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>init</name></member>
+      <member refid="group__GeneralGroup_1ga3ea2173e27ce027283dcbe9567012cf9" prot="private" virt="non-virtual"><scope>MR::ViewportGL</scope><name>inited_</name></member>
+      <member refid="group__GeneralGroup_1gaf6d0b135cd7ea98a92eac23f1bac3642" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga1540ae57916ae7af3244396a8443ff87" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga77a98af21b7cb15783ac1ed8b145ee22" prot="private" virt="non-virtual"><scope>MR::ViewportGL</scope><name>pickFBO_</name></member>
+      <member refid="group__GeneralGroup_1gabc105ddae2f4b963448775271221ed8f" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>pickObjects</name></member>
+      <member refid="group__GeneralGroup_1gafd238d185cc770e343e9fd80e4e1095a" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>pickObjectsInRect</name></member>
+      <member refid="group__GeneralGroup_1ga57c6930ac8225ee8b4bd0727c3fc445c" prot="private" virt="non-virtual"><scope>MR::ViewportGL</scope><name>pickObjectsInRect_</name></member>
+      <member refid="group__GeneralGroup_1ga79d22916ef4534d1503a4433e40d44c1" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>PickResults</name></member>
+      <member refid="group__GeneralGroup_1ga97a437675447882da60c694f40cc9e56" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>ViewportGL</name></member>
+      <member refid="group__GeneralGroup_1ga376cf69e021d79c6a54e63168253e3c0" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>ViewportGL</name></member>
+      <member refid="group__GeneralGroup_1ga16c05e1b059689d7bc4ed8d5e6673ac0" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>ViewportGL</name></member>
+      <member refid="group__GeneralGroup_1ga33a67bdad47aeacb17a644f0c65f53ec" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>~ViewportGL</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

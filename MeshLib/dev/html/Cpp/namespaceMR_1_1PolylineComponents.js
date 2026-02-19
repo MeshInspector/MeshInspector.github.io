@@ -6,6 +6,6 @@ var namespaceMR_1_1PolylineComponents =
     [ "getComponent", "group__ComponentsGroup.html#gaf31a9bdb0fcd7f0b1ae5f69a4b83415d", null ],
     [ "getLargestComponent", "group__ComponentsGroup.html#ga0ab7676eb3ec7a769260f636d14c495c", null ],
     [ "getNLargeByLengthComponents", "group__ComponentsGroup.html#gaff8ff9103faf452503ccfda3a3a8def2", null ],
-    [ "getNumComponents", "namespaceMR_1_1PolylineComponents.html#a7b49dea5ec0f482893a31e642b0118b6", null ],
+    [ "getNumComponents", "group__GeneralGroup.html#ga7b49dea5ec0f482893a31e642b0118b6", null ],
     [ "getUnionFindStructure", "group__ComponentsGroup.html#ga4e45c9f9a413927f7c08c3cd1062d8b3", null ]
 ];

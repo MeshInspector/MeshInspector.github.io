@@ -6,37 +6,16 @@
     <templateparamlist>
     </templateparamlist>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1ConeSegment_01_4_1add83e086e536d8cc99b74f9f37fb2672" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="structMR_1_1Features_1_1MeasureResult" kindref="compound">MeasureResult</ref></type>
-        <definition>MRMESH_API MeasureResult MR::Features::Traits::Binary&lt; Primitives::ConeSegment, Primitives::ConeSegment &gt;::measure</definition>
-        <argsstring>(const Primitives::ConeSegment &amp;a, const Primitives::ConeSegment &amp;b) const</argsstring>
-        <name>measure</name>
-        <qualifiedname>MR::Features::Traits::Binary&lt; Primitives::ConeSegment, Primitives::ConeSegment &gt;::measure</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Primitives::ConeSegment</ref> &amp;</type>
-          <declname>a</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Primitives::ConeSegment</ref> &amp;</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="290" column="30"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gadd83e086e536d8cc99b74f9f37fb2672" kind="function"><name>measure</name></member>
     </sectiondef>
     <briefdescription>
 <para>?? &lt;-&gt; Cone </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="288" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" bodystart="289" bodyend="291"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="291" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" bodystart="292" bodyend="294"/>
     <listofallmembers>
-      <member refid="structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1ConeSegment_01_4_1add83e086e536d8cc99b74f9f37fb2672" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Binary&lt; Primitives::ConeSegment, Primitives::ConeSegment &gt;</scope><name>measure</name></member>
+      <member refid="group__GeneralGroup_1gadd83e086e536d8cc99b74f9f37fb2672" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Binary&lt; Primitives::ConeSegment, Primitives::ConeSegment &gt;</scope><name>measure</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

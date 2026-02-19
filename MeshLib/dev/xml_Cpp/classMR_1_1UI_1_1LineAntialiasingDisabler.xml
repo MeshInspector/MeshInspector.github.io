@@ -5,24 +5,7 @@
     <basecompoundref refid="classMR_1_1UI_1_1Disabler" prot="private" virt="non-virtual">MR::UI::Disabler</basecompoundref>
     <includes refid="MRUIStyle_8h" local="no">MRUIStyle.h</includes>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1UI_1_1LineAntialiasingDisabler_1a3e96e121ccb7297da23e022c771758d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::UI::LineAntialiasingDisabler::LineAntialiasingDisabler</definition>
-        <argsstring>(ImDrawList &amp;list)</argsstring>
-        <name>LineAntialiasingDisabler</name>
-        <qualifiedname>MR::UI::LineAntialiasingDisabler::LineAntialiasingDisabler</qualifiedname>
-        <param>
-          <type>ImDrawList &amp;</type>
-          <declname>list</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="595" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="595" bodyend="597"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga3e96e121ccb7297da23e022c771758d7" kind="function"><name>LineAntialiasingDisabler</name></member>
     </sectiondef>
     <briefdescription>
 <para>While this exists, it temporarily disables antialiasing for the lines drawn to this list. </para>
@@ -53,9 +36,9 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="592" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="593" bodyend="598"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="595" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="596" bodyend="601"/>
     <listofallmembers>
-      <member refid="classMR_1_1UI_1_1LineAntialiasingDisabler_1a3e96e121ccb7297da23e022c771758d7" prot="public" virt="non-virtual"><scope>MR::UI::LineAntialiasingDisabler</scope><name>LineAntialiasingDisabler</name></member>
+      <member refid="group__GeneralGroup_1ga3e96e121ccb7297da23e022c771758d7" prot="public" virt="non-virtual"><scope>MR::UI::LineAntialiasingDisabler</scope><name>LineAntialiasingDisabler</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

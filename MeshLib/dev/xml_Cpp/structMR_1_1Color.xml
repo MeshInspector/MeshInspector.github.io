@@ -4,618 +4,81 @@
     <compoundname>MR::Color</compoundname>
     <includes refid="MRColor_8h" local="no">MRColor.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1Color_1aaa379f38f05825d099fa1a11b4fa9b32" prot="public" static="no" mutable="no">
-        <type>uint8_t</type>
-        <definition>uint8_t MR::Color::r</definition>
-        <argsstring></argsstring>
-        <name>r</name>
-        <qualifiedname>MR::Color::r</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" line="10" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" bodystart="10" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1Color_1a88b7f7b16582811c68398fcb60488717" prot="public" static="no" mutable="no">
-        <type>uint8_t</type>
-        <definition>uint8_t MR::Color::g</definition>
-        <argsstring></argsstring>
-        <name>g</name>
-        <qualifiedname>MR::Color::g</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" line="10" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" bodystart="10" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1Color_1ad69a83b856320cef2a9d1f2ef968dbfd" prot="public" static="no" mutable="no">
-        <type>uint8_t</type>
-        <definition>uint8_t MR::Color::b</definition>
-        <argsstring></argsstring>
-        <name>b</name>
-        <qualifiedname>MR::Color::b</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" line="10" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" bodystart="10" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1Color_1a21c5ef511dcf3b636ce3f8a5fd699874" prot="public" static="no" mutable="no">
-        <type>uint8_t</type>
-        <definition>uint8_t MR::Color::a</definition>
-        <argsstring></argsstring>
-        <name>a</name>
-        <qualifiedname>MR::Color::a</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" line="10" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" bodystart="10" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaaa379f38f05825d099fa1a11b4fa9b32" kind="variable"><name>r</name></member>
+      <member refid="group__GeneralGroup_1ga88b7f7b16582811c68398fcb60488717" kind="variable"><name>g</name></member>
+      <member refid="group__GeneralGroup_1gad69a83b856320cef2a9d1f2ef968dbfd" kind="variable"><name>b</name></member>
+      <member refid="group__GeneralGroup_1ga21c5ef511dcf3b636ce3f8a5fd699874" kind="variable"><name>a</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1Color_1a361e3d7af72254b02de4d5bdf7f08b60" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>constexpr</type>
-        <definition>MR::Color::Color</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>Color</name>
-        <qualifiedname>MR::Color::Color</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" line="12" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" bodystart="12" bodyend="12"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Color_1ade02ccd5f38dd6cf3dbadde1ab4a860f" prot="public" static="no" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::Color::Color</definition>
-        <argsstring>(NoInit) noexcept</argsstring>
-        <name>Color</name>
-        <qualifiedname>MR::Color::Color</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1NoInit" kindref="compound">NoInit</ref></type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" line="13" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" bodystart="13" bodyend="13"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Color_1a55f851e585f9e9137306856b29866631" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>constexpr</type>
-        <definition>MR::Color::Color</definition>
-        <argsstring>(int r, int g, int b, int a) noexcept</argsstring>
-        <name>Color</name>
-        <qualifiedname>MR::Color::Color</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>r</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>g</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>b</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>a</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" line="14" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" bodystart="14" bodyend="14"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Color_1af2931e15274d970116abc0ded3b1a63d" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>constexpr</type>
-        <definition>MR::Color::Color</definition>
-        <argsstring>(int r, int g, int b) noexcept</argsstring>
-        <name>Color</name>
-        <qualifiedname>MR::Color::Color</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>r</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>g</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" line="15" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" bodystart="15" bodyend="15"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Color_1ae3c0f9cd94d092309159eff33f604df2" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>constexpr</type>
-        <definition>MR::Color::Color</definition>
-        <argsstring>(float r, float g, float b, float a) noexcept</argsstring>
-        <name>Color</name>
-        <qualifiedname>MR::Color::Color</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>r</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>g</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>b</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>a</declname>
-        </param>
-        <briefdescription>
-<para>Using a separate overload instead of a default argument to produce better C bindings. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" line="16" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" bodystart="16" bodyend="20"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Color_1a87cd07021fafe2e28e4734086bec5506" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>constexpr</type>
-        <definition>MR::Color::Color</definition>
-        <argsstring>(float r, float g, float b) noexcept</argsstring>
-        <name>Color</name>
-        <qualifiedname>MR::Color::Color</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>r</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>g</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" line="21" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" bodystart="21" bodyend="21"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Color_1a97a5b103a46bec5a9f09026fb693bb67" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>unsigned int</type>
-        <definition>unsigned int MR::Color::getUInt32</definition>
-        <argsstring>() const noexcept</argsstring>
-        <name>getUInt32</name>
-        <qualifiedname>MR::Color::getUInt32</qualifiedname>
-        <briefdescription>
-<para>Using a separate overload instead of a default argument to produce better C bindings. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" line="23" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" bodystart="23" bodyend="23"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Color_1a2879fe1d429706d60bf61dba5073b28d" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename T</type>
-          </param>
-        </templateparamlist>
-        <type>constexpr</type>
-        <definition>MR::Color::Color</definition>
-        <argsstring>(const Vector3&lt; T &gt; &amp;vec) noexcept</argsstring>
-        <name>Color</name>
-        <qualifiedname>MR::Color::Color</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
-          <declname>vec</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" line="54" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" bodystart="54" bodyend="59"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Color_1aeb10dfddd28274eab02133fe4bfb2f61" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename T</type>
-          </param>
-        </templateparamlist>
-        <type>constexpr</type>
-        <definition>MR::Color::Color</definition>
-        <argsstring>(const Vector4&lt; T &gt; &amp;vec) noexcept</argsstring>
-        <name>Color</name>
-        <qualifiedname>MR::Color::Color</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Vector4" kindref="compound">Vector4</ref>&lt; T &gt; &amp;</type>
-          <declname>vec</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" line="62" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" bodystart="62" bodyend="67"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Color_1a81bd34e112d9fcde01fd52f922966f2f" prot="public" static="no" constexpr="yes" const="yes" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename T</type>
-          </param>
-        </templateparamlist>
-        <type>constexpr</type>
-        <definition>MR::Color::operator Vector4&lt; T &gt;</definition>
-        <argsstring>() const noexcept</argsstring>
-        <name>operator Vector4&lt; T &gt;</name>
-        <qualifiedname>MR::Color::operator Vector4&lt; T &gt;</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" line="70" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" bodystart="70" bodyend="80"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Color_1a3671d8320e6244266951f9a5ea6ef33e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const uint8_t &amp;</type>
-        <definition>const uint8_t &amp; MR::Color::operator[]</definition>
-        <argsstring>(int e) const</argsstring>
-        <name>operator[]</name>
-        <qualifiedname>MR::Color::operator[]</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>e</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" line="82" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" bodystart="82" bodyend="82"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Color_1a30e8afba2ca683c433ab83718048a41e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>uint8_t &amp;</type>
-        <definition>uint8_t &amp; MR::Color::operator[]</definition>
-        <argsstring>(int e)</argsstring>
-        <name>operator[]</name>
-        <qualifiedname>MR::Color::operator[]</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>e</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" line="83" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" bodystart="83" bodyend="83"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Color_1a91d690a2375168d047a346239b7c38b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Color" kindref="compound">Color</ref> &amp;</type>
-        <definition>Color &amp; MR::Color::operator+=</definition>
-        <argsstring>(const Color &amp;other)</argsstring>
-        <name>operator+=</name>
-        <qualifiedname>MR::Color::operator+=</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &amp;</type>
-          <declname>other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" line="85" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" bodystart="85" bodyend="85"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Color_1a52c442cda61f9c17b52534a4f2358c62" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Color" kindref="compound">Color</ref> &amp;</type>
-        <definition>Color &amp; MR::Color::operator-=</definition>
-        <argsstring>(const Color &amp;other)</argsstring>
-        <name>operator-=</name>
-        <qualifiedname>MR::Color::operator-=</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &amp;</type>
-          <declname>other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" line="86" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" bodystart="86" bodyend="86"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Color_1aec1e7daf3ecd5715157f118516cf17c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Color" kindref="compound">Color</ref> &amp;</type>
-        <definition>Color &amp; MR::Color::operator*=</definition>
-        <argsstring>(float m)</argsstring>
-        <name>operator*=</name>
-        <qualifiedname>MR::Color::operator*=</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>m</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" line="87" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" bodystart="87" bodyend="87"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Color_1a9f21a5ed60bd2e9b0ab50266610e35f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Color" kindref="compound">Color</ref> &amp;</type>
-        <definition>Color &amp; MR::Color::operator/=</definition>
-        <argsstring>(float m)</argsstring>
-        <name>operator/=</name>
-        <qualifiedname>MR::Color::operator/=</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>m</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" line="88" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" bodystart="88" bodyend="88"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Color_1ab12a1e450b868138a87d0feb4f9e3d8b" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Color" kindref="compound">Color</ref></type>
-        <definition>Color MR::Color::scaledAlpha</definition>
-        <argsstring>(float m) const noexcept</argsstring>
-        <name>scaledAlpha</name>
-        <qualifiedname>MR::Color::scaledAlpha</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>m</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" line="90" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" bodystart="90" bodyend="93"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga361e3d7af72254b02de4d5bdf7f08b60" kind="function"><name>Color</name></member>
+      <member refid="group__GeneralGroup_1gade02ccd5f38dd6cf3dbadde1ab4a860f" kind="function"><name>Color</name></member>
+      <member refid="group__GeneralGroup_1ga55f851e585f9e9137306856b29866631" kind="function"><name>Color</name></member>
+      <member refid="group__GeneralGroup_1gaf2931e15274d970116abc0ded3b1a63d" kind="function"><name>Color</name></member>
+      <member refid="group__GeneralGroup_1gae3c0f9cd94d092309159eff33f604df2" kind="function"><name>Color</name></member>
+      <member refid="group__GeneralGroup_1ga87cd07021fafe2e28e4734086bec5506" kind="function"><name>Color</name></member>
+      <member refid="group__GeneralGroup_1ga97a5b103a46bec5a9f09026fb693bb67" kind="function"><name>getUInt32</name></member>
+      <member refid="group__GeneralGroup_1ga2879fe1d429706d60bf61dba5073b28d" kind="function"><name>Color</name></member>
+      <member refid="group__GeneralGroup_1gaeb10dfddd28274eab02133fe4bfb2f61" kind="function"><name>Color</name></member>
+      <member refid="group__GeneralGroup_1ga81bd34e112d9fcde01fd52f922966f2f" kind="function"><name>operator Vector4&lt; T &gt;</name></member>
+      <member refid="group__GeneralGroup_1ga3671d8320e6244266951f9a5ea6ef33e" kind="function"><name>operator[]</name></member>
+      <member refid="group__GeneralGroup_1ga30e8afba2ca683c433ab83718048a41e" kind="function"><name>operator[]</name></member>
+      <member refid="group__GeneralGroup_1ga91d690a2375168d047a346239b7c38b7" kind="function"><name>operator+=</name></member>
+      <member refid="group__GeneralGroup_1ga52c442cda61f9c17b52534a4f2358c62" kind="function"><name>operator-=</name></member>
+      <member refid="group__GeneralGroup_1gaec1e7daf3ecd5715157f118516cf17c7" kind="function"><name>operator*=</name></member>
+      <member refid="group__GeneralGroup_1ga9f21a5ed60bd2e9b0ab50266610e35f6" kind="function"><name>operator/=</name></member>
+      <member refid="group__GeneralGroup_1gab12a1e450b868138a87d0feb4f9e3d8b" kind="function"><name>scaledAlpha</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="structMR_1_1Color_1afdf32fadc1e749715ad1911813a76f75" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Color" kindref="compound">Color</ref></type>
-        <definition>static constexpr Color MR::Color::white</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>white</name>
-        <qualifiedname>MR::Color::white</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" line="25" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" bodystart="25" bodyend="25"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Color_1a5596c66211faa167983f60fb9c684e0c" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Color" kindref="compound">Color</ref></type>
-        <definition>static constexpr Color MR::Color::black</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>black</name>
-        <qualifiedname>MR::Color::black</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" line="26" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" bodystart="26" bodyend="26"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Color_1ab2d02b3c25652081a0b2f9c3f4de388f" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Color" kindref="compound">Color</ref></type>
-        <definition>static constexpr Color MR::Color::gray</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>gray</name>
-        <qualifiedname>MR::Color::gray</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" line="27" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" bodystart="27" bodyend="27"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Color_1a9f743712af5597ae9e55d338143d10c6" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Color" kindref="compound">Color</ref></type>
-        <definition>static constexpr Color MR::Color::red</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>red</name>
-        <qualifiedname>MR::Color::red</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" line="28" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" bodystart="28" bodyend="28"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Color_1a07d25f841350c5a6eeca781f6dcd0fda" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Color" kindref="compound">Color</ref></type>
-        <definition>static constexpr Color MR::Color::green</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>green</name>
-        <qualifiedname>MR::Color::green</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" line="29" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" bodystart="29" bodyend="29"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Color_1acd72366575d0f58c29867044c403e34a" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Color" kindref="compound">Color</ref></type>
-        <definition>static constexpr Color MR::Color::blue</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>blue</name>
-        <qualifiedname>MR::Color::blue</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" line="30" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" bodystart="30" bodyend="30"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Color_1a7a15e2053da20914d242d21eb1486f30" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Color" kindref="compound">Color</ref></type>
-        <definition>static constexpr Color MR::Color::yellow</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>yellow</name>
-        <qualifiedname>MR::Color::yellow</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" line="31" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" bodystart="31" bodyend="31"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Color_1a882e30e9e993b05867c2140409cb4942" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Color" kindref="compound">Color</ref></type>
-        <definition>static constexpr Color MR::Color::brown</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>brown</name>
-        <qualifiedname>MR::Color::brown</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" line="32" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" bodystart="32" bodyend="32"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Color_1a1c9185e5072e0a0a568d09ca99f99be8" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Color" kindref="compound">Color</ref></type>
-        <definition>static constexpr Color MR::Color::purple</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>purple</name>
-        <qualifiedname>MR::Color::purple</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" line="33" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" bodystart="33" bodyend="33"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Color_1a059a69f5238fa686b0c063d87ebecf40" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Color" kindref="compound">Color</ref></type>
-        <definition>static constexpr Color MR::Color::transparent</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>transparent</name>
-        <qualifiedname>MR::Color::transparent</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" line="34" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" bodystart="34" bodyend="34"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Color_1a24e6fb7f70f1db9bda37d9279f1b4e2d" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename T</type>
-          </param>
-        </templateparamlist>
-        <type>uint8_t</type>
-        <definition>static constexpr uint8_t MR::Color::valToUint8</definition>
-        <argsstring>(T val) noexcept</argsstring>
-        <name>valToUint8</name>
-        <qualifiedname>MR::Color::valToUint8</qualifiedname>
-        <param>
-          <type>T</type>
-          <declname>val</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" line="37" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" bodystart="37" bodyend="51"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gafdf32fadc1e749715ad1911813a76f75" kind="function"><name>white</name></member>
+      <member refid="group__GeneralGroup_1ga5596c66211faa167983f60fb9c684e0c" kind="function"><name>black</name></member>
+      <member refid="group__GeneralGroup_1gab2d02b3c25652081a0b2f9c3f4de388f" kind="function"><name>gray</name></member>
+      <member refid="group__GeneralGroup_1ga9f743712af5597ae9e55d338143d10c6" kind="function"><name>red</name></member>
+      <member refid="group__GeneralGroup_1ga07d25f841350c5a6eeca781f6dcd0fda" kind="function"><name>green</name></member>
+      <member refid="group__GeneralGroup_1gacd72366575d0f58c29867044c403e34a" kind="function"><name>blue</name></member>
+      <member refid="group__GeneralGroup_1ga7a15e2053da20914d242d21eb1486f30" kind="function"><name>yellow</name></member>
+      <member refid="group__GeneralGroup_1ga882e30e9e993b05867c2140409cb4942" kind="function"><name>brown</name></member>
+      <member refid="group__GeneralGroup_1ga1c9185e5072e0a0a568d09ca99f99be8" kind="function"><name>purple</name></member>
+      <member refid="group__GeneralGroup_1ga059a69f5238fa686b0c063d87ebecf40" kind="function"><name>transparent</name></member>
+      <member refid="group__GeneralGroup_1ga24e6fb7f70f1db9bda37d9279f1b4e2d" kind="function"><name>valToUint8</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" line="8" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" bodystart="9" bodyend="94"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" line="11" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColor.h" bodystart="12" bodyend="97"/>
     <listofallmembers>
-      <member refid="structMR_1_1Color_1a21c5ef511dcf3b636ce3f8a5fd699874" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>a</name></member>
-      <member refid="structMR_1_1Color_1ad69a83b856320cef2a9d1f2ef968dbfd" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>b</name></member>
-      <member refid="structMR_1_1Color_1a5596c66211faa167983f60fb9c684e0c" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>black</name></member>
-      <member refid="structMR_1_1Color_1acd72366575d0f58c29867044c403e34a" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>blue</name></member>
-      <member refid="structMR_1_1Color_1a882e30e9e993b05867c2140409cb4942" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>brown</name></member>
-      <member refid="structMR_1_1Color_1a361e3d7af72254b02de4d5bdf7f08b60" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>Color</name></member>
-      <member refid="structMR_1_1Color_1ade02ccd5f38dd6cf3dbadde1ab4a860f" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>Color</name></member>
-      <member refid="structMR_1_1Color_1a55f851e585f9e9137306856b29866631" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>Color</name></member>
-      <member refid="structMR_1_1Color_1af2931e15274d970116abc0ded3b1a63d" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>Color</name></member>
-      <member refid="structMR_1_1Color_1ae3c0f9cd94d092309159eff33f604df2" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>Color</name></member>
-      <member refid="structMR_1_1Color_1a87cd07021fafe2e28e4734086bec5506" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>Color</name></member>
-      <member refid="structMR_1_1Color_1a2879fe1d429706d60bf61dba5073b28d" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>Color</name></member>
-      <member refid="structMR_1_1Color_1aeb10dfddd28274eab02133fe4bfb2f61" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>Color</name></member>
-      <member refid="structMR_1_1Color_1a88b7f7b16582811c68398fcb60488717" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>g</name></member>
-      <member refid="structMR_1_1Color_1a97a5b103a46bec5a9f09026fb693bb67" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>getUInt32</name></member>
-      <member refid="structMR_1_1Color_1ab2d02b3c25652081a0b2f9c3f4de388f" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>gray</name></member>
-      <member refid="structMR_1_1Color_1a07d25f841350c5a6eeca781f6dcd0fda" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>green</name></member>
-      <member refid="structMR_1_1Color_1a81bd34e112d9fcde01fd52f922966f2f" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>operator Vector4&lt; T &gt;</name></member>
-      <member refid="structMR_1_1Color_1aec1e7daf3ecd5715157f118516cf17c7" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>operator*=</name></member>
-      <member refid="structMR_1_1Color_1a91d690a2375168d047a346239b7c38b7" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>operator+=</name></member>
-      <member refid="structMR_1_1Color_1a52c442cda61f9c17b52534a4f2358c62" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>operator-=</name></member>
-      <member refid="structMR_1_1Color_1a9f21a5ed60bd2e9b0ab50266610e35f6" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>operator/=</name></member>
-      <member refid="structMR_1_1Color_1a3671d8320e6244266951f9a5ea6ef33e" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>operator[]</name></member>
-      <member refid="structMR_1_1Color_1a30e8afba2ca683c433ab83718048a41e" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>operator[]</name></member>
-      <member refid="structMR_1_1Color_1a1c9185e5072e0a0a568d09ca99f99be8" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>purple</name></member>
-      <member refid="structMR_1_1Color_1aaa379f38f05825d099fa1a11b4fa9b32" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>r</name></member>
-      <member refid="structMR_1_1Color_1a9f743712af5597ae9e55d338143d10c6" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>red</name></member>
-      <member refid="structMR_1_1Color_1ab12a1e450b868138a87d0feb4f9e3d8b" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>scaledAlpha</name></member>
-      <member refid="structMR_1_1Color_1a059a69f5238fa686b0c063d87ebecf40" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>transparent</name></member>
-      <member refid="structMR_1_1Color_1a24e6fb7f70f1db9bda37d9279f1b4e2d" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>valToUint8</name></member>
-      <member refid="structMR_1_1Color_1afdf32fadc1e749715ad1911813a76f75" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>white</name></member>
-      <member refid="structMR_1_1Color_1a7a15e2053da20914d242d21eb1486f30" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>yellow</name></member>
+      <member refid="group__GeneralGroup_1ga21c5ef511dcf3b636ce3f8a5fd699874" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>a</name></member>
+      <member refid="group__GeneralGroup_1gad69a83b856320cef2a9d1f2ef968dbfd" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>b</name></member>
+      <member refid="group__GeneralGroup_1ga5596c66211faa167983f60fb9c684e0c" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>black</name></member>
+      <member refid="group__GeneralGroup_1gacd72366575d0f58c29867044c403e34a" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>blue</name></member>
+      <member refid="group__GeneralGroup_1ga882e30e9e993b05867c2140409cb4942" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>brown</name></member>
+      <member refid="group__GeneralGroup_1ga361e3d7af72254b02de4d5bdf7f08b60" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>Color</name></member>
+      <member refid="group__GeneralGroup_1gade02ccd5f38dd6cf3dbadde1ab4a860f" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>Color</name></member>
+      <member refid="group__GeneralGroup_1ga55f851e585f9e9137306856b29866631" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>Color</name></member>
+      <member refid="group__GeneralGroup_1gaf2931e15274d970116abc0ded3b1a63d" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>Color</name></member>
+      <member refid="group__GeneralGroup_1gae3c0f9cd94d092309159eff33f604df2" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>Color</name></member>
+      <member refid="group__GeneralGroup_1ga87cd07021fafe2e28e4734086bec5506" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>Color</name></member>
+      <member refid="group__GeneralGroup_1ga2879fe1d429706d60bf61dba5073b28d" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>Color</name></member>
+      <member refid="group__GeneralGroup_1gaeb10dfddd28274eab02133fe4bfb2f61" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>Color</name></member>
+      <member refid="group__GeneralGroup_1ga88b7f7b16582811c68398fcb60488717" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>g</name></member>
+      <member refid="group__GeneralGroup_1ga97a5b103a46bec5a9f09026fb693bb67" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>getUInt32</name></member>
+      <member refid="group__GeneralGroup_1gab2d02b3c25652081a0b2f9c3f4de388f" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>gray</name></member>
+      <member refid="group__GeneralGroup_1ga07d25f841350c5a6eeca781f6dcd0fda" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>green</name></member>
+      <member refid="group__GeneralGroup_1ga81bd34e112d9fcde01fd52f922966f2f" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>operator Vector4&lt; T &gt;</name></member>
+      <member refid="group__GeneralGroup_1gaec1e7daf3ecd5715157f118516cf17c7" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>operator*=</name></member>
+      <member refid="group__GeneralGroup_1ga91d690a2375168d047a346239b7c38b7" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>operator+=</name></member>
+      <member refid="group__GeneralGroup_1ga52c442cda61f9c17b52534a4f2358c62" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>operator-=</name></member>
+      <member refid="group__GeneralGroup_1ga9f21a5ed60bd2e9b0ab50266610e35f6" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>operator/=</name></member>
+      <member refid="group__GeneralGroup_1ga3671d8320e6244266951f9a5ea6ef33e" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>operator[]</name></member>
+      <member refid="group__GeneralGroup_1ga30e8afba2ca683c433ab83718048a41e" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>operator[]</name></member>
+      <member refid="group__GeneralGroup_1ga1c9185e5072e0a0a568d09ca99f99be8" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>purple</name></member>
+      <member refid="group__GeneralGroup_1gaaa379f38f05825d099fa1a11b4fa9b32" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>r</name></member>
+      <member refid="group__GeneralGroup_1ga9f743712af5597ae9e55d338143d10c6" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>red</name></member>
+      <member refid="group__GeneralGroup_1gab12a1e450b868138a87d0feb4f9e3d8b" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>scaledAlpha</name></member>
+      <member refid="group__GeneralGroup_1ga059a69f5238fa686b0c063d87ebecf40" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>transparent</name></member>
+      <member refid="group__GeneralGroup_1ga24e6fb7f70f1db9bda37d9279f1b4e2d" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>valToUint8</name></member>
+      <member refid="group__GeneralGroup_1gafdf32fadc1e749715ad1911813a76f75" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>white</name></member>
+      <member refid="group__GeneralGroup_1ga7a15e2053da20914d242d21eb1486f30" prot="public" virt="non-virtual"><scope>MR::Color</scope><name>yellow</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

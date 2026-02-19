@@ -5,444 +5,66 @@
     <includes refid="MRGraph_8h" local="no">MRGraph.h</includes>
     <innerclass refid="structMR_1_1Graph_1_1EndVertices" prot="public">MR::Graph::EndVertices</innerclass>
     <sectiondef kind="public-type">
-      <memberdef kind="typedef" id="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" prot="public" static="no">
-        <type>GraphVertId</type>
-        <definition>using MR::Graph::VertId =  GraphVertId</definition>
-        <argsstring></argsstring>
-        <name>VertId</name>
-        <qualifiedname>MR::Graph::VertId</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" line="16" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1Graph_1ab7466409c32ef6a047fedfe19ed28c1b" prot="public" static="no">
-        <type>GraphEdgeId</type>
-        <definition>using MR::Graph::EdgeId =  GraphEdgeId</definition>
-        <argsstring></argsstring>
-        <name>EdgeId</name>
-        <qualifiedname>MR::Graph::EdgeId</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" line="17" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1Graph_1ab76aab71a50b47ed582851ecb969920c" prot="public" static="no">
-        <type>GraphVertBitSet</type>
-        <definition>using MR::Graph::VertBitSet =  GraphVertBitSet</definition>
-        <argsstring></argsstring>
-        <name>VertBitSet</name>
-        <qualifiedname>MR::Graph::VertBitSet</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" line="19" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" bodystart="19" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1Graph_1a8479c33a6ee26f007a35cab71ba0f2b5" prot="public" static="no">
-        <type>GraphEdgeBitSet</type>
-        <definition>using MR::Graph::EdgeBitSet =  GraphEdgeBitSet</definition>
-        <argsstring></argsstring>
-        <name>EdgeBitSet</name>
-        <qualifiedname>MR::Graph::EdgeBitSet</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" line="20" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" bodystart="20" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1Graph_1a77cba04748e7954c18b2aebc282f0d74" prot="public" static="no">
-        <type>std::vector&lt; <ref refid="classMR_1_1Graph_1ab7466409c32ef6a047fedfe19ed28c1b" kindref="member">EdgeId</ref> &gt;</type>
-        <definition>using MR::Graph::Neighbours =  std::vector&lt;EdgeId&gt;</definition>
-        <argsstring></argsstring>
-        <name>Neighbours</name>
-        <qualifiedname>MR::Graph::Neighbours</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" line="22" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" bodystart="22" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1Graph_1a0f0a516aa03bd6f100040d2696d0c808" prot="public" static="no">
-        <type><ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; <ref refid="classMR_1_1Graph_1a77cba04748e7954c18b2aebc282f0d74" kindref="member">Neighbours</ref>, <ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">VertId</ref> &gt;</type>
-        <definition>using MR::Graph::NeighboursPerVertex =  Vector&lt;Neighbours, VertId&gt;</definition>
-        <argsstring></argsstring>
-        <name>NeighboursPerVertex</name>
-        <qualifiedname>MR::Graph::NeighboursPerVertex</qualifiedname>
-        <briefdescription>
-<para>sorted by edgeID </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" line="23" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" bodystart="23" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1Graph_1a429f57208104bd4a3efcceeaa5ba4dce" prot="public" static="no">
-        <type><ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; <ref refid="structMR_1_1Graph_1_1EndVertices" kindref="compound">EndVertices</ref>, <ref refid="classMR_1_1Graph_1ab7466409c32ef6a047fedfe19ed28c1b" kindref="member">EdgeId</ref> &gt;</type>
-        <definition>using MR::Graph::EndsPerEdge =  Vector&lt;EndVertices, EdgeId&gt;</definition>
-        <argsstring></argsstring>
-        <name>EndsPerEdge</name>
-        <qualifiedname>MR::Graph::EndsPerEdge</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" line="46" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" bodystart="46" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kind="typedef"><name>VertId</name></member>
+      <member refid="group__GeneralGroup_1gab7466409c32ef6a047fedfe19ed28c1b" kind="typedef"><name>EdgeId</name></member>
+      <member refid="group__GeneralGroup_1gab76aab71a50b47ed582851ecb969920c" kind="typedef"><name>VertBitSet</name></member>
+      <member refid="group__GeneralGroup_1ga8479c33a6ee26f007a35cab71ba0f2b5" kind="typedef"><name>EdgeBitSet</name></member>
+      <member refid="group__GeneralGroup_1ga77cba04748e7954c18b2aebc282f0d74" kind="typedef"><name>Neighbours</name></member>
+      <member refid="group__GeneralGroup_1ga0f0a516aa03bd6f100040d2696d0c808" kind="typedef"><name>NeighboursPerVertex</name></member>
+      <member refid="group__GeneralGroup_1ga429f57208104bd4a3efcceeaa5ba4dce" kind="typedef"><name>EndsPerEdge</name></member>
     </sectiondef>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1Graph_1a3cf652adf091cb73987b43f5cb6bfe54" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1Graph_1ab76aab71a50b47ed582851ecb969920c" kindref="member">VertBitSet</ref></type>
-        <definition>VertBitSet MR::Graph::validVerts_</definition>
-        <argsstring></argsstring>
-        <name>validVerts_</name>
-        <qualifiedname>MR::Graph::validVerts_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" line="89" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" bodystart="89" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1Graph_1a2cafc9291c2c7fa2e38372f14724580e" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1Graph_1a8479c33a6ee26f007a35cab71ba0f2b5" kindref="member">EdgeBitSet</ref></type>
-        <definition>EdgeBitSet MR::Graph::validEdges_</definition>
-        <argsstring></argsstring>
-        <name>validEdges_</name>
-        <qualifiedname>MR::Graph::validEdges_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" line="90" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" bodystart="90" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1Graph_1a81ebc39b9f1034cb329a04b4e8ffc74b" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1Graph_1a0f0a516aa03bd6f100040d2696d0c808" kindref="member">NeighboursPerVertex</ref></type>
-        <definition>NeighboursPerVertex MR::Graph::neighboursPerVertex_</definition>
-        <argsstring></argsstring>
-        <name>neighboursPerVertex_</name>
-        <qualifiedname>MR::Graph::neighboursPerVertex_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" line="92" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" bodystart="92" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1Graph_1afc6e669b11365ec3aa8af178cb853bec" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1Graph_1a429f57208104bd4a3efcceeaa5ba4dce" kindref="member">EndsPerEdge</ref></type>
-        <definition>EndsPerEdge MR::Graph::endsPerEdge_</definition>
-        <argsstring></argsstring>
-        <name>endsPerEdge_</name>
-        <qualifiedname>MR::Graph::endsPerEdge_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" line="93" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" bodystart="93" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga3cf652adf091cb73987b43f5cb6bfe54" kind="variable"><name>validVerts_</name></member>
+      <member refid="group__GeneralGroup_1ga2cafc9291c2c7fa2e38372f14724580e" kind="variable"><name>validEdges_</name></member>
+      <member refid="group__GeneralGroup_1ga81ebc39b9f1034cb329a04b4e8ffc74b" kind="variable"><name>neighboursPerVertex_</name></member>
+      <member refid="group__GeneralGroup_1gafc6e669b11365ec3aa8af178cb853bec" kind="variable"><name>endsPerEdge_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1Graph_1a01fe9290eb0140ff0193c6ce4a3ea5b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::Graph::construct</definition>
-        <argsstring>(NeighboursPerVertex neighboursPerVertex, EndsPerEdge endsPerEdge)</argsstring>
-        <name>construct</name>
-        <qualifiedname>MR::Graph::construct</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Graph_1a0f0a516aa03bd6f100040d2696d0c808" kindref="member">NeighboursPerVertex</ref></type>
-          <declname>neighboursPerVertex</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1Graph_1a429f57208104bd4a3efcceeaa5ba4dce" kindref="member">EndsPerEdge</ref></type>
-          <declname>endsPerEdge</declname>
-        </param>
-        <briefdescription>
-<para>constructs the graph from all valid vertices and edges </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" line="49" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Graph_1ac31feb99fa40a7a7fee0c9806f676b11" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>size_t</type>
-        <definition>size_t MR::Graph::vertSize</definition>
-        <argsstring>() const</argsstring>
-        <name>vertSize</name>
-        <qualifiedname>MR::Graph::vertSize</qualifiedname>
-        <briefdescription>
-<para>returns the number of vertex records, including invalid ones </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" line="52" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" bodystart="52" bodyend="52"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Graph_1a60bd1c95b46edb238590e59ba2066233" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const <ref refid="classMR_1_1Graph_1ab76aab71a50b47ed582851ecb969920c" kindref="member">VertBitSet</ref> &amp;</type>
-        <definition>const VertBitSet &amp; MR::Graph::validVerts</definition>
-        <argsstring>() const</argsstring>
-        <name>validVerts</name>
-        <qualifiedname>MR::Graph::validVerts</qualifiedname>
-        <briefdescription>
-<para>returns all valid vertices in the graph </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" line="55" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" bodystart="55" bodyend="55"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Graph_1a46ac2204a29916d4c70d8902b0a21868" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::Graph::valid</definition>
-        <argsstring>(VertId v) const</argsstring>
-        <name>valid</name>
-        <qualifiedname>MR::Graph::valid</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">VertId</ref></type>
-          <declname>v</declname>
-        </param>
-        <briefdescription>
-<para>returns true if given vertex is valid </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" line="58" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" bodystart="58" bodyend="58"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Graph_1a0c5f4eae690cb57f429c9656db0e2dad" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>size_t</type>
-        <definition>size_t MR::Graph::edgeSize</definition>
-        <argsstring>() const</argsstring>
-        <name>edgeSize</name>
-        <qualifiedname>MR::Graph::edgeSize</qualifiedname>
-        <briefdescription>
-<para>returns the number of edge records, including invalid ones </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" line="61" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" bodystart="61" bodyend="61"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Graph_1a6dcad1485d86cf7df5af53ddc8dc8592" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const <ref refid="classMR_1_1Graph_1a8479c33a6ee26f007a35cab71ba0f2b5" kindref="member">EdgeBitSet</ref> &amp;</type>
-        <definition>const EdgeBitSet &amp; MR::Graph::validEdges</definition>
-        <argsstring>() const</argsstring>
-        <name>validEdges</name>
-        <qualifiedname>MR::Graph::validEdges</qualifiedname>
-        <briefdescription>
-<para>returns all valid edges in the graph </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" line="64" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" bodystart="64" bodyend="64"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Graph_1a5091e905ddd17f80fb7c3996ce095e58" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::Graph::valid</definition>
-        <argsstring>(EdgeId e) const</argsstring>
-        <name>valid</name>
-        <qualifiedname>MR::Graph::valid</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Graph_1ab7466409c32ef6a047fedfe19ed28c1b" kindref="member">EdgeId</ref></type>
-          <declname>e</declname>
-        </param>
-        <briefdescription>
-<para>returns true if given edge is valid </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" line="67" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" bodystart="67" bodyend="67"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Graph_1a39fd49331c460c5a968a62a2140d2990" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const <ref refid="classMR_1_1Graph_1a77cba04748e7954c18b2aebc282f0d74" kindref="member">Neighbours</ref> &amp;</type>
-        <definition>const Neighbours &amp; MR::Graph::neighbours</definition>
-        <argsstring>(VertId v) const</argsstring>
-        <name>neighbours</name>
-        <qualifiedname>MR::Graph::neighbours</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">VertId</ref></type>
-          <declname>v</declname>
-        </param>
-        <briefdescription>
-<para>returns all edges adjacent to given vertex </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" line="70" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" bodystart="70" bodyend="70"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Graph_1a0c37e0844926fa87642bc735718dd643" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const <ref refid="structMR_1_1Graph_1_1EndVertices" kindref="compound">EndVertices</ref> &amp;</type>
-        <definition>const EndVertices &amp; MR::Graph::ends</definition>
-        <argsstring>(EdgeId e) const</argsstring>
-        <name>ends</name>
-        <qualifiedname>MR::Graph::ends</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Graph_1ab7466409c32ef6a047fedfe19ed28c1b" kindref="member">EdgeId</ref></type>
-          <declname>e</declname>
-        </param>
-        <briefdescription>
-<para>returns the ends of given edge </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" line="73" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" bodystart="73" bodyend="73"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Graph_1a5de54676ec0131e5355d47e44f31019d" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="classMR_1_1Graph_1ab7466409c32ef6a047fedfe19ed28c1b" kindref="member">EdgeId</ref></type>
-        <definition>MRMESH_API EdgeId MR::Graph::findEdge</definition>
-        <argsstring>(VertId a, VertId b) const</argsstring>
-        <name>findEdge</name>
-        <qualifiedname>MR::Graph::findEdge</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">VertId</ref></type>
-          <declname>a</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">VertId</ref></type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-<para>finds and returns edge between vertices a and b; returns invalid edge otherwise </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" line="76" column="24"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Graph_1ac3097672a81dda206c80984a7fdb0806" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::Graph::areNeighbors</definition>
-        <argsstring>(VertId a, VertId b) const</argsstring>
-        <name>areNeighbors</name>
-        <qualifiedname>MR::Graph::areNeighbors</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">VertId</ref></type>
-          <declname>a</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">VertId</ref></type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-<para>returns true if the vertices a and b are neighbors </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" line="79" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" bodystart="79" bodyend="79"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Graph_1a2dab2ce76e4259ff2c5d66ec4c68c98a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::Graph::merge</definition>
-        <argsstring>(VertId remnant, VertId dead, std::function&lt; void(EdgeId remnant, EdgeId dead)&gt; onMergeEdges)</argsstring>
-        <name>merge</name>
-        <qualifiedname>MR::Graph::merge</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">VertId</ref></type>
-          <declname>remnant</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">VertId</ref></type>
-          <declname>dead</declname>
-        </param>
-        <param>
-          <type>std::function&lt; void(<ref refid="classMR_1_1Graph_1ab7466409c32ef6a047fedfe19ed28c1b" kindref="member">EdgeId</ref> remnant, <ref refid="classMR_1_1Graph_1ab7466409c32ef6a047fedfe19ed28c1b" kindref="member">EdgeId</ref> dead)&gt;</type>
-          <declname>onMergeEdges</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>unites two vertices into one (deleting the second one), which leads to deletion and merge of some edges, for which callback is called </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" line="83" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Graph_1a6c46ebc56429665872ef490d8d8674ce" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
-        <definition>MRMESH_API bool MR::Graph::checkValidity</definition>
-        <argsstring>() const</argsstring>
-        <name>checkValidity</name>
-        <qualifiedname>MR::Graph::checkValidity</qualifiedname>
-        <briefdescription>
-<para>verifies that all internal data structures are valid </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" line="86" column="21"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga01fe9290eb0140ff0193c6ce4a3ea5b8" kind="function"><name>construct</name></member>
+      <member refid="group__GeneralGroup_1gac31feb99fa40a7a7fee0c9806f676b11" kind="function"><name>vertSize</name></member>
+      <member refid="group__GeneralGroup_1ga60bd1c95b46edb238590e59ba2066233" kind="function"><name>validVerts</name></member>
+      <member refid="group__GeneralGroup_1ga46ac2204a29916d4c70d8902b0a21868" kind="function"><name>valid</name></member>
+      <member refid="group__GeneralGroup_1ga0c5f4eae690cb57f429c9656db0e2dad" kind="function"><name>edgeSize</name></member>
+      <member refid="group__GeneralGroup_1ga6dcad1485d86cf7df5af53ddc8dc8592" kind="function"><name>validEdges</name></member>
+      <member refid="group__GeneralGroup_1ga5091e905ddd17f80fb7c3996ce095e58" kind="function"><name>valid</name></member>
+      <member refid="group__GeneralGroup_1ga39fd49331c460c5a968a62a2140d2990" kind="function"><name>neighbours</name></member>
+      <member refid="group__GeneralGroup_1ga0c37e0844926fa87642bc735718dd643" kind="function"><name>ends</name></member>
+      <member refid="group__GeneralGroup_1ga5de54676ec0131e5355d47e44f31019d" kind="function"><name>findEdge</name></member>
+      <member refid="group__GeneralGroup_1gac3097672a81dda206c80984a7fdb0806" kind="function"><name>areNeighbors</name></member>
+      <member refid="group__GeneralGroup_1ga2dab2ce76e4259ff2c5d66ec4c68c98a" kind="function"><name>merge</name></member>
+      <member refid="group__GeneralGroup_1ga6c46ebc56429665872ef490d8d8674ce" kind="function"><name>checkValidity</name></member>
     </sectiondef>
     <briefdescription>
 <para>mathematical graph consisting from vertices and undirected edges </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" bodystart="14" bodyend="94"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" bodystart="17" bodyend="97"/>
     <listofallmembers>
-      <member refid="classMR_1_1Graph_1ac3097672a81dda206c80984a7fdb0806" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>areNeighbors</name></member>
-      <member refid="classMR_1_1Graph_1a6c46ebc56429665872ef490d8d8674ce" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>checkValidity</name></member>
-      <member refid="classMR_1_1Graph_1a01fe9290eb0140ff0193c6ce4a3ea5b8" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>construct</name></member>
-      <member refid="classMR_1_1Graph_1a8479c33a6ee26f007a35cab71ba0f2b5" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>EdgeBitSet</name></member>
-      <member refid="classMR_1_1Graph_1ab7466409c32ef6a047fedfe19ed28c1b" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>EdgeId</name></member>
-      <member refid="classMR_1_1Graph_1a0c5f4eae690cb57f429c9656db0e2dad" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>edgeSize</name></member>
-      <member refid="classMR_1_1Graph_1a0c37e0844926fa87642bc735718dd643" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>ends</name></member>
-      <member refid="classMR_1_1Graph_1a429f57208104bd4a3efcceeaa5ba4dce" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>EndsPerEdge</name></member>
-      <member refid="classMR_1_1Graph_1afc6e669b11365ec3aa8af178cb853bec" prot="private" virt="non-virtual"><scope>MR::Graph</scope><name>endsPerEdge_</name></member>
-      <member refid="classMR_1_1Graph_1a5de54676ec0131e5355d47e44f31019d" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>findEdge</name></member>
-      <member refid="classMR_1_1Graph_1a2dab2ce76e4259ff2c5d66ec4c68c98a" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>merge</name></member>
-      <member refid="classMR_1_1Graph_1a77cba04748e7954c18b2aebc282f0d74" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>Neighbours</name></member>
-      <member refid="classMR_1_1Graph_1a39fd49331c460c5a968a62a2140d2990" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>neighbours</name></member>
-      <member refid="classMR_1_1Graph_1a0f0a516aa03bd6f100040d2696d0c808" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>NeighboursPerVertex</name></member>
-      <member refid="classMR_1_1Graph_1a81ebc39b9f1034cb329a04b4e8ffc74b" prot="private" virt="non-virtual"><scope>MR::Graph</scope><name>neighboursPerVertex_</name></member>
-      <member refid="classMR_1_1Graph_1a46ac2204a29916d4c70d8902b0a21868" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>valid</name></member>
-      <member refid="classMR_1_1Graph_1a5091e905ddd17f80fb7c3996ce095e58" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>valid</name></member>
-      <member refid="classMR_1_1Graph_1a6dcad1485d86cf7df5af53ddc8dc8592" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>validEdges</name></member>
-      <member refid="classMR_1_1Graph_1a2cafc9291c2c7fa2e38372f14724580e" prot="private" virt="non-virtual"><scope>MR::Graph</scope><name>validEdges_</name></member>
-      <member refid="classMR_1_1Graph_1a60bd1c95b46edb238590e59ba2066233" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>validVerts</name></member>
-      <member refid="classMR_1_1Graph_1a3cf652adf091cb73987b43f5cb6bfe54" prot="private" virt="non-virtual"><scope>MR::Graph</scope><name>validVerts_</name></member>
-      <member refid="classMR_1_1Graph_1ab76aab71a50b47ed582851ecb969920c" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>VertBitSet</name></member>
-      <member refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>VertId</name></member>
-      <member refid="classMR_1_1Graph_1ac31feb99fa40a7a7fee0c9806f676b11" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>vertSize</name></member>
+      <member refid="group__GeneralGroup_1gac3097672a81dda206c80984a7fdb0806" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>areNeighbors</name></member>
+      <member refid="group__GeneralGroup_1ga6c46ebc56429665872ef490d8d8674ce" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>checkValidity</name></member>
+      <member refid="group__GeneralGroup_1ga01fe9290eb0140ff0193c6ce4a3ea5b8" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>construct</name></member>
+      <member refid="group__GeneralGroup_1ga8479c33a6ee26f007a35cab71ba0f2b5" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>EdgeBitSet</name></member>
+      <member refid="group__GeneralGroup_1gab7466409c32ef6a047fedfe19ed28c1b" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>EdgeId</name></member>
+      <member refid="group__GeneralGroup_1ga0c5f4eae690cb57f429c9656db0e2dad" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>edgeSize</name></member>
+      <member refid="group__GeneralGroup_1ga0c37e0844926fa87642bc735718dd643" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>ends</name></member>
+      <member refid="group__GeneralGroup_1ga429f57208104bd4a3efcceeaa5ba4dce" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>EndsPerEdge</name></member>
+      <member refid="group__GeneralGroup_1gafc6e669b11365ec3aa8af178cb853bec" prot="private" virt="non-virtual"><scope>MR::Graph</scope><name>endsPerEdge_</name></member>
+      <member refid="group__GeneralGroup_1ga5de54676ec0131e5355d47e44f31019d" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>findEdge</name></member>
+      <member refid="group__GeneralGroup_1ga2dab2ce76e4259ff2c5d66ec4c68c98a" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>merge</name></member>
+      <member refid="group__GeneralGroup_1ga77cba04748e7954c18b2aebc282f0d74" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>Neighbours</name></member>
+      <member refid="group__GeneralGroup_1ga39fd49331c460c5a968a62a2140d2990" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>neighbours</name></member>
+      <member refid="group__GeneralGroup_1ga0f0a516aa03bd6f100040d2696d0c808" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>NeighboursPerVertex</name></member>
+      <member refid="group__GeneralGroup_1ga81ebc39b9f1034cb329a04b4e8ffc74b" prot="private" virt="non-virtual"><scope>MR::Graph</scope><name>neighboursPerVertex_</name></member>
+      <member refid="group__GeneralGroup_1ga46ac2204a29916d4c70d8902b0a21868" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>valid</name></member>
+      <member refid="group__GeneralGroup_1ga5091e905ddd17f80fb7c3996ce095e58" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>valid</name></member>
+      <member refid="group__GeneralGroup_1ga6dcad1485d86cf7df5af53ddc8dc8592" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>validEdges</name></member>
+      <member refid="group__GeneralGroup_1ga2cafc9291c2c7fa2e38372f14724580e" prot="private" virt="non-virtual"><scope>MR::Graph</scope><name>validEdges_</name></member>
+      <member refid="group__GeneralGroup_1ga60bd1c95b46edb238590e59ba2066233" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>validVerts</name></member>
+      <member refid="group__GeneralGroup_1ga3cf652adf091cb73987b43f5cb6bfe54" prot="private" virt="non-virtual"><scope>MR::Graph</scope><name>validVerts_</name></member>
+      <member refid="group__GeneralGroup_1gab76aab71a50b47ed582851ecb969920c" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>VertBitSet</name></member>
+      <member refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>VertId</name></member>
+      <member refid="group__GeneralGroup_1gac31feb99fa40a7a7fee0c9806f676b11" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>vertSize</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

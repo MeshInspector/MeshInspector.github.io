@@ -149,7 +149,7 @@ $(function(){initNavTree('classMR_1_1VisualObjectTagManager.html',''); initResiz
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="classMR_1_1VisualObjectTagManager-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">MR::VisualObjectTagManager Class Reference</div></div>
+  <div class="headertitle"><div class="title">MR::VisualObjectTagManager Class Reference<div class="ingroups"><a class="el" href="group__GeneralGroup.html">GeneralGroup</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -160,277 +160,36 @@ $(function(){initNavTree('classMR_1_1VisualObjectTagManager.html',''); initResiz
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:acc1fbe4ee1dee7064b9d1bac1569dd66" id="r_acc1fbe4ee1dee7064b9d1bac1569dd66"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API <a class="el" href="classMR_1_1VisualObjectTagManager.html">VisualObjectTagManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc1fbe4ee1dee7064b9d1bac1569dd66">instance</a> ()</td></tr>
-<tr class="memdesc:acc1fbe4ee1dee7064b9d1bac1569dd66"><td class="mdescLeft">&#160;</td><td class="mdescRight">get access to the global instance  <br /></td></tr>
-<tr class="separator:acc1fbe4ee1dee7064b9d1bac1569dd66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f69634ddb326faeffe67952e15e67e4" id="r_a9f69634ddb326faeffe67952e15e67e4"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API const std::map&lt; std::string, <a class="el" href="structMR_1_1VisualObjectTag.html">VisualObjectTag</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f69634ddb326faeffe67952e15e67e4">tags</a> ()</td></tr>
-<tr class="memdesc:a9f69634ddb326faeffe67952e15e67e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">get read-only access to the visual object tags' storage  <br /></td></tr>
-<tr class="separator:a9f69634ddb326faeffe67952e15e67e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae17781f3480401df2d0f12b90816be27" id="r_ae17781f3480401df2d0f12b90816be27"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae17781f3480401df2d0f12b90816be27">registerTag</a> (std::string tag, <a class="el" href="structMR_1_1VisualObjectTag.html">VisualObjectTag</a> visTag)</td></tr>
-<tr class="memdesc:ae17781f3480401df2d0f12b90816be27"><td class="mdescLeft">&#160;</td><td class="mdescRight">add visual object tag  <br /></td></tr>
-<tr class="separator:ae17781f3480401df2d0f12b90816be27"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2b3c766f95d02b57e4a529fecdae7cd" id="r_ac2b3c766f95d02b57e4a529fecdae7cd"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2b3c766f95d02b57e4a529fecdae7cd">updateTag</a> (const std::string &amp;tag, <a class="el" href="structMR_1_1VisualObjectTag.html">VisualObjectTag</a> visTag)</td></tr>
-<tr class="memdesc:ac2b3c766f95d02b57e4a529fecdae7cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">update visual object tag; linked objects are NOT updated automatically  <br /></td></tr>
-<tr class="separator:ac2b3c766f95d02b57e4a529fecdae7cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa2d4ea3df24507fdc138c0186b48e6cd" id="r_aa2d4ea3df24507fdc138c0186b48e6cd"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2d4ea3df24507fdc138c0186b48e6cd">unregisterTag</a> (const std::string &amp;tag)</td></tr>
-<tr class="memdesc:aa2d4ea3df24507fdc138c0186b48e6cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">remove visual object tag; linked objects are NOT updated automatically  <br /></td></tr>
-<tr class="separator:aa2d4ea3df24507fdc138c0186b48e6cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea004b378789ba0a88c63d1854d82f82" id="r_aea004b378789ba0a88c63d1854d82f82"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea004b378789ba0a88c63d1854d82f82">getAllObjectsWithTag</a> (<a class="el" href="classMR_1_1Object.html">Object</a> *root, const std::string &amp;tag, const ObjectSelectivityType &amp;type=ObjectSelectivityType::Selectable)</td></tr>
-<tr class="memdesc:aea004b378789ba0a88c63d1854d82f82"><td class="mdescLeft">&#160;</td><td class="mdescRight">find all object in given object tree with the visual object tag  <br /></td></tr>
-<tr class="separator:aea004b378789ba0a88c63d1854d82f82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec8c30ef080775365eeebc279fdc39da" id="r_aec8c30ef080775365eeebc279fdc39da"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec8c30ef080775365eeebc279fdc39da">update</a> (<a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &amp;visObj, const std::string &amp;tag)</td></tr>
-<tr class="memdesc:aec8c30ef080775365eeebc279fdc39da"><td class="mdescLeft">&#160;</td><td class="mdescRight">update visual object properties according to whether given object has the visual object tag or not  <br /></td></tr>
-<tr class="separator:aec8c30ef080775365eeebc279fdc39da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacc1fbe4ee1dee7064b9d1bac1569dd66" id="r_gacc1fbe4ee1dee7064b9d1bac1569dd66"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API <a class="el" href="classMR_1_1VisualObjectTagManager.html">VisualObjectTagManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gacc1fbe4ee1dee7064b9d1bac1569dd66">instance</a> ()</td></tr>
+<tr class="memdesc:gacc1fbe4ee1dee7064b9d1bac1569dd66"><td class="mdescLeft">&#160;</td><td class="mdescRight">get access to the global instance  <br /></td></tr>
+<tr class="separator:gacc1fbe4ee1dee7064b9d1bac1569dd66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9f69634ddb326faeffe67952e15e67e4" id="r_ga9f69634ddb326faeffe67952e15e67e4"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API const std::map&lt; std::string, <a class="el" href="structMR_1_1VisualObjectTag.html">VisualObjectTag</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga9f69634ddb326faeffe67952e15e67e4">tags</a> ()</td></tr>
+<tr class="memdesc:ga9f69634ddb326faeffe67952e15e67e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">get read-only access to the visual object tags' storage  <br /></td></tr>
+<tr class="separator:ga9f69634ddb326faeffe67952e15e67e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae17781f3480401df2d0f12b90816be27" id="r_gae17781f3480401df2d0f12b90816be27"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gae17781f3480401df2d0f12b90816be27">registerTag</a> (std::string tag, <a class="el" href="structMR_1_1VisualObjectTag.html">VisualObjectTag</a> visTag)</td></tr>
+<tr class="memdesc:gae17781f3480401df2d0f12b90816be27"><td class="mdescLeft">&#160;</td><td class="mdescRight">add visual object tag  <br /></td></tr>
+<tr class="separator:gae17781f3480401df2d0f12b90816be27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac2b3c766f95d02b57e4a529fecdae7cd" id="r_gac2b3c766f95d02b57e4a529fecdae7cd"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gac2b3c766f95d02b57e4a529fecdae7cd">updateTag</a> (const std::string &amp;tag, <a class="el" href="structMR_1_1VisualObjectTag.html">VisualObjectTag</a> visTag)</td></tr>
+<tr class="memdesc:gac2b3c766f95d02b57e4a529fecdae7cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">update visual object tag; linked objects are NOT updated automatically  <br /></td></tr>
+<tr class="separator:gac2b3c766f95d02b57e4a529fecdae7cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa2d4ea3df24507fdc138c0186b48e6cd" id="r_gaa2d4ea3df24507fdc138c0186b48e6cd"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaa2d4ea3df24507fdc138c0186b48e6cd">unregisterTag</a> (const std::string &amp;tag)</td></tr>
+<tr class="memdesc:gaa2d4ea3df24507fdc138c0186b48e6cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">remove visual object tag; linked objects are NOT updated automatically  <br /></td></tr>
+<tr class="separator:gaa2d4ea3df24507fdc138c0186b48e6cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaea004b378789ba0a88c63d1854d82f82" id="r_gaea004b378789ba0a88c63d1854d82f82"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaea004b378789ba0a88c63d1854d82f82">getAllObjectsWithTag</a> (<a class="el" href="classMR_1_1Object.html">Object</a> *root, const std::string &amp;tag, const ObjectSelectivityType &amp;type=ObjectSelectivityType::Selectable)</td></tr>
+<tr class="memdesc:gaea004b378789ba0a88c63d1854d82f82"><td class="mdescLeft">&#160;</td><td class="mdescRight">find all object in given object tree with the visual object tag  <br /></td></tr>
+<tr class="separator:gaea004b378789ba0a88c63d1854d82f82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaec8c30ef080775365eeebc279fdc39da" id="r_gaec8c30ef080775365eeebc279fdc39da"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaec8c30ef080775365eeebc279fdc39da">update</a> (<a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &amp;visObj, const std::string &amp;tag)</td></tr>
+<tr class="memdesc:gaec8c30ef080775365eeebc279fdc39da"><td class="mdescLeft">&#160;</td><td class="mdescRight">update visual object properties according to whether given object has the visual object tag or not  <br /></td></tr>
+<tr class="separator:gaec8c30ef080775365eeebc279fdc39da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
 Friends</h2></td></tr>
-<tr class="memitem:aab3891f875cc95a74b2741c4c49da1b4" id="r_aab3891f875cc95a74b2741c4c49da1b4"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab3891f875cc95a74b2741c4c49da1b4">deserializeFromJson</a> (const Json::Value &amp;root, <a class="el" href="classMR_1_1VisualObjectTagManager.html">VisualObjectTagManager</a> &amp;manager)</td></tr>
-<tr class="separator:aab3891f875cc95a74b2741c4c49da1b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaab3891f875cc95a74b2741c4c49da1b4" id="r_gaab3891f875cc95a74b2741c4c49da1b4"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaab3891f875cc95a74b2741c4c49da1b4">deserializeFromJson</a> (const Json::Value &amp;root, <a class="el" href="classMR_1_1VisualObjectTagManager.html">VisualObjectTagManager</a> &amp;manager)</td></tr>
+<tr class="separator:gaab3891f875cc95a74b2741c4c49da1b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>class for storing and changing visual object properties based on the object tags </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="aea004b378789ba0a88c63d1854d82f82" name="aea004b378789ba0a88c63d1854d82f82"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aea004b378789ba0a88c63d1854d82f82">&#9670;&#160;</a></span>getAllObjectsWithTag()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static MRVIEWER_API std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; MR::VisualObjectTagManager::getAllObjectsWithTag </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classMR_1_1Object.html">Object</a> *</td>          <td class="paramname"><span class="paramname"><em>root</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>tag</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const ObjectSelectivityType &amp;</td>          <td class="paramname"><span class="paramname"><em>type</em></span><span class="paramdefsep"> = </span><span class="paramdefval">ObjectSelectivityType::Selectable</span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>find all object in given object tree with the visual object tag </p>
-
-</div>
-</div>
-<a id="acc1fbe4ee1dee7064b9d1bac1569dd66" name="acc1fbe4ee1dee7064b9d1bac1569dd66"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc1fbe4ee1dee7064b9d1bac1569dd66">&#9670;&#160;</a></span>instance()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static MRVIEWER_API <a class="el" href="classMR_1_1VisualObjectTagManager.html">VisualObjectTagManager</a> &amp; MR::VisualObjectTagManager::instance </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>get access to the global instance </p>
-
-</div>
-</div>
-<a id="ae17781f3480401df2d0f12b90816be27" name="ae17781f3480401df2d0f12b90816be27"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae17781f3480401df2d0f12b90816be27">&#9670;&#160;</a></span>registerTag()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static MRVIEWER_API void MR::VisualObjectTagManager::registerTag </td>
-          <td>(</td>
-          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>tag</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structMR_1_1VisualObjectTag.html">VisualObjectTag</a></td>          <td class="paramname"><span class="paramname"><em>visTag</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>add visual object tag </p>
-
-</div>
-</div>
-<a id="a9f69634ddb326faeffe67952e15e67e4" name="a9f69634ddb326faeffe67952e15e67e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9f69634ddb326faeffe67952e15e67e4">&#9670;&#160;</a></span>tags()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static MRVIEWER_API const std::map&lt; std::string, <a class="el" href="structMR_1_1VisualObjectTag.html">VisualObjectTag</a> &gt; &amp; MR::VisualObjectTagManager::tags </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>get read-only access to the visual object tags' storage </p>
-
-</div>
-</div>
-<a id="aa2d4ea3df24507fdc138c0186b48e6cd" name="aa2d4ea3df24507fdc138c0186b48e6cd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa2d4ea3df24507fdc138c0186b48e6cd">&#9670;&#160;</a></span>unregisterTag()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static MRVIEWER_API void MR::VisualObjectTagManager::unregisterTag </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>tag</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>remove visual object tag; linked objects are NOT updated automatically </p>
-
-</div>
-</div>
-<a id="aec8c30ef080775365eeebc279fdc39da" name="aec8c30ef080775365eeebc279fdc39da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec8c30ef080775365eeebc279fdc39da">&#9670;&#160;</a></span>update()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static MRVIEWER_API void MR::VisualObjectTagManager::update </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>visObj</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>tag</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>update visual object properties according to whether given object has the visual object tag or not </p>
-
-</div>
-</div>
-<a id="ac2b3c766f95d02b57e4a529fecdae7cd" name="ac2b3c766f95d02b57e4a529fecdae7cd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac2b3c766f95d02b57e4a529fecdae7cd">&#9670;&#160;</a></span>updateTag()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static MRVIEWER_API void MR::VisualObjectTagManager::updateTag </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>tag</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structMR_1_1VisualObjectTag.html">VisualObjectTag</a></td>          <td class="paramname"><span class="paramname"><em>visTag</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>update visual object tag; linked objects are NOT updated automatically </p>
-
-</div>
-</div>
-<h2 class="groupheader">Friends And Related Symbol Documentation</h2>
-<a id="aab3891f875cc95a74b2741c4c49da1b4" name="aab3891f875cc95a74b2741c4c49da1b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab3891f875cc95a74b2741c4c49da1b4">&#9670;&#160;</a></span>deserializeFromJson</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRVIEWER_API void deserializeFromJson </td>
-          <td>(</td>
-          <td class="paramtype">const Json::Value &amp;</td>          <td class="paramname"><span class="paramname"><em>root</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classMR_1_1VisualObjectTagManager.html">VisualObjectTagManager</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>manager</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+</div><hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="MRVisualObjectTag_8h_source.html">MRVisualObjectTag.h</a></li>
 </ul>
 </div><!-- contents -->

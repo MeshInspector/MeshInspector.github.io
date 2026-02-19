@@ -63,8 +63,8 @@
       <member refid="group__HistoryGroup_1ga639784e559a258dafd067f1e374d0ae2" prot="public" virt="non-virtual"><scope>MR::ChangVoxelSelectionAction</scope><name>selection</name></member>
       <member refid="group__HistoryGroup_1ga93a11f9143eeb19f2d1692094b89117c" prot="private" virt="non-virtual"><scope>MR::ChangVoxelSelectionAction</scope><name>selection_</name></member>
       <member refid="group__HistoryGroup_1ga54f4bbe409819b2a781e9d559f22298e" prot="public" virt="non-virtual"><scope>MR::ChangVoxelSelectionAction</scope><name>setObjectDirty</name></member>
-      <member refid="classMR_1_1HistoryAction_1ac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::ChangVoxelSelectionAction</scope><name>Type</name></member>
-      <member refid="classMR_1_1HistoryAction_1a97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::ChangVoxelSelectionAction</scope><name>~HistoryAction</name></member>
+      <member refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::ChangVoxelSelectionAction</scope><name>Type</name></member>
+      <member refid="group__GeneralGroup_1ga97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::ChangVoxelSelectionAction</scope><name>~HistoryAction</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

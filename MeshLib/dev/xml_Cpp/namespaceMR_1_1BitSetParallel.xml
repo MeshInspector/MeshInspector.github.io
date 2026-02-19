@@ -120,7 +120,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSetParallelFor.h" line="47" column="6" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSetParallelFor.h" bodystart="47" bodyend="54"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1BitSetParallel_1a357fb7ee5dcb97530561b61703771f02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::BitSetParallel::forAllRanged</definition>
         <argsstring>(const Range &amp;bitRange, FunctionRef&lt; void(size_t, const Range &amp;)&gt; f)</argsstring>
         <name>forAllRanged</name>
@@ -142,7 +142,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSetParallelFor.h" line="58" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSetParallelFor.h" declline="58" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1BitSetParallel_1afd2d97d78925db0934e887b795c0c84f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::BitSetParallel::forAllRanged</definition>
         <argsstring>(const Range &amp;bitRange, FunctionRef&lt; void(size_t, const Range &amp;, void *)&gt; f, FunctionRef&lt; void *()&gt; ctx)</argsstring>
         <name>forAllRanged</name>
@@ -168,7 +168,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSetParallelFor.h" line="60" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSetParallelFor.h" declline="60" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1BitSetParallel_1a5dc8ec5da5f21c7b1fb5aee09e55b094" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <type>MRMESH_API bool</type>
         <definition>MRMESH_API bool MR::BitSetParallel::forAllRanged</definition>
         <argsstring>(const Range &amp;bitRange, FunctionRef&lt; void(size_t, const Range &amp;, void *)&gt; f, FunctionRef&lt; void *()&gt; ctx, ProgressCallback progressCb, size_t reportProgressEveryBit=1024)</argsstring>
         <name>forAllRanged</name>
@@ -186,7 +186,7 @@
           <declname>ctx</declname>
         </param>
         <param>
-          <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+          <type>ProgressCallback</type>
           <declname>progressCb</declname>
         </param>
         <param>

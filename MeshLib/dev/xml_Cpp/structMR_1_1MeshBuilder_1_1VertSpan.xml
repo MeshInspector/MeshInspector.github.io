@@ -4,46 +4,18 @@
     <compoundname>MR::MeshBuilder::VertSpan</compoundname>
     <includes refid="MRMeshBuilderTypes_8h" local="no">MRMeshBuilderTypes.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1MeshBuilder_1_1VertSpan_1af483f48c26d9bb2d28b92af0b477712b" prot="public" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::MeshBuilder::VertSpan::firstVertex</definition>
-        <argsstring></argsstring>
-        <name>firstVertex</name>
-        <qualifiedname>MR::MeshBuilder::VertSpan::firstVertex</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilderTypes.h" line="47" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilderTypes.h" bodystart="47" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MeshBuilder_1_1VertSpan_1aea86de7be4e92fdec6f7f3157120dff1" prot="public" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::MeshBuilder::VertSpan::lastVertex</definition>
-        <argsstring></argsstring>
-        <name>lastVertex</name>
-        <qualifiedname>MR::MeshBuilder::VertSpan::lastVertex</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilderTypes.h" line="48" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilderTypes.h" bodystart="48" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaf483f48c26d9bb2d28b92af0b477712b" kind="variable"><name>firstVertex</name></member>
+      <member refid="group__GeneralGroup_1gaea86de7be4e92fdec6f7f3157120dff1" kind="variable"><name>lastVertex</name></member>
     </sectiondef>
     <briefdescription>
 <para>each face is surrounded by a closed contour of vertices [fistVertex, lastVertex) </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilderTypes.h" line="45" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilderTypes.h" bodystart="46" bodyend="49"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilderTypes.h" line="48" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilderTypes.h" bodystart="49" bodyend="52"/>
     <listofallmembers>
-      <member refid="structMR_1_1MeshBuilder_1_1VertSpan_1af483f48c26d9bb2d28b92af0b477712b" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertSpan</scope><name>firstVertex</name></member>
-      <member refid="structMR_1_1MeshBuilder_1_1VertSpan_1aea86de7be4e92fdec6f7f3157120dff1" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertSpan</scope><name>lastVertex</name></member>
+      <member refid="group__GeneralGroup_1gaf483f48c26d9bb2d28b92af0b477712b" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertSpan</scope><name>firstVertex</name></member>
+      <member refid="group__GeneralGroup_1gaea86de7be4e92fdec6f7f3157120dff1" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertSpan</scope><name>lastVertex</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -9,120 +9,27 @@
       </param>
     </templateparamlist>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1ZeroOnMove_1a2a13927970e03bd552e6ba6241206a15" prot="public" static="no" mutable="no">
-        <type>T</type>
-        <definition>T MR::ZeroOnMove&lt; T &gt;::val</definition>
-        <argsstring></argsstring>
-        <name>val</name>
-        <qualifiedname>MR::ZeroOnMove::val</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" line="17" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga2a13927970e03bd552e6ba6241206a15" kind="variable"><name>val</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1ZeroOnMove_1af504ba39107aabf4c055c1a1f651c586" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>constexpr</type>
-        <definition>MR::ZeroOnMove&lt; T &gt;::ZeroOnMove</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>ZeroOnMove</name>
-        <qualifiedname>MR::ZeroOnMove::ZeroOnMove</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" line="18" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" bodystart="18" bodyend="18"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1ZeroOnMove_1a6c54d017113955a26465a32443707c9f" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type>constexpr</type>
-        <definition>MR::ZeroOnMove&lt; T &gt;::ZeroOnMove</definition>
-        <argsstring>(const ZeroOnMove &amp;) noexcept=delete</argsstring>
-        <name>ZeroOnMove</name>
-        <qualifiedname>MR::ZeroOnMove::ZeroOnMove</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1ZeroOnMove" kindref="compound">ZeroOnMove</ref> &amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" line="19" column="15"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1ZeroOnMove_1a1eb512d1aea6742b0d8392f71ce425a2" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>constexpr</type>
-        <definition>MR::ZeroOnMove&lt; T &gt;::ZeroOnMove</definition>
-        <argsstring>(ZeroOnMove &amp;&amp;z) noexcept</argsstring>
-        <name>ZeroOnMove</name>
-        <qualifiedname>MR::ZeroOnMove::ZeroOnMove</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1ZeroOnMove" kindref="compound">ZeroOnMove</ref> &amp;&amp;</type>
-          <declname>z</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" line="20" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" bodystart="20" bodyend="20"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1ZeroOnMove_1ac3bc0c5c28107a3a11a89d8b43373be0" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1ZeroOnMove" kindref="compound">ZeroOnMove</ref> &amp;</type>
-        <definition>ZeroOnMove &amp; MR::ZeroOnMove&lt; T &gt;::operator=</definition>
-        <argsstring>(const ZeroOnMove &amp;) noexcept=delete</argsstring>
-        <name>operator=</name>
-        <qualifiedname>MR::ZeroOnMove::operator=</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1ZeroOnMove" kindref="compound">ZeroOnMove</ref> &amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" line="21" column="26"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1ZeroOnMove_1a51e46bdba8b867ecd3c48d42a29c6aac" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1ZeroOnMove" kindref="compound">ZeroOnMove</ref> &amp;</type>
-        <definition>ZeroOnMove &amp; MR::ZeroOnMove&lt; T &gt;::operator=</definition>
-        <argsstring>(ZeroOnMove &amp;&amp;z) noexcept</argsstring>
-        <name>operator=</name>
-        <qualifiedname>MR::ZeroOnMove::operator=</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1ZeroOnMove" kindref="compound">ZeroOnMove</ref> &amp;&amp;</type>
-          <declname>z</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" line="22" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" bodystart="22" bodyend="22"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaf504ba39107aabf4c055c1a1f651c586" kind="function"><name>ZeroOnMove</name></member>
+      <member refid="group__GeneralGroup_1ga6c54d017113955a26465a32443707c9f" kind="function"><name>ZeroOnMove</name></member>
+      <member refid="group__GeneralGroup_1ga1eb512d1aea6742b0d8392f71ce425a2" kind="function"><name>ZeroOnMove</name></member>
+      <member refid="group__GeneralGroup_1gac3bc0c5c28107a3a11a89d8b43373be0" kind="function"><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga51e46bdba8b867ecd3c48d42a29c6aac" kind="function"><name>operator=</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" bodystart="16" bodyend="23"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" bodystart="19" bodyend="26"/>
     <listofallmembers>
-      <member refid="structMR_1_1ZeroOnMove_1ac3bc0c5c28107a3a11a89d8b43373be0" prot="public" virt="non-virtual"><scope>MR::ZeroOnMove</scope><name>operator=</name></member>
-      <member refid="structMR_1_1ZeroOnMove_1a51e46bdba8b867ecd3c48d42a29c6aac" prot="public" virt="non-virtual"><scope>MR::ZeroOnMove</scope><name>operator=</name></member>
-      <member refid="structMR_1_1ZeroOnMove_1a2a13927970e03bd552e6ba6241206a15" prot="public" virt="non-virtual"><scope>MR::ZeroOnMove</scope><name>val</name></member>
-      <member refid="structMR_1_1ZeroOnMove_1af504ba39107aabf4c055c1a1f651c586" prot="public" virt="non-virtual"><scope>MR::ZeroOnMove</scope><name>ZeroOnMove</name></member>
-      <member refid="structMR_1_1ZeroOnMove_1a6c54d017113955a26465a32443707c9f" prot="public" virt="non-virtual"><scope>MR::ZeroOnMove</scope><name>ZeroOnMove</name></member>
-      <member refid="structMR_1_1ZeroOnMove_1a1eb512d1aea6742b0d8392f71ce425a2" prot="public" virt="non-virtual"><scope>MR::ZeroOnMove</scope><name>ZeroOnMove</name></member>
+      <member refid="group__GeneralGroup_1gac3bc0c5c28107a3a11a89d8b43373be0" prot="public" virt="non-virtual"><scope>MR::ZeroOnMove</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga51e46bdba8b867ecd3c48d42a29c6aac" prot="public" virt="non-virtual"><scope>MR::ZeroOnMove</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga2a13927970e03bd552e6ba6241206a15" prot="public" virt="non-virtual"><scope>MR::ZeroOnMove</scope><name>val</name></member>
+      <member refid="group__GeneralGroup_1gaf504ba39107aabf4c055c1a1f651c586" prot="public" virt="non-virtual"><scope>MR::ZeroOnMove</scope><name>ZeroOnMove</name></member>
+      <member refid="group__GeneralGroup_1ga6c54d017113955a26465a32443707c9f" prot="public" virt="non-virtual"><scope>MR::ZeroOnMove</scope><name>ZeroOnMove</name></member>
+      <member refid="group__GeneralGroup_1ga1eb512d1aea6742b0d8392f71ce425a2" prot="public" virt="non-virtual"><scope>MR::ZeroOnMove</scope><name>ZeroOnMove</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -5,48 +5,16 @@
     <includes refid="MRExpected_8h" local="yes">MRExpected.h</includes>
     <includes refid="MRProgressCallback_8h" local="yes">MRProgressCallback.h</includes>
     <incdepgraph>
-      <node id="5">
-        <label>MRMesh/MRCanonicalTypedefs.h</label>
-        <link refid="MRCanonicalTypedefs_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
-      </node>
       <node id="2">
         <label>MRExpected.h</label>
         <link refid="MRExpected_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-      </node>
-      <node id="6">
-        <label>MRMesh/MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
-      </node>
-      <node id="3">
-        <label>MRMeshFwd.h</label>
-        <link refid="MRMeshFwd_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -54,49 +22,36 @@
         <link refid="MROverlappingTris_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="15">
+      <node id="7">
         <label>MRProgressCallback.h</label>
         <link refid="MRProgressCallback_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
+      </node>
+      <node id="3">
+        <label>MRMeshFwd.h</label>
       </node>
       <node id="4">
-        <label>config.h</label>
-        <link refid="MRMesh_2config_8h"/>
-      </node>
-      <node id="7">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="14">
+      <node id="5">
         <label>MRPch/MRExpected.h</label>
       </node>
       <node id="8">
-        <label>array</label>
-      </node>
-      <node id="13">
         <label>cassert</label>
       </node>
-      <node id="16">
+      <node id="9">
         <label>cmath</label>
       </node>
-      <node id="12">
-        <label>functional</label>
-      </node>
-      <node id="11">
-        <label>parallel_hashmap/phmap_fwd_decl.h</label>
-      </node>
-      <node id="10">
+      <node id="6">
         <label>string</label>
-      </node>
-      <node id="9">
-        <label>vector</label>
       </node>
     </incdepgraph>
     <innerclass refid="structMR_1_1FindOverlappingSettings" prot="public">MR::FindOverlappingSettings</innerclass>
@@ -113,25 +68,26 @@
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight></codeline>
-<codeline lineno="9" refid="structMR_1_1FindOverlappingSettings" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1FindOverlappingSettings" kindref="compound">FindOverlappingSettings</ref></highlight></codeline>
-<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="12" refid="structMR_1_1FindOverlappingSettings_1ad9c6b8c3584ffef1a49795f794fced8d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FindOverlappingSettings_1ad9c6b8c3584ffef1a49795f794fced8d" kindref="member">maxDistSq</ref><sp/>=<sp/>1e-10f;<sp/></highlight></codeline>
-<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="15" refid="structMR_1_1FindOverlappingSettings_1aabcdb20bd37c7191483848d201e24d53" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FindOverlappingSettings_1aabcdb20bd37c7191483848d201e24d53" kindref="member">maxNormalDot</ref><sp/>=<sp/>-0.99f;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="structMR_1_1FindOverlappingSettings" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1FindOverlappingSettings" kindref="compound">FindOverlappingSettings</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15" refid="group__GeneralGroup_1gad9c6b8c3584ffef1a49795f794fced8d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad9c6b8c3584ffef1a49795f794fced8d" kindref="member">maxDistSq</ref><sp/>=<sp/>1e-10f;<sp/></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="18" refid="structMR_1_1FindOverlappingSettings_1a2fb083294a0bd854f423edd314775ad7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FindOverlappingSettings_1a2fb083294a0bd854f423edd314775ad7" kindref="member">minAreaFraction</ref><sp/>=<sp/>1e-5f;</highlight></codeline>
+<codeline lineno="18" refid="group__GeneralGroup_1gaabcdb20bd37c7191483848d201e24d53" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaabcdb20bd37c7191483848d201e24d53" kindref="member">maxNormalDot</ref><sp/>=<sp/>-0.99f;</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="21" refid="structMR_1_1FindOverlappingSettings_1acb6eb2b7cfbeacc7bb24b58262dcba34" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::function&lt;bool(<sp/>FaceId<sp/>l,<sp/>FaceId<sp/>r<sp/>)&gt;<sp/><ref refid="structMR_1_1FindOverlappingSettings_1acb6eb2b7cfbeacc7bb24b58262dcba34" kindref="member">pred</ref>;</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="structMR_1_1FindOverlappingSettings_1ac272f940af3bc9c5f3f0932e466a5f8e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/><ref refid="structMR_1_1FindOverlappingSettings_1ac272f940af3bc9c5f3f0932e466a5f8e" kindref="member">cb</ref>;</highlight></codeline>
+<codeline lineno="21" refid="group__GeneralGroup_1ga2fb083294a0bd854f423edd314775ad7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2fb083294a0bd854f423edd314775ad7" kindref="member">minAreaFraction</ref><sp/>=<sp/>1e-5f;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="24" refid="group__GeneralGroup_1gacb6eb2b7cfbeacc7bb24b58262dcba34" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::function&lt;bool(<sp/>FaceId<sp/>l,<sp/>FaceId<sp/>r<sp/>)&gt;<sp/><ref refid="group__GeneralGroup_1gacb6eb2b7cfbeacc7bb24b58262dcba34" kindref="member">pred</ref>;</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>MR_BIND_PREFER_UNLOCK_GIL_WHEN_USED_AS_PARAM</highlight></codeline>
-<codeline lineno="28"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31" refid="namespaceMR_1a6f854d1ee48b4520a2bc23d7c73c648f" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;FaceBitSet&gt;</ref><sp/><ref refid="namespaceMR_1a6f854d1ee48b4520a2bc23d7c73c648f" kindref="member">findOverlappingTris</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FindOverlappingSettings" kindref="compound">FindOverlappingSettings</ref><sp/>&amp;<sp/>settings<sp/>);</highlight></codeline>
+<codeline lineno="27" refid="group__GeneralGroup_1gac272f940af3bc9c5f3f0932e466a5f8e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ProgressCallback<sp/><ref refid="group__GeneralGroup_1gac272f940af3bc9c5f3f0932e466a5f8e" kindref="member">cb</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>MR_BIND_PREFER_UNLOCK_GIL_WHEN_USED_AS_PARAM</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="34" refid="group__GeneralGroup_1ga6f854d1ee48b4520a2bc23d7c73c648f" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;FaceBitSet&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga6f854d1ee48b4520a2bc23d7c73c648f" kindref="member">findOverlappingTris</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart<sp/>&amp;<sp/>mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FindOverlappingSettings" kindref="compound">FindOverlappingSettings</ref><sp/>&amp;<sp/>settings<sp/>);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}<sp/></highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROverlappingTris.h"/>
   </compounddef>

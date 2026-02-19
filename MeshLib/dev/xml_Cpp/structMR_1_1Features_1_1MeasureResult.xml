@@ -7,136 +7,16 @@
     <innerclass refid="structMR_1_1Features_1_1MeasureResult_1_1BasicPart" prot="public">MR::Features::MeasureResult::BasicPart</innerclass>
     <innerclass refid="structMR_1_1Features_1_1MeasureResult_1_1Distance" prot="public">MR::Features::MeasureResult::Distance</innerclass>
     <sectiondef kind="public-type">
-      <memberdef kind="enum" id="structMR_1_1Features_1_1MeasureResult_1ab9a02bda2fc92c73a0d7d637ba562a7e" prot="public" static="no" strong="yes">
-        <type></type>
-        <name>Status</name>
-        <qualifiedname>MR::Features::MeasureResult::Status</qualifiedname>
-        <enumvalue id="structMR_1_1Features_1_1MeasureResult_1ab9a02bda2fc92c73a0d7d637ba562a7ea444bcb3a3fcf8389296c49467f27e1d6" prot="public">
-          <name>ok</name>
-          <initializer>= 0</initializer>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="structMR_1_1Features_1_1MeasureResult_1ab9a02bda2fc92c73a0d7d637ba562a7ea558e60239d9c9c3f63fef490b85009bb" prot="public">
-          <name>notImplemented</name>
-          <briefdescription>
-<para>Algorithms set this if this when something isn&apos;t yet implemented. </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="structMR_1_1Features_1_1MeasureResult_1ab9a02bda2fc92c73a0d7d637ba562a7ea17870682e0e34794dc7dc2c13aa89a3f" prot="public">
-          <name>badFeaturePair</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-<para>Algorithms set this when the calculation doesn&apos;t make sense for those object types. This result can be based on object parameters, but not on their relative location. </para>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="structMR_1_1Features_1_1MeasureResult_1ab9a02bda2fc92c73a0d7d637ba562a7ea485094d05ff3ed356932b126a20864e2" prot="public">
-          <name>badRelativeLocation</name>
-          <briefdescription>
-<para>Can&apos;t be computed because of how the objects are located relative to each other. </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="structMR_1_1Features_1_1MeasureResult_1ab9a02bda2fc92c73a0d7d637ba562a7eafd6f633ddb4b5a2220cba15cebe96b8c" prot="public">
-          <name>notFinite</name>
-          <briefdescription>
-<para>The result was not finite. This is set automatically if you return non-finite values, but you can also set this manually. </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="167" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" bodystart="168" bodyend="179"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gab9a02bda2fc92c73a0d7d637ba562a7e" kind="enum"><name>Status</name></member>
     </sectiondef>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1Features_1_1MeasureResult_1a618a5c8cc475ae385a15f69aa6316d10" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1Features_1_1MeasureResult_1_1Distance" kindref="compound">Distance</ref></type>
-        <definition>Distance MR::Features::MeasureResult::distance</definition>
-        <argsstring></argsstring>
-        <name>distance</name>
-        <qualifiedname>MR::Features::MeasureResult::distance</qualifiedname>
-        <briefdescription>
-<para>Exact distance. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="201" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" bodystart="201" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1Features_1_1MeasureResult_1a31415c50f3b3e2ee62b2778114b20ec9" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1Features_1_1MeasureResult_1_1Distance" kindref="compound">Distance</ref></type>
-        <definition>Distance MR::Features::MeasureResult::centerDistance</definition>
-        <argsstring></argsstring>
-        <name>centerDistance</name>
-        <qualifiedname>MR::Features::MeasureResult::centerDistance</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Some approximation of the distance. For planes and lines, this expects them to be mostly parallel. For everything else, it just takes the feature center. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="205" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" bodystart="205" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1Features_1_1MeasureResult_1a598c9f6b07a702e3e849bf9b0e6ec040" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1Features_1_1MeasureResult_1_1Angle" kindref="compound">Angle</ref></type>
-        <definition>Angle MR::Features::MeasureResult::angle</definition>
-        <argsstring></argsstring>
-        <name>angle</name>
-        <qualifiedname>MR::Features::MeasureResult::angle</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="225" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" bodystart="225" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1Features_1_1MeasureResult_1ae91b71d479c6bb30a6e9b3068dd1d0c2" prot="public" static="no" mutable="no">
-        <type>std::vector&lt; <ref refid="namespaceMR_1_1Features_1_1Primitives_1a955a7f843d9b5df0f393ec7699ada624" kindref="member">Primitives::Variant</ref> &gt;</type>
-        <definition>std::vector&lt;Primitives::Variant&gt; MR::Features::MeasureResult::intersections</definition>
-        <argsstring></argsstring>
-        <name>intersections</name>
-        <qualifiedname>MR::Features::MeasureResult::intersections</qualifiedname>
-        <briefdescription>
-<para>The primitives obtained from intersecting those two. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="228" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" bodystart="228" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga618a5c8cc475ae385a15f69aa6316d10" kind="variable"><name>distance</name></member>
+      <member refid="group__GeneralGroup_1ga31415c50f3b3e2ee62b2778114b20ec9" kind="variable"><name>centerDistance</name></member>
+      <member refid="group__GeneralGroup_1ga598c9f6b07a702e3e849bf9b0e6ec040" kind="variable"><name>angle</name></member>
+      <member refid="group__GeneralGroup_1gae91b71d479c6bb30a6e9b3068dd1d0c2" kind="variable"><name>intersections</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1Features_1_1MeasureResult_1a0682477036fb2befa7ff871bab780be2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::Features::MeasureResult::swapObjects</definition>
-        <argsstring>()</argsstring>
-        <name>swapObjects</name>
-        <qualifiedname>MR::Features::MeasureResult::swapObjects</qualifiedname>
-        <briefdescription>
-<para>Modifies the object to swap A and B;. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="231" column="21"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga0682477036fb2befa7ff871bab780be2" kind="function"><name>swapObjects</name></member>
     </sectiondef>
     <briefdescription>
 <para>Stores the results of measuring two objects relative to one another. </para>
@@ -172,14 +52,14 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="165" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" bodystart="166" bodyend="232"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="168" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" bodystart="169" bodyend="235"/>
     <listofallmembers>
-      <member refid="structMR_1_1Features_1_1MeasureResult_1a598c9f6b07a702e3e849bf9b0e6ec040" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>angle</name></member>
-      <member refid="structMR_1_1Features_1_1MeasureResult_1a31415c50f3b3e2ee62b2778114b20ec9" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>centerDistance</name></member>
-      <member refid="structMR_1_1Features_1_1MeasureResult_1a618a5c8cc475ae385a15f69aa6316d10" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>distance</name></member>
-      <member refid="structMR_1_1Features_1_1MeasureResult_1ae91b71d479c6bb30a6e9b3068dd1d0c2" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>intersections</name></member>
-      <member refid="structMR_1_1Features_1_1MeasureResult_1ab9a02bda2fc92c73a0d7d637ba562a7e" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>Status</name></member>
-      <member refid="structMR_1_1Features_1_1MeasureResult_1a0682477036fb2befa7ff871bab780be2" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>swapObjects</name></member>
+      <member refid="group__GeneralGroup_1ga598c9f6b07a702e3e849bf9b0e6ec040" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>angle</name></member>
+      <member refid="group__GeneralGroup_1ga31415c50f3b3e2ee62b2778114b20ec9" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>centerDistance</name></member>
+      <member refid="group__GeneralGroup_1ga618a5c8cc475ae385a15f69aa6316d10" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>distance</name></member>
+      <member refid="group__GeneralGroup_1gae91b71d479c6bb30a6e9b3068dd1d0c2" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>intersections</name></member>
+      <member refid="group__GeneralGroup_1gab9a02bda2fc92c73a0d7d637ba562a7e" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>Status</name></member>
+      <member refid="group__GeneralGroup_1ga0682477036fb2befa7ff871bab780be2" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>swapObjects</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

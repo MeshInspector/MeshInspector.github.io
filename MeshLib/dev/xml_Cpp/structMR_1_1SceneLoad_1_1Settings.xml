@@ -5,7 +5,7 @@
     <includes refid="MRSceneLoad_8h" local="no">MRSceneLoad.h</includes>
     <sectiondef kind="public-type">
       <memberdef kind="typedef" id="structMR_1_1SceneLoad_1_1Settings_1a01397df55967ecaab97eaba28056aaf9" prot="public" static="no">
-        <type>std::function&lt; <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1LoadedObjects" kindref="compound">LoadedObjects</ref> &gt;(const std::filesystem::path &amp;, const <ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref> &amp;)&gt;</type>
+        <type>std::function&lt; <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1LoadedObjects" kindref="compound">LoadedObjects</ref> &gt;(const std::filesystem::path &amp;, const ProgressCallback &amp;)&gt;</type>
         <definition>using MR::SceneLoad::Settings::OpenFolder =  std::function&lt;Expected&lt;LoadedObjects&gt;( const std::filesystem::path&amp;, const ProgressCallback&amp; )&gt;</definition>
         <argsstring></argsstring>
         <name>OpenFolder</name>
@@ -22,7 +22,7 @@
     </sectiondef>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1SceneLoad_1_1Settings_1af5b8ca73e0491595900574e2c8ab17d8" prot="public" static="no" mutable="no">
-        <type>std::optional&lt; <ref refid="namespaceMR_1a754d4eb0500be08374f5c611d33b5cab" kindref="member">LengthUnit</ref> &gt;</type>
+        <type>std::optional&lt; <ref refid="group__GeneralGroup_1ga754d4eb0500be08374f5c611d33b5cab" kindref="member">LengthUnit</ref> &gt;</type>
         <definition>std::optional&lt;LengthUnit&gt; MR::SceneLoad::Settings::targetUnit</definition>
         <argsstring></argsstring>
         <name>targetUnit</name>
@@ -37,7 +37,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneLoad.h" line="14" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneLoad.h" bodystart="14" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1SceneLoad_1_1Settings_1ac5c932854de305eb8458df1d84eee28a" prot="public" static="no" mutable="no">
-        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+        <type>ProgressCallback</type>
         <definition>ProgressCallback MR::SceneLoad::Settings::progress</definition>
         <argsstring></argsstring>
         <name>progress</name>

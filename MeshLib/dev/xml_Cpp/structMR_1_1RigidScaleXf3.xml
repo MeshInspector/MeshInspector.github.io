@@ -9,204 +9,38 @@
       </param>
     </templateparamlist>
     <sectiondef kind="public-type">
-      <memberdef kind="typedef" id="structMR_1_1RigidScaleXf3_1a6c4d0f89f0f64deb44bea0f257bbf755" prot="public" static="no">
-        <type><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt;</type>
-        <definition>using MR::RigidScaleXf3&lt; T &gt;::V =  Vector3&lt;T&gt;</definition>
-        <argsstring></argsstring>
-        <name>V</name>
-        <qualifiedname>MR::RigidScaleXf3::V</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRigidScaleXf3.h" line="13" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRigidScaleXf3.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga6c4d0f89f0f64deb44bea0f257bbf755" kind="typedef"><name>V</name></member>
     </sectiondef>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1RigidScaleXf3_1ac7250fbdfd02baf9936e263ed527779e" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1RigidScaleXf3_1a6c4d0f89f0f64deb44bea0f257bbf755" kindref="member">V</ref></type>
-        <definition>V MR::RigidScaleXf3&lt; T &gt;::a</definition>
-        <argsstring></argsstring>
-        <name>a</name>
-        <qualifiedname>MR::RigidScaleXf3::a</qualifiedname>
-        <briefdescription>
-<para>rotation angles relative to x,y,z axes </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRigidScaleXf3.h" line="15" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRigidScaleXf3.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1RigidScaleXf3_1aab41cf4d5be1d1a224a24a5b484e3a1d" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1RigidScaleXf3_1a6c4d0f89f0f64deb44bea0f257bbf755" kindref="member">V</ref></type>
-        <definition>V MR::RigidScaleXf3&lt; T &gt;::b</definition>
-        <argsstring></argsstring>
-        <name>b</name>
-        <qualifiedname>MR::RigidScaleXf3::b</qualifiedname>
-        <briefdescription>
-<para>shift </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRigidScaleXf3.h" line="16" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRigidScaleXf3.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1RigidScaleXf3_1a89ce25c6f6b3805955c04f054a2fb0a7" prot="public" static="no" mutable="no">
-        <type>T</type>
-        <definition>T MR::RigidScaleXf3&lt; T &gt;::s</definition>
-        <argsstring></argsstring>
-        <name>s</name>
-        <qualifiedname>MR::RigidScaleXf3::s</qualifiedname>
-        <initializer>= 1</initializer>
-        <briefdescription>
-<para>scaling </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRigidScaleXf3.h" line="17" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRigidScaleXf3.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gac7250fbdfd02baf9936e263ed527779e" kind="variable"><name>a</name></member>
+      <member refid="group__GeneralGroup_1gaab41cf4d5be1d1a224a24a5b484e3a1d" kind="variable"><name>b</name></member>
+      <member refid="group__GeneralGroup_1ga89ce25c6f6b3805955c04f054a2fb0a7" kind="variable"><name>s</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1RigidScaleXf3_1a7a23e297ae39af803b4a249aed7ff8b5" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type>constexpr</type>
-        <definition>MR::RigidScaleXf3&lt; T &gt;::RigidScaleXf3</definition>
-        <argsstring>() noexcept=default</argsstring>
-        <name>RigidScaleXf3</name>
-        <qualifiedname>MR::RigidScaleXf3::RigidScaleXf3</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRigidScaleXf3.h" line="19" column="15"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1RigidScaleXf3_1a997f09f418f6e779a0a511288d316a06" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>constexpr</type>
-        <definition>MR::RigidScaleXf3&lt; T &gt;::RigidScaleXf3</definition>
-        <argsstring>(const V &amp;a, const V &amp;b, T s) noexcept</argsstring>
-        <name>RigidScaleXf3</name>
-        <qualifiedname>MR::RigidScaleXf3::RigidScaleXf3</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1RigidScaleXf3_1a6c4d0f89f0f64deb44bea0f257bbf755" kindref="member">V</ref> &amp;</type>
-          <declname>a</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1RigidScaleXf3_1a6c4d0f89f0f64deb44bea0f257bbf755" kindref="member">V</ref> &amp;</type>
-          <declname>b</declname>
-        </param>
-        <param>
-          <type>T</type>
-          <declname>s</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRigidScaleXf3.h" line="20" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRigidScaleXf3.h" bodystart="20" bodyend="20"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1RigidScaleXf3_1acd29039623f95b68b2c1cdce22cdba76" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename U</type>
-          </param>
-        </templateparamlist>
-        <type>constexpr</type>
-        <definition>MR::RigidScaleXf3&lt; T &gt;::RigidScaleXf3</definition>
-        <argsstring>(const RigidScaleXf3&lt; U &gt; &amp;xf) noexcept</argsstring>
-        <name>RigidScaleXf3</name>
-        <qualifiedname>MR::RigidScaleXf3::RigidScaleXf3</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1RigidScaleXf3" kindref="compound">RigidScaleXf3</ref>&lt; U &gt; &amp;</type>
-          <declname>xf</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRigidScaleXf3.h" line="22" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRigidScaleXf3.h" bodystart="22" bodyend="22"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1RigidScaleXf3_1a26bac944caacddeb8e441b79dfb617b0" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename U</type>
-          </param>
-        </templateparamlist>
-        <type>constexpr</type>
-        <definition>MR::RigidScaleXf3&lt; T &gt;::RigidScaleXf3</definition>
-        <argsstring>(const RigidXf3&lt; U &gt; &amp;xf) noexcept</argsstring>
-        <name>RigidScaleXf3</name>
-        <qualifiedname>MR::RigidScaleXf3::RigidScaleXf3</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1RigidXf3" kindref="compound">RigidXf3</ref>&lt; U &gt; &amp;</type>
-          <declname>xf</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRigidScaleXf3.h" line="24" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRigidScaleXf3.h" bodystart="24" bodyend="24"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1RigidScaleXf3_1adcb2be531582327cfde07191af6837c8" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="namespaceMR_1ac964d34e63e2bd23c8ab1e4cea68ae71" kindref="member">AffineXf3</ref>&lt; T &gt;</type>
-        <definition>AffineXf3&lt; T &gt; MR::RigidScaleXf3&lt; T &gt;::rigidScaleXf</definition>
-        <argsstring>() const</argsstring>
-        <name>rigidScaleXf</name>
-        <qualifiedname>MR::RigidScaleXf3::rigidScaleXf</qualifiedname>
-        <briefdescription>
-<para>converts this into rigid (with scale) transformation, which non-linearly depends on angles </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRigidScaleXf3.h" line="27" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRigidScaleXf3.h" bodystart="27" bodyend="27"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1RigidScaleXf3_1a1b5d1cabe9f108d27da6c12f5e5717b5" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="namespaceMR_1ac964d34e63e2bd23c8ab1e4cea68ae71" kindref="member">AffineXf3</ref>&lt; T &gt;</type>
-        <definition>AffineXf3&lt; T &gt; MR::RigidScaleXf3&lt; T &gt;::linearXf</definition>
-        <argsstring>() const</argsstring>
-        <name>linearXf</name>
-        <qualifiedname>MR::RigidScaleXf3::linearXf</qualifiedname>
-        <briefdescription>
-<para>converts this into not-rigid transformation but with matrix, which linearly depends on angles </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRigidScaleXf3.h" line="30" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRigidScaleXf3.h" bodystart="30" bodyend="30"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga7a23e297ae39af803b4a249aed7ff8b5" kind="function"><name>RigidScaleXf3</name></member>
+      <member refid="group__GeneralGroup_1ga997f09f418f6e779a0a511288d316a06" kind="function"><name>RigidScaleXf3</name></member>
+      <member refid="group__GeneralGroup_1gacd29039623f95b68b2c1cdce22cdba76" kind="function"><name>RigidScaleXf3</name></member>
+      <member refid="group__GeneralGroup_1ga26bac944caacddeb8e441b79dfb617b0" kind="function"><name>RigidScaleXf3</name></member>
+      <member refid="group__GeneralGroup_1gadcb2be531582327cfde07191af6837c8" kind="function"><name>rigidScaleXf</name></member>
+      <member refid="group__GeneralGroup_1ga1b5d1cabe9f108d27da6c12f5e5717b5" kind="function"><name>linearXf</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
 <para>rigid (with scale) transformation that multiplies all distances on same scale: y = s*A*x + b, where s is a scalar, A is rotation matrix 3x3 stored as 3 angles, and b is shift vector </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRigidScaleXf3.h" line="11" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRigidScaleXf3.h" bodystart="12" bodyend="31"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRigidScaleXf3.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRigidScaleXf3.h" bodystart="15" bodyend="34"/>
     <listofallmembers>
-      <member refid="structMR_1_1RigidScaleXf3_1ac7250fbdfd02baf9936e263ed527779e" prot="public" virt="non-virtual"><scope>MR::RigidScaleXf3</scope><name>a</name></member>
-      <member refid="structMR_1_1RigidScaleXf3_1aab41cf4d5be1d1a224a24a5b484e3a1d" prot="public" virt="non-virtual"><scope>MR::RigidScaleXf3</scope><name>b</name></member>
-      <member refid="structMR_1_1RigidScaleXf3_1a1b5d1cabe9f108d27da6c12f5e5717b5" prot="public" virt="non-virtual"><scope>MR::RigidScaleXf3</scope><name>linearXf</name></member>
-      <member refid="structMR_1_1RigidScaleXf3_1adcb2be531582327cfde07191af6837c8" prot="public" virt="non-virtual"><scope>MR::RigidScaleXf3</scope><name>rigidScaleXf</name></member>
-      <member refid="structMR_1_1RigidScaleXf3_1a7a23e297ae39af803b4a249aed7ff8b5" prot="public" virt="non-virtual"><scope>MR::RigidScaleXf3</scope><name>RigidScaleXf3</name></member>
-      <member refid="structMR_1_1RigidScaleXf3_1a997f09f418f6e779a0a511288d316a06" prot="public" virt="non-virtual"><scope>MR::RigidScaleXf3</scope><name>RigidScaleXf3</name></member>
-      <member refid="structMR_1_1RigidScaleXf3_1acd29039623f95b68b2c1cdce22cdba76" prot="public" virt="non-virtual"><scope>MR::RigidScaleXf3</scope><name>RigidScaleXf3</name></member>
-      <member refid="structMR_1_1RigidScaleXf3_1a26bac944caacddeb8e441b79dfb617b0" prot="public" virt="non-virtual"><scope>MR::RigidScaleXf3</scope><name>RigidScaleXf3</name></member>
-      <member refid="structMR_1_1RigidScaleXf3_1a89ce25c6f6b3805955c04f054a2fb0a7" prot="public" virt="non-virtual"><scope>MR::RigidScaleXf3</scope><name>s</name></member>
-      <member refid="structMR_1_1RigidScaleXf3_1a6c4d0f89f0f64deb44bea0f257bbf755" prot="public" virt="non-virtual"><scope>MR::RigidScaleXf3</scope><name>V</name></member>
+      <member refid="group__GeneralGroup_1gac7250fbdfd02baf9936e263ed527779e" prot="public" virt="non-virtual"><scope>MR::RigidScaleXf3</scope><name>a</name></member>
+      <member refid="group__GeneralGroup_1gaab41cf4d5be1d1a224a24a5b484e3a1d" prot="public" virt="non-virtual"><scope>MR::RigidScaleXf3</scope><name>b</name></member>
+      <member refid="group__GeneralGroup_1ga1b5d1cabe9f108d27da6c12f5e5717b5" prot="public" virt="non-virtual"><scope>MR::RigidScaleXf3</scope><name>linearXf</name></member>
+      <member refid="group__GeneralGroup_1gadcb2be531582327cfde07191af6837c8" prot="public" virt="non-virtual"><scope>MR::RigidScaleXf3</scope><name>rigidScaleXf</name></member>
+      <member refid="group__GeneralGroup_1ga7a23e297ae39af803b4a249aed7ff8b5" prot="public" virt="non-virtual"><scope>MR::RigidScaleXf3</scope><name>RigidScaleXf3</name></member>
+      <member refid="group__GeneralGroup_1ga997f09f418f6e779a0a511288d316a06" prot="public" virt="non-virtual"><scope>MR::RigidScaleXf3</scope><name>RigidScaleXf3</name></member>
+      <member refid="group__GeneralGroup_1gacd29039623f95b68b2c1cdce22cdba76" prot="public" virt="non-virtual"><scope>MR::RigidScaleXf3</scope><name>RigidScaleXf3</name></member>
+      <member refid="group__GeneralGroup_1ga26bac944caacddeb8e441b79dfb617b0" prot="public" virt="non-virtual"><scope>MR::RigidScaleXf3</scope><name>RigidScaleXf3</name></member>
+      <member refid="group__GeneralGroup_1ga89ce25c6f6b3805955c04f054a2fb0a7" prot="public" virt="non-virtual"><scope>MR::RigidScaleXf3</scope><name>s</name></member>
+      <member refid="group__GeneralGroup_1ga6c4d0f89f0f64deb44bea0f257bbf755" prot="public" virt="non-virtual"><scope>MR::RigidScaleXf3</scope><name>V</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

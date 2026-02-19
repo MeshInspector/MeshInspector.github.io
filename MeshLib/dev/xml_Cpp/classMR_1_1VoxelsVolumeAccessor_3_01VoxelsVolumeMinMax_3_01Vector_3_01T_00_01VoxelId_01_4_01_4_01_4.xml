@@ -10,50 +10,11 @@
       </param>
     </templateparamlist>
     <sectiondef kind="private-type">
-      <memberdef kind="typedef" id="classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolumeMinMax_3_01Vector_3_01T_00_01VoxelId_01_4_01_4_01_4_1a175a7af9acffdb30b829a1a1720e9456" prot="private" static="no">
-        <type><ref refid="classMR_1_1VoxelsVolumeAccessor" kindref="compound">VoxelsVolumeAccessor</ref>&lt; <ref refid="structMR_1_1VoxelsVolume" kindref="compound">VoxelsVolume</ref>&lt; <ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; T, VoxelId &gt; &gt; &gt;</type>
-        <definition>using MR::VoxelsVolumeAccessor&lt; VoxelsVolumeMinMax&lt; Vector&lt; T, VoxelId &gt; &gt; &gt;::Base =  VoxelsVolumeAccessor&lt;VoxelsVolume&lt;Vector&lt;T,VoxelId&gt;&gt;&gt;</definition>
-        <argsstring></argsstring>
-        <name>Base</name>
-        <qualifiedname>MR::VoxelsVolumeAccessor&lt; VoxelsVolumeMinMax&lt; Vector&lt; T, VoxelId &gt; &gt; &gt;::Base</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsVolumeAccess.h" line="89" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsVolumeAccess.h" bodystart="89" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga175a7af9acffdb30b829a1a1720e9456" kind="typedef"><name>Base</name></member>
     </sectiondef>
     <sectiondef kind="public-type">
-      <memberdef kind="typedef" id="classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolumeMinMax_3_01Vector_3_01T_00_01VoxelId_01_4_01_4_01_4_1a70725f7f72857d3b45faf0a3de686eb0" prot="public" static="no">
-        <type><ref refid="structMR_1_1VoxelsVolumeMinMax" kindref="compound">VoxelsVolumeMinMax</ref>&lt; <ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; T, VoxelId &gt; &gt;</type>
-        <definition>using MR::VoxelsVolumeAccessor&lt; VoxelsVolumeMinMax&lt; Vector&lt; T, VoxelId &gt; &gt; &gt;::VolumeType =  VoxelsVolumeMinMax&lt;Vector&lt;T,VoxelId&gt;&gt;</definition>
-        <argsstring></argsstring>
-        <name>VolumeType</name>
-        <qualifiedname>MR::VoxelsVolumeAccessor&lt; VoxelsVolumeMinMax&lt; Vector&lt; T, VoxelId &gt; &gt; &gt;::VolumeType</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsVolumeAccess.h" line="91" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsVolumeAccess.h" bodystart="91" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolumeMinMax_3_01Vector_3_01T_00_01VoxelId_01_4_01_4_01_4_1aa22d7ef42dfaaf6e48b28ab35f07eea9" prot="public" static="no">
-        <type>typename <ref refid="structMR_1_1VoxelsVolume_1af9f77daea56312d1b6f7ac20d2473713" kindref="member">VolumeType::ValueType</ref></type>
-        <definition>using MR::VoxelsVolumeAccessor&lt; VoxelsVolumeMinMax&lt; Vector&lt; T, VoxelId &gt; &gt; &gt;::ValueType =  typename VolumeType::ValueType</definition>
-        <argsstring></argsstring>
-        <name>ValueType</name>
-        <qualifiedname>MR::VoxelsVolumeAccessor&lt; VoxelsVolumeMinMax&lt; Vector&lt; T, VoxelId &gt; &gt; &gt;::ValueType</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsVolumeAccess.h" line="92" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsVolumeAccess.h" bodystart="92" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga70725f7f72857d3b45faf0a3de686eb0" kind="typedef"><name>VolumeType</name></member>
+      <member refid="group__GeneralGroup_1gaa22d7ef42dfaaf6e48b28ab35f07eea9" kind="typedef"><name>ValueType</name></member>
     </sectiondef>
     <sectiondef kind="public-static-attrib">
       <memberdef kind="variable" id="classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolumeMinMax_3_01Vector_3_01T_00_01VoxelId_01_4_01_4_01_4_1a747d0bd38e6171f9e0c664590abede4e" prot="public" static="yes" constexpr="yes" mutable="no">
@@ -69,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsVolumeAccess.h" line="93" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsVolumeAccess.h" bodystart="60" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsVolumeAccess.h" line="96" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsVolumeAccess.h" bodystart="63" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -101,16 +62,16 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsVolumeAccess.h" line="87" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsVolumeAccess.h" bodystart="88" bodyend="95"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsVolumeAccess.h" line="90" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsVolumeAccess.h" bodystart="91" bodyend="98"/>
     <listofallmembers>
-      <member refid="classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolumeMinMax_3_01Vector_3_01T_00_01VoxelId_01_4_01_4_01_4_1a175a7af9acffdb30b829a1a1720e9456" prot="private" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor&lt; VoxelsVolumeMinMax&lt; Vector&lt; T, VoxelId &gt; &gt; &gt;</scope><name>Base</name></member>
+      <member refid="group__GeneralGroup_1ga175a7af9acffdb30b829a1a1720e9456" prot="private" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor&lt; VoxelsVolumeMinMax&lt; Vector&lt; T, VoxelId &gt; &gt; &gt;</scope><name>Base</name></member>
       <member refid="classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolumeMinMax_3_01Vector_3_01T_00_01VoxelId_01_4_01_4_01_4_1a747d0bd38e6171f9e0c664590abede4e" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor&lt; VoxelsVolumeMinMax&lt; Vector&lt; T, VoxelId &gt; &gt; &gt;</scope><name>cacheEffective</name></member>
-      <member refid="classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolume_3_01Vector_3_01T_00_01VoxelId_01_4_01_4_01_4_1ae73fe3f829a36a4c416f494dd52d6a23" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor&lt; VoxelsVolumeMinMax&lt; Vector&lt; T, VoxelId &gt; &gt; &gt;</scope><name>get</name></member>
-      <member refid="classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolume_3_01Vector_3_01T_00_01VoxelId_01_4_01_4_01_4_1ad5969e08db6cde585c897d89b6187f8e" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor&lt; VoxelsVolumeMinMax&lt; Vector&lt; T, VoxelId &gt; &gt; &gt;</scope><name>get</name></member>
-      <member refid="classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolume_3_01Vector_3_01T_00_01VoxelId_01_4_01_4_01_4_1a16cbb3f5602c06dae1c74f1432459b97" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor&lt; VoxelsVolumeMinMax&lt; Vector&lt; T, VoxelId &gt; &gt; &gt;</scope><name>shift</name></member>
-      <member refid="classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolumeMinMax_3_01Vector_3_01T_00_01VoxelId_01_4_01_4_01_4_1aa22d7ef42dfaaf6e48b28ab35f07eea9" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor&lt; VoxelsVolumeMinMax&lt; Vector&lt; T, VoxelId &gt; &gt; &gt;</scope><name>ValueType</name></member>
-      <member refid="classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolumeMinMax_3_01Vector_3_01T_00_01VoxelId_01_4_01_4_01_4_1a70725f7f72857d3b45faf0a3de686eb0" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor&lt; VoxelsVolumeMinMax&lt; Vector&lt; T, VoxelId &gt; &gt; &gt;</scope><name>VolumeType</name></member>
-      <member refid="classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolume_3_01Vector_3_01T_00_01VoxelId_01_4_01_4_01_4_1a2b5abd9becbd2d068651ba0afc5a49fe" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor&lt; VoxelsVolumeMinMax&lt; Vector&lt; T, VoxelId &gt; &gt; &gt;</scope><name>VoxelsVolumeAccessor</name></member>
+      <member refid="group__GeneralGroup_1gae73fe3f829a36a4c416f494dd52d6a23" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor&lt; VoxelsVolumeMinMax&lt; Vector&lt; T, VoxelId &gt; &gt; &gt;</scope><name>get</name></member>
+      <member refid="group__GeneralGroup_1gad5969e08db6cde585c897d89b6187f8e" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor&lt; VoxelsVolumeMinMax&lt; Vector&lt; T, VoxelId &gt; &gt; &gt;</scope><name>get</name></member>
+      <member refid="group__GeneralGroup_1ga16cbb3f5602c06dae1c74f1432459b97" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor&lt; VoxelsVolumeMinMax&lt; Vector&lt; T, VoxelId &gt; &gt; &gt;</scope><name>shift</name></member>
+      <member refid="group__GeneralGroup_1gaa22d7ef42dfaaf6e48b28ab35f07eea9" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor&lt; VoxelsVolumeMinMax&lt; Vector&lt; T, VoxelId &gt; &gt; &gt;</scope><name>ValueType</name></member>
+      <member refid="group__GeneralGroup_1ga70725f7f72857d3b45faf0a3de686eb0" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor&lt; VoxelsVolumeMinMax&lt; Vector&lt; T, VoxelId &gt; &gt; &gt;</scope><name>VolumeType</name></member>
+      <member refid="group__GeneralGroup_1ga2b5abd9becbd2d068651ba0afc5a49fe" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor&lt; VoxelsVolumeMinMax&lt; Vector&lt; T, VoxelId &gt; &gt; &gt;</scope><name>VoxelsVolumeAccessor</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -3,92 +3,25 @@
   <compounddef id="structMR_1_1RibbonMenu_1_1CustomContextMenuCheckbox" kind="struct" language="C++" prot="private">
     <compoundname>MR::RibbonMenu::CustomContextMenuCheckbox</compoundname>
     <sectiondef kind="public-type">
-      <memberdef kind="typedef" id="structMR_1_1RibbonMenu_1_1CustomContextMenuCheckbox_1a53a2c754f44ded0522f1050af556662c" prot="public" static="no">
-        <type>std::function&lt; void(std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; object, <ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref> id, bool checked)&gt;</type>
-        <definition>using MR::RibbonMenu::CustomContextMenuCheckbox::Setter =  std::function&lt;void( std::shared_ptr&lt;Object&gt; object, ViewportId id, bool checked )&gt;</definition>
-        <argsstring></argsstring>
-        <name>Setter</name>
-        <qualifiedname>MR::RibbonMenu::CustomContextMenuCheckbox::Setter</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="27" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="27" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="structMR_1_1RibbonMenu_1_1CustomContextMenuCheckbox_1a6e59a865a18df121ac0b8e5a44105e56" prot="public" static="no">
-        <type>std::function&lt; bool(std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; object, <ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref> id)&gt;</type>
-        <definition>using MR::RibbonMenu::CustomContextMenuCheckbox::Getter =  std::function&lt;bool( std::shared_ptr&lt;Object&gt; object, ViewportId id )&gt;</definition>
-        <argsstring></argsstring>
-        <name>Getter</name>
-        <qualifiedname>MR::RibbonMenu::CustomContextMenuCheckbox::Getter</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="28" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="28" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga53a2c754f44ded0522f1050af556662c" kind="typedef"><name>Setter</name></member>
+      <member refid="group__GeneralGroup_1ga6e59a865a18df121ac0b8e5a44105e56" kind="typedef"><name>Getter</name></member>
     </sectiondef>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1RibbonMenu_1_1CustomContextMenuCheckbox_1acbee94526041dbd1ed69fd63355e95f7" prot="public" static="no" mutable="no">
-        <type>Setter</type>
-        <definition>Setter MR::RibbonMenu::CustomContextMenuCheckbox::setter</definition>
-        <argsstring></argsstring>
-        <name>setter</name>
-        <qualifiedname>MR::RibbonMenu::CustomContextMenuCheckbox::setter</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="29" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="29" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1RibbonMenu_1_1CustomContextMenuCheckbox_1a987c2c2fa357c3d0f1ac7320e72b2bab" prot="public" static="no" mutable="no">
-        <type>Getter</type>
-        <definition>Getter MR::RibbonMenu::CustomContextMenuCheckbox::getter</definition>
-        <argsstring></argsstring>
-        <name>getter</name>
-        <qualifiedname>MR::RibbonMenu::CustomContextMenuCheckbox::getter</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="30" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="30" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1RibbonMenu_1_1CustomContextMenuCheckbox_1a02769e9c0a69fab66f3aaba99d212f57" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1a08fcff6c599b446c2e39ef49b4f62fc0" kindref="member">SelectedTypesMask</ref></type>
-        <definition>SelectedTypesMask MR::RibbonMenu::CustomContextMenuCheckbox::selectedMask</definition>
-        <argsstring></argsstring>
-        <name>selectedMask</name>
-        <qualifiedname>MR::RibbonMenu::CustomContextMenuCheckbox::selectedMask</qualifiedname>
-        <initializer>= <ref refid="namespaceMR_1a08fcff6c599b446c2e39ef49b4f62fc0" kindref="member">SelectedTypesMask</ref>( -1 )</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>display a checkBox when only these types of objects are selected by default, it is always hidden </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="33" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="33" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gacbee94526041dbd1ed69fd63355e95f7" kind="variable"><name>setter</name></member>
+      <member refid="group__GeneralGroup_1ga987c2c2fa357c3d0f1ac7320e72b2bab" kind="variable"><name>getter</name></member>
+      <member refid="group__GeneralGroup_1ga02769e9c0a69fab66f3aaba99d212f57" kind="variable"><name>selectedMask</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="25" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="26" bodyend="34"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="28" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="29" bodyend="37"/>
     <listofallmembers>
-      <member refid="structMR_1_1RibbonMenu_1_1CustomContextMenuCheckbox_1a6e59a865a18df121ac0b8e5a44105e56" prot="public" virt="non-virtual"><scope>MR::RibbonMenu::CustomContextMenuCheckbox</scope><name>Getter</name></member>
-      <member refid="structMR_1_1RibbonMenu_1_1CustomContextMenuCheckbox_1a987c2c2fa357c3d0f1ac7320e72b2bab" prot="public" virt="non-virtual"><scope>MR::RibbonMenu::CustomContextMenuCheckbox</scope><name>getter</name></member>
-      <member refid="structMR_1_1RibbonMenu_1_1CustomContextMenuCheckbox_1a02769e9c0a69fab66f3aaba99d212f57" prot="public" virt="non-virtual"><scope>MR::RibbonMenu::CustomContextMenuCheckbox</scope><name>selectedMask</name></member>
-      <member refid="structMR_1_1RibbonMenu_1_1CustomContextMenuCheckbox_1a53a2c754f44ded0522f1050af556662c" prot="public" virt="non-virtual"><scope>MR::RibbonMenu::CustomContextMenuCheckbox</scope><name>Setter</name></member>
-      <member refid="structMR_1_1RibbonMenu_1_1CustomContextMenuCheckbox_1acbee94526041dbd1ed69fd63355e95f7" prot="public" virt="non-virtual"><scope>MR::RibbonMenu::CustomContextMenuCheckbox</scope><name>setter</name></member>
+      <member refid="group__GeneralGroup_1ga6e59a865a18df121ac0b8e5a44105e56" prot="public" virt="non-virtual"><scope>MR::RibbonMenu::CustomContextMenuCheckbox</scope><name>Getter</name></member>
+      <member refid="group__GeneralGroup_1ga987c2c2fa357c3d0f1ac7320e72b2bab" prot="public" virt="non-virtual"><scope>MR::RibbonMenu::CustomContextMenuCheckbox</scope><name>getter</name></member>
+      <member refid="group__GeneralGroup_1ga02769e9c0a69fab66f3aaba99d212f57" prot="public" virt="non-virtual"><scope>MR::RibbonMenu::CustomContextMenuCheckbox</scope><name>selectedMask</name></member>
+      <member refid="group__GeneralGroup_1ga53a2c754f44ded0522f1050af556662c" prot="public" virt="non-virtual"><scope>MR::RibbonMenu::CustomContextMenuCheckbox</scope><name>Setter</name></member>
+      <member refid="group__GeneralGroup_1gacbee94526041dbd1ed69fd63355e95f7" prot="public" virt="non-virtual"><scope>MR::RibbonMenu::CustomContextMenuCheckbox</scope><name>setter</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

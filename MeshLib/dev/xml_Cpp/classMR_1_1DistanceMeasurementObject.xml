@@ -6,809 +6,58 @@
     <basecompoundref refid="classMR_1_1ObjectComparableWithReference" prot="public" virt="non-virtual">MR::ObjectComparableWithReference</basecompoundref>
     <includes refid="MRDistanceMeasurementObject_8h" local="no">MRDistanceMeasurementObject.h</includes>
     <sectiondef kind="public-type">
-      <memberdef kind="enum" id="classMR_1_1DistanceMeasurementObject_1ace9513029904e4f1154117bec80e9e51" prot="public" static="no" strong="yes">
-        <type></type>
-        <name>DistanceMode</name>
-        <qualifiedname>MR::DistanceMeasurementObject::DistanceMode</qualifiedname>
-        <enumvalue id="classMR_1_1DistanceMeasurementObject_1ace9513029904e4f1154117bec80e9e51a1edfa114070a90bb762993ab47712d68" prot="public">
-          <name>euclidean</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1DistanceMeasurementObject_1ace9513029904e4f1154117bec80e9e51a2fca5f3c7eaf40f769b717bc3ff48eb5" prot="public">
-          <name>euclideanWithSignedDeltasPerAxis</name>
-          <briefdescription>
-<para>Euclidean distance. </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1DistanceMeasurementObject_1ace9513029904e4f1154117bec80e9e51abee50dbfa259675f0c04313b79fb06de" prot="public">
-          <name>euclideanWithAbsoluteDeltasPerAxis</name>
-          <briefdescription>
-<para>Euclidean distance, but also display per-axis deltas with signs. </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1DistanceMeasurementObject_1ace9513029904e4f1154117bec80e9e51a06d4d11a3f6034e070d91164e288d538" prot="public">
-          <name>xAbsolute</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-<para>Euclidean distance, but also display per-axis deltas without signs. Absolute distance in one axis. This can still be made negative by <computeroutput>setIsNegative(true)</computeroutput>. The point is that the real sign is ignored. </para>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1DistanceMeasurementObject_1ace9513029904e4f1154117bec80e9e51a5f7f99efb9dd9a7fedf789271f4f784f" prot="public">
-          <name>yAbsolute</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1DistanceMeasurementObject_1ace9513029904e4f1154117bec80e9e51ae26a690f434c35647c3b0d8448dc3e4b" prot="public">
-          <name>zAbsolute</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" line="52" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" bodystart="53" bodyend="62"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gace9513029904e4f1154117bec80e9e51" kind="enum"><name>DistanceMode</name></member>
     </sectiondef>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1DistanceMeasurementObject_1ab1f2988a6bbcd9b1c198f31bd77ab8fb" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::DistanceMeasurementObject::isNegative_</definition>
-        <argsstring></argsstring>
-        <name>isNegative_</name>
-        <qualifiedname>MR::DistanceMeasurementObject::isNegative_</qualifiedname>
-        <initializer>= false</initializer>
-        <briefdescription>
-<para>Don&apos;t forget to add all the new fields to serialization. </para>
-        </briefdescription>
-        <detaileddescription>
-<para>Whether the distance should be displayed as a negative one. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" line="99" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" bodystart="99" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1DistanceMeasurementObject_1abcd01f00ff5d20ff3a4fac2fdc65ed65" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1DistanceMeasurementObject_1ace9513029904e4f1154117bec80e9e51" kindref="member">DistanceMode</ref></type>
-        <definition>DistanceMode MR::DistanceMeasurementObject::perCoordDeltas_</definition>
-        <argsstring></argsstring>
-        <name>perCoordDeltas_</name>
-        <qualifiedname>MR::DistanceMeasurementObject::perCoordDeltas_</qualifiedname>
-        <initializer>= <ref refid="classMR_1_1DistanceMeasurementObject_1ace9513029904e4f1154117bec80e9e51a1edfa114070a90bb762993ab47712d68" kindref="member">DistanceMode::euclidean</ref></initializer>
-        <briefdescription>
-<para>Whether we should draw the individual X/Y/Z deltas in addition to the distance itself. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" line="102" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" bodystart="102" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1DistanceMeasurementObject_1aadecd825f35fb44ff52fe037c3484c0a" prot="private" static="no" mutable="yes">
-        <type>std::optional&lt; float &gt;</type>
-        <definition>std::optional&lt;float&gt; MR::DistanceMeasurementObject::cachedValue_</definition>
-        <argsstring></argsstring>
-        <name>cachedValue_</name>
-        <qualifiedname>MR::DistanceMeasurementObject::cachedValue_</qualifiedname>
-        <briefdescription>
-<para>The cached value for <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1a4b85850429f2fd60b65f311298b99c47" kindref="member">computeDistance()</ref></computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" line="105" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" bodystart="105" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1DistanceMeasurementObject_1a7d69625d6cc969d7dfbb4df61a0b519c" prot="private" static="no" mutable="no">
-        <type>std::optional&lt; <ref refid="structMR_1_1ObjectComparableWithReference_1_1ComparisonTolerance" kindref="compound">ComparisonTolerance</ref> &gt;</type>
-        <definition>std::optional&lt;ComparisonTolerance&gt; MR::DistanceMeasurementObject::tolerance_</definition>
-        <argsstring></argsstring>
-        <name>tolerance_</name>
-        <qualifiedname>MR::DistanceMeasurementObject::tolerance_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" line="107" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" bodystart="107" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1DistanceMeasurementObject_1af5042c2c25af08a08b8b4bd5e4b2a2fd" prot="private" static="no" mutable="no">
-        <type>std::optional&lt; float &gt;</type>
-        <definition>std::optional&lt;float&gt; MR::DistanceMeasurementObject::referenceValue_</definition>
-        <argsstring></argsstring>
-        <name>referenceValue_</name>
-        <qualifiedname>MR::DistanceMeasurementObject::referenceValue_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" line="109" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" bodystart="109" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gab1f2988a6bbcd9b1c198f31bd77ab8fb" kind="variable"><name>isNegative_</name></member>
+      <member refid="group__GeneralGroup_1gabcd01f00ff5d20ff3a4fac2fdc65ed65" kind="variable"><name>perCoordDeltas_</name></member>
+      <member refid="group__GeneralGroup_1gaadecd825f35fb44ff52fe037c3484c0a" kind="variable"><name>cachedValue_</name></member>
+      <member refid="group__GeneralGroup_1ga7d69625d6cc969d7dfbb4df61a0b519c" kind="variable"><name>tolerance_</name></member>
+      <member refid="group__GeneralGroup_1gaf5042c2c25af08a08b8b4bd5e4b2a2fd" kind="variable"><name>referenceValue_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a5fa3455ad516872987f4c9195c8cb8be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::DistanceMeasurementObject::DistanceMeasurementObject</definition>
-        <argsstring>()</argsstring>
-        <name>DistanceMeasurementObject</name>
-        <qualifiedname>MR::DistanceMeasurementObject::DistanceMeasurementObject</qualifiedname>
-        <briefdescription>
-<para>The xf encodes the distance: the origin is one point, and (1,0,0) is another. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" line="14" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" bodystart="14" bodyend="14"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a90bd3418e0c8c76fbbe3aa70314be2a8" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::DistanceMeasurementObject::DistanceMeasurementObject</definition>
-        <argsstring>(DistanceMeasurementObject &amp;&amp;) noexcept=default</argsstring>
-        <name>DistanceMeasurementObject</name>
-        <qualifiedname>MR::DistanceMeasurementObject::DistanceMeasurementObject</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1DistanceMeasurementObject" kindref="compound">DistanceMeasurementObject</ref> &amp;&amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" line="16" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a30e0967b694b072f61a810e93ccd63c6" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type><ref refid="classMR_1_1DistanceMeasurementObject" kindref="compound">DistanceMeasurementObject</ref> &amp;</type>
-        <definition>DistanceMeasurementObject &amp; MR::DistanceMeasurementObject::operator=</definition>
-        <argsstring>(DistanceMeasurementObject &amp;&amp;) noexcept=default</argsstring>
-        <name>operator=</name>
-        <qualifiedname>MR::DistanceMeasurementObject::operator=</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1DistanceMeasurementObject" kindref="compound">DistanceMeasurementObject</ref> &amp;&amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" line="17" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a7d8dc7b94d1a8f6533b6de5659495a9b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>const char *</type>
-        <definition>const char * MR::DistanceMeasurementObject::typeName</definition>
-        <argsstring>() const override</argsstring>
-        <name>typeName</name>
-        <qualifiedname>MR::DistanceMeasurementObject::typeName</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1a6f629cc6822b206ab9232648fa19dcb6">typeName</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" line="20" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" bodystart="20" bodyend="20"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1ad60ffe08ad7aac2a0118f9d755246849" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>std::string</type>
-        <definition>virtual std::string MR::DistanceMeasurementObject::className</definition>
-        <argsstring>() const override</argsstring>
-        <name>className</name>
-        <qualifiedname>MR::DistanceMeasurementObject::className</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1a4a9efcd8828d774516f5cd4960359d08">className</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" line="23" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" bodystart="23" bodyend="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a3fbff93178a6d5f281d512fbd3ba5d10" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>std::string</type>
-        <definition>virtual std::string MR::DistanceMeasurementObject::classNameInPlural</definition>
-        <argsstring>() const override</argsstring>
-        <name>classNameInPlural</name>
-        <qualifiedname>MR::DistanceMeasurementObject::classNameInPlural</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1a470477a43cc2e761f791623ee732e4b7">classNameInPlural</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" line="26" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" bodystart="26" bodyend="26"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a9a8a81a10d8c7ed1ebe420b47124abc6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::DistanceMeasurementObject::DistanceMeasurementObject</definition>
-        <argsstring>(ProtectedStruct, const DistanceMeasurementObject &amp;obj)</argsstring>
-        <name>DistanceMeasurementObject</name>
-        <qualifiedname>MR::DistanceMeasurementObject::DistanceMeasurementObject</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1Object_1_1ProtectedStruct" kindref="compound">ProtectedStruct</ref></type>
-        </param>
-        <param>
-          <type>const <ref refid="classMR_1_1DistanceMeasurementObject" kindref="compound">DistanceMeasurementObject</ref> &amp;</type>
-          <declname>obj</declname>
-        </param>
-        <briefdescription>
-<para>For <computeroutput>std::make_shared()</computeroutput> in <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1abc8e75e2c032185a15f15d542b20a9e0" kindref="member">clone()</ref></computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" line="29" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" bodystart="29" bodyend="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1abc8e75e2c032185a15f15d542b20a9e0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
-        <definition>MRMESH_API std::shared_ptr&lt; Object &gt; MR::DistanceMeasurementObject::clone</definition>
-        <argsstring>() const override</argsstring>
-        <name>clone</name>
-        <qualifiedname>MR::DistanceMeasurementObject::clone</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1a2abf3d3c767a16a584ad513af643feca">clone</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>clones this object only, without its children, making new object the owner of all copied resources </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" line="31" column="32"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a99ecc95eccd9b0fab3c76911ea1006a0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
-        <definition>MRMESH_API std::shared_ptr&lt; Object &gt; MR::DistanceMeasurementObject::shallowClone</definition>
-        <argsstring>() const override</argsstring>
-        <name>shallowClone</name>
-        <qualifiedname>MR::DistanceMeasurementObject::shallowClone</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1adf2d7e16d33d059dbf2bbd0f1c34c8bf">shallowClone</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>clones this object only, without its children, making new object to share resources with this object </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" line="32" column="32"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a8fe11848d5ab1bc0767216b9177db335" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Vector3f</type>
-        <definition>MRMESH_API Vector3f MR::DistanceMeasurementObject::getWorldPoint</definition>
-        <argsstring>() const</argsstring>
-        <name>getWorldPoint</name>
-        <qualifiedname>MR::DistanceMeasurementObject::getWorldPoint</qualifiedname>
-        <briefdescription>
-<para>Get the starting point in world coordinates. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" line="35" column="26"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a04d3bc9ed670217a53353f8603c6df76" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Vector3f</type>
-        <definition>MRMESH_API Vector3f MR::DistanceMeasurementObject::getLocalPoint</definition>
-        <argsstring>() const</argsstring>
-        <name>getLocalPoint</name>
-        <qualifiedname>MR::DistanceMeasurementObject::getLocalPoint</qualifiedname>
-        <briefdescription>
-<para>Get the starting point in local coordinates. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" line="37" column="26"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1ab3242beb625340eefab997a3cd09f875" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Vector3f</type>
-        <definition>MRMESH_API Vector3f MR::DistanceMeasurementObject::getWorldDelta</definition>
-        <argsstring>() const</argsstring>
-        <name>getWorldDelta</name>
-        <qualifiedname>MR::DistanceMeasurementObject::getWorldDelta</qualifiedname>
-        <briefdescription>
-<para>The delta from the starting point to the other point. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" line="40" column="26"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a63e77b6ec68d18707193f0f0d9c61c33" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Vector3f</type>
-        <definition>MRMESH_API Vector3f MR::DistanceMeasurementObject::getLocalDelta</definition>
-        <argsstring>() const</argsstring>
-        <name>getLocalDelta</name>
-        <qualifiedname>MR::DistanceMeasurementObject::getLocalDelta</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" line="41" column="26"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a357d31af89f1f6cf9d893c1e17858d6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>virtual MRMESH_API void MR::DistanceMeasurementObject::setLocalPoint</definition>
-        <argsstring>(const MR::Vector3f &amp;point)</argsstring>
-        <name>setLocalPoint</name>
-        <qualifiedname>MR::DistanceMeasurementObject::setLocalPoint</qualifiedname>
-        <param>
-          <type>const MR::Vector3f &amp;</type>
-          <declname>point</declname>
-        </param>
-        <briefdescription>
-<para>Set the start point in the local coordinates. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" line="44" column="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a030299d1892025402c3db3ce4d4c3adb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>virtual MRMESH_API void MR::DistanceMeasurementObject::setLocalDelta</definition>
-        <argsstring>(const MR::Vector3f &amp;delta)</argsstring>
-        <name>setLocalDelta</name>
-        <qualifiedname>MR::DistanceMeasurementObject::setLocalDelta</qualifiedname>
-        <param>
-          <type>const MR::Vector3f &amp;</type>
-          <declname>delta</declname>
-        </param>
-        <briefdescription>
-<para>Set the delta vector in the local coordinates. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" line="46" column="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1ab3c0a4cf3f4ef8c4b366c81cdfdd7153" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
-        <definition>MRMESH_API bool MR::DistanceMeasurementObject::isNegative</definition>
-        <argsstring>() const</argsstring>
-        <name>isNegative</name>
-        <qualifiedname>MR::DistanceMeasurementObject::isNegative</qualifiedname>
-        <briefdescription>
-<para>Whether the distance should be displayed as a negative one. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" line="49" column="22"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1aa3f957e720e71a4f41b9ba7858f5cfca" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>virtual MRMESH_API void MR::DistanceMeasurementObject::setIsNegative</definition>
-        <argsstring>(bool value)</argsstring>
-        <name>setIsNegative</name>
-        <qualifiedname>MR::DistanceMeasurementObject::setIsNegative</qualifiedname>
-        <param>
-          <type>bool</type>
-          <declname>value</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" line="50" column="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1adb7a744f9f2c6888910b27b03cd845c7" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="classMR_1_1DistanceMeasurementObject_1ace9513029904e4f1154117bec80e9e51" kindref="member">DistanceMode</ref></type>
-        <definition>MRMESH_API DistanceMode MR::DistanceMeasurementObject::getDistanceMode</definition>
-        <argsstring>() const</argsstring>
-        <name>getDistanceMode</name>
-        <qualifiedname>MR::DistanceMeasurementObject::getDistanceMode</qualifiedname>
-        <briefdescription>
-<para>Whether we should draw the individual X/Y/Z deltas in addition to the distance itself. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" line="64" column="30"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a6e1ae4ff3b00bf4dd29ea978f1eeb2b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>virtual MRMESH_API void MR::DistanceMeasurementObject::setDistanceMode</definition>
-        <argsstring>(DistanceMode mode)</argsstring>
-        <name>setDistanceMode</name>
-        <qualifiedname>MR::DistanceMeasurementObject::setDistanceMode</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1DistanceMeasurementObject_1ace9513029904e4f1154117bec80e9e51" kindref="member">DistanceMode</ref></type>
-          <declname>mode</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" line="65" column="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a4b85850429f2fd60b65f311298b99c47" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> float</type>
-        <definition>MRMESH_API float MR::DistanceMeasurementObject::computeDistance</definition>
-        <argsstring>() const</argsstring>
-        <name>computeDistance</name>
-        <qualifiedname>MR::DistanceMeasurementObject::computeDistance</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Computes the distance value. This is affected by <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1adb7a744f9f2c6888910b27b03cd845c7" kindref="member">getDistanceMode()</ref></computeroutput>. In <computeroutput>euclidean</computeroutput>, this is <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1ab3242beb625340eefab997a3cd09f875" kindref="member">getWorldDelta()</ref>.<ref refid="MRObjectDimensionsEnum_8h_1af9d495c1655d813d553030485d00fea7" kindref="member">length()</ref> * (<ref refid="classMR_1_1DistanceMeasurementObject_1ab3c0a4cf3f4ef8c4b366c81cdfdd7153" kindref="member">isNegative()</ref> ? -1 : 1)</computeroutput>. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" line="69" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1afee53f116445c2f14e15413ad6913d6b" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::vector&lt; std::string &gt;</type>
-        <definition>MRMESH_API std::vector&lt; std::string &gt; MR::DistanceMeasurementObject::getInfoLines</definition>
-        <argsstring>() const override</argsstring>
-        <name>getInfoLines</name>
-        <qualifiedname>MR::DistanceMeasurementObject::getInfoLines</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1a76988bf72aa3be996e864fec3ab47ed2">getInfoLines</reimplements>
-        <briefdescription>
-<para>return several info lines that can better describe the object in the <ref refid="namespaceMR_1_1UI" kindref="compound">UI</ref> </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" line="71" column="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a82179b938507528eccb049af8594b708" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::size_t</type>
-        <definition>MRMESH_API std::size_t MR::DistanceMeasurementObject::numComparableProperties</definition>
-        <argsstring>() const override</argsstring>
-        <name>numComparableProperties</name>
-        <qualifiedname>MR::DistanceMeasurementObject::numComparableProperties</qualifiedname>
-        <reimplements refid="classMR_1_1ObjectComparableWithReference_1a7308ba05352b5ce9d88d9dd0510db0a8">numComparableProperties</reimplements>
-        <briefdescription>
-<para>Implement <computeroutput><ref refid="classMR_1_1ObjectComparableWithReference" kindref="compound">ObjectComparableWithReference</ref></computeroutput>: </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" line="74" column="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1ab1248a3d54cc0e12003f82a19214ff93" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::string_view</type>
-        <definition>MRMESH_API std::string_view MR::DistanceMeasurementObject::getComparablePropertyName</definition>
-        <argsstring>(std::size_t i) const override</argsstring>
-        <name>getComparablePropertyName</name>
-        <qualifiedname>MR::DistanceMeasurementObject::getComparablePropertyName</qualifiedname>
-        <reimplements refid="classMR_1_1ObjectComparableWithReference_1adf521b4333a73a595da64ed48a3a7076">getComparablePropertyName</reimplements>
-        <param>
-          <type>std::size_t</type>
-          <declname>i</declname>
-        </param>
-        <briefdescription>
-<para><computeroutput>i</computeroutput> goes up to <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1a82179b938507528eccb049af8594b708" kindref="member">numComparableProperties()</ref></computeroutput>, exclusive. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" line="75" column="34"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1abc63171541c58c5add4c351e2b3b6408" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::optional&lt; <ref refid="structMR_1_1ObjectComparableWithReference_1_1ComparableProperty" kindref="compound">ComparableProperty</ref> &gt;</type>
-        <definition>MRMESH_API std::optional&lt; ComparableProperty &gt; MR::DistanceMeasurementObject::computeComparableProperty</definition>
-        <argsstring>(std::size_t i) const override</argsstring>
-        <name>computeComparableProperty</name>
-        <qualifiedname>MR::DistanceMeasurementObject::computeComparableProperty</qualifiedname>
-        <reimplements refid="classMR_1_1ObjectComparableWithReference_1a329df4e0165f775043393c15f51db899">computeComparableProperty</reimplements>
-        <param>
-          <type>std::size_t</type>
-          <declname>i</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Compute a value of a property. Compare <computeroutput>value</computeroutput> and <computeroutput>referenceValue</computeroutput> using the tolerance. This can return null if the value is impossible to compute, e.g. for some types if the reference isn&apos;t set (e.g. if we&apos;re computing the distance to a reference point). <computeroutput>i</computeroutput> goes up to <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1a82179b938507528eccb049af8594b708" kindref="member">numComparableProperties()</ref></computeroutput>, exclusive. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" line="76" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a717142f37bd7e78b5da9949a99cccc40" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::optional&lt; <ref refid="structMR_1_1ObjectComparableWithReference_1_1ComparisonTolerance" kindref="compound">ComparisonTolerance</ref> &gt;</type>
-        <definition>MRMESH_API std::optional&lt; ComparisonTolerance &gt; MR::DistanceMeasurementObject::getComparisonTolerence</definition>
-        <argsstring>(std::size_t i) const override</argsstring>
-        <name>getComparisonTolerence</name>
-        <qualifiedname>MR::DistanceMeasurementObject::getComparisonTolerence</qualifiedname>
-        <reimplements refid="classMR_1_1ObjectComparableWithReference_1ae22bf9ebca049eed0868db359a75e855">getComparisonTolerence</reimplements>
-        <param>
-          <type>std::size_t</type>
-          <declname>i</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Returns the tolerance for a specific comparable property. Returns null if not set. <computeroutput>i</computeroutput> goes up to <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1a82179b938507528eccb049af8594b708" kindref="member">numComparableProperties()</ref></computeroutput>, exclusive. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" line="77" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a326ff10ac65ad253dc898ffbfba8df33" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::DistanceMeasurementObject::setComparisonTolerance</definition>
-        <argsstring>(std::size_t i, std::optional&lt; ComparisonTolerance &gt; newTolerance) override</argsstring>
-        <name>setComparisonTolerance</name>
-        <qualifiedname>MR::DistanceMeasurementObject::setComparisonTolerance</qualifiedname>
-        <reimplements refid="classMR_1_1ObjectComparableWithReference_1a7df2402af378c17572454d7492ba7eec">setComparisonTolerance</reimplements>
-        <param>
-          <type>std::size_t</type>
-          <declname>i</declname>
-        </param>
-        <param>
-          <type>std::optional&lt; <ref refid="structMR_1_1ObjectComparableWithReference_1_1ComparisonTolerance" kindref="compound">ComparisonTolerance</ref> &gt;</type>
-          <declname>newTolerance</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Sets the tolerance for a specific comparable property. <computeroutput>i</computeroutput> goes up to <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1a82179b938507528eccb049af8594b708" kindref="member">numComparableProperties()</ref></computeroutput>, exclusive. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" line="78" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a47b1a0904e24cb42a3d81ae21519999d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::string_view</type>
-        <definition>MRMESH_API std::string_view MR::DistanceMeasurementObject::getComparisonReferenceValueName</definition>
-        <argsstring>(std::size_t i) const override</argsstring>
-        <name>getComparisonReferenceValueName</name>
-        <qualifiedname>MR::DistanceMeasurementObject::getComparisonReferenceValueName</qualifiedname>
-        <reimplements refid="classMR_1_1ObjectComparableWithReference_1ac3f2255c124f60526c36eb2cc32be9f9">getComparisonReferenceValueName</reimplements>
-        <param>
-          <type>std::size_t</type>
-          <declname>i</declname>
-        </param>
-        <briefdescription>
-<para><computeroutput>i</computeroutput> goes up to <computeroutput><ref refid="classMR_1_1ObjectComparableWithReference_1a7e386df110c9d0fa3c799cf002cbc845" kindref="member">numComparisonReferenceValues()</ref></computeroutput>, exclusive. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" line="79" column="33"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a9da66cd334330f620109abc9ab2a2f61" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue" kindref="compound">ComparisonReferenceValue</ref></type>
-        <definition>MRMESH_API ComparisonReferenceValue MR::DistanceMeasurementObject::getComparisonReferenceValue</definition>
-        <argsstring>(std::size_t i) const override</argsstring>
-        <name>getComparisonReferenceValue</name>
-        <qualifiedname>MR::DistanceMeasurementObject::getComparisonReferenceValue</qualifiedname>
-        <reimplements refid="classMR_1_1ObjectComparableWithReference_1a0fe95bc93503759817b9966ccebc4b0e">getComparisonReferenceValue</reimplements>
-        <param>
-          <type>std::size_t</type>
-          <declname>i</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Returns the internal reference value. If the value wasn&apos;t set yet (as indicated by <computeroutput>isSet == false</computeroutput>), you can still use the returned variant to get the expected type. <computeroutput>i</computeroutput> goes up to <computeroutput><ref refid="classMR_1_1ObjectComparableWithReference_1a7e386df110c9d0fa3c799cf002cbc845" kindref="member">numComparisonReferenceValues()</ref></computeroutput>, exclusive. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" line="80" column="42"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1afbcfa2a320101a85f090416fe434384c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::DistanceMeasurementObject::setComparisonReferenceValue</definition>
-        <argsstring>(std::size_t i, std::optional&lt; ComparisonReferenceValue::Var &gt; value) override</argsstring>
-        <name>setComparisonReferenceValue</name>
-        <qualifiedname>MR::DistanceMeasurementObject::setComparisonReferenceValue</qualifiedname>
-        <reimplements refid="classMR_1_1ObjectComparableWithReference_1acb98cc0c1aa80731b206a983e8e79b0a">setComparisonReferenceValue</reimplements>
-        <param>
-          <type>std::size_t</type>
-          <declname>i</declname>
-        </param>
-        <param>
-          <type>std::optional&lt; ComparisonReferenceValue::Var &gt;</type>
-          <declname>value</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Sets the internal reference value. Makes <computeroutput>hasComparisonReferenceValue()</computeroutput> return true. If you pass nullopt, removes this reference value. Only a certain variant type is legal to pass, depending on the derived class and the index. Use <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject_1a9da66cd334330f620109abc9ab2a2f61" kindref="member">getComparisonReferenceValue()</ref></computeroutput> to determine that type. <computeroutput>i</computeroutput> goes up to <computeroutput><ref refid="classMR_1_1ObjectComparableWithReference_1a7e386df110c9d0fa3c799cf002cbc845" kindref="member">numComparisonReferenceValues()</ref></computeroutput>, exclusive. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" line="81" column="21"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga5fa3455ad516872987f4c9195c8cb8be" kind="function"><name>DistanceMeasurementObject</name></member>
+      <member refid="group__GeneralGroup_1ga90bd3418e0c8c76fbbe3aa70314be2a8" kind="function"><name>DistanceMeasurementObject</name></member>
+      <member refid="group__GeneralGroup_1ga30e0967b694b072f61a810e93ccd63c6" kind="function"><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga7d8dc7b94d1a8f6533b6de5659495a9b" kind="function"><name>typeName</name></member>
+      <member refid="group__GeneralGroup_1gad60ffe08ad7aac2a0118f9d755246849" kind="function"><name>className</name></member>
+      <member refid="group__GeneralGroup_1ga3fbff93178a6d5f281d512fbd3ba5d10" kind="function"><name>classNameInPlural</name></member>
+      <member refid="group__GeneralGroup_1ga9a8a81a10d8c7ed1ebe420b47124abc6" kind="function"><name>DistanceMeasurementObject</name></member>
+      <member refid="group__GeneralGroup_1gabc8e75e2c032185a15f15d542b20a9e0" kind="function"><name>clone</name></member>
+      <member refid="group__GeneralGroup_1ga99ecc95eccd9b0fab3c76911ea1006a0" kind="function"><name>shallowClone</name></member>
+      <member refid="group__GeneralGroup_1ga8fe11848d5ab1bc0767216b9177db335" kind="function"><name>getWorldPoint</name></member>
+      <member refid="group__GeneralGroup_1ga04d3bc9ed670217a53353f8603c6df76" kind="function"><name>getLocalPoint</name></member>
+      <member refid="group__GeneralGroup_1gab3242beb625340eefab997a3cd09f875" kind="function"><name>getWorldDelta</name></member>
+      <member refid="group__GeneralGroup_1ga63e77b6ec68d18707193f0f0d9c61c33" kind="function"><name>getLocalDelta</name></member>
+      <member refid="group__GeneralGroup_1ga357d31af89f1f6cf9d893c1e17858d6c" kind="function"><name>setLocalPoint</name></member>
+      <member refid="group__GeneralGroup_1ga030299d1892025402c3db3ce4d4c3adb" kind="function"><name>setLocalDelta</name></member>
+      <member refid="group__GeneralGroup_1gab3c0a4cf3f4ef8c4b366c81cdfdd7153" kind="function"><name>isNegative</name></member>
+      <member refid="group__GeneralGroup_1gaa3f957e720e71a4f41b9ba7858f5cfca" kind="function"><name>setIsNegative</name></member>
+      <member refid="group__GeneralGroup_1gadb7a744f9f2c6888910b27b03cd845c7" kind="function"><name>getDistanceMode</name></member>
+      <member refid="group__GeneralGroup_1ga6e1ae4ff3b00bf4dd29ea978f1eeb2b6" kind="function"><name>setDistanceMode</name></member>
+      <member refid="group__GeneralGroup_1ga4b85850429f2fd60b65f311298b99c47" kind="function"><name>computeDistance</name></member>
+      <member refid="group__GeneralGroup_1gafee53f116445c2f14e15413ad6913d6b" kind="function"><name>getInfoLines</name></member>
+      <member refid="group__GeneralGroup_1ga82179b938507528eccb049af8594b708" kind="function"><name>numComparableProperties</name></member>
+      <member refid="group__GeneralGroup_1gab1248a3d54cc0e12003f82a19214ff93" kind="function"><name>getComparablePropertyName</name></member>
+      <member refid="group__GeneralGroup_1gabc63171541c58c5add4c351e2b3b6408" kind="function"><name>computeComparableProperty</name></member>
+      <member refid="group__GeneralGroup_1ga717142f37bd7e78b5da9949a99cccc40" kind="function"><name>getComparisonTolerence</name></member>
+      <member refid="group__GeneralGroup_1ga326ff10ac65ad253dc898ffbfba8df33" kind="function"><name>setComparisonTolerance</name></member>
+      <member refid="group__GeneralGroup_1ga47b1a0904e24cb42a3d81ae21519999d" kind="function"><name>getComparisonReferenceValueName</name></member>
+      <member refid="group__GeneralGroup_1ga9da66cd334330f620109abc9ab2a2f61" kind="function"><name>getComparisonReferenceValue</name></member>
+      <member refid="group__GeneralGroup_1gafbcfa2a320101a85f090416fe434384c" kind="function"><name>setComparisonReferenceValue</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1ac5e3cda4541ecab5216d95033858a49e" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>const char *</type>
-        <definition>static constexpr const char * MR::DistanceMeasurementObject::StaticTypeName</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>StaticTypeName</name>
-        <qualifiedname>MR::DistanceMeasurementObject::StaticTypeName</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" line="19" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" bodystart="19" bodyend="19"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1ac302458ded586d4eaefe3e92a2fbec51" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>const char *</type>
-        <definition>static constexpr const char * MR::DistanceMeasurementObject::StaticClassName</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>StaticClassName</name>
-        <qualifiedname>MR::DistanceMeasurementObject::StaticClassName</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" line="22" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" bodystart="22" bodyend="22"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a4413e316737f0c39e3c3ac30c5c674c1" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>const char *</type>
-        <definition>static constexpr const char * MR::DistanceMeasurementObject::StaticClassNameInPlural</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>StaticClassNameInPlural</name>
-        <qualifiedname>MR::DistanceMeasurementObject::StaticClassNameInPlural</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" line="25" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" bodystart="25" bodyend="25"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gac5e3cda4541ecab5216d95033858a49e" kind="function"><name>StaticTypeName</name></member>
+      <member refid="group__GeneralGroup_1gac302458ded586d4eaefe3e92a2fbec51" kind="function"><name>StaticClassName</name></member>
+      <member refid="group__GeneralGroup_1ga4413e316737f0c39e3c3ac30c5c674c1" kind="function"><name>StaticClassNameInPlural</name></member>
     </sectiondef>
     <sectiondef kind="protected-func">
-      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a37ea36bb34908aae4365b021d51ec48e" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::DistanceMeasurementObject::DistanceMeasurementObject</definition>
-        <argsstring>(const DistanceMeasurementObject &amp;other)=default</argsstring>
-        <name>DistanceMeasurementObject</name>
-        <qualifiedname>MR::DistanceMeasurementObject::DistanceMeasurementObject</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1DistanceMeasurementObject" kindref="compound">DistanceMeasurementObject</ref> &amp;</type>
-          <declname>other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" line="84" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1adcd21383f78a94b1d4ab6139004c73a8" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::DistanceMeasurementObject::swapBase_</definition>
-        <argsstring>(Object &amp;other) override</argsstring>
-        <name>swapBase_</name>
-        <qualifiedname>MR::DistanceMeasurementObject::swapBase_</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1a76b7b6b3bfd7dac31eb1d150afb761f7">swapBase_</reimplements>
-        <param>
-          <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
-          <declname>other</declname>
-        </param>
-        <briefdescription>
-<para>swaps this object with other </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" line="86" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a6a06fba3c75ed5593bee4cedd4c9d41c" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::DistanceMeasurementObject::serializeFields_</definition>
-        <argsstring>(Json::Value &amp;root) const override</argsstring>
-        <name>serializeFields_</name>
-        <qualifiedname>MR::DistanceMeasurementObject::serializeFields_</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1aa7e5231f013c0e9e1b528c69759cc60d">serializeFields_</reimplements>
-        <param>
-          <type>Json::Value &amp;</type>
-          <declname>root</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Write parameters to given Json::Value, <simplesect kind="note"><para>if you override this method, please call Base::serializeFields_(root) in the beginning </para>
-</simplesect>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" line="88" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a41bf252d3d2bb76c6f777b48395ec2b5" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::DistanceMeasurementObject::deserializeFields_</definition>
-        <argsstring>(const Json::Value &amp;root) override</argsstring>
-        <name>deserializeFields_</name>
-        <qualifiedname>MR::DistanceMeasurementObject::deserializeFields_</qualifiedname>
-        <reimplements refid="classMR_1_1Object_1afa7de2dfba47f9766bfa741f01f73e42">deserializeFields_</reimplements>
-        <param>
-          <type>const Json::Value &amp;</type>
-          <declname>root</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Reads parameters from json value <simplesect kind="note"><para>if you override this method, please call Base::deserializeFields_(root) in the beginning </para>
-</simplesect>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" line="89" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1a88884fe950634ef07794998d453d8bf2" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::DistanceMeasurementObject::setupRenderObject_</definition>
-        <argsstring>() const override</argsstring>
-        <name>setupRenderObject_</name>
-        <qualifiedname>MR::DistanceMeasurementObject::setupRenderObject_</qualifiedname>
-        <reimplements refid="classMR_1_1VisualObject_1a8c9ac961e923f7c61ccf3424413be0fb">setupRenderObject_</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>each renderable child of <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> should implement this method and assign renderObj_ inside </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" line="91" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DistanceMeasurementObject_1ab39801c71ba664fe01509d9a247c196d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::DistanceMeasurementObject::onWorldXfChanged_</definition>
-        <argsstring>() override</argsstring>
-        <name>onWorldXfChanged_</name>
-        <qualifiedname>MR::DistanceMeasurementObject::onWorldXfChanged_</qualifiedname>
-        <reimplements refid="classMR_1_1Object_1ae552548142751ab5d35d446cb5d56fae">onWorldXfChanged_</reimplements>
-        <briefdescription>
-<para>Emits <computeroutput>worldXfChangedSignal</computeroutput>, but derived classes can add additional behavior to it. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" line="93" column="21"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga37ea36bb34908aae4365b021d51ec48e" kind="function"><name>DistanceMeasurementObject</name></member>
+      <member refid="group__GeneralGroup_1gadcd21383f78a94b1d4ab6139004c73a8" kind="function"><name>swapBase_</name></member>
+      <member refid="group__GeneralGroup_1ga6a06fba3c75ed5593bee4cedd4c9d41c" kind="function"><name>serializeFields_</name></member>
+      <member refid="group__GeneralGroup_1ga41bf252d3d2bb76c6f777b48395ec2b5" kind="function"><name>deserializeFields_</name></member>
+      <member refid="group__GeneralGroup_1ga88884fe950634ef07794998d453d8bf2" kind="function"><name>setupRenderObject_</name></member>
+      <member refid="group__GeneralGroup_1gab39801c71ba664fe01509d9a247c196d" kind="function"><name>onWorldXfChanged_</name></member>
     </sectiondef>
     <briefdescription>
 <para>Represents a distance measurement. </para>
@@ -951,7 +200,7 @@
         <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" line="10" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" bodystart="11" bodyend="110"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMeasurementObject.h" bodystart="14" bodyend="113"/>
     <listofallmembers>
       <member refid="classMR_1_1Object_1aa6cdc407999b7e829fd23b242cb6346d" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>addChild</name></member>
       <member refid="classMR_1_1Object_1a8eeb1cb21b22db97f20eac75b897f7ae" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>addChildBefore</name></member>
@@ -964,31 +213,31 @@
       <member refid="classMR_1_1VisualObject_1ae3a2d142d4abb2283a71caf7395282a4" prot="protected" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>backFacesColor_</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a2ba9302240c85bc5dfd78068e7b2e918" prot="protected" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>bastards_</name></member>
       <member refid="classMR_1_1VisualObject_1af81b9247c457c9dbd36d6bbe4c74b826" prot="protected" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>boundingBoxToInfoLines_</name></member>
-      <member refid="classMR_1_1DistanceMeasurementObject_1aadecd825f35fb44ff52fe037c3484c0a" prot="private" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>cachedValue_</name></member>
+      <member refid="group__GeneralGroup_1gaadecd825f35fb44ff52fe037c3484c0a" prot="private" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>cachedValue_</name></member>
       <member refid="classMR_1_1Object_1a918f27844d6d9aae269008f0036bc671" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>children</name></member>
       <member refid="classMR_1_1Object_1a2f38b85c4109bb77ad1a49e42085b9fb" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>children</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a20c010d72c82523c01e5de05910eb34c" prot="protected" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>children_</name></member>
-      <member refid="classMR_1_1DistanceMeasurementObject_1ad60ffe08ad7aac2a0118f9d755246849" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>className</name></member>
-      <member refid="classMR_1_1DistanceMeasurementObject_1a3fbff93178a6d5f281d512fbd3ba5d10" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>classNameInPlural</name></member>
+      <member refid="group__GeneralGroup_1gad60ffe08ad7aac2a0118f9d755246849" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>className</name></member>
+      <member refid="group__GeneralGroup_1ga3fbff93178a6d5f281d512fbd3ba5d10" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>classNameInPlural</name></member>
       <member refid="classMR_1_1VisualObject_1ab87c9fab3f92c38aba589584b5466a98" prot="protected" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>clipByPlane_</name></member>
-      <member refid="classMR_1_1DistanceMeasurementObject_1abc8e75e2c032185a15f15d542b20a9e0" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>clone</name></member>
+      <member refid="group__GeneralGroup_1gabc8e75e2c032185a15f15d542b20a9e0" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>clone</name></member>
       <member refid="classMR_1_1Object_1a54eb8f6e602368572ffb27af73f87465" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>cloneTree</name></member>
       <member refid="classMR_1_1VisualObject_1a21eb2d0c923e3ca0544e4cf90782e6b1" prot="protected" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>coloringType_</name></member>
-      <member refid="classMR_1_1ObjectComparableWithReference_1ac27662b0d2266f41b4dfab6844dba1e4" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>comparisonToleranceIsAlwaysOnlyPositive</name></member>
+      <member refid="group__GeneralGroup_1gac27662b0d2266f41b4dfab6844dba1e4" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>comparisonToleranceIsAlwaysOnlyPositive</name></member>
       <member refid="classMR_1_1VisualObject_1a4e27182996ebf22fc42c7d1ebf6cf02b" prot="protected" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>computeBoundingBox_</name></member>
-      <member refid="classMR_1_1DistanceMeasurementObject_1abc63171541c58c5add4c351e2b3b6408" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>computeComparableProperty</name></member>
-      <member refid="classMR_1_1DistanceMeasurementObject_1a4b85850429f2fd60b65f311298b99c47" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>computeDistance</name></member>
+      <member refid="group__GeneralGroup_1gabc63171541c58c5add4c351e2b3b6408" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>computeComparableProperty</name></member>
+      <member refid="group__GeneralGroup_1ga4b85850429f2fd60b65f311298b99c47" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>computeDistance</name></member>
       <member refid="classMR_1_1VisualObject_1a7857f20b8f16704a46297b95e12524f7" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>copyAllSolidColors</name></member>
       <member refid="classMR_1_1VisualObject_1a3c81a910d1fdd5c1f1b413c185bf750d" prot="protected" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>depthTest_</name></member>
-      <member refid="classMR_1_1DistanceMeasurementObject_1a41bf252d3d2bb76c6f777b48395ec2b5" prot="protected" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>deserializeFields_</name></member>
+      <member refid="group__GeneralGroup_1ga41bf252d3d2bb76c6f777b48395ec2b5" prot="protected" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>deserializeFields_</name></member>
       <member refid="classMR_1_1Object_1a694bf2e911f3079c872f0dc9c13370c9" prot="protected" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>deserializeModel_</name></member>
       <member refid="classMR_1_1Object_1ae6602edbad891420dc4dff152e9df603" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>deserializeRecursive</name></member>
       <member refid="classMR_1_1Object_1a80a32a58c497b044d63e5aaa75e77fbe" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>detachFromParent</name></member>
-      <member refid="classMR_1_1DistanceMeasurementObject_1a5fa3455ad516872987f4c9195c8cb8be" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>DistanceMeasurementObject</name></member>
-      <member refid="classMR_1_1DistanceMeasurementObject_1a90bd3418e0c8c76fbbe3aa70314be2a8" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>DistanceMeasurementObject</name></member>
-      <member refid="classMR_1_1DistanceMeasurementObject_1a9a8a81a10d8c7ed1ebe420b47124abc6" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>DistanceMeasurementObject</name></member>
-      <member refid="classMR_1_1DistanceMeasurementObject_1a37ea36bb34908aae4365b021d51ec48e" prot="protected" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>DistanceMeasurementObject</name></member>
-      <member refid="classMR_1_1DistanceMeasurementObject_1ace9513029904e4f1154117bec80e9e51" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>DistanceMode</name></member>
+      <member refid="group__GeneralGroup_1ga5fa3455ad516872987f4c9195c8cb8be" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>DistanceMeasurementObject</name></member>
+      <member refid="group__GeneralGroup_1ga90bd3418e0c8c76fbbe3aa70314be2a8" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>DistanceMeasurementObject</name></member>
+      <member refid="group__GeneralGroup_1ga9a8a81a10d8c7ed1ebe420b47124abc6" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>DistanceMeasurementObject</name></member>
+      <member refid="group__GeneralGroup_1ga37ea36bb34908aae4365b021d51ec48e" prot="protected" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>DistanceMeasurementObject</name></member>
+      <member refid="group__GeneralGroup_1gace9513029904e4f1154117bec80e9e51" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>DistanceMode</name></member>
       <member refid="classMR_1_1Object_1abcc984d346790cbe1a13d6ee87daffd0" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>find</name></member>
       <member refid="classMR_1_1Object_1a639d2e0d72c82c1efd9dc00ecaa0d3da" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>find</name></member>
       <member refid="group__DataModelGroup_1gaa9133d1e63e15eb09f7f902afe2abd3a" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>find</name></member>
@@ -1004,19 +253,19 @@
       <member refid="classMR_1_1VisualObject_1a714aab4f9110c1072f3147edae51e293" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>getBackColorsForAllViewports</name></member>
       <member refid="classMR_1_1VisualObject_1a8fe84b708cf42b2d73b31e77f02fae6a" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>getBoundingBox</name></member>
       <member refid="classMR_1_1VisualObject_1ad526a2645a12621b7742bc66aaf5ad0f" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>getColoringType</name></member>
-      <member refid="classMR_1_1DistanceMeasurementObject_1ab1248a3d54cc0e12003f82a19214ff93" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>getComparablePropertyName</name></member>
-      <member refid="classMR_1_1DistanceMeasurementObject_1a9da66cd334330f620109abc9ab2a2f61" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>getComparisonReferenceValue</name></member>
-      <member refid="classMR_1_1DistanceMeasurementObject_1a47b1a0904e24cb42a3d81ae21519999d" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>getComparisonReferenceValueName</name></member>
-      <member refid="classMR_1_1DistanceMeasurementObject_1a717142f37bd7e78b5da9949a99cccc40" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>getComparisonTolerence</name></member>
+      <member refid="group__GeneralGroup_1gab1248a3d54cc0e12003f82a19214ff93" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>getComparablePropertyName</name></member>
+      <member refid="group__GeneralGroup_1ga9da66cd334330f620109abc9ab2a2f61" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>getComparisonReferenceValue</name></member>
+      <member refid="group__GeneralGroup_1ga47b1a0904e24cb42a3d81ae21519999d" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>getComparisonReferenceValueName</name></member>
+      <member refid="group__GeneralGroup_1ga717142f37bd7e78b5da9949a99cccc40" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>getComparisonTolerence</name></member>
       <member refid="classMR_1_1VisualObject_1a6411458c4cd7d098c12adaea27568db7" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>getDirtyFlags</name></member>
-      <member refid="classMR_1_1DistanceMeasurementObject_1adb7a744f9f2c6888910b27b03cd845c7" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>getDistanceMode</name></member>
+      <member refid="group__GeneralGroup_1gadb7a744f9f2c6888910b27b03cd845c7" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>getDistanceMode</name></member>
       <member refid="classMR_1_1VisualObject_1a70f15c0dc59f3b83a8b8c3e6390f7571" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>getFrontColor</name></member>
       <member refid="classMR_1_1VisualObject_1a04e6c3f8219124e3028f7dd8411cfc65" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>getFrontColorsForAllViewports</name></member>
       <member refid="classMR_1_1VisualObject_1afe6426aa46d769e1d6f4cab1e56e0559" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>getGlobalAlpha</name></member>
       <member refid="classMR_1_1VisualObject_1a3ef31c439da47a55ca3287bf45a377ad" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>getGlobalAlphaForAllViewports</name></member>
-      <member refid="classMR_1_1DistanceMeasurementObject_1afee53f116445c2f14e15413ad6913d6b" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>getInfoLines</name></member>
-      <member refid="classMR_1_1DistanceMeasurementObject_1a63e77b6ec68d18707193f0f0d9c61c33" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>getLocalDelta</name></member>
-      <member refid="classMR_1_1DistanceMeasurementObject_1a04d3bc9ed670217a53353f8603c6df76" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>getLocalPoint</name></member>
+      <member refid="group__GeneralGroup_1gafee53f116445c2f14e15413ad6913d6b" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>getInfoLines</name></member>
+      <member refid="group__GeneralGroup_1ga63e77b6ec68d18707193f0f0d9c61c33" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>getLocalDelta</name></member>
+      <member refid="group__GeneralGroup_1ga04d3bc9ed670217a53353f8603c6df76" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>getLocalPoint</name></member>
       <member refid="classMR_1_1Object_1a4a0bdbb221822d1b73720712b1488489" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>getModelHash</name></member>
       <member refid="classMR_1_1VisualObject_1a08a44c8bd562c85361950682c997f752" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>getRedrawFlag</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a64c12f40ae3ee9c61ba167319e33f4a8" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>getSharedPtr</name></member>
@@ -1026,8 +275,8 @@
       <member refid="classMR_1_1VisualObject_1a94e84a6aefe10a606f6dbf056049dcee" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>getVisualizePropertyMask</name></member>
       <member refid="classMR_1_1VisualObject_1a11c8d591aa72e021a946b58349b80bcf" prot="protected" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>getVisualizePropertyMask_</name></member>
       <member refid="classMR_1_1VisualObject_1a32cc9bc32e5402ed77f63de53d754314" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>getWorldBox</name></member>
-      <member refid="classMR_1_1DistanceMeasurementObject_1ab3242beb625340eefab997a3cd09f875" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>getWorldDelta</name></member>
-      <member refid="classMR_1_1DistanceMeasurementObject_1a8fe11848d5ab1bc0767216b9177db335" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>getWorldPoint</name></member>
+      <member refid="group__GeneralGroup_1gab3242beb625340eefab997a3cd09f875" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>getWorldDelta</name></member>
+      <member refid="group__GeneralGroup_1ga8fe11848d5ab1bc0767216b9177db335" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>getWorldPoint</name></member>
       <member refid="classMR_1_1Object_1a41924fd6534dc41bfdb6dd30e263109b" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>getWorldTreeBox</name></member>
       <member refid="classMR_1_1VisualObject_1a96232055c664463cca20dda327b1c30f" prot="protected" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>globalAlpha_</name></member>
       <member refid="classMR_1_1VisualObject_1a5985106ad6fa7332062d84fdd44b5986" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>globalClippedByPlane</name></member>
@@ -1043,19 +292,19 @@
       <member refid="classMR_1_1Object_1a3dcf68a5faec85e8e753e34ab77eb1b9" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>isAncillary</name></member>
       <member refid="classMR_1_1Object_1a6590355f391c69c4c0594b51397d4579" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>isGlobalAncillary</name></member>
       <member refid="classMR_1_1Object_1ad7f9426f9adc37a95648822d1566db77" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>isLocked</name></member>
-      <member refid="classMR_1_1DistanceMeasurementObject_1ab3c0a4cf3f4ef8c4b366c81cdfdd7153" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>isNegative</name></member>
-      <member refid="classMR_1_1DistanceMeasurementObject_1ab1f2988a6bbcd9b1c198f31bd77ab8fb" prot="private" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>isNegative_</name></member>
+      <member refid="group__GeneralGroup_1gab3c0a4cf3f4ef8c4b366c81cdfdd7153" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>isNegative</name></member>
+      <member refid="group__GeneralGroup_1gab1f2988a6bbcd9b1c198f31bd77ab8fb" prot="private" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>isNegative_</name></member>
       <member refid="classMR_1_1Object_1ae6f5f78500e8c1342b7f4d7d98b03928" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>isParentLocked</name></member>
       <member refid="classMR_1_1VisualObject_1a938a64da82232f07dec418b944f5bc8b" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>isPickable</name></member>
       <member refid="classMR_1_1Object_1a3f649834561a9f246e1d840a0f3080c8" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>isSelected</name></member>
       <member refid="classMR_1_1Object_1a98c9e0d07b736d2b86c4d3d340b77844" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>isVisible</name></member>
       <member refid="classMR_1_1Object_1a958714fb7d616e608cb16223e052052b" prot="protected" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>locked_</name></member>
-      <member refid="classMR_1_1MeasurementObject_1abfa882fd0a9244f24422e3f34dd6a35a" prot="protected" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>MeasurementObject</name></member>
+      <member refid="group__GeneralGroup_1gabfa882fd0a9244f24422e3f34dd6a35a" prot="protected" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>MeasurementObject</name></member>
       <member refid="classMR_1_1Object_1ae813e1ae9ad5cbb71ca45adbdd811679" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>name</name></member>
       <member refid="classMR_1_1Object_1a3d6d27065a13a0a262df4b74ff82e538" prot="protected" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>name_</name></member>
       <member refid="classMR_1_1Object_1a92a390dc7570098981912529e341433d" prot="protected" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>needRedraw_</name></member>
-      <member refid="classMR_1_1DistanceMeasurementObject_1a82179b938507528eccb049af8594b708" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>numComparableProperties</name></member>
-      <member refid="classMR_1_1ObjectComparableWithReference_1a7e386df110c9d0fa3c799cf002cbc845" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>numComparisonReferenceValues</name></member>
+      <member refid="group__GeneralGroup_1ga82179b938507528eccb049af8594b708" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>numComparableProperties</name></member>
+      <member refid="group__GeneralGroup_1ga7e386df110c9d0fa3c799cf002cbc845" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>numComparisonReferenceValues</name></member>
       <member refid="classMR_1_1Object_1ac2ef0a60f0cb9b488534014376ccd38d" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>Object</name></member>
       <member refid="classMR_1_1Object_1abac87686448c89b770d46ab30ad79dc2" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>Object</name></member>
       <member refid="classMR_1_1Object_1a795eb7eeaecc99cf34dabd14ac113e0b" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>Object</name></member>
@@ -1063,24 +312,24 @@
       <member refid="classMR_1_1ObjectChildrenHolder_1acad4a073a2e703743e01e2e5cce9e285" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>ObjectChildrenHolder</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a676c20b6eea355fe68748a8c1ad0b086" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>ObjectChildrenHolder</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a89b1fff6ebde3c5a71a530e3c8cddfb6" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>ObjectChildrenHolder</name></member>
-      <member refid="classMR_1_1ObjectComparableWithReference_1a39179dbfa89d894ecf784f2398c9c78b" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>ObjectComparableWithReference</name></member>
-      <member refid="classMR_1_1ObjectComparableWithReference_1ae825a8e0a74fc989c2bcd3147ff8bed2" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>ObjectComparableWithReference</name></member>
-      <member refid="classMR_1_1ObjectComparableWithReference_1aab13b511da066b66c07235be25abce0b" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>ObjectComparableWithReference</name></member>
-      <member refid="classMR_1_1DistanceMeasurementObject_1ab39801c71ba664fe01509d9a247c196d" prot="protected" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>onWorldXfChanged_</name></member>
-      <member refid="classMR_1_1DistanceMeasurementObject_1a30e0967b694b072f61a810e93ccd63c6" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga39179dbfa89d894ecf784f2398c9c78b" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>ObjectComparableWithReference</name></member>
+      <member refid="group__GeneralGroup_1gae825a8e0a74fc989c2bcd3147ff8bed2" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>ObjectComparableWithReference</name></member>
+      <member refid="group__GeneralGroup_1gaab13b511da066b66c07235be25abce0b" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>ObjectComparableWithReference</name></member>
+      <member refid="group__GeneralGroup_1gab39801c71ba664fe01509d9a247c196d" prot="protected" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>onWorldXfChanged_</name></member>
+      <member refid="group__GeneralGroup_1ga30e0967b694b072f61a810e93ccd63c6" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>operator=</name></member>
       <member refid="classMR_1_1VisualObject_1ad5bb82fa6b6b0ea77f0137b975c802f6" prot="public" virt="non-virtual" ambiguityscope="MR::MeasurementObject::"><scope>MR::DistanceMeasurementObject</scope><name>operator=</name></member>
       <member refid="classMR_1_1Object_1aaa2378c439796ceb7a28ad41322cb8d7" prot="public" virt="non-virtual" ambiguityscope="MR::Object::"><scope>MR::DistanceMeasurementObject</scope><name>operator=</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a44a4427301ae71511f5b3138cdf02e9f" prot="public" virt="non-virtual" ambiguityscope="MR::ObjectChildrenHolder::"><scope>MR::DistanceMeasurementObject</scope><name>operator=</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1aca1fa4cd4c9ee1cb2e567623c979b26f" prot="public" virt="non-virtual" ambiguityscope="MR::ObjectChildrenHolder::"><scope>MR::DistanceMeasurementObject</scope><name>operator=</name></member>
-      <member refid="classMR_1_1ObjectComparableWithReference_1ad1905b7160fa76212ab3913f59d132ce" prot="public" virt="non-virtual" ambiguityscope="MR::ObjectComparableWithReference::"><scope>MR::DistanceMeasurementObject</scope><name>operator=</name></member>
-      <member refid="classMR_1_1ObjectComparableWithReference_1a6079e4aac0a4e04a8055a9f639264096" prot="public" virt="non-virtual" ambiguityscope="MR::ObjectComparableWithReference::"><scope>MR::DistanceMeasurementObject</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1gad1905b7160fa76212ab3913f59d132ce" prot="public" virt="non-virtual" ambiguityscope="MR::ObjectComparableWithReference::"><scope>MR::DistanceMeasurementObject</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga6079e4aac0a4e04a8055a9f639264096" prot="public" virt="non-virtual" ambiguityscope="MR::ObjectComparableWithReference::"><scope>MR::DistanceMeasurementObject</scope><name>operator=</name></member>
       <member refid="classMR_1_1Object_1a68500213a1d6e4f3b7f9fc3806fcacd1" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>parent</name></member>
       <member refid="classMR_1_1Object_1a04aa027ee39ae2bc0f084534a946c9f5" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>parent</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a79a7197e0981d1da1b59f5fa0d858f7d" prot="protected" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>parent_</name></member>
       <member refid="classMR_1_1Object_1a2f679f701887cee54069b81a45cc8ebc" prot="protected" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>parentLocked_</name></member>
-      <member refid="classMR_1_1DistanceMeasurementObject_1abcd01f00ff5d20ff3a4fac2fdc65ed65" prot="private" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>perCoordDeltas_</name></member>
+      <member refid="group__GeneralGroup_1gabcd01f00ff5d20ff3a4fac2fdc65ed65" prot="private" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>perCoordDeltas_</name></member>
       <member refid="classMR_1_1VisualObject_1a43bcd013faf296110ba8cb4a94bbe12f" prot="protected" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>pickable_</name></member>
-      <member refid="classMR_1_1DistanceMeasurementObject_1af5042c2c25af08a08b8b4bd5e4b2a2fd" prot="private" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>referenceValue_</name></member>
+      <member refid="group__GeneralGroup_1gaf5042c2c25af08a08b8b4bd5e4b2a2fd" prot="private" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>referenceValue_</name></member>
       <member refid="classMR_1_1Object_1a1b5609ba616723794aea4dda67727865" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>removeAllChildren</name></member>
       <member refid="classMR_1_1Object_1aa988bb552650c9d30e888e456f458d46" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>removeChild</name></member>
       <member refid="classMR_1_1Object_1a291d8e281e83a1199d6da8484e798fd5" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>removeChild</name></member>
@@ -1100,7 +349,7 @@
       <member refid="classMR_1_1Object_1a0d8ef27f83b47e000093eaa0df9c36f9" prot="protected" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>selected_</name></member>
       <member refid="classMR_1_1VisualObject_1ac75d179334e336af0672bf0d9c997038" prot="protected" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>selectedColor_</name></member>
       <member refid="classMR_1_1Object_1ab41eb618ef90d9677638173475b2d983" prot="protected" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>sendWorldXfChangedSignal_</name></member>
-      <member refid="classMR_1_1DistanceMeasurementObject_1a6a06fba3c75ed5593bee4cedd4c9d41c" prot="protected" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>serializeFields_</name></member>
+      <member refid="group__GeneralGroup_1ga6a06fba3c75ed5593bee4cedd4c9d41c" prot="protected" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>serializeFields_</name></member>
       <member refid="classMR_1_1Object_1a7bf17e9cdecb511570759169e86bf0e2" prot="protected" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>serializeModel_</name></member>
       <member refid="classMR_1_1Object_1a9585a709b1b7bd6d35276d099afd0079" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>serializeRecursive</name></member>
       <member refid="classMR_1_1VisualObject_1aa19ae518997e365fbfa1ddd81b04eb10" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setAllVisualizeProperties</name></member>
@@ -1111,21 +360,21 @@
       <member refid="classMR_1_1VisualObject_1a469ac6da4b8c323e12d0d78943831a4e" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>setBackColor</name></member>
       <member refid="classMR_1_1VisualObject_1a6b7e8cf2909d71a7537a47028f77913a" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>setBackColorsForAllViewports</name></member>
       <member refid="classMR_1_1VisualObject_1a8d339ad1cf1735f90773b4f8b89e9059" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>setColoringType</name></member>
-      <member refid="classMR_1_1ObjectComparableWithReference_1a09b21bda8f6435e0b9c520c31f2607ed" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setComparisonReferenceVal</name></member>
-      <member refid="classMR_1_1DistanceMeasurementObject_1afbcfa2a320101a85f090416fe434384c" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>setComparisonReferenceValue</name></member>
-      <member refid="classMR_1_1DistanceMeasurementObject_1a326ff10ac65ad253dc898ffbfba8df33" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>setComparisonTolerance</name></member>
+      <member refid="group__GeneralGroup_1ga09b21bda8f6435e0b9c520c31f2607ed" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setComparisonReferenceVal</name></member>
+      <member refid="group__GeneralGroup_1gafbcfa2a320101a85f090416fe434384c" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>setComparisonReferenceValue</name></member>
+      <member refid="group__GeneralGroup_1ga326ff10ac65ad253dc898ffbfba8df33" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>setComparisonTolerance</name></member>
       <member refid="classMR_1_1VisualObject_1a3e72e4b693ea9b28b46b5928167f0e74" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>setDirtyFlags</name></member>
       <member refid="classMR_1_1VisualObject_1a2261b98d651c586e2bc62a2e1efb902a" prot="protected" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setDirtyFlagsFast_</name></member>
-      <member refid="classMR_1_1DistanceMeasurementObject_1a6e1ae4ff3b00bf4dd29ea978f1eeb2b6" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>setDistanceMode</name></member>
+      <member refid="group__GeneralGroup_1ga6e1ae4ff3b00bf4dd29ea978f1eeb2b6" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>setDistanceMode</name></member>
       <member refid="classMR_1_1VisualObject_1a0d1a64b6bed894b4236b06ac732dfd74" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>setFrontColor</name></member>
       <member refid="classMR_1_1VisualObject_1ac8fd310ffa1926e733e28b521f658778" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>setFrontColorsForAllViewports</name></member>
       <member refid="classMR_1_1VisualObject_1a985084dc83b837ab048114f5f4bacae2" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>setGlobalAlpha</name></member>
       <member refid="classMR_1_1VisualObject_1a8ae88237f1bd22f03cb5a77d018c6d7c" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>setGlobalAlphaForAllViewports</name></member>
       <member refid="classMR_1_1VisualObject_1a6212504702d0e12528f65b94e270069e" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setGlobalClippedByPlane</name></member>
       <member refid="classMR_1_1Object_1af61964cafaa7f98e2b14f89fed277368" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setGlobalVisibility</name></member>
-      <member refid="classMR_1_1DistanceMeasurementObject_1aa3f957e720e71a4f41b9ba7858f5cfca" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>setIsNegative</name></member>
-      <member refid="classMR_1_1DistanceMeasurementObject_1a030299d1892025402c3db3ce4d4c3adb" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>setLocalDelta</name></member>
-      <member refid="classMR_1_1DistanceMeasurementObject_1a357d31af89f1f6cf9d893c1e17858d6c" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>setLocalPoint</name></member>
+      <member refid="group__GeneralGroup_1gaa3f957e720e71a4f41b9ba7858f5cfca" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>setIsNegative</name></member>
+      <member refid="group__GeneralGroup_1ga030299d1892025402c3db3ce4d4c3adb" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>setLocalDelta</name></member>
+      <member refid="group__GeneralGroup_1ga357d31af89f1f6cf9d893c1e17858d6c" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>setLocalPoint</name></member>
       <member refid="classMR_1_1Object_1ac427b5b1a99a87eac1305683801fc850" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>setLocked</name></member>
       <member refid="classMR_1_1Object_1ace89695fb0235bdf97caecfe26390349" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>setName</name></member>
       <member refid="classMR_1_1Object_1acd0464af4d89730f9a969f997fdcc8ce" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>setParentLocked</name></member>
@@ -1133,7 +382,7 @@
       <member refid="classMR_1_1Object_1a911d7f54ae21939fe483b0f5caf04a66" prot="protected" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>setSharedModel_</name></member>
       <member refid="classMR_1_1VisualObject_1add52279d4cba695b4fa60d469cb8c1af" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>setShininess</name></member>
       <member refid="classMR_1_1VisualObject_1a455eb4255b591d822d504e0403c5e984" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>setSpecularStrength</name></member>
-      <member refid="classMR_1_1DistanceMeasurementObject_1a88884fe950634ef07794998d453d8bf2" prot="protected" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>setupRenderObject_</name></member>
+      <member refid="group__GeneralGroup_1ga88884fe950634ef07794998d453d8bf2" prot="protected" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>setupRenderObject_</name></member>
       <member refid="classMR_1_1VisualObject_1a12fceb01c325ff73eb770fa255cb5ecf" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setUseDefaultScenePropertiesOnDeserialization</name></member>
       <member refid="classMR_1_1Object_1a01ca9dab857ceb8e3fad3d04d271ff0e" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>setVisibilityMask</name></member>
       <member refid="classMR_1_1Object_1a4f9e9d6e328f1eda7944805cf9d52dc0" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setVisible</name></member>
@@ -1142,7 +391,7 @@
       <member refid="classMR_1_1Object_1a214e37583ccaa45d92895464c6de685d" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setWorldXf</name></member>
       <member refid="classMR_1_1Object_1a2f9761f33c2e77153389c9b3583e013e" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>setXf</name></member>
       <member refid="classMR_1_1Object_1a6d2214b6fde4d128210f1421cc36176d" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>setXfsForAllViewports</name></member>
-      <member refid="classMR_1_1DistanceMeasurementObject_1a99ecc95eccd9b0fab3c76911ea1006a0" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>shallowClone</name></member>
+      <member refid="group__GeneralGroup_1ga99ecc95eccd9b0fab3c76911ea1006a0" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>shallowClone</name></member>
       <member refid="classMR_1_1Object_1ac8e64c569d24d04c1dfcfe7cb1511580" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>shallowCloneTree</name></member>
       <member refid="classMR_1_1VisualObject_1a88b3d55070a6a91ed592e80b0f925419" prot="protected" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>shininess_</name></member>
       <member refid="classMR_1_1VisualObject_1aa23cd40dfdaaebc073129fb1ba57dce7" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>showName</name></member>
@@ -1150,18 +399,18 @@
       <member refid="classMR_1_1VisualObject_1a611894e7f98e2633137d75833e361781" prot="protected" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>showName_</name></member>
       <member refid="classMR_1_1Object_1a6f67ec7cbe1e69e514d8f0d5286a35da" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>sortChildren</name></member>
       <member refid="classMR_1_1VisualObject_1ab494630abaaab85d3b4c16929c7e6e83" prot="protected" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>specularStrength_</name></member>
-      <member refid="classMR_1_1DistanceMeasurementObject_1ac302458ded586d4eaefe3e92a2fbec51" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>StaticClassName</name></member>
-      <member refid="classMR_1_1DistanceMeasurementObject_1a4413e316737f0c39e3c3ac30c5c674c1" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>StaticClassNameInPlural</name></member>
-      <member refid="classMR_1_1DistanceMeasurementObject_1ac5e3cda4541ecab5216d95033858a49e" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>StaticTypeName</name></member>
+      <member refid="group__GeneralGroup_1gac302458ded586d4eaefe3e92a2fbec51" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>StaticClassName</name></member>
+      <member refid="group__GeneralGroup_1ga4413e316737f0c39e3c3ac30c5c674c1" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>StaticClassNameInPlural</name></member>
+      <member refid="group__GeneralGroup_1gac5e3cda4541ecab5216d95033858a49e" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>StaticTypeName</name></member>
       <member refid="classMR_1_1VisualObject_1a17a87c846a1caa768c3043ee50bbd966" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>supportsVisualizeProperty</name></member>
       <member refid="classMR_1_1Object_1a39e506e0816b1d504e86a2823ee90cf3" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>swap</name></member>
-      <member refid="classMR_1_1DistanceMeasurementObject_1adcd21383f78a94b1d4ab6139004c73a8" prot="protected" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>swapBase_</name></member>
+      <member refid="group__GeneralGroup_1gadcd21383f78a94b1d4ab6139004c73a8" prot="protected" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>swapBase_</name></member>
       <member refid="classMR_1_1Object_1a82d2749fefb75e38b62dd69a52307680" prot="protected" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>swapSignals_</name></member>
       <member refid="classMR_1_1Object_1abf2e87d7dd67d22799d82a35ddecc7b3" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>tags</name></member>
       <member refid="classMR_1_1Object_1abf2154dc69866e93f47d7207cdb4abf4" prot="protected" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>tags_</name></member>
       <member refid="classMR_1_1VisualObject_1af63540ac95e6431477166fb4d1c249a3" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>toggleVisualizeProperty</name></member>
-      <member refid="classMR_1_1DistanceMeasurementObject_1a7d69625d6cc969d7dfbb4df61a0b519c" prot="private" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>tolerance_</name></member>
-      <member refid="classMR_1_1DistanceMeasurementObject_1a7d8dc7b94d1a8f6533b6de5659495a9b" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>typeName</name></member>
+      <member refid="group__GeneralGroup_1ga7d69625d6cc969d7dfbb4df61a0b519c" prot="private" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>tolerance_</name></member>
+      <member refid="group__GeneralGroup_1ga7d8dc7b94d1a8f6533b6de5659495a9b" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>typeName</name></member>
       <member refid="classMR_1_1VisualObject_1a567b072f1d687c864a8be3d5e68d13a3" prot="protected" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>unselectedColor_</name></member>
       <member refid="classMR_1_1VisualObject_1a0466c6ddefdea403775b5b4fa4a46219" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
       <member refid="classMR_1_1VisualObject_1aeed6d251c7bdbffe0634b0fe96faab35" prot="protected" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>useDefaultScenePropertiesOnDeserialization_</name></member>
@@ -1179,7 +428,7 @@
       <member refid="classMR_1_1Object_1a695ed8027820a6f982adf8a3e393503d" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>xfsForAllViewports</name></member>
       <member refid="classMR_1_1Object_1a89c09f7a1ec5ba173cd21879e3f9953e" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>~Object</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a0d547b2ea371b35b7f6aeb91b0a31ef8" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>~ObjectChildrenHolder</name></member>
-      <member refid="classMR_1_1ObjectComparableWithReference_1a83e6e08749efd393e0a34bdf6804bc2e" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>~ObjectComparableWithReference</name></member>
+      <member refid="group__GeneralGroup_1ga83e6e08749efd393e0a34bdf6804bc2e" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>~ObjectComparableWithReference</name></member>
       <member refid="classMR_1_1VisualObject_1a32d2019eae016848083a25a159b3b058" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>~VisualObject</name></member>
     </listofallmembers>
   </compounddef>

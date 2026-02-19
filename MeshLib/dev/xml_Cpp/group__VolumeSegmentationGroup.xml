@@ -7,7 +7,7 @@
     <innerclass refid="classMR_1_1VolumeSegmenter" prot="public">MR::VolumeSegmenter</innerclass>
     <sectiondef kind="func">
       <memberdef kind="function" id="group__VolumeSegmentationGroup_1ga67be2b8fd2ef849261f668ee98abfcc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> Expected&lt; <ref refid="structMR_1_1Mesh" kindref="compound">MR::Mesh</ref> &gt;</type>
+        <type>MRVOXELS_API Expected&lt; <ref refid="structMR_1_1Mesh" kindref="compound">MR::Mesh</ref> &gt;</type>
         <definition>MRVOXELS_API Expected&lt; MR::Mesh &gt; MR::meshFromVoxelsMask</definition>
         <argsstring>(const VdbVolume &amp;volume, const VoxelBitSet &amp;mask)</argsstring>
         <name>meshFromVoxelsMask</name>
@@ -40,7 +40,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" line="26" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" declline="26" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="group__VolumeSegmentationGroup_1gad44e7dfa9a22ec4a0c94232c1791b7d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> Expected&lt; <ref refid="structMR_1_1Mesh" kindref="compound">MR::Mesh</ref> &gt;</type>
+        <type>MRVOXELS_API Expected&lt; <ref refid="structMR_1_1Mesh" kindref="compound">MR::Mesh</ref> &gt;</type>
         <definition>MRVOXELS_API Expected&lt; MR::Mesh &gt; MR::segmentVolume</definition>
         <argsstring>(const VdbVolume &amp;volume, const std::vector&lt; std::pair&lt; Vector3f, Vector3f &gt; &gt; &amp;pairs, const VolumeSegmentationParameters &amp;params=VolumeSegmentationParameters())</argsstring>
         <name>segmentVolume</name>
@@ -78,7 +78,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" line="51" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" declline="51" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="group__VolumeSegmentationGroup_1ga5d17b05296307303570bd202a858ec1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> Expected&lt; std::vector&lt; Mesh &gt; &gt;</type>
+        <type>MRVOXELS_API Expected&lt; std::vector&lt; Mesh &gt; &gt;</type>
         <definition>MRVOXELS_API Expected&lt; std::vector&lt; Mesh &gt; &gt; MR::segmentVoxelMaskToInstances</definition>
         <argsstring>(const VdbVolume &amp;mask, size_t minSize=100, ProgressCallback cb={})</argsstring>
         <name>segmentVoxelMaskToInstances</name>

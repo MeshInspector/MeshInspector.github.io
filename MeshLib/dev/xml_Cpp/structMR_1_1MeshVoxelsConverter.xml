@@ -4,163 +4,32 @@
     <compoundname>MR::MeshVoxelsConverter</compoundname>
     <includes refid="MRBoolean_8h" local="no">MRBoolean.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1MeshVoxelsConverter_1aff9a0bc144c30c521df635ba7c3ae056" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::MeshVoxelsConverter::voxelSize</definition>
-        <argsstring></argsstring>
-        <name>voxelSize</name>
-        <qualifiedname>MR::MeshVoxelsConverter::voxelSize</qualifiedname>
-        <initializer>= 0.001f</initializer>
-        <briefdescription>
-<para>both in and from </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRBoolean.h" line="16" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRBoolean.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MeshVoxelsConverter_1ab2f0c91461973d3a5fbb2ef07a4d3596" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::MeshVoxelsConverter::surfaceOffset</definition>
-        <argsstring></argsstring>
-        <name>surfaceOffset</name>
-        <qualifiedname>MR::MeshVoxelsConverter::surfaceOffset</qualifiedname>
-        <initializer>= 3</initializer>
-        <briefdescription>
-<para>to voxels: </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRBoolean.h" line="19" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRBoolean.h" bodystart="19" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MeshVoxelsConverter_1aacaa105e052e556811b815c3f19520a7" prot="public" static="no" mutable="no">
-        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
-        <definition>ProgressCallback MR::MeshVoxelsConverter::callBack</definition>
-        <argsstring></argsstring>
-        <name>callBack</name>
-        <qualifiedname>MR::MeshVoxelsConverter::callBack</qualifiedname>
-        <briefdescription>
-<para>number voxels around surface to calculate distance in (should be positive) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRBoolean.h" line="21" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRBoolean.h" bodystart="21" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MeshVoxelsConverter_1adc6a0a341b57e23c8d707441794d45f3" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::MeshVoxelsConverter::offsetVoxels</definition>
-        <argsstring></argsstring>
-        <name>offsetVoxels</name>
-        <qualifiedname>MR::MeshVoxelsConverter::offsetVoxels</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-<para>from voxels: </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRBoolean.h" line="28" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRBoolean.h" bodystart="28" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MeshVoxelsConverter_1adaab280c372f3b9aa33c9a6087199957" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::MeshVoxelsConverter::adaptivity</definition>
-        <argsstring></argsstring>
-        <name>adaptivity</name>
-        <qualifiedname>MR::MeshVoxelsConverter::adaptivity</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-<para>the value is in voxels (not in meters!), 0 for no-offset </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRBoolean.h" line="29" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRBoolean.h" bodystart="29" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaff9a0bc144c30c521df635ba7c3ae056" kind="variable"><name>voxelSize</name></member>
+      <member refid="group__GeneralGroup_1gab2f0c91461973d3a5fbb2ef07a4d3596" kind="variable"><name>surfaceOffset</name></member>
+      <member refid="group__GeneralGroup_1gaacaa105e052e556811b815c3f19520a7" kind="variable"><name>callBack</name></member>
+      <member refid="group__GeneralGroup_1gadc6a0a341b57e23c8d707441794d45f3" kind="variable"><name>offsetVoxels</name></member>
+      <member refid="group__GeneralGroup_1gadaab280c372f3b9aa33c9a6087199957" kind="variable"><name>adaptivity</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1MeshVoxelsConverter_1ab180b7c950637b7ef71f6a4d2dd078d1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref></type>
-        <definition>FloatGrid MR::MeshVoxelsConverter::operator()</definition>
-        <argsstring>(const MeshPart &amp;mp, const AffineXf3f &amp;xf={}) const</argsstring>
-        <name>operator()</name>
-        <qualifiedname>MR::MeshVoxelsConverter::operator()</qualifiedname>
-        <param>
-          <type>const MeshPart &amp;</type>
-          <declname>mp</declname>
-        </param>
-        <param>
-          <type>const AffineXf3f &amp;</type>
-          <declname>xf</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRBoolean.h" line="23" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRBoolean.h" bodystart="23" bodyend="24"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1MeshVoxelsConverter_1ae9647fc22d86c2a08eeefd53f6f48961" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> <ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref></type>
-        <definition>MRVOXELS_API FloatGrid MR::MeshVoxelsConverter::operator()</definition>
-        <argsstring>(const ObjectMesh &amp;obj) const</argsstring>
-        <name>operator()</name>
-        <qualifiedname>MR::MeshVoxelsConverter::operator()</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> &amp;</type>
-          <declname>obj</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRBoolean.h" line="25" column="28"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1MeshVoxelsConverter_1ae2bf474d4a220ce2a3fef16172d2874d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref></type>
-        <definition>MRVOXELS_API Mesh MR::MeshVoxelsConverter::operator()</definition>
-        <argsstring>(const FloatGrid &amp;grid) const</argsstring>
-        <name>operator()</name>
-        <qualifiedname>MR::MeshVoxelsConverter::operator()</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref> &amp;</type>
-          <declname>grid</declname>
-        </param>
-        <briefdescription>
-<para>[0, 1] ratio of combining small triangles into bigger ones </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRBoolean.h" line="31" column="23"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gab180b7c950637b7ef71f6a4d2dd078d1" kind="function"><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1gae9647fc22d86c2a08eeefd53f6f48961" kind="function"><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1gae2bf474d4a220ce2a3fef16172d2874d" kind="function"><name>operator()</name></member>
     </sectiondef>
     <briefdescription>
 <para>converter of meshes in or from signed distance volumetric representation </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRBoolean.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRBoolean.h" bodystart="14" bodyend="32"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRBoolean.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRBoolean.h" bodystart="17" bodyend="35"/>
     <listofallmembers>
-      <member refid="structMR_1_1MeshVoxelsConverter_1adaab280c372f3b9aa33c9a6087199957" prot="public" virt="non-virtual"><scope>MR::MeshVoxelsConverter</scope><name>adaptivity</name></member>
-      <member refid="structMR_1_1MeshVoxelsConverter_1aacaa105e052e556811b815c3f19520a7" prot="public" virt="non-virtual"><scope>MR::MeshVoxelsConverter</scope><name>callBack</name></member>
-      <member refid="structMR_1_1MeshVoxelsConverter_1adc6a0a341b57e23c8d707441794d45f3" prot="public" virt="non-virtual"><scope>MR::MeshVoxelsConverter</scope><name>offsetVoxels</name></member>
-      <member refid="structMR_1_1MeshVoxelsConverter_1ab180b7c950637b7ef71f6a4d2dd078d1" prot="public" virt="non-virtual"><scope>MR::MeshVoxelsConverter</scope><name>operator()</name></member>
-      <member refid="structMR_1_1MeshVoxelsConverter_1ae9647fc22d86c2a08eeefd53f6f48961" prot="public" virt="non-virtual"><scope>MR::MeshVoxelsConverter</scope><name>operator()</name></member>
-      <member refid="structMR_1_1MeshVoxelsConverter_1ae2bf474d4a220ce2a3fef16172d2874d" prot="public" virt="non-virtual"><scope>MR::MeshVoxelsConverter</scope><name>operator()</name></member>
-      <member refid="structMR_1_1MeshVoxelsConverter_1ab2f0c91461973d3a5fbb2ef07a4d3596" prot="public" virt="non-virtual"><scope>MR::MeshVoxelsConverter</scope><name>surfaceOffset</name></member>
-      <member refid="structMR_1_1MeshVoxelsConverter_1aff9a0bc144c30c521df635ba7c3ae056" prot="public" virt="non-virtual"><scope>MR::MeshVoxelsConverter</scope><name>voxelSize</name></member>
+      <member refid="group__GeneralGroup_1gadaab280c372f3b9aa33c9a6087199957" prot="public" virt="non-virtual"><scope>MR::MeshVoxelsConverter</scope><name>adaptivity</name></member>
+      <member refid="group__GeneralGroup_1gaacaa105e052e556811b815c3f19520a7" prot="public" virt="non-virtual"><scope>MR::MeshVoxelsConverter</scope><name>callBack</name></member>
+      <member refid="group__GeneralGroup_1gadc6a0a341b57e23c8d707441794d45f3" prot="public" virt="non-virtual"><scope>MR::MeshVoxelsConverter</scope><name>offsetVoxels</name></member>
+      <member refid="group__GeneralGroup_1gab180b7c950637b7ef71f6a4d2dd078d1" prot="public" virt="non-virtual"><scope>MR::MeshVoxelsConverter</scope><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1gae9647fc22d86c2a08eeefd53f6f48961" prot="public" virt="non-virtual"><scope>MR::MeshVoxelsConverter</scope><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1gae2bf474d4a220ce2a3fef16172d2874d" prot="public" virt="non-virtual"><scope>MR::MeshVoxelsConverter</scope><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1gab2f0c91461973d3a5fbb2ef07a4d3596" prot="public" virt="non-virtual"><scope>MR::MeshVoxelsConverter</scope><name>surfaceOffset</name></member>
+      <member refid="group__GeneralGroup_1gaff9a0bc144c30c521df635ba7c3ae056" prot="public" virt="non-virtual"><scope>MR::MeshVoxelsConverter</scope><name>voxelSize</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

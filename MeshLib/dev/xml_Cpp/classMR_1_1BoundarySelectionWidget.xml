@@ -6,695 +6,57 @@
     <includes refid="MRMeshBoundarySelectionWidget_8h" local="no">MRMeshBoundarySelectionWidget.h</includes>
     <innerclass refid="structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams" prot="public">MR::BoundarySelectionWidget::BoundarySelectionWidgetParams</innerclass>
     <sectiondef kind="private-type">
-      <memberdef kind="enum" id="classMR_1_1BoundarySelectionWidget_1a51f3c6ef514f91229ea9dfdb03f66246" prot="private" static="no" strong="yes">
-        <type></type>
-        <name>ActionType</name>
-        <qualifiedname>MR::BoundarySelectionWidget::ActionType</qualifiedname>
-        <enumvalue id="classMR_1_1BoundarySelectionWidget_1a51f3c6ef514f91229ea9dfdb03f66246ad6b8651dfcf65597b1e4756fdd4f6def" prot="private">
-          <name>SelectHole</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1BoundarySelectionWidget_1a51f3c6ef514f91229ea9dfdb03f66246a84c091118a95d3a53bd980443ec73747" prot="private">
-          <name>HoverHole</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="110" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" bodystart="110" bodyend="113"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga51f3c6ef514f91229ea9dfdb03f66246" kind="enum"><name>ActionType</name></member>
     </sectiondef>
     <sectiondef kind="public-type">
-      <memberdef kind="typedef" id="classMR_1_1BoundarySelectionWidget_1a99966598c20038beae6a6b9c3fdb146d" prot="public" static="no">
-        <type>std::function&lt; void(std::shared_ptr&lt; const <ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">MR::ObjectMeshHolder</ref> &gt;)&gt;</type>
-        <definition>using MR::BoundarySelectionWidget::BoundarySelectionWidgetCallBack =  std::function&lt;void( std::shared_ptr&lt;const MR::ObjectMeshHolder&gt; )&gt;</definition>
-        <argsstring></argsstring>
-        <name>BoundarySelectionWidgetCallBack</name>
-        <qualifiedname>MR::BoundarySelectionWidget::BoundarySelectionWidgetCallBack</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="38" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" bodystart="38" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1BoundarySelectionWidget_1a2e11f1e4737493f7e61b6b3793519373" prot="public" static="no">
-        <type>std::function&lt; bool(std::shared_ptr&lt; const <ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">MR::ObjectMeshHolder</ref> &gt;)&gt;</type>
-        <definition>using MR::BoundarySelectionWidget::BoundarySelectionWidgetChecker =  std::function&lt;bool( std::shared_ptr&lt;const MR::ObjectMeshHolder&gt; )&gt;</definition>
-        <argsstring></argsstring>
-        <name>BoundarySelectionWidgetChecker</name>
-        <qualifiedname>MR::BoundarySelectionWidget::BoundarySelectionWidgetChecker</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="39" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" bodystart="39" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1BoundarySelectionWidget_1a9e3aafe476e30d362b2b0070a6ce21c6" prot="public" static="no">
-        <type>std::vector&lt; MR::EdgeId &gt;</type>
-        <definition>using MR::BoundarySelectionWidget::HolesOnObject =  std::vector&lt;MR::EdgeId&gt;</definition>
-        <argsstring></argsstring>
-        <name>HolesOnObject</name>
-        <qualifiedname>MR::BoundarySelectionWidget::HolesOnObject</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="41" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" bodystart="41" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1BoundarySelectionWidget_1ab4f86167c1457d09cd461a0d8a7f4ce1" prot="public" static="no">
-        <type>std::unordered_map&lt; std::shared_ptr&lt; <ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">MR::ObjectMeshHolder</ref> &gt;, <ref refid="classMR_1_1BoundarySelectionWidget_1a9e3aafe476e30d362b2b0070a6ce21c6" kindref="member">HolesOnObject</ref> &gt;</type>
-        <definition>using MR::BoundarySelectionWidget::PerObjectHoles =  std::unordered_map &lt;std::shared_ptr&lt;MR::ObjectMeshHolder&gt;, HolesOnObject&gt;</definition>
-        <argsstring></argsstring>
-        <name>PerObjectHoles</name>
-        <qualifiedname>MR::BoundarySelectionWidget::PerObjectHoles</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="42" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" bodystart="42" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1BoundarySelectionWidget_1a2f69c3bd828d0e6845a71bce194419df" prot="public" static="no">
-        <type>std::unordered_map&lt; std::shared_ptr&lt; <ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">MR::ObjectMeshHolder</ref> &gt;, std::vector&lt; <ref refid="structMR_1_1AncillaryLines" kindref="compound">AncillaryLines</ref> &gt; &gt;</type>
-        <definition>using MR::BoundarySelectionWidget::PerObjectHolesPolylines =  std::unordered_map &lt;std::shared_ptr&lt;MR::ObjectMeshHolder&gt;, std::vector&lt;AncillaryLines&gt;&gt;</definition>
-        <argsstring></argsstring>
-        <name>PerObjectHolesPolylines</name>
-        <qualifiedname>MR::BoundarySelectionWidget::PerObjectHolesPolylines</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="43" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" bodystart="43" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1BoundarySelectionWidget_1a2f67030fd7e0d0dc13eeb84d29585009" prot="public" static="no">
-        <type>std::unordered_map&lt; std::shared_ptr&lt; <ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">MR::ObjectMeshHolder</ref> &gt;, boost::signals2::scoped_connection &gt;</type>
-        <definition>using MR::BoundarySelectionWidget::PerObjectMeshChangedSignals =  std::unordered_map &lt; std::shared_ptr&lt;MR::ObjectMeshHolder&gt;, boost::signals2::scoped_connection&gt;</definition>
-        <argsstring></argsstring>
-        <name>PerObjectMeshChangedSignals</name>
-        <qualifiedname>MR::BoundarySelectionWidget::PerObjectMeshChangedSignals</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="44" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" bodystart="44" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga99966598c20038beae6a6b9c3fdb146d" kind="typedef"><name>BoundarySelectionWidgetCallBack</name></member>
+      <member refid="group__GeneralGroup_1ga2e11f1e4737493f7e61b6b3793519373" kind="typedef"><name>BoundarySelectionWidgetChecker</name></member>
+      <member refid="group__GeneralGroup_1ga9e3aafe476e30d362b2b0070a6ce21c6" kind="typedef"><name>HolesOnObject</name></member>
+      <member refid="group__GeneralGroup_1gab4f86167c1457d09cd461a0d8a7f4ce1" kind="typedef"><name>PerObjectHoles</name></member>
+      <member refid="group__GeneralGroup_1ga2f69c3bd828d0e6845a71bce194419df" kind="typedef"><name>PerObjectHolesPolylines</name></member>
+      <member refid="group__GeneralGroup_1ga2f67030fd7e0d0dc13eeb84d29585009" kind="typedef"><name>PerObjectMeshChangedSignals</name></member>
     </sectiondef>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="classMR_1_1BoundarySelectionWidget_1a796e4b16dbeedd9624f6ac7faaf7fd93" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams" kindref="compound">BoundarySelectionWidgetParams</ref></type>
-        <definition>BoundarySelectionWidgetParams MR::BoundarySelectionWidget::params</definition>
-        <argsstring></argsstring>
-        <name>params</name>
-        <qualifiedname>MR::BoundarySelectionWidget::params</qualifiedname>
-        <briefdescription>
-<para>configuration params </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="79" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" bodystart="79" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga796e4b16dbeedd9624f6ac7faaf7fd93" kind="variable"><name>params</name></member>
     </sectiondef>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1BoundarySelectionWidget_1ad0b0554167c0cfeb405f99427312303b" prot="private" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::BoundarySelectionWidget::mouseAccuracy_</definition>
-        <argsstring></argsstring>
-        <name>mouseAccuracy_</name>
-        <qualifiedname>MR::BoundarySelectionWidget::mouseAccuracy_</qualifiedname>
-        <initializer>{ 5.5f }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="82" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" bodystart="82" bodyend="82"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1BoundarySelectionWidget_1a64ee2799e65a11ca91800a4b3ac2438b" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::BoundarySelectionWidget::isSelectorActive_</definition>
-        <argsstring></argsstring>
-        <name>isSelectorActive_</name>
-        <qualifiedname>MR::BoundarySelectionWidget::isSelectorActive_</qualifiedname>
-        <initializer>= false</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="84" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" bodystart="84" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1BoundarySelectionWidget_1a6428361d57177594b66eb99ef3333dd1" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1BoundarySelectionWidget_1ab4f86167c1457d09cd461a0d8a7f4ce1" kindref="member">PerObjectHoles</ref></type>
-        <definition>PerObjectHoles MR::BoundarySelectionWidget::holes_</definition>
-        <argsstring></argsstring>
-        <name>holes_</name>
-        <qualifiedname>MR::BoundarySelectionWidget::holes_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="86" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" bodystart="86" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1BoundarySelectionWidget_1aa32560e1f29e8b74b95ce513829f09a7" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1BoundarySelectionWidget_1a2f69c3bd828d0e6845a71bce194419df" kindref="member">PerObjectHolesPolylines</ref></type>
-        <definition>PerObjectHolesPolylines MR::BoundarySelectionWidget::holeLines_</definition>
-        <argsstring></argsstring>
-        <name>holeLines_</name>
-        <qualifiedname>MR::BoundarySelectionWidget::holeLines_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="87" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" bodystart="87" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1BoundarySelectionWidget_1acb34d0debf899b9d19a24e5bbd82f468" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1BoundarySelectionWidget_1a2f67030fd7e0d0dc13eeb84d29585009" kindref="member">PerObjectMeshChangedSignals</ref></type>
-        <definition>PerObjectMeshChangedSignals MR::BoundarySelectionWidget::onMeshChangedSignals_</definition>
-        <argsstring></argsstring>
-        <name>onMeshChangedSignals_</name>
-        <qualifiedname>MR::BoundarySelectionWidget::onMeshChangedSignals_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="88" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" bodystart="88" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1BoundarySelectionWidget_1a348daf65ef6071530b48bee11231ff84" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1BoundarySelectionWidget_1a99966598c20038beae6a6b9c3fdb146d" kindref="member">BoundarySelectionWidgetCallBack</ref></type>
-        <definition>BoundarySelectionWidgetCallBack MR::BoundarySelectionWidget::onBoundarySelected_</definition>
-        <argsstring></argsstring>
-        <name>onBoundarySelected_</name>
-        <qualifiedname>MR::BoundarySelectionWidget::onBoundarySelected_</qualifiedname>
-        <briefdescription>
-<para>CallBack functions. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="119" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" bodystart="119" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1BoundarySelectionWidget_1a5079e952400c556610eca74e84e8cc1f" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1BoundarySelectionWidget_1a2e11f1e4737493f7e61b6b3793519373" kindref="member">BoundarySelectionWidgetChecker</ref></type>
-        <definition>BoundarySelectionWidgetChecker MR::BoundarySelectionWidget::isObjectValidToPick_</definition>
-        <argsstring></argsstring>
-        <name>isObjectValidToPick_</name>
-        <qualifiedname>MR::BoundarySelectionWidget::isObjectValidToPick_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="120" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" bodystart="120" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1BoundarySelectionWidget_1a9dd6eb6b4daa01196e16d9c545b2ac30" prot="private" static="no" mutable="no">
-        <type>std::shared_ptr&lt; <ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">MR::ObjectMeshHolder</ref> &gt;</type>
-        <definition>std::shared_ptr&lt;MR::ObjectMeshHolder&gt; MR::BoundarySelectionWidget::selectedHoleObject_</definition>
-        <argsstring></argsstring>
-        <name>selectedHoleObject_</name>
-        <qualifiedname>MR::BoundarySelectionWidget::selectedHoleObject_</qualifiedname>
-        <briefdescription>
-<para>selected hole </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="123" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" bodystart="123" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1BoundarySelectionWidget_1a091c529cc1881738e5e9a85b487527ce" prot="private" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::BoundarySelectionWidget::selectedHoleIndex_</definition>
-        <argsstring></argsstring>
-        <name>selectedHoleIndex_</name>
-        <qualifiedname>MR::BoundarySelectionWidget::selectedHoleIndex_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="124" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" bodystart="124" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1BoundarySelectionWidget_1a5b0aa4b75b2ca8f284e4044598cb7472" prot="private" static="no" mutable="no">
-        <type>std::shared_ptr&lt; <ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">MR::ObjectMeshHolder</ref> &gt;</type>
-        <definition>std::shared_ptr&lt;MR::ObjectMeshHolder&gt; MR::BoundarySelectionWidget::hoveredHoleObject_</definition>
-        <argsstring></argsstring>
-        <name>hoveredHoleObject_</name>
-        <qualifiedname>MR::BoundarySelectionWidget::hoveredHoleObject_</qualifiedname>
-        <briefdescription>
-<para>hovered hole </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="127" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" bodystart="127" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1BoundarySelectionWidget_1a642dc5ca94168866eeffb1520da53c55" prot="private" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::BoundarySelectionWidget::hoveredHoleIndex_</definition>
-        <argsstring></argsstring>
-        <name>hoveredHoleIndex_</name>
-        <qualifiedname>MR::BoundarySelectionWidget::hoveredHoleIndex_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="128" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" bodystart="128" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gad0b0554167c0cfeb405f99427312303b" kind="variable"><name>mouseAccuracy_</name></member>
+      <member refid="group__GeneralGroup_1ga64ee2799e65a11ca91800a4b3ac2438b" kind="variable"><name>isSelectorActive_</name></member>
+      <member refid="group__GeneralGroup_1ga6428361d57177594b66eb99ef3333dd1" kind="variable"><name>holes_</name></member>
+      <member refid="group__GeneralGroup_1gaa32560e1f29e8b74b95ce513829f09a7" kind="variable"><name>holeLines_</name></member>
+      <member refid="group__GeneralGroup_1gacb34d0debf899b9d19a24e5bbd82f468" kind="variable"><name>onMeshChangedSignals_</name></member>
+      <member refid="group__GeneralGroup_1ga348daf65ef6071530b48bee11231ff84" kind="variable"><name>onBoundarySelected_</name></member>
+      <member refid="group__GeneralGroup_1ga5079e952400c556610eca74e84e8cc1f" kind="variable"><name>isObjectValidToPick_</name></member>
+      <member refid="group__GeneralGroup_1ga9dd6eb6b4daa01196e16d9c545b2ac30" kind="variable"><name>selectedHoleObject_</name></member>
+      <member refid="group__GeneralGroup_1ga091c529cc1881738e5e9a85b487527ce" kind="variable"><name>selectedHoleIndex_</name></member>
+      <member refid="group__GeneralGroup_1ga5b0aa4b75b2ca8f284e4044598cb7472" kind="variable"><name>hoveredHoleObject_</name></member>
+      <member refid="group__GeneralGroup_1ga642dc5ca94168866eeffb1520da53c55" kind="variable"><name>hoveredHoleIndex_</name></member>
     </sectiondef>
     <sectiondef kind="friend">
-      <memberdef kind="friend" id="classMR_1_1BoundarySelectionWidget_1a14ed83528f3fdbb996f9d5cf5d86fa55" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>class</type>
-        <definition>friend class ChangeBoundarySelectionHistoryAction</definition>
-        <argsstring></argsstring>
-        <name>ChangeBoundarySelectionHistoryAction</name>
-        <qualifiedname>MR::BoundarySelectionWidget::ChangeBoundarySelectionHistoryAction</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1ChangeBoundarySelectionHistoryAction" kindref="compound">ChangeBoundarySelectionHistoryAction</ref></type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="139" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" bodystart="139" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga14ed83528f3fdbb996f9d5cf5d86fa55" kind="friend"><name>ChangeBoundarySelectionHistoryAction</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1BoundarySelectionWidget_1a15ba8e860be003475b60a8eedc0dc9e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::BoundarySelectionWidget::enable</definition>
-        <argsstring>(bool isEnabled)</argsstring>
-        <name>enable</name>
-        <qualifiedname>MR::BoundarySelectionWidget::enable</qualifiedname>
-        <param>
-          <type>bool</type>
-          <declname>isEnabled</declname>
-        </param>
-        <briefdescription>
-<para>enable or disable widget </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="48" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1BoundarySelectionWidget_1a2c647091ac6951e55adf7ba4a18675ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::BoundarySelectionWidget::create</definition>
-        <argsstring>(BoundarySelectionWidgetCallBack onBoundarySelected, BoundarySelectionWidgetChecker isObjectValidToPick)</argsstring>
-        <name>create</name>
-        <qualifiedname>MR::BoundarySelectionWidget::create</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1BoundarySelectionWidget_1a99966598c20038beae6a6b9c3fdb146d" kindref="member">BoundarySelectionWidgetCallBack</ref></type>
-          <declname>onBoundarySelected</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1BoundarySelectionWidget_1a2e11f1e4737493f7e61b6b3793519373" kindref="member">BoundarySelectionWidgetChecker</ref></type>
-          <declname>isObjectValidToPick</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>create a widget and connect it. To create a widget, you need to provide 1 callbacks and one function that determines whether this object can be used to detect and select boundaries ( holes ). All callback takes a shared pointer to an <ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">MR::ObjectMeshHolder</ref> as an argument. onBoundarySelected: This callback is invoked when a boundary is selected. isObjectValidToPick : Must return true or false. This callback is used to determine whether an object is valid for picking. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="55" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1BoundarySelectionWidget_1afbc86f5613c3dd468b07182608a9aee9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::BoundarySelectionWidget::onObjectChange_</definition>
-        <argsstring>()</argsstring>
-        <name>onObjectChange_</name>
-        <qualifiedname>MR::BoundarySelectionWidget::onObjectChange_</qualifiedname>
-        <briefdescription>
-<para>meshChangedSignal processor </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="61" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1BoundarySelectionWidget_1aa147beb2b8588b8ca21b92d556f7de36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::BoundarySelectionWidget::reset</definition>
-        <argsstring>()</argsstring>
-        <name>reset</name>
-        <qualifiedname>MR::BoundarySelectionWidget::reset</qualifiedname>
-        <briefdescription>
-<para>reset widget, clear internal variables and detach from signals. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="64" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1BoundarySelectionWidget_1af810f64718c8240669bf5db4a5fa8bb1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>MRVIEWER_API bool MR::BoundarySelectionWidget::selectHole</definition>
-        <argsstring>(std::shared_ptr&lt; MR::ObjectMeshHolder &gt; object, int index)</argsstring>
-        <name>selectHole</name>
-        <qualifiedname>MR::BoundarySelectionWidget::selectHole</qualifiedname>
-        <param>
-          <type>std::shared_ptr&lt; <ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">MR::ObjectMeshHolder</ref> &gt;</type>
-          <declname>object</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>index</declname>
-        </param>
-        <briefdescription>
-<para>select one of the holes. Return true on success. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="67" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1BoundarySelectionWidget_1a363ebc98a82ff30b022222e7c8b7c22b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::BoundarySelectionWidget::clear</definition>
-        <argsstring>()</argsstring>
-        <name>clear</name>
-        <qualifiedname>MR::BoundarySelectionWidget::clear</qualifiedname>
-        <briefdescription>
-<para>clear selection </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="70" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1BoundarySelectionWidget_1a64ad1b3ec5b695922aacf3586d722594" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API std::pair&lt; std::shared_ptr&lt; <ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">MR::ObjectMeshHolder</ref> &gt;, EdgeId &gt;</type>
-        <definition>MRVIEWER_API std::pair&lt; std::shared_ptr&lt; MR::ObjectMeshHolder &gt;, EdgeId &gt; MR::BoundarySelectionWidget::getSelectHole</definition>
-        <argsstring>() const</argsstring>
-        <name>getSelectHole</name>
-        <qualifiedname>MR::BoundarySelectionWidget::getSelectHole</qualifiedname>
-        <briefdescription>
-<para>returns pair of selected hole ( in Edge representations) and objects on which particular hole is present </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="73" column="28"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1BoundarySelectionWidget_1a62221533e111fdfcadc62e9a4d91e9ae" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API std::vector&lt; MR::Vector3f &gt;</type>
-        <definition>MRVIEWER_API std::vector&lt; MR::Vector3f &gt; MR::BoundarySelectionWidget::getPointsForSelectedHole</definition>
-        <argsstring>() const</argsstring>
-        <name>getPointsForSelectedHole</name>
-        <qualifiedname>MR::BoundarySelectionWidget::getPointsForSelectedHole</qualifiedname>
-        <briefdescription>
-<para>collect and return vector of points ( verts coord ) for all edges in selected mesh boundary </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="76" column="30"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga15ba8e860be003475b60a8eedc0dc9e9" kind="function"><name>enable</name></member>
+      <member refid="group__GeneralGroup_1ga2c647091ac6951e55adf7ba4a18675ac" kind="function"><name>create</name></member>
+      <member refid="group__GeneralGroup_1gafbc86f5613c3dd468b07182608a9aee9" kind="function"><name>onObjectChange_</name></member>
+      <member refid="group__GeneralGroup_1gaa147beb2b8588b8ca21b92d556f7de36" kind="function"><name>reset</name></member>
+      <member refid="group__GeneralGroup_1gaf810f64718c8240669bf5db4a5fa8bb1" kind="function"><name>selectHole</name></member>
+      <member refid="group__GeneralGroup_1ga363ebc98a82ff30b022222e7c8b7c22b" kind="function"><name>clear</name></member>
+      <member refid="group__GeneralGroup_1ga64ad1b3ec5b695922aacf3586d722594" kind="function"><name>getSelectHole</name></member>
+      <member refid="group__GeneralGroup_1ga62221533e111fdfcadc62e9a4d91e9ae" kind="function"><name>getPointsForSelectedHole</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMR_1_1BoundarySelectionWidget_1aa87d8c0f443cc1a627e1b7d0f95647fd" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>MRVIEWER_API bool MR::BoundarySelectionWidget::onMouseDown_</definition>
-        <argsstring>(MouseButton button, int modifier) override</argsstring>
-        <name>onMouseDown_</name>
-        <qualifiedname>MR::BoundarySelectionWidget::onMouseDown_</qualifiedname>
-        <param>
-          <type><ref refid="namespaceMR_1a13f98b7840e7298925ef1770b7cdb62d" kindref="member">MouseButton</ref></type>
-          <declname>button</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>modifier</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="90" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1BoundarySelectionWidget_1a55670eacf3ce209dbba470d98d6eaac6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>MRVIEWER_API bool MR::BoundarySelectionWidget::onMouseMove_</definition>
-        <argsstring>(int mouse_x, int mouse_y) override</argsstring>
-        <name>onMouseMove_</name>
-        <qualifiedname>MR::BoundarySelectionWidget::onMouseMove_</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>mouse_x</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>mouse_y</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="91" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1BoundarySelectionWidget_1aee201e3a225a21d6c61e48d2d5cd7b4a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="structMR_1_1AncillaryLines" kindref="compound">AncillaryLines</ref></type>
-        <definition>AncillaryLines MR::BoundarySelectionWidget::createAncillaryLines_</definition>
-        <argsstring>(std::shared_ptr&lt; ObjectMeshHolder &gt; &amp;obj, MR::EdgeId hole)</argsstring>
-        <name>createAncillaryLines_</name>
-        <qualifiedname>MR::BoundarySelectionWidget::createAncillaryLines_</qualifiedname>
-        <param>
-          <type>std::shared_ptr&lt; <ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">ObjectMeshHolder</ref> &gt; &amp;</type>
-          <declname>obj</declname>
-        </param>
-        <param>
-          <type>MR::EdgeId</type>
-          <declname>hole</declname>
-        </param>
-        <briefdescription>
-<para>create an ancillaryLines object (polyline) for given mesh hole, for visually preview it </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="94" column="20"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1BoundarySelectionWidget_1a27346298d80532165dadccf7490aff50" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>std::shared_ptr&lt; MR::Polyline3 &gt;</type>
-        <definition>std::shared_ptr&lt; MR::Polyline3 &gt; MR::BoundarySelectionWidget::getHoleBorder_</definition>
-        <argsstring>(const std::shared_ptr&lt; ObjectMeshHolder &gt; obj, EdgeId initEdge)</argsstring>
-        <name>getHoleBorder_</name>
-        <qualifiedname>MR::BoundarySelectionWidget::getHoleBorder_</qualifiedname>
-        <param>
-          <type>const std::shared_ptr&lt; <ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">ObjectMeshHolder</ref> &gt;</type>
-          <declname>obj</declname>
-        </param>
-        <param>
-          <type>EdgeId</type>
-          <declname>initEdge</declname>
-        </param>
-        <briefdescription>
-<para>For given object and hole ( edge representation ), return a polyline around the hole boundary. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="97" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1BoundarySelectionWidget_1a63cd1e01f33e68257066a483220118f0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>std::pair&lt; std::shared_ptr&lt; <ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">MR::ObjectMeshHolder</ref> &gt;, <ref refid="structMR_1_1HoleEdgePoint" kindref="compound">HoleEdgePoint</ref> &gt;</type>
-        <definition>std::pair&lt; std::shared_ptr&lt; MR::ObjectMeshHolder &gt;, HoleEdgePoint &gt; MR::BoundarySelectionWidget::getHoverdHole_</definition>
-        <argsstring>()</argsstring>
-        <name>getHoverdHole_</name>
-        <qualifiedname>MR::BoundarySelectionWidget::getHoverdHole_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Currently it returns the first hole it comes across. Those. if the condition is met for several holes( including holes on different objects ), then the first one available will be selected. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="101" column="15"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1BoundarySelectionWidget_1a45b0f69afb62d315049631c20ce6b363" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::BoundarySelectionWidget::selectHole_</definition>
-        <argsstring>(std::shared_ptr&lt; ObjectMeshHolder &gt; object, int index, bool writeHistory=true)</argsstring>
-        <name>selectHole_</name>
-        <qualifiedname>MR::BoundarySelectionWidget::selectHole_</qualifiedname>
-        <param>
-          <type>std::shared_ptr&lt; <ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">ObjectMeshHolder</ref> &gt;</type>
-          <declname>object</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>index</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>writeHistory</declname>
-          <defval>true</defval>
-        </param>
-        <briefdescription>
-<para>select hole </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="104" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1BoundarySelectionWidget_1a9981c4d01395e5f8cb0c647c177d1a1b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::BoundarySelectionWidget::updateHole_</definition>
-        <argsstring>(std::shared_ptr&lt; MR::ObjectMeshHolder &gt; object, int index, MR::Color color, float lineWidth)</argsstring>
-        <name>updateHole_</name>
-        <qualifiedname>MR::BoundarySelectionWidget::updateHole_</qualifiedname>
-        <param>
-          <type>std::shared_ptr&lt; <ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">MR::ObjectMeshHolder</ref> &gt;</type>
-          <declname>object</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>index</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1Color" kindref="compound">MR::Color</ref></type>
-          <declname>color</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>lineWidth</declname>
-        </param>
-        <briefdescription>
-<para>update color for one of the polylines </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="107" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1BoundarySelectionWidget_1a37e9fc40938d73126d24a1fa77f3fd55" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::BoundarySelectionWidget::actionByPick_</definition>
-        <argsstring>(ActionType actionType)</argsstring>
-        <name>actionByPick_</name>
-        <qualifiedname>MR::BoundarySelectionWidget::actionByPick_</qualifiedname>
-        <param>
-          <type>ActionType</type>
-          <declname>actionType</declname>
-        </param>
-        <briefdescription>
-<para>pick processor, for both mouseDown and MouseMove events. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="116" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1BoundarySelectionWidget_1a952fdc0dffb659d7cfd029d9572d0305" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::BoundarySelectionWidget::isSelectedAndHoveredTheSame_</definition>
-        <argsstring>()</argsstring>
-        <name>isSelectedAndHoveredTheSame_</name>
-        <qualifiedname>MR::BoundarySelectionWidget::isSelectedAndHoveredTheSame_</qualifiedname>
-        <briefdescription>
-<para>return is selected hole hovered at this time or not. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="131" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1BoundarySelectionWidget_1a78087569bcc2610c2410eef4bd0eaecc" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::BoundarySelectionWidget::hoverHole_</definition>
-        <argsstring>(std::shared_ptr&lt; MR::ObjectMeshHolder &gt; object, int index)</argsstring>
-        <name>hoverHole_</name>
-        <qualifiedname>MR::BoundarySelectionWidget::hoverHole_</qualifiedname>
-        <param>
-          <type>std::shared_ptr&lt; <ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">MR::ObjectMeshHolder</ref> &gt;</type>
-          <declname>object</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>index</declname>
-        </param>
-        <briefdescription>
-<para>hover particular hole/ </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="134" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1BoundarySelectionWidget_1a67e3cef9ae6cb947349ed72c696e6c39" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::BoundarySelectionWidget::calculateHoles_</definition>
-        <argsstring>()</argsstring>
-        <name>calculateHoles_</name>
-        <qualifiedname>MR::BoundarySelectionWidget::calculateHoles_</qualifiedname>
-        <briefdescription>
-<para>calculate and store all holes on meshes which allowed by isObjectValidToPick_ callback </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="137" column="10"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaa87d8c0f443cc1a627e1b7d0f95647fd" kind="function"><name>onMouseDown_</name></member>
+      <member refid="group__GeneralGroup_1ga55670eacf3ce209dbba470d98d6eaac6" kind="function"><name>onMouseMove_</name></member>
+      <member refid="group__GeneralGroup_1gaee201e3a225a21d6c61e48d2d5cd7b4a" kind="function"><name>createAncillaryLines_</name></member>
+      <member refid="group__GeneralGroup_1ga27346298d80532165dadccf7490aff50" kind="function"><name>getHoleBorder_</name></member>
+      <member refid="group__GeneralGroup_1ga63cd1e01f33e68257066a483220118f0" kind="function"><name>getHoverdHole_</name></member>
+      <member refid="group__GeneralGroup_1ga45b0f69afb62d315049631c20ce6b363" kind="function"><name>selectHole_</name></member>
+      <member refid="group__GeneralGroup_1ga9981c4d01395e5f8cb0c647c177d1a1b" kind="function"><name>updateHole_</name></member>
+      <member refid="group__GeneralGroup_1ga37e9fc40938d73126d24a1fa77f3fd55" kind="function"><name>actionByPick_</name></member>
+      <member refid="group__GeneralGroup_1ga952fdc0dffb659d7cfd029d9572d0305" kind="function"><name>isSelectedAndHoveredTheSame_</name></member>
+      <member refid="group__GeneralGroup_1ga78087569bcc2610c2410eef4bd0eaecc" kind="function"><name>hoverHole_</name></member>
+      <member refid="group__GeneralGroup_1ga67e3cef9ae6cb947349ed72c696e6c39" kind="function"><name>calculateHoles_</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -751,50 +113,50 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="19" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" bodystart="22" bodyend="140"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="22" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" bodystart="25" bodyend="143"/>
     <listofallmembers>
-      <member refid="classMR_1_1BoundarySelectionWidget_1a37e9fc40938d73126d24a1fa77f3fd55" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>actionByPick_</name></member>
-      <member refid="classMR_1_1BoundarySelectionWidget_1a51f3c6ef514f91229ea9dfdb03f66246" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>ActionType</name></member>
-      <member refid="classMR_1_1BoundarySelectionWidget_1a99966598c20038beae6a6b9c3fdb146d" prot="public" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>BoundarySelectionWidgetCallBack</name></member>
-      <member refid="classMR_1_1BoundarySelectionWidget_1a2e11f1e4737493f7e61b6b3793519373" prot="public" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>BoundarySelectionWidgetChecker</name></member>
-      <member refid="classMR_1_1BoundarySelectionWidget_1a67e3cef9ae6cb947349ed72c696e6c39" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>calculateHoles_</name></member>
-      <member refid="classMR_1_1BoundarySelectionWidget_1a14ed83528f3fdbb996f9d5cf5d86fa55" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>ChangeBoundarySelectionHistoryAction</name></member>
-      <member refid="classMR_1_1BoundarySelectionWidget_1a363ebc98a82ff30b022222e7c8b7c22b" prot="public" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>clear</name></member>
-      <member refid="structMR_1_1MultiListener_1af3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::BoundarySelectionWidget</scope><name>connect</name></member>
-      <member refid="classMR_1_1BoundarySelectionWidget_1a2c647091ac6951e55adf7ba4a18675ac" prot="public" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>create</name></member>
-      <member refid="classMR_1_1BoundarySelectionWidget_1aee201e3a225a21d6c61e48d2d5cd7b4a" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>createAncillaryLines_</name></member>
-      <member refid="structMR_1_1MultiListener_1acfa598489bfbc3b88c84b029213d042c" prot="public" virt="virtual"><scope>MR::BoundarySelectionWidget</scope><name>disconnect</name></member>
-      <member refid="classMR_1_1BoundarySelectionWidget_1a15ba8e860be003475b60a8eedc0dc9e9" prot="public" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>enable</name></member>
-      <member refid="classMR_1_1BoundarySelectionWidget_1a27346298d80532165dadccf7490aff50" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>getHoleBorder_</name></member>
-      <member refid="classMR_1_1BoundarySelectionWidget_1a63cd1e01f33e68257066a483220118f0" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>getHoverdHole_</name></member>
-      <member refid="classMR_1_1BoundarySelectionWidget_1a62221533e111fdfcadc62e9a4d91e9ae" prot="public" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>getPointsForSelectedHole</name></member>
-      <member refid="classMR_1_1BoundarySelectionWidget_1a64ad1b3ec5b695922aacf3586d722594" prot="public" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>getSelectHole</name></member>
-      <member refid="classMR_1_1BoundarySelectionWidget_1aa32560e1f29e8b74b95ce513829f09a7" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>holeLines_</name></member>
-      <member refid="classMR_1_1BoundarySelectionWidget_1a6428361d57177594b66eb99ef3333dd1" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>holes_</name></member>
-      <member refid="classMR_1_1BoundarySelectionWidget_1a9e3aafe476e30d362b2b0070a6ce21c6" prot="public" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>HolesOnObject</name></member>
-      <member refid="classMR_1_1BoundarySelectionWidget_1a642dc5ca94168866eeffb1520da53c55" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>hoveredHoleIndex_</name></member>
-      <member refid="classMR_1_1BoundarySelectionWidget_1a5b0aa4b75b2ca8f284e4044598cb7472" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>hoveredHoleObject_</name></member>
-      <member refid="classMR_1_1BoundarySelectionWidget_1a78087569bcc2610c2410eef4bd0eaecc" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>hoverHole_</name></member>
-      <member refid="classMR_1_1BoundarySelectionWidget_1a5079e952400c556610eca74e84e8cc1f" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>isObjectValidToPick_</name></member>
-      <member refid="classMR_1_1BoundarySelectionWidget_1a952fdc0dffb659d7cfd029d9572d0305" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>isSelectedAndHoveredTheSame_</name></member>
-      <member refid="classMR_1_1BoundarySelectionWidget_1a64ee2799e65a11ca91800a4b3ac2438b" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>isSelectorActive_</name></member>
-      <member refid="classMR_1_1BoundarySelectionWidget_1ad0b0554167c0cfeb405f99427312303b" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>mouseAccuracy_</name></member>
-      <member refid="classMR_1_1BoundarySelectionWidget_1a348daf65ef6071530b48bee11231ff84" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>onBoundarySelected_</name></member>
-      <member refid="classMR_1_1BoundarySelectionWidget_1acb34d0debf899b9d19a24e5bbd82f468" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>onMeshChangedSignals_</name></member>
-      <member refid="classMR_1_1BoundarySelectionWidget_1aa87d8c0f443cc1a627e1b7d0f95647fd" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>onMouseDown_</name></member>
-      <member refid="classMR_1_1BoundarySelectionWidget_1a55670eacf3ce209dbba470d98d6eaac6" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>onMouseMove_</name></member>
-      <member refid="classMR_1_1BoundarySelectionWidget_1afbc86f5613c3dd468b07182608a9aee9" prot="public" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>onObjectChange_</name></member>
-      <member refid="classMR_1_1BoundarySelectionWidget_1a796e4b16dbeedd9624f6ac7faaf7fd93" prot="public" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>params</name></member>
-      <member refid="classMR_1_1BoundarySelectionWidget_1ab4f86167c1457d09cd461a0d8a7f4ce1" prot="public" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>PerObjectHoles</name></member>
-      <member refid="classMR_1_1BoundarySelectionWidget_1a2f69c3bd828d0e6845a71bce194419df" prot="public" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>PerObjectHolesPolylines</name></member>
-      <member refid="classMR_1_1BoundarySelectionWidget_1a2f67030fd7e0d0dc13eeb84d29585009" prot="public" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>PerObjectMeshChangedSignals</name></member>
-      <member refid="classMR_1_1BoundarySelectionWidget_1aa147beb2b8588b8ca21b92d556f7de36" prot="public" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>reset</name></member>
-      <member refid="classMR_1_1BoundarySelectionWidget_1a091c529cc1881738e5e9a85b487527ce" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>selectedHoleIndex_</name></member>
-      <member refid="classMR_1_1BoundarySelectionWidget_1a9dd6eb6b4daa01196e16d9c545b2ac30" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>selectedHoleObject_</name></member>
-      <member refid="classMR_1_1BoundarySelectionWidget_1af810f64718c8240669bf5db4a5fa8bb1" prot="public" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>selectHole</name></member>
-      <member refid="classMR_1_1BoundarySelectionWidget_1a45b0f69afb62d315049631c20ce6b363" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>selectHole_</name></member>
-      <member refid="classMR_1_1BoundarySelectionWidget_1a9981c4d01395e5f8cb0c647c177d1a1b" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>updateHole_</name></member>
-      <member refid="structMR_1_1MultiListener_1a726f5e2601b7f25e31824a0cac630fb2" prot="public" virt="virtual"><scope>MR::BoundarySelectionWidget</scope><name>~MultiListener</name></member>
+      <member refid="group__GeneralGroup_1ga37e9fc40938d73126d24a1fa77f3fd55" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>actionByPick_</name></member>
+      <member refid="group__GeneralGroup_1ga51f3c6ef514f91229ea9dfdb03f66246" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>ActionType</name></member>
+      <member refid="group__GeneralGroup_1ga99966598c20038beae6a6b9c3fdb146d" prot="public" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>BoundarySelectionWidgetCallBack</name></member>
+      <member refid="group__GeneralGroup_1ga2e11f1e4737493f7e61b6b3793519373" prot="public" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>BoundarySelectionWidgetChecker</name></member>
+      <member refid="group__GeneralGroup_1ga67e3cef9ae6cb947349ed72c696e6c39" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>calculateHoles_</name></member>
+      <member refid="group__GeneralGroup_1ga14ed83528f3fdbb996f9d5cf5d86fa55" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>ChangeBoundarySelectionHistoryAction</name></member>
+      <member refid="group__GeneralGroup_1ga363ebc98a82ff30b022222e7c8b7c22b" prot="public" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>clear</name></member>
+      <member refid="group__GeneralGroup_1gaf3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::BoundarySelectionWidget</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1ga2c647091ac6951e55adf7ba4a18675ac" prot="public" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>create</name></member>
+      <member refid="group__GeneralGroup_1gaee201e3a225a21d6c61e48d2d5cd7b4a" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>createAncillaryLines_</name></member>
+      <member refid="group__GeneralGroup_1gacfa598489bfbc3b88c84b029213d042c" prot="public" virt="virtual"><scope>MR::BoundarySelectionWidget</scope><name>disconnect</name></member>
+      <member refid="group__GeneralGroup_1ga15ba8e860be003475b60a8eedc0dc9e9" prot="public" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>enable</name></member>
+      <member refid="group__GeneralGroup_1ga27346298d80532165dadccf7490aff50" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>getHoleBorder_</name></member>
+      <member refid="group__GeneralGroup_1ga63cd1e01f33e68257066a483220118f0" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>getHoverdHole_</name></member>
+      <member refid="group__GeneralGroup_1ga62221533e111fdfcadc62e9a4d91e9ae" prot="public" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>getPointsForSelectedHole</name></member>
+      <member refid="group__GeneralGroup_1ga64ad1b3ec5b695922aacf3586d722594" prot="public" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>getSelectHole</name></member>
+      <member refid="group__GeneralGroup_1gaa32560e1f29e8b74b95ce513829f09a7" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>holeLines_</name></member>
+      <member refid="group__GeneralGroup_1ga6428361d57177594b66eb99ef3333dd1" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>holes_</name></member>
+      <member refid="group__GeneralGroup_1ga9e3aafe476e30d362b2b0070a6ce21c6" prot="public" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>HolesOnObject</name></member>
+      <member refid="group__GeneralGroup_1ga642dc5ca94168866eeffb1520da53c55" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>hoveredHoleIndex_</name></member>
+      <member refid="group__GeneralGroup_1ga5b0aa4b75b2ca8f284e4044598cb7472" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>hoveredHoleObject_</name></member>
+      <member refid="group__GeneralGroup_1ga78087569bcc2610c2410eef4bd0eaecc" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>hoverHole_</name></member>
+      <member refid="group__GeneralGroup_1ga5079e952400c556610eca74e84e8cc1f" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>isObjectValidToPick_</name></member>
+      <member refid="group__GeneralGroup_1ga952fdc0dffb659d7cfd029d9572d0305" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>isSelectedAndHoveredTheSame_</name></member>
+      <member refid="group__GeneralGroup_1ga64ee2799e65a11ca91800a4b3ac2438b" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>isSelectorActive_</name></member>
+      <member refid="group__GeneralGroup_1gad0b0554167c0cfeb405f99427312303b" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>mouseAccuracy_</name></member>
+      <member refid="group__GeneralGroup_1ga348daf65ef6071530b48bee11231ff84" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>onBoundarySelected_</name></member>
+      <member refid="group__GeneralGroup_1gacb34d0debf899b9d19a24e5bbd82f468" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>onMeshChangedSignals_</name></member>
+      <member refid="group__GeneralGroup_1gaa87d8c0f443cc1a627e1b7d0f95647fd" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>onMouseDown_</name></member>
+      <member refid="group__GeneralGroup_1ga55670eacf3ce209dbba470d98d6eaac6" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>onMouseMove_</name></member>
+      <member refid="group__GeneralGroup_1gafbc86f5613c3dd468b07182608a9aee9" prot="public" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>onObjectChange_</name></member>
+      <member refid="group__GeneralGroup_1ga796e4b16dbeedd9624f6ac7faaf7fd93" prot="public" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>params</name></member>
+      <member refid="group__GeneralGroup_1gab4f86167c1457d09cd461a0d8a7f4ce1" prot="public" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>PerObjectHoles</name></member>
+      <member refid="group__GeneralGroup_1ga2f69c3bd828d0e6845a71bce194419df" prot="public" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>PerObjectHolesPolylines</name></member>
+      <member refid="group__GeneralGroup_1ga2f67030fd7e0d0dc13eeb84d29585009" prot="public" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>PerObjectMeshChangedSignals</name></member>
+      <member refid="group__GeneralGroup_1gaa147beb2b8588b8ca21b92d556f7de36" prot="public" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>reset</name></member>
+      <member refid="group__GeneralGroup_1ga091c529cc1881738e5e9a85b487527ce" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>selectedHoleIndex_</name></member>
+      <member refid="group__GeneralGroup_1ga9dd6eb6b4daa01196e16d9c545b2ac30" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>selectedHoleObject_</name></member>
+      <member refid="group__GeneralGroup_1gaf810f64718c8240669bf5db4a5fa8bb1" prot="public" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>selectHole</name></member>
+      <member refid="group__GeneralGroup_1ga45b0f69afb62d315049631c20ce6b363" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>selectHole_</name></member>
+      <member refid="group__GeneralGroup_1ga9981c4d01395e5f8cb0c647c177d1a1b" prot="private" virt="non-virtual"><scope>MR::BoundarySelectionWidget</scope><name>updateHole_</name></member>
+      <member refid="group__GeneralGroup_1ga726f5e2601b7f25e31824a0cac630fb2" prot="public" virt="virtual"><scope>MR::BoundarySelectionWidget</scope><name>~MultiListener</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

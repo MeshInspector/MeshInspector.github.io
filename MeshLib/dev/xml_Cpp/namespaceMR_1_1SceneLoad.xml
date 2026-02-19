@@ -6,7 +6,7 @@
     <innerclass refid="structMR_1_1SceneLoad_1_1Settings" prot="public">MR::SceneLoad::Settings</innerclass>
     <sectiondef kind="typedef">
       <memberdef kind="typedef" id="namespaceMR_1_1SceneLoad_1a0b87b3918d63624f559f15d25ecb9c3a" prot="public" static="no">
-        <type><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="namespaceMR_1a817cc816192c1d84ef3abb186f9ea3a1" kindref="member">LoadedObject</ref> &gt;(*)(const std::filesystem::path &amp;, const <ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref> &amp;)</type>
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="group__GeneralGroup_1ga817cc816192c1d84ef3abb186f9ea3a1" kindref="member">LoadedObject</ref> &gt;(*)(const std::filesystem::path &amp;, const ProgressCallback &amp;)</type>
         <definition>using MR::SceneLoad::SceneLoader =  Expected&lt;LoadedObject&gt;( * )( const std::filesystem::path&amp;, const ProgressCallback&amp; )</definition>
         <argsstring></argsstring>
         <name>SceneLoader</name>
@@ -37,7 +37,7 @@
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="namespaceMR_1_1SceneLoad_1ac487a300831be5cc92806c51ce12f922" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="structMR_1_1SceneLoad_1_1Result" kindref="compound">Result</ref></type>
+        <type>MRMESH_API <ref refid="structMR_1_1SceneLoad_1_1Result" kindref="compound">Result</ref></type>
         <definition>MRMESH_API Result MR::SceneLoad::fromAnySupportedFormat</definition>
         <argsstring>(const std::vector&lt; std::filesystem::path &gt; &amp;files, const Settings &amp;settings={})</argsstring>
         <name>fromAnySupportedFormat</name>
@@ -61,7 +61,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneLoad.h" line="44" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneLoad.h" declline="44" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1SceneLoad_1adf9736b6c4eba76b43a108d16f183036" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <type>MRMESH_API void</type>
         <definition>MRMESH_API void MR::SceneLoad::asyncFromAnySupportedFormat</definition>
         <argsstring>(const std::vector&lt; std::filesystem::path &gt; &amp;files, const PostLoadCallback &amp;postLoadCallback, const Settings &amp;settings={})</argsstring>
         <name>asyncFromAnySupportedFormat</name>

@@ -4,101 +4,14 @@
     <compoundname>MR::Viewport::PickRenderObjectParams</compoundname>
     <includes refid="MRViewport_8h" local="no">MRViewport.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1Viewport_1_1PickRenderObjectParams_1af55c401102e507d9640c49fce0276911" prot="public" static="no" mutable="no">
-        <type>std::optional&lt; Vector2f &gt;</type>
-        <definition>std::optional&lt;Vector2f&gt; MR::Viewport::PickRenderObjectParams::point</definition>
-        <argsstring></argsstring>
-        <name>point</name>
-        <qualifiedname>MR::Viewport::PickRenderObjectParams::point</qualifiedname>
-        <briefdescription>
-<para>If specified, this is the target screen point. Otherwise use the mouse pos in viewport coordinates. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewport.h" line="189" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewport.h" bodystart="189" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1Viewport_1_1PickRenderObjectParams_1a0522dd8b3c54c93dfc03d9c91c9901ac" prot="public" static="no" mutable="no">
-        <type><ref refid="classMR_1_1Viewport_1a2ee75851f20f8798cdefa740b799b467" kindref="member">PickRenderObjectPredicate</ref></type>
-        <definition>PickRenderObjectPredicate MR::Viewport::PickRenderObjectParams::predicate</definition>
-        <argsstring></argsstring>
-        <name>predicate</name>
-        <qualifiedname>MR::Viewport::PickRenderObjectParams::predicate</qualifiedname>
-        <briefdescription>
-<para>Predicate to additionally filter objects that should be treated as pickable. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewport.h" line="192" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewport.h" bodystart="192" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1Viewport_1_1PickRenderObjectParams_1a0268e6c311706ff818e5710062d504fb" prot="public" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::Viewport::PickRenderObjectParams::pickRadius</definition>
-        <argsstring></argsstring>
-        <name>pickRadius</name>
-        <qualifiedname>MR::Viewport::PickRenderObjectParams::pickRadius</qualifiedname>
-        <initializer>= -1</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Radius (in pixels) of a picking area. &lt;0 defaults to <computeroutput><ref refid="namespaceMR_1a3e7c908172571071d6796d054d25a4f4" kindref="member">getViewerInstance()</ref>.glPickRadius</computeroutput>. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewport.h" line="196" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewport.h" bodystart="196" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1Viewport_1_1PickRenderObjectParams_1a0c05a407695c3bccd5b990b26ecdde96" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::Viewport::PickRenderObjectParams::exactPickFirst</definition>
-        <argsstring></argsstring>
-        <name>exactPickFirst</name>
-        <qualifiedname>MR::Viewport::PickRenderObjectParams::exactPickFirst</qualifiedname>
-        <initializer>= true</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Usually, from several objects that fall into the peak, the closest one along the ray is selected. However, if exactPickFirst = true, then the object in which the pick exactly fell (for example, a point in point cloud) will be returned as the result, even if there are others within the radius, including closer objects. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewport.h" line="200" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewport.h" bodystart="200" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1Viewport_1_1PickRenderObjectParams_1ae36ec72eafffc8aa02f03a6a2cae2877" prot="public" static="no" mutable="no">
-        <type>const <ref refid="structMR_1_1BaseRenderParams" kindref="compound">BaseRenderParams</ref> *</type>
-        <definition>const BaseRenderParams* MR::Viewport::PickRenderObjectParams::baseRenderParams</definition>
-        <argsstring></argsstring>
-        <name>baseRenderParams</name>
-        <qualifiedname>MR::Viewport::PickRenderObjectParams::baseRenderParams</qualifiedname>
-        <initializer>{ nullptr }</initializer>
-        <briefdescription>
-<para>if not nullptr it can override render params for picker </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewport.h" line="203" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewport.h" bodystart="203" bodyend="203"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaf55c401102e507d9640c49fce0276911" kind="variable"><name>point</name></member>
+      <member refid="group__GeneralGroup_1ga0522dd8b3c54c93dfc03d9c91c9901ac" kind="variable"><name>predicate</name></member>
+      <member refid="group__GeneralGroup_1ga0268e6c311706ff818e5710062d504fb" kind="variable"><name>pickRadius</name></member>
+      <member refid="group__GeneralGroup_1ga0c05a407695c3bccd5b990b26ecdde96" kind="variable"><name>exactPickFirst</name></member>
+      <member refid="group__GeneralGroup_1gae36ec72eafffc8aa02f03a6a2cae2877" kind="variable"><name>baseRenderParams</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="structMR_1_1Viewport_1_1PickRenderObjectParams_1a12555ed5effec0f6d17edfe0508f0658" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Viewport_1_1PickRenderObjectParams" kindref="compound">PickRenderObjectParams</ref></type>
-        <definition>static PickRenderObjectParams MR::Viewport::PickRenderObjectParams::defaults</definition>
-        <argsstring>()</argsstring>
-        <name>defaults</name>
-        <qualifiedname>MR::Viewport::PickRenderObjectParams::defaults</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>This will always return <computeroutput>{}</computeroutput>. We need the functions because <computeroutput>= {}</computeroutput> can&apos;t be used directly inside default arguments in the same class. You don&apos;t have to use this function. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewport.h" line="208" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewport.h" bodystart="208" bodyend="211"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga12555ed5effec0f6d17edfe0508f0658" kind="function"><name>defaults</name></member>
     </sectiondef>
     <briefdescription>
 <para>Point picking parameters. </para>
@@ -125,14 +38,14 @@
         <link refid="classMR_1_1ViewportId"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewport.h" line="186" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewport.h" bodystart="187" bodyend="212"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewport.h" line="189" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewport.h" bodystart="190" bodyend="215"/>
     <listofallmembers>
-      <member refid="structMR_1_1Viewport_1_1PickRenderObjectParams_1ae36ec72eafffc8aa02f03a6a2cae2877" prot="public" virt="non-virtual"><scope>MR::Viewport::PickRenderObjectParams</scope><name>baseRenderParams</name></member>
-      <member refid="structMR_1_1Viewport_1_1PickRenderObjectParams_1a12555ed5effec0f6d17edfe0508f0658" prot="public" virt="non-virtual"><scope>MR::Viewport::PickRenderObjectParams</scope><name>defaults</name></member>
-      <member refid="structMR_1_1Viewport_1_1PickRenderObjectParams_1a0c05a407695c3bccd5b990b26ecdde96" prot="public" virt="non-virtual"><scope>MR::Viewport::PickRenderObjectParams</scope><name>exactPickFirst</name></member>
-      <member refid="structMR_1_1Viewport_1_1PickRenderObjectParams_1a0268e6c311706ff818e5710062d504fb" prot="public" virt="non-virtual"><scope>MR::Viewport::PickRenderObjectParams</scope><name>pickRadius</name></member>
-      <member refid="structMR_1_1Viewport_1_1PickRenderObjectParams_1af55c401102e507d9640c49fce0276911" prot="public" virt="non-virtual"><scope>MR::Viewport::PickRenderObjectParams</scope><name>point</name></member>
-      <member refid="structMR_1_1Viewport_1_1PickRenderObjectParams_1a0522dd8b3c54c93dfc03d9c91c9901ac" prot="public" virt="non-virtual"><scope>MR::Viewport::PickRenderObjectParams</scope><name>predicate</name></member>
+      <member refid="group__GeneralGroup_1gae36ec72eafffc8aa02f03a6a2cae2877" prot="public" virt="non-virtual"><scope>MR::Viewport::PickRenderObjectParams</scope><name>baseRenderParams</name></member>
+      <member refid="group__GeneralGroup_1ga12555ed5effec0f6d17edfe0508f0658" prot="public" virt="non-virtual"><scope>MR::Viewport::PickRenderObjectParams</scope><name>defaults</name></member>
+      <member refid="group__GeneralGroup_1ga0c05a407695c3bccd5b990b26ecdde96" prot="public" virt="non-virtual"><scope>MR::Viewport::PickRenderObjectParams</scope><name>exactPickFirst</name></member>
+      <member refid="group__GeneralGroup_1ga0268e6c311706ff818e5710062d504fb" prot="public" virt="non-virtual"><scope>MR::Viewport::PickRenderObjectParams</scope><name>pickRadius</name></member>
+      <member refid="group__GeneralGroup_1gaf55c401102e507d9640c49fce0276911" prot="public" virt="non-virtual"><scope>MR::Viewport::PickRenderObjectParams</scope><name>point</name></member>
+      <member refid="group__GeneralGroup_1ga0522dd8b3c54c93dfc03d9c91c9901ac" prot="public" virt="non-virtual"><scope>MR::Viewport::PickRenderObjectParams</scope><name>predicate</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

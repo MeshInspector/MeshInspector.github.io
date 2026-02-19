@@ -4,781 +4,95 @@
     <compoundname>MR::Config</compoundname>
     <includes refid="MRConfig_8h" local="no">MRConfig.h</includes>
     <sectiondef kind="public-type">
-      <memberdef kind="typedef" id="classMR_1_1Config_1a3933d06b4e35a4f309cff393747e1f2f" prot="public" static="no">
-        <type>std::vector&lt; const char * &gt;</type>
-        <definition>typedef std::vector&lt;const char*&gt; MR::Config::Enum</definition>
-        <argsstring></argsstring>
-        <name>Enum</name>
-        <qualifiedname>MR::Config::Enum</qualifiedname>
-        <briefdescription>
-<para>Description of a enumeration as a map between [0...N) and N strings. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" line="87" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" bodystart="87" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga3933d06b4e35a4f309cff393747e1f2f" kind="typedef"><name>Enum</name></member>
     </sectiondef>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1Config_1a725767207fa5bd85d2919a3d791fa760" prot="private" static="no" mutable="no">
-        <type>std::string</type>
-        <definition>std::string MR::Config::appName_</definition>
-        <argsstring></argsstring>
-        <name>appName_</name>
-        <qualifiedname>MR::Config::appName_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" line="118" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" bodystart="118" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1Config_1a967c2d6969b21a91b073cea0112134e8" prot="private" static="no" mutable="no">
-        <type>Json::Value</type>
-        <definition>Json::Value MR::Config::config_</definition>
-        <argsstring></argsstring>
-        <name>config_</name>
-        <qualifiedname>MR::Config::config_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" line="120" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" bodystart="120" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1Config_1a67455501f76e21a4f415d860c1ce9991" prot="private" static="no" mutable="no">
-        <type>std::filesystem::path</type>
-        <definition>std::filesystem::path MR::Config::filePath_</definition>
-        <argsstring></argsstring>
-        <name>filePath_</name>
-        <qualifiedname>MR::Config::filePath_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" line="121" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" bodystart="121" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1Config_1afa98e70c188af9b2cc8eb680fe4dd230" prot="private" static="no" mutable="no">
-        <type>std::shared_ptr&lt; spdlog::logger &gt;</type>
-        <definition>std::shared_ptr&lt;spdlog::logger&gt; MR::Config::loggerHandle_</definition>
-        <argsstring></argsstring>
-        <name>loggerHandle_</name>
-        <qualifiedname>MR::Config::loggerHandle_</qualifiedname>
-        <initializer>= <ref refid="classMR_1_1Logger_1aac7549309d09f2c9a41818a18c1b0e50" kindref="member">Logger::instance</ref>().getSpdLogger()</initializer>
-        <briefdescription>
-<para>prolong logger life </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" line="123" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" bodystart="123" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga725767207fa5bd85d2919a3d791fa760" kind="variable"><name>appName_</name></member>
+      <member refid="group__GeneralGroup_1ga967c2d6969b21a91b073cea0112134e8" kind="variable"><name>config_</name></member>
+      <member refid="group__GeneralGroup_1ga67455501f76e21a4f415d860c1ce9991" kind="variable"><name>filePath_</name></member>
+      <member refid="group__GeneralGroup_1gafa98e70c188af9b2cc8eb680fe4dd230" kind="variable"><name>loggerHandle_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1Config_1af88a45374cdd7fba22942c053afb27e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::Config::Config</definition>
-        <argsstring>(Config const &amp;)=delete</argsstring>
-        <name>Config</name>
-        <qualifiedname>MR::Config::Config</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Config" kindref="compound">Config</ref> const &amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" line="20" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Config_1ae8bd5243efd5066d7b24657c23126e25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::Config::operator=</definition>
-        <argsstring>(Config const &amp;)=delete</argsstring>
-        <name>operator=</name>
-        <qualifiedname>MR::Config::operator=</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Config" kindref="compound">Config</ref> const &amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" line="21" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Config_1a3b36a74eccd9dd120a1e85983e8f64e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::Config::reset</definition>
-        <argsstring>(std::string appName)</argsstring>
-        <name>reset</name>
-        <qualifiedname>MR::Config::reset</qualifiedname>
-        <param>
-          <type>std::string</type>
-          <declname>appName</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>looks up (~/.local/share/&lt;appname&gt;/config.json) or (AppData&lt;appname&gt;\config.json) creates directory if not presented </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" line="27" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Config_1a764b20b21302265b3e6dd60b2efdf035" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> const std::string &amp;</type>
-        <definition>MRMESH_API const std::string &amp; MR::Config::getAppName</definition>
-        <argsstring>() const</argsstring>
-        <name>getAppName</name>
-        <qualifiedname>MR::Config::getAppName</qualifiedname>
-        <briefdescription>
-<para>the name of the application, UTF8 encoded </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" line="30" column="34"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Config_1a4a1325795e653a33c4f91ca425c6eeca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::Config::writeToFile</definition>
-        <argsstring>()</argsstring>
-        <name>writeToFile</name>
-        <qualifiedname>MR::Config::writeToFile</qualifiedname>
-        <briefdescription>
-<para>writes current config to file. (implicitly called from destructor) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" line="33" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Config_1a7b31d052c0355b2163f1faf7ad8f42c9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
-        <definition>MRMESH_API bool MR::Config::hasBool</definition>
-        <argsstring>(const std::string &amp;key) const</argsstring>
-        <name>hasBool</name>
-        <qualifiedname>MR::Config::hasBool</qualifiedname>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>key</declname>
-        </param>
-        <briefdescription>
-<para>returns true if MRColor with presented key exists </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" line="49" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Config_1a1a1c1e3afa9a60434b3b7a17eaa402c4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
-        <definition>MRMESH_API bool MR::Config::getBool</definition>
-        <argsstring>(const std::string &amp;key, bool defaultValue=false) const</argsstring>
-        <name>getBool</name>
-        <qualifiedname>MR::Config::getBool</qualifiedname>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>key</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>defaultValue</declname>
-          <defval>false</defval>
-        </param>
-        <briefdescription>
-<para>returns MRColor with presented key </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" line="52" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Config_1ae57d1ec5709dc7fc1a7115f4f745955d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::Config::setBool</definition>
-        <argsstring>(const std::string &amp;key, bool keyValue)</argsstring>
-        <name>setBool</name>
-        <qualifiedname>MR::Config::setBool</qualifiedname>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>key</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>keyValue</declname>
-        </param>
-        <briefdescription>
-<para>sets MRColor for presented key </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" line="55" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Config_1a3bf71462e37500b8f9256e88b11c074f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
-        <definition>MRMESH_API bool MR::Config::hasColor</definition>
-        <argsstring>(const std::string &amp;key) const</argsstring>
-        <name>hasColor</name>
-        <qualifiedname>MR::Config::hasColor</qualifiedname>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>key</declname>
-        </param>
-        <briefdescription>
-<para>returns true if MRColor with presented key exists </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" line="59" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Config_1a264c1a7b8aa598635f2500ae12c29606" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="structMR_1_1Color" kindref="compound">Color</ref></type>
-        <definition>MRMESH_API Color MR::Config::getColor</definition>
-        <argsstring>(const std::string &amp;key, const Color &amp;defaultValue=Color::black()) const</argsstring>
-        <name>getColor</name>
-        <qualifiedname>MR::Config::getColor</qualifiedname>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>key</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &amp;</type>
-          <declname>defaultValue</declname>
-          <defval><ref refid="structMR_1_1Color_1a5596c66211faa167983f60fb9c684e0c" kindref="member">Color::black</ref>()</defval>
-        </param>
-        <briefdescription>
-<para>returns MRColor with presented key </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" line="62" column="22"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Config_1aefbf21b76d9f87667c9313e310f8fe9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::Config::setColor</definition>
-        <argsstring>(const std::string &amp;key, const Color &amp;keyValue)</argsstring>
-        <name>setColor</name>
-        <qualifiedname>MR::Config::setColor</qualifiedname>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>key</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &amp;</type>
-          <declname>keyValue</declname>
-        </param>
-        <briefdescription>
-<para>sets MRColor for presented key </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" line="65" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Config_1abd89bc044490d3a6dea5d252632a4303" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
-        <definition>MRMESH_API bool MR::Config::hasFileStack</definition>
-        <argsstring>(const std::string &amp;key) const</argsstring>
-        <name>hasFileStack</name>
-        <qualifiedname>MR::Config::hasFileStack</qualifiedname>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>key</declname>
-        </param>
-        <briefdescription>
-<para>returns true if &apos;recently used&apos; files exist </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" line="68" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Config_1aad8c7c3589d77d0ed1c091938cd14ca9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="namespaceMR_1abf9e7451b5087b4485b6207161438dc3" kindref="member">FileNamesStack</ref></type>
-        <definition>MRMESH_API FileNamesStack MR::Config::getFileStack</definition>
-        <argsstring>(const std::string &amp;key, const FileNamesStack &amp;defaultValue=FileNamesStack()) const</argsstring>
-        <name>getFileStack</name>
-        <qualifiedname>MR::Config::getFileStack</qualifiedname>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>key</declname>
-        </param>
-        <param>
-          <type>const <ref refid="namespaceMR_1abf9e7451b5087b4485b6207161438dc3" kindref="member">FileNamesStack</ref> &amp;</type>
-          <declname>defaultValue</declname>
-          <defval><ref refid="namespaceMR_1abf9e7451b5087b4485b6207161438dc3" kindref="member">FileNamesStack</ref>()</defval>
-        </param>
-        <briefdescription>
-<para>returns &apos;recently used&apos; files list </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" line="71" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Config_1ae9eaec2c0bade737afbf64156d5a6ca8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::Config::setFileStack</definition>
-        <argsstring>(const std::string &amp;key, const FileNamesStack &amp;keyValue)</argsstring>
-        <name>setFileStack</name>
-        <qualifiedname>MR::Config::setFileStack</qualifiedname>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>key</declname>
-        </param>
-        <param>
-          <type>const <ref refid="namespaceMR_1abf9e7451b5087b4485b6207161438dc3" kindref="member">FileNamesStack</ref> &amp;</type>
-          <declname>keyValue</declname>
-        </param>
-        <briefdescription>
-<para>sets &apos;recently used&apos; files list </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" line="74" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Config_1a45debdd9e18e1b014caa6a4d1e5eaf16" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
-        <definition>MRMESH_API bool MR::Config::hasVector2i</definition>
-        <argsstring>(const std::string &amp;key) const</argsstring>
-        <name>hasVector2i</name>
-        <qualifiedname>MR::Config::hasVector2i</qualifiedname>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>key</declname>
-        </param>
-        <briefdescription>
-<para>returns true if Vector2i with presented key exists </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" line="78" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Config_1ad4dcac4813e83411f9ae165484a09b3a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Vector2i</type>
-        <definition>MRMESH_API Vector2i MR::Config::getVector2i</definition>
-        <argsstring>(const std::string &amp;key, const Vector2i &amp;defaultValue=Vector2i()) const</argsstring>
-        <name>getVector2i</name>
-        <qualifiedname>MR::Config::getVector2i</qualifiedname>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>key</declname>
-        </param>
-        <param>
-          <type>const Vector2i &amp;</type>
-          <declname>defaultValue</declname>
-          <defval>Vector2i()</defval>
-        </param>
-        <briefdescription>
-<para>returns Vector2i with presented key </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" line="81" column="25"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Config_1a5ef95eaf5b26a137a149705ac0698155" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::Config::setVector2i</definition>
-        <argsstring>(const std::string &amp;key, const Vector2i &amp;keyValue)</argsstring>
-        <name>setVector2i</name>
-        <qualifiedname>MR::Config::setVector2i</qualifiedname>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>key</declname>
-        </param>
-        <param>
-          <type>const Vector2i &amp;</type>
-          <declname>keyValue</declname>
-        </param>
-        <briefdescription>
-<para>sets Vector2i for presented key </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" line="84" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Config_1aef03ecb5f0b0ec79bd9f52d4ed8f82e4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
-        <definition>MRMESH_API bool MR::Config::hasEnum</definition>
-        <argsstring>(const Enum &amp;enumeration, const std::string &amp;key) const</argsstring>
-        <name>hasEnum</name>
-        <qualifiedname>MR::Config::hasEnum</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1Config_1a3933d06b4e35a4f309cff393747e1f2f" kindref="member">Enum</ref> &amp;</type>
-          <declname>enumeration</declname>
-        </param>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>key</declname>
-        </param>
-        <briefdescription>
-<para>returns true if given enumeration value with this key exists and is correct </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" line="91" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Config_1a74e68ee927a517e8d641aa7dbaa0a3e6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> int</type>
-        <definition>MRMESH_API int MR::Config::getEnum</definition>
-        <argsstring>(const Enum &amp;enumeration, const std::string &amp;key, int defaultValue=0) const</argsstring>
-        <name>getEnum</name>
-        <qualifiedname>MR::Config::getEnum</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1Config_1a3933d06b4e35a4f309cff393747e1f2f" kindref="member">Enum</ref> &amp;</type>
-          <declname>enumeration</declname>
-        </param>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>key</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>defaultValue</declname>
-          <defval>0</defval>
-        </param>
-        <briefdescription>
-<para>returns custom enumeration value </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" line="94" column="20"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Config_1a3388c3cd27c60f2c4a990ef889f58b70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::Config::setEnum</definition>
-        <argsstring>(const Enum &amp;enumeration, const std::string &amp;key, int keyValue)</argsstring>
-        <name>setEnum</name>
-        <qualifiedname>MR::Config::setEnum</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1Config_1a3933d06b4e35a4f309cff393747e1f2f" kindref="member">Enum</ref> &amp;</type>
-          <declname>enumeration</declname>
-        </param>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>key</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>keyValue</declname>
-        </param>
-        <briefdescription>
-<para>sets custom enumeration value </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" line="97" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Config_1a8bbc5ddb2be70cb120f537f88ed716a5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
-        <definition>MRMESH_API bool MR::Config::hasViewportMask</definition>
-        <argsstring>(const std::string &amp;key) const</argsstring>
-        <name>hasViewportMask</name>
-        <qualifiedname>MR::Config::hasViewportMask</qualifiedname>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>key</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" line="99" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Config_1aaf8b4307b0d1edb41a8606c59f98fca1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
-        <definition>MRMESH_API ViewportMask MR::Config::getViewportMask</definition>
-        <argsstring>(const std::string &amp;key, ViewportMask defaultValue={}) const</argsstring>
-        <name>getViewportMask</name>
-        <qualifiedname>MR::Config::getViewportMask</qualifiedname>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>key</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
-          <declname>defaultValue</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" line="100" column="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Config_1aca8ad2571fde2ff0a492612ede6afb4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::Config::setViewportMask</definition>
-        <argsstring>(const std::string &amp;key, ViewportMask newValue)</argsstring>
-        <name>setViewportMask</name>
-        <qualifiedname>MR::Config::setViewportMask</qualifiedname>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>key</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
-          <declname>newValue</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" line="101" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Config_1af8762966496b6267975c855b7b47d3ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
-        <definition>MRMESH_API bool MR::Config::hasJsonValue</definition>
-        <argsstring>(const std::string &amp;key)</argsstring>
-        <name>hasJsonValue</name>
-        <qualifiedname>MR::Config::hasJsonValue</qualifiedname>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>key</declname>
-        </param>
-        <briefdescription>
-<para>returns true if json value with this key exists </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" line="104" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Config_1ad2eb8802aad4bfd9072566fa434036ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Json::Value</type>
-        <definition>MRMESH_API Json::Value MR::Config::getJsonValue</definition>
-        <argsstring>(const std::string &amp;key, const Json::Value &amp;defaultValue={})</argsstring>
-        <name>getJsonValue</name>
-        <qualifiedname>MR::Config::getJsonValue</qualifiedname>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>key</declname>
-        </param>
-        <param>
-          <type>const Json::Value &amp;</type>
-          <declname>defaultValue</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-<para>returns custom json value </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" line="107" column="28"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Config_1a79498a0537aaf0b56bfbc5c67772eb0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::Config::setJsonValue</definition>
-        <argsstring>(const std::string &amp;key, const Json::Value &amp;keyValue)</argsstring>
-        <name>setJsonValue</name>
-        <qualifiedname>MR::Config::setJsonValue</qualifiedname>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>key</declname>
-        </param>
-        <param>
-          <type>const Json::Value &amp;</type>
-          <declname>keyValue</declname>
-        </param>
-        <briefdescription>
-<para>sets custom json value </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" line="110" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Config_1a511ac76ed53aafae5ab8d337aeaa6795" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>Json::Value</type>
-        <definition>Json::Value MR::Config::toJson</definition>
-        <argsstring>() const</argsstring>
-        <name>toJson</name>
-        <qualifiedname>MR::Config::toJson</qualifiedname>
-        <briefdescription>
-<para>returns json with content of this config </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" line="113" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" bodystart="113" bodyend="113"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Config_1a534db3261935504b918838858cff437a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::Config::fromJson</definition>
-        <argsstring>(const Json::Value &amp;config)</argsstring>
-        <name>fromJson</name>
-        <qualifiedname>MR::Config::fromJson</qualifiedname>
-        <param>
-          <type>const Json::Value &amp;</type>
-          <declname>config</declname>
-        </param>
-        <briefdescription>
-<para>replace current config content with given one </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" line="116" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" bodystart="116" bodyend="116"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaf88a45374cdd7fba22942c053afb27e5" kind="function"><name>Config</name></member>
+      <member refid="group__GeneralGroup_1gae8bd5243efd5066d7b24657c23126e25" kind="function"><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga3b36a74eccd9dd120a1e85983e8f64e3" kind="function"><name>reset</name></member>
+      <member refid="group__GeneralGroup_1ga764b20b21302265b3e6dd60b2efdf035" kind="function"><name>getAppName</name></member>
+      <member refid="group__GeneralGroup_1ga4a1325795e653a33c4f91ca425c6eeca" kind="function"><name>writeToFile</name></member>
+      <member refid="group__GeneralGroup_1ga7b31d052c0355b2163f1faf7ad8f42c9" kind="function"><name>hasBool</name></member>
+      <member refid="group__GeneralGroup_1ga1a1c1e3afa9a60434b3b7a17eaa402c4" kind="function"><name>getBool</name></member>
+      <member refid="group__GeneralGroup_1gae57d1ec5709dc7fc1a7115f4f745955d" kind="function"><name>setBool</name></member>
+      <member refid="group__GeneralGroup_1ga3bf71462e37500b8f9256e88b11c074f" kind="function"><name>hasColor</name></member>
+      <member refid="group__GeneralGroup_1ga264c1a7b8aa598635f2500ae12c29606" kind="function"><name>getColor</name></member>
+      <member refid="group__GeneralGroup_1gaefbf21b76d9f87667c9313e310f8fe9b" kind="function"><name>setColor</name></member>
+      <member refid="group__GeneralGroup_1gabd89bc044490d3a6dea5d252632a4303" kind="function"><name>hasFileStack</name></member>
+      <member refid="group__GeneralGroup_1gaad8c7c3589d77d0ed1c091938cd14ca9" kind="function"><name>getFileStack</name></member>
+      <member refid="group__GeneralGroup_1gae9eaec2c0bade737afbf64156d5a6ca8" kind="function"><name>setFileStack</name></member>
+      <member refid="group__GeneralGroup_1ga45debdd9e18e1b014caa6a4d1e5eaf16" kind="function"><name>hasVector2i</name></member>
+      <member refid="group__GeneralGroup_1gad4dcac4813e83411f9ae165484a09b3a" kind="function"><name>getVector2i</name></member>
+      <member refid="group__GeneralGroup_1ga5ef95eaf5b26a137a149705ac0698155" kind="function"><name>setVector2i</name></member>
+      <member refid="group__GeneralGroup_1gaef03ecb5f0b0ec79bd9f52d4ed8f82e4" kind="function"><name>hasEnum</name></member>
+      <member refid="group__GeneralGroup_1ga74e68ee927a517e8d641aa7dbaa0a3e6" kind="function"><name>getEnum</name></member>
+      <member refid="group__GeneralGroup_1ga3388c3cd27c60f2c4a990ef889f58b70" kind="function"><name>setEnum</name></member>
+      <member refid="group__GeneralGroup_1ga8bbc5ddb2be70cb120f537f88ed716a5" kind="function"><name>hasViewportMask</name></member>
+      <member refid="group__GeneralGroup_1gaaf8b4307b0d1edb41a8606c59f98fca1" kind="function"><name>getViewportMask</name></member>
+      <member refid="group__GeneralGroup_1gaca8ad2571fde2ff0a492612ede6afb4c" kind="function"><name>setViewportMask</name></member>
+      <member refid="group__GeneralGroup_1gaf8762966496b6267975c855b7b47d3ca" kind="function"><name>hasJsonValue</name></member>
+      <member refid="group__GeneralGroup_1gad2eb8802aad4bfd9072566fa434036ce" kind="function"><name>getJsonValue</name></member>
+      <member refid="group__GeneralGroup_1ga79498a0537aaf0b56bfbc5c67772eb0f" kind="function"><name>setJsonValue</name></member>
+      <member refid="group__GeneralGroup_1ga511ac76ed53aafae5ab8d337aeaa6795" kind="function"><name>toJson</name></member>
+      <member refid="group__GeneralGroup_1ga534db3261935504b918838858cff437a" kind="function"><name>fromJson</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1Config_1ad5421174f9875d5c3a6b9ac23aa96313" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="classMR_1_1Config" kindref="compound">Config</ref> &amp;</type>
-        <definition>static MRMESH_API Config &amp; MR::Config::instance</definition>
-        <argsstring>()</argsstring>
-        <name>instance</name>
-        <qualifiedname>MR::Config::instance</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" line="23" column="30"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gad5421174f9875d5c3a6b9ac23aa96313" kind="function"><name>instance</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMR_1_1Config_1ad2946104840a627c1616842fc1f7bdb9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::Config::Config</definition>
-        <argsstring>()</argsstring>
-        <name>Config</name>
-        <qualifiedname>MR::Config::Config</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" line="36" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Config_1a7bfc878f9e608ec48366c81f1809333a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::Config::reset</definition>
-        <argsstring>(const std::filesystem::path &amp;filePath)</argsstring>
-        <name>reset</name>
-        <qualifiedname>MR::Config::reset</qualifiedname>
-        <param>
-          <type>const std::filesystem::path &amp;</type>
-          <declname>filePath</declname>
-        </param>
-        <briefdescription>
-<para>looks for presented *.json file </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" line="39" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Config_1a17bd8ac3880368e2e34b777871262b86" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::Config::~Config</definition>
-        <argsstring>()</argsstring>
-        <name>~Config</name>
-        <qualifiedname>MR::Config::~Config</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>stores configuration depends on constructor call: (&lt;filepath&gt;) or (~/.local/share/&lt;appname&gt;/config.json) or (AppData&lt;appname&gt;\config.json) </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" line="44" column="5"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gad2946104840a627c1616842fc1f7bdb9" kind="function"><name>Config</name></member>
+      <member refid="group__GeneralGroup_1ga7bfc878f9e608ec48366c81f1809333a" kind="function"><name>reset</name></member>
+      <member refid="group__GeneralGroup_1ga17bd8ac3880368e2e34b777871262b86" kind="function"><name>~Config</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" bodystart="18" bodyend="124"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" line="20" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" bodystart="21" bodyend="127"/>
     <listofallmembers>
-      <member refid="classMR_1_1Config_1a725767207fa5bd85d2919a3d791fa760" prot="private" virt="non-virtual"><scope>MR::Config</scope><name>appName_</name></member>
-      <member refid="classMR_1_1Config_1af88a45374cdd7fba22942c053afb27e5" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>Config</name></member>
-      <member refid="classMR_1_1Config_1ad2946104840a627c1616842fc1f7bdb9" prot="private" virt="non-virtual"><scope>MR::Config</scope><name>Config</name></member>
-      <member refid="classMR_1_1Config_1a967c2d6969b21a91b073cea0112134e8" prot="private" virt="non-virtual"><scope>MR::Config</scope><name>config_</name></member>
-      <member refid="classMR_1_1Config_1a3933d06b4e35a4f309cff393747e1f2f" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>Enum</name></member>
-      <member refid="classMR_1_1Config_1a67455501f76e21a4f415d860c1ce9991" prot="private" virt="non-virtual"><scope>MR::Config</scope><name>filePath_</name></member>
-      <member refid="classMR_1_1Config_1a534db3261935504b918838858cff437a" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>fromJson</name></member>
-      <member refid="classMR_1_1Config_1a764b20b21302265b3e6dd60b2efdf035" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>getAppName</name></member>
-      <member refid="classMR_1_1Config_1a1a1c1e3afa9a60434b3b7a17eaa402c4" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>getBool</name></member>
-      <member refid="classMR_1_1Config_1a264c1a7b8aa598635f2500ae12c29606" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>getColor</name></member>
-      <member refid="classMR_1_1Config_1a74e68ee927a517e8d641aa7dbaa0a3e6" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>getEnum</name></member>
-      <member refid="classMR_1_1Config_1aad8c7c3589d77d0ed1c091938cd14ca9" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>getFileStack</name></member>
-      <member refid="classMR_1_1Config_1ad2eb8802aad4bfd9072566fa434036ce" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>getJsonValue</name></member>
-      <member refid="classMR_1_1Config_1ad4dcac4813e83411f9ae165484a09b3a" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>getVector2i</name></member>
-      <member refid="classMR_1_1Config_1aaf8b4307b0d1edb41a8606c59f98fca1" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>getViewportMask</name></member>
-      <member refid="classMR_1_1Config_1a7b31d052c0355b2163f1faf7ad8f42c9" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>hasBool</name></member>
-      <member refid="classMR_1_1Config_1a3bf71462e37500b8f9256e88b11c074f" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>hasColor</name></member>
-      <member refid="classMR_1_1Config_1aef03ecb5f0b0ec79bd9f52d4ed8f82e4" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>hasEnum</name></member>
-      <member refid="classMR_1_1Config_1abd89bc044490d3a6dea5d252632a4303" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>hasFileStack</name></member>
-      <member refid="classMR_1_1Config_1af8762966496b6267975c855b7b47d3ca" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>hasJsonValue</name></member>
-      <member refid="classMR_1_1Config_1a45debdd9e18e1b014caa6a4d1e5eaf16" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>hasVector2i</name></member>
-      <member refid="classMR_1_1Config_1a8bbc5ddb2be70cb120f537f88ed716a5" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>hasViewportMask</name></member>
-      <member refid="classMR_1_1Config_1ad5421174f9875d5c3a6b9ac23aa96313" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>instance</name></member>
-      <member refid="classMR_1_1Config_1afa98e70c188af9b2cc8eb680fe4dd230" prot="private" virt="non-virtual"><scope>MR::Config</scope><name>loggerHandle_</name></member>
-      <member refid="classMR_1_1Config_1ae8bd5243efd5066d7b24657c23126e25" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>operator=</name></member>
-      <member refid="classMR_1_1Config_1a3b36a74eccd9dd120a1e85983e8f64e3" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>reset</name></member>
-      <member refid="classMR_1_1Config_1a7bfc878f9e608ec48366c81f1809333a" prot="private" virt="non-virtual"><scope>MR::Config</scope><name>reset</name></member>
-      <member refid="classMR_1_1Config_1ae57d1ec5709dc7fc1a7115f4f745955d" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>setBool</name></member>
-      <member refid="classMR_1_1Config_1aefbf21b76d9f87667c9313e310f8fe9b" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>setColor</name></member>
-      <member refid="classMR_1_1Config_1a3388c3cd27c60f2c4a990ef889f58b70" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>setEnum</name></member>
-      <member refid="classMR_1_1Config_1ae9eaec2c0bade737afbf64156d5a6ca8" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>setFileStack</name></member>
-      <member refid="classMR_1_1Config_1a79498a0537aaf0b56bfbc5c67772eb0f" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>setJsonValue</name></member>
-      <member refid="classMR_1_1Config_1a5ef95eaf5b26a137a149705ac0698155" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>setVector2i</name></member>
-      <member refid="classMR_1_1Config_1aca8ad2571fde2ff0a492612ede6afb4c" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>setViewportMask</name></member>
-      <member refid="classMR_1_1Config_1a511ac76ed53aafae5ab8d337aeaa6795" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>toJson</name></member>
-      <member refid="classMR_1_1Config_1a4a1325795e653a33c4f91ca425c6eeca" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>writeToFile</name></member>
-      <member refid="classMR_1_1Config_1a17bd8ac3880368e2e34b777871262b86" prot="private" virt="non-virtual"><scope>MR::Config</scope><name>~Config</name></member>
+      <member refid="group__GeneralGroup_1ga725767207fa5bd85d2919a3d791fa760" prot="private" virt="non-virtual"><scope>MR::Config</scope><name>appName_</name></member>
+      <member refid="group__GeneralGroup_1gaf88a45374cdd7fba22942c053afb27e5" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>Config</name></member>
+      <member refid="group__GeneralGroup_1gad2946104840a627c1616842fc1f7bdb9" prot="private" virt="non-virtual"><scope>MR::Config</scope><name>Config</name></member>
+      <member refid="group__GeneralGroup_1ga967c2d6969b21a91b073cea0112134e8" prot="private" virt="non-virtual"><scope>MR::Config</scope><name>config_</name></member>
+      <member refid="group__GeneralGroup_1ga3933d06b4e35a4f309cff393747e1f2f" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>Enum</name></member>
+      <member refid="group__GeneralGroup_1ga67455501f76e21a4f415d860c1ce9991" prot="private" virt="non-virtual"><scope>MR::Config</scope><name>filePath_</name></member>
+      <member refid="group__GeneralGroup_1ga534db3261935504b918838858cff437a" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>fromJson</name></member>
+      <member refid="group__GeneralGroup_1ga764b20b21302265b3e6dd60b2efdf035" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>getAppName</name></member>
+      <member refid="group__GeneralGroup_1ga1a1c1e3afa9a60434b3b7a17eaa402c4" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>getBool</name></member>
+      <member refid="group__GeneralGroup_1ga264c1a7b8aa598635f2500ae12c29606" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>getColor</name></member>
+      <member refid="group__GeneralGroup_1ga74e68ee927a517e8d641aa7dbaa0a3e6" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>getEnum</name></member>
+      <member refid="group__GeneralGroup_1gaad8c7c3589d77d0ed1c091938cd14ca9" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>getFileStack</name></member>
+      <member refid="group__GeneralGroup_1gad2eb8802aad4bfd9072566fa434036ce" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>getJsonValue</name></member>
+      <member refid="group__GeneralGroup_1gad4dcac4813e83411f9ae165484a09b3a" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>getVector2i</name></member>
+      <member refid="group__GeneralGroup_1gaaf8b4307b0d1edb41a8606c59f98fca1" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>getViewportMask</name></member>
+      <member refid="group__GeneralGroup_1ga7b31d052c0355b2163f1faf7ad8f42c9" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>hasBool</name></member>
+      <member refid="group__GeneralGroup_1ga3bf71462e37500b8f9256e88b11c074f" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>hasColor</name></member>
+      <member refid="group__GeneralGroup_1gaef03ecb5f0b0ec79bd9f52d4ed8f82e4" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>hasEnum</name></member>
+      <member refid="group__GeneralGroup_1gabd89bc044490d3a6dea5d252632a4303" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>hasFileStack</name></member>
+      <member refid="group__GeneralGroup_1gaf8762966496b6267975c855b7b47d3ca" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>hasJsonValue</name></member>
+      <member refid="group__GeneralGroup_1ga45debdd9e18e1b014caa6a4d1e5eaf16" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>hasVector2i</name></member>
+      <member refid="group__GeneralGroup_1ga8bbc5ddb2be70cb120f537f88ed716a5" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>hasViewportMask</name></member>
+      <member refid="group__GeneralGroup_1gad5421174f9875d5c3a6b9ac23aa96313" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>instance</name></member>
+      <member refid="group__GeneralGroup_1gafa98e70c188af9b2cc8eb680fe4dd230" prot="private" virt="non-virtual"><scope>MR::Config</scope><name>loggerHandle_</name></member>
+      <member refid="group__GeneralGroup_1gae8bd5243efd5066d7b24657c23126e25" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga3b36a74eccd9dd120a1e85983e8f64e3" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>reset</name></member>
+      <member refid="group__GeneralGroup_1ga7bfc878f9e608ec48366c81f1809333a" prot="private" virt="non-virtual"><scope>MR::Config</scope><name>reset</name></member>
+      <member refid="group__GeneralGroup_1gae57d1ec5709dc7fc1a7115f4f745955d" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>setBool</name></member>
+      <member refid="group__GeneralGroup_1gaefbf21b76d9f87667c9313e310f8fe9b" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>setColor</name></member>
+      <member refid="group__GeneralGroup_1ga3388c3cd27c60f2c4a990ef889f58b70" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>setEnum</name></member>
+      <member refid="group__GeneralGroup_1gae9eaec2c0bade737afbf64156d5a6ca8" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>setFileStack</name></member>
+      <member refid="group__GeneralGroup_1ga79498a0537aaf0b56bfbc5c67772eb0f" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>setJsonValue</name></member>
+      <member refid="group__GeneralGroup_1ga5ef95eaf5b26a137a149705ac0698155" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>setVector2i</name></member>
+      <member refid="group__GeneralGroup_1gaca8ad2571fde2ff0a492612ede6afb4c" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>setViewportMask</name></member>
+      <member refid="group__GeneralGroup_1ga511ac76ed53aafae5ab8d337aeaa6795" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>toJson</name></member>
+      <member refid="group__GeneralGroup_1ga4a1325795e653a33c4f91ca425c6eeca" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>writeToFile</name></member>
+      <member refid="group__GeneralGroup_1ga17bd8ac3880368e2e34b777871262b86" prot="private" virt="non-virtual"><scope>MR::Config</scope><name>~Config</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -4,106 +4,25 @@
     <compoundname>MR::Graph::EndVertices</compoundname>
     <includes refid="MRGraph_8h" local="no">MRGraph.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1Graph_1_1EndVertices_1a7b9ed22e987be98753ff8c314a3c7bd4" prot="public" static="no" mutable="no">
-        <type><ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">VertId</ref></type>
-        <definition>VertId MR::Graph::EndVertices::v0</definition>
-        <argsstring></argsstring>
-        <name>v0</name>
-        <qualifiedname>MR::Graph::EndVertices::v0</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" line="27" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" bodystart="27" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1Graph_1_1EndVertices_1a22b2afa87f3a85ed5e79f351e02b9266" prot="public" static="no" mutable="no">
-        <type><ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">VertId</ref></type>
-        <definition>VertId MR::Graph::EndVertices::v1</definition>
-        <argsstring></argsstring>
-        <name>v1</name>
-        <qualifiedname>MR::Graph::EndVertices::v1</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" line="27" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" bodystart="27" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga7b9ed22e987be98753ff8c314a3c7bd4" kind="variable"><name>v0</name></member>
+      <member refid="group__GeneralGroup_1ga22b2afa87f3a85ed5e79f351e02b9266" kind="variable"><name>v1</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1Graph_1_1EndVertices_1a57f201c07d8a9aee027911668d5c9f8b" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">VertId</ref></type>
-        <definition>VertId MR::Graph::EndVertices::otherEnd</definition>
-        <argsstring>(VertId a) const</argsstring>
-        <name>otherEnd</name>
-        <qualifiedname>MR::Graph::EndVertices::otherEnd</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">VertId</ref></type>
-          <declname>a</declname>
-        </param>
-        <briefdescription>
-<para>v0 &lt; v1 </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" line="28" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" bodystart="28" bodyend="32"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Graph_1_1EndVertices_1acdf8c4e8411247e361733ddd467cd8bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::Graph::EndVertices::replaceEnd</definition>
-        <argsstring>(VertId what, VertId with)</argsstring>
-        <name>replaceEnd</name>
-        <qualifiedname>MR::Graph::EndVertices::replaceEnd</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">VertId</ref></type>
-          <declname>what</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1Graph_1aeeffe9dd1229206b5db549f61cbad105" kindref="member">VertId</ref></type>
-          <declname>with</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" line="33" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" bodystart="33" bodyend="43"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Graph_1_1EndVertices_1afe146d825ed418eab8e42d1bdb2f7a43" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>auto</type>
-        <definition>auto MR::Graph::EndVertices::operator&lt;=&gt;</definition>
-        <argsstring>(const EndVertices &amp;) const =default</argsstring>
-        <name>operator&lt;=&gt;</name>
-        <qualifiedname>MR::Graph::EndVertices::operator&lt;=&gt;</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Graph_1_1EndVertices" kindref="compound">EndVertices</ref> &amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" line="44" column="9"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga57f201c07d8a9aee027911668d5c9f8b" kind="function"><name>otherEnd</name></member>
+      <member refid="group__GeneralGroup_1gacdf8c4e8411247e361733ddd467cd8bb" kind="function"><name>replaceEnd</name></member>
+      <member refid="group__GeneralGroup_1gafe146d825ed418eab8e42d1bdb2f7a43" kind="function"><name>operator&lt;=&gt;</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" line="25" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" bodystart="26" bodyend="45"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" line="28" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGraph.h" bodystart="29" bodyend="48"/>
     <listofallmembers>
-      <member refid="structMR_1_1Graph_1_1EndVertices_1afe146d825ed418eab8e42d1bdb2f7a43" prot="public" virt="non-virtual"><scope>MR::Graph::EndVertices</scope><name>operator&lt;=&gt;</name></member>
-      <member refid="structMR_1_1Graph_1_1EndVertices_1a57f201c07d8a9aee027911668d5c9f8b" prot="public" virt="non-virtual"><scope>MR::Graph::EndVertices</scope><name>otherEnd</name></member>
-      <member refid="structMR_1_1Graph_1_1EndVertices_1acdf8c4e8411247e361733ddd467cd8bb" prot="public" virt="non-virtual"><scope>MR::Graph::EndVertices</scope><name>replaceEnd</name></member>
-      <member refid="structMR_1_1Graph_1_1EndVertices_1a7b9ed22e987be98753ff8c314a3c7bd4" prot="public" virt="non-virtual"><scope>MR::Graph::EndVertices</scope><name>v0</name></member>
-      <member refid="structMR_1_1Graph_1_1EndVertices_1a22b2afa87f3a85ed5e79f351e02b9266" prot="public" virt="non-virtual"><scope>MR::Graph::EndVertices</scope><name>v1</name></member>
+      <member refid="group__GeneralGroup_1gafe146d825ed418eab8e42d1bdb2f7a43" prot="public" virt="non-virtual"><scope>MR::Graph::EndVertices</scope><name>operator&lt;=&gt;</name></member>
+      <member refid="group__GeneralGroup_1ga57f201c07d8a9aee027911668d5c9f8b" prot="public" virt="non-virtual"><scope>MR::Graph::EndVertices</scope><name>otherEnd</name></member>
+      <member refid="group__GeneralGroup_1gacdf8c4e8411247e361733ddd467cd8bb" prot="public" virt="non-virtual"><scope>MR::Graph::EndVertices</scope><name>replaceEnd</name></member>
+      <member refid="group__GeneralGroup_1ga7b9ed22e987be98753ff8c314a3c7bd4" prot="public" virt="non-virtual"><scope>MR::Graph::EndVertices</scope><name>v0</name></member>
+      <member refid="group__GeneralGroup_1ga22b2afa87f3a85ed5e79f351e02b9266" prot="public" virt="non-virtual"><scope>MR::Graph::EndVertices</scope><name>v1</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

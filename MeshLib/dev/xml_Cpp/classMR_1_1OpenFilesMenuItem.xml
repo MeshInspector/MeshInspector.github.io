@@ -6,255 +6,26 @@
     <basecompoundref refid="structMR_1_1MultiListener" prot="public" virt="non-virtual">MR::MultiListener&lt; DragEntranceListener, DragOverListener, DragDropListener, PreDrawListener &gt;</basecompoundref>
     <includes refid="MRIOFilesMenuItems_8h" local="no">MRIOFilesMenuItems.h</includes>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1OpenFilesMenuItem_1af821b1fe157f80dabaf66a23133f2f78" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::OpenFilesMenuItem::dragging_</definition>
-        <argsstring></argsstring>
-        <name>dragging_</name>
-        <qualifiedname>MR::OpenFilesMenuItem::dragging_</qualifiedname>
-        <initializer>{ false }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" line="40" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" bodystart="40" bodyend="40"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1OpenFilesMenuItem_1ab855a6330dd6acc52da926d44ff7fd76" prot="private" static="no" mutable="no">
-        <type>Vector2i</type>
-        <definition>Vector2i MR::OpenFilesMenuItem::dragPos_</definition>
-        <argsstring></argsstring>
-        <name>dragPos_</name>
-        <qualifiedname>MR::OpenFilesMenuItem::dragPos_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" line="41" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" bodystart="41" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1OpenFilesMenuItem_1a6f744df1a8933de02b25d92a4551d4d2" prot="private" static="no" mutable="no">
-        <type>boost::signals2::scoped_connection</type>
-        <definition>boost::signals2::scoped_connection MR::OpenFilesMenuItem::recentStoreConnection_</definition>
-        <argsstring></argsstring>
-        <name>recentStoreConnection_</name>
-        <qualifiedname>MR::OpenFilesMenuItem::recentStoreConnection_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" line="46" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" bodystart="46" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1OpenFilesMenuItem_1aaaf78d950cc79901f8ffe1fdd4dd2bba" prot="private" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1abf9e7451b5087b4485b6207161438dc3" kindref="member">FileNamesStack</ref></type>
-        <definition>FileNamesStack MR::OpenFilesMenuItem::recentPathsCache_</definition>
-        <argsstring></argsstring>
-        <name>recentPathsCache_</name>
-        <qualifiedname>MR::OpenFilesMenuItem::recentPathsCache_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" line="47" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" bodystart="47" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1OpenFilesMenuItem_1a66cbb2d4058fa4a716192e10cb346f4e" prot="private" static="no" mutable="no">
-        <type><ref refid="group__IOFiltersGroup_1ga6e5e24c14d4909fcad8aa5fab54d047b" kindref="member">IOFilters</ref></type>
-        <definition>IOFilters MR::OpenFilesMenuItem::filters_</definition>
-        <argsstring></argsstring>
-        <name>filters_</name>
-        <qualifiedname>MR::OpenFilesMenuItem::filters_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" line="48" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" bodystart="48" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1OpenFilesMenuItem_1a160329bce0ad93ad797573ea7cfb6408" prot="private" static="no" mutable="no">
-        <type>std::shared_ptr&lt; <ref refid="classMR_1_1OpenDirectoryMenuItem" kindref="compound">OpenDirectoryMenuItem</ref> &gt;</type>
-        <definition>std::shared_ptr&lt;OpenDirectoryMenuItem&gt; MR::OpenFilesMenuItem::openDirectoryItem_</definition>
-        <argsstring></argsstring>
-        <name>openDirectoryItem_</name>
-        <qualifiedname>MR::OpenFilesMenuItem::openDirectoryItem_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" line="49" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" bodystart="49" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaf821b1fe157f80dabaf66a23133f2f78" kind="variable"><name>dragging_</name></member>
+      <member refid="group__GeneralGroup_1gab855a6330dd6acc52da926d44ff7fd76" kind="variable"><name>dragPos_</name></member>
+      <member refid="group__GeneralGroup_1ga6f744df1a8933de02b25d92a4551d4d2" kind="variable"><name>recentStoreConnection_</name></member>
+      <member refid="group__GeneralGroup_1gaaaf78d950cc79901f8ffe1fdd4dd2bba" kind="variable"><name>recentPathsCache_</name></member>
+      <member refid="group__GeneralGroup_1ga66cbb2d4058fa4a716192e10cb346f4e" kind="variable"><name>filters_</name></member>
+      <member refid="group__GeneralGroup_1ga160329bce0ad93ad797573ea7cfb6408" kind="variable"><name>openDirectoryItem_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1OpenFilesMenuItem_1a730daf0dedd17ae6cb20e34f341cfb95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::OpenFilesMenuItem::OpenFilesMenuItem</definition>
-        <argsstring>()</argsstring>
-        <name>OpenFilesMenuItem</name>
-        <qualifiedname>MR::OpenFilesMenuItem::OpenFilesMenuItem</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" line="28" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1OpenFilesMenuItem_1a207d475cc669e1d40ec03027582df564" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::OpenFilesMenuItem::~OpenFilesMenuItem</definition>
-        <argsstring>()</argsstring>
-        <name>~OpenFilesMenuItem</name>
-        <qualifiedname>MR::OpenFilesMenuItem::~OpenFilesMenuItem</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" line="29" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1OpenFilesMenuItem_1acd1d0b203f477e1a2f307be78c9c6eb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::OpenFilesMenuItem::action</definition>
-        <argsstring>() override</argsstring>
-        <name>action</name>
-        <qualifiedname>MR::OpenFilesMenuItem::action</qualifiedname>
-        <reimplements refid="classMR_1_1RibbonMenuItem_1a4af847e120965263839d2628cf7dd979">action</reimplements>
-        <briefdescription>
-<para>returns true if state of item changed </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" line="30" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1OpenFilesMenuItem_1aa5af37cd7a8647dd40cdcf4fb5f57fee" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type>const <ref refid="classMR_1_1RibbonMenuItem_1a4799011be3410f46444164d6d00b966e" kindref="member">DropItemsList</ref> &amp;</type>
-        <definition>virtual const DropItemsList &amp; MR::OpenFilesMenuItem::dropItems</definition>
-        <argsstring>() const override</argsstring>
-        <name>dropItems</name>
-        <qualifiedname>MR::OpenFilesMenuItem::dropItems</qualifiedname>
-        <reimplements refid="classMR_1_1RibbonMenuItem_1a1141be44babb4a13201487188c332668">dropItems</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>returns list of stored ribbon items to drop !note that this function can be called each frame for opened drop list </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" line="32" column="33"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga730daf0dedd17ae6cb20e34f341cfb95" kind="function"><name>OpenFilesMenuItem</name></member>
+      <member refid="group__GeneralGroup_1ga207d475cc669e1d40ec03027582df564" kind="function"><name>~OpenFilesMenuItem</name></member>
+      <member refid="group__GeneralGroup_1gacd1d0b203f477e1a2f307be78c9c6eb8" kind="function"><name>action</name></member>
+      <member refid="group__GeneralGroup_1gaa5af37cd7a8647dd40cdcf4fb5f57fee" kind="function"><name>dropItems</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMR_1_1OpenFilesMenuItem_1a28a2b2df40f2897b09287ea7d9ba56f3" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MR::OpenFilesMenuItem::dragEntrance_</definition>
-        <argsstring>(bool entered) override</argsstring>
-        <name>dragEntrance_</name>
-        <qualifiedname>MR::OpenFilesMenuItem::dragEntrance_</qualifiedname>
-        <param>
-          <type>bool</type>
-          <declname>entered</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" line="34" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1OpenFilesMenuItem_1acd47ba430d21bc9d799f6969afaabb28" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::OpenFilesMenuItem::dragOver_</definition>
-        <argsstring>(int x, int y) override</argsstring>
-        <name>dragOver_</name>
-        <qualifiedname>MR::OpenFilesMenuItem::dragOver_</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>x</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>y</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" line="35" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1OpenFilesMenuItem_1a4a7fbf3c95f5b7aaf357f9fbe05c2cfc" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::OpenFilesMenuItem::dragDrop_</definition>
-        <argsstring>(const std::vector&lt; std::filesystem::path &gt; &amp;paths) override</argsstring>
-        <name>dragDrop_</name>
-        <qualifiedname>MR::OpenFilesMenuItem::dragDrop_</qualifiedname>
-        <param>
-          <type>const std::vector&lt; std::filesystem::path &gt; &amp;</type>
-          <declname>paths</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" line="36" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1OpenFilesMenuItem_1a2f51fd6a810f6df1a63fdd6b649bfcc3" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MR::OpenFilesMenuItem::preDraw_</definition>
-        <argsstring>() override</argsstring>
-        <name>preDraw_</name>
-        <qualifiedname>MR::OpenFilesMenuItem::preDraw_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" line="38" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1OpenFilesMenuItem_1a948217d94434e74a96bd362bb9bfb759" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::OpenFilesMenuItem::parseLaunchParams_</definition>
-        <argsstring>()</argsstring>
-        <name>parseLaunchParams_</name>
-        <qualifiedname>MR::OpenFilesMenuItem::parseLaunchParams_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" line="43" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1OpenFilesMenuItem_1afc218a75b4e145aec457b2ea5afbd805" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::OpenFilesMenuItem::setupListUpdate_</definition>
-        <argsstring>()</argsstring>
-        <name>setupListUpdate_</name>
-        <qualifiedname>MR::OpenFilesMenuItem::setupListUpdate_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" line="44" column="10"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga28a2b2df40f2897b09287ea7d9ba56f3" kind="function"><name>dragEntrance_</name></member>
+      <member refid="group__GeneralGroup_1gacd47ba430d21bc9d799f6969afaabb28" kind="function"><name>dragOver_</name></member>
+      <member refid="group__GeneralGroup_1ga4a7fbf3c95f5b7aaf357f9fbe05c2cfc" kind="function"><name>dragDrop_</name></member>
+      <member refid="group__GeneralGroup_1ga2f51fd6a810f6df1a63fdd6b649bfcc3" kind="function"><name>preDraw_</name></member>
+      <member refid="group__GeneralGroup_1ga948217d94434e74a96bd362bb9bfb759" kind="function"><name>parseLaunchParams_</name></member>
+      <member refid="group__GeneralGroup_1gafc218a75b4e145aec457b2ea5afbd805" kind="function"><name>setupListUpdate_</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -318,43 +89,43 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" line="25" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" bodystart="26" bodyend="50"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" line="28" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h" bodystart="29" bodyend="53"/>
     <listofallmembers>
-      <member refid="classMR_1_1OpenFilesMenuItem_1acd1d0b203f477e1a2f307be78c9c6eb8" prot="public" virt="virtual"><scope>MR::OpenFilesMenuItem</scope><name>action</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1ac9fd2cbdcf5356c6fbb093464568afdc" prot="public" virt="virtual"><scope>MR::OpenFilesMenuItem</scope><name>blocking</name></member>
-      <member refid="structMR_1_1MultiListener_1af3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::OpenFilesMenuItem</scope><name>connect</name></member>
-      <member refid="structMR_1_1MultiListener_1acfa598489bfbc3b88c84b029213d042c" prot="public" virt="virtual"><scope>MR::OpenFilesMenuItem</scope><name>disconnect</name></member>
-      <member refid="classMR_1_1OpenFilesMenuItem_1a4a7fbf3c95f5b7aaf357f9fbe05c2cfc" prot="private" virt="virtual"><scope>MR::OpenFilesMenuItem</scope><name>dragDrop_</name></member>
-      <member refid="classMR_1_1OpenFilesMenuItem_1a28a2b2df40f2897b09287ea7d9ba56f3" prot="private" virt="virtual"><scope>MR::OpenFilesMenuItem</scope><name>dragEntrance_</name></member>
-      <member refid="classMR_1_1OpenFilesMenuItem_1af821b1fe157f80dabaf66a23133f2f78" prot="private" virt="non-virtual"><scope>MR::OpenFilesMenuItem</scope><name>dragging_</name></member>
-      <member refid="classMR_1_1OpenFilesMenuItem_1acd47ba430d21bc9d799f6969afaabb28" prot="private" virt="virtual"><scope>MR::OpenFilesMenuItem</scope><name>dragOver_</name></member>
-      <member refid="classMR_1_1OpenFilesMenuItem_1ab855a6330dd6acc52da926d44ff7fd76" prot="private" virt="non-virtual"><scope>MR::OpenFilesMenuItem</scope><name>dragPos_</name></member>
-      <member refid="classMR_1_1OpenFilesMenuItem_1aa5af37cd7a8647dd40cdcf4fb5f57fee" prot="public" virt="virtual"><scope>MR::OpenFilesMenuItem</scope><name>dropItems</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a4799011be3410f46444164d6d00b966e" prot="public" virt="non-virtual"><scope>MR::OpenFilesMenuItem</scope><name>DropItemsList</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a2f25401d4b94a752bd63b79152673ab5" prot="protected" virt="non-virtual"><scope>MR::OpenFilesMenuItem</scope><name>dropList_</name></member>
-      <member refid="classMR_1_1OpenFilesMenuItem_1a66cbb2d4058fa4a716192e10cb346f4e" prot="private" virt="non-virtual"><scope>MR::OpenFilesMenuItem</scope><name>filters_</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a88f1487695e2012ebb1cacbc1a59775a" prot="public" virt="virtual"><scope>MR::OpenFilesMenuItem</scope><name>getDynamicTooltip</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a3b30bb82fe11901e3d971d3b761f5bf2" prot="public" virt="virtual"><scope>MR::OpenFilesMenuItem</scope><name>isActive</name></member>
-      <member refid="classMR_1_1ISceneStateCheck_1adedf10c80ddfebcb456559fa828065c0" prot="public" virt="virtual"><scope>MR::OpenFilesMenuItem</scope><name>isAvailable</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a957422a15704b2f8854bfd0b2d1ae76d" prot="public" virt="non-virtual"><scope>MR::OpenFilesMenuItem</scope><name>MR_DELETE_MOVE</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1abf4ea13c8983c44214b92a066e8b7659" prot="public" virt="non-virtual"><scope>MR::OpenFilesMenuItem</scope><name>name</name></member>
-      <member refid="classMR_1_1OpenFilesMenuItem_1a160329bce0ad93ad797573ea7cfb6408" prot="private" virt="non-virtual"><scope>MR::OpenFilesMenuItem</scope><name>openDirectoryItem_</name></member>
-      <member refid="classMR_1_1OpenFilesMenuItem_1a730daf0dedd17ae6cb20e34f341cfb95" prot="public" virt="non-virtual"><scope>MR::OpenFilesMenuItem</scope><name>OpenFilesMenuItem</name></member>
-      <member refid="classMR_1_1OpenFilesMenuItem_1a948217d94434e74a96bd362bb9bfb759" prot="private" virt="non-virtual"><scope>MR::OpenFilesMenuItem</scope><name>parseLaunchParams_</name></member>
-      <member refid="classMR_1_1OpenFilesMenuItem_1a2f51fd6a810f6df1a63fdd6b649bfcc3" prot="private" virt="virtual"><scope>MR::OpenFilesMenuItem</scope><name>preDraw_</name></member>
-      <member refid="classMR_1_1OpenFilesMenuItem_1aaaf78d950cc79901f8ffe1fdd4dd2bba" prot="private" virt="non-virtual"><scope>MR::OpenFilesMenuItem</scope><name>recentPathsCache_</name></member>
-      <member refid="classMR_1_1OpenFilesMenuItem_1a6f744df1a8933de02b25d92a4551d4d2" prot="private" virt="non-virtual"><scope>MR::OpenFilesMenuItem</scope><name>recentStoreConnection_</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1ad3e0eda49eae11a9fba79187c62e07bb" prot="public" virt="non-virtual"><scope>MR::OpenFilesMenuItem</scope><name>RibbonMenuItem</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1af417cbe66b6559e5df0122377c5a3628" prot="public" virt="non-virtual"><scope>MR::OpenFilesMenuItem</scope><name>setDropItemsFromItemList</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1ab499c9049737793e6b1994048b99952c" prot="public" virt="non-virtual"><scope>MR::OpenFilesMenuItem</scope><name>setRibbonItemType</name></member>
-      <member refid="classMR_1_1OpenFilesMenuItem_1afc218a75b4e145aec457b2ea5afbd805" prot="private" virt="non-virtual"><scope>MR::OpenFilesMenuItem</scope><name>setupListUpdate_</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a15b6a4b9f191b8716be1199364bb74e0" prot="public" virt="virtual"><scope>MR::OpenFilesMenuItem</scope><name>type</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a00b402da6dbcec7d6c97b5c6a16e3924" prot="protected" virt="non-virtual"><scope>MR::OpenFilesMenuItem</scope><name>type_</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1a327958b76ec3d044202620beafe67c93" prot="public" virt="virtual"><scope>MR::OpenFilesMenuItem</scope><name>uiName</name></member>
-      <member refid="classMR_1_1ISceneStateCheck_1ad6d7bd5bc97dd4a629de5e0a33af3afe" prot="public" virt="virtual"><scope>MR::OpenFilesMenuItem</scope><name>~ISceneStateCheck</name></member>
-      <member refid="structMR_1_1MultiListener_1a726f5e2601b7f25e31824a0cac630fb2" prot="public" virt="virtual"><scope>MR::OpenFilesMenuItem</scope><name>~MultiListener</name></member>
-      <member refid="classMR_1_1OpenFilesMenuItem_1a207d475cc669e1d40ec03027582df564" prot="public" virt="non-virtual"><scope>MR::OpenFilesMenuItem</scope><name>~OpenFilesMenuItem</name></member>
-      <member refid="classMR_1_1RibbonMenuItem_1ac8074b75f1c764d041b11210b5b7541c" prot="public" virt="virtual"><scope>MR::OpenFilesMenuItem</scope><name>~RibbonMenuItem</name></member>
+      <member refid="group__GeneralGroup_1gacd1d0b203f477e1a2f307be78c9c6eb8" prot="public" virt="virtual"><scope>MR::OpenFilesMenuItem</scope><name>action</name></member>
+      <member refid="group__GeneralGroup_1gac9fd2cbdcf5356c6fbb093464568afdc" prot="public" virt="virtual"><scope>MR::OpenFilesMenuItem</scope><name>blocking</name></member>
+      <member refid="group__GeneralGroup_1gaf3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::OpenFilesMenuItem</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1gacfa598489bfbc3b88c84b029213d042c" prot="public" virt="virtual"><scope>MR::OpenFilesMenuItem</scope><name>disconnect</name></member>
+      <member refid="group__GeneralGroup_1ga4a7fbf3c95f5b7aaf357f9fbe05c2cfc" prot="private" virt="virtual"><scope>MR::OpenFilesMenuItem</scope><name>dragDrop_</name></member>
+      <member refid="group__GeneralGroup_1ga28a2b2df40f2897b09287ea7d9ba56f3" prot="private" virt="virtual"><scope>MR::OpenFilesMenuItem</scope><name>dragEntrance_</name></member>
+      <member refid="group__GeneralGroup_1gaf821b1fe157f80dabaf66a23133f2f78" prot="private" virt="non-virtual"><scope>MR::OpenFilesMenuItem</scope><name>dragging_</name></member>
+      <member refid="group__GeneralGroup_1gacd47ba430d21bc9d799f6969afaabb28" prot="private" virt="virtual"><scope>MR::OpenFilesMenuItem</scope><name>dragOver_</name></member>
+      <member refid="group__GeneralGroup_1gab855a6330dd6acc52da926d44ff7fd76" prot="private" virt="non-virtual"><scope>MR::OpenFilesMenuItem</scope><name>dragPos_</name></member>
+      <member refid="group__GeneralGroup_1gaa5af37cd7a8647dd40cdcf4fb5f57fee" prot="public" virt="virtual"><scope>MR::OpenFilesMenuItem</scope><name>dropItems</name></member>
+      <member refid="group__GeneralGroup_1ga4799011be3410f46444164d6d00b966e" prot="public" virt="non-virtual"><scope>MR::OpenFilesMenuItem</scope><name>DropItemsList</name></member>
+      <member refid="group__GeneralGroup_1ga2f25401d4b94a752bd63b79152673ab5" prot="protected" virt="non-virtual"><scope>MR::OpenFilesMenuItem</scope><name>dropList_</name></member>
+      <member refid="group__GeneralGroup_1ga66cbb2d4058fa4a716192e10cb346f4e" prot="private" virt="non-virtual"><scope>MR::OpenFilesMenuItem</scope><name>filters_</name></member>
+      <member refid="group__GeneralGroup_1ga88f1487695e2012ebb1cacbc1a59775a" prot="public" virt="virtual"><scope>MR::OpenFilesMenuItem</scope><name>getDynamicTooltip</name></member>
+      <member refid="group__GeneralGroup_1ga3b30bb82fe11901e3d971d3b761f5bf2" prot="public" virt="virtual"><scope>MR::OpenFilesMenuItem</scope><name>isActive</name></member>
+      <member refid="group__GeneralGroup_1gadedf10c80ddfebcb456559fa828065c0" prot="public" virt="virtual"><scope>MR::OpenFilesMenuItem</scope><name>isAvailable</name></member>
+      <member refid="group__GeneralGroup_1ga957422a15704b2f8854bfd0b2d1ae76d" prot="public" virt="non-virtual"><scope>MR::OpenFilesMenuItem</scope><name>MR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1gabf4ea13c8983c44214b92a066e8b7659" prot="public" virt="non-virtual"><scope>MR::OpenFilesMenuItem</scope><name>name</name></member>
+      <member refid="group__GeneralGroup_1ga160329bce0ad93ad797573ea7cfb6408" prot="private" virt="non-virtual"><scope>MR::OpenFilesMenuItem</scope><name>openDirectoryItem_</name></member>
+      <member refid="group__GeneralGroup_1ga730daf0dedd17ae6cb20e34f341cfb95" prot="public" virt="non-virtual"><scope>MR::OpenFilesMenuItem</scope><name>OpenFilesMenuItem</name></member>
+      <member refid="group__GeneralGroup_1ga948217d94434e74a96bd362bb9bfb759" prot="private" virt="non-virtual"><scope>MR::OpenFilesMenuItem</scope><name>parseLaunchParams_</name></member>
+      <member refid="group__GeneralGroup_1ga2f51fd6a810f6df1a63fdd6b649bfcc3" prot="private" virt="virtual"><scope>MR::OpenFilesMenuItem</scope><name>preDraw_</name></member>
+      <member refid="group__GeneralGroup_1gaaaf78d950cc79901f8ffe1fdd4dd2bba" prot="private" virt="non-virtual"><scope>MR::OpenFilesMenuItem</scope><name>recentPathsCache_</name></member>
+      <member refid="group__GeneralGroup_1ga6f744df1a8933de02b25d92a4551d4d2" prot="private" virt="non-virtual"><scope>MR::OpenFilesMenuItem</scope><name>recentStoreConnection_</name></member>
+      <member refid="group__GeneralGroup_1gad3e0eda49eae11a9fba79187c62e07bb" prot="public" virt="non-virtual"><scope>MR::OpenFilesMenuItem</scope><name>RibbonMenuItem</name></member>
+      <member refid="group__GeneralGroup_1gaf417cbe66b6559e5df0122377c5a3628" prot="public" virt="non-virtual"><scope>MR::OpenFilesMenuItem</scope><name>setDropItemsFromItemList</name></member>
+      <member refid="group__GeneralGroup_1gab499c9049737793e6b1994048b99952c" prot="public" virt="non-virtual"><scope>MR::OpenFilesMenuItem</scope><name>setRibbonItemType</name></member>
+      <member refid="group__GeneralGroup_1gafc218a75b4e145aec457b2ea5afbd805" prot="private" virt="non-virtual"><scope>MR::OpenFilesMenuItem</scope><name>setupListUpdate_</name></member>
+      <member refid="group__GeneralGroup_1ga15b6a4b9f191b8716be1199364bb74e0" prot="public" virt="virtual"><scope>MR::OpenFilesMenuItem</scope><name>type</name></member>
+      <member refid="group__GeneralGroup_1ga00b402da6dbcec7d6c97b5c6a16e3924" prot="protected" virt="non-virtual"><scope>MR::OpenFilesMenuItem</scope><name>type_</name></member>
+      <member refid="group__GeneralGroup_1ga327958b76ec3d044202620beafe67c93" prot="public" virt="virtual"><scope>MR::OpenFilesMenuItem</scope><name>uiName</name></member>
+      <member refid="group__GeneralGroup_1gad6d7bd5bc97dd4a629de5e0a33af3afe" prot="public" virt="virtual"><scope>MR::OpenFilesMenuItem</scope><name>~ISceneStateCheck</name></member>
+      <member refid="group__GeneralGroup_1ga726f5e2601b7f25e31824a0cac630fb2" prot="public" virt="virtual"><scope>MR::OpenFilesMenuItem</scope><name>~MultiListener</name></member>
+      <member refid="group__GeneralGroup_1ga207d475cc669e1d40ec03027582df564" prot="public" virt="non-virtual"><scope>MR::OpenFilesMenuItem</scope><name>~OpenFilesMenuItem</name></member>
+      <member refid="group__GeneralGroup_1gac8074b75f1c764d041b11210b5b7541c" prot="public" virt="virtual"><scope>MR::OpenFilesMenuItem</scope><name>~RibbonMenuItem</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

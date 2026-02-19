@@ -5,613 +5,48 @@
     <basecompoundref refid="structMR_1_1MultiListener" prot="public" virt="non-virtual">MR::MultiListener&lt; DragStartListener, DragListener, DragEndListener, NameTagClickListener &gt;</basecompoundref>
     <includes refid="MRPlaneWidget_8h" local="no">MRPlaneWidget.h</includes>
     <sectiondef kind="private-type">
-      <memberdef kind="typedef" id="classMR_1_1PlaneWidget_1a808fc2486084ef99fc09fa592b022201" prot="private" static="no">
-        <type>std::function&lt; void()&gt;</type>
-        <definition>using MR::PlaneWidget::OnPlaneUpdateCallback =  std::function&lt;void()&gt;</definition>
-        <argsstring></argsstring>
-        <name>OnPlaneUpdateCallback</name>
-        <qualifiedname>MR::PlaneWidget::OnPlaneUpdateCallback</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" line="24" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" bodystart="24" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga808fc2486084ef99fc09fa592b022201" kind="typedef"><name>OnPlaneUpdateCallback</name></member>
     </sectiondef>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1PlaneWidget_1a3ad5dbdc8d671aa280623b50ed73f79d" prot="private" static="no" mutable="no">
-        <type>std::shared_ptr&lt; <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> &gt;</type>
-        <definition>std::shared_ptr&lt;ObjectMesh&gt; MR::PlaneWidget::planeObj_</definition>
-        <argsstring></argsstring>
-        <name>planeObj_</name>
-        <qualifiedname>MR::PlaneWidget::planeObj_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" line="15" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1PlaneWidget_1adacdedc8b32fcdeaed363760f8ed1e69" prot="private" static="no" mutable="no">
-        <type>Plane3f</type>
-        <definition>Plane3f MR::PlaneWidget::plane_</definition>
-        <argsstring></argsstring>
-        <name>plane_</name>
-        <qualifiedname>MR::PlaneWidget::plane_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" line="16" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1PlaneWidget_1a47c53444dd395fdf2f575f9e8401f086" prot="private" static="no" mutable="no">
-        <type>Box3f</type>
-        <definition>Box3f MR::PlaneWidget::box_</definition>
-        <argsstring></argsstring>
-        <name>box_</name>
-        <qualifiedname>MR::PlaneWidget::box_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" line="17" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1PlaneWidget_1a3061368c9a6788e8285a2f011375151e" prot="private" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::PlaneWidget::cameraUp3Old_</definition>
-        <argsstring></argsstring>
-        <name>cameraUp3Old_</name>
-        <qualifiedname>MR::PlaneWidget::cameraUp3Old_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" line="18" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1PlaneWidget_1aea051c3e515d4c3ef552b09812ef565b" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::PlaneWidget::localMode_</definition>
-        <argsstring></argsstring>
-        <name>localMode_</name>
-        <qualifiedname>MR::PlaneWidget::localMode_</qualifiedname>
-        <initializer>{ false }</initializer>
-        <briefdescription>
-<para>if in this mode - newly setup plane always has 0.0 shift </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" line="21" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" bodystart="21" bodyend="21"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1PlaneWidget_1aaee0b2ebc04899471edba0763a99f522" prot="private" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::PlaneWidget::localShift_</definition>
-        <argsstring></argsstring>
-        <name>localShift_</name>
-        <qualifiedname>MR::PlaneWidget::localShift_</qualifiedname>
-        <initializer>{ 0.0f }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" line="22" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" bodystart="22" bodyend="22"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1PlaneWidget_1a76171a391a74524d3fd701a469582c47" prot="private" static="no" mutable="no">
-        <type>OnPlaneUpdateCallback</type>
-        <definition>OnPlaneUpdateCallback MR::PlaneWidget::onPlaneUpdate_</definition>
-        <argsstring></argsstring>
-        <name>onPlaneUpdate_</name>
-        <qualifiedname>MR::PlaneWidget::onPlaneUpdate_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" line="25" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" bodystart="25" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1PlaneWidget_1a33ea46d91807f6c6e2e51b37e411cf3d" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::PlaneWidget::pressed_</definition>
-        <argsstring></argsstring>
-        <name>pressed_</name>
-        <qualifiedname>MR::PlaneWidget::pressed_</qualifiedname>
-        <initializer>= false</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" line="27" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" bodystart="27" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1PlaneWidget_1aceabbf2d5b1711b3e838c84b9666b7d3" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::PlaneWidget::showPlaneByDefault_</definition>
-        <argsstring></argsstring>
-        <name>showPlaneByDefault_</name>
-        <qualifiedname>MR::PlaneWidget::showPlaneByDefault_</qualifiedname>
-        <initializer>= true</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" line="28" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" bodystart="28" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1PlaneWidget_1aa3a1a43f19e5815a5e784e4acba5eb61" prot="private" static="no" mutable="no">
-        <type>Vector2f</type>
-        <definition>Vector2f MR::PlaneWidget::startMousePos_</definition>
-        <argsstring></argsstring>
-        <name>startMousePos_</name>
-        <qualifiedname>MR::PlaneWidget::startMousePos_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" line="29" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" bodystart="29" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1PlaneWidget_1a68c5a70f2f359f4edd631394e4f965e5" prot="private" static="no" mutable="no">
-        <type>Vector2f</type>
-        <definition>Vector2f MR::PlaneWidget::endMousePos_</definition>
-        <argsstring></argsstring>
-        <name>endMousePos_</name>
-        <qualifiedname>MR::PlaneWidget::endMousePos_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" line="30" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" bodystart="30" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1PlaneWidget_1a9bd3c20090efa8e43b22664f5198ef9f" prot="private" static="no" mutable="no">
-        <type>std::shared_ptr&lt; <ref refid="classMR_1_1ObjectLines" kindref="compound">ObjectLines</ref> &gt;</type>
-        <definition>std::shared_ptr&lt;ObjectLines&gt; MR::PlaneWidget::line_</definition>
-        <argsstring></argsstring>
-        <name>line_</name>
-        <qualifiedname>MR::PlaneWidget::line_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" line="32" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" bodystart="32" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1PlaneWidget_1af20e1ee1a60210b2bdf04b190c0eca17" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::PlaneWidget::importPlaneMode_</definition>
-        <argsstring></argsstring>
-        <name>importPlaneMode_</name>
-        <qualifiedname>MR::PlaneWidget::importPlaneMode_</qualifiedname>
-        <initializer>= false</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" line="34" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" bodystart="34" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga3ad5dbdc8d671aa280623b50ed73f79d" kind="variable"><name>planeObj_</name></member>
+      <member refid="group__GeneralGroup_1gadacdedc8b32fcdeaed363760f8ed1e69" kind="variable"><name>plane_</name></member>
+      <member refid="group__GeneralGroup_1ga47c53444dd395fdf2f575f9e8401f086" kind="variable"><name>box_</name></member>
+      <member refid="group__GeneralGroup_1ga3061368c9a6788e8285a2f011375151e" kind="variable"><name>cameraUp3Old_</name></member>
+      <member refid="group__GeneralGroup_1gaea051c3e515d4c3ef552b09812ef565b" kind="variable"><name>localMode_</name></member>
+      <member refid="group__GeneralGroup_1gaaee0b2ebc04899471edba0763a99f522" kind="variable"><name>localShift_</name></member>
+      <member refid="group__GeneralGroup_1ga76171a391a74524d3fd701a469582c47" kind="variable"><name>onPlaneUpdate_</name></member>
+      <member refid="group__GeneralGroup_1ga33ea46d91807f6c6e2e51b37e411cf3d" kind="variable"><name>pressed_</name></member>
+      <member refid="group__GeneralGroup_1gaceabbf2d5b1711b3e838c84b9666b7d3" kind="variable"><name>showPlaneByDefault_</name></member>
+      <member refid="group__GeneralGroup_1gaa3a1a43f19e5815a5e784e4acba5eb61" kind="variable"><name>startMousePos_</name></member>
+      <member refid="group__GeneralGroup_1ga68c5a70f2f359f4edd631394e4f965e5" kind="variable"><name>endMousePos_</name></member>
+      <member refid="group__GeneralGroup_1ga9bd3c20090efa8e43b22664f5198ef9f" kind="variable"><name>line_</name></member>
+      <member refid="group__GeneralGroup_1gaf20e1ee1a60210b2bdf04b190c0eca17" kind="variable"><name>importPlaneMode_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1PlaneWidget_1a2d610de7f459407dbb91a6bab7e7e3ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::PlaneWidget::updatePlane</definition>
-        <argsstring>(const Plane3f &amp;plane, bool updateCameraRotation=true)</argsstring>
-        <name>updatePlane</name>
-        <qualifiedname>MR::PlaneWidget::updatePlane</qualifiedname>
-        <param>
-          <type>const Plane3f &amp;</type>
-          <declname>plane</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>updateCameraRotation</declname>
-          <defval>true</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>updates plane, triggers callback if it is specified if updateCameraRotation is true, plane transform will be updated with respect of camera up direction </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" line="39" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PlaneWidget_1a8ae56fec0c4c5e422a127b1db23a053d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::PlaneWidget::updateBox</definition>
-        <argsstring>(const Box3f &amp;box, bool updateCameraRotation=true)</argsstring>
-        <name>updateBox</name>
-        <qualifiedname>MR::PlaneWidget::updateBox</qualifiedname>
-        <param>
-          <type>const Box3f &amp;</type>
-          <declname>box</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>updateCameraRotation</declname>
-          <defval>true</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>updates box which is used to calculate size and position of the visualized plane part if updateCameraRotation is true, plane transform will be updated with respect of camera up direction </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" line="42" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PlaneWidget_1a5af9b5613a5158a835792759b5058f58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::PlaneWidget::definePlane</definition>
-        <argsstring>()</argsstring>
-        <name>definePlane</name>
-        <qualifiedname>MR::PlaneWidget::definePlane</qualifiedname>
-        <briefdescription>
-<para>defines plane, adds plane object to scene </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" line="44" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PlaneWidget_1ab430c40e09189d949fa9195c31787702" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::PlaneWidget::undefinePlane</definition>
-        <argsstring>()</argsstring>
-        <name>undefinePlane</name>
-        <qualifiedname>MR::PlaneWidget::undefinePlane</qualifiedname>
-        <briefdescription>
-<para>undefines plane, removes <ref refid="classMR_1_1PlaneObject" kindref="compound">PlaneObject</ref> from scene </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" line="46" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PlaneWidget_1adf199dcf2c914f0c5584c3703355e7ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::PlaneWidget::setLocalMode</definition>
-        <argsstring>(bool on)</argsstring>
-        <name>setLocalMode</name>
-        <qualifiedname>MR::PlaneWidget::setLocalMode</qualifiedname>
-        <param>
-          <type>bool</type>
-          <declname>on</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>if local mode is active <ref refid="namespaceMR_1_1UI" kindref="compound">UI</ref> shows local shift which is 0.0 for each newly setup plane </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" line="50" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PlaneWidget_1a834649aad5bbd6ae1247ffa8a4afecce" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::PlaneWidget::isInLocalMode</definition>
-        <argsstring>() const</argsstring>
-        <name>isInLocalMode</name>
-        <qualifiedname>MR::PlaneWidget::isInLocalMode</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" line="51" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" bodystart="51" bodyend="51"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PlaneWidget_1a5e5888ffe0449bd3506d380684a6d9d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::PlaneWidget::setLocalShift</definition>
-        <argsstring>(float shift)</argsstring>
-        <name>setLocalShift</name>
-        <qualifiedname>MR::PlaneWidget::setLocalShift</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>shift</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" line="52" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" bodystart="52" bodyend="52"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PlaneWidget_1a5cf8968515531c2adac47a2f1b342235" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>float</type>
-        <definition>float MR::PlaneWidget::getLocalShift</definition>
-        <argsstring>() const</argsstring>
-        <name>getLocalShift</name>
-        <qualifiedname>MR::PlaneWidget::getLocalShift</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" line="53" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" bodystart="53" bodyend="53"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PlaneWidget_1a02b1ad4d4554be85b3e272be50cd7095" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API const Plane3f &amp;</type>
-        <definition>MRVIEWER_API const Plane3f &amp; MR::PlaneWidget::getPlane</definition>
-        <argsstring>() const</argsstring>
-        <name>getPlane</name>
-        <qualifiedname>MR::PlaneWidget::getPlane</qualifiedname>
-        <briefdescription>
-<para>returns plane </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" line="56" column="32"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PlaneWidget_1a5a56b6913aee0effc91844e49f42275c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API const std::shared_ptr&lt; <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> &gt; &amp;</type>
-        <definition>MRVIEWER_API const std::shared_ptr&lt; ObjectMesh &gt; &amp; MR::PlaneWidget::getPlaneObject</definition>
-        <argsstring>() const</argsstring>
-        <name>getPlaneObject</name>
-        <qualifiedname>MR::PlaneWidget::getPlaneObject</qualifiedname>
-        <briefdescription>
-<para>returns plane object </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" line="58" column="40"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PlaneWidget_1a443d496fd75a4f4f959365ea6c167d31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::PlaneWidget::setOnPlaneUpdateCallback</definition>
-        <argsstring>(OnPlaneUpdateCallback callback)</argsstring>
-        <name>setOnPlaneUpdateCallback</name>
-        <qualifiedname>MR::PlaneWidget::setOnPlaneUpdateCallback</qualifiedname>
-        <param>
-          <type>OnPlaneUpdateCallback</type>
-          <declname>callback</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>specifies callback onPlaneUpdate_ it is triggered when the method updatePlane is called </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" line="61" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PlaneWidget_1ade4245fe1a8605fb5f9b563ea03d5f71" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API const Box3f &amp;</type>
-        <definition>MRVIEWER_API const Box3f &amp; MR::PlaneWidget::box</definition>
-        <argsstring>() const</argsstring>
-        <name>box</name>
-        <qualifiedname>MR::PlaneWidget::box</qualifiedname>
-        <briefdescription>
-<para>returns box which is used to calculate size and position of the visualized plane part </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" line="64" column="30"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PlaneWidget_1adf904937d1dcfe1bd338c31cd4e45a2d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>MRVIEWER_API bool MR::PlaneWidget::importPlaneMode</definition>
-        <argsstring>() const</argsstring>
-        <name>importPlaneMode</name>
-        <qualifiedname>MR::PlaneWidget::importPlaneMode</qualifiedname>
-        <briefdescription>
-<para>returns the flag importPlaneMode_, if it is true you can use a plain object from the scene </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" line="66" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PlaneWidget_1a1734d155421e7bea066ad89085f451af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::PlaneWidget::setImportPlaneMode</definition>
-        <argsstring>(bool val)</argsstring>
-        <name>setImportPlaneMode</name>
-        <qualifiedname>MR::PlaneWidget::setImportPlaneMode</qualifiedname>
-        <param>
-          <type>bool</type>
-          <declname>val</declname>
-        </param>
-        <briefdescription>
-<para>sets the flag importPlaneMode_, if it is true you can use a plain object from the scene </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" line="68" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PlaneWidget_1a7d294182208228c5d470252b4f032dc7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::PlaneWidget::getShowPlaneByDefault</definition>
-        <argsstring>() const</argsstring>
-        <name>getShowPlaneByDefault</name>
-        <qualifiedname>MR::PlaneWidget::getShowPlaneByDefault</qualifiedname>
-        <briefdescription>
-<para>returns the flag that is true if the plane is shown by default </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" line="71" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" bodystart="71" bodyend="71"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PlaneWidget_1a9b0b77f99abe5bd98ad35232c69bf7a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::PlaneWidget::setShowPlaneByDefault</definition>
-        <argsstring>(bool val)</argsstring>
-        <name>setShowPlaneByDefault</name>
-        <qualifiedname>MR::PlaneWidget::setShowPlaneByDefault</qualifiedname>
-        <param>
-          <type>bool</type>
-          <declname>val</declname>
-        </param>
-        <briefdescription>
-<para>sets the flag that is true if the plane is shown by default </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" line="73" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" bodystart="73" bodyend="73"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga2d610de7f459407dbb91a6bab7e7e3ba" kind="function"><name>updatePlane</name></member>
+      <member refid="group__GeneralGroup_1ga8ae56fec0c4c5e422a127b1db23a053d" kind="function"><name>updateBox</name></member>
+      <member refid="group__GeneralGroup_1ga5af9b5613a5158a835792759b5058f58" kind="function"><name>definePlane</name></member>
+      <member refid="group__GeneralGroup_1gab430c40e09189d949fa9195c31787702" kind="function"><name>undefinePlane</name></member>
+      <member refid="group__GeneralGroup_1gadf199dcf2c914f0c5584c3703355e7ae" kind="function"><name>setLocalMode</name></member>
+      <member refid="group__GeneralGroup_1ga834649aad5bbd6ae1247ffa8a4afecce" kind="function"><name>isInLocalMode</name></member>
+      <member refid="group__GeneralGroup_1ga5e5888ffe0449bd3506d380684a6d9d2" kind="function"><name>setLocalShift</name></member>
+      <member refid="group__GeneralGroup_1ga5cf8968515531c2adac47a2f1b342235" kind="function"><name>getLocalShift</name></member>
+      <member refid="group__GeneralGroup_1ga02b1ad4d4554be85b3e272be50cd7095" kind="function"><name>getPlane</name></member>
+      <member refid="group__GeneralGroup_1ga5a56b6913aee0effc91844e49f42275c" kind="function"><name>getPlaneObject</name></member>
+      <member refid="group__GeneralGroup_1ga443d496fd75a4f4f959365ea6c167d31" kind="function"><name>setOnPlaneUpdateCallback</name></member>
+      <member refid="group__GeneralGroup_1gade4245fe1a8605fb5f9b563ea03d5f71" kind="function"><name>box</name></member>
+      <member refid="group__GeneralGroup_1gadf904937d1dcfe1bd338c31cd4e45a2d" kind="function"><name>importPlaneMode</name></member>
+      <member refid="group__GeneralGroup_1ga1734d155421e7bea066ad89085f451af" kind="function"><name>setImportPlaneMode</name></member>
+      <member refid="group__GeneralGroup_1ga7d294182208228c5d470252b4f032dc7" kind="function"><name>getShowPlaneByDefault</name></member>
+      <member refid="group__GeneralGroup_1ga9b0b77f99abe5bd98ad35232c69bf7a2" kind="function"><name>setShowPlaneByDefault</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMR_1_1PlaneWidget_1af803bcc1470654a3096cff902785e674" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::PlaneWidget::updateWidget_</definition>
-        <argsstring>(bool updateCameraRotation=true)</argsstring>
-        <name>updateWidget_</name>
-        <qualifiedname>MR::PlaneWidget::updateWidget_</qualifiedname>
-        <param>
-          <type>bool</type>
-          <declname>updateCameraRotation</declname>
-          <defval>true</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" line="76" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PlaneWidget_1a71a9f957dee054a977da32d9d8ce3a54" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>virtual MRVIEWER_API bool MR::PlaneWidget::onDragStart_</definition>
-        <argsstring>(MouseButton button, int modifier) override</argsstring>
-        <name>onDragStart_</name>
-        <qualifiedname>MR::PlaneWidget::onDragStart_</qualifiedname>
-        <param>
-          <type><ref refid="namespaceMR_1a13f98b7840e7298925ef1770b7cdb62d" kindref="member">MouseButton</ref></type>
-          <declname>button</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>modifier</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" line="78" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PlaneWidget_1ab37848a3ef1873f7bd5261dd1ebff903" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>virtual MRVIEWER_API bool MR::PlaneWidget::onDragEnd_</definition>
-        <argsstring>(MouseButton button, int modifier) override</argsstring>
-        <name>onDragEnd_</name>
-        <qualifiedname>MR::PlaneWidget::onDragEnd_</qualifiedname>
-        <param>
-          <type><ref refid="namespaceMR_1a13f98b7840e7298925ef1770b7cdb62d" kindref="member">MouseButton</ref></type>
-          <declname>button</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>modifier</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" line="79" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PlaneWidget_1ad5bfb5d6896355986ec04f4d1796ea1d" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>virtual MRVIEWER_API bool MR::PlaneWidget::onDrag_</definition>
-        <argsstring>(int mouse_x, int mouse_y) override</argsstring>
-        <name>onDrag_</name>
-        <qualifiedname>MR::PlaneWidget::onDrag_</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>mouse_x</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>mouse_y</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" line="80" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PlaneWidget_1abdbc000ec6a879fcece4d20461359e9b" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API bool</type>
-        <definition>virtual MRVIEWER_API bool MR::PlaneWidget::onNameTagClicked_</definition>
-        <argsstring>(Object &amp;object, ImGuiMenu::NameTagSelectionMode) override</argsstring>
-        <name>onNameTagClicked_</name>
-        <qualifiedname>MR::PlaneWidget::onNameTagClicked_</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
-          <declname>object</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1ImGuiMenu_1acf12d9bbd08c5c2a1b528461e7294587" kindref="member">ImGuiMenu::NameTagSelectionMode</ref></type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" line="81" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PlaneWidget_1aebd676d4f8d286ab391d4ae484340ae6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::PlaneWidget::importPlaneObj_</definition>
-        <argsstring>(Object &amp;obj)</argsstring>
-        <name>importPlaneObj_</name>
-        <qualifiedname>MR::PlaneWidget::importPlaneObj_</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;</type>
-          <declname>obj</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" line="83" column="10"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaf803bcc1470654a3096cff902785e674" kind="function"><name>updateWidget_</name></member>
+      <member refid="group__GeneralGroup_1ga71a9f957dee054a977da32d9d8ce3a54" kind="function"><name>onDragStart_</name></member>
+      <member refid="group__GeneralGroup_1gab37848a3ef1873f7bd5261dd1ebff903" kind="function"><name>onDragEnd_</name></member>
+      <member refid="group__GeneralGroup_1gad5bfb5d6896355986ec04f4d1796ea1d" kind="function"><name>onDrag_</name></member>
+      <member refid="group__GeneralGroup_1gabdbc000ec6a879fcece4d20461359e9b" kind="function"><name>onNameTagClicked_</name></member>
+      <member refid="group__GeneralGroup_1gaebd676d4f8d286ab391d4ae484340ae6" kind="function"><name>importPlaneObj_</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -652,47 +87,47 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" bodystart="14" bodyend="84"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPlaneWidget.h" bodystart="17" bodyend="87"/>
     <listofallmembers>
-      <member refid="classMR_1_1PlaneWidget_1ade4245fe1a8605fb5f9b563ea03d5f71" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>box</name></member>
-      <member refid="classMR_1_1PlaneWidget_1a47c53444dd395fdf2f575f9e8401f086" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>box_</name></member>
-      <member refid="classMR_1_1PlaneWidget_1a3061368c9a6788e8285a2f011375151e" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>cameraUp3Old_</name></member>
-      <member refid="structMR_1_1MultiListener_1af3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::PlaneWidget</scope><name>connect</name></member>
-      <member refid="classMR_1_1PlaneWidget_1a5af9b5613a5158a835792759b5058f58" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>definePlane</name></member>
-      <member refid="structMR_1_1MultiListener_1acfa598489bfbc3b88c84b029213d042c" prot="public" virt="virtual"><scope>MR::PlaneWidget</scope><name>disconnect</name></member>
-      <member refid="classMR_1_1PlaneWidget_1a68c5a70f2f359f4edd631394e4f965e5" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>endMousePos_</name></member>
-      <member refid="classMR_1_1PlaneWidget_1a5cf8968515531c2adac47a2f1b342235" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>getLocalShift</name></member>
-      <member refid="classMR_1_1PlaneWidget_1a02b1ad4d4554be85b3e272be50cd7095" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>getPlane</name></member>
-      <member refid="classMR_1_1PlaneWidget_1a5a56b6913aee0effc91844e49f42275c" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>getPlaneObject</name></member>
-      <member refid="classMR_1_1PlaneWidget_1a7d294182208228c5d470252b4f032dc7" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>getShowPlaneByDefault</name></member>
-      <member refid="classMR_1_1PlaneWidget_1adf904937d1dcfe1bd338c31cd4e45a2d" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>importPlaneMode</name></member>
-      <member refid="classMR_1_1PlaneWidget_1af20e1ee1a60210b2bdf04b190c0eca17" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>importPlaneMode_</name></member>
-      <member refid="classMR_1_1PlaneWidget_1aebd676d4f8d286ab391d4ae484340ae6" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>importPlaneObj_</name></member>
-      <member refid="classMR_1_1PlaneWidget_1a834649aad5bbd6ae1247ffa8a4afecce" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>isInLocalMode</name></member>
-      <member refid="classMR_1_1PlaneWidget_1a9bd3c20090efa8e43b22664f5198ef9f" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>line_</name></member>
-      <member refid="classMR_1_1PlaneWidget_1aea051c3e515d4c3ef552b09812ef565b" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>localMode_</name></member>
-      <member refid="classMR_1_1PlaneWidget_1aaee0b2ebc04899471edba0763a99f522" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>localShift_</name></member>
-      <member refid="classMR_1_1PlaneWidget_1ad5bfb5d6896355986ec04f4d1796ea1d" prot="private" virt="virtual"><scope>MR::PlaneWidget</scope><name>onDrag_</name></member>
-      <member refid="classMR_1_1PlaneWidget_1ab37848a3ef1873f7bd5261dd1ebff903" prot="private" virt="virtual"><scope>MR::PlaneWidget</scope><name>onDragEnd_</name></member>
-      <member refid="classMR_1_1PlaneWidget_1a71a9f957dee054a977da32d9d8ce3a54" prot="private" virt="virtual"><scope>MR::PlaneWidget</scope><name>onDragStart_</name></member>
-      <member refid="classMR_1_1PlaneWidget_1abdbc000ec6a879fcece4d20461359e9b" prot="private" virt="virtual"><scope>MR::PlaneWidget</scope><name>onNameTagClicked_</name></member>
-      <member refid="classMR_1_1PlaneWidget_1a76171a391a74524d3fd701a469582c47" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>onPlaneUpdate_</name></member>
-      <member refid="classMR_1_1PlaneWidget_1a808fc2486084ef99fc09fa592b022201" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>OnPlaneUpdateCallback</name></member>
-      <member refid="classMR_1_1PlaneWidget_1adacdedc8b32fcdeaed363760f8ed1e69" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>plane_</name></member>
-      <member refid="classMR_1_1PlaneWidget_1a3ad5dbdc8d671aa280623b50ed73f79d" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>planeObj_</name></member>
-      <member refid="classMR_1_1PlaneWidget_1a33ea46d91807f6c6e2e51b37e411cf3d" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>pressed_</name></member>
-      <member refid="classMR_1_1PlaneWidget_1a1734d155421e7bea066ad89085f451af" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>setImportPlaneMode</name></member>
-      <member refid="classMR_1_1PlaneWidget_1adf199dcf2c914f0c5584c3703355e7ae" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>setLocalMode</name></member>
-      <member refid="classMR_1_1PlaneWidget_1a5e5888ffe0449bd3506d380684a6d9d2" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>setLocalShift</name></member>
-      <member refid="classMR_1_1PlaneWidget_1a443d496fd75a4f4f959365ea6c167d31" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>setOnPlaneUpdateCallback</name></member>
-      <member refid="classMR_1_1PlaneWidget_1a9b0b77f99abe5bd98ad35232c69bf7a2" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>setShowPlaneByDefault</name></member>
-      <member refid="classMR_1_1PlaneWidget_1aceabbf2d5b1711b3e838c84b9666b7d3" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>showPlaneByDefault_</name></member>
-      <member refid="classMR_1_1PlaneWidget_1aa3a1a43f19e5815a5e784e4acba5eb61" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>startMousePos_</name></member>
-      <member refid="classMR_1_1PlaneWidget_1ab430c40e09189d949fa9195c31787702" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>undefinePlane</name></member>
-      <member refid="classMR_1_1PlaneWidget_1a8ae56fec0c4c5e422a127b1db23a053d" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>updateBox</name></member>
-      <member refid="classMR_1_1PlaneWidget_1a2d610de7f459407dbb91a6bab7e7e3ba" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>updatePlane</name></member>
-      <member refid="classMR_1_1PlaneWidget_1af803bcc1470654a3096cff902785e674" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>updateWidget_</name></member>
-      <member refid="structMR_1_1MultiListener_1a726f5e2601b7f25e31824a0cac630fb2" prot="public" virt="virtual"><scope>MR::PlaneWidget</scope><name>~MultiListener</name></member>
+      <member refid="group__GeneralGroup_1gade4245fe1a8605fb5f9b563ea03d5f71" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>box</name></member>
+      <member refid="group__GeneralGroup_1ga47c53444dd395fdf2f575f9e8401f086" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>box_</name></member>
+      <member refid="group__GeneralGroup_1ga3061368c9a6788e8285a2f011375151e" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>cameraUp3Old_</name></member>
+      <member refid="group__GeneralGroup_1gaf3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::PlaneWidget</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1ga5af9b5613a5158a835792759b5058f58" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>definePlane</name></member>
+      <member refid="group__GeneralGroup_1gacfa598489bfbc3b88c84b029213d042c" prot="public" virt="virtual"><scope>MR::PlaneWidget</scope><name>disconnect</name></member>
+      <member refid="group__GeneralGroup_1ga68c5a70f2f359f4edd631394e4f965e5" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>endMousePos_</name></member>
+      <member refid="group__GeneralGroup_1ga5cf8968515531c2adac47a2f1b342235" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>getLocalShift</name></member>
+      <member refid="group__GeneralGroup_1ga02b1ad4d4554be85b3e272be50cd7095" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>getPlane</name></member>
+      <member refid="group__GeneralGroup_1ga5a56b6913aee0effc91844e49f42275c" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>getPlaneObject</name></member>
+      <member refid="group__GeneralGroup_1ga7d294182208228c5d470252b4f032dc7" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>getShowPlaneByDefault</name></member>
+      <member refid="group__GeneralGroup_1gadf904937d1dcfe1bd338c31cd4e45a2d" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>importPlaneMode</name></member>
+      <member refid="group__GeneralGroup_1gaf20e1ee1a60210b2bdf04b190c0eca17" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>importPlaneMode_</name></member>
+      <member refid="group__GeneralGroup_1gaebd676d4f8d286ab391d4ae484340ae6" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>importPlaneObj_</name></member>
+      <member refid="group__GeneralGroup_1ga834649aad5bbd6ae1247ffa8a4afecce" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>isInLocalMode</name></member>
+      <member refid="group__GeneralGroup_1ga9bd3c20090efa8e43b22664f5198ef9f" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>line_</name></member>
+      <member refid="group__GeneralGroup_1gaea051c3e515d4c3ef552b09812ef565b" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>localMode_</name></member>
+      <member refid="group__GeneralGroup_1gaaee0b2ebc04899471edba0763a99f522" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>localShift_</name></member>
+      <member refid="group__GeneralGroup_1gad5bfb5d6896355986ec04f4d1796ea1d" prot="private" virt="virtual"><scope>MR::PlaneWidget</scope><name>onDrag_</name></member>
+      <member refid="group__GeneralGroup_1gab37848a3ef1873f7bd5261dd1ebff903" prot="private" virt="virtual"><scope>MR::PlaneWidget</scope><name>onDragEnd_</name></member>
+      <member refid="group__GeneralGroup_1ga71a9f957dee054a977da32d9d8ce3a54" prot="private" virt="virtual"><scope>MR::PlaneWidget</scope><name>onDragStart_</name></member>
+      <member refid="group__GeneralGroup_1gabdbc000ec6a879fcece4d20461359e9b" prot="private" virt="virtual"><scope>MR::PlaneWidget</scope><name>onNameTagClicked_</name></member>
+      <member refid="group__GeneralGroup_1ga76171a391a74524d3fd701a469582c47" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>onPlaneUpdate_</name></member>
+      <member refid="group__GeneralGroup_1ga808fc2486084ef99fc09fa592b022201" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>OnPlaneUpdateCallback</name></member>
+      <member refid="group__GeneralGroup_1gadacdedc8b32fcdeaed363760f8ed1e69" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>plane_</name></member>
+      <member refid="group__GeneralGroup_1ga3ad5dbdc8d671aa280623b50ed73f79d" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>planeObj_</name></member>
+      <member refid="group__GeneralGroup_1ga33ea46d91807f6c6e2e51b37e411cf3d" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>pressed_</name></member>
+      <member refid="group__GeneralGroup_1ga1734d155421e7bea066ad89085f451af" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>setImportPlaneMode</name></member>
+      <member refid="group__GeneralGroup_1gadf199dcf2c914f0c5584c3703355e7ae" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>setLocalMode</name></member>
+      <member refid="group__GeneralGroup_1ga5e5888ffe0449bd3506d380684a6d9d2" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>setLocalShift</name></member>
+      <member refid="group__GeneralGroup_1ga443d496fd75a4f4f959365ea6c167d31" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>setOnPlaneUpdateCallback</name></member>
+      <member refid="group__GeneralGroup_1ga9b0b77f99abe5bd98ad35232c69bf7a2" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>setShowPlaneByDefault</name></member>
+      <member refid="group__GeneralGroup_1gaceabbf2d5b1711b3e838c84b9666b7d3" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>showPlaneByDefault_</name></member>
+      <member refid="group__GeneralGroup_1gaa3a1a43f19e5815a5e784e4acba5eb61" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>startMousePos_</name></member>
+      <member refid="group__GeneralGroup_1gab430c40e09189d949fa9195c31787702" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>undefinePlane</name></member>
+      <member refid="group__GeneralGroup_1ga8ae56fec0c4c5e422a127b1db23a053d" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>updateBox</name></member>
+      <member refid="group__GeneralGroup_1ga2d610de7f459407dbb91a6bab7e7e3ba" prot="public" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>updatePlane</name></member>
+      <member refid="group__GeneralGroup_1gaf803bcc1470654a3096cff902785e674" prot="private" virt="non-virtual"><scope>MR::PlaneWidget</scope><name>updateWidget_</name></member>
+      <member refid="group__GeneralGroup_1ga726f5e2601b7f25e31824a0cac630fb2" prot="public" virt="virtual"><scope>MR::PlaneWidget</scope><name>~MultiListener</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

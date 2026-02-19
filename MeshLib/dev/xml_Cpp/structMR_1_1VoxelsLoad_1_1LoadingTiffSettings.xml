@@ -49,7 +49,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="99" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" bodystart="99" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1VoxelsLoad_1_1LoadingTiffSettings_1ad7f6150701181ada771a2322643a89dd" prot="public" static="no" mutable="no">
-        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+        <type>ProgressCallback</type>
         <definition>ProgressCallback MR::VoxelsLoad::LoadingTiffSettings::cb</definition>
         <argsstring></argsstring>
         <name>cb</name>

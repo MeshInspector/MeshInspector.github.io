@@ -4,100 +4,12 @@
     <compoundname>MR::ContoursMeshAlignParams</compoundname>
     <includes refid="MRAlignContoursToMesh_8h" local="no">MRAlignContoursToMesh.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1ContoursMeshAlignParams_1ae97d50b08fe054c5ef97702df2abed70" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
-        <definition>MeshTriPoint MR::ContoursMeshAlignParams::meshPoint</definition>
-        <argsstring></argsstring>
-        <name>meshPoint</name>
-        <qualifiedname>MR::ContoursMeshAlignParams::meshPoint</qualifiedname>
-        <briefdescription>
-<para>Point coordinate on mesh, represent position of contours box &apos;pivotPoint&apos; on mesh. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" line="17" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ContoursMeshAlignParams_1ade3d72e16e489a276f9609dfb721672f" prot="public" static="no" mutable="no">
-        <type>Vector2f</type>
-        <definition>Vector2f MR::ContoursMeshAlignParams::pivotPoint</definition>
-        <argsstring></argsstring>
-        <name>pivotPoint</name>
-        <qualifiedname>MR::ContoursMeshAlignParams::pivotPoint</qualifiedname>
-        <initializer>{ 0.0f, 0.0f }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Relative position of &apos;meshPoint&apos; in contours bounding box (0, 0) - bottom left, (0, 1) - bottom right, (0.5, 0.5) - center, (1, 1) - top right </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" line="21" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" bodystart="21" bodyend="21"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ContoursMeshAlignParams_1abb4c90b83a016a27219b89f5e2fbeb70" prot="public" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::ContoursMeshAlignParams::xDirection</definition>
-        <argsstring></argsstring>
-        <name>xDirection</name>
-        <qualifiedname>MR::ContoursMeshAlignParams::xDirection</qualifiedname>
-        <briefdescription>
-<para>Represents 2d contours xDirection in mesh space. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" line="24" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" bodystart="24" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ContoursMeshAlignParams_1a03ba54ef5ff8848961f9fcc18f1c332a" prot="public" static="no" mutable="no">
-        <type>const Vector3f *</type>
-        <definition>const Vector3f* MR::ContoursMeshAlignParams::zDirection</definition>
-        <argsstring></argsstring>
-        <name>zDirection</name>
-        <qualifiedname>MR::ContoursMeshAlignParams::zDirection</qualifiedname>
-        <initializer>{ nullptr }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Represents contours normal in mesh space if nullptr - use mesh normal at &apos;meshPoint&apos; </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" line="28" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" bodystart="28" bodyend="28"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ContoursMeshAlignParams_1a9a03a3ee1588c3ef8f24a4dbfa6ec448" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::ContoursMeshAlignParams::extrusion</definition>
-        <argsstring></argsstring>
-        <name>extrusion</name>
-        <qualifiedname>MR::ContoursMeshAlignParams::extrusion</qualifiedname>
-        <initializer>{ 1.0f }</initializer>
-        <briefdescription>
-<para>Contours extrusion in +z and -z direction. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" line="31" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" bodystart="31" bodyend="31"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ContoursMeshAlignParams_1ad9dad0b7c156df05b761c0ed08386885" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::ContoursMeshAlignParams::maximumShift</definition>
-        <argsstring></argsstring>
-        <name>maximumShift</name>
-        <qualifiedname>MR::ContoursMeshAlignParams::maximumShift</qualifiedname>
-        <initializer>{ 2.5f }</initializer>
-        <briefdescription>
-<para>Maximum allowed shift along &apos;zDirection&apos; for alignment. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" line="34" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" bodystart="34" bodyend="34"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gae97d50b08fe054c5ef97702df2abed70" kind="variable"><name>meshPoint</name></member>
+      <member refid="group__GeneralGroup_1gade3d72e16e489a276f9609dfb721672f" kind="variable"><name>pivotPoint</name></member>
+      <member refid="group__GeneralGroup_1gabb4c90b83a016a27219b89f5e2fbeb70" kind="variable"><name>xDirection</name></member>
+      <member refid="group__GeneralGroup_1ga03ba54ef5ff8848961f9fcc18f1c332a" kind="variable"><name>zDirection</name></member>
+      <member refid="group__GeneralGroup_1ga9a03a3ee1588c3ef8f24a4dbfa6ec448" kind="variable"><name>extrusion</name></member>
+      <member refid="group__GeneralGroup_1gad9dad0b7c156df05b761c0ed08386885" kind="variable"><name>maximumShift</name></member>
     </sectiondef>
     <briefdescription>
 <para>Parameters for aligning 2d contours onto mesh surface. </para>
@@ -117,14 +29,14 @@
         <link refid="structMR_1_1MeshTriPoint"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" bodystart="15" bodyend="35"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" bodystart="18" bodyend="38"/>
     <listofallmembers>
-      <member refid="structMR_1_1ContoursMeshAlignParams_1a9a03a3ee1588c3ef8f24a4dbfa6ec448" prot="public" virt="non-virtual"><scope>MR::ContoursMeshAlignParams</scope><name>extrusion</name></member>
-      <member refid="structMR_1_1ContoursMeshAlignParams_1ad9dad0b7c156df05b761c0ed08386885" prot="public" virt="non-virtual"><scope>MR::ContoursMeshAlignParams</scope><name>maximumShift</name></member>
-      <member refid="structMR_1_1ContoursMeshAlignParams_1ae97d50b08fe054c5ef97702df2abed70" prot="public" virt="non-virtual"><scope>MR::ContoursMeshAlignParams</scope><name>meshPoint</name></member>
-      <member refid="structMR_1_1ContoursMeshAlignParams_1ade3d72e16e489a276f9609dfb721672f" prot="public" virt="non-virtual"><scope>MR::ContoursMeshAlignParams</scope><name>pivotPoint</name></member>
-      <member refid="structMR_1_1ContoursMeshAlignParams_1abb4c90b83a016a27219b89f5e2fbeb70" prot="public" virt="non-virtual"><scope>MR::ContoursMeshAlignParams</scope><name>xDirection</name></member>
-      <member refid="structMR_1_1ContoursMeshAlignParams_1a03ba54ef5ff8848961f9fcc18f1c332a" prot="public" virt="non-virtual"><scope>MR::ContoursMeshAlignParams</scope><name>zDirection</name></member>
+      <member refid="group__GeneralGroup_1ga9a03a3ee1588c3ef8f24a4dbfa6ec448" prot="public" virt="non-virtual"><scope>MR::ContoursMeshAlignParams</scope><name>extrusion</name></member>
+      <member refid="group__GeneralGroup_1gad9dad0b7c156df05b761c0ed08386885" prot="public" virt="non-virtual"><scope>MR::ContoursMeshAlignParams</scope><name>maximumShift</name></member>
+      <member refid="group__GeneralGroup_1gae97d50b08fe054c5ef97702df2abed70" prot="public" virt="non-virtual"><scope>MR::ContoursMeshAlignParams</scope><name>meshPoint</name></member>
+      <member refid="group__GeneralGroup_1gade3d72e16e489a276f9609dfb721672f" prot="public" virt="non-virtual"><scope>MR::ContoursMeshAlignParams</scope><name>pivotPoint</name></member>
+      <member refid="group__GeneralGroup_1gabb4c90b83a016a27219b89f5e2fbeb70" prot="public" virt="non-virtual"><scope>MR::ContoursMeshAlignParams</scope><name>xDirection</name></member>
+      <member refid="group__GeneralGroup_1ga03ba54ef5ff8848961f9fcc18f1c332a" prot="public" virt="non-virtual"><scope>MR::ContoursMeshAlignParams</scope><name>zDirection</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

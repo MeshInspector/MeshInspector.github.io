@@ -12,364 +12,42 @@
       </param>
     </templateparamlist>
     <sectiondef kind="public-type">
-      <memberdef kind="typedef" id="classMR_1_1RangeProcessorSingle_1a3dd22e8ad777958bc8dd5ca24697cab1" prot="public" static="no">
-        <type>std::function&lt; bool(void)&gt;</type>
-        <definition>using MR::RangeProcessorSingle&lt; TreeT, Proc &gt;::InterruptFunc =  std::function&lt;bool( void )&gt;</definition>
-        <argsstring></argsstring>
-        <name>InterruptFunc</name>
-        <qualifiedname>MR::RangeProcessorSingle::InterruptFunc</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="221" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="221" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1RangeProcessorSingle_1a18c7b1c6f5f3eb4ab1f683819ab2526b" prot="public" static="no">
-        <type>std::shared_ptr&lt; <ref refid="classMR_1_1RangeProgress" kindref="compound">RangeProgress</ref> &gt;</type>
-        <definition>using MR::RangeProcessorSingle&lt; TreeT, Proc &gt;::ProgressHolder =  std::shared_ptr&lt;RangeProgress&gt;</definition>
-        <argsstring></argsstring>
-        <name>ProgressHolder</name>
-        <qualifiedname>MR::RangeProcessorSingle::ProgressHolder</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="222" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="222" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1RangeProcessorSingle_1a06885853a633af8e30ee961ef1ae4c1e" prot="public" static="no">
-        <type>typename TreeT::ValueType</type>
-        <definition>using MR::RangeProcessorSingle&lt; TreeT, Proc &gt;::ValueT =  typename TreeT::ValueType</definition>
-        <argsstring></argsstring>
-        <name>ValueT</name>
-        <qualifiedname>MR::RangeProcessorSingle::ValueT</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="224" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="224" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1RangeProcessorSingle_1a27245f92c4924f6d589bb260006327b4" prot="public" static="no">
-        <type>typename TreeT::LeafCIter</type>
-        <definition>using MR::RangeProcessorSingle&lt; TreeT, Proc &gt;::LeafIterT =  typename TreeT::LeafCIter</definition>
-        <argsstring></argsstring>
-        <name>LeafIterT</name>
-        <qualifiedname>MR::RangeProcessorSingle::LeafIterT</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="226" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="226" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1RangeProcessorSingle_1a96c2bef18796f6c8b109f9104a29b2dc" prot="public" static="no">
-        <type>typename TreeT::ValueAllCIter</type>
-        <definition>using MR::RangeProcessorSingle&lt; TreeT, Proc &gt;::TileIterT =  typename TreeT::ValueAllCIter</definition>
-        <argsstring></argsstring>
-        <name>TileIterT</name>
-        <qualifiedname>MR::RangeProcessorSingle::TileIterT</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="227" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="227" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1RangeProcessorSingle_1a4230fb4bf134d204266d7a36e6eaa54c" prot="public" static="no">
-        <type>typename openvdb::tree::IteratorRange&lt; <ref refid="classMR_1_1RangeProcessorSingle_1a27245f92c4924f6d589bb260006327b4" kindref="member">LeafIterT</ref> &gt;</type>
-        <definition>using MR::RangeProcessorSingle&lt; TreeT, Proc &gt;::LeafRange =  typename openvdb::tree::IteratorRange&lt;LeafIterT&gt;</definition>
-        <argsstring></argsstring>
-        <name>LeafRange</name>
-        <qualifiedname>MR::RangeProcessorSingle::LeafRange</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="228" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="228" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1RangeProcessorSingle_1a6bdb6524924805af1844ae7278708c3f" prot="public" static="no">
-        <type>typename openvdb::tree::IteratorRange&lt; <ref refid="classMR_1_1RangeProcessorSingle_1a96c2bef18796f6c8b109f9104a29b2dc" kindref="member">TileIterT</ref> &gt;</type>
-        <definition>using MR::RangeProcessorSingle&lt; TreeT, Proc &gt;::TileRange =  typename openvdb::tree::IteratorRange&lt;TileIterT&gt;</definition>
-        <argsstring></argsstring>
-        <name>TileRange</name>
-        <qualifiedname>MR::RangeProcessorSingle::TileRange</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="229" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="229" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1RangeProcessorSingle_1a74bdcc0991a9a680c90dc549ed96da8f" prot="public" static="no">
-        <type>typename openvdb::tree::ValueAccessor&lt; const TreeT &gt;</type>
-        <definition>using MR::RangeProcessorSingle&lt; TreeT, Proc &gt;::TreeAccessor =  typename openvdb::tree::ValueAccessor&lt;const TreeT&gt;</definition>
-        <argsstring></argsstring>
-        <name>TreeAccessor</name>
-        <qualifiedname>MR::RangeProcessorSingle::TreeAccessor</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="231" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="231" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga3dd22e8ad777958bc8dd5ca24697cab1" kind="typedef"><name>InterruptFunc</name></member>
+      <member refid="group__GeneralGroup_1ga18c7b1c6f5f3eb4ab1f683819ab2526b" kind="typedef"><name>ProgressHolder</name></member>
+      <member refid="group__GeneralGroup_1ga06885853a633af8e30ee961ef1ae4c1e" kind="typedef"><name>ValueT</name></member>
+      <member refid="group__GeneralGroup_1ga27245f92c4924f6d589bb260006327b4" kind="typedef"><name>LeafIterT</name></member>
+      <member refid="group__GeneralGroup_1ga96c2bef18796f6c8b109f9104a29b2dc" kind="typedef"><name>TileIterT</name></member>
+      <member refid="group__GeneralGroup_1ga4230fb4bf134d204266d7a36e6eaa54c" kind="typedef"><name>LeafRange</name></member>
+      <member refid="group__GeneralGroup_1ga6bdb6524924805af1844ae7278708c3f" kind="typedef"><name>TileRange</name></member>
+      <member refid="group__GeneralGroup_1ga74bdcc0991a9a680c90dc549ed96da8f" kind="typedef"><name>TreeAccessor</name></member>
     </sectiondef>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="classMR_1_1RangeProcessorSingle_1a264a04656289a9abfa5a0ce6ff0a9b96" prot="public" static="no" mutable="no">
-        <type>Proc</type>
-        <definition>Proc MR::RangeProcessorSingle&lt; TreeT, Proc &gt;::mProc</definition>
-        <argsstring></argsstring>
-        <name>mProc</name>
-        <qualifiedname>MR::RangeProcessorSingle::mProc</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="326" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="326" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga264a04656289a9abfa5a0ce6ff0a9b96" kind="variable"><name>mProc</name></member>
     </sectiondef>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1RangeProcessorSingle_1a0a437b690fa040b0436dd2e49df6c3f1" prot="private" static="no" mutable="no">
-        <type>openvdb::math::CoordBBox</type>
-        <definition>openvdb::math::CoordBBox MR::RangeProcessorSingle&lt; TreeT, Proc &gt;::mBBox</definition>
-        <argsstring></argsstring>
-        <name>mBBox</name>
-        <qualifiedname>MR::RangeProcessorSingle::mBBox</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="342" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="342" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RangeProcessorSingle_1a75f33e620fa01a11c21b6a17b6ffa836" prot="private" static="no" mutable="no">
-        <type>const TreeT &amp;</type>
-        <definition>const TreeT&amp; MR::RangeProcessorSingle&lt; TreeT, Proc &gt;::mInTree</definition>
-        <argsstring></argsstring>
-        <name>mInTree</name>
-        <qualifiedname>MR::RangeProcessorSingle::mInTree</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="343" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="343" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RangeProcessorSingle_1a879b8a9fca7ae08d022c12d67cbd6886" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1RangeProcessorSingle_1a74bdcc0991a9a680c90dc549ed96da8f" kindref="member">TreeAccessor</ref></type>
-        <definition>TreeAccessor MR::RangeProcessorSingle&lt; TreeT, Proc &gt;::mInAcc</definition>
-        <argsstring></argsstring>
-        <name>mInAcc</name>
-        <qualifiedname>MR::RangeProcessorSingle::mInAcc</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="344" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="344" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RangeProcessorSingle_1a2e4d881dd438db333e2d3634dc7d6587" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1RangeProcessorSingle_1a3dd22e8ad777958bc8dd5ca24697cab1" kindref="member">InterruptFunc</ref></type>
-        <definition>InterruptFunc MR::RangeProcessorSingle&lt; TreeT, Proc &gt;::mInterrupt</definition>
-        <argsstring></argsstring>
-        <name>mInterrupt</name>
-        <qualifiedname>MR::RangeProcessorSingle::mInterrupt</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="345" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="345" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RangeProcessorSingle_1a8497bea6456327758b7af68e528258c6" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::RangeProcessorSingle&lt; TreeT, Proc &gt;::mCanceled</definition>
-        <argsstring></argsstring>
-        <name>mCanceled</name>
-        <qualifiedname>MR::RangeProcessorSingle::mCanceled</qualifiedname>
-        <initializer>{ false }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="346" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="346" bodyend="346"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RangeProcessorSingle_1abaf202ebcd106e494505ad3158eb5668" prot="private" static="no" mutable="no">
-        <type>std::shared_ptr&lt; <ref refid="classMR_1_1RangeProgress" kindref="compound">RangeProgress</ref> &gt;</type>
-        <definition>std::shared_ptr&lt;RangeProgress&gt; MR::RangeProcessorSingle&lt; TreeT, Proc &gt;::mProgress</definition>
-        <argsstring></argsstring>
-        <name>mProgress</name>
-        <qualifiedname>MR::RangeProcessorSingle::mProgress</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="347" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="347" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RangeProcessorSingle_1a06961e7128bfc474abc4262c50ff8271" prot="private" static="no" mutable="no">
-        <type>size_t</type>
-        <definition>size_t MR::RangeProcessorSingle&lt; TreeT, Proc &gt;::leafCount</definition>
-        <argsstring></argsstring>
-        <name>leafCount</name>
-        <qualifiedname>MR::RangeProcessorSingle::leafCount</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="349" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="349" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RangeProcessorSingle_1a8ac325d055361e4d227deb47207ffdf0" prot="private" static="no" mutable="no">
-        <type>size_t</type>
-        <definition>size_t MR::RangeProcessorSingle&lt; TreeT, Proc &gt;::tileCount</definition>
-        <argsstring></argsstring>
-        <name>tileCount</name>
-        <qualifiedname>MR::RangeProcessorSingle::tileCount</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="350" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="350" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga0a437b690fa040b0436dd2e49df6c3f1" kind="variable"><name>mBBox</name></member>
+      <member refid="group__GeneralGroup_1ga75f33e620fa01a11c21b6a17b6ffa836" kind="variable"><name>mInTree</name></member>
+      <member refid="group__GeneralGroup_1ga879b8a9fca7ae08d022c12d67cbd6886" kind="variable"><name>mInAcc</name></member>
+      <member refid="group__GeneralGroup_1ga2e4d881dd438db333e2d3634dc7d6587" kind="variable"><name>mInterrupt</name></member>
+      <member refid="group__GeneralGroup_1ga8497bea6456327758b7af68e528258c6" kind="variable"><name>mCanceled</name></member>
+      <member refid="group__GeneralGroup_1gabaf202ebcd106e494505ad3158eb5668" kind="variable"><name>mProgress</name></member>
+      <member refid="group__GeneralGroup_1ga06961e7128bfc474abc4262c50ff8271" kind="variable"><name>leafCount</name></member>
+      <member refid="group__GeneralGroup_1ga8ac325d055361e4d227deb47207ffdf0" kind="variable"><name>tileCount</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1RangeProcessorSingle_1a3a185529401021dabb33be5dde121134" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::RangeProcessorSingle&lt; TreeT, Proc &gt;::RangeProcessorSingle</definition>
-        <argsstring>(const openvdb::math::CoordBBox &amp;b, const TreeT &amp;inT, const Proc &amp;proc)</argsstring>
-        <name>RangeProcessorSingle</name>
-        <qualifiedname>MR::RangeProcessorSingle::RangeProcessorSingle</qualifiedname>
-        <param>
-          <type>const openvdb::math::CoordBBox &amp;</type>
-          <declname>b</declname>
-        </param>
-        <param>
-          <type>const TreeT &amp;</type>
-          <declname>inT</declname>
-        </param>
-        <param>
-          <type>const Proc &amp;</type>
-          <declname>proc</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="233" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="233" bodyend="235"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RangeProcessorSingle_1a67512a2e5762df8020c0384cf31acbf0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::RangeProcessorSingle&lt; TreeT, Proc &gt;::RangeProcessorSingle</definition>
-        <argsstring>(RangeProcessorSingle &amp;other, tbb::split)</argsstring>
-        <name>RangeProcessorSingle</name>
-        <qualifiedname>MR::RangeProcessorSingle::RangeProcessorSingle</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1RangeProcessorSingle" kindref="compound">RangeProcessorSingle</ref> &amp;</type>
-          <declname>other</declname>
-        </param>
-        <param>
-          <type>tbb::split</type>
-        </param>
-        <briefdescription>
-<para>Splitting constructor: don&apos;t copy the original processor&apos;s output tree. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="238" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="238" bodyend="246"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RangeProcessorSingle_1ad6099e8aa9329dd7b246301cc97f161b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::RangeProcessorSingle&lt; TreeT, Proc &gt;::setInterrupt</definition>
-        <argsstring>(const InterruptFunc &amp;f)</argsstring>
-        <name>setInterrupt</name>
-        <qualifiedname>MR::RangeProcessorSingle::setInterrupt</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1RangeProcessorSingle_1a3dd22e8ad777958bc8dd5ca24697cab1" kindref="member">InterruptFunc</ref> &amp;</type>
-          <declname>f</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="248" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="248" bodyend="248"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RangeProcessorSingle_1a3f5ff3966e98c9b5929ff84cabf90fb0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::RangeProcessorSingle&lt; TreeT, Proc &gt;::setProgressHolder</definition>
-        <argsstring>(ProgressHolder progressHolder)</argsstring>
-        <name>setProgressHolder</name>
-        <qualifiedname>MR::RangeProcessorSingle::setProgressHolder</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1RangeProcessorSingle_1a18c7b1c6f5f3eb4ab1f683819ab2526b" kindref="member">ProgressHolder</ref></type>
-          <declname>progressHolder</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="249" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="249" bodyend="249"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RangeProcessorSingle_1a2a51228138a8994ccaa8fab17ec60f75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::RangeProcessorSingle&lt; TreeT, Proc &gt;::operator()</definition>
-        <argsstring>(const LeafRange &amp;rCRef)</argsstring>
-        <name>operator()</name>
-        <qualifiedname>MR::RangeProcessorSingle::operator()</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1RangeProcessorSingle_1a4230fb4bf134d204266d7a36e6eaa54c" kindref="member">LeafRange</ref> &amp;</type>
-          <declname>rCRef</declname>
-        </param>
-        <briefdescription>
-<para>Transform each leaf node in the given range. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="252" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="252" bodyend="280"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RangeProcessorSingle_1a9564a24c836d8c9b37ffe01e22356816" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <member refid="group__GeneralGroup_1ga3a185529401021dabb33be5dde121134" kind="function"><name>RangeProcessorSingle</name></member>
+      <member refid="group__GeneralGroup_1ga67512a2e5762df8020c0384cf31acbf0" kind="function"><name>RangeProcessorSingle</name></member>
+      <member refid="group__GeneralGroup_1gad6099e8aa9329dd7b246301cc97f161b" kind="function"><name>setInterrupt</name></member>
+      <member refid="group__GeneralGroup_1ga3f5ff3966e98c9b5929ff84cabf90fb0" kind="function"><name>setProgressHolder</name></member>
+      <member refid="group__GeneralGroup_1ga2a51228138a8994ccaa8fab17ec60f75" kind="function"><name>operator()</name></member>
+      <memberdef kind="function" id="classMR_1_1RangeProcessorSingle_1ga2a51228138a8994ccaa8fab17ec60f75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void MR::RangeProcessorSingle&lt; TreeT, Proc &gt;::operator()</definition>
         <argsstring>(const TileRange &amp;rCRef)</argsstring>
         <name>operator()</name>
         <qualifiedname>MR::RangeProcessorSingle::operator()</qualifiedname>
         <param>
-          <type>const <ref refid="classMR_1_1RangeProcessorSingle_1a6bdb6524924805af1844ae7278708c3f" kindref="member">TileRange</ref> &amp;</type>
+          <type>const <ref refid="group__GeneralGroup_1ga6bdb6524924805af1844ae7278708c3f" kindref="member">TileRange</ref> &amp;</type>
           <declname>rCRef</declname>
         </param>
         <briefdescription>
@@ -380,65 +58,13 @@
         <inbodydescription>
 <para>Skip voxels and background tiles.</para>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="283" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="283" bodyend="316"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="286" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="286" bodyend="319"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1RangeProcessorSingle_1aaf47bdf40d75c45e729131d8e83d105c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::RangeProcessorSingle&lt; TreeT, Proc &gt;::join</definition>
-        <argsstring>(RangeProcessorSingle &amp;other)</argsstring>
-        <name>join</name>
-        <qualifiedname>MR::RangeProcessorSingle::join</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1RangeProcessorSingle" kindref="compound">RangeProcessorSingle</ref> &amp;</type>
-          <declname>other</declname>
-        </param>
-        <briefdescription>
-<para>Merge another processor&apos;s output tree into this processor&apos;s tree. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="319" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="319" bodyend="324"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaaf47bdf40d75c45e729131d8e83d105c" kind="function"><name>join</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMR_1_1RangeProcessorSingle_1a45e734d7bcf01e404dfc8067bdc41c61" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::RangeProcessorSingle&lt; TreeT, Proc &gt;::interrupt</definition>
-        <argsstring>() const</argsstring>
-        <name>interrupt</name>
-        <qualifiedname>MR::RangeProcessorSingle::interrupt</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="328" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="328" bodyend="331"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RangeProcessorSingle_1ac83139ddc3f7e19e9de0ef4f995acc0c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::RangeProcessorSingle&lt; TreeT, Proc &gt;::setProgress</definition>
-        <argsstring>(size_t l, size_t t)</argsstring>
-        <name>setProgress</name>
-        <qualifiedname>MR::RangeProcessorSingle::setProgress</qualifiedname>
-        <param>
-          <type>size_t</type>
-          <declname>l</declname>
-        </param>
-        <param>
-          <type>size_t</type>
-          <declname>t</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="332" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="332" bodyend="340"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga45e734d7bcf01e404dfc8067bdc41c61" kind="function"><name>interrupt</name></member>
+      <member refid="group__GeneralGroup_1gac83139ddc3f7e19e9de0ef4f995acc0c" kind="function"><name>setProgress</name></member>
     </sectiondef>
     <briefdescription>
 <para>Class to use in tbb::parallel_reduce for tree operations that do not require an output tree. </para>
@@ -463,34 +89,34 @@
 </parameterlist>
 </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="218" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="219" bodyend="351"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="221" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="222" bodyend="354"/>
     <listofallmembers>
-      <member refid="classMR_1_1RangeProcessorSingle_1a45e734d7bcf01e404dfc8067bdc41c61" prot="private" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>interrupt</name></member>
-      <member refid="classMR_1_1RangeProcessorSingle_1a3dd22e8ad777958bc8dd5ca24697cab1" prot="public" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>InterruptFunc</name></member>
-      <member refid="classMR_1_1RangeProcessorSingle_1aaf47bdf40d75c45e729131d8e83d105c" prot="public" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>join</name></member>
-      <member refid="classMR_1_1RangeProcessorSingle_1a06961e7128bfc474abc4262c50ff8271" prot="private" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>leafCount</name></member>
-      <member refid="classMR_1_1RangeProcessorSingle_1a27245f92c4924f6d589bb260006327b4" prot="public" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>LeafIterT</name></member>
-      <member refid="classMR_1_1RangeProcessorSingle_1a4230fb4bf134d204266d7a36e6eaa54c" prot="public" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>LeafRange</name></member>
-      <member refid="classMR_1_1RangeProcessorSingle_1a0a437b690fa040b0436dd2e49df6c3f1" prot="private" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>mBBox</name></member>
-      <member refid="classMR_1_1RangeProcessorSingle_1a8497bea6456327758b7af68e528258c6" prot="private" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>mCanceled</name></member>
-      <member refid="classMR_1_1RangeProcessorSingle_1a879b8a9fca7ae08d022c12d67cbd6886" prot="private" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>mInAcc</name></member>
-      <member refid="classMR_1_1RangeProcessorSingle_1a2e4d881dd438db333e2d3634dc7d6587" prot="private" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>mInterrupt</name></member>
-      <member refid="classMR_1_1RangeProcessorSingle_1a75f33e620fa01a11c21b6a17b6ffa836" prot="private" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>mInTree</name></member>
-      <member refid="classMR_1_1RangeProcessorSingle_1a264a04656289a9abfa5a0ce6ff0a9b96" prot="public" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>mProc</name></member>
-      <member refid="classMR_1_1RangeProcessorSingle_1abaf202ebcd106e494505ad3158eb5668" prot="private" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>mProgress</name></member>
-      <member refid="classMR_1_1RangeProcessorSingle_1a2a51228138a8994ccaa8fab17ec60f75" prot="public" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>operator()</name></member>
-      <member refid="classMR_1_1RangeProcessorSingle_1a9564a24c836d8c9b37ffe01e22356816" prot="public" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>operator()</name></member>
-      <member refid="classMR_1_1RangeProcessorSingle_1a18c7b1c6f5f3eb4ab1f683819ab2526b" prot="public" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>ProgressHolder</name></member>
-      <member refid="classMR_1_1RangeProcessorSingle_1a3a185529401021dabb33be5dde121134" prot="public" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>RangeProcessorSingle</name></member>
-      <member refid="classMR_1_1RangeProcessorSingle_1a67512a2e5762df8020c0384cf31acbf0" prot="public" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>RangeProcessorSingle</name></member>
-      <member refid="classMR_1_1RangeProcessorSingle_1ad6099e8aa9329dd7b246301cc97f161b" prot="public" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>setInterrupt</name></member>
-      <member refid="classMR_1_1RangeProcessorSingle_1ac83139ddc3f7e19e9de0ef4f995acc0c" prot="private" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>setProgress</name></member>
-      <member refid="classMR_1_1RangeProcessorSingle_1a3f5ff3966e98c9b5929ff84cabf90fb0" prot="public" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>setProgressHolder</name></member>
-      <member refid="classMR_1_1RangeProcessorSingle_1a8ac325d055361e4d227deb47207ffdf0" prot="private" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>tileCount</name></member>
-      <member refid="classMR_1_1RangeProcessorSingle_1a96c2bef18796f6c8b109f9104a29b2dc" prot="public" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>TileIterT</name></member>
-      <member refid="classMR_1_1RangeProcessorSingle_1a6bdb6524924805af1844ae7278708c3f" prot="public" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>TileRange</name></member>
-      <member refid="classMR_1_1RangeProcessorSingle_1a74bdcc0991a9a680c90dc549ed96da8f" prot="public" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>TreeAccessor</name></member>
-      <member refid="classMR_1_1RangeProcessorSingle_1a06885853a633af8e30ee961ef1ae4c1e" prot="public" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>ValueT</name></member>
+      <member refid="group__GeneralGroup_1ga45e734d7bcf01e404dfc8067bdc41c61" prot="private" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>interrupt</name></member>
+      <member refid="group__GeneralGroup_1ga3dd22e8ad777958bc8dd5ca24697cab1" prot="public" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>InterruptFunc</name></member>
+      <member refid="group__GeneralGroup_1gaaf47bdf40d75c45e729131d8e83d105c" prot="public" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>join</name></member>
+      <member refid="group__GeneralGroup_1ga06961e7128bfc474abc4262c50ff8271" prot="private" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>leafCount</name></member>
+      <member refid="group__GeneralGroup_1ga27245f92c4924f6d589bb260006327b4" prot="public" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>LeafIterT</name></member>
+      <member refid="group__GeneralGroup_1ga4230fb4bf134d204266d7a36e6eaa54c" prot="public" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>LeafRange</name></member>
+      <member refid="group__GeneralGroup_1ga0a437b690fa040b0436dd2e49df6c3f1" prot="private" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>mBBox</name></member>
+      <member refid="group__GeneralGroup_1ga8497bea6456327758b7af68e528258c6" prot="private" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>mCanceled</name></member>
+      <member refid="group__GeneralGroup_1ga879b8a9fca7ae08d022c12d67cbd6886" prot="private" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>mInAcc</name></member>
+      <member refid="group__GeneralGroup_1ga2e4d881dd438db333e2d3634dc7d6587" prot="private" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>mInterrupt</name></member>
+      <member refid="group__GeneralGroup_1ga75f33e620fa01a11c21b6a17b6ffa836" prot="private" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>mInTree</name></member>
+      <member refid="group__GeneralGroup_1ga264a04656289a9abfa5a0ce6ff0a9b96" prot="public" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>mProc</name></member>
+      <member refid="group__GeneralGroup_1gabaf202ebcd106e494505ad3158eb5668" prot="private" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>mProgress</name></member>
+      <member refid="group__GeneralGroup_1ga2a51228138a8994ccaa8fab17ec60f75" prot="public" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>operator()</name></member>
+      <member refid="classMR_1_1RangeProcessorSingle_1ga2a51228138a8994ccaa8fab17ec60f75" prot="public" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1ga18c7b1c6f5f3eb4ab1f683819ab2526b" prot="public" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>ProgressHolder</name></member>
+      <member refid="group__GeneralGroup_1ga3a185529401021dabb33be5dde121134" prot="public" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>RangeProcessorSingle</name></member>
+      <member refid="group__GeneralGroup_1ga67512a2e5762df8020c0384cf31acbf0" prot="public" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>RangeProcessorSingle</name></member>
+      <member refid="group__GeneralGroup_1gad6099e8aa9329dd7b246301cc97f161b" prot="public" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>setInterrupt</name></member>
+      <member refid="group__GeneralGroup_1gac83139ddc3f7e19e9de0ef4f995acc0c" prot="private" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>setProgress</name></member>
+      <member refid="group__GeneralGroup_1ga3f5ff3966e98c9b5929ff84cabf90fb0" prot="public" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>setProgressHolder</name></member>
+      <member refid="group__GeneralGroup_1ga8ac325d055361e4d227deb47207ffdf0" prot="private" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>tileCount</name></member>
+      <member refid="group__GeneralGroup_1ga96c2bef18796f6c8b109f9104a29b2dc" prot="public" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>TileIterT</name></member>
+      <member refid="group__GeneralGroup_1ga6bdb6524924805af1844ae7278708c3f" prot="public" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>TileRange</name></member>
+      <member refid="group__GeneralGroup_1ga74bdcc0991a9a680c90dc549ed96da8f" prot="public" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>TreeAccessor</name></member>
+      <member refid="group__GeneralGroup_1ga06885853a633af8e30ee961ef1ae4c1e" prot="public" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>ValueT</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

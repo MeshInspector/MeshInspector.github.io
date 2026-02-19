@@ -4,7 +4,7 @@
     <compoundname>MRVector2.h</compoundname>
     <includes refid="MRMacros_8h" local="yes">MRMacros.h</includes>
     <includes refid="MRUnsigned_8h" local="yes">MRMesh/MRUnsigned.h</includes>
-    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
+    <includes local="yes">MRMeshFwd.h</includes>
     <includes local="yes">MRPch/MRBindingMacros.h</includes>
     <includes local="no">algorithm</includes>
     <includes local="no">cmath</includes>
@@ -57,37 +57,9 @@
     <includedby refid="MRViewer_8h" local="no">MRViewer.h</includedby>
     <includedby refid="MRViewportGL_8h" local="yes">MRViewportGL.h</includedby>
     <incdepgraph>
-      <node id="8">
-        <label>MRMesh/MRCanonicalTypedefs.h</label>
-        <link refid="MRCanonicalTypedefs_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-      </node>
       <node id="2">
         <label>MRMacros.h</label>
         <link refid="MRMacros_8h"/>
-      </node>
-      <node id="6">
-        <label>MRMeshFwd.h</label>
-        <link refid="MRMeshFwd_8h"/>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
       </node>
       <node id="3">
         <label>MRMesh/MRUnsigned.h</label>
@@ -106,64 +78,45 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
+      </node>
+      <node id="6">
+        <label>MRMeshFwd.h</label>
       </node>
       <node id="7">
-        <label>config.h</label>
-        <link refid="MRMesh_2config_8h"/>
-      </node>
-      <node id="9">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="16">
+      <node id="8">
         <label>algorithm</label>
       </node>
-      <node id="10">
-        <label>array</label>
-      </node>
-      <node id="15">
-        <label>cassert</label>
-      </node>
-      <node id="17">
+      <node id="9">
         <label>cmath</label>
       </node>
       <node id="4">
         <label>cstddef</label>
       </node>
-      <node id="18">
+      <node id="10">
         <label>cstring</label>
       </node>
-      <node id="14">
-        <label>functional</label>
-      </node>
-      <node id="19">
+      <node id="11">
         <label>iosfwd</label>
-      </node>
-      <node id="13">
-        <label>parallel_hashmap/phmap_fwd_decl.h</label>
-      </node>
-      <node id="12">
-        <label>string</label>
       </node>
       <node id="5">
         <label>type_traits</label>
       </node>
-      <node id="20">
+      <node id="12">
         <label>utility</label>
-      </node>
-      <node id="11">
-        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
@@ -1383,7 +1336,7 @@
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMacros_8h" kindref="compound">MRMacros.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRUnsigned_8h" kindref="compound">MRMesh/MRUnsigned.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRPch/MRBindingMacros.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;algorithm&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cmath&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -1416,7 +1369,7 @@
 <codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static_assert</highlight><highlight class="normal">(<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<sp/><ref refid="structMR_1_1Vector2" kindref="compound">Vector2&lt;ValueType&gt;</ref><sp/>)<sp/>==<sp/><ref refid="structMR_1_1Vector2_1a9f88eafa576421903103bdccad9ed23f" kindref="member">elements</ref><sp/>*<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<sp/><ref refid="structMR_1_1Vector2_1a419f18cb7af20ab8455495874cefbd9d" kindref="member">ValueType</ref><sp/>),<sp/></highlight><highlight class="stringliteral">&quot;Struct<sp/>size<sp/>invalid&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static_assert</highlight><highlight class="normal">(<sp/><ref refid="structMR_1_1Vector2_1a9f88eafa576421903103bdccad9ed23f" kindref="member">elements</ref><sp/>==<sp/>2,<sp/></highlight><highlight class="stringliteral">&quot;Invalid<sp/>number<sp/>of<sp/>elements&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="42" refid="structMR_1_1Vector2_1a0537b0cb50cc7b0605e0fc95ffaf6b0b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Vector2_1a0537b0cb50cc7b0605e0fc95ffaf6b0b" kindref="member">Vector2</ref>(<sp/><ref refid="structMR_1_1NoInit" kindref="compound">NoInit</ref><sp/>)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"><sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="42" refid="structMR_1_1Vector2_1a0537b0cb50cc7b0605e0fc95ffaf6b0b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Vector2_1a0537b0cb50cc7b0605e0fc95ffaf6b0b" kindref="member">Vector2</ref>(<sp/>NoInit<sp/>)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"><sp/>{<sp/>}</highlight></codeline>
 <codeline lineno="43" refid="structMR_1_1Vector2_1a9c5f2b992789dba5c6d4e8e80ed28fa0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Vector2_1a9c5f2b992789dba5c6d4e8e80ed28fa0" kindref="member">Vector2</ref>(<sp/>T<sp/><ref refid="structMR_1_1Vector2_1a04bd8b12649cc77863672d0a6d31e51c" kindref="member">x</ref>,<sp/>T<sp/><ref refid="structMR_1_1Vector2_1a5186451c51a4f421a0b810a3f836fae8" kindref="member">y</ref><sp/>)<sp/>noexcept<sp/>:<sp/><ref refid="structMR_1_1Vector2_1a04bd8b12649cc77863672d0a6d31e51c" kindref="member">x</ref>(<sp/><ref refid="structMR_1_1Vector2_1a04bd8b12649cc77863672d0a6d31e51c" kindref="member">x</ref><sp/>),<sp/><ref refid="structMR_1_1Vector2_1a5186451c51a4f421a0b810a3f836fae8" kindref="member">y</ref>(<sp/><ref refid="structMR_1_1Vector2_1a5186451c51a4f421a0b810a3f836fae8" kindref="member">y</ref><sp/>)<sp/>{<sp/>}</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
 <codeline lineno="45" refid="structMR_1_1Vector2_1aa88507c09ad0236f834d9ffb29ef6de6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>U&gt;<sp/><ref refid="structMR_1_1Vector2_1aa88507c09ad0236f834d9ffb29ef6de6" kindref="member">MR_REQUIRES_IF_SUPPORTED</ref>(<sp/>std::constructible_from&lt;T,<sp/>U&gt;<sp/>)</highlight></codeline>

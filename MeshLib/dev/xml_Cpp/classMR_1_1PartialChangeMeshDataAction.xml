@@ -22,7 +22,7 @@
     </sectiondef>
     <sectiondef kind="public-func">
       <memberdef kind="function" id="classMR_1_1PartialChangeMeshDataAction_1a599df9d6ebfab0e276d415c75438e2de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <type>MRMESH_API</type>
         <definition>MRMESH_API MR::PartialChangeMeshDataAction::PartialChangeMeshDataAction</definition>
         <argsstring>(std::string name, const std::shared_ptr&lt; ObjectMesh &gt; &amp;obj, ObjectMeshData &amp;&amp;newData)</argsstring>
         <name>PartialChangeMeshDataAction</name>
@@ -54,7 +54,7 @@
         <argsstring>() const override</argsstring>
         <name>name</name>
         <qualifiedname>MR::PartialChangeMeshDataAction::name</qualifiedname>
-        <reimplements refid="classMR_1_1HistoryAction_1a9daa0b79de161f676f6283e3804dc8ce">name</reimplements>
+        <reimplements refid="group__GeneralGroup_1ga9daa0b79de161f676f6283e3804dc8ce">name</reimplements>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -69,9 +69,9 @@
         <argsstring>(HistoryAction::Type type) override</argsstring>
         <name>action</name>
         <qualifiedname>MR::PartialChangeMeshDataAction::action</qualifiedname>
-        <reimplements refid="classMR_1_1HistoryAction_1aecfce349736beaf17a23a6817c86f3bb">action</reimplements>
+        <reimplements refid="group__GeneralGroup_1gaecfce349736beaf17a23a6817c86f3bb">action</reimplements>
         <param>
-          <type><ref refid="classMR_1_1HistoryAction_1ac16eb31dd26d35cfc18bac8a05983aa7" kindref="member">HistoryAction::Type</ref></type>
+          <type><ref refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" kindref="member">HistoryAction::Type</ref></type>
           <declname>actionType</declname>
         </param>
         <briefdescription>
@@ -89,7 +89,7 @@
         <argsstring>() const override</argsstring>
         <name>heapBytes</name>
         <qualifiedname>MR::PartialChangeMeshDataAction::heapBytes</qualifiedname>
-        <reimplements refid="classMR_1_1HistoryAction_1ad6df54da6a63ed83f15053507e8569de">heapBytes</reimplements>
+        <reimplements refid="group__GeneralGroup_1gad6df54da6a63ed83f15053507e8569de">heapBytes</reimplements>
         <briefdescription>
 <para>returns the amount of memory this object occupies on heap </para>
         </briefdescription>
@@ -136,8 +136,8 @@
       <member refid="classMR_1_1PartialChangeMeshDataAction_1a0506227ed109f9b28b74220235172ddc" prot="public" virt="virtual"><scope>MR::PartialChangeMeshDataAction</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1PartialChangeMeshDataAction_1a86738a241e4ba1a61752fd26623c61e3" prot="public" virt="virtual"><scope>MR::PartialChangeMeshDataAction</scope><name>name</name></member>
       <member refid="classMR_1_1PartialChangeMeshDataAction_1a599df9d6ebfab0e276d415c75438e2de" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshDataAction</scope><name>PartialChangeMeshDataAction</name></member>
-      <member refid="classMR_1_1HistoryAction_1ac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshDataAction</scope><name>Type</name></member>
-      <member refid="classMR_1_1HistoryAction_1a97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::PartialChangeMeshDataAction</scope><name>~HistoryAction</name></member>
+      <member refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshDataAction</scope><name>Type</name></member>
+      <member refid="group__GeneralGroup_1ga97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::PartialChangeMeshDataAction</scope><name>~HistoryAction</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

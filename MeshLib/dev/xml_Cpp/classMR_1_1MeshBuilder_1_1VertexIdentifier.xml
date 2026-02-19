@@ -4,196 +4,40 @@
     <compoundname>MR::MeshBuilder::VertexIdentifier</compoundname>
     <includes refid="MRIdentifyVertices_8h" local="no">MRIdentifyVertices.h</includes>
     <sectiondef kind="private-type">
-      <memberdef kind="typedef" id="classMR_1_1MeshBuilder_1_1VertexIdentifier_1abf81457ecb4749041d37e22ac5a9267b" prot="private" static="no">
-        <type>std::array&lt; VertId *, 3 &gt;</type>
-        <definition>using MR::MeshBuilder::VertexIdentifier::VertInHMap =  std::array&lt;VertId*, 3&gt;</definition>
-        <argsstring></argsstring>
-        <name>VertInHMap</name>
-        <qualifiedname>MR::MeshBuilder::VertexIdentifier::VertInHMap</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIdentifyVertices.h" line="47" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIdentifyVertices.h" bodystart="47" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1MeshBuilder_1_1VertexIdentifier_1a6a194174e9880bf4cdec8da7458b8a29" prot="private" static="no">
-        <type><ref refid="namespaceMR_1a05d4e4903837647940c265c6939dcfdf" kindref="member">ParallelHashMap</ref>&lt; Vector3f, VertId, phmap::priv::hash_default_hash&lt; Vector3f &gt;, <ref refid="structMR_1_1MeshBuilder_1_1equalVector3f" kindref="compound">equalVector3f</ref> &gt;</type>
-        <definition>using MR::MeshBuilder::VertexIdentifier::HMap =  ParallelHashMap&lt;Vector3f, VertId, phmap::priv::hash_default_hash&lt;Vector3f&gt;, equalVector3f&gt;</definition>
-        <argsstring></argsstring>
-        <name>HMap</name>
-        <qualifiedname>MR::MeshBuilder::VertexIdentifier::HMap</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIdentifyVertices.h" line="49" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIdentifyVertices.h" bodystart="49" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gabf81457ecb4749041d37e22ac5a9267b" kind="typedef"><name>VertInHMap</name></member>
+      <member refid="group__GeneralGroup_1ga6a194174e9880bf4cdec8da7458b8a29" kind="typedef"><name>HMap</name></member>
     </sectiondef>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1MeshBuilder_1_1VertexIdentifier_1aeb14f09c9cf5f0dc4b79a5d06163a43c" prot="private" static="no" mutable="no">
-        <type>std::vector&lt; VertInHMap &gt;</type>
-        <definition>std::vector&lt;VertInHMap&gt; MR::MeshBuilder::VertexIdentifier::vertsInHMap_</definition>
-        <argsstring></argsstring>
-        <name>vertsInHMap_</name>
-        <qualifiedname>MR::MeshBuilder::VertexIdentifier::vertsInHMap_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIdentifyVertices.h" line="48" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIdentifyVertices.h" bodystart="48" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1MeshBuilder_1_1VertexIdentifier_1a2dbc8f97579ed9310d17d07af07fa541" prot="private" static="no" mutable="no">
-        <type>HMap</type>
-        <definition>HMap MR::MeshBuilder::VertexIdentifier::hmap_</definition>
-        <argsstring></argsstring>
-        <name>hmap_</name>
-        <qualifiedname>MR::MeshBuilder::VertexIdentifier::hmap_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIdentifyVertices.h" line="50" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIdentifyVertices.h" bodystart="50" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1MeshBuilder_1_1VertexIdentifier_1a7ac4a8bbe3ab426d093ac7d87dd3ce76" prot="private" static="no" mutable="no">
-        <type>Triangulation</type>
-        <definition>Triangulation MR::MeshBuilder::VertexIdentifier::t_</definition>
-        <argsstring></argsstring>
-        <name>t_</name>
-        <qualifiedname>MR::MeshBuilder::VertexIdentifier::t_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIdentifyVertices.h" line="51" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIdentifyVertices.h" bodystart="51" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1MeshBuilder_1_1VertexIdentifier_1a2f62ff4b3532137f4e57ca966f9e1cb5" prot="private" static="no" mutable="no">
-        <type>VertCoords</type>
-        <definition>VertCoords MR::MeshBuilder::VertexIdentifier::points_</definition>
-        <argsstring></argsstring>
-        <name>points_</name>
-        <qualifiedname>MR::MeshBuilder::VertexIdentifier::points_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIdentifyVertices.h" line="52" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIdentifyVertices.h" bodystart="52" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaeb14f09c9cf5f0dc4b79a5d06163a43c" kind="variable"><name>vertsInHMap_</name></member>
+      <member refid="group__GeneralGroup_1ga2dbc8f97579ed9310d17d07af07fa541" kind="variable"><name>hmap_</name></member>
+      <member refid="group__GeneralGroup_1ga7ac4a8bbe3ab426d093ac7d87dd3ce76" kind="variable"><name>t_</name></member>
+      <member refid="group__GeneralGroup_1ga2f62ff4b3532137f4e57ca966f9e1cb5" kind="variable"><name>points_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1MeshBuilder_1_1VertexIdentifier_1aa4fad50a7e105fa74961ca6cc97e2818" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::MeshBuilder::VertexIdentifier::reserve</definition>
-        <argsstring>(size_t numTris)</argsstring>
-        <name>reserve</name>
-        <qualifiedname>MR::MeshBuilder::VertexIdentifier::reserve</qualifiedname>
-        <param>
-          <type>size_t</type>
-          <declname>numTris</declname>
-        </param>
-        <briefdescription>
-<para>prepare identification of vertices from given this number of triangles </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIdentifyVertices.h" line="36" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshBuilder_1_1VertexIdentifier_1a14d6f8f8c30e4503c535f588649b8c2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::MeshBuilder::VertexIdentifier::addTriangles</definition>
-        <argsstring>(const std::vector&lt; Triangle3f &gt; &amp;buffer)</argsstring>
-        <name>addTriangles</name>
-        <qualifiedname>MR::MeshBuilder::VertexIdentifier::addTriangles</qualifiedname>
-        <param>
-          <type>const std::vector&lt; <ref refid="namespaceMR_1ac3b4f93ff16dbb5975ce8dec6adc39cf" kindref="member">Triangle3f</ref> &gt; &amp;</type>
-          <declname>buffer</declname>
-        </param>
-        <briefdescription>
-<para>identifies vertices from a chunk of triangles </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIdentifyVertices.h" line="38" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshBuilder_1_1VertexIdentifier_1aa5e3191cd4ff080dc3f960e8763c0069" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>size_t</type>
-        <definition>size_t MR::MeshBuilder::VertexIdentifier::numTris</definition>
-        <argsstring>() const</argsstring>
-        <name>numTris</name>
-        <qualifiedname>MR::MeshBuilder::VertexIdentifier::numTris</qualifiedname>
-        <briefdescription>
-<para>returns the number of triangles added so far </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIdentifyVertices.h" line="40" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIdentifyVertices.h" bodystart="40" bodyend="40"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshBuilder_1_1VertexIdentifier_1a2e2e54026ad94fbd2e7c0b98270a01e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>Triangulation</type>
-        <definition>Triangulation MR::MeshBuilder::VertexIdentifier::takeTriangulation</definition>
-        <argsstring>()</argsstring>
-        <name>takeTriangulation</name>
-        <qualifiedname>MR::MeshBuilder::VertexIdentifier::takeTriangulation</qualifiedname>
-        <briefdescription>
-<para>obtains triangulation with vertex ids </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIdentifyVertices.h" line="42" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIdentifyVertices.h" bodystart="42" bodyend="42"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshBuilder_1_1VertexIdentifier_1aa1211b739708344bd0dba3542ec58a27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>VertCoords</type>
-        <definition>VertCoords MR::MeshBuilder::VertexIdentifier::takePoints</definition>
-        <argsstring>()</argsstring>
-        <name>takePoints</name>
-        <qualifiedname>MR::MeshBuilder::VertexIdentifier::takePoints</qualifiedname>
-        <briefdescription>
-<para>obtains coordinates of unique points in the order of vertex ids </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIdentifyVertices.h" line="44" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIdentifyVertices.h" bodystart="44" bodyend="44"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaa4fad50a7e105fa74961ca6cc97e2818" kind="function"><name>reserve</name></member>
+      <member refid="group__GeneralGroup_1ga14d6f8f8c30e4503c535f588649b8c2b" kind="function"><name>addTriangles</name></member>
+      <member refid="group__GeneralGroup_1gaa5e3191cd4ff080dc3f960e8763c0069" kind="function"><name>numTris</name></member>
+      <member refid="group__GeneralGroup_1ga2e2e54026ad94fbd2e7c0b98270a01e3" kind="function"><name>takeTriangulation</name></member>
+      <member refid="group__GeneralGroup_1gaa1211b739708344bd0dba3542ec58a27" kind="function"><name>takePoints</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>this class is responsible for giving a unique id to each vertex with distinct coordinates NOTE: the points are considered non-identical if they have the same values but have zero values with different signs (e.g. (0; 0; 1) and (-0; 0; 1)) use <computeroutput><ref refid="structMR_1_1Vector3_1a08dc1dd8f81a858ba4f2a61519fd8add" kindref="member">Vector3::unsignZeroValues</ref></computeroutput> method to get rid of signed zero values if you&apos;re unsure of their absence </para>
+<para>this class is responsible for giving a unique id to each vertex with distinct coordinates NOTE: the points are considered non-identical if they have the same values but have zero values with different signs (e.g. (0; 0; 1) and (-0; 0; 1)) use <computeroutput><ref refid="group__GeneralGroup_1ga08dc1dd8f81a858ba4f2a61519fd8add" kindref="member">Vector3::unsignZeroValues</ref></computeroutput> method to get rid of signed zero values if you&apos;re unsure of their absence </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIdentifyVertices.h" line="32" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIdentifyVertices.h" bodystart="33" bodyend="53"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIdentifyVertices.h" line="35" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIdentifyVertices.h" bodystart="36" bodyend="56"/>
     <listofallmembers>
-      <member refid="classMR_1_1MeshBuilder_1_1VertexIdentifier_1a14d6f8f8c30e4503c535f588649b8c2b" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>addTriangles</name></member>
-      <member refid="classMR_1_1MeshBuilder_1_1VertexIdentifier_1a6a194174e9880bf4cdec8da7458b8a29" prot="private" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>HMap</name></member>
-      <member refid="classMR_1_1MeshBuilder_1_1VertexIdentifier_1a2dbc8f97579ed9310d17d07af07fa541" prot="private" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>hmap_</name></member>
-      <member refid="classMR_1_1MeshBuilder_1_1VertexIdentifier_1aa5e3191cd4ff080dc3f960e8763c0069" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>numTris</name></member>
-      <member refid="classMR_1_1MeshBuilder_1_1VertexIdentifier_1a2f62ff4b3532137f4e57ca966f9e1cb5" prot="private" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>points_</name></member>
-      <member refid="classMR_1_1MeshBuilder_1_1VertexIdentifier_1aa4fad50a7e105fa74961ca6cc97e2818" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>reserve</name></member>
-      <member refid="classMR_1_1MeshBuilder_1_1VertexIdentifier_1a7ac4a8bbe3ab426d093ac7d87dd3ce76" prot="private" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>t_</name></member>
-      <member refid="classMR_1_1MeshBuilder_1_1VertexIdentifier_1aa1211b739708344bd0dba3542ec58a27" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>takePoints</name></member>
-      <member refid="classMR_1_1MeshBuilder_1_1VertexIdentifier_1a2e2e54026ad94fbd2e7c0b98270a01e3" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>takeTriangulation</name></member>
-      <member refid="classMR_1_1MeshBuilder_1_1VertexIdentifier_1abf81457ecb4749041d37e22ac5a9267b" prot="private" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>VertInHMap</name></member>
-      <member refid="classMR_1_1MeshBuilder_1_1VertexIdentifier_1aeb14f09c9cf5f0dc4b79a5d06163a43c" prot="private" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>vertsInHMap_</name></member>
+      <member refid="group__GeneralGroup_1ga14d6f8f8c30e4503c535f588649b8c2b" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>addTriangles</name></member>
+      <member refid="group__GeneralGroup_1ga6a194174e9880bf4cdec8da7458b8a29" prot="private" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>HMap</name></member>
+      <member refid="group__GeneralGroup_1ga2dbc8f97579ed9310d17d07af07fa541" prot="private" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>hmap_</name></member>
+      <member refid="group__GeneralGroup_1gaa5e3191cd4ff080dc3f960e8763c0069" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>numTris</name></member>
+      <member refid="group__GeneralGroup_1ga2f62ff4b3532137f4e57ca966f9e1cb5" prot="private" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>points_</name></member>
+      <member refid="group__GeneralGroup_1gaa4fad50a7e105fa74961ca6cc97e2818" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>reserve</name></member>
+      <member refid="group__GeneralGroup_1ga7ac4a8bbe3ab426d093ac7d87dd3ce76" prot="private" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>t_</name></member>
+      <member refid="group__GeneralGroup_1gaa1211b739708344bd0dba3542ec58a27" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>takePoints</name></member>
+      <member refid="group__GeneralGroup_1ga2e2e54026ad94fbd2e7c0b98270a01e3" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>takeTriangulation</name></member>
+      <member refid="group__GeneralGroup_1gabf81457ecb4749041d37e22ac5a9267b" prot="private" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>VertInHMap</name></member>
+      <member refid="group__GeneralGroup_1gaeb14f09c9cf5f0dc4b79a5d06163a43c" prot="private" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>vertsInHMap_</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

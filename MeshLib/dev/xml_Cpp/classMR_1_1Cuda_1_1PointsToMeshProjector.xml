@@ -56,7 +56,7 @@
         <argsstring>(const Mesh *mesh) override</argsstring>
         <name>updateMeshData</name>
         <qualifiedname>MR::Cuda::PointsToMeshProjector::updateMeshData</qualifiedname>
-        <reimplements refid="classMR_1_1IPointsToMeshProjector_1a8386d444f8e600bb3fe67a31fc2c04f3">updateMeshData</reimplements>
+        <reimplements refid="group__GeneralGroup_1ga8386d444f8e600bb3fe67a31fc2c04f3">updateMeshData</reimplements>
         <param>
           <type>const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> *</type>
           <declname>mesh</declname>
@@ -165,7 +165,7 @@
         <argsstring>(size_t numProjections) const override</argsstring>
         <name>projectionsHeapBytes</name>
         <qualifiedname>MR::Cuda::PointsToMeshProjector::projectionsHeapBytes</qualifiedname>
-        <reimplements refid="classMR_1_1IPointsToMeshProjector_1a2743e8821707c1810ac41b5918b2613c">projectionsHeapBytes</reimplements>
+        <reimplements refid="group__GeneralGroup_1ga2743e8821707c1810ac41b5918b2613c">projectionsHeapBytes</reimplements>
         <param>
           <type>size_t</type>
           <declname>numProjections</declname>
@@ -212,13 +212,13 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPointsToMeshProjector.h" line="9" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPointsToMeshProjector.h" bodystart="10" bodyend="31"/>
     <listofallmembers>
       <member refid="classMR_1_1Cuda_1_1PointsToMeshProjector_1a393b65262243753c160a11f48d57c301" prot="public" virt="non-virtual"><scope>MR::Cuda::PointsToMeshProjector</scope><name>findProjections</name></member>
-      <member refid="classMR_1_1IPointsToMeshProjector_1affb7ba1779ad577458ada7ad99f578ce" prot="public" virt="pure-virtual" ambiguityscope="MR::IPointsToMeshProjector::"><scope>MR::Cuda::PointsToMeshProjector</scope><name>findProjections</name></member>
+      <member refid="group__GeneralGroup_1gaffb7ba1779ad577458ada7ad99f578ce" prot="public" virt="pure-virtual" ambiguityscope="MR::IPointsToMeshProjector::"><scope>MR::Cuda::PointsToMeshProjector</scope><name>findProjections</name></member>
       <member refid="classMR_1_1Cuda_1_1PointsToMeshProjector_1a3aeb5a1696989b8910c908bb8df1f215" prot="private" virt="non-virtual"><scope>MR::Cuda::PointsToMeshProjector</scope><name>mesh_</name></member>
       <member refid="classMR_1_1Cuda_1_1PointsToMeshProjector_1a2a52d4ebf64fb6db0fe6ecb8381c42f9" prot="private" virt="non-virtual"><scope>MR::Cuda::PointsToMeshProjector</scope><name>meshData_</name></member>
       <member refid="classMR_1_1Cuda_1_1PointsToMeshProjector_1ac217c2f9f716d994aa1c0ab98369dc95" prot="public" virt="non-virtual"><scope>MR::Cuda::PointsToMeshProjector</scope><name>PointsToMeshProjector</name></member>
       <member refid="classMR_1_1Cuda_1_1PointsToMeshProjector_1a01151649b364309dda94e8170e3e10f3" prot="public" virt="virtual"><scope>MR::Cuda::PointsToMeshProjector</scope><name>projectionsHeapBytes</name></member>
       <member refid="classMR_1_1Cuda_1_1PointsToMeshProjector_1acea486c98480ff347d65eaed201897c2" prot="public" virt="virtual"><scope>MR::Cuda::PointsToMeshProjector</scope><name>updateMeshData</name></member>
-      <member refid="classMR_1_1IPointsToMeshProjector_1ac1a1633695c8776296054f81942a84dc" prot="public" virt="virtual"><scope>MR::Cuda::PointsToMeshProjector</scope><name>~IPointsToMeshProjector</name></member>
+      <member refid="group__GeneralGroup_1gac1a1633695c8776296054f81942a84dc" prot="public" virt="virtual"><scope>MR::Cuda::PointsToMeshProjector</scope><name>~IPointsToMeshProjector</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

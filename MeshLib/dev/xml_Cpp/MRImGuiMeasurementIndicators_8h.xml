@@ -4,7 +4,7 @@
     <compoundname>MRImGuiMeasurementIndicators.h</compoundname>
     <includes refid="MRFlagOperators_8h" local="yes">MRMesh/MRFlagOperators.h</includes>
     <includes local="yes">MRViewer/exports.h</includes>
-    <includes refid="MRViewerFwd_8h" local="yes">MRViewer/MRViewerFwd.h</includes>
+    <includes local="yes">MRViewer/MRViewerFwd.h</includes>
     <includes refid="MRImGuiVectorOperators_8h" local="yes">MRViewer/MRImGuiVectorOperators.h</includes>
     <includes local="no">imgui.h</includes>
     <includes local="no">cassert</includes>
@@ -15,54 +15,18 @@
     <includedby refid="MRRenderNameObject_8h" local="yes">MRRenderNameObject.h</includedby>
     <includedby refid="MRUINonOverlappingLabels_8h" local="yes">MRUINonOverlappingLabels.h</includedby>
     <incdepgraph>
-      <node id="10">
-        <label>MRMesh/MRCanonicalTypedefs.h</label>
-        <link refid="MRCanonicalTypedefs_8h"/>
-        <childnode refid="11" relation="include">
-        </childnode>
-      </node>
       <node id="2">
         <label>MRMesh/MRFlagOperators.h</label>
         <link refid="MRFlagOperators_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="11">
-        <label>MRMesh/MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
-      </node>
-      <node id="8">
-        <label>MRMesh/MRMeshFwd.h</label>
-        <link refid="MRMeshFwd_8h"/>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-      </node>
-      <node id="9">
-        <label>config.h</label>
-        <link refid="MRMesh_2config_8h"/>
-      </node>
-      <node id="20">
+      <node id="7">
         <label>MRViewer/MRImGui.h</label>
         <link refid="MRImGui_8h"/>
-        <childnode refid="21" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -74,92 +38,58 @@
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="24" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="25" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="26" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
       </node>
-      <node id="19">
+      <node id="6">
         <label>MRViewer/MRImGuiVectorOperators.h</label>
         <link refid="MRImGuiVectorOperators_8h"/>
-        <childnode refid="20" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="23" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
+      <node id="8">
+        <label>MRPch/MRSuppressWarning.h</label>
+      </node>
       <node id="5">
         <label>MRViewer/MRViewerFwd.h</label>
-        <link refid="MRViewerFwd_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
-      </node>
-      <node id="6">
-        <label>config.h</label>
-        <link refid="MRViewer_2config_8h"/>
-      </node>
-      <node id="12">
-        <label>MRPch/MRBindingMacros.h</label>
-      </node>
-      <node id="21">
-        <label>MRPch/MRSuppressWarning.h</label>
       </node>
       <node id="4">
         <label>MRViewer/exports.h</label>
       </node>
-      <node id="13">
-        <label>array</label>
-      </node>
-      <node id="18">
+      <node id="11">
         <label>cassert</label>
       </node>
-      <node id="23">
+      <node id="10">
         <label>concepts</label>
       </node>
-      <node id="7">
-        <label>exports.h</label>
-      </node>
-      <node id="17">
-        <label>functional</label>
-      </node>
-      <node id="22">
+      <node id="9">
         <label>imgui.h</label>
       </node>
-      <node id="24">
+      <node id="12">
         <label>optional</label>
       </node>
-      <node id="16">
-        <label>parallel_hashmap/phmap_fwd_decl.h</label>
-      </node>
-      <node id="25">
+      <node id="13">
         <label>span</label>
-      </node>
-      <node id="15">
-        <label>string</label>
       </node>
       <node id="3">
         <label>type_traits</label>
       </node>
-      <node id="26">
-        <label>variant</label>
-      </node>
       <node id="14">
-        <label>vector</label>
+        <label>variant</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
@@ -243,7 +173,7 @@
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRFlagOperators_8h" kindref="compound">MRMesh/MRFlagOperators.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRViewer/exports.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRViewerFwd_8h" kindref="compound">MRViewer/MRViewerFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRViewer/MRViewerFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRImGuiVectorOperators_8h" kindref="compound">MRViewer/MRImGuiVectorOperators.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;imgui.h&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -388,11 +318,11 @@
 <codeline lineno="188"><highlight class="normal"></highlight></codeline>
 <codeline lineno="190" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1af8b5e638410d87130b72445eb3a009cd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ImVec2<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1af8b5e638410d87130b72445eb3a009cd" kindref="member">align</ref>;</highlight></codeline>
 <codeline lineno="191"><highlight class="normal"></highlight></codeline>
-<codeline lineno="192" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a65617319e0c1b767525aede65d4607b5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a65617319e0c1b767525aede65d4607b5" kindref="member">FontFunc</ref><sp/>=<sp/>std::function&lt;<ref refid="namespaceMR_1a21a70f8b86cebf1f5e5b5f65c4baa936" kindref="member">FontAndSize</ref>()&gt;;</highlight></codeline>
+<codeline lineno="192" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a65617319e0c1b767525aede65d4607b5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a65617319e0c1b767525aede65d4607b5" kindref="member">FontFunc</ref><sp/>=<sp/>std::function&lt;FontAndSize()&gt;;</highlight></codeline>
 <codeline lineno="194" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1ae4cadaf3ea1172a0c335e927b4e6951c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a65617319e0c1b767525aede65d4607b5" kindref="member">FontFunc</ref>&amp;<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1ae4cadaf3ea1172a0c335e927b4e6951c" kindref="member">getStaticDefaultFontFunc</ref>();</highlight></codeline>
 <codeline lineno="195" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1aa9520cc4aa1cb7fd1b95f885bedd6ce9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1aa9520cc4aa1cb7fd1b95f885bedd6ce9" kindref="member">setStaticDefaultFontFunc</ref>(<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a65617319e0c1b767525aede65d4607b5" kindref="member">FontFunc</ref><sp/>func<sp/>);</highlight></codeline>
 <codeline lineno="196"><highlight class="normal"></highlight></codeline>
-<codeline lineno="199" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a6147eeaff8e86f187d95660dc8cdc339" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1a21a70f8b86cebf1f5e5b5f65c4baa936" kindref="member">FontAndSize</ref><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a6147eeaff8e86f187d95660dc8cdc339" kindref="member">defaultFont</ref><sp/>=<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1ae4cadaf3ea1172a0c335e927b4e6951c" kindref="member">getStaticDefaultFontFunc</ref>()();</highlight></codeline>
+<codeline lineno="199" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a6147eeaff8e86f187d95660dc8cdc339" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FontAndSize<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a6147eeaff8e86f187d95660dc8cdc339" kindref="member">defaultFont</ref><sp/>=<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1ae4cadaf3ea1172a0c335e927b4e6951c" kindref="member">getStaticDefaultFontFunc</ref>()();</highlight></codeline>
 <codeline lineno="200"><highlight class="normal"></highlight></codeline>
 <codeline lineno="202" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1ada8abd512f2564b6e933ba4332bdce0c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">mutable</highlight><highlight class="normal"><sp/>ImVec2<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1ada8abd512f2564b6e933ba4332bdce0c" kindref="member">computedSize</ref>;</highlight></codeline>
 <codeline lineno="203"><highlight class="normal"></highlight></codeline>
@@ -467,7 +397,7 @@
 <codeline lineno="282"><highlight class="normal"></highlight></codeline>
 <codeline lineno="283" refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams" kindref="compound">TextParams</ref></highlight></codeline>
 <codeline lineno="284"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="287" refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1a0488824dd2e0c5d0496391ffc6bfec38" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1a0488824dd2e0c5d0496391ffc6bfec38" kindref="member">borderColor</ref><sp/>=<sp/><ref refid="structMR_1_1Color_1a059a69f5238fa686b0c063d87ebecf40" kindref="member">Color::transparent</ref>();</highlight></codeline>
+<codeline lineno="287" refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1a0488824dd2e0c5d0496391ffc6bfec38" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1a0488824dd2e0c5d0496391ffc6bfec38" kindref="member">borderColor</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1ga059a69f5238fa686b0c063d87ebecf40" kindref="member">Color::transparent</ref>();</highlight></codeline>
 <codeline lineno="288"><highlight class="normal"></highlight></codeline>
 <codeline lineno="289" refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1_1Line" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1_1Line" kindref="compound">Line</ref></highlight></codeline>
 <codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>

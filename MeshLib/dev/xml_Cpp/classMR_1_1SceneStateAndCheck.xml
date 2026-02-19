@@ -12,38 +12,8 @@
       </param>
     </templateparamlist>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1SceneStateAndCheck_1aeeef0efbedfc98eea8fe606f14398bc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type></type>
-        <definition>virtual MR::SceneStateAndCheck&lt; Checks &gt;::~SceneStateAndCheck</definition>
-        <argsstring>()=default</argsstring>
-        <name>~SceneStateAndCheck</name>
-        <qualifiedname>MR::SceneStateAndCheck::~SceneStateAndCheck</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" line="186" column="13"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SceneStateAndCheck_1a24f4c50b741150585aac2dfc9451c763" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>std::string</type>
-        <definition>virtual std::string MR::SceneStateAndCheck&lt; Checks &gt;::isAvailable</definition>
-        <argsstring>(const std::vector&lt; std::shared_ptr&lt; const Object &gt; &gt; &amp;objs) const override</argsstring>
-        <name>isAvailable</name>
-        <qualifiedname>MR::SceneStateAndCheck::isAvailable</qualifiedname>
-        <param>
-          <type>const std::vector&lt; std::shared_ptr&lt; const <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt; &amp;</type>
-          <declname>objs</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" line="187" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" bodystart="187" bodyend="206"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaeeef0efbedfc98eea8fe606f14398bc2" kind="function"><name>~SceneStateAndCheck</name></member>
+      <member refid="group__GeneralGroup_1ga24f4c50b741150585aac2dfc9451c763" kind="function"><name>isAvailable</name></member>
     </sectiondef>
     <briefdescription>
 <para>checks that all of argument checks are true </para>
@@ -72,10 +42,10 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" line="183" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" bodystart="184" bodyend="207"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" line="186" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" bodystart="187" bodyend="210"/>
     <listofallmembers>
-      <member refid="classMR_1_1SceneStateAndCheck_1a24f4c50b741150585aac2dfc9451c763" prot="public" virt="virtual"><scope>MR::SceneStateAndCheck</scope><name>isAvailable</name></member>
-      <member refid="classMR_1_1SceneStateAndCheck_1aeeef0efbedfc98eea8fe606f14398bc2" prot="public" virt="virtual"><scope>MR::SceneStateAndCheck</scope><name>~SceneStateAndCheck</name></member>
+      <member refid="group__GeneralGroup_1ga24f4c50b741150585aac2dfc9451c763" prot="public" virt="virtual"><scope>MR::SceneStateAndCheck</scope><name>isAvailable</name></member>
+      <member refid="group__GeneralGroup_1gaeeef0efbedfc98eea8fe606f14398bc2" prot="public" virt="virtual"><scope>MR::SceneStateAndCheck</scope><name>~SceneStateAndCheck</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

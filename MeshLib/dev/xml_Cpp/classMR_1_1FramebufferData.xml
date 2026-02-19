@@ -5,401 +5,60 @@
     <includes refid="MRRenderGLHelpers_8h" local="no">MRRenderGLHelpers.h</includes>
     <innerclass refid="structMR_1_1FramebufferData_1_1DrawParams" prot="public">MR::FramebufferData::DrawParams</innerclass>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1FramebufferData_1a84328144fb173ad6c742e1664ace86e0" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::FramebufferData::isBound_</definition>
-        <argsstring></argsstring>
-        <name>isBound_</name>
-        <qualifiedname>MR::FramebufferData::isBound_</qualifiedname>
-        <initializer>{ false }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="255" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" bodystart="255" bodyend="255"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1FramebufferData_1ae815e5c7212be0705a58067b4025f1c8" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::FramebufferData::highPrecisionDepth_</definition>
-        <argsstring></argsstring>
-        <name>highPrecisionDepth_</name>
-        <qualifiedname>MR::FramebufferData::highPrecisionDepth_</qualifiedname>
-        <initializer>{ false }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="256" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" bodystart="256" bodyend="256"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1FramebufferData_1ac4fdc2cab3c10edd51dde7d3bc9b7a2f" prot="private" static="no" mutable="no">
-        <type>unsigned</type>
-        <definition>unsigned MR::FramebufferData::mainFramebuffer_</definition>
-        <argsstring></argsstring>
-        <name>mainFramebuffer_</name>
-        <qualifiedname>MR::FramebufferData::mainFramebuffer_</qualifiedname>
-        <initializer>{ 0 }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="257" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" bodystart="257" bodyend="257"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1FramebufferData_1a9dc1e167fb77338d607ed46709e62555" prot="private" static="no" mutable="no">
-        <type>unsigned</type>
-        <definition>unsigned MR::FramebufferData::colorRenderbuffer_</definition>
-        <argsstring></argsstring>
-        <name>colorRenderbuffer_</name>
-        <qualifiedname>MR::FramebufferData::colorRenderbuffer_</qualifiedname>
-        <initializer>{ 0 }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="258" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" bodystart="258" bodyend="258"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1FramebufferData_1a58ecfd24e2bcd32c9b37ae5e5ddb6d72" prot="private" static="no" mutable="no">
-        <type>unsigned</type>
-        <definition>unsigned MR::FramebufferData::depthRenderbuffer_</definition>
-        <argsstring></argsstring>
-        <name>depthRenderbuffer_</name>
-        <qualifiedname>MR::FramebufferData::depthRenderbuffer_</qualifiedname>
-        <initializer>{ 0 }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="259" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" bodystart="259" bodyend="259"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1FramebufferData_1a8100cc3b647e250786400309a158eb25" prot="private" static="no" mutable="no">
-        <type>unsigned</type>
-        <definition>unsigned MR::FramebufferData::copyFramebuffer_</definition>
-        <argsstring></argsstring>
-        <name>copyFramebuffer_</name>
-        <qualifiedname>MR::FramebufferData::copyFramebuffer_</qualifiedname>
-        <initializer>{ 0 }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="260" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" bodystart="260" bodyend="260"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1FramebufferData_1aef8aa95c15c526bae8718e4f43a5f978" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1GlTexture2" kindref="compound">GlTexture2</ref></type>
-        <definition>GlTexture2 MR::FramebufferData::resColorTexture_</definition>
-        <argsstring></argsstring>
-        <name>resColorTexture_</name>
-        <qualifiedname>MR::FramebufferData::resColorTexture_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="261" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" bodystart="261" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1FramebufferData_1a0d98e266fad1e800484b8b462e9a080b" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1GlTexture2" kindref="compound">GlTexture2</ref></type>
-        <definition>GlTexture2 MR::FramebufferData::resDepthTexture_</definition>
-        <argsstring></argsstring>
-        <name>resDepthTexture_</name>
-        <qualifiedname>MR::FramebufferData::resDepthTexture_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="262" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" bodystart="262" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1FramebufferData_1ac63083bb4dab9533fb6e0602354cc827" prot="private" static="no" mutable="no">
-        <type>Vector2i</type>
-        <definition>Vector2i MR::FramebufferData::size_</definition>
-        <argsstring></argsstring>
-        <name>size_</name>
-        <qualifiedname>MR::FramebufferData::size_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="263" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" bodystart="263" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga84328144fb173ad6c742e1664ace86e0" kind="variable"><name>isBound_</name></member>
+      <member refid="group__GeneralGroup_1gae815e5c7212be0705a58067b4025f1c8" kind="variable"><name>highPrecisionDepth_</name></member>
+      <member refid="group__GeneralGroup_1gac4fdc2cab3c10edd51dde7d3bc9b7a2f" kind="variable"><name>mainFramebuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga9dc1e167fb77338d607ed46709e62555" kind="variable"><name>colorRenderbuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga58ecfd24e2bcd32c9b37ae5e5ddb6d72" kind="variable"><name>depthRenderbuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga8100cc3b647e250786400309a158eb25" kind="variable"><name>copyFramebuffer_</name></member>
+      <member refid="group__GeneralGroup_1gaef8aa95c15c526bae8718e4f43a5f978" kind="variable"><name>resColorTexture_</name></member>
+      <member refid="group__GeneralGroup_1ga0d98e266fad1e800484b8b462e9a080b" kind="variable"><name>resDepthTexture_</name></member>
+      <member refid="group__GeneralGroup_1gac63083bb4dab9533fb6e0602354cc827" kind="variable"><name>size_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1FramebufferData_1a0e6cc8cca8e2d3918f94804fd7f763da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::FramebufferData::gen</definition>
-        <argsstring>(const Vector2i &amp;size, bool copyDepth, int msaaPow, bool highPrecisionDepth=false)</argsstring>
-        <name>gen</name>
-        <qualifiedname>MR::FramebufferData::gen</qualifiedname>
-        <param>
-          <type>const Vector2i &amp;</type>
-          <declname>size</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>copyDepth</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>msaaPow</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>highPrecisionDepth</declname>
-          <defval>false</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>generates framebuffer and associated data msaaPow - 2^msaaPow samples, msaaPow &lt; 0 - use same default amount of samples to resize: <ref refid="classMR_1_1FramebufferData_1afd64093c7c72fb36807eaf3b9baa59e2" kindref="member">del()</ref>; gen( newSize, msaaPow ); </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="219" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1FramebufferData_1ad2726c3c7d077c2aa9ac9dc5944d2f6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::FramebufferData::bind</definition>
-        <argsstring>(bool clear=true, float clearDepth=1.0f)</argsstring>
-        <name>bind</name>
-        <qualifiedname>MR::FramebufferData::bind</qualifiedname>
-        <param>
-          <type>bool</type>
-          <declname>clear</declname>
-          <defval>true</defval>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>clearDepth</declname>
-          <defval>1.0f</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>binds this framebuffer as main rendering target clears it if <computeroutput>clear</computeroutput> flag is set </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="222" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1FramebufferData_1a3c09cab97e4bdd21875667bbbb9338ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::FramebufferData::bindDefault</definition>
-        <argsstring>()</argsstring>
-        <name>bindDefault</name>
-        <qualifiedname>MR::FramebufferData::bindDefault</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>binds default framebuffer (and read/draw framebuffers) make sure to bind correct framebuffer <computeroutput><ref refid="namespaceMR_1a3e7c908172571071d6796d054d25a4f4" kindref="member">getViewerInstance()</ref>.bindSceneTexture( true )</computeroutput> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="225" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1FramebufferData_1a6d1e7eba4bf0695396f4dc0f846162a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::FramebufferData::bindTexture</definition>
-        <argsstring>(bool color=true, bool depth=true)</argsstring>
-        <name>bindTexture</name>
-        <qualifiedname>MR::FramebufferData::bindTexture</qualifiedname>
-        <param>
-          <type>bool</type>
-          <declname>color</declname>
-          <defval>true</defval>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>depth</declname>
-          <defval>true</defval>
-        </param>
-        <briefdescription>
-<para>marks the texture to reading </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="227" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1FramebufferData_1a5e89aff5db92583727297ab9f6f71124" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::FramebufferData::copyTextureBindDef</definition>
-        <argsstring>()</argsstring>
-        <name>copyTextureBindDef</name>
-        <qualifiedname>MR::FramebufferData::copyTextureBindDef</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>copies picture rendered in this framebuffer to associated texutre for further use and binds default framebuffer (and read/draw framebuffers) make sure to bind correct framebuffer afterwards </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="231" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1FramebufferData_1afd64093c7c72fb36807eaf3b9baa59e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::FramebufferData::del</definition>
-        <argsstring>()</argsstring>
-        <name>del</name>
-        <qualifiedname>MR::FramebufferData::del</qualifiedname>
-        <briefdescription>
-<para>removes this framebuffer </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="233" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1FramebufferData_1a4f554722ab0b107b3ec2afa38e43460d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsigned</type>
-        <definition>unsigned MR::FramebufferData::getColorTexture</definition>
-        <argsstring>() const</argsstring>
-        <name>getColorTexture</name>
-        <qualifiedname>MR::FramebufferData::getColorTexture</qualifiedname>
-        <briefdescription>
-<para>gets texture id for binding in other shaders </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="235" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" bodystart="235" bodyend="235"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1FramebufferData_1a8079592aa54b067ee0a8c529a5bb8ef3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsigned</type>
-        <definition>unsigned MR::FramebufferData::getDepthTexture</definition>
-        <argsstring>() const</argsstring>
-        <name>getDepthTexture</name>
-        <qualifiedname>MR::FramebufferData::getDepthTexture</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="236" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" bodystart="236" bodyend="236"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1FramebufferData_1a89877d47c22c4dda2ae1bcd9ec9923c5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const Vector2i &amp;</type>
-        <definition>const Vector2i &amp; MR::FramebufferData::getSize</definition>
-        <argsstring>() const</argsstring>
-        <name>getSize</name>
-        <qualifiedname>MR::FramebufferData::getSize</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="238" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" bodystart="238" bodyend="238"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1FramebufferData_1a69af9841e2e06066fbdea51d15b5d1e6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::FramebufferData::isBound</definition>
-        <argsstring>() const</argsstring>
-        <name>isBound</name>
-        <qualifiedname>MR::FramebufferData::isBound</qualifiedname>
-        <briefdescription>
-<para>return true if texture is bound </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="240" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" bodystart="240" bodyend="240"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1FramebufferData_1a3f258c7466ad99ae83795462fbbbf03f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>MRVIEWER_API void MR::FramebufferData::draw</definition>
-        <argsstring>(QuadTextureVertexObject &amp;quadObject, const DrawParams &amp;params) const</argsstring>
-        <name>draw</name>
-        <qualifiedname>MR::FramebufferData::draw</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1QuadTextureVertexObject" kindref="compound">QuadTextureVertexObject</ref> &amp;</type>
-          <declname>quadObject</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1FramebufferData_1_1DrawParams" kindref="compound">DrawParams</ref> &amp;</type>
-          <declname>params</declname>
-        </param>
-        <briefdescription>
-<para>draws this framebuffer using <computeroutput>quadObject</computeroutput> </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="251" column="23"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga0e6cc8cca8e2d3918f94804fd7f763da" kind="function"><name>gen</name></member>
+      <member refid="group__GeneralGroup_1gad2726c3c7d077c2aa9ac9dc5944d2f6e" kind="function"><name>bind</name></member>
+      <member refid="group__GeneralGroup_1ga3c09cab97e4bdd21875667bbbb9338ce" kind="function"><name>bindDefault</name></member>
+      <member refid="group__GeneralGroup_1ga6d1e7eba4bf0695396f4dc0f846162a4" kind="function"><name>bindTexture</name></member>
+      <member refid="group__GeneralGroup_1ga5e89aff5db92583727297ab9f6f71124" kind="function"><name>copyTextureBindDef</name></member>
+      <member refid="group__GeneralGroup_1gafd64093c7c72fb36807eaf3b9baa59e2" kind="function"><name>del</name></member>
+      <member refid="group__GeneralGroup_1ga4f554722ab0b107b3ec2afa38e43460d" kind="function"><name>getColorTexture</name></member>
+      <member refid="group__GeneralGroup_1ga8079592aa54b067ee0a8c529a5bb8ef3" kind="function"><name>getDepthTexture</name></member>
+      <member refid="group__GeneralGroup_1ga89877d47c22c4dda2ae1bcd9ec9923c5" kind="function"><name>getSize</name></member>
+      <member refid="group__GeneralGroup_1ga69af9841e2e06066fbdea51d15b5d1e6" kind="function"><name>isBound</name></member>
+      <member refid="group__GeneralGroup_1ga3f258c7466ad99ae83795462fbbbf03f" kind="function"><name>draw</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMR_1_1FramebufferData_1a1819ee0a738c09d92cb758253b44ee60" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::FramebufferData::resize_</definition>
-        <argsstring>(const Vector2i &amp;size, int msaaPow)</argsstring>
-        <name>resize_</name>
-        <qualifiedname>MR::FramebufferData::resize_</qualifiedname>
-        <param>
-          <type>const Vector2i &amp;</type>
-          <declname>size</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>msaaPow</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="253" column="10"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga1819ee0a738c09d92cb758253b44ee60" kind="function"><name>resize_</name></member>
     </sectiondef>
     <briefdescription>
 <para>class for easier rendering in framebuffer texture </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="213" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" bodystart="214" bodyend="264"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="216" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" bodystart="217" bodyend="267"/>
     <listofallmembers>
-      <member refid="classMR_1_1FramebufferData_1ad2726c3c7d077c2aa9ac9dc5944d2f6e" prot="public" virt="non-virtual"><scope>MR::FramebufferData</scope><name>bind</name></member>
-      <member refid="classMR_1_1FramebufferData_1a3c09cab97e4bdd21875667bbbb9338ce" prot="public" virt="non-virtual"><scope>MR::FramebufferData</scope><name>bindDefault</name></member>
-      <member refid="classMR_1_1FramebufferData_1a6d1e7eba4bf0695396f4dc0f846162a4" prot="public" virt="non-virtual"><scope>MR::FramebufferData</scope><name>bindTexture</name></member>
-      <member refid="classMR_1_1FramebufferData_1a9dc1e167fb77338d607ed46709e62555" prot="private" virt="non-virtual"><scope>MR::FramebufferData</scope><name>colorRenderbuffer_</name></member>
-      <member refid="classMR_1_1FramebufferData_1a8100cc3b647e250786400309a158eb25" prot="private" virt="non-virtual"><scope>MR::FramebufferData</scope><name>copyFramebuffer_</name></member>
-      <member refid="classMR_1_1FramebufferData_1a5e89aff5db92583727297ab9f6f71124" prot="public" virt="non-virtual"><scope>MR::FramebufferData</scope><name>copyTextureBindDef</name></member>
-      <member refid="classMR_1_1FramebufferData_1afd64093c7c72fb36807eaf3b9baa59e2" prot="public" virt="non-virtual"><scope>MR::FramebufferData</scope><name>del</name></member>
-      <member refid="classMR_1_1FramebufferData_1a58ecfd24e2bcd32c9b37ae5e5ddb6d72" prot="private" virt="non-virtual"><scope>MR::FramebufferData</scope><name>depthRenderbuffer_</name></member>
-      <member refid="classMR_1_1FramebufferData_1a3f258c7466ad99ae83795462fbbbf03f" prot="public" virt="non-virtual"><scope>MR::FramebufferData</scope><name>draw</name></member>
-      <member refid="classMR_1_1FramebufferData_1a0e6cc8cca8e2d3918f94804fd7f763da" prot="public" virt="non-virtual"><scope>MR::FramebufferData</scope><name>gen</name></member>
-      <member refid="classMR_1_1FramebufferData_1a4f554722ab0b107b3ec2afa38e43460d" prot="public" virt="non-virtual"><scope>MR::FramebufferData</scope><name>getColorTexture</name></member>
-      <member refid="classMR_1_1FramebufferData_1a8079592aa54b067ee0a8c529a5bb8ef3" prot="public" virt="non-virtual"><scope>MR::FramebufferData</scope><name>getDepthTexture</name></member>
-      <member refid="classMR_1_1FramebufferData_1a89877d47c22c4dda2ae1bcd9ec9923c5" prot="public" virt="non-virtual"><scope>MR::FramebufferData</scope><name>getSize</name></member>
-      <member refid="classMR_1_1FramebufferData_1ae815e5c7212be0705a58067b4025f1c8" prot="private" virt="non-virtual"><scope>MR::FramebufferData</scope><name>highPrecisionDepth_</name></member>
-      <member refid="classMR_1_1FramebufferData_1a69af9841e2e06066fbdea51d15b5d1e6" prot="public" virt="non-virtual"><scope>MR::FramebufferData</scope><name>isBound</name></member>
-      <member refid="classMR_1_1FramebufferData_1a84328144fb173ad6c742e1664ace86e0" prot="private" virt="non-virtual"><scope>MR::FramebufferData</scope><name>isBound_</name></member>
-      <member refid="classMR_1_1FramebufferData_1ac4fdc2cab3c10edd51dde7d3bc9b7a2f" prot="private" virt="non-virtual"><scope>MR::FramebufferData</scope><name>mainFramebuffer_</name></member>
-      <member refid="classMR_1_1FramebufferData_1aef8aa95c15c526bae8718e4f43a5f978" prot="private" virt="non-virtual"><scope>MR::FramebufferData</scope><name>resColorTexture_</name></member>
-      <member refid="classMR_1_1FramebufferData_1a0d98e266fad1e800484b8b462e9a080b" prot="private" virt="non-virtual"><scope>MR::FramebufferData</scope><name>resDepthTexture_</name></member>
-      <member refid="classMR_1_1FramebufferData_1a1819ee0a738c09d92cb758253b44ee60" prot="private" virt="non-virtual"><scope>MR::FramebufferData</scope><name>resize_</name></member>
-      <member refid="classMR_1_1FramebufferData_1ac63083bb4dab9533fb6e0602354cc827" prot="private" virt="non-virtual"><scope>MR::FramebufferData</scope><name>size_</name></member>
+      <member refid="group__GeneralGroup_1gad2726c3c7d077c2aa9ac9dc5944d2f6e" prot="public" virt="non-virtual"><scope>MR::FramebufferData</scope><name>bind</name></member>
+      <member refid="group__GeneralGroup_1ga3c09cab97e4bdd21875667bbbb9338ce" prot="public" virt="non-virtual"><scope>MR::FramebufferData</scope><name>bindDefault</name></member>
+      <member refid="group__GeneralGroup_1ga6d1e7eba4bf0695396f4dc0f846162a4" prot="public" virt="non-virtual"><scope>MR::FramebufferData</scope><name>bindTexture</name></member>
+      <member refid="group__GeneralGroup_1ga9dc1e167fb77338d607ed46709e62555" prot="private" virt="non-virtual"><scope>MR::FramebufferData</scope><name>colorRenderbuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga8100cc3b647e250786400309a158eb25" prot="private" virt="non-virtual"><scope>MR::FramebufferData</scope><name>copyFramebuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga5e89aff5db92583727297ab9f6f71124" prot="public" virt="non-virtual"><scope>MR::FramebufferData</scope><name>copyTextureBindDef</name></member>
+      <member refid="group__GeneralGroup_1gafd64093c7c72fb36807eaf3b9baa59e2" prot="public" virt="non-virtual"><scope>MR::FramebufferData</scope><name>del</name></member>
+      <member refid="group__GeneralGroup_1ga58ecfd24e2bcd32c9b37ae5e5ddb6d72" prot="private" virt="non-virtual"><scope>MR::FramebufferData</scope><name>depthRenderbuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga3f258c7466ad99ae83795462fbbbf03f" prot="public" virt="non-virtual"><scope>MR::FramebufferData</scope><name>draw</name></member>
+      <member refid="group__GeneralGroup_1ga0e6cc8cca8e2d3918f94804fd7f763da" prot="public" virt="non-virtual"><scope>MR::FramebufferData</scope><name>gen</name></member>
+      <member refid="group__GeneralGroup_1ga4f554722ab0b107b3ec2afa38e43460d" prot="public" virt="non-virtual"><scope>MR::FramebufferData</scope><name>getColorTexture</name></member>
+      <member refid="group__GeneralGroup_1ga8079592aa54b067ee0a8c529a5bb8ef3" prot="public" virt="non-virtual"><scope>MR::FramebufferData</scope><name>getDepthTexture</name></member>
+      <member refid="group__GeneralGroup_1ga89877d47c22c4dda2ae1bcd9ec9923c5" prot="public" virt="non-virtual"><scope>MR::FramebufferData</scope><name>getSize</name></member>
+      <member refid="group__GeneralGroup_1gae815e5c7212be0705a58067b4025f1c8" prot="private" virt="non-virtual"><scope>MR::FramebufferData</scope><name>highPrecisionDepth_</name></member>
+      <member refid="group__GeneralGroup_1ga69af9841e2e06066fbdea51d15b5d1e6" prot="public" virt="non-virtual"><scope>MR::FramebufferData</scope><name>isBound</name></member>
+      <member refid="group__GeneralGroup_1ga84328144fb173ad6c742e1664ace86e0" prot="private" virt="non-virtual"><scope>MR::FramebufferData</scope><name>isBound_</name></member>
+      <member refid="group__GeneralGroup_1gac4fdc2cab3c10edd51dde7d3bc9b7a2f" prot="private" virt="non-virtual"><scope>MR::FramebufferData</scope><name>mainFramebuffer_</name></member>
+      <member refid="group__GeneralGroup_1gaef8aa95c15c526bae8718e4f43a5f978" prot="private" virt="non-virtual"><scope>MR::FramebufferData</scope><name>resColorTexture_</name></member>
+      <member refid="group__GeneralGroup_1ga0d98e266fad1e800484b8b462e9a080b" prot="private" virt="non-virtual"><scope>MR::FramebufferData</scope><name>resDepthTexture_</name></member>
+      <member refid="group__GeneralGroup_1ga1819ee0a738c09d92cb758253b44ee60" prot="private" virt="non-virtual"><scope>MR::FramebufferData</scope><name>resize_</name></member>
+      <member refid="group__GeneralGroup_1gac63083bb4dab9533fb6e0602354cc827" prot="private" virt="non-virtual"><scope>MR::FramebufferData</scope><name>size_</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -5,149 +5,16 @@
     <derivedcompoundref refid="structMR_1_1MeshTexture" prot="public" virt="non-virtual">MR::MeshTexture</derivedcompoundref>
     <includes refid="MRImage_8h" local="no">MRImage.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1Image_1ac507525682328e3e5fec0b85c131c224" prot="public" static="no" mutable="no">
-        <type>std::vector&lt; <ref refid="structMR_1_1Color" kindref="compound">Color</ref> &gt;</type>
-        <definition>std::vector&lt;Color&gt; MR::Image::pixels</definition>
-        <argsstring></argsstring>
-        <name>pixels</name>
-        <qualifiedname>MR::Image::pixels</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRImage.h" line="17" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRImage.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1Image_1a39fed2172fc354aeec92cae5942b7151" prot="public" static="no" mutable="no">
-        <type>Vector2i</type>
-        <definition>Vector2i MR::Image::resolution</definition>
-        <argsstring></argsstring>
-        <name>resolution</name>
-        <qualifiedname>MR::Image::resolution</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRImage.h" line="18" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRImage.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gac507525682328e3e5fec0b85c131c224" kind="variable"><name>pixels</name></member>
+      <member refid="group__GeneralGroup_1ga39fed2172fc354aeec92cae5942b7151" kind="variable"><name>resolution</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1Image_1a3b6b9b5bd10ab0b951b4049866cb22fb" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Color" kindref="compound">Color</ref> &amp;</type>
-        <definition>Color &amp; MR::Image::operator[]</definition>
-        <argsstring>(const Vector2i &amp;p)</argsstring>
-        <name>operator[]</name>
-        <qualifiedname>MR::Image::operator[]</qualifiedname>
-        <param>
-          <type>const Vector2i &amp;</type>
-          <declname>p</declname>
-        </param>
-        <briefdescription>
-<para>fetches some texture element specified by integer coordinates </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRImage.h" line="21" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRImage.h" bodystart="41" bodyend="46"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Image_1a6ea7fda3271b8069b31c64acfa61c5d4" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Color" kindref="compound">Color</ref></type>
-        <definition>Color MR::Image::operator[]</definition>
-        <argsstring>(const Vector2i &amp;p) const</argsstring>
-        <name>operator[]</name>
-        <qualifiedname>MR::Image::operator[]</qualifiedname>
-        <param>
-          <type>const Vector2i &amp;</type>
-          <declname>p</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRImage.h" line="22" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRImage.h" bodystart="48" bodyend="53"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Image_1aed3087256e14a389e2e32449eb1233d1" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>size_t</type>
-        <definition>size_t MR::Image::heapBytes</definition>
-        <argsstring>() const</argsstring>
-        <name>heapBytes</name>
-        <qualifiedname>MR::Image::heapBytes</qualifiedname>
-        <briefdescription>
-<para>returns the amount of memory this object occupies on heap </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRImage.h" line="25" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRImage.h" bodystart="25" bodyend="25"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Image_1a872aae100ad383474afd5c9c8468b3d5" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="structMR_1_1Color" kindref="compound">Color</ref></type>
-        <definition>MRMESH_API Color MR::Image::sampleDiscrete</definition>
-        <argsstring>(const UVCoord &amp;pos) const</argsstring>
-        <name>sampleDiscrete</name>
-        <qualifiedname>MR::Image::sampleDiscrete</qualifiedname>
-        <param>
-          <type>const <ref refid="namespaceMR_1a6f8b9797e8968735a685a81d8a6064d6" kindref="member">UVCoord</ref> &amp;</type>
-          <declname>pos</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Given texture position in [0,1]x[0,1] (which is clamped if necessary), returns the color of the closest pixel </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRImage.h" line="29" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Image_1a14c773bc8dd766e49107c4d5c44c41d8" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="structMR_1_1Color" kindref="compound">Color</ref></type>
-        <definition>MRMESH_API Color MR::Image::sampleBilinear</definition>
-        <argsstring>(const UVCoord &amp;pos) const</argsstring>
-        <name>sampleBilinear</name>
-        <qualifiedname>MR::Image::sampleBilinear</qualifiedname>
-        <param>
-          <type>const <ref refid="namespaceMR_1a6f8b9797e8968735a685a81d8a6064d6" kindref="member">UVCoord</ref> &amp;</type>
-          <declname>pos</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Given texture position in [0,1]x[0,1] (which is clamped if necessary), returns bilinear interpolated color at it </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRImage.h" line="33" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Image_1af6176f7d0a558084bda1ff8e2f3f6237" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1Color" kindref="compound">Color</ref></type>
-        <definition>Color MR::Image::sample</definition>
-        <argsstring>(FilterType filter, const UVCoord &amp;pos) const</argsstring>
-        <name>sample</name>
-        <qualifiedname>MR::Image::sample</qualifiedname>
-        <param>
-          <type><ref refid="namespaceMR_1a6b6dd7eadc1056fc5ffd8af1810d925a" kindref="member">FilterType</ref></type>
-          <declname>filter</declname>
-        </param>
-        <param>
-          <type>const <ref refid="namespaceMR_1a6f8b9797e8968735a685a81d8a6064d6" kindref="member">UVCoord</ref> &amp;</type>
-          <declname>pos</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Given texture position in [0,1]x[0,1] (which is clamped if necessary), returns sampled color at it according to given filter </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRImage.h" line="37" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRImage.h" bodystart="37" bodyend="38"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga3b6b9b5bd10ab0b951b4049866cb22fb" kind="function"><name>operator[]</name></member>
+      <member refid="group__GeneralGroup_1ga6ea7fda3271b8069b31c64acfa61c5d4" kind="function"><name>operator[]</name></member>
+      <member refid="group__GeneralGroup_1gaed3087256e14a389e2e32449eb1233d1" kind="function"><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1ga872aae100ad383474afd5c9c8468b3d5" kind="function"><name>sampleDiscrete</name></member>
+      <member refid="group__GeneralGroup_1ga14c773bc8dd766e49107c4d5c44c41d8" kind="function"><name>sampleBilinear</name></member>
+      <member refid="group__GeneralGroup_1gaf6176f7d0a558084bda1ff8e2f3f6237" kind="function"><name>sample</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -166,16 +33,16 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRImage.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRImage.h" bodystart="16" bodyend="39"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRImage.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRImage.h" bodystart="19" bodyend="42"/>
     <listofallmembers>
-      <member refid="structMR_1_1Image_1aed3087256e14a389e2e32449eb1233d1" prot="public" virt="non-virtual"><scope>MR::Image</scope><name>heapBytes</name></member>
-      <member refid="structMR_1_1Image_1a3b6b9b5bd10ab0b951b4049866cb22fb" prot="public" virt="non-virtual"><scope>MR::Image</scope><name>operator[]</name></member>
-      <member refid="structMR_1_1Image_1a6ea7fda3271b8069b31c64acfa61c5d4" prot="public" virt="non-virtual"><scope>MR::Image</scope><name>operator[]</name></member>
-      <member refid="structMR_1_1Image_1ac507525682328e3e5fec0b85c131c224" prot="public" virt="non-virtual"><scope>MR::Image</scope><name>pixels</name></member>
-      <member refid="structMR_1_1Image_1a39fed2172fc354aeec92cae5942b7151" prot="public" virt="non-virtual"><scope>MR::Image</scope><name>resolution</name></member>
-      <member refid="structMR_1_1Image_1af6176f7d0a558084bda1ff8e2f3f6237" prot="public" virt="non-virtual"><scope>MR::Image</scope><name>sample</name></member>
-      <member refid="structMR_1_1Image_1a14c773bc8dd766e49107c4d5c44c41d8" prot="public" virt="non-virtual"><scope>MR::Image</scope><name>sampleBilinear</name></member>
-      <member refid="structMR_1_1Image_1a872aae100ad383474afd5c9c8468b3d5" prot="public" virt="non-virtual"><scope>MR::Image</scope><name>sampleDiscrete</name></member>
+      <member refid="group__GeneralGroup_1gaed3087256e14a389e2e32449eb1233d1" prot="public" virt="non-virtual"><scope>MR::Image</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1ga3b6b9b5bd10ab0b951b4049866cb22fb" prot="public" virt="non-virtual"><scope>MR::Image</scope><name>operator[]</name></member>
+      <member refid="group__GeneralGroup_1ga6ea7fda3271b8069b31c64acfa61c5d4" prot="public" virt="non-virtual"><scope>MR::Image</scope><name>operator[]</name></member>
+      <member refid="group__GeneralGroup_1gac507525682328e3e5fec0b85c131c224" prot="public" virt="non-virtual"><scope>MR::Image</scope><name>pixels</name></member>
+      <member refid="group__GeneralGroup_1ga39fed2172fc354aeec92cae5942b7151" prot="public" virt="non-virtual"><scope>MR::Image</scope><name>resolution</name></member>
+      <member refid="group__GeneralGroup_1gaf6176f7d0a558084bda1ff8e2f3f6237" prot="public" virt="non-virtual"><scope>MR::Image</scope><name>sample</name></member>
+      <member refid="group__GeneralGroup_1ga14c773bc8dd766e49107c4d5c44c41d8" prot="public" virt="non-virtual"><scope>MR::Image</scope><name>sampleBilinear</name></member>
+      <member refid="group__GeneralGroup_1ga872aae100ad383474afd5c9c8468b3d5" prot="public" virt="non-virtual"><scope>MR::Image</scope><name>sampleDiscrete</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

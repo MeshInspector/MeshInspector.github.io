@@ -5,37 +5,8 @@
     <derivedcompoundref refid="structMR_1_1OffsetParameters" prot="public" virt="non-virtual">MR::OffsetParameters</derivedcompoundref>
     <includes refid="MROffset_8h" local="no">MROffset.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1BaseShellParameters_1a0496e82daf37476561be7bd450c6fb48" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::BaseShellParameters::voxelSize</definition>
-        <argsstring></argsstring>
-        <name>voxelSize</name>
-        <qualifiedname>MR::BaseShellParameters::voxelSize</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Size of voxel in grid conversions; The user is responsible for setting some positive value here </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROffset.h" line="19" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROffset.h" bodystart="19" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1BaseShellParameters_1a21a919475b5c9882d80ab9a26dd60d50" prot="public" static="no" mutable="no">
-        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
-        <definition>ProgressCallback MR::BaseShellParameters::callBack</definition>
-        <argsstring></argsstring>
-        <name>callBack</name>
-        <qualifiedname>MR::BaseShellParameters::callBack</qualifiedname>
-        <briefdescription>
-<para>Progress callback. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROffset.h" line="22" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROffset.h" bodystart="22" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga0496e82daf37476561be7bd450c6fb48" kind="variable"><name>voxelSize</name></member>
+      <member refid="group__GeneralGroup_1ga21a919475b5c9882d80ab9a26dd60d50" kind="variable"><name>callBack</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -65,10 +36,10 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROffset.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROffset.h" bodystart="16" bodyend="23"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROffset.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROffset.h" bodystart="19" bodyend="26"/>
     <listofallmembers>
-      <member refid="structMR_1_1BaseShellParameters_1a21a919475b5c9882d80ab9a26dd60d50" prot="public" virt="non-virtual"><scope>MR::BaseShellParameters</scope><name>callBack</name></member>
-      <member refid="structMR_1_1BaseShellParameters_1a0496e82daf37476561be7bd450c6fb48" prot="public" virt="non-virtual"><scope>MR::BaseShellParameters</scope><name>voxelSize</name></member>
+      <member refid="group__GeneralGroup_1ga21a919475b5c9882d80ab9a26dd60d50" prot="public" virt="non-virtual"><scope>MR::BaseShellParameters</scope><name>callBack</name></member>
+      <member refid="group__GeneralGroup_1ga0496e82daf37476561be7bd450c6fb48" prot="public" virt="non-virtual"><scope>MR::BaseShellParameters</scope><name>voxelSize</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

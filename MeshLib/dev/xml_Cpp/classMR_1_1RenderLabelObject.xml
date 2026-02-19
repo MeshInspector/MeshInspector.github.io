@@ -5,605 +5,51 @@
     <basecompoundref refid="classMR_1_1IRenderObject" prot="public" virt="virtual">MR::IRenderObject</basecompoundref>
     <includes refid="MRRenderLabelObject_8h" local="no">MRRenderLabelObject.h</includes>
     <sectiondef kind="private-type">
-      <memberdef kind="typedef" id="classMR_1_1RenderLabelObject_1a21cdcd557c2e9af90d6972f8a1b5f783" prot="private" static="no">
-        <type>unsigned int</type>
-        <definition>typedef unsigned int MR::RenderLabelObject::GLuint</definition>
-        <argsstring></argsstring>
-        <name>GLuint</name>
-        <qualifiedname>MR::RenderLabelObject::GLuint</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" line="31" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" bodystart="31" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga21cdcd557c2e9af90d6972f8a1b5f783" kind="typedef"><name>GLuint</name></member>
     </sectiondef>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1RenderLabelObject_1af367c8c57e3225549e7fdeee6ffa1284" prot="private" static="no" mutable="no">
-        <type>const <ref refid="classMR_1_1ObjectLabel" kindref="compound">ObjectLabel</ref> *</type>
-        <definition>const ObjectLabel* MR::RenderLabelObject::objLabel_</definition>
-        <argsstring></argsstring>
-        <name>objLabel_</name>
-        <qualifiedname>MR::RenderLabelObject::objLabel_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" line="25" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" bodystart="25" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RenderLabelObject_1a17e5b2389e624f10a6e94ce3f2eac9b7" prot="private" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::RenderLabelObject::faceIndicesSize_</definition>
-        <argsstring></argsstring>
-        <name>faceIndicesSize_</name>
-        <qualifiedname>MR::RenderLabelObject::faceIndicesSize_</qualifiedname>
-        <initializer>{ 0 }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" line="27" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" bodystart="27" bodyend="27"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RenderLabelObject_1a0bdda487c2197b9d275c037e0da0b8c6" prot="private" static="no" mutable="no">
-        <type>GLuint</type>
-        <definition>GLuint MR::RenderLabelObject::labelArrayObjId_</definition>
-        <argsstring></argsstring>
-        <name>labelArrayObjId_</name>
-        <qualifiedname>MR::RenderLabelObject::labelArrayObjId_</qualifiedname>
-        <initializer>{ 0 }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" line="33" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" bodystart="33" bodyend="33"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RenderLabelObject_1a40ce2b4f12b8058162d83a614e452e17" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1GlBuffer" kindref="compound">GlBuffer</ref></type>
-        <definition>GlBuffer MR::RenderLabelObject::vertPosBuffer_</definition>
-        <argsstring></argsstring>
-        <name>vertPosBuffer_</name>
-        <qualifiedname>MR::RenderLabelObject::vertPosBuffer_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" line="34" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" bodystart="34" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RenderLabelObject_1a14743ca3b33982d43c999b650effa896" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1GlBuffer" kindref="compound">GlBuffer</ref></type>
-        <definition>GlBuffer MR::RenderLabelObject::facesIndicesBuffer_</definition>
-        <argsstring></argsstring>
-        <name>facesIndicesBuffer_</name>
-        <qualifiedname>MR::RenderLabelObject::facesIndicesBuffer_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" line="35" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" bodystart="35" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RenderLabelObject_1a37e11d414455529dff71adef5e79e33a" prot="private" static="no" mutable="no">
-        <type>GLuint</type>
-        <definition>GLuint MR::RenderLabelObject::srcArrayObjId_</definition>
-        <argsstring></argsstring>
-        <name>srcArrayObjId_</name>
-        <qualifiedname>MR::RenderLabelObject::srcArrayObjId_</qualifiedname>
-        <initializer>{ 0 }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" line="37" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" bodystart="37" bodyend="37"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RenderLabelObject_1ae233999752885c1e6064f242f920264b" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1GlBuffer" kindref="compound">GlBuffer</ref></type>
-        <definition>GlBuffer MR::RenderLabelObject::srcVertPosBuffer_</definition>
-        <argsstring></argsstring>
-        <name>srcVertPosBuffer_</name>
-        <qualifiedname>MR::RenderLabelObject::srcVertPosBuffer_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" line="38" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" bodystart="38" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RenderLabelObject_1a999ede68bfbb53b3d8d33a3187999aeb" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1GlBuffer" kindref="compound">GlBuffer</ref></type>
-        <definition>GlBuffer MR::RenderLabelObject::srcIndicesBuffer_</definition>
-        <argsstring></argsstring>
-        <name>srcIndicesBuffer_</name>
-        <qualifiedname>MR::RenderLabelObject::srcIndicesBuffer_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" line="39" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" bodystart="39" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RenderLabelObject_1a8d320b371b432821c9922b705e59b41a" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1GlTexture2" kindref="compound">GlTexture2</ref></type>
-        <definition>GlTexture2 MR::RenderLabelObject::srcIndicesSelectionTex_</definition>
-        <argsstring></argsstring>
-        <name>srcIndicesSelectionTex_</name>
-        <qualifiedname>MR::RenderLabelObject::srcIndicesSelectionTex_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" line="40" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" bodystart="40" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RenderLabelObject_1a8bf264bd49bec36c4791914ce5486a89" prot="private" static="no" mutable="no">
-        <type>GLuint</type>
-        <definition>GLuint MR::RenderLabelObject::bgArrayObjId_</definition>
-        <argsstring></argsstring>
-        <name>bgArrayObjId_</name>
-        <qualifiedname>MR::RenderLabelObject::bgArrayObjId_</qualifiedname>
-        <initializer>{ 0 }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" line="42" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" bodystart="42" bodyend="42"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RenderLabelObject_1a6d18a7b07b367ab0183b8529b4fee68f" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1GlBuffer" kindref="compound">GlBuffer</ref></type>
-        <definition>GlBuffer MR::RenderLabelObject::bgVertPosBuffer_</definition>
-        <argsstring></argsstring>
-        <name>bgVertPosBuffer_</name>
-        <qualifiedname>MR::RenderLabelObject::bgVertPosBuffer_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" line="43" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" bodystart="43" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RenderLabelObject_1a46601e7260bf8be84f69b98681df7020" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1GlBuffer" kindref="compound">GlBuffer</ref></type>
-        <definition>GlBuffer MR::RenderLabelObject::bgFacesIndicesBuffer_</definition>
-        <argsstring></argsstring>
-        <name>bgFacesIndicesBuffer_</name>
-        <qualifiedname>MR::RenderLabelObject::bgFacesIndicesBuffer_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" line="44" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" bodystart="44" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RenderLabelObject_1a5ef7218aace2d6e1ec8f6cd5017c815e" prot="private" static="no" mutable="no">
-        <type>GLuint</type>
-        <definition>GLuint MR::RenderLabelObject::llineArrayObjId_</definition>
-        <argsstring></argsstring>
-        <name>llineArrayObjId_</name>
-        <qualifiedname>MR::RenderLabelObject::llineArrayObjId_</qualifiedname>
-        <initializer>{ 0 }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" line="46" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" bodystart="46" bodyend="46"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RenderLabelObject_1ad4281c4c56572220a99a7cadb4de1820" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1GlBuffer" kindref="compound">GlBuffer</ref></type>
-        <definition>GlBuffer MR::RenderLabelObject::llineVertPosBuffer_</definition>
-        <argsstring></argsstring>
-        <name>llineVertPosBuffer_</name>
-        <qualifiedname>MR::RenderLabelObject::llineVertPosBuffer_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" line="47" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" bodystart="47" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RenderLabelObject_1a0917ed1b4857d8e5d9eff5dca09661a4" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1GlBuffer" kindref="compound">GlBuffer</ref></type>
-        <definition>GlBuffer MR::RenderLabelObject::llineEdgesIndicesBuffer_</definition>
-        <argsstring></argsstring>
-        <name>llineEdgesIndicesBuffer_</name>
-        <qualifiedname>MR::RenderLabelObject::llineEdgesIndicesBuffer_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" line="48" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" bodystart="48" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RenderLabelObject_1a71c5d385fd4d332db218456992d7423b" prot="private" static="no" mutable="no">
-        <type>uint32_t</type>
-        <definition>uint32_t MR::RenderLabelObject::dirty_</definition>
-        <argsstring></argsstring>
-        <name>dirty_</name>
-        <qualifiedname>MR::RenderLabelObject::dirty_</qualifiedname>
-        <briefdescription>
-<para>Marks dirty buffers that need to be uploaded to OpenGL. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" line="65" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" bodystart="65" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RenderLabelObject_1ac9bbad2eaf64de9c559e884c97eaf756" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::RenderLabelObject::dirtySrc_</definition>
-        <argsstring></argsstring>
-        <name>dirtySrc_</name>
-        <qualifiedname>MR::RenderLabelObject::dirtySrc_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" line="66" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" bodystart="66" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RenderLabelObject_1aaed660dbeab2020c33bf1c527f5d2dbb" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::RenderLabelObject::dirtyBg_</definition>
-        <argsstring></argsstring>
-        <name>dirtyBg_</name>
-        <qualifiedname>MR::RenderLabelObject::dirtyBg_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" line="67" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" bodystart="67" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RenderLabelObject_1aa2dda100329bca05d495f6aba8c3f920" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::RenderLabelObject::dirtyLLine_</definition>
-        <argsstring></argsstring>
-        <name>dirtyLLine_</name>
-        <qualifiedname>MR::RenderLabelObject::dirtyLLine_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" line="68" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" bodystart="68" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RenderLabelObject_1a1ddb97b001e6fdf706dca435eed5cdea" prot="private" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::RenderLabelObject::positionState_</definition>
-        <argsstring></argsstring>
-        <name>positionState_</name>
-        <qualifiedname>MR::RenderLabelObject::positionState_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" line="69" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" bodystart="69" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RenderLabelObject_1a723786028af904ad54d60566e40ed00f" prot="private" static="no" mutable="no">
-        <type>Vector2f</type>
-        <definition>Vector2f MR::RenderLabelObject::pivotPointState_</definition>
-        <argsstring></argsstring>
-        <name>pivotPointState_</name>
-        <qualifiedname>MR::RenderLabelObject::pivotPointState_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" line="70" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" bodystart="70" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RenderLabelObject_1ac18e8cb60f8fae22cb8c87366dc9051b" prot="private" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::RenderLabelObject::backgroundPaddingState_</definition>
-        <argsstring></argsstring>
-        <name>backgroundPaddingState_</name>
-        <qualifiedname>MR::RenderLabelObject::backgroundPaddingState_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" line="71" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" bodystart="71" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1RenderLabelObject_1a951cbfbe6edf204dd584532150209c18" prot="private" static="no" mutable="no">
-        <type>Box3f</type>
-        <definition>Box3f MR::RenderLabelObject::meshBox_</definition>
-        <argsstring></argsstring>
-        <name>meshBox_</name>
-        <qualifiedname>MR::RenderLabelObject::meshBox_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" line="72" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" bodystart="72" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaf367c8c57e3225549e7fdeee6ffa1284" kind="variable"><name>objLabel_</name></member>
+      <member refid="group__GeneralGroup_1ga17e5b2389e624f10a6e94ce3f2eac9b7" kind="variable"><name>faceIndicesSize_</name></member>
+      <member refid="group__GeneralGroup_1ga0bdda487c2197b9d275c037e0da0b8c6" kind="variable"><name>labelArrayObjId_</name></member>
+      <member refid="group__GeneralGroup_1ga40ce2b4f12b8058162d83a614e452e17" kind="variable"><name>vertPosBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga14743ca3b33982d43c999b650effa896" kind="variable"><name>facesIndicesBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga37e11d414455529dff71adef5e79e33a" kind="variable"><name>srcArrayObjId_</name></member>
+      <member refid="group__GeneralGroup_1gae233999752885c1e6064f242f920264b" kind="variable"><name>srcVertPosBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga999ede68bfbb53b3d8d33a3187999aeb" kind="variable"><name>srcIndicesBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga8d320b371b432821c9922b705e59b41a" kind="variable"><name>srcIndicesSelectionTex_</name></member>
+      <member refid="group__GeneralGroup_1ga8bf264bd49bec36c4791914ce5486a89" kind="variable"><name>bgArrayObjId_</name></member>
+      <member refid="group__GeneralGroup_1ga6d18a7b07b367ab0183b8529b4fee68f" kind="variable"><name>bgVertPosBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga46601e7260bf8be84f69b98681df7020" kind="variable"><name>bgFacesIndicesBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga5ef7218aace2d6e1ec8f6cd5017c815e" kind="variable"><name>llineArrayObjId_</name></member>
+      <member refid="group__GeneralGroup_1gad4281c4c56572220a99a7cadb4de1820" kind="variable"><name>llineVertPosBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga0917ed1b4857d8e5d9eff5dca09661a4" kind="variable"><name>llineEdgesIndicesBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga71c5d385fd4d332db218456992d7423b" kind="variable"><name>dirty_</name></member>
+      <member refid="group__GeneralGroup_1gac9bbad2eaf64de9c559e884c97eaf756" kind="variable"><name>dirtySrc_</name></member>
+      <member refid="group__GeneralGroup_1gaaed660dbeab2020c33bf1c527f5d2dbb" kind="variable"><name>dirtyBg_</name></member>
+      <member refid="group__GeneralGroup_1gaa2dda100329bca05d495f6aba8c3f920" kind="variable"><name>dirtyLLine_</name></member>
+      <member refid="group__GeneralGroup_1ga1ddb97b001e6fdf706dca435eed5cdea" kind="variable"><name>positionState_</name></member>
+      <member refid="group__GeneralGroup_1ga723786028af904ad54d60566e40ed00f" kind="variable"><name>pivotPointState_</name></member>
+      <member refid="group__GeneralGroup_1gac18e8cb60f8fae22cb8c87366dc9051b" kind="variable"><name>backgroundPaddingState_</name></member>
+      <member refid="group__GeneralGroup_1ga951cbfbe6edf204dd584532150209c18" kind="variable"><name>meshBox_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1RenderLabelObject_1aa76564d2e214675e31f418d5b062416b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::RenderLabelObject::RenderLabelObject</definition>
-        <argsstring>(const VisualObject &amp;visObj)</argsstring>
-        <name>RenderLabelObject</name>
-        <qualifiedname>MR::RenderLabelObject::RenderLabelObject</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> &amp;</type>
-          <declname>visObj</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" line="13" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RenderLabelObject_1a3b10286cdce57b0d311f6922b18105d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::RenderLabelObject::~RenderLabelObject</definition>
-        <argsstring>()</argsstring>
-        <name>~RenderLabelObject</name>
-        <qualifiedname>MR::RenderLabelObject::~RenderLabelObject</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" line="14" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RenderLabelObject_1af0dc873eb933a19cda016279a133a693" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::RenderLabelObject::render</definition>
-        <argsstring>(const ModelRenderParams &amp;params) override</argsstring>
-        <name>render</name>
-        <qualifiedname>MR::RenderLabelObject::render</qualifiedname>
-        <reimplements refid="classMR_1_1IRenderObject_1a02b8e566ef48df489cddb77a759ec3c4">render</reimplements>
-        <param>
-          <type>const <ref refid="structMR_1_1ModelRenderParams" kindref="compound">ModelRenderParams</ref> &amp;</type>
-          <declname>params</declname>
-        </param>
-        <briefdescription>
-<para>Returns true if something was rendered, or false if nothing to render. </para>
-        </briefdescription>
-        <detaileddescription>
-<para>These functions do: 1) bind data 2) pass shaders arguments 3) draw data</para>
-<para>Those dummy definitions remove undefined references in <computeroutput><ref refid="classMR_1_1RenderObjectCombinator" kindref="compound">RenderObjectCombinator</ref></computeroutput> when it calls non-overridden pure virtual methods. We could check in <computeroutput><ref refid="classMR_1_1RenderObjectCombinator" kindref="compound">RenderObjectCombinator</ref></computeroutput> if they&apos;re overridden or not, but it&apos;s easier to just define them. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" line="16" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RenderLabelObject_1abf815848468cddcca8a409e99aa33102" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MR::RenderLabelObject::renderPicker</definition>
-        <argsstring>(const ModelBaseRenderParams &amp;params, unsigned geomId) override</argsstring>
-        <name>renderPicker</name>
-        <qualifiedname>MR::RenderLabelObject::renderPicker</qualifiedname>
-        <reimplements refid="classMR_1_1IRenderObject_1aa40c8d73952eceb8d676864c3cd30738">renderPicker</reimplements>
-        <param>
-          <type>const <ref refid="structMR_1_1ModelBaseRenderParams" kindref="compound">ModelBaseRenderParams</ref> &amp;</type>
-          <declname>params</declname>
-        </param>
-        <param>
-          <type>unsigned</type>
-          <declname>geomId</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" line="17" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RenderLabelObject_1abc3ff595096e62f558025d61d5f30506" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type>size_t</type>
-        <definition>virtual size_t MR::RenderLabelObject::heapBytes</definition>
-        <argsstring>() const override</argsstring>
-        <name>heapBytes</name>
-        <qualifiedname>MR::RenderLabelObject::heapBytes</qualifiedname>
-        <reimplements refid="classMR_1_1IRenderObject_1a79569d09a46b696bc119c62ac7faaad8">heapBytes</reimplements>
-        <briefdescription>
-<para>returns the amount of memory this object occupies on heap </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" line="19" column="20"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RenderLabelObject_1a83bff8c78051dfccfd12631663bea7d9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type>size_t</type>
-        <definition>virtual size_t MR::RenderLabelObject::glBytes</definition>
-        <argsstring>() const override</argsstring>
-        <name>glBytes</name>
-        <qualifiedname>MR::RenderLabelObject::glBytes</qualifiedname>
-        <reimplements refid="classMR_1_1IRenderObject_1adefa4d9a963e416cc21d7116749cdffe">glBytes</reimplements>
-        <briefdescription>
-<para>returns the amount of memory this object allocated in OpenGL </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" line="20" column="20"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RenderLabelObject_1a047c9120d6951049a5d669c2b8a10e43" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MR::RenderLabelObject::forceBindAll</definition>
-        <argsstring>() override</argsstring>
-        <name>forceBindAll</name>
-        <qualifiedname>MR::RenderLabelObject::forceBindAll</qualifiedname>
-        <reimplements refid="classMR_1_1IRenderObject_1a6cc3204a31145ab371e129da393b7215">forceBindAll</reimplements>
-        <briefdescription>
-<para>binds all data for this render object, not to bind ever again (until object becomes dirty) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" line="22" column="18"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaa76564d2e214675e31f418d5b062416b" kind="function"><name>RenderLabelObject</name></member>
+      <member refid="group__GeneralGroup_1ga3b10286cdce57b0d311f6922b18105d6" kind="function"><name>~RenderLabelObject</name></member>
+      <member refid="group__GeneralGroup_1gaf0dc873eb933a19cda016279a133a693" kind="function"><name>render</name></member>
+      <member refid="group__GeneralGroup_1gabf815848468cddcca8a409e99aa33102" kind="function"><name>renderPicker</name></member>
+      <member refid="group__GeneralGroup_1gabc3ff595096e62f558025d61d5f30506" kind="function"><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1ga83bff8c78051dfccfd12631663bea7d9" kind="function"><name>glBytes</name></member>
+      <member refid="group__GeneralGroup_1ga047c9120d6951049a5d669c2b8a10e43" kind="function"><name>forceBindAll</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMR_1_1RenderLabelObject_1ad64b5a19b21a65a9f31e2bc4839ade12" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMR_1_1RenderBufferRef" kindref="compound">RenderBufferRef</ref>&lt; Vector3i &gt;</type>
-        <definition>RenderBufferRef&lt; Vector3i &gt; MR::RenderLabelObject::loadFaceIndicesBuffer_</definition>
-        <argsstring>()</argsstring>
-        <name>loadFaceIndicesBuffer_</name>
-        <qualifiedname>MR::RenderLabelObject::loadFaceIndicesBuffer_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" line="29" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RenderLabelObject_1ad8a4afbbbe7784f7a5165766a31e0b18" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::RenderLabelObject::renderSourcePoint_</definition>
-        <argsstring>(const ModelRenderParams &amp;renderParams)</argsstring>
-        <name>renderSourcePoint_</name>
-        <qualifiedname>MR::RenderLabelObject::renderSourcePoint_</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1ModelRenderParams" kindref="compound">ModelRenderParams</ref> &amp;</type>
-          <declname>renderParams</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" line="50" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RenderLabelObject_1a5753b3e9d36bb252bc3b7f63f5659a50" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::RenderLabelObject::renderBackground_</definition>
-        <argsstring>(const ModelRenderParams &amp;renderParams)</argsstring>
-        <name>renderBackground_</name>
-        <qualifiedname>MR::RenderLabelObject::renderBackground_</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1ModelRenderParams" kindref="compound">ModelRenderParams</ref> &amp;</type>
-          <declname>renderParams</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" line="51" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RenderLabelObject_1a6c9159c130f078a3c661a07d9c502791" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::RenderLabelObject::renderLeaderLine_</definition>
-        <argsstring>(const ModelRenderParams &amp;renderParams)</argsstring>
-        <name>renderLeaderLine_</name>
-        <qualifiedname>MR::RenderLabelObject::renderLeaderLine_</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1ModelRenderParams" kindref="compound">ModelRenderParams</ref> &amp;</type>
-          <declname>renderParams</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" line="52" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RenderLabelObject_1a50b67902c9057c13cb4e9bf985662a20" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::RenderLabelObject::bindLabel_</definition>
-        <argsstring>()</argsstring>
-        <name>bindLabel_</name>
-        <qualifiedname>MR::RenderLabelObject::bindLabel_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" line="54" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RenderLabelObject_1a92208579178766689ffb7845e9830044" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::RenderLabelObject::initBuffers_</definition>
-        <argsstring>()</argsstring>
-        <name>initBuffers_</name>
-        <qualifiedname>MR::RenderLabelObject::initBuffers_</qualifiedname>
-        <briefdescription>
-<para>Create a new set of OpenGL buffer objects. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" line="57" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RenderLabelObject_1aa5853c1cb554783f9e488d4e656dea56" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::RenderLabelObject::freeBuffers_</definition>
-        <argsstring>()</argsstring>
-        <name>freeBuffers_</name>
-        <qualifiedname>MR::RenderLabelObject::freeBuffers_</qualifiedname>
-        <briefdescription>
-<para>Release the OpenGL buffer objects. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" line="60" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1RenderLabelObject_1a1477184d061a2aac5b9f72f97008437c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::RenderLabelObject::update_</definition>
-        <argsstring>()</argsstring>
-        <name>update_</name>
-        <qualifiedname>MR::RenderLabelObject::update_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" line="62" column="10"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gad64b5a19b21a65a9f31e2bc4839ade12" kind="function"><name>loadFaceIndicesBuffer_</name></member>
+      <member refid="group__GeneralGroup_1gad8a4afbbbe7784f7a5165766a31e0b18" kind="function"><name>renderSourcePoint_</name></member>
+      <member refid="group__GeneralGroup_1ga5753b3e9d36bb252bc3b7f63f5659a50" kind="function"><name>renderBackground_</name></member>
+      <member refid="group__GeneralGroup_1ga6c9159c130f078a3c661a07d9c502791" kind="function"><name>renderLeaderLine_</name></member>
+      <member refid="group__GeneralGroup_1ga50b67902c9057c13cb4e9bf985662a20" kind="function"><name>bindLabel_</name></member>
+      <member refid="group__GeneralGroup_1ga92208579178766689ffb7845e9830044" kind="function"><name>initBuffers_</name></member>
+      <member refid="group__GeneralGroup_1gaa5853c1cb554783f9e488d4e656dea56" kind="function"><name>freeBuffers_</name></member>
+      <member refid="group__GeneralGroup_1ga1477184d061a2aac5b9f72f97008437c" kind="function"><name>update_</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -633,49 +79,49 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" line="10" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" bodystart="11" bodyend="73"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" bodystart="14" bodyend="76"/>
     <listofallmembers>
-      <member refid="classMR_1_1RenderLabelObject_1ac18e8cb60f8fae22cb8c87366dc9051b" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>backgroundPaddingState_</name></member>
-      <member refid="classMR_1_1RenderLabelObject_1a8bf264bd49bec36c4791914ce5486a89" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>bgArrayObjId_</name></member>
-      <member refid="classMR_1_1RenderLabelObject_1a46601e7260bf8be84f69b98681df7020" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>bgFacesIndicesBuffer_</name></member>
-      <member refid="classMR_1_1RenderLabelObject_1a6d18a7b07b367ab0183b8529b4fee68f" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>bgVertPosBuffer_</name></member>
-      <member refid="classMR_1_1RenderLabelObject_1a50b67902c9057c13cb4e9bf985662a20" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>bindLabel_</name></member>
-      <member refid="classMR_1_1RenderLabelObject_1a71c5d385fd4d332db218456992d7423b" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>dirty_</name></member>
-      <member refid="classMR_1_1RenderLabelObject_1aaed660dbeab2020c33bf1c527f5d2dbb" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>dirtyBg_</name></member>
-      <member refid="classMR_1_1RenderLabelObject_1aa2dda100329bca05d495f6aba8c3f920" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>dirtyLLine_</name></member>
-      <member refid="classMR_1_1RenderLabelObject_1ac9bbad2eaf64de9c559e884c97eaf756" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>dirtySrc_</name></member>
-      <member refid="classMR_1_1RenderLabelObject_1a17e5b2389e624f10a6e94ce3f2eac9b7" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>faceIndicesSize_</name></member>
-      <member refid="classMR_1_1RenderLabelObject_1a14743ca3b33982d43c999b650effa896" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>facesIndicesBuffer_</name></member>
-      <member refid="classMR_1_1RenderLabelObject_1a047c9120d6951049a5d669c2b8a10e43" prot="public" virt="virtual"><scope>MR::RenderLabelObject</scope><name>forceBindAll</name></member>
-      <member refid="classMR_1_1RenderLabelObject_1aa5853c1cb554783f9e488d4e656dea56" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>freeBuffers_</name></member>
-      <member refid="classMR_1_1RenderLabelObject_1a83bff8c78051dfccfd12631663bea7d9" prot="public" virt="virtual"><scope>MR::RenderLabelObject</scope><name>glBytes</name></member>
-      <member refid="classMR_1_1RenderLabelObject_1a21cdcd557c2e9af90d6972f8a1b5f783" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>GLuint</name></member>
-      <member refid="classMR_1_1RenderLabelObject_1abc3ff595096e62f558025d61d5f30506" prot="public" virt="virtual"><scope>MR::RenderLabelObject</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1RenderLabelObject_1a92208579178766689ffb7845e9830044" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>initBuffers_</name></member>
-      <member refid="classMR_1_1RenderLabelObject_1a0bdda487c2197b9d275c037e0da0b8c6" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>labelArrayObjId_</name></member>
-      <member refid="classMR_1_1RenderLabelObject_1a5ef7218aace2d6e1ec8f6cd5017c815e" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>llineArrayObjId_</name></member>
-      <member refid="classMR_1_1RenderLabelObject_1a0917ed1b4857d8e5d9eff5dca09661a4" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>llineEdgesIndicesBuffer_</name></member>
-      <member refid="classMR_1_1RenderLabelObject_1ad4281c4c56572220a99a7cadb4de1820" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>llineVertPosBuffer_</name></member>
-      <member refid="classMR_1_1RenderLabelObject_1ad64b5a19b21a65a9f31e2bc4839ade12" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>loadFaceIndicesBuffer_</name></member>
-      <member refid="classMR_1_1RenderLabelObject_1a951cbfbe6edf204dd584532150209c18" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>meshBox_</name></member>
-      <member refid="classMR_1_1RenderLabelObject_1af367c8c57e3225549e7fdeee6ffa1284" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>objLabel_</name></member>
-      <member refid="classMR_1_1RenderLabelObject_1a723786028af904ad54d60566e40ed00f" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>pivotPointState_</name></member>
-      <member refid="classMR_1_1RenderLabelObject_1a1ddb97b001e6fdf706dca435eed5cdea" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>positionState_</name></member>
-      <member refid="classMR_1_1RenderLabelObject_1af0dc873eb933a19cda016279a133a693" prot="public" virt="virtual"><scope>MR::RenderLabelObject</scope><name>render</name></member>
-      <member refid="classMR_1_1RenderLabelObject_1a5753b3e9d36bb252bc3b7f63f5659a50" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>renderBackground_</name></member>
-      <member refid="classMR_1_1RenderLabelObject_1aa76564d2e214675e31f418d5b062416b" prot="public" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>RenderLabelObject</name></member>
-      <member refid="classMR_1_1RenderLabelObject_1a6c9159c130f078a3c661a07d9c502791" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>renderLeaderLine_</name></member>
-      <member refid="classMR_1_1RenderLabelObject_1abf815848468cddcca8a409e99aa33102" prot="public" virt="virtual"><scope>MR::RenderLabelObject</scope><name>renderPicker</name></member>
-      <member refid="classMR_1_1RenderLabelObject_1ad8a4afbbbe7784f7a5165766a31e0b18" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>renderSourcePoint_</name></member>
-      <member refid="classMR_1_1IRenderObject_1a82fb37eb78d6e11f1b41f3fc2a99c5eb" prot="public" virt="virtual"><scope>MR::RenderLabelObject</scope><name>renderUi</name></member>
-      <member refid="classMR_1_1RenderLabelObject_1a37e11d414455529dff71adef5e79e33a" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>srcArrayObjId_</name></member>
-      <member refid="classMR_1_1RenderLabelObject_1a999ede68bfbb53b3d8d33a3187999aeb" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>srcIndicesBuffer_</name></member>
-      <member refid="classMR_1_1RenderLabelObject_1a8d320b371b432821c9922b705e59b41a" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>srcIndicesSelectionTex_</name></member>
-      <member refid="classMR_1_1RenderLabelObject_1ae233999752885c1e6064f242f920264b" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>srcVertPosBuffer_</name></member>
-      <member refid="classMR_1_1RenderLabelObject_1a1477184d061a2aac5b9f72f97008437c" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>update_</name></member>
-      <member refid="classMR_1_1RenderLabelObject_1a40ce2b4f12b8058162d83a614e452e17" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>vertPosBuffer_</name></member>
-      <member refid="classMR_1_1IRenderObject_1acb87b662f59e2d557580f2ad1f38fa7a" prot="public" virt="virtual"><scope>MR::RenderLabelObject</scope><name>~IRenderObject</name></member>
-      <member refid="classMR_1_1RenderLabelObject_1a3b10286cdce57b0d311f6922b18105d6" prot="public" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>~RenderLabelObject</name></member>
+      <member refid="group__GeneralGroup_1gac18e8cb60f8fae22cb8c87366dc9051b" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>backgroundPaddingState_</name></member>
+      <member refid="group__GeneralGroup_1ga8bf264bd49bec36c4791914ce5486a89" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>bgArrayObjId_</name></member>
+      <member refid="group__GeneralGroup_1ga46601e7260bf8be84f69b98681df7020" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>bgFacesIndicesBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga6d18a7b07b367ab0183b8529b4fee68f" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>bgVertPosBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga50b67902c9057c13cb4e9bf985662a20" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>bindLabel_</name></member>
+      <member refid="group__GeneralGroup_1ga71c5d385fd4d332db218456992d7423b" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>dirty_</name></member>
+      <member refid="group__GeneralGroup_1gaaed660dbeab2020c33bf1c527f5d2dbb" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>dirtyBg_</name></member>
+      <member refid="group__GeneralGroup_1gaa2dda100329bca05d495f6aba8c3f920" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>dirtyLLine_</name></member>
+      <member refid="group__GeneralGroup_1gac9bbad2eaf64de9c559e884c97eaf756" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>dirtySrc_</name></member>
+      <member refid="group__GeneralGroup_1ga17e5b2389e624f10a6e94ce3f2eac9b7" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>faceIndicesSize_</name></member>
+      <member refid="group__GeneralGroup_1ga14743ca3b33982d43c999b650effa896" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>facesIndicesBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga047c9120d6951049a5d669c2b8a10e43" prot="public" virt="virtual"><scope>MR::RenderLabelObject</scope><name>forceBindAll</name></member>
+      <member refid="group__GeneralGroup_1gaa5853c1cb554783f9e488d4e656dea56" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>freeBuffers_</name></member>
+      <member refid="group__GeneralGroup_1ga83bff8c78051dfccfd12631663bea7d9" prot="public" virt="virtual"><scope>MR::RenderLabelObject</scope><name>glBytes</name></member>
+      <member refid="group__GeneralGroup_1ga21cdcd557c2e9af90d6972f8a1b5f783" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>GLuint</name></member>
+      <member refid="group__GeneralGroup_1gabc3ff595096e62f558025d61d5f30506" prot="public" virt="virtual"><scope>MR::RenderLabelObject</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1ga92208579178766689ffb7845e9830044" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>initBuffers_</name></member>
+      <member refid="group__GeneralGroup_1ga0bdda487c2197b9d275c037e0da0b8c6" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>labelArrayObjId_</name></member>
+      <member refid="group__GeneralGroup_1ga5ef7218aace2d6e1ec8f6cd5017c815e" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>llineArrayObjId_</name></member>
+      <member refid="group__GeneralGroup_1ga0917ed1b4857d8e5d9eff5dca09661a4" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>llineEdgesIndicesBuffer_</name></member>
+      <member refid="group__GeneralGroup_1gad4281c4c56572220a99a7cadb4de1820" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>llineVertPosBuffer_</name></member>
+      <member refid="group__GeneralGroup_1gad64b5a19b21a65a9f31e2bc4839ade12" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>loadFaceIndicesBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga951cbfbe6edf204dd584532150209c18" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>meshBox_</name></member>
+      <member refid="group__GeneralGroup_1gaf367c8c57e3225549e7fdeee6ffa1284" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>objLabel_</name></member>
+      <member refid="group__GeneralGroup_1ga723786028af904ad54d60566e40ed00f" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>pivotPointState_</name></member>
+      <member refid="group__GeneralGroup_1ga1ddb97b001e6fdf706dca435eed5cdea" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>positionState_</name></member>
+      <member refid="group__GeneralGroup_1gaf0dc873eb933a19cda016279a133a693" prot="public" virt="virtual"><scope>MR::RenderLabelObject</scope><name>render</name></member>
+      <member refid="group__GeneralGroup_1ga5753b3e9d36bb252bc3b7f63f5659a50" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>renderBackground_</name></member>
+      <member refid="group__GeneralGroup_1gaa76564d2e214675e31f418d5b062416b" prot="public" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>RenderLabelObject</name></member>
+      <member refid="group__GeneralGroup_1ga6c9159c130f078a3c661a07d9c502791" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>renderLeaderLine_</name></member>
+      <member refid="group__GeneralGroup_1gabf815848468cddcca8a409e99aa33102" prot="public" virt="virtual"><scope>MR::RenderLabelObject</scope><name>renderPicker</name></member>
+      <member refid="group__GeneralGroup_1gad8a4afbbbe7784f7a5165766a31e0b18" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>renderSourcePoint_</name></member>
+      <member refid="group__GeneralGroup_1ga82fb37eb78d6e11f1b41f3fc2a99c5eb" prot="public" virt="virtual"><scope>MR::RenderLabelObject</scope><name>renderUi</name></member>
+      <member refid="group__GeneralGroup_1ga37e11d414455529dff71adef5e79e33a" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>srcArrayObjId_</name></member>
+      <member refid="group__GeneralGroup_1ga999ede68bfbb53b3d8d33a3187999aeb" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>srcIndicesBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga8d320b371b432821c9922b705e59b41a" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>srcIndicesSelectionTex_</name></member>
+      <member refid="group__GeneralGroup_1gae233999752885c1e6064f242f920264b" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>srcVertPosBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga1477184d061a2aac5b9f72f97008437c" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>update_</name></member>
+      <member refid="group__GeneralGroup_1ga40ce2b4f12b8058162d83a614e452e17" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>vertPosBuffer_</name></member>
+      <member refid="group__GeneralGroup_1gacb87b662f59e2d557580f2ad1f38fa7a" prot="public" virt="virtual"><scope>MR::RenderLabelObject</scope><name>~IRenderObject</name></member>
+      <member refid="group__GeneralGroup_1ga3b10286cdce57b0d311f6922b18105d6" prot="public" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>~RenderLabelObject</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -4,185 +4,18 @@
     <compoundname>MR::MarchingCubesParams</compoundname>
     <includes refid="MRMarchingCubes_8h" local="no">MRMarchingCubes.h</includes>
     <sectiondef kind="public-type">
-      <memberdef kind="enum" id="structMR_1_1MarchingCubesParams_1ad2534810fa0b1d6ede8c56229226770d" prot="public" static="no" strong="yes">
-        <type></type>
-        <name>CachingMode</name>
-        <qualifiedname>MR::MarchingCubesParams::CachingMode</qualifiedname>
-        <enumvalue id="structMR_1_1MarchingCubesParams_1ad2534810fa0b1d6ede8c56229226770da086247a9b57fde6eefee2a0c4752242d" prot="public">
-          <name>Automatic</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-<para>choose caching mode automatically depending on volume type (current defaults: Normal for FunctionVolume and VdbVolume, None for others) </para>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="structMR_1_1MarchingCubesParams_1ad2534810fa0b1d6ede8c56229226770da6adf97f83acf6453d4a6a4b1070f3754" prot="public">
-          <name>None</name>
-          <briefdescription>
-<para>don&apos;t cache any data </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="structMR_1_1MarchingCubesParams_1ad2534810fa0b1d6ede8c56229226770da960b44c579bc2f6818d2daaf9e4c16f0" prot="public">
-          <name>Normal</name>
-          <briefdescription>
-<para>allocates 2 full slices per parallel thread </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>caching mode to reduce the number of accesses to voxel volume data on the first pass of the algorithm by consuming more memory on cache; note: the cache for the second pass of the algorithm (bit sets of invalid and lower-than-iso voxels are always allocated) </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMarchingCubes.h" line="45" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMarchingCubes.h" bodystart="46" bodyend="54"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gad2534810fa0b1d6ede8c56229226770d" kind="enum"><name>CachingMode</name></member>
     </sectiondef>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1MarchingCubesParams_1a0c0cb7da0bce61553dc890c0ae4e44fd" prot="public" static="no" mutable="no">
-        <type>Vector3f</type>
-        <definition>Vector3f MR::MarchingCubesParams::origin</definition>
-        <argsstring></argsstring>
-        <name>origin</name>
-        <qualifiedname>MR::MarchingCubesParams::origin</qualifiedname>
-        <briefdescription>
-<para>origin point of voxels box in 3D space with output mesh </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMarchingCubes.h" line="21" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMarchingCubes.h" bodystart="21" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MarchingCubesParams_1adaced6444a2abeec7b4469778f8ace75" prot="public" static="no" mutable="no">
-        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
-        <definition>ProgressCallback MR::MarchingCubesParams::cb</definition>
-        <argsstring></argsstring>
-        <name>cb</name>
-        <qualifiedname>MR::MarchingCubesParams::cb</qualifiedname>
-        <briefdescription>
-<para>progress callback </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMarchingCubes.h" line="24" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMarchingCubes.h" bodystart="24" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MarchingCubesParams_1af22e28b54f1377a8a75efda6cf460c62" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::MarchingCubesParams::iso</definition>
-        <argsstring></argsstring>
-        <name>iso</name>
-        <qualifiedname>MR::MarchingCubesParams::iso</qualifiedname>
-        <initializer>{ 0.0f }</initializer>
-        <briefdescription>
-<para>target iso-value of the surface to be extracted from volume </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMarchingCubes.h" line="27" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMarchingCubes.h" bodystart="27" bodyend="27"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MarchingCubesParams_1ae07876a5272040c1fd50016127294f07" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::MarchingCubesParams::lessInside</definition>
-        <argsstring></argsstring>
-        <name>lessInside</name>
-        <qualifiedname>MR::MarchingCubesParams::lessInside</qualifiedname>
-        <initializer>{ false }</initializer>
-        <briefdescription>
-<para>should be false for dense volumes, and true for distance volume </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMarchingCubes.h" line="30" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMarchingCubes.h" bodystart="30" bodyend="30"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MarchingCubesParams_1af89d2fd3445045a9e4e4387b69f8d786" prot="public" static="no" mutable="no">
-        <type><ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; VoxelId, FaceId &gt; *</type>
-        <definition>Vector&lt;VoxelId, FaceId&gt;* MR::MarchingCubesParams::outVoxelPerFaceMap</definition>
-        <argsstring></argsstring>
-        <name>outVoxelPerFaceMap</name>
-        <qualifiedname>MR::MarchingCubesParams::outVoxelPerFaceMap</qualifiedname>
-        <initializer>{ nullptr }</initializer>
-        <briefdescription>
-<para>optional output map FaceId-&gt;VoxelId </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMarchingCubes.h" line="33" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMarchingCubes.h" bodystart="33" bodyend="33"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MarchingCubesParams_1ad2aa80147c810b8b84221bd763c2d1bc" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1af79e59969dc38af8f99d87b8d80385f2" kindref="member">VoxelPointPositioner</ref></type>
-        <definition>VoxelPointPositioner MR::MarchingCubesParams::positioner</definition>
-        <argsstring></argsstring>
-        <name>positioner</name>
-        <qualifiedname>MR::MarchingCubesParams::positioner</qualifiedname>
-        <initializer>= {}</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>function to calculate position of result mesh points if the function isn&apos;t set, a linear positioner will be used note: this function is called in parallel from different threads </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMarchingCubes.h" line="38" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMarchingCubes.h" bodystart="38" bodyend="38"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MarchingCubesParams_1a5475f37dd7043df6b20d4e93fd65792a" prot="public" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::MarchingCubesParams::maxVertices</definition>
-        <argsstring></argsstring>
-        <name>maxVertices</name>
-        <qualifiedname>MR::MarchingCubesParams::maxVertices</qualifiedname>
-        <initializer>= INT_MAX</initializer>
-        <briefdescription>
-<para>if the mesh exceeds this number of vertices, an error returns </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMarchingCubes.h" line="41" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMarchingCubes.h" bodystart="41" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MarchingCubesParams_1ac8f6405c0c8d2ba48016836b657b6469" prot="public" static="no" mutable="no">
-        <type>enum <ref refid="structMR_1_1MarchingCubesParams_1ad2534810fa0b1d6ede8c56229226770d" kindref="member">MR::MarchingCubesParams::CachingMode</ref></type>
-        <definition>enum MR::MarchingCubesParams::CachingMode MR::MarchingCubesParams::cachingMode</definition>
-        <argsstring></argsstring>
-        <name>cachingMode</name>
-        <qualifiedname>MR::MarchingCubesParams::cachingMode</qualifiedname>
-        <initializer>= <ref refid="structMR_1_1MarchingCubesParams_1ad2534810fa0b1d6ede8c56229226770da086247a9b57fde6eefee2a0c4752242d" kindref="member">CachingMode::Automatic</ref></initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMarchingCubes.h" line="54" column="18"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MarchingCubesParams_1a0013d7ada21c45455c0bcddddde6e242" prot="public" static="no" mutable="no">
-        <type>std::function&lt; void()&gt;</type>
-        <definition>std::function&lt;void()&gt; MR::MarchingCubesParams::freeVolume</definition>
-        <argsstring></argsstring>
-        <name>freeVolume</name>
-        <qualifiedname>MR::MarchingCubesParams::freeVolume</qualifiedname>
-        <briefdescription>
-<para>this optional function is called when volume is no longer needed to deallocate it and reduce peak memory consumption </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMarchingCubes.h" line="57" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMarchingCubes.h" bodystart="57" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga0c0cb7da0bce61553dc890c0ae4e44fd" kind="variable"><name>origin</name></member>
+      <member refid="group__GeneralGroup_1gadaced6444a2abeec7b4469778f8ace75" kind="variable"><name>cb</name></member>
+      <member refid="group__GeneralGroup_1gaf22e28b54f1377a8a75efda6cf460c62" kind="variable"><name>iso</name></member>
+      <member refid="group__GeneralGroup_1gae07876a5272040c1fd50016127294f07" kind="variable"><name>lessInside</name></member>
+      <member refid="group__GeneralGroup_1gaf89d2fd3445045a9e4e4387b69f8d786" kind="variable"><name>outVoxelPerFaceMap</name></member>
+      <member refid="group__GeneralGroup_1gad2aa80147c810b8b84221bd763c2d1bc" kind="variable"><name>positioner</name></member>
+      <member refid="group__GeneralGroup_1ga5475f37dd7043df6b20d4e93fd65792a" kind="variable"><name>maxVertices</name></member>
+      <member refid="group__GeneralGroup_1gac8f6405c0c8d2ba48016836b657b6469" kind="variable"><name>cachingMode</name></member>
+      <member refid="group__GeneralGroup_1ga0013d7ada21c45455c0bcddddde6e242" kind="variable"><name>freeVolume</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -201,18 +34,18 @@
         <link refid="classMR_1_1Vector"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMarchingCubes.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMarchingCubes.h" bodystart="19" bodyend="61"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMarchingCubes.h" line="21" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMarchingCubes.h" bodystart="22" bodyend="64"/>
     <listofallmembers>
-      <member refid="structMR_1_1MarchingCubesParams_1ad2534810fa0b1d6ede8c56229226770d" prot="public" virt="non-virtual"><scope>MR::MarchingCubesParams</scope><name>CachingMode</name></member>
-      <member refid="structMR_1_1MarchingCubesParams_1ac8f6405c0c8d2ba48016836b657b6469" prot="public" virt="non-virtual"><scope>MR::MarchingCubesParams</scope><name>cachingMode</name></member>
-      <member refid="structMR_1_1MarchingCubesParams_1adaced6444a2abeec7b4469778f8ace75" prot="public" virt="non-virtual"><scope>MR::MarchingCubesParams</scope><name>cb</name></member>
-      <member refid="structMR_1_1MarchingCubesParams_1a0013d7ada21c45455c0bcddddde6e242" prot="public" virt="non-virtual"><scope>MR::MarchingCubesParams</scope><name>freeVolume</name></member>
-      <member refid="structMR_1_1MarchingCubesParams_1af22e28b54f1377a8a75efda6cf460c62" prot="public" virt="non-virtual"><scope>MR::MarchingCubesParams</scope><name>iso</name></member>
-      <member refid="structMR_1_1MarchingCubesParams_1ae07876a5272040c1fd50016127294f07" prot="public" virt="non-virtual"><scope>MR::MarchingCubesParams</scope><name>lessInside</name></member>
-      <member refid="structMR_1_1MarchingCubesParams_1a5475f37dd7043df6b20d4e93fd65792a" prot="public" virt="non-virtual"><scope>MR::MarchingCubesParams</scope><name>maxVertices</name></member>
-      <member refid="structMR_1_1MarchingCubesParams_1a0c0cb7da0bce61553dc890c0ae4e44fd" prot="public" virt="non-virtual"><scope>MR::MarchingCubesParams</scope><name>origin</name></member>
-      <member refid="structMR_1_1MarchingCubesParams_1af89d2fd3445045a9e4e4387b69f8d786" prot="public" virt="non-virtual"><scope>MR::MarchingCubesParams</scope><name>outVoxelPerFaceMap</name></member>
-      <member refid="structMR_1_1MarchingCubesParams_1ad2aa80147c810b8b84221bd763c2d1bc" prot="public" virt="non-virtual"><scope>MR::MarchingCubesParams</scope><name>positioner</name></member>
+      <member refid="group__GeneralGroup_1gad2534810fa0b1d6ede8c56229226770d" prot="public" virt="non-virtual"><scope>MR::MarchingCubesParams</scope><name>CachingMode</name></member>
+      <member refid="group__GeneralGroup_1gac8f6405c0c8d2ba48016836b657b6469" prot="public" virt="non-virtual"><scope>MR::MarchingCubesParams</scope><name>cachingMode</name></member>
+      <member refid="group__GeneralGroup_1gadaced6444a2abeec7b4469778f8ace75" prot="public" virt="non-virtual"><scope>MR::MarchingCubesParams</scope><name>cb</name></member>
+      <member refid="group__GeneralGroup_1ga0013d7ada21c45455c0bcddddde6e242" prot="public" virt="non-virtual"><scope>MR::MarchingCubesParams</scope><name>freeVolume</name></member>
+      <member refid="group__GeneralGroup_1gaf22e28b54f1377a8a75efda6cf460c62" prot="public" virt="non-virtual"><scope>MR::MarchingCubesParams</scope><name>iso</name></member>
+      <member refid="group__GeneralGroup_1gae07876a5272040c1fd50016127294f07" prot="public" virt="non-virtual"><scope>MR::MarchingCubesParams</scope><name>lessInside</name></member>
+      <member refid="group__GeneralGroup_1ga5475f37dd7043df6b20d4e93fd65792a" prot="public" virt="non-virtual"><scope>MR::MarchingCubesParams</scope><name>maxVertices</name></member>
+      <member refid="group__GeneralGroup_1ga0c0cb7da0bce61553dc890c0ae4e44fd" prot="public" virt="non-virtual"><scope>MR::MarchingCubesParams</scope><name>origin</name></member>
+      <member refid="group__GeneralGroup_1gaf89d2fd3445045a9e4e4387b69f8d786" prot="public" virt="non-virtual"><scope>MR::MarchingCubesParams</scope><name>outVoxelPerFaceMap</name></member>
+      <member refid="group__GeneralGroup_1gad2aa80147c810b8b84221bd763c2d1bc" prot="public" virt="non-virtual"><scope>MR::MarchingCubesParams</scope><name>positioner</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

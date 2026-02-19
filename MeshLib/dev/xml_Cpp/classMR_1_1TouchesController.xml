@@ -7,284 +7,25 @@
     <innerclass refid="structMR_1_1TouchesController_1_1Info" prot="private">MR::TouchesController::Info</innerclass>
     <innerclass refid="classMR_1_1TouchesController_1_1MultiInfo" prot="private">MR::TouchesController::MultiInfo</innerclass>
     <sectiondef kind="public-type">
-      <memberdef kind="enum" id="classMR_1_1TouchesController_1afa01f29213896e910998623cb3c2f884" prot="public" static="no" strong="yes">
-        <type>unsigned char</type>
-        <name>ModeBit</name>
-        <qualifiedname>MR::TouchesController::ModeBit</qualifiedname>
-        <enumvalue id="classMR_1_1TouchesController_1afa01f29213896e910998623cb3c2f884adeccbe4e9083c3b5f7cd2632722765bb" prot="public">
-          <name>Translate</name>
-          <initializer>= 0b001</initializer>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1TouchesController_1afa01f29213896e910998623cb3c2f884a8d2de5368588552fbae54044ac5c7b3d" prot="public">
-          <name>Rotate</name>
-          <initializer>= 0b010</initializer>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1TouchesController_1afa01f29213896e910998623cb3c2f884a4252b72e6ebcd4d4b4c2e46a786f03d2" prot="public">
-          <name>Zoom</name>
-          <initializer>= 0b100</initializer>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1TouchesController_1afa01f29213896e910998623cb3c2f884ab1c94ca2fbc3e78fc30069c8d0f01680" prot="public">
-          <name>All</name>
-          <initializer>= Translate | Rotate | Zoom</initializer>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1_1TouchesController_1afa01f29213896e910998623cb3c2f884aed36a1ef76a59ee3f15180e0441188ad" prot="public">
-          <name>Any</name>
-          <initializer>= All</initializer>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-<para>bit meaning for mode mask </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" line="25" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" bodystart="26" bodyend="32"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gafa01f29213896e910998623cb3c2f884" kind="enum"><name>ModeBit</name></member>
     </sectiondef>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1TouchesController_1aa14de58ad54ee9ac2933520b260a12d5" prot="private" static="no" mutable="no">
-        <type>MultiInfo</type>
-        <definition>MultiInfo MR::TouchesController::multiInfo_</definition>
-        <argsstring></argsstring>
-        <name>multiInfo_</name>
-        <qualifiedname>MR::TouchesController::multiInfo_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" line="67" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" bodystart="67" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1TouchesController_1a186e96ca954f312ca43aa993cf91f632" prot="private" static="no" mutable="no">
-        <type>MultiInfo</type>
-        <definition>MultiInfo MR::TouchesController::multiPrevInfo_</definition>
-        <argsstring></argsstring>
-        <name>multiPrevInfo_</name>
-        <qualifiedname>MR::TouchesController::multiPrevInfo_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" line="68" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" bodystart="68" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1TouchesController_1aec605f6691b458542b92916350e64896" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::TouchesController::mouseMode_</definition>
-        <argsstring></argsstring>
-        <name>mouseMode_</name>
-        <qualifiedname>MR::TouchesController::mouseMode_</qualifiedname>
-        <initializer>{ false }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" line="69" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" bodystart="69" bodyend="69"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1TouchesController_1af92b3ee38ba7b0ac136fefb28f9e4fc7" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1TouchesController_1afa01f29213896e910998623cb3c2f884" kindref="member">ModeBit</ref></type>
-        <definition>ModeBit MR::TouchesController::touchModeMask_</definition>
-        <argsstring></argsstring>
-        <name>touchModeMask_</name>
-        <qualifiedname>MR::TouchesController::touchModeMask_</qualifiedname>
-        <initializer>{ <ref refid="classMR_1_1TouchesController_1afa01f29213896e910998623cb3c2f884ab1c94ca2fbc3e78fc30069c8d0f01680" kindref="member">ModeBit::All</ref> }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" line="70" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" bodystart="70" bodyend="70"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1TouchesController_1a296f7136de3fe5f7d08fe5ff6ef5ec69" prot="private" static="no" mutable="no">
-        <type>std::function&lt; void(AffineXf3f &amp;)&gt;</type>
-        <definition>std::function&lt;void( AffineXf3f&amp; )&gt; MR::TouchesController::transformModifierCb_</definition>
-        <argsstring></argsstring>
-        <name>transformModifierCb_</name>
-        <qualifiedname>MR::TouchesController::transformModifierCb_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" line="72" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" bodystart="72" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaa14de58ad54ee9ac2933520b260a12d5" kind="variable"><name>multiInfo_</name></member>
+      <member refid="group__GeneralGroup_1ga186e96ca954f312ca43aa993cf91f632" kind="variable"><name>multiPrevInfo_</name></member>
+      <member refid="group__GeneralGroup_1gaec605f6691b458542b92916350e64896" kind="variable"><name>mouseMode_</name></member>
+      <member refid="group__GeneralGroup_1gaf92b3ee38ba7b0ac136fefb28f9e4fc7" kind="variable"><name>touchModeMask_</name></member>
+      <member refid="group__GeneralGroup_1ga296f7136de3fe5f7d08fe5ff6ef5ec69" kind="variable"><name>transformModifierCb_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1TouchesController_1aa1d3c155ace8377d9a8faa1234a0eee0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::TouchesController::MR_ADD_CTOR_DELETE_MOVE</definition>
-        <argsstring>(TouchesController)</argsstring>
-        <name>MR_ADD_CTOR_DELETE_MOVE</name>
-        <qualifiedname>MR::TouchesController::MR_ADD_CTOR_DELETE_MOVE</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1TouchesController" kindref="compound">TouchesController</ref></type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" line="19" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1TouchesController_1ae56f9f544af1474b71a68848efdbe18c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::TouchesController::setTrasformModifierCb</definition>
-        <argsstring>(std::function&lt; void(AffineXf3f &amp;)&gt; cb)</argsstring>
-        <name>setTrasformModifierCb</name>
-        <qualifiedname>MR::TouchesController::setTrasformModifierCb</qualifiedname>
-        <param>
-          <type>std::function&lt; void(AffineXf3f &amp;)&gt;</type>
-          <declname>cb</declname>
-        </param>
-        <briefdescription>
-<para>set callback to modify view transform before it is applied to viewport </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" line="22" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" bodystart="22" bodyend="22"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1TouchesController_1aefb417e9acab3735ac002007e8954373" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="classMR_1_1TouchesController_1afa01f29213896e910998623cb3c2f884" kindref="member">ModeBit</ref></type>
-        <definition>ModeBit MR::TouchesController::getModeMask</definition>
-        <argsstring>() const</argsstring>
-        <name>getModeMask</name>
-        <qualifiedname>MR::TouchesController::getModeMask</qualifiedname>
-        <briefdescription>
-<para>mode mask can block some modes when two finger controll camera </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" line="36" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" bodystart="36" bodyend="36"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1TouchesController_1aa4f3c5903b7b8dc026b21c9233c34f43" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::TouchesController::setModeMask</definition>
-        <argsstring>(ModeBit mask)</argsstring>
-        <name>setModeMask</name>
-        <qualifiedname>MR::TouchesController::setModeMask</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1TouchesController_1afa01f29213896e910998623cb3c2f884" kindref="member">ModeBit</ref></type>
-          <declname>mask</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" line="37" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" bodystart="37" bodyend="37"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaa1d3c155ace8377d9a8faa1234a0eee0" kind="function"><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1gae56f9f544af1474b71a68848efdbe18c" kind="function"><name>setTrasformModifierCb</name></member>
+      <member refid="group__GeneralGroup_1gaefb417e9acab3735ac002007e8954373" kind="function"><name>getModeMask</name></member>
+      <member refid="group__GeneralGroup_1gaa4f3c5903b7b8dc026b21c9233c34f43" kind="function"><name>setModeMask</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMR_1_1TouchesController_1aeb87ca5a672d67d4b28135a70ff7e9c5" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::TouchesController::onTouchStart_</definition>
-        <argsstring>(int id, int x, int y) override</argsstring>
-        <name>onTouchStart_</name>
-        <qualifiedname>MR::TouchesController::onTouchStart_</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>id</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>x</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>y</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" line="39" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1TouchesController_1a17e37a8d5553968379ae7d1aa9bbb429" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::TouchesController::onTouchMove_</definition>
-        <argsstring>(int id, int x, int y) override</argsstring>
-        <name>onTouchMove_</name>
-        <qualifiedname>MR::TouchesController::onTouchMove_</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>id</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>x</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>y</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" line="40" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1TouchesController_1ac097df27634c3343c088c2ceceb1e90c" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::TouchesController::onTouchEnd_</definition>
-        <argsstring>(int id, int x, int y) override</argsstring>
-        <name>onTouchEnd_</name>
-        <qualifiedname>MR::TouchesController::onTouchEnd_</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>id</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>x</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>y</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" line="41" column="18"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaeb87ca5a672d67d4b28135a70ff7e9c5" kind="function"><name>onTouchStart_</name></member>
+      <member refid="group__GeneralGroup_1ga17e37a8d5553968379ae7d1aa9bbb429" kind="function"><name>onTouchMove_</name></member>
+      <member refid="group__GeneralGroup_1gac097df27634c3343c088c2ceceb1e90c" kind="function"><name>onTouchEnd_</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -325,24 +66,24 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" bodystart="17" bodyend="73"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" line="19" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" bodystart="20" bodyend="76"/>
     <listofallmembers>
-      <member refid="structMR_1_1MultiListener_1af3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::TouchesController</scope><name>connect</name></member>
-      <member refid="structMR_1_1MultiListener_1acfa598489bfbc3b88c84b029213d042c" prot="public" virt="virtual"><scope>MR::TouchesController</scope><name>disconnect</name></member>
-      <member refid="classMR_1_1TouchesController_1aefb417e9acab3735ac002007e8954373" prot="public" virt="non-virtual"><scope>MR::TouchesController</scope><name>getModeMask</name></member>
-      <member refid="classMR_1_1TouchesController_1afa01f29213896e910998623cb3c2f884" prot="public" virt="non-virtual"><scope>MR::TouchesController</scope><name>ModeBit</name></member>
-      <member refid="classMR_1_1TouchesController_1aec605f6691b458542b92916350e64896" prot="private" virt="non-virtual"><scope>MR::TouchesController</scope><name>mouseMode_</name></member>
-      <member refid="classMR_1_1TouchesController_1aa1d3c155ace8377d9a8faa1234a0eee0" prot="public" virt="non-virtual"><scope>MR::TouchesController</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
-      <member refid="classMR_1_1TouchesController_1aa14de58ad54ee9ac2933520b260a12d5" prot="private" virt="non-virtual"><scope>MR::TouchesController</scope><name>multiInfo_</name></member>
-      <member refid="classMR_1_1TouchesController_1a186e96ca954f312ca43aa993cf91f632" prot="private" virt="non-virtual"><scope>MR::TouchesController</scope><name>multiPrevInfo_</name></member>
-      <member refid="classMR_1_1TouchesController_1ac097df27634c3343c088c2ceceb1e90c" prot="private" virt="virtual"><scope>MR::TouchesController</scope><name>onTouchEnd_</name></member>
-      <member refid="classMR_1_1TouchesController_1a17e37a8d5553968379ae7d1aa9bbb429" prot="private" virt="virtual"><scope>MR::TouchesController</scope><name>onTouchMove_</name></member>
-      <member refid="classMR_1_1TouchesController_1aeb87ca5a672d67d4b28135a70ff7e9c5" prot="private" virt="virtual"><scope>MR::TouchesController</scope><name>onTouchStart_</name></member>
-      <member refid="classMR_1_1TouchesController_1aa4f3c5903b7b8dc026b21c9233c34f43" prot="public" virt="non-virtual"><scope>MR::TouchesController</scope><name>setModeMask</name></member>
-      <member refid="classMR_1_1TouchesController_1ae56f9f544af1474b71a68848efdbe18c" prot="public" virt="non-virtual"><scope>MR::TouchesController</scope><name>setTrasformModifierCb</name></member>
-      <member refid="classMR_1_1TouchesController_1af92b3ee38ba7b0ac136fefb28f9e4fc7" prot="private" virt="non-virtual"><scope>MR::TouchesController</scope><name>touchModeMask_</name></member>
-      <member refid="classMR_1_1TouchesController_1a296f7136de3fe5f7d08fe5ff6ef5ec69" prot="private" virt="non-virtual"><scope>MR::TouchesController</scope><name>transformModifierCb_</name></member>
-      <member refid="structMR_1_1MultiListener_1a726f5e2601b7f25e31824a0cac630fb2" prot="public" virt="virtual"><scope>MR::TouchesController</scope><name>~MultiListener</name></member>
+      <member refid="group__GeneralGroup_1gaf3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::TouchesController</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1gacfa598489bfbc3b88c84b029213d042c" prot="public" virt="virtual"><scope>MR::TouchesController</scope><name>disconnect</name></member>
+      <member refid="group__GeneralGroup_1gaefb417e9acab3735ac002007e8954373" prot="public" virt="non-virtual"><scope>MR::TouchesController</scope><name>getModeMask</name></member>
+      <member refid="group__GeneralGroup_1gafa01f29213896e910998623cb3c2f884" prot="public" virt="non-virtual"><scope>MR::TouchesController</scope><name>ModeBit</name></member>
+      <member refid="group__GeneralGroup_1gaec605f6691b458542b92916350e64896" prot="private" virt="non-virtual"><scope>MR::TouchesController</scope><name>mouseMode_</name></member>
+      <member refid="group__GeneralGroup_1gaa1d3c155ace8377d9a8faa1234a0eee0" prot="public" virt="non-virtual"><scope>MR::TouchesController</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1gaa14de58ad54ee9ac2933520b260a12d5" prot="private" virt="non-virtual"><scope>MR::TouchesController</scope><name>multiInfo_</name></member>
+      <member refid="group__GeneralGroup_1ga186e96ca954f312ca43aa993cf91f632" prot="private" virt="non-virtual"><scope>MR::TouchesController</scope><name>multiPrevInfo_</name></member>
+      <member refid="group__GeneralGroup_1gac097df27634c3343c088c2ceceb1e90c" prot="private" virt="virtual"><scope>MR::TouchesController</scope><name>onTouchEnd_</name></member>
+      <member refid="group__GeneralGroup_1ga17e37a8d5553968379ae7d1aa9bbb429" prot="private" virt="virtual"><scope>MR::TouchesController</scope><name>onTouchMove_</name></member>
+      <member refid="group__GeneralGroup_1gaeb87ca5a672d67d4b28135a70ff7e9c5" prot="private" virt="virtual"><scope>MR::TouchesController</scope><name>onTouchStart_</name></member>
+      <member refid="group__GeneralGroup_1gaa4f3c5903b7b8dc026b21c9233c34f43" prot="public" virt="non-virtual"><scope>MR::TouchesController</scope><name>setModeMask</name></member>
+      <member refid="group__GeneralGroup_1gae56f9f544af1474b71a68848efdbe18c" prot="public" virt="non-virtual"><scope>MR::TouchesController</scope><name>setTrasformModifierCb</name></member>
+      <member refid="group__GeneralGroup_1gaf92b3ee38ba7b0ac136fefb28f9e4fc7" prot="private" virt="non-virtual"><scope>MR::TouchesController</scope><name>touchModeMask_</name></member>
+      <member refid="group__GeneralGroup_1ga296f7136de3fe5f7d08fe5ff6ef5ec69" prot="private" virt="non-virtual"><scope>MR::TouchesController</scope><name>transformModifierCb_</name></member>
+      <member refid="group__GeneralGroup_1ga726f5e2601b7f25e31824a0cac630fb2" prot="public" virt="virtual"><scope>MR::TouchesController</scope><name>~MultiListener</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

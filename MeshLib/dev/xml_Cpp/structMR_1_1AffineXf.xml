@@ -9,365 +9,56 @@
       </param>
     </templateparamlist>
     <sectiondef kind="public-type">
-      <memberdef kind="typedef" id="structMR_1_1AffineXf_1a122798f44f02f88d6fceeddd3f296c0c" prot="public" static="no">
-        <type>typename V::ValueType</type>
-        <definition>using MR::AffineXf&lt; V &gt;::T =  typename V::ValueType</definition>
-        <argsstring></argsstring>
-        <name>T</name>
-        <qualifiedname>MR::AffineXf::T</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAffineXf.h" line="24" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAffineXf.h" bodystart="24" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="structMR_1_1AffineXf_1a60960f9da874c4087c143336fbbd23ee" prot="public" static="no">
-        <type>typename V::MatrixType</type>
-        <definition>using MR::AffineXf&lt; V &gt;::M =  typename V::MatrixType</definition>
-        <argsstring></argsstring>
-        <name>M</name>
-        <qualifiedname>MR::AffineXf::M</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAffineXf.h" line="25" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAffineXf.h" bodystart="25" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga122798f44f02f88d6fceeddd3f296c0c" kind="typedef"><name>T</name></member>
+      <member refid="group__GeneralGroup_1ga60960f9da874c4087c143336fbbd23ee" kind="typedef"><name>M</name></member>
     </sectiondef>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1AffineXf_1ac50d0dfa0b11a916ac644165073713ca" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1AffineXf_1a60960f9da874c4087c143336fbbd23ee" kindref="member">M</ref></type>
-        <definition>M MR::AffineXf&lt; V &gt;::A</definition>
-        <argsstring></argsstring>
-        <name>A</name>
-        <qualifiedname>MR::AffineXf::A</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAffineXf.h" line="27" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAffineXf.h" bodystart="27" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1AffineXf_1abc589d85e328480de8c5972558bd7b3c" prot="public" static="no" mutable="no">
-        <type>V</type>
-        <definition>V MR::AffineXf&lt; V &gt;::b</definition>
-        <argsstring></argsstring>
-        <name>b</name>
-        <qualifiedname>MR::AffineXf::b</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAffineXf.h" line="28" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAffineXf.h" bodystart="28" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gac50d0dfa0b11a916ac644165073713ca" kind="variable"><name>A</name></member>
+      <member refid="group__GeneralGroup_1gabc589d85e328480de8c5972558bd7b3c" kind="variable"><name>b</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1AffineXf_1ab3b595e5fd83370d9417a0d1e93cf2c1" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type>constexpr</type>
-        <definition>MR::AffineXf&lt; V &gt;::AffineXf</definition>
-        <argsstring>() noexcept=default</argsstring>
-        <name>AffineXf</name>
-        <qualifiedname>MR::AffineXf::AffineXf</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAffineXf.h" line="30" column="15"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1AffineXf_1a4f40e964b7034f2c0121f71a30bdf36e" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>constexpr</type>
-        <definition>MR::AffineXf&lt; V &gt;::AffineXf</definition>
-        <argsstring>(const M &amp;A, const V &amp;b) noexcept</argsstring>
-        <name>AffineXf</name>
-        <qualifiedname>MR::AffineXf::AffineXf</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1AffineXf_1a60960f9da874c4087c143336fbbd23ee" kindref="member">M</ref> &amp;</type>
-          <declname>A</declname>
-        </param>
-        <param>
-          <type>const V &amp;</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAffineXf.h" line="31" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAffineXf.h" bodystart="31" bodyend="31"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1AffineXf_1ae517524526f50cd77be825b78a88708b" prot="public" static="no" const="yes" explicit="no" inline="yes" refqual="lvalue" noexcept="yes" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename U</type>
-          </param>
-        </templateparamlist>
-        <type></type>
-        <definition>MR::AffineXf&lt; V &gt;::MR_REQUIRES_IF_SUPPORTED</definition>
-        <argsstring>(!std::is_same_v&lt; U, V &gt;) const expr explicit AffineXf(const AffineXf&lt; U &gt; &amp;xf) noexcept</argsstring>
-        <name>MR_REQUIRES_IF_SUPPORTED</name>
-        <qualifiedname>MR::AffineXf::MR_REQUIRES_IF_SUPPORTED</qualifiedname>
-        <param>
-          <type>!std::is_same_v&lt; U, V &gt;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Here <computeroutput>U == V</computeroutput> doesn&apos;t seem to cause any issues in the C++ code, but we&apos;re still disabling it because it somehow gets emitted when generating the bindings, and results in duplicate functions in C#. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAffineXf.h" line="35" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAffineXf.h" bodystart="35" bodyend="36"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1AffineXf_1a5be41c92ebfbb340e9651f0efd210fcb" prot="public" static="no" nodiscard="yes" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>V</type>
-        <definition>V MR::AffineXf&lt; V &gt;::operator()</definition>
-        <argsstring>(const V &amp;x) const noexcept</argsstring>
-        <name>operator()</name>
-        <qualifiedname>MR::AffineXf::operator()</qualifiedname>
-        <param>
-          <type>const V &amp;</type>
-          <declname>x</declname>
-        </param>
-        <briefdescription>
-<para>application of the transformation to a point </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAffineXf.h" line="46" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAffineXf.h" bodystart="46" bodyend="46"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1AffineXf_1aed36bec4a9d093011a85c99f21ced5f3" prot="public" static="no" nodiscard="yes" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>V</type>
-        <definition>V MR::AffineXf&lt; V &gt;::linearOnly</definition>
-        <argsstring>(const V &amp;x) const noexcept</argsstring>
-        <name>linearOnly</name>
-        <qualifiedname>MR::AffineXf::linearOnly</qualifiedname>
-        <param>
-          <type>const V &amp;</type>
-          <declname>x</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>applies only linear part of the transformation to given vector (e.g. to normal) skipping adding shift (b) for example if this is a rigid transformation, then only rotates input vector </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAffineXf.h" line="49" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAffineXf.h" bodystart="49" bodyend="49"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gab3b595e5fd83370d9417a0d1e93cf2c1" kind="function"><name>AffineXf</name></member>
+      <member refid="group__GeneralGroup_1ga4f40e964b7034f2c0121f71a30bdf36e" kind="function"><name>AffineXf</name></member>
+      <member refid="group__GeneralGroup_1gae517524526f50cd77be825b78a88708b" kind="function"><name>MR_REQUIRES_IF_SUPPORTED</name></member>
+      <member refid="group__GeneralGroup_1ga5be41c92ebfbb340e9651f0efd210fcb" kind="function"><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1gaed36bec4a9d093011a85c99f21ced5f3" kind="function"><name>linearOnly</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="structMR_1_1AffineXf_1ae6f0d93485c6f6bab711487d42b04a96" prot="public" static="yes" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1AffineXf" kindref="compound">AffineXf</ref></type>
-        <definition>static constexpr AffineXf MR::AffineXf&lt; V &gt;::translation</definition>
-        <argsstring>(const V &amp;b) noexcept</argsstring>
-        <name>translation</name>
-        <qualifiedname>MR::AffineXf::translation</qualifiedname>
-        <param>
-          <type>const V &amp;</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-<para>creates translation-only transformation (with identity linear component) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAffineXf.h" line="39" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAffineXf.h" bodystart="39" bodyend="39"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1AffineXf_1a28ed741d0efefc5b6087bc89a5b6cd85" prot="public" static="yes" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1AffineXf" kindref="compound">AffineXf</ref></type>
-        <definition>static constexpr AffineXf MR::AffineXf&lt; V &gt;::linear</definition>
-        <argsstring>(const M &amp;A) noexcept</argsstring>
-        <name>linear</name>
-        <qualifiedname>MR::AffineXf::linear</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1AffineXf_1a60960f9da874c4087c143336fbbd23ee" kindref="member">M</ref> &amp;</type>
-          <declname>A</declname>
-        </param>
-        <briefdescription>
-<para>creates linear-only transformation (without translation) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAffineXf.h" line="41" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAffineXf.h" bodystart="41" bodyend="41"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1AffineXf_1a55cf315823a39d0647333ca27a0b8e98" prot="public" static="yes" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1AffineXf" kindref="compound">AffineXf</ref></type>
-        <definition>static constexpr AffineXf MR::AffineXf&lt; V &gt;::xfAround</definition>
-        <argsstring>(const M &amp;A, const V &amp;stable) noexcept</argsstring>
-        <name>xfAround</name>
-        <qualifiedname>MR::AffineXf::xfAround</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1AffineXf_1a60960f9da874c4087c143336fbbd23ee" kindref="member">M</ref> &amp;</type>
-          <declname>A</declname>
-        </param>
-        <param>
-          <type>const V &amp;</type>
-          <declname>stable</declname>
-        </param>
-        <briefdescription>
-<para>creates transformation with given linear part with given stable point </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAffineXf.h" line="43" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAffineXf.h" bodystart="43" bodyend="43"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gae6f0d93485c6f6bab711487d42b04a96" kind="function"><name>translation</name></member>
+      <member refid="group__GeneralGroup_1ga28ed741d0efefc5b6087bc89a5b6cd85" kind="function"><name>linear</name></member>
+      <member refid="group__GeneralGroup_1ga55cf315823a39d0647333ca27a0b8e98" kind="function"><name>xfAround</name></member>
     </sectiondef>
     <sectiondef kind="friend">
-      <memberdef kind="friend" id="structMR_1_1AffineXf_1a0e644a181cac1fa700946f98a47b8595" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1AffineXf" kindref="compound">AffineXf</ref> inverse() const noexcept <ref refid="structMR_1_1AffineXf_1ae517524526f50cd77be825b78a88708b" kindref="member">MR_REQUIRES_IF_SUPPORTED</ref>(!std friend <ref refid="structMR_1_1AffineXf" kindref="compound">AffineXf</ref>&lt; V &gt;</type>
-        <definition>AffineXf inverse() const noexcept MR_REQUIRES_IF_SUPPORTED(!std friend AffineXf&lt; V &gt; operator*</definition>
-        <argsstring>(const AffineXf&lt; V &gt; &amp;u, const AffineXf&lt; V &gt; &amp;v)</argsstring>
-        <name>operator*</name>
-        <qualifiedname>MR::AffineXf::operator*</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1AffineXf" kindref="compound">AffineXf</ref>&lt; V &gt; &amp;</type>
-          <declname>u</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1AffineXf" kindref="compound">AffineXf</ref>&lt; V &gt; &amp;</type>
-          <declname>v</declname>
-        </param>
-        <briefdescription>
-<para>computes inverse transformation </para>
-        </briefdescription>
-        <detaileddescription>
-<para>composition of two transformations: <formula id="0"> y = (u * v) ( x ) = u( v( x ) ) = ( u.A * ( v.A * x + v.b ) + u.b ) = ( u.A * v.A ) * x + ( u.A * v.b + u.b ) </formula> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAffineXf.h" line="55" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAffineXf.h" bodystart="55" bodyend="56"/>
-      </memberdef>
-      <memberdef kind="friend" id="structMR_1_1AffineXf_1a55d01857e172a9cbf746957013009926" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool operator==</definition>
-        <argsstring>(const AffineXf&lt; V &gt; &amp;a, const AffineXf&lt; V &gt; &amp;b)</argsstring>
-        <name>operator==</name>
-        <qualifiedname>MR::AffineXf::operator==</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1AffineXf" kindref="compound">AffineXf</ref>&lt; V &gt; &amp;</type>
-          <declname>a</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1AffineXf" kindref="compound">AffineXf</ref>&lt; V &gt; &amp;</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAffineXf.h" line="59" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAffineXf.h" bodystart="59" bodyend="62"/>
-      </memberdef>
-      <memberdef kind="friend" id="structMR_1_1AffineXf_1a186afe85bf17b3cb6a52b55f5af080bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool operator!=</definition>
-        <argsstring>(const AffineXf&lt; V &gt; &amp;a, const AffineXf&lt; V &gt; &amp;b)</argsstring>
-        <name>operator!=</name>
-        <qualifiedname>MR::AffineXf::operator!=</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1AffineXf" kindref="compound">AffineXf</ref>&lt; V &gt; &amp;</type>
-          <declname>a</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1AffineXf" kindref="compound">AffineXf</ref>&lt; V &gt; &amp;</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAffineXf.h" line="65" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAffineXf.h" bodystart="65" bodyend="68"/>
-      </memberdef>
-      <memberdef kind="friend" id="structMR_1_1AffineXf_1afe3a9bf9c2593c948de620a660aa6ccd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>std::ostream &amp;</type>
-        <definition>std::ostream &amp; operator&lt;&lt;</definition>
-        <argsstring>(std::ostream &amp;s, const AffineXf &amp;xf)</argsstring>
-        <name>operator&lt;&lt;</name>
-        <qualifiedname>MR::AffineXf::operator&lt;&lt;</qualifiedname>
-        <param>
-          <type>std::ostream &amp;</type>
-          <declname>s</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1AffineXf" kindref="compound">AffineXf</ref> &amp;</type>
-          <declname>xf</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAffineXf.h" line="70" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAffineXf.h" bodystart="70" bodyend="73"/>
-      </memberdef>
-      <memberdef kind="friend" id="structMR_1_1AffineXf_1a7220240eb64c738d214bd96bbe993b7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>std::istream &amp;</type>
-        <definition>std::istream &amp; operator&gt;&gt;</definition>
-        <argsstring>(std::istream &amp;s, AffineXf &amp;xf)</argsstring>
-        <name>operator&gt;&gt;</name>
-        <qualifiedname>MR::AffineXf::operator&gt;&gt;</qualifiedname>
-        <param>
-          <type>std::istream &amp;</type>
-          <declname>s</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1AffineXf" kindref="compound">AffineXf</ref> &amp;</type>
-          <declname>xf</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAffineXf.h" line="75" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAffineXf.h" bodystart="75" bodyend="78"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga0e644a181cac1fa700946f98a47b8595" kind="friend"><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1ga55d01857e172a9cbf746957013009926" kind="friend"><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga186afe85bf17b3cb6a52b55f5af080bc" kind="friend"><name>operator!=</name></member>
+      <member refid="group__GeneralGroup_1gafe3a9bf9c2593c948de620a660aa6ccd" kind="friend"><name>operator&lt;&lt;</name></member>
+      <member refid="group__GeneralGroup_1ga7220240eb64c738d214bd96bbe993b7d" kind="friend"><name>operator&gt;&gt;</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
 <para>affine transformation: y = A*x + b, where A in VxV, and b in V </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAffineXf.h" line="22" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAffineXf.h" bodystart="23" bodyend="79"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAffineXf.h" line="25" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAffineXf.h" bodystart="26" bodyend="82"/>
     <listofallmembers>
-      <member refid="structMR_1_1AffineXf_1ac50d0dfa0b11a916ac644165073713ca" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>A</name></member>
-      <member refid="structMR_1_1AffineXf_1ab3b595e5fd83370d9417a0d1e93cf2c1" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>AffineXf</name></member>
-      <member refid="structMR_1_1AffineXf_1a4f40e964b7034f2c0121f71a30bdf36e" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>AffineXf</name></member>
-      <member refid="structMR_1_1AffineXf_1abc589d85e328480de8c5972558bd7b3c" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>b</name></member>
-      <member refid="structMR_1_1AffineXf_1a28ed741d0efefc5b6087bc89a5b6cd85" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>linear</name></member>
-      <member refid="structMR_1_1AffineXf_1aed36bec4a9d093011a85c99f21ced5f3" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>linearOnly</name></member>
-      <member refid="structMR_1_1AffineXf_1a60960f9da874c4087c143336fbbd23ee" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>M</name></member>
-      <member refid="structMR_1_1AffineXf_1ae517524526f50cd77be825b78a88708b" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>MR_REQUIRES_IF_SUPPORTED</name></member>
-      <member refid="structMR_1_1AffineXf_1a186afe85bf17b3cb6a52b55f5af080bc" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>operator!=</name></member>
-      <member refid="structMR_1_1AffineXf_1a5be41c92ebfbb340e9651f0efd210fcb" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>operator()</name></member>
-      <member refid="structMR_1_1AffineXf_1a0e644a181cac1fa700946f98a47b8595" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>operator*</name></member>
-      <member refid="structMR_1_1AffineXf_1afe3a9bf9c2593c948de620a660aa6ccd" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>operator&lt;&lt;</name></member>
-      <member refid="structMR_1_1AffineXf_1a55d01857e172a9cbf746957013009926" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>operator==</name></member>
-      <member refid="structMR_1_1AffineXf_1a7220240eb64c738d214bd96bbe993b7d" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>operator&gt;&gt;</name></member>
-      <member refid="structMR_1_1AffineXf_1a122798f44f02f88d6fceeddd3f296c0c" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>T</name></member>
-      <member refid="structMR_1_1AffineXf_1ae6f0d93485c6f6bab711487d42b04a96" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>translation</name></member>
-      <member refid="structMR_1_1AffineXf_1a55cf315823a39d0647333ca27a0b8e98" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>xfAround</name></member>
+      <member refid="group__GeneralGroup_1gac50d0dfa0b11a916ac644165073713ca" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>A</name></member>
+      <member refid="group__GeneralGroup_1gab3b595e5fd83370d9417a0d1e93cf2c1" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>AffineXf</name></member>
+      <member refid="group__GeneralGroup_1ga4f40e964b7034f2c0121f71a30bdf36e" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>AffineXf</name></member>
+      <member refid="group__GeneralGroup_1gabc589d85e328480de8c5972558bd7b3c" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>b</name></member>
+      <member refid="group__GeneralGroup_1ga28ed741d0efefc5b6087bc89a5b6cd85" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>linear</name></member>
+      <member refid="group__GeneralGroup_1gaed36bec4a9d093011a85c99f21ced5f3" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>linearOnly</name></member>
+      <member refid="group__GeneralGroup_1ga60960f9da874c4087c143336fbbd23ee" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>M</name></member>
+      <member refid="group__GeneralGroup_1gae517524526f50cd77be825b78a88708b" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>MR_REQUIRES_IF_SUPPORTED</name></member>
+      <member refid="group__GeneralGroup_1ga186afe85bf17b3cb6a52b55f5af080bc" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>operator!=</name></member>
+      <member refid="group__GeneralGroup_1ga5be41c92ebfbb340e9651f0efd210fcb" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1ga0e644a181cac1fa700946f98a47b8595" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1gafe3a9bf9c2593c948de620a660aa6ccd" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>operator&lt;&lt;</name></member>
+      <member refid="group__GeneralGroup_1ga55d01857e172a9cbf746957013009926" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga7220240eb64c738d214bd96bbe993b7d" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>operator&gt;&gt;</name></member>
+      <member refid="group__GeneralGroup_1ga122798f44f02f88d6fceeddd3f296c0c" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>T</name></member>
+      <member refid="group__GeneralGroup_1gae6f0d93485c6f6bab711487d42b04a96" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>translation</name></member>
+      <member refid="group__GeneralGroup_1ga55cf315823a39d0647333ca27a0b8e98" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>xfAround</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -4,132 +4,32 @@
     <compoundname>MR::DentalId</compoundname>
     <includes refid="MRTeethMaskToDirectionVolume_8h" local="no">MRTeethMaskToDirectionVolume.h</includes>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1DentalId_1a824063478b07672552eeea4742813096" prot="private" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::DentalId::fdi_</definition>
-        <argsstring></argsstring>
-        <name>fdi_</name>
-        <qualifiedname>MR::DentalId::fdi_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRTeethMaskToDirectionVolume.h" line="44" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRTeethMaskToDirectionVolume.h" bodystart="44" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga824063478b07672552eeea4742813096" kind="variable"><name>fdi_</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1DentalId_1ac7bbd13981e37cfd5f67ff65e8974d12" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>int</type>
-            <declname>id</declname>
-            <defname>id</defname>
-          </param>
-        </templateparamlist>
-        <type><ref refid="classMR_1_1DentalId" kindref="compound">DentalId</ref></type>
-        <definition>static constexpr DentalId MR::DentalId::fromFDI</definition>
-        <argsstring>()</argsstring>
-        <name>fromFDI</name>
-        <qualifiedname>MR::DentalId::fromFDI</qualifiedname>
-        <briefdescription>
-<para>Creates id from FDI number known at compile time. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRTeethMaskToDirectionVolume.h" line="22" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRTeethMaskToDirectionVolume.h" bodystart="22" bodyend="29"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DentalId_1a2440c61bc1fa2c93aa20ddbbe050279c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> std::optional&lt; <ref refid="classMR_1_1DentalId" kindref="compound">DentalId</ref> &gt;</type>
-        <definition>static MRVOXELS_API std::optional&lt; DentalId &gt; MR::DentalId::fromFDI</definition>
-        <argsstring>(int id)</argsstring>
-        <name>fromFDI</name>
-        <qualifiedname>MR::DentalId::fromFDI</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>id</declname>
-        </param>
-        <briefdescription>
-<para>Creates id from FDI number known only at runtime. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRTeethMaskToDirectionVolume.h" line="32" column="39"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gac7bbd13981e37cfd5f67ff65e8974d12" kind="function"><name>fromFDI</name></member>
+      <member refid="group__GeneralGroup_1ga2440c61bc1fa2c93aa20ddbbe050279c" kind="function"><name>fromFDI</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1DentalId_1ac1858ebe9d631ac97732981502ccc423" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> int</type>
-        <definition>MRVOXELS_API int MR::DentalId::fdi</definition>
-        <argsstring>() const</argsstring>
-        <name>fdi</name>
-        <qualifiedname>MR::DentalId::fdi</qualifiedname>
-        <briefdescription>
-<para>Returns FDI representation of the id. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRTeethMaskToDirectionVolume.h" line="35" column="22"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1DentalId_1a413835c53825417d3814e4320110741f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>auto</type>
-        <definition>auto MR::DentalId::operator&lt;=&gt;</definition>
-        <argsstring>(const DentalId &amp;other) const =default</argsstring>
-        <name>operator&lt;=&gt;</name>
-        <qualifiedname>MR::DentalId::operator&lt;=&gt;</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1DentalId" kindref="compound">DentalId</ref> &amp;</type>
-          <declname>other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRTeethMaskToDirectionVolume.h" line="37" column="5"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gac1858ebe9d631ac97732981502ccc423" kind="function"><name>fdi</name></member>
+      <member refid="group__GeneralGroup_1ga413835c53825417d3814e4320110741f" kind="function"><name>operator&lt;=&gt;</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMR_1_1DentalId_1a6398dcf481fb63fc203bd40a50a9edee" prot="private" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
-        <type>constexpr</type>
-        <definition>MR::DentalId::DentalId</definition>
-        <argsstring>(int fdi)</argsstring>
-        <name>DentalId</name>
-        <qualifiedname>MR::DentalId::DentalId</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>fdi</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRTeethMaskToDirectionVolume.h" line="40" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRTeethMaskToDirectionVolume.h" bodystart="40" bodyend="42"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga6398dcf481fb63fc203bd40a50a9edee" kind="function"><name>DentalId</name></member>
     </sectiondef>
     <briefdescription>
 <para>This class represents tooth id. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRTeethMaskToDirectionVolume.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRTeethMaskToDirectionVolume.h" bodystart="18" bodyend="45"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRTeethMaskToDirectionVolume.h" line="20" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRTeethMaskToDirectionVolume.h" bodystart="21" bodyend="48"/>
     <listofallmembers>
-      <member refid="classMR_1_1DentalId_1a6398dcf481fb63fc203bd40a50a9edee" prot="private" virt="non-virtual"><scope>MR::DentalId</scope><name>DentalId</name></member>
-      <member refid="classMR_1_1DentalId_1ac1858ebe9d631ac97732981502ccc423" prot="public" virt="non-virtual"><scope>MR::DentalId</scope><name>fdi</name></member>
-      <member refid="classMR_1_1DentalId_1a824063478b07672552eeea4742813096" prot="private" virt="non-virtual"><scope>MR::DentalId</scope><name>fdi_</name></member>
-      <member refid="classMR_1_1DentalId_1ac7bbd13981e37cfd5f67ff65e8974d12" prot="public" virt="non-virtual"><scope>MR::DentalId</scope><name>fromFDI</name></member>
-      <member refid="classMR_1_1DentalId_1a2440c61bc1fa2c93aa20ddbbe050279c" prot="public" virt="non-virtual"><scope>MR::DentalId</scope><name>fromFDI</name></member>
-      <member refid="classMR_1_1DentalId_1a413835c53825417d3814e4320110741f" prot="public" virt="non-virtual"><scope>MR::DentalId</scope><name>operator&lt;=&gt;</name></member>
+      <member refid="group__GeneralGroup_1ga6398dcf481fb63fc203bd40a50a9edee" prot="private" virt="non-virtual"><scope>MR::DentalId</scope><name>DentalId</name></member>
+      <member refid="group__GeneralGroup_1gac1858ebe9d631ac97732981502ccc423" prot="public" virt="non-virtual"><scope>MR::DentalId</scope><name>fdi</name></member>
+      <member refid="group__GeneralGroup_1ga824063478b07672552eeea4742813096" prot="private" virt="non-virtual"><scope>MR::DentalId</scope><name>fdi_</name></member>
+      <member refid="group__GeneralGroup_1gac7bbd13981e37cfd5f67ff65e8974d12" prot="public" virt="non-virtual"><scope>MR::DentalId</scope><name>fromFDI</name></member>
+      <member refid="group__GeneralGroup_1ga2440c61bc1fa2c93aa20ddbbe050279c" prot="public" virt="non-virtual"><scope>MR::DentalId</scope><name>fromFDI</name></member>
+      <member refid="group__GeneralGroup_1ga413835c53825417d3814e4320110741f" prot="public" virt="non-virtual"><scope>MR::DentalId</scope><name>operator&lt;=&gt;</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

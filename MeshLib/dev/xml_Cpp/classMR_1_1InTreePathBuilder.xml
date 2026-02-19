@@ -4,131 +4,30 @@
     <compoundname>MR::InTreePathBuilder</compoundname>
     <includes refid="MRInTreePathBuilder_8h" local="no">MRInTreePathBuilder.h</includes>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1InTreePathBuilder_1af0d8c93adfdca3a7b53b48884d7a6f3e" prot="private" static="no" mutable="no">
-        <type>const <ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref> &amp;</type>
-        <definition>const MeshTopology&amp; MR::InTreePathBuilder::topology_</definition>
-        <argsstring></argsstring>
-        <name>topology_</name>
-        <qualifiedname>MR::InTreePathBuilder::topology_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInTreePathBuilder.h" line="23" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInTreePathBuilder.h" bodystart="23" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1InTreePathBuilder_1acd9355de874443aa0132991638f1fe2e" prot="private" static="no" mutable="no">
-        <type>const UndirectedEdgeBitSet &amp;</type>
-        <definition>const UndirectedEdgeBitSet&amp; MR::InTreePathBuilder::treeEdges_</definition>
-        <argsstring></argsstring>
-        <name>treeEdges_</name>
-        <qualifiedname>MR::InTreePathBuilder::treeEdges_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInTreePathBuilder.h" line="24" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInTreePathBuilder.h" bodystart="24" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1InTreePathBuilder_1ab373c2a1918e12da1f93770318f254c7" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; int, VertId &gt;</type>
-        <definition>Vector&lt;int, VertId&gt; MR::InTreePathBuilder::vertDistance_</definition>
-        <argsstring></argsstring>
-        <name>vertDistance_</name>
-        <qualifiedname>MR::InTreePathBuilder::vertDistance_</qualifiedname>
-        <briefdescription>
-<para>distance of each vertex from tree root in edges, and -1 for unreachable vertices </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInTreePathBuilder.h" line="26" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInTreePathBuilder.h" bodystart="26" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaf0d8c93adfdca3a7b53b48884d7a6f3e" kind="variable"><name>topology_</name></member>
+      <member refid="group__GeneralGroup_1gacd9355de874443aa0132991638f1fe2e" kind="variable"><name>treeEdges_</name></member>
+      <member refid="group__GeneralGroup_1gab373c2a1918e12da1f93770318f254c7" kind="variable"><name>vertDistance_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1InTreePathBuilder_1af25102bdd3972974bc827e8e7eb0b666" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
-        <definition>MRMESH_API MR::InTreePathBuilder::InTreePathBuilder</definition>
-        <argsstring>(const MeshTopology &amp;topology, const UndirectedEdgeBitSet &amp;treeEdges)</argsstring>
-        <name>InTreePathBuilder</name>
-        <qualifiedname>MR::InTreePathBuilder::InTreePathBuilder</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref> &amp;</type>
-          <declname>topology</declname>
-        </param>
-        <param>
-          <type>const UndirectedEdgeBitSet &amp;</type>
-          <declname>treeEdges</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInTreePathBuilder.h" line="13" column="16"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1InTreePathBuilder_1a298a5dffe72dcebf92ad6ede0dbf9bd3" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="namespaceMR_1a9f6c1e614e45e332d4cecfc5e77bc07e" kindref="member">EdgePath</ref></type>
-        <definition>MRMESH_API EdgePath MR::InTreePathBuilder::build</definition>
-        <argsstring>(VertId start, VertId finish) const</argsstring>
-        <name>build</name>
-        <qualifiedname>MR::InTreePathBuilder::build</qualifiedname>
-        <param>
-          <type>VertId</type>
-          <declname>start</declname>
-        </param>
-        <param>
-          <type>VertId</type>
-          <declname>finish</declname>
-        </param>
-        <briefdescription>
-<para>finds the path in tree from start vertex to finish vertex </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInTreePathBuilder.h" line="16" column="26"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaf25102bdd3972974bc827e8e7eb0b666" kind="function"><name>InTreePathBuilder</name></member>
+      <member refid="group__GeneralGroup_1ga298a5dffe72dcebf92ad6ede0dbf9bd3" kind="function"><name>build</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMR_1_1InTreePathBuilder_1aa9116724a3edb217b9ddb61735ecbb7f" prot="private" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>EdgeId</type>
-        <definition>EdgeId MR::InTreePathBuilder::getEdgeBack_</definition>
-        <argsstring>(VertId v) const</argsstring>
-        <name>getEdgeBack_</name>
-        <qualifiedname>MR::InTreePathBuilder::getEdgeBack_</qualifiedname>
-        <param>
-          <type>VertId</type>
-          <declname>v</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>given a vertex, returns the edge from it toward the root or invalid edge if v is a root </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInTreePathBuilder.h" line="21" column="13"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaa9116724a3edb217b9ddb61735ecbb7f" kind="function"><name>getEdgeBack_</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
 <para>given a spanning tree of edges in the mesh (or forest in case of several connected components), prepares to build quickly a path along tree edges between any two vertices </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInTreePathBuilder.h" line="10" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInTreePathBuilder.h" bodystart="11" bodyend="27"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInTreePathBuilder.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInTreePathBuilder.h" bodystart="14" bodyend="30"/>
     <listofallmembers>
-      <member refid="classMR_1_1InTreePathBuilder_1a298a5dffe72dcebf92ad6ede0dbf9bd3" prot="public" virt="non-virtual"><scope>MR::InTreePathBuilder</scope><name>build</name></member>
-      <member refid="classMR_1_1InTreePathBuilder_1aa9116724a3edb217b9ddb61735ecbb7f" prot="private" virt="non-virtual"><scope>MR::InTreePathBuilder</scope><name>getEdgeBack_</name></member>
-      <member refid="classMR_1_1InTreePathBuilder_1af25102bdd3972974bc827e8e7eb0b666" prot="public" virt="non-virtual"><scope>MR::InTreePathBuilder</scope><name>InTreePathBuilder</name></member>
-      <member refid="classMR_1_1InTreePathBuilder_1af0d8c93adfdca3a7b53b48884d7a6f3e" prot="private" virt="non-virtual"><scope>MR::InTreePathBuilder</scope><name>topology_</name></member>
-      <member refid="classMR_1_1InTreePathBuilder_1acd9355de874443aa0132991638f1fe2e" prot="private" virt="non-virtual"><scope>MR::InTreePathBuilder</scope><name>treeEdges_</name></member>
-      <member refid="classMR_1_1InTreePathBuilder_1ab373c2a1918e12da1f93770318f254c7" prot="private" virt="non-virtual"><scope>MR::InTreePathBuilder</scope><name>vertDistance_</name></member>
+      <member refid="group__GeneralGroup_1ga298a5dffe72dcebf92ad6ede0dbf9bd3" prot="public" virt="non-virtual"><scope>MR::InTreePathBuilder</scope><name>build</name></member>
+      <member refid="group__GeneralGroup_1gaa9116724a3edb217b9ddb61735ecbb7f" prot="private" virt="non-virtual"><scope>MR::InTreePathBuilder</scope><name>getEdgeBack_</name></member>
+      <member refid="group__GeneralGroup_1gaf25102bdd3972974bc827e8e7eb0b666" prot="public" virt="non-virtual"><scope>MR::InTreePathBuilder</scope><name>InTreePathBuilder</name></member>
+      <member refid="group__GeneralGroup_1gaf0d8c93adfdca3a7b53b48884d7a6f3e" prot="private" virt="non-virtual"><scope>MR::InTreePathBuilder</scope><name>topology_</name></member>
+      <member refid="group__GeneralGroup_1gacd9355de874443aa0132991638f1fe2e" prot="private" virt="non-virtual"><scope>MR::InTreePathBuilder</scope><name>treeEdges_</name></member>
+      <member refid="group__GeneralGroup_1gab373c2a1918e12da1f93770318f254c7" prot="private" virt="non-virtual"><scope>MR::InTreePathBuilder</scope><name>vertDistance_</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

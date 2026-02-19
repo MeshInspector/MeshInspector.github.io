@@ -13,303 +13,54 @@
       </param>
     </templateparamlist>
     <sectiondef kind="public-type">
-      <memberdef kind="typedef" id="classMR_1_1PriorityQueue_1a3b6a5fb6f7530ae66dfec44b04efaf99" prot="public" static="no">
-        <type>T</type>
-        <definition>using MR::PriorityQueue&lt; T, P &gt;::value_type =  T</definition>
-        <argsstring></argsstring>
-        <name>value_type</name>
-        <qualifiedname>MR::PriorityQueue::value_type</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPriorityQueue.h" line="16" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPriorityQueue.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1PriorityQueue_1aeaf2b86418b3f772aaf5c8bc2329d8c2" prot="public" static="no">
-        <type>std::vector&lt; T &gt;</type>
-        <definition>using MR::PriorityQueue&lt; T, P &gt;::Container =  std::vector&lt;T&gt;</definition>
-        <argsstring></argsstring>
-        <name>Container</name>
-        <qualifiedname>MR::PriorityQueue::Container</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPriorityQueue.h" line="17" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPriorityQueue.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="classMR_1_1PriorityQueue_1a657bf77bb26190bcd1415b93138f77d9" prot="public" static="no">
-        <type>typename Container::size_type</type>
-        <definition>using MR::PriorityQueue&lt; T, P &gt;::size_type =  typename Container::size_type</definition>
-        <argsstring></argsstring>
-        <name>size_type</name>
-        <qualifiedname>MR::PriorityQueue::size_type</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPriorityQueue.h" line="18" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPriorityQueue.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga3b6a5fb6f7530ae66dfec44b04efaf99" kind="typedef"><name>value_type</name></member>
+      <member refid="group__GeneralGroup_1gaeaf2b86418b3f772aaf5c8bc2329d8c2" kind="typedef"><name>Container</name></member>
+      <member refid="group__GeneralGroup_1ga657bf77bb26190bcd1415b93138f77d9" kind="typedef"><name>size_type</name></member>
     </sectiondef>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="classMR_1_1PriorityQueue_1a5f49205aba3f95b0774623effbc87e49" prot="public" static="no" mutable="no">
-        <type><ref refid="classMR_1_1PriorityQueue_1aeaf2b86418b3f772aaf5c8bc2329d8c2" kindref="member">Container</ref></type>
-        <definition>Container MR::PriorityQueue&lt; T, P &gt;::c</definition>
-        <argsstring></argsstring>
-        <name>c</name>
-        <qualifiedname>MR::PriorityQueue::c</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>intentionally left public to allow user access to it, but the user is responsible for restore heap-property of this vector before calling of any method </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPriorityQueue.h" line="47" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPriorityQueue.h" bodystart="47" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga5f49205aba3f95b0774623effbc87e49" kind="variable"><name>c</name></member>
     </sectiondef>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1PriorityQueue_1a47b9b9b360a49542db0f23581dd7d26b" prot="private" static="no" mutable="no">
-        <type><ref refid="MRMacros_8h_1adc8a2290a0ad34bf18acb8498b4bb91a" kindref="member">MR_NO_UNIQUE_ADDRESS</ref> P</type>
-        <definition>MR_NO_UNIQUE_ADDRESS P MR::PriorityQueue&lt; T, P &gt;::pred_</definition>
-        <argsstring></argsstring>
-        <name>pred_</name>
-        <qualifiedname>MR::PriorityQueue::pred_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPriorityQueue.h" line="53" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPriorityQueue.h" bodystart="53" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga47b9b9b360a49542db0f23581dd7d26b" kind="variable"><name>pred_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1PriorityQueue_1aae44e735cc86835adbb6d48ff4a446ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::PriorityQueue&lt; T, P &gt;::PriorityQueue</definition>
-        <argsstring>()</argsstring>
-        <name>PriorityQueue</name>
-        <qualifiedname>MR::PriorityQueue::PriorityQueue</qualifiedname>
-        <briefdescription>
-<para>constructs empty queue </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPriorityQueue.h" line="21" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPriorityQueue.h" bodystart="21" bodyend="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PriorityQueue_1aebd81e426914ebd5fa07ba5e4bfa0142" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::PriorityQueue&lt; T, P &gt;::PriorityQueue</definition>
-        <argsstring>(const P &amp;pred)</argsstring>
-        <name>PriorityQueue</name>
-        <qualifiedname>MR::PriorityQueue::PriorityQueue</qualifiedname>
-        <param>
-          <type>const P &amp;</type>
-          <declname>pred</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPriorityQueue.h" line="22" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPriorityQueue.h" bodystart="22" bodyend="22"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PriorityQueue_1a0a3fa89180c853554002ef654d27fa4b" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::PriorityQueue&lt; T, P &gt;::PriorityQueue</definition>
-        <argsstring>(const P &amp;pred, Container &amp;&amp;v MR_LIFETIMEBOUND_NESTED)</argsstring>
-        <name>PriorityQueue</name>
-        <qualifiedname>MR::PriorityQueue::PriorityQueue</qualifiedname>
-        <param>
-          <type>const P &amp;</type>
-          <declname>pred</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1PriorityQueue_1aeaf2b86418b3f772aaf5c8bc2329d8c2" kindref="member">Container</ref> &amp;&amp;v</type>
-          <declname>MR_LIFETIMEBOUND_NESTED</declname>
-        </param>
-        <briefdescription>
-<para>initializes queue elements from given vector </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPriorityQueue.h" line="25" column="14"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PriorityQueue_1a10d6af2f304f8f8ce7d09de3b272a283" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::PriorityQueue&lt; T, P &gt;::empty</definition>
-        <argsstring>() const</argsstring>
-        <name>empty</name>
-        <qualifiedname>MR::PriorityQueue::empty</qualifiedname>
-        <briefdescription>
-<para>checks if the queue has no elements </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPriorityQueue.h" line="28" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPriorityQueue.h" bodystart="28" bodyend="28"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PriorityQueue_1ab6d4bc3f087a1d5b9e3acf5c3334f1af" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="classMR_1_1PriorityQueue_1a657bf77bb26190bcd1415b93138f77d9" kindref="member">size_type</ref></type>
-        <definition>size_type MR::PriorityQueue&lt; T, P &gt;::size</definition>
-        <argsstring>() const</argsstring>
-        <name>size</name>
-        <qualifiedname>MR::PriorityQueue::size</qualifiedname>
-        <briefdescription>
-<para>returns the number of elements </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPriorityQueue.h" line="31" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPriorityQueue.h" bodystart="31" bodyend="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PriorityQueue_1a3973d3d98fabe3ab995b0773b4594bd4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const T &amp;</type>
-        <definition>const T &amp; MR::PriorityQueue&lt; T, P &gt;::top</definition>
-        <argsstring>() const MR_LIFETIMEBOUND</argsstring>
-        <name>top</name>
-        <qualifiedname>MR::PriorityQueue::top</qualifiedname>
-        <briefdescription>
-<para>accesses the top element </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPriorityQueue.h" line="34" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPriorityQueue.h" bodystart="34" bodyend="34"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PriorityQueue_1a2e187afc12c2e65ace2f15cc047a4347" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::PriorityQueue&lt; T, P &gt;::push</definition>
-        <argsstring>(const value_type &amp;value MR_LIFETIME_CAPTURE_BY_NESTED(this))</argsstring>
-        <name>push</name>
-        <qualifiedname>MR::PriorityQueue::push</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1PriorityQueue_1a3b6a5fb6f7530ae66dfec44b04efaf99" kindref="member">value_type</ref> &amp;value </type>
-          <declname>MR_LIFETIME_CAPTURE_BY_NESTED</declname>
-          <array>this</array>
-        </param>
-        <briefdescription>
-<para>inserts element in the queue </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPriorityQueue.h" line="37" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPriorityQueue.h" bodystart="37" bodyend="37"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PriorityQueue_1af459afbfa15d0c2d31e4deb76c8c0ba6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::PriorityQueue&lt; T, P &gt;::push</definition>
-        <argsstring>(value_type &amp;&amp;value MR_LIFETIME_CAPTURE_BY_NESTED(this))</argsstring>
-        <name>push</name>
-        <qualifiedname>MR::PriorityQueue::push</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1PriorityQueue_1a3b6a5fb6f7530ae66dfec44b04efaf99" kindref="member">value_type</ref> &amp;&amp;value </type>
-          <declname>MR_LIFETIME_CAPTURE_BY_NESTED</declname>
-          <array>this</array>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPriorityQueue.h" line="38" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPriorityQueue.h" bodystart="38" bodyend="38"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PriorityQueue_1a14e51732a3a52902181ca4b3d1f28374" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>class...</type>
-            <declname>Args</declname>
-            <defname>Args</defname>
-          </param>
-        </templateparamlist>
-        <type>void</type>
-        <definition>void MR::PriorityQueue&lt; T, P &gt;::emplace</definition>
-        <argsstring>(Args &amp;&amp;... args)</argsstring>
-        <name>emplace</name>
-        <qualifiedname>MR::PriorityQueue::emplace</qualifiedname>
-        <param>
-          <type>Args &amp;&amp;...</type>
-          <declname>args</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPriorityQueue.h" line="40" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPriorityQueue.h" bodystart="40" bodyend="40"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PriorityQueue_1ada44a589fd04a828763560decb38cdf8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::PriorityQueue&lt; T, P &gt;::pop</definition>
-        <argsstring>()</argsstring>
-        <name>pop</name>
-        <qualifiedname>MR::PriorityQueue::pop</qualifiedname>
-        <briefdescription>
-<para>removes the top element from the priority queue </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPriorityQueue.h" line="43" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPriorityQueue.h" bodystart="43" bodyend="43"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaae44e735cc86835adbb6d48ff4a446ab" kind="function"><name>PriorityQueue</name></member>
+      <member refid="group__GeneralGroup_1gaebd81e426914ebd5fa07ba5e4bfa0142" kind="function"><name>PriorityQueue</name></member>
+      <member refid="group__GeneralGroup_1ga0a3fa89180c853554002ef654d27fa4b" kind="function"><name>PriorityQueue</name></member>
+      <member refid="group__GeneralGroup_1ga10d6af2f304f8f8ce7d09de3b272a283" kind="function"><name>empty</name></member>
+      <member refid="group__GeneralGroup_1gab6d4bc3f087a1d5b9e3acf5c3334f1af" kind="function"><name>size</name></member>
+      <member refid="group__GeneralGroup_1ga3973d3d98fabe3ab995b0773b4594bd4" kind="function"><name>top</name></member>
+      <member refid="group__GeneralGroup_1ga2e187afc12c2e65ace2f15cc047a4347" kind="function"><name>push</name></member>
+      <member refid="group__GeneralGroup_1gaf459afbfa15d0c2d31e4deb76c8c0ba6" kind="function"><name>push</name></member>
+      <member refid="group__GeneralGroup_1ga14e51732a3a52902181ca4b3d1f28374" kind="function"><name>emplace</name></member>
+      <member refid="group__GeneralGroup_1gada44a589fd04a828763560decb38cdf8" kind="function"><name>pop</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMR_1_1PriorityQueue_1ac3768af1b2c1c1f02a594537e7ca9105" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::PriorityQueue&lt; T, P &gt;::onPush_</definition>
-        <argsstring>()</argsstring>
-        <name>onPush_</name>
-        <qualifiedname>MR::PriorityQueue::onPush_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPriorityQueue.h" line="50" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPriorityQueue.h" bodystart="50" bodyend="50"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gac3768af1b2c1c1f02a594537e7ca9105" kind="function"><name>onPush_</name></member>
     </sectiondef>
     <briefdescription>
 <para>similar to std::priority_queue, but with ability to access underlying vector to custom modify its elements </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPriorityQueue.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPriorityQueue.h" bodystart="14" bodyend="54"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPriorityQueue.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPriorityQueue.h" bodystart="17" bodyend="57"/>
     <listofallmembers>
-      <member refid="classMR_1_1PriorityQueue_1a5f49205aba3f95b0774623effbc87e49" prot="public" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>c</name></member>
-      <member refid="classMR_1_1PriorityQueue_1aeaf2b86418b3f772aaf5c8bc2329d8c2" prot="public" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>Container</name></member>
-      <member refid="classMR_1_1PriorityQueue_1a14e51732a3a52902181ca4b3d1f28374" prot="public" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>emplace</name></member>
-      <member refid="classMR_1_1PriorityQueue_1a10d6af2f304f8f8ce7d09de3b272a283" prot="public" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>empty</name></member>
-      <member refid="classMR_1_1PriorityQueue_1ac3768af1b2c1c1f02a594537e7ca9105" prot="private" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>onPush_</name></member>
-      <member refid="classMR_1_1PriorityQueue_1ada44a589fd04a828763560decb38cdf8" prot="public" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>pop</name></member>
-      <member refid="classMR_1_1PriorityQueue_1a47b9b9b360a49542db0f23581dd7d26b" prot="private" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>pred_</name></member>
-      <member refid="classMR_1_1PriorityQueue_1aae44e735cc86835adbb6d48ff4a446ab" prot="public" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>PriorityQueue</name></member>
-      <member refid="classMR_1_1PriorityQueue_1aebd81e426914ebd5fa07ba5e4bfa0142" prot="public" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>PriorityQueue</name></member>
-      <member refid="classMR_1_1PriorityQueue_1a0a3fa89180c853554002ef654d27fa4b" prot="public" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>PriorityQueue</name></member>
-      <member refid="classMR_1_1PriorityQueue_1a2e187afc12c2e65ace2f15cc047a4347" prot="public" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>push</name></member>
-      <member refid="classMR_1_1PriorityQueue_1af459afbfa15d0c2d31e4deb76c8c0ba6" prot="public" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>push</name></member>
-      <member refid="classMR_1_1PriorityQueue_1ab6d4bc3f087a1d5b9e3acf5c3334f1af" prot="public" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>size</name></member>
-      <member refid="classMR_1_1PriorityQueue_1a657bf77bb26190bcd1415b93138f77d9" prot="public" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>size_type</name></member>
-      <member refid="classMR_1_1PriorityQueue_1a3973d3d98fabe3ab995b0773b4594bd4" prot="public" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>top</name></member>
-      <member refid="classMR_1_1PriorityQueue_1a3b6a5fb6f7530ae66dfec44b04efaf99" prot="public" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>value_type</name></member>
+      <member refid="group__GeneralGroup_1ga5f49205aba3f95b0774623effbc87e49" prot="public" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>c</name></member>
+      <member refid="group__GeneralGroup_1gaeaf2b86418b3f772aaf5c8bc2329d8c2" prot="public" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>Container</name></member>
+      <member refid="group__GeneralGroup_1ga14e51732a3a52902181ca4b3d1f28374" prot="public" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>emplace</name></member>
+      <member refid="group__GeneralGroup_1ga10d6af2f304f8f8ce7d09de3b272a283" prot="public" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>empty</name></member>
+      <member refid="group__GeneralGroup_1gac3768af1b2c1c1f02a594537e7ca9105" prot="private" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>onPush_</name></member>
+      <member refid="group__GeneralGroup_1gada44a589fd04a828763560decb38cdf8" prot="public" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>pop</name></member>
+      <member refid="group__GeneralGroup_1ga47b9b9b360a49542db0f23581dd7d26b" prot="private" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>pred_</name></member>
+      <member refid="group__GeneralGroup_1gaae44e735cc86835adbb6d48ff4a446ab" prot="public" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>PriorityQueue</name></member>
+      <member refid="group__GeneralGroup_1gaebd81e426914ebd5fa07ba5e4bfa0142" prot="public" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>PriorityQueue</name></member>
+      <member refid="group__GeneralGroup_1ga0a3fa89180c853554002ef654d27fa4b" prot="public" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>PriorityQueue</name></member>
+      <member refid="group__GeneralGroup_1ga2e187afc12c2e65ace2f15cc047a4347" prot="public" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>push</name></member>
+      <member refid="group__GeneralGroup_1gaf459afbfa15d0c2d31e4deb76c8c0ba6" prot="public" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>push</name></member>
+      <member refid="group__GeneralGroup_1gab6d4bc3f087a1d5b9e3acf5c3334f1af" prot="public" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>size</name></member>
+      <member refid="group__GeneralGroup_1ga657bf77bb26190bcd1415b93138f77d9" prot="public" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>size_type</name></member>
+      <member refid="group__GeneralGroup_1ga3973d3d98fabe3ab995b0773b4594bd4" prot="public" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>top</name></member>
+      <member refid="group__GeneralGroup_1ga3b6a5fb6f7530ae66dfec44b04efaf99" prot="public" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>value_type</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

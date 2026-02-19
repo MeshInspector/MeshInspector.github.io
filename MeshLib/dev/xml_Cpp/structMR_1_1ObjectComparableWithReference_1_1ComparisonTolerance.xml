@@ -4,48 +4,18 @@
     <compoundname>MR::ObjectComparableWithReference::ComparisonTolerance</compoundname>
     <includes refid="MRObjectComparableWithReference_8h" local="no">MRObjectComparableWithReference.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1ObjectComparableWithReference_1_1ComparisonTolerance_1aab4637be6f5bd62c250414fb3bfd3000" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::ObjectComparableWithReference::ComparisonTolerance::positive</definition>
-        <argsstring></argsstring>
-        <name>positive</name>
-        <qualifiedname>MR::ObjectComparableWithReference::ComparisonTolerance::positive</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-<para>How much larger can this value be compared to the reference? </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h" line="58" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h" bodystart="58" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1ObjectComparableWithReference_1_1ComparisonTolerance_1a1833d1474b6f1ccbc444523a384c218a" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::ObjectComparableWithReference::ComparisonTolerance::negative</definition>
-        <argsstring></argsstring>
-        <name>negative</name>
-        <qualifiedname>MR::ObjectComparableWithReference::ComparisonTolerance::negative</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>How much smaller can this value be compared to the reference? This number should normally be zero or negative. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h" line="61" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h" bodystart="61" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaab4637be6f5bd62c250414fb3bfd3000" kind="variable"><name>positive</name></member>
+      <member refid="group__GeneralGroup_1ga1833d1474b6f1ccbc444523a384c218a" kind="variable"><name>negative</name></member>
     </sectiondef>
     <briefdescription>
 <para>Tolerances: </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h" line="55" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h" bodystart="56" bodyend="62"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h" line="58" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h" bodystart="59" bodyend="65"/>
     <listofallmembers>
-      <member refid="structMR_1_1ObjectComparableWithReference_1_1ComparisonTolerance_1a1833d1474b6f1ccbc444523a384c218a" prot="public" virt="non-virtual"><scope>MR::ObjectComparableWithReference::ComparisonTolerance</scope><name>negative</name></member>
-      <member refid="structMR_1_1ObjectComparableWithReference_1_1ComparisonTolerance_1aab4637be6f5bd62c250414fb3bfd3000" prot="public" virt="non-virtual"><scope>MR::ObjectComparableWithReference::ComparisonTolerance</scope><name>positive</name></member>
+      <member refid="group__GeneralGroup_1ga1833d1474b6f1ccbc444523a384c218a" prot="public" virt="non-virtual"><scope>MR::ObjectComparableWithReference::ComparisonTolerance</scope><name>negative</name></member>
+      <member refid="group__GeneralGroup_1gaab4637be6f5bd62c250414fb3bfd3000" prot="public" virt="non-virtual"><scope>MR::ObjectComparableWithReference::ComparisonTolerance</scope><name>positive</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

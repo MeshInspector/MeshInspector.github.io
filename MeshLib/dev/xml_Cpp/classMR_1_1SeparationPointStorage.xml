@@ -5,168 +5,32 @@
     <includes refid="MRSeparationPoint_8h" local="no">MRSeparationPoint.h</includes>
     <innerclass refid="structMR_1_1SeparationPointStorage_1_1Block" prot="public">MR::SeparationPointStorage::Block</innerclass>
     <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMR_1_1SeparationPointStorage_1a7bf39bb87065dd6c6f4986fa0c6551f4" prot="private" static="no" mutable="no">
-        <type>size_t</type>
-        <definition>size_t MR::SeparationPointStorage::blockSize_</definition>
-        <argsstring></argsstring>
-        <name>blockSize_</name>
-        <qualifiedname>MR::SeparationPointStorage::blockSize_</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSeparationPoint.h" line="63" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSeparationPoint.h" bodystart="63" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMR_1_1SeparationPointStorage_1a2bb0fcac5d0ea25e9aa8dd5275998525" prot="private" static="no" mutable="no">
-        <type>std::vector&lt; <ref refid="structMR_1_1SeparationPointStorage_1_1Block" kindref="compound">Block</ref> &gt;</type>
-        <definition>std::vector&lt;Block&gt; MR::SeparationPointStorage::blocks_</definition>
-        <argsstring></argsstring>
-        <name>blocks_</name>
-        <qualifiedname>MR::SeparationPointStorage::blocks_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSeparationPoint.h" line="64" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSeparationPoint.h" bodystart="64" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga7bf39bb87065dd6c6f4986fa0c6551f4" kind="variable"><name>blockSize_</name></member>
+      <member refid="group__GeneralGroup_1ga2bb0fcac5d0ea25e9aa8dd5275998525" kind="variable"><name>blocks_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMR_1_1SeparationPointStorage_1ac2cd0c47a3c902b6c162620b71ccf9c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::SeparationPointStorage::resize</definition>
-        <argsstring>(size_t blockCount, size_t blockSize)</argsstring>
-        <name>resize</name>
-        <qualifiedname>MR::SeparationPointStorage::resize</qualifiedname>
-        <param>
-          <type>size_t</type>
-          <declname>blockCount</declname>
-        </param>
-        <param>
-          <type>size_t</type>
-          <declname>blockSize</declname>
-        </param>
-        <briefdescription>
-<para>prepares storage for given number of blocks, each containing given size of voxels </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSeparationPoint.h" line="39" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SeparationPointStorage_1ad8c6370ffaec4ad07e20b71a365327d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1SeparationPointStorage_1_1Block" kindref="compound">Block</ref> &amp;</type>
-        <definition>Block &amp; MR::SeparationPointStorage::getBlock</definition>
-        <argsstring>(size_t blockIndex)</argsstring>
-        <name>getBlock</name>
-        <qualifiedname>MR::SeparationPointStorage::getBlock</qualifiedname>
-        <param>
-          <type>size_t</type>
-          <declname>blockIndex</declname>
-        </param>
-        <briefdescription>
-<para>get block for filling in the thread responsible for it </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSeparationPoint.h" line="42" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSeparationPoint.h" bodystart="42" bodyend="42"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SeparationPointStorage_1a99db5fa322a3860d51db5e4292a83786" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> int</type>
-        <definition>MRMESH_API int MR::SeparationPointStorage::makeUniqueVids</definition>
-        <argsstring>()</argsstring>
-        <name>makeUniqueVids</name>
-        <qualifiedname>MR::SeparationPointStorage::makeUniqueVids</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>shifts vertex ids in each block (after they are filled) to make them unique; returns the total number of valid points in the storage </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSeparationPoint.h" line="46" column="20"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SeparationPointStorage_1a4f797a53cf1d4fedcf01fbd51dcf3e04" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const <ref refid="namespaceMR_1a9818c25296630cb432dbe0d4e068734d" kindref="member">SeparationPointSet</ref> *</type>
-        <definition>const SeparationPointSet * MR::SeparationPointStorage::findSeparationPointSet</definition>
-        <argsstring>(size_t voxelId) const</argsstring>
-        <name>findSeparationPointSet</name>
-        <qualifiedname>MR::SeparationPointStorage::findSeparationPointSet</qualifiedname>
-        <param>
-          <type>size_t</type>
-          <declname>voxelId</declname>
-        </param>
-        <briefdescription>
-<para>finds the set (locating the block) by voxel id </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSeparationPoint.h" line="49" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSeparationPoint.h" bodystart="49" bodyend="54"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SeparationPointStorage_1a3ad8f87539f118ca7419849b7029208b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Triangulation</type>
-        <definition>MRMESH_API Triangulation MR::SeparationPointStorage::getTriangulation</definition>
-        <argsstring>(Vector&lt; VoxelId, FaceId &gt; *outVoxelPerFaceMap=nullptr) const</argsstring>
-        <name>getTriangulation</name>
-        <qualifiedname>MR::SeparationPointStorage::getTriangulation</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; VoxelId, FaceId &gt; *</type>
-          <declname>outVoxelPerFaceMap</declname>
-          <defval>nullptr</defval>
-        </param>
-        <briefdescription>
-<para>combines triangulations from every block into one and returns it </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSeparationPoint.h" line="57" column="30"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SeparationPointStorage_1a5a0d66ada3a7d052880ac0c16dfa4ca2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
-        <definition>MRMESH_API void MR::SeparationPointStorage::getPoints</definition>
-        <argsstring>(VertCoords &amp;points) const</argsstring>
-        <name>getPoints</name>
-        <qualifiedname>MR::SeparationPointStorage::getPoints</qualifiedname>
-        <param>
-          <type>VertCoords &amp;</type>
-          <declname>points</declname>
-        </param>
-        <briefdescription>
-<para>obtains coordinates of all stored points </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSeparationPoint.h" line="60" column="21"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gac2cd0c47a3c902b6c162620b71ccf9c6" kind="function"><name>resize</name></member>
+      <member refid="group__GeneralGroup_1gad8c6370ffaec4ad07e20b71a365327d7" kind="function"><name>getBlock</name></member>
+      <member refid="group__GeneralGroup_1ga99db5fa322a3860d51db5e4292a83786" kind="function"><name>makeUniqueVids</name></member>
+      <member refid="group__GeneralGroup_1ga4f797a53cf1d4fedcf01fbd51dcf3e04" kind="function"><name>findSeparationPointSet</name></member>
+      <member refid="group__GeneralGroup_1ga3ad8f87539f118ca7419849b7029208b" kind="function"><name>getTriangulation</name></member>
+      <member refid="group__GeneralGroup_1ga5a0d66ada3a7d052880ac0c16dfa4ca2" kind="function"><name>getPoints</name></member>
     </sectiondef>
     <briefdescription>
 <para>storage for points on voxel edges used in Marching Cubes algorithms </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSeparationPoint.h" line="21" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSeparationPoint.h" bodystart="22" bodyend="65"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSeparationPoint.h" line="24" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSeparationPoint.h" bodystart="25" bodyend="68"/>
     <listofallmembers>
-      <member refid="classMR_1_1SeparationPointStorage_1a2bb0fcac5d0ea25e9aa8dd5275998525" prot="private" virt="non-virtual"><scope>MR::SeparationPointStorage</scope><name>blocks_</name></member>
-      <member refid="classMR_1_1SeparationPointStorage_1a7bf39bb87065dd6c6f4986fa0c6551f4" prot="private" virt="non-virtual"><scope>MR::SeparationPointStorage</scope><name>blockSize_</name></member>
-      <member refid="classMR_1_1SeparationPointStorage_1a4f797a53cf1d4fedcf01fbd51dcf3e04" prot="public" virt="non-virtual"><scope>MR::SeparationPointStorage</scope><name>findSeparationPointSet</name></member>
-      <member refid="classMR_1_1SeparationPointStorage_1ad8c6370ffaec4ad07e20b71a365327d7" prot="public" virt="non-virtual"><scope>MR::SeparationPointStorage</scope><name>getBlock</name></member>
-      <member refid="classMR_1_1SeparationPointStorage_1a5a0d66ada3a7d052880ac0c16dfa4ca2" prot="public" virt="non-virtual"><scope>MR::SeparationPointStorage</scope><name>getPoints</name></member>
-      <member refid="classMR_1_1SeparationPointStorage_1a3ad8f87539f118ca7419849b7029208b" prot="public" virt="non-virtual"><scope>MR::SeparationPointStorage</scope><name>getTriangulation</name></member>
-      <member refid="classMR_1_1SeparationPointStorage_1a99db5fa322a3860d51db5e4292a83786" prot="public" virt="non-virtual"><scope>MR::SeparationPointStorage</scope><name>makeUniqueVids</name></member>
-      <member refid="classMR_1_1SeparationPointStorage_1ac2cd0c47a3c902b6c162620b71ccf9c6" prot="public" virt="non-virtual"><scope>MR::SeparationPointStorage</scope><name>resize</name></member>
+      <member refid="group__GeneralGroup_1ga2bb0fcac5d0ea25e9aa8dd5275998525" prot="private" virt="non-virtual"><scope>MR::SeparationPointStorage</scope><name>blocks_</name></member>
+      <member refid="group__GeneralGroup_1ga7bf39bb87065dd6c6f4986fa0c6551f4" prot="private" virt="non-virtual"><scope>MR::SeparationPointStorage</scope><name>blockSize_</name></member>
+      <member refid="group__GeneralGroup_1ga4f797a53cf1d4fedcf01fbd51dcf3e04" prot="public" virt="non-virtual"><scope>MR::SeparationPointStorage</scope><name>findSeparationPointSet</name></member>
+      <member refid="group__GeneralGroup_1gad8c6370ffaec4ad07e20b71a365327d7" prot="public" virt="non-virtual"><scope>MR::SeparationPointStorage</scope><name>getBlock</name></member>
+      <member refid="group__GeneralGroup_1ga5a0d66ada3a7d052880ac0c16dfa4ca2" prot="public" virt="non-virtual"><scope>MR::SeparationPointStorage</scope><name>getPoints</name></member>
+      <member refid="group__GeneralGroup_1ga3ad8f87539f118ca7419849b7029208b" prot="public" virt="non-virtual"><scope>MR::SeparationPointStorage</scope><name>getTriangulation</name></member>
+      <member refid="group__GeneralGroup_1ga99db5fa322a3860d51db5e4292a83786" prot="public" virt="non-virtual"><scope>MR::SeparationPointStorage</scope><name>makeUniqueVids</name></member>
+      <member refid="group__GeneralGroup_1gac2cd0c47a3c902b6c162620b71ccf9c6" prot="public" virt="non-virtual"><scope>MR::SeparationPointStorage</scope><name>resize</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

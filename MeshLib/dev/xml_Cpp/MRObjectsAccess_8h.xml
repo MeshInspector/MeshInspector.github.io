@@ -8,14 +8,14 @@
     <includedby refid="MRSceneCache_8h" local="yes">MRSceneCache.h</includedby>
     <includedby refid="MRVisualObjectTag_8h" local="yes">MRVisualObjectTag.h</includedby>
     <incdepgraph>
-      <node id="26">
+      <node id="18">
         <label>MRAffineXf.h</label>
         <link refid="MRAffineXf_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="24" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
@@ -25,30 +25,30 @@
         <link refid="MRAffineXf3_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="26" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
       </node>
-      <node id="27">
+      <node id="19">
         <label>MRBitSet.h</label>
         <link refid="MRBitSet_8h"/>
         <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="28" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
-        <childnode refid="29" relation="include">
+        <childnode refid="22" relation="include">
         </childnode>
-        <childnode refid="30" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="26" relation="include">
         </childnode>
-        <childnode refid="24" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="33" relation="include">
+        <childnode refid="27" relation="include">
         </childnode>
       </node>
-      <node id="34">
+      <node id="28">
         <label>MRBox.h</label>
         <link refid="MRBox_8h"/>
         <childnode refid="5" relation="include">
@@ -57,55 +57,49 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="35" relation="include">
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
         </childnode>
         <childnode refid="21" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="24" relation="include">
-        </childnode>
-        <childnode refid="36" relation="include">
+        <childnode refid="31" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
       </node>
-      <node id="12">
-        <label>MRMesh/MRCanonicalTypedefs.h</label>
-        <link refid="MRCanonicalTypedefs_8h"/>
-        <childnode refid="5" relation="include">
-        </childnode>
-      </node>
-      <node id="20">
+      <node id="11">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
-      <node id="37">
+      <node id="32">
         <label>MRExpected.h</label>
         <link refid="MRExpected_8h"/>
         <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="38" relation="include">
+        <childnode refid="33" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="34" relation="include">
         </childnode>
       </node>
-      <node id="28">
+      <node id="20">
         <label>MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="25" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
       </node>
       <node id="5">
@@ -119,14 +113,108 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRObject.h</label>
+        <link refid="MRObject_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRObjectsAccess.h</label>
+        <link refid="MRObjectsAccess_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>MRProgressCallback.h</label>
+        <link refid="MRProgressCallback_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>MRResizeNoInit.h</label>
+        <link refid="MRResizeNoInit_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>MRSignal.h</label>
+        <link refid="MRSignal_8h"/>
+        <childnode refid="37" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>MRVector.h</label>
+        <link refid="MRVector_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="24" relation="include">
         </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
       </node>
-      <node id="10">
-        <label>MRMeshFwd.h</label>
-        <link refid="MRMeshFwd_8h"/>
+      <node id="6">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
         <childnode refid="11" relation="include">
         </childnode>
         <childnode refid="12" relation="include">
@@ -141,229 +229,112 @@
         </childnode>
         <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
       </node>
-      <node id="2">
-        <label>MRObject.h</label>
-        <link refid="MRObject_8h"/>
-        <childnode refid="3" relation="include">
+      <node id="29">
+        <label>MRVectorTraits.h</label>
+        <link refid="MRMesh_2MRVectorTraits_8h"/>
+        <childnode refid="30" relation="include">
         </childnode>
-        <childnode refid="27" relation="include">
-        </childnode>
-        <childnode refid="34" relation="include">
-        </childnode>
-        <childnode refid="37" relation="include">
-        </childnode>
-        <childnode refid="39" relation="include">
-        </childnode>
-        <childnode refid="40" relation="include">
-        </childnode>
-        <childnode refid="42" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="45" relation="include">
-        </childnode>
-        <childnode refid="46" relation="include">
-        </childnode>
-        <childnode refid="47" relation="include">
-        </childnode>
-        <childnode refid="48" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
-      </node>
-      <node id="1">
-        <label>MRObjectsAccess.h</label>
-        <link refid="MRObjectsAccess_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="49" relation="include">
-        </childnode>
-      </node>
-      <node id="39">
-        <label>MRProgressCallback.h</label>
-        <link refid="MRProgressCallback_8h"/>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
-      </node>
-      <node id="31">
-        <label>MRResizeNoInit.h</label>
-        <link refid="MRResizeNoInit_8h"/>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="32" relation="include">
-        </childnode>
-      </node>
-      <node id="40">
-        <label>MRSignal.h</label>
-        <link refid="MRSignal_8h"/>
-        <childnode refid="41" relation="include">
-        </childnode>
-      </node>
-      <node id="7">
-        <label>MRMesh/MRUnsigned.h</label>
-        <link refid="MRUnsigned_8h"/>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-      </node>
-      <node id="30">
-        <label>MRVector.h</label>
-        <link refid="MRVector_8h"/>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="31" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-      </node>
-      <node id="6">
-        <label>MRVector3.h</label>
-        <link refid="MRVector3_8h"/>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
         <childnode refid="21" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
-        <childnode refid="23" relation="include">
-        </childnode>
-        <childnode refid="24" relation="include">
-        </childnode>
-        <childnode refid="25" relation="include">
-        </childnode>
       </node>
-      <node id="35">
-        <label>MRVectorTraits.h</label>
-        <link refid="MRMesh_2MRVectorTraits_8h"/>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-      </node>
-      <node id="43">
+      <node id="39">
         <label>MRViewportId.h</label>
         <link refid="MRViewportId_8h"/>
         <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
-      </node>
-      <node id="42">
-        <label>MRViewportProperty.h</label>
-        <link refid="MRViewportProperty_8h"/>
-        <childnode refid="43" relation="include">
-        </childnode>
-        <childnode refid="44" relation="include">
-        </childnode>
-      </node>
-      <node id="11">
-        <label>config.h</label>
-        <link refid="MRMesh_2config_8h"/>
-      </node>
-      <node id="49">
-        <label>MRObjectsAccess.hpp</label>
-      </node>
-      <node id="13">
-        <label>MRPch/MRBindingMacros.h</label>
       </node>
       <node id="38">
+        <label>MRViewportProperty.h</label>
+        <link refid="MRViewportProperty_8h"/>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>MRMesh/MRMeshFwd.h</label>
+      </node>
+      <node id="10">
+        <label>MRMeshFwd.h</label>
+      </node>
+      <node id="47">
+        <label>MRObjectsAccess.hpp</label>
+      </node>
+      <node id="12">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="33">
         <label>MRPch/MRExpected.h</label>
       </node>
-      <node id="29">
+      <node id="22">
         <label>MRphmap.h</label>
       </node>
-      <node id="21">
+      <node id="13">
         <label>algorithm</label>
       </node>
-      <node id="14">
+      <node id="41">
         <label>array</label>
       </node>
-      <node id="41">
+      <node id="37">
         <label>boost/signals2/signal.hpp</label>
       </node>
-      <node id="19">
+      <node id="21">
         <label>cassert</label>
       </node>
-      <node id="22">
+      <node id="14">
         <label>cmath</label>
       </node>
-      <node id="32">
+      <node id="25">
         <label>concepts</label>
       </node>
       <node id="8">
         <label>cstddef</label>
       </node>
-      <node id="23">
+      <node id="15">
         <label>cstring</label>
       </node>
-      <node id="45">
+      <node id="42">
         <label>filesystem</label>
       </node>
-      <node id="18">
+      <node id="26">
         <label>functional</label>
       </node>
-      <node id="46">
+      <node id="43">
         <label>future</label>
       </node>
-      <node id="24">
+      <node id="16">
         <label>iosfwd</label>
       </node>
-      <node id="33">
+      <node id="27">
         <label>iterator</label>
       </node>
-      <node id="36">
+      <node id="31">
         <label>limits</label>
       </node>
-      <node id="44">
+      <node id="40">
         <label>map</label>
       </node>
-      <node id="47">
+      <node id="44">
         <label>memory</label>
       </node>
-      <node id="17">
-        <label>parallel_hashmap/phmap_fwd_decl.h</label>
-      </node>
-      <node id="48">
+      <node id="45">
         <label>set</label>
       </node>
-      <node id="16">
+      <node id="34">
         <label>string</label>
       </node>
       <node id="9">
         <label>type_traits</label>
       </node>
-      <node id="25">
+      <node id="17">
         <label>utility</label>
       </node>
-      <node id="15">
+      <node id="46">
         <label>vector</label>
       </node>
     </incdepgraph>
@@ -387,62 +358,10 @@
     </invincdepgraph>
     <innernamespace refid="namespaceMR">MR</innernamespace>
     <sectiondef kind="var">
-      <memberdef kind="variable" id="MRObjectsAccess_8h_1a22f25a3d5d44b6ce0dd9cbf858973ae3" prot="public" static="no" mutable="no">
-        <type></type>
-        <definition>Selectable</definition>
-        <argsstring></argsstring>
-        <name>Selectable</name>
-        <briefdescription>
-<para>object itself and all its ancestors are selectable </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectsAccess.h" line="14" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectsAccess.h" bodystart="14" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="MRObjectsAccess_8h_1a502be4569ebb4f92d7ce2f38551965f4" prot="public" static="no" mutable="no">
-        <type></type>
-        <definition>LocalSelectable</definition>
-        <argsstring></argsstring>
-        <name>LocalSelectable</name>
-        <briefdescription>
-<para>object itself is selectable </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectsAccess.h" line="16" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectsAccess.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="MRObjectsAccess_8h_1a7c5b97c375750d43c6fc0f0a459fd9a3" prot="public" static="no" mutable="no">
-        <type></type>
-        <definition>Selected</definition>
-        <argsstring></argsstring>
-        <name>Selected</name>
-        <briefdescription>
-<para>object itself is selected and all its ancestors are selectable </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectsAccess.h" line="18" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectsAccess.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="MRObjectsAccess_8h_1a753ba03bf027d69237fecc008d1f0bec" prot="public" static="no" mutable="no">
-        <type></type>
-        <definition>LocalSelected</definition>
-        <argsstring></argsstring>
-        <name>LocalSelected</name>
-        <briefdescription>
-<para>object itself is selected </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectsAccess.h" line="20" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectsAccess.h" bodystart="20" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga22f25a3d5d44b6ce0dd9cbf858973ae3" kind="variable"><name>Selectable</name></member>
+      <member refid="group__GeneralGroup_1ga502be4569ebb4f92d7ce2f38551965f4" kind="variable"><name>LocalSelectable</name></member>
+      <member refid="group__GeneralGroup_1ga7c5b97c375750d43c6fc0f0a459fd9a3" kind="variable"><name>Selected</name></member>
+      <member refid="group__GeneralGroup_1ga753ba03bf027d69237fecc008d1f0bec" kind="variable"><name>LocalSelected</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -455,59 +374,60 @@
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="6"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref><sp/>ObjectSelectivityType</highlight></codeline>
-<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="14" refid="MRObjectsAccess_8h_1a22f25a3d5d44b6ce0dd9cbf858973ae3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRObjectsAccess_8h_1a22f25a3d5d44b6ce0dd9cbf858973ae3" kindref="member">Selectable</ref>,</highlight></codeline>
-<codeline lineno="16" refid="MRObjectsAccess_8h_1a502be4569ebb4f92d7ce2f38551965f4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRObjectsAccess_8h_1a502be4569ebb4f92d7ce2f38551965f4" kindref="member">LocalSelectable</ref>,</highlight></codeline>
-<codeline lineno="18" refid="MRObjectsAccess_8h_1a7c5b97c375750d43c6fc0f0a459fd9a3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRObjectsAccess_8h_1a7c5b97c375750d43c6fc0f0a459fd9a3" kindref="member">Selected</ref>,</highlight></codeline>
-<codeline lineno="20" refid="MRObjectsAccess_8h_1a753ba03bf027d69237fecc008d1f0bec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRObjectsAccess_8h_1a753ba03bf027d69237fecc008d1f0bec" kindref="member">LocalSelected</ref>,</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>Any</highlight></codeline>
-<codeline lineno="23"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26"><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>ObjectT<sp/>=<sp/>Object&gt;</highlight></codeline>
-<codeline lineno="27" refid="namespaceMR_1a63769cf93cfa3d68cbf331f305c195d8" refkind="member"><highlight class="normal">std::shared_ptr&lt;ObjectT&gt;<sp/><ref refid="namespaceMR_1a63769cf93cfa3d68cbf331f305c195d8" kindref="member">asSelectivityType</ref>(<sp/>std::shared_ptr&lt;Object&gt;<sp/>obj,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ObjectSelectivityType&amp;<sp/>type<sp/>);</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31"><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>ObjectT<sp/>=<sp/>Object&gt;</highlight></codeline>
-<codeline lineno="32" refid="namespaceMR_1a60db6fdac099905987b703a7fffe4746" refkind="member"><highlight class="normal">std::vector&lt;std::shared_ptr&lt;ObjectT&gt;&gt;<sp/><ref refid="namespaceMR_1a60db6fdac099905987b703a7fffe4746" kindref="member">getAllObjectsInTree</ref>(<sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>*<sp/>root,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ObjectSelectivityType&amp;<sp/>type<sp/>=<sp/>ObjectSelectivityType::Selectable<sp/>);</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>ObjectT<sp/>=<sp/>Object&gt;</highlight></codeline>
-<codeline lineno="34" refid="namespaceMR_1a079f85cf6e53fc4d193a549f04a7b8c2" refkind="member"><highlight class="normal"><ref refid="namespaceMR_1ac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>std::vector&lt;std::shared_ptr&lt;ObjectT&gt;&gt;<sp/><ref refid="namespaceMR_1a60db6fdac099905987b703a7fffe4746" kindref="member">getAllObjectsInTree</ref>(<sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>&amp;<sp/>root,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ObjectSelectivityType&amp;<sp/>type<sp/>=<sp/>ObjectSelectivityType::Selectable<sp/>)</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a60db6fdac099905987b703a7fffe4746" kindref="member">getAllObjectsInTree&lt;ObjectT&gt;</ref>(<sp/>&amp;root,<sp/>type<sp/>);<sp/>}</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38"><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>ObjectT<sp/>=<sp/>Object&gt;</highlight></codeline>
-<codeline lineno="39" refid="namespaceMR_1a7afd4c6187926b10b71f8631961165a0" refkind="member"><highlight class="normal">std::vector&lt;std::shared_ptr&lt;ObjectT&gt;&gt;<sp/><ref refid="namespaceMR_1a7afd4c6187926b10b71f8631961165a0" kindref="member">getTopmostVisibleObjects</ref>(<sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>*<sp/>root,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ObjectSelectivityType&amp;<sp/>type<sp/>=<sp/>ObjectSelectivityType::Selectable<sp/>)</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1acc9b485a213ffb2eef8b1f8736275915" kindref="member">getTopmostObjects&lt;ObjectT&gt;</ref>(<sp/>root,<sp/>type,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>);<sp/>}</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>ObjectT<sp/>=<sp/>Object&gt;</highlight></codeline>
-<codeline lineno="42" refid="namespaceMR_1a1bbf155b27ef19dd7f54b2e9a534f397" refkind="member"><highlight class="normal"><ref refid="namespaceMR_1ac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>std::vector&lt;std::shared_ptr&lt;ObjectT&gt;&gt;<sp/><ref refid="namespaceMR_1a7afd4c6187926b10b71f8631961165a0" kindref="member">getTopmostVisibleObjects</ref>(<sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>&amp;<sp/>root,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ObjectSelectivityType&amp;<sp/>type<sp/>=<sp/>ObjectSelectivityType::Selectable<sp/>)</highlight></codeline>
-<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1acc9b485a213ffb2eef8b1f8736275915" kindref="member">getTopmostObjects&lt;ObjectT&gt;</ref>(<sp/>&amp;root,<sp/>type,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>);<sp/>}</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="46"><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>ObjectT<sp/>=<sp/>Object&gt;</highlight></codeline>
-<codeline lineno="47" refid="namespaceMR_1acc9b485a213ffb2eef8b1f8736275915" refkind="member"><highlight class="normal">std::vector&lt;std::shared_ptr&lt;ObjectT&gt;&gt;<sp/><ref refid="namespaceMR_1acc9b485a213ffb2eef8b1f8736275915" kindref="member">getTopmostObjects</ref>(<sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>*<sp/>root,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ObjectSelectivityType&amp;<sp/>type<sp/>=<sp/>ObjectSelectivityType::Selectable,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>visibilityCheck<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>);</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>ObjectT<sp/>=<sp/>Object&gt;</highlight></codeline>
-<codeline lineno="49" refid="namespaceMR_1a89eaebb12e7fa96ec37a3b982eb9cbe7" refkind="member"><highlight class="normal"><ref refid="namespaceMR_1ac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>std::vector&lt;std::shared_ptr&lt;ObjectT&gt;&gt;<sp/><ref refid="namespaceMR_1acc9b485a213ffb2eef8b1f8736275915" kindref="member">getTopmostObjects</ref>(<sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>&amp;<sp/>root,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ObjectSelectivityType&amp;<sp/>type<sp/>=<sp/>ObjectSelectivityType::Selectable,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>visibilityCheck<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>)</highlight></codeline>
-<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1acc9b485a213ffb2eef8b1f8736275915" kindref="member">getTopmostObjects&lt;ObjectT&gt;</ref>(<sp/>&amp;root,<sp/>type,<sp/>visibilityCheck<sp/>);<sp/>}</highlight></codeline>
-<codeline lineno="51"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53"><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>ObjectT<sp/>=<sp/>Object&gt;</highlight></codeline>
-<codeline lineno="54" refid="namespaceMR_1afa3e42d954c50c383af5c20a059e34d2" refkind="member"><highlight class="normal">std::shared_ptr&lt;ObjectT&gt;<sp/><ref refid="namespaceMR_1afa3e42d954c50c383af5c20a059e34d2" kindref="member">getDepthFirstObject</ref>(<sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>*<sp/>root,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ObjectSelectivityType&amp;<sp/>type<sp/>);</highlight></codeline>
-<codeline lineno="55"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>ObjectT<sp/>=<sp/>Object&gt;</highlight></codeline>
-<codeline lineno="56" refid="namespaceMR_1a2ff9113ffb18df4c828b1e222c0ba236" refkind="member"><highlight class="normal"><ref refid="namespaceMR_1ac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ObjectT&gt;<sp/><ref refid="namespaceMR_1afa3e42d954c50c383af5c20a059e34d2" kindref="member">getDepthFirstObject</ref>(<sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>&amp;<sp/>root,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ObjectSelectivityType&amp;<sp/>type<sp/>)</highlight></codeline>
-<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1afa3e42d954c50c383af5c20a059e34d2" kindref="member">getDepthFirstObject&lt;ObjectT&gt;</ref>(<sp/>&amp;root,<sp/>type<sp/>);<sp/>}</highlight></codeline>
-<codeline lineno="58"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60"></codeline>
-<codeline lineno="63" refid="namespaceMR_1a7974cb0413a1baab9b74f14a1d14f410" refkind="member"><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a7974cb0413a1baab9b74f14a1d14f410" kindref="member">objectHasSelectableChildren</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Object" kindref="compound">MR::Object</ref>&amp;<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>recurse<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>)</highlight></codeline>
-<codeline lineno="64"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>child<sp/>:<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal">.children()<sp/>)</highlight></codeline>
-<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>!child-&gt;isAncillary()<sp/>||<sp/>(<sp/>recurse<sp/>&amp;&amp;<sp/><ref refid="namespaceMR_1a7974cb0413a1baab9b74f14a1d14f410" kindref="member">objectHasSelectableChildren</ref>(<sp/>*child,<sp/>recurse<sp/>)<sp/>)<sp/>)</highlight></codeline>
-<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="71"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="72"><highlight class="normal"></highlight></codeline>
-<codeline lineno="73"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="74"><highlight class="normal"></highlight></codeline>
-<codeline lineno="75"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRObjectsAccess.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/>MRMESH_CLASS<sp/>ObjectSelectivityType</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17" refid="group__GeneralGroup_1ga22f25a3d5d44b6ce0dd9cbf858973ae3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga22f25a3d5d44b6ce0dd9cbf858973ae3" kindref="member">Selectable</ref>,</highlight></codeline>
+<codeline lineno="19" refid="group__GeneralGroup_1ga502be4569ebb4f92d7ce2f38551965f4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga502be4569ebb4f92d7ce2f38551965f4" kindref="member">LocalSelectable</ref>,</highlight></codeline>
+<codeline lineno="21" refid="group__GeneralGroup_1ga7c5b97c375750d43c6fc0f0a459fd9a3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga7c5b97c375750d43c6fc0f0a459fd9a3" kindref="member">Selected</ref>,</highlight></codeline>
+<codeline lineno="23" refid="group__GeneralGroup_1ga753ba03bf027d69237fecc008d1f0bec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga753ba03bf027d69237fecc008d1f0bec" kindref="member">LocalSelected</ref>,</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>Any</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>ObjectT<sp/>=<sp/>Object&gt;</highlight></codeline>
+<codeline lineno="30" refid="group__GeneralGroup_1ga63769cf93cfa3d68cbf331f305c195d8" refkind="member"><highlight class="normal">std::shared_ptr&lt;ObjectT&gt;<sp/><ref refid="group__GeneralGroup_1ga63769cf93cfa3d68cbf331f305c195d8" kindref="member">asSelectivityType</ref>(<sp/>std::shared_ptr&lt;Object&gt;<sp/>obj,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ObjectSelectivityType&amp;<sp/>type<sp/>);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>ObjectT<sp/>=<sp/>Object&gt;</highlight></codeline>
+<codeline lineno="35" refid="group__GeneralGroup_1ga60db6fdac099905987b703a7fffe4746" refkind="member"><highlight class="normal">std::vector&lt;std::shared_ptr&lt;ObjectT&gt;&gt;<sp/><ref refid="group__GeneralGroup_1ga60db6fdac099905987b703a7fffe4746" kindref="member">getAllObjectsInTree</ref>(<sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>*<sp/>root,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ObjectSelectivityType&amp;<sp/>type<sp/>=<sp/>ObjectSelectivityType::Selectable<sp/>);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>ObjectT<sp/>=<sp/>Object&gt;</highlight></codeline>
+<codeline lineno="37" refid="group__GeneralGroup_1ga079f85cf6e53fc4d193a549f04a7b8c2" refkind="member"><highlight class="normal"><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>std::vector&lt;std::shared_ptr&lt;ObjectT&gt;&gt;<sp/><ref refid="group__GeneralGroup_1ga60db6fdac099905987b703a7fffe4746" kindref="member">getAllObjectsInTree</ref>(<sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>&amp;<sp/>root,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ObjectSelectivityType&amp;<sp/>type<sp/>=<sp/>ObjectSelectivityType::Selectable<sp/>)</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga60db6fdac099905987b703a7fffe4746" kindref="member">getAllObjectsInTree&lt;ObjectT&gt;</ref>(<sp/>&amp;root,<sp/>type<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>ObjectT<sp/>=<sp/>Object&gt;</highlight></codeline>
+<codeline lineno="42" refid="group__GeneralGroup_1ga7afd4c6187926b10b71f8631961165a0" refkind="member"><highlight class="normal">std::vector&lt;std::shared_ptr&lt;ObjectT&gt;&gt;<sp/><ref refid="group__GeneralGroup_1ga7afd4c6187926b10b71f8631961165a0" kindref="member">getTopmostVisibleObjects</ref>(<sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>*<sp/>root,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ObjectSelectivityType&amp;<sp/>type<sp/>=<sp/>ObjectSelectivityType::Selectable<sp/>)</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gacc9b485a213ffb2eef8b1f8736275915" kindref="member">getTopmostObjects&lt;ObjectT&gt;</ref>(<sp/>root,<sp/>type,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>ObjectT<sp/>=<sp/>Object&gt;</highlight></codeline>
+<codeline lineno="45" refid="group__GeneralGroup_1ga1bbf155b27ef19dd7f54b2e9a534f397" refkind="member"><highlight class="normal"><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>std::vector&lt;std::shared_ptr&lt;ObjectT&gt;&gt;<sp/><ref refid="group__GeneralGroup_1ga7afd4c6187926b10b71f8631961165a0" kindref="member">getTopmostVisibleObjects</ref>(<sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>&amp;<sp/>root,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ObjectSelectivityType&amp;<sp/>type<sp/>=<sp/>ObjectSelectivityType::Selectable<sp/>)</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gacc9b485a213ffb2eef8b1f8736275915" kindref="member">getTopmostObjects&lt;ObjectT&gt;</ref>(<sp/>&amp;root,<sp/>type,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>ObjectT<sp/>=<sp/>Object&gt;</highlight></codeline>
+<codeline lineno="50" refid="group__GeneralGroup_1gacc9b485a213ffb2eef8b1f8736275915" refkind="member"><highlight class="normal">std::vector&lt;std::shared_ptr&lt;ObjectT&gt;&gt;<sp/><ref refid="group__GeneralGroup_1gacc9b485a213ffb2eef8b1f8736275915" kindref="member">getTopmostObjects</ref>(<sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>*<sp/>root,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ObjectSelectivityType&amp;<sp/>type<sp/>=<sp/>ObjectSelectivityType::Selectable,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>visibilityCheck<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>ObjectT<sp/>=<sp/>Object&gt;</highlight></codeline>
+<codeline lineno="52" refid="group__GeneralGroup_1ga89eaebb12e7fa96ec37a3b982eb9cbe7" refkind="member"><highlight class="normal"><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>std::vector&lt;std::shared_ptr&lt;ObjectT&gt;&gt;<sp/><ref refid="group__GeneralGroup_1gacc9b485a213ffb2eef8b1f8736275915" kindref="member">getTopmostObjects</ref>(<sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>&amp;<sp/>root,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ObjectSelectivityType&amp;<sp/>type<sp/>=<sp/>ObjectSelectivityType::Selectable,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>visibilityCheck<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>)</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gacc9b485a213ffb2eef8b1f8736275915" kindref="member">getTopmostObjects&lt;ObjectT&gt;</ref>(<sp/>&amp;root,<sp/>type,<sp/>visibilityCheck<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>ObjectT<sp/>=<sp/>Object&gt;</highlight></codeline>
+<codeline lineno="57" refid="group__GeneralGroup_1gafa3e42d954c50c383af5c20a059e34d2" refkind="member"><highlight class="normal">std::shared_ptr&lt;ObjectT&gt;<sp/><ref refid="group__GeneralGroup_1gafa3e42d954c50c383af5c20a059e34d2" kindref="member">getDepthFirstObject</ref>(<sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>*<sp/>root,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ObjectSelectivityType&amp;<sp/>type<sp/>);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>ObjectT<sp/>=<sp/>Object&gt;</highlight></codeline>
+<codeline lineno="59" refid="group__GeneralGroup_1ga2ff9113ffb18df4c828b1e222c0ba236" refkind="member"><highlight class="normal"><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ObjectT&gt;<sp/><ref refid="group__GeneralGroup_1gafa3e42d954c50c383af5c20a059e34d2" kindref="member">getDepthFirstObject</ref>(<sp/><ref refid="classMR_1_1Object" kindref="compound">Object</ref>&amp;<sp/>root,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ObjectSelectivityType&amp;<sp/>type<sp/>)</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gafa3e42d954c50c383af5c20a059e34d2" kindref="member">getDepthFirstObject&lt;ObjectT&gt;</ref>(<sp/>&amp;root,<sp/>type<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"></codeline>
+<codeline lineno="66" refid="group__GeneralGroup_1ga7974cb0413a1baab9b74f14a1d14f410" refkind="member"><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7974cb0413a1baab9b74f14a1d14f410" kindref="member">objectHasSelectableChildren</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Object" kindref="compound">MR::Object</ref>&amp;<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>recurse<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>)</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>child<sp/>:<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal">.children()<sp/>)</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>!child-&gt;isAncillary()<sp/>||<sp/>(<sp/>recurse<sp/>&amp;&amp;<sp/><ref refid="group__GeneralGroup_1ga7974cb0413a1baab9b74f14a1d14f410" kindref="member">objectHasSelectableChildren</ref>(<sp/>*child,<sp/>recurse<sp/>)<sp/>)<sp/>)</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRObjectsAccess.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectsAccess.h"/>
   </compounddef>

@@ -3,28 +3,15 @@
   <compounddef id="structMR_1_1ViewportGL_1_1PickColor" kind="struct" language="C++" prot="private">
     <compoundname>MR::ViewportGL::PickColor</compoundname>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1ViewportGL_1_1PickColor_1aa3b4158113bf9222c85c1bbe85c1433a" prot="public" static="no" mutable="no">
-        <type>unsigned</type>
-        <definition>unsigned MR::ViewportGL::PickColor::color[4]</definition>
-        <argsstring>[4]</argsstring>
-        <name>color</name>
-        <qualifiedname>MR::ViewportGL::PickColor::color</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="108" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="108" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaa3b4158113bf9222c85c1bbe85c1433a" kind="variable"><name>color</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="106" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="107" bodyend="109"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="109" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="110" bodyend="112"/>
     <listofallmembers>
-      <member refid="structMR_1_1ViewportGL_1_1PickColor_1aa3b4158113bf9222c85c1bbe85c1433a" prot="public" virt="non-virtual"><scope>MR::ViewportGL::PickColor</scope><name>color</name></member>
+      <member refid="group__GeneralGroup_1gaa3b4158113bf9222c85c1bbe85c1433a" prot="public" virt="non-virtual"><scope>MR::ViewportGL::PickColor</scope><name>color</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

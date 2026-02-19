@@ -21,7 +21,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" line="95" column="13"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1IPointsProjector_1ae6ae7b291953d433a794999d25ef10df" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
-        <type><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
         <definition>virtual Expected&lt; void &gt; MR::IPointsProjector::setPointCloud</definition>
         <argsstring>(const PointCloud &amp;pointCloud)=0</argsstring>
         <name>setPointCloud</name>
@@ -42,7 +42,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" line="98" column="22"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1IPointsProjector_1a73d0b887b876f110e3fb6554422f9a31" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
-        <type><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
         <definition>virtual Expected&lt; void &gt; MR::IPointsProjector::findProjections</definition>
         <argsstring>(std::vector&lt; PointsProjectionResult &gt; &amp;results, const std::vector&lt; Vector3f &gt; &amp;points, const FindProjectionOnPointsSettings &amp;settings) const =0</argsstring>
         <name>findProjections</name>

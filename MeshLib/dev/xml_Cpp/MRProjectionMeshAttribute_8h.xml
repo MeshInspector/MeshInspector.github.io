@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="MRProjectionMeshAttribute_8h" kind="file" language="C++">
     <compoundname>MRProjectionMeshAttribute.h</compoundname>
-    <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
+    <includes local="yes">MRMeshFwd.h</includes>
     <includes refid="MRAffineXf_8h" local="yes">MRAffineXf.h</includes>
     <includes refid="MRMatrix3_8h" local="yes">MRMatrix3.h</includes>
     <includes refid="MRMesh_8h" local="yes">MRMesh.h</includes>
@@ -10,284 +10,256 @@
     <includes refid="MRMeshProject_8h" local="yes">MRMeshProject.h</includes>
     <includes refid="MRMeshAttributesToUpdate_8h" local="yes">MRMeshAttributesToUpdate.h</includes>
     <incdepgraph>
-      <node id="13">
+      <node id="3">
         <label>MRAffineXf.h</label>
         <link refid="MRAffineXf_8h"/>
-        <childnode refid="5" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="32">
+      <node id="25">
         <label>MRBitSet.h</label>
         <link refid="MRBitSet_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="31" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
-        <childnode refid="33" relation="include">
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
         </childnode>
         <childnode refid="27" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="34" relation="include">
-        </childnode>
-      </node>
-      <node id="55">
-        <label>MRBitSetParallelFor.h</label>
-        <link refid="MRBitSetParallelFor_8h"/>
-        <childnode refid="32" relation="include">
-        </childnode>
-        <childnode refid="56" relation="include">
-        </childnode>
-        <childnode refid="57" relation="include">
-        </childnode>
-        <childnode refid="41" relation="include">
-        </childnode>
-      </node>
-      <node id="4">
-        <label>MRMesh/MRCanonicalTypedefs.h</label>
-        <link refid="MRCanonicalTypedefs_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
       </node>
-      <node id="20">
+      <node id="51">
+        <label>MRBitSetParallelFor.h</label>
+        <link refid="MRBitSetParallelFor_8h"/>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
-      <node id="40">
+      <node id="34">
         <label>MREdgePoint.h</label>
         <link refid="MREdgePoint_8h"/>
-        <childnode refid="31" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
-        <childnode refid="38" relation="include">
+        <childnode refid="32" relation="include">
         </childnode>
       </node>
-      <node id="49">
+      <node id="45">
         <label>MREnums.h</label>
         <link refid="MREnums_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
-      <node id="42">
+      <node id="36">
         <label>MRExpected.h</label>
         <link refid="MRExpected_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="43" relation="include">
+        <childnode refid="37" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="38" relation="include">
         </childnode>
       </node>
-      <node id="56">
+      <node id="52">
         <label>MRFunctional.h</label>
         <link refid="MRFunctional_8h"/>
-        <childnode refid="11" relation="include">
+        <childnode refid="27" relation="include">
         </childnode>
-        <childnode refid="24" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
       </node>
-      <node id="31">
+      <node id="24">
         <label>MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="22" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
-        <childnode refid="24" relation="include">
-        </childnode>
-      </node>
-      <node id="5">
-        <label>MRMesh/MRMacros.h</label>
-        <link refid="MRMacros_8h"/>
-      </node>
-      <node id="16">
-        <label>MRMatrix3.h</label>
-        <link refid="MRMatrix3_8h"/>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-      </node>
-      <node id="25">
-        <label>MRMesh.h</label>
-        <link refid="MRMesh_8h"/>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="26" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="46" relation="include">
+      </node>
+      <node id="4">
+        <label>MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="7">
+        <label>MRMatrix3.h</label>
+        <link refid="MRMatrix3_8h"/>
+        <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="47" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="40" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="52" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="54" relation="include">
+      </node>
+      <node id="17">
+        <label>MRMesh.h</label>
+        <link refid="MRMesh_8h"/>
+        <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
         <childnode refid="41" relation="include">
         </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
         <childnode refid="50" relation="include">
         </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
       </node>
-      <node id="59">
+      <node id="55">
         <label>MRMeshAttributesToUpdate.h</label>
         <link refid="MRMeshAttributesToUpdate_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
-      <node id="46">
+      <node id="41">
         <label>MRMeshBuilderTypes.h</label>
         <link refid="MRMeshBuilderTypes_8h"/>
-        <childnode refid="31" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="2">
-        <label>MRMeshFwd.h</label>
-        <link refid="MRMeshFwd_8h"/>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="42" relation="include">
         </childnode>
       </node>
-      <node id="26">
+      <node id="18">
         <label>MRMeshMath.h</label>
         <link refid="MRMeshMath_8h"/>
-        <childnode refid="6" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="27" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="30" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
-        <childnode refid="45" relation="include">
+        <childnode refid="40" relation="include">
         </childnode>
       </node>
-      <node id="48">
+      <node id="44">
         <label>MRMeshPart.h</label>
         <link refid="MRMeshPart_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
-      <node id="47">
+      <node id="43">
         <label>MRMeshProject.h</label>
         <link refid="MRMeshProject_8h"/>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
         <childnode refid="45" relation="include">
         </childnode>
-        <childnode refid="36" relation="include">
+        <childnode refid="46" relation="include">
         </childnode>
-        <childnode refid="48" relation="include">
-        </childnode>
-        <childnode refid="49" relation="include">
-        </childnode>
-        <childnode refid="50" relation="include">
-        </childnode>
-        <childnode refid="51" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-      </node>
-      <node id="30">
-        <label>MRMeshTopology.h</label>
-        <link refid="MRMeshTopology_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="31" relation="include">
+        <childnode refid="47" relation="include">
         </childnode>
         <childnode refid="27" relation="include">
         </childnode>
-        <childnode refid="32" relation="include">
+      </node>
+      <node id="23">
+        <label>MRMeshTopology.h</label>
+        <link refid="MRMeshTopology_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
         </childnode>
         <childnode refid="35" relation="include">
         </childnode>
         <childnode refid="36" relation="include">
         </childnode>
-        <childnode refid="41" relation="include">
-        </childnode>
-        <childnode refid="42" relation="include">
-        </childnode>
-        <childnode refid="44" relation="include">
+        <childnode refid="39" relation="include">
         </childnode>
       </node>
-      <node id="36">
+      <node id="30">
         <label>MRMeshTriPoint.h</label>
         <link refid="MRMeshTriPoint_8h"/>
+        <childnode refid="24" relation="include">
+        </childnode>
         <childnode refid="31" relation="include">
         </childnode>
-        <childnode refid="37" relation="include">
-        </childnode>
-        <childnode refid="40" relation="include">
+        <childnode refid="34" relation="include">
         </childnode>
       </node>
-      <node id="57">
+      <node id="53">
         <label>MRParallel.h</label>
         <link refid="MRParallel_8h"/>
-        <childnode refid="58" relation="include">
+        <childnode refid="54" relation="include">
         </childnode>
       </node>
-      <node id="35">
+      <node id="29">
         <label>MRPartMapping.h</label>
         <link refid="MRPartMapping_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
-      <node id="45">
+      <node id="40">
         <label>MRPointOnFace.h</label>
         <link refid="MRPointOnFace_8h"/>
-        <childnode refid="17" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="31" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="41">
+      <node id="35">
         <label>MRProgressCallback.h</label>
         <link refid="MRProgressCallback_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
         <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -295,186 +267,179 @@
         <link refid="MRProjectionMeshAttribute_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="25" relation="include">
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
         </childnode>
         <childnode refid="55" relation="include">
         </childnode>
-        <childnode refid="47" relation="include">
-        </childnode>
-        <childnode refid="59" relation="include">
-        </childnode>
       </node>
-      <node id="28">
+      <node id="20">
         <label>MRResizeNoInit.h</label>
         <link refid="MRResizeNoInit_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="29" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
       </node>
-      <node id="38">
+      <node id="32">
         <label>MRSegmPoint.h</label>
         <link refid="MRSegmPoint_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="39" relation="include">
+        <childnode refid="33" relation="include">
         </childnode>
       </node>
-      <node id="52">
+      <node id="48">
         <label>MRSharedThreadSafeOwner.h</label>
         <link refid="MRSharedThreadSafeOwner_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="53" relation="include">
-        </childnode>
-      </node>
-      <node id="37">
-        <label>MRTriPoint.h</label>
-        <link refid="MRTriPoint_8h"/>
-        <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="38" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-      </node>
-      <node id="18">
-        <label>MRMesh/MRUnsigned.h</label>
-        <link refid="MRUnsigned_8h"/>
-        <childnode refid="19" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
-      </node>
-      <node id="27">
-        <label>MRVector.h</label>
-        <link refid="MRVector_8h"/>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="28" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
         <childnode refid="12" relation="include">
         </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
       </node>
-      <node id="17">
-        <label>MRVector3.h</label>
-        <link refid="MRVector3_8h"/>
+      <node id="31">
+        <label>MRTriPoint.h</label>
+        <link refid="MRTriPoint_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
+      </node>
+      <node id="9">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>MRVector.h</label>
+        <link refid="MRVector_8h"/>
+        <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="20" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
         <childnode refid="22" relation="include">
         </childnode>
-        <childnode refid="23" relation="include">
+      </node>
+      <node id="8">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="24" relation="include">
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
         </childnode>
       </node>
-      <node id="54">
+      <node id="50">
         <label>MRWriter.h</label>
         <link refid="MRWriter_8h"/>
       </node>
-      <node id="3">
-        <label>config.h</label>
-        <link refid="MRMesh_2config_8h"/>
-      </node>
-      <node id="6">
-        <label>MRPch/MRBindingMacros.h</label>
-      </node>
-      <node id="43">
-        <label>MRPch/MRExpected.h</label>
-      </node>
-      <node id="58">
-        <label>MRPch/MRTBB.h</label>
-      </node>
-      <node id="33">
-        <label>MRphmap.h</label>
-      </node>
-      <node id="21">
-        <label>algorithm</label>
-      </node>
-      <node id="7">
-        <label>array</label>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
       </node>
       <node id="12">
-        <label>cassert</label>
+        <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="50">
-        <label>cfloat</label>
+      <node id="37">
+        <label>MRPch/MRExpected.h</label>
+      </node>
+      <node id="54">
+        <label>MRPch/MRTBB.h</label>
+      </node>
+      <node id="26">
+        <label>MRphmap.h</label>
+      </node>
+      <node id="13">
+        <label>algorithm</label>
+      </node>
+      <node id="42">
+        <label>array</label>
       </node>
       <node id="22">
-        <label>cmath</label>
+        <label>cassert</label>
       </node>
-      <node id="29">
-        <label>concepts</label>
-      </node>
-      <node id="19">
-        <label>cstddef</label>
-      </node>
-      <node id="23">
-        <label>cstring</label>
-      </node>
-      <node id="44">
-        <label>fstream</label>
-      </node>
-      <node id="11">
-        <label>functional</label>
+      <node id="46">
+        <label>cfloat</label>
       </node>
       <node id="14">
-        <label>iosfwd</label>
+        <label>cmath</label>
       </node>
-      <node id="34">
-        <label>iterator</label>
-      </node>
-      <node id="39">
-        <label>limits</label>
-      </node>
-      <node id="53">
-        <label>memory</label>
-      </node>
-      <node id="51">
-        <label>optional</label>
+      <node id="21">
+        <label>concepts</label>
       </node>
       <node id="10">
-        <label>parallel_hashmap/phmap_fwd_decl.h</label>
-      </node>
-      <node id="9">
-        <label>string</label>
+        <label>cstddef</label>
       </node>
       <node id="15">
+        <label>cstring</label>
+      </node>
+      <node id="39">
+        <label>fstream</label>
+      </node>
+      <node id="27">
+        <label>functional</label>
+      </node>
+      <node id="5">
+        <label>iosfwd</label>
+      </node>
+      <node id="28">
+        <label>iterator</label>
+      </node>
+      <node id="33">
+        <label>limits</label>
+      </node>
+      <node id="49">
+        <label>memory</label>
+      </node>
+      <node id="47">
+        <label>optional</label>
+      </node>
+      <node id="38">
+        <label>string</label>
+      </node>
+      <node id="6">
         <label>type_traits</label>
       </node>
-      <node id="24">
+      <node id="16">
         <label>utility</label>
-      </node>
-      <node id="8">
-        <label>vector</label>
       </node>
     </incdepgraph>
     <innerclass refid="structMR_1_1ProjectAttributeParams" prot="public">MR::ProjectAttributeParams</innerclass>
@@ -486,7 +451,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRAffineXf_8h" kindref="compound">MRAffineXf.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMatrix3_8h" kindref="compound">MRMatrix3.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMesh_8h" kindref="compound">MRMesh.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
@@ -496,52 +461,53 @@
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="12"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="structMR_1_1ProjectAttributeParams" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ProjectAttributeParams" kindref="compound">ProjectAttributeParams</ref></highlight></codeline>
-<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="17" refid="structMR_1_1ProjectAttributeParams_1a4ed7b5103a09ec50b55cc7d76e2fd9a5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1MeshProjectionTransforms" kindref="compound">MeshProjectionTransforms</ref><sp/><ref refid="structMR_1_1ProjectAttributeParams_1a4ed7b5103a09ec50b55cc7d76e2fd9a5" kindref="member">xfs</ref>;</highlight></codeline>
-<codeline lineno="18" refid="structMR_1_1ProjectAttributeParams_1af693ac66bc0bd5d4efcd44cde67cfda4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/><ref refid="structMR_1_1ProjectAttributeParams_1af693ac66bc0bd5d4efcd44cde67cfda4" kindref="member">progressCb</ref>;</highlight></codeline>
-<codeline lineno="19"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23"><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>F&gt;</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1af2199fb84f92befa49011fd4f55f4f09" kindref="member">projectVertAttribute</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshVertPart&amp;<sp/>mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>oldMesh,<sp/>F&amp;&amp;<sp/>func,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ProjectAttributeParams" kindref="compound">ProjectAttributeParams</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28"><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>F&gt;</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1afb43cdb85d285bf367875ed35c3d8d7a" kindref="member">projectFaceAttribute</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a49165bcb87a59752b8f02f19ea7f2424" kindref="member">Mesh</ref>&amp;<sp/>oldMesh,<sp/>F&amp;&amp;<sp/>func,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ProjectAttributeParams&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39" refid="namespaceMR_1acaa5c4c3fe921e2f2b78146aae104a33" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="namespaceMR_1acaa5c4c3fe921e2f2b78146aae104a33" kindref="member">projectObjectMeshData</ref>(<sp/></highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ObjectMeshData" kindref="compound">ObjectMeshData</ref>&amp;<sp/>oldMeshData,<sp/><ref refid="structMR_1_1ObjectMeshData" kindref="compound">ObjectMeshData</ref>&amp;<sp/>newMeshData,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FaceBitSet*<sp/>region<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ProjectAttributeParams" kindref="compound">ProjectAttributeParams</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>F&gt;</highlight></codeline>
-<codeline lineno="44" refid="namespaceMR_1af2199fb84f92befa49011fd4f55f4f09" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1af2199fb84f92befa49011fd4f55f4f09" kindref="member">projectVertAttribute</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshVertPart&amp;<sp/>mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>oldMesh,<sp/>F&amp;&amp;<sp/>func,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ProjectAttributeParams" kindref="compound">ProjectAttributeParams</ref>&amp;<sp/>params<sp/>)</highlight></codeline>
-<codeline lineno="45"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__BasicGroup_1ga6f038e999890735ffdb5f8119eb5650e" kindref="member">BitSetParallelFor</ref>(<sp/>mp.mesh.topology.getVertIds(<sp/>mp.region<sp/>),<sp/>[&amp;]<sp/>(<sp/>VertId<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>)</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>auto<sp/>point<sp/>=<sp/>!params.xfs.rigidXfPoint<sp/>?<sp/>mp.mesh.points[id]<sp/>:<sp/>(<sp/>*params.xfs.rigidXfPoint<sp/>)(<sp/>mp.mesh.points[id]<sp/>);</highlight></codeline>
-<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>auto<sp/>projectionResult<sp/>=<sp/>findProjection(<sp/>point,<sp/>oldMesh,<sp/>FLT_MAX,<sp/>params.xfs.nonRigidXfTree<sp/>);</highlight></codeline>
-<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>auto<sp/>res<sp/>=<sp/>projectionResult.mtp;</highlight></codeline>
-<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>VertId<sp/>v1<sp/>=<sp/>oldMesh.topology.org(<sp/>res.e<sp/>);</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>VertId<sp/>v2<sp/>=<sp/>oldMesh.topology.dest(<sp/>res.e<sp/>);</highlight></codeline>
-<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>VertId<sp/>v3<sp/>=<sp/>oldMesh.topology.dest(<sp/>oldMesh.topology.next(<sp/>res.e<sp/>)<sp/>);</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>func(<sp/>id,<sp/>projectionResult,<sp/>v1,<sp/>v2,<sp/>v3<sp/>);</highlight></codeline>
-<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>},</highlight></codeline>
-<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>params.<ref refid="structMR_1_1ProjectAttributeParams_1af693ac66bc0bd5d4efcd44cde67cfda4" kindref="member">progressCb</ref><sp/>);</highlight></codeline>
-<codeline lineno="57"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="58"><highlight class="normal"></highlight></codeline>
-<codeline lineno="59"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>F&gt;</highlight></codeline>
-<codeline lineno="60" refid="namespaceMR_1afb43cdb85d285bf367875ed35c3d8d7a" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1afb43cdb85d285bf367875ed35c3d8d7a" kindref="member">projectFaceAttribute</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>oldMesh,<sp/>F&amp;&amp;<sp/>func,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ProjectAttributeParams" kindref="compound">ProjectAttributeParams</ref>&amp;<sp/>params<sp/>)</highlight></codeline>
-<codeline lineno="61"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__BasicGroup_1ga6f038e999890735ffdb5f8119eb5650e" kindref="member">BitSetParallelFor</ref>(<sp/>mp.mesh.topology.getFaceIds(<sp/>mp.region<sp/>),<sp/>[&amp;]<sp/>(<sp/>FaceId<sp/>newFaceId<sp/>)</highlight></codeline>
-<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>auto<sp/>point<sp/>=<sp/>!params.xfs.rigidXfPoint<sp/>?<sp/>mp.mesh.triCenter(<sp/>newFaceId<sp/>)<sp/>:<sp/>(<sp/>*params.xfs.rigidXfPoint<sp/>)(<sp/>mp.mesh.triCenter(<sp/>newFaceId<sp/>)<sp/>);</highlight></codeline>
-<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>auto<sp/>projectionResult<sp/>=<sp/>findProjection(<sp/>point,<sp/>oldMesh,<sp/>FLT_MAX,<sp/>params.xfs.nonRigidXfTree<sp/>);</highlight></codeline>
-<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>func(<sp/>newFaceId,<sp/>projectionResult<sp/>);</highlight></codeline>
-<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>},</highlight></codeline>
-<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>params.<ref refid="structMR_1_1ProjectAttributeParams_1af693ac66bc0bd5d4efcd44cde67cfda4" kindref="member">progressCb</ref><sp/>);</highlight></codeline>
-<codeline lineno="69"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="70"><highlight class="normal"></highlight></codeline>
-<codeline lineno="71"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="structMR_1_1ProjectAttributeParams" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ProjectAttributeParams" kindref="compound">ProjectAttributeParams</ref></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20" refid="group__GeneralGroup_1ga4ed7b5103a09ec50b55cc7d76e2fd9a5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1MeshProjectionTransforms" kindref="compound">MeshProjectionTransforms</ref><sp/><ref refid="group__GeneralGroup_1ga4ed7b5103a09ec50b55cc7d76e2fd9a5" kindref="member">xfs</ref>;</highlight></codeline>
+<codeline lineno="21" refid="group__GeneralGroup_1gaf693ac66bc0bd5d4efcd44cde67cfda4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ProgressCallback<sp/><ref refid="group__GeneralGroup_1gaf693ac66bc0bd5d4efcd44cde67cfda4" kindref="member">progressCb</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>F&gt;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf2199fb84f92befa49011fd4f55f4f09" kindref="member">projectVertAttribute</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshVertPart&amp;<sp/>mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>oldMesh,<sp/>F&amp;&amp;<sp/>func,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ProjectAttributeParams" kindref="compound">ProjectAttributeParams</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>F&gt;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gafb43cdb85d285bf367875ed35c3d8d7a" kindref="member">projectFaceAttribute</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gga9228096dfb940b935e8dada25c4b0c37a710fdb6adb881b408116ef95335e1961" kindref="member">Mesh</ref>&amp;<sp/>oldMesh,<sp/>F&amp;&amp;<sp/>func,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ProjectAttributeParams&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="group__GeneralGroup_1gacaa5c4c3fe921e2f2b78146aae104a33" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__GeneralGroup_1gacaa5c4c3fe921e2f2b78146aae104a33" kindref="member">projectObjectMeshData</ref>(<sp/></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ObjectMeshData" kindref="compound">ObjectMeshData</ref>&amp;<sp/>oldMeshData,<sp/><ref refid="structMR_1_1ObjectMeshData" kindref="compound">ObjectMeshData</ref>&amp;<sp/>newMeshData,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FaceBitSet*<sp/>region<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ProjectAttributeParams" kindref="compound">ProjectAttributeParams</ref>&amp;<sp/>params<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>F&gt;</highlight></codeline>
+<codeline lineno="47" refid="group__GeneralGroup_1gaf2199fb84f92befa49011fd4f55f4f09" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf2199fb84f92befa49011fd4f55f4f09" kindref="member">projectVertAttribute</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshVertPart&amp;<sp/>mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>oldMesh,<sp/>F&amp;&amp;<sp/>func,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ProjectAttributeParams" kindref="compound">ProjectAttributeParams</ref>&amp;<sp/>params<sp/>)</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__BasicGroup_1ga6f038e999890735ffdb5f8119eb5650e" kindref="member">BitSetParallelFor</ref>(<sp/>mp.mesh.topology.getVertIds(<sp/>mp.region<sp/>),<sp/>[&amp;]<sp/>(<sp/>VertId<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>)</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>auto<sp/>point<sp/>=<sp/>!params.xfs.rigidXfPoint<sp/>?<sp/>mp.mesh.points[id]<sp/>:<sp/>(<sp/>*params.xfs.rigidXfPoint<sp/>)(<sp/>mp.mesh.points[id]<sp/>);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>auto<sp/>projectionResult<sp/>=<sp/>findProjection(<sp/>point,<sp/>oldMesh,<sp/>FLT_MAX,<sp/>params.xfs.nonRigidXfTree<sp/>);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>auto<sp/>res<sp/>=<sp/>projectionResult.mtp;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>VertId<sp/>v1<sp/>=<sp/>oldMesh.topology.org(<sp/>res.e<sp/>);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>VertId<sp/>v2<sp/>=<sp/>oldMesh.topology.dest(<sp/>res.e<sp/>);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>VertId<sp/>v3<sp/>=<sp/>oldMesh.topology.dest(<sp/>oldMesh.topology.next(<sp/>res.e<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>func(<sp/>id,<sp/>projectionResult,<sp/>v1,<sp/>v2,<sp/>v3<sp/>);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>},</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>params.<ref refid="group__GeneralGroup_1gaf693ac66bc0bd5d4efcd44cde67cfda4" kindref="member">progressCb</ref><sp/>);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>F&gt;</highlight></codeline>
+<codeline lineno="63" refid="group__GeneralGroup_1gafb43cdb85d285bf367875ed35c3d8d7a" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gafb43cdb85d285bf367875ed35c3d8d7a" kindref="member">projectFaceAttribute</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MeshPart&amp;<sp/>mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>oldMesh,<sp/>F&amp;&amp;<sp/>func,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ProjectAttributeParams" kindref="compound">ProjectAttributeParams</ref>&amp;<sp/>params<sp/>)</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__BasicGroup_1ga6f038e999890735ffdb5f8119eb5650e" kindref="member">BitSetParallelFor</ref>(<sp/>mp.mesh.topology.getFaceIds(<sp/>mp.region<sp/>),<sp/>[&amp;]<sp/>(<sp/>FaceId<sp/>newFaceId<sp/>)</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>auto<sp/>point<sp/>=<sp/>!params.xfs.rigidXfPoint<sp/>?<sp/>mp.mesh.triCenter(<sp/>newFaceId<sp/>)<sp/>:<sp/>(<sp/>*params.xfs.rigidXfPoint<sp/>)(<sp/>mp.mesh.triCenter(<sp/>newFaceId<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>auto<sp/>projectionResult<sp/>=<sp/>findProjection(<sp/>point,<sp/>oldMesh,<sp/>FLT_MAX,<sp/>params.xfs.nonRigidXfTree<sp/>);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>func(<sp/>newFaceId,<sp/>projectionResult<sp/>);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>},</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>params.<ref refid="group__GeneralGroup_1gaf693ac66bc0bd5d4efcd44cde67cfda4" kindref="member">progressCb</ref><sp/>);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRProjectionMeshAttribute.h"/>
   </compounddef>

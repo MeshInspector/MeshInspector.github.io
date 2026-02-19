@@ -4,98 +4,23 @@
     <compoundname>MR::FindInnerShellSettings</compoundname>
     <includes refid="MRInnerShell_8h" local="no">MRInnerShell.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1FindInnerShellSettings_1a39404f52d441394b9b7ca203201d7899" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1a494f6ca56c512e886474f7209f624c48" kindref="member">Side</ref></type>
-        <definition>Side MR::FindInnerShellSettings::side</definition>
-        <argsstring></argsstring>
-        <name>side</name>
-        <qualifiedname>MR::FindInnerShellSettings::side</qualifiedname>
-        <initializer>= <ref refid="namespaceMR_1a494f6ca56c512e886474f7209f624c48affb9356ff2b7da85c75c92fa7ea03b8b" kindref="member">Side::Negative</ref></initializer>
-        <briefdescription>
-<para>specifies which side of shell is of interest: negative or positive relative to mesh normals </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInnerShell.h" line="18" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInnerShell.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1FindInnerShellSettings_1ab289320eeea5440ea6355342f4b16099" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::FindInnerShellSettings::maxDistSq</definition>
-        <argsstring></argsstring>
-        <name>maxDistSq</name>
-        <qualifiedname>MR::FindInnerShellSettings::maxDistSq</qualifiedname>
-        <initializer>= FLT_MAX</initializer>
-        <briefdescription>
-<para>specifies maximum squared distance from shell parts of interest to source mesh </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInnerShell.h" line="21" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInnerShell.h" bodystart="21" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1FindInnerShellSettings_1ac15bd082d7f22aa7db37b1263fb2f8e4" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::FindInnerShellSettings::useWindingNumber</definition>
-        <argsstring></argsstring>
-        <name>useWindingNumber</name>
-        <qualifiedname>MR::FindInnerShellSettings::useWindingNumber</qualifiedname>
-        <initializer>= false</initializer>
-        <briefdescription>
-<para>if true, a slower algorithm is activated that is more robust in the presence of self-intersections on mesh </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInnerShell.h" line="24" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInnerShell.h" bodystart="24" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1FindInnerShellSettings_1a5e16efa54e3c7e27d31e800475109fcb" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::FindInnerShellSettings::windingNumberThreshold</definition>
-        <argsstring></argsstring>
-        <name>windingNumberThreshold</name>
-        <qualifiedname>MR::FindInnerShellSettings::windingNumberThreshold</qualifiedname>
-        <initializer>= 0.25f</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>positive side if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInnerShell.h" line="28" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInnerShell.h" bodystart="28" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1FindInnerShellSettings_1a376bbe83d190953bcff30be0a55cac6c" prot="public" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::FindInnerShellSettings::minVertsInComp</definition>
-        <argsstring></argsstring>
-        <name>minVertsInComp</name>
-        <qualifiedname>MR::FindInnerShellSettings::minVertsInComp</qualifiedname>
-        <initializer>= 10</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>components of proper side with smaller number of vertices than this value will be removed from the result; components of wrong side with smaller number of vertices than this value will be added to the result </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInnerShell.h" line="32" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInnerShell.h" bodystart="32" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga39404f52d441394b9b7ca203201d7899" kind="variable"><name>side</name></member>
+      <member refid="group__GeneralGroup_1gab289320eeea5440ea6355342f4b16099" kind="variable"><name>maxDistSq</name></member>
+      <member refid="group__GeneralGroup_1gac15bd082d7f22aa7db37b1263fb2f8e4" kind="variable"><name>useWindingNumber</name></member>
+      <member refid="group__GeneralGroup_1ga5e16efa54e3c7e27d31e800475109fcb" kind="variable"><name>windingNumberThreshold</name></member>
+      <member refid="group__GeneralGroup_1ga376bbe83d190953bcff30be0a55cac6c" kind="variable"><name>minVertsInComp</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInnerShell.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInnerShell.h" bodystart="16" bodyend="33"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInnerShell.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInnerShell.h" bodystart="19" bodyend="36"/>
     <listofallmembers>
-      <member refid="structMR_1_1FindInnerShellSettings_1ab289320eeea5440ea6355342f4b16099" prot="public" virt="non-virtual"><scope>MR::FindInnerShellSettings</scope><name>maxDistSq</name></member>
-      <member refid="structMR_1_1FindInnerShellSettings_1a376bbe83d190953bcff30be0a55cac6c" prot="public" virt="non-virtual"><scope>MR::FindInnerShellSettings</scope><name>minVertsInComp</name></member>
-      <member refid="structMR_1_1FindInnerShellSettings_1a39404f52d441394b9b7ca203201d7899" prot="public" virt="non-virtual"><scope>MR::FindInnerShellSettings</scope><name>side</name></member>
-      <member refid="structMR_1_1FindInnerShellSettings_1ac15bd082d7f22aa7db37b1263fb2f8e4" prot="public" virt="non-virtual"><scope>MR::FindInnerShellSettings</scope><name>useWindingNumber</name></member>
-      <member refid="structMR_1_1FindInnerShellSettings_1a5e16efa54e3c7e27d31e800475109fcb" prot="public" virt="non-virtual"><scope>MR::FindInnerShellSettings</scope><name>windingNumberThreshold</name></member>
+      <member refid="group__GeneralGroup_1gab289320eeea5440ea6355342f4b16099" prot="public" virt="non-virtual"><scope>MR::FindInnerShellSettings</scope><name>maxDistSq</name></member>
+      <member refid="group__GeneralGroup_1ga376bbe83d190953bcff30be0a55cac6c" prot="public" virt="non-virtual"><scope>MR::FindInnerShellSettings</scope><name>minVertsInComp</name></member>
+      <member refid="group__GeneralGroup_1ga39404f52d441394b9b7ca203201d7899" prot="public" virt="non-virtual"><scope>MR::FindInnerShellSettings</scope><name>side</name></member>
+      <member refid="group__GeneralGroup_1gac15bd082d7f22aa7db37b1263fb2f8e4" prot="public" virt="non-virtual"><scope>MR::FindInnerShellSettings</scope><name>useWindingNumber</name></member>
+      <member refid="group__GeneralGroup_1ga5e16efa54e3c7e27d31e800475109fcb" prot="public" virt="non-virtual"><scope>MR::FindInnerShellSettings</scope><name>windingNumberThreshold</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

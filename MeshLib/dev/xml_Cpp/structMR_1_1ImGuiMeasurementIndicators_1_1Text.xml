@@ -22,7 +22,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="134" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="134" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a65617319e0c1b767525aede65d4607b5" prot="public" static="no">
-        <type>std::function&lt; <ref refid="namespaceMR_1a21a70f8b86cebf1f5e5b5f65c4baa936" kindref="member">FontAndSize</ref>()&gt;</type>
+        <type>std::function&lt; FontAndSize()&gt;</type>
         <definition>using MR::ImGuiMeasurementIndicators::Text::FontFunc =  std::function&lt;FontAndSize()&gt;</definition>
         <argsstring></argsstring>
         <name>FontFunc</name>
@@ -82,7 +82,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="190" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="190" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a6147eeaff8e86f187d95660dc8cdc339" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMR_1a21a70f8b86cebf1f5e5b5f65c4baa936" kindref="member">FontAndSize</ref></type>
+        <type>FontAndSize</type>
         <definition>FontAndSize MR::ImGuiMeasurementIndicators::Text::defaultFont</definition>
         <argsstring></argsstring>
         <name>defaultFont</name>

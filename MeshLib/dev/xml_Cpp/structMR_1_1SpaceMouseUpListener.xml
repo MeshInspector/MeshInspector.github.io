@@ -5,84 +5,12 @@
     <basecompoundref refid="structMR_1_1ConnectionHolder" prot="public" virt="non-virtual">MR::ConnectionHolder</basecompoundref>
     <includes refid="MRViewerEventsListener_8h" local="no">MRViewerEventsListener.h</includes>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1SpaceMouseUpListener_1aeb1221c28639fac7d66504b83874d0bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::SpaceMouseUpListener::MR_ADD_CTOR_DELETE_MOVE</definition>
-        <argsstring>(SpaceMouseUpListener)</argsstring>
-        <name>MR_ADD_CTOR_DELETE_MOVE</name>
-        <qualifiedname>MR::SpaceMouseUpListener::MR_ADD_CTOR_DELETE_MOVE</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1SpaceMouseUpListener" kindref="compound">SpaceMouseUpListener</ref></type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="298" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1SpaceMouseUpListener_1a0a5bf1247e3588e2db497d9836f77454" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type></type>
-        <definition>virtual MR::SpaceMouseUpListener::~SpaceMouseUpListener</definition>
-        <argsstring>()=default</argsstring>
-        <name>~SpaceMouseUpListener</name>
-        <qualifiedname>MR::SpaceMouseUpListener::~SpaceMouseUpListener</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="299" column="13"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1SpaceMouseUpListener_1a4b6e5ab945db3dd418f5e3d32dbd8adb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>MRVIEWER_API void</type>
-        <definition>virtual MRVIEWER_API void MR::SpaceMouseUpListener::connect</definition>
-        <argsstring>(Viewer *viewer, int group, boost::signals2::connect_position pos) override</argsstring>
-        <name>connect</name>
-        <qualifiedname>MR::SpaceMouseUpListener::connect</qualifiedname>
-        <reimplements refid="structMR_1_1IConnectable_1a2212095d3996892cff578320ac2ce746">connect</reimplements>
-        <param>
-          <type><ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref> *</type>
-          <declname>viewer</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>group</declname>
-        </param>
-        <param>
-          <type>boost::signals2::connect_position</type>
-          <declname>pos</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="300" column="31"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaeb1221c28639fac7d66504b83874d0bc" kind="function"><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1ga0a5bf1247e3588e2db497d9836f77454" kind="function"><name>~SpaceMouseUpListener</name></member>
+      <member refid="group__GeneralGroup_1ga4b6e5ab945db3dd418f5e3d32dbd8adb" kind="function"><name>connect</name></member>
     </sectiondef>
     <sectiondef kind="protected-func">
-      <memberdef kind="function" id="structMR_1_1SpaceMouseUpListener_1af12bd4234d35e30789cd4a96b88bf497" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::SpaceMouseUpListener::spaceMouseUp_</definition>
-        <argsstring>(int key)=0</argsstring>
-        <name>spaceMouseUp_</name>
-        <qualifiedname>MR::SpaceMouseUpListener::spaceMouseUp_</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>key</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="302" column="18"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1gaf12bd4234d35e30789cd4a96b88bf497" kind="function"><name>spaceMouseUp_</name></member>
     </sectiondef>
     <briefdescription>
 <para>class to subscribe on SpaceMouseUpSignal </para>
@@ -125,16 +53,16 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="296" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="297" bodyend="303"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="299" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="300" bodyend="306"/>
     <listofallmembers>
-      <member refid="structMR_1_1SpaceMouseUpListener_1a4b6e5ab945db3dd418f5e3d32dbd8adb" prot="public" virt="virtual"><scope>MR::SpaceMouseUpListener</scope><name>connect</name></member>
-      <member refid="structMR_1_1ConnectionHolder_1a56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::SpaceMouseUpListener</scope><name>connection_</name></member>
-      <member refid="structMR_1_1ConnectionHolder_1afe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::SpaceMouseUpListener</scope><name>disconnect</name></member>
-      <member refid="structMR_1_1SpaceMouseUpListener_1aeb1221c28639fac7d66504b83874d0bc" prot="public" virt="non-virtual"><scope>MR::SpaceMouseUpListener</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
-      <member refid="structMR_1_1SpaceMouseUpListener_1af12bd4234d35e30789cd4a96b88bf497" prot="protected" virt="pure-virtual"><scope>MR::SpaceMouseUpListener</scope><name>spaceMouseUp_</name></member>
-      <member refid="structMR_1_1ConnectionHolder_1a99ffc44dd73f73e2e907b7ab5bb38aaf" prot="public" virt="virtual"><scope>MR::SpaceMouseUpListener</scope><name>~ConnectionHolder</name></member>
-      <member refid="structMR_1_1IConnectable_1a28c07761e682b80befbb2d5f91bdd38c" prot="public" virt="virtual"><scope>MR::SpaceMouseUpListener</scope><name>~IConnectable</name></member>
-      <member refid="structMR_1_1SpaceMouseUpListener_1a0a5bf1247e3588e2db497d9836f77454" prot="public" virt="virtual"><scope>MR::SpaceMouseUpListener</scope><name>~SpaceMouseUpListener</name></member>
+      <member refid="group__GeneralGroup_1ga4b6e5ab945db3dd418f5e3d32dbd8adb" prot="public" virt="virtual"><scope>MR::SpaceMouseUpListener</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1ga56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::SpaceMouseUpListener</scope><name>connection_</name></member>
+      <member refid="group__GeneralGroup_1gafe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::SpaceMouseUpListener</scope><name>disconnect</name></member>
+      <member refid="group__GeneralGroup_1gaeb1221c28639fac7d66504b83874d0bc" prot="public" virt="non-virtual"><scope>MR::SpaceMouseUpListener</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1gaf12bd4234d35e30789cd4a96b88bf497" prot="protected" virt="pure-virtual"><scope>MR::SpaceMouseUpListener</scope><name>spaceMouseUp_</name></member>
+      <member refid="group__GeneralGroup_1ga99ffc44dd73f73e2e907b7ab5bb38aaf" prot="public" virt="virtual"><scope>MR::SpaceMouseUpListener</scope><name>~ConnectionHolder</name></member>
+      <member refid="group__GeneralGroup_1ga28c07761e682b80befbb2d5f91bdd38c" prot="public" virt="virtual"><scope>MR::SpaceMouseUpListener</scope><name>~IConnectable</name></member>
+      <member refid="group__GeneralGroup_1ga0a5bf1247e3588e2db497d9836f77454" prot="public" virt="virtual"><scope>MR::SpaceMouseUpListener</scope><name>~SpaceMouseUpListener</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>
