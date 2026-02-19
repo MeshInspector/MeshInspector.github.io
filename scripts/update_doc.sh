@@ -15,11 +15,12 @@ fi
 # Use "MeshLib/local" as default if $1 is not provided
 TARGET_DIR="${1:-MeshLib/local}"
 
-fix_comment() {
+prepare_source_files() {
     CURRENT_DIR=$(pwd)
     cd ../MeshLib/
     find source -name '*.h' -exec perl -pe 's|(?<!/)//(?![/!]) ?|/// |g;s|/\*(?![\*!]) ?|/** |g;s{^(\s*[^\s].*?)(?!/)(///|//!)(?!<)\s*$}{$1$2<}mg' -i {} \;
     cd "$CURRENT_DIR"
+    python3 ./scripts/generate_default_group.py
 }
 
 prepare_setting_files() {
@@ -167,7 +168,7 @@ show_statistics() {
     cat log_time.txt
 }
 
-fix_comment
+prepare_source_files
 prepare_setting_files
 if [[ $? -ne 0 ]]; then
     exit $?
@@ -181,4 +182,4 @@ if [[ $exit_code -ne 0 ]]; then
     exit $exit_code
 fi
 post_processing
-show_statistics
+#show_statistics
