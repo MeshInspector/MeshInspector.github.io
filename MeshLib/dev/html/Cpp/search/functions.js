@@ -2343,7 +2343,7 @@ var searchData=
   ['compensateradius_177',['compensateRadius',['../group__GeneralGroup.html#ga8544e1baad1fd29e080b74865bb8c0a0',1,'MR']]],
   ['compose_178',['compose',['../group__GeneralGroup.html#gafbc10bd06d711100a2f465d070521a9e',1,'MR::ViewerTitle::compose()'],['../group__GeneralGroup.html#gab5fd6e1a390fa8c05a8ad7006709dbf2',1,'MR::compose()']]],
   ['compresschangepointsaction_5f_179',['compressChangePointsAction_',['../group__GeneralGroup.html#gad1d907cbe938c1010826d617b7b662e8',1,'MR::SurfaceManipulationWidget']]],
-  ['compresszip_180',['compressZip',['../group__SerializerGroup.html#ga5b20b87f58909c05202f8eebdbbcdd1e',1,'MR']]],
+  ['compresszip_180',['compressZip',['../group__SerializerGroup.html#gaed25e9024658688f1d853b2209f3df98',1,'MR::compressZip(const std::filesystem::path &amp;zipFile, const std::filesystem::path &amp;sourceFolder, const CompressZipSettings &amp;settings)'],['../group__SerializerGroup.html#ga5b20b87f58909c05202f8eebdbbcdd1e',1,'MR::compressZip(const std::filesystem::path &amp;zipFile, const std::filesystem::path &amp;sourceFolder, const std::vector&lt; std::filesystem::path &gt; &amp;excludeFiles={}, const char *password=nullptr, ProgressCallback cb={})']]],
   ['compute_181',['compute',['../group__GeneralGroup.html#ga32171f867c3530ef5b8dbbe13cacd86a',1,'MR::Laplacian::Solver']]],
   ['computeangle_182',['computeAngle',['../group__GeneralGroup.html#gaa144d0e4a8a0e869d988653be474ce4a',1,'MR::AngleMeasurementObject']]],
   ['computeangleinradians_183',['computeAngleInRadians',['../group__GeneralGroup.html#ga3fe4c9665a94e2143038345808dc1586',1,'MR::Features::MeasureResult::Angle']]],

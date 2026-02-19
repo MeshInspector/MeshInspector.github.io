@@ -153,6 +153,7 @@ $(function(){initNavTree('MRZip_8h.html',''); initResizable(true); });
 <div class="contents">
 <div class="textblock"><code>#include &lt;MRCMisc/common.h&gt;</code><br />
 <code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
 </div>
 <p><a href="MRZip_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -164,8 +165,12 @@ Typedefs</h2></td></tr>
 <tr class="separator:adb03ce28cacfff1e499d75d512dc4a84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef22a11476e76208a3f9a5cf2eba4c98" id="r_aef22a11476e76208a3f9a5cf2eba4c98"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a></td></tr>
 <tr class="separator:aef22a11476e76208a3f9a5cf2eba4c98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69dc6868c10c92fb8b8a255b0130d289" id="r_a69dc6868c10c92fb8b8a255b0130d289"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td></tr>
+<tr class="separator:a69dc6868c10c92fb8b8a255b0130d289"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d75e004d098bc7d987ebfcf304f5454" id="r_a4d75e004d098bc7d987ebfcf304f5454"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRSceneLoad_8h.html#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a></td></tr>
 <tr class="separator:a4d75e004d098bc7d987ebfcf304f5454"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e379930f9afb434d2504341fdfcd26b" id="r_a4e379930f9afb434d2504341fdfcd26b"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a></td></tr>
+<tr class="separator:a4e379930f9afb434d2504341fdfcd26b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -175,11 +180,73 @@ Functions</h2></td></tr>
 <tr class="memitem:a0c984fbdd972f56a6921355059ff8cf7" id="r_a0c984fbdd972f56a6921355059ff8cf7"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c984fbdd972f56a6921355059ff8cf7">MR_decompressZip_std_istream</a> (<a class="el" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *zipStream, const char *targetFolder, const char *targetFolder_end, const char *password)</td></tr>
 <tr class="memdesc:a0c984fbdd972f56a6921355059ff8cf7"><td class="mdescLeft">&#160;</td><td class="mdescRight">decompresses given binary stream (containing the data of a zip file only) into given folder  <br /></td></tr>
 <tr class="separator:a0c984fbdd972f56a6921355059ff8cf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2a3825dceed82f1a419413b127a9dfc" id="r_ab2a3825dceed82f1a419413b127a9dfc"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2a3825dceed82f1a419413b127a9dfc">MR_compressZip</a> (const char *zipFile, const char *zipFile_end, const char *sourceFolder, const char *sourceFolder_end, const <a class="el" href="MRSceneLoad_8h.html#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a> *excludeFiles, const char *password, MR_PassBy cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
-<tr class="memdesc:ab2a3825dceed82f1a419413b127a9dfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">compresses given folder in given zip-file  <br /></td></tr>
-<tr class="separator:ab2a3825dceed82f1a419413b127a9dfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab634dec98ee334f747ee0d6be624ec00" id="r_ab634dec98ee334f747ee0d6be624ec00"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRSceneLoad_8h.html#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab634dec98ee334f747ee0d6be624ec00">MR_CompressZipSettings_Get_excludeFiles</a> (const <a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> *_this)</td></tr>
+<tr class="separator:ab634dec98ee334f747ee0d6be624ec00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd393381f09389ea5dac0d3fb1d37026" id="r_acd393381f09389ea5dac0d3fb1d37026"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd393381f09389ea5dac0d3fb1d37026">MR_CompressZipSettings_Set_excludeFiles</a> (<a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> *_this, MR_PassBy value_pass_by, <a class="el" href="MRSceneLoad_8h.html#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a> *value)</td></tr>
+<tr class="separator:acd393381f09389ea5dac0d3fb1d37026"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a621446082d8a1e3d7d842e30a3c92ac4" id="r_a621446082d8a1e3d7d842e30a3c92ac4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRSceneLoad_8h.html#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a621446082d8a1e3d7d842e30a3c92ac4">MR_CompressZipSettings_GetMutable_excludeFiles</a> (<a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> *_this)</td></tr>
+<tr class="separator:a621446082d8a1e3d7d842e30a3c92ac4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a2e9d3b9d40fdc80806ccd557fc4ada" id="r_a3a2e9d3b9d40fdc80806ccd557fc4ada"><td class="memItemLeft" align="right" valign="top">MRC_API const int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a2e9d3b9d40fdc80806ccd557fc4ada">MR_CompressZipSettings_Get_compressionLevel</a> (const <a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> *_this)</td></tr>
+<tr class="separator:a3a2e9d3b9d40fdc80806ccd557fc4ada"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43dd53490b67a748a5bf3739ca865409" id="r_a43dd53490b67a748a5bf3739ca865409"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43dd53490b67a748a5bf3739ca865409">MR_CompressZipSettings_Set_compressionLevel</a> (<a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> *_this, int value)</td></tr>
+<tr class="separator:a43dd53490b67a748a5bf3739ca865409"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a7c469519a41a741d745ccfa479942b" id="r_a8a7c469519a41a741d745ccfa479942b"><td class="memItemLeft" align="right" valign="top">MRC_API int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a7c469519a41a741d745ccfa479942b">MR_CompressZipSettings_GetMutable_compressionLevel</a> (<a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> *_this)</td></tr>
+<tr class="separator:a8a7c469519a41a741d745ccfa479942b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaae5e2c4a6fc95b2c96ef4c92637a905" id="r_aaae5e2c4a6fc95b2c96ef4c92637a905"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaae5e2c4a6fc95b2c96ef4c92637a905">MR_CompressZipSettings_Get_password</a> (const <a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> *_this)</td></tr>
+<tr class="separator:aaae5e2c4a6fc95b2c96ef4c92637a905"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22a5414079fa3668a21747c732c81f3a" id="r_a22a5414079fa3668a21747c732c81f3a"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22a5414079fa3668a21747c732c81f3a">MR_CompressZipSettings_Set_password</a> (<a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> *_this, const char *value, const char *value_end)</td></tr>
+<tr class="separator:a22a5414079fa3668a21747c732c81f3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58b2c00c7d8cdf2b15d34d0689cb530f" id="r_a58b2c00c7d8cdf2b15d34d0689cb530f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58b2c00c7d8cdf2b15d34d0689cb530f">MR_CompressZipSettings_GetMutable_password</a> (<a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> *_this)</td></tr>
+<tr class="separator:a58b2c00c7d8cdf2b15d34d0689cb530f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7154cbe1846b053c0860984eeffa2c3f" id="r_a7154cbe1846b053c0860984eeffa2c3f"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7154cbe1846b053c0860984eeffa2c3f">MR_CompressZipSettings_Get_cb</a> (const <a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> *_this)</td></tr>
+<tr class="separator:a7154cbe1846b053c0860984eeffa2c3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a0774b40005cc6cfc17302425733cdf" id="r_a5a0774b40005cc6cfc17302425733cdf"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a0774b40005cc6cfc17302425733cdf">MR_CompressZipSettings_Set_cb</a> (<a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> *_this, MR_PassBy value_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *value)</td></tr>
+<tr class="separator:a5a0774b40005cc6cfc17302425733cdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1cd57182cded7849db43417b93093cd" id="r_aa1cd57182cded7849db43417b93093cd"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1cd57182cded7849db43417b93093cd">MR_CompressZipSettings_GetMutable_cb</a> (<a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> *_this)</td></tr>
+<tr class="separator:aa1cd57182cded7849db43417b93093cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9c48fe4ca43233c43497dc95067c160" id="r_af9c48fe4ca43233c43497dc95067c160"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9c48fe4ca43233c43497dc95067c160">MR_CompressZipSettings_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:af9c48fe4ca43233c43497dc95067c160"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38b3cf6acc7f888931f58ec5c8199a89" id="r_a38b3cf6acc7f888931f58ec5c8199a89"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38b3cf6acc7f888931f58ec5c8199a89">MR_CompressZipSettings_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a38b3cf6acc7f888931f58ec5c8199a89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a274327929cc64bdf32afff535599b111" id="r_a274327929cc64bdf32afff535599b111"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a274327929cc64bdf32afff535599b111">MR_CompressZipSettings_ConstructFrom</a> (MR_PassBy excludeFiles_pass_by, <a class="el" href="MRSceneLoad_8h.html#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a> *excludeFiles, int compressionLevel, const char *password, const char *password_end, MR_PassBy cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:a274327929cc64bdf32afff535599b111"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c0f7bc3bca0ead9b2c12a40b16e988a" id="r_a9c0f7bc3bca0ead9b2c12a40b16e988a"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c0f7bc3bca0ead9b2c12a40b16e988a">MR_CompressZipSettings_OffsetPtr</a> (const <a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="separator:a9c0f7bc3bca0ead9b2c12a40b16e988a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c987ca2f6a077f6639ccc5428c82477" id="r_a6c987ca2f6a077f6639ccc5428c82477"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c987ca2f6a077f6639ccc5428c82477">MR_CompressZipSettings_OffsetMutablePtr</a> (<a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="separator:a6c987ca2f6a077f6639ccc5428c82477"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7047194bdfa5cf6672bf1ad67f393f4e" id="r_a7047194bdfa5cf6672bf1ad67f393f4e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7047194bdfa5cf6672bf1ad67f393f4e">MR_CompressZipSettings_ConstructFromAnother</a> (MR_PassBy _other_pass_by, <a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> *_other)</td></tr>
+<tr class="separator:a7047194bdfa5cf6672bf1ad67f393f4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3c94002994afc43214c235f15c5b24e" id="r_af3c94002994afc43214c235f15c5b24e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3c94002994afc43214c235f15c5b24e">MR_CompressZipSettings_Destroy</a> (const <a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> *_this)</td></tr>
+<tr class="memdesc:af3c94002994afc43214c235f15c5b24e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_CompressZipSettings</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:af3c94002994afc43214c235f15c5b24e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86254f2e29b45e09fdf760f1ee54d39a" id="r_a86254f2e29b45e09fdf760f1ee54d39a"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86254f2e29b45e09fdf760f1ee54d39a">MR_CompressZipSettings_DestroyArray</a> (const <a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> *_this)</td></tr>
+<tr class="memdesc:a86254f2e29b45e09fdf760f1ee54d39a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_CompressZipSettings</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a86254f2e29b45e09fdf760f1ee54d39a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b8eb81adaddd9afde120990c5754279" id="r_a3b8eb81adaddd9afde120990c5754279"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b8eb81adaddd9afde120990c5754279">MR_CompressZipSettings_AssignFromAnother</a> (<a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> *_this, MR_PassBy _other_pass_by, <a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> *_other)</td></tr>
+<tr class="separator:a3b8eb81adaddd9afde120990c5754279"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5045633b82f41332aed7d40016937a43" id="r_a5045633b82f41332aed7d40016937a43"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5045633b82f41332aed7d40016937a43">MR_compressZip_3</a> (const char *zipFile, const char *zipFile_end, const char *sourceFolder, const char *sourceFolder_end, const <a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> *settings)</td></tr>
+<tr class="memdesc:a5045633b82f41332aed7d40016937a43"><td class="mdescLeft">&#160;</td><td class="mdescRight">compresses given folder in given zip-file  <br /></td></tr>
+<tr class="separator:a5045633b82f41332aed7d40016937a43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5688a8cc397c9c76e182888070bef1b5" id="r_a5688a8cc397c9c76e182888070bef1b5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5688a8cc397c9c76e182888070bef1b5">MR_compressZip_5</a> (const char *zipFile, const char *zipFile_end, const char *sourceFolder, const char *sourceFolder_end, const <a class="el" href="MRSceneLoad_8h.html#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a> *excludeFiles, const char *password, MR_PassBy cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="memdesc:a5688a8cc397c9c76e182888070bef1b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">compresses given folder in given zip-file  <br /></td></tr>
+<tr class="separator:a5688a8cc397c9c76e182888070bef1b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
+<a id="a4e379930f9afb434d2504341fdfcd26b" name="a4e379930f9afb434d2504341fdfcd26b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e379930f9afb434d2504341fdfcd26b">&#9670;&#160;</a></span>MR_CompressZipSettings</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> <a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from class <code>MR::CompressZipSettings</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
 <a id="a077b8debfae88f9cf2267ad2db95c006" name="a077b8debfae88f9cf2267ad2db95c006"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a077b8debfae88f9cf2267ad2db95c006">&#9670;&#160;</a></span>MR_expected_void_std_string</h2>
 
@@ -222,6 +289,20 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a69dc6868c10c92fb8b8a255b0130d289" name="a69dc6868c10c92fb8b8a255b0130d289"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69dc6868c10c92fb8b8a255b0130d289">&#9670;&#160;</a></span>MR_std_string</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a4d75e004d098bc7d987ebfcf304f5454" name="a4d75e004d098bc7d987ebfcf304f5454"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4d75e004d098bc7d987ebfcf304f5454">&#9670;&#160;</a></span>MR_std_vector_std_filesystem_path</h2>
 
@@ -237,14 +318,53 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ab2a3825dceed82f1a419413b127a9dfc" name="ab2a3825dceed82f1a419413b127a9dfc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab2a3825dceed82f1a419413b127a9dfc">&#9670;&#160;</a></span>MR_compressZip()</h2>
+<a id="a5045633b82f41332aed7d40016937a43" name="a5045633b82f41332aed7d40016937a43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5045633b82f41332aed7d40016937a43">&#9670;&#160;</a></span>MR_compressZip_3()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_compressZip </td>
+          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_compressZip_3 </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>zipFile</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>zipFile_end</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>sourceFolder</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>sourceFolder_end</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>compresses given folder in given zip-file </p>
+<p>Generated from function <code>MR::compressZip</code>. Parameter <code>zipFile</code> is a UTF-8 encoded filesystem path. Parameter <code>sourceFolder</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_void_std_string_Destroy()</code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a5688a8cc397c9c76e182888070bef1b5" name="a5688a8cc397c9c76e182888070bef1b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5688a8cc397c9c76e182888070bef1b5">&#9670;&#160;</a></span>MR_compressZip_5()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_compressZip_5 </td>
           <td>(</td>
           <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>zipFile</em></span>, </td>
         </tr>
@@ -295,6 +415,467 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a3b8eb81adaddd9afde120990c5754279" name="a3b8eb81adaddd9afde120990c5754279"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b8eb81adaddd9afde120990c5754279">&#9670;&#160;</a></span>MR_CompressZipSettings_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> * MR_CompressZipSettings_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR_PassBy</td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <code>MR::CompressZipSettings::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </p>
+
+</div>
+</div>
+<a id="a274327929cc64bdf32afff535599b111" name="a274327929cc64bdf32afff535599b111"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a274327929cc64bdf32afff535599b111">&#9670;&#160;</a></span>MR_CompressZipSettings_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> * MR_CompressZipSettings_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype">MR_PassBy</td>          <td class="paramname"><span class="paramname"><em>excludeFiles_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRSceneLoad_8h.html#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a> *</td>          <td class="paramname"><span class="paramname"><em>excludeFiles</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>compressionLevel</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>password</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>password_end</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR_PassBy</td>          <td class="paramname"><span class="paramname"><em>cb_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <code>MR::CompressZipSettings</code> elementwise. The reference to the parameter <code>excludeFiles</code> might be preserved in the constructed object. Parameter <code>password</code> can not be null. If <code>password_end</code> is null, then <code>password</code> is assumed to be null-terminated. The reference to the parameter <code>password</code> might be preserved in the constructed object. The reference to the parameter <code>cb</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af3c94002994afc43214c235f15c5b24e" title="Destroys a heap-allocated instance of MR_CompressZipSettings. Does nothing if the pointer is null.">MR_CompressZipSettings_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+
+</div>
+</div>
+<a id="a7047194bdfa5cf6672bf1ad67f393f4e" name="a7047194bdfa5cf6672bf1ad67f393f4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7047194bdfa5cf6672bf1ad67f393f4e">&#9670;&#160;</a></span>MR_CompressZipSettings_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> * MR_CompressZipSettings_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">MR_PassBy</td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from constructor <code>MR::CompressZipSettings::CompressZipSettings</code>. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af3c94002994afc43214c235f15c5b24e" title="Destroys a heap-allocated instance of MR_CompressZipSettings. Does nothing if the pointer is null.">MR_CompressZipSettings_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="af9c48fe4ca43233c43497dc95067c160" name="af9c48fe4ca43233c43497dc95067c160"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9c48fe4ca43233c43497dc95067c160">&#9670;&#160;</a></span>MR_CompressZipSettings_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> * MR_CompressZipSettings_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af3c94002994afc43214c235f15c5b24e" title="Destroys a heap-allocated instance of MR_CompressZipSettings. Does nothing if the pointer is null.">MR_CompressZipSettings_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a38b3cf6acc7f888931f58ec5c8199a89" name="a38b3cf6acc7f888931f58ec5c8199a89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38b3cf6acc7f888931f58ec5c8199a89">&#9670;&#160;</a></span>MR_CompressZipSettings_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> * MR_CompressZipSettings_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a86254f2e29b45e09fdf760f1ee54d39a" title="Destroys a heap-allocated array of MR_CompressZipSettings. Does nothing if the pointer is null.">MR_CompressZipSettings_DestroyArray()</a></code>. Use <code><a class="el" href="#a6c987ca2f6a077f6639ccc5428c82477">MR_CompressZipSettings_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a9c0f7bc3bca0ead9b2c12a40b16e988a">MR_CompressZipSettings_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="af3c94002994afc43214c235f15c5b24e" name="af3c94002994afc43214c235f15c5b24e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3c94002994afc43214c235f15c5b24e">&#9670;&#160;</a></span>MR_CompressZipSettings_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_CompressZipSettings_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_CompressZipSettings</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a86254f2e29b45e09fdf760f1ee54d39a" name="a86254f2e29b45e09fdf760f1ee54d39a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86254f2e29b45e09fdf760f1ee54d39a">&#9670;&#160;</a></span>MR_CompressZipSettings_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_CompressZipSettings_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_CompressZipSettings</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a7154cbe1846b053c0860984eeffa2c3f" name="a7154cbe1846b053c0860984eeffa2c3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7154cbe1846b053c0860984eeffa2c3f">&#9670;&#160;</a></span>MR_CompressZipSettings_Get_cb()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_CompressZipSettings_Get_cb </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>an option to get progress notifications and cancel the operation Returns a pointer to a member variable of class <code>MR::CompressZipSettings</code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a3a2e9d3b9d40fdc80806ccd557fc4ada" name="a3a2e9d3b9d40fdc80806ccd557fc4ada"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a2e9d3b9d40fdc80806ccd557fc4ada">&#9670;&#160;</a></span>MR_CompressZipSettings_Get_compressionLevel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const int * MR_CompressZipSettings_Get_compressionLevel </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>[0-9]: greater level means longer processing but better compression 0 is special value to use default level Returns a pointer to a member variable of class <code>MR::CompressZipSettings</code> named <code>compressionLevel</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="ab634dec98ee334f747ee0d6be624ec00" name="ab634dec98ee334f747ee0d6be624ec00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab634dec98ee334f747ee0d6be624ec00">&#9670;&#160;</a></span>MR_CompressZipSettings_Get_excludeFiles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRSceneLoad_8h.html#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a> * MR_CompressZipSettings_Get_excludeFiles </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>files that should not be included to result zip Returns a pointer to a member variable of class <code>MR::CompressZipSettings</code> named <code>excludeFiles</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="aaae5e2c4a6fc95b2c96ef4c92637a905" name="aaae5e2c4a6fc95b2c96ef4c92637a905"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaae5e2c4a6fc95b2c96ef4c92637a905">&#9670;&#160;</a></span>MR_CompressZipSettings_Get_password()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_CompressZipSettings_Get_password </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if password is given then the archive will be encrypted Returns a pointer to a member variable of class <code>MR::CompressZipSettings</code> named <code>password</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="aa1cd57182cded7849db43417b93093cd" name="aa1cd57182cded7849db43417b93093cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1cd57182cded7849db43417b93093cd">&#9670;&#160;</a></span>MR_CompressZipSettings_GetMutable_cb()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_CompressZipSettings_GetMutable_cb </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>an option to get progress notifications and cancel the operation Returns a mutable pointer to a member variable of class <code>MR::CompressZipSettings</code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a8a7c469519a41a741d745ccfa479942b" name="a8a7c469519a41a741d745ccfa479942b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a7c469519a41a741d745ccfa479942b">&#9670;&#160;</a></span>MR_CompressZipSettings_GetMutable_compressionLevel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API int * MR_CompressZipSettings_GetMutable_compressionLevel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>[0-9]: greater level means longer processing but better compression 0 is special value to use default level Returns a mutable pointer to a member variable of class <code>MR::CompressZipSettings</code> named <code>compressionLevel</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a621446082d8a1e3d7d842e30a3c92ac4" name="a621446082d8a1e3d7d842e30a3c92ac4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a621446082d8a1e3d7d842e30a3c92ac4">&#9670;&#160;</a></span>MR_CompressZipSettings_GetMutable_excludeFiles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRSceneLoad_8h.html#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a> * MR_CompressZipSettings_GetMutable_excludeFiles </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>files that should not be included to result zip Returns a mutable pointer to a member variable of class <code>MR::CompressZipSettings</code> named <code>excludeFiles</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a58b2c00c7d8cdf2b15d34d0689cb530f" name="a58b2c00c7d8cdf2b15d34d0689cb530f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58b2c00c7d8cdf2b15d34d0689cb530f">&#9670;&#160;</a></span>MR_CompressZipSettings_GetMutable_password()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_CompressZipSettings_GetMutable_password </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if password is given then the archive will be encrypted Returns a mutable pointer to a member variable of class <code>MR::CompressZipSettings</code> named <code>password</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a6c987ca2f6a077f6639ccc5428c82477" name="a6c987ca2f6a077f6639ccc5428c82477"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c987ca2f6a077f6639ccc5428c82477">&#9670;&#160;</a></span>MR_CompressZipSettings_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> * MR_CompressZipSettings_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. The reference to the parameter <code>ptr</code> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a9c0f7bc3bca0ead9b2c12a40b16e988a" name="a9c0f7bc3bca0ead9b2c12a40b16e988a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c0f7bc3bca0ead9b2c12a40b16e988a">&#9670;&#160;</a></span>MR_CompressZipSettings_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> * MR_CompressZipSettings_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. The reference to the parameter <code>ptr</code> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a5a0774b40005cc6cfc17302425733cdf" name="a5a0774b40005cc6cfc17302425733cdf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a0774b40005cc6cfc17302425733cdf">&#9670;&#160;</a></span>MR_CompressZipSettings_Set_cb()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_CompressZipSettings_Set_cb </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR_PassBy</td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>an option to get progress notifications and cancel the operation Modifies a member variable of class <code>MR::CompressZipSettings</code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>cb</code>. When this function is called, this object will drop object references it had previously in <code>cb</code>. </p>
+
+</div>
+</div>
+<a id="a43dd53490b67a748a5bf3739ca865409" name="a43dd53490b67a748a5bf3739ca865409"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43dd53490b67a748a5bf3739ca865409">&#9670;&#160;</a></span>MR_CompressZipSettings_Set_compressionLevel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_CompressZipSettings_Set_compressionLevel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>[0-9]: greater level means longer processing but better compression 0 is special value to use default level Modifies a member variable of class <code>MR::CompressZipSettings</code> named <code>compressionLevel</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>compressionLevel</code>. </p>
+
+</div>
+</div>
+<a id="acd393381f09389ea5dac0d3fb1d37026" name="acd393381f09389ea5dac0d3fb1d37026"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd393381f09389ea5dac0d3fb1d37026">&#9670;&#160;</a></span>MR_CompressZipSettings_Set_excludeFiles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_CompressZipSettings_Set_excludeFiles </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR_PassBy</td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRSceneLoad_8h.html#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>files that should not be included to result zip Modifies a member variable of class <code>MR::CompressZipSettings</code> named <code>excludeFiles</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>excludeFiles</code>. When this function is called, this object will drop object references it had previously in <code>excludeFiles</code>. </p>
+
+</div>
+</div>
+<a id="a22a5414079fa3668a21747c732c81f3a" name="a22a5414079fa3668a21747c732c81f3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22a5414079fa3668a21747c732c81f3a">&#9670;&#160;</a></span>MR_CompressZipSettings_Set_password()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_CompressZipSettings_Set_password </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a4e379930f9afb434d2504341fdfcd26b">MR_CompressZipSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>value_end</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if password is given then the archive will be encrypted Modifies a member variable of class <code>MR::CompressZipSettings</code> named <code>password</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> can not be null. If <code>value_end</code> is null, then <code>value</code> is assumed to be null-terminated. The reference to the parameter <code>value</code> might be preserved in this object in element <code>password</code>. When this function is called, this object will drop object references it had previously in <code>password</code>. </p>
 
 </div>
 </div>

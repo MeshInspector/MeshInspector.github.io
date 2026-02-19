@@ -219,6 +219,7 @@ var hierarchy =
     [ "MR::ObjectComparableWithReference::ComparisonReferenceValue", "structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue.html", null ],
     [ "MR::ObjectComparableWithReference::ComparisonTolerance", "structMR_1_1ObjectComparableWithReference_1_1ComparisonTolerance.html", null ],
     [ "MR::CompensateRadiusParams", "structMR_1_1CompensateRadiusParams.html", null ],
+    [ "MR::CompressZipSettings", "structMR_1_1CompressZipSettings.html", null ],
     [ "MR::ComputeSteepestDescentPathSettings", "structMR_1_1ComputeSteepestDescentPathSettings.html", null ],
     [ "MR::ComputeSweptVolumeParameters", "structMR_1_1ComputeSweptVolumeParameters.html", null ],
     [ "MR::Cone3< T >", "classMR_1_1Cone3.html", null ],

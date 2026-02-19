@@ -200,18 +200,18 @@ var NAVTREEINDEX =
 "group__GeneralGroup.html#ggabbecc6afa53db91ada45757b845b5514aa18366b217ebf811ad1886e4f4f865b2",
 "group__GeneralGroup.html#ggafeeff27006fc4c615527cbd2c08c552bae498749f3c42246d50b15c81c101d988",
 "group__MeshGroup.html",
-"group__SurfacePathGroup.html#ga4ef10460976331354fd6633529b31b3f",
-"namespaceImGui.html#a01e8908c9ff42e3510168251a97f1d48",
-"namespaceMR_1_1ImGuiMeasurementIndicators.html#a57d1104a2e78b1f148bbd864c7d7cd6a",
-"namespacemembers_z.html",
-"structMR_1_1ContoursDistanceMapOptions.html#a8338b4b187db812314a5890ccf5e6ec6af3521ec7c51139960b7e21cef6b936df",
-"structMR_1_1FindDisorientationParams.html#a0c40bf2320287e58137728520c03765e",
-"structMR_1_1ImGuiMeasurementIndicators_1_1Stipple.html#a275878227f6987b781fd73d3741d8a6d",
-"structMR_1_1Mesh.html#a0e4c897582e70d319407854dae664a39",
-"structMR_1_1MoveMeshToVoxelMaxDerivSettings.html#ad4bdf9eb1e55187c89fd477134219680",
-"structMR_1_1Polynomial.html",
-"structMR_1_1TouchpadRotateGestureBeginListener.html",
-"structMR_1_1VertDistance.html"
+"group__SurfacePathGroup.html#ga49b66a35e3e4f02f4034d338471be491",
+"namespaceImGui.html",
+"namespaceMR_1_1ImGuiMeasurementIndicators.html",
+"namespacemembers_y.html",
+"structMR_1_1ContoursDistanceMapOffset.html#ae4253ef0c3b8227af4acd442f2567178aea89b68c34ce4a63c0f77e17413c6e30",
+"structMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams.html#a99c86ed6bab979519ec1b5ce2410ee6c",
+"structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html#adc882bf59a1455b3ac5391416ed0c55b",
+"structMR_1_1Mesh.html#a08b8517dc08f3f1509ff3a0deb390e82",
+"structMR_1_1MoveMeshToVoxelMaxDerivSettings.html",
+"structMR_1_1PolylineToVolumeParams.html",
+"structMR_1_1ToolPathParams.html",
+"structMR_1_1VectorTraits.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

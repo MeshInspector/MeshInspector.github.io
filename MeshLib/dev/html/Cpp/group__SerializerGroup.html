@@ -146,11 +146,17 @@ $(function(){initNavTree('group__SerializerGroup.html',''); initResizable(true);
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">Serializer<div class="ingroups"><a class="el" href="group__IOGroup.html">Input/Output</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1CompressZipSettings.html">MR::CompressZipSettings</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ga6495aafc6ad7f28a253874643bee186d" id="r_ga6495aafc6ad7f28a253874643bee186d"><td class="memItemLeft" align="right" valign="top">MRMESH_API <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6495aafc6ad7f28a253874643bee186d">MR::serializeJsonValue</a> (const Json::Value &amp;root)</td></tr>
@@ -267,14 +273,47 @@ Functions</h2></td></tr>
 <tr class="memitem:ga2e076375162aa8d5f3665a95f10e3710" id="r_ga2e076375162aa8d5f3665a95f10e3710"><td class="memItemLeft" align="right" valign="top">MRMESH_API <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2e076375162aa8d5f3665a95f10e3710">MR::decompressZip</a> (std::istream &amp;zipStream, const std::filesystem::path &amp;targetFolder, const char *password=nullptr)</td></tr>
 <tr class="memdesc:ga2e076375162aa8d5f3665a95f10e3710"><td class="mdescLeft">&#160;</td><td class="mdescRight">decompresses given binary stream (containing the data of a zip file only) into given folder  <br /></td></tr>
 <tr class="separator:ga2e076375162aa8d5f3665a95f10e3710"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaed25e9024658688f1d853b2209f3df98" id="r_gaed25e9024658688f1d853b2209f3df98"><td class="memItemLeft" align="right" valign="top">MRMESH_API <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaed25e9024658688f1d853b2209f3df98">MR::compressZip</a> (const std::filesystem::path &amp;zipFile, const std::filesystem::path &amp;sourceFolder, const <a class="el" href="structMR_1_1CompressZipSettings.html">CompressZipSettings</a> &amp;settings)</td></tr>
+<tr class="memdesc:gaed25e9024658688f1d853b2209f3df98"><td class="mdescLeft">&#160;</td><td class="mdescRight">compresses given folder in given zip-file  <br /></td></tr>
+<tr class="separator:gaed25e9024658688f1d853b2209f3df98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga5b20b87f58909c05202f8eebdbbcdd1e" id="r_ga5b20b87f58909c05202f8eebdbbcdd1e"><td class="memItemLeft" align="right" valign="top">MRMESH_API <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5b20b87f58909c05202f8eebdbbcdd1e">MR::compressZip</a> (const std::filesystem::path &amp;zipFile, const std::filesystem::path &amp;sourceFolder, const std::vector&lt; std::filesystem::path &gt; &amp;excludeFiles={}, const char *password=nullptr, ProgressCallback cb={})</td></tr>
 <tr class="memdesc:ga5b20b87f58909c05202f8eebdbbcdd1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">compresses given folder in given zip-file  <br /></td></tr>
 <tr class="separator:ga5b20b87f58909c05202f8eebdbbcdd1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="gaed25e9024658688f1d853b2209f3df98" name="gaed25e9024658688f1d853b2209f3df98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaed25e9024658688f1d853b2209f3df98">&#9670;&#160;</a></span>compressZip() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRMESH_API <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::compressZip </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>zipFile</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>sourceFolder</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1CompressZipSettings.html">CompressZipSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRZip_8h.html">MRZip.h</a>&gt;</code></p>
+
+<p>compresses given folder in given zip-file </p>
+
+</div>
+</div>
 <a id="ga5b20b87f58909c05202f8eebdbbcdd1e" name="ga5b20b87f58909c05202f8eebdbbcdd1e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5b20b87f58909c05202f8eebdbbcdd1e">&#9670;&#160;</a></span>compressZip()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5b20b87f58909c05202f8eebdbbcdd1e">&#9670;&#160;</a></span>compressZip() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

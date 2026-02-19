@@ -1,5 +1,12 @@
 var group__SerializerGroup =
 [
+    [ "MR::CompressZipSettings", "structMR_1_1CompressZipSettings.html", [
+      [ "cb", "structMR_1_1CompressZipSettings.html#a9796435e6a3ca7ed636ac9c0c3121a42", null ],
+      [ "compressionLevel", "structMR_1_1CompressZipSettings.html#a8e2307f6f06661b56c44492f4ca4a54a", null ],
+      [ "excludeFiles", "structMR_1_1CompressZipSettings.html#a0fff83332c3dd033ccd3f5bb5dbb8a5d", null ],
+      [ "password", "structMR_1_1CompressZipSettings.html#a081a0d03fa07baae69e080a91f1aa61d", null ]
+    ] ],
+    [ "MR::compressZip", "group__SerializerGroup.html#gaed25e9024658688f1d853b2209f3df98", null ],
     [ "MR::compressZip", "group__SerializerGroup.html#ga5b20b87f58909c05202f8eebdbbcdd1e", null ],
     [ "MR::decompressZip", "group__SerializerGroup.html#ga60ea0861186c3cd722eaed269571bc6d", null ],
     [ "MR::decompressZip", "group__SerializerGroup.html#ga2e076375162aa8d5f3665a95f10e3710", null ],

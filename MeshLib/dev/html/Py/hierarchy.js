@@ -185,6 +185,7 @@ var hierarchy =
     [ "mrmeshpy.ObjectComparableWithReference.ComparisonReferenceValue", "classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue.html", null ],
     [ "mrmeshpy.ObjectComparableWithReference.ComparisonTolerance", "classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonTolerance.html", null ],
     [ "mrmeshpy.CompensateRadiusParams", "classmrmeshpy_1_1CompensateRadiusParams.html", null ],
+    [ "mrmeshpy.CompressZipSettings", "classmrmeshpy_1_1CompressZipSettings.html", null ],
     [ "mrmeshpy.ComputeSteepestDescentPathSettings", "classmrmeshpy_1_1ComputeSteepestDescentPathSettings.html", null ],
     [ "mrmeshpy.ComputeSweptVolumeParameters", "classmrmeshpy_1_1ComputeSweptVolumeParameters.html", null ],
     [ "mrmeshpy.Cone3ApproximationParams", "classmrmeshpy_1_1Cone3ApproximationParams.html", null ],

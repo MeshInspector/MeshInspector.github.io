@@ -1,5 +1,11 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1ToolPathParams.html":[6,0,0,20,809],
+"structMR_1_1ToolPathResult.html":[6,0,0,20,814],
+"structMR_1_1TouchEndListener.html":[6,0,0,20,730],
+"structMR_1_1TouchMoveListener.html":[6,0,0,20,729],
+"structMR_1_1TouchStartListener.html":[6,0,0,20,728],
+"structMR_1_1TouchpadParameters.html":[6,0,0,20,684],
 "structMR_1_1TouchpadRotateGestureBeginListener.html":[6,0,0,20,734],
 "structMR_1_1TouchpadRotateGestureEndListener.html":[6,0,0,20,736],
 "structMR_1_1TouchpadRotateGestureUpdateListener.html":[6,0,0,20,735],
@@ -243,11 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1Vector3.html":[6,0,0,0,12,1],
 "structMR_1_1Vector3.html":[6,0,0,20,469],
 "structMR_1_1Vector4.html":[6,0,0,0,12,2],
-"structMR_1_1Vector4.html":[6,0,0,20,470],
-"structMR_1_1VectorTraits.html":[6,0,0,20,471],
-"structMR_1_1VectorTraits_3_01ImVec2_01_4.html":[6,0,0,20,698],
-"structMR_1_1VectorTraits_3_01ImVec4_01_4.html":[6,0,0,20,699],
-"structMR_1_1VectorTraits_3_01Vector2_3_01T_01_4_01_4.html":[6,0,0,20,472],
-"structMR_1_1VectorTraits_3_01Vector3_3_01T_01_4_01_4.html":[6,0,0,20,473],
-"structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4.html":[6,0,0,20,474]
+"structMR_1_1Vector4.html":[6,0,0,20,470]
 };

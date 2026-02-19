@@ -1778,6 +1778,12 @@
     <member refid="group__GeneralGroup_1ga77908caf2d1de499c9dec6dbbbdc5737" kind="variable"><name>relaxForce</name></member>
     <member refid="group__GeneralGroup_1gadb2072e359a12815d6285187b399591d" kind="variable"><name>callback</name></member>
   </compound>
+  <compound refid="structMR_1_1CompressZipSettings" kind="struct"><name>MR::CompressZipSettings</name>
+    <member refid="structMR_1_1CompressZipSettings_1a0fff83332c3dd033ccd3f5bb5dbb8a5d" kind="variable"><name>excludeFiles</name></member>
+    <member refid="structMR_1_1CompressZipSettings_1a8e2307f6f06661b56c44492f4ca4a54a" kind="variable"><name>compressionLevel</name></member>
+    <member refid="structMR_1_1CompressZipSettings_1a081a0d03fa07baae69e080a91f1aa61d" kind="variable"><name>password</name></member>
+    <member refid="structMR_1_1CompressZipSettings_1a9796435e6a3ca7ed636ac9c0c3121a42" kind="variable"><name>cb</name></member>
+  </compound>
   <compound refid="structMR_1_1ComputeSteepestDescentPathSettings" kind="struct"><name>MR::ComputeSteepestDescentPathSettings</name>
     <member refid="structMR_1_1ComputeSteepestDescentPathSettings_1a9c5b63e96c36543a3af9203630d6325c" kind="variable"><name>end</name></member>
     <member refid="structMR_1_1ComputeSteepestDescentPathSettings_1adb7629a9e4ce0c21efc00fd5f1b3932f" kind="variable"><name>outVertexReached</name></member>
@@ -14738,6 +14744,7 @@
     <member refid="group__VolumeIndexerGroup_1gaae181e34db4d5ebb6f2cc68194b69c18" kind="function"><name>shrinkVoxelsMask</name></member>
     <member refid="group__SerializerGroup_1ga60ea0861186c3cd722eaed269571bc6d" kind="function"><name>decompressZip</name></member>
     <member refid="group__SerializerGroup_1ga2e076375162aa8d5f3665a95f10e3710" kind="function"><name>decompressZip</name></member>
+    <member refid="group__SerializerGroup_1gaed25e9024658688f1d853b2209f3df98" kind="function"><name>compressZip</name></member>
     <member refid="group__SerializerGroup_1ga5b20b87f58909c05202f8eebdbbcdd1e" kind="function"><name>compressZip</name></member>
     <member refid="group__GeneralGroup_1ga396596cb5cea6d2f8fec7b7838ae2bc5" kind="function"><name>throwExceptionFromExpected</name></member>
     <member refid="group__GeneralGroup_1gac95039057559bedc6c5786b29e42d974" kind="function"><name>expectedValueOrThrow</name></member>
@@ -18257,6 +18264,7 @@
     <member refid="group__SerializerGroup_1gabb77b8518b98c3dde34206e1c8bbc5fc" kind="function"><name>deserializeFromJson</name></member>
     <member refid="group__SerializerGroup_1ga60ea0861186c3cd722eaed269571bc6d" kind="function"><name>decompressZip</name></member>
     <member refid="group__SerializerGroup_1ga2e076375162aa8d5f3665a95f10e3710" kind="function"><name>decompressZip</name></member>
+    <member refid="group__SerializerGroup_1gaed25e9024658688f1d853b2209f3df98" kind="function"><name>compressZip</name></member>
     <member refid="group__SerializerGroup_1ga5b20b87f58909c05202f8eebdbbcdd1e" kind="function"><name>compressZip</name></member>
   </compound>
   <compound refid="group__SurfacePathGroup" kind="group"><name>SurfacePathGroup</name>

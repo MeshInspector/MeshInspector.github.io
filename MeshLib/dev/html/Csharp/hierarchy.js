@@ -578,6 +578,9 @@ var hierarchy =
       [ "MR.Const_CompensateRadiusParams", null, [
         [ "MR.CompensateRadiusParams", "classMR_1_1CompensateRadiusParams.html", null ]
       ] ],
+      [ "MR.Const_CompressZipSettings", null, [
+        [ "MR.CompressZipSettings", "classMR_1_1CompressZipSettings.html", null ]
+      ] ],
       [ "MR.Const_ComputeSteepestDescentPathSettings", null, [
         [ "MR.ComputeSteepestDescentPathSettings", "classMR_1_1ComputeSteepestDescentPathSettings.html", null ]
       ] ],
@@ -3066,6 +3069,7 @@ var hierarchy =
       [ "MR.Const_CloudPartMapping", null, null ],
       [ "MR.Const_CmpOld", null, null ],
       [ "MR.Const_CompensateRadiusParams", null, null ],
+      [ "MR.Const_CompressZipSettings", null, null ],
       [ "MR.Const_ComputeSteepestDescentPathSettings", null, null ],
       [ "MR.Const_ComputeSweptVolumeParameters", null, null ],
       [ "MR.Const_Cone3ApproximationParams", null, null ],

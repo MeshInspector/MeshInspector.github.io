@@ -112,6 +112,7 @@
     <innerclass refid="classMR_1_1CombinedHistoryAction" prot="public">MR::CombinedHistoryAction</innerclass>
     <innerclass refid="classMR_1_1CommandLoop" prot="public">MR::CommandLoop</innerclass>
     <innerclass refid="structMR_1_1CompensateRadiusParams" prot="public">MR::CompensateRadiusParams</innerclass>
+    <innerclass refid="structMR_1_1CompressZipSettings" prot="public">MR::CompressZipSettings</innerclass>
     <innerclass refid="structMR_1_1ComputeSteepestDescentPathSettings" prot="public">MR::ComputeSteepestDescentPathSettings</innerclass>
     <innerclass refid="structMR_1_1ComputeSweptVolumeParameters" prot="public">MR::ComputeSweptVolumeParameters</innerclass>
     <innerclass refid="classMR_1_1Cone3" prot="public">MR::Cone3</innerclass>
@@ -4393,6 +4394,7 @@
       <member refid="group__VolumeIndexerGroup_1gaae181e34db4d5ebb6f2cc68194b69c18" kind="function"><name>shrinkVoxelsMask</name></member>
       <member refid="group__SerializerGroup_1ga60ea0861186c3cd722eaed269571bc6d" kind="function"><name>decompressZip</name></member>
       <member refid="group__SerializerGroup_1ga2e076375162aa8d5f3665a95f10e3710" kind="function"><name>decompressZip</name></member>
+      <member refid="group__SerializerGroup_1gaed25e9024658688f1d853b2209f3df98" kind="function"><name>compressZip</name></member>
       <member refid="group__SerializerGroup_1ga5b20b87f58909c05202f8eebdbbcdd1e" kind="function"><name>compressZip</name></member>
       <member refid="group__GeneralGroup_1ga396596cb5cea6d2f8fec7b7838ae2bc5" kind="function"><name>throwExceptionFromExpected</name></member>
       <member refid="group__GeneralGroup_1gac95039057559bedc6c5786b29e42d974" kind="function"><name>expectedValueOrThrow</name></member>

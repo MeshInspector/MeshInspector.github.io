@@ -1,5 +1,6 @@
 var NAVTREEINDEX54 =
 {
+"group__SurfacePathGroup.html#ga49b66a35e3e4f02f4034d338471be491":[6,0,0,20,2648],
 "group__SurfacePathGroup.html#ga4ef10460976331354fd6633529b31b3f":[6,0,0,16,8],
 "group__SurfacePathGroup.html#ga4ef10460976331354fd6633529b31b3f":[6,0,0,20,1788],
 "group__SurfacePathGroup.html#ga547c5d883c789600e0ed43b29debcc72":[6,0,0,16,25],
@@ -248,6 +249,5 @@ var NAVTREEINDEX54 =
 "group__VoxelsLoadGroup.html#gae5828d9a431d4b30b9d90a66a7fa0e9d":[6,0,0,2,16,8],
 "group__VoxelsLoadGroup.html#gaff744634fa4916b622b9c213b3a37243":[6,0,0,2,16,9],
 "hierarchy.html":[6,0,2,2],
-"index.html":[],
-"namespaceImGui.html":[6,0,1,0,0]
+"index.html":[]
 };

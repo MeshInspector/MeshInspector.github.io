@@ -3,6 +3,7 @@
   <compounddef id="group__SerializerGroup" kind="group">
     <compoundname>SerializerGroup</compoundname>
     <title>Serializer</title>
+    <innerclass refid="structMR_1_1CompressZipSettings" prot="public">MR::CompressZipSettings</innerclass>
     <sectiondef kind="func">
       <memberdef kind="function" id="group__SerializerGroup_1ga6495aafc6ad7f28a253874643bee186d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRMESH_API Expected&lt; std::string &gt;</type>
@@ -1263,6 +1264,33 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRZip.h" line="27" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRZip.h" declline="27" declcolumn="21"/>
       </memberdef>
+      <memberdef kind="function" id="group__SerializerGroup_1gaed25e9024658688f1d853b2209f3df98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API Expected&lt; void &gt;</type>
+        <definition>MRMESH_API Expected&lt; void &gt; MR::compressZip</definition>
+        <argsstring>(const std::filesystem::path &amp;zipFile, const std::filesystem::path &amp;sourceFolder, const CompressZipSettings &amp;settings)</argsstring>
+        <name>compressZip</name>
+        <qualifiedname>MR::compressZip</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>zipFile</declname>
+        </param>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>sourceFolder</declname>
+        </param>
+        <param>
+          <type>const CompressZipSettings &amp;</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+<para>compresses given folder in given zip-file </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRZip.h" line="48" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRZip.h" declline="48" declcolumn="21"/>
+      </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga5b20b87f58909c05202f8eebdbbcdd1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRMESH_API Expected&lt; void &gt;</type>
         <definition>MRMESH_API Expected&lt; void &gt; MR::compressZip</definition>
@@ -1325,7 +1353,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRZip.h" line="35" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRZip.h" declline="35" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRZip.h" line="58" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRZip.h" declline="58" declcolumn="21"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

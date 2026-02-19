@@ -382,6 +382,7 @@ var annotated_dup =
       [ "CombinedHistoryAction", "classMR_1_1CombinedHistoryAction.html", "classMR_1_1CombinedHistoryAction" ],
       [ "CommandLoop", "classMR_1_1CommandLoop.html", "classMR_1_1CommandLoop" ],
       [ "CompensateRadiusParams", "structMR_1_1CompensateRadiusParams.html", "structMR_1_1CompensateRadiusParams" ],
+      [ "CompressZipSettings", "structMR_1_1CompressZipSettings.html", "structMR_1_1CompressZipSettings" ],
       [ "ComputeSteepestDescentPathSettings", "structMR_1_1ComputeSteepestDescentPathSettings.html", "structMR_1_1ComputeSteepestDescentPathSettings" ],
       [ "ComputeSweptVolumeParameters", "structMR_1_1ComputeSweptVolumeParameters.html", "structMR_1_1ComputeSweptVolumeParameters" ],
       [ "Cone3", "classMR_1_1Cone3.html", "classMR_1_1Cone3" ],

@@ -69,6 +69,7 @@
         <label>vector</label>
       </node>
     </incdepgraph>
+    <innerclass refid="structMR_1_1CompressZipSettings" prot="public">MR::CompressZipSettings</innerclass>
     <innernamespace refid="namespaceMR">MR</innernamespace>
     <briefdescription>
     </briefdescription>
@@ -92,11 +93,26 @@
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
 <codeline lineno="27" refid="group__SerializerGroup_1ga2e076375162aa8d5f3665a95f10e3710" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__SerializerGroup_1ga60ea0861186c3cd722eaed269571bc6d" kindref="member">decompressZip</ref>(<sp/>std::istream&amp;<sp/>zipStream,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>targetFolder,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>password<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35" refid="group__SerializerGroup_1ga5b20b87f58909c05202f8eebdbbcdd1e" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__SerializerGroup_1ga5b20b87f58909c05202f8eebdbbcdd1e" kindref="member">compressZip</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>zipFile,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>sourceFolder,<sp/></highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::filesystem::path&gt;&amp;<sp/>excludeFiles<sp/>=<sp/>{},<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>password<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/>ProgressCallback<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="29" refid="structMR_1_1CompressZipSettings" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1CompressZipSettings" kindref="compound">CompressZipSettings</ref></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="32" refid="structMR_1_1CompressZipSettings_1a0fff83332c3dd033ccd3f5bb5dbb8a5d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;std::filesystem::path&gt;<sp/><ref refid="structMR_1_1CompressZipSettings_1a0fff83332c3dd033ccd3f5bb5dbb8a5d" kindref="member">excludeFiles</ref>;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="structMR_1_1CompressZipSettings_1a8e2307f6f06661b56c44492f4ca4a54a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1CompressZipSettings_1a8e2307f6f06661b56c44492f4ca4a54a" kindref="member">compressionLevel</ref><sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="40"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="39" refid="structMR_1_1CompressZipSettings_1a081a0d03fa07baae69e080a91f1aa61d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="structMR_1_1CompressZipSettings_1a081a0d03fa07baae69e080a91f1aa61d" kindref="member">password</ref>;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="structMR_1_1CompressZipSettings_1a9796435e6a3ca7ed636ac9c0c3121a42" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ProgressCallback<sp/><ref refid="structMR_1_1CompressZipSettings_1a9796435e6a3ca7ed636ac9c0c3121a42" kindref="member">cb</ref>;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="group__SerializerGroup_1gaed25e9024658688f1d853b2209f3df98" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__SerializerGroup_1gaed25e9024658688f1d853b2209f3df98" kindref="member">compressZip</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>zipFile,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>sourceFolder,</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1CompressZipSettings" kindref="compound">CompressZipSettings</ref>&amp;<sp/>settings<sp/>);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal">[[deprecated(<sp/></highlight><highlight class="stringliteral">&quot;Use<sp/>compressZip(<sp/>zipFile,<sp/>sourceFolder,<sp/>settings<sp/>)&quot;</highlight><highlight class="normal"><sp/>)]]</highlight></codeline>
+<codeline lineno="58" refid="group__SerializerGroup_1ga5b20b87f58909c05202f8eebdbbcdd1e" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__SerializerGroup_1gaed25e9024658688f1d853b2209f3df98" kindref="member">compressZip</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>zipFile,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>sourceFolder,<sp/></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::filesystem::path&gt;&amp;<sp/>excludeFiles<sp/>=<sp/>{},<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>password<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/>ProgressCallback<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal">}<sp/></highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRZip.h"/>
   </compounddef>

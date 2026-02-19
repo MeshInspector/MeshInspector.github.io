@@ -3384,6 +3384,19 @@
     <member refid="classMR_1_1CompensateRadiusParams_1ae09fb5f06eb14101cd85536215219140" kind="function"><name>CompensateRadiusParams</name></member>
     <member refid="classMR_1_1CompensateRadiusParams_1a71d47092139c33a007000b22236edb26" kind="function"><name>assign</name></member>
   </compound>
+  <compound refid="classMR_1_1CompressZipSettings" kind="class"><name>MR::CompressZipSettings</name>
+    <member refid="classMR_1_1CompressZipSettings_1abe3840e1157574bdb901380c5eec2aac" kind="property"><name>excludeFiles</name></member>
+    <member refid="classMR_1_1CompressZipSettings_1aabec1ee43236cd7635fc23efaca93406" kind="property"><name>compressionLevel</name></member>
+    <member refid="classMR_1_1CompressZipSettings_1a5a3c0f7c66ffa6bea93cbf506d7d7267" kind="property"><name>password</name></member>
+    <member refid="classMR_1_1CompressZipSettings_1ab44d370f01c543007abcefd5d30d9234" kind="property"><name>cb</name></member>
+    <member refid="classMR_1_1CompressZipSettings_1a78814704874080d78cb312d24488cf15" kind="function"><name>CompressZipSettings</name></member>
+    <member refid="classMR_1_1CompressZipSettings_1a2370266c1b9a1ce42ed0ce8e989950fe" kind="function"><name>CompressZipSettings</name></member>
+    <member refid="classMR_1_1CompressZipSettings_1a97001e48609ca314cca279cfb43355d4" kind="function"><name>CompressZipSettings</name></member>
+    <member refid="classMR_1_1CompressZipSettings_1aac691065fc09f3eb043ad42266207745" kind="function"><name>CompressZipSettings</name></member>
+    <member refid="classMR_1_1CompressZipSettings_1aed19ef0bd8a95c646e3f20bc2c2818de" kind="function"><name>CompressZipSettings</name></member>
+    <member refid="classMR_1_1CompressZipSettings_1a16e4c20b03f1bf4b1973f81e860a2609" kind="function"><name>CompressZipSettings</name></member>
+    <member refid="classMR_1_1CompressZipSettings_1a29a93ef8b54061a63a1e48b90f72df3b" kind="function"><name>assign</name></member>
+  </compound>
   <compound refid="classMR_1_1ComputeSteepestDescentPathSettings" kind="class"><name>MR::ComputeSteepestDescentPathSettings</name>
     <member refid="classMR_1_1ComputeSteepestDescentPathSettings_1ae1872ce5a1f0dd2786cbfcc07e5e198f" kind="property"><name>end</name></member>
     <member refid="classMR_1_1ComputeSteepestDescentPathSettings_1a26028f8f71feb1405babba377b2ce09b" kind="property"><name>outVertexReached</name></member>
@@ -12038,6 +12051,7 @@
     <member refid="classMR_1a29865cf1a02db2d808230eb20fbbf00b" kind="function"><name>shrinkVoxelsMask</name></member>
     <member refid="classMR_1a076ad8dee2fa3cbb7786f70506666749" kind="function"><name>decompressZip</name></member>
     <member refid="classMR_1a1e7386f7bd98058cc59ea61cdfa681f2" kind="function"><name>decompressZip</name></member>
+    <member refid="classMR_1aca2627ffd68fd9aa55ecb91f3f421686" kind="function"><name>compressZip</name></member>
     <member refid="classMR_1a5e14e4f0a5bf57b74862e5cc3246da97" kind="function"><name>compressZip</name></member>
     <member refid="classMR_1a723ee518c5540f71101eb72e85463f71" kind="function"><name>alignTextToMesh</name></member>
     <member refid="classMR_1aab15e5229b2b90a01416c7f39c9373e2" kind="function"><name>bendTextAlongCurve</name></member>

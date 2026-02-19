@@ -260,7 +260,7 @@ var NAVTREEINDEX =
 "MRVoxelsVolume_8h.html#a20ffad8bf85de61e2e0326017af2b2d0",
 "MRVoxelsVolume_8h.html#ade1859c54eb354b9c1c10cf9407368c3",
 "MRWeightedPointsShell_8h.html#aa5247cabb855289fe6e813f1e7221499",
-"structMR__Vector3b.html#a6d1aa98471407f713cceb43a1c3224a4"
+"structMR__PixelId.html#a4f7ba4cb445851a50c1820d6e588ddf0"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

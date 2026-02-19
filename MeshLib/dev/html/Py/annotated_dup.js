@@ -168,6 +168,7 @@ var annotated_dup =
       [ "ColorMapAggregator_VertTag_PartialColorMap", "classmrmeshpy_1_1ColorMapAggregator__VertTag__PartialColorMap.html", "classmrmeshpy_1_1ColorMapAggregator__VertTag__PartialColorMap" ],
       [ "CombinedHistoryAction", "classmrmeshpy_1_1CombinedHistoryAction.html", "classmrmeshpy_1_1CombinedHistoryAction" ],
       [ "CompensateRadiusParams", "classmrmeshpy_1_1CompensateRadiusParams.html", "classmrmeshpy_1_1CompensateRadiusParams" ],
+      [ "CompressZipSettings", "classmrmeshpy_1_1CompressZipSettings.html", "classmrmeshpy_1_1CompressZipSettings" ],
       [ "ComputeSteepestDescentPathSettings", "classmrmeshpy_1_1ComputeSteepestDescentPathSettings.html", "classmrmeshpy_1_1ComputeSteepestDescentPathSettings" ],
       [ "ComputeSweptVolumeParameters", "classmrmeshpy_1_1ComputeSweptVolumeParameters.html", "classmrmeshpy_1_1ComputeSweptVolumeParameters" ],
       [ "Cone3ApproximationParams", "classmrmeshpy_1_1Cone3ApproximationParams.html", "classmrmeshpy_1_1Cone3ApproximationParams" ],
