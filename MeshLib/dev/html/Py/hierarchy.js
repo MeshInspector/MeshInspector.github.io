@@ -816,6 +816,7 @@ var hierarchy =
     [ "mrmeshpy.OpenVdbFloatGrid", "classmrmeshpy_1_1OpenVdbFloatGrid.html", null ],
     [ "mrmeshpy.OrientNormals", "classmrmeshpy_1_1OrientNormals.html", null ],
     [ "mrmeshpy.OriginAndDimensions", "classmrmeshpy_1_1OriginAndDimensions.html", null ],
+    [ "mrmeshpy.OutAttributesFillingSettings", "classmrmeshpy_1_1OutAttributesFillingSettings.html", null ],
     [ "mrmeshpy.OutEdge", "classmrmeshpy_1_1OutEdge.html", null ],
     [ "mrmeshpy.OutEdge2", "classmrmeshpy_1_1OutEdge2.html", null ],
     [ "mrmeshpy.OutlierParams", "classmrmeshpy_1_1OutlierParams.html", null ],
@@ -1026,6 +1027,7 @@ var hierarchy =
       [ "mrmeshpy.SliceInfo", "classmrmeshpy_1_1SliceInfo.html", null ]
     ] ],
     [ "mrmeshpy.SlicePlane", "classmrmeshpy_1_1SlicePlane.html", null ],
+    [ "mrmeshpy.SmoothFillingSettings", "classmrmeshpy_1_1SmoothFillingSettings.html", null ],
     [ "mrmeshpy.SomeLocalTriangulations", "classmrmeshpy_1_1SomeLocalTriangulations.html", null ],
     [ "mrmeshpy.SortIntersectionsData", "classmrmeshpy_1_1SortIntersectionsData.html", null ],
     [ "mrmeshpy.SpacingSettings", "classmrmeshpy_1_1SpacingSettings.html", null ],
@@ -1245,6 +1247,7 @@ var hierarchy =
     [ "mrmeshpy.std_vector_WatershedGraph_OverflowPoint", "classmrmeshpy_1_1std__vector__WatershedGraph__OverflowPoint.html", null ],
     [ "mrmeshpy.std_vector_WeightedShell_ParametersRegions_Region", "classmrmeshpy_1_1std__vector__WeightedShell__ParametersRegions__Region.html", null ],
     [ "mrmeshpy.StitchHolesParams", "classmrmeshpy_1_1StitchHolesParams.html", null ],
+    [ "mrmeshpy.SubdivideFillingSettings", "classmrmeshpy_1_1SubdivideFillingSettings.html", null ],
     [ "mrmeshpy.SubdivideSettings", "classmrmeshpy_1_1SubdivideSettings.html", null ],
     [ "mrmeshpy.Features.SubfeatureInfo", "classmrmeshpy_1_1Features_1_1SubfeatureInfo.html", null ],
     [ "mrmeshpy.SurfaceDistanceBuilder", "classmrmeshpy_1_1SurfaceDistanceBuilder.html", null ],

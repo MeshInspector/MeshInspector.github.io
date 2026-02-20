@@ -7488,22 +7488,13 @@
   <compound refid="classMR_1_1FillHoleNicelySettings" kind="class"><name>MR::FillHoleNicelySettings</name>
     <member refid="classMR_1_1FillHoleNicelySettings_1a22eb46bf569813d759c45209f7e5d4f4" kind="property"><name>triangulateParams</name></member>
     <member refid="classMR_1_1FillHoleNicelySettings_1a20c0245f9adbf201c0c218d15e12afc6" kind="property"><name>triangulateOnly</name></member>
-    <member refid="classMR_1_1FillHoleNicelySettings_1a0cec2c44e4bbf28b3bb2b31033709161" kind="property"><name>notFlippable</name></member>
-    <member refid="classMR_1_1FillHoleNicelySettings_1aec638ca9e5cacaa1544b4a6c0b0f9d83" kind="property"><name>maxEdgeLen</name></member>
-    <member refid="classMR_1_1FillHoleNicelySettings_1a26c051909b7fa47ac8f542758fe7509f" kind="property"><name>maxEdgeSplits</name></member>
-    <member refid="classMR_1_1FillHoleNicelySettings_1aef0187ff7203fc26849d40cd87b0697f" kind="property"><name>maxAngleChangeAfterFlip</name></member>
+    <member refid="classMR_1_1FillHoleNicelySettings_1af07064ec7e02b2e433f67011c31b94f9" kind="property"><name>subdivideSettings</name></member>
     <member refid="classMR_1_1FillHoleNicelySettings_1a36b69a5a272de9fc957be8e13787d431" kind="property"><name>smoothCurvature</name></member>
-    <member refid="classMR_1_1FillHoleNicelySettings_1aaa17208f4f6848f132f0ce61c7b818e8" kind="property"><name>naturalSmooth</name></member>
-    <member refid="classMR_1_1FillHoleNicelySettings_1a7ae1241a3534936fe1adc89631a5ebe8" kind="property"><name>beforeEdgeSplit</name></member>
-    <member refid="classMR_1_1FillHoleNicelySettings_1a84880f9aa0fdc39b1d3dce650b70f6f4" kind="property"><name>onEdgeSplit</name></member>
-    <member refid="classMR_1_1FillHoleNicelySettings_1a051d97f0741c629699a90e7d20c62096" kind="property"><name>edgeWeights</name></member>
-    <member refid="classMR_1_1FillHoleNicelySettings_1ae68dd0d989f48b5d5ba4a5b2a0b43757" kind="property"><name>vmass</name></member>
-    <member refid="classMR_1_1FillHoleNicelySettings_1a2fe297c52f9b77d2ba4fd88a72d21cac" kind="property"><name>uvCoords</name></member>
-    <member refid="classMR_1_1FillHoleNicelySettings_1a340c2f489d2cb9191ae5ff94ab64721f" kind="property"><name>colorMap</name></member>
-    <member refid="classMR_1_1FillHoleNicelySettings_1abc3dde4e1d14f4debe1e7afed2382963" kind="property"><name>faceColors</name></member>
+    <member refid="classMR_1_1FillHoleNicelySettings_1a19b097195c6ea293da11d57435a26588" kind="property"><name>smoothSeettings</name></member>
+    <member refid="classMR_1_1FillHoleNicelySettings_1a42cd101dc3e3826ffdcebba8de98b570" kind="property"><name>outAttributes</name></member>
     <member refid="classMR_1_1FillHoleNicelySettings_1adf69af45a29269316a6d2f6062bb2de5" kind="function"><name>FillHoleNicelySettings</name></member>
     <member refid="classMR_1_1FillHoleNicelySettings_1a207fce1a1f09ea5b55b7182177593dc9" kind="function"><name>FillHoleNicelySettings</name></member>
-    <member refid="classMR_1_1FillHoleNicelySettings_1a8ab76f20adebe53c4e49ce8a446d9927" kind="function"><name>FillHoleNicelySettings</name></member>
+    <member refid="classMR_1_1FillHoleNicelySettings_1ab75098216f5dad612da7e293ddd45c12" kind="function"><name>FillHoleNicelySettings</name></member>
     <member refid="classMR_1_1FillHoleNicelySettings_1a35848ced490102e01fc0e37cf7de7f7c" kind="function"><name>FillHoleNicelySettings</name></member>
     <member refid="classMR_1_1FillHoleNicelySettings_1a379be45793f7128428cda76a11081b9e" kind="function"><name>FillHoleNicelySettings</name></member>
     <member refid="classMR_1_1FillHoleNicelySettings_1a46192820cfe311e47b1fba81343e2302" kind="function"><name>FillHoleNicelySettings</name></member>
@@ -12053,8 +12044,8 @@
     <member refid="classMR_1a29865cf1a02db2d808230eb20fbbf00b" kind="function"><name>shrinkVoxelsMask</name></member>
     <member refid="classMR_1a076ad8dee2fa3cbb7786f70506666749" kind="function"><name>decompressZip</name></member>
     <member refid="classMR_1a1e7386f7bd98058cc59ea61cdfa681f2" kind="function"><name>decompressZip</name></member>
-    <member refid="classMR_1aca2627ffd68fd9aa55ecb91f3f421686" kind="function"><name>compressZip</name></member>
-    <member refid="classMR_1a5e14e4f0a5bf57b74862e5cc3246da97" kind="function"><name>compressZip</name></member>
+    <member refid="classMR_1a28f7e08543f680496abdc30531896dfb" kind="function"><name>compressZip</name></member>
+    <member refid="classMR_1ad526f661097ce99a5e7d695f5e9a3964" kind="function"><name>compressZip</name></member>
     <member refid="classMR_1a723ee518c5540f71101eb72e85463f71" kind="function"><name>alignTextToMesh</name></member>
     <member refid="classMR_1aab15e5229b2b90a01416c7f39c9373e2" kind="function"><name>bendTextAlongCurve</name></member>
     <member refid="classMR_1a74461600e98acb2439b08e5c7e285db4" kind="function"><name>bendTextAlongCurve</name></member>
@@ -13880,6 +13871,17 @@
     <member refid="classMR_1_1OriginAndDimensions_1a717027bbd21463475511e1bf79e16041" kind="function"><name>OriginAndDimensions</name></member>
     <member refid="classMR_1_1OriginAndDimensions_1ab0534c8315638aed689be02b6169c866" kind="function"><name>OriginAndDimensions</name></member>
     <member refid="classMR_1_1OriginAndDimensions_1abb60cb039d74845e35c678d372562daa" kind="function"><name>assign</name></member>
+  </compound>
+  <compound refid="classMR_1_1OutAttributesFillingSettings" kind="class"><name>MR::OutAttributesFillingSettings</name>
+    <member refid="classMR_1_1OutAttributesFillingSettings_1abababd5fb8c875907c4286d5d0ad2491" kind="property"><name>uvCoords</name></member>
+    <member refid="classMR_1_1OutAttributesFillingSettings_1a7b22d7b1c08e4a022edeaf5e8d5d6452" kind="property"><name>colorMap</name></member>
+    <member refid="classMR_1_1OutAttributesFillingSettings_1a7b689f36cfc5e7e9f338f3786fb696ea" kind="property"><name>faceColors</name></member>
+    <member refid="classMR_1_1OutAttributesFillingSettings_1accc3223494c596e1164ee613f9b4052c" kind="function"><name>OutAttributesFillingSettings</name></member>
+    <member refid="classMR_1_1OutAttributesFillingSettings_1a5f6b7a05262b53174e2799e4f4fe8c6f" kind="function"><name>OutAttributesFillingSettings</name></member>
+    <member refid="classMR_1_1OutAttributesFillingSettings_1af9dafc58bf53371282b8eb80c31d2b48" kind="function"><name>OutAttributesFillingSettings</name></member>
+    <member refid="classMR_1_1OutAttributesFillingSettings_1ab31123a1fb89fb125a8f73a6b9d66783" kind="function"><name>OutAttributesFillingSettings</name></member>
+    <member refid="classMR_1_1OutAttributesFillingSettings_1a4b4a872335eee2915df670c8dbb294bf" kind="function"><name>OutAttributesFillingSettings</name></member>
+    <member refid="classMR_1_1OutAttributesFillingSettings_1a47c33b733fcb06498370999edf83544a" kind="function"><name>assign</name></member>
   </compound>
   <compound refid="classMR_1_1OutlierParams" kind="class"><name>MR::OutlierParams</name>
     <member refid="classMR_1_1OutlierParams_1af3184d787d43b01c1d66c9e651d211e6" kind="property"><name>maxClusterSize</name></member>
@@ -16119,6 +16121,17 @@
     <member refid="classMR_1_1SliceInfoBase_1ae9dcdaa280dc5cc300c30b9cc1298695" kind="function"><name>SliceInfoBase</name></member>
     <member refid="classMR_1_1SliceInfoBase_1a387bc1e52063db74bfcffe0a7d3488b5" kind="function"><name>assign</name></member>
   </compound>
+  <compound refid="classMR_1_1SmoothFillingSettings" kind="class"><name>MR::SmoothFillingSettings</name>
+    <member refid="classMR_1_1SmoothFillingSettings_1a8691e5e74428c5cae071a0ce44499ece" kind="property"><name>naturalSmooth</name></member>
+    <member refid="classMR_1_1SmoothFillingSettings_1a10c2912048dc8b9833638397da6539f0" kind="property"><name>edgeWeights</name></member>
+    <member refid="classMR_1_1SmoothFillingSettings_1a4f8228afdb956dd3a44d31ad1d3bda36" kind="property"><name>vmass</name></member>
+    <member refid="classMR_1_1SmoothFillingSettings_1adc17b571e7194e5674d6e82c5d21d3da" kind="function"><name>SmoothFillingSettings</name></member>
+    <member refid="classMR_1_1SmoothFillingSettings_1a6ab5c9f6875689a0a99ad5ec3fc070bc" kind="function"><name>SmoothFillingSettings</name></member>
+    <member refid="classMR_1_1SmoothFillingSettings_1aafc1fdfb2ed97dab7d336839a1641cf8" kind="function"><name>SmoothFillingSettings</name></member>
+    <member refid="classMR_1_1SmoothFillingSettings_1a9d4e3a5ee217b74205457ac6ba0c284c" kind="function"><name>SmoothFillingSettings</name></member>
+    <member refid="classMR_1_1SmoothFillingSettings_1a0fdd08498ce20c7e7e9de439740cc49c" kind="function"><name>SmoothFillingSettings</name></member>
+    <member refid="classMR_1_1SmoothFillingSettings_1a7a734089e8c80b22e9a604b2585d012b" kind="function"><name>assign</name></member>
+  </compound>
   <compound refid="classMR_1_1SomeLocalTriangulations" kind="class"><name>MR::SomeLocalTriangulations</name>
     <member refid="classMR_1_1SomeLocalTriangulations_1ad35531666dd9f585b9f5cec076d9a74d" kind="property"><name>neighbors</name></member>
     <member refid="classMR_1_1SomeLocalTriangulations_1aebeee680a02bb22554917b9e83ba3474" kind="property"><name>fanRecords</name></member>
@@ -16310,6 +16323,21 @@
     <member refid="classMR_1_1StitchHolesParams_1ad228199df1b8233da99a3f3b9318e5ff" kind="function"><name>StitchHolesParams</name></member>
     <member refid="classMR_1_1StitchHolesParams_1a960ec243807f948040f26d5a634e5dc8" kind="function"><name>StitchHolesParams</name></member>
     <member refid="classMR_1_1StitchHolesParams_1af856cd6e44234f201f8737a7090fc796" kind="function"><name>assign</name></member>
+  </compound>
+  <compound refid="classMR_1_1SubdivideFillingSettings" kind="class"><name>MR::SubdivideFillingSettings</name>
+    <member refid="classMR_1_1SubdivideFillingSettings_1adaec9be12a253b1a260be3022f3ac435" kind="property"><name>notFlippable</name></member>
+    <member refid="classMR_1_1SubdivideFillingSettings_1add6104ebc126a14aa4516b0906a8d432" kind="property"><name>maxEdgeLen</name></member>
+    <member refid="classMR_1_1SubdivideFillingSettings_1ad938bd807028981dfa116d8d3b0ee0d1" kind="property"><name>maxEdgeSplits</name></member>
+    <member refid="classMR_1_1SubdivideFillingSettings_1ac8d79015901dd1d039820ca164d564c9" kind="property"><name>maxAngleChangeAfterFlip</name></member>
+    <member refid="classMR_1_1SubdivideFillingSettings_1a244cb099f6d541010a34ddce2fb2a976" kind="property"><name>beforeEdgeSplit</name></member>
+    <member refid="classMR_1_1SubdivideFillingSettings_1a7fb9cb1f214b2b116a593649cc6f6aa2" kind="property"><name>onEdgeSplit</name></member>
+    <member refid="classMR_1_1SubdivideFillingSettings_1a535699b88de7b3f9d2f5ea0f5c94be19" kind="function"><name>SubdivideFillingSettings</name></member>
+    <member refid="classMR_1_1SubdivideFillingSettings_1af69827c382127e3347680100dd6bbf5a" kind="function"><name>SubdivideFillingSettings</name></member>
+    <member refid="classMR_1_1SubdivideFillingSettings_1ae9d9d58deaa9658956b648bc91fc5e2a" kind="function"><name>SubdivideFillingSettings</name></member>
+    <member refid="classMR_1_1SubdivideFillingSettings_1a1beb1c0ae651ebc3d9e9da2490f79f3a" kind="function"><name>SubdivideFillingSettings</name></member>
+    <member refid="classMR_1_1SubdivideFillingSettings_1a8d8c0bba6de94b70c2086943b4d89c23" kind="function"><name>SubdivideFillingSettings</name></member>
+    <member refid="classMR_1_1SubdivideFillingSettings_1a2b8514466cdae97290aa4222f649347d" kind="function"><name>SubdivideFillingSettings</name></member>
+    <member refid="classMR_1_1SubdivideFillingSettings_1ad2e65b46e2f116a7860cdf379b727728" kind="function"><name>assign</name></member>
   </compound>
   <compound refid="classMR_1_1SubdivideSettings" kind="class"><name>MR::SubdivideSettings</name>
     <member refid="classMR_1_1SubdivideSettings_1a802975ae8408f88d0732cf26e73c144f" kind="property"><name>maxEdgeLen</name></member>

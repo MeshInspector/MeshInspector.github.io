@@ -3203,19 +3203,10 @@
   <compound refid="structMR_1_1FillHoleNicelySettings" kind="struct"><name>MR::FillHoleNicelySettings</name>
     <member refid="group__GeneralGroup_1ga2ead937ed1df084dc6a43160e17df2c2" kind="variable"><name>triangulateParams</name></member>
     <member refid="group__GeneralGroup_1ga62e34964b014489a6f1d3f2e324759ff" kind="variable"><name>triangulateOnly</name></member>
-    <member refid="group__GeneralGroup_1ga95c1f4256940d339c8ee702d270fff49" kind="variable"><name>notFlippable</name></member>
-    <member refid="group__GeneralGroup_1gadebcc27b0bdbb4fa55baa8eae16a0dfb" kind="variable"><name>maxEdgeLen</name></member>
-    <member refid="group__GeneralGroup_1ga6dab8822d5eac719a15e99f44c4a3407" kind="variable"><name>maxEdgeSplits</name></member>
-    <member refid="group__GeneralGroup_1ga0e811b431fee7fca37d8a2ea46bf916c" kind="variable"><name>maxAngleChangeAfterFlip</name></member>
+    <member refid="group__GeneralGroup_1ga7b05b181968c758ebe172bd27457185b" kind="variable"><name>subdivideSettings</name></member>
     <member refid="group__GeneralGroup_1gaac4ecae12eb97ad05b204ac14de42cb8" kind="variable"><name>smoothCurvature</name></member>
-    <member refid="group__GeneralGroup_1gaba46fa5a5269e9ffb23176c985a2c2b7" kind="variable"><name>naturalSmooth</name></member>
-    <member refid="group__GeneralGroup_1ga6d0f88d49fd92560346c908c5b5a6559" kind="variable"><name>beforeEdgeSplit</name></member>
-    <member refid="group__GeneralGroup_1ga29116e24393106e531f26abb886019b2" kind="variable"><name>onEdgeSplit</name></member>
-    <member refid="group__GeneralGroup_1ga033b24c89dfe82d1d7ebadc8b24f1a79" kind="variable"><name>edgeWeights</name></member>
-    <member refid="group__GeneralGroup_1gaa1d0f57cc8f6d2bb9413ae1e315e3ce6" kind="variable"><name>vmass</name></member>
-    <member refid="group__GeneralGroup_1ga8e1fac34058b267d696714994b158ce2" kind="variable"><name>uvCoords</name></member>
-    <member refid="group__GeneralGroup_1gaf9530ece1e8bd0354145a59d4d603bf9" kind="variable"><name>colorMap</name></member>
-    <member refid="group__GeneralGroup_1ga4e373a3a06bd7f738fc35e108b3fdfa0" kind="variable"><name>faceColors</name></member>
+    <member refid="group__GeneralGroup_1gacefa7bb069740dbb24ec548f52178ecf" kind="variable"><name>smoothSeettings</name></member>
+    <member refid="group__GeneralGroup_1gae228d6f67e070cb9c4323dd57a421c73" kind="variable"><name>outAttributes</name></member>
   </compound>
   <compound refid="structMR_1_1FillHoleParams" kind="struct"><name>MR::FillHoleParams</name>
     <member refid="structMR_1_1FillHoleParams_1afe7c6c69a5bf27699758e71d19c43301" kind="enum"><name>MultipleEdgesResolveMode</name></member>
@@ -7248,6 +7239,11 @@
     <member refid="group__GeneralGroup_1ga3249421064f723e9274d910acde0cc34" kind="variable"><name>origin</name></member>
     <member refid="group__GeneralGroup_1ga47a625c37bc5587c8811c698a4720f0e" kind="variable"><name>dimensions</name></member>
   </compound>
+  <compound refid="structMR_1_1OutAttributesFillingSettings" kind="struct"><name>MR::OutAttributesFillingSettings</name>
+    <member refid="group__GeneralGroup_1ga43ab66a6ec91938ea9940c028b84a54d" kind="variable"><name>uvCoords</name></member>
+    <member refid="group__GeneralGroup_1ga0c7070bcd2bfeb1cb0388665bffb45c3" kind="variable"><name>colorMap</name></member>
+    <member refid="group__GeneralGroup_1gab26b30e3f2b4b1f0e34313b53319e286" kind="variable"><name>faceColors</name></member>
+  </compound>
   <compound refid="structMR_1_1OutlierParams" kind="struct"><name>MR::OutlierParams</name>
     <member refid="group__GeneralGroup_1gae7fcf0f64db2a7e109689f6722285abd" kind="variable"><name>maxClusterSize</name></member>
     <member refid="group__GeneralGroup_1ga9561ff72aba23dad165d0922967bf343" kind="variable"><name>maxNeighbors</name></member>
@@ -10370,6 +10366,11 @@
     <member refid="group__GeneralGroup_1ga0f4b29a9c38aac83de066f74ddc95c4d" kind="variable"><name>fileNum</name></member>
     <member refid="group__GeneralGroup_1ga2d712987f45ca23b27e048c4decf6293" kind="function"><name>operator&lt;=&gt;</name></member>
   </compound>
+  <compound refid="structMR_1_1SmoothFillingSettings" kind="struct"><name>MR::SmoothFillingSettings</name>
+    <member refid="group__GeneralGroup_1ga41d283fb6e36ac60be019b2f195c14e0" kind="variable"><name>naturalSmooth</name></member>
+    <member refid="group__GeneralGroup_1ga34a7a4b9c69f0c826cb30f38a9e10250" kind="variable"><name>edgeWeights</name></member>
+    <member refid="group__GeneralGroup_1ga527a7a95f06fcee7ca081ed3dbec23b6" kind="variable"><name>vmass</name></member>
+  </compound>
   <compound refid="classMR_1_1Laplacian_1_1Solver" kind="class"><name>MR::Laplacian::Solver</name>
     <member refid="group__GeneralGroup_1ga763eccd90d676a04208c718e89afbf18" kind="function"><name>~Solver</name></member>
     <member refid="group__GeneralGroup_1ga32171f867c3530ef5b8dbbe13cacd86a" kind="function"><name>compute</name></member>
@@ -10562,6 +10563,14 @@
   <compound refid="structMR_1_1StopOnTrueCombiner" kind="struct"><name>MR::StopOnTrueCombiner</name>
     <member refid="group__GeneralGroup_1gae157bdf17a7f295d510dd732d523f78f" kind="typedef"><name>result_type</name></member>
     <member refid="group__GeneralGroup_1gac4c7b58291a1f9e59adb38ee87fca271" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="structMR_1_1SubdivideFillingSettings" kind="struct"><name>MR::SubdivideFillingSettings</name>
+    <member refid="group__GeneralGroup_1ga873defafe8bd5f0ef51bd6d0c3f92f2d" kind="variable"><name>notFlippable</name></member>
+    <member refid="group__GeneralGroup_1ga82b0b627885b0136d5cbb0bd093cf88b" kind="variable"><name>maxEdgeLen</name></member>
+    <member refid="group__GeneralGroup_1ga2ece732a88200eaaef2beab96f222561" kind="variable"><name>maxEdgeSplits</name></member>
+    <member refid="group__GeneralGroup_1gadf8a3a24d258da848836a556b3b42e34" kind="variable"><name>maxAngleChangeAfterFlip</name></member>
+    <member refid="group__GeneralGroup_1ga72c374e0d427e8beca46de3aa27d29f8" kind="variable"><name>beforeEdgeSplit</name></member>
+    <member refid="group__GeneralGroup_1gab76bf4f3cec5f2fb4787f4635f3dd684" kind="variable"><name>onEdgeSplit</name></member>
   </compound>
   <compound refid="structMR_1_1SubdivideSettings" kind="struct"><name>MR::SubdivideSettings</name>
     <member refid="structMR_1_1SubdivideSettings_1a36d315cb2aaa92503d1a85c889074250" kind="variable"><name>maxEdgeLen</name></member>
@@ -15033,8 +15042,8 @@
     <member refid="group__VolumeIndexerGroup_1ga051634fee494f975b01af37644de2b2a" kind="function"><name>shrinkVoxelsMask</name></member>
     <member refid="group__SerializerGroup_1ga4a175d8a8e417663622148510dd390ba" kind="function"><name>decompressZip</name></member>
     <member refid="group__SerializerGroup_1gaeb9ec7f1149bdc406b6d901c2bc1986f" kind="function"><name>decompressZip</name></member>
-    <member refid="group__SerializerGroup_1ga248149012fd0f0e6435fc5ab11a3cccc" kind="function"><name>compressZip</name></member>
-    <member refid="group__SerializerGroup_1ga34252d79f47d228502775473e8bc87d4" kind="function"><name>compressZip</name></member>
+    <member refid="group__SerializerGroup_1gaaeb1d5f0f783381f2285fd4d7fbd1c6b" kind="function"><name>compressZip</name></member>
+    <member refid="group__SerializerGroup_1ga4466031d05f4eb56868dc88105bc5248" kind="function"><name>compressZip</name></member>
     <member refid="group__GeneralGroup_1ga396596cb5cea6d2f8fec7b7838ae2bc5" kind="function"><name>throwExceptionFromExpected</name></member>
     <member refid="group__GeneralGroup_1gac95039057559bedc6c5786b29e42d974" kind="function"><name>expectedValueOrThrow</name></member>
     <member refid="group__GeneralGroup_1gaa60c1177452c69cf5b8cdab61296d1ce" kind="function"><name>decorateExpected</name></member>
@@ -18585,8 +18594,8 @@
     <member refid="group__SerializerGroup_1ga2d2bfffd8ea520a7eb58c0c7132868a5" kind="function"><name>deserializeFromJson</name></member>
     <member refid="group__SerializerGroup_1ga4a175d8a8e417663622148510dd390ba" kind="function"><name>decompressZip</name></member>
     <member refid="group__SerializerGroup_1gaeb9ec7f1149bdc406b6d901c2bc1986f" kind="function"><name>decompressZip</name></member>
-    <member refid="group__SerializerGroup_1ga248149012fd0f0e6435fc5ab11a3cccc" kind="function"><name>compressZip</name></member>
-    <member refid="group__SerializerGroup_1ga34252d79f47d228502775473e8bc87d4" kind="function"><name>compressZip</name></member>
+    <member refid="group__SerializerGroup_1gaaeb1d5f0f783381f2285fd4d7fbd1c6b" kind="function"><name>compressZip</name></member>
+    <member refid="group__SerializerGroup_1ga4466031d05f4eb56868dc88105bc5248" kind="function"><name>compressZip</name></member>
   </compound>
   <compound refid="group__SurfacePathGroup" kind="group"><name>SurfacePathGroup</name>
     <member refid="group__SurfacePathGroup_1ga35d5a8577df4b958e7725f2b2406c9c1" kind="function"><name>identityMetric</name></member>
@@ -20962,21 +20971,24 @@
     <member refid="group__GeneralGroup_1ga65191d66066502989ee1787f9917413b" kind="variable"><name>heap_</name></member>
     <member refid="group__GeneralGroup_1gae76874766316a23627aa9a5804fbc19c" kind="variable"><name>maxElms_</name></member>
     <member refid="group__GeneralGroup_1gaee2e9cc3c9bd652293c52707b1f68f18" kind="variable"><name>handle_</name></member>
+    <member refid="group__GeneralGroup_1ga873defafe8bd5f0ef51bd6d0c3f92f2d" kind="variable"><name>notFlippable</name></member>
+    <member refid="group__GeneralGroup_1ga82b0b627885b0136d5cbb0bd093cf88b" kind="variable"><name>maxEdgeLen</name></member>
+    <member refid="group__GeneralGroup_1ga2ece732a88200eaaef2beab96f222561" kind="variable"><name>maxEdgeSplits</name></member>
+    <member refid="group__GeneralGroup_1gadf8a3a24d258da848836a556b3b42e34" kind="variable"><name>maxAngleChangeAfterFlip</name></member>
+    <member refid="group__GeneralGroup_1ga72c374e0d427e8beca46de3aa27d29f8" kind="variable"><name>beforeEdgeSplit</name></member>
+    <member refid="group__GeneralGroup_1gab76bf4f3cec5f2fb4787f4635f3dd684" kind="variable"><name>onEdgeSplit</name></member>
+    <member refid="group__GeneralGroup_1ga41d283fb6e36ac60be019b2f195c14e0" kind="variable"><name>naturalSmooth</name></member>
+    <member refid="group__GeneralGroup_1ga34a7a4b9c69f0c826cb30f38a9e10250" kind="variable"><name>edgeWeights</name></member>
+    <member refid="group__GeneralGroup_1ga527a7a95f06fcee7ca081ed3dbec23b6" kind="variable"><name>vmass</name></member>
+    <member refid="group__GeneralGroup_1ga43ab66a6ec91938ea9940c028b84a54d" kind="variable"><name>uvCoords</name></member>
+    <member refid="group__GeneralGroup_1ga0c7070bcd2bfeb1cb0388665bffb45c3" kind="variable"><name>colorMap</name></member>
+    <member refid="group__GeneralGroup_1gab26b30e3f2b4b1f0e34313b53319e286" kind="variable"><name>faceColors</name></member>
     <member refid="group__GeneralGroup_1ga2ead937ed1df084dc6a43160e17df2c2" kind="variable"><name>triangulateParams</name></member>
     <member refid="group__GeneralGroup_1ga62e34964b014489a6f1d3f2e324759ff" kind="variable"><name>triangulateOnly</name></member>
-    <member refid="group__GeneralGroup_1ga95c1f4256940d339c8ee702d270fff49" kind="variable"><name>notFlippable</name></member>
-    <member refid="group__GeneralGroup_1gadebcc27b0bdbb4fa55baa8eae16a0dfb" kind="variable"><name>maxEdgeLen</name></member>
-    <member refid="group__GeneralGroup_1ga6dab8822d5eac719a15e99f44c4a3407" kind="variable"><name>maxEdgeSplits</name></member>
-    <member refid="group__GeneralGroup_1ga0e811b431fee7fca37d8a2ea46bf916c" kind="variable"><name>maxAngleChangeAfterFlip</name></member>
+    <member refid="group__GeneralGroup_1ga7b05b181968c758ebe172bd27457185b" kind="variable"><name>subdivideSettings</name></member>
     <member refid="group__GeneralGroup_1gaac4ecae12eb97ad05b204ac14de42cb8" kind="variable"><name>smoothCurvature</name></member>
-    <member refid="group__GeneralGroup_1gaba46fa5a5269e9ffb23176c985a2c2b7" kind="variable"><name>naturalSmooth</name></member>
-    <member refid="group__GeneralGroup_1ga6d0f88d49fd92560346c908c5b5a6559" kind="variable"><name>beforeEdgeSplit</name></member>
-    <member refid="group__GeneralGroup_1ga29116e24393106e531f26abb886019b2" kind="variable"><name>onEdgeSplit</name></member>
-    <member refid="group__GeneralGroup_1ga033b24c89dfe82d1d7ebadc8b24f1a79" kind="variable"><name>edgeWeights</name></member>
-    <member refid="group__GeneralGroup_1gaa1d0f57cc8f6d2bb9413ae1e315e3ce6" kind="variable"><name>vmass</name></member>
-    <member refid="group__GeneralGroup_1ga8e1fac34058b267d696714994b158ce2" kind="variable"><name>uvCoords</name></member>
-    <member refid="group__GeneralGroup_1gaf9530ece1e8bd0354145a59d4d603bf9" kind="variable"><name>colorMap</name></member>
-    <member refid="group__GeneralGroup_1ga4e373a3a06bd7f738fc35e108b3fdfa0" kind="variable"><name>faceColors</name></member>
+    <member refid="group__GeneralGroup_1gacefa7bb069740dbb24ec548f52178ecf" kind="variable"><name>smoothSeettings</name></member>
+    <member refid="group__GeneralGroup_1gae228d6f67e070cb9c4323dd57a421c73" kind="variable"><name>outAttributes</name></member>
     <member refid="group__GeneralGroup_1gae5606c4ebbd1f6f3acf27a76862219b0" kind="variable"><name>touchIsIntersection</name></member>
     <member refid="group__GeneralGroup_1gaface1dd6cc60f50dd76186b73d130994" kind="variable"><name>method</name></member>
     <member refid="group__GeneralGroup_1gaca7a5619c15bc97f529b69737ac12bb6" kind="variable"><name>relaxIterations</name></member>

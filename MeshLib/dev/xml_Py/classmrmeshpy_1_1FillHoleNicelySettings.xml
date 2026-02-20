@@ -3,13 +3,13 @@
   <compounddef id="classmrmeshpy_1_1FillHoleNicelySettings" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::FillHoleNicelySettings</compoundname>
     <sectiondef kind="protected-static-attrib">
-      <memberdef kind="variable" id="classmrmeshpy_1_1FillHoleNicelySettings_1a7addf7df5a2d7d1857db3ed004c5c3f0" prot="protected" static="yes" mutable="no">
+      <memberdef kind="variable" id="classmrmeshpy_1_1FillHoleNicelySettings_1a5b93505c7317ceae2ac93674cdb358ee" prot="protected" static="yes" mutable="no">
         <type>typing</type>
-        <definition>typing mrmeshpy.FillHoleNicelySettings::_offsetof_beforeEdgeSplit</definition>
+        <definition>typing mrmeshpy.FillHoleNicelySettings::_offsetof_outAttributes</definition>
         <argsstring></argsstring>
-        <name>_offsetof_beforeEdgeSplit</name>
-        <qualifiedname>mrmeshpy.FillHoleNicelySettings._offsetof_beforeEdgeSplit</qualifiedname>
-        <initializer>=  168</initializer>
+        <name>_offsetof_outAttributes</name>
+        <qualifiedname>mrmeshpy.FillHoleNicelySettings._offsetof_outAttributes</qualifiedname>
+        <initializer>=  248</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -18,13 +18,13 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19276" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19276" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classmrmeshpy_1_1FillHoleNicelySettings_1a4f4efdc1289f247a832b0e02f815916d" prot="protected" static="yes" mutable="no">
+      <memberdef kind="variable" id="classmrmeshpy_1_1FillHoleNicelySettings_1a2fbe0c03266a5fdbf8949c0f27232986" prot="protected" static="yes" mutable="no">
         <type>typing</type>
-        <definition>typing mrmeshpy.FillHoleNicelySettings::_offsetof_colorMap</definition>
+        <definition>typing mrmeshpy.FillHoleNicelySettings::_offsetof_smoothCurvature</definition>
         <argsstring></argsstring>
-        <name>_offsetof_colorMap</name>
-        <qualifiedname>mrmeshpy.FillHoleNicelySettings._offsetof_colorMap</qualifiedname>
-        <initializer>=  248</initializer>
+        <name>_offsetof_smoothCurvature</name>
+        <qualifiedname>mrmeshpy.FillHoleNicelySettings._offsetof_smoothCurvature</qualifiedname>
+        <initializer>=  232</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -33,13 +33,13 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19277" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19277" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classmrmeshpy_1_1FillHoleNicelySettings_1ad58214a0e2c794d56c2dc72e7d7ebc2e" prot="protected" static="yes" mutable="no">
+      <memberdef kind="variable" id="classmrmeshpy_1_1FillHoleNicelySettings_1adf6cc72dbab819309dcf074fbc915127" prot="protected" static="yes" mutable="no">
         <type>typing</type>
-        <definition>typing mrmeshpy.FillHoleNicelySettings::_offsetof_edgeWeights</definition>
+        <definition>typing mrmeshpy.FillHoleNicelySettings::_offsetof_smoothSeettings</definition>
         <argsstring></argsstring>
-        <name>_offsetof_edgeWeights</name>
-        <qualifiedname>mrmeshpy.FillHoleNicelySettings._offsetof_edgeWeights</qualifiedname>
-        <initializer>=  232</initializer>
+        <name>_offsetof_smoothSeettings</name>
+        <qualifiedname>mrmeshpy.FillHoleNicelySettings._offsetof_smoothSeettings</qualifiedname>
+        <initializer>=  236</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -48,87 +48,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19278" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19278" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classmrmeshpy_1_1FillHoleNicelySettings_1adc3081752e6816de0da3dd1250f3b3bf" prot="protected" static="yes" mutable="no">
+      <memberdef kind="variable" id="classmrmeshpy_1_1FillHoleNicelySettings_1a5c17df2d67ea8d7b0ff14f2cb42abfc9" prot="protected" static="yes" mutable="no">
         <type>typing</type>
-        <definition>typing mrmeshpy.FillHoleNicelySettings::_offsetof_faceColors</definition>
+        <definition>typing mrmeshpy.FillHoleNicelySettings::_offsetof_subdivideSettings</definition>
         <argsstring></argsstring>
-        <name>_offsetof_faceColors</name>
-        <qualifiedname>mrmeshpy.FillHoleNicelySettings._offsetof_faceColors</qualifiedname>
-        <initializer>=  256</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19279" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19279" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classmrmeshpy_1_1FillHoleNicelySettings_1a61fb99db6371fd1b119a550cc99d7f8c" prot="protected" static="yes" mutable="no">
-        <type>typing</type>
-        <definition>typing mrmeshpy.FillHoleNicelySettings::_offsetof_maxAngleChangeAfterFlip</definition>
-        <argsstring></argsstring>
-        <name>_offsetof_maxAngleChangeAfterFlip</name>
-        <qualifiedname>mrmeshpy.FillHoleNicelySettings._offsetof_maxAngleChangeAfterFlip</qualifiedname>
-        <initializer>=  160</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19280" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19280" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classmrmeshpy_1_1FillHoleNicelySettings_1abc166097a979decee64b540bfbe6724d" prot="protected" static="yes" mutable="no">
-        <type>typing</type>
-        <definition>typing mrmeshpy.FillHoleNicelySettings::_offsetof_maxEdgeLen</definition>
-        <argsstring></argsstring>
-        <name>_offsetof_maxEdgeLen</name>
-        <qualifiedname>mrmeshpy.FillHoleNicelySettings._offsetof_maxEdgeLen</qualifiedname>
-        <initializer>=  152</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19281" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19281" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classmrmeshpy_1_1FillHoleNicelySettings_1a48e7e6fcdc0af482b55eb9a121aacd74" prot="protected" static="yes" mutable="no">
-        <type>typing</type>
-        <definition>typing mrmeshpy.FillHoleNicelySettings::_offsetof_maxEdgeSplits</definition>
-        <argsstring></argsstring>
-        <name>_offsetof_maxEdgeSplits</name>
-        <qualifiedname>mrmeshpy.FillHoleNicelySettings._offsetof_maxEdgeSplits</qualifiedname>
-        <initializer>=  156</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19282" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19282" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classmrmeshpy_1_1FillHoleNicelySettings_1a120ad01e45123482c22aa634d312e1da" prot="protected" static="yes" mutable="no">
-        <type>typing</type>
-        <definition>typing mrmeshpy.FillHoleNicelySettings::_offsetof_naturalSmooth</definition>
-        <argsstring></argsstring>
-        <name>_offsetof_naturalSmooth</name>
-        <qualifiedname>mrmeshpy.FillHoleNicelySettings._offsetof_naturalSmooth</qualifiedname>
-        <initializer>=  165</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19283" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19283" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classmrmeshpy_1_1FillHoleNicelySettings_1ae683ea0c0a09659ec5490a7cc8954853" prot="protected" static="yes" mutable="no">
-        <type>typing</type>
-        <definition>typing mrmeshpy.FillHoleNicelySettings::_offsetof_notFlippable</definition>
-        <argsstring></argsstring>
-        <name>_offsetof_notFlippable</name>
-        <qualifiedname>mrmeshpy.FillHoleNicelySettings._offsetof_notFlippable</qualifiedname>
+        <name>_offsetof_subdivideSettings</name>
+        <qualifiedname>mrmeshpy.FillHoleNicelySettings._offsetof_subdivideSettings</qualifiedname>
         <initializer>=  144</initializer>
         <briefdescription>
         </briefdescription>
@@ -136,37 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19284" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19284" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classmrmeshpy_1_1FillHoleNicelySettings_1a4d728f63f002368ac1d00d952453d868" prot="protected" static="yes" mutable="no">
-        <type>typing</type>
-        <definition>typing mrmeshpy.FillHoleNicelySettings::_offsetof_onEdgeSplit</definition>
-        <argsstring></argsstring>
-        <name>_offsetof_onEdgeSplit</name>
-        <qualifiedname>mrmeshpy.FillHoleNicelySettings._offsetof_onEdgeSplit</qualifiedname>
-        <initializer>=  200</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19285" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19285" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classmrmeshpy_1_1FillHoleNicelySettings_1a2fbe0c03266a5fdbf8949c0f27232986" prot="protected" static="yes" mutable="no">
-        <type>typing</type>
-        <definition>typing mrmeshpy.FillHoleNicelySettings::_offsetof_smoothCurvature</definition>
-        <argsstring></argsstring>
-        <name>_offsetof_smoothCurvature</name>
-        <qualifiedname>mrmeshpy.FillHoleNicelySettings._offsetof_smoothCurvature</qualifiedname>
-        <initializer>=  164</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19286" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19286" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19279" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19279" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1FillHoleNicelySettings_1a488026c4090daa2db94609788871c4a9" prot="protected" static="yes" mutable="no">
         <type>typing</type>
@@ -181,7 +76,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19287" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19287" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19280" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19280" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1FillHoleNicelySettings_1ab959619e95adc31a0002fb915d5f6969" prot="protected" static="yes" mutable="no">
         <type>typing</type>
@@ -196,37 +91,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19288" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19288" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classmrmeshpy_1_1FillHoleNicelySettings_1a27108d2ea91dfdfe952311916e2f3a06" prot="protected" static="yes" mutable="no">
-        <type>typing</type>
-        <definition>typing mrmeshpy.FillHoleNicelySettings::_offsetof_uvCoords</definition>
-        <argsstring></argsstring>
-        <name>_offsetof_uvCoords</name>
-        <qualifiedname>mrmeshpy.FillHoleNicelySettings._offsetof_uvCoords</qualifiedname>
-        <initializer>=  240</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19289" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19289" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classmrmeshpy_1_1FillHoleNicelySettings_1a4484ca9796f7c09b1136c6b261f2755e" prot="protected" static="yes" mutable="no">
-        <type>typing</type>
-        <definition>typing mrmeshpy.FillHoleNicelySettings::_offsetof_vmass</definition>
-        <argsstring></argsstring>
-        <name>_offsetof_vmass</name>
-        <qualifiedname>mrmeshpy.FillHoleNicelySettings._offsetof_vmass</qualifiedname>
-        <initializer>=  236</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19290" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19290" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19281" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19281" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -250,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19293" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19293" bodyend="19294"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19284" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19284" bodyend="19285"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FillHoleNicelySettings_1a74f73324f9ca4b7aaf87dc4d5e5b308d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FillHoleNicelySettings" kindref="compound">FillHoleNicelySettings</ref></type>
@@ -272,7 +137,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19297" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19297" bodyend="19298"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19288" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19288" bodyend="19289"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FillHoleNicelySettings_1a74f73324f9ca4b7aaf87dc4d5e5b308d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FillHoleNicelySettings" kindref="compound">FillHoleNicelySettings</ref></type>
@@ -294,7 +159,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19301" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19301" bodyend="19302"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19292" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19292" bodyend="19293"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -314,7 +179,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19304" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19304" bodyend="19305"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19295" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19295" bodyend="19296"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FillHoleNicelySettings_1ac5e3498c40d977fe9fde7f527d77942b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -338,12 +203,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19307" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19307" bodyend="19310"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19298" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19298" bodyend="19301"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleNicelySettings_1a016577d35718910b91bbcd8974fe2141" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleNicelySettings_1a80cc442f1fd01f993f8c90b37cf69a22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.FillHoleNicelySettings.__init__</definition>
-        <argsstring>(self, FillHoleParams triangulateParams, bool triangulateOnly, UndirectedEdgeBitSet notFlippable, float maxEdgeLen, int maxEdgeSplits, float maxAngleChangeAfterFlip, bool smoothCurvature, bool naturalSmooth, func_bool_from_Id_EdgeTag beforeEdgeSplit, func_void_from_Id_EdgeTag_Id_EdgeTag onEdgeSplit, EdgeWeights edgeWeights, VertexMass vmass, VertCoords2 uvCoords, VertColors colorMap, FaceColors faceColors)</argsstring>
+        <argsstring>(self, FillHoleParams triangulateParams, bool triangulateOnly, SubdivideFillingSettings subdivideSettings, bool smoothCurvature, SmoothFillingSettings smoothSeettings, OutAttributesFillingSettings outAttributes)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.FillHoleNicelySettings.__init__</qualifiedname>
         <param>
@@ -359,56 +224,20 @@
           <declname>triangulateOnly</declname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
-          <declname>notFlippable</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>maxEdgeLen</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>maxEdgeSplits</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>maxAngleChangeAfterFlip</declname>
+          <type><ref refid="classmrmeshpy_1_1SubdivideFillingSettings" kindref="compound">SubdivideFillingSettings</ref></type>
+          <declname>subdivideSettings</declname>
         </param>
         <param>
           <type>bool</type>
           <declname>smoothCurvature</declname>
         </param>
         <param>
-          <type>bool</type>
-          <declname>naturalSmooth</declname>
+          <type><ref refid="classmrmeshpy_1_1SmoothFillingSettings" kindref="compound">SmoothFillingSettings</ref></type>
+          <declname>smoothSeettings</declname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1func__bool__from__Id__EdgeTag" kindref="compound">func_bool_from_Id_EdgeTag</ref></type>
-          <declname>beforeEdgeSplit</declname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag" kindref="compound">func_void_from_Id_EdgeTag_Id_EdgeTag</ref></type>
-          <declname>onEdgeSplit</declname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1EdgeWeights" kindref="compound">EdgeWeights</ref></type>
-          <declname>edgeWeights</declname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1VertexMass" kindref="compound">VertexMass</ref></type>
-          <declname>vmass</declname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1VertCoords2" kindref="compound">VertCoords2</ref></type>
-          <declname>uvCoords</declname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1VertColors" kindref="compound">VertColors</ref></type>
-          <declname>colorMap</declname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1FaceColors" kindref="compound">FaceColors</ref></type>
-          <declname>faceColors</declname>
+          <type><ref refid="classmrmeshpy_1_1OutAttributesFillingSettings" kindref="compound">OutAttributesFillingSettings</ref></type>
+          <declname>outAttributes</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -418,14 +247,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19312" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19312" bodyend="19315"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19303" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19303" bodyend="19306"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleNicelySettings_1a50ccd6545e4fb0876ea176d9ef42a5eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1func__bool__from__Id__EdgeTag" kindref="compound">func_bool_from_Id_EdgeTag</ref></type>
-        <definition> func_bool_from_Id_EdgeTag mrmeshpy.FillHoleNicelySettings.beforeEdgeSplit</definition>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleNicelySettings_1acfaed9149d9191395c9ea08c947da2d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1OutAttributesFillingSettings" kindref="compound">OutAttributesFillingSettings</ref></type>
+        <definition> OutAttributesFillingSettings mrmeshpy.FillHoleNicelySettings.outAttributes</definition>
         <argsstring>(self)</argsstring>
-        <name>beforeEdgeSplit</name>
-        <qualifiedname>mrmeshpy.FillHoleNicelySettings.beforeEdgeSplit</qualifiedname>
+        <name>outAttributes</name>
+        <qualifiedname>mrmeshpy.FillHoleNicelySettings.outAttributes</qualifiedname>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -433,25 +262,25 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>(If this is set) this function is called in subdivision each time edge (e) is going to split, if it returns false then this split will be skipped
+<para><verbatim>structure with optional output attributes
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19317" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19317" bodyend="19320"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19308" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19308" bodyend="19311"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleNicelySettings_1a163fee0fdff0c18290cae488bb309f83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleNicelySettings_1a1c868371abef0eb02374cd226abce0ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
-        <definition> None mrmeshpy.FillHoleNicelySettings.beforeEdgeSplit</definition>
-        <argsstring>(self, func_bool_from_Id_EdgeTag arg1)</argsstring>
-        <name>beforeEdgeSplit</name>
-        <qualifiedname>mrmeshpy.FillHoleNicelySettings.beforeEdgeSplit</qualifiedname>
+        <definition> None mrmeshpy.FillHoleNicelySettings.outAttributes</definition>
+        <argsstring>(self, OutAttributesFillingSettings arg1)</argsstring>
+        <name>outAttributes</name>
+        <qualifiedname>mrmeshpy.FillHoleNicelySettings.outAttributes</qualifiedname>
         <param>
           <type>self</type>
           <defname>self</defname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1func__bool__from__Id__EdgeTag" kindref="compound">func_bool_from_Id_EdgeTag</ref></type>
+          <type><ref refid="classmrmeshpy_1_1OutAttributesFillingSettings" kindref="compound">OutAttributesFillingSettings</ref></type>
           <declname>arg1</declname>
         </param>
         <briefdescription>
@@ -460,385 +289,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19322" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19322" bodyend="19323"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleNicelySettings_1a15568bc243eb26da530f3b659b07cf94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1VertColors" kindref="compound">VertColors</ref></type>
-        <definition> VertColors mrmeshpy.FillHoleNicelySettings.colorMap</definition>
-        <argsstring>(self)</argsstring>
-        <name>colorMap</name>
-        <qualifiedname>mrmeshpy.FillHoleNicelySettings.colorMap</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><verbatim>optional colors of vertices; if provided then elements corresponding to new vertices will be added there
-</verbatim> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19325" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19325" bodyend="19328"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleNicelySettings_1a2eba5f9b6b0c5f633f710db16714b689" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>None</type>
-        <definition> None mrmeshpy.FillHoleNicelySettings.colorMap</definition>
-        <argsstring>(self, VertColors arg1)</argsstring>
-        <name>colorMap</name>
-        <qualifiedname>mrmeshpy.FillHoleNicelySettings.colorMap</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1VertColors" kindref="compound">VertColors</ref></type>
-          <declname>arg1</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19330" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19330" bodyend="19331"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleNicelySettings_1a8822bddbb915ef20c02959eea1331678" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1EdgeWeights" kindref="compound">EdgeWeights</ref></type>
-        <definition> EdgeWeights mrmeshpy.FillHoleNicelySettings.edgeWeights</definition>
-        <argsstring>(self)</argsstring>
-        <name>edgeWeights</name>
-        <qualifiedname>mrmeshpy.FillHoleNicelySettings.edgeWeights</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><verbatim>edge weighting scheme for smoothCurvature mode
-</verbatim> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19333" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19333" bodyend="19336"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleNicelySettings_1abdb3b8fe51ebf8ee95504d2c874979da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>None</type>
-        <definition> None mrmeshpy.FillHoleNicelySettings.edgeWeights</definition>
-        <argsstring>(self, EdgeWeights arg1)</argsstring>
-        <name>edgeWeights</name>
-        <qualifiedname>mrmeshpy.FillHoleNicelySettings.edgeWeights</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1EdgeWeights" kindref="compound">EdgeWeights</ref></type>
-          <declname>arg1</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19338" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19338" bodyend="19339"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleNicelySettings_1a70285e609eccdb6ad08404a8c545aae9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1FaceColors" kindref="compound">FaceColors</ref></type>
-        <definition> FaceColors mrmeshpy.FillHoleNicelySettings.faceColors</definition>
-        <argsstring>(self)</argsstring>
-        <name>faceColors</name>
-        <qualifiedname>mrmeshpy.FillHoleNicelySettings.faceColors</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><verbatim>optional colors of faces; if provided then elements corresponding to new faces will be added there
-</verbatim> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19341" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19341" bodyend="19344"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleNicelySettings_1a8f0afabbbc5eec26e2cbbcde63c4bc6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>None</type>
-        <definition> None mrmeshpy.FillHoleNicelySettings.faceColors</definition>
-        <argsstring>(self, FaceColors arg1)</argsstring>
-        <name>faceColors</name>
-        <qualifiedname>mrmeshpy.FillHoleNicelySettings.faceColors</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1FaceColors" kindref="compound">FaceColors</ref></type>
-          <declname>arg1</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19346" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19346" bodyend="19347"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleNicelySettings_1a04a189c6920cda6cf7f9a8308c77d7c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>float</type>
-        <definition> float mrmeshpy.FillHoleNicelySettings.maxAngleChangeAfterFlip</definition>
-        <argsstring>(self)</argsstring>
-        <name>maxAngleChangeAfterFlip</name>
-        <qualifiedname>mrmeshpy.FillHoleNicelySettings.maxAngleChangeAfterFlip</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><verbatim>Improves local mesh triangulation by doing edge flips if it does not change dihedral angle more than on this value (in radians)
-</verbatim> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19349" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19349" bodyend="19352"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleNicelySettings_1aa1254a38f4f3280d14bda8ad4b6e49a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>None</type>
-        <definition> None mrmeshpy.FillHoleNicelySettings.maxAngleChangeAfterFlip</definition>
-        <argsstring>(self, float arg1)</argsstring>
-        <name>maxAngleChangeAfterFlip</name>
-        <qualifiedname>mrmeshpy.FillHoleNicelySettings.maxAngleChangeAfterFlip</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>arg1</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19354" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19354" bodyend="19355"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleNicelySettings_1a36fd5ac316ea771331116b7d59692fff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>float</type>
-        <definition> float mrmeshpy.FillHoleNicelySettings.maxEdgeLen</definition>
-        <argsstring>(self)</argsstring>
-        <name>maxEdgeLen</name>
-        <qualifiedname>mrmeshpy.FillHoleNicelySettings.maxEdgeLen</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><verbatim>Subdivision is stopped when all edges inside or on the boundary of the region are not longer than this value
-</verbatim> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19357" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19357" bodyend="19360"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleNicelySettings_1a11c25fbcb7e5cf9495a538a372de5ae9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>None</type>
-        <definition> None mrmeshpy.FillHoleNicelySettings.maxEdgeLen</definition>
-        <argsstring>(self, float arg1)</argsstring>
-        <name>maxEdgeLen</name>
-        <qualifiedname>mrmeshpy.FillHoleNicelySettings.maxEdgeLen</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>arg1</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19362" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19362" bodyend="19363"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleNicelySettings_1a0c715f42e85c9f9e9f3e270f4185bff9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>int</type>
-        <definition> int mrmeshpy.FillHoleNicelySettings.maxEdgeSplits</definition>
-        <argsstring>(self)</argsstring>
-        <name>maxEdgeSplits</name>
-        <qualifiedname>mrmeshpy.FillHoleNicelySettings.maxEdgeSplits</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><verbatim>Maximum number of edge splits allowed during subdivision
-</verbatim> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19365" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19365" bodyend="19368"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleNicelySettings_1af36ac1e88ae1ea680850f7ceaba917ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>None</type>
-        <definition> None mrmeshpy.FillHoleNicelySettings.maxEdgeSplits</definition>
-        <argsstring>(self, int arg1)</argsstring>
-        <name>maxEdgeSplits</name>
-        <qualifiedname>mrmeshpy.FillHoleNicelySettings.maxEdgeSplits</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>arg1</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19370" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19370" bodyend="19371"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleNicelySettings_1a4f9790015b39b79102c9bf84b5053a85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition> bool mrmeshpy.FillHoleNicelySettings.naturalSmooth</definition>
-        <argsstring>(self)</argsstring>
-        <name>naturalSmooth</name>
-        <qualifiedname>mrmeshpy.FillHoleNicelySettings.naturalSmooth</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><verbatim>Additionally smooth 3 layers of vertices near hole boundary both inside and outside of the hole
-</verbatim> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19373" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19373" bodyend="19376"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleNicelySettings_1aea1a068e3151e72af656da23eb5c5b75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>None</type>
-        <definition> None mrmeshpy.FillHoleNicelySettings.naturalSmooth</definition>
-        <argsstring>(self, bool arg1)</argsstring>
-        <name>naturalSmooth</name>
-        <qualifiedname>mrmeshpy.FillHoleNicelySettings.naturalSmooth</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>arg1</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19378" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19378" bodyend="19379"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleNicelySettings_1a3658377f7baee53a78f1d28c0bd0575c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
-        <definition> UndirectedEdgeBitSet mrmeshpy.FillHoleNicelySettings.notFlippable</definition>
-        <argsstring>(self)</argsstring>
-        <name>notFlippable</name>
-        <qualifiedname>mrmeshpy.FillHoleNicelySettings.notFlippable</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><verbatim>in triangulateOnly = false mode, edges specified by this bit-set will never be flipped, but they can be split so it is updated during the operation
-</verbatim> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19381" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19381" bodyend="19384"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleNicelySettings_1a412b42492a937c923e09060b9df1e6c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>None</type>
-        <definition> None mrmeshpy.FillHoleNicelySettings.notFlippable</definition>
-        <argsstring>(self, UndirectedEdgeBitSet arg1)</argsstring>
-        <name>notFlippable</name>
-        <qualifiedname>mrmeshpy.FillHoleNicelySettings.notFlippable</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
-          <declname>arg1</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19386" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19386" bodyend="19387"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleNicelySettings_1a333dc620d66a4b111aa4b5303db118f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag" kindref="compound">func_void_from_Id_EdgeTag_Id_EdgeTag</ref></type>
-        <definition> func_void_from_Id_EdgeTag_Id_EdgeTag mrmeshpy.FillHoleNicelySettings.onEdgeSplit</definition>
-        <argsstring>(self)</argsstring>
-        <name>onEdgeSplit</name>
-        <qualifiedname>mrmeshpy.FillHoleNicelySettings.onEdgeSplit</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><verbatim>(If this is set) this function is called in subdivision each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone
-</verbatim> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19389" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19389" bodyend="19392"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleNicelySettings_1a84f1d76e26ae5f45c57c734d5119bfa8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>None</type>
-        <definition> None mrmeshpy.FillHoleNicelySettings.onEdgeSplit</definition>
-        <argsstring>(self, func_void_from_Id_EdgeTag_Id_EdgeTag arg1)</argsstring>
-        <name>onEdgeSplit</name>
-        <qualifiedname>mrmeshpy.FillHoleNicelySettings.onEdgeSplit</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag" kindref="compound">func_void_from_Id_EdgeTag_Id_EdgeTag</ref></type>
-          <declname>arg1</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19394" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19394" bodyend="19395"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19313" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19313" bodyend="19314"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FillHoleNicelySettings_1a72e52ea4b95f57b6395f38dbf4ab3e52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -858,7 +309,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19397" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19397" bodyend="19400"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19316" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19316" bodyend="19319"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FillHoleNicelySettings_1ab8957b49b65eaf94bed0b2b0c4ff4b23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -880,7 +331,91 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19402" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19402" bodyend="19403"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19321" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19321" bodyend="19322"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleNicelySettings_1a2b9b1d2ec94da18dc59b0589b91396f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SmoothFillingSettings" kindref="compound">SmoothFillingSettings</ref></type>
+        <definition> SmoothFillingSettings mrmeshpy.FillHoleNicelySettings.smoothSeettings</definition>
+        <argsstring>(self)</argsstring>
+        <name>smoothSeettings</name>
+        <qualifiedname>mrmeshpy.FillHoleNicelySettings.smoothSeettings</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if `smoothCurvature` is true and `triangulateOnly is false - these settings are used to smooth new filling
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19324" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19324" bodyend="19327"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleNicelySettings_1a23e1213db1c2571af9742a181430d88c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillHoleNicelySettings.smoothSeettings</definition>
+        <argsstring>(self, SmoothFillingSettings arg1)</argsstring>
+        <name>smoothSeettings</name>
+        <qualifiedname>mrmeshpy.FillHoleNicelySettings.smoothSeettings</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SmoothFillingSettings" kindref="compound">SmoothFillingSettings</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19329" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19329" bodyend="19330"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleNicelySettings_1abb2b54a1bd675ff806b33364bc82a514" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SubdivideFillingSettings" kindref="compound">SubdivideFillingSettings</ref></type>
+        <definition> SubdivideFillingSettings mrmeshpy.FillHoleNicelySettings.subdivideSettings</definition>
+        <argsstring>(self)</argsstring>
+        <name>subdivideSettings</name>
+        <qualifiedname>mrmeshpy.FillHoleNicelySettings.subdivideSettings</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if `triangulateOnly` is false - this settings are used to subdivide new filling
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19332" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19332" bodyend="19335"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleNicelySettings_1a2e954c55db042e237ee834c87c4e0a01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillHoleNicelySettings.subdivideSettings</definition>
+        <argsstring>(self, SubdivideFillingSettings arg1)</argsstring>
+        <name>subdivideSettings</name>
+        <qualifiedname>mrmeshpy.FillHoleNicelySettings.subdivideSettings</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SubdivideFillingSettings" kindref="compound">SubdivideFillingSettings</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19337" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19337" bodyend="19338"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FillHoleNicelySettings_1a9b6b87c63c230d483ff8874ec0b316ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -900,7 +435,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19405" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19405" bodyend="19408"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19340" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19340" bodyend="19343"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FillHoleNicelySettings_1a0742be373854745970a4a67452c921ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -922,7 +457,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19410" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19410" bodyend="19411"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19345" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19345" bodyend="19346"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FillHoleNicelySettings_1a83a699ace555f0b3b450777d1f59788f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FillHoleParams" kindref="compound">FillHoleParams</ref></type>
@@ -942,7 +477,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19413" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19413" bodyend="19416"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19348" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19348" bodyend="19351"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FillHoleNicelySettings_1a19d13716844e77567127449b2a17bab8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -964,91 +499,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19418" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19418" bodyend="19419"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleNicelySettings_1a649f69ba4aa89e6ece41acd18a141338" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1VertCoords2" kindref="compound">VertCoords2</ref></type>
-        <definition> VertCoords2 mrmeshpy.FillHoleNicelySettings.uvCoords</definition>
-        <argsstring>(self)</argsstring>
-        <name>uvCoords</name>
-        <qualifiedname>mrmeshpy.FillHoleNicelySettings.uvCoords</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><verbatim>optional uv-coordinates of vertices; if provided then elements corresponding to new vertices will be added there
-</verbatim> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19421" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19421" bodyend="19424"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleNicelySettings_1a02303fed26e0d9482f829286352a8bc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>None</type>
-        <definition> None mrmeshpy.FillHoleNicelySettings.uvCoords</definition>
-        <argsstring>(self, VertCoords2 arg1)</argsstring>
-        <name>uvCoords</name>
-        <qualifiedname>mrmeshpy.FillHoleNicelySettings.uvCoords</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1VertCoords2" kindref="compound">VertCoords2</ref></type>
-          <declname>arg1</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19426" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19426" bodyend="19427"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleNicelySettings_1a819b7a5abd8495cff22d5747d59c6fca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1VertexMass" kindref="compound">VertexMass</ref></type>
-        <definition> VertexMass mrmeshpy.FillHoleNicelySettings.vmass</definition>
-        <argsstring>(self)</argsstring>
-        <name>vmass</name>
-        <qualifiedname>mrmeshpy.FillHoleNicelySettings.vmass</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><verbatim>vertex mass scheme for smoothCurvature mode
-</verbatim> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19429" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19429" bodyend="19432"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleNicelySettings_1ac0576ab29afb6d6f04c1a94a80401c3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>None</type>
-        <definition> None mrmeshpy.FillHoleNicelySettings.vmass</definition>
-        <argsstring>(self, VertexMass arg1)</argsstring>
-        <name>vmass</name>
-        <qualifiedname>mrmeshpy.FillHoleNicelySettings.vmass</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1VertexMass" kindref="compound">VertexMass</ref></type>
-          <declname>arg1</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19434" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19434" bodyend="19435"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19353" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19353" bodyend="19354"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1062,76 +513,44 @@
         <label>mrmeshpy.FillHoleNicelySettings</label>
         <link refid="classmrmeshpy_1_1FillHoleNicelySettings"/>
         <childnode refid="2" relation="usage">
-          <edgelabel>_offsetof_beforeEdgeSplit</edgelabel>
-          <edgelabel>_offsetof_colorMap</edgelabel>
-          <edgelabel>_offsetof_edgeWeights</edgelabel>
-          <edgelabel>_offsetof_faceColors</edgelabel>
-          <edgelabel>_offsetof_maxAngleChangeAfterFlip</edgelabel>
-          <edgelabel>_offsetof_maxEdgeLen</edgelabel>
-          <edgelabel>_offsetof_maxEdgeSplits</edgelabel>
-          <edgelabel>_offsetof_naturalSmooth</edgelabel>
-          <edgelabel>_offsetof_notFlippable</edgelabel>
-          <edgelabel>_offsetof_onEdgeSplit</edgelabel>
-          <edgelabel>...</edgelabel>
+          <edgelabel>_offsetof_outAttributes</edgelabel>
+          <edgelabel>_offsetof_smoothCurvature</edgelabel>
+          <edgelabel>_offsetof_smoothSeettings</edgelabel>
+          <edgelabel>_offsetof_subdivideSettings</edgelabel>
+          <edgelabel>_offsetof_triangulateOnly</edgelabel>
+          <edgelabel>_offsetof_triangulateParams</edgelabel>
         </childnode>
       </node>
       <node id="2">
         <label>typing</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19272" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19272" bodyend="19435"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19272" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19272" bodyend="19354"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a98f5c34ccb8bca10d191c76a45cdba6e" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1ae6ea8ac79fa3e78fc50502640af68e2a" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1ac5e3498c40d977fe9fde7f527d77942b" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>__init__</name></member>
-      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a016577d35718910b91bbcd8974fe2141" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>__init__</name></member>
-      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a7addf7df5a2d7d1857db3ed004c5c3f0" prot="protected" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>_offsetof_beforeEdgeSplit</name></member>
-      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a4f4efdc1289f247a832b0e02f815916d" prot="protected" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>_offsetof_colorMap</name></member>
-      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1ad58214a0e2c794d56c2dc72e7d7ebc2e" prot="protected" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>_offsetof_edgeWeights</name></member>
-      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1adc3081752e6816de0da3dd1250f3b3bf" prot="protected" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>_offsetof_faceColors</name></member>
-      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a61fb99db6371fd1b119a550cc99d7f8c" prot="protected" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>_offsetof_maxAngleChangeAfterFlip</name></member>
-      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1abc166097a979decee64b540bfbe6724d" prot="protected" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>_offsetof_maxEdgeLen</name></member>
-      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a48e7e6fcdc0af482b55eb9a121aacd74" prot="protected" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>_offsetof_maxEdgeSplits</name></member>
-      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a120ad01e45123482c22aa634d312e1da" prot="protected" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>_offsetof_naturalSmooth</name></member>
-      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1ae683ea0c0a09659ec5490a7cc8954853" prot="protected" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>_offsetof_notFlippable</name></member>
-      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a4d728f63f002368ac1d00d952453d868" prot="protected" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>_offsetof_onEdgeSplit</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a80cc442f1fd01f993f8c90b37cf69a22" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a5b93505c7317ceae2ac93674cdb358ee" prot="protected" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>_offsetof_outAttributes</name></member>
       <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a2fbe0c03266a5fdbf8949c0f27232986" prot="protected" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>_offsetof_smoothCurvature</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1adf6cc72dbab819309dcf074fbc915127" prot="protected" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>_offsetof_smoothSeettings</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a5c17df2d67ea8d7b0ff14f2cb42abfc9" prot="protected" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>_offsetof_subdivideSettings</name></member>
       <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a488026c4090daa2db94609788871c4a9" prot="protected" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>_offsetof_triangulateOnly</name></member>
       <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1ab959619e95adc31a0002fb915d5f6969" prot="protected" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>_offsetof_triangulateParams</name></member>
-      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a27108d2ea91dfdfe952311916e2f3a06" prot="protected" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>_offsetof_uvCoords</name></member>
-      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a4484ca9796f7c09b1136c6b261f2755e" prot="protected" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>_offsetof_vmass</name></member>
-      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a50ccd6545e4fb0876ea176d9ef42a5eb" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>beforeEdgeSplit</name></member>
-      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a163fee0fdff0c18290cae488bb309f83" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>beforeEdgeSplit</name></member>
-      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a15568bc243eb26da530f3b659b07cf94" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>colorMap</name></member>
-      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a2eba5f9b6b0c5f633f710db16714b689" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>colorMap</name></member>
-      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a8822bddbb915ef20c02959eea1331678" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>edgeWeights</name></member>
-      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1abdb3b8fe51ebf8ee95504d2c874979da" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>edgeWeights</name></member>
-      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a70285e609eccdb6ad08404a8c545aae9" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>faceColors</name></member>
-      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a8f0afabbbc5eec26e2cbbcde63c4bc6b" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>faceColors</name></member>
-      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a04a189c6920cda6cf7f9a8308c77d7c0" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>maxAngleChangeAfterFlip</name></member>
-      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1aa1254a38f4f3280d14bda8ad4b6e49a2" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>maxAngleChangeAfterFlip</name></member>
-      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a36fd5ac316ea771331116b7d59692fff" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>maxEdgeLen</name></member>
-      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a11c25fbcb7e5cf9495a538a372de5ae9" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>maxEdgeLen</name></member>
-      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a0c715f42e85c9f9e9f3e270f4185bff9" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>maxEdgeSplits</name></member>
-      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1af36ac1e88ae1ea680850f7ceaba917ba" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>maxEdgeSplits</name></member>
-      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a4f9790015b39b79102c9bf84b5053a85" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>naturalSmooth</name></member>
-      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1aea1a068e3151e72af656da23eb5c5b75" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>naturalSmooth</name></member>
-      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a3658377f7baee53a78f1d28c0bd0575c" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>notFlippable</name></member>
-      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a412b42492a937c923e09060b9df1e6c3" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>notFlippable</name></member>
-      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a333dc620d66a4b111aa4b5303db118f3" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>onEdgeSplit</name></member>
-      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a84f1d76e26ae5f45c57c734d5119bfa8" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>onEdgeSplit</name></member>
       <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a74f73324f9ca4b7aaf87dc4d5e5b308d" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a74f73324f9ca4b7aaf87dc4d5e5b308d" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1acfaed9149d9191395c9ea08c947da2d6" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>outAttributes</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a1c868371abef0eb02374cd226abce0ba" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>outAttributes</name></member>
       <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a72e52ea4b95f57b6395f38dbf4ab3e52" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>smoothCurvature</name></member>
       <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1ab8957b49b65eaf94bed0b2b0c4ff4b23" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>smoothCurvature</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a2b9b1d2ec94da18dc59b0589b91396f2" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>smoothSeettings</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a23e1213db1c2571af9742a181430d88c" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>smoothSeettings</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1abb2b54a1bd675ff806b33364bc82a514" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>subdivideSettings</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a2e954c55db042e237ee834c87c4e0a01" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>subdivideSettings</name></member>
       <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a9b6b87c63c230d483ff8874ec0b316ca" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>triangulateOnly</name></member>
       <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a0742be373854745970a4a67452c921ba" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>triangulateOnly</name></member>
       <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a83a699ace555f0b3b450777d1f59788f" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>triangulateParams</name></member>
       <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a19d13716844e77567127449b2a17bab8" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>triangulateParams</name></member>
-      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a649f69ba4aa89e6ece41acd18a141338" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>uvCoords</name></member>
-      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a02303fed26e0d9482f829286352a8bc9" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>uvCoords</name></member>
-      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a819b7a5abd8495cff22d5747d59c6fca" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>vmass</name></member>
-      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1ac0576ab29afb6d6f04c1a94a80401c3a" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>vmass</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -353,7 +353,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>compresses given folder in given zip-file </p>
-<p>Generated from function <code>MR::compressZip</code>. Parameter <code>zipFile</code> is a UTF-8 encoded filesystem path. Parameter <code>sourceFolder</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_void_std_string_Destroy()</code> to free it when you're done using it. </p>
+<p>Generated from function <code>MR::compressZip</code>. Parameter <code>zipFile</code> is a UTF-8 encoded filesystem path. Parameter <code>sourceFolder</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_void_std_string_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -411,7 +411,7 @@ Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">excludeFiles</td><td>files that should not be included to result zip </td></tr>
     <tr><td class="paramname">password</td><td>if password is given then the archive will be encrypted </td></tr>
-    <tr><td class="paramname">cb</td><td>an option to get progress notifications and cancel the operation Generated from function <code>MR::compressZip</code>. Parameter <code>zipFile</code> is a UTF-8 encoded filesystem path. Parameter <code>sourceFolder</code> is a UTF-8 encoded filesystem path. Parameter <code>excludeFiles</code> is a single object. Parameter <code>excludeFiles</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>password</code> defaults to a null pointer in C++. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_void_std_string_Destroy()</code> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">cb</td><td>an option to get progress notifications and cancel the operation Generated from function <code>MR::compressZip</code>. Parameter <code>zipFile</code> is a UTF-8 encoded filesystem path. Parameter <code>sourceFolder</code> is a UTF-8 encoded filesystem path. Parameter <code>excludeFiles</code> can not be null. It is a single object. Parameter <code>password</code> defaults to a null pointer in C++. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_void_std_string_Destroy()</code> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>

@@ -1523,6 +1523,9 @@ var hierarchy =
       [ "MR.Const_OriginAndDimensions", null, [
         [ "MR.OriginAndDimensions", "classMR_1_1OriginAndDimensions.html", null ]
       ] ],
+      [ "MR.Const_OutAttributesFillingSettings", null, [
+        [ "MR.OutAttributesFillingSettings", "classMR_1_1OutAttributesFillingSettings.html", null ]
+      ] ],
       [ "MR.Const_OutlierParams", null, [
         [ "MR.OutlierParams", "classMR_1_1OutlierParams.html", null ]
       ] ],
@@ -1898,6 +1901,9 @@ var hierarchy =
       [ "MR.Const_SliceInfoBase", null, [
         [ "MR.SliceInfoBase", "classMR_1_1SliceInfoBase.html", null ]
       ] ],
+      [ "MR.Const_SmoothFillingSettings", null, [
+        [ "MR.SmoothFillingSettings", "classMR_1_1SmoothFillingSettings.html", null ]
+      ] ],
       [ "MR.Const_SomeLocalTriangulations", null, [
         [ "MR.SomeLocalTriangulations", "classMR_1_1SomeLocalTriangulations.html", null ]
       ] ],
@@ -1930,6 +1936,9 @@ var hierarchy =
       ] ],
       [ "MR.Const_Src2TgtMaps", null, [
         [ "MR.Src2TgtMaps", "classMR_1_1Src2TgtMaps.html", null ]
+      ] ],
+      [ "MR.Const_SubdivideFillingSettings", null, [
+        [ "MR.SubdivideFillingSettings", "classMR_1_1SubdivideFillingSettings.html", null ]
       ] ],
       [ "MR.Const_SubdivideSettings", null, [
         [ "MR.SubdivideSettings", "classMR_1_1SubdivideSettings.html", null ]
@@ -3357,6 +3366,7 @@ var hierarchy =
       [ "MR.Const_OneMeshContour", null, null ],
       [ "MR.Const_OneMeshIntersection", null, null ],
       [ "MR.Const_OriginAndDimensions", null, null ],
+      [ "MR.Const_OutAttributesFillingSettings", null, null ],
       [ "MR.Const_OutlierParams", null, null ],
       [ "MR.Const_OutliersDetector", null, null ],
       [ "MR.Const_OutputFlows", null, null ],
@@ -3475,6 +3485,7 @@ var hierarchy =
       [ "MR.Const_SkyPatch", null, null ],
       [ "MR.Const_SliceInfo", null, null ],
       [ "MR.Const_SliceInfoBase", null, null ],
+      [ "MR.Const_SmoothFillingSettings", null, null ],
       [ "MR.Const_SomeLocalTriangulations", null, null ],
       [ "MR.Const_SortIntersectionsData", null, null ],
       [ "MR.Const_SpacingSettings", null, null ],
@@ -3485,6 +3496,7 @@ var hierarchy =
       [ "MR.Const_SphereParams", null, null ],
       [ "MR.Const_SplineSettings", null, null ],
       [ "MR.Const_Src2TgtMaps", null, null ],
+      [ "MR.Const_SubdivideFillingSettings", null, null ],
       [ "MR.Const_SubdivideSettings", null, null ],
       [ "MR.Const_SurfaceDistanceBuilder", null, null ],
       [ "MR.Const_SymMatrix2b", null, null ],

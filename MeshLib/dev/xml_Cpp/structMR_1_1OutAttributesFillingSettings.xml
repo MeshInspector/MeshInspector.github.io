@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1OutAttributesFillingSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::OutAttributesFillingSettings</compoundname>
+    <includes refid="MRFillHoleNicely_8h" local="no">MRFillHoleNicely.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga43ab66a6ec91938ea9940c028b84a54d" kind="variable"><name>uvCoords</name></member>
+      <member refid="group__GeneralGroup_1ga0c7070bcd2bfeb1cb0388665bffb45c3" kind="variable"><name>colorMap</name></member>
+      <member refid="group__GeneralGroup_1gab26b30e3f2b4b1f0e34313b53319e286" kind="variable"><name>faceColors</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillHoleNicely.h" line="46" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillHoleNicely.h" bodystart="47" bodyend="56"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga0c7070bcd2bfeb1cb0388665bffb45c3" prot="public" virt="non-virtual"><scope>MR::OutAttributesFillingSettings</scope><name>colorMap</name></member>
+      <member refid="group__GeneralGroup_1gab26b30e3f2b4b1f0e34313b53319e286" prot="public" virt="non-virtual"><scope>MR::OutAttributesFillingSettings</scope><name>faceColors</name></member>
+      <member refid="group__GeneralGroup_1ga43ab66a6ec91938ea9940c028b84a54d" prot="public" virt="non-virtual"><scope>MR::OutAttributesFillingSettings</scope><name>uvCoords</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -967,6 +967,7 @@ var hierarchy =
     [ "MR::OneMeshContour", "structMR_1_1OneMeshContour.html", null ],
     [ "MR::OneMeshIntersection", "structMR_1_1OneMeshIntersection.html", null ],
     [ "MR::OriginAndDimensions", "structMR_1_1OriginAndDimensions.html", null ],
+    [ "MR::OutAttributesFillingSettings", "structMR_1_1OutAttributesFillingSettings.html", null ],
     [ "MR::OutlierParams", "structMR_1_1OutlierParams.html", null ],
     [ "MR::OutliersDetector", "classMR_1_1OutliersDetector.html", null ],
     [ "MR::PlanarTriangulation::OutlineParameters", "structMR_1_1PlanarTriangulation_1_1OutlineParameters.html", null ],
@@ -1197,6 +1198,7 @@ var hierarchy =
     [ "MR::SliceInfoBase", "structMR_1_1SliceInfoBase.html", [
       [ "MR::SliceInfo", "structMR_1_1SliceInfo.html", null ]
     ] ],
+    [ "MR::SmoothFillingSettings", "structMR_1_1SmoothFillingSettings.html", null ],
     [ "MR::SomeLocalTriangulations", "structMR_1_1SomeLocalTriangulations.html", null ],
     [ "MR::SortIntersectionsData", "structMR_1_1SortIntersectionsData.html", null ],
     [ "MR::SpacingSettings", "structMR_1_1SpacingSettings.html", null ],
@@ -1215,6 +1217,7 @@ var hierarchy =
     [ "std::streambuf", null, [
       [ "MR::LoggingStreambuf", "classMR_1_1LoggingStreambuf.html", null ]
     ] ],
+    [ "MR::SubdivideFillingSettings", "structMR_1_1SubdivideFillingSettings.html", null ],
     [ "MR::SubdivideSettings", "structMR_1_1SubdivideSettings.html", null ],
     [ "MR::Features::SubfeatureInfo", "structMR_1_1Features_1_1SubfeatureInfo.html", null ],
     [ "MR::RenderWrapObject::detail::SubobjectStorage< ObjectType >", "structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage.html", [

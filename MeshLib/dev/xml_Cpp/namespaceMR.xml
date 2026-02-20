@@ -460,6 +460,7 @@
     <innerclass refid="classMR_1_1OpenRawVoxelsPlugin" prot="public">MR::OpenRawVoxelsPlugin</innerclass>
     <innerclass refid="structMR_1_1OpenVdbFloatGrid" prot="public">MR::OpenVdbFloatGrid</innerclass>
     <innerclass refid="structMR_1_1OriginAndDimensions" prot="public">MR::OriginAndDimensions</innerclass>
+    <innerclass refid="structMR_1_1OutAttributesFillingSettings" prot="public">MR::OutAttributesFillingSettings</innerclass>
     <innerclass refid="structMR_1_1OutlierParams" prot="public">MR::OutlierParams</innerclass>
     <innerclass refid="classMR_1_1OutliersDetector" prot="public">MR::OutliersDetector</innerclass>
     <innerclass refid="structMR_1_1OutputFlows" prot="public">MR::OutputFlows</innerclass>
@@ -666,6 +667,7 @@
     <innerclass refid="structMR_1_1SkyPatch" prot="public">MR::SkyPatch</innerclass>
     <innerclass refid="structMR_1_1SliceInfo" prot="public">MR::SliceInfo</innerclass>
     <innerclass refid="structMR_1_1SliceInfoBase" prot="public">MR::SliceInfoBase</innerclass>
+    <innerclass refid="structMR_1_1SmoothFillingSettings" prot="public">MR::SmoothFillingSettings</innerclass>
     <innerclass refid="structMR_1_1SomeLocalTriangulations" prot="public">MR::SomeLocalTriangulations</innerclass>
     <innerclass refid="structMR_1_1SortIntersectionsData" prot="public">MR::SortIntersectionsData</innerclass>
     <innerclass refid="structMR_1_1SpaceMouseDownListener" prot="public">MR::SpaceMouseDownListener</innerclass>
@@ -683,6 +685,7 @@
     <innerclass refid="classMR_1_1StateListenerPlugin" prot="public">MR::StateListenerPlugin</innerclass>
     <innerclass refid="structMR_1_1StitchHolesParams" prot="public">MR::StitchHolesParams</innerclass>
     <innerclass refid="structMR_1_1StopOnTrueCombiner" prot="public">MR::StopOnTrueCombiner</innerclass>
+    <innerclass refid="structMR_1_1SubdivideFillingSettings" prot="public">MR::SubdivideFillingSettings</innerclass>
     <innerclass refid="structMR_1_1SubdivideSettings" prot="public">MR::SubdivideSettings</innerclass>
     <innerclass refid="classMR_1_1SurfaceDistanceBuilder" prot="public">MR::SurfaceDistanceBuilder</innerclass>
     <innerclass refid="classMR_1_1SurfaceManipulationWidget" prot="public">MR::SurfaceManipulationWidget</innerclass>
@@ -2940,8 +2943,8 @@
       <member refid="group__VolumeIndexerGroup_1ga051634fee494f975b01af37644de2b2a" kind="function"><name>shrinkVoxelsMask</name></member>
       <member refid="group__SerializerGroup_1ga4a175d8a8e417663622148510dd390ba" kind="function"><name>decompressZip</name></member>
       <member refid="group__SerializerGroup_1gaeb9ec7f1149bdc406b6d901c2bc1986f" kind="function"><name>decompressZip</name></member>
-      <member refid="group__SerializerGroup_1ga248149012fd0f0e6435fc5ab11a3cccc" kind="function"><name>compressZip</name></member>
-      <member refid="group__SerializerGroup_1ga34252d79f47d228502775473e8bc87d4" kind="function"><name>compressZip</name></member>
+      <member refid="group__SerializerGroup_1gaaeb1d5f0f783381f2285fd4d7fbd1c6b" kind="function"><name>compressZip</name></member>
+      <member refid="group__SerializerGroup_1ga4466031d05f4eb56868dc88105bc5248" kind="function"><name>compressZip</name></member>
       <member refid="group__GeneralGroup_1ga396596cb5cea6d2f8fec7b7838ae2bc5" kind="function"><name>throwExceptionFromExpected</name></member>
       <member refid="group__GeneralGroup_1gac95039057559bedc6c5786b29e42d974" kind="function"><name>expectedValueOrThrow</name></member>
       <member refid="group__GeneralGroup_1gaa60c1177452c69cf5b8cdab61296d1ce" kind="function"><name>decorateExpected</name></member>

@@ -1,14 +1,5 @@
 var NAVTREEINDEX41 =
 {
-"classMR_1_1NoDefInit__MRGraphEdgeId.html#af71bf39446b527b30c54b34c401529ab":[6,3,0,0,0,568,1],
-"classMR_1_1NoDefInit__MRGraphEdgeId.html#afc55479b2c8207d74ca61fa2381eca4c":[6,3,0,0,0,568,4],
-"classMR_1_1NoDefInit__MRGraphVertId.html":[6,3,0,0,0,569],
-"classMR_1_1NoDefInit__MRGraphVertId.html#a0db606e081ca3a652a374be522630f24":[6,3,0,0,0,569,1],
-"classMR_1_1NoDefInit__MRGraphVertId.html#a168495f234ce8d299b3627e935868b06":[6,3,0,0,0,569,6],
-"classMR_1_1NoDefInit__MRGraphVertId.html#a34d98e824ec203b849a363fe0ea6e1b3":[6,3,0,0,0,569,4],
-"classMR_1_1NoDefInit__MRGraphVertId.html#a61e8705572bf90aea0d704b009d5b0bf":[6,3,0,0,0,569,3],
-"classMR_1_1NoDefInit__MRGraphVertId.html#a7c26565b83b9a92d631d3019100e82a5":[6,3,0,0,0,569,8],
-"classMR_1_1NoDefInit__MRGraphVertId.html#a7cda7df0970d66557440ecff2ccbc585":[6,3,0,0,0,569,2],
 "classMR_1_1NoDefInit__MRGraphVertId.html#a81f988f2ab8d551b360102472a973d57":[6,3,0,0,0,569,7],
 "classMR_1_1NoDefInit__MRGraphVertId.html#a91555ce8ac44295b55102956a06deaf4":[6,3,0,0,0,569,0],
 "classMR_1_1NoDefInit__MRGraphVertId.html#adf9b96b1345d079f608974ba70778560":[6,3,0,0,0,569,5],
@@ -249,5 +240,14 @@ var NAVTREEINDEX41 =
 "classMR_1_1ObjKindTraits__MRFeaturesObjectKindLine.html#aab2547059d86d1f6666ab5cedfc34a19":[6,3,0,0,0,609,1],
 "classMR_1_1ObjKindTraits__MRFeaturesObjectKindLine.html#aef0668700a7e3e5b0b1d49aa682e39d9":[6,3,0,0,0,609,3],
 "classMR_1_1ObjKindTraits__MRFeaturesObjectKindPlane.html":[6,3,0,0,0,610],
-"classMR_1_1ObjKindTraits__MRFeaturesObjectKindPlane.html#a66416c387cdcc30e1cbb6f32f24536a9":[6,3,0,0,0,610,0]
+"classMR_1_1ObjKindTraits__MRFeaturesObjectKindPlane.html#a66416c387cdcc30e1cbb6f32f24536a9":[6,3,0,0,0,610,0],
+"classMR_1_1ObjKindTraits__MRFeaturesObjectKindPlane.html#a94305c2fb684ed5a9531ae22c8639cbc":[6,3,0,0,0,610,3],
+"classMR_1_1ObjKindTraits__MRFeaturesObjectKindPlane.html#aa54caf62396a221aa993e3d0a46f53b9":[6,3,0,0,0,610,1],
+"classMR_1_1ObjKindTraits__MRFeaturesObjectKindPlane.html#adae9eaa5f788f2f119fc412d3d66d378":[6,3,0,0,0,610,2],
+"classMR_1_1ObjKindTraits__MRFeaturesObjectKindPoint.html":[6,3,0,0,0,611],
+"classMR_1_1ObjKindTraits__MRFeaturesObjectKindPoint.html#a26ef775df386ae4b014f97fb8f84705d":[6,3,0,0,0,611,2],
+"classMR_1_1ObjKindTraits__MRFeaturesObjectKindPoint.html#a72f4c001738f56ab3aafba4c9fa71b93":[6,3,0,0,0,611,3],
+"classMR_1_1ObjKindTraits__MRFeaturesObjectKindPoint.html#a9131c007ee449df559137668e602a9c4":[6,3,0,0,0,611,0],
+"classMR_1_1ObjKindTraits__MRFeaturesObjectKindPoint.html#acb996392d844d0046e526caceef509ba":[6,3,0,0,0,611,1],
+"classMR_1_1ObjKindTraits__MRFeaturesObjectKindSphere.html":[6,3,0,0,0,612]
 };

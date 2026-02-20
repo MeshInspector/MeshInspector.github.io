@@ -6,8 +6,8 @@ var group__SerializerGroup =
       [ "excludeFiles", "structMR_1_1CompressZipSettings.html#a0fff83332c3dd033ccd3f5bb5dbb8a5d", null ],
       [ "password", "structMR_1_1CompressZipSettings.html#a081a0d03fa07baae69e080a91f1aa61d", null ]
     ] ],
-    [ "MR::compressZip", "group__SerializerGroup.html#ga248149012fd0f0e6435fc5ab11a3cccc", null ],
-    [ "MR::compressZip", "group__SerializerGroup.html#ga34252d79f47d228502775473e8bc87d4", null ],
+    [ "MR::compressZip", "group__SerializerGroup.html#gaaeb1d5f0f783381f2285fd4d7fbd1c6b", null ],
+    [ "MR::compressZip", "group__SerializerGroup.html#ga4466031d05f4eb56868dc88105bc5248", null ],
     [ "MR::decompressZip", "group__SerializerGroup.html#ga4a175d8a8e417663622148510dd390ba", null ],
     [ "MR::decompressZip", "group__SerializerGroup.html#gaeb9ec7f1149bdc406b6d901c2bc1986f", null ],
     [ "MR::deserializeFromJson", "group__SerializerGroup.html#ga0976e55e1f829c8d93c9fa0b7385b554", null ],

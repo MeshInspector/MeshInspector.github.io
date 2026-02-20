@@ -1,14 +1,5 @@
 var NAVTREEINDEX42 =
 {
-"classMR_1_1ObjKindTraits__MRFeaturesObjectKindPlane.html#a94305c2fb684ed5a9531ae22c8639cbc":[6,3,0,0,0,610,3],
-"classMR_1_1ObjKindTraits__MRFeaturesObjectKindPlane.html#aa54caf62396a221aa993e3d0a46f53b9":[6,3,0,0,0,610,1],
-"classMR_1_1ObjKindTraits__MRFeaturesObjectKindPlane.html#adae9eaa5f788f2f119fc412d3d66d378":[6,3,0,0,0,610,2],
-"classMR_1_1ObjKindTraits__MRFeaturesObjectKindPoint.html":[6,3,0,0,0,611],
-"classMR_1_1ObjKindTraits__MRFeaturesObjectKindPoint.html#a26ef775df386ae4b014f97fb8f84705d":[6,3,0,0,0,611,2],
-"classMR_1_1ObjKindTraits__MRFeaturesObjectKindPoint.html#a72f4c001738f56ab3aafba4c9fa71b93":[6,3,0,0,0,611,3],
-"classMR_1_1ObjKindTraits__MRFeaturesObjectKindPoint.html#a9131c007ee449df559137668e602a9c4":[6,3,0,0,0,611,0],
-"classMR_1_1ObjKindTraits__MRFeaturesObjectKindPoint.html#acb996392d844d0046e526caceef509ba":[6,3,0,0,0,611,1],
-"classMR_1_1ObjKindTraits__MRFeaturesObjectKindSphere.html":[6,3,0,0,0,612],
 "classMR_1_1ObjKindTraits__MRFeaturesObjectKindSphere.html#a900eaeae38240c80a4d4b97081a4be13":[6,3,0,0,0,612,1],
 "classMR_1_1ObjKindTraits__MRFeaturesObjectKindSphere.html#a96f6be8dc554b0103240fca590a7ce90":[6,3,0,0,0,612,0],
 "classMR_1_1ObjKindTraits__MRFeaturesObjectKindSphere.html#acbc06dbd6a74962cd47c4929c6fa2e8c":[6,3,0,0,0,612,3],
@@ -249,5 +240,14 @@ var NAVTREEINDEX42 =
 "classMR_1_1ObjectGcode.html#aee7053c29ee4e2edd02a98f4f23dd5f8":[6,3,0,0,0,592,40],
 "classMR_1_1ObjectGcode.html#aee98af6fafaeb16980f14d587776a274":[6,3,0,0,0,592,3],
 "classMR_1_1ObjectGcode.html#af2776dd783f716a2c9574eb387152512":[6,3,0,0,0,592,8],
-"classMR_1_1ObjectGcode.html#af2b528c5d74419f4106aa621c10ebb99":[6,3,0,0,0,592,29]
+"classMR_1_1ObjectGcode.html#af2b528c5d74419f4106aa621c10ebb99":[6,3,0,0,0,592,29],
+"classMR_1_1ObjectGcode.html#af7583628a388b91ef6c2d96c29244357":[6,3,0,0,0,592,44],
+"classMR_1_1ObjectGcode.html#af8bcd84efce0842a03b5fc035899c7fa":[6,3,0,0,0,592,31],
+"classMR_1_1ObjectGcode.html#afb04a27c822594e315e981a60ff516e7":[6,3,0,0,0,592,51],
+"classMR_1_1ObjectGcode.html#afea266a1c477e480a1a6acff36f328db":[6,3,0,0,0,592,39],
+"classMR_1_1ObjectLabel.html":[6,3,0,0,0,593],
+"classMR_1_1ObjectLabel.html#a03f010df32c89113a6bf821164611ced":[6,3,0,0,0,593,38],
+"classMR_1_1ObjectLabel.html#a0c05197df163b4997497c5a2e39df93e":[6,3,0,0,0,593,32],
+"classMR_1_1ObjectLabel.html#a0e0e9f837c576de849bee1bff0d27042":[6,3,0,0,0,593,50],
+"classMR_1_1ObjectLabel.html#a19cea85535815c31c7f0b0cd7fade979":[6,3,0,0,0,593,47]
 };

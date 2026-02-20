@@ -637,6 +637,7 @@
     <innerclass refid="classMR_1_1OneMeshIntersection" prot="public">MR::OneMeshIntersection</innerclass>
     <innerclass refid="classMR_1_1OpenVdbFloatGrid" prot="public">MR::OpenVdbFloatGrid</innerclass>
     <innerclass refid="classMR_1_1OriginAndDimensions" prot="public">MR::OriginAndDimensions</innerclass>
+    <innerclass refid="classMR_1_1OutAttributesFillingSettings" prot="public">MR::OutAttributesFillingSettings</innerclass>
     <innerclass refid="classMR_1_1OutlierParams" prot="public">MR::OutlierParams</innerclass>
     <innerclass refid="classMR_1_1OutliersDetector" prot="public">MR::OutliersDetector</innerclass>
     <innerclass refid="classMR_1_1OutputFlows" prot="public">MR::OutputFlows</innerclass>
@@ -774,6 +775,7 @@
     <innerclass refid="classMR_1_1SkyPatch" prot="public">MR::SkyPatch</innerclass>
     <innerclass refid="classMR_1_1SliceInfo" prot="public">MR::SliceInfo</innerclass>
     <innerclass refid="classMR_1_1SliceInfoBase" prot="public">MR::SliceInfoBase</innerclass>
+    <innerclass refid="classMR_1_1SmoothFillingSettings" prot="public">MR::SmoothFillingSettings</innerclass>
     <innerclass refid="classMR_1_1SomeLocalTriangulations" prot="public">MR::SomeLocalTriangulations</innerclass>
     <innerclass refid="classMR_1_1SortIntersectionsData" prot="public">MR::SortIntersectionsData</innerclass>
     <innerclass refid="classMR_1_1SpacingSettings" prot="public">MR::SpacingSettings</innerclass>
@@ -786,6 +788,7 @@
     <innerclass refid="classMR_1_1SplineSettings" prot="public">MR::SplineSettings</innerclass>
     <innerclass refid="classMR_1_1Src2TgtMaps" prot="public">MR::Src2TgtMaps</innerclass>
     <innerclass refid="classMR_1_1StitchHolesParams" prot="private">MR::StitchHolesParams</innerclass>
+    <innerclass refid="classMR_1_1SubdivideFillingSettings" prot="public">MR::SubdivideFillingSettings</innerclass>
     <innerclass refid="classMR_1_1SubdivideSettings" prot="public">MR::SubdivideSettings</innerclass>
     <innerclass refid="classMR_1_1SurfaceDistanceBuilder" prot="public">MR::SurfaceDistanceBuilder</innerclass>
     <innerclass refid="classMR_1_1SymbolMeshParams" prot="public">MR::SymbolMeshParams</innerclass>
@@ -11961,7 +11964,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="545" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="545" bodyend="550"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="1186" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="1186" bodyend="1191"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ac43e4992dd2440441e2d829e30fc7d3c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -37567,10 +37570,10 @@ If the triangles are disjoint, p and q give the closest points of s and t respec
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZip.cs" line="335" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZip.cs" bodystart="335" bodyend="347"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1aca2627ffd68fd9aa55ecb91f3f421686" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1a28f7e08543f680496abdc30531896dfb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>static unsafe void MR.compressZip</definition>
-        <argsstring>(string zipFile, string sourceFolder, MR.Const_CompressZipSettings settings)</argsstring>
+        <argsstring>(string zipFile, string sourceFolder, MR.Const_CompressZipSettings? settings=null)</argsstring>
         <name>compressZip</name>
         <qualifiedname>MR.compressZip</qualifiedname>
         <param>
@@ -37582,22 +37585,23 @@ If the triangles are disjoint, p and q give the closest points of s and t respec
           <declname>sourceFolder</declname>
         </param>
         <param>
-          <type>MR.Const_CompressZipSettings</type>
+          <type>MR.Const_CompressZipSettings?</type>
           <declname>settings</declname>
+          <defval>null</defval>
         </param>
         <briefdescription>
-<para>compresses given folder in given zip-file Generated from function <computeroutput><ref refid="classMR_1aca2627ffd68fd9aa55ecb91f3f421686" kindref="member">MR.compressZip</ref></computeroutput>. </para>
+<para>compresses given folder in given zip-file Generated from function <computeroutput><ref refid="classMR_1a28f7e08543f680496abdc30531896dfb" kindref="member">MR.compressZip</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZip.cs" line="353" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZip.cs" bodystart="353" bodyend="368"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZip.cs" line="354" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZip.cs" bodystart="354" bodyend="369"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a5e14e4f0a5bf57b74862e5cc3246da97" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1ad526f661097ce99a5e7d695f5e9a3964" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>static unsafe void MR.compressZip</definition>
-        <argsstring>(string zipFile, string sourceFolder, MR.Std.Const_Vector_StdFilesystemPath? excludeFiles=null, byte? password=null, MR.Std._ByValue_Function_BoolFuncFromFloat? cb=null)</argsstring>
+        <argsstring>(string zipFile, string sourceFolder, MR.Std.Const_Vector_StdFilesystemPath excludeFiles, byte? password=null, MR.Std._ByValue_Function_BoolFuncFromFloat? cb=null)</argsstring>
         <name>compressZip</name>
         <qualifiedname>MR.compressZip</qualifiedname>
         <param>
@@ -37609,9 +37613,8 @@ If the triangles are disjoint, p and q give the closest points of s and t respec
           <declname>sourceFolder</declname>
         </param>
         <param>
-          <type>MR.Std.Const_Vector_StdFilesystemPath?</type>
+          <type>MR.Std.Const_Vector_StdFilesystemPath</type>
           <declname>excludeFiles</declname>
-          <defval>null</defval>
         </param>
         <param>
           <type>byte?</type>
@@ -37648,7 +37651,7 @@ If the triangles are disjoint, p and q give the closest points of s and t respec
 <parametername>cb</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>an option to get progress notifications and cancel the operation Generated from function <computeroutput><ref refid="classMR_1aca2627ffd68fd9aa55ecb91f3f421686" kindref="member">MR.compressZip</ref></computeroutput>. Parameter <computeroutput>excludeFiles</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>an option to get progress notifications and cancel the operation Generated from function <computeroutput><ref refid="classMR_1a28f7e08543f680496abdc30531896dfb" kindref="member">MR.compressZip</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -41202,8 +41205,8 @@ If the triangles are disjoint, p and q give the closest points of s and t respec
       <member refid="classMR_1abf6f1d58cdb0a0ed762dc9313e889953" prot="public" virt="non-virtual"><scope>MR</scope><name>compl</name></member>
       <member refid="classMR_1aa6c5a682ab19ed9872216290efb76a18" prot="public" virt="non-virtual"><scope>MR</scope><name>compl</name></member>
       <member refid="classMR_1ac7ee4b4debf689525f75a1e900eaabd1" prot="public" virt="non-virtual"><scope>MR</scope><name>compl</name></member>
-      <member refid="classMR_1aca2627ffd68fd9aa55ecb91f3f421686" prot="public" virt="non-virtual"><scope>MR</scope><name>compressZip</name></member>
-      <member refid="classMR_1a5e14e4f0a5bf57b74862e5cc3246da97" prot="public" virt="non-virtual"><scope>MR</scope><name>compressZip</name></member>
+      <member refid="classMR_1a28f7e08543f680496abdc30531896dfb" prot="public" virt="non-virtual"><scope>MR</scope><name>compressZip</name></member>
+      <member refid="classMR_1ad526f661097ce99a5e7d695f5e9a3964" prot="public" virt="non-virtual"><scope>MR</scope><name>compressZip</name></member>
       <member refid="classMR_1a011b438ec30026164cea6def62f94de2" prot="public" virt="non-virtual"><scope>MR</scope><name>computeBasinVolume</name></member>
       <member refid="classMR_1a9a80a19811dfdfbc257bbcd2052bec95" prot="public" virt="non-virtual"><scope>MR</scope><name>computeBoundingBox</name></member>
       <member refid="classMR_1a2f38817594e3d881a511c7be2019b083" prot="public" virt="non-virtual"><scope>MR</scope><name>computeClosestSurfacePathTargets</name></member>

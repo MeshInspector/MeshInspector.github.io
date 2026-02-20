@@ -1,5 +1,8 @@
 var NAVTREEINDEX57 =
 {
+"namespaceMR_1_1ImGuiMath.html#a5536e17f9eef79e57335bbfaa24bcc2a":[6,0,1,0,1,15,8],
+"namespaceMR_1_1ImGuiMath.html#a5dd8586dafaa70c20f2e723116368027":[6,0,1,0,1,15,19],
+"namespaceMR_1_1ImGuiMath.html#a688fbf496bac1ba949b29be3ec9a96c4":[6,0,1,0,1,15,6],
 "namespaceMR_1_1ImGuiMath.html#a6d0e200395e627b407b89164f6c4b13e":[6,0,1,0,1,15,11],
 "namespaceMR_1_1ImGuiMath.html#a7a4714344a7e4547c8fd858658c8a54a":[6,0,1,0,1,15,7],
 "namespaceMR_1_1ImGuiMath.html#a9413dca0b69204cedfb3f5a93add745a":[6,0,1,0,1,15,4],
@@ -246,8 +249,5 @@ var NAVTREEINDEX57 =
 "namespacemembers.html":[6,0,1,1,0,0],
 "namespacemembers_b.html":[6,0,1,1,0,1],
 "namespacemembers_c.html":[6,0,1,1,0,2],
-"namespacemembers_d.html":[6,0,1,1,0,3],
-"namespacemembers_e.html":[6,0,1,1,0,4],
-"namespacemembers_enum.html":[6,0,1,1,4],
-"namespacemembers_eval.html":[6,0,1,1,5]
+"namespacemembers_d.html":[6,0,1,1,0,3]
 };
